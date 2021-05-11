@@ -1,800 +1,604 @@
 {
   "sources": [
     {
-      "href": "https://css-tricks.com/feed/",
+      "title": "CSS-Tricks",
+      "feedUrl": "https://css-tricks.com/feed/",
+      "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=340020",
+          "author": "Chris Coyier",
+          "description": "This is extremely fun. Jeff Lindsay has created Topframe, and writes:\nAnybody that knows how to mess around with HTML can now mess around with their desktop computing experience.&#160;Topframe&#160;is an open source tool that lets you \n&#8230;\nThe post Topframe appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/topframe/",
+          "publishedOn": "2021-05-10T21:14:15.000Z",
+          "wordCount": 568,
+          "title": "Topframe"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340208",
+          "author": "Chris Coyier",
+          "description": "I find build tooling endlessly interesting, especially right now as we&#8217;re in a juicy next-gen transitional period with players like Vite, wmr, Snowpack, and esbuild. Hugh Haworth has a good run-down of the new players, and we&#8217;ve chatted on &#8230;\nThe post Migrating from Parcel to Snowpack appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://benfrain.com/migrating-from-parcel-to-snowpack-build-tool-comparison/",
+          "publishedOn": "2021-05-10T21:13:23.000Z",
+          "wordCount": 2948,
+          "title": "Migrating from Parcel to Snowpack"
+        },
+        {
+          "id": "https://css-tricks.com/?p=339203",
+          "author": "Ana Tudor",
+          "description": "I recently came across an interesting problem. I had to implement a grid of cards with a variable (user-set) aspect ratio that was stored in a --ratio custom property. Boxes with a certain aspect ratio are a classic problem in &#8230;\nThe post Variable Aspect Ratio Card With Conic Gradients Meeting Along the Diagonal appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/",
+          "publishedOn": "2021-05-10T14:13:12.000Z",
+          "wordCount": 2838,
+          "title": "Variable Aspect Ratio Card With Conic Gradients Meeting Along the Diagonal"
+        },
+        {
+          "id": "https://css-tricks.com/?p=339781",
+          "author": "Chris Coyier",
           "description": "I have a real distaste for this question. It might seem like a fun question to dig into on the surface, but the way it enters public discourse rarely seems to be in good faith. There are ulterior motives at &#8230;\nThe post Is CSS a Programming Language? appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/is-css-a-programming-language/",
           "publishedOn": "2021-05-07T13:56:17.000Z",
-          "wordCount": 1618,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
+          "wordCount": 3313,
           "title": "Is CSS a Programming Language?"
         },
         {
+          "id": "https://css-tricks.com/?p=339574",
+          "author": "Chris Coyier",
           "description": "These are a few great links about typography that have been burning a hole in my saved bookmarks folder that I'm just now getting around to sharing. There's good stuff in there, from how to choose typefaces for app design to ideas for how to fix the concept of font sizing in CSS.\nThe post Links on Typography appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/links-on-typography/",
           "publishedOn": "2021-05-07T13:54:01.000Z",
           "wordCount": 952,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
           "title": "Links on Typography"
         },
         {
+          "id": "https://css-tricks.com/?p=339822",
+          "author": "Chris Coyier",
           "description": "While I&#8217;m 85% certain you&#8217;ve seen and used Can I Use&#8230;, I bet there is only a 13% chance that you&#8217;ve seen and used Can I Email&#8230;. It&#8217;s the same vibe—detailed support information for web platform features—except instead &#8230;\nThe post Can I Email&#8230; appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://www.caniemail.com/",
           "publishedOn": "2021-05-07T02:38:56.000Z",
           "wordCount": 324,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
           "title": "Can I Email…"
         },
         {
+          "id": "https://css-tricks.com/?p=340015",
+          "author": "Chris Coyier",
           "description": "Route53 is DNS management service by AWS. DNS is absolutely not a database, and yet here&#8217;s Nicholas Martin writing up some very clever trickery originally done by Corey Quinn:\nWhen you think about it, DNS configuration is actually a \n&#8230;\nThe post Apparently, You Can Use Route53 as a Blazingly Fast Database appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://betterprogramming.pub/apparently-you-can-use-route53-as-a-blazingly-fast-database-dd416b56b005",
           "publishedOn": "2021-05-06T20:03:26.000Z",
-          "wordCount": 1550,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
+          "wordCount": 1523,
           "title": "Apparently, You Can Use Route53 as a Blazingly Fast Database"
         },
         {
-          "description": "Route53 is DNS management service by AWS. DNS is absolutely not a database, and yet here&#8217;s Nicholas Martin writing up some very clever trickery originally done by Corey Quinn:\nWhen you think about it, DNS configuration is actually a \n&#8230;\nThe post Apparently, You Can Use Route53 as a Blazingly Fast Database appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://aws.amazon.com/route53/",
-          "publishedOn": "2021-05-06T20:03:26.000Z",
-          "wordCount": 1362,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Apparently, You Can Use Route53 as a Blazingly Fast Database"
-        },
-        {
+          "id": "https://css-tricks.com/?p=339936",
+          "author": "Geoff Graham",
           "description": "It’s easy to forget that, as a search engine, Google doesn’t just compare keywords to generate search results. Google knows that if people don’t enjoy their experience on a web page, they won’t stay on the page long enough to &#8230;\nThe post What Google’s New Page Experience Update Means for Images on Your Website appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/what-googles-new-page-experience-update-means-for-images-on-your-website/",
           "publishedOn": "2021-05-06T19:57:40.000Z",
-          "wordCount": 2518,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
+          "wordCount": 2599,
           "title": "What Google’s New Page Experience Update Means for Images on Your Website"
         },
         {
+          "id": "https://css-tricks.com/?p=339586",
+          "author": "Šime Vidas",
           "description": "There is an increasing number of “custom” features on the web platform. We have custom properties (--my-property), custom elements (&#60;my-element&#62;), and custom events (new CustomEvent('myEvent')). At one point, we might even get custom media &#8230;\nThe post Custom State Pseudo-Classes in Chrome appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/custom-state-pseudo-classes-in-chrome/",
           "publishedOn": "2021-05-06T14:28:53.000Z",
           "wordCount": 1025,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
           "title": "Custom State Pseudo-Classes in Chrome"
         },
         {
+          "id": "https://css-tricks.com/?p=339563",
+          "author": "Chris Coyier",
           "description": "You can&#8217;t even look at code or documentation for Astro (publicly) yet — it&#8217;s an in-progress idea — but you can watch a video of Fred showing it off to Feross. \nI gotta admit: it looks awesome. I&#8217;m bullish &#8230;\nThe post Astro appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/astro/",
           "publishedOn": "2021-05-05T21:49:23.000Z",
-          "wordCount": 840,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
+          "wordCount": 920,
           "title": "Astro"
         },
         {
+          "id": "https://css-tricks.com/?p=339954",
+          "author": "Chris Coyier",
           "description": "The bombshell article of the week is from Alex Russell of Google/Chrome. Alex has long been super critical of Apple, particularly about how there is literally no option to run any other browser than Safari on iOS. This article isn&#8217;t &#8230;\nThe post Progress Delayed Is Progress Denied appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://infrequently.org/2021/04/progress-delayed/",
           "publishedOn": "2021-05-05T16:51:23.000Z",
-          "wordCount": 6690,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
+          "wordCount": 6686,
           "title": "Progress Delayed Is Progress Denied"
         },
         {
+          "id": "https://css-tricks.com/?p=339518",
+          "author": "Rob O'Leary",
           "description": "Let‘s take a quick stroll down memory-lane to revisit how vendor prefixing CSS properties came to be. I hope I don’t trigger PTSD for anyone!\nIt‘s not clear who started prefixing, or when it began exactly. What is clear, is &#8230;\nThe post Is Vendor Prefixing Dead? appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/is-vendor-prefixing-dead/",
           "publishedOn": "2021-05-05T14:18:28.000Z",
-          "wordCount": 3080,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
+          "wordCount": 3140,
           "title": "Is Vendor Prefixing Dead?"
         },
         {
+          "id": "https://css-tricks.com/?p=339455",
+          "author": "Chris Coyier",
           "description": "This was a great &#8220;Today I Learned&#8221; for me from Josh W. Comeau. If the font-size of an &#60;input&#62; is 16px or larger, Safari on iOS will focus into the input normally. But as soon as the font-size is &#8230;\nThe post 16px or Larger Text Prevents iOS Form Zoom appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/16px-or-larger-text-prevents-ios-form-zoom/",
           "publishedOn": "2021-05-04T21:16:04.000Z",
-          "wordCount": 590,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
+          "wordCount": 758,
           "title": "16px or Larger Text Prevents iOS Form Zoom"
         },
         {
+          "id": "https://css-tricks.com/?p=339867",
+          "author": "Geoff Graham",
           "description": "Here&#8217;s a dilemma: what happens if your WooCommerce site has a problem and the quickest and best way to fix it is to roll back to a previous version? The dilemma is, if you roll back the database, you would &#8230;\nThe post Jetpack Backup: Roll Back Your WooCommerce Site Without Losing Orders appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/jetpack-backup-roll-back-your-woocommerce-site-without-losing-orders/",
           "publishedOn": "2021-05-04T21:15:57.000Z",
           "wordCount": 450,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
           "title": "Jetpack Backup: Roll Back Your WooCommerce Site Without Losing Orders"
         },
         {
+          "id": "https://css-tricks.com/?p=339449",
+          "author": "Chris Coyier",
           "description": "I was just chatting with Eric Meyer the other day and I remembered an Eric Meyer story from my formative years. I wrote a blog post about CSS specificity, and Eric took the time to point out the misleading nature &#8230;\nThe post Let’s use (X, X, X, X) for talking about specificity appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
           "link": "https://css-tricks.com/lets-use-x-x-x-x-for-talking-about-specificity/",
           "publishedOn": "2021-05-04T14:19:55.000Z",
-          "wordCount": 861,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
+          "wordCount": 970,
           "title": "Let’s use (X, X, X, X) for talking about specificity"
-        },
-        {
-          "description": "A bona fide CSS trick from Kirupa Chinnathambi here. To match a colored shadow with the colors in the background-image of an element, you inherit the background in a pseudo-element, kick it behind the original, then blur and filter it. &#8230;\nThe post Creating Colorful, Smart Shadows appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://www.kirupa.com/html5/creating_colorful_smart_shadows.htm",
-          "publishedOn": "2021-05-04T14:19:48.000Z",
-          "wordCount": 1279,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Creating Colorful, Smart Shadows"
-        },
-        {
-          "description": "In June of 2006, web developers and designers from around the world came to London for the second annual @media conference. The first had been a huge success, and @media 2006 had even more promise. Its speaker lineup was pulled &#8230;\nThe post Chapter 8: CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/chapter-8-css/",
-          "publishedOn": "2021-05-03T21:52:08.000Z",
-          "wordCount": 6272,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Chapter 8: CSS"
-        },
-        {
-          "description": "I hope people think of SVG as a vector format that is good for drawing things. There is plenty more to know, but here&#8217;s one more: SVG is good for composition. You draw things at very specific coordinates &#8230;\nThe post Swipey Image Grids appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://www.cassie.codes/posts/swipey-image-grids/",
-          "publishedOn": "2021-05-03T14:35:07.000Z",
-          "wordCount": 908,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Swipey Image Grids"
-        },
-        {
-          "description": "I&#8217;m willing to bet you know WebPageTest. It is the premier tool in the toolbox of web performance people. Maybe you didn&#8217;t know that WebPageTest was a side project of one fella, Patrick Meenan, for most of its lifetime, &#8230;\nThe post WebPageTest API appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/webpagetest-api/",
-          "publishedOn": "2021-05-03T14:34:53.000Z",
-          "wordCount": 8905,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "WebPageTest API"
-        },
-        {
-          "description": "Yay, it&#8217;s here! Safari 14.1 reportedly adds support for the gap property in flexbox layouts. We&#8217;ve had grid-gap support for some time, but true to its name, it&#8217;s limited to grid layouts. Now we can use gap in either type &#8230;\nThe post Safari 14.1 Adds Support for Flexbox Gaps appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/safari-14-1-adds-support-for-flexbox-gaps/",
-          "publishedOn": "2021-04-30T21:51:08.000Z",
-          "wordCount": 547,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Safari 14.1 Adds Support for Flexbox Gaps"
-        },
-        {
-          "description": "Jim Nielsen quoting Eric Bailey:\nHe references an example on Twitter where someone noted you can use the &#60;details&#62; element to “create a native HTML accordion,” to which someone responded: “this works without Bootstrap? &#x1f92f;”\nWhat’s the problem here? From \n&#8230;\nThe post Web Languages as Compile Targets appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://blog.jim-nielsen.com/2021/web-languages-as-compile-targets/",
-          "publishedOn": "2021-04-30T18:05:37.000Z",
-          "wordCount": 798,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Web Languages as Compile Targets"
-        },
-        {
-          "description": "Jenny B Kowalski has been posting a-letter-a-day on Instagram exploring multi-axis variable/responsive letterforms. They are very clever in that one of the axes controls an uppercase-to-lowercase conversion, literally morphing the shape of the letters from an uppercase version to a &#8230;\nThe post Jenny B Kowalski&#8217;s A-Z (and a-z) as Variable Letterforms appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/jenny-b-kowalskis-a-z-and-a-z-as-variable-letterforms/",
-          "publishedOn": "2021-04-30T16:02:53.000Z",
-          "wordCount": 422,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Jenny B Kowalski’s A-Z (and a-z) as Variable Letterforms"
-        },
-        {
-          "description": "Labels are a feature that have existed since the creation of JavaScript. They aren’t new! I don’t think all that many people know about them and I’d even argue they are a bit confusing. But, as we’ll see, labels can &#8230;\nThe post You Can Label a JavaScript `if` Statement appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/you-can-label-a-javascript-if-statement/",
-          "publishedOn": "2021-04-30T14:29:32.000Z",
-          "wordCount": 1909,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "You Can Label a JavaScript `if` Statement"
-        },
-        {
-          "description": "I&#8217;ve got a podcast that will be 10 years old this coming January! Most of those episodes have one or more guests (plus me and Dave). Despite fancy modern options for recording podcasts with guests, like Riverside.fm or Zencastr&#8230;\nThe post Sending Large Files appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/sending-large-files/",
-          "publishedOn": "2021-04-29T17:52:55.000Z",
-          "wordCount": 1649,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Sending Large Files"
-        },
-        {
-          "description": "Raygun is an error and performance monitoring software for websites and mobile apps. In the case of websites, you install their JavaScript snippet onto your site, which takes 2 seconds, and now you&#8217;ve got monitoring in place. Why? Well now &#8230;\nThe post How to Monitor Core Web Vitals and Take Action with Raygun appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/how-to-monitor-core-web-vitals-and-take-action-with-raygun/",
-          "publishedOn": "2021-04-29T17:50:39.000Z",
-          "wordCount": 764,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "How to Monitor Core Web Vitals and Take Action with Raygun"
-        },
-        {
-          "description": "Lists—we’ve all worked with them in one form or another. I’m talking about HTML’s &#60;ol&#62; and &#60;ul&#62;. Much of the time, because we desire styling control, we turn off the list’s markers completely with list-style-type: none, and start &#8230;\nThe post List Markers and String Styles appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/list-markers-and-string-styles/",
-          "publishedOn": "2021-04-29T14:32:41.000Z",
-          "wordCount": 1012,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "List Markers and String Styles"
-        },
-        {
-          "description": "This post was written for engineering managers, but anyone is welcome to read it.\nLet’s talk for a moment about how we talk about our teams. This might not seem like something that needs a whole article dedicated to it, &#8230;\nThe post Your Team is Not &#8220;Them&#8221; appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/your-team-is-not-them/",
-          "publishedOn": "2021-04-28T19:35:32.000Z",
-          "wordCount": 1883,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Your Team is Not “Them”"
-        },
-        {
-          "description": "Click, drag, release: you’ve just selected some text on a webpage — probably to copy and paste it somewhere or to share it. Wouldn&#8217;t it be cool if selecting that text revealed some options that make those tasks easier? That’s &#8230;\nThe post How to Create Actions for Selected Text With the Selection API appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/how-to-create-actions-for-selected-text-with-the-selection-api/",
-          "publishedOn": "2021-04-28T14:19:54.000Z",
-          "wordCount": 1514,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "How to Create Actions for Selected Text With the Selection API"
-        },
-        {
-          "description": "I was just Hoping for Better Native Page&#160;Transitions, and Bramus commented that Chrome is working on something. Looks like it has some fresh enthusiasm for it, as there is a brand new repo, and you can literally test &#8230;\nThe post Shared Element Transitions appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/shared-element-transitions/",
-          "publishedOn": "2021-04-27T20:12:04.000Z",
-          "wordCount": 1092,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Shared Element Transitions"
-        },
-        {
-          "description": "Everything important and useful to know about CSS Custom Properties. Like that they are often referred to as \"CSS Variables\" but that's not their real name.\nThe post A Complete Guide to Custom Properties appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/a-complete-guide-to-custom-properties/",
-          "publishedOn": "2021-04-27T14:26:16.000Z",
-          "wordCount": 5544,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "A Complete Guide to Custom Properties"
-        },
-        {
-          "description": "I saw in the release notes for Safari Technical Preview 122 that it has support for a color-contrast() function in CSS. Safari is first out of the gate here. As far as I know, no other browser supports this yet &#8230;\nThe post Exploring color-contrast() for the First Time appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/exploring-color-contrast-for-the-first-time/",
-          "publishedOn": "2021-04-26T21:02:49.000Z",
-          "wordCount": 1031,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Exploring color-contrast() for the First Time"
-        },
-        {
-          "description": "I love to make CSS do stuff it shouldn’t. It’s the type of problem-solving brain training you’d get building a calculator in Minecraft, except you probably won’t get a job working with Minecraft Redstone no matter how good you &#8230;\nThe post Generating (and Solving!) Sudokus in CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/generating-and-solving-sudokus-in-css/",
-          "publishedOn": "2021-04-26T14:05:00.000Z",
-          "wordCount": 5071,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Generating (and Solving!) Sudokus in CSS"
-        },
-        {
-          "description": "Robert Nyman and Philip Jägenstedt:\nGoogle is working with other browser vendors and industry partners to fix the top five browser compatibility pain points for web developers. The areas of focus are CSS Flexbox, CSS Grid,&#160;position: sticky,&#160;\n&#8230;\nThe post Eliminating five top compatibility pain points on the web appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://web.dev/compat2021/",
-          "publishedOn": "2021-04-23T20:55:19.000Z",
-          "wordCount": 1181,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Eliminating five top compatibility pain points on the web"
-        },
-        {
-          "description": "In my previous article, I discussed how I learned to create a decoupled WordPress powered Gatsby site using the Gatsby Source WPGraphQL plugin. The project was done following the ongoing developmental version of WPGraphQL and an excellent tutorial by Henrik &#8230;\nThe post Using New Gatsby Source WordPress Plugin appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/using-new-gatsby-source-wordpress-plugin/",
-          "publishedOn": "2021-04-23T14:03:18.000Z",
-          "wordCount": 6095,
-          "sourceHref": "https://css-tricks.com/feed/",
-          "sourceTitle": "CSS-Tricks",
-          "title": "Using New Gatsby Source WordPress Plugin"
         }
       ]
     },
     {
-      "href": "https://www.freecodecamp.org/news/rss/",
+      "title": "freeCodeCamp.org",
+      "feedUrl": "https://www.freecodecamp.org/news/rss/",
+      "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "60953e202cd0545b5e943a8b",
+          "author": "",
+          "description": "Technical interviews are one of the most stressful parts of landing a job in tech.  You don't know what questions the interviewer is going to ask. What if you have no idea how to solve the problem in front of you? What if you freeze up and look like you",
+          "link": "https://www.freecodecamp.org/news/how-to-acing-your-coding-interview-advice-from-senior-software-engineer/",
+          "publishedOn": "2021-05-10T17:04:31.000Z",
+          "wordCount": 1254,
+          "title": "How to Ace Your Coding Interview – Advice from a Senior Software Engineer"
+        },
+        {
+          "id": "609558382cd0545b5e943c6f",
+          "author": "",
           "description": "“Good friends, good books, and a sleepy conscience: this is the ideal life.” ― Mark TwainI hope you’re reading this blog in your pjs looking forward to a rejuvenating and healthy weekend.  I have been working on multiple projects lately, from creating Machine Learing Engineering and Machine Learning Operations courses",
           "link": "https://www.freecodecamp.org/news/machine-learning-systems-book-recommendations/",
           "publishedOn": "2021-05-07T21:07:57.000Z",
           "wordCount": 1065,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
           "title": "Machine Learning Systems Book Recommendations – Learn How to Build and Understand ML Systems"
         },
         {
+          "id": "609551f02cd0545b5e943bc0",
+          "author": "",
           "description": "Any concept that we don't fully understand can be scary at first. Recursion is a topic that programming students don't learn right away. But that doesn't mean it needs to be scary or cause anxiety. In fact, recursion is a concept that we can define rather simply. According to Wikipedia:",
           "link": "https://www.freecodecamp.org/news/recursion-doesnt-have-to-be-scary/",
           "publishedOn": "2021-05-07T16:59:53.000Z",
           "wordCount": 1278,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
           "title": "Recursion Might Seem Scary – But it Doesn&#x27;t Have to Be"
         },
         {
+          "id": "609409c201fc34080ef81f97",
+          "author": "",
           "description": "Here is a simple and practical example what it means to \"lift state up\" in React, and how it can help you build your applications. Lifting state up is a common pattern that is essential for React developers to know. It helps you avoid more complex (and often unnecessary) patterns",
           "link": "https://www.freecodecamp.org/news/what-is-lifting-state-up-in-react/",
           "publishedOn": "2021-05-06T21:41:34.000Z",
           "wordCount": 1349,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
           "title": "What Is &quot;Lifting State Up&quot; in React?"
         },
         {
+          "id": "609415eb2cd0545b5e943534",
+          "author": "",
           "description": "Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. They can be super helpful for web developers. We just published a crash course that will teach you how to use Chrome DevTools to improve your productivity as a web developer. You will learn",
           "link": "https://www.freecodecamp.org/news/learn-how-to-use-the-chrome-devtools-to-troubleshoot-websites/",
           "publishedOn": "2021-05-06T16:26:08.000Z",
           "wordCount": 426,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
           "title": "Learn How to Use the Chrome DevTools to Troubleshoot Websites"
         },
         {
+          "id": "60939bde01fc34080ef81a19",
+          "author": "",
           "description": "If you're coming from Java, C++, or other object-oriented languages, chances are that you've never come across optional types or \"optionals\". And you might be quite surprised to know that such a concept exists in Swift. Optionals are a fundamental topic that you need to thoroughly understand to code in",
           "link": "https://www.freecodecamp.org/news/optional-types-in-swift/",
           "publishedOn": "2021-05-06T16:06:35.000Z",
           "wordCount": 1775,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
           "title": "Optional Types in Swift – How to Use and Unwrap Optionals"
         },
         {
-          "description": "OpenCV is a library of programming functions mainly aimed at real-time computer vision.  We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to use OpenCV in the cloud with Python. Misbah Mohammed created this course. He has a lot of experience with machine",
+          "id": "609307e801fc34080ef8191e",
+          "author": "",
+          "description": "OpenCV is a library of programming functions mainly aimed at real-time computer vision.  We just published a course on the freeCodeCamp.org YouTube channel that will teach you how to use OpenCV in the cloud with Python. Misbah Mohammed created this course. He has a lot of experience with machine",
           "link": "https://www.freecodecamp.org/news/create-computer-vision-apps-in-the-cloud-with-opencv-and-python/",
           "publishedOn": "2021-05-05T21:11:40.000Z",
           "wordCount": 352,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Create Computer Vision Apps in the Cloud With OpenCV and Python"
+          "title": "Python and OpenCV Course –Create Computer Vision Apps in the Cloud"
         },
         {
+          "id": "609011fd8eb3fb07cf09a034",
+          "author": "",
           "description": "A complete guide to Node.js async await",
           "link": "https://www.freecodecamp.org/news/node-js-async-await-tutorial-with-asynchronous-javascript-examples/",
           "publishedOn": "2021-05-04T16:07:17.000Z",
-          "wordCount": 2235,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
+          "wordCount": 2241,
           "title": "Node.js Async Await Tutorial – With Asynchronous JavaScript Examples"
         },
         {
+          "id": "608f5ad48eb3fb07cf099ddb",
+          "author": "",
           "description": "To copy files or directories in Unix-based operating systems (Linux and MacOS), you use the cp command. The cp command is a relatively simple command, but its behavior changes slightly depending on the inputs (files vs directories) and the options you pass to it. To view the documentation or manual",
           "link": "https://www.freecodecamp.org/news/copy-a-directory-in-linux-how-to-cp-a-folder-in-the-command-line-in-linux-and-unix-macos/",
           "publishedOn": "2021-05-04T15:33:12.000Z",
-          "wordCount": 1012,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
+          "wordCount": 1018,
           "title": "Copy a Directory in Linux – How to cp a Folder in the Command Line in Linux and Unix (MacOS)"
         },
         {
+          "id": "6090187c8eb3fb07cf09a060",
+          "author": "",
           "description": "Let's go through the five best ways that you can fetch data with React from a GraphQL API. While there are a couple of popular libraries which are made to interact with GraphQL APIs from a React application, there are many different ways to fetch data with GraphQL. I've included",
           "link": "https://www.freecodecamp.org/news/5-ways-to-fetch-data-react-graphql/",
           "publishedOn": "2021-05-03T17:20:56.000Z",
-          "wordCount": 2495,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
+          "wordCount": 2501,
           "title": "How to Fetch Data in React from a GraphQL API"
-        },
-        {
-          "description": "In this article, we'll see some of the common mistakes that React developers make, and how you can avoid them. So let's get started. Don't Forget that Every Route Change Mounts and Unmounts a ComponentWhenever you're using routing in a React application, you declare routes inside the Switch component. This",
-          "link": "https://www.freecodecamp.org/news/common-mistakes-react-developers-make-and-how-to-fix-them/",
-          "publishedOn": "2021-05-03T16:40:08.000Z",
-          "wordCount": 1158,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Common Mistakes React Developers Make – And How to Fix Them"
-        },
-        {
-          "description": "Cross Site Request Forgery, or CSRF occurs when a malicious site or program causes a user's browser to perform an unwanted action on a trusted site when the user is authenticated. Any malicious action is limited to the capability of the website to which the user is authenticated. For example,",
-          "link": "https://www.freecodecamp.org/news/what-is-cross-site-request-forgery/",
-          "publishedOn": "2021-05-03T16:13:55.000Z",
-          "wordCount": 1398,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Cross Site Request Forgery – What is a CSRF Attack and How to Prevent It"
-        },
-        {
-          "description": "You can learn everything you need to know to earn the Azure Administrator Certification by completing this free 11-hour course. What is Microsoft Azure Administrator?The Azure Administrator is the most popular Azure certification because it provides the broadest amount of practical knowledge to manage Azure infrastructure. It also allows",
-          "link": "https://www.freecodecamp.org/news/azure-administrator-certification-az-104-pass-the-exam-with-this-free-11-hour-course/",
-          "publishedOn": "2021-05-03T15:31:42.000Z",
-          "wordCount": 890,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Azure Administrator Certification (AZ-104) – Pass the Exam With This Free 11-Hour Course"
-        },
-        {
-          "description": "These days, computers can pretty much do anything. Now if you are a frequent computer user like I am, I'm sure you interact with the keyboard all the time. And in this article, I'm going to show you some helpful keyboard shortcuts that will make your work easier",
-          "link": "https://www.freecodecamp.org/news/keyboard-shortcuts-improve-productivity/",
-          "publishedOn": "2021-04-30T18:37:37.000Z",
-          "wordCount": 1334,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Keyboard Shortcuts to Improve Your Coding Productivity"
-        },
-        {
-          "description": "In this article, you'll practice your JavaScript skills while streamlining your household chores by creating your very own home inventory system.  I've often found that it's hard to keep track common household items that I buy frequently such as food, spices, medicine, and the like. It's annoying at best and",
-          "link": "https://www.freecodecamp.org/news/nodejs-and-cloud-firestore-tutorial-build-a-home-inventory-system/",
-          "publishedOn": "2021-04-30T16:26:24.000Z",
-          "wordCount": 1429,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Node.js and Cloud Firestore Tutorial – How to Build a Home Inventory System"
-        },
-        {
-          "description": "Docker is an open source project that makes it easy to create containers and container-based apps. Docker's lightweight and portable software containers simplify application development, testing, and deployment. We just released a course on the freeCodeCamp.org YouTube channel that will help you learn the core fundamentals of Docker by",
-          "link": "https://www.freecodecamp.org/news/learn-docker-by-building-a-node-express-app/",
-          "publishedOn": "2021-04-29T20:05:04.000Z",
-          "wordCount": 496,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Learn Docker by Building a Node / Express App"
-        },
-        {
-          "description": "In this article, I'll teach you CSS Flexbox basics so you can make your own responsive sites. I'll explain how each of Flexbox's properties work, and I'll give you a cheatsheet that covers everything you can do with Flexbox. Let's Go 🎖️ Table of ContentsFlexbox Architectureflex-directionjustify-contentalign-contentalign-itemsalign-selfflex - grow | shrink | wrap | basisShort",
-          "link": "https://www.freecodecamp.org/news/css-flexbox-tutorial-with-cheatsheet/",
-          "publishedOn": "2021-04-28T19:33:57.000Z",
-          "wordCount": 1289,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "CSS Flexbox Tutorial with Flexbox Properties Cheat Sheet 🎖️"
-        },
-        {
-          "description": "The MERN stack is a popular way to make a full stack web app. MERN stands for MongoDB, Express, React, and Node.js. We just published a course on the freeCodeCamp.org YouTube channel that will teach you how to use the MERN stack by building a restaurant review web",
-          "link": "https://www.freecodecamp.org/news/create-a-mern-stack-app-with-a-serverless-backend/",
-          "publishedOn": "2021-04-28T14:05:56.000Z",
-          "wordCount": 384,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Create a MERN Stack App with a Serverless Backend"
-        },
-        {
-          "description": "JavaScript is an easy-to-learn programming language compared to many of its counterparts. However, a few basic concepts need a bit more attention if you want to understand, debug, and write better code.  In this article, we will learn about two such concepts, Execution ContextHoistingAs a beginner to JavaScript, understanding these",
-          "link": "https://www.freecodecamp.org/news/javascript-execution-context-and-hoisting/",
-          "publishedOn": "2021-04-27T22:53:14.000Z",
-          "wordCount": 2010,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "JavaScript Execution Context and Hoisting Explained with Code Examples"
-        },
-        {
-          "description": "Hi! Welcome. If you are learning Python, then this article is for you. You will find a thorough description of Python syntax and lots of code examples to guide you during your coding journey.  What we will cover:Variable Definitions in PythonHello, World! Program in PythonData Types and Built-in Data",
-          "link": "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/",
-          "publishedOn": "2021-04-27T19:55:23.000Z",
-          "wordCount": 12960,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Python Code Examples – Sample Script Coding Tutorial for Beginners"
-        },
-        {
-          "description": "Hello, everyone! In this article we are going to learn how to add the Realm database to an iOS app.  We'll create a simple ToDo app so you can learn how to perform CRUD (Create, Read, Update, Delete) operations in the Realm database. What is Realm?Realm is an open-source",
-          "link": "https://www.freecodecamp.org/news/add-realm-database-to-ios-crud-app-with-with-swift/",
-          "publishedOn": "2021-04-27T18:21:00.000Z",
-          "wordCount": 1815,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "How to Add the Realm Database to an iOS CRUD App using Swift"
-        },
-        {
-          "description": "What is Lazy Loading?Lazy loading is the process of loading components, modules, or other assets of a website as they're required.  Since Angular creates a SPA (Single Page Application), all of its components are loaded at once. This means that a lot of unnecessary libraries or modules might be",
-          "link": "https://www.freecodecamp.org/news/lazy-loading-in-angular-intro-to-ngmodules/",
-          "publishedOn": "2021-04-27T18:17:43.000Z",
-          "wordCount": 1178,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "Lazy Loading in Angular – A Beginner&#x27;s Guide to NgModules"
-        },
-        {
-          "description": "In this article, we will build a React application using class components. Then we'll convert it to functional components using React Hooks in a step-by-step way. By building this app, you will learn: How to make API callsHow to implement load more functionalityHow to debug application issuesHow to use async/",
-          "link": "https://www.freecodecamp.org/news/build-a-react-application-with-load-more-functionality-react-hooks/",
-          "publishedOn": "2021-04-27T18:12:22.000Z",
-          "wordCount": 3778,
-          "sourceHref": "https://www.freecodecamp.org/news/rss/",
-          "sourceTitle": "freeCodeCamp.org",
-          "title": "How to Build a React Application with Load More Functionality using React Hooks"
         }
       ]
     },
     {
-      "href": "https://golangcode.com/index.xml",
+      "title": "GolangCode",
+      "feedUrl": "https://golangcode.com/index.xml",
+      "siteUrl": "https://golangcode.com/",
       "articles": []
     },
     {
-      "href": "https://appliedgo.net/index.xml",
+      "title": "Applied Go",
+      "feedUrl": "https://appliedgo.net/index.xml",
+      "siteUrl": "https://appliedgo.net/",
       "articles": [
         {
+          "id": "https://appliedgo.net/release2/",
+          "author": null,
+          "description": "In the previous post, I used goreleaser to add binaries to a project release. Now let&rsquo;s have goreleaser build a Homebrew formula as well. Automatically, and for macOS and Linux alike.",
+          "link": "https://appliedgo.net/release2/",
+          "publishedOn": "2021-05-08T00:00:00.000Z",
+          "wordCount": 1111,
+          "title": "Packaging a project release (goreleaser part 2)"
+        },
+        {
+          "id": "https://appliedgo.net/release/",
+          "author": null,
           "description": "&ldquo;go get&rdquo; is a super-simple way of installing Go binaries, but not everyone has a Go compiler installed. If you want to make your CLI tools and apps available to the world, have a look at goreleaser.",
           "link": "https://appliedgo.net/release/",
           "publishedOn": "2021-04-24T00:00:00.000Z",
-          "wordCount": 1934,
-          "sourceHref": "https://appliedgo.net/index.xml",
-          "sourceTitle": "Applied Go",
+          "wordCount": 1943,
           "title": "CLI tools FTW (or: how to distribute your CLI tools with goreleaser)"
         }
       ]
     },
     {
-      "href": "https://dave.cheney.net/feed/atom",
+      "title": "The acme of foolishness",
+      "feedUrl": "https://dave.cheney.net/feed/atom",
+      "siteUrl": "https://dave.cheney.net",
       "articles": []
     },
     {
-      "href": "https://swift.org/atom.xml?format=xml",
+      "title": "Swift.org",
+      "feedUrl": "https://swift.org/atom.xml?format=xml",
+      "siteUrl": "",
       "articles": [
         {
+          "id": "https://swift.org/blog/swift-mentorship-program/",
+          "author": null,
+          "description": "We’re thrilled to announce the Swift Mentorship Program — a new contributor program for the Swift community and part of the Diversity in Swift initiative. The Swift Mentorship Program is designed to support developers as they become active open source contributors to the Swift project, providing direct mentorship with experienced members of the community.\nEach mentee will have the opportunity to connect with and learn from an experienced developer within the Swift community, with the goal of them contributi…",
+          "link": "https://swift.org/blog/swift-mentorship-program/",
+          "publishedOn": "2021-05-10T10:00:00.000Z",
+          "wordCount": 434,
+          "title": "Announcing the Swift Mentorship Program"
+        },
+        {
+          "id": "https://swift.org/blog/swift-5-4-released/",
+          "author": null,
           "description": "Swift 5.4 is now officially released!  This release contains a variety of language and tooling improvements.\nYou can try out some of the new features in this playground put together by Paul Hudson.\nAn updated version of The Swift Programming Language for Swift 5.4 is now available on Swift.org. It is also available for free on the Apple Books store.\nLanguage Updates\nSwift 5.4 includes the following new language features:\nSupport for multiple variadic parameters in functions, subscripts and initializers (SE-…",
           "link": "https://swift.org/blog/swift-5-4-released/",
           "publishedOn": "2021-04-26T10:00:00.000Z",
-          "wordCount": 1220,
-          "sourceHref": "https://swift.org/atom.xml?format=xml",
-          "sourceTitle": "Swift.org",
+          "wordCount": 1226,
           "title": "Swift 5.4 Released!"
         }
       ]
     },
     {
-      "href": "https://www.raywenderlich.com/ios/feed",
+      "title": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+      "feedUrl": "https://www.raywenderlich.com/ios/feed",
+      "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.raywenderlich.com/20656613-adapting-to-user-accessibility-settings-in-swiftui",
+          "author": null,
+          "description": "In this course, learn how to adapt a SwiftUI app to common\nAccessibility settings including Dark Mode and Dynamic Type. Work with\nAccessibility Inspector and SwiftUI Previews to learn how to build for\nAccessibility faster.",
+          "link": "https://www.raywenderlich.com/20656613-adapting-to-user-accessibility-settings-in-swiftui",
+          "publishedOn": "2021-05-11T00:00:00.000Z",
+          "wordCount": 874,
+          "title": "Adapting to User Accessibility Settings in SwiftUI [SUBSCRIBER]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started",
+          "author": null,
+          "description": "Learn how to use MetricKit to monitor power, performance, and diagnostics in your iOS apps.",
+          "link": "https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started",
+          "publishedOn": "2021-05-10T12:59:23.000Z",
+          "wordCount": 3351,
+          "title": "Monitoring for iOS with MetricKit: Getting Started [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/21191818-intermediate-ios-debugging",
+          "author": null,
           "description": "Prepare to learn some new debugging tricks! In this course, you’ll improve your skills with LLDB and Xcode.",
           "link": "https://www.raywenderlich.com/21191818-intermediate-ios-debugging",
           "publishedOn": "2021-05-04T00:00:00.000Z",
-          "wordCount": 820,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 818,
           "title": "Intermediate iOS Debugging [SUBSCRIBER]"
         },
         {
+          "id": "https://www.raywenderlich.com/21522453-swiftui-property-wrappers",
+          "author": null,
           "description": "Learn different ways to use SwiftUI property wrappers to manage changes to an app’s data values and objects.",
           "link": "https://www.raywenderlich.com/21522453-swiftui-property-wrappers",
           "publishedOn": "2021-05-03T12:59:28.000Z",
-          "wordCount": 5962,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 5911,
           "title": "SwiftUI Property Wrappers [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/22267547-who-loves-pdf-books-we-do-again",
+          "author": null,
           "description": "You’ve spoken, and we’ve listened: we’re bringing back the PDF format for all single books you purchase from us! See how we plan to do this, and more.",
           "link": "https://www.raywenderlich.com/22267547-who-loves-pdf-books-we-do-again",
           "publishedOn": "2021-04-28T18:58:46.000Z",
-          "wordCount": 1512,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 1496,
           "title": "Who Loves PDF Books? We Do — Again! [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/22269687-dru-freeman-podcast-s11-e11",
+          "author": null,
           "description": "Dru speaks barefoot on stage while explaining Aristotle as a result of reading ‘Living By The Code.’",
           "link": "https://www.raywenderlich.com/22269687-dru-freeman-podcast-s11-e11",
           "publishedOn": "2021-04-28T18:00:37.000Z",
-          "wordCount": 1216,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 1176,
           "title": "Dru Freeman – Podcast S11 E11 [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/20690666-location-notifications-with-unlocationnotificationtrigger",
+          "author": null,
           "description": "Learn how to use UNLocationNotificationTrigger to set up location-triggered notifications for your iOS app.",
           "link": "https://www.raywenderlich.com/20690666-location-notifications-with-unlocationnotificationtrigger",
           "publishedOn": "2021-04-28T12:59:42.000Z",
-          "wordCount": 5270,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 5224,
           "title": "Location Notifications with UNLocationNotificationTrigger [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/18770184-ios-debugging-fundamentals",
+          "author": null,
           "description": "Learn the fundamentals of debugging in Xcode: including breakpoints, stack traces, and visibly inspecting the view hierarchy. After this course, you’ll be better able to understand what’s happening throughout the flow of your app, and why!",
           "link": "https://www.raywenderlich.com/18770184-ios-debugging-fundamentals",
           "publishedOn": "2021-04-27T00:00:00.000Z",
-          "wordCount": 891,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 897,
           "title": "iOS Debugging Fundamentals [SUBSCRIBER]"
         },
         {
+          "id": "https://www.raywenderlich.com/20935718-vonage-video-api-real-time-video-in-ios",
+          "author": null,
           "description": "Get started with the Vonage Video API and add real-time video streaming to your iOS apps.",
           "link": "https://www.raywenderlich.com/20935718-vonage-video-api-real-time-video-in-ios",
           "publishedOn": "2021-04-26T12:59:28.000Z",
-          "wordCount": 3799,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 3773,
           "title": "Vonage Video API: Real-Time Video in iOS [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/21965623-announcing-our-deprecated-books-repo",
+          "author": null,
           "description": "We’re excited to announce that we’ve made our older, deprecated books free to everyone. Come see which books we’re releasing for all to enjoy!",
           "link": "https://www.raywenderlich.com/21965623-announcing-our-deprecated-books-repo",
           "publishedOn": "2021-04-22T11:14:29.000Z",
-          "wordCount": 1660,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 1634,
           "title": "Announcing our Deprecated Books Repo! [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/20879904-handling-keyboard-pointer-interactions-in-swiftui",
+          "author": null,
           "description": "Learn how to handle the iOS keyboard, external hardware keyboards, and pointer interactions in a SwiftUI app.",
           "link": "https://www.raywenderlich.com/20879904-handling-keyboard-pointer-interactions-in-swiftui",
           "publishedOn": "2021-04-22T00:00:00.000Z",
-          "wordCount": 667,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 665,
           "title": "Handling Keyboard & Pointer Interactions in SwiftUI [SUBSCRIBER]"
         },
         {
+          "id": "https://www.raywenderlich.com/22104819-announcing-ios-app-distribution-best-practices-first-edition",
+          "author": null,
           "description": "Whether it’s your first app deployment or your tenth, you can always use some help. iOS App Distribution &amp; Best Practices is your guide to shipping apps smoothly!",
           "link": "https://www.raywenderlich.com/22104819-announcing-ios-app-distribution-best-practices-first-edition",
           "publishedOn": "2021-04-21T17:18:37.000Z",
-          "wordCount": 2494,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 2468,
           "title": "Announcing iOS App Distribution & Best Practices, First Edition! [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/books/ios-app-distribution-best-practices/v1.0/",
+          "author": null,
           "description": "Learn how to sign up for Apple Developer Program, generate the various certificates needed, configure your app and submit an app to the App Store for approval, both manually and through automated processes through automated pipelines. You’ll learn how to use Apple TestFlight to add internal and external testers and receive feedback and crash reports.\niOS App Distribution starts with explaining hurdles everyone faces, such as code signing, provisioning profiles, and how to do manual releases. It’ll then go into more advanced topics, including distribution through TestFlight, build customization, automation, and continuous integration.",
           "link": "https://www.raywenderlich.com/books/ios-app-distribution-best-practices/v1.0/",
           "publishedOn": "2021-04-21T00:00:00.000Z",
-          "wordCount": 1634,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 1632,
           "title": "iOS App Distribution & Best Practices [SUBSCRIBER]"
         },
         {
+          "id": "https://www.raywenderlich.com/20948225-sf-symbols-for-ios-getting-started",
+          "author": null,
           "description": "Learn to use SF Symbols, both existing and custom, to show data in an engaging way.",
           "link": "https://www.raywenderlich.com/20948225-sf-symbols-for-ios-getting-started",
           "publishedOn": "2021-04-19T12:59:36.000Z",
-          "wordCount": 5222,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 5196,
           "title": "SF Symbols for iOS: Getting Started [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/22026163-spring-ahead-sale-final-hours-to-save-50-on-everything",
+          "author": null,
           "description": "There’s just a few hours left to save 50% on Ultimate subscriptions and all books. See what’s inside the raywenderlich.com Spring Ahead sale!",
           "link": "https://www.raywenderlich.com/22026163-spring-ahead-sale-final-hours-to-save-50-on-everything",
           "publishedOn": "2021-04-16T15:51:10.000Z",
-          "wordCount": 1531,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 1505,
           "title": "Spring Ahead Sale — Final Hours to Save 50% on Everything [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/21989341-cate-huston-podcast-s11-e10",
+          "author": null,
           "description": "Cate takes Dru and Nishant up the Social Justice ladder discussing her interview in ‘Living By The Code.’",
           "link": "https://www.raywenderlich.com/21989341-cate-huston-podcast-s11-e10",
           "publishedOn": "2021-04-14T18:00:09.000Z",
-          "wordCount": 1266,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 1240,
           "title": "Cate Huston – Podcast S11 E10 [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/21020457-ios-unit-testing-and-ui-testing-tutorial",
+          "author": null,
           "description": "Learn how to add unit tests and UI tests to your iOS apps, and how you can check on your code coverage.",
           "link": "https://www.raywenderlich.com/21020457-ios-unit-testing-and-ui-testing-tutorial",
           "publishedOn": "2021-04-14T12:59:33.000Z",
-          "wordCount": 5370,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 5344,
           "title": "iOS Unit Testing and UI Testing Tutorial [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/21459096-blender-tutorial-for-beginners-how-to-make-a-mushroom",
+          "author": null,
           "description": "Learn how to make a 3D mushroom in this Blender tutorial for beginners!",
           "link": "https://www.raywenderlich.com/21459096-blender-tutorial-for-beginners-how-to-make-a-mushroom",
           "publishedOn": "2021-04-13T14:14:05.000Z",
-          "wordCount": 6729,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 6703,
           "title": "Blender Tutorial for Beginners: How To Make A Mushroom [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/21773708-intermediate-combine",
+          "author": null,
           "description": "Combine has a number of operators to help with handling network data, sharing resources with multiple\nsubscribers, and managing errors. Once those are in place, you can perform unit tests on your Combine pipelines\nto make sure everything is running error-free.",
           "link": "https://www.raywenderlich.com/21773708-intermediate-combine",
           "publishedOn": "2021-04-13T00:00:00.000Z",
-          "wordCount": 951,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 949,
           "title": "Intermediate Combine [SUBSCRIBER]"
         },
         {
+          "id": "https://www.raywenderlich.com/20518148-siri-shortcuts-on-apple-watch",
+          "author": null,
           "description": "Learn how to take advantage of Siri and Shortcuts on the Apple Watch without any intervention required from the iOS companion app.",
           "link": "https://www.raywenderlich.com/20518148-siri-shortcuts-on-apple-watch",
           "publishedOn": "2021-04-12T12:59:09.000Z",
-          "wordCount": 5102,
-          "sourceHref": "https://www.raywenderlich.com/ios/feed",
-          "sourceTitle": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+          "wordCount": 5076,
           "title": "Siri Shortcuts on Apple Watch [FREE]"
         }
       ]
     },
     {
-      "href": "https://oleb.net/blog/atom.xml",
+      "title": "Ole Begemann",
+      "feedUrl": "https://oleb.net/blog/atom.xml",
+      "siteUrl": "https://oleb.net/blog/",
       "articles": [
         {
+          "id": "https://oleb.net/2021/ordered-set/",
+          "author": null,
           "description": "The new Swift Collections library provides efficient Swift implementations for useful data structures, starting with Deque, OrderedSet, and OrderedDictionary in the initial release.\nThe documentation for OrderedSet says this about the implementation:\nAn OrderedSet stores its members in a regular Array value (exposed by the elements property). It also maintains a standalone hash table containing array indices alongside the array; this is used to implement fast membership tests.\nI didn’t understand how this s…",
           "link": "https://oleb.net/2021/ordered-set/",
           "publishedOn": "2021-04-30T15:34:50.000Z",
           "wordCount": 598,
-          "sourceHref": "https://oleb.net/blog/atom.xml",
-          "sourceTitle": "Ole Begemann",
           "title": "How OrderedSet works"
         }
       ]
     },
     {
-      "href": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
+      "title": "Sean Allen",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
+      "siteUrl": "https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=5jjsrRaUJLY",
+          "author": null,
+          "description": "In this episode of What I'm Working On, I discuss an unexpected job application and struggling on a take home project, while also diving into the business of...",
+          "link": "https://www.youtube.com/watch?v=5jjsrRaUJLY",
+          "publishedOn": "2021-05-10T12:50:10.000Z",
+          "wordCount": 27,
+          "title": "WIWO #13: Job App & Take Home Project, Coding at Aluna, Sponsorships & Angel Investing."
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=m0QQ-hWs8fc",
+          "author": null,
           "description": "Head to https://squarespace.com/seanallen to save 10% off your first purchase of a website or domain using code SEANALLEN. In today's video I show you how to...",
           "link": "https://www.youtube.com/watch?v=m0QQ-hWs8fc",
           "publishedOn": "2021-05-05T13:10:21.000Z",
           "wordCount": 24,
-          "sourceHref": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
-          "sourceTitle": "Sean Allen",
           "title": "SwiftUI Form w/ TextField, DatePicker, Toggle, Stepper, Link and Sections w/ Header"
         },
         {
+          "id": "https://www.youtube.com/watch?v=qXiIf3bb1nE",
+          "author": null,
           "description": "Let's have a little fun in today's video. I'll show you how to use a tool that lets you change the color of your Xcode icon (as well as change it back to def...",
           "link": "https://www.youtube.com/watch?v=qXiIf3bb1nE",
           "publishedOn": "2021-05-04T12:55:24.000Z",
           "wordCount": 17,
-          "sourceHref": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
-          "sourceTitle": "Sean Allen",
           "title": "Xcode - Change Icon Color"
         },
         {
+          "id": "https://www.youtube.com/watch?v=WtkJzS_x7Zs",
+          "author": null,
           "description": "*** This is a new feature in Xcode 12.5*** In today's video I show you a quick way to record video or a animated GIF from the Xcode Simulator. This was possi...",
           "link": "https://www.youtube.com/watch?v=WtkJzS_x7Zs",
           "publishedOn": "2021-05-03T12:49:20.000Z",
           "wordCount": 20,
-          "sourceHref": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
-          "sourceTitle": "Sean Allen",
           "title": "Xcode - Record Simulator Video & Animated GIF"
         },
         {
+          "id": "https://www.youtube.com/watch?v=MCLiPW2ns2w",
+          "author": null,
           "description": "Head to https://squarespace.com/seanallen to save 10% off your first purchase of a website or domain using code SEANALLEN. Today we're building a Tic Tac Toe...",
           "link": "https://www.youtube.com/watch?v=MCLiPW2ns2w",
           "publishedOn": "2021-04-30T12:28:38.000Z",
           "wordCount": 25,
-          "sourceHref": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
-          "sourceTitle": "Sean Allen",
           "title": "SwiftUI Tic Tac Toe | Multiple AI Difficulties | MVVM | Portfolio Project"
         },
         {
+          "id": "https://www.youtube.com/watch?v=k5rupivxnMA",
+          "author": null,
           "description": "Head to https://squarespace.com/seanallen to save 10% off your first purchase of a website or domain using code SEANALLEN. In today's video I show you how to...",
           "link": "https://www.youtube.com/watch?v=k5rupivxnMA",
           "publishedOn": "2021-04-28T13:00:20.000Z",
           "wordCount": 20,
-          "sourceHref": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
-          "sourceTitle": "Sean Allen",
           "title": "SwiftUI List with Custom Cell & Passing Data"
         },
         {
+          "id": "https://www.youtube.com/watch?v=-o2BwAsvoH4",
+          "author": null,
           "description": "In today's video I show you how to use Xcode's visual debugger. The visual debugger is a great tool to analyze your user interface to discover any issues or ...",
           "link": "https://www.youtube.com/watch?v=-o2BwAsvoH4",
           "publishedOn": "2021-04-26T16:02:40.000Z",
           "wordCount": 22,
-          "sourceHref": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
-          "sourceTitle": "Sean Allen",
           "title": "Xcode - Visual Debugger - A Tool For Debugging UI"
         }
       ]
     },
     {
-      "href": "https://swiftbysundell.com/podcast/feed.rss",
+      "title": "Swift by Sundell",
+      "feedUrl": "https://swiftbysundell.com/podcast/feed.rss",
+      "siteUrl": "https://www.swiftbysundell.com/podcast",
       "articles": [
         {
+          "id": "https://www.swiftbysundell.com/podcast/96",
+          "author": null,
           "description": "Adam Bell returns to the show to talk about animations, both how to make great use of the built-in animation tools that the iOS SDK ships with, but also how to drive custom, gesture-driven animation logic and the sort of performance optimizations that are typically required when writing that sort of code.",
           "link": "https://www.swiftbysundell.com/podcast/96",
           "publishedOn": "2021-04-29T18:15:00.000Z",
           "wordCount": 211,
-          "sourceHref": "https://swiftbysundell.com/podcast/feed.rss",
-          "sourceTitle": "Swift by Sundell",
           "title": "96: “Gesture-driven animations”, with special guest Adam Bell"
         },
         {
+          "id": "https://www.swiftbysundell.com/podcast/95",
+          "author": null,
           "description": "Brent Simmons returns to the show to discuss multi-threading and concurrency, and how to make good use of tools like Grand Central Dispatch. Also, building NetNewsWire in the open, the current state of SwiftUI, and the type of responsibilities that senior developers typically have.",
           "link": "https://www.swiftbysundell.com/podcast/95",
           "publishedOn": "2021-04-15T19:35:00.000Z",
           "wordCount": 237,
-          "sourceHref": "https://swiftbysundell.com/podcast/feed.rss",
-          "sourceTitle": "Swift by Sundell",
           "title": "95: “Concurrency orchestration”, with special guest Brent Simmons"
         }
       ]
     }
   ],
-  "cliVersion": "1.5.0"
+  "cliVersion": "1.6.0"
 }
