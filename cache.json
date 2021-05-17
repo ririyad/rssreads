@@ -719,15 +719,6 @@
           "publishedOn": "2021-04-19T12:59:36.000Z",
           "wordCount": 5196,
           "title": "SF Symbols for iOS: Getting Started [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/22026163-spring-ahead-sale-final-hours-to-save-50-on-everything",
-          "author": null,
-          "description": "There’s just a few hours left to save 50% on Ultimate subscriptions and all books. See what’s inside the raywenderlich.com Spring Ahead sale!",
-          "link": "https://www.raywenderlich.com/22026163-spring-ahead-sale-final-hours-to-save-50-on-everything",
-          "publishedOn": "2021-04-16T15:51:10.000Z",
-          "wordCount": 1505,
-          "title": "Spring Ahead Sale — Final Hours to Save 50% on Everything [FREE]"
         }
       ]
     },
@@ -752,6 +743,15 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
       "siteUrl": "https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=39gGP_6ZGRc",
+          "author": null,
+          "description": "Welcome to the live stream. In this stream I discuss topics and answer questions related to iOS development and Swift (or SwiftUI). Today I'll be discussing ...",
+          "link": "https://www.youtube.com/watch?v=39gGP_6ZGRc",
+          "publishedOn": "2021-05-16T17:25:26.000Z",
+          "wordCount": 25,
+          "title": "Sean Allen Live - WWDC Wishes, Dub Dub Grub, Portfolio Projects & More"
+        },
         {
           "id": "https://www.youtube.com/watch?v=5jjsrRaUJLY",
           "author": null,
@@ -834,5 +834,5 @@
       ]
     }
   ],
-  "cliVersion": "1.7.0"
+  "cliVersion": "1.7.1"
 }
