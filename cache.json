@@ -6,6 +6,33 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=340716",
+          "author": "Chris Coyier",
+          "description": "Addy Osmani on images in HTML:\nThe humble <img> element has gained some superpowers over the years. Given how central it is to image optimization on the web, let’s catch up on what it can do and how it can \n…\nThe post The Humble `img` Element And Core Web Vitals appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.smashingmagazine.com/2021/04/humble-img-element-core-web-vitals/",
+          "publishedOn": "2021-05-17T22:38:06.000Z",
+          "wordCount": 5325,
+          "title": "The Humble `img` Element And Core Web Vitals"
+        },
+        {
+          "id": "https://css-tricks.com/?p=339522",
+          "author": "Ashley Kolodziej",
+          "description": "I see you. In the back there, behind JavaScript and React and PHP and all those “real” programming languages, I see you. And I appreciate you.\nThe post A Love Letter to HTML & CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/a-love-letter-to-html-css/",
+          "publishedOn": "2021-05-17T14:27:22.000Z",
+          "wordCount": 1356,
+          "title": "A Love Letter to HTML & CSS"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340594",
+          "author": "Chris Coyier",
+          "description": "An interactive tool for learning grid syntax from Etesam Ansari. In the Learn section, it teaches you some concepts (involving multiple bits of the grid syntax) then gives you a task to complete by filling out the right syntax. I’m …\nThe post Euismod appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.euismod.dev/",
+          "publishedOn": "2021-05-17T14:27:13.000Z",
+          "wordCount": 3,
+          "title": "Euismod"
+        },
+        {
           "id": "https://css-tricks.com/?p=340136",
           "author": "Chris Coyier",
           "description": "I&#8217;ve been thinking about social media images again. You know, the images that (can) show up when you share a link in places like Twitter, Facebook, or iMessage. You&#8217;re essentially leaving money on the table without them, because they &#8230;\nThe post Auto-Generated Social Media Images appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
@@ -255,6 +282,42 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "60a2771762ab9107fe5ab383",
+          "author": "",
+          "description": "HTML vs JSX Hypertext Markup Language (HTML) is the standard language for documents that determine the structure of a web page.  HTML is a very important language in web development. Your code is either in HTML originally or compiles to it so browsers can read it.  JSX, on the other",
+          "link": "https://www.freecodecamp.org/news/html-vs-jsx-whats-the-difference/",
+          "publishedOn": "2021-05-17T21:11:58.000Z",
+          "wordCount": 1169,
+          "title": "HTML vs JSX – What&#x27;s the Difference?"
+        },
+        {
+          "id": "60a16df162ab9107fe5ab01b",
+          "author": "",
+          "description": "When I started out as a web developer, people often threw around the term \"DOM\" in the industry. Every JavaScript tutorial mentioned it, but I didn't know what it meant. Fast forward two years, and now that I know what it's all about, I am going to explain what the",
+          "link": "https://www.freecodecamp.org/news/dom-explained-everything-you-need-to-know-about-the-document-object-model/",
+          "publishedOn": "2021-05-17T17:45:50.000Z",
+          "wordCount": 1282,
+          "title": "The DOM Explained for Beginners – How the Document Object Model Works"
+        },
+        {
+          "id": "609f552e62ab9107fe5aaba0",
+          "author": "",
+          "description": "Lottie is a library that helps render Adobe After Effects animations natively on mobile and the web. I like using Lottie for animations in my projects because: Creating an animation from scratch can be time-consuming, andGIF files can be double the size of Lottie JSON files (the files containing the",
+          "link": "https://www.freecodecamp.org/news/how-to-use-lottie-like-a-pro-resources-for-designers-and-developers/",
+          "publishedOn": "2021-05-17T16:25:22.000Z",
+          "wordCount": 1076,
+          "title": "How to Use the Lottie Library like a Pro – Lottie Resources for Designers and Developers"
+        },
+        {
+          "id": "609cb90262ab9107fe5aa026",
+          "author": "",
+          "description": "I'm a developer who's mostly been writing JavaScript, so the Solidity development environment was a bit hard to learn.  About four months ago, I switched to Hardhat from Truffle. This cool new kid on the block drastically improved my coding experience. So today I want to share it with my",
+          "link": "https://www.freecodecamp.org/news/solidity-tutorial-hardhat-nfts/",
+          "publishedOn": "2021-05-17T14:39:55.000Z",
+          "wordCount": 1233,
+          "title": "Solidity Tutorial – How to Create NFTs with Hardhat"
+        },
         {
           "id": "609d63e962ab9107fe5aa2ce",
           "author": "",
@@ -568,6 +631,24 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.raywenderlich.com/20780890-applications-of-custom-property-wrappers",
+          "author": null,
+          "description": "Property Wrappers are a new Swift version introduced in Swift 5.1. Property Wrappers\nallow supercharging of properties with extra functionality. Learn how to create your own\nProperty Wrappers to create some cool and awesome functionality.",
+          "link": "https://www.raywenderlich.com/20780890-applications-of-custom-property-wrappers",
+          "publishedOn": "2021-05-18T00:00:00.000Z",
+          "wordCount": 744,
+          "title": "Applications of Custom Property Wrappers [SUBSCRIBER]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/21458686-local-notifications-getting-started",
+          "author": null,
+          "description": "Learn how to create notifications by time intervals, time of day and location, as well as how to support category grouping and prompting for action.",
+          "link": "https://www.raywenderlich.com/21458686-local-notifications-getting-started",
+          "publishedOn": "2021-05-17T12:59:40.000Z",
+          "wordCount": 4476,
+          "title": "Local Notifications: Getting Started [FREE]"
+        },
+        {
           "id": "https://www.raywenderlich.com/20781268-app-clips-in-ios",
           "author": null,
           "description": "Whether you’re picking up coffee or renting a bike, you’ve likely\nbeen faced with the decision of installing an app or not. Living in a time where\nthere truly is an app for everything, it’s often frustrating to download an app\njust to get a ride home or book a hotel on-the-go. With App Clips, developers can\nmake a small portion of their app available for near-instant use, so users can\navoid the installation, sign-in, and onboarding process. In this course,\nlearn how to implement your own App Clips in your iOS apps and help users discover\nyour app while on the move!",
@@ -834,5 +915,5 @@
       ]
     }
   ],
-  "cliVersion": "1.7.1"
+  "cliVersion": "1.7.2"
 }
