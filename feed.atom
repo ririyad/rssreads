@@ -2,10 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-20T00:44:16.306Z</updated>
+    <updated>2021-05-21T00:49:17.804Z</updated>
     <generator>osmosfeed 1.7.2</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[JSON in CSS]]></title>
+        <id>https://css-tricks.com/?p=340599</id>
+        <link href="https://css-tricks.com/json-in-css/"/>
+        <updated>2021-05-20T22:29:53.000Z</updated>
+        <summary type="html"><![CDATA[Jonathan Neal tweeted a heck of a little CSS trick the other day, putting JSON inside CSS and plucking it out with JavaScript. Valid values for custom properties are quite liberal! So this looks for a CSS rule (e.g. a …
+The post JSON in CSS appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn CSS!]]></title>
+        <id>https://css-tricks.com/?p=340933</id>
+        <link href="https://web.dev/learn/css/"/>
+        <updated>2021-05-20T21:51:43.000Z</updated>
+        <summary type="html"><![CDATA[Ooo look at this mighty SEO flex from Google: Learn CSS! Well deserved — this is great content. Twenty-three chapters taking you through all the fundamentals of CSS with extra content, like relevant podcasts, interactive examples, and even quizzes to …
+The post Learn CSS! appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Angular 11 Tutorial: Code a Project from Scratch]]></title>
+        <id>60a6b3ab906c5207e3a7f5fa</id>
+        <link href="https://www.freecodecamp.org/news/angular-11-tutorial-code-a-project-from-scratch/"/>
+        <updated>2021-05-20T19:14:48.000Z</updated>
+        <summary type="html"><![CDATA[Angular is one of the most popular web frameworks. We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to create an Angular 11 project from scratch. It uses a public API to create a game database website. You will gain a great foundation]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn Modern C++ by Building an Audio Plugin]]></title>
+        <id>60a694ab906c5207e3a7f544</id>
+        <link href="https://www.freecodecamp.org/news/learn-modern-cpp-by-building-an-audio-plugin/"/>
+        <updated>2021-05-20T17:12:29.000Z</updated>
+        <summary type="html"><![CDATA[A lot of C++ courses teach you how to build toy projects with no real-world application. But it can often be more helpful to write programs people would actually use. We just released a 5-hour C++ course that will teach you how to write modern C++ code by building an]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Get Started with Version Control Using Git]]></title>
+        <id>60a4b5c7906c5207e3a7e2bb</id>
+        <link href="https://www.freecodecamp.org/news/get-started-with-version-control-and-git/"/>
+        <updated>2021-05-20T15:20:53.000Z</updated>
+        <summary type="html"><![CDATA[In this tutorial, you'll learn what version control is and how you can contribute to open-source projects using Git.  We'll get through the fundamentals of Git and I'll give you the knowledge that is indispensable for any web developer. What is Git?Git is a version control software which lets]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn JavaScript - A Free 7-hour Interactive Tutorial]]></title>
+        <id>60a36742906c5207e3a7da6e</id>
+        <link href="https://www.freecodecamp.org/news/learn-javascript-interactive-course/"/>
+        <updated>2021-05-20T14:53:38.000Z</updated>
+        <summary type="html"><![CDATA[Over the last four months, I have recorded what is probably the most interactive JavaScript course that has ever been created. The reason I have done this is because I often see new coders fall into the same pitfalls again and again when trying to learn JavaScript, with the most]]></summary>
+        <author>
+            <name/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can We Create a “Resize Hack” With Container Queries?]]></title>
+        <id>https://css-tricks.com/?p=340715</id>
+        <link href="https://css-tricks.com/can-we-create-a-resize-hack-with-container-queries/"/>
+        <updated>2021-05-20T14:24:12.000Z</updated>
+        <summary type="html"><![CDATA[If you follow new developments in CSS, you’ve likely heard of the impending arrival of container queries. We’re going to look at the basics here, but if you’d like another look, check out Una’s “Next Gen CSS: @container” article. …
+The post Can We Create a “Resize Hack” With Container Queries? appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Jhey Tompkins</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[fit-content and fit-content()]]></title>
+        <id>https://css-tricks.com/?p=340897</id>
+        <link href="https://www.quirksmode.org/blog/archives/2021/04/fitcontent_and.html"/>
+        <updated>2021-05-20T14:20:56.000Z</updated>
+        <summary type="html"><![CDATA[Here’s some hardcore deep-dive CSS nerdery from PPK. If you can wrap your mind around min-content (the smallest an element can be based on the content it contains) and max-content (the largest the content of an element can push it) …
+The post fit-content and fit-content() appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dub Dub Grub Course Overview]]></title>
+        <id>https://www.youtube.com/watch?v=WrrP5E1a5_0</id>
+        <link href="https://www.youtube.com/watch?v=WrrP5E1a5_0"/>
+        <updated>2021-05-20T12:37:15.000Z</updated>
+        <summary type="html"><![CDATA[Today I'm launching my next iOS developer course, Dub Dub Grub. In this course we build one big project in SwiftUI with MVVM. We utilize CloudKit for our bac...]]></summary>
+        <author>
+            <name>Sean Allen</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Notion API]]></title>
         <id>https://css-tricks.com/?p=340731</id>
@@ -16,6 +114,16 @@ The post Notion API appeared first on CSS-Tricks.
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use CSS Selectors to Style Your Web Page]]></title>
+        <id>60a341f5906c5207e3a7da61</id>
+        <link href="https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/"/>
+        <updated>2021-05-19T23:17:21.000Z</updated>
+        <summary type="html"><![CDATA[CSS selectors are one of the most important parts of CSS. They give you the ability to target HTML elements on your web page that you want to style. Without CSS selectors, you wouldn't be able to style your page to look how you want. Thankfully CSS selectors have been]]></summary>
+        <author>
+            <name/>
         </author>
     </entry>
     <entry>
@@ -1188,17 +1296,6 @@ Support for multiple variadic parameters in functions, subscripts and initialize
         <link href="https://www.raywenderlich.com/22104819-announcing-ios-app-distribution-best-practices-first-edition"/>
         <updated>2021-04-21T17:18:37.000Z</updated>
         <summary type="html"><![CDATA[Whether it’s your first app deployment or your tenth, you can always use some help. iOS App Distribution &amp; Best Practices is your guide to shipping apps smoothly!]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS App Distribution & Best Practices [SUBSCRIBER]]]></title>
-        <id>https://www.raywenderlich.com/books/ios-app-distribution-best-practices/v1.0/</id>
-        <link href="https://www.raywenderlich.com/books/ios-app-distribution-best-practices/v1.0/"/>
-        <updated>2021-04-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to sign up for Apple Developer Program, generate the various certificates needed, configure your app and submit an app to the App Store for approval, both manually and through automated processes through automated pipelines. You’ll learn how to use Apple TestFlight to add internal and external testers and receive feedback and crash reports.
-iOS App Distribution starts with explaining hurdles everyone faces, such as code signing, provisioning profiles, and how to do manual releases. It’ll then go into more advanced topics, including distribution through TestFlight, build customization, automation, and continuous integration.]]></summary>
         <author>
             <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
         </author>
