@@ -6,6 +6,33 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=340991",
+          "author": "Chris Coyier",
+          "description": "Stefan Judis, two days before I mouthed off about using (X, X, X, X) for talking about specificity, has a great blog post not only using that format, but advocating that browser DevTools should show us that value by …\nThe post Should DevTools teach the CSS cascade? appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.stefanjudis.com/blog/should-devtools-teach-the-css-cascade/",
+          "publishedOn": "2021-05-21T23:22:54.000Z",
+          "wordCount": 1166,
+          "title": "Should DevTools teach the CSS cascade?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340825",
+          "author": "Adam Rackis",
+          "description": "This post is an accelerated introduction to Svelte from the point of view of someone with solid experience with React. I’ll provide a quick introduction, and then shift focus to things like state management and DOM interoperability, among other things. …\nThe post Svelte for the Experienced React Dev appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/svelte-for-the-experienced-react-dev/",
+          "publishedOn": "2021-05-21T14:30:59.000Z",
+          "wordCount": 3256,
+          "title": "Svelte for the Experienced React Dev"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340919",
+          "author": "Chris Coyier",
+          "description": "Collection of common CSS mistakes, and how to fix them\nFrom Stefánia Péter. \nClever idea for a site! Some of them are little mind-twisters that could bite you, and some of them are honing in on best practices that …\nThe post CSS Hell appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://csshell.dev/",
+          "publishedOn": "2021-05-21T14:29:16.000Z",
+          "wordCount": 295,
+          "title": "CSS Hell"
+        },
+        {
           "id": "https://css-tricks.com/?p=340599",
           "author": "Chris Coyier",
           "description": "Jonathan Neal tweeted a heck of a little CSS trick the other day, putting JSON inside CSS and plucking it out with JavaScript. Valid values for custom properties are quite liberal! So this looks for a CSS rule (e.g. a …\nThe post JSON in CSS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
@@ -354,6 +381,15 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "6098ce302cd0545b5e944d0b",
+          "author": "",
+          "description": "In programming, an array is a collection of elements or items. Arrays store data as elements and retrieve them back when you need them.  The array data structure is widely used in all programming languages that support it. In this handbook, I'll teach you all about arrays in JavaScript. You'll",
+          "link": "https://www.freecodecamp.org/news/the-javascript-array-handbook/",
+          "publishedOn": "2021-05-21T15:33:45.000Z",
+          "wordCount": 4309,
+          "title": "The JavaScript Array Handbook – JS Array Methods Explained with Examples"
+        },
         {
           "id": "60a6b3ab906c5207e3a7f5fa",
           "author": "",
@@ -829,6 +865,15 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.raywenderlich.com/23819541-announcing-expert-swift-first-edition",
+          "author": null,
+          "description": "Looking to take your understanding of Swift to the next level? Dive deep into the inner workings of the language in our newest book: Expert Swift!",
+          "link": "https://www.raywenderlich.com/23819541-announcing-expert-swift-first-edition",
+          "publishedOn": "2021-05-19T12:58:56.000Z",
+          "wordCount": 3157,
+          "title": "Announcing Expert Swift, First Edition! [FREE]"
+        },
+        {
           "id": "https://www.raywenderlich.com/23819541-announcing-advanced-swift-first-edition",
           "author": null,
           "description": "Looking to take your understanding of Swift to the next level? Dive deep into the inner workings of the language in our newest book: Advanced Swift!",
@@ -836,6 +881,15 @@
           "publishedOn": "2021-05-19T12:58:56.000Z",
           "wordCount": 3247,
           "title": "Announcing Advanced Swift, First Edition! [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/books/expert-swift/v1.0/",
+          "author": null,
+          "description": "Master the Swift language with the Expert Swift book!\nSwift is a rich language with a plethora of features to offer. Reading the official documentation or entry-level books is important, but it’s not enough to grasp the true power of the language.\nExpert Swift is here to help, by showing you how to harness the full power of Swift. You’ll learn about advanced usages of protocols, generics, functional reactive programming, API design and more.",
+          "link": "https://www.raywenderlich.com/books/expert-swift/v1.0/",
+          "publishedOn": "2021-05-19T00:00:00.000Z",
+          "wordCount": 2065,
+          "title": "Expert Swift [SUBSCRIBER]"
         },
         {
           "id": "https://www.raywenderlich.com/books/advanced-swift/v1.0/",
@@ -980,33 +1034,6 @@
           "publishedOn": "2021-04-26T12:59:28.000Z",
           "wordCount": 3773,
           "title": "Vonage Video API: Real-Time Video in iOS [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/21965623-announcing-our-deprecated-books-repo",
-          "author": null,
-          "description": "We’re excited to announce that we’ve made our older, deprecated books free to everyone. Come see which books we’re releasing for all to enjoy!",
-          "link": "https://www.raywenderlich.com/21965623-announcing-our-deprecated-books-repo",
-          "publishedOn": "2021-04-22T11:14:29.000Z",
-          "wordCount": 1634,
-          "title": "Announcing our Deprecated Books Repo! [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/20879904-handling-keyboard-pointer-interactions-in-swiftui",
-          "author": null,
-          "description": "Learn how to handle the iOS keyboard, external hardware keyboards, and pointer interactions in a SwiftUI app.",
-          "link": "https://www.raywenderlich.com/20879904-handling-keyboard-pointer-interactions-in-swiftui",
-          "publishedOn": "2021-04-22T00:00:00.000Z",
-          "wordCount": 665,
-          "title": "Handling Keyboard & Pointer Interactions in SwiftUI [SUBSCRIBER]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/22104819-announcing-ios-app-distribution-best-practices-first-edition",
-          "author": null,
-          "description": "Whether it’s your first app deployment or your tenth, you can always use some help. iOS App Distribution &amp; Best Practices is your guide to shipping apps smoothly!",
-          "link": "https://www.raywenderlich.com/22104819-announcing-ios-app-distribution-best-practices-first-edition",
-          "publishedOn": "2021-04-21T17:18:37.000Z",
-          "wordCount": 2468,
-          "title": "Announcing iOS App Distribution & Best Practices, First Edition! [FREE]"
         }
       ]
     },
@@ -1119,6 +1146,15 @@
       "feedUrl": "https://swiftbysundell.com/podcast/feed.rss",
       "siteUrl": "https://www.swiftbysundell.com/podcast",
       "articles": [
+        {
+          "id": "https://www.swiftbysundell.com/podcast/97",
+          "author": null,
+          "description": "Ish ShaBazz returns to the show for a special pre-WWDC episode about what new APIs and developer tools that Apple might announce at this year’s edition of the conference. What’s in store for Swift and SwiftPM, how might UIKit and SwiftUI continue to evolve, and will this be the year when we’ll finally see Apple’s new AR/VR platform?",
+          "link": "https://www.swiftbysundell.com/podcast/97",
+          "publishedOn": "2021-05-21T17:20:00.000Z",
+          "wordCount": 231,
+          "title": "97: “Anything can happen during WWDC”, with special guest Ish ShaBazz"
+        },
         {
           "id": "https://www.swiftbysundell.com/podcast/96",
           "author": null,
