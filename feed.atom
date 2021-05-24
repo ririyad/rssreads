@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-23T00:54:11.828Z</updated>
-    <generator>osmosfeed 1.7.2</generator>
+    <updated>2021-05-24T00:51:45.330Z</updated>
+    <generator>osmosfeed 1.8.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
     <entry>
@@ -1338,16 +1338,6 @@ Swift 5.4 includes the following new language features:
 Support for multiple variadic parameters in functions, subscripts and initializers (SE-…]]></summary>
         <author>
             <name>Swift.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CLI tools FTW (or: how to distribute your CLI tools with goreleaser)]]></title>
-        <id>https://appliedgo.net/release/</id>
-        <link href="https://appliedgo.net/release/"/>
-        <updated>2021-04-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[&ldquo;go get&rdquo; is a super-simple way of installing Go binaries, but not everyone has a Go compiler installed. If you want to make your CLI tools and apps available to the world, have a look at goreleaser.]]></summary>
-        <author>
-            <name>Applied Go</name>
         </author>
     </entry>
 </feed>

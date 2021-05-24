@@ -816,15 +816,6 @@
           "publishedOn": "2021-05-08T00:00:00.000Z",
           "wordCount": 1111,
           "title": "Packaging a project release (goreleaser part 2)"
-        },
-        {
-          "id": "https://appliedgo.net/release/",
-          "author": null,
-          "description": "&ldquo;go get&rdquo; is a super-simple way of installing Go binaries, but not everyone has a Go compiler installed. If you want to make your CLI tools and apps available to the world, have a look at goreleaser.",
-          "link": "https://appliedgo.net/release/",
-          "publishedOn": "2021-04-24T00:00:00.000Z",
-          "wordCount": 1943,
-          "title": "CLI tools FTW (or: how to distribute your CLI tools with goreleaser)"
         }
       ]
     },
@@ -837,7 +828,7 @@
     {
       "title": "Swift.org",
       "feedUrl": "https://swift.org/atom.xml?format=xml",
-      "siteUrl": "",
+      "siteUrl": null,
       "articles": [
         {
           "id": "https://swift.org/blog/swift-mentorship-program/",
@@ -1167,5 +1158,5 @@
       ]
     }
   ],
-  "cliVersion": "1.7.2"
+  "cliVersion": "1.8.1"
 }
