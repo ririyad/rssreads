@@ -2,10 +2,118 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-26T01:00:56.428Z</updated>
-    <generator>osmosfeed 1.8.1</generator>
+    <updated>2021-05-27T01:04:55.393Z</updated>
+    <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Giphy API Tutorial – How to Generate Animated Text GIFs with ReactJS]]></title>
+        <id>60a44b9f906c5207e3a7e098</id>
+        <link href="https://www.freecodecamp.org/news/giphy-api-tutorial/"/>
+        <updated>2021-05-26T21:44:01.000Z</updated>
+        <summary type="html"><![CDATA[In this tutorial you will create an app that generates dynamic animated text using Giphy's API with ReactJS. After that I'll go over some of the other API features Giphy provides that you can use to make other interesting projects. You can find the code for the tutorial here. Video]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Contribute to Open Source  Projects – A Beginner&#x27;s Guide]]></title>
+        <id>60abe7fb11ffb70827ef63a6</id>
+        <link href="https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/"/>
+        <updated>2021-05-26T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[If you're a developer, you've probably come across the term "open source." If you've ever wondered what it's all about and how to contribute, you are in exactly the right place.  I put aside all my fears about how and what to contribute during Hacktoberfest 2020, and made]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn Basic Terraform Syntax in 20 minutes]]></title>
+        <id>606f4f5fd5756f080ba96b65</id>
+        <link href="https://www.freecodecamp.org/news/terraform-syntax-for-beginners/"/>
+        <updated>2021-05-26T18:00:52.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I'll give you a brief overview of the configuration syntax of Terraform.  Terraform's docs provide the most comprehensive look at its syntax. But this article should serve as a condensed quick start introduction that'll give new users a simplified overview. We'll focus on the basic structures without]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Awesome Standalone (Web Components)]]></title>
+        <id>https://css-tricks.com/?p=339759</id>
+        <link href="https://css-tricks.com/awesome-standalone-web-components/"/>
+        <updated>2021-05-26T17:56:34.000Z</updated>
+        <summary type="html"><![CDATA[In his last An Event Apart talk, Dave made a point that it’s really only just about right now that Web Components are becoming a practical choice for production web development. For example, it has only been about a year …
+The post Awesome Standalone (Web Components) appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links on Web Components]]></title>
+        <id>https://css-tricks.com/?p=340901</id>
+        <link href="https://css-tricks.com/links-on-web-components/"/>
+        <updated>2021-05-26T17:56:12.000Z</updated>
+        <summary type="html"><![CDATA[How we use Web Components at GitHub — Kristján Oddsson talks about how GitHub is using web components. I remember they were very early adopters, and it says here they released a <relative-time> component in 2014! Now they’ve got a 
+…
+The post Links on Web Components appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build a GraphQL API Using Laravel]]></title>
+        <id>60abc59d11ffb70827ef6304</id>
+        <link href="https://www.freecodecamp.org/news/build-a-graphql-api-using-laravel/"/>
+        <updated>2021-05-26T16:34:32.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I'll walk you through how to set up your own GraphQL API using PHP and Laravel. Two years ago, I started working professionally as a backend developer. And I was very intimidated by all the technology I didn't yet know. Words like Docker, Kubernetes, and GraphQL seemed]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build Super Mario Bros, Zelda, and Space Invaders with Kaboom.js]]></title>
+        <id>60aced0011ffb70827ef6d96</id>
+        <link href="https://www.freecodecamp.org/news/how-to-build-mario-zelda-and-space-invaders-with-kaboom-js/"/>
+        <updated>2021-05-26T14:12:27.000Z</updated>
+        <summary type="html"><![CDATA[In this video course I show you how to build three popular games using the latest game development library for JavaScript called Kaboom.js. This course is exciting for two reasons: First of all, I am going to be introducing a new technology designed especially for game development in JavaScript.]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Thorough Analysis of CSS-in-JS]]></title>
+        <id>https://css-tricks.com/?p=340705</id>
+        <link href="https://css-tricks.com/a-thorough-analysis-of-css-in-js/"/>
+        <updated>2021-05-26T14:08:49.000Z</updated>
+        <summary type="html"><![CDATA[Wondering what’s even more challenging than choosing a JavaScript framework? You guessed it: choosing a CSS-in-JS solution. Why? Because there are more than 50 libraries out there, each of them offering a unique set of features.
+We tested 10 different …
+The post A Thorough Analysis of CSS-in-JS appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Andrei Pfeiffer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing SwiftUI Apprentice, First Edition! [FREE]]]></title>
+        <id>https://www.raywenderlich.com/24155931-announcing-swiftui-apprentice-first-edition</id>
+        <link href="https://www.raywenderlich.com/24155931-announcing-swiftui-apprentice-first-edition"/>
+        <updated>2021-05-26T13:47:10.000Z</updated>
+        <summary type="html"><![CDATA[The holy grail for SwiftUI is here — build functional and beautiful iOS apps in SwiftUI, with the step-by-step guidance you’re looking for!]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Core Graphics Tutorial: Patterns [FREE]]]></title>
+        <id>https://www.raywenderlich.com/21462527-core-graphics-tutorial-patterns</id>
+        <link href="https://www.raywenderlich.com/21462527-core-graphics-tutorial-patterns"/>
+        <updated>2021-05-26T12:59:17.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to use Core Graphics to draw patterns in a performant way.]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SwiftUI Apprentice [SUBSCRIBER]]]></title>
         <id>https://www.raywenderlich.com/books/swiftui-apprentice/v1.0/</id>
@@ -1500,26 +1608,6 @@ I didn’t understand how this s…]]></summary>
         <summary type="html"><![CDATA[Learn how to use UNLocationNotificationTrigger to set up location-triggered notifications for your iOS app.]]></summary>
         <author>
             <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOS Debugging Fundamentals [SUBSCRIBER]]]></title>
-        <id>https://www.raywenderlich.com/18770184-ios-debugging-fundamentals</id>
-        <link href="https://www.raywenderlich.com/18770184-ios-debugging-fundamentals"/>
-        <updated>2021-04-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn the fundamentals of debugging in Xcode: including breakpoints, stack traces, and visibly inspecting the view hierarchy. After this course, you’ll be better able to understand what’s happening throughout the flow of your app, and why!]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Xcode - Visual Debugger - A Tool For Debugging UI]]></title>
-        <id>https://www.youtube.com/watch?v=-o2BwAsvoH4</id>
-        <link href="https://www.youtube.com/watch?v=-o2BwAsvoH4"/>
-        <updated>2021-04-26T16:02:40.000Z</updated>
-        <summary type="html"><![CDATA[In today's video I show you how to use Xcode's visual debugger. The visual debugger is a great tool to analyze your user interface to discover any issues or ...]]></summary>
-        <author>
-            <name>Sean Allen</name>
         </author>
     </entry>
 </feed>

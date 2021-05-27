@@ -6,6 +6,33 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=339759",
+          "author": "Chris Coyier",
+          "description": "In his last An Event Apart talk, Dave made a point that it’s really only just about right now that Web Components are becoming a practical choice for production web development. For example, it has only been about a year …\nThe post Awesome Standalone (Web Components) appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/awesome-standalone-web-components/",
+          "publishedOn": "2021-05-26T17:56:34.000Z",
+          "wordCount": 952,
+          "title": "Awesome Standalone (Web Components)"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340901",
+          "author": "Chris Coyier",
+          "description": "How we use Web Components at GitHub — Kristján Oddsson talks about how GitHub is using web components. I remember they were very early adopters, and it says here they released a <relative-time> component in 2014! Now they’ve got a \n…\nThe post Links on Web Components appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/links-on-web-components/",
+          "publishedOn": "2021-05-26T17:56:12.000Z",
+          "wordCount": 712,
+          "title": "Links on Web Components"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340705",
+          "author": "Andrei Pfeiffer",
+          "description": "Wondering what’s even more challenging than choosing a JavaScript framework? You guessed it: choosing a CSS-in-JS solution. Why? Because there are more than 50 libraries out there, each of them offering a unique set of features.\nWe tested 10 different …\nThe post A Thorough Analysis of CSS-in-JS appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/a-thorough-analysis-of-css-in-js/",
+          "publishedOn": "2021-05-26T14:08:49.000Z",
+          "wordCount": 3416,
+          "title": "A Thorough Analysis of CSS-in-JS"
+        },
+        {
           "id": "https://css-tricks.com/?p=340759",
           "author": "Josh Collinsworth",
           "description": "I fell in love with coding the moment I created my first CSS :hover effect. Years later, that initial bite into interactivity on the web led me to a new goal: making a game.\nTable of contents\nWhat’s the game \n…\nThe post What I Learned Building a Word Game App With Nuxt on Google Play appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
@@ -426,6 +453,51 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "60a44b9f906c5207e3a7e098",
+          "author": null,
+          "description": "In this tutorial you will create an app that generates dynamic animated text using Giphy's API with ReactJS. After that I'll go over some of the other API features Giphy provides that you can use to make other interesting projects. You can find the code for the tutorial here. Video",
+          "link": "https://www.freecodecamp.org/news/giphy-api-tutorial/",
+          "publishedOn": "2021-05-26T21:44:01.000Z",
+          "wordCount": 2014,
+          "title": "Giphy API Tutorial – How to Generate Animated Text GIFs with ReactJS"
+        },
+        {
+          "id": "60abe7fb11ffb70827ef63a6",
+          "author": null,
+          "description": "If you're a developer, you've probably come across the term \"open source.\" If you've ever wondered what it's all about and how to contribute, you are in exactly the right place.  I put aside all my fears about how and what to contribute during Hacktoberfest 2020, and made",
+          "link": "https://www.freecodecamp.org/news/how-to-contribute-to-open-source-projects-beginners-guide/",
+          "publishedOn": "2021-05-26T18:01:00.000Z",
+          "wordCount": 2370,
+          "title": "How to Contribute to Open Source  Projects – A Beginner&#x27;s Guide"
+        },
+        {
+          "id": "606f4f5fd5756f080ba96b65",
+          "author": null,
+          "description": "In this article, I'll give you a brief overview of the configuration syntax of Terraform.  Terraform's docs provide the most comprehensive look at its syntax. But this article should serve as a condensed quick start introduction that'll give new users a simplified overview. We'll focus on the basic structures without",
+          "link": "https://www.freecodecamp.org/news/terraform-syntax-for-beginners/",
+          "publishedOn": "2021-05-26T18:00:52.000Z",
+          "wordCount": 3782,
+          "title": "Learn Basic Terraform Syntax in 20 minutes"
+        },
+        {
+          "id": "60abc59d11ffb70827ef6304",
+          "author": null,
+          "description": "In this article, I'll walk you through how to set up your own GraphQL API using PHP and Laravel. Two years ago, I started working professionally as a backend developer. And I was very intimidated by all the technology I didn't yet know. Words like Docker, Kubernetes, and GraphQL seemed",
+          "link": "https://www.freecodecamp.org/news/build-a-graphql-api-using-laravel/",
+          "publishedOn": "2021-05-26T16:34:32.000Z",
+          "wordCount": 3054,
+          "title": "How to Build a GraphQL API Using Laravel"
+        },
+        {
+          "id": "60aced0011ffb70827ef6d96",
+          "author": null,
+          "description": "In this video course I show you how to build three popular games using the latest game development library for JavaScript called Kaboom.js. This course is exciting for two reasons: First of all, I am going to be introducing a new technology designed especially for game development in JavaScript.",
+          "link": "https://www.freecodecamp.org/news/how-to-build-mario-zelda-and-space-invaders-with-kaboom-js/",
+          "publishedOn": "2021-05-26T14:12:27.000Z",
+          "wordCount": 1273,
+          "title": "How to Build Super Mario Bros, Zelda, and Space Invaders with Kaboom.js"
+        },
         {
           "id": "60ac3a2711ffb70827ef6aec",
           "author": null,
@@ -982,6 +1054,24 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.raywenderlich.com/24155931-announcing-swiftui-apprentice-first-edition",
+          "author": null,
+          "description": "The holy grail for SwiftUI is here — build functional and beautiful iOS apps in SwiftUI, with the step-by-step guidance you’re looking for!",
+          "link": "https://www.raywenderlich.com/24155931-announcing-swiftui-apprentice-first-edition",
+          "publishedOn": "2021-05-26T13:47:10.000Z",
+          "wordCount": 2223,
+          "title": "Announcing SwiftUI Apprentice, First Edition! [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/21462527-core-graphics-tutorial-patterns",
+          "author": null,
+          "description": "Learn how to use Core Graphics to draw patterns in a performant way.",
+          "link": "https://www.raywenderlich.com/21462527-core-graphics-tutorial-patterns",
+          "publishedOn": "2021-05-26T12:59:17.000Z",
+          "wordCount": 5134,
+          "title": "Core Graphics Tutorial: Patterns [FREE]"
+        },
+        {
           "id": "https://www.raywenderlich.com/books/swiftui-apprentice/v1.0/",
           "author": null,
           "description": "<p><em>SwiftUI Apprentice</em> is a series of epic-length tutorials where you’ll learn to build three complete apps from scratch,\nusing Apple’s new user interface technology: SwiftUI! Each app is more advanced than the one before, and together,\nthey cover everything to make your own apps using SwiftUI. By the end of the book, you’ll be experienced enough\nto turn your ideas into real apps you can sell on the App Store. These tutorials have easy to follow step-by-step\ninstructions and consist of more than <!-- raw HTML omitted --> pages and <!-- raw HTML omitted --> illustrations! You also get full\nsource code, image files, and other resources you can re-use for your own projects.</p>\n<p>If you’re new to iOS and Swift, or to programming in general, learning how to write an app can seem incredibly overwhelming.\nThat’s why you need a guide that:</p>\n<ul>\n<li>Shows you how to write an app step-by-step.</li>\n<li>Uses tons of illustrations and screenshots to make everything clear.</li>\n<li>Guides you in a fun and easy-going manner.</li>\n</ul>\n<p>You’ll start at the very beginning. The first section assumes you have little to no knowledge of programming in Swift for iOS but still\nshows you how to build an entire fitness app from scratch using SwiftUI.\n<em>SwiftUI Apprentice</em> doesn’t cover every single feature of iOS; it focuses on the absolutely essential ones.\nInstead of just covering a list of features, <em>SwiftUI Apprentice</em> does something much more important: It explains how all the\nbuilding blocks fit together and what is involved in building real apps. You’re not going to create quick example programs that\ndemonstrate how to accomplish a single feature. Instead, you’ll develop complete, fully-formed apps, with beautiful,\nprofessionally-designed user interfaces, that are good enough to submit to the App Store!</p>",
@@ -1151,15 +1241,6 @@
           "publishedOn": "2021-04-28T12:59:42.000Z",
           "wordCount": 5224,
           "title": "Location Notifications with UNLocationNotificationTrigger [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/18770184-ios-debugging-fundamentals",
-          "author": null,
-          "description": "Learn the fundamentals of debugging in Xcode: including breakpoints, stack traces, and visibly inspecting the view hierarchy. After this course, you’ll be better able to understand what’s happening throughout the flow of your app, and why!",
-          "link": "https://www.raywenderlich.com/18770184-ios-debugging-fundamentals",
-          "publishedOn": "2021-04-27T00:00:00.000Z",
-          "wordCount": 897,
-          "title": "iOS Debugging Fundamentals [SUBSCRIBER]"
         }
       ]
     },
@@ -1255,15 +1336,6 @@
           "publishedOn": "2021-04-28T13:00:20.000Z",
           "wordCount": 20,
           "title": "SwiftUI List with Custom Cell & Passing Data"
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=-o2BwAsvoH4",
-          "author": null,
-          "description": "In today's video I show you how to use Xcode's visual debugger. The visual debugger is a great tool to analyze your user interface to discover any issues or ...",
-          "link": "https://www.youtube.com/watch?v=-o2BwAsvoH4",
-          "publishedOn": "2021-04-26T16:02:40.000Z",
-          "wordCount": 22,
-          "title": "Xcode - Visual Debugger - A Tool For Debugging UI"
         }
       ]
     },
@@ -1293,5 +1365,5 @@
       ]
     }
   ],
-  "cliVersion": "1.8.1"
+  "cliVersion": "1.9.0"
 }
