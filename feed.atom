@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-05-30T01:37:55.447Z</updated>
+    <updated>2021-05-31T01:48:46.288Z</updated>
     <generator>osmosfeed 1.9.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -1656,19 +1656,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <summary type="html"><![CDATA[*** This is a new feature in Xcode 12.5*** In today's video I show you a quick way to record video or a animated GIF from the Xcode Simulator. This was possi...]]></summary>
         <author>
             <name>Sean Allen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How OrderedSet works]]></title>
-        <id>https://oleb.net/2021/ordered-set/</id>
-        <link href="https://oleb.net/2021/ordered-set/"/>
-        <updated>2021-04-30T15:34:50.000Z</updated>
-        <summary type="html"><![CDATA[The new Swift Collections library provides efficient Swift implementations for useful data structures, starting with Deque, OrderedSet, and OrderedDictionary in the initial release.
-The documentation for OrderedSet says this about the implementation:
-An OrderedSet stores its members in a regular Array value (exposed by the elements property). It also maintains a standalone hash table containing array indices alongside the array; this is used to implement fast membership tests.
-I didn’t understand how this s…]]></summary>
-        <author>
-            <name>Ole Begemann</name>
         </author>
     </entry>
 </feed>

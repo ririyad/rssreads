@@ -1311,17 +1311,7 @@
       "title": "Ole Begemann",
       "feedUrl": "https://oleb.net/blog/atom.xml",
       "siteUrl": "https://oleb.net/blog/",
-      "articles": [
-        {
-          "id": "https://oleb.net/2021/ordered-set/",
-          "author": null,
-          "description": "The new Swift Collections library provides efficient Swift implementations for useful data structures, starting with Deque, OrderedSet, and OrderedDictionary in the initial release.\nThe documentation for OrderedSet says this about the implementation:\nAn OrderedSet stores its members in a regular Array value (exposed by the elements property). It also maintains a standalone hash table containing array indices alongside the array; this is used to implement fast membership tests.\nI didn’t understand how this s…",
-          "link": "https://oleb.net/2021/ordered-set/",
-          "publishedOn": "2021-04-30T15:34:50.000Z",
-          "wordCount": 598,
-          "title": "How OrderedSet works"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Sean Allen",
