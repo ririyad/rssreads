@@ -6,6 +6,33 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=341724",
+          "author": "Chris Coyier",
+          "description": "How do I debug Safari on iOS?\nThese are my general steps, starting with not even using iOS Safari.\n1. Is this just a small-screen problem?\nLemme just use the device mode in Chrome quick.\nNote that this does a …\nThe post Debugging iOS Safari appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/debugging-ios-safari/",
+          "publishedOn": "2021-06-02T21:15:28.000Z",
+          "wordCount": 974,
+          "title": "Debugging iOS Safari"
+        },
+        {
+          "id": "https://css-tricks.com/?p=341442",
+          "author": "Dmitry Mayorov",
+          "description": "Blocks in WordPress are great. Drop some into the page, arrange them how you like, and you’ve got a pretty sweet landing page with little effort. But what if the default blocks in WordPress need a little tweaking? Like, what …\nThe post A Crash Course in WordPress Block Filters appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/a-crash-course-in-wordpress-block-filters/",
+          "publishedOn": "2021-06-02T13:35:53.000Z",
+          "wordCount": 4169,
+          "title": "A Crash Course in WordPress Block Filters"
+        },
+        {
+          "id": "https://css-tricks.com/?p=341572",
+          "author": "Chris Coyier",
+          "description": "PPK laid out an interesting situation in “Two options for using custom properties” where he and Stefan Judis had two different approaches for doing the same thing with custom properties. In one approach, hover and focus styles for a …\nThe post Are Custom Properties a “Menu of What Will Change”? appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/are-custom-properties-a-menu-of-what-will-change/",
+          "publishedOn": "2021-06-02T13:35:40.000Z",
+          "wordCount": 1058,
+          "title": "Are Custom Properties a “Menu of What Will Change”?"
+        },
+        {
           "id": "https://css-tricks.com/?p=341720",
           "author": "Chris Coyier",
           "description": "Pedro Duarte made a wishlist for styled code blocks in blog posts and documentation, then hand-rolls a perfect solution for that wishlist. For example, a feature to be able to highlight certain lines or words within the code block. The …\nThe post Code blocks, but better appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
@@ -534,6 +561,69 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "60afce3011ffb70827ef869c",
+          "author": null,
+          "description": "Git has a feature to \"sign\" commits, but what is signing, and what are the benefits? TL;DR: If you don't care for the details, and just need to get commit signing setup quickly, skip to How to Sign Commits. Signing, or code signing specifically, is the process of using",
+          "link": "https://www.freecodecamp.org/news/what-is-commit-signing-in-git/",
+          "publishedOn": "2021-06-02T23:14:01.000Z",
+          "wordCount": 2282,
+          "title": "What is Commit Signing in Git?"
+        },
+        {
+          "id": "60b3a25211ffb70827ef9b39",
+          "author": null,
+          "description": "In this article, you will learn about environment variables in Vanilla JavaScript. You'll also learn how to serve API keys to your application through the Netlify build command. What are JavaScript environment variables?Environment variables are very common when you're using JavaScript frameworks like React or Vue for creating frontend",
+          "link": "https://www.freecodecamp.org/news/how-to-use-environment-variables-in-vanillajs/",
+          "publishedOn": "2021-06-02T22:54:18.000Z",
+          "wordCount": 1415,
+          "title": "How to Use Environment Variables in VanillaJS"
+        },
+        {
+          "id": "60b3ccee11ffb70827ef9bc0",
+          "author": null,
+          "description": "One of the most difficult things about getting started in a new career as a developer is figuring out exactly what you should be learning – and then translating that into an effective plan. There are so many resources out there for learning, so lack of information is not the problem.",
+          "link": "https://www.freecodecamp.org/news/how-to-design-your-own-learning-plan-for-any-tech-stack/",
+          "publishedOn": "2021-06-02T21:18:15.000Z",
+          "wordCount": 2365,
+          "title": "How to Design Your Own Learning Plan for Any Tech Stack"
+        },
+        {
+          "id": "60a699b0906c5207e3a7f5ab",
+          "author": null,
+          "description": "Configuring your .vimrc file lets you use the full power of Vim. With a customized .vimrc file you can increase your Vim powers tenfold. In this article I will show you a few ways you can customize your .vimrc file. I will go over: Basic SettingsPluginsFoldingVimscriptStatus lineFirst create the following",
+          "link": "https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/",
+          "publishedOn": "2021-06-02T20:44:22.000Z",
+          "wordCount": 3441,
+          "title": "Vimrc Configuration Guide - How to Customize Your Vim Code Editor with Mappings, Vimscript, Status Line, and More"
+        },
+        {
+          "id": "60b0f11411ffb70827ef8dbc",
+          "author": null,
+          "description": "Often times you might want your system to communicate with other web servers to get information. For example, let's say a new user wants to sign up for an account on your website. And instead of having to manually fill out a form to send their information to your system,",
+          "link": "https://www.freecodecamp.org/news/how-to-make-api-calls-with-fetch/",
+          "publishedOn": "2021-06-02T19:39:05.000Z",
+          "wordCount": 1155,
+          "title": "Fetch API – How to Make a GET Request and POST Request in JavaScript"
+        },
+        {
+          "id": "60b4ff4711ffb70827ef9eb2",
+          "author": null,
+          "description": "What is Vue.js? Vue.js is a progressive JavaScript frontend framework written by Evan You. It's one of the most powerful and easy to learn frameworks, and it has over 9.5 million downloads per month.  In September 2020, Vue 3 core was released. The new Vue.js release",
+          "link": "https://www.freecodecamp.org/news/migrate-from-vue2-to-vue3-with-example-project/",
+          "publishedOn": "2021-06-02T19:14:53.000Z",
+          "wordCount": 2649,
+          "title": "How to Migrate from Vue v.2 to Vue v.3 with a Simple Example Project"
+        },
+        {
+          "id": "60b51f6e11ffb70827ef9f7c",
+          "author": null,
+          "description": "Today we're going to build and run an ice cream shop and learn asynchronous JavaScript at the same time. Along the way, you'll learn how to use: CallbacksPromisesAsync / AwaitHere's what we'll cover in this article:What is Asynchronous JavaScript?Synchronous vs Asynchronous JavaScriptHow Callbacks Work in JavaScriptHow Promises Work in",
+          "link": "https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/",
+          "publishedOn": "2021-06-02T14:45:18.000Z",
+          "wordCount": 3302,
+          "title": "JavaScript Async/Await Tutorial – Learn Callbacks, Promises, and Async/Await in JS by Making Ice Cream 🍧🍨🍦"
+        },
         {
           "id": "60b5025111ffb70827ef9ebe",
           "author": null,
@@ -1172,15 +1262,6 @@
           "publishedOn": "2021-05-04T15:33:12.000Z",
           "wordCount": 1018,
           "title": "Copy a Directory in Linux – How to cp a Folder in the Command Line in Linux and Unix (MacOS)"
-        },
-        {
-          "id": "6090187c8eb3fb07cf09a060",
-          "author": "",
-          "description": "Let's go through the five best ways that you can fetch data with React from a GraphQL API. While there are a couple of popular libraries which are made to interact with GraphQL APIs from a React application, there are many different ways to fetch data with GraphQL. I've included",
-          "link": "https://www.freecodecamp.org/news/5-ways-to-fetch-data-react-graphql/",
-          "publishedOn": "2021-05-03T17:20:56.000Z",
-          "wordCount": 2501,
-          "title": "How to Fetch Data in React from a GraphQL API"
         }
       ]
     },
@@ -1195,6 +1276,15 @@
       "feedUrl": "https://appliedgo.net/index.xml",
       "siteUrl": "https://appliedgo.net/",
       "articles": [
+        {
+          "id": "https://appliedgo.net/rich/",
+          "author": null,
+          "description": "Ok, to be frank, this article is mostly about the second part of the title. We will build a market simulation with minimal Go code, and show how the rich get richer even when they are not greedy at all.",
+          "link": "https://appliedgo.net/rich/",
+          "publishedOn": "2021-06-02T00:00:00.000Z",
+          "wordCount": 2513,
+          "title": "How to become the richest person on earth (and learn some Go along the way)"
+        },
         {
           "id": "https://appliedgo.net/release2/",
           "author": null,
@@ -1233,6 +1323,24 @@
       "feedUrl": "https://www.raywenderlich.com/ios/feed",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://www.raywenderlich.com/4001919-how-to-make-an-app-like-instagram-in-ios",
+          "author": null,
+          "description": "<p>Have you ever wanted to build an app like Instagram, from architecture to coding to the back-end server, but weren’t sure where to start?</p>\n<p>In this course you will find out how to put all the pieces together to create an app from scratch.</p>",
+          "link": "https://www.raywenderlich.com/4001919-how-to-make-an-app-like-instagram-in-ios",
+          "publishedOn": "2021-06-03T00:00:00.000Z",
+          "wordCount": 1363,
+          "title": "How To Make An App Like Instagram in iOS [SUBSCRIBER]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/24389036-announcing-flutter-apprentice-first-edition",
+          "author": null,
+          "description": "Everything you need to get started with Flutter—Widgets, UI, Navigation, Networking, Persistence, State Management, and Deployment. You name it. Our new Flutter Apprentice book has it!",
+          "link": "https://www.raywenderlich.com/24389036-announcing-flutter-apprentice-first-edition",
+          "publishedOn": "2021-06-02T13:01:13.000Z",
+          "wordCount": 2607,
+          "title": "Announcing Flutter Apprentice, First Edition! [FREE]"
+        },
         {
           "id": "https://www.raywenderlich.com/21129427-detect-hand-body-poses-with-vision-in-ios",
           "author": null,
@@ -1412,15 +1520,6 @@
           "publishedOn": "2021-05-10T12:59:23.000Z",
           "wordCount": 3351,
           "title": "Monitoring for iOS with MetricKit: Getting Started [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/21191818-intermediate-ios-debugging",
-          "author": null,
-          "description": "Prepare to learn some new debugging tricks! In this course, you’ll improve your skills with LLDB and Xcode.",
-          "link": "https://www.raywenderlich.com/21191818-intermediate-ios-debugging",
-          "publishedOn": "2021-05-04T00:00:00.000Z",
-          "wordCount": 818,
-          "title": "Intermediate iOS Debugging [SUBSCRIBER]"
         }
       ]
     },
@@ -1479,15 +1578,6 @@
           "publishedOn": "2021-05-05T13:10:21.000Z",
           "wordCount": 24,
           "title": "SwiftUI Form w/ TextField, DatePicker, Toggle, Stepper, Link and Sections w/ Header"
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=qXiIf3bb1nE",
-          "author": null,
-          "description": "Let's have a little fun in today's video. I'll show you how to use a tool that lets you change the color of your Xcode icon (as well as change it back to def...",
-          "link": "https://www.youtube.com/watch?v=qXiIf3bb1nE",
-          "publishedOn": "2021-05-04T12:55:24.000Z",
-          "wordCount": 17,
-          "title": "Xcode - Change Icon Color"
         }
       ]
     },
