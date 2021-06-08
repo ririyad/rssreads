@@ -6,6 +6,24 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=341805",
+          "author": "Chris Coyier",
+          "description": "Show/Hide password accessibility and password hints tutorial — Nicolas Steenhout goes deep on <input type=\"password\"> accessibility. For one thing, being able to toggle it to type=\"text\" should be possible, while announcing, politely, the change. But also, put the password hints \n…\nThe post Links on Accessibility appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/links-on-accessibility/",
+          "publishedOn": "2021-06-07T19:52:26.000Z",
+          "wordCount": 599,
+          "title": "Links on Accessibility"
+        },
+        {
+          "id": "https://css-tricks.com/?p=340390",
+          "author": "Chris Coyier",
+          "description": "Let’s look at some extensions for VS Code that make writing and editing HTML (and languages that are basically HTML with extra powers) better. You may not like all of them. Maybe some of them don’t appeal to you, solve …\nThe post VS Code Extensions for HTML appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/vs-code-extensions-for-html/",
+          "publishedOn": "2021-06-07T14:13:50.000Z",
+          "wordCount": 1453,
+          "title": "VS Code Extensions for HTML"
+        },
+        {
           "id": "https://css-tricks.com/?p=341793",
           "author": "Chris Coyier",
           "description": "Colin Oakley:\n• Accessible — Use semantic HTML, and make sure we meet the WCAG 2.1 AA standard as a minimum and it works with assisted technologies (this sits alongside the DWP Accessibility Manual)\n• Agnostic — Build \n…\nThe post Principles for user-centered front-end development appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
@@ -489,6 +507,42 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "60bbd28eacb62507dd1d99fb",
+          "author": null,
+          "description": "Learn how to build full stack serverless apps with Supabase and Next.js.",
+          "link": "https://www.freecodecamp.org/news/the-complete-guide-to-full-stack-development-with-supabas/",
+          "publishedOn": "2021-06-07T23:33:30.000Z",
+          "wordCount": 3567,
+          "title": "How to Build a Full Stack App with Supabase and Next.js"
+        },
+        {
+          "id": "60be863cd3126007592d4c36",
+          "author": null,
+          "description": "OpenCV is a popular Python library for real-time computer vision. We just released a new OpenCV course on the freeCodeCamp.org YouTube channel. This course comes directly from the creators of OpenCV and is the perfect course for beginners.  You will learn how to use OpenCV for Computer Vision and",
+          "link": "https://www.freecodecamp.org/news/how-to-use-opencv-and-python-for-computer-vision-and-ai/",
+          "publishedOn": "2021-06-07T20:54:41.000Z",
+          "wordCount": 439,
+          "title": "How to Use OpenCV and Python for Computer Vision and AI"
+        },
+        {
+          "id": "5ff625967af2371468bb8645",
+          "author": null,
+          "description": "Closures are a confusing JavaScript concept to learn, because it's hard to see how they're actually used.  Unlike other concepts such as functions, variables, and objects, you don't always use closures conscientiously and directly. You don't say: Oh! Here I will use a closure as a solution. But at the",
+          "link": "https://www.freecodecamp.org/news/closures-in-javascript/",
+          "publishedOn": "2021-06-07T18:18:01.000Z",
+          "wordCount": 1597,
+          "title": "How to Use Closures in JavaScript – A Beginner&#x27;s Guide"
+        },
+        {
+          "id": "60b136d911ffb70827ef912b",
+          "author": null,
+          "description": "ngClass is a directive in Angular that adds and removes CSS classes on an HTML element. In this article, we are talking about ngClass in Angular only, not ng-class in angular.js. Prerequisites – What is Property Binding?Two things we have to understand first are property binding and interpolation in",
+          "link": "https://www.freecodecamp.org/news/angular-ngclass-example/",
+          "publishedOn": "2021-06-07T15:01:26.000Z",
+          "wordCount": 1547,
+          "title": "Angular NgClass Example – How to Add Conditional CSS Classes"
+        },
         {
           "id": "60b3480c11ffb70827ef9a88",
           "author": null,
@@ -1254,6 +1308,15 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://swift.org/blog/package-collections/",
+          "author": null,
+          "description": "In Swift 5.5, the Swift Package Manager adds support for package collections — bite size curated lists of packages that make it easy to discover, share and adopt packages.\nAt the time of this article’s publication, Swift 5.5 is available as a preview both from Swift.org and in the Xcode 13 seeds.  Swift 5.5 will be released officially later this year.\nThe goal of package collections is to improve two key aspects of the package ecosystem:\nDiscovering great packages\nDeciding which package is the best fit for a particular engineering task\nPackage collections embrace and promote the concept of curation. Instead of browsing through long lists of web search results, package collections narrow the selection to a small list of packages from curators you trust. Package collections serve many use ca…",
+          "link": "https://swift.org/blog/package-collections/",
+          "publishedOn": "2021-06-07T09:00:00.000Z",
+          "wordCount": 955,
+          "title": "Package Collections"
+        },
+        {
           "id": "https://swift.org/blog/swift-mentorship-program/",
           "author": null,
           "description": "We’re thrilled to announce the Swift Mentorship Program — a new contributor program for the Swift community and part of the Diversity in Swift initiative. The Swift Mentorship Program is designed to support developers as they become active open source contributors to the Swift project, providing direct mentorship with experienced members of the community.\nEach mentee will have the opportunity to connect with and learn from an experienced developer within the Swift community, with the goal of them contributi…",
@@ -1269,6 +1332,15 @@
       "feedUrl": "https://www.raywenderlich.com/ios/feed",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://www.raywenderlich.com/21503974-solid-principles-for-ios-apps",
+          "author": null,
+          "description": "SOLID is a group of principles that lead you to write clear and organized code without additional effort. Learn how to apply it to your SwiftUI iOS apps.",
+          "link": "https://www.raywenderlich.com/21503974-solid-principles-for-ios-apps",
+          "publishedOn": "2021-06-07T12:59:39.000Z",
+          "wordCount": 6339,
+          "title": "SOLID Principles for iOS Apps [FREE]"
+        },
         {
           "id": "https://www.raywenderlich.com/4001919-how-to-make-an-app-like-instagram-in-ios",
           "author": null,
