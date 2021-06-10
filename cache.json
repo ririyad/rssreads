@@ -6,6 +6,24 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=340967",
+          "author": "Geoff Graham",
+          "description": "I don’t know about y’all, but my feeds have been flooded with articles about CSS Container Queries these past few weeks. The buzz about container queries actually started back in December after Miriam Suzanne posted a proposal (picking up on …\nThe post A Cornucopia of Container Queries appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/a-cornucopia-of-container-queries/",
+          "publishedOn": "2021-06-09T20:37:00.000Z",
+          "wordCount": 1534,
+          "title": "A Cornucopia of Container Queries"
+        },
+        {
+          "id": "https://css-tricks.com/?p=341916",
+          "author": "Chris Coyier",
+          "description": "Does that make your eye twitch a little bit? Like… it’s a typo. It should be target=\"_blank\" with an underscore to start the value. As in…\n<a target=\"_blank\" href=\"https://codepen.io\"Open CodePen in a New Tab\n</a\nWelp, that’s correct syntax!…\nThe post target=blank appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/targetblank/",
+          "publishedOn": "2021-06-09T14:37:31.000Z",
+          "wordCount": 858,
+          "title": "target=blank"
+        },
+        {
           "id": "https://css-tricks.com/?p=341982",
           "author": "Todd Libby",
           "description": "Have you ever experienced the frustration of trying to tap a button on a mobile device only to have it do nothing because the target size is just not large enough **and it’s not picking up on your press? Maybe …\nThe post Looking at WCAG 2.5.5 for Better Target Sizes appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
@@ -490,33 +508,6 @@
           "publishedOn": "2021-05-11T14:33:10.000Z",
           "wordCount": 844,
           "title": "Distributed Persistent Rendering (DPR)"
-        },
-        {
-          "id": "https://css-tricks.com/?p=340020",
-          "author": "Chris Coyier",
-          "description": "This is extremely fun. Jeff Lindsay has created Topframe, and writes:\nAnybody that knows how to mess around with HTML can now mess around with their desktop computing experience.&#160;Topframe&#160;is an open source tool that lets you \n&#8230;\nThe post Topframe appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/topframe/",
-          "publishedOn": "2021-05-10T21:14:15.000Z",
-          "wordCount": 568,
-          "title": "Topframe"
-        },
-        {
-          "id": "https://css-tricks.com/?p=340208",
-          "author": "Chris Coyier",
-          "description": "I find build tooling endlessly interesting, especially right now as we&#8217;re in a juicy next-gen transitional period with players like Vite, wmr, Snowpack, and esbuild. Hugh Haworth has a good run-down of the new players, and we&#8217;ve chatted on &#8230;\nThe post Migrating from Parcel to Snowpack appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://benfrain.com/migrating-from-parcel-to-snowpack-build-tool-comparison/",
-          "publishedOn": "2021-05-10T21:13:23.000Z",
-          "wordCount": 2948,
-          "title": "Migrating from Parcel to Snowpack"
-        },
-        {
-          "id": "https://css-tricks.com/?p=339203",
-          "author": "Ana Tudor",
-          "description": "I recently came across an interesting problem. I had to implement a grid of cards with a variable (user-set) aspect ratio that was stored in a --ratio custom property. Boxes with a certain aspect ratio are a classic problem in &#8230;\nThe post Variable Aspect Ratio Card With Conic Gradients Meeting Along the Diagonal appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/",
-          "publishedOn": "2021-05-10T14:13:12.000Z",
-          "wordCount": 2838,
-          "title": "Variable Aspect Ratio Card With Conic Gradients Meeting Along the Diagonal"
         }
       ]
     },
@@ -525,6 +516,42 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "60b357ad11ffb70827ef9a90",
+          "author": null,
+          "description": "Last year I tweeted about how I was moving from a Slum where I lived for 29 years to a multi-story rented apartment.  The tech community on Twitter responded with nothing but love. Dan Wahlin posted that he would love to hear more about my story. It's not going to",
+          "link": "https://www.freecodecamp.org/news/my-journey-into-tech-from-slums-of-mumbai-to-my-own-apartment/",
+          "publishedOn": "2021-06-09T21:55:16.000Z",
+          "wordCount": 3477,
+          "title": "From the Slums of Mumbai to a Rented Apartment – My 30-Year Developer Journey"
+        },
+        {
+          "id": "60c0ccbed3126007592d5781",
+          "author": null,
+          "description": "Here's the bottom line: you don't need much to get started as a freelance developer.  The biggest obstacle developers face when they're thinking about getting started is that they tend to overcomplicate things.  Most are intimidated by the sheer number of different paths or skills deemed necessary by various blog",
+          "link": "https://www.freecodecamp.org/news/the-skills-you-need-to-start-freelancing/",
+          "publishedOn": "2021-06-09T19:45:20.000Z",
+          "wordCount": 1731,
+          "title": "The Skills You Need to Start Freelancing as a Developer"
+        },
+        {
+          "id": "60c10a1dd3126007592d5988",
+          "author": null,
+          "description": "Bootstrap is one of the most popular CSS frameworks and Sass is one of the most popular preprocessors for CSS. We just released a course on the freeCodeCamp.org YouTube channel that will teach you about Bootstrap 5 and Sass by building a portfolio website. Patrick Muriungi developed this course.",
+          "link": "https://www.freecodecamp.org/news/learn-bootstrap-5-and-sass-by-building-a-portfolio-website/",
+          "publishedOn": "2021-06-09T18:43:07.000Z",
+          "wordCount": 336,
+          "title": "Learn Bootstrap 5 and SASS by Building a Portfolio Website"
+        },
+        {
+          "id": "60bfa4d4d3126007592d5160",
+          "author": null,
+          "description": "Throughout this post we’ll deploy your freeCodeCamp front end project using various services on AWS like S3, ElasticBeanstalk, and Lambda.",
+          "link": "https://www.freecodecamp.org/news/how-to-deploy-your-freecodecamp-project-on-aws/",
+          "publishedOn": "2021-06-08T23:47:43.000Z",
+          "wordCount": 9491,
+          "title": "How to Deploy Your freeCodeCamp Project on AWS – A Beginner&#x27;s Guide to the Cloud"
+        },
         {
           "id": "60bfd986d3126007592d53a1",
           "author": null,
@@ -1298,24 +1325,6 @@
           "publishedOn": "2021-05-11T12:56:14.000Z",
           "wordCount": 413,
           "title": "How to Design Good Typography - Free Treehouse Course"
-        },
-        {
-          "id": "605cf4879618b008528a77e2",
-          "author": "",
-          "description": "\"It's not about what you know, it's about whom you know.\" \"70-80% of jobs are found via someone's network.\" Most of us have heard cliches and stats like the above. And I think most of us intuitively know that having a network of people that can help us find opportunities",
-          "link": "https://www.freecodecamp.org/news/networking-for-aspiring-developers/",
-          "publishedOn": "2021-05-11T01:38:36.000Z",
-          "wordCount": 3119,
-          "title": "How to Get Your First Developer Job through Intelligent, Genuine Networking"
-        },
-        {
-          "id": "60953e202cd0545b5e943a8b",
-          "author": "",
-          "description": "Technical interviews are one of the most stressful parts of landing a job in tech.  You don't know what questions the interviewer is going to ask. What if you have no idea how to solve the problem in front of you? What if you freeze up and look like you",
-          "link": "https://www.freecodecamp.org/news/how-to-acing-your-coding-interview-advice-from-senior-software-engineer/",
-          "publishedOn": "2021-05-10T17:04:31.000Z",
-          "wordCount": 1254,
-          "title": "How to Ace Your Coding Interview – Advice from a Senior Software Engineer"
         }
       ]
     },
@@ -1368,6 +1377,15 @@
       "feedUrl": "https://www.raywenderlich.com/ios/feed",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://www.raywenderlich.com/21931256-charles-proxy-tutorial-for-ios",
+          "author": null,
+          "description": "Learn how to use Charles for iOS and macOS to inspect encrypted and unencrypted network traffic for both your own apps and third-party apps.",
+          "link": "https://www.raywenderlich.com/21931256-charles-proxy-tutorial-for-ios",
+          "publishedOn": "2021-06-09T12:59:53.000Z",
+          "wordCount": 4817,
+          "title": "Charles Proxy Tutorial for iOS [FREE]"
+        },
         {
           "id": "https://www.raywenderlich.com/24751268-wwdc-2021-first-impressions-livecast",
           "author": null,
@@ -1459,6 +1477,15 @@
           "title": "Core Graphics Tutorial: Patterns [FREE]"
         },
         {
+          "id": "https://www.raywenderlich.com/books/swiftui-apprentice",
+          "author": null,
+          "description": "<p><em>SwiftUI Apprentice</em> is a series of epic-length tutorials where you’ll learn to build three complete apps from scratch,\nusing Apple’s new user interface technology: SwiftUI! Each app is more advanced than the one before, and together,\nthey cover everything to make your own apps using SwiftUI. By the end of the book, you’ll be experienced enough\nto turn your ideas into real apps you can sell on the App Store. These tutorials have easy to follow step-by-step\ninstructions and consist of more than <!-- raw HTML omitted --> pages and <!-- raw HTML omitted --> illustrations! You also get full\nsource code, image files, and other resources you can re-use for your own projects.</p>\n<p>If you’re new to iOS and Swift, or to programming in general, learning how to write an app can seem incredibly overwhelming.\nThat’s why you need a guide that:</p>\n<ul>\n<li>Shows you how to write an app step-by-step.</li>\n<li>Uses tons of illustrations and screenshots to make everything clear.</li>\n<li>Guides you in a fun and easy-going manner.</li>\n</ul>\n<p>You’ll start at the very beginning. The first section assumes you have little to no knowledge of programming in Swift for iOS but still\nshows you how to build an entire fitness app from scratch using SwiftUI.\n<em>SwiftUI Apprentice</em> doesn’t cover every single feature of iOS; it focuses on the absolutely essential ones.\nInstead of just covering a list of features, <em>SwiftUI Apprentice</em> does something much more important: It explains how all the\nbuilding blocks fit together and what is involved in building real apps. You’re not going to create quick example programs that\ndemonstrate how to accomplish a single feature. Instead, you’ll develop complete, fully-formed apps, with beautiful,\nprofessionally-designed user interfaces, that are good enough to submit to the App Store!</p>\n<h3>How is this book different than SwiftUI by Tutorials?</h3>\n<p>Our other book on building apps with SwiftUI, <a href=\"https://www.raywenderlich.com/books/swiftui-by-tutorials\">SwiftUI by Tutorials</a>, is designed for developers who have a solid background in iOS development, and are looking to make the leap from building apps with UIKit, to building apps with SwiftUI.</p>\n<p>This book, <em>SwiftUI Apprentice</em>, is designed to teach new developers how to build iOS apps, using a SwiftUI-first approach. Its goal is to teach you fundamental development practices as you build out some fully-functional and great-looking apps!</p>",
+          "link": "https://www.raywenderlich.com/books/swiftui-apprentice",
+          "publishedOn": "2021-05-26T00:00:00.000Z",
+          "wordCount": 2331,
+          "title": "SwiftUI Apprentice [SUBSCRIBER]"
+        },
+        {
           "id": "https://www.raywenderlich.com/books/swiftui-apprentice/v1.0/",
           "author": null,
           "description": "<p><em>SwiftUI Apprentice</em> is a series of epic-length tutorials where you’ll learn to build three complete apps from scratch,\nusing Apple’s new user interface technology: SwiftUI! Each app is more advanced than the one before, and together,\nthey cover everything to make your own apps using SwiftUI. By the end of the book, you’ll be experienced enough\nto turn your ideas into real apps you can sell on the App Store. These tutorials have easy to follow step-by-step\ninstructions and consist of more than <!-- raw HTML omitted --> pages and <!-- raw HTML omitted --> illustrations! You also get full\nsource code, image files, and other resources you can re-use for your own projects.</p>\n<p>If you’re new to iOS and Swift, or to programming in general, learning how to write an app can seem incredibly overwhelming.\nThat’s why you need a guide that:</p>\n<ul>\n<li>Shows you how to write an app step-by-step.</li>\n<li>Uses tons of illustrations and screenshots to make everything clear.</li>\n<li>Guides you in a fun and easy-going manner.</li>\n</ul>\n<p>You’ll start at the very beginning. The first section assumes you have little to no knowledge of programming in Swift for iOS but still\nshows you how to build an entire fitness app from scratch using SwiftUI.\n<em>SwiftUI Apprentice</em> doesn’t cover every single feature of iOS; it focuses on the absolutely essential ones.\nInstead of just covering a list of features, <em>SwiftUI Apprentice</em> does something much more important: It explains how all the\nbuilding blocks fit together and what is involved in building real apps. You’re not going to create quick example programs that\ndemonstrate how to accomplish a single feature. Instead, you’ll develop complete, fully-formed apps, with beautiful,\nprofessionally-designed user interfaces, that are good enough to submit to the App Store!</p>",
@@ -1493,6 +1520,15 @@
           "publishedOn": "2021-05-19T12:58:56.000Z",
           "wordCount": 3247,
           "title": "Announcing Advanced Swift, First Edition! [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/books/expert-swift",
+          "author": null,
+          "description": "<h2>Master the Swift language with the Expert Swift book!</h2>\n<p>Swift is a rich language with a plethora of features to offer. Reading the official documentation or entry-level books is important, but it’s not enough to grasp the true power of the language.</p>\n<p>Expert Swift is here to help, by showing you how to harness the full power of Swift. You’ll learn about advanced usages of protocols, generics, functional reactive programming, API design and more.</p>",
+          "link": "https://www.raywenderlich.com/books/expert-swift",
+          "publishedOn": "2021-05-19T00:00:00.000Z",
+          "wordCount": 2027,
+          "title": "Expert Swift [SUBSCRIBER]"
         },
         {
           "id": "https://www.raywenderlich.com/books/expert-swift/v1.0/",
@@ -1565,24 +1601,6 @@
           "publishedOn": "2021-05-12T12:59:44.000Z",
           "wordCount": 3941,
           "title": "AVAudioEngine Tutorial for iOS: Getting Started [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/20656613-adapting-to-user-accessibility-settings-in-swiftui",
-          "author": null,
-          "description": "In this course, learn how to adapt a SwiftUI app to common\nAccessibility settings including Dark Mode and Dynamic Type. Work with\nAccessibility Inspector and SwiftUI Previews to learn how to build for\nAccessibility faster.",
-          "link": "https://www.raywenderlich.com/20656613-adapting-to-user-accessibility-settings-in-swiftui",
-          "publishedOn": "2021-05-11T00:00:00.000Z",
-          "wordCount": 874,
-          "title": "Adapting to User Accessibility Settings in SwiftUI [SUBSCRIBER]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started",
-          "author": null,
-          "description": "Learn how to use MetricKit to monitor power, performance, and diagnostics in your iOS apps.",
-          "link": "https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started",
-          "publishedOn": "2021-05-10T12:59:23.000Z",
-          "wordCount": 3351,
-          "title": "Monitoring for iOS with MetricKit: Getting Started [FREE]"
         }
       ]
     },
@@ -1642,15 +1660,6 @@
           "publishedOn": "2021-05-16T17:25:26.000Z",
           "wordCount": 25,
           "title": "Sean Allen Live - WWDC Wishes, Dub Dub Grub, Portfolio Projects & More"
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=5jjsrRaUJLY",
-          "author": null,
-          "description": "In this episode of What I'm Working On, I discuss an unexpected job application and struggling on a take home project, while also diving into the business of...",
-          "link": "https://www.youtube.com/watch?v=5jjsrRaUJLY",
-          "publishedOn": "2021-05-10T12:50:10.000Z",
-          "wordCount": 27,
-          "title": "WIWO #13: Job App & Take Home Project, Coding at Aluna, Sponsorships & Angel Investing."
         }
       ]
     },

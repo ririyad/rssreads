@@ -2,10 +2,87 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-09T00:46:10.076Z</updated>
+    <updated>2021-06-10T00:44:27.819Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[From the Slums of Mumbai to a Rented Apartment – My 30-Year Developer Journey]]></title>
+        <id>60b357ad11ffb70827ef9a90</id>
+        <link href="https://www.freecodecamp.org/news/my-journey-into-tech-from-slums-of-mumbai-to-my-own-apartment/"/>
+        <updated>2021-06-09T21:55:16.000Z</updated>
+        <summary type="html"><![CDATA[Last year I tweeted about how I was moving from a Slum where I lived for 29 years to a multi-story rented apartment.  The tech community on Twitter responded with nothing but love. Dan Wahlin posted that he would love to hear more about my story. It's not going to]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Cornucopia of Container Queries]]></title>
+        <id>https://css-tricks.com/?p=340967</id>
+        <link href="https://css-tricks.com/a-cornucopia-of-container-queries/"/>
+        <updated>2021-06-09T20:37:00.000Z</updated>
+        <summary type="html"><![CDATA[I don’t know about y’all, but my feeds have been flooded with articles about CSS Container Queries these past few weeks. The buzz about container queries actually started back in December after Miriam Suzanne posted a proposal (picking up on …
+The post A Cornucopia of Container Queries appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Geoff Graham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Skills You Need to Start Freelancing as a Developer]]></title>
+        <id>60c0ccbed3126007592d5781</id>
+        <link href="https://www.freecodecamp.org/news/the-skills-you-need-to-start-freelancing/"/>
+        <updated>2021-06-09T19:45:20.000Z</updated>
+        <summary type="html"><![CDATA[Here's the bottom line: you don't need much to get started as a freelance developer.  The biggest obstacle developers face when they're thinking about getting started is that they tend to overcomplicate things.  Most are intimidated by the sheer number of different paths or skills deemed necessary by various blog]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn Bootstrap 5 and SASS by Building a Portfolio Website]]></title>
+        <id>60c10a1dd3126007592d5988</id>
+        <link href="https://www.freecodecamp.org/news/learn-bootstrap-5-and-sass-by-building-a-portfolio-website/"/>
+        <updated>2021-06-09T18:43:07.000Z</updated>
+        <summary type="html"><![CDATA[Bootstrap is one of the most popular CSS frameworks and Sass is one of the most popular preprocessors for CSS. We just released a course on the freeCodeCamp.org YouTube channel that will teach you about Bootstrap 5 and Sass by building a portfolio website. Patrick Muriungi developed this course.]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[target=blank]]></title>
+        <id>https://css-tricks.com/?p=341916</id>
+        <link href="https://css-tricks.com/targetblank/"/>
+        <updated>2021-06-09T14:37:31.000Z</updated>
+        <summary type="html"><![CDATA[Does that make your eye twitch a little bit? Like… it’s a typo. It should be target="_blank" with an underscore to start the value. As in…
+<a target="_blank" href="https://codepen.io"Open CodePen in a New Tab
+</a
+Welp, that’s correct syntax!…
+The post target=blank appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Charles Proxy Tutorial for iOS [FREE]]]></title>
+        <id>https://www.raywenderlich.com/21931256-charles-proxy-tutorial-for-ios</id>
+        <link href="https://www.raywenderlich.com/21931256-charles-proxy-tutorial-for-ios"/>
+        <updated>2021-06-09T12:59:53.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to use Charles for iOS and macOS to inspect encrypted and unencrypted network traffic for both your own apps and third-party apps.]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Deploy Your freeCodeCamp Project on AWS – A Beginner&#x27;s Guide to the Cloud]]></title>
+        <id>60bfa4d4d3126007592d5160</id>
+        <link href="https://www.freecodecamp.org/news/how-to-deploy-your-freecodecamp-project-on-aws/"/>
+        <updated>2021-06-08T23:47:43.000Z</updated>
+        <summary type="html"><![CDATA[Throughout this post we’ll deploy your freeCodeCamp front end project using various services on AWS like S3, ElasticBeanstalk, and Lambda.]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Create Your Own Electronics With Arduino - Full Course]]></title>
         <id>60bfd986d3126007592d53a1</id>
@@ -883,6 +960,38 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[SwiftUI Apprentice [SUBSCRIBER]]]></title>
+        <id>https://www.raywenderlich.com/books/swiftui-apprentice</id>
+        <link href="https://www.raywenderlich.com/books/swiftui-apprentice"/>
+        <updated>2021-05-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p><em>SwiftUI Apprentice</em> is a series of epic-length tutorials where you’ll learn to build three complete apps from scratch,
+using Apple’s new user interface technology: SwiftUI! Each app is more advanced than the one before, and together,
+they cover everything to make your own apps using SwiftUI. By the end of the book, you’ll be experienced enough
+to turn your ideas into real apps you can sell on the App Store. These tutorials have easy to follow step-by-step
+instructions and consist of more than <!-- raw HTML omitted --> pages and <!-- raw HTML omitted --> illustrations! You also get full
+source code, image files, and other resources you can re-use for your own projects.</p>
+<p>If you’re new to iOS and Swift, or to programming in general, learning how to write an app can seem incredibly overwhelming.
+That’s why you need a guide that:</p>
+<ul>
+<li>Shows you how to write an app step-by-step.</li>
+<li>Uses tons of illustrations and screenshots to make everything clear.</li>
+<li>Guides you in a fun and easy-going manner.</li>
+</ul>
+<p>You’ll start at the very beginning. The first section assumes you have little to no knowledge of programming in Swift for iOS but still
+shows you how to build an entire fitness app from scratch using SwiftUI.
+<em>SwiftUI Apprentice</em> doesn’t cover every single feature of iOS; it focuses on the absolutely essential ones.
+Instead of just covering a list of features, <em>SwiftUI Apprentice</em> does something much more important: It explains how all the
+building blocks fit together and what is involved in building real apps. You’re not going to create quick example programs that
+demonstrate how to accomplish a single feature. Instead, you’ll develop complete, fully-formed apps, with beautiful,
+professionally-designed user interfaces, that are good enough to submit to the App Store!</p>
+<h3>How is this book different than SwiftUI by Tutorials?</h3>
+<p>Our other book on building apps with SwiftUI, <a href="https://www.raywenderlich.com/books/swiftui-by-tutorials">SwiftUI by Tutorials</a>, is designed for developers who have a solid background in iOS development, and are looking to make the leap from building apps with UIKit, to building apps with SwiftUI.</p>
+<p>This book, <em>SwiftUI Apprentice</em>, is designed to teach new developers how to build iOS apps, using a SwiftUI-first approach. Its goal is to teach you fundamental development practices as you build out some fully-functional and great-looking apps!</p>]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SwiftUI Apprentice [SUBSCRIBER]]]></title>
         <id>https://www.raywenderlich.com/books/swiftui-apprentice/v1.0/</id>
         <link href="https://www.raywenderlich.com/books/swiftui-apprentice/v1.0/"/>
         <updated>2021-05-26T00:00:00.000Z</updated>
@@ -1314,6 +1423,18 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <link href="https://www.raywenderlich.com/23819541-announcing-advanced-swift-first-edition"/>
         <updated>2021-05-19T12:58:56.000Z</updated>
         <summary type="html"><![CDATA[Looking to take your understanding of Swift to the next level? Dive deep into the inner workings of the language in our newest book: Advanced Swift!]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Expert Swift [SUBSCRIBER]]]></title>
+        <id>https://www.raywenderlich.com/books/expert-swift</id>
+        <link href="https://www.raywenderlich.com/books/expert-swift"/>
+        <updated>2021-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2>Master the Swift language with the Expert Swift book!</h2>
+<p>Swift is a rich language with a plethora of features to offer. Reading the official documentation or entry-level books is important, but it’s not enough to grasp the true power of the language.</p>
+<p>Expert Swift is here to help, by showing you how to harness the full power of Swift. You’ll learn about advanced usages of protocols, generics, functional reactive programming, API design and more.</p>]]></summary>
         <author>
             <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
         </author>
@@ -1902,97 +2023,6 @@ You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <summary type="html"><![CDATA[Typography is one of the most important aspects of good design. It is especially important for web designers. We just released a course on the freeCodeCamp.org YouTube channel that will teach you all you need to know about creating good typography as a UX Designer. Hope Armstrong developed this]]></summary>
         <author>
             <name/>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Get Your First Developer Job through Intelligent, Genuine Networking]]></title>
-        <id>605cf4879618b008528a77e2</id>
-        <link href="https://www.freecodecamp.org/news/networking-for-aspiring-developers/"/>
-        <updated>2021-05-11T01:38:36.000Z</updated>
-        <summary type="html"><![CDATA["It's not about what you know, it's about whom you know." "70-80% of jobs are found via someone's network." Most of us have heard cliches and stats like the above. And I think most of us intuitively know that having a network of people that can help us find opportunities]]></summary>
-        <author>
-            <name/>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adapting to User Accessibility Settings in SwiftUI [SUBSCRIBER]]]></title>
-        <id>https://www.raywenderlich.com/20656613-adapting-to-user-accessibility-settings-in-swiftui</id>
-        <link href="https://www.raywenderlich.com/20656613-adapting-to-user-accessibility-settings-in-swiftui"/>
-        <updated>2021-05-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this course, learn how to adapt a SwiftUI app to common
-Accessibility settings including Dark Mode and Dynamic Type. Work with
-Accessibility Inspector and SwiftUI Previews to learn how to build for
-Accessibility faster.]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Topframe]]></title>
-        <id>https://css-tricks.com/?p=340020</id>
-        <link href="https://css-tricks.com/topframe/"/>
-        <updated>2021-05-10T21:14:15.000Z</updated>
-        <summary type="html"><![CDATA[This is extremely fun. Jeff Lindsay has created Topframe, and writes:
-Anybody that knows how to mess around with HTML can now mess around with their desktop computing experience.&#160;Topframe&#160;is an open source tool that lets you 
-&#8230;
-The post Topframe appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating from Parcel to Snowpack]]></title>
-        <id>https://css-tricks.com/?p=340208</id>
-        <link href="https://benfrain.com/migrating-from-parcel-to-snowpack-build-tool-comparison/"/>
-        <updated>2021-05-10T21:13:23.000Z</updated>
-        <summary type="html"><![CDATA[I find build tooling endlessly interesting, especially right now as we&#8217;re in a juicy next-gen transitional period with players like Vite, wmr, Snowpack, and esbuild. Hugh Haworth has a good run-down of the new players, and we&#8217;ve chatted on &#8230;
-The post Migrating from Parcel to Snowpack appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Ace Your Coding Interview – Advice from a Senior Software Engineer]]></title>
-        <id>60953e202cd0545b5e943a8b</id>
-        <link href="https://www.freecodecamp.org/news/how-to-acing-your-coding-interview-advice-from-senior-software-engineer/"/>
-        <updated>2021-05-10T17:04:31.000Z</updated>
-        <summary type="html"><![CDATA[Technical interviews are one of the most stressful parts of landing a job in tech.  You don't know what questions the interviewer is going to ask. What if you have no idea how to solve the problem in front of you? What if you freeze up and look like you]]></summary>
-        <author>
-            <name/>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Variable Aspect Ratio Card With Conic Gradients Meeting Along the Diagonal]]></title>
-        <id>https://css-tricks.com/?p=339203</id>
-        <link href="https://css-tricks.com/variable-aspect-ratio-card-with-conic-gradients-meeting-along-the-diagonal/"/>
-        <updated>2021-05-10T14:13:12.000Z</updated>
-        <summary type="html"><![CDATA[I recently came across an interesting problem. I had to implement a grid of cards with a variable (user-set) aspect ratio that was stored in a --ratio custom property. Boxes with a certain aspect ratio are a classic problem in &#8230;
-The post Variable Aspect Ratio Card With Conic Gradients Meeting Along the Diagonal appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Ana Tudor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Monitoring for iOS with MetricKit: Getting Started [FREE]]]></title>
-        <id>https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started</id>
-        <link href="https://www.raywenderlich.com/20952676-monitoring-for-ios-with-metrickit-getting-started"/>
-        <updated>2021-05-10T12:59:23.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to use MetricKit to monitor power, performance, and diagnostics in your iOS apps.]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WIWO #13: Job App & Take Home Project, Coding at Aluna, Sponsorships & Angel Investing.]]></title>
-        <id>https://www.youtube.com/watch?v=5jjsrRaUJLY</id>
-        <link href="https://www.youtube.com/watch?v=5jjsrRaUJLY"/>
-        <updated>2021-05-10T12:50:10.000Z</updated>
-        <summary type="html"><![CDATA[In this episode of What I'm Working On, I discuss an unexpected job application and struggling on a take home project, while also diving into the business of...]]></summary>
-        <author>
-            <name>Sean Allen</name>
         </author>
     </entry>
 </feed>
