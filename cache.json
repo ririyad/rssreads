@@ -6,6 +6,24 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=341511",
+          "author": "Carter Li",
+          "description": "The outline property in CSS draws a line around the outside of an element. This is quite similar to the border property, the main exception being that outline isn’t a part of the box model. It is often used for …\nThe post Using the `outline` Property as a Collapsable Border appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/using-the-outline-property-as-a-collapsable-border/",
+          "publishedOn": "2021-06-18T20:38:59.000Z",
+          "wordCount": 974,
+          "title": "Using the `outline` Property as a Collapsable Border"
+        },
+        {
+          "id": "https://css-tricks.com/?p=342326",
+          "author": "Chris Coyier",
+          "description": "I studied the fonts of the top 1000 websites. Here’s what I learned. — Michael Li brings the data. San-serif has total dominance. “[…] it is rare to go below 10px or above 24px.” And poor <h5> always being the \n…\nThe post Links on Typography appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/links-on-typography-2/",
+          "publishedOn": "2021-06-18T13:44:17.000Z",
+          "wordCount": 784,
+          "title": "Links on Typography"
+        },
+        {
           "id": "https://css-tricks.com/?p=341948",
           "author": "Louis Hoebregts",
           "description": "Clipping and masking have been around for a while now in CSS and even have pretty decent browser support. I recently worked on a project that needed to use a clipping technique for tooltips showing above links in text.\nThose …\nThe post Perfect Tooltips With CSS Clipping and Masking appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
@@ -490,24 +508,6 @@
           "publishedOn": "2021-05-20T14:20:56.000Z",
           "wordCount": 1196,
           "title": "fit-content and fit-content()"
-        },
-        {
-          "id": "https://css-tricks.com/?p=340731",
-          "author": "Chris Coyier",
-          "description": "The Public Beta of the Notion API dropped! Woot! Here’s their guide. I’ve been a Notion user and fan for a long time, for both personal and professional team use. They even sponsored a few videos around here a …\nThe post Notion API appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/notion-api/",
-          "publishedOn": "2021-05-19T23:18:42.000Z",
-          "wordCount": 1042,
-          "title": "Notion API"
-        },
-        {
-          "id": "https://css-tricks.com/?p=340692",
-          "author": "Shubham Jain",
-          "description": "SVGs are awesome: they are small, look sharp on any scale, and can be customized without creating a separate file. However, there is something I feel is missing in web standards today: a way to include them as an external …\nThe post svg-loader: A Different Way to Work With External SVG appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/svg-loader-a-different-way-to-work-with-external-svg/",
-          "publishedOn": "2021-05-19T14:28:19.000Z",
-          "wordCount": 1417,
-          "title": "svg-loader: A Different Way to Work With External SVG"
         }
       ]
     },
@@ -516,6 +516,33 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "60b46dbd11ffb70827ef9dea",
+          "author": null,
+          "description": "What is TCP?TCP is an acronym for Transmission Control Protocol. It is a transport layer protocol that allows packets to be sent from one location to another.  TCP is a connection-oriented protocol, which means it establishes the connection before any communication between the network’s computer units. Because we",
+          "link": "https://www.freecodecamp.org/news/tcp-vs-udp-which-is-faster/",
+          "publishedOn": "2021-06-18T15:45:00.000Z",
+          "wordCount": 1613,
+          "title": "TCP vs UDP – Which Protocol is Faster?"
+        },
+        {
+          "id": "60cc5a904dc1a607ed7b4c54",
+          "author": null,
+          "description": "Today, you don’t need to go to a university or a college to pursue a career in machine learning or any data-driven domain. But you do need a plan and a roadmap to guide your studies. Once you have charted your own learning roadmap with a goal in mind,",
+          "link": "https://www.freecodecamp.org/news/machine-learning-specialisation-courses-for-advanced-ml-practitioners/",
+          "publishedOn": "2021-06-18T15:43:56.000Z",
+          "wordCount": 906,
+          "title": "Machine Learning Specialisation Courses for Advanced ML Practitioners"
+        },
+        {
+          "id": "60cca3294dc1a607ed7b4c76",
+          "author": null,
+          "description": "Every programming language uses sorting algorithms. While programming languages have easy-to-use sorting methods, it can be helpful to understand how they work. We just released a course on the freeCodeCamp.org YouTube channel that will teach you some of the most popular sorting algorithms! Haris Iftikhar developed this course. Haris",
+          "link": "https://www.freecodecamp.org/news/understanding-sorting-algorithms/",
+          "publishedOn": "2021-06-18T13:56:04.000Z",
+          "wordCount": 13842,
+          "title": "Understanding Sorting Algorithms"
+        },
         {
           "id": "60c2aa56d3126007592d6226",
           "author": null,
@@ -1280,33 +1307,6 @@
           "publishedOn": "2021-05-20T14:53:38.000Z",
           "wordCount": 1202,
           "title": "Learn JavaScript - A Free 7-hour Interactive Tutorial"
-        },
-        {
-          "id": "60a341f5906c5207e3a7da61",
-          "author": "",
-          "description": "CSS selectors are one of the most important parts of CSS. They give you the ability to target HTML elements on your web page that you want to style. Without CSS selectors, you wouldn't be able to style your page to look how you want. Thankfully CSS selectors have been",
-          "link": "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/",
-          "publishedOn": "2021-05-19T23:17:21.000Z",
-          "wordCount": 2742,
-          "title": "How to Use CSS Selectors to Style Your Web Page"
-        },
-        {
-          "id": "60a42386906c5207e3a7dfe2",
-          "author": "",
-          "description": "The internet is going through a paradigm shift. Learn the differences between Web2 and Web3, and why many developers and companies are shifting their approach in building apps.",
-          "link": "https://www.freecodecamp.org/news/what-is-web3/",
-          "publishedOn": "2021-05-19T21:09:01.000Z",
-          "wordCount": 2086,
-          "title": "What is Web3? The Decentralized Internet of the Future Explained"
-        },
-        {
-          "id": "60a469ec906c5207e3a7e1b9",
-          "author": "",
-          "description": "Imagine that you work at Magic Money Corp, which runs on just three lines of JavaScript: let input = { step1: 'collect underpants' } doStuff(input)  profit(input) // $$$!!! Now imagine that something's wrong with doStuff and you need to take it down for maintenance. What happens if you temporarily comment out the second",
-          "link": "https://www.freecodecamp.org/news/how-to-optimize-for-change-software-development/",
-          "publishedOn": "2021-05-19T17:30:08.000Z",
-          "wordCount": 1981,
-          "title": "How to Optimize for Change in Software Development"
         }
       ]
     },
@@ -1520,24 +1520,6 @@
           "publishedOn": "2021-05-24T12:59:50.000Z",
           "wordCount": 5981,
           "title": "Firebase Dynamic Links: Getting Started [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/23819541-announcing-expert-swift-first-edition",
-          "author": null,
-          "description": "Looking to take your understanding of Swift to the next level? Dive deep into the inner workings of the language in our newest book: Expert Swift!",
-          "link": "https://www.raywenderlich.com/23819541-announcing-expert-swift-first-edition",
-          "publishedOn": "2021-05-19T12:58:56.000Z",
-          "wordCount": 3157,
-          "title": "Announcing Expert Swift, First Edition! [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/23819541-announcing-advanced-swift-first-edition",
-          "author": null,
-          "description": "Looking to take your understanding of Swift to the next level? Dive deep into the inner workings of the language in our newest book: Advanced Swift!",
-          "link": "https://www.raywenderlich.com/23819541-announcing-advanced-swift-first-edition",
-          "publishedOn": "2021-05-19T12:58:56.000Z",
-          "wordCount": 3247,
-          "title": "Announcing Advanced Swift, First Edition! [FREE]"
         }
       ]
     },
@@ -1597,15 +1579,6 @@
           "publishedOn": "2021-05-28T11:46:27.000Z",
           "wordCount": 24,
           "title": "SwiftUI - Intro to MVVM | Example Refactor | Model View ViewModel"
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=WrrP5E1a5_0",
-          "author": null,
-          "description": "Today I'm launching my next iOS developer course, Dub Dub Grub. In this course we build one big project in SwiftUI with MVVM. We utilize CloudKit for our bac...",
-          "link": "https://www.youtube.com/watch?v=WrrP5E1a5_0",
-          "publishedOn": "2021-05-20T12:37:15.000Z",
-          "wordCount": 17,
-          "title": "Dub Dub Grub Course Overview"
         }
       ]
     },

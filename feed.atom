@@ -2,10 +2,65 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-18T00:40:04.733Z</updated>
+    <updated>2021-06-19T00:40:10.468Z</updated>
     <generator>osmosfeed 1.10.2</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Using the `outline` Property as a Collapsable Border]]></title>
+        <id>https://css-tricks.com/?p=341511</id>
+        <link href="https://css-tricks.com/using-the-outline-property-as-a-collapsable-border/"/>
+        <updated>2021-06-18T20:38:59.000Z</updated>
+        <summary type="html"><![CDATA[The outline property in CSS draws a line around the outside of an element. This is quite similar to the border property, the main exception being that outline isn’t a part of the box model. It is often used for …
+The post Using the `outline` Property as a Collapsable Border appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Carter Li</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TCP vs UDP – Which Protocol is Faster?]]></title>
+        <id>60b46dbd11ffb70827ef9dea</id>
+        <link href="https://www.freecodecamp.org/news/tcp-vs-udp-which-is-faster/"/>
+        <updated>2021-06-18T15:45:00.000Z</updated>
+        <summary type="html"><![CDATA[What is TCP?TCP is an acronym for Transmission Control Protocol. It is a transport layer protocol that allows packets to be sent from one location to another.  TCP is a connection-oriented protocol, which means it establishes the connection before any communication between the network’s computer units. Because we]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Machine Learning Specialisation Courses for Advanced ML Practitioners]]></title>
+        <id>60cc5a904dc1a607ed7b4c54</id>
+        <link href="https://www.freecodecamp.org/news/machine-learning-specialisation-courses-for-advanced-ml-practitioners/"/>
+        <updated>2021-06-18T15:43:56.000Z</updated>
+        <summary type="html"><![CDATA[Today, you don’t need to go to a university or a college to pursue a career in machine learning or any data-driven domain. But you do need a plan and a roadmap to guide your studies. Once you have charted your own learning roadmap with a goal in mind,]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Understanding Sorting Algorithms]]></title>
+        <id>60cca3294dc1a607ed7b4c76</id>
+        <link href="https://www.freecodecamp.org/news/understanding-sorting-algorithms/"/>
+        <updated>2021-06-18T13:56:04.000Z</updated>
+        <summary type="html"><![CDATA[Every programming language uses sorting algorithms. While programming languages have easy-to-use sorting methods, it can be helpful to understand how they work. We just released a course on the freeCodeCamp.org YouTube channel that will teach you some of the most popular sorting algorithms! Haris Iftikhar developed this course. Haris]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Links on Typography]]></title>
+        <id>https://css-tricks.com/?p=342326</id>
+        <link href="https://css-tricks.com/links-on-typography-2/"/>
+        <updated>2021-06-18T13:44:17.000Z</updated>
+        <summary type="html"><![CDATA[I studied the fonts of the top 1000 websites. Here’s what I learned. — Michael Li brings the data. San-serif has total dominance. “[…] it is rare to go below 10px or above 24px.” And poor <h5> always being the 
+…
+The post Links on Typography appeared first on CSS-Tricks.
+You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Perfect Tooltips With CSS Clipping and Masking]]></title>
         <id>https://css-tricks.com/?p=341948</id>
@@ -1893,90 +1948,6 @@ The post fit-content and fit-content() appeared first on CSS-Tricks.
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dub Dub Grub Course Overview]]></title>
-        <id>https://www.youtube.com/watch?v=WrrP5E1a5_0</id>
-        <link href="https://www.youtube.com/watch?v=WrrP5E1a5_0"/>
-        <updated>2021-05-20T12:37:15.000Z</updated>
-        <summary type="html"><![CDATA[Today I'm launching my next iOS developer course, Dub Dub Grub. In this course we build one big project in SwiftUI with MVVM. We utilize CloudKit for our bac...]]></summary>
-        <author>
-            <name>Sean Allen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion API]]></title>
-        <id>https://css-tricks.com/?p=340731</id>
-        <link href="https://css-tricks.com/notion-api/"/>
-        <updated>2021-05-19T23:18:42.000Z</updated>
-        <summary type="html"><![CDATA[The Public Beta of the Notion API dropped! Woot! Here’s their guide. I’ve been a Notion user and fan for a long time, for both personal and professional team use. They even sponsored a few videos around here a …
-The post Notion API appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use CSS Selectors to Style Your Web Page]]></title>
-        <id>60a341f5906c5207e3a7da61</id>
-        <link href="https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/"/>
-        <updated>2021-05-19T23:17:21.000Z</updated>
-        <summary type="html"><![CDATA[CSS selectors are one of the most important parts of CSS. They give you the ability to target HTML elements on your web page that you want to style. Without CSS selectors, you wouldn't be able to style your page to look how you want. Thankfully CSS selectors have been]]></summary>
-        <author>
-            <name/>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Web3? The Decentralized Internet of the Future Explained]]></title>
-        <id>60a42386906c5207e3a7dfe2</id>
-        <link href="https://www.freecodecamp.org/news/what-is-web3/"/>
-        <updated>2021-05-19T21:09:01.000Z</updated>
-        <summary type="html"><![CDATA[The internet is going through a paradigm shift. Learn the differences between Web2 and Web3, and why many developers and companies are shifting their approach in building apps.]]></summary>
-        <author>
-            <name/>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Optimize for Change in Software Development]]></title>
-        <id>60a469ec906c5207e3a7e1b9</id>
-        <link href="https://www.freecodecamp.org/news/how-to-optimize-for-change-software-development/"/>
-        <updated>2021-05-19T17:30:08.000Z</updated>
-        <summary type="html"><![CDATA[Imagine that you work at Magic Money Corp, which runs on just three lines of JavaScript: let input = { step1: 'collect underpants' } doStuff(input)  profit(input) // $$$!!! Now imagine that something's wrong with doStuff and you need to take it down for maintenance. What happens if you temporarily comment out the second]]></summary>
-        <author>
-            <name/>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[svg-loader: A Different Way to Work With External SVG]]></title>
-        <id>https://css-tricks.com/?p=340692</id>
-        <link href="https://css-tricks.com/svg-loader-a-different-way-to-work-with-external-svg/"/>
-        <updated>2021-05-19T14:28:19.000Z</updated>
-        <summary type="html"><![CDATA[SVGs are awesome: they are small, look sharp on any scale, and can be customized without creating a separate file. However, there is something I feel is missing in web standards today: a way to include them as an external …
-The post svg-loader: A Different Way to Work With External SVG appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Shubham Jain</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Expert Swift, First Edition! [FREE]]]></title>
-        <id>https://www.raywenderlich.com/23819541-announcing-expert-swift-first-edition</id>
-        <link href="https://www.raywenderlich.com/23819541-announcing-expert-swift-first-edition"/>
-        <updated>2021-05-19T12:58:56.000Z</updated>
-        <summary type="html"><![CDATA[Looking to take your understanding of Swift to the next level? Dive deep into the inner workings of the language in our newest book: Expert Swift!]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Advanced Swift, First Edition! [FREE]]]></title>
-        <id>https://www.raywenderlich.com/23819541-announcing-advanced-swift-first-edition</id>
-        <link href="https://www.raywenderlich.com/23819541-announcing-advanced-swift-first-edition"/>
-        <updated>2021-05-19T12:58:56.000Z</updated>
-        <summary type="html"><![CDATA[Looking to take your understanding of Swift to the next level? Dive deep into the inner workings of the language in our newest book: Advanced Swift!]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
         </author>
     </entry>
 </feed>
