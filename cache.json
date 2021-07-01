@@ -6,6 +6,33 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=343224",
+          "author": "Chris Coyier",
+          "description": "I got this exact question in an email the other day, and I thought it would make a nice blog post because of how wonderfully satisfying this is to do in CSS these days. Plus we can sprinkle in polish …\nThe post How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/how-do-you-make-a-layout-with-pictures-down-one-side-of-a-page-matched-up-with-paragraphs-on-the-other-side/",
+          "publishedOn": "2021-06-30T20:36:52.000Z",
+          "wordCount": 645,
+          "title": "How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=343064",
+          "author": "Travis Almand",
+          "description": "The click event is quite simple and easy to use; you listen for the event and run code when the event is fired. It works on just about every HTML element there is, a core feature of the DOM API.…\nThe post When a Click is Not Just a Click appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/when-a-click-is-not-just-a-click/",
+          "publishedOn": "2021-06-30T14:45:42.000Z",
+          "wordCount": 4397,
+          "title": "When a Click is Not Just a Click"
+        },
+        {
+          "id": "https://css-tricks.com/?p=343182",
+          "author": "Chris Coyier",
+          "description": "I was working on a bug ticket the other day where it was reported that an icon was sitting low in a button. Just not aligned like it should be. I had to go on a little journey to figure …\nThe post Fixing a Bug in Low-Resolution Mode appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/fixing-a-bug-in-low-resolution-mode/",
+          "publishedOn": "2021-06-30T14:44:54.000Z",
+          "wordCount": 675,
+          "title": "Fixing a Bug in Low-Resolution Mode"
+        },
+        {
           "id": "https://css-tricks.com/?p=343470",
           "author": "Chris Coyier",
           "description": "I use this line, or one like it, in a lot of quick demos. Not that it’s not a production-worthy line of code—I just tend to be a bit more explicit on bigger projects. \nhtml {\n  font: 110%/1.4 system-ui;\n}\n…\nThe post What does `font: 110%/1.4 system-ui` mean? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -481,24 +508,6 @@
           "publishedOn": "2021-06-01T14:16:55.000Z",
           "wordCount": 926,
           "title": "Jetpack Boost Handles Critical CSS For You"
-        },
-        {
-          "id": "https://css-tricks.com/?p=340465",
-          "author": "Jason Lengstorf",
-          "description": "Modern apps place high demands on front-end developers. Web apps require complex functionality, and the lion’s share of that work is falling to front-end devs:\nbuilding modern, accessible user interfaces\ncreating interactive elements and complex animations\nmanaging complex application state\n…\nThe post Serverless Functions: The Secret to Ultra-Productive Front-End Teams appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/serverless-functions-the-secret-to-ultra-productive-front-end-teams/",
-          "publishedOn": "2021-05-31T17:16:22.000Z",
-          "wordCount": 1790,
-          "title": "Serverless Functions: The Secret to Ultra-Productive Front-End Teams"
-        },
-        {
-          "id": "https://css-tricks.com/?p=341482",
-          "author": "Chris Coyier",
-          "description": "I’ve been using Local for ages. Four years ago, I wrote about how I got all my WordPress sites running locally on it. I just wanted to give it another high five because it’s still here and still great. In …\nThe post Local: Always Getting Better appeared first on CSS-Tricks.\nYou can support CSS-Tricks by being an MVP Supporter.",
-          "link": "https://css-tricks.com/local-always-getting-better/",
-          "publishedOn": "2021-05-31T17:13:02.000Z",
-          "wordCount": 981,
-          "title": "Local: Always Getting Better"
         }
       ]
     },
@@ -507,6 +516,33 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "6063b8d69618b008528a9d79",
+          "author": null,
+          "description": "Today we're gonna learn how to use CSS's box-shadow property to make beautiful website components. Along the way, we'll create a button and get hands-on experience using this property. Let's get started. 🎖️ Table of Contents Why you should use the CSS box-shadow propertyThe syntax of the box-shadow propertyHow to make",
+          "link": "https://www.freecodecamp.org/news/css-box-shadow-property-with-examples/",
+          "publishedOn": "2021-06-30T18:49:49.000Z",
+          "wordCount": 956,
+          "title": "Learn the CSS Box-Shadow Property by Coding a Beautiful Button ✨"
+        },
+        {
+          "id": "6055c55b687d62084bf68804",
+          "author": null,
+          "description": "This tutorial is an overview of basic concepts of the C programming language.  It goes over the history of the language, why and where it is used, the compilation process, and some very basic programming concepts that are common in most popular programming languages. It is not a complete guide",
+          "link": "https://www.freecodecamp.org/news/what-is-the-c-programming-language-beginner-tutorial/",
+          "publishedOn": "2021-06-30T14:25:53.000Z",
+          "wordCount": 12270,
+          "title": "What is The C Programming Language? A Tutorial for Beginners"
+        },
+        {
+          "id": "60d5ea736e1a1407b6b0bc8d",
+          "author": null,
+          "description": "React Router is commonly used to make different routes for pages in React Applications. We just released a crash course on the freeCodeCamp.org YouTube channel that will teach you how to create routes in your React applications. Piyush Agarwal developed this course. Piyush is a prolific course creator on",
+          "link": "https://www.freecodecamp.org/news/learn-react-router/",
+          "publishedOn": "2021-06-30T14:01:01.000Z",
+          "wordCount": 5542,
+          "title": "Learn React Router"
+        },
         {
           "id": "60db519527f80207bcdbb6fa",
           "author": null,
@@ -1307,15 +1343,6 @@
           "publishedOn": "2021-06-01T16:34:00.000Z",
           "wordCount": 2137,
           "title": "How to Get a Cybersecurity Job in 2021"
-        },
-        {
-          "id": "607f5fafdd38b9088c2bd0c9",
-          "author": null,
-          "description": "When you're debating someone, you want to use all the resources at your disposal to convince them you're right. But you should be careful that you don't end up using a logical fallacy to help you make your point. What is a Logical Fallacy?A logical fallacy is an error",
-          "link": "https://www.freecodecamp.org/news/logical-fallacies-definition-fallacy-examples/",
-          "publishedOn": "2021-06-01T04:19:48.000Z",
-          "wordCount": 6197,
-          "title": "Logical Fallacies – Definition and Fallacy Examples"
         }
       ]
     },
@@ -1368,6 +1395,15 @@
       "feedUrl": "https://www.raywenderlich.com/ios/feed",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://www.raywenderlich.com/25451472-wwdc-2021-upgrading-to-storekit-2",
+          "author": null,
+          "description": "<p>StoreKit 2 provides a great a many improvements to the StoreKit API. In this small course,\nyou’ll see how to upgrade an existing StoreKit project to use the latest features introduced\nby StoreKit 2.</p>",
+          "link": "https://www.raywenderlich.com/25451472-wwdc-2021-upgrading-to-storekit-2",
+          "publishedOn": "2021-07-01T00:00:00.000Z",
+          "wordCount": 678,
+          "title": "WWDC 2021: Upgrading to StoreKit 2 [SUBSCRIBER]"
+        },
         {
           "id": "https://www.raywenderlich.com/25424343-wwdc-2021-breaking-changes-in-swiftui",
           "author": null,
@@ -1502,33 +1538,6 @@
           "publishedOn": "2021-06-02T13:01:13.000Z",
           "wordCount": 2607,
           "title": "Announcing Flutter Apprentice, First Edition! [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/21129427-detect-hand-body-poses-with-vision-in-ios",
-          "author": null,
-          "description": "<p>Learn how to detect hand and body landmarks in live video with help from the Vision framework. Explore the kind of data Vision can provide, and use it to evaluate hand and body poses for simple gestures.</p>",
-          "link": "https://www.raywenderlich.com/21129427-detect-hand-body-poses-with-vision-in-ios",
-          "publishedOn": "2021-06-01T00:00:00.000Z",
-          "wordCount": 842,
-          "title": "Detect Hand & Body Poses with Vision in iOS [SUBSCRIBER]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/24473072-wwdc-2021-livecast-promo-s11",
-          "author": null,
-          "description": "Tune in next Monday!",
-          "link": "https://www.raywenderlich.com/24473072-wwdc-2021-livecast-promo-s11",
-          "publishedOn": "2021-05-31T19:33:05.000Z",
-          "wordCount": 1087,
-          "title": "WWDC 2021 – Livecast Promo S11 [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig",
-          "author": null,
-          "description": "Use Xcode build settings and .xcconfig files to change your app’s settings and icon with different build configurations.",
-          "link": "https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig",
-          "publishedOn": "2021-05-31T12:59:20.000Z",
-          "wordCount": 5071,
-          "title": "Building Your App Using Build Configurations and .xcconfig [FREE]"
         }
       ]
     },
@@ -1537,6 +1546,15 @@
       "feedUrl": "https://oleb.net/blog/atom.xml",
       "siteUrl": "https://oleb.net/blog/",
       "articles": [
+        {
+          "id": "https://oleb.net/2021/async-program-launch-sequence/",
+          "author": null,
+          "description": "Here’s one of the simplest async/await programs you can write in Swift (using an @main program entry point):\n@main struct Main {\n  static func main() async {\n    print(\"Sleeping\")\n    await Task.sleep(1_000_000_000) // Sleep for 1 second\n    print(\"Done\")\n  }\n}\n\n\nHow is this program executed? Async functions, like our main() method, can only be called from an async context. Who creates this context on launch, and how?\nThe Swift runtime does, with the help of the compiler. The compiler creates an entry point for the program that looks something like this:\n_runAsyncMain {\n  await Main.main()\n}\n\n\n_runAsyncMain is a function that’s defined in the Swift concurrency runtime library. You can read the full implementation in the Swift repo. Here, I’ve simplified it to its essence (without error handling or OS differences):\npublic func _runAsyncMain(_ asyncFun: @escaping () async throws -> ()) {\n  Task.detached {\n    await asyncFun()\n    exit(0)\n  }\n  _asyncMainDrainQueue()\n}\n\n\nSo the Swift runtime creates a detached task as the execution context for our main method. It’s this hidden task that becomes the parent task of all other structured child tasks our code might create.\n_runAsyncMain then proceeds by calling _asyncMainDrainQueue (implementation), another runtime function that passes control to GCD by calling dispatchMain or CFRunLoopRun (on Apple platforms).\n_asyncMainDrainQueue never returns. The program will run until our main method returns, and then exit. That’s it.",
+          "link": "https://oleb.net/2021/async-program-launch-sequence/",
+          "publishedOn": "2021-06-30T21:04:29.000Z",
+          "wordCount": 279,
+          "title": "How Swift runs an async executable"
+        },
         {
           "id": "https://oleb.net/2021/swift-language-reference/",
           "author": null,
@@ -1610,23 +1628,6 @@
           "enclosure": {
             "url": "https://traffic.libsyn.com/swiftbysundell/SwiftBySundell99.mp3",
             "length": "65897303",
-            "type": "audio/mpeg"
-          }
-        },
-        {
-          "id": "https://www.swiftbysundell.com/podcast/98",
-          "author": null,
-          "description": "Sean Allen returns to the show to talk about using the MVVM design pattern within SwiftUI-based apps, building a course around MapKit and CloudKit, how to approach all of the new material that WWDC has to offer, and what goes into making a really great developer portfolio.",
-          "link": "https://www.swiftbysundell.com/podcast/98",
-          "publishedOn": "2021-05-31T16:35:00.000Z",
-          "wordCount": null,
-          "title": "98: “An entire spectrum of apps”, with special guest Sean Allen",
-          "itunes": {
-            "duration": "01:09:38"
-          },
-          "enclosure": {
-            "url": "https://traffic.libsyn.com/swiftbysundell/SwiftBySundell98.mp3",
-            "length": "67305389",
             "type": "audio/mpeg"
           }
         }

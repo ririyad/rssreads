@@ -16,6 +16,162 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-07-01">2021-07-01</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="">Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">WWDC 2021: Upgrading to StoreKit 2 [SUBSCRIBER]</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.raywenderlich.com/25451472-wwdc-2021-upgrading-to-storekit-2">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>StoreKit 2 provides a great a many improvements to the StoreKit API. In this small course,
+you’ll see how to upgrade an existing StoreKit project to use the latest features introduced
+by StoreKit 2.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-06-30">2021-06-30</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side?</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/how-do-you-make-a-layout-with-pictures-down-one-side-of-a-page-matched-up-with-paragraphs-on-the-other-side/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>I got this exact question in an email the other day, and I thought it would make a nice blog post because of how wonderfully satisfying this is to do in CSS these days. Plus we can sprinkle in polish …
+The post How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">When a Click is Not Just a Click</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/when-a-click-is-not-just-a-click/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(15 min)</span>
+                    <span>The click event is quite simple and easy to use; you listen for the event and run code when the event is fired. It works on just about every HTML element there is, a core feature of the DOM API.…
+The post When a Click is Not Just a Click appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Fixing a Bug in Low-Resolution Mode</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/fixing-a-bug-in-low-resolution-mode/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>I was working on a bug ticket the other day where it was reported that an icon was sitting low in a button. Just not aligned like it should be. I had to go on a little journey to figure …
+The post Fixing a Bug in Low-Resolution Mode appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://oleb.net/blog/">Ole Begemann</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How Swift runs an async executable</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://oleb.net/2021/async-program-launch-sequence/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Here’s one of the simplest async/await programs you can write in Swift (using an @main program entry point):
+@main struct Main {
+  static func main() async {
+    print(&quot;Sleeping&quot;)
+    await Task.sleep(1_000_000_000) // Sleep for 1 second
+    print(&quot;Done&quot;)
+  }
+}
+
+
+How is this program executed? Async functions, like our main() method, can only be called from an async context. Who creates this context on launch, and how?
+The Swift runtime does, with the help of the compiler. The compiler creates an entry point for the program that looks something like this:
+_runAsyncMain {
+  await Main.main()
+}
+
+
+_runAsyncMain is a function that’s defined in the Swift concurrency runtime library. You can read the full implementation in the Swift repo. Here, I’ve simplified it to its essence (without error handling or OS differences):
+public func _runAsyncMain(_ asyncFun: @escaping () async throws -&gt; ()) {
+  Task.detached {
+    await asyncFun()
+    exit(0)
+  }
+  _asyncMainDrainQueue()
+}
+
+
+So the Swift runtime creates a detached task as the execution context for our main method. It’s this hidden task that becomes the parent task of all other structured child tasks our code might create.
+_runAsyncMain then proceeds by calling _asyncMainDrainQueue (implementation), another runtime function that passes control to GCD by calling dispatchMain or CFRunLoopRun (on Apple platforms).
+_asyncMainDrainQueue never returns. The program will run until our main method returns, and then exit. That’s it.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Learn the CSS Box-Shadow Property by Coding a Beautiful Button ✨</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/css-box-shadow-property-with-examples/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Today we&#x27;re gonna learn how to use CSS&#x27;s box-shadow property to make beautiful website components. Along the way, we&#x27;ll create a button and get hands-on experience using this property. Let&#x27;s get started. 🎖️ Table of Contents Why you should use the CSS box-shadow propertyThe syntax of the box-shadow propertyHow to make</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">What is The C Programming Language? A Tutorial for Beginners</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-the-c-programming-language-beginner-tutorial/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(41 min)</span>
+                    <span>This tutorial is an overview of basic concepts of the C programming language.  It goes over the history of the language, why and where it is used, the compilation process, and some very basic programming concepts that are common in most popular programming languages. It is not a complete guide</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Learn React Router</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-react-router/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(18 min)</span>
+                    <span>React Router is commonly used to make different routes for pages in React Applications. We just released a crash course on the freeCodeCamp.org YouTube channel that will teach you how to create routes in your React applications. Piyush Agarwal developed this course. Piyush is a prolific course creator on</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-06-29">2021-06-29</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -2478,127 +2634,13 @@ You can support CSS-Tricks by being an MVP Supporter.</span>
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Logical Fallacies – Definition and Fallacy Examples</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/logical-fallacies-definition-fallacy-examples/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(21 min)</span>
-                    <span>When you&#x27;re debating someone, you want to use all the resources at your disposal to convince them you&#x27;re right. But you should be careful that you don&#x27;t end up using a logical fallacy to help you make your point. What is a Logical Fallacy?A logical fallacy is an error</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="">Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Detect Hand &amp; Body Poses with Vision in iOS [SUBSCRIBER]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.raywenderlich.com/21129427-detect-hand-body-poses-with-vision-in-ios">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Learn how to detect hand and body landmarks in live video with help from the Vision framework. Explore the kind of data Vision can provide, and use it to evaluate hand and body poses for simple gestures.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-05-31">2021-05-31</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://css-tricks.com">CSS-Tricks</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Serverless Functions: The Secret to Ultra-Productive Front-End Teams</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/serverless-functions-the-secret-to-ultra-productive-front-end-teams/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>Modern apps place high demands on front-end developers. Web apps require complex functionality, and the lion’s share of that work is falling to front-end devs:
-building modern, accessible user interfaces
-creating interactive elements and complex animations
-managing complex application state
-…
-The post Serverless Functions: The Secret to Ultra-Productive Front-End Teams appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Local: Always Getting Better</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://css-tricks.com/local-always-getting-better/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>I’ve been using Local for ages. Four years ago, I wrote about how I got all my WordPress sites running locally on it. I just wanted to give it another high five because it’s still here and still great. In …
-The post Local: Always Getting Better appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.swiftbysundell.com/podcast">Swift by Sundell</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">98: “An entire spectrum of apps”, with special guest Sean Allen</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.swiftbysundell.com/podcast/98">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(0 min)</span>
-                    <span>Sean Allen returns to the show to talk about using the MVVM design pattern within SwiftUI-based apps, building a course around MapKit and CloudKit, how to approach all of the new material that WWDC has to offer, and what goes into making a really great developer portfolio.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="">Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">WWDC 2021 – Livecast Promo S11 [FREE]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.raywenderlich.com/24473072-wwdc-2021-livecast-promo-s11">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Tune in next Monday!</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Building Your App Using Build Configurations and .xcconfig [FREE]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(17 min)</span>
-                    <span>Use Xcode build settings and .xcconfig files to change your app’s settings and icon with different build configurations.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-06-30T00:44:53.090Z">2021-06-30T00:44:53.090Z</time>
+    <time id="build-timestamp" datetime="2021-07-01T00:43:59.447Z">2021-07-01T00:43:59.447Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.0</a></span>
   </footer>
   <script src="index.js"></script>

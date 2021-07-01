@@ -2,10 +2,124 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-06-30T00:44:53.125Z</updated>
+    <updated>2021-07-01T00:43:59.470Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[WWDC 2021: Upgrading to StoreKit 2 [SUBSCRIBER]]]></title>
+        <id>https://www.raywenderlich.com/25451472-wwdc-2021-upgrading-to-storekit-2</id>
+        <link href="https://www.raywenderlich.com/25451472-wwdc-2021-upgrading-to-storekit-2"/>
+        <updated>2021-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>StoreKit 2 provides a great a many improvements to the StoreKit API. In this small course,
+you’ll see how to upgrade an existing StoreKit project to use the latest features introduced
+by StoreKit 2.</p>]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Swift runs an async executable]]></title>
+        <id>https://oleb.net/2021/async-program-launch-sequence/</id>
+        <link href="https://oleb.net/2021/async-program-launch-sequence/"/>
+        <updated>2021-06-30T21:04:29.000Z</updated>
+        <summary type="html"><![CDATA[Here’s one of the simplest async/await programs you can write in Swift (using an @main program entry point):
+@main struct Main {
+  static func main() async {
+    print("Sleeping")
+    await Task.sleep(1_000_000_000) // Sleep for 1 second
+    print("Done")
+  }
+}
+
+
+How is this program executed? Async functions, like our main() method, can only be called from an async context. Who creates this context on launch, and how?
+The Swift runtime does, with the help of the compiler. The compiler creates an entry point for the program that looks something like this:
+_runAsyncMain {
+  await Main.main()
+}
+
+
+_runAsyncMain is a function that’s defined in the Swift concurrency runtime library. You can read the full implementation in the Swift repo. Here, I’ve simplified it to its essence (without error handling or OS differences):
+public func _runAsyncMain(_ asyncFun: @escaping () async throws -> ()) {
+  Task.detached {
+    await asyncFun()
+    exit(0)
+  }
+  _asyncMainDrainQueue()
+}
+
+
+So the Swift runtime creates a detached task as the execution context for our main method. It’s this hidden task that becomes the parent task of all other structured child tasks our code might create.
+_runAsyncMain then proceeds by calling _asyncMainDrainQueue (implementation), another runtime function that passes control to GCD by calling dispatchMain or CFRunLoopRun (on Apple platforms).
+_asyncMainDrainQueue never returns. The program will run until our main method returns, and then exit. That’s it.]]></summary>
+        <author>
+            <name>Ole Begemann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side?]]></title>
+        <id>https://css-tricks.com/?p=343224</id>
+        <link href="https://css-tricks.com/how-do-you-make-a-layout-with-pictures-down-one-side-of-a-page-matched-up-with-paragraphs-on-the-other-side/"/>
+        <updated>2021-06-30T20:36:52.000Z</updated>
+        <summary type="html"><![CDATA[I got this exact question in an email the other day, and I thought it would make a nice blog post because of how wonderfully satisfying this is to do in CSS these days. Plus we can sprinkle in polish …
+The post How do you make a layout with pictures down one side of a page matched up with paragraphs on the other side? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn the CSS Box-Shadow Property by Coding a Beautiful Button ✨]]></title>
+        <id>6063b8d69618b008528a9d79</id>
+        <link href="https://www.freecodecamp.org/news/css-box-shadow-property-with-examples/"/>
+        <updated>2021-06-30T18:49:49.000Z</updated>
+        <summary type="html"><![CDATA[Today we're gonna learn how to use CSS's box-shadow property to make beautiful website components. Along the way, we'll create a button and get hands-on experience using this property. Let's get started. 🎖️ Table of Contents Why you should use the CSS box-shadow propertyThe syntax of the box-shadow propertyHow to make]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When a Click is Not Just a Click]]></title>
+        <id>https://css-tricks.com/?p=343064</id>
+        <link href="https://css-tricks.com/when-a-click-is-not-just-a-click/"/>
+        <updated>2021-06-30T14:45:42.000Z</updated>
+        <summary type="html"><![CDATA[The click event is quite simple and easy to use; you listen for the event and run code when the event is fired. It works on just about every HTML element there is, a core feature of the DOM API.…
+The post When a Click is Not Just a Click appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Travis Almand</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fixing a Bug in Low-Resolution Mode]]></title>
+        <id>https://css-tricks.com/?p=343182</id>
+        <link href="https://css-tricks.com/fixing-a-bug-in-low-resolution-mode/"/>
+        <updated>2021-06-30T14:44:54.000Z</updated>
+        <summary type="html"><![CDATA[I was working on a bug ticket the other day where it was reported that an icon was sitting low in a button. Just not aligned like it should be. I had to go on a little journey to figure …
+The post Fixing a Bug in Low-Resolution Mode appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is The C Programming Language? A Tutorial for Beginners]]></title>
+        <id>6055c55b687d62084bf68804</id>
+        <link href="https://www.freecodecamp.org/news/what-is-the-c-programming-language-beginner-tutorial/"/>
+        <updated>2021-06-30T14:25:53.000Z</updated>
+        <summary type="html"><![CDATA[This tutorial is an overview of basic concepts of the C programming language.  It goes over the history of the language, why and where it is used, the compilation process, and some very basic programming concepts that are common in most popular programming languages. It is not a complete guide]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn React Router]]></title>
+        <id>60d5ea736e1a1407b6b0bc8d</id>
+        <link href="https://www.freecodecamp.org/news/learn-react-router/"/>
+        <updated>2021-06-30T14:01:01.000Z</updated>
+        <summary type="html"><![CDATA[React Router is commonly used to make different routes for pages in React Applications. We just released a crash course on the freeCodeCamp.org YouTube channel that will teach you how to create routes in your React applications. Piyush Agarwal developed this course. Piyush is a prolific course creator on]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What does `font: 110%/1.4 system-ui` mean?]]></title>
         <id>https://css-tricks.com/?p=343470</id>
@@ -1813,84 +1927,6 @@ The post Jetpack Boost Handles Critical CSS For You appeared first on CSS-Tricks
 You can support CSS-Tricks by being an MVP Supporter.]]></summary>
         <author>
             <name>Geoff Graham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Logical Fallacies – Definition and Fallacy Examples]]></title>
-        <id>607f5fafdd38b9088c2bd0c9</id>
-        <link href="https://www.freecodecamp.org/news/logical-fallacies-definition-fallacy-examples/"/>
-        <updated>2021-06-01T04:19:48.000Z</updated>
-        <summary type="html"><![CDATA[When you're debating someone, you want to use all the resources at your disposal to convince them you're right. But you should be careful that you don't end up using a logical fallacy to help you make your point. What is a Logical Fallacy?A logical fallacy is an error]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Detect Hand & Body Poses with Vision in iOS [SUBSCRIBER]]]></title>
-        <id>https://www.raywenderlich.com/21129427-detect-hand-body-poses-with-vision-in-ios</id>
-        <link href="https://www.raywenderlich.com/21129427-detect-hand-body-poses-with-vision-in-ios"/>
-        <updated>2021-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Learn how to detect hand and body landmarks in live video with help from the Vision framework. Explore the kind of data Vision can provide, and use it to evaluate hand and body poses for simple gestures.</p>]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WWDC 2021 – Livecast Promo S11 [FREE]]]></title>
-        <id>https://www.raywenderlich.com/24473072-wwdc-2021-livecast-promo-s11</id>
-        <link href="https://www.raywenderlich.com/24473072-wwdc-2021-livecast-promo-s11"/>
-        <updated>2021-05-31T19:33:05.000Z</updated>
-        <summary type="html"><![CDATA[Tune in next Monday!]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Serverless Functions: The Secret to Ultra-Productive Front-End Teams]]></title>
-        <id>https://css-tricks.com/?p=340465</id>
-        <link href="https://css-tricks.com/serverless-functions-the-secret-to-ultra-productive-front-end-teams/"/>
-        <updated>2021-05-31T17:16:22.000Z</updated>
-        <summary type="html"><![CDATA[Modern apps place high demands on front-end developers. Web apps require complex functionality, and the lion’s share of that work is falling to front-end devs:
-building modern, accessible user interfaces
-creating interactive elements and complex animations
-managing complex application state
-…
-The post Serverless Functions: The Secret to Ultra-Productive Front-End Teams appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Jason Lengstorf</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Local: Always Getting Better]]></title>
-        <id>https://css-tricks.com/?p=341482</id>
-        <link href="https://css-tricks.com/local-always-getting-better/"/>
-        <updated>2021-05-31T17:13:02.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been using Local for ages. Four years ago, I wrote about how I got all my WordPress sites running locally on it. I just wanted to give it another high five because it’s still here and still great. In …
-The post Local: Always Getting Better appeared first on CSS-Tricks.
-You can support CSS-Tricks by being an MVP Supporter.]]></summary>
-        <author>
-            <name>Chris Coyier</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[98: “An entire spectrum of apps”, with special guest Sean Allen]]></title>
-        <id>https://www.swiftbysundell.com/podcast/98</id>
-        <link href="https://www.swiftbysundell.com/podcast/98"/>
-        <updated>2021-05-31T16:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Sean Allen returns to the show to talk about using the MVVM design pattern within SwiftUI-based apps, building a course around MapKit and CloudKit, how to approach all of the new material that WWDC has to offer, and what goes into making a really great developer portfolio.]]></summary>
-        <author>
-            <name>Swift by Sundell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building Your App Using Build Configurations and .xcconfig [FREE]]]></title>
-        <id>https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig</id>
-        <link href="https://www.raywenderlich.com/21441177-building-your-app-using-build-configurations-and-xcconfig"/>
-        <updated>2021-05-31T12:59:20.000Z</updated>
-        <summary type="html"><![CDATA[Use Xcode build settings and .xcconfig files to change your app’s settings and icon with different build configurations.]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
         </author>
     </entry>
 </feed>
