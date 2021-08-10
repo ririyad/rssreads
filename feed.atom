@@ -2,10 +2,135 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-09T00:50:23.852Z</updated>
+    <updated>2021-08-10T00:51:13.110Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Learn SQL Queries – Database Query Tutorial for Beginners]]></title>
+        <id>610a44f83306a507d1bfd44e</id>
+        <link href="https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/"/>
+        <updated>2021-08-10T00:05:46.000Z</updated>
+        <summary type="html"><![CDATA[SQL stands for Structured Query Language and is a language that you use to manage data in databases. SQL consists of commands and declarative statements that act as instructions to the database so it can perform tasks.  You can use SQL commands to create a table in a database, to]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript If-Else and If-Then – JS Conditional Statements]]></title>
+        <id>610657e03306a507d1bfc108</id>
+        <link href="https://www.freecodecamp.org/news/javascript-if-else-and-if-then-js-conditional-statements/"/>
+        <updated>2021-08-09T23:21:21.000Z</updated>
+        <summary type="html"><![CDATA[There will be times where you will want to write commands that handle different decisions in your code.  For example, if you are coding a bot, you can have it respond with different messages based on a set of commands it receives.  In this article, I will explain what an]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Google Colab with VS Code]]></title>
+        <id>610e257e3306a507d1bffc96</id>
+        <link href="https://www.freecodecamp.org/news/how-to-use-google-colab-with-vs-code/"/>
+        <updated>2021-08-09T22:24:53.000Z</updated>
+        <summary type="html"><![CDATA[Google Colab and VS Code are two popular editor tools that many Python developers use. They're great for developing efficient tech solutions or systems especially in the areas of Machine Learning and Data Science. If you're a Python developer or data scientist, you might already know how to use Google]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Choice Words about the Upcoming Deprecation of JavaScript Dialogs]]></title>
+        <id>https://css-tricks.com/?p=346368</id>
+        <link href="https://css-tricks.com/choice-words-about-the-upcoming-deprecation-of-javascript-dialogs/"/>
+        <updated>2021-08-09T21:23:44.000Z</updated>
+        <summary type="html"><![CDATA[It might be the very first thing a lot of people learn in JavaScript:
+alert("Hello, World");
+One day at CodePen, we woke up to a ton of customer support tickets about their Pens being broken, which ultimately boiled down to …
+The post Choice Words about the Upcoming Deprecation of JavaScript Dialogs appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pure vs Impure Functions in Functional Programming – What&#x27;s the Difference?]]></title>
+        <id>610d55bf3306a507d1bff496</id>
+        <link href="https://www.freecodecamp.org/news/pure-function-vs-impure-function/"/>
+        <updated>2021-08-09T21:06:46.000Z</updated>
+        <summary type="html"><![CDATA[Pure functions and impure functions are two programming terms you will often see in functional programming. Once core difference between these two types of functions is whether or not they have side effects. In this article, you will learn what side effects are and we'll discuss the differences between pure]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Large, Small, and Dynamic Viewports]]></title>
+        <id>https://css-tricks.com/?p=346316</id>
+        <link href="https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/"/>
+        <updated>2021-08-09T20:37:39.000Z</updated>
+        <summary type="html"><![CDATA[We’ve got viewport units (e.g. vw, vh, vmin, vmax), and they are mostly pretty great. It’s cool to always have a unit available that is relative to the entire screen. But when you ask people what …
+The post The Large, Small, and Dynamic Viewports appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is Cross Site Scripting? How to Protect against XSS Attacks]]></title>
+        <id>5fff3dd898be260817e495cf</id>
+        <link href="https://www.freecodecamp.org/news/cross-site-scripting-what-is-xss/"/>
+        <updated>2021-08-09T17:27:40.000Z</updated>
+        <summary type="html"><![CDATA[Cross Site Scripting is the second most prevalent issue in the Open Source Foundation for Application Security (OWASP) top 10 – it's found in roughly 2/3 of all applications.  While automated tools can find some of these problems, there are also automated tools designed to detect and exploit these vulnerabilities.]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML &lt;a&gt; Tag – Anchor Link HREF Example]]></title>
+        <id>610d9b6a3306a507d1bff9f0</id>
+        <link href="https://www.freecodecamp.org/news/html-a-tag-anchor-link-href-example/"/>
+        <updated>2021-08-09T15:15:04.000Z</updated>
+        <summary type="html"><![CDATA[You can use HTML's <a> tag to link to different parts of a website, to another web page, or to a separate website entirely.  By default, it is underlined and given a bluish color, but you can override these style defaults with CSS (which a lot of people]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Alter Table in SQL – How to Add a Column or Rename a Column in SQL]]></title>
+        <id>610682ee3306a507d1bfc210</id>
+        <link href="https://www.freecodecamp.org/news/alter-table-in-sql-how-to-add-a-column-or-rename-a-column-in-sql/"/>
+        <updated>2021-08-09T15:14:48.000Z</updated>
+        <summary type="html"><![CDATA[You have created your database and your tables, and after all this work, you notice that you need to add or rename a column. Well, you can use the ALTER TABLE statement to do so. Just keep in mind that you need to be really careful when you do this.]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring the CSS Paint API: Image Fragmentation Effect]]></title>
+        <id>https://css-tricks.com/?p=345642</id>
+        <link href="https://css-tricks.com/exploring-the-css-paint-api-image-fragmentation-effect/"/>
+        <updated>2021-08-09T14:27:18.000Z</updated>
+        <summary type="html"><![CDATA[In my previous article, I created a fragmentation effect using CSS mask and custom properties. It was a neat effect but it has one drawback: it uses a lot of CSS code (generated using Sass). This time I am …
+The post Exploring the CSS Paint API: Image Fragmentation Effect appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Temani Afif</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Cloud Digital Leader Certification Study Course – Pass the Exam With This Free 6 Hour Course]]></title>
+        <id>610aabc23306a507d1bfdc7d</id>
+        <link href="https://www.freecodecamp.org/news/google-cloud-digital-leader-course/"/>
+        <updated>2021-08-09T13:02:15.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to pass the Google Cloud Digital Leader Certification with this free 6-hour course! This is a significant milestone for free cloud certifications courses, since we now have on freeCodeCamp all the three major cloud service providers (AWS, Azure and GCP). What is the Google Cloud Certified Cloud Digital]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Snapshot Testing Tutorial for SwiftUI: Getting Started [FREE]]]></title>
+        <id>https://www.raywenderlich.com/24426963-snapshot-testing-tutorial-for-swiftui-getting-started</id>
+        <link href="https://www.raywenderlich.com/24426963-snapshot-testing-tutorial-for-swiftui-getting-started"/>
+        <updated>2021-08-09T12:59:16.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to test your SwiftUI iOS views in a simple and fast way using snapshot testing.]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SQL Update Statement – Update Query in SQL]]></title>
         <id>61067c973306a507d1bfc1ba</id>
@@ -47,6 +172,17 @@ The post SVG Gobbler appeared first on CSS-Tricks. You can support CSS-Tricks by
         <summary type="html"><![CDATA[If you've created an empty table in your database you'll need to add records to it. In this article you will learn how you can add records to your tables using the INSERT statement in SQL. Keep in mind that if the syntax presented here doesn't work, you can check]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Nuxt Features past v2.10]]></title>
+        <id>https://css-tricks.com/?p=346290</id>
+        <link href="https://css-tricks.com/new-nuxt-features-past-v2-10/"/>
+        <updated>2021-08-06T15:43:44.000Z</updated>
+        <summary type="html"><![CDATA[Nuxt offers an incredible developer experience, with a lot of performance and application setup best practices baked in. In recent releases, they’ve been working on taking this developer experience to the next level, with some newer features that speed up …
+The post New Nuxt Features past v2.10 appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Sarah Drasner</name>
         </author>
     </entry>
     <entry>
