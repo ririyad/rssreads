@@ -4,23 +4,49 @@
       "title": "tonsky.me",
       "feedUrl": "http://tonsky.me/blog/atom.xml",
       "siteUrl": "https://tonsky.me/",
-      "articles": [
-        {
-          "id": "https://tonsky.me/blog/icfpc-2021/",
-          "author": null,
-          "description": "4-day coding marathon",
-          "link": "https://tonsky.me/blog/icfpc-2021/",
-          "publishedOn": "2021-07-12T00:00:00.000Z",
-          "wordCount": 2607,
-          "title": "Zig, Skia, Clojure, Geometry and the Japanese TV Show: ICFP Contest 2021"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "CSS-Tricks",
       "feedUrl": "https://css-tricks.com/feed/",
       "siteUrl": "https://css-tricks.com",
       "articles": [
+        {
+          "id": "https://css-tricks.com/?p=346392",
+          "author": "Chris Coyier",
+          "description": "Have you ever wished you could see the HTML source of a web page while on a mobile browser, which generally doesn’t offer that feature? If you have a desktop machine around, there are ways, but what I mean …\nThe post View Source (on Mobile) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/view-source-on-mobile/",
+          "publishedOn": "2021-08-10T21:26:34.000Z",
+          "wordCount": 566,
+          "title": "View Source (on Mobile)"
+        },
+        {
+          "id": "https://css-tricks.com/?p=345861",
+          "author": "Kitty Giraudel",
+          "description": "Markdown truly is a great format. It’s close enough to plain text so that anyone can quickly learn it, and it’s structured enough that it can be parsed and eventually converted to you name it.\nThat being said: parsing, processing, …\nThe post Responsible Markdown in Next.js appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/responsible-markdown-in-next-js/",
+          "publishedOn": "2021-08-10T14:55:07.000Z",
+          "wordCount": 1590,
+          "title": "Responsible Markdown in Next.js"
+        },
+        {
+          "id": "https://css-tricks.com/?p=345799",
+          "author": "Chris Coyier",
+          "description": "(This is a sponsored post.)\nGot a WooCommerce store? It behooves you to offer a variety of payment methods. Just anecdotally, I’m sure both you and me have been annoyed and even abandoned purchases when a merchant, online or …\nThe post WooCommerce With Apple Pay and Google Pay appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/woocommerce-with-apple-pay-and-google-pay/",
+          "publishedOn": "2021-08-10T14:54:56.000Z",
+          "wordCount": 1293,
+          "title": "WooCommerce With Apple Pay and Google Pay"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346355",
+          "author": "Robin Rendle",
+          "description": "Here’s Kilian Valkhof on CSS nesting which isn’t available in browsers yet, but will be soon. There are a few differences he notes between CSS nesting and nesting in Sass or Less though. Take, for example, the following code:\ndiv \n…\nThe post CSS Nesting, specificity, and you appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://kilianvalkhof.com/2021/css-html/css-nesting-specificity-and-you/",
+          "publishedOn": "2021-08-10T14:51:39.000Z",
+          "wordCount": 2378,
+          "title": "CSS Nesting, specificity, and you"
+        },
         {
           "id": "https://css-tricks.com/?p=346368",
           "author": "Chris Coyier",
@@ -199,6 +225,96 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "610e151e3306a507d1bffb32",
+          "author": null,
+          "description": "JavaScript has two awesome data structures that help you write clean and efficient code. But handling them can get messy sometimes. In this blog, I am going to show you how to handle destructuring in arrays and objects in JavaScript. We'll also learn how to use the spread operator as",
+          "link": "https://www.freecodecamp.org/news/javascript-destructuring-and-spread-operator-explained/",
+          "publishedOn": "2021-08-10T21:46:07.000Z",
+          "wordCount": 1444,
+          "title": "JavaScript Destructuring and the Spread Operator – Explained with Example Code"
+        },
+        {
+          "id": "610d11273306a507d1bfeffe",
+          "author": null,
+          "description": "If you are learning web development, you will come across terms like HTML, CSS, and JavaScript. These are often called the building blocks of the Web.  These three tools dominate web development. Every library or tool seems to be centered around HTML, CSS, and JS. So if you want to",
+          "link": "https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/",
+          "publishedOn": "2021-08-10T21:02:00.000Z",
+          "wordCount": 2257,
+          "title": "Learn Web Development Basics – HTML, CSS, and JavaScript Explained for Beginners"
+        },
+        {
+          "id": "610642353306a507d1bfbfe4",
+          "author": null,
+          "description": "Python is a great programming language to learn and you can use it in a variety of areas in software development. You can use Python for web development, data analysis, machine learning, artificial intelligence, and more.  With the vast amount of resources to choose from, sometimes it is hard to",
+          "link": "https://www.freecodecamp.org/news/the-best-way-to-learn-python-python-programming-tutorial-for-beginners/",
+          "publishedOn": "2021-08-10T20:37:56.000Z",
+          "wordCount": 1163,
+          "title": "The Best Way to Learn Python – Python Programming Tutorial for Beginners"
+        },
+        {
+          "id": "6108f8453306a507d1bfce17",
+          "author": null,
+          "description": "When coding in Python, have you ever had to check if any item or all items in an iterable evaluate to True? The next time you need to do so, be sure to use the nifty functions any() and all(). In this tutorial, we'll learn about Python's any() and all(",
+          "link": "https://www.freecodecamp.org/news/python-any-and-all-functions-explained-with-examples/",
+          "publishedOn": "2021-08-10T20:26:25.000Z",
+          "wordCount": 1541,
+          "title": "Python any() and all() Functions – Explained with Examples"
+        },
+        {
+          "id": "61122afb72231b077cdac810",
+          "author": null,
+          "description": "When you're starting your coding journey, one of the most exciting – and at times overwhelming – things about it is just how much there is to learn.  You'll discover different languages, frameworks, libraries, inventions and conventions.  One technology often requires knowledge of another one, and everything seems to be interconnected and",
+          "link": "https://www.freecodecamp.org/news/what-is-coding/",
+          "publishedOn": "2021-08-10T19:54:45.000Z",
+          "wordCount": 2455,
+          "title": "What is Coding? Computer Coding Definition"
+        },
+        {
+          "id": "610ef4fc3306a507d1c00257",
+          "author": null,
+          "description": "One of the best things about VS Code is the rich library of extensions you can use to speed up your coding and make your life easier.  Some of these extensions are paid, but there are tons of quality options that are available for free in the VS Code Marketplace.",
+          "link": "https://www.freecodecamp.org/news/10-vscode-extensions-to-increase-productivity/",
+          "publishedOn": "2021-08-10T18:32:00.000Z",
+          "wordCount": 928,
+          "title": "10 VS Code Extensions to Increase Your Productivity"
+        },
+        {
+          "id": "610ce4f83306a507d1bfeba5",
+          "author": null,
+          "description": "Web scraping is the process of extracting specific data from the internet automatically. It has many use cases, like getting data for a machine learning project, creating a price comparison tool, or any other innovative idea that requires an immense amount of data. While you can theoretically do data extraction",
+          "link": "https://www.freecodecamp.org/news/how-to-scrape-websites-with-python-2/",
+          "publishedOn": "2021-08-10T17:42:52.000Z",
+          "wordCount": 2677,
+          "title": "Python Web Scraping Tutorial – How to Scrape Data From Any Website with Python"
+        },
+        {
+          "id": "5fff3e3798be260817e495df",
+          "author": null,
+          "description": "Distributed Denial of Service (DDoS) attacks aim to take an organization or service offline and originate from multiple, distributed hosts.  The difficult part of defending against DDoS attacks is that the hosts are distributed – if it were a single host or small group, you could easily block the traffic with",
+          "link": "https://www.freecodecamp.org/news/protect-against-ddos-attacks/",
+          "publishedOn": "2021-08-10T17:36:54.000Z",
+          "wordCount": 1641,
+          "title": "How to Protect Against DDoS Attacks"
+        },
+        {
+          "id": "60f7aef31d2b080797b80a01",
+          "author": null,
+          "description": "Formatting a string is something you'll do all the time when you're coding in Python. For every variable, tuple, and dictionary and the logic that we define, we eventually have to either print or display it in some form.  And each of these, without exception, require us to format the",
+          "link": "https://www.freecodecamp.org/news/how-to-format-a-string-in-python/",
+          "publishedOn": "2021-08-10T17:19:00.000Z",
+          "wordCount": 1636,
+          "title": "How to Format a String in Python"
+        },
+        {
+          "id": "610abfc03306a507d1bfde47",
+          "author": null,
+          "description": "Big O notation is an important tools for computer scientists to analyze the cost of an algorithm. Most software engineers should have an understanding of it. We just released a course on the freeCodeCamp.org YouTube channel that will help you understand Big O Notation. Georgio Tunson, aka selikapro, created",
+          "link": "https://www.freecodecamp.org/news/learn-big-o-notation/",
+          "publishedOn": "2021-08-10T13:12:34.000Z",
+          "wordCount": 17118,
+          "title": "Learn Big O Notation"
+        },
         {
           "id": "610a44f83306a507d1bfd44e",
           "author": null,
@@ -495,6 +611,15 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
       "siteUrl": "https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=N2RLA0TPucE",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=N2RLA0TPucE",
+          "publishedOn": "2021-08-10T13:00:17.000Z",
+          "wordCount": null,
+          "title": "SwiftUI Preview Tips & Tricks"
+        },
         {
           "id": "https://www.youtube.com/watch?v=je_VlMQR8v0",
           "author": null,
