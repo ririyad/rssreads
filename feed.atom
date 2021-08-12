@@ -2,10 +2,134 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-11T00:51:01.521Z</updated>
+    <updated>2021-08-12T00:47:59.105Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Binary Search Tree Algorithms for JavaScript Beginners]]></title>
+        <id>61025c793306a507d1bfad64</id>
+        <link href="https://www.freecodecamp.org/news/binary-tree-algorithms-for-javascript-beginners/"/>
+        <updated>2021-08-11T23:50:28.000Z</updated>
+        <summary type="html"><![CDATA[I recently had the chance to teach high school students how to code. There are not that many beginner-friendly tutorials on algorithms coded in JavaScript which is the language they were learning. So I decided to make one. In this article, I will try my best to explain some core]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Implement iOS-Specific Components and APIs]]></title>
+        <id>610d4a303306a507d1bff2ea</id>
+        <link href="https://www.freecodecamp.org/news/how-to-implement-ios-components-apis/"/>
+        <updated>2021-08-11T23:31:34.000Z</updated>
+        <summary type="html"><![CDATA[One of the end goals of a React Native project is to have a minimal amount of platform-specific logic and code. Most APIs can be built so the platform-specific code is abstracted away by the framework. This gives you a single way to interact with them and easily create cross-platform]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best Podcasts for Flutter Developers]]></title>
+        <id>611091a63306a507d1c00a1c</id>
+        <link href="https://www.freecodecamp.org/news/best-podcasts-for-flutter-developers/"/>
+        <updated>2021-08-11T20:51:56.000Z</updated>
+        <summary type="html"><![CDATA[Podcasts are a great way to consume digital information. They've become quite popular because you can listen to them anywhere, any time.  Podcasts deliver educational, entertaining, and engaging content on all kinds of topics – tech topics included. The hosts and their guests talk and share ideas, each in their own]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Static vs Dynamic Web Pages – What&#x27;s the Difference?]]></title>
+        <id>611126603306a507d1c00fd2</id>
+        <link href="https://www.freecodecamp.org/news/static-vs-dynamic-web-pages/"/>
+        <updated>2021-08-11T19:54:10.000Z</updated>
+        <summary type="html"><![CDATA[Imagine that you're interviewing for your dream job and the interviewer drops this question for you: “So can you distinguish between a static web page and a dynamic web page?” What would your reaction be? If you don’t know the answer to that question, or are struggling to think]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Props in Vue.js]]></title>
+        <id>610eb7f03306a507d1c001f5</id>
+        <link href="https://www.freecodecamp.org/news/how-to-use-props-in-vuejs/"/>
+        <updated>2021-08-11T19:51:52.000Z</updated>
+        <summary type="html"><![CDATA[We use props to pass information/data from a parent component to child components. In this article, I will explain everything you need to know about props and why you should use props in Vue.js. Here's a brief outline of what we'll cover in this guide: What are props]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wanna see a whiter white?]]></title>
+        <id>https://css-tricks.com/?p=346388</id>
+        <link href="https://kidi.ng/wanna-see-a-whiter-white/"/>
+        <updated>2021-08-11T19:09:36.000Z</updated>
+        <summary type="html"><![CDATA[Heck of a CSS trick here from Dongsung Kim. 
+There are hidden HDR videos playing at the corners of this page. When a HDR-capable browser encounters one, it switches to HDR mode. For some reason, CSS backdrop-filter + brightness >100% 
+…
+The post Wanna see a whiter white? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[&lt;img&gt; HTML – Image Tag Tutorial]]></title>
+        <id>6112913c72231b077cdacc4d</id>
+        <link href="https://www.freecodecamp.org/news/img-html-image-tag-tutorial/"/>
+        <updated>2021-08-11T15:28:58.000Z</updated>
+        <summary type="html"><![CDATA[In HTML, you use the <img> tag to add images to websites. It is an inline and empty element, which means that it doesn't start on a new line and doesn't take a closing tag (unlike the paragraph (<p>) tag, for instance).  The <img>]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build a Node.js Database using Prisma and SQLite]]></title>
+        <id>610ee8443306a507d1c00249</id>
+        <link href="https://www.freecodecamp.org/news/build-nodejs-database-using-prisma-orm/"/>
+        <updated>2021-08-11T15:24:42.000Z</updated>
+        <summary type="html"><![CDATA[Lately I've been seeing many tweets and articles about Prisma. It's a modern ORM (Object-Relational-Mapping tool) that works with Node.jsand TypeScript. Yes, this library will help you build and manage your Node.js database – and it's compatible with TypeScript! It will generate all the types of your entities automatically.]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Static vs. Dynamic vs. Jamstack: Where’s The Line?]]></title>
+        <id>https://css-tricks.com/?p=345889</id>
+        <link href="https://css-tricks.com/static-vs-dynamic-vs-jamstack-wheres-the-line/"/>
+        <updated>2021-08-11T14:31:20.000Z</updated>
+        <summary type="html"><![CDATA[You’ll often hear developers talking about “static” vs. “dynamic” sites, or you may have heard someone use the term Jamstack. What do these terms mean, and when does a “static” site become either a Jamstack or dynamic site? These …
+The post Static vs. Dynamic vs. Jamstack: Where’s The Line? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Mike Neumegen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Napkin]]></title>
+        <id>https://css-tricks.com/?p=346384</id>
+        <link href="https://www.napkin.io/"/>
+        <updated>2021-08-11T14:31:13.000Z</updated>
+        <summary type="html"><![CDATA[We took a surface level look at Pipedream the other day, which really does look cool. It’s like a much more modern and fancy version of what Yahoo Pipes was. A better comparison might be Zapier, except you …
+The post Napkin appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[App Ideas for Your iOS Developer Portfolio]]></title>
+        <id>https://www.youtube.com/watch?v=v8XK41iTTkM</id>
+        <link href="https://www.youtube.com/watch?v=v8XK41iTTkM"/>
+        <updated>2021-08-11T13:00:34.000Z</updated>
+        <author>
+            <name>Sean Allen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create Complex Graphics with OpenGL]]></title>
+        <id>610d8f383306a507d1bff9c3</id>
+        <link href="https://www.freecodecamp.org/news/create-complex-graphics-with-opengl/"/>
+        <updated>2021-08-11T12:40:12.000Z</updated>
+        <summary type="html"><![CDATA[OpenGL can be used to create complex 2D and 3D graphics effects.  We just released an advanced OpenGL course on the freeCodeCamp.org YouTube channel. Victor Gordan created this course. Before this course he created one of the most popular OpenGL course on YouTube. Now, he will help you take]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript Destructuring and the Spread Operator – Explained with Example Code]]></title>
         <id>610e151e3306a507d1bffb32</id>
@@ -14,6 +138,17 @@
         <summary type="html"><![CDATA[JavaScript has two awesome data structures that help you write clean and efficient code. But handling them can get messy sometimes. In this blog, I am going to show you how to handle destructuring in arrays and objects in JavaScript. We'll also learn how to use the spread operator as]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[View Source (on Mobile)]]></title>
+        <id>https://css-tricks.com/?p=346392</id>
+        <link href="https://neatnik.net/view-source/"/>
+        <updated>2021-08-10T21:26:34.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever wished you could see the HTML source of a web page while on a mobile browser, which generally doesn’t offer that feature? If you have a desktop machine around, there are ways, but what I mean …
+The post View Source (on Mobile) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
         </author>
     </entry>
     <entry>
@@ -721,26 +856,6 @@ volume and rate; special effects, such as pitch and reverb; and generating speec
         <summary type="html"><![CDATA[Malin Sundberg joins John to talk about her experiences of using SwiftUI to build and ship the time-tracking and invoicing app Orbit on most of Apple’s platforms, and what sort of things that can be good to keep in mind when using SwiftUI in a cross-platform context.]]></summary>
         <author>
             <name>Swift by Sundell</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AWS AppSync for iOS [SUBSCRIBER]]]></title>
-        <id>https://www.raywenderlich.com/21959081-aws-appsync-for-ios</id>
-        <link href="https://www.raywenderlich.com/21959081-aws-appsync-for-ios"/>
-        <updated>2021-07-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>Learn how to consume GraphQL APIs in your SwiftUI iOS apps in a simple and type-safe way using AWS AppSync framework.</p>]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Resolver for iOS Dependency Injection: Getting Started [FREE]]]></title>
-        <id>https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started</id>
-        <link href="https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started"/>
-        <updated>2021-07-12T12:59:05.000Z</updated>
-        <summary type="html"><![CDATA[Learn how to use Resolver to implement dependency injection in your SwiftUI iOS apps to achieve easily readable and maintainable codebases.]]></summary>
-        <author>
-            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
         </author>
     </entry>
 </feed>

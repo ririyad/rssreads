@@ -12,6 +12,42 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=346388",
+          "author": "Chris Coyier",
+          "description": "Heck of a CSS trick here from Dongsung Kim. \nThere are hidden HDR videos playing at the corners of this page. When a HDR-capable browser encounters one, it switches to HDR mode. For some reason, CSS backdrop-filter + brightness >100% \n…\nThe post Wanna see a whiter white? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://kidi.ng/wanna-see-a-whiter-white/",
+          "publishedOn": "2021-08-11T19:09:36.000Z",
+          "wordCount": 351,
+          "title": "Wanna see a whiter white?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=345889",
+          "author": "Mike Neumegen",
+          "description": "You’ll often hear developers talking about “static” vs. “dynamic” sites, or you may have heard someone use the term Jamstack. What do these terms mean, and when does a “static” site become either a Jamstack or dynamic site? These …\nThe post Static vs. Dynamic vs. Jamstack: Where’s The Line? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/static-vs-dynamic-vs-jamstack-wheres-the-line/",
+          "publishedOn": "2021-08-11T14:31:20.000Z",
+          "wordCount": 3744,
+          "title": "Static vs. Dynamic vs. Jamstack: Where’s The Line?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346384",
+          "author": "Chris Coyier",
+          "description": "We took a surface level look at Pipedream the other day, which really does look cool. It’s like a much more modern and fancy version of what Yahoo Pipes was. A better comparison might be Zapier, except you …\nThe post Napkin appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.napkin.io/",
+          "publishedOn": "2021-08-11T14:31:13.000Z",
+          "wordCount": 104,
+          "title": "Napkin"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346392",
+          "author": "Chris Coyier",
+          "description": "Have you ever wished you could see the HTML source of a web page while on a mobile browser, which generally doesn’t offer that feature? If you have a desktop machine around, there are ways, but what I mean …\nThe post View Source (on Mobile) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://neatnik.net/view-source/",
+          "publishedOn": "2021-08-10T21:26:34.000Z",
+          "wordCount": 150,
+          "title": "View Source (on Mobile)"
+        },
+        {
           "id": "https://css-tricks.com/?p=346392",
           "author": "Chris Coyier",
           "description": "Have you ever wished you could see the HTML source of a web page while on a mobile browser, which generally doesn’t offer that feature? If you have a desktop machine around, there are ways, but what I mean …\nThe post View Source (on Mobile) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -225,6 +261,78 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "61025c793306a507d1bfad64",
+          "author": null,
+          "description": "I recently had the chance to teach high school students how to code. There are not that many beginner-friendly tutorials on algorithms coded in JavaScript which is the language they were learning. So I decided to make one. In this article, I will try my best to explain some core",
+          "link": "https://www.freecodecamp.org/news/binary-tree-algorithms-for-javascript-beginners/",
+          "publishedOn": "2021-08-11T23:50:28.000Z",
+          "wordCount": 1356,
+          "title": "Binary Search Tree Algorithms for JavaScript Beginners"
+        },
+        {
+          "id": "610d4a303306a507d1bff2ea",
+          "author": null,
+          "description": "One of the end goals of a React Native project is to have a minimal amount of platform-specific logic and code. Most APIs can be built so the platform-specific code is abstracted away by the framework. This gives you a single way to interact with them and easily create cross-platform",
+          "link": "https://www.freecodecamp.org/news/how-to-implement-ios-components-apis/",
+          "publishedOn": "2021-08-11T23:31:34.000Z",
+          "wordCount": 1442,
+          "title": "How to Implement iOS-Specific Components and APIs"
+        },
+        {
+          "id": "611091a63306a507d1c00a1c",
+          "author": null,
+          "description": "Podcasts are a great way to consume digital information. They've become quite popular because you can listen to them anywhere, any time.  Podcasts deliver educational, entertaining, and engaging content on all kinds of topics – tech topics included. The hosts and their guests talk and share ideas, each in their own",
+          "link": "https://www.freecodecamp.org/news/best-podcasts-for-flutter-developers/",
+          "publishedOn": "2021-08-11T20:51:56.000Z",
+          "wordCount": 750,
+          "title": "Best Podcasts for Flutter Developers"
+        },
+        {
+          "id": "611126603306a507d1c00fd2",
+          "author": null,
+          "description": "Imagine that you're interviewing for your dream job and the interviewer drops this question for you: “So can you distinguish between a static web page and a dynamic web page?” What would your reaction be? If you don’t know the answer to that question, or are struggling to think",
+          "link": "https://www.freecodecamp.org/news/static-vs-dynamic-web-pages/",
+          "publishedOn": "2021-08-11T19:54:10.000Z",
+          "wordCount": 1413,
+          "title": "Static vs Dynamic Web Pages – What&#x27;s the Difference?"
+        },
+        {
+          "id": "610eb7f03306a507d1c001f5",
+          "author": null,
+          "description": "We use props to pass information/data from a parent component to child components. In this article, I will explain everything you need to know about props and why you should use props in Vue.js. Here's a brief outline of what we'll cover in this guide: What are props",
+          "link": "https://www.freecodecamp.org/news/how-to-use-props-in-vuejs/",
+          "publishedOn": "2021-08-11T19:51:52.000Z",
+          "wordCount": 1221,
+          "title": "How to Use Props in Vue.js"
+        },
+        {
+          "id": "6112913c72231b077cdacc4d",
+          "author": null,
+          "description": "In HTML, you use the <img> tag to add images to websites. It is an inline and empty element, which means that it doesn't start on a new line and doesn't take a closing tag (unlike the paragraph (<p>) tag, for instance).  The <img>",
+          "link": "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/",
+          "publishedOn": "2021-08-11T15:28:58.000Z",
+          "wordCount": 1466,
+          "title": "&lt;img&gt; HTML – Image Tag Tutorial"
+        },
+        {
+          "id": "610ee8443306a507d1c00249",
+          "author": null,
+          "description": "Lately I've been seeing many tweets and articles about Prisma. It's a modern ORM (Object-Relational-Mapping tool) that works with Node.jsand TypeScript. Yes, this library will help you build and manage your Node.js database – and it's compatible with TypeScript! It will generate all the types of your entities automatically.",
+          "link": "https://www.freecodecamp.org/news/build-nodejs-database-using-prisma-orm/",
+          "publishedOn": "2021-08-11T15:24:42.000Z",
+          "wordCount": 1997,
+          "title": "How to Build a Node.js Database using Prisma and SQLite"
+        },
+        {
+          "id": "610d8f383306a507d1bff9c3",
+          "author": null,
+          "description": "OpenGL can be used to create complex 2D and 3D graphics effects.  We just released an advanced OpenGL course on the freeCodeCamp.org YouTube channel. Victor Gordan created this course. Before this course he created one of the most popular OpenGL course on YouTube. Now, he will help you take",
+          "link": "https://www.freecodecamp.org/news/create-complex-graphics-with-opengl/",
+          "publishedOn": "2021-08-11T12:40:12.000Z",
+          "wordCount": 8532,
+          "title": "Create Complex Graphics with OpenGL"
+        },
         {
           "id": "610e151e3306a507d1bffb32",
           "author": null,
@@ -579,24 +687,6 @@
           "publishedOn": "2021-07-19T12:59:32.000Z",
           "wordCount": 5027,
           "title": "SceneKit 3D Programming for iOS: Getting Started [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/21959081-aws-appsync-for-ios",
-          "author": null,
-          "description": "<p>Learn how to consume GraphQL APIs in your SwiftUI iOS apps in a simple and type-safe way using AWS AppSync framework.</p>",
-          "link": "https://www.raywenderlich.com/21959081-aws-appsync-for-ios",
-          "publishedOn": "2021-07-13T00:00:00.000Z",
-          "wordCount": 1005,
-          "title": "AWS AppSync for iOS [SUBSCRIBER]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started",
-          "author": null,
-          "description": "Learn how to use Resolver to implement dependency injection in your SwiftUI iOS apps to achieve easily readable and maintainable codebases.",
-          "link": "https://www.raywenderlich.com/22203552-resolver-for-ios-dependency-injection-getting-started",
-          "publishedOn": "2021-07-12T12:59:05.000Z",
-          "wordCount": 4642,
-          "title": "Resolver for iOS Dependency Injection: Getting Started [FREE]"
         }
       ]
     },
@@ -611,6 +701,15 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
       "siteUrl": "https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=v8XK41iTTkM",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=v8XK41iTTkM",
+          "publishedOn": "2021-08-11T13:00:34.000Z",
+          "wordCount": null,
+          "title": "App Ideas for Your iOS Developer Portfolio"
+        },
         {
           "id": "https://www.youtube.com/watch?v=N2RLA0TPucE",
           "author": null,
