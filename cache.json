@@ -1,0 +1,489 @@
+{
+  "sources": [
+    {
+      "title": "tonsky.me",
+      "feedUrl": "http://tonsky.me/blog/atom.xml",
+      "siteUrl": "https://tonsky.me/",
+      "articles": []
+    },
+    {
+      "title": "CSS-Tricks",
+      "feedUrl": "https://css-tricks.com/feed/",
+      "siteUrl": "https://css-tricks.com",
+      "articles": [
+        {
+          "id": "https://css-tricks.com/?p=346418",
+          "author": "Chris Coyier",
+          "description": "Brian Kardell shares a bit about the progress of bringing \"Tabs\" to HTML. We kinda think we know what they are, but you have to be really specific when dealing with specs and defining them. It's tricky.\nThe post Tabs in HTML? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://bkardell.com/blog/SpicySections.html",
+          "publishedOn": "2021-08-16T23:31:01.000Z",
+          "wordCount": 1914,
+          "title": "Tabs in HTML?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346686",
+          "author": "Chris Coyier",
+          "description": "Ahmad Shadeed dug into shape “cutouts” the other day. Imagine a shape with another smaller shape carved out of it. In his typical comprehensive way, Ahmad laid out the situation well—looking at tricky situations that complicate things. \nThe first thing …\nThe post Cutouts appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://ishadeed.com/article/thinking-about-the-cut-out-effect/",
+          "publishedOn": "2021-08-16T20:49:09.000Z",
+          "wordCount": 2944,
+          "title": "Cutouts"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346318",
+          "author": "Alvaro Montoro",
+          "description": "HTML is not a programming language.\nI’ve heard that sentence so many times and it’s tiring. Normally, it is followed by something like, It doesn’t have logic, or, It is not Turing complete,.so… obviously it is not a programming …\nThe post HTML is Not a Programming Language? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/html-is-not-a-programming-language/",
+          "publishedOn": "2021-08-16T14:44:35.000Z",
+          "wordCount": 2673,
+          "title": "HTML is Not a Programming Language?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346665",
+          "author": "Chris Coyier",
+          "description": "Looks like… 253 of them. I love the little water ⥾ spout one. (U+297e). Because. And I like how it’s a fairly useful little site at a great domain and with a little business model behind it. …\nThe post Unicode Arrows appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://unicodearrows.com/",
+          "publishedOn": "2021-08-13T18:08:07.000Z",
+          "wordCount": 10,
+          "title": "Unicode Arrows"
+        },
+        {
+          "id": "https://css-tricks.com/?p=345944",
+          "author": "John Polacek",
+          "description": "Whether you are just starting out on the front end, or you’ve been doing it for a long time, building a tool that can generate some cool front-end magic can help you learn something new, develop your skills and maybe …\nThe post Building a Cool Front End Thing Generator appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/building-a-cool-front-end-thing-generator/",
+          "publishedOn": "2021-08-13T14:41:21.000Z",
+          "wordCount": 2034,
+          "title": "Building a Cool Front End Thing Generator"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346608",
+          "author": "Robin Rendle",
+          "description": "A few days ago, Chris wrote up his thoughts about how alert(), confirm(), and prompt() were being deprecated by Chrome and collected a bunch of thoughts from developers. If certain features can essentially be turned off by …\nThe post Stay alert appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://dev.to/richharris/stay-alert-d",
+          "publishedOn": "2021-08-12T21:10:22.000Z",
+          "wordCount": 9929,
+          "title": "Stay alert"
+        },
+        {
+          "id": "https://css-tricks.com/?p=345687",
+          "author": "John Rhea",
+          "description": "Now that we’ve seen that web components and interactive web components are both easier than you think, let’s take a look at adding them to a content management system, namely WordPress.\nThere are three major ways we can add them. …\nThe post Using Web Components in WordPress is Easier Than You Think appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/using-web-components-in-wordpress-is-easier-than-you-think/",
+          "publishedOn": "2021-08-12T14:38:36.000Z",
+          "wordCount": 3452,
+          "title": "Using Web Components in WordPress is Easier Than You Think"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346388",
+          "author": "Chris Coyier",
+          "description": "Heck of a CSS trick here from Dongsung Kim. \nThere are hidden HDR videos playing at the corners of this page. When a HDR-capable browser encounters one, it switches to HDR mode. For some reason, CSS backdrop-filter + brightness >100% \n…\nThe post Wanna see a whiter white? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://kidi.ng/wanna-see-a-whiter-white/",
+          "publishedOn": "2021-08-11T19:09:36.000Z",
+          "wordCount": 351,
+          "title": "Wanna see a whiter white?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=345889",
+          "author": "Mike Neumegen",
+          "description": "You’ll often hear developers talking about “static” vs. “dynamic” sites, or you may have heard someone use the term Jamstack. What do these terms mean, and when does a “static” site become either a Jamstack or dynamic site? These …\nThe post Static vs. Dynamic vs. Jamstack: Where’s The Line? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/static-vs-dynamic-vs-jamstack-wheres-the-line/",
+          "publishedOn": "2021-08-11T14:31:20.000Z",
+          "wordCount": 4034,
+          "title": "Static vs. Dynamic vs. Jamstack: Where’s The Line?"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346384",
+          "author": "Chris Coyier",
+          "description": "We took a surface level look at Pipedream the other day, which really does look cool. It’s like a much more modern and fancy version of what Yahoo Pipes was. A better comparison might be Zapier, except you …\nThe post Napkin appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://www.napkin.io/",
+          "publishedOn": "2021-08-11T14:31:13.000Z",
+          "wordCount": 104,
+          "title": "Napkin"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346392",
+          "author": "Chris Coyier",
+          "description": "Have you ever wished you could see the HTML source of a web page while on a mobile browser, which generally doesn’t offer that feature? If you have a desktop machine around, there are ways, but what I mean …\nThe post View Source (on Mobile) appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://neatnik.net/view-source/",
+          "publishedOn": "2021-08-10T21:26:34.000Z",
+          "wordCount": 150,
+          "title": "View Source (on Mobile)"
+        },
+        {
+          "id": "https://css-tricks.com/?p=345861",
+          "author": "Kitty Giraudel",
+          "description": "Markdown truly is a great format. It’s close enough to plain text so that anyone can quickly learn it, and it’s structured enough that it can be parsed and eventually converted to you name it.\nThat being said: parsing, processing, …\nThe post Responsible Markdown in Next.js appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/responsible-markdown-in-next-js/",
+          "publishedOn": "2021-08-10T14:55:07.000Z",
+          "wordCount": 1762,
+          "title": "Responsible Markdown in Next.js"
+        },
+        {
+          "id": "https://css-tricks.com/?p=345799",
+          "author": "Chris Coyier",
+          "description": "(This is a sponsored post.)\nGot a WooCommerce store? It behooves you to offer a variety of payment methods. Just anecdotally, I’m sure both you and me have been annoyed and even abandoned purchases when a merchant, online or …\nThe post WooCommerce With Apple Pay and Google Pay appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/woocommerce-with-apple-pay-and-google-pay/",
+          "publishedOn": "2021-08-10T14:54:56.000Z",
+          "wordCount": 1321,
+          "title": "WooCommerce With Apple Pay and Google Pay"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346355",
+          "author": "Robin Rendle",
+          "description": "Here’s Kilian Valkhof on CSS nesting which isn’t available in browsers yet, but will be soon. There are a few differences he notes between CSS nesting and nesting in Sass or Less though. Take, for example, the following code:\ndiv \n…\nThe post CSS Nesting, specificity, and you appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://kilianvalkhof.com/2021/css-html/css-nesting-specificity-and-you/",
+          "publishedOn": "2021-08-10T14:51:39.000Z",
+          "wordCount": 2378,
+          "title": "CSS Nesting, specificity, and you"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346368",
+          "author": "Chris Coyier",
+          "description": "It might be the very first thing a lot of people learn in JavaScript:\nalert(\"Hello, World\");\nOne day at CodePen, we woke up to a ton of customer support tickets about their Pens being broken, which ultimately boiled down to …\nThe post Choice Words about the Upcoming Deprecation of JavaScript Dialogs appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/choice-words-about-the-upcoming-deprecation-of-javascript-dialogs/",
+          "publishedOn": "2021-08-09T21:23:44.000Z",
+          "wordCount": 2300,
+          "title": "Choice Words about the Upcoming Deprecation of JavaScript Dialogs"
+        }
+      ]
+    },
+    {
+      "title": "freeCodeCamp.org",
+      "feedUrl": "https://www.freecodecamp.org/news/rss/",
+      "siteUrl": "https://www.freecodecamp.org/news",
+      "articles": [
+        {
+          "id": "6119348e72231b077cdb0a55",
+          "author": null,
+          "description": "Are you preparing for coding interviews? I designed a crash course series to help you out.  I'm Lynn, a software engineer and a recent graduate from the University of Chicago. This is the second course in my Coding Interview Crash Course Series. Feel free to check out my YouTube channel,",
+          "link": "https://www.freecodecamp.org/news/coding-interview-tree-traversal-crash-course-the-only-one-youll-ever-need/",
+          "publishedOn": "2021-08-16T23:49:03.000Z",
+          "wordCount": 1639,
+          "title": "Coding Interview Tree Traversal Crash Course – The Only One You&#x27;ll Ever Need"
+        },
+        {
+          "id": "6114c87172231b077cdae3f2",
+          "author": null,
+          "description": "Let's begin with a quick question: How did you land on this article and this site today?  Well, quite literally, by clicking or tapping on a link, right? That's how powerful this element is – it will get you to any part of the Internet just by clicking on a link.",
+          "link": "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-beginners/",
+          "publishedOn": "2021-08-16T23:33:49.000Z",
+          "wordCount": 1475,
+          "title": "What is a Hyperlink? HTML Links Explained with Examples"
+        },
+        {
+          "id": "611a2ac772231b077cdb0e58",
+          "author": null,
+          "description": "If you're a JavaScript beginner, you might be struggling to understand what a promise really is.  I recently published this as a thread on Twitter and was blown away by the responses. So I decided to expand this into an introductory tutorial on JavaScript promises. I have read a lot",
+          "link": "https://www.freecodecamp.org/news/what-is-promise-in-javascript-for-beginners/",
+          "publishedOn": "2021-08-16T22:56:20.000Z",
+          "wordCount": 1738,
+          "title": "What is a Promise? JavaScript Promises for Beginners"
+        },
+        {
+          "id": "61167e3d72231b077cdafc14",
+          "author": null,
+          "description": "There are many repetitive tasks that we have to do every day. And they can be a bit boring, difficult, and monotonous.  But instead of laboring away at those daily tasks, you can delegate them so someone or something else does them for you. That way, you can have more",
+          "link": "https://www.freecodecamp.org/news/use-github-actions-to-automate-android-development/",
+          "publishedOn": "2021-08-16T20:18:40.000Z",
+          "wordCount": 2038,
+          "title": "How to Use GitHub Actions to Automate Android App Development"
+        },
+        {
+          "id": "611772ea72231b077cdafd56",
+          "author": null,
+          "description": "Whenever you visit a website, you'll probably click on something like a link or button.  Links take you to a certain part of the page, another page of the website, or another website entirely. Buttons, on the other hand, are usually manipulated by JavaScript events so they can trigger certain",
+          "link": "https://www.freecodecamp.org/news/html-button-onclick-javascript-click-event-tutorial/",
+          "publishedOn": "2021-08-16T17:58:05.000Z",
+          "wordCount": 2613,
+          "title": "HTML Button onclick – JavaScript Click Event Tutorial"
+        },
+        {
+          "id": "6107bffb3306a507d1bfc543",
+          "author": null,
+          "description": "If you are analysing data in Excel and need to set the value of a cell conditionally, you can use an IF statement to do so. The syntax is IF(logical_test, [value_if_true], [value_if_false]), where: logical_test is an expression that evaluates to TRUE or FALSE,",
+          "link": "https://www.freecodecamp.org/news/if-statement-excel-if-function-examples/",
+          "publishedOn": "2021-08-16T16:10:37.000Z",
+          "wordCount": 808,
+          "title": "IF Statement Excel – If Function Examples"
+        },
+        {
+          "id": "6106498a3306a507d1bfbff1",
+          "author": null,
+          "description": "You have just decided to learn how to code and you want to pursue a career in web development. But what exactly is web development? Where can you start learning? How much do web developers make? How do you get a job as a web developer? When I first started",
+          "link": "https://www.freecodecamp.org/news/what-is-web-development-how-to-become-a-web-developer-career-path/",
+          "publishedOn": "2021-08-16T16:10:01.000Z",
+          "wordCount": 1538,
+          "title": "What is Web Development? How to Become a Web Developer [2021 Career Path]"
+        },
+        {
+          "id": "6114b68972231b077cdae2e6",
+          "author": null,
+          "description": "Node.js is one of the most popular back-end technologies out there right now. It is friendly, robust, and well-maintained and it's not going anywhere anytime soon.  To help you learn how to use it effectively, in this article we will create a simple server using Node with Babel configured",
+          "link": "https://www.freecodecamp.org/news/setup-babel-in-nodejs/",
+          "publishedOn": "2021-08-16T13:58:10.000Z",
+          "wordCount": 1038,
+          "title": "How to Setup Babel in Node.js"
+        },
+        {
+          "id": "6040a6a7a7946308b768148c",
+          "author": null,
+          "description": "Are you struggling to learn to code? If you are, I want to help. So I have collected some tips from my personal experience to guide you so that you won't struggle unnecessarily again.‌‌ Why is Learning to Code Hard?Learning to code can be very hard especially for beginners.",
+          "link": "https://www.freecodecamp.org/news/why-learning-to-code-is-hard-and-how-to-make-it-easier/",
+          "publishedOn": "2021-08-16T13:58:01.000Z",
+          "wordCount": 2566,
+          "title": "Why Learning to Code is Hard – And How to Make it Easier"
+        },
+        {
+          "id": "6114ce1f72231b077cdae411",
+          "author": null,
+          "description": "Have you ever noticed the \"HTTP\" or \"HTTPS\" at the beginning of a URL in your browser? Well, what is HTTP and what is HTTPS? How are they different?  In order to understand the differences, it helps to demistify to meaning of these two terms and",
+          "link": "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
+          "publishedOn": "2021-08-16T13:57:44.000Z",
+          "wordCount": 1813,
+          "title": "What is HTTPS? HTTP vs HTTPS Meaning and How it Works"
+        }
+      ]
+    },
+    {
+      "title": "GolangCode",
+      "feedUrl": "https://golangcode.com/index.xml",
+      "siteUrl": "https://golangcode.com/",
+      "articles": []
+    },
+    {
+      "title": "Applied Go",
+      "feedUrl": "https://appliedgo.net/index.xml",
+      "siteUrl": "https://appliedgo.net/",
+      "articles": []
+    },
+    {
+      "title": "The acme of foolishness",
+      "feedUrl": "https://dave.cheney.net/feed/atom",
+      "siteUrl": "https://dave.cheney.net",
+      "articles": []
+    },
+    {
+      "title": "Swift.org",
+      "feedUrl": "https://swift.org/atom.xml?format=xml",
+      "siteUrl": null,
+      "articles": []
+    },
+    {
+      "title": "Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more",
+      "feedUrl": "https://www.raywenderlich.com/ios/feed",
+      "siteUrl": null,
+      "articles": [
+        {
+          "id": "https://www.raywenderlich.com/23523765-local-receipt-validation-in-ios",
+          "author": null,
+          "description": "<p>The course will walk you through the process of writing custom validation code for\nvalidating receipts from the app store on your device. Learn about the various\npitfalls of writing your own validation code and understand how it all works under the hood.</p>",
+          "link": "https://www.raywenderlich.com/23523765-local-receipt-validation-in-ios",
+          "publishedOn": "2021-08-17T00:00:00.000Z",
+          "wordCount": 874,
+          "title": "Local Receipt Validation in iOS [SUBSCRIBER]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/22408716-drag-and-drop-editable-lists-tutorial-for-swiftui",
+          "author": null,
+          "description": "Grow your SwiftUI List skills beyond the basics. Implement editing, moving, deletion and drag-and-drop support. Then, learn how custom views can support draggable content.",
+          "link": "https://www.raywenderlich.com/22408716-drag-and-drop-editable-lists-tutorial-for-swiftui",
+          "publishedOn": "2021-08-16T12:59:36.000Z",
+          "wordCount": 5050,
+          "title": "Drag and Drop Editable Lists: Tutorial for SwiftUI [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/24426963-snapshot-testing-tutorial-for-swiftui-getting-started",
+          "author": null,
+          "description": "Learn how to test your SwiftUI iOS views in a simple and fast way using snapshot testing.",
+          "link": "https://www.raywenderlich.com/24426963-snapshot-testing-tutorial-for-swiftui-getting-started",
+          "publishedOn": "2021-08-09T12:59:16.000Z",
+          "wordCount": 3551,
+          "title": "Snapshot Testing Tutorial for SwiftUI: Getting Started [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/22070915-integrate-combine-into-an-app",
+          "author": null,
+          "description": "<p>One of the best ways to test your Combine skills is to put them to use in an app! In\nthis course, put the finishing touches on a Chuck Norris jokes app, using\nCombine to fetch jokes, translate them into another language, and even - as a bonus -\nlearn how to use Combine with Core Data to save jokes to tell your friends later.</p>",
+          "link": "https://www.raywenderlich.com/22070915-integrate-combine-into-an-app",
+          "publishedOn": "2021-08-05T00:00:00.000Z",
+          "wordCount": 1121,
+          "title": "Integrate Combine Into an App [SUBSCRIBER]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/22372639-video-streaming-tutorial-for-ios-getting-started",
+          "author": null,
+          "description": "Learn how to build a video streaming app using AVKit and AVFoundation frameworks.",
+          "link": "https://www.raywenderlich.com/22372639-video-streaming-tutorial-for-ios-getting-started",
+          "publishedOn": "2021-08-04T12:59:19.000Z",
+          "wordCount": 5091,
+          "title": "Video Streaming Tutorial for iOS: Getting Started [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/23709326-swiftgen-tutorial-for-ios",
+          "author": null,
+          "description": "Learn how SwiftGen makes it easy to get rid of magic strings in your iOS projects.",
+          "link": "https://www.raywenderlich.com/23709326-swiftgen-tutorial-for-ios",
+          "publishedOn": "2021-08-02T12:59:41.000Z",
+          "wordCount": 5084,
+          "title": "SwiftGen Tutorial for iOS [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/21868250-audio-with-avfoundation",
+          "author": null,
+          "description": "<p>AVFoundation is Apple’s advanced framework for working with time-based media, such as audio and video.\nThis course covers the essentials to using the AVFoundation framework to create audio based apps.\nYou’ll learn how to set up audio sessions; record and playback audio; audio metering, how to control\nvolume and rate; special effects, such as pitch and reverb; and generating speech from text.</p>",
+          "link": "https://www.raywenderlich.com/21868250-audio-with-avfoundation",
+          "publishedOn": "2021-07-29T00:00:00.000Z",
+          "wordCount": 774,
+          "title": "Audio with AVFoundation [SUBSCRIBER]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/24247382-picture-in-picture-across-all-platforms",
+          "author": null,
+          "description": "Learn how to implement Picture in Picture for default and custom video players across all app platforms.",
+          "link": "https://www.raywenderlich.com/24247382-picture-in-picture-across-all-platforms",
+          "publishedOn": "2021-07-26T12:59:27.000Z",
+          "wordCount": 2786,
+          "title": "Picture in Picture Across All Platforms [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/21133526-firebase-tutorial-getting-started",
+          "author": null,
+          "description": "Learn Firebase fundamentals including saving data, real-time sync, authentication, user status and offline support.",
+          "link": "https://www.raywenderlich.com/21133526-firebase-tutorial-getting-started",
+          "publishedOn": "2021-07-21T12:59:25.000Z",
+          "wordCount": 5688,
+          "title": "Firebase Tutorial: Getting Started [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/23483920-scenekit-3d-programming-for-ios-getting-started",
+          "author": null,
+          "description": "Learn how to use SceneKit for 3D graphics programming by building an app modeling the solar system.",
+          "link": "https://www.raywenderlich.com/23483920-scenekit-3d-programming-for-ios-getting-started",
+          "publishedOn": "2021-07-19T12:59:32.000Z",
+          "wordCount": 5071,
+          "title": "SceneKit 3D Programming for iOS: Getting Started [FREE]"
+        }
+      ]
+    },
+    {
+      "title": "Ole Begemann",
+      "feedUrl": "https://oleb.net/blog/atom.xml",
+      "siteUrl": "https://oleb.net/blog/",
+      "articles": []
+    },
+    {
+      "title": "Sean Allen",
+      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
+      "siteUrl": "https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw",
+      "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=1kX0vA6SXBo",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=1kX0vA6SXBo",
+          "publishedOn": "2021-08-12T13:00:01.000Z",
+          "wordCount": null,
+          "title": "SwiftUI - Context Menu - Power User Shortcuts"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=v8XK41iTTkM",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=v8XK41iTTkM",
+          "publishedOn": "2021-08-11T13:00:34.000Z",
+          "wordCount": null,
+          "title": "App Ideas for Your iOS Developer Portfolio"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=N2RLA0TPucE",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=N2RLA0TPucE",
+          "publishedOn": "2021-08-10T13:00:17.000Z",
+          "wordCount": null,
+          "title": "SwiftUI Preview Tips & Tricks"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=je_VlMQR8v0",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=je_VlMQR8v0",
+          "publishedOn": "2021-08-02T14:45:12.000Z",
+          "wordCount": null,
+          "title": "Future of Combine, Async/Await, Is SwiftUI Ready, iOS Dev Career Arc"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=4xRm8MqMtG4",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=4xRm8MqMtG4",
+          "publishedOn": "2021-07-30T13:49:49.000Z",
+          "wordCount": null,
+          "title": "SwiftUI Custom Path Drawing - Map Balloon Shape"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=V-kSSjh1T74",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=V-kSSjh1T74",
+          "publishedOn": "2021-07-29T17:02:05.000Z",
+          "wordCount": null,
+          "title": "SwiftUI Photo Picker - Compressed Images, UIViewControllerRepresentable"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=qSV0lnuGhwM",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=qSV0lnuGhwM",
+          "publishedOn": "2021-07-28T14:29:54.000Z",
+          "wordCount": null,
+          "title": "SwiftUI Gradient Buttons | Linear, Radial & Angular Gradients"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=mXGg-iwZNUA",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=mXGg-iwZNUA",
+          "publishedOn": "2021-07-27T14:33:46.000Z",
+          "wordCount": null,
+          "title": "CloudKit - Intro, Pricing, Terms, & Definitions"
+        },
+        {
+          "id": "https://www.youtube.com/watch?v=m8K4j3NV56U",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=m8K4j3NV56U",
+          "publishedOn": "2021-07-24T14:32:02.000Z",
+          "wordCount": null,
+          "title": "WIWO #14: Course Launch Earnings, Business Evolution, Zero To One, WWDC Thoughts & More"
+        }
+      ]
+    },
+    {
+      "title": "Swift by Sundell",
+      "feedUrl": "https://swiftbysundell.com/podcast/feed.rss",
+      "siteUrl": "https://www.swiftbysundell.com/podcast",
+      "articles": [
+        {
+          "id": "https://www.swiftbysundell.com/podcast/102",
+          "author": null,
+          "description": "Jordan Morgan returns to the show to discuss some of the key new APIs and frameworks that were announced at WWDC21, and how they can be integrated into the apps that we build, now that about two months have passed since the conference took place.",
+          "link": "https://www.swiftbysundell.com/podcast/102",
+          "publishedOn": "2021-08-02T16:30:00.000Z",
+          "wordCount": null,
+          "title": "102: “WWDC21, two months later”, with special guest Jordan Morgan",
+          "itunes": {
+            "duration": "01:05:41"
+          },
+          "enclosure": {
+            "url": "https://traffic.libsyn.com/swiftbysundell/SwiftBySundell102.mp3",
+            "length": "63520819",
+            "type": "audio/mpeg"
+          }
+        }
+      ]
+    }
+  ],
+  "cliVersion": "1.11.0"
+}
