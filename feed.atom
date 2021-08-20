@@ -2,10 +2,120 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-19T00:42:09.521Z</updated>
+    <updated>2021-08-20T00:47:26.475Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[HTML Font Style – How to Change Text Color and Size with an HTML Tag]]></title>
+        <id>611e8bac3bccf807612a34df</id>
+        <link href="https://www.freecodecamp.org/news/html-font-style-how-to-change-text-color-and-size-with-an-html-tag/"/>
+        <updated>2021-08-19T23:23:07.000Z</updated>
+        <summary type="html"><![CDATA[When you code in HTML and add some text, you don’t want to leave it like that. You want to make that text look good.  And to do that, you need to change their appearance through the color and font-size properties of CSS.  In this tutorial, I will show]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The CSS Display Property – Display None, Display Table, Inline Block and More]]></title>
+        <id>611d436ee884de0752181044</id>
+        <link href="https://www.freecodecamp.org/news/the-css-display-property-display-none-display-table-inline-block-and-more/"/>
+        <updated>2021-08-19T20:47:14.000Z</updated>
+        <summary type="html"><![CDATA[In CSS, the display property determines how an element looks. It is also a crucial part of the presentation of you HTML code as it has a significant impact on layouts.  In fact, to use the modern Flexbox and Grid models, you need to use the display property before you]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lexical Scope in JavaScript – What Exactly Is Scope in JS?]]></title>
+        <id>611e4447e884de0752181578</id>
+        <link href="https://www.freecodecamp.org/news/javascript-lexical-scope-tutorial/"/>
+        <updated>2021-08-19T19:56:48.000Z</updated>
+        <summary type="html"><![CDATA[The term “lexical scope” may seem tricky to grasp at first glance. But it's helpful to understand what each word means. So this article will explain lexical scope by first examining the meaning of “lexical” and “scope”. So, let’s get it started by understanding the term “scope”. What exactly]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Big Gotcha With Custom Properties]]></title>
+        <id>https://css-tricks.com/?p=350054</id>
+        <link href="https://css-tricks.com/the-big-gotcha-with-custom-properties/"/>
+        <updated>2021-08-19T19:04:48.000Z</updated>
+        <summary type="html"><![CDATA[I’ve seen this confuse more than a handful of people recently, including myself, so I’m making sure it’s written down.
+Let’s chuck a couple of custom properties into CSS:
+html {
+  --color-1: red;
+  --color-2: blue;
+}
+Let’s use them right …
+The post The Big Gotcha With Custom Properties appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTML Space – How to Add a Non-breaking Space with the &amp;nbsp; Character Entity]]></title>
+        <id>611e3f8ee884de0752181566</id>
+        <link href="https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/"/>
+        <updated>2021-08-19T17:29:46.000Z</updated>
+        <summary type="html"><![CDATA[In HTML, you can't create an extra blank space after the space ( ) character with the spacebar. If you want 10 blank spaces in your HTML code and you try to add them with the spacebar, you'll only see one space in the browser.  Also, one or more of the words]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Array.map() Tutorial – How to Iterate Through Elements in an Array with map()]]></title>
+        <id>611d2ad1e884de0752180f58</id>
+        <link href="https://www.freecodecamp.org/news/array-map-tutorial/"/>
+        <updated>2021-08-19T16:16:57.000Z</updated>
+        <summary type="html"><![CDATA[When ES6 (EmcaScript 2015) came out, it ushered in a whole new set of methods for iterating over an array. And one of the most useful is the map() method. Array.prototype.map() is a built-in array method for iterating through the elements inside an array collection in JavaScript. Think]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Nuxt and Supabase for  a Multi-User Blogging App]]></title>
+        <id>https://css-tricks.com/?p=346563</id>
+        <link href="https://css-tricks.com/using-nuxt-and-supabase-for-a-multi-user-blogging-app/"/>
+        <updated>2021-08-19T14:32:57.000Z</updated>
+        <summary type="html"><![CDATA[Nuxt is a JavaScript framework that extends the existing functionality of Vue.js with features like server-side rendering, static page generation, file-based routing, and automatic code splitting among other things.
+I’ve been enjoying using frameworks like Nuxt and Next because they …
+The post Using Nuxt and Supabase for  a Multi-User Blogging App appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Nader Dabit</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Implementing a single GraphQL across multiple data sources]]></title>
+        <id>https://css-tricks.com/?p=350035</id>
+        <link href="https://css-tricks.com/implementing-a-single-graphql-across-multiple-data-sources/"/>
+        <updated>2021-08-19T14:30:41.000Z</updated>
+        <summary type="html"><![CDATA[(This is a sponsored post.)
+In this article, we will discuss how we can apply schema stitching across multiple Fauna instances. We will also discuss how to combine other GraphQL services and data sources with Fauna in one graph.…
+The post Implementing a single GraphQL across multiple data sources appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Shadid Haque</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SwiftUI Environment Values - What are they? Code Examples | Xcode 13]]></title>
+        <id>https://www.youtube.com/watch?v=S3DVAGQX0kI</id>
+        <link href="https://www.youtube.com/watch?v=S3DVAGQX0kI"/>
+        <updated>2021-08-19T13:00:11.000Z</updated>
+        <author>
+            <name>Sean Allen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn the Java Native Interface - Free 28-Hour Course]]></title>
+        <id>6116c31e72231b077cdafc89</id>
+        <link href="https://www.freecodecamp.org/news/learn-the-java-native-interface-free-28-hour-course/"/>
+        <updated>2021-08-19T12:43:56.000Z</updated>
+        <summary type="html"><![CDATA[The Java Native Interface allows Java code to call native libraries written in C and C++. It is helpful when you need to do something that cannot be accomplished with Java alone. We just released a massive 28-Hour course on the freeCodeCamp.org YouTube channel that will take you from]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[“We had 90% unused CSS because everybody was afraid to touch the old stuff”]]></title>
         <id>https://css-tricks.com/?p=348288</id>

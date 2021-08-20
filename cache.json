@@ -12,6 +12,33 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=350054",
+          "author": "Chris Coyier",
+          "description": "I’ve seen this confuse more than a handful of people recently, including myself, so I’m making sure it’s written down.\nLet’s chuck a couple of custom properties into CSS:\nhtml {\n  --color-1: red;\n  --color-2: blue;\n}\nLet’s use them right …\nThe post The Big Gotcha With Custom Properties appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/the-big-gotcha-with-custom-properties/",
+          "publishedOn": "2021-08-19T19:04:48.000Z",
+          "wordCount": 1217,
+          "title": "The Big Gotcha With Custom Properties"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346563",
+          "author": "Nader Dabit",
+          "description": "Nuxt is a JavaScript framework that extends the existing functionality of Vue.js with features like server-side rendering, static page generation, file-based routing, and automatic code splitting among other things.\nI’ve been enjoying using frameworks like Nuxt and Next because they …\nThe post Using Nuxt and Supabase for  a Multi-User Blogging App appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/using-nuxt-and-supabase-for-a-multi-user-blogging-app/",
+          "publishedOn": "2021-08-19T14:32:57.000Z",
+          "wordCount": 4189,
+          "title": "Using Nuxt and Supabase for  a Multi-User Blogging App"
+        },
+        {
+          "id": "https://css-tricks.com/?p=350035",
+          "author": "Shadid Haque",
+          "description": "(This is a sponsored post.)\nIn this article, we will discuss how we can apply schema stitching across multiple Fauna instances. We will also discuss how to combine other GraphQL services and data sources with Fauna in one graph.…\nThe post Implementing a single GraphQL across multiple data sources appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/implementing-a-single-graphql-across-multiple-data-sources/",
+          "publishedOn": "2021-08-19T14:30:41.000Z",
+          "wordCount": 2398,
+          "title": "Implementing a single GraphQL across multiple data sources"
+        },
+        {
           "id": "https://css-tricks.com/?p=348288",
           "author": "Chris Coyier",
           "description": "Over at the JS Party poundcast:\n[Kend C. Dodds]: […] ask anybody who’s done regular, old CSS and they’ll tell you that “I don’t know if it’s okay for me to change this, so I’m gonna duplicate it.” And \n…\nThe post “We had 90% unused CSS because everybody was afraid to touch the old stuff” appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -189,6 +216,60 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "611e8bac3bccf807612a34df",
+          "author": null,
+          "description": "When you code in HTML and add some text, you don’t want to leave it like that. You want to make that text look good.  And to do that, you need to change their appearance through the color and font-size properties of CSS.  In this tutorial, I will show",
+          "link": "https://www.freecodecamp.org/news/html-font-style-how-to-change-text-color-and-size-with-an-html-tag/",
+          "publishedOn": "2021-08-19T23:23:07.000Z",
+          "wordCount": 651,
+          "title": "HTML Font Style – How to Change Text Color and Size with an HTML Tag"
+        },
+        {
+          "id": "611d436ee884de0752181044",
+          "author": null,
+          "description": "In CSS, the display property determines how an element looks. It is also a crucial part of the presentation of you HTML code as it has a significant impact on layouts.  In fact, to use the modern Flexbox and Grid models, you need to use the display property before you",
+          "link": "https://www.freecodecamp.org/news/the-css-display-property-display-none-display-table-inline-block-and-more/",
+          "publishedOn": "2021-08-19T20:47:14.000Z",
+          "wordCount": 1716,
+          "title": "The CSS Display Property – Display None, Display Table, Inline Block and More"
+        },
+        {
+          "id": "611e4447e884de0752181578",
+          "author": null,
+          "description": "The term “lexical scope” may seem tricky to grasp at first glance. But it's helpful to understand what each word means. So this article will explain lexical scope by first examining the meaning of “lexical” and “scope”. So, let’s get it started by understanding the term “scope”. What exactly",
+          "link": "https://www.freecodecamp.org/news/javascript-lexical-scope-tutorial/",
+          "publishedOn": "2021-08-19T19:56:48.000Z",
+          "wordCount": 1834,
+          "title": "Lexical Scope in JavaScript – What Exactly Is Scope in JS?"
+        },
+        {
+          "id": "611e3f8ee884de0752181566",
+          "author": null,
+          "description": "In HTML, you can't create an extra blank space after the space ( ) character with the spacebar. If you want 10 blank spaces in your HTML code and you try to add them with the spacebar, you'll only see one space in the browser.  Also, one or more of the words",
+          "link": "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/",
+          "publishedOn": "2021-08-19T17:29:46.000Z",
+          "wordCount": 1200,
+          "title": "HTML Space – How to Add a Non-breaking Space with the &amp;nbsp; Character Entity"
+        },
+        {
+          "id": "611d2ad1e884de0752180f58",
+          "author": null,
+          "description": "When ES6 (EmcaScript 2015) came out, it ushered in a whole new set of methods for iterating over an array. And one of the most useful is the map() method. Array.prototype.map() is a built-in array method for iterating through the elements inside an array collection in JavaScript. Think",
+          "link": "https://www.freecodecamp.org/news/array-map-tutorial/",
+          "publishedOn": "2021-08-19T16:16:57.000Z",
+          "wordCount": 1546,
+          "title": "JavaScript Array.map() Tutorial – How to Iterate Through Elements in an Array with map()"
+        },
+        {
+          "id": "6116c31e72231b077cdafc89",
+          "author": null,
+          "description": "The Java Native Interface allows Java code to call native libraries written in C and C++. It is helpful when you need to do something that cannot be accomplished with Java alone. We just released a massive 28-Hour course on the freeCodeCamp.org YouTube channel that will take you from",
+          "link": "https://www.freecodecamp.org/news/learn-the-java-native-interface-free-28-hour-course/",
+          "publishedOn": "2021-08-19T12:43:56.000Z",
+          "wordCount": 636,
+          "title": "Learn the Java Native Interface - Free 28-Hour Course"
+        },
         {
           "id": "61135a3472231b077cdad609",
           "author": null,
@@ -494,6 +575,15 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
       "siteUrl": "https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=S3DVAGQX0kI",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=S3DVAGQX0kI",
+          "publishedOn": "2021-08-19T13:00:11.000Z",
+          "wordCount": null,
+          "title": "SwiftUI Environment Values - What are they? Code Examples | Xcode 13"
+        },
         {
           "id": "https://www.youtube.com/watch?v=1kX0vA6SXBo",
           "author": null,
