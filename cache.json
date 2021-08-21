@@ -12,6 +12,24 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=350186",
+          "author": "Chris Coyier",
+          "description": "I appreciated this bit of nuance from a post on Viget’s blog:\nThere could be a whole article written about the many flavours of Tailwind, but broadly speaking those flavours are:\n1. Stock tailwind, ie. no changes to the \n…\nThe post “Disambiguating Tailwind” appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/disambiguating-tailwind/",
+          "publishedOn": "2021-08-20T19:59:47.000Z",
+          "wordCount": 585,
+          "title": "“Disambiguating Tailwind”"
+        },
+        {
+          "id": "https://css-tricks.com/?p=346702",
+          "author": "Ganesh Dahal",
+          "description": "Frontity is a WordPress-focused React-based server-side dynamic-rendering framework (phew!) that allows us to create fast headless websites. Chris has a good introduction to Frontity. I guess you could think of it like Next.js for WordPress. And while the demand …\nThe post Creating a Headless WordPress Site With Frontity appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/creating-headless-wordpress-site-with-frontity/",
+          "publishedOn": "2021-08-20T14:59:30.000Z",
+          "wordCount": 2966,
+          "title": "Creating a Headless WordPress Site With Frontity"
+        },
+        {
           "id": "https://css-tricks.com/?p=350054",
           "author": "Chris Coyier",
           "description": "I’ve seen this confuse more than a handful of people recently, including myself, so I’m making sure it’s written down.\nLet’s chuck a couple of custom properties into CSS:\nhtml {\n  --color-1: red;\n  --color-2: blue;\n}\nLet’s use them right …\nThe post The Big Gotcha With Custom Properties appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -216,6 +234,42 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "611fd94c3bccf807612a4160",
+          "author": null,
+          "description": "As a React developer, I have gone through my fair share of front-end coding interviews. Recently, I had the opportunity to experience the process from the other side – as an interviewer. Here is what I've learned. Coding interview usually involve a multi-step process where interviewers assess everything from basic technical",
+          "link": "https://www.freecodecamp.org/news/how-to-stand-out-during-your-react-coding-interview/",
+          "publishedOn": "2021-08-20T18:20:42.000Z",
+          "wordCount": 1713,
+          "title": "React Coding Interview – How to Stand Out and Ace the Challenges"
+        },
+        {
+          "id": "611bf4f8e884de0752180979",
+          "author": null,
+          "description": "In this tutorial, you will build an app with React. And you will learn how to create a truly reusable auto-suggestion component from scratch. This application will allow a user to search for a country in a list of countries. It will display matching suggestions below the input field for",
+          "link": "https://www.freecodecamp.org/news/how-to-create-a-truly-reusable-react-component-from-scratch/",
+          "publishedOn": "2021-08-20T17:54:40.000Z",
+          "wordCount": 1935,
+          "title": "How to Create a Truly Reusable React Component from Scratch"
+        },
+        {
+          "id": "611f9b083bccf807612a3df0",
+          "author": null,
+          "description": "When you're writing HTML, you often need to insert line breaks. A line break is essential in addresses, poems, or when text exceeds the available browser width. If you don't insert your own line breaks, then the text gets formatted in an odd way.  In this tutorial, I'm going to",
+          "link": "https://www.freecodecamp.org/news/html-line-break-how-to-break-a-line-with-the-html-br-tag/",
+          "publishedOn": "2021-08-20T17:21:23.000Z",
+          "wordCount": 960,
+          "title": "HTML Line Break – How to Break a Line with the HTML &lt;br&gt; Tag"
+        },
+        {
+          "id": "611d56d3e884de07521810f9",
+          "author": null,
+          "description": "At the start of this year, I published a mind map on the Data Science learning roadmap (shown below). Many people found the roadmap useful, my article got translated into different languages, and a large number of folks thanked me for publishing it. Everything was good until a few developers",
+          "link": "https://www.freecodecamp.org/news/first-steps-to-learn-data-science-or-ml-after-the-roadmap/",
+          "publishedOn": "2021-08-20T03:21:20.000Z",
+          "wordCount": 1620,
+          "title": "Programming, Math, and Statistics You Need to Know for Data Science and Machine Learning"
+        },
         {
           "id": "611e8bac3bccf807612a34df",
           "author": null,
@@ -552,15 +606,6 @@
           "publishedOn": "2021-07-26T12:59:27.000Z",
           "wordCount": 2786,
           "title": "Picture in Picture Across All Platforms [FREE]"
-        },
-        {
-          "id": "https://www.raywenderlich.com/21133526-firebase-tutorial-getting-started",
-          "author": null,
-          "description": "Learn Firebase fundamentals including saving data, real-time sync, authentication, user status and offline support.",
-          "link": "https://www.raywenderlich.com/21133526-firebase-tutorial-getting-started",
-          "publishedOn": "2021-07-21T12:59:25.000Z",
-          "wordCount": 5688,
-          "title": "Firebase Tutorial: Getting Started [FREE]"
         }
       ]
     },
@@ -575,6 +620,15 @@
       "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCbTw29mcP12YlTt1EpUaVJw",
       "siteUrl": "https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw",
       "articles": [
+        {
+          "id": "https://www.youtube.com/watch?v=s4j4oXC9dKA",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=s4j4oXC9dKA",
+          "publishedOn": "2021-08-20T12:59:13.000Z",
+          "wordCount": null,
+          "title": "Software Developer Career Advice Sucks"
+        },
         {
           "id": "https://www.youtube.com/watch?v=S3DVAGQX0kI",
           "author": null,
