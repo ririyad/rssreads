@@ -2,10 +2,140 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-08-23T00:44:21.763Z</updated>
+    <updated>2021-08-24T00:46:37.069Z</updated>
     <generator>osmosfeed 1.11.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[SQL Join Types – Inner Join VS Outer Join Example]]></title>
+        <id>6107c03b3306a507d1bfc55b</id>
+        <link href="https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/"/>
+        <updated>2021-08-24T00:08:46.000Z</updated>
+        <summary type="html"><![CDATA[In a relational database, all information should only be present once. But you might have information that's separated into different tables that's related to each other.  And you might want to put this related information together to analyse its data – that is, you might want to join all the data]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debugging UIKit Views with Reveal [FREE]]]></title>
+        <id>https://www.raywenderlich.com/21462794-debugging-uikit-views-with-reveal</id>
+        <link href="https://www.raywenderlich.com/21462794-debugging-uikit-views-with-reveal"/>
+        <updated>2021-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Learn how to use the Reveal app to find and fix layout and rendering problems in UIKit views.</p>]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[freeCodeCamp Tribute Page Project – Tips for Getting Started]]></title>
+        <id>6053033528094f59be257c91</id>
+        <link href="https://www.freecodecamp.org/news/how-to-get-started-with-the-fcc-tribute-page/"/>
+        <updated>2021-08-23T21:22:42.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I will talk about how to get started with your first freeCodeCamp project and provide some tips along the way.  Here is what we will cover: Understanding the instructionsWhat is CodePen and how do I use it?Do I have to use CodePen or can I use]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build an Android News App with React Native and Native Base]]></title>
+        <id>6120eac83bccf807612a4bd6</id>
+        <link href="https://www.freecodecamp.org/news/build-an-android-news-app-with-react-native-and-native-base/"/>
+        <updated>2021-08-23T18:23:27.000Z</updated>
+        <summary type="html"><![CDATA[We live in a world where things are constantly changing. So if you want to stay up to date on what's happening, you'll want a good News app.  To help you learn some cool tech and stay current, in this blog post we'll build a News Application for Android using]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Detecting Media Query Support in CSS and JavaScript]]></title>
+        <id>https://css-tricks.com/?p=350264</id>
+        <link href="https://kilianvalkhof.com/2021/web/detecting-media-query-support-in-css-and-javascript/"/>
+        <updated>2021-08-23T17:16:38.000Z</updated>
+        <summary type="html"><![CDATA[You can’t just do @media (prefers-reduced-data: no-preference) alone because, as Kilian Valkhof says:
+[…] that would be false if either there was no support (since the browser wouldn’t understand the media query) or if it was supported but the 
+…
+The post Detecting Media Query Support in CSS and JavaScript appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We&#x27;re Building New Courses on Rust and Python + the Replit.web Framework]]></title>
+        <id>611a940ae884de075217f649</id>
+        <link href="https://www.freecodecamp.org/news/announcing-rust-course-replit-web/"/>
+        <updated>2021-08-23T17:03:24.000Z</updated>
+        <summary type="html"><![CDATA[As you may know, I've been a fan of Replit since way back in 2012. I used early versions of the website when I was learning to code.  For me, Replit was a place to code my solutions for Project Euler problems, and to practice my Python and JavaScript skills.]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SQL Contains String – SQL RegEx Example Query]]></title>
+        <id>6107c04a3306a507d1bfc561</id>
+        <link href="https://www.freecodecamp.org/news/sql-contains-string-sql-regex-example-query/"/>
+        <updated>2021-08-23T15:30:47.000Z</updated>
+        <summary type="html"><![CDATA[Being able to do complex queries can be really useful in SQL. In this article, we'll look at how you can use the Contains String query. SQL PatternsSQL patterns are useful for pattern matching, instead of using literal comparisons. They have a more limited syntax than RegEx, but they're more]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Front End Developer – What is Front End Development, Explained in Plain English]]></title>
+        <id>61064ad03306a507d1bfc001</id>
+        <link href="https://www.freecodecamp.org/news/front-end-developer-what-is-front-end-development-explained-in-plain-english/"/>
+        <updated>2021-08-23T15:30:27.000Z</updated>
+        <summary type="html"><![CDATA[If you are new to programming, you might have heard of the term Front End Development. But what does that mean?  In this article, I will explain what Front End Development is, what skills you need to become a Front End Developer, and tips for landing a job.  What is]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Native JavaScript Routing?]]></title>
+        <id>https://css-tricks.com/?p=350160</id>
+        <link href="https://css-tricks.com/native-javascript-routing/"/>
+        <updated>2021-08-23T14:28:14.000Z</updated>
+        <summary type="html"><![CDATA[We can update the URL in JavaScript. We’ve got the APIs pushState and replaceState: 
+// Adds to browser history
+history.pushState({}, "About Page", "/about");
+
+// Doesn't
+history.replaceState({}, "About Page", "/about");
+JavaScript is also capable of replacing any content in the …
+The post Native JavaScript Routing? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.]]></summary>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[103: “What’s new in Swift 5.5”, with special guest Antoine van der Lee]]></title>
+        <id>https://www.swiftbysundell.com/podcast/103</id>
+        <link href="https://www.swiftbysundell.com/podcast/103"/>
+        <updated>2021-08-23T13:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Antoine van der Lee, creator of SwiftLee, joins John to discuss the new language features that are being introduced as part of Swift 5.5 — from the brand new concurrency system, to convenience features and various improvements.]]></summary>
+        <author>
+            <name>Swift by Sundell</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Programming for Beginners - How to Code with Python and C#]]></title>
+        <id>6116e52a72231b077cdafcf6</id>
+        <link href="https://www.freecodecamp.org/news/programming-for-beginners-how-to-code-with-python-and-c-sharp/"/>
+        <updated>2021-08-23T13:24:09.000Z</updated>
+        <summary type="html"><![CDATA[When it comes to learning how to write computer programs, it can be hard to figure out where to start.  Well, look no further. We just released a full course that teaches basic programming skills in both Python and C#. This course is for absolute beginners. One of the best]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tuist Tutorial for Xcode [FREE]]]></title>
+        <id>https://www.raywenderlich.com/24508362-tuist-tutorial-for-xcode</id>
+        <link href="https://www.raywenderlich.com/24508362-tuist-tutorial-for-xcode"/>
+        <updated>2021-08-23T12:59:23.000Z</updated>
+        <summary type="html"><![CDATA[Learn how to use Tuist to create and manage complex Xcode projects and workspaces on-the-fly.]]></summary>
+        <author>
+            <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[“Disambiguating Tailwind”]]></title>
         <id>https://css-tricks.com/?p=350186</id>
@@ -783,15 +913,6 @@ volume and rate; special effects, such as pitch and reverb; and generating speec
         <summary type="html"><![CDATA[Learn how to implement Picture in Picture for default and custom video players across all app platforms.]]></summary>
         <author>
             <name>Ray Wenderlich | High quality programming tutorials: iOS, Android, Swift, Kotlin, Unity, and more</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WIWO #14: Course Launch Earnings, Business Evolution, Zero To One, WWDC Thoughts & More]]></title>
-        <id>https://www.youtube.com/watch?v=m8K4j3NV56U</id>
-        <link href="https://www.youtube.com/watch?v=m8K4j3NV56U"/>
-        <updated>2021-07-24T14:32:02.000Z</updated>
-        <author>
-            <name>Sean Allen</name>
         </author>
     </entry>
 </feed>

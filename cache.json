@@ -12,6 +12,24 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=350264",
+          "author": "Chris Coyier",
+          "description": "You can’t just do @media (prefers-reduced-data: no-preference) alone because, as Kilian Valkhof says:\n[…] that would be false if either there was no support (since the browser wouldn’t understand the media query) or if it was supported but the \n…\nThe post Detecting Media Query Support in CSS and JavaScript appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://kilianvalkhof.com/2021/web/detecting-media-query-support-in-css-and-javascript/",
+          "publishedOn": "2021-08-23T17:16:38.000Z",
+          "wordCount": 1292,
+          "title": "Detecting Media Query Support in CSS and JavaScript"
+        },
+        {
+          "id": "https://css-tricks.com/?p=350160",
+          "author": "Chris Coyier",
+          "description": "We can update the URL in JavaScript. We’ve got the APIs pushState and replaceState: \n// Adds to browser history\nhistory.pushState({}, \"About Page\", \"/about\");\n\n// Doesn't\nhistory.replaceState({}, \"About Page\", \"/about\");\nJavaScript is also capable of replacing any content in the …\nThe post Native JavaScript Routing? appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/native-javascript-routing/",
+          "publishedOn": "2021-08-23T14:28:14.000Z",
+          "wordCount": 832,
+          "title": "Native JavaScript Routing?"
+        },
+        {
           "id": "https://css-tricks.com/?p=350186",
           "author": "Chris Coyier",
           "description": "I appreciated this bit of nuance from a post on Viget’s blog:\nThere could be a whole article written about the many flavours of Tailwind, but broadly speaking those flavours are:\n1. Stock tailwind, ie. no changes to the \n…\nThe post “Disambiguating Tailwind” appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -234,6 +252,69 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "6107c03b3306a507d1bfc55b",
+          "author": null,
+          "description": "In a relational database, all information should only be present once. But you might have information that's separated into different tables that's related to each other.  And you might want to put this related information together to analyse its data – that is, you might want to join all the data",
+          "link": "https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/",
+          "publishedOn": "2021-08-24T00:08:46.000Z",
+          "wordCount": 1459,
+          "title": "SQL Join Types – Inner Join VS Outer Join Example"
+        },
+        {
+          "id": "6053033528094f59be257c91",
+          "author": null,
+          "description": "In this article, I will talk about how to get started with your first freeCodeCamp project and provide some tips along the way.  Here is what we will cover: Understanding the instructionsWhat is CodePen and how do I use it?Do I have to use CodePen or can I use",
+          "link": "https://www.freecodecamp.org/news/how-to-get-started-with-the-fcc-tribute-page/",
+          "publishedOn": "2021-08-23T21:22:42.000Z",
+          "wordCount": 1504,
+          "title": "freeCodeCamp Tribute Page Project – Tips for Getting Started"
+        },
+        {
+          "id": "6120eac83bccf807612a4bd6",
+          "author": null,
+          "description": "We live in a world where things are constantly changing. So if you want to stay up to date on what's happening, you'll want a good News app.  To help you learn some cool tech and stay current, in this blog post we'll build a News Application for Android using",
+          "link": "https://www.freecodecamp.org/news/build-an-android-news-app-with-react-native-and-native-base/",
+          "publishedOn": "2021-08-23T18:23:27.000Z",
+          "wordCount": 2974,
+          "title": "How to Build an Android News App with React Native and Native Base"
+        },
+        {
+          "id": "611a940ae884de075217f649",
+          "author": null,
+          "description": "As you may know, I've been a fan of Replit since way back in 2012. I used early versions of the website when I was learning to code.  For me, Replit was a place to code my solutions for Project Euler problems, and to practice my Python and JavaScript skills.",
+          "link": "https://www.freecodecamp.org/news/announcing-rust-course-replit-web/",
+          "publishedOn": "2021-08-23T17:03:24.000Z",
+          "wordCount": 749,
+          "title": "We&#x27;re Building New Courses on Rust and Python + the Replit.web Framework"
+        },
+        {
+          "id": "6107c04a3306a507d1bfc561",
+          "author": null,
+          "description": "Being able to do complex queries can be really useful in SQL. In this article, we'll look at how you can use the Contains String query. SQL PatternsSQL patterns are useful for pattern matching, instead of using literal comparisons. They have a more limited syntax than RegEx, but they're more",
+          "link": "https://www.freecodecamp.org/news/sql-contains-string-sql-regex-example-query/",
+          "publishedOn": "2021-08-23T15:30:47.000Z",
+          "wordCount": 2778,
+          "title": "SQL Contains String – SQL RegEx Example Query"
+        },
+        {
+          "id": "61064ad03306a507d1bfc001",
+          "author": null,
+          "description": "If you are new to programming, you might have heard of the term Front End Development. But what does that mean?  In this article, I will explain what Front End Development is, what skills you need to become a Front End Developer, and tips for landing a job.  What is",
+          "link": "https://www.freecodecamp.org/news/front-end-developer-what-is-front-end-development-explained-in-plain-english/",
+          "publishedOn": "2021-08-23T15:30:27.000Z",
+          "wordCount": 1362,
+          "title": "Front End Developer – What is Front End Development, Explained in Plain English"
+        },
+        {
+          "id": "6116e52a72231b077cdafcf6",
+          "author": null,
+          "description": "When it comes to learning how to write computer programs, it can be hard to figure out where to start.  Well, look no further. We just released a full course that teaches basic programming skills in both Python and C#. This course is for absolute beginners. One of the best",
+          "link": "https://www.freecodecamp.org/news/programming-for-beginners-how-to-code-with-python-and-c-sharp/",
+          "publishedOn": "2021-08-23T13:24:09.000Z",
+          "wordCount": 50738,
+          "title": "Programming for Beginners - How to Code with Python and C#"
+        },
         {
           "id": "611fd94c3bccf807612a4160",
           "author": null,
@@ -527,6 +608,24 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.raywenderlich.com/21462794-debugging-uikit-views-with-reveal",
+          "author": null,
+          "description": "<p>Learn how to use the Reveal app to find and fix layout and rendering problems in UIKit views.</p>",
+          "link": "https://www.raywenderlich.com/21462794-debugging-uikit-views-with-reveal",
+          "publishedOn": "2021-08-24T00:00:00.000Z",
+          "wordCount": 910,
+          "title": "Debugging UIKit Views with Reveal [FREE]"
+        },
+        {
+          "id": "https://www.raywenderlich.com/24508362-tuist-tutorial-for-xcode",
+          "author": null,
+          "description": "Learn how to use Tuist to create and manage complex Xcode projects and workspaces on-the-fly.",
+          "link": "https://www.raywenderlich.com/24508362-tuist-tutorial-for-xcode",
+          "publishedOn": "2021-08-23T12:59:23.000Z",
+          "wordCount": 4636,
+          "title": "Tuist Tutorial for Xcode [FREE]"
+        },
+        {
           "id": "https://www.raywenderlich.com/25218890-core-graphics-tutorial-lines-rectangles-and-gradients",
           "author": null,
           "description": "Learn how to use Core Graphics to draw lines, rectangles, and gradients — starting by beautifying a table view!",
@@ -709,15 +808,6 @@
           "publishedOn": "2021-07-27T14:33:46.000Z",
           "wordCount": null,
           "title": "CloudKit - Intro, Pricing, Terms, & Definitions"
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=m8K4j3NV56U",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=m8K4j3NV56U",
-          "publishedOn": "2021-07-24T14:32:02.000Z",
-          "wordCount": null,
-          "title": "WIWO #14: Course Launch Earnings, Business Evolution, Zero To One, WWDC Thoughts & More"
         }
       ]
     },
@@ -726,6 +816,23 @@
       "feedUrl": "https://swiftbysundell.com/podcast/feed.rss",
       "siteUrl": "https://www.swiftbysundell.com/podcast",
       "articles": [
+        {
+          "id": "https://www.swiftbysundell.com/podcast/103",
+          "author": null,
+          "description": "Antoine van der Lee, creator of SwiftLee, joins John to discuss the new language features that are being introduced as part of Swift 5.5 — from the brand new concurrency system, to convenience features and various improvements.",
+          "link": "https://www.swiftbysundell.com/podcast/103",
+          "publishedOn": "2021-08-23T13:55:00.000Z",
+          "wordCount": null,
+          "title": "103: “What’s new in Swift 5.5”, with special guest Antoine van der Lee",
+          "itunes": {
+            "duration": "01:11:48"
+          },
+          "enclosure": {
+            "url": "https://traffic.libsyn.com/swiftbysundell/SwiftBySundell103.mp3",
+            "length": "69384763",
+            "type": "audio/mpeg"
+          }
+        },
         {
           "id": "https://www.swiftbysundell.com/podcast/102",
           "author": null,
