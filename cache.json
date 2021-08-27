@@ -12,6 +12,33 @@
       "siteUrl": "https://css-tricks.com",
       "articles": [
         {
+          "id": "https://css-tricks.com/?p=350573",
+          "author": "Chris Coyier",
+          "description": "When I think about what front-end development really is and feels like, this is at the heart of it: designing around a huge set of unknowns, and really embracing that notion as a strength of the web rather …\nThe post Designing for the Unexpected appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://alistapart.com/article/designing-for-the-unexpected/",
+          "publishedOn": "2021-08-26T23:07:31.000Z",
+          "wordCount": 4512,
+          "title": "Designing for the Unexpected"
+        },
+        {
+          "id": "https://css-tricks.com/?p=350298",
+          "author": "Chris Coyier",
+          "description": "The perfect link — Rian Rietveld defines them: “When you click on them, they take you somewhere else.” Not much code in here (we’ve got that), just a lot of practical accessibility advice. For example, the alt text \n…\nThe post Some Articles About Accessibility I’ve Saved Recently III appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/some-articles-about-accessibility-ive-saved-recently-iii/",
+          "publishedOn": "2021-08-26T19:35:21.000Z",
+          "wordCount": 959,
+          "title": "Some Articles About Accessibility I’ve Saved Recently III"
+        },
+        {
+          "id": "https://css-tricks.com/?p=350223",
+          "author": "Mariana Beldi",
+          "description": "While learning Vue.js, I started building free web tools that involved the exploration of SVG, with the goal of learning something about both! Let’s take a look at one of those tools: a generator that makes SVG loaders and …\nThe post How I Made a Generator for SVG Loaders With Sass and SMIL Options appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
+          "link": "https://css-tricks.com/how-i-made-a-generator-for-svg-loaders-with-sass-and-smil-options/",
+          "publishedOn": "2021-08-26T14:35:03.000Z",
+          "wordCount": 2061,
+          "title": "How I Made a Generator for SVG Loaders With Sass and SMIL Options"
+        },
+        {
           "id": "https://css-tricks.com/?p=350311",
           "author": "Chris Coyier",
           "description": "A question:\nIf you copy a code sample that uses two-space indentation and you want to convert it to four-space indentation, what’s the *fastest* and easiest option?\nMatt Stauffer, Twitter\n\nI wrote about doing this in Sublime Text a …\nThe post One Way to Convert Code Indentation appeared first on CSS-Tricks. You can support CSS-Tricks by being an MVP Supporter.",
@@ -297,6 +324,87 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "612203fb3bccf807612a5756",
+          "author": null,
+          "description": "Have you ever wondered if there is a method to delay your JavaScript code by a few seconds?  In this article, I will explain what the setTimeout() method is with code examples and how it differs from setInterval().  What is setTimeout() in JavaScript?setTimeout() is a method that will execute",
+          "link": "https://www.freecodecamp.org/news/javascript-settimeout-js-timer-to-delay-n-seconds/",
+          "publishedOn": "2021-08-26T23:57:34.000Z",
+          "wordCount": 1114,
+          "title": "JavaScript setTimeout() – JS Timer to Delay N Seconds"
+        },
+        {
+          "id": "6117b37a72231b077cdafea8",
+          "author": null,
+          "description": "Choosing the right font is an important first step in making your website usable and accessible.  How text is formatted affects how readable your designs and webpages are.  You can modify how your HTML text appears in many ways using CSS. You can select the type of font you want",
+          "link": "https://www.freecodecamp.org/news/html-font-css-font-family-example-serif-and-sans-serif-characters/",
+          "publishedOn": "2021-08-26T22:15:30.000Z",
+          "wordCount": 1459,
+          "title": "HTML Font – CSS Font Family Example (Serif and Sans Serif Characters)"
+        },
+        {
+          "id": "6107c0083306a507d1bfc549",
+          "author": null,
+          "description": "In a Relational Database, tables are often related to each other in a way that allows their information to only be written once in the whole database. Then, when you need to analyze the data, you'll need to combine the info from those related tables. To do this in SQL,",
+          "link": "https://www.freecodecamp.org/news/sql-left-join-example-join-statement-syntax/",
+          "publishedOn": "2021-08-26T20:29:12.000Z",
+          "wordCount": 1425,
+          "title": "SQL Left Join – Example Join Statement Syntax"
+        },
+        {
+          "id": "60b5025111ffb70827ef9ebe",
+          "author": null,
+          "description": "Would you like to talk to a chatbot that speaks like your favorite character, fictional or non-fictional? Let's build one!  In case you've seen my previous tutorial on this topic, stick with me as this version features lots of updates. You can follow along with this tutorial using the code",
+          "link": "https://www.freecodecamp.org/news/discord-ai-chatbot/",
+          "publishedOn": "2021-08-26T19:30:00.000Z",
+          "wordCount": 1750,
+          "title": "How to Build a Discord AI Chatbot that Talks Like Your Favorite Character"
+        },
+        {
+          "id": "6125f93b3bccf807612a7b84",
+          "author": null,
+          "description": "Git is a popular version control system and an essential tool in a web developer's toolkit.  Branches are a powerful and integral part of working with Git.  In this article, you will learn the basics about how to remove local and remote branches in Git.  What are Branches in Git?",
+          "link": "https://www.freecodecamp.org/news/git-delete-branch-how-to-remove-a-local-or-remote-branch/",
+          "publishedOn": "2021-08-26T17:00:36.000Z",
+          "wordCount": 1172,
+          "title": "Git Delete Branch – How to Remove a Local or Remote Branch"
+        },
+        {
+          "id": "612439163bccf807612a6e69",
+          "author": null,
+          "description": "Welcome! If you speak Spanish and you want you learn JavaScript, you're in the right place. freeCodeCamp just published a free 9-hour JavaScript course for beginners. You will learn everything you need to know to get started with JavaScript, a key programming language for web development and many other applications.",
+          "link": "https://www.freecodecamp.org/news/learn-javascript-in-spanish-full-course-for-beginners/",
+          "publishedOn": "2021-08-26T16:35:47.000Z",
+          "wordCount": 567,
+          "title": "Learn JavaScript in Spanish – Full Course for Beginners"
+        },
+        {
+          "id": "611f3dde3bccf807612a37c3",
+          "author": null,
+          "description": "In this article, we're going to learn how to integrate a splash screen in a Flutter app. But first, why is having a splash screen in your app essential? What is a Splash Screen?A splash screen is an initial screen that gets displayed right when the user launches the",
+          "link": "https://www.freecodecamp.org/news/how-to-add-a-splash-screen-in-flutter-app/",
+          "publishedOn": "2021-08-26T16:30:17.000Z",
+          "wordCount": 1515,
+          "title": "How to Add a Splash Screen to Your Flutter App"
+        },
+        {
+          "id": "6123a7673bccf807612a64bf",
+          "author": null,
+          "description": "The Array.filter() method is arguably the most important and widely used method for iterating over an array in JavaScript. The way the filter() method works is very simple. It entails filtering out one or more items (a subset) from a larger collection of items (a superset) based on some",
+          "link": "https://www.freecodecamp.org/news/javascript-array-filter-tutorial-how-to-iterate-through-elements-in-an-array/",
+          "publishedOn": "2021-08-26T16:07:48.000Z",
+          "wordCount": 1344,
+          "title": "JavaScript Array.filter() Tutorial – How to Iterate Through Elements in an Array"
+        },
+        {
+          "id": "61279c123bccf807612a8bda",
+          "author": null,
+          "description": "You can use artificial intelligence to make a Discord chat bot talk like your favorite character. It could be a Rick and Morty character, Harry Potter, Peppa Pig, or someone else. We just released a tutorial on the freeCodeCamp.org YouTube channel that will teach you how to create a",
+          "link": "https://www.freecodecamp.org/news/make-a-discord-bot-that-talks-like-rick-sanchez/",
+          "publishedOn": "2021-08-26T13:59:54.000Z",
+          "wordCount": 5274,
+          "title": "Make a Discord Chat Bot That Talks Like Rick Sanchez"
+        },
         {
           "id": "612114773bccf807612a5084",
           "author": null,
@@ -891,6 +999,15 @@
       "siteUrl": "https://www.youtube.com/channel/UCbTw29mcP12YlTt1EpUaVJw",
       "articles": [
         {
+          "id": "https://www.youtube.com/watch?v=hWMkimzIQoU",
+          "author": null,
+          "description": "",
+          "link": "https://www.youtube.com/watch?v=hWMkimzIQoU",
+          "publishedOn": "2021-08-26T13:00:20.000Z",
+          "wordCount": null,
+          "title": "SwiftUI User Location on a Map | MapKit & CoreLocation"
+        },
+        {
           "id": "https://www.youtube.com/watch?v=0OaHzM3F9es",
           "author": null,
           "description": "",
@@ -979,15 +1096,6 @@
           "publishedOn": "2021-07-28T14:29:54.000Z",
           "wordCount": null,
           "title": "SwiftUI Gradient Buttons | Linear, Radial & Angular Gradients"
-        },
-        {
-          "id": "https://www.youtube.com/watch?v=mXGg-iwZNUA",
-          "author": null,
-          "description": "",
-          "link": "https://www.youtube.com/watch?v=mXGg-iwZNUA",
-          "publishedOn": "2021-07-27T14:33:46.000Z",
-          "wordCount": null,
-          "title": "CloudKit - Intro, Pricing, Terms, & Definitions"
         }
       ]
     },
