@@ -22,6 +22,69 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "613f3c9f852f4307d372c7d8",
+          "author": null,
+          "description": "In this article, I will show how to create, open, and edit HTML files in TextEdit.  What is TextEdit?TextEdit is a free word processor that comes preinstalled with your Mac computer. It has been around for over 25 years and it is an easy way to open and read",
+          "link": "https://www.freecodecamp.org/news/web-page-text-editor-how-to-open-html-code-in-mac-textedit/",
+          "publishedOn": "2021-09-15T22:29:38.000Z",
+          "wordCount": 535,
+          "title": "Web Page Text Editor – How to Open HTML Code in Mac TextEdit"
+        },
+        {
+          "id": "6141fe01852f4307d372e123",
+          "author": null,
+          "description": "JavaScript uses three dots (...) for both the rest and spread operators. But these two operators are not the same. The main difference between rest and spread is that the rest operator puts the rest of some specific user-supplied values into a JavaScript array. But the spread syntax expands iterables into",
+          "link": "https://www.freecodecamp.org/news/javascript-rest-vs-spread-operators/",
+          "publishedOn": "2021-09-15T22:27:26.000Z",
+          "wordCount": 2896,
+          "title": "JavaScript Rest vs Spread Operator – What’s the Difference?"
+        },
+        {
+          "id": "610662663306a507d1bfc14a",
+          "author": null,
+          "description": "If everything is predictable in a game, that isn't much fun. RNGs, or Random Number Generators, are a way to introduce a touch of randomness and causality you need to spice it up. In this article, we'll learn how random number generators work. How an Analogic Random Number Generator WorksThe",
+          "link": "https://www.freecodecamp.org/news/rng-meaning-what-does-rng-stand-for-in-gaming/",
+          "publishedOn": "2021-09-15T21:55:10.000Z",
+          "wordCount": 1534,
+          "title": "RNG Meaning – What does RNG Stand for in Gaming?"
+        },
+        {
+          "id": "6138552f581b610782a91fb0",
+          "author": null,
+          "description": "Imagine waking up one day to find out that your production systems are down because of a bug that has yet to be traced. One of your worst nightmares right?  And you also discover that you need to compare code from two versions and the pressure is building to restore",
+          "link": "https://www.freecodecamp.org/news/compare-files-with-diff-in-linux/",
+          "publishedOn": "2021-09-15T21:01:00.000Z",
+          "wordCount": 896,
+          "title": "What&#x27;s the Diff? How Use Linux diff to Compare Files and Apply Changes with patch"
+        },
+        {
+          "id": "6140ae19852f4307d372d73b",
+          "author": null,
+          "description": "Transparency plays an important role in front end development. It lets you choose how transparent the elements on your web pages appear.  You can adjust transparency in several ways – because of course, in CSS, there are multiple ways to do the same thing.  The CSS opacity property is the first",
+          "link": "https://www.freecodecamp.org/news/transparent-background-image-opacity-in-css-and-html/",
+          "publishedOn": "2021-09-15T17:05:14.000Z",
+          "wordCount": 1084,
+          "title": "Transparent Background – Image Opacity in CSS and HTML"
+        },
+        {
+          "id": "613cf859852f4307d372bcef",
+          "author": null,
+          "description": "Building a CSS library might seem like something you'd do out of pure curiosity, just to learn and explore. But it can be so much more than that.  I've seen custom-built CSS libraries used everywhere from big organisations to scrappy young startups.  What is a CSS Library? You can think",
+          "link": "https://www.freecodecamp.org/news/build-a-css-library-with-vitejs/",
+          "publishedOn": "2021-09-15T16:47:22.000Z",
+          "wordCount": 1554,
+          "title": "How to Build a CSS Library with Vite.js"
+        },
+        {
+          "id": "613c6d6f852f4307d372b900",
+          "author": null,
+          "description": "When you're just starting to learn to code, it might feel like it's always a struggle. Your progress seems very slow and it's easy to be discouraged.  In this article, I'll show you some tips and tricks that will help you to learn JavaScript more efficiently. Before we start, we",
+          "link": "https://www.freecodecamp.org/news/how-to-learn-javascript-a-little-faster/",
+          "publishedOn": "2021-09-15T15:57:42.000Z",
+          "wordCount": 992,
+          "title": "How to Learn JavaScript A Little Faster"
+        },
+        {
           "id": "613b1a82852f4307d372ae6b",
           "author": null,
           "description": "When you're formatting strings in Python, you're probably used to using the format() method.  But in Python 3.6 and later, you can use f-Strings instead. f-Strings, also called formatted string literals, have a more succinct syntax and can be super helpful in string formatting. In this tutorial, you'll learn",
@@ -1136,96 +1199,6 @@
           "publishedOn": "2021-08-17T13:32:18.000Z",
           "wordCount": 21004,
           "title": "How to Integrate Google APIs with Python Django"
-        },
-        {
-          "id": "6119348e72231b077cdb0a55",
-          "author": null,
-          "description": "Are you preparing for coding interviews? I designed a crash course series to help you out.  I'm Lynn, a software engineer and a recent graduate from the University of Chicago. This is the second course in my Coding Interview Crash Course Series. Feel free to check out my YouTube channel,",
-          "link": "https://www.freecodecamp.org/news/coding-interview-tree-traversal-crash-course-the-only-one-youll-ever-need/",
-          "publishedOn": "2021-08-16T23:49:03.000Z",
-          "wordCount": 1639,
-          "title": "Coding Interview Tree Traversal Crash Course – The Only One You&#x27;ll Ever Need"
-        },
-        {
-          "id": "6114c87172231b077cdae3f2",
-          "author": null,
-          "description": "Let's begin with a quick question: How did you land on this article and this site today?  Well, quite literally, by clicking or tapping on a link, right? That's how powerful this element is – it will get you to any part of the Internet just by clicking on a link.",
-          "link": "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-beginners/",
-          "publishedOn": "2021-08-16T23:33:49.000Z",
-          "wordCount": 1475,
-          "title": "What is a Hyperlink? HTML Links Explained with Examples"
-        },
-        {
-          "id": "611a2ac772231b077cdb0e58",
-          "author": null,
-          "description": "If you're a JavaScript beginner, you might be struggling to understand what a promise really is.  I recently published this as a thread on Twitter and was blown away by the responses. So I decided to expand this into an introductory tutorial on JavaScript promises. I have read a lot",
-          "link": "https://www.freecodecamp.org/news/what-is-promise-in-javascript-for-beginners/",
-          "publishedOn": "2021-08-16T22:56:20.000Z",
-          "wordCount": 1738,
-          "title": "What is a Promise? JavaScript Promises for Beginners"
-        },
-        {
-          "id": "61167e3d72231b077cdafc14",
-          "author": null,
-          "description": "There are many repetitive tasks that we have to do every day. And they can be a bit boring, difficult, and monotonous.  But instead of laboring away at those daily tasks, you can delegate them so someone or something else does them for you. That way, you can have more",
-          "link": "https://www.freecodecamp.org/news/use-github-actions-to-automate-android-development/",
-          "publishedOn": "2021-08-16T20:18:40.000Z",
-          "wordCount": 2038,
-          "title": "How to Use GitHub Actions to Automate Android App Development"
-        },
-        {
-          "id": "611772ea72231b077cdafd56",
-          "author": null,
-          "description": "Whenever you visit a website, you'll probably click on something like a link or button.  Links take you to a certain part of the page, another page of the website, or another website entirely. Buttons, on the other hand, are usually manipulated by JavaScript events so they can trigger certain",
-          "link": "https://www.freecodecamp.org/news/html-button-onclick-javascript-click-event-tutorial/",
-          "publishedOn": "2021-08-16T17:58:05.000Z",
-          "wordCount": 2613,
-          "title": "HTML Button onclick – JavaScript Click Event Tutorial"
-        },
-        {
-          "id": "6107bffb3306a507d1bfc543",
-          "author": null,
-          "description": "If you are analysing data in Excel and need to set the value of a cell conditionally, you can use an IF statement to do so. The syntax is IF(logical_test, [value_if_true], [value_if_false]), where: logical_test is an expression that evaluates to TRUE or FALSE,",
-          "link": "https://www.freecodecamp.org/news/if-statement-excel-if-function-examples/",
-          "publishedOn": "2021-08-16T16:10:37.000Z",
-          "wordCount": 808,
-          "title": "IF Statement Excel – If Function Examples"
-        },
-        {
-          "id": "6106498a3306a507d1bfbff1",
-          "author": null,
-          "description": "You have just decided to learn how to code and you want to pursue a career in web development. But what exactly is web development? Where can you start learning? How much do web developers make? How do you get a job as a web developer? When I first started",
-          "link": "https://www.freecodecamp.org/news/what-is-web-development-how-to-become-a-web-developer-career-path/",
-          "publishedOn": "2021-08-16T16:10:01.000Z",
-          "wordCount": 1538,
-          "title": "What is Web Development? How to Become a Web Developer [2021 Career Path]"
-        },
-        {
-          "id": "6114b68972231b077cdae2e6",
-          "author": null,
-          "description": "Node.js is one of the most popular back-end technologies out there right now. It is friendly, robust, and well-maintained and it's not going anywhere anytime soon.  To help you learn how to use it effectively, in this article we will create a simple server using Node with Babel configured",
-          "link": "https://www.freecodecamp.org/news/setup-babel-in-nodejs/",
-          "publishedOn": "2021-08-16T13:58:10.000Z",
-          "wordCount": 1038,
-          "title": "How to Setup Babel in Node.js"
-        },
-        {
-          "id": "6040a6a7a7946308b768148c",
-          "author": null,
-          "description": "Are you struggling to learn to code? If you are, I want to help. So I have collected some tips from my personal experience to guide you so that you won't struggle unnecessarily again.‌‌ Why is Learning to Code Hard?Learning to code can be very hard especially for beginners.",
-          "link": "https://www.freecodecamp.org/news/why-learning-to-code-is-hard-and-how-to-make-it-easier/",
-          "publishedOn": "2021-08-16T13:58:01.000Z",
-          "wordCount": 2566,
-          "title": "Why Learning to Code is Hard – And How to Make it Easier"
-        },
-        {
-          "id": "6114ce1f72231b077cdae411",
-          "author": null,
-          "description": "Have you ever noticed the \"HTTP\" or \"HTTPS\" at the beginning of a URL in your browser? Well, what is HTTP and what is HTTPS? How are they different?  In order to understand the differences, it helps to demistify to meaning of these two terms and",
-          "link": "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
-          "publishedOn": "2021-08-16T13:57:44.000Z",
-          "wordCount": 1813,
-          "title": "What is HTTPS? HTTP vs HTTPS Meaning and How it Works"
         }
       ]
     },
