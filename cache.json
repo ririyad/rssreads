@@ -22,6 +22,69 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "5fbf192a49c47664ed825d46",
+          "author": null,
+          "description": "In this article, you'll learn how to set up reCAPTCHA v3 in your Laravel project. This can be a bit tricky, so I'll help you simplify the process here.  What is reCaptcha?reCaptcha is a Google service provided for free that helps you protect your websites from spam and malicious",
+          "link": "https://www.freecodecamp.org/news/how-to-setup-recaptcha-v3-in-laravel/",
+          "publishedOn": "2021-09-20T22:26:01.000Z",
+          "wordCount": 732,
+          "title": "How to Set Up reCAPTCHA v3 in a Laravel Project"
+        },
+        {
+          "id": "61483e50852f4307d3730d48",
+          "author": null,
+          "description": "Tuples and lists are two of the four available built-in data types that you can use to store data in Python.  They are both useful and they might seem similar at first glance. But they have significant differences and each one is best used in different cases.  This article will",
+          "link": "https://www.freecodecamp.org/news/python-tuple-vs-list-what-is-the-difference/",
+          "publishedOn": "2021-09-20T21:15:57.000Z",
+          "wordCount": 2100,
+          "title": "Python Tuple VS List – What is the Difference?"
+        },
+        {
+          "id": "61330a1fd6679a07b7d41e3e",
+          "author": null,
+          "description": "React-icons is a small library that helps you add icons (from all different icon libraries) to your React apps. It delivers the icons to your app as components so they're easier to work with, and it lets you style them so they're consistent with the overall style of your app.",
+          "link": "https://www.freecodecamp.org/news/how-to-use-react-icons/",
+          "publishedOn": "2021-09-20T19:44:00.000Z",
+          "wordCount": 2562,
+          "title": "How to use react-icons to install Font Awesome in a React app"
+        },
+        {
+          "id": "613a5047852f4307d372a9ea",
+          "author": null,
+          "description": "In this article I am going to walk you through building a prototype with Spring Boot. Think of it like building a project for a hackathon or a prototype for your startup in limited time.  In other words, we are not trying to build something perfect – but rather something that",
+          "link": "https://www.freecodecamp.org/news/spring-boot-tutorial-build-fast-modern-java-app/",
+          "publishedOn": "2021-09-20T19:43:06.000Z",
+          "wordCount": 8254,
+          "title": "Spring Boot Tutorial – How to Build Fast and Modern Java Apps"
+        },
+        {
+          "id": "6148d0dc9456b407b870f5ba",
+          "author": null,
+          "description": "Django is one of the most popular ways to create full-stack websites with Python. We just published an 18-hour Django course on the freeCodeCamp.org YouTube channel. Charles Severance (a.k.a. Dr. Chuck) created this course, along with the popular Python for Everybody course. He is a Clinical Professor",
+          "link": "https://www.freecodecamp.org/news/django-for-everybody-learn-the-popular-python-framework-from-dr-chuck/",
+          "publishedOn": "2021-09-20T18:29:03.000Z",
+          "wordCount": 789,
+          "title": "Django for Everybody - Learn the Popular Python Framework from Dr. Chuck"
+        },
+        {
+          "id": "612cbfd8b5177808226d4a47",
+          "author": null,
+          "description": "In this article, I will show you a few code examples on how you can sort your data in ascending order using the ORDER BY clause in SQL.  ORDER BY syntaxThis is the basic syntax to sort your data in ascending order: SELECT columns FROM table ORDER BY column;If",
+          "link": "https://www.freecodecamp.org/news/ascending-order-with-sql-order-by/",
+          "publishedOn": "2021-09-20T14:29:04.000Z",
+          "wordCount": 767,
+          "title": "Ascending Order with SQL Order By"
+        },
+        {
+          "id": "614382b2852f4307d372f2d6",
+          "author": null,
+          "description": "Take  a look at the following sentences:  I’m learning how to  code.  I'll get a software developer job.  Learning how to code doesn’t have to cost you money.  The words I’m, I’ll and doesn’t are called contractions.  In this article, you'll learn all about contractions",
+          "link": "https://www.freecodecamp.org/news/what-is-a-contraction-grammar-and-definition/",
+          "publishedOn": "2021-09-20T13:59:58.000Z",
+          "wordCount": 1817,
+          "title": "What is a Contraction? Grammar and Definition"
+        },
+        {
           "id": "613f3cc7852f4307d372c7e4",
           "author": null,
           "description": "You might have heard of a CSV file but what does it mean?  In this article, we are going to learn what a CSV file is, and how to open and export them using Microsoft Excel and Google Sheets.  What is a CSV file? CSV stands for Comma Separated Values.",
@@ -1163,6 +1226,15 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/conceptual-compression-is-lossy-and-loss-hurts-c62d027a",
+          "author": null,
+          "description": "To make things simpler, you have to take something away. That means giving up something of real value to get something else of greater value still. You can't counter complexity without being willing to sacrifice. That is the nature of conceptual compression.\nIt's why it's so hard to do. People become attached to the choices and advantages they've grown to know, and they're loathe to trade those in on future benefits. They know what they have, they don't know what they'll get. This is the prudence of conservatism.\nSo it's appealing to think we can simply have it all. Everything that already is plus everything that could be. But that merely delays the disappointment when we inevitably end up worse off than if we hadn't reached at all.\nThe clarity to make something fundamentally better comes from the bright sheen of a blank page. The inertia of the old requires effort to bring over, so only the best of it will make the jump. What's retained is the big picture, not every footnote.\nYou know you're onto something if the sting of what's lost actually hurts at first. From that comes the demand that the salve of what's new truly soothes.",
+          "link": "https://world.hey.com/dhh/conceptual-compression-is-lossy-and-loss-hurts-c62d027a",
+          "publishedOn": "2021-09-20T08:59:38.000Z",
+          "wordCount": 247,
+          "title": "Conceptual compression is lossy (and loss hurts)"
+        },
         {
           "id": "https://world.hey.com/dhh/your-likes-hearts-and-flattering-comments-are-bad-for-my-brain-649e9010",
           "author": null,
