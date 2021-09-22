@@ -1172,60 +1172,6 @@
           "publishedOn": "2021-08-24T00:08:46.000Z",
           "wordCount": 1459,
           "title": "SQL Join Types – Inner Join VS Outer Join Example"
-        },
-        {
-          "id": "6053033528094f59be257c91",
-          "author": null,
-          "description": "In this article, I will talk about how to get started with your first freeCodeCamp project and provide some tips along the way.  Here is what we will cover: Understanding the instructionsWhat is CodePen and how do I use it?Do I have to use CodePen or can I use",
-          "link": "https://www.freecodecamp.org/news/how-to-get-started-with-the-fcc-tribute-page/",
-          "publishedOn": "2021-08-23T21:22:42.000Z",
-          "wordCount": 1504,
-          "title": "freeCodeCamp Tribute Page Project – Tips for Getting Started"
-        },
-        {
-          "id": "6120eac83bccf807612a4bd6",
-          "author": null,
-          "description": "We live in a world where things are constantly changing. So if you want to stay up to date on what's happening, you'll want a good News app.  To help you learn some cool tech and stay current, in this blog post we'll build a News Application for Android using",
-          "link": "https://www.freecodecamp.org/news/build-an-android-news-app-with-react-native-and-native-base/",
-          "publishedOn": "2021-08-23T18:23:27.000Z",
-          "wordCount": 2974,
-          "title": "How to Build an Android News App with React Native and Native Base"
-        },
-        {
-          "id": "611a940ae884de075217f649",
-          "author": null,
-          "description": "As you may know, I've been a fan of Replit since way back in 2012. I used early versions of the website when I was learning to code.  For me, Replit was a place to code my solutions for Project Euler problems, and to practice my Python and JavaScript skills.",
-          "link": "https://www.freecodecamp.org/news/announcing-rust-course-replit-web/",
-          "publishedOn": "2021-08-23T17:03:24.000Z",
-          "wordCount": 749,
-          "title": "We&#x27;re Building New Courses on Rust and Python + the Replit.web Framework"
-        },
-        {
-          "id": "6107c04a3306a507d1bfc561",
-          "author": null,
-          "description": "Being able to do complex queries can be really useful in SQL. In this article, we'll look at how you can use the Contains String query. SQL PatternsSQL patterns are useful for pattern matching, instead of using literal comparisons. They have a more limited syntax than RegEx, but they're more",
-          "link": "https://www.freecodecamp.org/news/sql-contains-string-sql-regex-example-query/",
-          "publishedOn": "2021-08-23T15:30:47.000Z",
-          "wordCount": 2778,
-          "title": "SQL Contains String – SQL RegEx Example Query"
-        },
-        {
-          "id": "61064ad03306a507d1bfc001",
-          "author": null,
-          "description": "If you are new to programming, you might have heard of the term Front End Development. But what does that mean?  In this article, I will explain what Front End Development is, what skills you need to become a Front End Developer, and tips for landing a job.  What is",
-          "link": "https://www.freecodecamp.org/news/front-end-developer-what-is-front-end-development-explained-in-plain-english/",
-          "publishedOn": "2021-08-23T15:30:27.000Z",
-          "wordCount": 1362,
-          "title": "Front End Developer – What is Front End Development, Explained in Plain English"
-        },
-        {
-          "id": "6116e52a72231b077cdafcf6",
-          "author": null,
-          "description": "When it comes to learning how to write computer programs, it can be hard to figure out where to start.  Well, look no further. We just released a full course that teaches basic programming skills in both Python and C#. This course is for absolute beginners. One of the best",
-          "link": "https://www.freecodecamp.org/news/programming-for-beginners-how-to-code-with-python-and-c-sharp/",
-          "publishedOn": "2021-08-23T13:24:09.000Z",
-          "wordCount": 50738,
-          "title": "Programming for Beginners - How to Code with Python and C#"
         }
       ]
     },
@@ -1385,15 +1331,31 @@
           "publishedOn": "2021-08-26T18:15:21.000Z",
           "wordCount": 253,
           "title": "Heard Something, Read Something, Saw Something [#7]"
+        }
+      ]
+    },
+    {
+      "title": "The Plain Text Project",
+      "feedUrl": "https://plaintextproject.online/feed.xml",
+      "siteUrl": "https://plaintextproject.online",
+      "articles": [
+        {
+          "id": "https://plaintextproject.online/articles/2021/09/07/ebook.html",
+          "author": null,
+          "description": "A look at how to use pandoc, a Markdown-formatted file, and a CSS file to create an EPUB",
+          "link": "https://plaintextproject.online/articles/2021/09/07/ebook.html",
+          "publishedOn": "2021-09-07T19:00:00.000Z",
+          "wordCount": 592,
+          "title": "A Quick and Dirty Guide to Creating an EPUB with Pandoc"
         },
         {
-          "id": "https://world.hey.com/jason/questions-i-ask-when-checking-references-454e5e8d",
+          "id": "https://plaintextproject.online/articles/2021/08/31/links.html",
           "author": null,
-          "description": "When hiring for key positions, speaking with references is important. For us, it's typically the last step in the hiring process. A phase for the final-finalists.\nAnyone who makes it to the final stage of the hiring process has already been well vetted for skill and disposition. We have a great sense of how they interview, and their tours at previous companies. If they've gotten this far, we know they can do the job.\nBut we don't really know them. Or know what it's like to work alongside them. Or above or below them in an organization. We can imagine, but hearing is better. That's why we check references.\nWhen someone provides references, there's a good chance they'll be generally positive. You probably aren't going to intentionally make yourself look bad (and if you do, you may have a sel…",
-          "link": "https://world.hey.com/jason/questions-i-ask-when-checking-references-454e5e8d",
-          "publishedOn": "2021-08-23T20:20:27.000Z",
-          "wordCount": 936,
-          "title": "Questions I ask when checking references"
+          "description": "Four links to some interesting articles about plain text",
+          "link": "https://plaintextproject.online/articles/2021/08/31/links.html",
+          "publishedOn": "2021-08-31T19:00:00.000Z",
+          "wordCount": 88,
+          "title": "Four Links - August 31, 2021"
         }
       ]
     }
