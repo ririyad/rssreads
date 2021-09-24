@@ -6,6 +6,15 @@
       "siteUrl": "https://tonsky.me/",
       "articles": [
         {
+          "id": "https://tonsky.me/blog/python-build/",
+          "author": null,
+          "description": "Why Skija and JWM use Python instead of existing build tool",
+          "link": "https://tonsky.me/blog/python-build/",
+          "publishedOn": "2021-09-23T00:00:00.000Z",
+          "wordCount": 1413,
+          "title": "Python as a build tool"
+        },
+        {
           "id": "https://tonsky.me/blog/clojure-ui/",
           "author": null,
           "description": "Ideas and inspirations for new Clojure framework for desktop apps",
@@ -21,6 +30,42 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "614c72939456b407b8710f0a",
+          "author": null,
+          "description": "The HEIC photo format is Apple’s proprietary version of the HEIF (High-Efficiency Image File) file format.  It’s a better way to save photos than JPG and JPEG, because with it, you can save up to 50% disk space on your device without losing quality.  Because HEIC is owned",
+          "link": "https://www.freecodecamp.org/news/convert-heic-to-jpg-on-windows-heic-file-format-on-pc/",
+          "publishedOn": "2021-09-23T21:29:17.000Z",
+          "wordCount": 496,
+          "title": "Convert HEIC to JPG on Windows – HEIC File Format on PC"
+        },
+        {
+          "id": "61386e5b581b610782a9206b",
+          "author": null,
+          "description": "When coding in Python, you can often anticipate runtime errors even in a syntactically and logically correct program. These errors can be caused by invalid inputs or some predictable inconsistencies.  In Python, you can use the try and the except blocks to handle most of these errors as exceptions all",
+          "link": "https://www.freecodecamp.org/news/python-try-and-except-statements-how-to-handle-exceptions-in-python/",
+          "publishedOn": "2021-09-23T21:00:47.000Z",
+          "wordCount": 2039,
+          "title": "Python Try and Except Statements – How to Handle Exceptions in Python"
+        },
+        {
+          "id": "612cbfcab5177808226d4a41",
+          "author": null,
+          "description": "In SQL, you can delete a row in a table by using the DELETE query and the WHERE clause.  In the article, I will walk you through how to use the DELETE query and WHERE clause to delete rows. I will also show you how to delete multiple rows from",
+          "link": "https://www.freecodecamp.org/news/how-to-delete-a-row-in-sql-example-query/",
+          "publishedOn": "2021-09-23T17:56:36.000Z",
+          "wordCount": 831,
+          "title": "How to Delete a Row in SQL – Example Query"
+        },
+        {
+          "id": "61495c979456b407b870f9f7",
+          "author": null,
+          "description": "One of the very interesting and widely used applications of Natural Language Processing is Named Entity Recognition (NER). Getting insights from raw and unstructured data is of vital importance. Uploading a document and getting the important bits of information from it is called information retrieval. Information retrieval has always been",
+          "link": "https://www.freecodecamp.org/news/use-python-spacy-streamlit-to-build-structured-financial-newsfeed/",
+          "publishedOn": "2021-09-23T17:01:09.000Z",
+          "wordCount": 2125,
+          "title": "Use Python, SpaCy, and Streamlit to Build a Structured Financial Newsfeed"
+        },
         {
           "id": "612780233bccf807612a8955",
           "author": null,
@@ -1109,96 +1154,6 @@
           "publishedOn": "2021-08-25T15:34:28.000Z",
           "wordCount": 1563,
           "title": "Learn CSS Units – Em, Rem, VH, and VW with Code Examples ✨✨"
-        },
-        {
-          "id": "611f54d33bccf807612a38c4",
-          "author": null,
-          "description": "Outliers are an important part of a dataset. They can hold useful information about your data.  Outliers can give helpful insights into the data you're studying, and they can have an effect on statistical results. This can potentially help you disover inconsistencies and detect any errors in your statistical processes.",
-          "link": "https://www.freecodecamp.org/news/what-is-an-outlier-definition-and-how-to-find-outliers-in-statistics/",
-          "publishedOn": "2021-08-24T20:32:36.000Z",
-          "wordCount": 1951,
-          "title": "What is an Outlier? Definition and How to Find Outliers in Statistics"
-        },
-        {
-          "id": "6114599172231b077cdae0ec",
-          "author": null,
-          "description": "You can use extensions in your browser to remove parts of a webpage you don't want to see. Removing annoyances, distractions, and irrelevant content is a great way to stay focused and remain efficient while you consume information on the internet. There are many extensions that add this functionality to",
-          "link": "https://www.freecodecamp.org/news/how-to-block-content-from-web-pages-using-ublock-origin/",
-          "publishedOn": "2021-08-24T19:39:53.000Z",
-          "wordCount": 1136,
-          "title": "How to Block Unwanted Content From Web Pages Using uBlock Origin"
-        },
-        {
-          "id": "611255c472231b077cdac90c",
-          "author": null,
-          "description": "What if you could monitor your Colab, Kaggle, or AzureML Machine Learning projects on your mobile phone? You'd be able to check in on your models on the fly – even while taking a walk🚶.  If you are an ML developer, you know how training models can easily take a long",
-          "link": "https://www.freecodecamp.org/news/how-to-monitor-ml-projects-on-mobile-devices/",
-          "publishedOn": "2021-08-24T19:20:03.000Z",
-          "wordCount": 1492,
-          "title": "How to Monitor Machine Learning Projects on Your Mobile Device📱"
-        },
-        {
-          "id": "6120b2f13bccf807612a4826",
-          "author": null,
-          "description": "Python has a bunch of helpful built-in functions you can use to do all sorts of stuff. And each one performs a specific task.  But did you know that Python also allows you to define your own functions?  This article will show you how to create and call your own",
-          "link": "https://www.freecodecamp.org/news/python-function-examples-how-to-declare-and-invoke-with-parameters-2/",
-          "publishedOn": "2021-08-24T19:04:21.000Z",
-          "wordCount": 2372,
-          "title": "Python Function Examples – How to Declare and Invoke with Parameters"
-        },
-        {
-          "id": "60cf7e594dc1a607ed7b5de0",
-          "author": null,
-          "description": "When you're working with an application, sometimes it no longer makes sense to try to continue and improve what already exists. Instead, you need to rethink, restructure, and rebuild.  Making the decision to give up all the work you and others have put into the existing system is a difficult",
-          "link": "https://www.freecodecamp.org/news/sacrificial-architecture-make-tough-decisions-to-abandon-and-rebuild-systems/",
-          "publishedOn": "2021-08-24T19:02:30.000Z",
-          "wordCount": 1391,
-          "title": "Sacrificial Architecture – How to Make Tough Decisions to Abandon and Rebuild Systems"
-        },
-        {
-          "id": "61225b3f3bccf807612a5aae",
-          "author": null,
-          "description": "Dictionaries are powerful built-in data structures in Python that store data as key-value pairs. Dictionary Comprehension can be super helpful in creating new dictionaries from existing dictionaries and iterables. In this tutorial, we'll learn how dictionary comprehensions work in Python by coding some simple examples. What is a Dictionary in",
-          "link": "https://www.freecodecamp.org/news/dictionary-comprehension-in-python-explained-with-examples/",
-          "publishedOn": "2021-08-24T17:34:03.000Z",
-          "wordCount": 1378,
-          "title": "Dictionary Comprehension in Python – Explained with Examples"
-        },
-        {
-          "id": "612116513bccf807612a50db",
-          "author": null,
-          "description": "In JavaScript, you'll often need to iterate through an array collection and execute a callback method for each iteration. And there's a helpful method JS devs typically use to do this: the forEach() method. The forEach() method calls a specified callback function once for every element it iterates over inside",
-          "link": "https://www.freecodecamp.org/news/javascript-array-foreach-tutorial-how-to-iterate-through-elements-in-an-array-with-map/",
-          "publishedOn": "2021-08-24T17:16:41.000Z",
-          "wordCount": 1664,
-          "title": "JavaScript Array.forEach() Tutorial – How to Iterate Through Elements in an Array"
-        },
-        {
-          "id": "6124d7c33bccf807612a70b0",
-          "author": null,
-          "description": "HTML, or Hypertext Markup Language, is a markup language for the web that defines the structure of web pages.  It is one of the most basic building blocks of every website, so it's crucial to learn if you want to have a career in web development.  In this article, I",
-          "link": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/",
-          "publishedOn": "2021-08-24T16:38:12.000Z",
-          "wordCount": 1688,
-          "title": "What is HTML – Definition and Meaning of Hypertext Markup Language"
-        },
-        {
-          "id": "611d6726e884de07521811e2",
-          "author": null,
-          "description": "It is considered a best practice to have your CSS stylesheets in an external file. So how can you link that CSS to your HTML file? Linking to an external CSS file is an important part of any HTML page boilerplate. And in this article, we'll learn how to do",
-          "link": "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/",
-          "publishedOn": "2021-08-24T15:44:49.000Z",
-          "wordCount": 735,
-          "title": "External CSS Stylesheets – How to Link CSS to HTML and Import into Head"
-        },
-        {
-          "id": "611813bf72231b077cdb01fe",
-          "author": null,
-          "description": "Jetpack Compose is Android's modern toolkit for building native UI. It simplifies and accelerates UI development on Android. We just released a course on the freeCodeCamp.org YouTube channel that will teach you how to create a Sudoku Android app with Kotlin and Jetpack Compose. Along the way you will",
-          "link": "https://www.freecodecamp.org/news/create-an-android-app/",
-          "publishedOn": "2021-08-24T15:43:51.000Z",
-          "wordCount": 18594,
-          "title": "Create an Android App With Kotlin and Jetpack Compose"
         }
       ]
     },
