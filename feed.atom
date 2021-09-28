@@ -2,10 +2,100 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-09-27T00:51:21.949Z</updated>
+    <updated>2021-09-28T00:52:42.846Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Four Links - September 28, 2021]]></title>
+        <id>https://plaintextproject.online/articles/2021/09/28/links.html</id>
+        <link href="https://plaintextproject.online/articles/2021/09/28/links.html"/>
+        <updated>2021-09-28T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A few more than four fresh plain text links. Yes, you read that correctly!]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Repo Guide – How to Increase Engagement on your Public GitHub Repositories]]></title>
+        <id>6149e65e9456b407b870fdc5</id>
+        <link href="https://www.freecodecamp.org/news/increase-engagement-on-your-public-github-repositories/"/>
+        <updated>2021-09-28T00:05:11.000Z</updated>
+        <summary type="html"><![CDATA[GitHub is a collection of web-based tools that helps you work with version control and Git methodologies.  With the help of GitHub, you can create, manage, and collaborate on projects with multiple other team members. You keep the project folders and files in a store (file system) on GitHub. This]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Open-Closed Principle – The Software Development Concept Explained in Plain English]]></title>
+        <id>6148802f9456b407b870f041</id>
+        <link href="https://www.freecodecamp.org/news/open-closed-principle/"/>
+        <updated>2021-09-27T19:43:06.000Z</updated>
+        <summary type="html"><![CDATA[There are many articles about the Open-Closed Principle, but I can never find one that explains it in a way that really works for me.  So here, hopefully, is a good one – with a non trivial and real life example, what changes to support, and a description of the trade]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why You Should Share Your Knowledge as a Developer]]></title>
+        <id>61508279ccc97307eb2bca3f</id>
+        <link href="https://www.freecodecamp.org/news/why-you-should-share-your-knowledge-as-a-developer/"/>
+        <updated>2021-09-27T17:41:26.000Z</updated>
+        <summary type="html"><![CDATA[Sharing your knowledge can help you improve your skills and level up your career as a developer. Many developers are already doing it, and if you aren't, this article is for you. In it, I will show you why you should share your coding expertise by looking at five extraordinary]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is the DOM? Document Object Model Meaning in JavaScript]]></title>
+        <id>613f3cd3852f4307d372c7e8</id>
+        <link href="https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"/>
+        <updated>2021-09-27T16:23:19.000Z</updated>
+        <summary type="html"><![CDATA[If you have just started learning JavaScript, you might have heard of the DOM. But what is it exactly? In this article, I will explain what the DOM is and provide some JavaScript code examples.  We will take a look at how to select elements from an HTML document, how]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lambda Function in Python – Example Syntax]]></title>
+        <id>614ad5b79456b407b871028d</id>
+        <link href="https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/"/>
+        <updated>2021-09-27T15:23:43.000Z</updated>
+        <summary type="html"><![CDATA[Lambda functions are anonymous functions that can contain only one expression. You may think that lambda functions are an intermediate or advanced feature, but here you will learn how you can easily start using them in your code. In Python, functions are usually created like this: def my_func(a)]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[React Accessibility Tools – How to Build More Accessible React Apps]]></title>
+        <id>614c40119456b407b8710b0f</id>
+        <link href="https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/"/>
+        <updated>2021-09-27T14:18:59.000Z</updated>
+        <summary type="html"><![CDATA[Making a website or web app accessible improves the user experience for people with disabilities and for all users as well. Since developers deal with tight deadlines and competing priorities, it is easy to accidentally ship unresolved accessibility issues to production. And things becomes even more complex when working with]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Natural Language Processing with spaCy &amp; Python - Full Course]]></title>
+        <id>6151be27ccc97307eb2bcfa2</id>
+        <link href="https://www.freecodecamp.org/news/natural-language-processing-with-spacy-python-full-course/"/>
+        <updated>2021-09-27T14:12:24.000Z</updated>
+        <summary type="html"><![CDATA[Natural language processing, or NLP, is a branch of linguistics that seeks to parse human language in a computer system. spaCy is a popular Python library used for NLP. We just published a NLP and spaCy course on the freeCodeCamp.org YouTube channel. In the course you will learn all]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Object Storage for Data Parallelization and Experimentation]]></title>
+        <id>614bc3bd9456b407b87108b3</id>
+        <link href="https://www.freecodecamp.org/news/how-to-use-object-storage-for-parallelization-and-experimentation/"/>
+        <updated>2021-09-27T14:09:57.000Z</updated>
+        <summary type="html"><![CDATA[By using big data, companies can learn a lot about how their businesses are performing. Analytics on sales, churn rates, and other basic metrics are available in almost real time as data comes in.  Then there are more complex analyses that you'll need to do. At times relationships between two]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[HTML Button Type – How to Add Buttons to your Website]]></title>
         <id>614df185ccc97307eb2bc079</id>
