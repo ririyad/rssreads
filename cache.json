@@ -31,6 +31,33 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "612cbfe4b5177808226d4a4b",
+          "author": null,
+          "description": "In SQL, there are two built-in functions to sum or average the data in your table.  In this article I will show you how to use the SUM and AVG functions in SQL using code examples.  How to use the SUM function in SQLIf you need to add a group",
+          "link": "https://www.freecodecamp.org/news/sql-count-how-to-select-sum-and-average-rows-in-sql/",
+          "publishedOn": "2021-09-29T20:04:04.000Z",
+          "wordCount": 845,
+          "title": "SQL Count – How to Select, Sum, and Average Rows in SQL"
+        },
+        {
+          "id": "615440ac64aefe07d3fa0855",
+          "author": null,
+          "description": "You can use HTML, CSS and JavaScript to create stylish and dynamic web elements. And one useful element you can build is an accordion menu. Accordion menus expand and collapse when a user clicks a button. It's a great way to not have to show all the info about a",
+          "link": "https://www.freecodecamp.org/news/build-an-accordion-menu-using-html-css-and-javascript/",
+          "publishedOn": "2021-09-29T19:45:33.000Z",
+          "wordCount": 1718,
+          "title": "How to Build an Accordion Menu Using HTML, CSS and JavaScript"
+        },
+        {
+          "id": "6154412664aefe07d3fa085b",
+          "author": null,
+          "description": "In this article, you'll learn how to add single and multi-line comments to your HTML documents.  You'll also see why comments are considered a good practice when writing HTML code.  Let's get started!  The HTML Comment Tag The general syntax for an HTML comment looks like this:  <!-- I",
+          "link": "https://www.freecodecamp.org/news/html-comment-how-to-comment-out-a-line-or-tag-in-html/",
+          "publishedOn": "2021-09-29T17:03:35.000Z",
+          "wordCount": 1170,
+          "title": "HTML Comment – How to Comment Out a Line or Tag in HTML"
+        },
+        {
           "id": "614e7e50ccc97307eb2bc3e5",
           "author": null,
           "description": "Flexbox can help you simplify the process of creating both basic and advanced layouts. And it's pretty straightforward to create side and bottom navigation menus with CSS flexbox or Grid. These layouts are so popular that they appear almost everywhere on the web. For example, check out Twitter's sidebar, which",
@@ -1046,105 +1073,6 @@
           "publishedOn": "2021-08-31T16:50:03.000Z",
           "wordCount": 2268,
           "title": "What is an OS? Operating System Definition for Beginners"
-        },
-        {
-          "id": "6127fc01b5177808226d2b46",
-          "author": null,
-          "description": "Selenium is a powerful web automation tool that can be used for browser automation, to test front-end code, and create web scraping bots. We just released a full course on the freeCodeCamp.org website that will teach you Selenium while you build a web scraping bot. Jim from JimShapedCoding developed",
-          "link": "https://www.freecodecamp.org/news/use-selenium-to-create-a-web-scraping-bot/",
-          "publishedOn": "2021-08-31T12:43:06.000Z",
-          "wordCount": 29022,
-          "title": "Use Selenium to Create a Web Scraping Bot"
-        },
-        {
-          "id": "610648fd3306a507d1bfbfed",
-          "author": null,
-          "description": "If you are new to the tech industry, you might have heard of the term Full Stack. But what does that mean exactly? In this article, I will explain what Full Stack Development is, what skills you need to become a Full Stack Developer, salary expectations, and tips for landing",
-          "link": "https://www.freecodecamp.org/news/what-is-a-full-stack-developer-back-end-front-end-full-stack-engineer/",
-          "publishedOn": "2021-08-30T21:56:06.000Z",
-          "wordCount": 1770,
-          "title": "What is a Full Stack Developer? Back End + Front End &#x3D; Full Stack Engineer"
-        },
-        {
-          "id": "611d6736e884de07521811e6",
-          "author": null,
-          "description": "Linux is a popular open source operating system, and its features are often available in your development environment. If you can learn its basic commands, it'll make your life as a developer much easier. In this guide you will learn how to delete directories and files from the Linux command",
-          "link": "https://www.freecodecamp.org/news/remove-a-directory-in-linux-how-to-delete-directories-and-contents-from-the-command-line/",
-          "publishedOn": "2021-08-30T21:35:33.000Z",
-          "wordCount": 745,
-          "title": "Remove a Directory in Linux – How to Delete Directories and Contents From the Command Line"
-        },
-        {
-          "id": "612a9e08b5177808226d384b",
-          "author": null,
-          "description": "Async and await might sound complicated...but they're as easy as pizza pie once you dive in.  We all use async and await in our daily routines.  What is an async task? An async task lets you complete other tasks while the async task is still working towards completion.  Here",
-          "link": "https://www.freecodecamp.org/news/async-await-javascript-tutorial-explained-by-making-pizza/",
-          "publishedOn": "2021-08-30T20:20:59.000Z",
-          "wordCount": 980,
-          "title": "Async and Await in JavaScript Explained by Making Pizza"
-        },
-        {
-          "id": "61274ec43bccf807612a85b9",
-          "author": null,
-          "description": "In this tutorial, we are going to be building a simple movie generator which automatically generates a new movie every 40 seconds. It will also contain a button called “Generate New Movie” to display another movie on demand. This app will display a movie along with its title, release date,",
-          "link": "https://www.freecodecamp.org/news/react-tutorial-build-a-movie-list-generator-with-react-and-harperdb/",
-          "publishedOn": "2021-08-30T19:07:30.000Z",
-          "wordCount": 4102,
-          "title": "React Tutorial – Build a Movie List Generator with React and HarperDB"
-        },
-        {
-          "id": "612686bf3bccf807612a7fdc",
-          "author": null,
-          "description": "I just joined Cisco Systems, India as a Senior Software Engineer (SDE III) on July 28, 2021. I am working with the Cisco Customer Experience team as a UI developer. The entire journey from applying for the job to accepting the offer was two months long. I wish to share",
-          "link": "https://www.freecodecamp.org/news/senior-software-engineer-interview-questions-how-i-got-a-job-as-an-sde-3-and-how-you-can-prepare-for-the-rounds/",
-          "publishedOn": "2021-08-30T17:56:48.000Z",
-          "wordCount": 2817,
-          "title": "Senior Software Engineer Interview Questions – Tips to Help You Prepare for a Job Interview"
-        },
-        {
-          "id": "6124028b3bccf807612a69ee",
-          "author": null,
-          "description": "Gitpod and GitHub Codespaces are cloud based developer environments that allow you to spin-up high-performance, automated dev environments in seconds. Over the past few months I have gone down the rabbit hole of cloud-based developer environments. I'm moving several of my projects to the cloud so that developers can deploy",
-          "link": "https://www.freecodecamp.org/news/github-codespaces-vs-gitpod-cloud-based-dev-environments/",
-          "publishedOn": "2021-08-30T17:10:36.000Z",
-          "wordCount": 2802,
-          "title": "GitHub Codespaces vs Gitpod – Full Stack Development Moves to the Cloud"
-        },
-        {
-          "id": "6125e9f83bccf807612a7a65",
-          "author": null,
-          "description": "Contact forms are useful on websites if you want your users to be able to interact with you over email. And there are lots of ways to build them. Traditionally you'd have either used PHP for sending emails over the server or some third party service that would take care",
-          "link": "https://www.freecodecamp.org/news/how-to-build-a-working-contact-form-with-sendgrid-and-next-js/",
-          "publishedOn": "2021-08-30T15:24:14.000Z",
-          "wordCount": 3593,
-          "title": "How to Build a Contact Form with SendGrid and Next.js"
-        },
-        {
-          "id": "6128e12fb5177808226d2e4f",
-          "author": null,
-          "description": "PHP is an open-source server-side scripting language that many devs use for web development. It is also a general-purpose language that you can use to make lots of projects, including Graphical User Interfaces (GUIs).  In this article, I will help you explore the world of PHP so you can learn",
-          "link": "https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/",
-          "publishedOn": "2021-08-30T15:13:30.000Z",
-          "wordCount": 1285,
-          "title": "What is PHP? The PHP Programming Language Meaning Explained"
-        },
-        {
-          "id": "6120ec0b3bccf807612a4bf3",
-          "author": null,
-          "description": "NodeJS is an asynchronous event-driven JavaScript runtime environment designed to build scalable network applications.  Asynchronous here refers to all those functions in JavaScript that are processed in the background without blocking any other request.  In this article, you will learn and understand how NodeJS works and handles all functions or",
-          "link": "https://www.freecodecamp.org/news/nodejs-eventloop-tutorial/",
-          "publishedOn": "2021-08-30T15:11:16.000Z",
-          "wordCount": 1414,
-          "title": "Event Loops in NodeJS – Beginner&#x27;s Guide to Synchronous and Asynchronous Code"
-        },
-        {
-          "id": "6127b75d3bccf807612a8c40",
-          "author": null,
-          "description": "Every day more and more use cases are found for machine learning. It is a great field to get into. We just released a 10-hour machine learning course for beginners on the freeCodeCamp.org YouTube channel. Ayush Singh developed this course. He is a young data scientist and machine learning",
-          "link": "https://www.freecodecamp.org/news/free-machine-learning-course-10-hourse/",
-          "publishedOn": "2021-08-30T13:36:04.000Z",
-          "wordCount": 516,
-          "title": "Free 10-Hour Machine Learning Course"
         }
       ]
     },
