@@ -31,6 +31,42 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "611b08a4e884de075217ff23",
+          "author": null,
+          "description": "The United States Census Bureau estimates that more than 12% of the United States' population is living with a disability. Disabilities can include vision difficulties, hearing difficulties, mobility challenges, and much more.  And a person can become disabled at any stage of their life.  Since a significant portion of the",
+          "link": "https://www.freecodecamp.org/news/mobile-accessibility/",
+          "publishedOn": "2021-09-30T21:47:00.000Z",
+          "wordCount": 1886,
+          "title": "Accessibility Best Practices for Mobile App Development"
+        },
+        {
+          "id": "6155b8f964aefe07d3fa1234",
+          "author": null,
+          "description": "We use lists all the time in our everyday lives.  We create them to structure and organize our days, and we use them to make to-do lists. We use them in recipes so we don't miss any of the steps. And we use them when we want to assemble a",
+          "link": "https://www.freecodecamp.org/news/html-bullet-points-how-to-create-an-unordered-list-with-the-ul-tag-example/",
+          "publishedOn": "2021-09-30T17:31:40.000Z",
+          "wordCount": 1234,
+          "title": "HTML Bullet Points – How to Create an Unordered List with the &lt;ul&gt; Tag Example"
+        },
+        {
+          "id": "613f3c6d852f4307d372c7ca",
+          "author": null,
+          "description": "In SQL, you can make a database query and use the COUNT function to get the number of rows for a particular group in the table.  In this article, I will show you how to use the COUNT function with a few code examples.  What is the COUNT function in",
+          "link": "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/",
+          "publishedOn": "2021-09-30T16:24:19.000Z",
+          "wordCount": 1065,
+          "title": "SQL Distinct Statement – How to Query, Select, and Count"
+        },
+        {
+          "id": "6155d5c364aefe07d3fa1467",
+          "author": null,
+          "description": "Almost every software developer uses git. Many use it continually throughout the day. While you may already know the very basics of git, your productivity will be increased if you learn some advanced git concepts. We just released a git course on the freeCodeCamp.org YouTube channel that will help",
+          "link": "https://www.freecodecamp.org/news/git-for-professionals/",
+          "publishedOn": "2021-09-30T15:29:20.000Z",
+          "wordCount": 5941,
+          "title": "Git for Professionals – Free Version Control Course"
+        },
+        {
           "id": "612cbfe4b5177808226d4a4b",
           "author": null,
           "description": "In SQL, there are two built-in functions to sum or average the data in your table.  In this article I will show you how to use the SUM and AVG functions in SQL using code examples.  How to use the SUM function in SQLIf you need to add a group",
@@ -1010,69 +1046,6 @@
           "publishedOn": "2021-09-01T13:21:54.000Z",
           "wordCount": 37407,
           "title": "How to Use Figma to Design Websites"
-        },
-        {
-          "id": "612cc025b5177808226d4a67",
-          "author": null,
-          "description": "If you use Instagram, you may have needed to block certain accounts from time to time. But what if things change and you want to unblock someone?  In this article, I will walk you through the three ways to unblock someone on Instagram using the mobile app for iPhone and",
-          "link": "https://www.freecodecamp.org/news/how-to-unblock-someone-on-instagram/",
-          "publishedOn": "2021-08-31T21:30:46.000Z",
-          "wordCount": 478,
-          "title": "How to Unblock Someone on Instagram"
-        },
-        {
-          "id": "612ddfa9d6679a07b7d3f3c9",
-          "author": null,
-          "description": "Loops are a useful and frequently used feature in all modern programming languages.  If you want to automate a specific repetitive task or prevent yourself from writing repetitive code in your programs, using a loop is the best option for that.  Loops are a set of instructions that run repeatedly",
-          "link": "https://www.freecodecamp.org/news/python-do-while-loop-example/",
-          "publishedOn": "2021-08-31T21:15:26.000Z",
-          "wordCount": 1349,
-          "title": "Python Do While – Loop Example"
-        },
-        {
-          "id": "61134bed72231b077cdad5e1",
-          "author": null,
-          "description": "The only perfect code is code that has never been written. As a developer, you are bound to face errors and will be responsible for debugging them.  If you're coding in Python, you can always look at its error messages to figure out what's going on. But what if an",
-          "link": "https://www.freecodecamp.org/news/logging-in-python-debug-your-django-projects/",
-          "publishedOn": "2021-08-31T20:46:24.000Z",
-          "wordCount": 1517,
-          "title": "Logging in Python – How to Use Logs to Debug Your Django Projects"
-        },
-        {
-          "id": "612e6908d6679a07b7d3fad2",
-          "author": null,
-          "description": "When you're building a website, you may want to place particular emphasis on certain text to let users know that it's important.  And you can do this in HTML with various text formatting tags.  In this article, I will take you through how to emphasize certain text by making it",
-          "link": "https://www.freecodecamp.org/news/bold-font-in-html-font-weight-for-letters/",
-          "publishedOn": "2021-08-31T20:35:21.000Z",
-          "wordCount": 787,
-          "title": "Bold Font in HTML – Font Weight for Letters"
-        },
-        {
-          "id": "611d6719e884de07521811de",
-          "author": null,
-          "description": "Say you're working on your code in Git and something didn't go as planned. So now you need to revert your last commit. How do you do it? Let's find out! There are two possible ways to undo your last commit. We'll look at both of them in this article.",
-          "link": "https://www.freecodecamp.org/news/git-revert-commit-how-to-undo-the-last-commit/",
-          "publishedOn": "2021-08-31T20:20:41.000Z",
-          "wordCount": 573,
-          "title": "Git Revert Commit – How to Undo the Last Commit"
-        },
-        {
-          "id": "611e90d03bccf807612a352a",
-          "author": null,
-          "description": "Releasing modern software might seem daunting and complicated. In this article, I'll expand on the concepts involved in the process, from managing dependencies to building in the cloud. Articles and tutorials usually cover a specific tool and dive right into it before laying down the foundational knowledge. In this article,",
-          "link": "https://www.freecodecamp.org/news/release-management-modern-software-development/",
-          "publishedOn": "2021-08-31T17:00:00.000Z",
-          "wordCount": 2334,
-          "title": "Release Management for Modern Software Development – How to Manage Dependencies, SemVer, and Build Systems for Beginners"
-        },
-        {
-          "id": "60ffa3a33306a507d1bf97e9",
-          "author": null,
-          "description": "People have long debated which is the best operating system for developers.  In order for us to answer this question, we first need to understand a few things, like:  What is an operating system? The history of operating systems How an operating system works Types and examples of operating systems",
-          "link": "https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners/",
-          "publishedOn": "2021-08-31T16:50:03.000Z",
-          "wordCount": 2268,
-          "title": "What is an OS? Operating System Definition for Beginners"
         }
       ]
     },
@@ -1171,15 +1144,6 @@
           "publishedOn": "2021-09-02T08:48:15.000Z",
           "wordCount": 946,
           "title": "Japan bends Apple another inch on the App Store"
-        },
-        {
-          "id": "https://world.hey.com/dhh/south-korea-just-killed-the-30-app-store-cut-232d2b16",
-          "author": null,
-          "description": "Apple and Google knew from the start of this fight that they couldn't afford to lose even once. That's why they pulled out all the stops stops to intimidate the Senate in North Dakota. That's why they spared no expense on the backroom deal to kill the Arizona bill. But now they've finally met a legislature they couldn't bully or buy: The National Assembly of the Republic of Korea.\nThe National Assembly just passed an amendment to the Telecommunications Business Act that'll prohibit app store operators from forcing developers to use a specific payment method. This change will most likely take effect within a fortnight, and when it does, it'll herald the end of the 30% app-store cut as we know it. Apple and Google will now have to compete for the business of developers on the merits.\nSuch co…",
-          "link": "https://world.hey.com/dhh/south-korea-just-killed-the-30-app-store-cut-232d2b16",
-          "publishedOn": "2021-08-31T13:46:53.000Z",
-          "wordCount": 718,
-          "title": "South Korea just killed the 30% app-store cut"
         }
       ]
     },
@@ -1248,15 +1212,6 @@
           "publishedOn": "2021-09-07T19:00:00.000Z",
           "wordCount": 592,
           "title": "A Quick and Dirty Guide to Creating an EPUB with Pandoc"
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2021/08/31/links.html",
-          "author": null,
-          "description": "Four links to some interesting articles about plain text",
-          "link": "https://plaintextproject.online/articles/2021/08/31/links.html",
-          "publishedOn": "2021-08-31T19:00:00.000Z",
-          "wordCount": 88,
-          "title": "Four Links - August 31, 2021"
         }
       ]
     }
