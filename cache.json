@@ -31,6 +31,78 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "615beb720d91c9077974c716",
+          "author": null,
+          "description": "Computers store and process all kinds of data.  Strings are just one of the many forms in which information is presented and gets processed by computers.  Strings in the C programming language work differently than in other modern programming languages.  In this article, you'll learn how to declare strings in",
+          "link": "https://www.freecodecamp.org/news/c-string-how-to-declare-strings-in-the-c-programming-language/",
+          "publishedOn": "2021-10-06T17:51:39.000Z",
+          "wordCount": 2390,
+          "title": "C String – How to Declare Strings in the C Programming Language"
+        },
+        {
+          "id": "612f4388d6679a07b7d3fee4",
+          "author": null,
+          "description": "In Python, can use use the range() function to get a sequence of indices to loop through an iterable. You'll often use range() in conjunction with a for loop.  In this tutorial, you'll learn about the different ways in which you can use the range() function – with explicit start and",
+          "link": "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
+          "publishedOn": "2021-10-06T17:21:45.000Z",
+          "wordCount": 1529,
+          "title": "Python range() Function – Explained with Code Examples"
+        },
+        {
+          "id": "614870b9852f4307d3731030",
+          "author": null,
+          "description": "File compression is an essential utility across all platforms. It helps you reduce file size and share files efficiently. And compressed files are also easier to copy to remote servers.  You can also compress older and rarely used files and save them for future use which helps you conserve disk",
+          "link": "https://www.freecodecamp.org/news/how-to-compress-files-in-linux-with-tar-command/",
+          "publishedOn": "2021-10-06T16:19:13.000Z",
+          "wordCount": 899,
+          "title": "Linux tar Command – How to Compress Files in Linux"
+        },
+        {
+          "id": "615d55b40d91c9077974d3f8",
+          "author": null,
+          "description": "If you want to add data to your SQL table, then you can use the INSERT statement.  In this article, I will show you how to use the INSERT statement to add a single row, multiple rows, and to copy rows from one SQL table to another. Basic INSERT syntaxHere",
+          "link": "https://www.freecodecamp.org/news/insert-into-sql-how-to-insert-into-a-table-query-example-statement/",
+          "publishedOn": "2021-10-06T16:10:50.000Z",
+          "wordCount": 955,
+          "title": "Insert Into SQL – How to Insert Into a Table Query [Example Statement]"
+        },
+        {
+          "id": "6155429464aefe07d3fa1019",
+          "author": null,
+          "description": "I have observed a fascinating phenomenon amongst folks applying for their first developer jobs.  The behavior seems consistent across college graduates, Bootcampers, and self-taught folks. When asking for a résumé review, they almost always get the answer \"build more projects\".  This is great advice, but you can do more to",
+          "link": "https://www.freecodecamp.org/news/build-your-developer-resume-without-job-experience/",
+          "publishedOn": "2021-10-06T15:29:13.000Z",
+          "wordCount": 2042,
+          "title": "How to Build Your Developer Résumé Without Job Experience"
+        },
+        {
+          "id": "6070ea34d5756f080ba98017",
+          "author": null,
+          "description": "Just the thought of learning to code can be very intimidating. The word code is mysterious by definition. It implies a technical form of communication that computers, and not humans, are meant to understand. One way many people start learning to code is by picking a popular programming language and",
+          "link": "https://www.freecodecamp.org/news/how-to-learn-programming/",
+          "publishedOn": "2021-10-06T15:17:39.000Z",
+          "wordCount": 10466,
+          "title": "How to Learn Programming – The Guide I Wish I Had When I Started Learning to Code"
+        },
+        {
+          "id": "613cbc6b852f4307d372bc5a",
+          "author": null,
+          "description": "Hacktoberfest is an event hosted by DigitalOcean that partners with many organizations. The goal is to give back and contribute to open-source projects. The organizers offer little incentives for a job well done, like a shirt and stickers. Other organizations also get involved by offering their own rewards. You can",
+          "link": "https://www.freecodecamp.org/news/how-anyone-can-participate-in-hacktoberfest/",
+          "publishedOn": "2021-10-06T15:14:48.000Z",
+          "wordCount": 1955,
+          "title": "How to Participate in Hacktoberfest – Even if You Don&#x27;t Write Code"
+        },
+        {
+          "id": "615db6910d91c9077974deb1",
+          "author": null,
+          "description": "Computers can be intimidating, especially if you didn't grow up with them. Some tasks that seem simple to experienced users can seem impossible to new users. We just released a computer and technology basics course on the freeCodeCamp.org YouTube channel. This course teaches the basics of computer use and",
+          "link": "https://www.freecodecamp.org/news/computer-basics-for-absolute-beginners/",
+          "publishedOn": "2021-10-06T14:54:13.000Z",
+          "wordCount": 426,
+          "title": "Computer Basics for Absolute Beginners"
+        },
+        {
           "id": "61533caa64aefe07d3fa041a",
           "author": null,
           "description": "Every JavaScript beginner will face this question at least once: \"What is a callback function?\"  Well, we can find the answer in the word callback itself. It's all about notifying the caller after the successful completion or failure of a task.  In this article, I'll focus less on the technical",
@@ -1037,6 +1109,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/how-do-you-know-what-people-have-been-working-on-48b8986d",
+          "author": null,
+          "description": "Losing the sense of being in the know about what's going on at the company is one of the most common concerns I hear regarding working remotely. Both at the managerial level and between coworkers. There's a real fear that staying remote for too long will eventually lead to nobody really knowing what's going on, and thus the organization will drift apart.\nThe dread of that question is often underpinned by an assumption that the solution might be an even more frequent barrage of video calls to replace the stand-ups, management-by-walking-around, and other in-office practices that at least had a human feel to them. And if there's one thing we've learned during this pandemic, it's that even people who like meetings don't like virtual meetings in the same quantity. A few, okay. All of them, all…",
+          "link": "https://world.hey.com/dhh/how-do-you-know-what-people-have-been-working-on-48b8986d",
+          "publishedOn": "2021-10-06T08:34:20.000Z",
+          "wordCount": 665,
+          "title": "How do you know what people have been working on?"
+        },
+        {
           "id": "https://world.hey.com/dhh/stimulus-3-turbo-7-hotwire-1-0-9d507133",
           "author": null,
           "description": "For so long, it felt like I could only tell half the story of how we make software for the web at Basecamp. Too many of the chapters about our front-end approach were missing key pages. Sure, we had some of it out there. Turbolinks, for example, hark back to 2012, when I was inspired by Chris Wanstrath's ideas in pjax, and took them further. And Stimulus can trace its origin to the Christmas 2016, when I spiked the first concept in an attempt to unify all the JavaScript patterns we had in Basecamp. But it was never... complete. Now it is. \nStimulus 3 + Turbo 7 paint the full picture of how my ideal stack for front-end development should look under the umbrella of Hotwire 1.0. This is how we're building Basecamp 4. This is how we built HEY. Now it's going to be the default answer to JavaScr…",
@@ -1071,15 +1152,6 @@
           "publishedOn": "2021-09-14T08:51:31.000Z",
           "wordCount": 1290,
           "title": "Apple's forced IAP is either dead, a joke, or illegal"
-        },
-        {
-          "id": "https://world.hey.com/dhh/rails-7-will-have-three-great-answers-to-javascript-in-2021-8d68191b",
-          "author": null,
-          "description": "Rails has been unapologetically full stack since the beginning. We've continuously sought to include ever-more default answers to all the major infrastructure questions posed by modern web development. From talking to a database, to sending and receiving emails, to connecting web sockets, to rendering HTML, to integrating with JavaScript. This full-stack strategy has been key to the success of Rails, but it also remains an enduring source of controversy. What's too much to include? What's not enough?\nTo consistently answer that evergreen question, we look to The Rails Doctrine, and especially the third pillar of The Menu Is Omakase. It's why we fret so much over the defaults, but also why the option to substitute is so crucial. \nThere's been no more fretting over the defaults, or a closer …",
-          "link": "https://world.hey.com/dhh/rails-7-will-have-three-great-answers-to-javascript-in-2021-8d68191b",
-          "publishedOn": "2021-09-06T19:48:34.000Z",
-          "wordCount": 1550,
-          "title": "Rails 7 will have three great answers to JavaScript in 2021+"
         }
       ]
     },
