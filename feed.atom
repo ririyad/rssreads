@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-10-07T00:53:52.382Z</updated>
+    <updated>2021-10-08T00:55:55.876Z</updated>
     <generator>osmosfeed 1.11.2</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What is Go? Golang Programming Language Meaning Explained]]></title>
+        <id>615de4da0d91c9077974e23f</id>
+        <link href="https://www.freecodecamp.org/news/what-is-go-programming-language/"/>
+        <updated>2021-10-07T15:26:18.000Z</updated>
+        <summary type="html"><![CDATA[Go, also known as Golang, is an open-source, compiled, and statically typed programming language designed by Google. It is built to be simple, high-performing, readable, and efficient.  In this article, you'll learn:  Where Go came from and where it is now, Why I think you should learn it, How to]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[C String – How to Declare Strings in the C Programming Language]]></title>
         <id>615beb720d91c9077974c716</id>
@@ -1195,146 +1205,6 @@ Instead the judge narrowed the case, like judges often do, to basically just be 
         <link href="https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/"/>
         <updated>2021-09-08T14:23:56.000Z</updated>
         <summary type="html"><![CDATA[Algorithms and data structures are important for most programmers to understand. We just released a course on the freeCodeCamp YouTube channel that is a beginner-friendly introduction to common data structures (linked lists, stacks, queues, graphs) and algorithms (search, sorting, recursion, dynamic programming) in Python. This course will help you prepare]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Tutorial – How to Build the 2048 Game in React]]></title>
-        <id>611827fe72231b077cdb021c</id>
-        <link href="https://www.freecodecamp.org/news/how-to-make-2048-game-in-react/"/>
-        <updated>2021-09-08T01:38:41.000Z</updated>
-        <summary type="html"><![CDATA[Today you will learn how to build your own clone of the 2048 game in React.  What makes this article unique is that we will focus on creating delightful animations. Aside from React, we will use TypeScript and we'll make some CSS transitions using LESS.  We are only going to]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Span HTML – How to Use the Span Tag with CSS]]></title>
-        <id>61372fd1d6679a07b7d43e77</id>
-        <link href="https://www.freecodecamp.org/news/span-html-how-to-use-the-span-tag-with-css/"/>
-        <updated>2021-09-08T01:18:28.000Z</updated>
-        <summary type="html"><![CDATA[You can use the HTML span tag as a container to group inline elements together so you can style or manipulate them with JavaScript.  In this article, I will show you how to use the span tag to make a certain part of your content distinct from the rest. Then]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Thoughts on Clojure UI framework]]></title>
-        <id>https://tonsky.me/blog/clojure-ui/</id>
-        <link href="https://tonsky.me/blog/clojure-ui/"/>
-        <updated>2021-09-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ideas and inspirations for new Clojure framework for desktop apps]]></summary>
-        <author>
-            <name>tonsky.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is a Function? JavaScript Function Examples]]></title>
-        <id>6132237ad6679a07b7d418ca</id>
-        <link href="https://www.freecodecamp.org/news/what-is-a-function-javascript-function-examples/"/>
-        <updated>2021-09-07T23:46:55.000Z</updated>
-        <summary type="html"><![CDATA[Functions are one of the main parts of computer programs.  They are widely used and are one of JavaScript's fundamental building blocks.  In this article, we'll go over the definition of functions and why they are so important. I'll also show you how to get started writing functions in JavaScript.]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python String Format – Python S Print Format Example]]></title>
-        <id>612204093bccf807612a575a</id>
-        <link href="https://www.freecodecamp.org/news/python-string-format-python-s-print-format-example/"/>
-        <updated>2021-09-07T23:20:34.000Z</updated>
-        <summary type="html"><![CDATA[In Python, you have a few options to format your strings. In this article, I will go over str.format(), formatted string literals, and template strings.  But first, let's take a look at what is considered to be the "old way" of formatting strings.  What is % string formatting in Python?]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript Array.some() Tutorial – How to Iterate Through Elements in an Array]]></title>
-        <id>61320c11d6679a07b7d41704</id>
-        <link href="https://www.freecodecamp.org/news/javascript-array-some-tutorial-how-to-iterate-through-elements-in-an-array/"/>
-        <updated>2021-09-07T22:14:16.000Z</updated>
-        <summary type="html"><![CDATA[When you're working with an array in JavaScript, sometimes you might just want to check if at least one element inside that array passes a test. And you might not care about any other subsequent matches.  In such a case, you should use the some() JavaScript method. So let's see]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HTML Tables – Table Tutorial with Example Code]]></title>
-        <id>6114c91072231b077cdae3f6</id>
-        <link href="https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"/>
-        <updated>2021-09-07T21:17:18.000Z</updated>
-        <summary type="html"><![CDATA[When you're building a project that needs to represent data visually, you will need a good way to display the information so it's easy to read and understand.  Now, depending on the type of data, you can select between different representation methods using HTML elements.  In most cases, tables are]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Angular *ngFor and *ngIf Directives Explained for Beginners]]></title>
-        <id>61330342d6679a07b7d41de1</id>
-        <link href="https://www.freecodecamp.org/news/angular-ngfor-and-ngif-explained/"/>
-        <updated>2021-09-07T20:45:34.000Z</updated>
-        <summary type="html"><![CDATA[*ngIf and *ngFor can help you keep your Angular code clean, simple, and effective. So, let's learn what *ngFor and *ngIf are all about. What is *ngFor?Let's talk about *ngFor first. You use the *ngFor directive to traverse over an array object and display the data in the UI.]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Quick and Dirty Guide to Creating an EPUB with Pandoc]]></title>
-        <id>https://plaintextproject.online/articles/2021/09/07/ebook.html</id>
-        <link href="https://plaintextproject.online/articles/2021/09/07/ebook.html"/>
-        <updated>2021-09-07T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A look at how to use pandoc, a Markdown-formatted file, and a CSS file to create an EPUB]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Test Serverless Applications in AWS]]></title>
-        <id>61327c7fd6679a07b7d41b17</id>
-        <link href="https://www.freecodecamp.org/news/how-to-test-serverless-applications-in-aws/"/>
-        <updated>2021-09-07T18:33:36.000Z</updated>
-        <summary type="html"><![CDATA[Over the past few years, serverless architecture has become very popular. This is largely because it has removed the burden of managing infrastructure, such as servers, storage, databases, scalability, and so on.  When people first started using the term "serverless," it created some confusion in the industry. Some]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[World Translation Month – Help Us Translate freeCodeCamp into Your Native Language]]></title>
-        <id>61350ccad6679a07b7d4314c</id>
-        <link href="https://www.freecodecamp.org/news/world-translation-month-event/"/>
-        <updated>2021-09-07T17:37:37.000Z</updated>
-        <summary type="html"><![CDATA[We believe that everyone deserves to have free programming education in their own native language. So we are expanding International Translation Day (September 30th) into a full month-long effort. Over the past few years, hundreds of volunteer contributors have worked to translate freeCodeCamp into major world languages. In February, Quincy]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python Create File – How to Append and Write to a Text File]]></title>
-        <id>61307fb1d6679a07b7d4061e</id>
-        <link href="https://www.freecodecamp.org/news/python-create-file-how-to-append-and-write-to-a-text-file/"/>
-        <updated>2021-09-07T16:44:25.000Z</updated>
-        <summary type="html"><![CDATA[In coding, files are used to store data. Then you can easily access that data at any point.  Reading, writing, and editing files in Python is a common task, since the language provides us with built-in functions that allow us to do so.  In this article, I'll create a simple]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Learn Vue 3, a Front-End JavaScript Framework]]></title>
-        <id>613784fa581b610782a917ce</id>
-        <link href="https://www.freecodecamp.org/news/vue-3-full-course/"/>
-        <updated>2021-09-07T15:37:36.000Z</updated>
-        <summary type="html"><![CDATA[Vue is one of the more popular front-end JavaScirpt frameworks. It makes it simpler to create powerful websites. We just released a Vue course on the freeCodeCamp.org YouTube channel that will teach you the latest version of this progressive JavaScript framework. Gwendolyn Faraday developed this course. She previously created]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Graphic Design? The Graphic Designer Job Explained in Plain English]]></title>
-        <id>610655073306a507d1bfc0d2</id>
-        <link href="https://www.freecodecamp.org/news/what-is-graphic-design-the-graphic-designer-job-explained-in-plain-english/"/>
-        <updated>2021-09-07T15:08:49.000Z</updated>
-        <summary type="html"><![CDATA[Magazine covers, business logos, and book covers are all common examples of graphic design. But what is graphic design? In this article, I'll explain what graphic design is, discuss different areas of graphic design, provide helpful learning resources, and talk about salaries for designers.  What is Graphic Design?Graphic Design]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
         </author>
