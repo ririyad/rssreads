@@ -22,6 +22,42 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "615d55e60d91c9077974d408",
+          "author": null,
+          "description": "In today's world, we are all heavily reliant on various software products that were carefully programmed by developers. But what is computer programming? In this article, I will provide a definition of programming, as well as examples of different types of programmers. I will also suggest a list of courses",
+          "link": "https://www.freecodecamp.org/news/what-is-programming/",
+          "publishedOn": "2021-10-08T19:11:39.000Z",
+          "wordCount": 1421,
+          "title": "What is Computer Programming?"
+        },
+        {
+          "id": "6160836e804854468fda67bf",
+          "author": null,
+          "description": "These days, lots of developers like to use dark mode. And it's no surprise, as activating dark mode reduces eye strain and leads to better eye health. It also helps both machines and humans perform better overall.  In this article, I will show you how to turn on the dark",
+          "link": "https://www.freecodecamp.org/news/how-to-turn-on-dark-mode-on-google-chrome-black-theme-tutorial/",
+          "publishedOn": "2021-10-08T19:10:46.000Z",
+          "wordCount": 606,
+          "title": "How to Turn On Dark Mode on Google – Chrome Black Theme Tutorial"
+        },
+        {
+          "id": "613f3c5e852f4307d372c7c6",
+          "author": null,
+          "description": "If you want to save a new location you discovered on Google Maps, you need to drop a pin on that location.  In this article, I will show you how to drop a pin in Google Maps from your phone or computer. How to Drop a Pin on Google Maps",
+          "link": "https://www.freecodecamp.org/news/how-to-drop-a-pin-on-google-maps/",
+          "publishedOn": "2021-10-08T19:03:55.000Z",
+          "wordCount": 589,
+          "title": "How to Drop a Pin on Google Maps"
+        },
+        {
+          "id": "615dbaeb0d91c9077974defb",
+          "author": null,
+          "description": "“Hey, could you please send me our customers' emails? We’re about to launch a new marketing campaign and…we need them ASAP.” If you work in the Web department on a corporate level, you've probably heard this sentence hundreds of times. So, today I want to share how I",
+          "link": "https://www.freecodecamp.org/news/how-to-create-an-excel-file-with-customers-data-with-woocommerce-and-python/",
+          "publishedOn": "2021-10-08T15:15:28.000Z",
+          "wordCount": 1214,
+          "title": "How to Create an Excel File that Pulls Customer Data with WooCommerce and Python"
+        },
+        {
           "id": "615de4da0d91c9077974e23f",
           "author": null,
           "description": "Go, also known as Golang, is an open-source, compiled, and statically typed programming language designed by Google. It is built to be simple, high-performing, readable, and efficient.  In this article, you'll learn:  Where Go came from and where it is now, Why I think you should learn it, How to",
@@ -920,60 +956,6 @@
           "publishedOn": "2021-09-09T14:25:28.000Z",
           "wordCount": 2377,
           "title": "460 Free Textbooks – Math, Science, and More [Online PDF for College and High School]"
-        },
-        {
-          "id": "6138f291852f4307d3729b64",
-          "author": null,
-          "description": "If you inspect a web page with your browser's developer tools, you'll likely see a bunch of nested div tags, and possibly some content wrapped in a span tag.  Similar content is usually grouped together by these two container elements – span and div. You can use them both as containers,",
-          "link": "https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/",
-          "publishedOn": "2021-09-08T21:08:38.000Z",
-          "wordCount": 868,
-          "title": "Span VS Div HTML Tags – What is the Difference?"
-        },
-        {
-          "id": "6138218b581b610782a91de7",
-          "author": null,
-          "description": "Over 40% of all websites on the internet are powered by WordPress, making it the world’s top choice when it comes to creating a website. Many people and businesses choose to create their websites with WordPress because of its versatility, speed, and ease of use. WordPress is also Open",
-          "link": "https://www.freecodecamp.org/news/how-to-get-started-with-wordpress/",
-          "publishedOn": "2021-09-08T18:00:12.000Z",
-          "wordCount": 1858,
-          "title": "WordPress Installation Guide – How to Get Started with WordPress + the Best Plugins"
-        },
-        {
-          "id": "61345caed6679a07b7d42d3e",
-          "author": null,
-          "description": "In programming, you'll often have to deal with the scope of a variable. The scope of a variable determines whether or not you can access and modify it inside a specific block of code. In this tutorial, you'll learn about variable scope in the C programming language. You'll see some",
-          "link": "https://www.freecodecamp.org/news/scope-of-variables-in-c-local-and-global-scope-explained/",
-          "publishedOn": "2021-09-08T16:40:21.000Z",
-          "wordCount": 1223,
-          "title": "Variable Scope in C – Local and Global Scope Explained"
-        },
-        {
-          "id": "6136666dd6679a07b7d437d0",
-          "author": null,
-          "description": "In this article, I'll help you understand event bubbling and event catching like a pro. I created this resource to help you understand event propagation and how it works in JavaScript and React in a clear and comprehensible way. ❤ Once you've gone through this thorough introduction to event bubbling and",
-          "link": "https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/",
-          "publishedOn": "2021-09-08T15:37:42.000Z",
-          "wordCount": 4117,
-          "title": "Event Bubbling and Event Catching in JavaScript and React – A Beginner&#x27;s Guide"
-        },
-        {
-          "id": "61366f23d6679a07b7d4380a",
-          "author": null,
-          "description": "I recently learned about a logic puzzle online that apparently only 2% of people can solve. There are a few different incarnations of it – some have slightly different wording, different names, or change the items in the riddle slightly. But they are all the exact same core problem. The riddle",
-          "link": "https://www.freecodecamp.org/news/einsteins-riddle/",
-          "publishedOn": "2021-09-08T15:36:22.000Z",
-          "wordCount": 1115,
-          "title": "How to Solve Einstein&#x27;s Five House Riddle"
-        },
-        {
-          "id": "6138c58c852f4307d372989e",
-          "author": null,
-          "description": "Algorithms and data structures are important for most programmers to understand. We just released a course on the freeCodeCamp YouTube channel that is a beginner-friendly introduction to common data structures (linked lists, stacks, queues, graphs) and algorithms (search, sorting, recursion, dynamic programming) in Python. This course will help you prepare",
-          "link": "https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/",
-          "publishedOn": "2021-09-08T14:23:56.000Z",
-          "wordCount": 522,
-          "title": "Learn Algorithms and Data Structures in Python"
         }
       ]
     },
