@@ -22,6 +22,69 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "61686f8b80d82d07c45a4e4a",
+          "author": null,
+          "description": "React hooks have been around for a while now. Most developers have gotten pretty comfortable with how they work and their common use cases. But there is one useEffect gotcha that a lot of us keep falling for. The use caseLet's start with a simple scenario. We are building a",
+          "link": "https://www.freecodecamp.org/news/most-common-react-useeffect-problems-and-how-to-fix-them/",
+          "publishedOn": "2021-10-14T22:07:02.000Z",
+          "wordCount": 1154,
+          "title": "React.useEffect Hook – Common Problems and How to Fix Them"
+        },
+        {
+          "id": "615d559e0d91c9077974d3ec",
+          "author": null,
+          "description": "iPhone and iPad both have an app called Files where you can locate all of your files from services including iCloud Drive, Dropbox, and more.  If you want to access the Downloads folder, you can find it inside the Files app. In this article, I will show you how to",
+          "link": "https://www.freecodecamp.org/news/iphone-downloads-folder-where-are-my-downloads-ios-and-ipad/",
+          "publishedOn": "2021-10-14T21:59:03.000Z",
+          "wordCount": 382,
+          "title": "iPhone Downloads Folder – Where are my Downloads? iOS and iPad"
+        },
+        {
+          "id": "6167f81c80d82d07c45a4630",
+          "author": null,
+          "description": "BIOS stands for Basic Input/Output System. It is embedded into computers as a motherboard chip and is primarily responsible for booting the computer system.  Apart from booting up your computer, BIOS is responsible for a lot of other functionality behind the scenes – like managing data flow between an operating",
+          "link": "https://www.freecodecamp.org/news/how-to-get-into-bios-in-windows-10-bios-setup-pc-guide/",
+          "publishedOn": "2021-10-14T21:03:48.000Z",
+          "wordCount": 731,
+          "title": "How to Get into BIOS in Windows 10 – BIOS Setup PC Guide"
+        },
+        {
+          "id": "6163d60c804854468fda82ca",
+          "author": null,
+          "description": "High-profile celebrities like Jay-Z and Snoop Dog are getting into NFTs. With the cheapest CryptoPunk selling for 103 ETH (~360,000 USD at the time of this article), it is an excellent time for us developers to learn more about the engineering behind them to start building things. At the",
+          "link": "https://www.freecodecamp.org/news/how-to-make-an-nft/",
+          "publishedOn": "2021-10-14T17:49:36.000Z",
+          "wordCount": 3063,
+          "title": "How to Make an NFT in 14 Lines of Code"
+        },
+        {
+          "id": "615da5e40d91c9077974dd6a",
+          "author": null,
+          "description": "Developers around the world use GitHub to share their projects with the global developer community.  In this article, I'll give you some opinionated tips to help you build a great open-source project you can start using. You can also use these tips for building hackathon projects. Quite recently I ended",
+          "link": "https://www.freecodecamp.org/news/how-to-start-an-open-source-project-on-github-tips-from-building-my-trending-repo/",
+          "publishedOn": "2021-10-14T17:09:37.000Z",
+          "wordCount": 3149,
+          "title": "How to Start an Open Source Project on GitHub – Tips from Building My Trending Repo"
+        },
+        {
+          "id": "6162db83804854468fda7b4c",
+          "author": null,
+          "description": "Windows 10 has a built-in feature that lets you flip or rotate your monitor screen just like you can do on your smartphone.  In this article, I will show you how to flip or rotate the monitor of your Windows 10 machine in several orientations such as reverse-landscape, portrait, and",
+          "link": "https://www.freecodecamp.org/news/rotate-screen-in-windows-10-how-to-flip-your-monitor-orientation-90-degrees/",
+          "publishedOn": "2021-10-14T15:39:17.000Z",
+          "wordCount": 569,
+          "title": "Rotate Screen in Windows 10 – How to Flip Your Monitor Orientation 90 Degrees"
+        },
+        {
+          "id": "61683f7180d82d07c45a4893",
+          "author": null,
+          "description": "Node.js and Express.js are popular technologies used for JavaScript backend web development. We just released a 10-hour course on the freeCodeCamp.org YouTube channel that will show you how to create four projects using Node and Express. John Smilga developed this course. John is one of the more",
+          "link": "https://www.freecodecamp.org/news/build-six-node-js-and-express-js/",
+          "publishedOn": "2021-10-14T15:05:45.000Z",
+          "wordCount": 299,
+          "title": "Build Four Node.js and Express.js Projects"
+        },
+        {
           "id": "6167483480d82d07c45a445f",
           "author": null,
           "description": "Amazon Virtual Private Cloud is a service that lets you launch AWS resources in a logically isolated virtual network that you define. You get complete control over the networking environment including IP address ranges, subnets, routing, firewalls and more. We just released a full course about Amazon Virtual Private Cloud",
@@ -38,6 +101,15 @@
           "publishedOn": "2021-10-13T20:54:46.000Z",
           "wordCount": 1314,
           "title": "How to Build a Responsive Form with Filter Functionality Using HTML, CSS, and JavaScript"
+        },
+        {
+          "id": "6168835180d82d07c45a4ee2",
+          "author": null,
+          "description": "Object Oriented Programming is an important concept in software development.  Object Oriented Programming (OOP) is a programming paradigm that relies on the concept of classes and objects. You can use this method of writing programs in many programming languages, including Python We just published a complete Object Oriented Programming in",
+          "link": "https://www.freecodecamp.org/news/learn-object-oriented-programming-with-python/",
+          "publishedOn": "2021-10-13T19:32:00.000Z",
+          "wordCount": 316,
+          "title": "Learn Object Oriented Programming With Python"
         },
         {
           "id": "6166934680d82d07c45a3e48",
@@ -875,69 +947,6 @@
           "publishedOn": "2021-09-15T15:57:42.000Z",
           "wordCount": 992,
           "title": "How to Learn JavaScript A Little Faster"
-        },
-        {
-          "id": "613b1a82852f4307d372ae6b",
-          "author": null,
-          "description": "When you're formatting strings in Python, you're probably used to using the format() method.  But in Python 3.6 and later, you can use f-Strings instead. f-Strings, also called formatted string literals, have a more succinct syntax and can be super helpful in string formatting. In this tutorial, you'll learn",
-          "link": "https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/",
-          "publishedOn": "2021-09-14T19:21:11.000Z",
-          "wordCount": 1352,
-          "title": "Python f-String Tutorial – String Formatting in Python Explained with Code Examples"
-        },
-        {
-          "id": "612fa993d6679a07b7d402ab",
-          "author": null,
-          "description": "As an employed software developer today, there's a 96% chance that you're building company software using some sort of open-source technology.  You might be using VSCode, a free open-source text editor primarily maintained by Microsoft, or React, a free and open-source front-end JavaScript library, among many other tools. Companies today",
-          "link": "https://www.freecodecamp.org/news/a-business-case-for-open-source/",
-          "publishedOn": "2021-09-14T18:59:46.000Z",
-          "wordCount": 966,
-          "title": "A Business Case for Open Source – Why You Should Contribute to the Open Source Community"
-        },
-        {
-          "id": "61407a67852f4307d372d4a1",
-          "author": null,
-          "description": "Google Docs is an essential productivity tool for digital work.  This article will cover how to save a Google Doc as a PDF on the Desktop version of Google Docs.  What Is Google Docs Used For? You can use Google Docs for many different tasks.  For example, you can jot",
-          "link": "https://www.freecodecamp.org/news/how-to-save-a-google-doc-as-a-pdf/",
-          "publishedOn": "2021-09-14T17:58:28.000Z",
-          "wordCount": 741,
-          "title": "How to Save a Google Doc as a PDF"
-        },
-        {
-          "id": "61405cf6852f4307d372d219",
-          "author": null,
-          "description": "Ever since I became a GitHub Star and GitHub Star of the year in 2020, many people have asked me how they can become one.   There is no definitive checklist and you cannot apply or nominate yourself. But the GitHub Stars Program website gives some useful insight into what GitHub",
-          "link": "https://www.freecodecamp.org/news/github-stars-answer-the-communitys-most-asked-questions/",
-          "publishedOn": "2021-09-14T16:41:32.000Z",
-          "wordCount": 1633,
-          "title": "How to Become a GitHub Star – Tips from Actual GitHub Stars"
-        },
-        {
-          "id": "613b7a2c852f4307d372b3a9",
-          "author": null,
-          "description": "Hey everyone! 🌈 The seasons are changing, and September is the perfect month to focus on new goals and start new adventures. Maybe you've been on vacation, enjoyed the sun 🌞 or the mountains, and you're ready to dive back into work. New adventures are sometimes unexpected. But I hope that when",
-          "link": "https://www.freecodecamp.org/news/how-to-become-a-junior-software-engineer-in-6-months/",
-          "publishedOn": "2021-09-14T16:19:39.000Z",
-          "wordCount": 2446,
-          "title": "How to Become a Junior Software Engineer in 6 months"
-        },
-        {
-          "id": "613c7719852f4307d372b9b1",
-          "author": null,
-          "description": "There are so many programming languages out there, and more are developed every few years. We have Python, JavaScript, PHP, C++, Ruby, Java, C#, and way too many more to list here.  So you might be wondering – why are there so many programming languages, and do we even need all",
-          "link": "https://www.freecodecamp.org/news/why-are-there-so-many-programming-languages/",
-          "publishedOn": "2021-09-14T16:11:17.000Z",
-          "wordCount": 1238,
-          "title": "Why Are There So Many Programming Languages?"
-        },
-        {
-          "id": "61409b8d852f4307d372d5cd",
-          "author": null,
-          "description": "If you want to get into the growing field of cyber security and ethical hacking, you are going to need to understand how to use Linux. We just released a free course on the freeCodeCamp.org YouTube channel that will teach you all the common Linux skills used in cyber-security",
-          "link": "https://www.freecodecamp.org/news/linux-essentials-for-hackers/",
-          "publishedOn": "2021-09-14T13:03:08.000Z",
-          "wordCount": 372,
-          "title": "Linux Essentials for Hackers"
         }
       ]
     },
@@ -1024,15 +1033,6 @@
           "publishedOn": "2021-10-03T19:53:24.000Z",
           "wordCount": 296,
           "title": "Heard Something, Read Something, Saw Something [#9]"
-        },
-        {
-          "id": "https://world.hey.com/jason/is-a-business-different-from-a-company-e2316769",
-          "author": null,
-          "description": "Is there a difference between building a business or building a company? They've always seemed synonymous — interchangeable — to me, but now I think there's a difference.\nWe just hired a new COO at Basecamp. It's essentially a brand new position at the company. We had a COO for one year about five years ago, but for the rest of our 22 year existence, we haven't had someone in that position. The only two C-level executives at Basecamp (and 37signals before that) have been me and David. We're deficient in Vitamin C.\nAside from exposing us to a number of smart people we'd never have met on our own, the search also carved out a wonderful space to reflect. Reflect on what we've built over the last 22 years, how we've built it, and where we want to go next.\nIn that reflection I spotted a reality…",
-          "link": "https://world.hey.com/jason/is-a-business-different-from-a-company-e2316769",
-          "publishedOn": "2021-09-14T22:12:03.000Z",
-          "wordCount": 690,
-          "title": "Is a business different from a company?"
         }
       ]
     },
