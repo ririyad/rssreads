@@ -22,6 +22,42 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "617058f3d48e1707b6d7913d",
+          "author": null,
+          "description": "When you're coding in React or any other tool, you might want or need to use a third-party library. Let's talk about an approach which will ensure that the third-party libraries you use will blend well with your application. As application developers, there's no need to reinvent the wheel every",
+          "link": "https://www.freecodecamp.org/news/adapter-design-in-react/",
+          "publishedOn": "2021-10-21T00:33:49.000Z",
+          "wordCount": 907,
+          "title": "How to Use the Adapter Design Pattern in React"
+        },
+        {
+          "id": "61708409d48e1707b6d79387",
+          "author": null,
+          "description": "Angular is a TypeScript-based free and open-source web application framework created by Google. We just published a 2-hour Angular crash course on the freeCodeCamp.org YouTube channel. Slobodan Gajic created this course. Slobodan has created a bunch of amazing courses on his own channel. In this course you will learn",
+          "link": "https://www.freecodecamp.org/news/learn-angular-full-course/",
+          "publishedOn": "2021-10-20T21:07:05.000Z",
+          "wordCount": 303,
+          "title": "Learn Angular - Crash Course"
+        },
+        {
+          "id": "616945f580d82d07c45a5160",
+          "author": null,
+          "description": "Most devices nowadays come with a notch at the top of the screen. So when you're building a mobile application using React Native, you need to make sure that the content of the app's screen is rendered correctly across different types of devices. In this article, we'll look at two",
+          "link": "https://www.freecodecamp.org/news/how-to-use-safe-area-context-to-avoid-notches-in-react-native-apps/",
+          "publishedOn": "2021-10-20T19:37:59.000Z",
+          "wordCount": 1090,
+          "title": "How to Use Safe Area Context in React Native Apps to Avoid the Notch"
+        },
+        {
+          "id": "616ffc6dd48e1707b6d78992",
+          "author": null,
+          "description": "Sometimes you might need to know your router’s IP address. This will give you access to the setup page so you can make configuration changes like changing passwords, kicking out unwanted users, limiting users, and so on.  In this article, I will show you how to find out what",
+          "link": "https://www.freecodecamp.org/news/what-is-my-ip-address-for-my-router-how-to-find-your-wifi-address/",
+          "publishedOn": "2021-10-20T19:36:40.000Z",
+          "wordCount": 703,
+          "title": "What is my IP Address for my Router? How to Find your Wifi Address"
+        },
+        {
           "id": "616bcb8580d82d07c45a5deb",
           "author": null,
           "description": "If you are a front end developer who is new to the world of GraphQL and you're thinking about getting started with it, this article is for you.  In this article, we will explore GraphQL basics and kick start our journey with it by building a simple project.  What is",
@@ -848,69 +884,6 @@
           "publishedOn": "2021-09-21T15:18:57.000Z",
           "wordCount": 495,
           "title": "How to Automate Things Using Python"
-        },
-        {
-          "id": "5fbf192a49c47664ed825d46",
-          "author": null,
-          "description": "In this article, you'll learn how to set up reCAPTCHA v3 in your Laravel project. This can be a bit tricky, so I'll help you simplify the process here.  What is reCaptcha?reCaptcha is a Google service provided for free that helps you protect your websites from spam and malicious",
-          "link": "https://www.freecodecamp.org/news/how-to-setup-recaptcha-v3-in-laravel/",
-          "publishedOn": "2021-09-20T22:26:01.000Z",
-          "wordCount": 732,
-          "title": "How to Set Up reCAPTCHA v3 in a Laravel Project"
-        },
-        {
-          "id": "61483e50852f4307d3730d48",
-          "author": null,
-          "description": "Tuples and lists are two of the four available built-in data types that you can use to store data in Python.  They are both useful and they might seem similar at first glance. But they have significant differences and each one is best used in different cases.  This article will",
-          "link": "https://www.freecodecamp.org/news/python-tuple-vs-list-what-is-the-difference/",
-          "publishedOn": "2021-09-20T21:15:57.000Z",
-          "wordCount": 2100,
-          "title": "Python Tuple VS List – What is the Difference?"
-        },
-        {
-          "id": "61330a1fd6679a07b7d41e3e",
-          "author": null,
-          "description": "React-icons is a small library that helps you add icons (from all different icon libraries) to your React apps. It delivers the icons to your app as components so they're easier to work with, and it lets you style them so they're consistent with the overall style of your app.",
-          "link": "https://www.freecodecamp.org/news/how-to-use-react-icons/",
-          "publishedOn": "2021-09-20T19:44:00.000Z",
-          "wordCount": 2562,
-          "title": "How to use react-icons to install Font Awesome in a React app"
-        },
-        {
-          "id": "613a5047852f4307d372a9ea",
-          "author": null,
-          "description": "In this article I am going to walk you through building a prototype with Spring Boot. Think of it like building a project for a hackathon or a prototype for your startup in limited time.  In other words, we are not trying to build something perfect – but rather something that",
-          "link": "https://www.freecodecamp.org/news/spring-boot-tutorial-build-fast-modern-java-app/",
-          "publishedOn": "2021-09-20T19:43:06.000Z",
-          "wordCount": 8254,
-          "title": "Spring Boot Tutorial – How to Build Fast and Modern Java Apps"
-        },
-        {
-          "id": "6148d0dc9456b407b870f5ba",
-          "author": null,
-          "description": "Django is one of the most popular ways to create full-stack websites with Python. We just published an 18-hour Django course on the freeCodeCamp.org YouTube channel. Charles Severance (a.k.a. Dr. Chuck) created this course, along with the popular Python for Everybody course. He is a Clinical Professor",
-          "link": "https://www.freecodecamp.org/news/django-for-everybody-learn-the-popular-python-framework-from-dr-chuck/",
-          "publishedOn": "2021-09-20T18:29:03.000Z",
-          "wordCount": 789,
-          "title": "Django for Everybody - Learn the Popular Python Framework from Dr. Chuck"
-        },
-        {
-          "id": "612cbfd8b5177808226d4a47",
-          "author": null,
-          "description": "In this article, I will show you a few code examples on how you can sort your data in ascending order using the ORDER BY clause in SQL.  ORDER BY syntaxThis is the basic syntax to sort your data in ascending order: SELECT columns FROM table ORDER BY column;If",
-          "link": "https://www.freecodecamp.org/news/ascending-order-with-sql-order-by/",
-          "publishedOn": "2021-09-20T14:29:04.000Z",
-          "wordCount": 767,
-          "title": "Ascending Order with SQL Order By"
-        },
-        {
-          "id": "614382b2852f4307d372f2d6",
-          "author": null,
-          "description": "Take  a look at the following sentences:  I’m learning how to  code.  I'll get a software developer job.  Learning how to code doesn’t have to cost you money.  The words I’m, I’ll and doesn’t are called contractions.  In this article, you'll learn all about contractions",
-          "link": "https://www.freecodecamp.org/news/what-is-a-contraction-grammar-and-definition/",
-          "publishedOn": "2021-09-20T13:59:58.000Z",
-          "wordCount": 1817,
-          "title": "What is a Contraction? Grammar and Definition"
         }
       ]
     },
@@ -962,6 +935,15 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/how-we-acquired-hey-com-2e3e0d5f",
+          "author": null,
+          "description": "As more and more people discover our new email service, HEY.com, I continue to get questions about how we acquired the domain name. While I can't tell you how much it cost, I can share the story behind the acquisition process. Here goes:\n—\nBack on June 9, 2018, I cold emailed help@hey.com:\n\nHey there–\nCurious… Would you entertain an offer to sell hey.com? I'd like to use it for something I'm working on, and willing to make you a strong offer.\nLet me know. Thanks!\n-Jason\n\n\nAnd that’s where it all began.\n\nFor the 25+ years I’ve been emailing, I’d say close to 95% of those email began with some variation of “Hey [Name]”. So when it came time to think about a name for a new email system we’d be building, HEY was a natural.\n\nFurther, the “Hey!” menu in Basecamp 3 holds your notifications for ne…",
+          "link": "https://world.hey.com/jason/how-we-acquired-hey-com-2e3e0d5f",
+          "publishedOn": "2021-10-20T22:44:00.000Z",
+          "wordCount": 937,
+          "title": "How we acquired HEY.com"
+        },
         {
           "id": "https://world.hey.com/jason/introducing-elaine-richards-our-new-coo-a74122d8",
           "author": null,
