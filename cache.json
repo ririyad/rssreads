@@ -4,23 +4,22 @@
       "title": "tonsky.me",
       "feedUrl": "http://tonsky.me/blog/atom.xml",
       "siteUrl": "https://tonsky.me/",
-      "articles": [
-        {
-          "id": "https://tonsky.me/blog/python-build/",
-          "author": null,
-          "description": "Why Skija and JWM use Python instead of existing build tool",
-          "link": "https://tonsky.me/blog/python-build/",
-          "publishedOn": "2021-09-23T00:00:00.000Z",
-          "wordCount": 1413,
-          "title": "Python as a build tool"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "freeCodeCamp.org",
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "6130bf69d6679a07b7d40a74",
+          "author": null,
+          "description": "These days, a new trending front-end framework is released every now and then. But React and Vue.js still stand as the most popular among all the other alternatives.  And although both are performant, elegant, and arguably easy to learn, they have some different opinions on how certain things should",
+          "link": "https://www.freecodecamp.org/news/vue-vs-react-comparison-of-frameworks/",
+          "publishedOn": "2021-10-22T21:59:39.000Z",
+          "wordCount": 5950,
+          "title": "Vue vs React – How to Go from One Framework to the Other"
+        },
         {
           "id": "616fed81d48e1707b6d7898e",
           "author": null,
@@ -839,42 +838,6 @@
           "publishedOn": "2021-09-23T17:01:09.000Z",
           "wordCount": 2125,
           "title": "Use Python, SpaCy, and Streamlit to Build a Structured Financial Newsfeed"
-        },
-        {
-          "id": "612780233bccf807612a8955",
-          "author": null,
-          "description": "Today we're going to learn how to do form validation in JavaScript. We'l also add images and media queries to build out the entire project and keep it as a portfolio.   Here's the project demo that we're gonna build 👇 Desktop designHere's a small sample of how the form will work",
-          "link": "https://www.freecodecamp.org/news/learn-javascript-form-validation-by-making-a-form/",
-          "publishedOn": "2021-09-22T18:33:54.000Z",
-          "wordCount": 1981,
-          "title": "Learn JavaScript Form Validation – Build a JS Project for Beginners ✨"
-        },
-        {
-          "id": "614b18f59456b407b87105b2",
-          "author": null,
-          "description": "In HTML, the font you choose will play a major role in the look and feel of your web pages.  You get to pick the font's color, weight, size, and so on. And all these features make your websites and apps look better and more presentable to the user.  With",
-          "link": "https://www.freecodecamp.org/news/html-font-size-how-to-change-text-size-using-inline-css-style/",
-          "publishedOn": "2021-09-22T18:02:22.000Z",
-          "wordCount": 796,
-          "title": "HTML Font Size – How to Change Text Size Using Inline CSS Style"
-        },
-        {
-          "id": "612203ef3bccf807612a5752",
-          "author": null,
-          "description": "When you're coding in Python, you can use the enumerate() function and a for loop  to print out each value of an iterable with a counter. In this article, I will show you how to use Python's enumerate() function with a for loop and explain why it is a better",
-          "link": "https://www.freecodecamp.org/news/python-enumerate-python-enum-for-loop-index-example/",
-          "publishedOn": "2021-09-22T17:53:56.000Z",
-          "wordCount": 906,
-          "title": "Python Enumerate – Python Enum For Loop Index Example"
-        },
-        {
-          "id": "614b2a529456b407b8710629",
-          "author": null,
-          "description": "Shiny is an R package that makes it easy to build interactive and data-driven web apps straight from R. We just published a course on the freeCodeCamp.org YouTube channel that will teach you how to use R Shiny. Dr. Chanin Nantasenamat, also known as the Data Professor, teaches this",
-          "link": "https://www.freecodecamp.org/news/build-interactive-data-driven-web-apps-with-r-shiny/",
-          "publishedOn": "2021-09-22T13:17:46.000Z",
-          "wordCount": 13763,
-          "title": "Build Interactive Data-Driven Web Apps With R Shiny"
         }
       ]
     },
