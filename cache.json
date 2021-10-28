@@ -12,6 +12,78 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "61772e2833422e07df36437b",
+          "author": null,
+          "description": "Recently at work, I came across an interesting method to handle encryption at scale called envelope encryption.  First of all, it increases security and helps you ease out the management of encryption keys. But it's also a highly recommended pattern by PCI-DSS (Security Standard for Credit Card Processing) and results",
+          "link": "https://www.freecodecamp.org/news/envelope-encryption/",
+          "publishedOn": "2021-10-27T22:52:59.000Z",
+          "wordCount": 1497,
+          "title": "How to Manage Encryption at Scale with Envelope Encryption &amp; Key Management Systems"
+        },
+        {
+          "id": "61798c3d33422e07df365d30",
+          "author": null,
+          "description": "Configuration is an essential part of every application. It helps enhance an application's flexibility and maintainability.  With this in mind, it's very important that developers are able to correctly identify what items should be in configuration. In this article, I'll walk you through 8 items that should be configurable in",
+          "link": "https://www.freecodecamp.org/news/what-should-be-configurable-in-apps/",
+          "publishedOn": "2021-10-27T20:30:15.000Z",
+          "wordCount": 709,
+          "title": "What Items Should Be Configurable in an Application?"
+        },
+        {
+          "id": "617440c7d48e1707b6d7a054",
+          "author": null,
+          "description": "Whether you decide to take Andrew Ng’s Machine Learning and Deep Learning course on YouTube or any Data Science bootcamp, you will need a certain degree of mathematical and statistical knowledge.  This will not only help you understand basic ML/DS concepts, but it will also help you make",
+          "link": "https://www.freecodecamp.org/news/how-to-prepare-for-googles-machine-learning-data-science-course/",
+          "publishedOn": "2021-10-27T20:03:29.000Z",
+          "wordCount": 1631,
+          "title": "What to Know Before Taking Google&#x27;s Machine Learning or Data Science Course"
+        },
+        {
+          "id": "615d55910d91c9077974d3e8",
+          "author": null,
+          "description": "There are a few ways to record your phone calls on your iPhone. But it is really important that you ask for the other caller's permission first before making a recording. Is there a built in recording option? There is no built in option on iPhone to record your phone",
+          "link": "https://www.freecodecamp.org/news/how-to-record-a-phone-call-on-iphone/",
+          "publishedOn": "2021-10-27T18:35:31.000Z",
+          "wordCount": 639,
+          "title": "How to Record a Phone Call on iPhone"
+        },
+        {
+          "id": "6179723c33422e07df365a14",
+          "author": null,
+          "description": "React is one of the most popular front-end frameworks for JavaScript. We just published another React course on the freeCodeCamp.org YouTube channel that will teach you how to use React by building an e-Commerce application with class components. The course covers topics such as component basics, rendering various items",
+          "link": "https://www.freecodecamp.org/news/learn-react-by-building-an-ecommerce-site/",
+          "publishedOn": "2021-10-27T15:43:42.000Z",
+          "wordCount": 352,
+          "title": "Learn React by Building an eCommerce Site"
+        },
+        {
+          "id": "617836d333422e07df364bdd",
+          "author": null,
+          "description": "You may have heard the terms descending and ascending order before, but what do they actually mean?  This article explains in plain English the basic differences between those two terms and gives an analogy that may help you distinguish one from the other.  What is descending order? When a series",
+          "link": "https://www.freecodecamp.org/news/descending-order-vs-ascending-order-what-does-it-mean/",
+          "publishedOn": "2021-10-27T15:21:30.000Z",
+          "wordCount": 724,
+          "title": "Descending Order VS Ascending Order – What Does it Mean?"
+        },
+        {
+          "id": "615d55d10d91c9077974d400",
+          "author": null,
+          "description": "When FaceTime came out in 2010, it became a popular way for friends and family to connect over live video. But when FaceTime is not working, it can be a frustrating experience.  In this article, I will provide some reasons why FaceTime might not be working and tips on how",
+          "link": "https://www.freecodecamp.org/news/why-is-my-facetime-not-working/",
+          "publishedOn": "2021-10-27T15:10:30.000Z",
+          "wordCount": 882,
+          "title": "Why is my FaceTime Not Working?"
+        },
+        {
+          "id": "61769fd2d48e1707b6d7afc5",
+          "author": null,
+          "description": "Flowbite is an open-source library of web components built with the utility-first classes from Tailwind CSS. It also includes interactive elements such as dropdowns, modals, datepickers. Tailwind CSS is a framework that I've been using a lot lately in my web-related projects because of how fast it is to build",
+          "link": "https://www.freecodecamp.org/news/tailwind-css-components-flowbite/",
+          "publishedOn": "2021-10-27T00:53:05.000Z",
+          "wordCount": 1368,
+          "title": "Tailwind CSS Components Tutorial – How to get started with Flowbite"
+        },
+        {
           "id": "613711a5d6679a07b7d43dce",
           "author": null,
           "description": "When you're programming, there are times when you'll want the values of certain variables to remain unchanged. In the C language, you'll likely define them as constants. You can define constants in C in a few different ways. In this tutorial, you'll learn how to use #define and the const",
@@ -802,78 +874,6 @@
           "publishedOn": "2021-09-28T16:00:39.000Z",
           "wordCount": 1698,
           "title": "Semantic HTML Guide – 10 Alternatives to Using divs"
-        },
-        {
-          "id": "6149e65e9456b407b870fdc5",
-          "author": null,
-          "description": "GitHub is a collection of web-based tools that helps you work with version control and Git methodologies.  With the help of GitHub, you can create, manage, and collaborate on projects with multiple other team members. You keep the project folders and files in a store (file system) on GitHub. This",
-          "link": "https://www.freecodecamp.org/news/increase-engagement-on-your-public-github-repositories/",
-          "publishedOn": "2021-09-28T00:05:11.000Z",
-          "wordCount": 1737,
-          "title": "GitHub Repo Guide – How to Increase Engagement on your Public GitHub Repositories"
-        },
-        {
-          "id": "6148802f9456b407b870f041",
-          "author": null,
-          "description": "There are many articles about the Open-Closed Principle, but I can never find one that explains it in a way that really works for me.  So here, hopefully, is a good one – with a non trivial and real life example, what changes to support, and a description of the trade",
-          "link": "https://www.freecodecamp.org/news/open-closed-principle/",
-          "publishedOn": "2021-09-27T19:43:06.000Z",
-          "wordCount": 1607,
-          "title": "Open-Closed Principle – The Software Development Concept Explained in Plain English"
-        },
-        {
-          "id": "61508279ccc97307eb2bca3f",
-          "author": null,
-          "description": "Sharing your knowledge can help you improve your skills and level up your career as a developer. Many developers are already doing it, and if you aren't, this article is for you. In it, I will show you why you should share your coding expertise by looking at five extraordinary",
-          "link": "https://www.freecodecamp.org/news/why-you-should-share-your-knowledge-as-a-developer/",
-          "publishedOn": "2021-09-27T17:41:26.000Z",
-          "wordCount": 972,
-          "title": "Why You Should Share Your Knowledge as a Developer"
-        },
-        {
-          "id": "613f3cd3852f4307d372c7e8",
-          "author": null,
-          "description": "If you have just started learning JavaScript, you might have heard of the DOM. But what is it exactly? In this article, I will explain what the DOM is and provide some JavaScript code examples.  We will take a look at how to select elements from an HTML document, how",
-          "link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/",
-          "publishedOn": "2021-09-27T16:23:19.000Z",
-          "wordCount": 1470,
-          "title": "What is the DOM? Document Object Model Meaning in JavaScript"
-        },
-        {
-          "id": "614ad5b79456b407b871028d",
-          "author": null,
-          "description": "Lambda functions are anonymous functions that can contain only one expression. You may think that lambda functions are an intermediate or advanced feature, but here you will learn how you can easily start using them in your code. In Python, functions are usually created like this: def my_func(a)",
-          "link": "https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/",
-          "publishedOn": "2021-09-27T15:23:43.000Z",
-          "wordCount": 905,
-          "title": "Lambda Function in Python – Example Syntax"
-        },
-        {
-          "id": "614c40119456b407b8710b0f",
-          "author": null,
-          "description": "Making a website or web app accessible improves the user experience for people with disabilities and for all users as well. Since developers deal with tight deadlines and competing priorities, it is easy to accidentally ship unresolved accessibility issues to production. And things becomes even more complex when working with",
-          "link": "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/",
-          "publishedOn": "2021-09-27T14:18:59.000Z",
-          "wordCount": 2213,
-          "title": "React Accessibility Tools – How to Build More Accessible React Apps"
-        },
-        {
-          "id": "6151be27ccc97307eb2bcfa2",
-          "author": null,
-          "description": "Natural language processing, or NLP, is a branch of linguistics that seeks to parse human language in a computer system. spaCy is a popular Python library used for NLP. We just published a NLP and spaCy course on the freeCodeCamp.org YouTube channel. In the course you will learn all",
-          "link": "https://www.freecodecamp.org/news/natural-language-processing-with-spacy-python-full-course/",
-          "publishedOn": "2021-09-27T14:12:24.000Z",
-          "wordCount": 4451,
-          "title": "Natural Language Processing with spaCy &amp; Python - Full Course"
-        },
-        {
-          "id": "614bc3bd9456b407b87108b3",
-          "author": null,
-          "description": "By using big data, companies can learn a lot about how their businesses are performing. Analytics on sales, churn rates, and other basic metrics are available in almost real time as data comes in.  Then there are more complex analyses that you'll need to do. At times relationships between two",
-          "link": "https://www.freecodecamp.org/news/how-to-use-object-storage-for-parallelization-and-experimentation/",
-          "publishedOn": "2021-09-27T14:09:57.000Z",
-          "wordCount": 1510,
-          "title": "How to Use Object Storage for Data Parallelization and Experimentation"
         }
       ]
     },
