@@ -12,6 +12,78 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "617a55f533422e07df366544",
+          "author": null,
+          "description": "React.js is a scalable open-source JavaScript library and is one of the most commonly used front-end frameworks out there today.  It's dynamic and is easy to get started with if you want to create interactive web applications with reusable components. There are lots of reasons to use React.js",
+          "link": "https://www.freecodecamp.org/news/best-practices-for-security-of-your-react-js-application/",
+          "publishedOn": "2021-10-28T23:44:02.000Z",
+          "wordCount": 2235,
+          "title": "How to Secure Your React.js Application"
+        },
+        {
+          "id": "615c49eb0d91c9077974ca38",
+          "author": null,
+          "description": "Diagnosing and resolving issues in Kubernetes can be quite challenging. Kubernetes, after all, is a complex system.  Resolving problems even in small K8s clusters, nodes, and containers can be tricky, and it's often hard to identify and address issues. And an issue isn't even always easy to trace – it might",
+          "link": "https://www.freecodecamp.org/news/how-to-simplify-kubernetes-troubleshooting/",
+          "publishedOn": "2021-10-28T22:43:01.000Z",
+          "wordCount": 1398,
+          "title": "How to Simplify Kubernetes Troubleshooting"
+        },
+        {
+          "id": "617a63cf33422e07df366730",
+          "author": null,
+          "description": "What is a decimal place value? What is the difference between whole and decimal numbers?  In this quick guide, you'll learn the basics of the decimal place value and how it works.  Let's get started!  How number systems work Numbers are used for performing mathematical operations and for representing data",
+          "link": "https://www.freecodecamp.org/news/decimal-place-value-hundreds-thousandths-and-beyond/",
+          "publishedOn": "2021-10-28T18:58:52.000Z",
+          "wordCount": 956,
+          "title": "Decimal Place Value – Hundreds, Thousandths, and Beyond"
+        },
+        {
+          "id": "61795dda33422e07df365779",
+          "author": null,
+          "description": "If you're a beginner to Python, chances are you've come across lists. But have you heard about sets in Python? In this tutorial, we'll explore what sets are, how to create them, and the different operations you can use on them. What are sets in Python?In Python, sets are",
+          "link": "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/",
+          "publishedOn": "2021-10-28T18:17:35.000Z",
+          "wordCount": 1547,
+          "title": "Python Sets – Explained with Examples"
+        },
+        {
+          "id": "6178541d33422e07df364eba",
+          "author": null,
+          "description": "In this article, I will show you how I quickly set up and ran a Docker container for free on Oracle Cloud Infrastructure.  In short, I used a VM in the Always Free Tier of OCI, and for a side project I set up a dockerised Postgres database. Let's get",
+          "link": "https://www.freecodecamp.org/news/run-a-postgres-docker-container-on-oracle-cloud-infrastructure/",
+          "publishedOn": "2021-10-28T15:33:00.000Z",
+          "wordCount": 1065,
+          "title": "How to Run a Postgres Docker Container on Oracle Cloud Infrastructure"
+        },
+        {
+          "id": "61784ef033422e07df364e34",
+          "author": null,
+          "description": "Hi! If you speak Spanish and you want you learn HTML and CSS, you're in the right place. In this article, you will find a brief introduction to the basics of HTML and CSS. Then you will find a free 5-hour course on HTML and CSS on our Spanish YouTube",
+          "link": "https://www.freecodecamp.org/news/learn-html-and-css-in-spanish-course-for-beginners/",
+          "publishedOn": "2021-10-28T15:32:02.000Z",
+          "wordCount": 2399,
+          "title": "Learn HTML and CSS in Spanish – Course for Beginners"
+        },
+        {
+          "id": "61728f9ed48e1707b6d79b46",
+          "author": null,
+          "description": "Many JavaScript frameworks use ES6 features. So to help you learn these handy features, I'll introduce you to them and then show you how to apply them in React.js.  Here are the ES6 features we'll cover in this guide: ModulesDestructuringSpread OperatorArrow functionsTemplate LiteralsAll the examples we'll see here are",
+          "link": "https://www.freecodecamp.org/news/how-to-use-es6-javascript-features-in-react/",
+          "publishedOn": "2021-10-28T15:23:00.000Z",
+          "wordCount": 1695,
+          "title": "How to Use ES6 Features in React"
+        },
+        {
+          "id": "61797e0833422e07df365c36",
+          "author": null,
+          "description": "Creating a game is a great way to improve your JavaScript skills. We just published a JavaScript tutorial on the freeCodeCamp.org YouTube channel that will teach you how to create a puzzle game that gets an image for the puzzle from your computer's camera. Radu Mariescu-Istodor developed this course.",
+          "link": "https://www.freecodecamp.org/news/javascript-project-create-a-puzzlecam-game/",
+          "publishedOn": "2021-10-28T13:40:10.000Z",
+          "wordCount": 12249,
+          "title": "JavaScript Project: Create a PuzzleCam Game"
+        },
+        {
           "id": "61772e2833422e07df36437b",
           "author": null,
           "description": "Recently at work, I came across an interesting method to handle encryption at scale called envelope encryption.  First of all, it increases security and helps you ease out the management of encryption keys. But it's also a highly recommended pattern by PCI-DSS (Security Standard for Credit Card Processing) and results",
@@ -829,51 +901,6 @@
           "publishedOn": "2021-09-29T17:03:35.000Z",
           "wordCount": 1170,
           "title": "HTML Comment – How to Comment Out a Line or Tag in HTML"
-        },
-        {
-          "id": "614e7e50ccc97307eb2bc3e5",
-          "author": null,
-          "description": "Flexbox can help you simplify the process of creating both basic and advanced layouts. And it's pretty straightforward to create side and bottom navigation menus with CSS flexbox or Grid. These layouts are so popular that they appear almost everywhere on the web. For example, check out Twitter's sidebar, which",
-          "link": "https://www.freecodecamp.org/news/fixed-side-and-bottom-navbar-with-css-flexbox/",
-          "publishedOn": "2021-09-28T21:41:48.000Z",
-          "wordCount": 783,
-          "title": "CSS Flexbox Tutorial – How to Build a Fixed Side and Bottom Navbar"
-        },
-        {
-          "id": "6153616d64aefe07d3fa049a",
-          "author": null,
-          "description": "Building projects is a great way to build your skills, especially when it comes to web development. We just published an HTML & CSS course on the freeCodeCamp.org YouTube channel teach you how to build a recipe website. John Smilga developed this course. He is one of the most",
-          "link": "https://www.freecodecamp.org/news/html-css-tutorial-build-a-recipe-website/",
-          "publishedOn": "2021-09-28T18:56:03.000Z",
-          "wordCount": 22802,
-          "title": "HTML / CSS Tutorial - Build a Recipe Website"
-        },
-        {
-          "id": "613c75b1852f4307d372b9ab",
-          "author": null,
-          "description": "You have finished creating your HTML website and you're feeling proud of your hard work. But there is one thing that is still missing: you have no idea how to publish your website. In this tutorial, you will learn how to publish an HTML website using two popular platforms – Netlify",
-          "link": "https://www.freecodecamp.org/news/publish-your-website-netlify-github/",
-          "publishedOn": "2021-09-28T17:36:52.000Z",
-          "wordCount": 968,
-          "title": "How to Publish an HTML Website on Netlify or GitHub Pages"
-        },
-        {
-          "id": "615233ec64aefe07d3f9fdb4",
-          "author": null,
-          "description": "Sentry.io is an external monitoring and logging service which can help you identify and triage errors in your code.  These logs provide information such as a trace stack, breadcrumbs, and (assuming this is a web application) browser data. This can help you triage issues and resolve bugs faster, with",
-          "link": "https://www.freecodecamp.org/news/how-to-add-sentry-to-your-node-js-project-with-typescript/",
-          "publishedOn": "2021-09-28T16:24:26.000Z",
-          "wordCount": 1195,
-          "title": "How to Add Sentry to Your Node.js Project with TypeScript"
-        },
-        {
-          "id": "614e05eeccc97307eb2bc165",
-          "author": null,
-          "description": "Raise your hand if your typical HTML layout looks like this: <body> \t<div class=\"header\" id=\"site-header\"> \t\t<div class=\"site-nav\"> \t\t\t<ul> \t\t\t\t<li><a href=\"/\">Home</a></li> \t\t\t\t<li><a href=\"/\">",
-          "link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/",
-          "publishedOn": "2021-09-28T16:00:39.000Z",
-          "wordCount": 1698,
-          "title": "Semantic HTML Guide – 10 Alternatives to Using divs"
         }
       ]
     },
@@ -985,15 +1012,6 @@
           "publishedOn": "2021-10-05T19:00:00.000Z",
           "wordCount": 530,
           "title": "How I Use LaTeX"
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2021/09/28/links.html",
-          "author": null,
-          "description": "A few more than four fresh plain text links. Yes, you read that correctly!",
-          "link": "https://plaintextproject.online/articles/2021/09/28/links.html",
-          "publishedOn": "2021-09-28T19:00:00.000Z",
-          "wordCount": 101,
-          "title": "Four Links - September 28, 2021"
         }
       ]
     },
