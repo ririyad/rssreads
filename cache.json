@@ -6,6 +6,15 @@
       "siteUrl": "https://tonsky.me/",
       "articles": [
         {
+          "id": "https://tonsky.me/design/#clj-commons",
+          "author": null,
+          "description": "clj-commons is a community-led project to build up the supporting infrastructure around Clojure. Idea: Erik Assum.",
+          "link": "https://tonsky.me/design/#clj-commons",
+          "publishedOn": "2021-11-24T00:00:00.000Z",
+          "wordCount": 382,
+          "title": "clj-commons Logo"
+        },
+        {
           "id": "https://www.youtube.com/watch?v=1qDyWccmcuY",
           "author": null,
           "description": "Разочарование в софте, разочарование в Дюне Вильнева",
@@ -21,6 +30,78 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "619ba16011d3cb08287aa2ed",
+          "author": null,
+          "description": "In this conference talk made for Tech Fest 2021, Steven Lemmo talks to you about building SaaS Applications with WebSockets. Here is a full breakdown of what he will cover in this 40 minute talk: The reason for this talkWhy Websockets?Websockets minimal API exampleRest Web ServicesMultiple ListenersFull DuplexWebsockets time-lineTypeScriptVendor",
+          "link": "https://www.freecodecamp.org/news/how-to-add-websocket-real-time-communication-to-your-saas-app/",
+          "publishedOn": "2021-11-24T23:50:04.000Z",
+          "wordCount": 318,
+          "title": "How to Add Websocket Real Time Communication to Your SaaS App"
+        },
+        {
+          "id": "619bcc5611d3cb08287aa66f",
+          "author": null,
+          "description": "Colors play an integral role in how usable and accessible your web design projects are.  At times, they can even make or break a project.  Having a color palette comprised of different shades and hues of a specific color can be really helpful. It helps you visualize how you can",
+          "link": "https://www.freecodecamp.org/news/color-shades-hex-code-and-rgb-for-gray-color-palette/",
+          "publishedOn": "2021-11-24T23:47:39.000Z",
+          "wordCount": 1049,
+          "title": "Color Shades – Hex Code and RGB for Gray Color Palette"
+        },
+        {
+          "id": "619e979225888a07c3e1b545",
+          "author": null,
+          "description": "Do you know how to use Microsoft Excel and want to learn how to do data analysis with Python? You are in luck. We just published a course on the freeCodeCamp.org YouTube channel that will teach you how to do Data Analysis with Python. This course will be especially",
+          "link": "https://www.freecodecamp.org/news/data-analysis-with-python-for-excel-users-course/",
+          "publishedOn": "2021-11-24T20:00:33.000Z",
+          "wordCount": 412,
+          "title": "Data Analysis with Python for Excel Users Course"
+        },
+        {
+          "id": "619e3cdd25888a07c3e1b16d",
+          "author": null,
+          "description": "A mobile hotspot is a quick and efficient way to share an internet connection with other devices like computers, iPads, or other mobile phones.  A hotspot is also a good alternative to WiFi – especially if the WiFi in your area is unbearably slow or won't connect.  Sometimes, you might experience",
+          "link": "https://www.freecodecamp.org/news/why-wont-my-computer-connect-to-my-hotspot-fixed-on-windows-10-pc-wifi/",
+          "publishedOn": "2021-11-24T18:44:39.000Z",
+          "wordCount": 792,
+          "title": "Why Won&#x27;t My Computer Connect to My Hotspot? [Fixed on Windows 10 PC WiFi]"
+        },
+        {
+          "id": "619c873711d3cb08287aaf76",
+          "author": null,
+          "description": "I recently finished reading The Pragmatic Programmer 20th Anniversary Edition (2019) and The Clean Coder (2011). You'll find these books on almost every “top 10 Software Development books” list out there.  My goal was to learn, improve, and get the kind of knowledge that a teacher from mine used to",
+          "link": "https://www.freecodecamp.org/news/lessons-learned-from-the-pragmatic-programmer-and-the-clean-coder/",
+          "publishedOn": "2021-11-24T16:38:09.000Z",
+          "wordCount": 3428,
+          "title": "What I Learned from The Pragmatic Programmer and The Clean Coder"
+        },
+        {
+          "id": "619e8cba25888a07c3e1b499",
+          "author": null,
+          "description": "Feature Toggles (aka Feature Flags) are a technique used in software development in order to hide, enable or disable a particular feature during runtime. They allow teams to modify system behavior without changing code. We just published a course on the freeCodeCamp YouTube channel that will teach you why and",
+          "link": "https://www.freecodecamp.org/news/why-and-how-to-add-feature-toggles-to-your-software/",
+          "publishedOn": "2021-11-24T15:49:00.000Z",
+          "wordCount": 476,
+          "title": "Why and How to Add Feature Toggles to Your Software"
+        },
+        {
+          "id": "618ed39211d3cb08287a5535",
+          "author": null,
+          "description": "In this article, I'm going to walk you through how to use D3.js in a step by step and beginner-friendly way. We'll talk about what D3.js is, how it works, and we'll create some basic visualizations to add transitions, interactions, and zooming. Table of Contents Getting Started  What",
+          "link": "https://www.freecodecamp.org/news/d3js-tutorial-data-visualization-for-beginners/",
+          "publishedOn": "2021-11-24T15:03:01.000Z",
+          "wordCount": 4085,
+          "title": "D3.js Tutorial – Data Visualization for Beginners"
+        },
+        {
+          "id": "619cdd9d11d3cb08287ab09c",
+          "author": null,
+          "description": "In this talk, Designer turned Software Developer Lenora Porter talks about her journey learning Ember.js. She also shares her tips for beginners who are about to start their journey. Here are her top 4 take-aways: How to Learn Ember.jsHave the Mindset of a BeginnerThis is the foundational work.",
+          "link": "https://www.freecodecamp.org/news/learn-ember-ember-js-tips-for-beginners-tutorial/",
+          "publishedOn": "2021-11-24T15:02:26.000Z",
+          "wordCount": 484,
+          "title": "Learn Ember – Ember.js Tips for Beginners Tutorial"
+        },
         {
           "id": "6197c7ce11d3cb08287a9271",
           "author": null,
@@ -322,6 +403,15 @@
       "feedUrl": "https://plaintextproject.online/feed.xml",
       "siteUrl": "https://plaintextproject.online",
       "articles": [
+        {
+          "id": "https://plaintextproject.online/articles/2021/11/25/links.html",
+          "author": null,
+          "description": "A set of four links to plain text resources for the end of November, 2021",
+          "link": "https://plaintextproject.online/articles/2021/11/25/links.html",
+          "publishedOn": "2021-11-25T19:00:00.000Z",
+          "wordCount": 95,
+          "title": "Four Links - November 25, 2021"
+        },
         {
           "id": "https://plaintextproject.online/articles/2021/11/17/tools.html",
           "author": null,
