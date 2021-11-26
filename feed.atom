@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-11-25T00:52:50.575Z</updated>
+    <updated>2021-11-26T00:50:58.606Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -14,6 +14,18 @@
         <summary type="html"><![CDATA[A set of four links to plain text resources for the end of November, 2021]]></summary>
         <author>
             <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Programmers should stop celebrating incompetence]]></title>
+        <id>https://world.hey.com/dhh/programmers-should-stop-celebrating-incompetence-de1a4725</id>
+        <link href="https://world.hey.com/dhh/programmers-should-stop-celebrating-incompetence-de1a4725"/>
+        <updated>2021-11-25T10:50:05.000Z</updated>
+        <summary type="html"><![CDATA[In the valiant effort to combat imposter syndrome and gatekeeping, the programming world has taken a bad turn down a blind alley by celebrating incompetence. You don't have to reduce an entire profession to a clueless gang of copy-pasta pirates to make new recruits feel welcome. It undermines the aspiration to improve. It reduces the work to magical thinking. It is not good.
+I say this an evaluation of the prescription, not of the diagnosis. The programming world absolutely has had, and still has, challenges with imposter syndrome and gatekeeping. In large part because, unlike so many other professional fields, a high percentage of the people working in programming are self-taught. (Including yours truly!).
+When you don't have a diploma from a prestigious institution telling you and the wo…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
     <entry>
@@ -538,20 +550,6 @@ Case in point. We're currently working on adding autoresponders to HEY. Since th
         <summary type="html"><![CDATA[Four new links about plain text]]></summary>
         <author>
             <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Foreword to "The Art of Agile Development"]]></title>
-        <id>https://martinfowler.com/articles/art-agile-foreword.html</id>
-        <link href="https://martinfowler.com/articles/art-agile-foreword.html"/>
-        <updated>2021-10-26T14:24:00.000Z</updated>
-        <summary type="html"><![CDATA[James Shore has revised his book "The Art of Agile Development". I'm
-      pleased to write a foreword for this book as it is solid guide to learning
-      how to get past faux-agile and develop the skills you need to get the
-      benefits of the agile way of work. 
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
