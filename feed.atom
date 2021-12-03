@@ -2,10 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-02T00:54:04.924Z</updated>
+    <updated>2021-12-03T00:53:12.555Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How to Protect Yourself Against SIM Swapping Attacks]]></title>
+        <id>5fff3e8b98be260817e495e9</id>
+        <link href="https://www.freecodecamp.org/news/protect-yourself-against-sim-swapping-attacks/"/>
+        <updated>2021-12-02T20:05:26.000Z</updated>
+        <summary type="html"><![CDATA[What is a SIM swap?SIM swapping is when a hacker convinces your cell phone carrier to switch your phone number to a different SIM - one that they own.  This is a relatively normal thing for a retail employee to do, which means that someone asking for a swap]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Mixins in Sass and Pass Arguments – With Code Examples]]></title>
+        <id>61951bb111d3cb08287a7bae</id>
+        <link href="https://www.freecodecamp.org/news/how-to-pass-arguments-to-mixins/"/>
+        <updated>2021-12-02T18:45:59.000Z</updated>
+        <summary type="html"><![CDATA[Mixins are my favorite thing about Sass. They made my life so much easier, so I wanted to show you how they can do the same for you. Mixins can be a bit tricky to understand at first, but don't worry. You'll get the hang of it by practicing and]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Make a Simple Async GET REST API call in SwiftUI]]></title>
+        <id>61a683330c0c7407b2b3e88f</id>
+        <link href="https://www.freecodecamp.org/news/make-rest-api-call-in-swiftui-in-2-minutes/"/>
+        <updated>2021-12-02T18:32:23.000Z</updated>
+        <summary type="html"><![CDATA[In this tutorial for beginners, you will learn the basics of using SwiftUI to make API calls using the popular Internet Chuck Norris DataBase (ICNDB) as an example. It will display a joke quickly and easily using Swift and SwiftUI.  You'll see how the cross-platform framework SwiftUI lets us use]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RTC Connecting Discord – How to Fix the Server Error]]></title>
+        <id>61a8e0bb0c0c7407b2b3f52a</id>
+        <link href="https://www.freecodecamp.org/news/rtc-connecting-discord-how-to-fix-the-server-error/"/>
+        <updated>2021-12-02T17:10:47.000Z</updated>
+        <summary type="html"><![CDATA[Discord is an instant messaging app that lets you communicate through voice, video, and texts. It is available in a web-based form, a desktop app, and a mobile app.  But sometimes, when you're trying to establish a voice call connection, you'll get an error that says “RTC Connecting Discord”. This]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Redux for Application-Wide State Management]]></title>
+        <id>61a0677125888a07c3e1b835</id>
+        <link href="https://www.freecodecamp.org/news/how-to-use-redux-for-application-wide-state-management/"/>
+        <updated>2021-12-02T15:47:07.000Z</updated>
+        <summary type="html"><![CDATA[Let's face it – state management across multiple components isn't easy. Sometimes we might set up the state or logic handling properly, but fail to consume the states. Or we might get everything working, but clutter up the codebase in the process, making it hard to read, adapt, and extend.   The]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Worrying yourself into excess]]></title>
+        <id>https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863</id>
+        <link href="https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863"/>
+        <updated>2021-12-02T11:50:16.000Z</updated>
+        <summary type="html"><![CDATA[When we were developing this HEY World system in the beginning of the year, we ended up spending a very considerable amount of time worrying about and discussing all the ways it might be abused. This is the internet after all! Full of savage trolls! Surely we must fortify lest we be overrun?
+But the trolls never came. Since we launched HEY World, every single one of the many thousands of posts made here have had a "report abuse" link at the bottom. Not once has it been used to report a posting that actually violated our use restrictions. Not. Once.
+All that worry, all that consternation, all those arguments back and forth about policy and protocols, all for nothing.
+Furthermore, HEY World is a pretty minimalist system. By design. The individual pages contain just five links: Link to the au…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Books that bust bubbles]]></title>
         <id>https://world.hey.com/dhh/books-that-bust-bubbles-35c46be2</id>
@@ -691,24 +754,6 @@ An approach we use at MYOB to engage our whole organisation in broader decisions
         <summary type="html"><![CDATA[In the Go world, an underscore (_) before an expression is called a blank identifier. As you may already know, identifiers—user-defined program components, e.g., name of a function, variable, or package—in Go must be preceded by an underscore or a letter (a-z or A-Z). If they aren’t, you’ll receive the compile- time error which essentially means Go cannot read the syntax of your code (you didn’t write your code correctly).]]></summary>
         <author>
             <name>GolangCode</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compliance in a DevOps Culture]]></title>
-        <id>https://martinfowler.com/articles/devops-compliance.html</id>
-        <link href="https://martinfowler.com/articles/devops-compliance.html"/>
-        <updated>2021-11-02T13:39:00.000Z</updated>
-        <summary type="html"><![CDATA[Integrating the necessary security controls and audit capabilities to
-      satisfy compliance requirements within a DevOps culture can capitalize on
-      CI/CD pipeline automation, but presents unique challenges as an
-      organization scales. Understanding the second order implications and
-      unintended consequences caused by the chosen implementation is key to
-      building an effective, secure, and scalable solution. My colleague Carl
-      Nygard describes how to think of these choices through a
-      series of four patterns for handling compliance.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>

@@ -40,6 +40,51 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "5fff3e8b98be260817e495e9",
+          "author": null,
+          "description": "What is a SIM swap?SIM swapping is when a hacker convinces your cell phone carrier to switch your phone number to a different SIM - one that they own.  This is a relatively normal thing for a retail employee to do, which means that someone asking for a swap",
+          "link": "https://www.freecodecamp.org/news/protect-yourself-against-sim-swapping-attacks/",
+          "publishedOn": "2021-12-02T20:05:26.000Z",
+          "wordCount": 1762,
+          "title": "How to Protect Yourself Against SIM Swapping Attacks"
+        },
+        {
+          "id": "61951bb111d3cb08287a7bae",
+          "author": null,
+          "description": "Mixins are my favorite thing about Sass. They made my life so much easier, so I wanted to show you how they can do the same for you. Mixins can be a bit tricky to understand at first, but don't worry. You'll get the hang of it by practicing and",
+          "link": "https://www.freecodecamp.org/news/how-to-pass-arguments-to-mixins/",
+          "publishedOn": "2021-12-02T18:45:59.000Z",
+          "wordCount": 1561,
+          "title": "How to Use Mixins in Sass and Pass Arguments – With Code Examples"
+        },
+        {
+          "id": "61a683330c0c7407b2b3e88f",
+          "author": null,
+          "description": "In this tutorial for beginners, you will learn the basics of using SwiftUI to make API calls using the popular Internet Chuck Norris DataBase (ICNDB) as an example. It will display a joke quickly and easily using Swift and SwiftUI.  You'll see how the cross-platform framework SwiftUI lets us use",
+          "link": "https://www.freecodecamp.org/news/make-rest-api-call-in-swiftui-in-2-minutes/",
+          "publishedOn": "2021-12-02T18:32:23.000Z",
+          "wordCount": 949,
+          "title": "How to Make a Simple Async GET REST API call in SwiftUI"
+        },
+        {
+          "id": "61a8e0bb0c0c7407b2b3f52a",
+          "author": null,
+          "description": "Discord is an instant messaging app that lets you communicate through voice, video, and texts. It is available in a web-based form, a desktop app, and a mobile app.  But sometimes, when you're trying to establish a voice call connection, you'll get an error that says “RTC Connecting Discord”. This",
+          "link": "https://www.freecodecamp.org/news/rtc-connecting-discord-how-to-fix-the-server-error/",
+          "publishedOn": "2021-12-02T17:10:47.000Z",
+          "wordCount": 1078,
+          "title": "RTC Connecting Discord – How to Fix the Server Error"
+        },
+        {
+          "id": "61a0677125888a07c3e1b835",
+          "author": null,
+          "description": "Let's face it – state management across multiple components isn't easy. Sometimes we might set up the state or logic handling properly, but fail to consume the states. Or we might get everything working, but clutter up the codebase in the process, making it hard to read, adapt, and extend.   The",
+          "link": "https://www.freecodecamp.org/news/how-to-use-redux-for-application-wide-state-management/",
+          "publishedOn": "2021-12-02T15:47:07.000Z",
+          "wordCount": 2608,
+          "title": "How to Use Redux for Application-Wide State Management"
+        },
+        {
           "id": "61a5f9680c0c7407b2b3e607",
           "author": null,
           "description": "In general, a headphone jack and a pair of headphones improve the sound from your PC. You'll be able to hear things more clearly, without disturbing other around you.  But sometimes, setting them up is difficult. Or they might stop working entirely. This could be due to outdated drivers, or",
@@ -444,6 +489,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863",
+          "author": null,
+          "description": "When we were developing this HEY World system in the beginning of the year, we ended up spending a very considerable amount of time worrying about and discussing all the ways it might be abused. This is the internet after all! Full of savage trolls! Surely we must fortify lest we be overrun?\nBut the trolls never came. Since we launched HEY World, every single one of the many thousands of posts made here have had a \"report abuse\" link at the bottom. Not once has it been used to report a posting that actually violated our use restrictions. Not. Once.\nAll that worry, all that consternation, all those arguments back and forth about policy and protocols, all for nothing.\nFurthermore, HEY World is a pretty minimalist system. By design. The individual pages contain just five links: Link to the au…",
+          "link": "https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863",
+          "publishedOn": "2021-12-02T11:50:16.000Z",
+          "wordCount": 520,
+          "title": "Worrying yourself into excess"
+        },
+        {
           "id": "https://world.hey.com/dhh/books-that-bust-bubbles-35c46be2",
           "author": null,
           "description": "It's a disorientating time in America. So many societal seams are unraveling simultaneously. So few ideas for how to stitch those seams back together find common cause. No wonder despair and anger comes so easy to so many right now.\nThese dark emotions are then propelled by the particle accelerator that is Twitter into super-charged takes. All that energy has definitively nuked any previous utopian hope that \"connecting the world\" would lead to peace, love, and understanding.\nThat, ironically, is perhaps the one thing everyone does seem to agree on at the moment: social media is making everything political worse. But of course such a conclusion is only shared until the question of who to blame emerges or what to do about it is brought up, and then it's back to the tribal drums.\nThe best sh…",
@@ -604,15 +658,6 @@
           "publishedOn": "2021-11-10T18:04:00.000Z",
           "wordCount": 393,
           "title": "Bliki: DefaultTrialRetire"
-        },
-        {
-          "id": "https://martinfowler.com/articles/devops-compliance.html",
-          "author": null,
-          "description": "Integrating the necessary security controls and audit capabilities to\n      satisfy compliance requirements within a DevOps culture can capitalize on\n      CI/CD pipeline automation, but presents unique challenges as an\n      organization scales. Understanding the second order implications and\n      unintended consequences caused by the chosen implementation is key to\n      building an effective, secure, and scalable solution. My colleague Carl\n      Nygard describes how to think of these choices through a\n      series of four patterns for handling compliance.\nmore…",
-          "link": "https://martinfowler.com/articles/devops-compliance.html",
-          "publishedOn": "2021-11-02T13:39:00.000Z",
-          "wordCount": 5732,
-          "title": "Compliance in a DevOps Culture"
         }
       ]
     },
