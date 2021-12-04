@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-03T00:53:12.555Z</updated>
+    <updated>2021-12-04T00:53:13.118Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mistakes Every Programmer Makes When Learning to Code – and How to Fix Them]]></title>
+        <id>61a7b9390c0c7407b2b3f076</id>
+        <link href="https://www.freecodecamp.org/news/mistakes-programmers-make-when-coding-and-how-to-fix-them/"/>
+        <updated>2021-12-03T19:14:57.000Z</updated>
+        <summary type="html"><![CDATA[As programmers, we will inevitably make mistakes. Even the most accomplished specialists make them. But you'll become a better programmer faster if you don't make the same mistakes over and over. There are many types of mistakes you might make when you're coding. The majority of them usually come from]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to Protect Yourself Against SIM Swapping Attacks]]></title>
         <id>5fff3e8b98be260817e495e9</id>
@@ -734,26 +744,6 @@ An approach we use at MYOB to engage our whole organisation in broader decisions
   importantly which ones to keep clear of.]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blogging in Plain Text with Mataroa]]></title>
-        <id>https://plaintextproject.online/articles/2021/11/03/mataroa.html</id>
-        <link href="https://plaintextproject.online/articles/2021/11/03/mataroa.html"/>
-        <updated>2021-11-03T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn about an ultra easy blogging platform that supports Markdown]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Struct Tags with Underscore Before Function Names]]></title>
-        <id>https://golangcode.com/using-go-struct-tags-with-an-underscore-before-function-names/</id>
-        <link href="https://golangcode.com/using-go-struct-tags-with-an-underscore-before-function-names/"/>
-        <updated>2021-11-03T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the Go world, an underscore (_) before an expression is called a blank identifier. As you may already know, identifiers—user-defined program components, e.g., name of a function, variable, or package—in Go must be preceded by an underscore or a letter (a-z or A-Z). If they aren’t, you’ll receive the compile- time error which essentially means Go cannot read the syntax of your code (you didn’t write your code correctly).]]></summary>
-        <author>
-            <name>GolangCode</name>
         </author>
     </entry>
 </feed>
