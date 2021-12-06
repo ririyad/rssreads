@@ -468,7 +468,17 @@
       "title": "GolangCode",
       "feedUrl": "https://golangcode.com/index.xml",
       "siteUrl": "https://golangcode.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://golangcode.com/underscores-in-imports/",
+          "author": null,
+          "description": "Underscores in Imports Underscores in Go serve a few purposes. In U+005F, “_” is a letter (as a string). You may also see them as [ “_” ] in between successive digits and a base prefix. In this case, it’s to improve the readability of the code. You may also see them in function names, e.g., imaginary_lit.\nThe underscore is quite a versatile tool. They even have their place in defining the kind of action that will take place in a function.",
+          "link": "https://golangcode.com/underscores-in-imports/",
+          "publishedOn": "2021-12-05T15:00:00.000Z",
+          "wordCount": 673,
+          "title": "Underscores in Imports"
+        }
+      ]
     },
     {
       "title": "Applied Go",
@@ -564,6 +574,15 @@
       "feedUrl": "https://plaintextproject.online/feed.xml",
       "siteUrl": "https://plaintextproject.online",
       "articles": [
+        {
+          "id": "https://plaintextproject.online/articles/2021/12/06/choosing.html",
+          "author": null,
+          "description": "Some advice that can help you choose the right text editor for you",
+          "link": "https://plaintextproject.online/articles/2021/12/06/choosing.html",
+          "publishedOn": "2021-12-06T19:00:00.000Z",
+          "wordCount": 970,
+          "title": "Choosing a Text Editor"
+        },
         {
           "id": "https://plaintextproject.online/articles/2021/11/25/links.html",
           "author": null,

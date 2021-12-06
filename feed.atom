@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-05T17:04:54.991Z</updated>
+    <updated>2021-12-06T00:55:42.207Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Choosing a Text Editor]]></title>
+        <id>https://plaintextproject.online/articles/2021/12/06/choosing.html</id>
+        <link href="https://plaintextproject.online/articles/2021/12/06/choosing.html"/>
+        <updated>2021-12-06T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some advice that can help you choose the right text editor for you]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Underscores in Imports]]></title>
+        <id>https://golangcode.com/underscores-in-imports/</id>
+        <link href="https://golangcode.com/underscores-in-imports/"/>
+        <updated>2021-12-05T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Underscores in Imports Underscores in Go serve a few purposes. In U+005F, “_” is a letter (as a string). You may also see them as [ “_” ] in between successive digits and a base prefix. In this case, it’s to improve the readability of the code. You may also see them in function names, e.g., imaginary_lit.
+The underscore is quite a versatile tool. They even have their place in defining the kind of action that will take place in a function.]]></summary>
+        <author>
+            <name>GolangCode</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mistakes Every Programmer Makes When Learning to Code – and How to Fix Them]]></title>
         <id>61a7b9390c0c7407b2b3f076</id>
