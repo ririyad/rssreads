@@ -87,6 +87,34 @@ The underscore is quite a versatile tool. They even have their place in defining
     <ul class="sources card">
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.rust-lang.org/">Rust Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Announcing Rust 1.57.0</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2021/12/02/Rust-1.57.0.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>The Rust team is happy to announce a new version of Rust, 1.57.0.
+Rust is a programming language empowering everyone to build reliable and efficient software.
+If you have a previous version of Rust installed via rustup, getting Rust 1.57.0 is as easy as:
+rustup update stable
+
+If you don&#x27;t have it already, you can get rustup
+from the appropriate page on our website, and check out the
+detailed release notes for 1.57.0 on GitHub.
+What&#x27;s in 1.57.0 stable
+Rust 1.57 brings panic! to const contexts, adds support for custom profiles to Cargo, and stabilizes fallible reservation APIs.
+panic! in const contexts
+With previous versions of Rust, the panic! macro was not usable in const fn and other compile-time contexts. Now, this has been stabilized. Together with the stabilization of panic!, several o…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
           <section class="articles-per-source">
             <article>
@@ -267,6 +295,29 @@ The best sh…</span>
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.rust-lang.org/inside-rust/">Inside Rust Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">1.57.0 pre-release testing</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2021/11/30/1.57.0-prerelease.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(0 min)</span>
+                    <span>The 1.57.0 pre-release is ready for testing. The release is scheduled for this
+Thursday, December 2nd. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER&#x3D;https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2021-11-30/index.html. You
+can leave feedback on the internals thread.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://martinfowler.com/feed.atom">Martin Fowler</a></h3>
           <section class="articles-per-source">
             <article>
@@ -427,6 +478,55 @@ more…</span>
   <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-11-25">2021-11-25</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.rust-lang.org/inside-rust/">Inside Rust Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">In response to the moderation team resignation</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2021/11/25/in-response-to-the-moderation-team-resignation.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>As top-level team leads, project directors to the Foundation, and core team
+members, we are actively collaborating to establish next steps after the
+statement from the Rust moderation team.
+While we are having ongoing conversations to share perspectives on the
+situation, we&#x27;d like to collectively state that we are all committed to the
+continuity and long term health of the project.
+Updates on next steps will be shared with the project and wider community over
+the next few weeks. In the meantime, we are grateful to the interim moderators
+who have stepped up to provide moderation continuity to the project.
+Signed, in alphabetical order, 
+  Aidan Hobson Sayers (Core team) 
+  Ashley Williams (Core team) 
+  Felix Klock (Compiler team co-lead) 
+  Florian Gilcher (Core team) 
+  Jan-Erik Rediger (Core team) 
+  Jane Lusby (Project Director for Collaboration) 
+  Josh Stone (Project Director for Reliability) 
+  Josh Triplett (Language team co-lead) 
+  Joshua Gould (Mod team) 
+  JT (Core team) 
+  Justin Geibel (crates.io team co-lead) 
+  Khionu Sybiern (Mod team) 
+  Manish Goregaokar (Devtools co-lead) 
+  Mara Bos (Library team lead) 
+  Mark Rousskov (Core team) 
+  Nicholas Matsakis (Language team co-lead) 
+  Pascal Hertleif (Devtools co-lead) 
+  Pietro Albini (Core team) 
+  Ryan Levick (Core team) 
+  Steve Klabnik (Core team) 
+  Tobias Bieniek (crates.io team co-lead) 
+  Tyler Mandry (Project Director for Quality) 
+  Wesley Wiser (Compiler team co-lead)</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://plaintextproject.online">The Plain Text Project</a></h3>
@@ -983,6 +1083,42 @@ That&#x27;s a work of meaning.</span>
     </ul>
   </section>
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-11-15">2021-11-15</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.rust-lang.org/inside-rust/">Inside Rust Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Please welcome The 8472 and Ashley Mannix to Library Contributors</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2021/11/15/libs-contributors-the8472-kodraus.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Please welcome The 8472 and Ashley Mannix to the
+Library Contributors group!
+The 8472 has been working on
+various
+specializations
+in the
+standard library,
+and has been involved in many library-related changes and discussions.
+Ashley Mannix maintains
+several popular Rust crates
+and used to be a part of the Library (API) Team.
+Ashley is now getting back into Rust open source work,
+and will be helping out with maintenance of the standard library
+and some official rust-lang crates such as log.
+Congratulations The 8472 and Ashley, and thanks for everything you do!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-11-10">2021-11-10</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -1088,7 +1224,7 @@ Until next time.
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-12-06T00:55:42.176Z">2021-12-06T00:55:42.176Z</time>
+    <time id="build-timestamp" datetime="2021-12-06T12:13:54.225Z">2021-12-06T12:13:54.225Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
