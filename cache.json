@@ -40,6 +40,69 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "61a43b7925888a07c3e1d115",
+          "author": null,
+          "description": "More than 18,000 people responded to the 2021 freeCodeCamp New Coder Survey. This grants us all significant insight into how thousands of people all around the world are learning to code, and why they are choosing to do so.  We’ve released the entire dataset of participants’ responses to",
+          "link": "https://www.freecodecamp.org/news/2021-new-coder-survey-18000-people-share-how-theyre-learning-to-code/",
+          "publishedOn": "2021-12-07T22:40:42.000Z",
+          "wordCount": 1843,
+          "title": "The 2021 New Coder Survey – More than 18,000 People Share How and Why They are Learning to Code"
+        },
+        {
+          "id": "61a9ff36946db661defb7472",
+          "author": null,
+          "description": "Code splitting is a way to split up your code from a large file into smaller code bundles. These can then be requested on demand or in parallel.  Now, it isn't a new concept, but it can be tricky to understand. When you're doing code splitting, it is important to",
+          "link": "https://www.freecodecamp.org/news/code-splitting-in-react-loadable-components/",
+          "publishedOn": "2021-12-07T20:41:40.000Z",
+          "wordCount": 1156,
+          "title": "Code Splitting in React – Loadable Components to the Rescue"
+        },
+        {
+          "id": "61af976e946db661defb881f",
+          "author": null,
+          "description": "Bootstrap is the most popular CSS framework. It allows web developers to quickly design and customize responsive mobile-first sites. We just published a 3-hour course on the freeCodeCamp.org YouTube channel that will teach you how to use Bootstrap 5. Dawid Adach developed this course. Dawid has been working with",
+          "link": "https://www.freecodecamp.org/news/full-bootstrap-5-tutorial-for-beginners/",
+          "publishedOn": "2021-12-07T17:47:12.000Z",
+          "wordCount": 304,
+          "title": "Full Bootstrap 5 Tutorial for Beginners"
+        },
+        {
+          "id": "61a776fd0c0c7407b2b3eeba",
+          "author": null,
+          "description": "Python is a versatile and flexible language – there is often more than one way to achieve something.  In this tutorial, you'll see some of the ways you can print a string and a variable together.  Let's get started!  How to use the print() function in Python To print anything in",
+          "link": "https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/",
+          "publishedOn": "2021-12-07T17:26:18.000Z",
+          "wordCount": 1627,
+          "title": "Python Print Variable – How to Print a String and Variable"
+        },
+        {
+          "id": "61a648220c0c7407b2b3e7e3",
+          "author": null,
+          "description": "If you've been wondering whether you should go for a technical certification or not, then this article is for you.  In it, I will share with you how I approach such dilemmas to help you decide what to pursue.  Why You Should Get Technical Certifications The main reasons to get",
+          "link": "https://www.freecodecamp.org/news/technical-certification-guide/",
+          "publishedOn": "2021-12-07T16:31:49.000Z",
+          "wordCount": 1161,
+          "title": "Technical Certification Guide – Are They Worth It, and How to Choose One"
+        },
+        {
+          "id": "61ab940f946db661defb79ca",
+          "author": null,
+          "description": "TypeScript offers us a level of \"safety\" in our code by adding static types. We can guarantee that certain properties or functions are present in our code by making them conform to types. This can hugely reduce the amount of client-side errors you might have in your website, because it",
+          "link": "https://www.freecodecamp.org/news/typescript-literal-and-collective-types/",
+          "publishedOn": "2021-12-07T15:55:33.000Z",
+          "wordCount": 541,
+          "title": "TypeScript Literal and Collective Types"
+        },
+        {
+          "id": "611b56ece884de075217ff7f",
+          "author": null,
+          "description": "Hello folks, welcome to this tutorial. Today we're going to build a production-ready Todo application with React, Next, and Supabase. Before we begin, you should be familiar with the basics of React.js and Next.js to get the most out of this guide.  If you're not and need to",
+          "link": "https://www.freecodecamp.org/news/how-to-build-a-todoapp-using-react-and-supabase/",
+          "publishedOn": "2021-12-07T15:48:26.000Z",
+          "wordCount": 7358,
+          "title": "How to Build a TodoApp using ReactJS, NextJS, and Supabase"
+        },
+        {
           "id": "61a1322f25888a07c3e1c124",
           "author": null,
           "description": "TypeScript is a transpiled language, and there is a step in the process called type erasure. So what exactly is transpiling, and what is type erasure? Higher Level vs Lower Level Programming LanguagesBefore we explain further, we have to understand higher and lower level languages. Higher level languages are more",
@@ -56,6 +119,15 @@
           "publishedOn": "2021-12-06T16:00:21.000Z",
           "wordCount": 1003,
           "title": "How to Get Rid of the Activate Windows Watermark [Windows 10 PC Activation Message Removal]"
+        },
+        {
+          "id": "61af7c5e946db661defb8589",
+          "author": null,
+          "description": "There is way more to building successful apps than just coding. In fact, coding is often the easiest part. There are many business considerations that are extremely important. We just published an 8-hour course on the freeCodeCamp.org YouTube channel that will teach you the business of building apps.  Shad",
+          "link": "https://www.freecodecamp.org/news/learn-how-to-build-apps-from-a-business-perspective/",
+          "publishedOn": "2021-12-06T15:37:00.000Z",
+          "wordCount": 827,
+          "title": "Learn How to Build Apps From a Business Perspective"
         },
         {
           "id": "61a7b9390c0c7407b2b3f076",
@@ -516,6 +588,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-time-is-right-for-hotwire-ecdb9b33",
+          "author": null,
+          "description": "It's not exactly been a big secret that I've harbored a fair skepticism towards single-page applications over the years. Not because of some innate animosity with JavaScript, at least not the modern variety, which we first tasted in the form of CoffeeScript, then as transpiled ES Next. But because writing and updating HTML like that never felt like an appropriate solution for the kind of apps I was interested in writing.\nSuch resistance to the proliferation of JavaScripting Everything turned into a minority position in years past. It seemed for a while that everyone were simultaneously obsessed with React, GraphQL, and the endless variations on the theme. This was The New Thing, and the wave of exuberance washed over all objections. For a while.\nThat might sound bitter, but I say it with a…",
+          "link": "https://world.hey.com/dhh/the-time-is-right-for-hotwire-ecdb9b33",
+          "publishedOn": "2021-12-07T14:51:02.000Z",
+          "wordCount": 678,
+          "title": "The time is right for Hotwire"
+        },
+        {
           "id": "https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863",
           "author": null,
           "description": "When we were developing this HEY World system in the beginning of the year, we ended up spending a very considerable amount of time worrying about and discussing all the ways it might be abused. This is the internet after all! Full of savage trolls! Surely we must fortify lest we be overrun?\nBut the trolls never came. Since we launched HEY World, every single one of the many thousands of posts made here have had a \"report abuse\" link at the bottom. Not once has it been used to report a posting that actually violated our use restrictions. Not. Once.\nAll that worry, all that consternation, all those arguments back and forth about policy and protocols, all for nothing.\nFurthermore, HEY World is a pretty minimalist system. By design. The individual pages contain just five links: Link to the au…",
@@ -632,6 +713,15 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/cant-buy-integration.html#UseAGeneralPurposeLanguageToManageTheInterfaceEvolution",
+          "author": null,
+          "description": "Many commercial integration tools market their ability to own the\n      integration landscape and call out to general purpose languages as needed.\n      While I can appreciate the marketing behind such messaging — it promotes\n      product penetration and lock-in — as architectural guidance, it is exactly\n      backwards. Instead, we should almost always manage the interface evolution\n      in a general purpose language for at least two reasons: so we can better\n      manage the complexity of maintaining a clean interface, and so that we\n      avoid the gravitational pull of our tool's mental model when making\n      strategic integration decisions.\nmore…",
+          "link": "https://martinfowler.com/articles/cant-buy-integration.html#UseAGeneralPurposeLanguageToManageTheInterfaceEvolution",
+          "publishedOn": "2021-12-07T14:50:00.000Z",
+          "wordCount": 5433,
+          "title": "Use a general purpose language to manage the interface evolution"
+        },
         {
           "id": "https://martinfowler.com/articles/scaling-architecture-conversationally.html#1.AThinkingAndRecordingToolDecisionRecords",
           "author": null,
