@@ -49,6 +49,42 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "61b6941b07222107a6c78e39",
+          "author": null,
+          "description": "In this tutorial, we'll talk about what React Router is and how to use it. Then we'll discuss its features and how to use them in your React app to navigate to and render multiple components.  PrerequisitesA React appA good understanding of what components are in React. Node.js installed.",
+          "link": "https://www.freecodecamp.org/news/how-to-use-react-router-version-6/",
+          "publishedOn": "2021-12-14T21:41:14.000Z",
+          "wordCount": 1335,
+          "title": "React Router Version 6 Tutorial – How to Set Up Router and Route to Other Components"
+        },
+        {
+          "id": "61b8699d07222107a6c79cf7",
+          "author": null,
+          "description": "GitHub has many special repositories, like the README in your profile. You can get creative and add all sorts of helpful information there. Another special repository is the .github repository. This might remind you of the .github directory in repositories which house workflows, issue templates, pull request templates, funding information,",
+          "link": "https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/",
+          "publishedOn": "2021-12-14T18:01:15.000Z",
+          "wordCount": 2087,
+          "title": "How to Use the .github Repository"
+        },
+        {
+          "id": "61b72c5d07222107a6c79095",
+          "author": null,
+          "description": "In this tutorial, we will learn how to create a server. We will begin without express and then strengthen the server using express. After that, we will see how to upload images to Cloudinary from the app we have created. I assume that you already understand the basics of Node.",
+          "link": "https://www.freecodecamp.org/news/build-a-secure-server-with-node-and-express/",
+          "publishedOn": "2021-12-14T16:51:14.000Z",
+          "wordCount": 2837,
+          "title": "How to Build a Secure Server with Node.js and Express and Upload Images with Cloudinary"
+        },
+        {
+          "id": "6172cfe3d48e1707b6d79bc9",
+          "author": null,
+          "description": "Every day major companies have vulnerabilities exploited in their software. It is important to learn how to protect your applications against data breaches.  In this article you all about DevSecOps and web security. There is a video course that goes along with this article. The article focuses on the definitions",
+          "link": "https://www.freecodecamp.org/news/what-is-devsecops/",
+          "publishedOn": "2021-12-14T14:08:56.000Z",
+          "wordCount": 2454,
+          "title": "Securing Your Apps - What is DevSecOps?"
+        },
+        {
           "id": "61b5815307222107a6c78cf7",
           "author": null,
           "description": "Designing a distributed system that supports millions of users is a complex task, and one that requires continuous improvement and refinement.  Recently I read a book by Alex Xu called \"System Design Interview – An Insider's Guide\". This article, inspired by the first part of the book, shares some popular techniques",
@@ -872,6 +908,15 @@
       "siteUrl": "https://plaintextproject.online",
       "articles": [
         {
+          "id": "https://plaintextproject.online/articles/2021/12/15/note-taking.html",
+          "author": null,
+          "description": "Some tips that might help you streamline your note taking using plain text",
+          "link": "https://plaintextproject.online/articles/2021/12/15/note-taking.html",
+          "publishedOn": "2021-12-15T19:00:00.000Z",
+          "wordCount": 795,
+          "title": "title"
+        },
+        {
           "id": "https://plaintextproject.online/articles/2021/12/06/choosing.html",
           "author": null,
           "description": "Some advice that can help you choose the right text editor for you",
@@ -911,6 +956,15 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/cant-buy-integration.html#TreatIntegrationAsStrategicToYourBusiness",
+          "author": null,
+          "description": "Brandon finishes his article on how we should look at\n      integration by arguing that it is a strategic element of an enterprise's\n      infrastructure. You can buy the best products in the world but \"none of it\n      will make you competitive in a digital world if you continue to treat\n      integration as a tactical nuisance to overcome so you take advantage of\n      those new systems.\"\nmore…",
+          "link": "https://martinfowler.com/articles/cant-buy-integration.html#TreatIntegrationAsStrategicToYourBusiness",
+          "publishedOn": "2021-12-14T14:27:00.000Z",
+          "wordCount": 7646,
+          "title": "Treat integration as strategic to your business"
+        },
         {
           "id": "https://martinfowler.com/articles/scaling-architecture-conversationally.html#4.ATechLandscapeAndCurrentClimateSensingTool-YourOwnTechRadar",
           "author": null,
@@ -1044,15 +1098,6 @@
           "publishedOn": "2021-11-25T00:00:00.000Z",
           "wordCount": 289,
           "title": "In response to the moderation team resignation"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2021/11/15/libs-contributors-the8472-kodraus.html",
-          "author": null,
-          "description": "Please welcome The 8472 and Ashley Mannix to the\nLibrary Contributors group!\nThe 8472 has been working on\nvarious\nspecializations\nin the\nstandard library,\nand has been involved in many library-related changes and discussions.\nAshley Mannix maintains\nseveral popular Rust crates\nand used to be a part of the Library (API) Team.\nAshley is now getting back into Rust open source work,\nand will be helping out with maintenance of the standard library\nand some official rust-lang crates such as log.\nCongratulations The 8472 and Ashley, and thanks for everything you do!",
-          "link": "https://blog.rust-lang.org/inside-rust/2021/11/15/libs-contributors-the8472-kodraus.html",
-          "publishedOn": "2021-11-15T00:00:00.000Z",
-          "wordCount": 184,
-          "title": "Please welcome The 8472 and Ashley Mannix to Library Contributors"
         }
       ]
     }
