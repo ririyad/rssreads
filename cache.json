@@ -40,6 +40,24 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "61b9cd2a07222107a6c7a467",
+          "author": null,
+          "description": "Have you ever read your horoscope in the newspaper or seen it on television? Well, I'm not sure about other countries, but in my country of India, people still read their horoscopes.  And this is where I got the idea for this tutorial. It might sound a bit old-fashioned, but",
+          "link": "https://www.freecodecamp.org/news/python-project-build-an-api-with-beautiful-soup-and-flask/",
+          "publishedOn": "2021-12-17T18:29:53.000Z",
+          "wordCount": 2449,
+          "title": "Python Project – How to Create a Horoscope API with Beautiful Soup and Flask"
+        },
+        {
+          "id": "60c08960d3126007592d56fd",
+          "author": null,
+          "description": "HTML(Hyper Text Markup Language) is one of the languages we use to create web applications. It adds structure to your web pages. HTML has various tags we use to create elements. And multiple elements come together to create meaningful web pages and applications. The anchor tag is one of",
+          "link": "https://www.freecodecamp.org/news/the-html-a-tag-anchor-tag-example-code/",
+          "publishedOn": "2021-12-17T17:47:31.000Z",
+          "wordCount": 2077,
+          "title": "The HTML &lt;a&gt; Tag – Anchor Tag Example Code"
+        },
+        {
           "id": "61b8daa807222107a6c7a204",
           "author": null,
           "description": "As remote work becomes more and more popular, more and more people and companies are using video conferencing services such as Zoom.  Turning the built-in microphone on and off is one of the most useful features of Zoom.  In this quick guide you'll learn how to mute yourself with both",
@@ -785,33 +803,6 @@
           "publishedOn": "2021-11-18T14:42:26.000Z",
           "wordCount": 313,
           "title": "Advanced Git Tools—Interactive Rebase, Cherry-Picking, Reflog, and more"
-        },
-        {
-          "id": "61971c7611d3cb08287a8d83",
-          "author": null,
-          "description": "I recently updated to MacOS Monterey (Version 12.0). Sometimes software companies like Apple will add features I don't like, then enable them by default. This is what happened with the New Quick Note hot corner. Here is what the Quick Notes feature looks like when you move your cursor",
-          "link": "https://www.freecodecamp.org/news/turn-off-quick-note-mac-monterey/",
-          "publishedOn": "2021-11-18T04:09:00.000Z",
-          "wordCount": 539,
-          "title": "How to Turn Off Quick Note on –  Solved for MacOS Monterey Quick Notes Hot Corner"
-        },
-        {
-          "id": "617a6ef033422e07df3667f4",
-          "author": null,
-          "description": "In this article, I'm going to share with you what I've learned so far at my first programming job as a junior full-stack developer.  Ever since my developer career began in July, 2021 I've been learning constantly. And I'm gonna share some tips from my experiences so that you can",
-          "link": "https://www.freecodecamp.org/news/what-ive-learned-at-my-first-developer-job/",
-          "publishedOn": "2021-11-18T00:08:02.000Z",
-          "wordCount": 1971,
-          "title": "I Got My First Developer Job – Here&#x27;s What I&#x27;ve Learned So Far"
-        },
-        {
-          "id": "618fda8c11d3cb08287a5a51",
-          "author": null,
-          "description": "One of the first steps many young startups take is setting up a static web page, perhaps with an email newsletter, to help them build an audience.  As the weeks go by and the MVP is getting further along, the subject of how to handle payments will eventually emerge. From",
-          "link": "https://www.freecodecamp.org/news/serverless-online-payments/",
-          "publishedOn": "2021-11-17T20:54:10.000Z",
-          "wordCount": 1327,
-          "title": "How to Set Up Serverless Online Payments with Netlify and Stripe"
         }
       ]
     },
@@ -848,6 +839,15 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/that-shipping-feeling-b7c8c565",
+          "author": null,
+          "description": "\"Real artists ship\" was one of Steve Jobs' mottos. You can clearly see that ethos still in present-day Apple. There are no far-future tech demos from things in the R&D lab at Apple keynotes. While their car project is the perhaps one of the worst kept secrets in company history, they aren't deliberately trying to flaunt it. Because a tech demo isn't shipping. And shipping is what counts.\nThat's a hard ethos to live by! It's so tempting to bask in the excitement of a demo showing things that (might) come later. But it's an artificial feeling. Largely empty calories. And it often comes back to bite you in the ass when reality proves more troublesome than the imagination, and fulfilling the promises become hard or impossible.\nWe've been there plenty of times at Basecamp. Despite trying to hold the line, occasionally the temptation would prove too much, and we'd make a promise, which we occasionally couldn't keep. It sucks.\nBut the flip side is that the authentic shipping feeling is one of the best in the business. Getting real improvements, real progress, into the hands of real people. It's addicting! Yes, it's a bit of a hamster wheel, as all forms of attainment ultimately are, but there are worse things to be addicted to than shipping quality goods.\nBe a real artist. Ship.",
+          "link": "https://world.hey.com/dhh/that-shipping-feeling-b7c8c565",
+          "publishedOn": "2021-12-17T16:48:43.000Z",
+          "wordCount": 262,
+          "title": "That shipping feeling"
+        },
         {
           "id": "https://world.hey.com/dhh/the-one-person-framework-711e6318",
           "author": null,
@@ -937,15 +937,6 @@
           "publishedOn": "2021-11-22T09:30:39.000Z",
           "wordCount": 635,
           "title": "Authoritarian hippie parents"
-        },
-        {
-          "id": "https://world.hey.com/dhh/it-must-be-worth-it-even-if-it-doesn-t-work-1e7f49fc",
-          "author": null,
-          "description": "The way to work without regrets is to pursue projects that'll have been worth your time even if they don't pan out. Projects that'll tickle your curiosity, flex your competency, and teach you something new regardless of where they ultimately end up. Projects that leave you better off, as a person, despite not being a commercial or critical success. If you work on projects like this, it's impossible to waste your time.\nMy personal nightmare is investing years of my life into something that ends up going nowhere, and then feeling like it was all for nothing. That's how life slips through your fingers. That's how you cross over from your 20s to your 30s and curse what you missed along the way because the bet didn't pay out.\nWhen you look for projects that'll be worth it even if they don't work, you know you'll engage the fires of intrinsic motivation. Tap into the magic of flow. Look with satisfaction at a good day's work, well before you're done.\nThat's a work of meaning.",
-          "link": "https://world.hey.com/dhh/it-must-be-worth-it-even-if-it-doesn-t-work-1e7f49fc",
-          "publishedOn": "2021-11-17T14:39:32.000Z",
-          "wordCount": 228,
-          "title": "It must be worth it even if it doesn't work"
         }
       ]
     },
@@ -1005,15 +996,6 @@
           "publishedOn": "2021-11-25T19:00:00.000Z",
           "wordCount": 95,
           "title": "Four Links - November 25, 2021"
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2021/11/17/tools.html",
-          "author": null,
-          "description": "A quick look at some plain text tools you might find interesting",
-          "link": "https://plaintextproject.online/articles/2021/11/17/tools.html",
-          "publishedOn": "2021-11-17T19:00:00.000Z",
-          "wordCount": 444,
-          "title": "Tools Roundup - November 17, 2021"
         }
       ]
     },
@@ -1162,6 +1144,15 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2021/12/17/follow-up-on-the-moderation-issue.html",
+          "author": null,
+          "description": "Last week, the following e-mail was sent to all members of the Rust project\n(including all working groups) to follow up on the moderation issue.\nThe footnotes have been added to provide additional context to the wider Rust community,\nand were not part of the original e-mail.\nFrom: Mara Bos \nTo: All members of the Rust project \nDate: Fri, 10 Dec 2021 18:12:06 UTC \nSubject: Follow-up on the moderation issue\nHey all,\nOn behalf of the top-level team leads, the new mods, the project directors to\nthe Foundation1, and the core team2, I'd like to\napologize for the delay in getting back to all of you after the resignation of\nthe moderation team3.\nOver the past few weeks, it has been nearly the full time job of many involved\nto collect all the context, understand the perspectives of those involved, …",
+          "link": "https://blog.rust-lang.org/inside-rust/2021/12/17/follow-up-on-the-moderation-issue.html",
+          "publishedOn": "2021-12-17T00:00:00.000Z",
+          "wordCount": 1272,
+          "title": "Follow-up on the moderation issue"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2021/11/30/1.57.0-prerelease.html",
           "author": null,
