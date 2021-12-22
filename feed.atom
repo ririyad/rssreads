@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-22T00:57:33.947Z</updated>
+    <updated>2021-12-22T16:59:59.839Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How to Extend Your Login Flow With Auth0 Actions]]></title>
+        <id>61b5033707222107a6c78b01</id>
+        <link href="https://www.freecodecamp.org/news/intro-to-auth0-actions/"/>
+        <updated>2021-12-22T15:46:00.000Z</updated>
+        <summary type="html"><![CDATA[I recently attended a training session with the Auth0 Dev Rel team to learn about a cool new feature called Auth0 Actions.  In this article, I am going to explain what Auth0 Actions are, why you'd want to use them, and how to set one up. What are Auth0 Actions?]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A system to encrypt data in bulk for Rails]]></title>
+        <id>https://world.hey.com/jorge/a-system-to-encrypt-data-in-bulk-for-rails-e339e213</id>
+        <link href="https://world.hey.com/jorge/a-system-to-encrypt-data-in-bulk-for-rails-e339e213"/>
+        <updated>2021-12-22T13:02:51.000Z</updated>
+        <summary type="html"><![CDATA[We just released mass_encryption, a library to encrypt large sets of data using Active Record Encryption. If you have been following along, Rails 7 was recently released and, among many goodies, it supports at-work encryption with Active Record. This new gem answers a problem many apps will face: perform the initial encryption in existing applications.
+
+
+Active Record Encryption was an extraction from HEY, and so is this library. We created the first version to encrypt the data entered during the private beta stage, and we eventually extracted it to a private gem that we used to re-encrypt data in HEY several times.
+
+
+At some point this year, we decided to encrypt sensitive persona data in Basecamp too. There was an objective reason: contents like chats, messages, comments, or todos are sensitive enough to raise the bar. And a subjective one: once you get used to working with encrypted personal data, not doing it feels off.
+
+
+Now, encrypting data at the scale of Basecamp represented a challenge on its own. We had to encrypt 2 billion records and revamp the version we used for HEY to support this load. We added the "track encryption mode" as part of these improvements, and we used upsert_all, which we extended, to perform updates in bulk.
+
+
+So after Active Record encryption, console1984 and audits1984, mass_encryption was the last past of the puzzle, and I'm thrilled it's open-source now.
+
+
+Finally, on a personal note, kudos to Basecamp for the big bet on all this technology and for releasing it so now everyone can use it in their apps. No customer was demanding this (try to explain at-work encryption to a non tech-savvy person), and there was no legal or operational need either. The motivation since the first moment was doing the right thing, which makes seeing how everything has crystalized even more special.
+ 
+---
+jorgemanrubia.com
+Photo by Oxa Roxa on Unsplash]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Email is the antidote]]></title>
         <id>https://world.hey.com/dhh/email-is-the-antidote-d9d53c10</id>
@@ -468,6 +507,16 @@ Communities prior to the advent of coinage didn’t seek to set…]]></summary>
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clojure Sublimed Logo]]></title>
+        <id>https://tonsky.me/design/#clojure-sublimed</id>
+        <link href="https://tonsky.me/design/#clojure-sublimed"/>
+        <updated>2021-12-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Clojure Sublimed is a Clojure development environment for Sublime Text.]]></summary>
+        <author>
+            <name>tonsky.me</name>
         </author>
     </entry>
     <entry>
@@ -1116,6 +1165,19 @@ can leave feedback on the internals thread.]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Don't block yourself: a remote-worker super-power]]></title>
+        <id>https://world.hey.com/jorge/don-t-block-yourself-a-remote-worker-super-power-7322c679</id>
+        <link href="https://world.hey.com/jorge/don-t-block-yourself-a-remote-worker-super-power-7322c679"/>
+        <updated>2021-11-28T14:55:46.000Z</updated>
+        <summary type="html"><![CDATA[When working remotely, this is a great habit: make decisions and communicate them, but try to avoid getting blocked waiting on others.
+Imagine this typical example: you are not sure about how to do something. Your first idea might be to jump into a chat and ask someone for help. I won’t say I never ever do this, but it’s not a great approach: you interrupt that person and block yourself until they answer. 
+A better idea is asking asynchronously in whatever system you use (e.g.: Basecamp todos or GitHub issues). Now, you might still be blocked until the other person responds, but at least they can do it on their terms and schedule. That’s an improvement.
+And here is an even better one: try to come up with a proposal on how to proceed in that asynchronous message and ask other people to vali…]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Four Links - November 25, 2021]]></title>
         <id>https://plaintextproject.online/articles/2021/11/25/links.html</id>
         <link href="https://plaintextproject.online/articles/2021/11/25/links.html"/>
@@ -1315,86 +1377,6 @@ Signed, in alphabetical order,
         <link href="https://www.freecodecamp.org/news/how-to-create-customizable-table-of-contents-in-microsoft-word/"/>
         <updated>2021-11-23T15:34:00.000Z</updated>
         <summary type="html"><![CDATA[It's tricky to make a good-looking and functional table of contents in Microsoft Word. You might often encounter documents that have messy tables of contents along with navigation panes with links to missing headings, non harmonized styles, and badly structured sections.  This wouldn't be a big problem for smaller documents,]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 WordPress Plugins to Improve Your Website&#x27;s Performance]]></title>
-        <id>6195174b11d3cb08287a7b96</id>
-        <link href="https://www.freecodecamp.org/news/wordpress-plugins-to-improve-your-website-performance/"/>
-        <updated>2021-11-23T02:09:07.000Z</updated>
-        <summary type="html"><![CDATA[In this blog post, I will show you which free WordPress plugins you should use and how to configure them to significantly improve your WordPress website's performance.  Web performance is an essential SEO factor, and you shouldn’t underestimate it. Each second your website takes to load can hurt your]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Manage Directory-Scoped Variables with direnv in POSIX Systems]]></title>
-        <id>619909b111d3cb08287a9bd9</id>
-        <link href="https://www.freecodecamp.org/news/how-to-manage-directory-scoped-envs-with-direnv-in-posix-systems/"/>
-        <updated>2021-11-22T21:39:20.000Z</updated>
-        <summary type="html"><![CDATA[A common practice in software projects is to keep certain information separated but accessible from the codebase which uses it. Developers usually do this with secrets such as passwords or private keys, or with user or context-specific info pieces.  But managing environment variables can be a pain. There are a]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Design Thinking Process Explained]]></title>
-        <id>613f3cad852f4307d372c7dc</id>
-        <link href="https://www.freecodecamp.org/news/the-design-thinking-process-explained/"/>
-        <updated>2021-11-22T21:27:40.000Z</updated>
-        <summary type="html"><![CDATA[The Design Thinking Process is a way to come up with creative, user centric solutions to complex problems. But how does it work exactly? In this article, I will explain what the Design Thinking Process is and break down the five phases behind it. We will explore how this process]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ReactJS Project – Build a Rick and Morty Character Wiki]]></title>
-        <id>619b998511d3cb08287aa257</id>
-        <link href="https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/"/>
-        <updated>2021-11-22T19:13:34.000Z</updated>
-        <summary type="html"><![CDATA[Today we're gonna practice our React JS skills by building a Rick and Morty Character Wiki.  Here's what we'll build today:    Here's a [live demo of the project] 👇  https://react-projects-psi.vercel.app/.  And here's the GitHub Repository.  The topics we'll cover while building this project are:  React Hooks (useState, useEffect)]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scanning and Repairing Drive – How to Fix Stuck Windows 10 PC Hard Drive]]></title>
-        <id>619bb03e11d3cb08287aa4c8</id>
-        <link href="https://www.freecodecamp.org/news/scanning-and-repairing-drive-how-to-fix-stuck-windows-10-pc-hard-drive/"/>
-        <updated>2021-11-22T17:10:42.000Z</updated>
-        <summary type="html"><![CDATA[If you have a Windows 10 PC, you might occasionally see the notorious "scanning and repairing drive" message. This error can happen to the C drive, hard drive, and any other external drive.  This scanning and repairing can take several hours, or even cost you a whole workday]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Let&#x27;s Talk Design – How to Speak to a Designer as a Developer]]></title>
-        <id>619ba98511d3cb08287aa3a8</id>
-        <link href="https://www.freecodecamp.org/news/how-to-speak-to-a-designer-as-a-developer-tech-talk/"/>
-        <updated>2021-11-22T17:07:06.000Z</updated>
-        <summary type="html"><![CDATA[In this conference talk, Magdalena Ostoja-Chyżyńska will not talk about the differences between developers and designers.  Instead of focusing on the differences between the roles and how that might cause friction, she will approach the subject with a problem-solving attitude, and expand on how to make the relationship work. And]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SQL LIKE Statement – How to Query SQL with Wildcard]]></title>
-        <id>612cc005b5177808226d4a57</id>
-        <link href="https://www.freecodecamp.org/news/sql-like-statement-how-to-query-sql-with-wildcard/"/>
-        <updated>2021-11-22T15:01:50.000Z</updated>
-        <summary type="html"><![CDATA[You can use the % and _ wildcards with the SQL LIKE statement to compare values from an SQL table. But how does that work exactly?  In this article, I will show you how to use the SQL LIKE statement through code examples.  Basic syntax of SQL LIKE statementHere is the basic]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Python Reverse List – How to Reverse a Range or Array]]></title>
-        <id>619694ef11d3cb08287a88ce</id>
-        <link href="https://www.freecodecamp.org/news/python-reverse-list-how-to-reverse-a-range-or-array/"/>
-        <updated>2021-11-22T14:54:14.000Z</updated>
-        <summary type="html"><![CDATA[In this tutorial, you'll learn some of the different ways you can reverse lists and list ranges in Python. And we'll look at some coding examples along the way.  Let's get started!  How to create a range in Python An efficient way to create a list of a range of]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
         </author>

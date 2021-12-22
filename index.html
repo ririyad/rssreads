@@ -16,6 +16,64 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-22">2021-12-22</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/jorge">Jorge Manrubia</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A system to encrypt data in bulk for Rails</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/jorge/a-system-to-encrypt-data-in-bulk-for-rails-e339e213">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>We just released mass_encryption, a library to encrypt large sets of data using Active Record Encryption. If you have been following along, Rails 7 was recently released and, among many goodies, it supports at-work encryption with Active Record. This new gem answers a problem many apps will face: perform the initial encryption in existing applications.
+
+
+Active Record Encryption was an extraction from HEY, and so is this library. We created the first version to encrypt the data entered during the private beta stage, and we eventually extracted it to a private gem that we used to re-encrypt data in HEY several times.
+
+
+At some point this year, we decided to encrypt sensitive persona data in Basecamp too. There was an objective reason: contents like chats, messages, comments, or todos are sensitive enough to raise the bar. And a subjective one: once you get used to working with encrypted personal data, not doing it feels off.
+
+
+Now, encrypting data at the scale of Basecamp represented a challenge on its own. We had to encrypt 2 billion records and revamp the version we used for HEY to support this load. We added the &quot;track encryption mode&quot; as part of these improvements, and we used upsert_all, which we extended, to perform updates in bulk.
+
+
+So after Active Record encryption, console1984 and audits1984, mass_encryption was the last past of the puzzle, and I&#x27;m thrilled it&#x27;s open-source now.
+
+
+Finally, on a personal note, kudos to Basecamp for the big bet on all this technology and for releasing it so now everyone can use it in their apps. No customer was demanding this (try to explain at-work encryption to a non tech-savvy person), and there was no legal or operational need either. The motivation since the first moment was doing the right thing, which makes seeing how everything has crystalized even more special.
+ 
+---
+jorgemanrubia.com
+Photo by Oxa Roxa on Unsplash</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">How to Extend Your Login Flow With Auth0 Actions</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/intro-to-auth0-actions/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>I recently attended a training session with the Auth0 Dev Rel team to learn about a cool new feature called Auth0 Actions.  In this article, I am going to explain what Auth0 Actions are, why you&#x27;d want to use them, and how to set one up. What are Auth0 Actions?</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-12-21">2021-12-21</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -524,6 +582,17 @@ more…</span>
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://tonsky.me/">tonsky.me</a></h3>
           <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Clojure Sublimed Logo</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://tonsky.me/design/#clojure-sublimed">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Clojure Sublimed is a Clojure development environment for Sublime Text.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
             <article>
               <details class="article-expander">
                 <summary class="article-expander__title">Sublime ❤︎ Clojure</summary>
@@ -1576,6 +1645,31 @@ more…</span>
     </ul>
   </section>
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-11-28">2021-11-28</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/jorge">Jorge Manrubia</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Don&#x27;t block yourself: a remote-worker super-power</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/jorge/don-t-block-yourself-a-remote-worker-super-power-7322c679">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>When working remotely, this is a great habit: make decisions and communicate them, but try to avoid getting blocked waiting on others.
+Imagine this typical example: you are not sure about how to do something. Your first idea might be to jump into a chat and ask someone for help. I won’t say I never ever do this, but it’s not a great approach: you interrupt that person and block yourself until they answer. 
+A better idea is asking asynchronously in whatever system you use (e.g.: Basecamp todos or GitHub issues). Now, you might still be blocked until the other person responds, but at least they can do it on their terms and schedule. That’s an improvement.
+And here is an even better one: try to come up with a proposal on how to proceed in that asynchronous message and ask other people to vali…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-11-25">2021-11-25</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -1843,112 +1937,13 @@ When you don&#x27;t have a diploma from a prestigious institution telling you an
                 </a>
               </details>
             </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">5 WordPress Plugins to Improve Your Website&#x27;s Performance</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/wordpress-plugins-to-improve-your-website-performance/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>In this blog post, I will show you which free WordPress plugins you should use and how to configure them to significantly improve your WordPress website&#x27;s performance.  Web performance is an essential SEO factor, and you shouldn’t underestimate it. Each second your website takes to load can hurt your</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-11-22">2021-11-22</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Manage Directory-Scoped Variables with direnv in POSIX Systems</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-manage-directory-scoped-envs-with-direnv-in-posix-systems/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>A common practice in software projects is to keep certain information separated but accessible from the codebase which uses it. Developers usually do this with secrets such as passwords or private keys, or with user or context-specific info pieces.  But managing environment variables can be a pain. There are a</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Design Thinking Process Explained</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/the-design-thinking-process-explained/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>The Design Thinking Process is a way to come up with creative, user centric solutions to complex problems. But how does it work exactly? In this article, I will explain what the Design Thinking Process is and break down the five phases behind it. We will explore how this process</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">ReactJS Project – Build a Rick and Morty Character Wiki</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/react-js-project-build-a-rick-and-morty-character-wiki/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>Today we&#x27;re gonna practice our React JS skills by building a Rick and Morty Character Wiki.  Here&#x27;s what we&#x27;ll build today:    Here&#x27;s a [live demo of the project] 👇  https://react-projects-psi.vercel.app/.  And here&#x27;s the GitHub Repository.  The topics we&#x27;ll cover while building this project are:  React Hooks (useState, useEffect)</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Scanning and Repairing Drive – How to Fix Stuck Windows 10 PC Hard Drive</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/scanning-and-repairing-drive-how-to-fix-stuck-windows-10-pc-hard-drive/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>If you have a Windows 10 PC, you might occasionally see the notorious &quot;scanning and repairing drive&quot; message. This error can happen to the C drive, hard drive, and any other external drive.  This scanning and repairing can take several hours, or even cost you a whole workday</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Let&#x27;s Talk Design – How to Speak to a Designer as a Developer</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-speak-to-a-designer-as-a-developer-tech-talk/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>In this conference talk, Magdalena Ostoja-Chyżyńska will not talk about the differences between developers and designers.  Instead of focusing on the differences between the roles and how that might cause friction, she will approach the subject with a problem-solving attitude, and expand on how to make the relationship work. And</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SQL LIKE Statement – How to Query SQL with Wildcard</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/sql-like-statement-how-to-query-sql-with-wildcard/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>You can use the % and _ wildcards with the SQL LIKE statement to compare values from an SQL table. But how does that work exactly?  In this article, I will show you how to use the SQL LIKE statement through code examples.  Basic syntax of SQL LIKE statementHere is the basic</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Python Reverse List – How to Reverse a Range or Array</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/python-reverse-list-how-to-reverse-a-range-or-array/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>In this tutorial, you&#x27;ll learn some of the different ways you can reverse lists and list ranges in Python. And we&#x27;ll look at some coding examples along the way.  Let&#x27;s get started!  How to create a range in Python An efficient way to create a list of a range of</span>
-                  </div>
-                </a>
-              </details>
-            </article>
         </section>
       </li>
     </ul>
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2021-12-22T00:57:33.917Z">2021-12-22T00:57:33.917Z</time>
+    <time id="build-timestamp" datetime="2021-12-22T16:59:59.811Z">2021-12-22T16:59:59.811Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
