@@ -31,15 +31,6 @@
           "publishedOn": "2021-11-30T00:00:00.000Z",
           "wordCount": 397,
           "title": "EQL Logo"
-        },
-        {
-          "id": "https://tonsky.me/design/#clj-commons",
-          "author": null,
-          "description": "clj-commons is a community-led project to build up the supporting infrastructure around Clojure. Idea: Erik Assum.",
-          "link": "https://tonsky.me/design/#clj-commons",
-          "publishedOn": "2021-11-24T00:00:00.000Z",
-          "wordCount": 382,
-          "title": "clj-commons Logo"
         }
       ]
     },
@@ -48,6 +39,51 @@
       "feedUrl": "https://www.freecodecamp.org/news/rss/",
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
+        {
+          "id": "61c3b72d755c160824909987",
+          "author": null,
+          "description": "Last Thursday, a vulnerability was disclosed in the Log4J logging library affecting many Java applications worldwide.  The vulnerability is called Log4Shell (CVE-2021–44228). It allows an attacker to inject a crafted payload anywhere in the requests that get parsed and executed by the vulnerable application. There are a lot of",
+          "link": "https://www.freecodecamp.org/news/java-log4jshell-vulnerability/",
+          "publishedOn": "2021-12-23T21:01:00.000Z",
+          "wordCount": 1376,
+          "title": "Java Log4JShell Vulnerability – What I Learned About it This Week"
+        },
+        {
+          "id": "61c49108755c160824909f76",
+          "author": null,
+          "description": "First: what you probably came here for. Here's the full soundtrack to Learn to Code RPG. 36 minutes of jazz. If you dig it, subscribe to my new music channel and leave a comment with feedback or your favorite track. I am currently uploading this to Spotify. How I Made",
+          "link": "https://www.freecodecamp.org/news/learn-to-code-rpg-soundtrack/",
+          "publishedOn": "2021-12-23T18:53:07.000Z",
+          "wordCount": 840,
+          "title": "Learn to Code RPG – Full Soundtrack + How I Made It"
+        },
+        {
+          "id": "61c1fc40755c160824908ad5",
+          "author": null,
+          "description": "Since SVG images can be inlined in HTML, we can manipulate them with JavaScript. This means that we can animate parts of an image from code, make it interactive, or turn things around and generate graphics from data. In this example, we are going to create a watch. We will",
+          "link": "https://www.freecodecamp.org/news/svg-javascript-tutorial/",
+          "publishedOn": "2021-12-23T17:19:15.000Z",
+          "wordCount": 2390,
+          "title": "SVG + JavaScript Tutorial – How to Code an Animated Watch"
+        },
+        {
+          "id": "61c3059b755c1608249092e9",
+          "author": null,
+          "description": "Gone are the days when Linux and Windows were like two opposing forces. Microsoft has embraced the open-source community quite cordially in recent years, and as a result we have things like Windows Subsystem for Linux baked right into our Windows installations. That doesn't mean that we no longer need",
+          "link": "https://www.freecodecamp.org/news/how-to-dual-boot-any-linux-distribution-with-windows/",
+          "publishedOn": "2021-12-23T16:32:46.000Z",
+          "wordCount": 3744,
+          "title": "How to Dual Boot Any Linux Distribution With Windows – and Get Rid of It When You Need To"
+        },
+        {
+          "id": "61bd9cd6297c7107e8ad892a",
+          "author": null,
+          "description": "Binary trees are one of the most complicated data structures out there. And one of the reasons they're so difficult is that it's hard to actually visualize them in a simple way. In this tutorial, I'll show you how to create your own BinaryTreeViewer which will allow you to watch",
+          "link": "https://www.freecodecamp.org/news/binarytreeviewer-with-c-c-css-html-by-gilad-bar-ilan/",
+          "publishedOn": "2021-12-23T01:12:43.000Z",
+          "wordCount": 2104,
+          "title": "How to Create a BinaryTreeViewer using C#, CSS, &amp; HTML (Code &amp; Algorithm Walkthrough)"
+        },
         {
           "id": "5fc5badb49c47664ed827efe",
           "author": null,
@@ -749,51 +785,6 @@
           "publishedOn": "2021-11-24T15:02:26.000Z",
           "wordCount": 484,
           "title": "Learn Ember – Ember.js Tips for Beginners Tutorial"
-        },
-        {
-          "id": "6197c7ce11d3cb08287a9271",
-          "author": null,
-          "description": "I’m an AI researcher, and I’ve received quite a few emails asking me just how much math is required in Artificial Intelligence. I won’t lie: it’s a lot of math. And this is one of the reasons AI puts off many beginners. After much research and",
-          "link": "https://www.freecodecamp.org/news/all-the-math-you-need-in-artificial-intelligence/",
-          "publishedOn": "2021-11-24T00:12:40.000Z",
-          "wordCount": 1041,
-          "title": "All the Math You Need to Know in Artificial Intelligence"
-        },
-        {
-          "id": "619bb55911d3cb08287aa581",
-          "author": null,
-          "description": "In this talk, CTO Cornelia Davis will teach you what GitOps is and what its four main principles are.  What is GitOps?The first thing you need to know is that GitOps is a set of modern best practises for deploying and managing cloud native infrastructure and applications.  And it",
-          "link": "https://www.freecodecamp.org/news/gitops-principles-kubernetes-workflow/",
-          "publishedOn": "2021-11-23T22:50:29.000Z",
-          "wordCount": 617,
-          "title": "What is GitOps? Principles, Best Practices, and Kubernetes Workflow"
-        },
-        {
-          "id": "619cb4e711d3cb08287ab00c",
-          "author": null,
-          "description": "What if you plug in your headphones to listen to your favorite music, watch a movie, or do something else and your computer fails to recognize the headphones? That's frustrating.  Your computer not recognizing your headphones is a fairly common issue in Windows 10 PCs.  It could be caused by",
-          "link": "https://www.freecodecamp.org/news/computer-not-recognizing-headphones-windows-10-pc-headphone-tutorial/",
-          "publishedOn": "2021-11-23T15:47:53.000Z",
-          "wordCount": 716,
-          "title": "Computer Not Recognizing Headphones – Windows 10 PC Headphone Tutorial"
-        },
-        {
-          "id": "6197bcba11d3cb08287a90cc",
-          "author": null,
-          "description": "I’m an AI researcher, so one of the main things I deal with is data. A lot of it.  With more than 2.5 exabytes of data generated every day, it comes as no surprise that this data needs to be stored somewhere where we can access it when",
-          "link": "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
-          "publishedOn": "2021-11-23T15:36:59.000Z",
-          "wordCount": 4992,
-          "title": "SQL Commands Cheat Sheet – How to Learn SQL in 10 Minutes"
-        },
-        {
-          "id": "6198c2d511d3cb08287a97e2",
-          "author": null,
-          "description": "It's tricky to make a good-looking and functional table of contents in Microsoft Word. You might often encounter documents that have messy tables of contents along with navigation panes with links to missing headings, non harmonized styles, and badly structured sections.  This wouldn't be a big problem for smaller documents,",
-          "link": "https://www.freecodecamp.org/news/how-to-create-customizable-table-of-contents-in-microsoft-word/",
-          "publishedOn": "2021-11-23T15:34:00.000Z",
-          "wordCount": 1608,
-          "title": "How to Create a Customizable Table of Contents in Word"
         }
       ]
     },
@@ -1116,6 +1107,15 @@
       "feedUrl": "https://fabiensanglard.net/rss.xml",
       "siteUrl": "https://fabiensanglard.net",
       "articles": [
+        {
+          "id": "http://fabiensanglard.net/sf2_warrier/index.html",
+          "author": null,
+          "description": "",
+          "link": "http://fabiensanglard.net/sf2_warrier/index.html",
+          "publishedOn": "2021-12-23T00:00:00.000Z",
+          "wordCount": 743,
+          "title": "Street Fighter 2: The World Warrier"
+        },
         {
           "id": "http://fabiensanglard.net/sf2_sheets/index.html",
           "author": null,
