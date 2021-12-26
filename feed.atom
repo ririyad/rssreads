@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2021-12-25T00:54:48.060Z</updated>
+    <updated>2021-12-26T00:59:29.806Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application]]></title>
+        <id>61c4e1e6755c16082490a3fe</id>
+        <link href="https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/"/>
+        <updated>2021-12-25T21:32:22.000Z</updated>
+        <summary type="html"><![CDATA[A Three-tier web applications has a presentation layer, an application layer, and a database layer.  This familiar pattern is fertile ground for learning new technologies like the AWS Cloud Development Kit (CDK).  In this tutorial, we will create a simple note-taking application using a DynamoDB table, HTTP API endpoints, Lambda]]></summary>
+        <author>
+            <name>freeCodeCamp.org</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Street Fighter 2: Subtile accurate animation]]></title>
+        <id>http://fabiensanglard.net/sf2_health_bar/index.html</id>
+        <link href="http://fabiensanglard.net/sf2_health_bar/index.html"/>
+        <updated>2021-12-24T00:00:00.000Z</updated>
+        <author>
+            <name>fabiensanglard.net</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Street Fighter 2: Spin when you can't]]></title>
+        <id>http://fabiensanglard.net/sf2_spin/index.html</id>
+        <link href="http://fabiensanglard.net/sf2_spin/index.html"/>
+        <updated>2021-12-24T00:00:00.000Z</updated>
+        <author>
+            <name>fabiensanglard.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Java Log4JShell Vulnerability – What I Learned About it This Week]]></title>
         <id>61c3b72d755c160824909987</id>
@@ -1294,16 +1322,6 @@ A better idea is asking asynchronously in whatever system you use (e.g.: Basecam
 And here is an even better one: try to come up with a proposal on how to proceed in that asynchronous message and ask other people to vali…]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four Links - November 25, 2021]]></title>
-        <id>https://plaintextproject.online/articles/2021/11/25/links.html</id>
-        <link href="https://plaintextproject.online/articles/2021/11/25/links.html"/>
-        <updated>2021-11-25T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A set of four links to plain text resources for the end of November, 2021]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
         </author>
     </entry>
 </feed>

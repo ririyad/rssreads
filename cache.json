@@ -40,6 +40,15 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "61c4e1e6755c16082490a3fe",
+          "author": null,
+          "description": "A Three-tier web applications has a presentation layer, an application layer, and a database layer.  This familiar pattern is fertile ground for learning new technologies like the AWS Cloud Development Kit (CDK).  In this tutorial, we will create a simple note-taking application using a DynamoDB table, HTTP API endpoints, Lambda",
+          "link": "https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/",
+          "publishedOn": "2021-12-25T21:32:22.000Z",
+          "wordCount": 4026,
+          "title": "AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application"
+        },
+        {
           "id": "61c3b72d755c160824909987",
           "author": null,
           "description": "Last Thursday, a vulnerability was disclosed in the Log4J logging library affecting many Java applications worldwide.  The vulnerability is called Log4Shell (CVE-2021–44228). It allows an attacker to inject a crafted payload anywhere in the requests that get parsed and executed by the vulnerable application. There are a lot of",
@@ -906,15 +915,6 @@
           "publishedOn": "2021-12-06T19:00:00.000Z",
           "wordCount": 970,
           "title": "Choosing a Text Editor"
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2021/11/25/links.html",
-          "author": null,
-          "description": "A set of four links to plain text resources for the end of November, 2021",
-          "link": "https://plaintextproject.online/articles/2021/11/25/links.html",
-          "publishedOn": "2021-11-25T19:00:00.000Z",
-          "wordCount": 95,
-          "title": "Four Links - November 25, 2021"
         }
       ]
     },
@@ -1026,6 +1026,24 @@
       "feedUrl": "https://fabiensanglard.net/rss.xml",
       "siteUrl": "https://fabiensanglard.net",
       "articles": [
+        {
+          "id": "http://fabiensanglard.net/sf2_health_bar/index.html",
+          "author": null,
+          "description": "",
+          "link": "http://fabiensanglard.net/sf2_health_bar/index.html",
+          "publishedOn": "2021-12-24T00:00:00.000Z",
+          "wordCount": null,
+          "title": "Street Fighter 2: Subtile accurate animation"
+        },
+        {
+          "id": "http://fabiensanglard.net/sf2_spin/index.html",
+          "author": null,
+          "description": "",
+          "link": "http://fabiensanglard.net/sf2_spin/index.html",
+          "publishedOn": "2021-12-24T00:00:00.000Z",
+          "wordCount": 641,
+          "title": "Street Fighter 2: Spin when you can't"
+        },
         {
           "id": "http://fabiensanglard.net/sf2_warrier/index.html",
           "author": null,
