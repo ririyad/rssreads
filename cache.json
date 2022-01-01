@@ -31,6 +31,15 @@
       "siteUrl": "https://www.freecodecamp.org/news",
       "articles": [
         {
+          "id": "61cb5f2f755c16082490be2f",
+          "author": null,
+          "description": "2021 has been a big year for the freeCodeCamp community: We provided more than 2.1 billion minutes of learning to millions of people around the world.We published our 300-hour Relational Database Certification teaching SQL, Linux, and Git interactively – right inside VS Code.We shipped a project-oriented learning overhaul",
+          "link": "https://www.freecodecamp.org/news/free-accredited-bachelors-degrees-in-computer-science-how-do-we-get-there/",
+          "publishedOn": "2021-12-31T16:26:19.000Z",
+          "wordCount": 1555,
+          "title": "A Free Accredited Bachelor&#x27;s Degree in Computer Science – How Do We Get There?"
+        },
+        {
           "id": "61cdc903a700150888933394",
           "author": null,
           "description": "Every year, millions of people create New Year's Resolutions. A vast majority of these will fail. But I've created one for you that I'm optimistic you can succeed with. This is all free and you'll learn a ton. There will be a lot of other people doing this challenge alongside",
@@ -784,24 +793,6 @@
           "publishedOn": "2021-12-07T14:51:02.000Z",
           "wordCount": 678,
           "title": "The time is right for Hotwire"
-        },
-        {
-          "id": "https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863",
-          "author": null,
-          "description": "When we were developing this HEY World system in the beginning of the year, we ended up spending a very considerable amount of time worrying about and discussing all the ways it might be abused. This is the internet after all! Full of savage trolls! Surely we must fortify lest we be overrun?\nBut the trolls never came. Since we launched HEY World, every single one of the many thousands of posts made here have had a \"report abuse\" link at the bottom. Not once has it been used to report a posting that actually violated our use restrictions. Not. Once.\nAll that worry, all that consternation, all those arguments back and forth about policy and protocols, all for nothing.\nFurthermore, HEY World is a pretty minimalist system. By design. The individual pages contain just five links: Link to the au…",
-          "link": "https://world.hey.com/dhh/worrying-yourself-into-excess-37e06863",
-          "publishedOn": "2021-12-02T11:50:16.000Z",
-          "wordCount": 520,
-          "title": "Worrying yourself into excess"
-        },
-        {
-          "id": "https://world.hey.com/dhh/books-that-bust-bubbles-35c46be2",
-          "author": null,
-          "description": "It's a disorientating time in America. So many societal seams are unraveling simultaneously. So few ideas for how to stitch those seams back together find common cause. No wonder despair and anger comes so easy to so many right now.\nThese dark emotions are then propelled by the particle accelerator that is Twitter into super-charged takes. All that energy has definitively nuked any previous utopian hope that \"connecting the world\" would lead to peace, love, and understanding.\nThat, ironically, is perhaps the one thing everyone does seem to agree on at the moment: social media is making everything political worse. But of course such a conclusion is only shared until the question of who to blame emerges or what to do about it is brought up, and then it's back to the tribal drums.\nThe best sh…",
-          "link": "https://world.hey.com/dhh/books-that-bust-bubbles-35c46be2",
-          "publishedOn": "2021-12-01T18:11:42.000Z",
-          "wordCount": 2701,
-          "title": "Books that bust bubbles"
         }
       ]
     },
@@ -939,6 +930,15 @@
           "title": "Use commercial integration tools to simplify implementation concerns"
         },
         {
+          "id": "https://martinfowler.com/articles/scaling-architecture-conversationally.html",
+          "author": null,
+          "description": "Andrew uses the Architecture Advisory Forum as a regular and recurring place and\n      time for conversations. It's a weekly, hour-long, open invite meeting used\n      to gather advice and share information across a broad group.\nmore…",
+          "link": "https://martinfowler.com/articles/scaling-architecture-conversationally.html",
+          "publishedOn": "2021-12-08T15:07:00.000Z",
+          "wordCount": 7377,
+          "title": "A time and place for conversations: The Architecture Advisory                Forum"
+        },
+        {
           "id": "https://martinfowler.com/articles/cant-buy-integration.html#UseAGeneralPurposeLanguageToManageTheInterfaceEvolution",
           "author": null,
           "description": "Many commercial integration tools market their ability to own the\n      integration landscape and call out to general purpose languages as needed.\n      While I can appreciate the marketing behind such messaging — it promotes\n      product penetration and lock-in — as architectural guidance, it is exactly\n      backwards. Instead, we should almost always manage the interface evolution\n      in a general purpose language for at least two reasons: so we can better\n      manage the complexity of maintaining a clean interface, and so that we\n      avoid the gravitational pull of our tool's mental model when making\n      strategic integration decisions.\nmore…",
@@ -946,24 +946,6 @@
           "publishedOn": "2021-12-07T14:50:00.000Z",
           "wordCount": 5433,
           "title": "Use a general purpose language to manage the interface evolution"
-        },
-        {
-          "id": "https://martinfowler.com/articles/scaling-architecture-conversationally.html#1.AThinkingAndRecordingToolDecisionRecords",
-          "author": null,
-          "description": "The Advice Process works when supported by four elements. Andrew\n      describes the first of these, Decision Records, which act as a tool for\n      thinking about and recording the decision process.\nmore…",
-          "link": "https://martinfowler.com/articles/scaling-architecture-conversationally.html#1.AThinkingAndRecordingToolDecisionRecords",
-          "publishedOn": "2021-12-01T15:59:00.000Z",
-          "wordCount": 2788,
-          "title": "A thinking and recording tool: Decision Records"
-        },
-        {
-          "id": "https://martinfowler.com/articles/cant-buy-integration.html#PutMostOfYourEnergyIntoBuildingCleanInterfaces",
-          "author": null,
-          "description": "While we have historically drawn up our project plans and costs around\n      the boxes—the digital products we are introducing—the lines are the\n      hidden and often primary driver of organizational tech debt. They are the\n      reason that things just take longer now than they used to. \nmore…",
-          "link": "https://martinfowler.com/articles/cant-buy-integration.html#PutMostOfYourEnergyIntoBuildingCleanInterfaces",
-          "publishedOn": "2021-12-01T15:50:00.000Z",
-          "wordCount": 2961,
-          "title": "Put most of your energy into building clean interfaces"
         }
       ]
     },
@@ -1029,15 +1011,6 @@
           "publishedOn": "2021-12-08T00:00:00.000Z",
           "wordCount": 310,
           "title": "Launching the 2021 State of Rust Survey"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2021/12/02/Rust-1.57.0.html",
-          "author": null,
-          "description": "The Rust team is happy to announce a new version of Rust, 1.57.0.\nRust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.57.0 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.57.0 on GitHub.\nWhat's in 1.57.0 stable\nRust 1.57 brings panic! to const contexts, adds support for custom profiles to Cargo, and stabilizes fallible reservation APIs.\npanic! in const contexts\nWith previous versions of Rust, the panic! macro was not usable in const fn and other compile-time contexts. Now, this has been stabilized. Together with the stabilization of panic!, several o…",
-          "link": "https://blog.rust-lang.org/2021/12/02/Rust-1.57.0.html",
-          "publishedOn": "2021-12-02T00:00:00.000Z",
-          "wordCount": 608,
-          "title": "Announcing Rust 1.57.0"
         }
       ]
     },
