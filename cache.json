@@ -26,607 +26,6 @@
       ]
     },
     {
-      "title": "freeCodeCamp.org",
-      "feedUrl": "https://www.freecodecamp.org/news/rss/",
-      "siteUrl": "https://www.freecodecamp.org/news",
-      "articles": [
-        {
-          "id": "61cb5f2f755c16082490be2f",
-          "author": null,
-          "description": "2021 has been a big year for the freeCodeCamp community: We provided more than 2.1 billion minutes of learning to millions of people around the world.We published our 300-hour Relational Database Certification teaching SQL, Linux, and Git interactively – right inside VS Code.We shipped a project-oriented learning overhaul",
-          "link": "https://www.freecodecamp.org/news/free-accredited-bachelors-degrees-in-computer-science-how-do-we-get-there/",
-          "publishedOn": "2021-12-31T16:26:19.000Z",
-          "wordCount": 1555,
-          "title": "A Free Accredited Bachelor&#x27;s Degree in Computer Science – How Do We Get There?"
-        },
-        {
-          "id": "61cdc903a700150888933394",
-          "author": null,
-          "description": "Every year, millions of people create New Year's Resolutions. A vast majority of these will fail. But I've created one for you that I'm optimistic you can succeed with. This is all free and you'll learn a ton. There will be a lot of other people doing this challenge alongside",
-          "link": "https://www.freecodecamp.org/news/2022-become-a-dev-new-years-resolution-challenge/",
-          "publishedOn": "2021-12-30T15:54:07.000Z",
-          "wordCount": 1013,
-          "title": "Take the 2022 Become-a-Dev New Year&#x27;s Resolution Challenge"
-        },
-        {
-          "id": "61cdb310a70015088893319b",
-          "author": null,
-          "description": "2021 was a big year for the freeCodeCamp community: We provided more than 2.1 billion minutes of learning to millions of people around the world.We published our 300-hour Relational Database Certification teaching SQL, Linux, and Git interactively – right inside VS Code.We shipped a project-oriented learning overhaul to",
-          "link": "https://www.freecodecamp.org/news/2021-top-contributors/",
-          "publishedOn": "2021-12-30T14:56:08.000Z",
-          "wordCount": 1562,
-          "title": "The Top freeCodeCamp Contributors of 2021"
-        },
-        {
-          "id": "61c9fcdc755c16082490bbcb",
-          "author": null,
-          "description": "We just published a significant overhaul of our Responsive Web Design Certification (the first of freeCodeCamp's 10 currently-live certifications). We also updated our code editor. Instead of coding lessons, you'll learn concepts and syntax through a series of 15 practice projects + 5 certification projects. Here is the full certification, which",
-          "link": "https://www.freecodecamp.org/news/responsive-web-design-certification-redesigned/",
-          "publishedOn": "2021-12-27T22:16:19.000Z",
-          "wordCount": 1378,
-          "title": "Learn Responsive Web Design by Building 20 Projects – a Major freeCodeCamp Curriculum Update"
-        },
-        {
-          "id": "61c71ca4755c16082490adbc",
-          "author": null,
-          "description": "Julia is a high-level, dynamic programming language, designed to give users the speed of C/C++ while remaining as easy to use as Python. This means that developers can solve problems faster and more effectively. Julia is great for computational complex problems. Many early adopters of Julia were concentrated in",
-          "link": "https://www.freecodecamp.org/news/learn-julia-programming-language/",
-          "publishedOn": "2021-12-27T17:13:56.000Z",
-          "wordCount": 3344,
-          "title": "Learn Julia For Beginners – The Future Programming Language of  Data Science and Machine Learning Explained"
-        },
-        {
-          "id": "61c4e1e6755c16082490a3fe",
-          "author": null,
-          "description": "A Three-tier web applications has a presentation layer, an application layer, and a database layer.  This familiar pattern is fertile ground for learning new technologies like the AWS Cloud Development Kit (CDK).  In this tutorial, we will create a simple note-taking application using a DynamoDB table, HTTP API endpoints, Lambda",
-          "link": "https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/",
-          "publishedOn": "2021-12-25T21:32:22.000Z",
-          "wordCount": 4026,
-          "title": "AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application"
-        },
-        {
-          "id": "61c3b72d755c160824909987",
-          "author": null,
-          "description": "Last Thursday, a vulnerability was disclosed in the Log4J logging library affecting many Java applications worldwide.  The vulnerability is called Log4Shell (CVE-2021–44228). It allows an attacker to inject a crafted payload anywhere in the requests that get parsed and executed by the vulnerable application. There are a lot of",
-          "link": "https://www.freecodecamp.org/news/java-log4jshell-vulnerability/",
-          "publishedOn": "2021-12-23T21:01:00.000Z",
-          "wordCount": 1376,
-          "title": "Java Log4JShell Vulnerability – What I Learned About it This Week"
-        },
-        {
-          "id": "61c49108755c160824909f76",
-          "author": null,
-          "description": "First: what you probably came here for. Here's the full soundtrack to Learn to Code RPG. 36 minutes of jazz. If you dig it, subscribe to my new music channel and leave a comment with feedback or your favorite track. I am currently uploading this to Spotify. How I Made",
-          "link": "https://www.freecodecamp.org/news/learn-to-code-rpg-soundtrack/",
-          "publishedOn": "2021-12-23T18:53:07.000Z",
-          "wordCount": 840,
-          "title": "Learn to Code RPG – Full Soundtrack + How I Made It"
-        },
-        {
-          "id": "61c1fc40755c160824908ad5",
-          "author": null,
-          "description": "Since SVG images can be inlined in HTML, we can manipulate them with JavaScript. This means that we can animate parts of an image from code, make it interactive, or turn things around and generate graphics from data. In this example, we are going to create a watch. We will",
-          "link": "https://www.freecodecamp.org/news/svg-javascript-tutorial/",
-          "publishedOn": "2021-12-23T17:19:15.000Z",
-          "wordCount": 2390,
-          "title": "SVG + JavaScript Tutorial – How to Code an Animated Watch"
-        },
-        {
-          "id": "61c3059b755c1608249092e9",
-          "author": null,
-          "description": "Gone are the days when Linux and Windows were like two opposing forces. Microsoft has embraced the open-source community quite cordially in recent years, and as a result we have things like Windows Subsystem for Linux baked right into our Windows installations. That doesn't mean that we no longer need",
-          "link": "https://www.freecodecamp.org/news/how-to-dual-boot-any-linux-distribution-with-windows/",
-          "publishedOn": "2021-12-23T16:32:46.000Z",
-          "wordCount": 3744,
-          "title": "How to Dual Boot Any Linux Distribution With Windows – and Get Rid of It When You Need To"
-        },
-        {
-          "id": "61bd9cd6297c7107e8ad892a",
-          "author": null,
-          "description": "Binary trees are one of the most complicated data structures out there. And one of the reasons they're so difficult is that it's hard to actually visualize them in a simple way. In this tutorial, I'll show you how to create your own BinaryTreeViewer which will allow you to watch",
-          "link": "https://www.freecodecamp.org/news/binarytreeviewer-with-c-c-css-html-by-gilad-bar-ilan/",
-          "publishedOn": "2021-12-23T01:12:43.000Z",
-          "wordCount": 2104,
-          "title": "How to Create a BinaryTreeViewer using C#, CSS, &amp; HTML (Code &amp; Algorithm Walkthrough)"
-        },
-        {
-          "id": "5fc5badb49c47664ed827efe",
-          "author": null,
-          "description": "An eternity ago in the year of 2012, a few Stanford professors decided to make their courses freely available online.  The media christened these courses \"MOOCs\" – Massive Open Online Courses. And they hailed 2012 as \"Year of the MOOC.\" Now, a decade later, the MOOC ecosystem has reached 220M learners",
-          "link": "https://www.freecodecamp.org/news/most-popular-free-online-courses/",
-          "publishedOn": "2021-12-22T22:44:00.000Z",
-          "wordCount": 4695,
-          "title": "The Top 100 Free University Courses of the Year (Ranked by Popularity)"
-        },
-        {
-          "id": "61706bd9d48e1707b6d7923e",
-          "author": null,
-          "description": "If you work with WordPress, then you know just how important a good stack of plugins is. They were designed to improve everything from media handling, and basic features to security and more.  You can have as many as you like, in theory, but don't go overboard. A good rule",
-          "link": "https://www.freecodecamp.org/news/best-wordpress-plugins/",
-          "publishedOn": "2021-12-22T20:19:42.000Z",
-          "wordCount": 2766,
-          "title": "Best WordPress Plugins – 15 Tools to Boost Your Productivity"
-        },
-        {
-          "id": "61bcf6e3297c7107e8ad8595",
-          "author": null,
-          "description": "Learn to Code RPG is an interactive visual novel game where you will teach yourself to code, make friends in the tech industry, and pursue your dream of becoming a developer.",
-          "link": "https://www.freecodecamp.org/news/learn-to-code-rpg/",
-          "publishedOn": "2021-12-22T17:23:00.000Z",
-          "wordCount": 1958,
-          "title": "Learn to Code RPG – A Visual Novel Video Game Where you Learn Computer Science Concepts"
-        },
-        {
-          "id": "61bd5001297c7107e8ad85a9",
-          "author": null,
-          "description": "This is the press kit for the game, Learn to Code RPG.",
-          "link": "https://www.freecodecamp.org/news/learn-to-code-rpg-press-kit/",
-          "publishedOn": "2021-12-22T17:22:50.000Z",
-          "wordCount": 394,
-          "title": "Learn to Code RPG – Press Kit"
-        },
-        {
-          "id": "61b5033707222107a6c78b01",
-          "author": null,
-          "description": "I recently attended a training session with the Auth0 Dev Rel team to learn about a cool new feature called Auth0 Actions.  In this article, I am going to explain what Auth0 Actions are, why you'd want to use them, and how to set one up. What are Auth0 Actions?",
-          "link": "https://www.freecodecamp.org/news/intro-to-auth0-actions/",
-          "publishedOn": "2021-12-22T15:46:00.000Z",
-          "wordCount": 1425,
-          "title": "How to Extend Your Login Flow With Auth0 Actions"
-        },
-        {
-          "id": "61c1702f755c160824908877",
-          "author": null,
-          "description": "If you have an e-commerce application, a payment gateway lets you process payments on your website on the fly.  With all the modern payment gateway solutions available these days, there are many ways you can integrate payments and charge your users for your product or services.  In this tutorial, we",
-          "link": "https://www.freecodecamp.org/news/integrate-a-payment-gateway-in-next-js-and-react-with-razorpay-and-tailwindcss/",
-          "publishedOn": "2021-12-21T18:16:10.000Z",
-          "wordCount": 3034,
-          "title": "How to Set Up a Payment Gateway in Next.js and React with Razorpay and TailwindCSS"
-        },
-        {
-          "id": "61c13344755c1608249086b5",
-          "author": null,
-          "description": "Since ECMAScript 6 (or ES6 for short), you can descructure objects in JavaScript. As a JavaScript developer, you’ll likely destructure objects as part of your daily work.  Let's learn about why we use destructuring, and then we'll learn how to destructure JavaScript objects. Why destructure an object?Let's go",
-          "link": "https://www.freecodecamp.org/news/how-to-destructure-objects-javascript/",
-          "publishedOn": "2021-12-21T16:47:41.000Z",
-          "wordCount": 678,
-          "title": "How to Destructure Objects in JavaScript"
-        },
-        {
-          "id": "61bc5001297c7107e8ad7f94",
-          "author": null,
-          "description": "You've probably seen a \"back-to-top\" button at the bottom-right corner on many websites when you're scrolling around. Clicking on that button takes you back to the top of the page.  This is a great feature to have on any website, and today we are going to see how to build",
-          "link": "https://www.freecodecamp.org/news/back-to-top-button-and-page-progressbar-with-html-css-and-js/",
-          "publishedOn": "2021-12-21T16:39:02.000Z",
-          "wordCount": 1882,
-          "title": "How to Make a Back to Top Button and Page Progress Bar with HTML, CSS, and JavaScript"
-        },
-        {
-          "id": "61bfadd5aabf6478ea7460fc",
-          "author": null,
-          "description": "When you work in IT operations, automation is a key part of your job.  You'll have various repetitive tasks you have to deal with, and you don’t want to waste your time doing something that can be done by a script.  Here are some great reasons to automate repetitive",
-          "link": "https://www.freecodecamp.org/news/how-to-automate-tasks-with-azure-webjobs/",
-          "publishedOn": "2021-12-21T16:33:48.000Z",
-          "wordCount": 1158,
-          "title": "How to Automate Tasks with Azure Webjobs"
-        },
-        {
-          "id": "61c1ec91755c160824908a2e",
-          "author": null,
-          "description": "A Customer Relationship Management (CRM) is a system that helps businesses organize and manage their customer relationships. It is basically a big database for customer information. Since every business is a little different, it can be helpful to create your own CRM to meet your exact needs. We just published",
-          "link": "https://www.freecodecamp.org/news/build-a-crm/",
-          "publishedOn": "2021-12-21T15:11:44.000Z",
-          "wordCount": 375,
-          "title": "How to Build a Custom CRM"
-        },
-        {
-          "id": "61b9e89107222107a6c7a4bc",
-          "author": null,
-          "description": "JavaScript is a programming language that's used for a variety of purposes, including web development, web apps, game development, and more. JavaScript also lets you add dynamic features to web sites that you can't just achieve with HTML and CSS. Importance of JavaScriptJavaScript is the most important language you need",
-          "link": "https://www.freecodecamp.org/news/23-free-websites-to-learn-javascript/",
-          "publishedOn": "2021-12-20T20:25:00.000Z",
-          "wordCount": 1675,
-          "title": "23 Free Websites to Learn JavaScript in 2022"
-        },
-        {
-          "id": "61bf7907297c7107e8ad9091",
-          "author": null,
-          "description": "Transferring files between machines is a very common operational task that you'll do all the time as a developer.  Linux provides a number of utilities to transfer files. In this tutorial we will discuss FTP and SCP. Many automated scripts also deploy FTP or SCP to move files. What is",
-          "link": "https://www.freecodecamp.org/news/how-to-transfer-files-between-servers-in-linux-using-scp-and-ftp/",
-          "publishedOn": "2021-12-20T16:02:29.000Z",
-          "wordCount": 1029,
-          "title": "How to Transfer Files Between Servers in Linux using SCP and FTP"
-        },
-        {
-          "id": "61ba394407222107a6c7a7f3",
-          "author": null,
-          "description": "The impact of networks and technology continues to increase. Understanding technology makes it easier to function in an information-centric world. We just published a massive course about Internet history and technology on the freeCodeCamp.org YouTube channel. In this course you will learn how the Internet was created, who created",
-          "link": "https://www.freecodecamp.org/news/learn-the-history-of-the-internet-in-dr-chucks/",
-          "publishedOn": "2021-12-20T14:10:44.000Z",
-          "wordCount": 590,
-          "title": "Learn the History of the Internet in Dr. Chuck&#x27;s 9-Hour Course"
-        },
-        {
-          "id": "61b9cd2a07222107a6c7a467",
-          "author": null,
-          "description": "Have you ever read your horoscope in the newspaper or seen it on television? Well, I'm not sure about other countries, but in my country of India, people still read their horoscopes.  And this is where I got the idea for this tutorial. It might sound a bit old-fashioned, but",
-          "link": "https://www.freecodecamp.org/news/python-project-build-an-api-with-beautiful-soup-and-flask/",
-          "publishedOn": "2021-12-17T18:29:53.000Z",
-          "wordCount": 2449,
-          "title": "Python Project – How to Create a Horoscope API with Beautiful Soup and Flask"
-        },
-        {
-          "id": "60c08960d3126007592d56fd",
-          "author": null,
-          "description": "HTML(Hyper Text Markup Language) is one of the languages we use to create web applications. It adds structure to your web pages. HTML has various tags we use to create elements. And multiple elements come together to create meaningful web pages and applications. The anchor tag is one of",
-          "link": "https://www.freecodecamp.org/news/the-html-a-tag-anchor-tag-example-code/",
-          "publishedOn": "2021-12-17T17:47:31.000Z",
-          "wordCount": 2077,
-          "title": "The HTML &lt;a&gt; Tag – Anchor Tag Example Code"
-        },
-        {
-          "id": "61b8daa807222107a6c7a204",
-          "author": null,
-          "description": "As remote work becomes more and more popular, more and more people and companies are using video conferencing services such as Zoom.  Turning the built-in microphone on and off is one of the most useful features of Zoom.  In this quick guide you'll learn how to mute yourself with both",
-          "link": "https://www.freecodecamp.org/news/how-to-mute-and-unmute-on-zoom-keyboard-shortcut/",
-          "publishedOn": "2021-12-16T18:50:11.000Z",
-          "wordCount": 552,
-          "title": "How to Mute on Zoom – Mute Yourself with a Keyboard Shortcut or a Press of a Button"
-        },
-        {
-          "id": "61bb54db07222107a6c7acd9",
-          "author": null,
-          "description": "Asking for help on a forum is a great way to learn and grow as a developer. But it is important that you know how to ask good questions so people can effectively help you.  In this article, I will walk you through how to ask good questions on a",
-          "link": "https://www.freecodecamp.org/news/how-to-ask-a-question-on-a-forum/",
-          "publishedOn": "2021-12-16T17:39:57.000Z",
-          "wordCount": 700,
-          "title": "How to Ask a Question on a Forum"
-        },
-        {
-          "id": "61bb4ce307222107a6c7ac86",
-          "author": null,
-          "description": "I've been using Windows Subsystem for Linux (WSL) for my OS class for quite a while now. And I love how I can use Linux commands in Windows in a straightforward way without the added complexity of installing a virtual machine or dual booting.  By the end of this article,",
-          "link": "https://www.freecodecamp.org/news/how-to-run-linux-apps-on-windows-10-11-using-wsl/",
-          "publishedOn": "2021-12-16T17:33:23.000Z",
-          "wordCount": 844,
-          "title": "How to Run Linux Apps on Windows 10 and 11 Using WSL"
-        },
-        {
-          "id": "61bb192507222107a6c7aa8e",
-          "author": null,
-          "description": "Windows 10 has an incredible Graphics User Interface (GUI) that will often be enough for you to get things done.  But if your inner Oliver Twist wants more, then you should start learning about the Command Line.  With the command prompt, you get access to features that are not available",
-          "link": "https://www.freecodecamp.org/news/windows-10-command-line-tricks/",
-          "publishedOn": "2021-12-16T16:37:46.000Z",
-          "wordCount": 1596,
-          "title": "14 Windows 10 Command Line Tricks that Give You More Control Over Your PC"
-        },
-        {
-          "id": "61ae2a2e946db661defb7dda",
-          "author": null,
-          "description": "As a frontend developer, it's your job to make sure that the user interface of a software program functions properly.  It's a difficult job because you have to make sure that every component works the way it's supposed to so that users have a good experience. Frontend development is in",
-          "link": "https://www.freecodecamp.org/news/top-skills-for-new-frontend-developers/",
-          "publishedOn": "2021-12-15T16:56:37.000Z",
-          "wordCount": 1551,
-          "title": "Top Skills All New Frontend Developers Should Have"
-        },
-        {
-          "id": "61b6846607222107a6c78d81",
-          "author": null,
-          "description": "JavaScript modules (also known as ES modules or ECMAScript modules) were created to help make JavaScript code more organized and maintainable. Understanding how ES modules work will help you become a better JavaScript developer. In this article, we'll cover: What is a module?What are ES modules? Why do we",
-          "link": "https://www.freecodecamp.org/news/javascript-modules-beginners-guide/",
-          "publishedOn": "2021-12-15T16:47:38.000Z",
-          "wordCount": 1838,
-          "title": "JavaScript Modules – A Beginner&#x27;s Guide"
-        },
-        {
-          "id": "61ba06ac07222107a6c7a6f4",
-          "author": null,
-          "description": "A linked list is a common data structure used in software development. It is also a frequent topic in technical coding interviews. We just published a course on the freeCodeCamp.org YouTube channel that will teach you all about linked lists and prepare you to use them in coding interviews",
-          "link": "https://www.freecodecamp.org/news/linked-lists-in-technical-interviews/",
-          "publishedOn": "2021-12-15T15:22:28.000Z",
-          "wordCount": 366,
-          "title": "Linked Lists in Technical Interviews"
-        },
-        {
-          "id": "61b6941b07222107a6c78e39",
-          "author": null,
-          "description": "In this tutorial, we'll talk about what React Router is and how to use it. Then we'll discuss its features and how to use them in your React app to navigate to and render multiple components.  PrerequisitesA React appA good understanding of what components are in React. Node.js installed.",
-          "link": "https://www.freecodecamp.org/news/how-to-use-react-router-version-6/",
-          "publishedOn": "2021-12-14T21:41:14.000Z",
-          "wordCount": 1335,
-          "title": "React Router Version 6 Tutorial – How to Set Up Router and Route to Other Components"
-        },
-        {
-          "id": "61b8699d07222107a6c79cf7",
-          "author": null,
-          "description": "GitHub has many special repositories, like the README in your profile. You can get creative and add all sorts of helpful information there. Another special repository is the .github repository. This might remind you of the .github directory in repositories which house workflows, issue templates, pull request templates, funding information,",
-          "link": "https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/",
-          "publishedOn": "2021-12-14T18:01:15.000Z",
-          "wordCount": 2087,
-          "title": "How to Use the .github Repository"
-        },
-        {
-          "id": "61b72c5d07222107a6c79095",
-          "author": null,
-          "description": "In this tutorial, we will learn how to create a server. We will begin without express and then strengthen the server using express. After that, we will see how to upload images to Cloudinary from the app we have created. I assume that you already understand the basics of Node.",
-          "link": "https://www.freecodecamp.org/news/build-a-secure-server-with-node-and-express/",
-          "publishedOn": "2021-12-14T16:51:14.000Z",
-          "wordCount": 2837,
-          "title": "How to Build a Secure Server with Node.js and Express and Upload Images with Cloudinary"
-        },
-        {
-          "id": "6172cfe3d48e1707b6d79bc9",
-          "author": null,
-          "description": "Every day major companies have vulnerabilities exploited in their software. It is important to learn how to protect your applications against data breaches.  In this article you all about DevSecOps and web security. There is a video course that goes along with this article. The article focuses on the definitions",
-          "link": "https://www.freecodecamp.org/news/what-is-devsecops/",
-          "publishedOn": "2021-12-14T14:08:56.000Z",
-          "wordCount": 2454,
-          "title": "Securing Your Apps - What is DevSecOps?"
-        },
-        {
-          "id": "61b5815307222107a6c78cf7",
-          "author": null,
-          "description": "Designing a distributed system that supports millions of users is a complex task, and one that requires continuous improvement and refinement.  Recently I read a book by Alex Xu called \"System Design Interview – An Insider's Guide\". This article, inspired by the first part of the book, shares some popular techniques",
-          "link": "https://www.freecodecamp.org/news/how-to-scale-a-distributed-system/",
-          "publishedOn": "2021-12-13T23:37:24.000Z",
-          "wordCount": 1964,
-          "title": "How to Scale a Distributed System"
-        },
-        {
-          "id": "61b3865f07222107a6c7822e",
-          "author": null,
-          "description": "An API, or Application Programming Interface, is a server that lets you retrieve and send data using code. We mostly commonly use APIs to retrieve data, and that will be the focus of this beginner-friendly tutorial. When we want to receive data from an API, we need to make a",
-          "link": "https://www.freecodecamp.org/news/how-to-interact-with-web-services-using-python/",
-          "publishedOn": "2021-12-13T23:03:42.000Z",
-          "wordCount": 3247,
-          "title": "Python Requests – How to Interact with Web Services using Python"
-        },
-        {
-          "id": "61aca6a8946db661defb7a86",
-          "author": null,
-          "description": "In this blog post I'll walk you through a real life example which uses the concept of classes in Javascript.  I think it's helpful to work with a practical use case because it is much simpler to understand the concepts when you can relate them to real life.  So in",
-          "link": "https://www.freecodecamp.org/news/javascript-classes-how-they-work-with-use-case/",
-          "publishedOn": "2021-12-13T19:24:50.000Z",
-          "wordCount": 3609,
-          "title": "JavaScript Classes – How They Work with Use Case Example"
-        },
-        {
-          "id": "61783e5e33422e07df364ce7",
-          "author": null,
-          "description": "People often ask me: Should I present myself as a solo freelancer or as an agency?In this article I will explore this idea with you and hopefully leave you with a clearer sense of direction. TL;DR: You can do both. The Benefits of Solo vs Agency FreelancingWhether you",
-          "link": "https://www.freecodecamp.org/news/solo-freelancing-vs-agency/",
-          "publishedOn": "2021-12-13T17:18:18.000Z",
-          "wordCount": 1291,
-          "title": "Solo Freelancing vs Agency – What&#x27;s The Difference?"
-        },
-        {
-          "id": "61b760fc07222107a6c79303",
-          "author": null,
-          "description": "Screencasting is a cool feature that was built into the Windows 10 Anniversary update in 2019.  It's also called Wireless Display. It lets you project your phone display to a Windows 10 computer – which can help you out in a lot of ways, especially if you’re a YouTuber.  Getting",
-          "link": "https://www.freecodecamp.org/news/share-screen-on-android-how-to-cast-my-screen-with-a-windows-10-pc/",
-          "publishedOn": "2021-12-13T17:09:33.000Z",
-          "wordCount": 775,
-          "title": "Share Screen on Android – How to Cast my Screen with a Windows 10 PC"
-        },
-        {
-          "id": "61b20893946db661defb946a",
-          "author": null,
-          "description": "Python is a great programming language to learn and you can use it in a variety of areas in software development.  You can use Python for web development, data analysis, machine learning, artificial intelligence, and more. In this article, I will list out 15 free Python courses for beginners.  Learn",
-          "link": "https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/",
-          "publishedOn": "2021-12-13T16:57:33.000Z",
-          "wordCount": 1005,
-          "title": "Learn Python – Free Python Courses for Beginners"
-        },
-        {
-          "id": "61b76db107222107a6c79384",
-          "author": null,
-          "description": "Full stack web development includes the backend that happens on a server and the frontend that happens on a web browser. New tools are making it easier than ever to create a full stack web app. We just published a full stack web development course on the freeCodeCamp.org YouTube",
-          "link": "https://www.freecodecamp.org/news/become-a-full-stack-developer-with-svelte/",
-          "publishedOn": "2021-12-13T16:23:09.000Z",
-          "wordCount": 409,
-          "title": "Become a Full Stack Developer with Svelte, Postgres, Vercel, and Gitpod"
-        },
-        {
-          "id": "6170b9fdd48e1707b6d79422",
-          "author": null,
-          "description": "Building an app is a difficult task in itself. From conceptualization, to market research, design, and development, it takes a whole lot of resources. But if you are making something for the public, you know building it is only half of the work, right? If you want your app to",
-          "link": "https://www.freecodecamp.org/news/how-to-market-your-mobile-app-on-a-budget/",
-          "publishedOn": "2021-12-10T21:36:23.000Z",
-          "wordCount": 1543,
-          "title": "How to Market Your Mobile App On a Budget"
-        },
-        {
-          "id": "61b2b70f946db661defb9a67",
-          "author": null,
-          "description": "In this article, we'll learn to build a Graphical User Interface (GUI) Quiz Application using the Tkinter Python built-in module.  The task is to ask multiple-choice questions, collect user answers, and finally display the results.  Before coding the GUI, we'll first see how to fetch multiple-choice questions, their correct answers,",
-          "link": "https://www.freecodecamp.org/news/how-to-create-a-gui-quiz-application-using-tkinter-and-open-trivia-db/",
-          "publishedOn": "2021-12-10T21:29:54.000Z",
-          "wordCount": 3049,
-          "title": "How to Build a GUI Quiz App Using Tkinter and Open Trivia DB"
-        },
-        {
-          "id": "6165c56780d82d07c45a372a",
-          "author": null,
-          "description": "Have you ever needed an icon for your website, but you couldn't quite find the right one? Or perhaps you wanted to have a simple diagram, but didn't want to learn a whole new library just for that?  Well, good news – you can do all that and more without ever",
-          "link": "https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images/",
-          "publishedOn": "2021-12-10T19:13:16.000Z",
-          "wordCount": 2547,
-          "title": "SVG Tutorial – How to Code Images with 7 Examples"
-        },
-        {
-          "id": "61b07e0b946db661defb8929",
-          "author": null,
-          "description": "How to print out information is one of the first things you learn as a beginner programmer.  This article goes over what you need to know about printing in Python, and we'll look at plenty of code examples along the way.  Let's get started!  What is print used for? Printing",
-          "link": "https://www.freecodecamp.org/news/print-statement-in-python-how-to-print-with-example-syntax-command/",
-          "publishedOn": "2021-12-10T17:45:08.000Z",
-          "wordCount": 1757,
-          "title": "Print Statement in Python – How to Print with Example Syntax Command"
-        },
-        {
-          "id": "61b20925946db661defb946e",
-          "author": null,
-          "description": "JavaScript is a popular programming language used for building web applications, among many other things.  In this article, I will provide a list of free online resources where you can start learning JavaScript. After you have learned the basics then you can start building beginner friendly projects.  JavaScript Algorithms and",
-          "link": "https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/",
-          "publishedOn": "2021-12-09T17:41:53.000Z",
-          "wordCount": 811,
-          "title": "Learn JavaScript – Free JS Courses for Beginners"
-        },
-        {
-          "id": "61b081ab946db661defb8933",
-          "author": null,
-          "description": "Do you remember J.A.R.V.I.S., Tony Stark's virtual personal assistant? If you've seen any of the Ironman or Avengers movies, I'm sure you do. Have you ever wondered whether you could create your own personal assistant? Yes? Tony Stark can help us with that!  Oops, did",
-          "link": "https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/",
-          "publishedOn": "2021-12-09T17:19:31.000Z",
-          "wordCount": 4195,
-          "title": "Python Project – How to Build Tony Stark&#x27;s JARVIS with Python"
-        },
-        {
-          "id": "61b1c763946db661defb9324",
-          "author": null,
-          "description": "In Python, a dictionary is a collection you use to store data in {key:value} pairs. It is ordered and mutable, and it cannot store duplicate data.  We write a dictionary using curly brackets like this: my_dict = {     \"id\": 1,     \"name\": \"Ashutosh\",     \"books\": [\"Python\", \"DSA\"] } Sometimes, we need to merge",
-          "link": "https://www.freecodecamp.org/news/merge-dictionaries-in-python/",
-          "publishedOn": "2021-12-09T17:16:36.000Z",
-          "wordCount": 951,
-          "title": "How to Merge Dictionaries in Python"
-        },
-        {
-          "id": "61a5fd310c0c7407b2b3e650",
-          "author": null,
-          "description": "Dark mode is starting to become a requirement rather that a nice-to-have feature like it was back in the day. It gives users the option to choose a theme that's comfortable for them, whether they're working during the day or at night. If you haven't already heard, Tailwind CSS is",
-          "link": "https://www.freecodecamp.org/news/how-to-build-a-dark-mode-switcher-with-tailwind-css-and-flowbite/",
-          "publishedOn": "2021-12-09T16:11:44.000Z",
-          "wordCount": 2296,
-          "title": "How to Build a Dark Mode Switcher With Tailwind CSS and Flowbite"
-        },
-        {
-          "id": "61b1393b946db661defb8dcd",
-          "author": null,
-          "description": "SQL (Structured Query Language) is a popular programming language used for relational databases. And there are many good free resources you can use to start learning it. In this article, I will list out 8 free online beginner-friendly resources to learn SQL, PostgreSQL, and MySQL. Free SQL CoursesRelational Database Curriculum",
-          "link": "https://www.freecodecamp.org/news/learn-sql-free-relational-database-courses-for-beginners/",
-          "publishedOn": "2021-12-09T16:00:57.000Z",
-          "wordCount": 925,
-          "title": "Learn SQL – Free Relational Database Courses for Beginners"
-        },
-        {
-          "id": "61b20f09946db661defb94da",
-          "author": null,
-          "description": "More than half of people worldwide access the internet using mobile devices instead of desktop computers. And if you only have a mobile device, you can still learn to code! We just published a tutorial on the freeCodeCamp.org YouTube channel that will teach you how to code on an",
-          "link": "https://www.freecodecamp.org/news/can-you-code-on-a-phone/",
-          "publishedOn": "2021-12-09T14:18:07.000Z",
-          "wordCount": 7669,
-          "title": "Can you code on a phone?"
-        },
-        {
-          "id": "61b0ab56946db661defb8a16",
-          "author": null,
-          "description": "There are a number of reasons why you might want to reset your PC. From malware attacks to bad PC health, or maybe you just want to start afresh – the list goes on.  When you're resetting your PC, you might get the error \"There was a problem resetting your",
-          "link": "https://www.freecodecamp.org/news/there-was-a-problem-with-resetting-your-pc-reset-pc-fixed-on-windows-10/",
-          "publishedOn": "2021-12-08T17:20:41.000Z",
-          "wordCount": 1063,
-          "title": "There Was a Problem with Resetting Your PC [Reset PC Fixed on Windows 10]"
-        },
-        {
-          "id": "61a43b7925888a07c3e1d115",
-          "author": null,
-          "description": "More than 18,000 people responded to the 2021 freeCodeCamp New Coder Survey. This grants us all significant insight into how thousands of people all around the world are learning to code, and why they are choosing to do so.  We’ve released the entire dataset of participants’ responses to",
-          "link": "https://www.freecodecamp.org/news/2021-new-coder-survey-18000-people-share-how-theyre-learning-to-code/",
-          "publishedOn": "2021-12-07T22:40:42.000Z",
-          "wordCount": 1843,
-          "title": "The 2021 New Coder Survey – More than 18,000 People Share How and Why They are Learning to Code"
-        },
-        {
-          "id": "61a9ff36946db661defb7472",
-          "author": null,
-          "description": "Code splitting is a way to split up your code from a large file into smaller code bundles. These can then be requested on demand or in parallel.  Now, it isn't a new concept, but it can be tricky to understand. When you're doing code splitting, it is important to",
-          "link": "https://www.freecodecamp.org/news/code-splitting-in-react-loadable-components/",
-          "publishedOn": "2021-12-07T20:41:40.000Z",
-          "wordCount": 1156,
-          "title": "Code Splitting in React – Loadable Components to the Rescue"
-        },
-        {
-          "id": "61af976e946db661defb881f",
-          "author": null,
-          "description": "Bootstrap is the most popular CSS framework. It allows web developers to quickly design and customize responsive mobile-first sites. We just published a 3-hour course on the freeCodeCamp.org YouTube channel that will teach you how to use Bootstrap 5. Dawid Adach developed this course. Dawid has been working with",
-          "link": "https://www.freecodecamp.org/news/full-bootstrap-5-tutorial-for-beginners/",
-          "publishedOn": "2021-12-07T17:47:12.000Z",
-          "wordCount": 304,
-          "title": "Full Bootstrap 5 Tutorial for Beginners"
-        },
-        {
-          "id": "61a776fd0c0c7407b2b3eeba",
-          "author": null,
-          "description": "Python is a versatile and flexible language – there is often more than one way to achieve something.  In this tutorial, you'll see some of the ways you can print a string and a variable together.  Let's get started!  How to use the print() function in Python To print anything in",
-          "link": "https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/",
-          "publishedOn": "2021-12-07T17:26:18.000Z",
-          "wordCount": 1627,
-          "title": "Python Print Variable – How to Print a String and Variable"
-        },
-        {
-          "id": "61a648220c0c7407b2b3e7e3",
-          "author": null,
-          "description": "If you've been wondering whether you should go for a technical certification or not, then this article is for you.  In it, I will share with you how I approach such dilemmas to help you decide what to pursue.  Why You Should Get Technical Certifications The main reasons to get",
-          "link": "https://www.freecodecamp.org/news/technical-certification-guide/",
-          "publishedOn": "2021-12-07T16:31:49.000Z",
-          "wordCount": 1161,
-          "title": "Technical Certification Guide – Are They Worth It, and How to Choose One"
-        },
-        {
-          "id": "61ab940f946db661defb79ca",
-          "author": null,
-          "description": "TypeScript offers us a level of \"safety\" in our code by adding static types. We can guarantee that certain properties or functions are present in our code by making them conform to types. This can hugely reduce the amount of client-side errors you might have in your website, because it",
-          "link": "https://www.freecodecamp.org/news/typescript-literal-and-collective-types/",
-          "publishedOn": "2021-12-07T15:55:33.000Z",
-          "wordCount": 541,
-          "title": "TypeScript Literal and Collective Types"
-        },
-        {
-          "id": "611b56ece884de075217ff7f",
-          "author": null,
-          "description": "Hello folks, welcome to this tutorial. Today we're going to build a production-ready Todo application with React, Next, and Supabase. Before we begin, you should be familiar with the basics of React.js and Next.js to get the most out of this guide.  If you're not and need to",
-          "link": "https://www.freecodecamp.org/news/how-to-build-a-todoapp-using-react-and-supabase/",
-          "publishedOn": "2021-12-07T15:48:26.000Z",
-          "wordCount": 7358,
-          "title": "How to Build a TodoApp using ReactJS, NextJS, and Supabase"
-        },
-        {
-          "id": "61a1322f25888a07c3e1c124",
-          "author": null,
-          "description": "TypeScript is a transpiled language, and there is a step in the process called type erasure. So what exactly is transpiling, and what is type erasure? Higher Level vs Lower Level Programming LanguagesBefore we explain further, we have to understand higher and lower level languages. Higher level languages are more",
-          "link": "https://www.freecodecamp.org/news/what-is-type-erasure-in-typescript/",
-          "publishedOn": "2021-12-06T19:21:41.000Z",
-          "wordCount": 756,
-          "title": "What is Type Erasure in TypeScript?"
-        },
-        {
-          "id": "61ae22d7946db661defb7d18",
-          "author": null,
-          "description": "If you're a Windows user, you might have seen the \"Activate Windows\" message that displays over every other thing – including your cursor. I guess they gave it a z-index of infinity.  This message gets displayed when you use a Windows OS that has an invalid or expired license.",
-          "link": "https://www.freecodecamp.org/news/how-to-get-rid-of-the-activate-windows-watermark-windows-10-pc-activation-message-removal/",
-          "publishedOn": "2021-12-06T16:00:21.000Z",
-          "wordCount": 1003,
-          "title": "How to Get Rid of the Activate Windows Watermark [Windows 10 PC Activation Message Removal]"
-        },
-        {
-          "id": "61af7c5e946db661defb8589",
-          "author": null,
-          "description": "There is way more to building successful apps than just coding. In fact, coding is often the easiest part. There are many business considerations that are extremely important. We just published an 8-hour course on the freeCodeCamp.org YouTube channel that will teach you the business of building apps.  Shad",
-          "link": "https://www.freecodecamp.org/news/learn-how-to-build-apps-from-a-business-perspective/",
-          "publishedOn": "2021-12-06T15:37:00.000Z",
-          "wordCount": 827,
-          "title": "Learn How to Build Apps From a Business Perspective"
-        },
-        {
-          "id": "61a7b9390c0c7407b2b3f076",
-          "author": null,
-          "description": "As programmers, we will inevitably make mistakes. Even the most accomplished specialists make them. But you'll become a better programmer faster if you don't make the same mistakes over and over. There are many types of mistakes you might make when you're coding. The majority of them usually come from",
-          "link": "https://www.freecodecamp.org/news/mistakes-programmers-make-when-coding-and-how-to-fix-them/",
-          "publishedOn": "2021-12-03T19:14:57.000Z",
-          "wordCount": 1748,
-          "title": "Mistakes Every Programmer Makes When Learning to Code – and How to Fix Them"
-        }
-      ]
-    },
-    {
       "title": "GolangCode",
       "feedUrl": "https://golangcode.com/index.xml",
       "siteUrl": "https://golangcode.com/",
@@ -1009,6 +408,328 @@
           "title": "A system to encrypt data in bulk for Rails"
         }
       ]
+    },
+    {
+      "title": "Engineering – The GitHub Blog",
+      "feedUrl": "https://github.blog/engineering.atom",
+      "siteUrl": "https://github.blog",
+      "articles": [
+        {
+          "id": "https://github.blog/2021-12-16-technical-interviews-via-codespaces/",
+          "author": null,
+          "description": "Codespaces is a great tool for technical hiring exercises and helps level the playing field for candidates.",
+          "link": "https://github.blog/2021-12-16-technical-interviews-via-codespaces/",
+          "publishedOn": "2021-12-16T17:59:56.000Z",
+          "wordCount": 1073,
+          "title": "Technical interviews via Codespaces"
+        },
+        {
+          "id": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
+          "author": null,
+          "description": "This blog post tells the story of why we built a new search engine optimized for code.",
+          "link": "https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/",
+          "publishedOn": "2021-12-15T18:35:29.000Z",
+          "wordCount": 3092,
+          "title": "A brief history of code search at GitHub"
+        },
+        {
+          "id": "https://github.blog/2021-12-09-introducing-stack-graphs/",
+          "author": null,
+          "description": "Precise code navigation is powered by stack graphs, a new open source framework that lets you define the name binding rules for a programming language.",
+          "link": "https://github.blog/2021-12-09-introducing-stack-graphs/",
+          "publishedOn": "2021-12-09T17:00:40.000Z",
+          "wordCount": 2682,
+          "title": "Introducing stack graphs"
+        },
+        {
+          "id": "https://github.blog/2021-12-08-improving-github-code-search/",
+          "author": null,
+          "description": "Today, we are rolling out a technology preview for GitHub code search, the next iteration for search, discovery, and navigation on GitHub.",
+          "link": "https://github.blog/2021-12-08-improving-github-code-search/",
+          "publishedOn": "2021-12-08T17:00:01.000Z",
+          "wordCount": 907,
+          "title": "Improving GitHub code search"
+        }
+      ]
+    },
+    {
+      "title": "Meta Research",
+      "feedUrl": "https://research.facebook.com/feed/",
+      "siteUrl": "https://research.facebook.com/",
+      "articles": [
+        {
+          "id": "https://research.facebook.com/blog/2021/12/making-our-displacement-maps-more-representative/",
+          "author": null,
+          "description": "Meta Data for Good announces a new re-weighted version of displacement maps that aims to better represent displacement trends on the ground.",
+          "link": "https://research.facebook.com/blog/2021/12/making-our-displacement-maps-more-representative/",
+          "publishedOn": "2021-12-22T07:07:51.000Z",
+          "wordCount": 1224,
+          "title": "Making our displacement maps more representative"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-mathematical-modeling-and-optimization-for-large-scale-distributed-systems-request-for-proposals/",
+          "author": null,
+          "description": "Meta announces the winners of the Mathematical modeling and optimization for large-scale distributed systems request for proposals",
+          "link": "https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-mathematical-modeling-and-optimization-for-large-scale-distributed-systems-request-for-proposals/",
+          "publishedOn": "2021-12-21T07:40:14.000Z",
+          "wordCount": 497,
+          "title": "Announcing the winners of the Mathematical Modeling and Optimization for Large-Scale Distributed Systems request for proposals"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/",
+          "author": null,
+          "description": "Meta's Core Data Science team discusses opportunities for academics at Meta such as full-time employment, temporary employment, and dual affiliation.",
+          "link": "https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/",
+          "publishedOn": "2021-12-20T10:45:00.000Z",
+          "wordCount": 1567,
+          "title": "Four Core Data Science researchers discuss opportunities for academics at Meta"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/interview-with-sin-lee-loh-ux-research-manager-singapore/",
+          "author": null,
+          "description": "",
+          "link": "https://research.facebook.com/blog/2021/12/interview-with-sin-lee-loh-ux-research-manager-singapore/",
+          "publishedOn": "2021-12-18T12:25:00.000Z",
+          "wordCount": 1034,
+          "title": "Q&A with Sin Lee Loh, UX Research Manager based in Singapore"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/2021-academic-review-developer-infrastructure/",
+          "author": null,
+          "description": "",
+          "link": "https://research.facebook.com/blog/2021/12/2021-academic-review-developer-infrastructure/",
+          "publishedOn": "2021-12-17T10:12:51.000Z",
+          "wordCount": 792,
+          "title": "2021 Academic Review: Developer Infrastructure"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/introducing-bean-machine-a-probabilistic-programming-platform-built-on-pytorch/",
+          "author": null,
+          "description": "Today, we’re excited to announce an early beta release of Bean Machine, a PyTorch-based probabilistic programming system that makes it easy to represent and to learn about uncertainties in the machine learning models that we work with every day.",
+          "link": "https://research.facebook.com/blog/2021/12/introducing-bean-machine-a-probabilistic-programming-platform-built-on-pytorch/",
+          "publishedOn": "2021-12-15T09:03:00.000Z",
+          "wordCount": 3496,
+          "title": "Introducing Bean Machine, a probabilistic programming platform built on PyTorch"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-building-tools-to-enhance-transparency-in-fairness-and-privacy-rfp/",
+          "author": null,
+          "description": "In August, Meta, formerly known as Facebook, launched the Building Tools to Enhance Transparency in Fairness and Privacy request for proposals (RFP). Today, we’re announcing the winners of this award.",
+          "link": "https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-building-tools-to-enhance-transparency-in-fairness-and-privacy-rfp/",
+          "publishedOn": "2021-12-10T08:48:05.000Z",
+          "wordCount": 378,
+          "title": "Announcing the winners of the Building Tools to Enhance Transparency in Fairness and Privacy RFP"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-city-scale-3d-map-making-with-mapillary-metropolis-request-for-proposals/",
+          "author": null,
+          "description": "In July 2021, Meta launched the Benchmarking City-Scale 3D Map Making with Mapillary Metropolis request for proposals (RFP). Today, we’re...",
+          "link": "https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-city-scale-3d-map-making-with-mapillary-metropolis-request-for-proposals/",
+          "publishedOn": "2021-12-09T09:10:07.000Z",
+          "wordCount": 345,
+          "title": "Announcing the winners of the City-Scale 3D Map Making with Mapillary Metropolis request for proposals"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/improving-experiment-precision-with-machine-learning/",
+          "author": null,
+          "description": "The challenge of noise in experiments Experimentation is a central part of data-driven product development, yet in practice the results...",
+          "link": "https://research.facebook.com/blog/2021/12/improving-experiment-precision-with-machine-learning/",
+          "publishedOn": "2021-12-09T03:44:34.000Z",
+          "wordCount": 878,
+          "title": "Improving experiment precision with machine learning"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2021/12/shops-on-facebook-and-instagram-understanding-relationships-between-products-to-improve-buyer-and-seller-experience/",
+          "author": null,
+          "description": "This Research in Brief summarizes various projects carried out by co-authors Yaniv Sheena and Oren Sar Shalom, along with their...",
+          "link": "https://research.facebook.com/blog/2021/12/shops-on-facebook-and-instagram-understanding-relationships-between-products-to-improve-buyer-and-seller-experience/",
+          "publishedOn": "2021-12-08T02:29:28.000Z",
+          "wordCount": 1588,
+          "title": "Shops on Facebook and Instagram: Understanding relationships between products to improve buyer and seller experience"
+        }
+      ]
+    },
+    {
+      "title": "Nick Craver",
+      "feedUrl": "https://nickcraver.com/blog/feed.xml",
+      "siteUrl": "https://nickcraver.com/blog",
+      "articles": []
+    },
+    {
+      "title": "Coding Horror",
+      "feedUrl": "https://blog.codinghorror.com/rss/",
+      "siteUrl": "https://blog.codinghorror.com/",
+      "articles": [
+        {
+          "id": "61cfb0fa34500c00482dc601",
+          "author": "Jeff Atwood",
+          "description": "In a way, these two books are responsible for my entire professional career.\n\nWith early computers, you didn't boot up to a fancy schmancy desktop, or a screen full of apps you could easily poke and prod with your finger. No, those computers booted up to the command line.\n\nFrom",
+          "link": "https://blog.codinghorror.com/updating-the-single-most-influential-book-of-the-basic-era/",
+          "publishedOn": "2021-12-31T23:49:00.000Z",
+          "wordCount": 1269,
+          "title": "Updating The Single Most Influential Book of the BASIC Era"
+        }
+      ]
+    },
+    {
+      "title": "null program",
+      "feedUrl": "https://nullprogram.com/feed/",
+      "siteUrl": "https://nullprogram.com",
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2021/12/31/",
+          "author": null,
+          "description": "When my articles include diagrams to illustrate a concept, such as a\nstate machine, I will check the Graphviz, gnuplot, or SVG\nsource into source control alongside the image in case I need to make\nchanges in the future. Sometimes I even make the image itself a link to\nits source file. I’ve thought it would be convenient if the raster image\nsomehow contained its own source as metadata so that they don’t get\nseparated. I looked around and wasn’t satisfied with the solutions I\nfound, so I wrote one: pngattach.\nMy approach introduces a new private chunk type atCh (“attachment”)\nwhich contains a file name, a flag to indicate if the attachment is\ncompressed, and an optionally DEFLATE-compressed blob of file contents. I\ntried to follow the spirit of PNG chunk formatting, but without the\nconstrain…",
+          "link": "https://nullprogram.com/blog/2021/12/31/",
+          "publishedOn": "2021-12-31T22:17:26.000Z",
+          "wordCount": 1354,
+          "title": "A new protocol and tool for PNG file attachments"
+        },
+        {
+          "id": "https://nullprogram.com/blog/2021/12/30/",
+          "author": null,
+          "description": "A hard reality of C and C++ software development on Windows is that there\nhas never been a good, native C or C++ standard library implementation for\nthe platform. A standard library should abstract over the underlying host\nfacilities in order to ease portable software development. On Windows, C\nand C++ is so poorly hooked up to operating system interfaces that most\nportable or mostly-portable software — programs which work perfectly\nelsewhere — are subtly broken on Windows, particularly outside of the\nEnglish-speaking world. The reasons are almost certainly political,\noriginally motivated by vendor lock-in, than technical, which adds insult\nto injury. This article is about what’s wrong, how it’s wrong, and some\neasy techniques to deal with it in portable software.\nThere are multiple C impl…",
+          "link": "https://nullprogram.com/blog/2021/12/30/",
+          "publishedOn": "2021-12-30T23:25:53.000Z",
+          "wordCount": 1664,
+          "title": "Some sanity for C and C++ development on Windows"
+        },
+        {
+          "id": "https://nullprogram.com/blog/2021/12/04/",
+          "author": null,
+          "description": "This article was discussed on Hacker News.\nI recently learned of csvquote, a tool that encodes troublesome\nCSV characters such that unix tools can correctly process them. It\nreverses the encoding at the end of the pipeline, recovering the original\ninput. The original implementation handles CSV quotes using the\nstraightforward, naive method. However, there’s a better approach that is\nnot only simpler, but around 3x faster on modern hardware. Even more,\nthere’s yet another approach using SIMD intrinsics, plus some bit\ntwiddling tricks, which increases the processing speed by an order of\nmagnitude. My csvquote implementation includes both\napproaches.\nBackground\nRecords in CSV data are separated by line feeds, and fields are separated\nby commas. Fields may be quoted.\n\naaa,bbb,ccc\nxxx,\"yyy\",zzz…",
+          "link": "https://nullprogram.com/blog/2021/12/04/",
+          "publishedOn": "2021-12-04T01:13:33.000Z",
+          "wordCount": 1705,
+          "title": "Fast CSV processing with SIMD"
+        }
+      ]
+    },
+    {
+      "title": "Xe's Blog",
+      "feedUrl": "https://christine.website/blog.atom",
+      "siteUrl": "https://christine.website/blog",
+      "articles": [
+        {
+          "id": "https://christine.website/blog/excited-for-2022-2021-12-28",
+          "author": null,
+          "description": "Posted on 2021-12-28",
+          "link": "https://christine.website/blog/excited-for-2022-2021-12-28",
+          "publishedOn": "2021-12-28T00:00:00.000Z",
+          "wordCount": 1681,
+          "title": "Things I'm Excited for in 2022"
+        },
+        {
+          "id": "https://christine.website/blog/site-update-2021-12-19",
+          "author": null,
+          "description": "Posted on 2021-12-19",
+          "link": "https://christine.website/blog/site-update-2021-12-19",
+          "publishedOn": "2021-12-19T00:00:00.000Z",
+          "wordCount": 1021,
+          "title": "Site Updates: Better Contrast Ratio and Using Xeact"
+        },
+        {
+          "id": "https://christine.website/blog/princeton-study-2021-12-17",
+          "author": null,
+          "description": "Posted on 2021-12-17",
+          "link": "https://christine.website/blog/princeton-study-2021-12-17",
+          "publishedOn": "2021-12-17T00:00:00.000Z",
+          "wordCount": 1723,
+          "title": "I Was Part of a Human Subject Research Study Without My Consent"
+        },
+        {
+          "id": "https://christine.website/blog/open-source-broken-2021-12-11",
+          "author": null,
+          "description": "Posted on 2021-12-11",
+          "link": "https://christine.website/blog/open-source-broken-2021-12-11",
+          "publishedOn": "2021-12-11T00:00:00.000Z",
+          "wordCount": 3106,
+          "title": "\"Open Source\" is Broken"
+        }
+      ]
+    },
+    {
+      "title": "Stay SaaSy",
+      "feedUrl": "https://staysaasy.com/feed.xml",
+      "siteUrl": "https://staysaasy.com/",
+      "articles": [
+        {
+          "id": "https://staysaasy.com/product/2021/12/28/your-head-of-product-and-your-ceo.html",
+          "author": null,
+          "description": "The relationship between the CEO and Head of Product is one of the most important pillars of a scaling startup. The CEO is most startups’ original Head of Product – setting the roadmap, hiring PMs, defining the features that you’ll build. But as a company grows it becomes too complex to manage both the complexities of the Product organization and everything else on a CEO’s plate. The company needs to add a Head of Product in order to scale, and do so without screwing up their product quality or momentum.",
+          "link": "https://staysaasy.com/product/2021/12/28/your-head-of-product-and-your-ceo.html",
+          "publishedOn": "2021-12-28T14:59:22.000Z",
+          "wordCount": 1150,
+          "title": "Your Head of Product and Your CEO"
+        },
+        {
+          "id": "https://staysaasy.com/management/2021/12/14/Happy.html",
+          "author": null,
+          "description": "Lord, grant me the strength to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.",
+          "link": "https://staysaasy.com/management/2021/12/14/Happy.html",
+          "publishedOn": "2021-12-14T00:00:00.000Z",
+          "wordCount": 608,
+          "title": "Managers Should Optimize Job Satisfaction, Not Happiness"
+        },
+        {
+          "id": "https://staysaasy.com/lifestyle/2021/12/10/debugging-my-work-health.html",
+          "author": null,
+          "description": "Over the last two years I’ve struggled with the Zoom-heavy work style of the covid WFH world. As early as Spring 2020 I started to realize that I was feeling significantly more stress at work. To help combat burnout, I decided to debug my overall work health and spent several months experimenting with different processes and rituals to improve my overall well-being.",
+          "link": "https://staysaasy.com/lifestyle/2021/12/10/debugging-my-work-health.html",
+          "publishedOn": "2021-12-10T08:59:22.000Z",
+          "wordCount": 888,
+          "title": "Debugging My Work Health"
+        }
+      ]
+    },
+    {
+      "title": "Julia Evans",
+      "feedUrl": "https://jvns.ca/atom.xml",
+      "siteUrl": "http://jvns.ca/atom.xml",
+      "articles": [
+        {
+          "id": "https://jvns.ca/blog/2021/12/31/2021--year-in-review/",
+          "author": null,
+          "description": "It’s the end of the year again! This was my second full year working for myself\non wizard zines.\nHere are some thoughts about what I’m working towards, a bunch of things I made\nthis year, and a few ideas and questions about 2022.\nmade some progress on a “mission statement”\nI think the two hardest things about working for myself are working alone and\nhaving to decide what to do.\nThis year I spent some time trying to figure out what I’m doing with wizard\nzines. This is hard for me because I work in a pretty intuitive way – I have\nsome feelings about what’s important, and even though following my feelings\nusually turns out well, I can’t always explain what I’m trying to do.\nHere are some thoughts about what I’m trying to do:\nI’m only interested in explaining “old” established technologies (HT…",
+          "link": "https://jvns.ca/blog/2021/12/31/2021--year-in-review/",
+          "publishedOn": "2021-12-31T09:27:53.000Z",
+          "wordCount": 1790,
+          "title": "2021: Year in review"
+        },
+        {
+          "id": "https://jvns.ca/blog/2021/12/15/mess-with-dns/",
+          "author": null,
+          "description": "Hello! I’ve been thinking about how to explain DNS a bunch in the last year.\nI like to learn in a very hands-on way. And so when I write a zine, I often\nclose the zine by saying something like “… and the best way to learn more\nabout this is to play around and experiment!“.\nSo I built a site where you can do experiments with DNS called Mess With DNS. It has examples of experiments you can try, and\nyou’ve very encouraged to come up with your own experiments.\nIn this post I’ll talk about why I made this, how it works, and give you\nprobably more details than you want to know about how I built it (design, testing,\nsecurity, writing an authoritative nameserver, live streaming updates, etc)\na screencast\nHere’s a GIF screencast of what it looks like to use it:\n\nit’s a real DNS server\nFirst: Mess W…",
+          "link": "https://jvns.ca/blog/2021/12/15/mess-with-dns/",
+          "publishedOn": "2021-12-15T09:41:36.000Z",
+          "wordCount": 3109,
+          "title": "New tool: Mess with DNS!"
+        },
+        {
+          "id": "https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/",
+          "author": null,
+          "description": "Hello! Yesterday I tweeted this:\n\nI feel like the term \"DNS propagation\" is misleading, like you're not actually waiting for DNS records to \"propagate\", you're waiting for cached records to expire\n— 🔎Julia Evans🔍 (@b0rk) December 5, 2021\n \nand I want to talk about it a little more. This came up because I was showing a\nfriend a demo of how DNS caching works last week, and he realized that what was\nhappening in the demo didn’t line up with his mental model of how DNS worked.\nHe immediately brought this up and adjusted his mental model (“oh, DNS records are\npulled, not pushed!“). But this it got me thinking – why did my very\nsmart and experienced friend have an inaccurate mental model for how DNS works\nin the first place?\nFirst – I’m very tired of posts that complain about how people are “w…",
+          "link": "https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/",
+          "publishedOn": "2021-12-06T09:44:31.000Z",
+          "wordCount": 2220,
+          "title": "DNS \"propagation\" is actually caches expiring"
+        },
+        {
+          "id": "https://jvns.ca/blog/2021/12/04/how-to-use-dig/",
+          "author": null,
+          "description": "Hello! I talked to a couple of friends recently who mentioned they wished they knew\nhow to use dig to make DNS queries, so here’s a quick blog post about it.\nWhen I first started using dig I found it a bit intimidating – there are so\nmany options! I’m going to leave out most of dig’s options in this post and just\ntalk about the ones I actually use.\nAlso I learned recently that you can set up a .digrc configuration file to make its output\neasier to read and it makes it SO MUCH nicer to use.\nI also drew a zine page about dig a few years ago, but I wanted to write this post to include a bit more information.\n2 types of dig arguments: query and formatting\nThere are 2 main types of arguments you can pass to dig:\narguments that tell dig what DNS query to make\narguments that tell dig how to forma…",
+          "link": "https://jvns.ca/blog/2021/12/04/how-to-use-dig/",
+          "publishedOn": "2021-12-04T08:44:04.000Z",
+          "wordCount": 1497,
+          "title": "How to use dig"
+        }
+      ]
+    },
+    {
+      "title": "Feross.org",
+      "feedUrl": "https://feross.org/atom.xml",
+      "siteUrl": "https://feross.org",
+      "articles": []
     }
   ],
   "cliVersion": "1.11.3"

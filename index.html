@@ -44,15 +44,77 @@ Then there are the health authorities saying that regardless of whether the vacc
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.codinghorror.com/">Coding Horror</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">A Free Accredited Bachelor&#x27;s Degree in Computer Science – How Do We Get There?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/free-accredited-bachelors-degrees-in-computer-science-how-do-we-get-there/">
+                <summary class="article-expander__title">Updating The Single Most Influential Book of the BASIC Era</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.codinghorror.com/updating-the-single-most-influential-book-of-the-basic-era/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>In a way, these two books are responsible for my entire professional career.
+
+With early computers, you didn&#x27;t boot up to a fancy schmancy desktop, or a screen full of apps you could easily poke and prod with your finger. No, those computers booted up to the command line.
+
+From</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://jvns.ca/atom.xml">Julia Evans</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">2021: Year in review</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/2021/12/31/2021--year-in-review/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>It’s the end of the year again! This was my second full year working for myself
+on wizard zines.
+Here are some thoughts about what I’m working towards, a bunch of things I made
+this year, and a few ideas and questions about 2022.
+made some progress on a “mission statement”
+I think the two hardest things about working for myself are working alone and
+having to decide what to do.
+This year I spent some time trying to figure out what I’m doing with wizard
+zines. This is hard for me because I work in a pretty intuitive way – I have
+some feelings about what’s important, and even though following my feelings
+usually turns out well, I can’t always explain what I’m trying to do.
+Here are some thoughts about what I’m trying to do:
+I’m only interested in explaining “old” established technologies (HT…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://nullprogram.com">null program</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A new protocol and tool for PNG file attachments</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2021/12/31/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(5 min)</span>
-                    <span>2021 has been a big year for the freeCodeCamp community: We provided more than 2.1 billion minutes of learning to millions of people around the world.We published our 300-hour Relational Database Certification teaching SQL, Linux, and Git interactively – right inside VS Code.We shipped a project-oriented learning overhaul</span>
+                    <span>When my articles include diagrams to illustrate a concept, such as a
+state machine, I will check the Graphviz, gnuplot, or SVG
+source into source control alongside the image in case I need to make
+changes in the future. Sometimes I even make the image itself a link to
+its source file. I’ve thought it would be convenient if the raster image
+somehow contained its own source as metadata so that they don’t get
+separated. I looked around and wasn’t satisfied with the solutions I
+found, so I wrote one: pngattach.
+My approach introduces a new private chunk type atCh (“attachment”)
+which contains a file name, a flag to indicate if the attachment is
+compressed, and an optionally DEFLATE-compressed blob of file contents. I
+tried to follow the spirit of PNG chunk formatting, but without the
+constrain…</span>
                   </div>
                 </a>
               </details>
@@ -64,6 +126,34 @@ Then there are the health authorities saying that regardless of whether the vacc
   <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-12-30">2021-12-30</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://nullprogram.com">null program</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Some sanity for C and C++ development on Windows</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2021/12/30/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>A hard reality of C and C++ software development on Windows is that there
+has never been a good, native C or C++ standard library implementation for
+the platform. A standard library should abstract over the underlying host
+facilities in order to ease portable software development. On Windows, C
+and C++ is so poorly hooked up to operating system interfaces that most
+portable or mostly-portable software — programs which work perfectly
+elsewhere — are subtly broken on Windows, particularly outside of the
+English-speaking world. The reasons are almost certainly political,
+originally motivated by vendor lock-in, than technical, which adds insult
+to injury. This article is about what’s wrong, how it’s wrong, and some
+easy techniques to deal with it in portable software.
+There are multiple C impl…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/jason">Jason Fried</a></h3>
@@ -93,39 +183,28 @@ I think he&#x27;s going to buy one.</span>
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-28">2021-12-28</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://christine.website/blog">Xe&#x27;s Blog</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Take the 2022 Become-a-Dev New Year&#x27;s Resolution Challenge</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/2022-become-a-dev-new-years-resolution-challenge/">
+                <summary class="article-expander__title">Things I&#x27;m Excited for in 2022</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://christine.website/blog/excited-for-2022-2021-12-28">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Every year, millions of people create New Year&#x27;s Resolutions. A vast majority of these will fail. But I&#x27;ve created one for you that I&#x27;m optimistic you can succeed with. This is all free and you&#x27;ll learn a ton. There will be a lot of other people doing this challenge alongside</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The Top freeCodeCamp Contributors of 2021</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/2021-top-contributors/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>2021 was a big year for the freeCodeCamp community: We provided more than 2.1 billion minutes of learning to millions of people around the world.We published our 300-hour Relational Database Certification teaching SQL, Linux, and Git interactively – right inside VS Code.We shipped a project-oriented learning overhaul to</span>
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Posted on 2021-12-28</span>
                   </div>
                 </a>
               </details>
             </article>
         </section>
       </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-28">2021-12-28</time></h2>
-    <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://plaintextproject.online">The Plain Text Project</a></h3>
@@ -143,33 +222,17 @@ I think he&#x27;s going to buy one.</span>
             </article>
         </section>
       </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-27">2021-12-27</time></h2>
-    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://staysaasy.com/">Stay SaaSy</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Learn Responsive Web Design by Building 20 Projects – a Major freeCodeCamp Curriculum Update</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/responsive-web-design-certification-redesigned/">
+                <summary class="article-expander__title">Your Head of Product and Your CEO</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://staysaasy.com/product/2021/12/28/your-head-of-product-and-your-ceo.html">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>We just published a significant overhaul of our Responsive Web Design Certification (the first of freeCodeCamp&#x27;s 10 currently-live certifications). We also updated our code editor. Instead of coding lessons, you&#x27;ll learn concepts and syntax through a series of 15 practice projects + 5 certification projects. Here is the full certification, which</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn Julia For Beginners – The Future Programming Language of  Data Science and Machine Learning Explained</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-julia-programming-language/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>Julia is a high-level, dynamic programming language, designed to give users the speed of C/C++ while remaining as easy to use as Python. This means that developers can solve problems faster and more effectively. Julia is great for computational complex problems. Many early adopters of Julia were concentrated in</span>
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>The relationship between the CEO and Head of Product is one of the most important pillars of a scaling startup. The CEO is most startups’ original Head of Product – setting the roadmap, hiring PMs, defining the features that you’ll build. But as a company grows it becomes too complex to manage both the complexities of the Product organization and everything else on a CEO’s plate. The company needs to add a Head of Product in order to scale, and do so without screwing up their product quality or momentum.</span>
                   </div>
                 </a>
               </details>
@@ -195,28 +258,6 @@ I think he&#x27;s going to buy one.</span>
       new-to-me albums this year. I hope you find something interesting to
       groove to in there.
 more…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-25">2021-12-25</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">AWS CDK v2 Tutorial – How to Create a Three-Tier Serverless Application</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/aws-cdk-v2-three-tier-serverless-application/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(13 min)</span>
-                    <span>A Three-tier web applications has a presentation layer, an application layer, and a database layer.  This familiar pattern is fertile ground for learning new technologies like the AWS Cloud Development Kit (CDK).  In this tutorial, we will create a simple note-taking application using a DynamoDB table, HTTP API endpoints, Lambda</span>
                   </div>
                 </a>
               </details>
@@ -278,67 +319,6 @@ more…</span>
             </article>
         </section>
       </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Java Log4JShell Vulnerability – What I Learned About it This Week</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/java-log4jshell-vulnerability/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Last Thursday, a vulnerability was disclosed in the Log4J logging library affecting many Java applications worldwide.  The vulnerability is called Log4Shell (CVE-2021–44228). It allows an attacker to inject a crafted payload anywhere in the requests that get parsed and executed by the vulnerable application. There are a lot of</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn to Code RPG – Full Soundtrack + How I Made It</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-to-code-rpg-soundtrack/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>First: what you probably came here for. Here&#x27;s the full soundtrack to Learn to Code RPG. 36 minutes of jazz. If you dig it, subscribe to my new music channel and leave a comment with feedback or your favorite track. I am currently uploading this to Spotify. How I Made</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SVG + JavaScript Tutorial – How to Code an Animated Watch</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/svg-javascript-tutorial/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Since SVG images can be inlined in HTML, we can manipulate them with JavaScript. This means that we can animate parts of an image from code, make it interactive, or turn things around and generate graphics from data. In this example, we are going to create a watch. We will</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Dual Boot Any Linux Distribution With Windows – and Get Rid of It When You Need To</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-dual-boot-any-linux-distribution-with-windows/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>Gone are the days when Linux and Windows were like two opposing forces. Microsoft has embraced the open-source community quite cordially in recent years, and as a result we have things like Windows Subsystem for Linux baked right into our Windows installations. That doesn&#x27;t mean that we no longer need</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Create a BinaryTreeViewer using C#, CSS, &amp; HTML (Code &amp; Algorithm Walkthrough)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/binarytreeviewer-with-c-c-css-html-by-gilad-bar-ilan/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Binary trees are one of the most complicated data structures out there. And one of the reasons they&#x27;re so difficult is that it&#x27;s hard to actually visualize them in a simple way. In this tutorial, I&#x27;ll show you how to create your own BinaryTreeViewer which will allow you to watch</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
     </ul>
   </section>
   <section class="daily-content">
@@ -355,6 +335,23 @@ more…</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(7 min)</span>
                     <span>No content preview</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Making our displacement maps more representative</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/making-our-displacement-maps-more-representative/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Meta Data for Good announces a new re-weighted version of displacement maps that aims to better represent displacement trends on the ground.</span>
                   </div>
                 </a>
               </details>
@@ -415,72 +412,28 @@ Photo by Oxa Roxa on Unsplash</span>
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-21">2021-12-21</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The Top 100 Free University Courses of the Year (Ranked by Popularity)</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/most-popular-free-online-courses/">
+                <summary class="article-expander__title">Announcing the winners of the Mathematical Modeling and Optimization for Large-Scale Distributed Systems request for proposals</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-mathematical-modeling-and-optimization-for-large-scale-distributed-systems-request-for-proposals/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(16 min)</span>
-                    <span>An eternity ago in the year of 2012, a few Stanford professors decided to make their courses freely available online.  The media christened these courses &quot;MOOCs&quot; – Massive Open Online Courses. And they hailed 2012 as &quot;Year of the MOOC.&quot; Now, a decade later, the MOOC ecosystem has reached 220M learners</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Best WordPress Plugins – 15 Tools to Boost Your Productivity</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/best-wordpress-plugins/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>If you work with WordPress, then you know just how important a good stack of plugins is. They were designed to improve everything from media handling, and basic features to security and more.  You can have as many as you like, in theory, but don&#x27;t go overboard. A good rule</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn to Code RPG – A Visual Novel Video Game Where you Learn Computer Science Concepts</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-to-code-rpg/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Learn to Code RPG is an interactive visual novel game where you will teach yourself to code, make friends in the tech industry, and pursue your dream of becoming a developer.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn to Code RPG – Press Kit</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-to-code-rpg-press-kit/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>This is the press kit for the game, Learn to Code RPG.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Extend Your Login Flow With Auth0 Actions</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/intro-to-auth0-actions/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>I recently attended a training session with the Auth0 Dev Rel team to learn about a cool new feature called Auth0 Actions.  In this article, I am going to explain what Auth0 Actions are, why you&#x27;d want to use them, and how to set one up. What are Auth0 Actions?</span>
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Meta announces the winners of the Mathematical modeling and optimization for large-scale distributed systems request for proposals</span>
                   </div>
                 </a>
               </details>
             </article>
         </section>
       </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-21">2021-12-21</time></h2>
-    <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
@@ -513,72 +466,28 @@ That&#x27;s both an incredible personal achievement for McWhorter, and an indica
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-20">2021-12-20</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">How to Set Up a Payment Gateway in Next.js and React with Razorpay and TailwindCSS</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/integrate-a-payment-gateway-in-next-js-and-react-with-razorpay-and-tailwindcss/">
+                <summary class="article-expander__title">Four Core Data Science researchers discuss opportunities for academics at Meta</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>If you have an e-commerce application, a payment gateway lets you process payments on your website on the fly.  With all the modern payment gateway solutions available these days, there are many ways you can integrate payments and charge your users for your product or services.  In this tutorial, we</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Destructure Objects in JavaScript</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-destructure-objects-javascript/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Since ECMAScript 6 (or ES6 for short), you can descructure objects in JavaScript. As a JavaScript developer, you’ll likely destructure objects as part of your daily work.  Let&#x27;s learn about why we use destructuring, and then we&#x27;ll learn how to destructure JavaScript objects. Why destructure an object?Let&#x27;s go</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Make a Back to Top Button and Page Progress Bar with HTML, CSS, and JavaScript</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/back-to-top-button-and-page-progressbar-with-html-css-and-js/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>You&#x27;ve probably seen a &quot;back-to-top&quot; button at the bottom-right corner on many websites when you&#x27;re scrolling around. Clicking on that button takes you back to the top of the page.  This is a great feature to have on any website, and today we are going to see how to build</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Automate Tasks with Azure Webjobs</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-automate-tasks-with-azure-webjobs/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>When you work in IT operations, automation is a key part of your job.  You&#x27;ll have various repetitive tasks you have to deal with, and you don’t want to waste your time doing something that can be done by a script.  Here are some great reasons to automate repetitive</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Build a Custom CRM</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/build-a-crm/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>A Customer Relationship Management (CRM) is a system that helps businesses organize and manage their customer relationships. It is basically a big database for customer information. Since every business is a little different, it can be helpful to create your own CRM to meet your exact needs. We just published</span>
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Meta&#x27;s Core Data Science team discusses opportunities for academics at Meta such as full-time employment, temporary employment, and dual affiliation.</span>
                   </div>
                 </a>
               </details>
             </article>
         </section>
       </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-20">2021-12-20</time></h2>
-    <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/jason">Jason Fried</a></h3>
@@ -601,39 +510,44 @@ Heartbeats…</span>
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-19">2021-12-19</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://christine.website/blog">Xe&#x27;s Blog</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">23 Free Websites to Learn JavaScript in 2022</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/23-free-websites-to-learn-javascript/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>JavaScript is a programming language that&#x27;s used for a variety of purposes, including web development, web apps, game development, and more. JavaScript also lets you add dynamic features to web sites that you can&#x27;t just achieve with HTML and CSS. Importance of JavaScriptJavaScript is the most important language you need</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Transfer Files Between Servers in Linux using SCP and FTP</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-transfer-files-between-servers-in-linux-using-scp-and-ftp/">
+                <summary class="article-expander__title">Site Updates: Better Contrast Ratio and Using Xeact</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://christine.website/blog/site-update-2021-12-19">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
-                    <span>Transferring files between machines is a very common operational task that you&#x27;ll do all the time as a developer.  Linux provides a number of utilities to transfer files. In this tutorial we will discuss FTP and SCP. Many automated scripts also deploy FTP or SCP to move files. What is</span>
+                    <span>Posted on 2021-12-19</span>
                   </div>
                 </a>
               </details>
             </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-18">2021-12-18</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
+          <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Learn the History of the Internet in Dr. Chuck&#x27;s 9-Hour Course</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-the-history-of-the-internet-in-dr-chucks/">
+                <summary class="article-expander__title">Q&amp;A with Sin Lee Loh, UX Research Manager based in Singapore</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/interview-with-sin-lee-loh-ux-research-manager-singapore/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>The impact of networks and technology continues to increase. Understanding technology makes it easier to function in an information-centric world. We just published a massive course about Internet history and technology on the freeCodeCamp.org YouTube channel. In this course you will learn how the Internet was created, who created</span>
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>No content preview</span>
                   </div>
                 </a>
               </details>
@@ -678,6 +592,40 @@ to collect all the context, understand the perspectives of those involved, …</
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://christine.website/blog">Xe&#x27;s Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">I Was Part of a Human Subject Research Study Without My Consent</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://christine.website/blog/princeton-study-2021-12-17">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Posted on 2021-12-17</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">2021 Academic Review: Developer Infrastructure</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/2021-academic-review-developer-infrastructure/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>No content preview</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
           <section class="articles-per-source">
             <article>
@@ -697,39 +645,28 @@ Be a real artist. Ship.</span>
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-16">2021-12-16</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">Engineering – The GitHub Blog</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Python Project – How to Create a Horoscope API with Beautiful Soup and Flask</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/python-project-build-an-api-with-beautiful-soup-and-flask/">
+                <summary class="article-expander__title">Technical interviews via Codespaces</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2021-12-16-technical-interviews-via-codespaces/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Have you ever read your horoscope in the newspaper or seen it on television? Well, I&#x27;m not sure about other countries, but in my country of India, people still read their horoscopes.  And this is where I got the idea for this tutorial. It might sound a bit old-fashioned, but</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">The HTML &lt;a&gt; Tag – Anchor Tag Example Code</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/the-html-a-tag-anchor-tag-example-code/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>HTML(Hyper Text Markup Language) is one of the languages we use to create web applications. It adds structure to your web pages. HTML has various tags we use to create elements. And multiple elements come together to create meaningful web pages and applications. The anchor tag is one of</span>
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Codespaces is a great tool for technical hiring exercises and helps level the playing field for candidates.</span>
                   </div>
                 </a>
               </details>
             </article>
         </section>
       </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-16">2021-12-16</time></h2>
-    <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
@@ -750,61 +687,58 @@ Turbo traces its roots back to 2012 with the first release of its predecessor Tu
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-15">2021-12-15</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">Engineering – The GitHub Blog</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">How to Mute on Zoom – Mute Yourself with a Keyboard Shortcut or a Press of a Button</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-mute-and-unmute-on-zoom-keyboard-shortcut/">
+                <summary class="article-expander__title">A brief history of code search at GitHub</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2021-12-15-a-brief-history-of-code-search-at-github/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>As remote work becomes more and more popular, more and more people and companies are using video conferencing services such as Zoom.  Turning the built-in microphone on and off is one of the most useful features of Zoom.  In this quick guide you&#x27;ll learn how to mute yourself with both</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Ask a Question on a Forum</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-ask-a-question-on-a-forum/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>Asking for help on a forum is a great way to learn and grow as a developer. But it is important that you know how to ask good questions so people can effectively help you.  In this article, I will walk you through how to ask good questions on a</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Run Linux Apps on Windows 10 and 11 Using WSL</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-run-linux-apps-on-windows-10-11-using-wsl/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>I&#x27;ve been using Windows Subsystem for Linux (WSL) for my OS class for quite a while now. And I love how I can use Linux commands in Windows in a straightforward way without the added complexity of installing a virtual machine or dual booting.  By the end of this article,</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">14 Windows 10 Command Line Tricks that Give You More Control Over Your PC</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/windows-10-command-line-tricks/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Windows 10 has an incredible Graphics User Interface (GUI) that will often be enough for you to get things done.  But if your inner Oliver Twist wants more, then you should start learning about the Command Line.  With the command prompt, you get access to features that are not available</span>
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>This blog post tells the story of why we built a new search engine optimized for code.</span>
                   </div>
                 </a>
               </details>
             </article>
         </section>
       </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-15">2021-12-15</time></h2>
-    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://jvns.ca/atom.xml">Julia Evans</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">New tool: Mess with DNS!</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/2021/12/15/mess-with-dns/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Hello! I’ve been thinking about how to explain DNS a bunch in the last year.
+I like to learn in a very hands-on way. And so when I write a zine, I often
+close the zine by saying something like “… and the best way to learn more
+about this is to play around and experiment!“.
+So I built a site where you can do experiments with DNS called Mess With DNS. It has examples of experiments you can try, and
+you’ve very encouraged to come up with your own experiments.
+In this post I’ll talk about why I made this, how it works, and give you
+probably more details than you want to know about how I built it (design, testing,
+security, writing an authoritative nameserver, live streaming updates, etc)
+a screencast
+Here’s a GIF screencast of what it looks like to use it:
+
+it’s a real DNS server
+First: Mess W…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://martinfowler.com/feed.atom">Martin Fowler</a></h3>
@@ -844,6 +778,23 @@ more…</span>
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Introducing Bean Machine, a probabilistic programming platform built on PyTorch</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/introducing-bean-machine-a-probabilistic-programming-platform-built-on-pytorch/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(12 min)</span>
+                    <span>Today, we’re excited to announce an early beta release of Bean Machine, a PyTorch-based probabilistic programming system that makes it easy to represent and to learn about uncertainties in the machine learning models that we work with every day.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
           <section class="articles-per-source">
             <article>
@@ -855,45 +806,6 @@ more…</span>
                     <span>The most liberating aspect for me of writing emails rather than tweets is the natural limit on topics I might be tempted to have a take on. When I was primarily writing tweets, I could easily involve myself in a dozen topics in a day. HERE&#x27;S A TAKE, THERE&#x27;S A TAKE, TAKE THAT! With email, it&#x27;s a sliver of that.
 But it goes even deeper than that. When there&#x27;s no public outlet for all the possible takes, I&#x27;ve found that fewer takes actually develop. That it&#x27;s possible to see a story float by and go &quot;I don&#x27;t need or want to assume even a mental position on this&quot;. It feels like the olden days, before we were all mined for opinions all day long by the platforms of engagement and enragement.
 This is a helpful constriction in general, especially if you, like me, have a natural tendency to spontane…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Top Skills All New Frontend Developers Should Have</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/top-skills-for-new-frontend-developers/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>As a frontend developer, it&#x27;s your job to make sure that the user interface of a software program functions properly.  It&#x27;s a difficult job because you have to make sure that every component works the way it&#x27;s supposed to so that users have a good experience. Frontend development is in</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">JavaScript Modules – A Beginner&#x27;s Guide</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/javascript-modules-beginners-guide/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>JavaScript modules (also known as ES modules or ECMAScript modules) were created to help make JavaScript code more organized and maintainable. Understanding how ES modules work will help you become a better JavaScript developer. In this article, we&#x27;ll cover: What is a module?What are ES modules? Why do we</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Linked Lists in Technical Interviews</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/linked-lists-in-technical-interviews/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>A linked list is a common data structure used in software development. It is also a frequent topic in technical coding interviews. We just published a course on the freeCodeCamp.org YouTube channel that will teach you all about linked lists and prepare you to use them in coding interviews</span>
                   </div>
                 </a>
               </details>
@@ -930,48 +842,15 @@ more…</span>
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://staysaasy.com/">Stay SaaSy</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">React Router Version 6 Tutorial – How to Set Up Router and Route to Other Components</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-use-react-router-version-6/">
+                <summary class="article-expander__title">Managers Should Optimize Job Satisfaction, Not Happiness</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://staysaasy.com/management/2021/12/14/Happy.html">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>In this tutorial, we&#x27;ll talk about what React Router is and how to use it. Then we&#x27;ll discuss its features and how to use them in your React app to navigate to and render multiple components.  PrerequisitesA React appA good understanding of what components are in React. Node.js installed.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Use the .github Repository</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-use-the-dot-github-repository/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>GitHub has many special repositories, like the README in your profile. You can get creative and add all sorts of helpful information there. Another special repository is the .github repository. This might remind you of the .github directory in repositories which house workflows, issue templates, pull request templates, funding information,</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Build a Secure Server with Node.js and Express and Upload Images with Cloudinary</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/build-a-secure-server-with-node-and-express/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(9 min)</span>
-                    <span>In this tutorial, we will learn how to create a server. We will begin without express and then strengthen the server using express. After that, we will see how to upload images to Cloudinary from the app we have created. I assume that you already understand the basics of Node.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Securing Your Apps - What is DevSecOps?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-devsecops/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Every day major companies have vulnerabilities exploited in their software. It is important to learn how to protect your applications against data breaches.  In this article you all about DevSecOps and web security. There is a video course that goes along with this article. The article focuses on the definitions</span>
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>Lord, grant me the strength to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.</span>
                   </div>
                 </a>
               </details>
@@ -1069,83 +948,22 @@ Communities prior to the advent of coinage didn’t seek to set…</span>
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-11">2021-12-11</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://christine.website/blog">Xe&#x27;s Blog</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">How to Scale a Distributed System</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-scale-a-distributed-system/">
+                <summary class="article-expander__title">&quot;Open Source&quot; is Broken</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://christine.website/blog/open-source-broken-2021-12-11">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>Designing a distributed system that supports millions of users is a complex task, and one that requires continuous improvement and refinement.  Recently I read a book by Alex Xu called &quot;System Design Interview – An Insider&#x27;s Guide&quot;. This article, inspired by the first part of the book, shares some popular techniques</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Python Requests – How to Interact with Web Services using Python</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-interact-with-web-services-using-python/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(11 min)</span>
-                    <span>An API, or Application Programming Interface, is a server that lets you retrieve and send data using code. We mostly commonly use APIs to retrieve data, and that will be the focus of this beginner-friendly tutorial. When we want to receive data from an API, we need to make a</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">JavaScript Classes – How They Work with Use Case Example</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/javascript-classes-how-they-work-with-use-case/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(12 min)</span>
-                    <span>In this blog post I&#x27;ll walk you through a real life example which uses the concept of classes in Javascript.  I think it&#x27;s helpful to work with a practical use case because it is much simpler to understand the concepts when you can relate them to real life.  So in</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Solo Freelancing vs Agency – What&#x27;s The Difference?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/solo-freelancing-vs-agency/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>People often ask me: Should I present myself as a solo freelancer or as an agency?In this article I will explore this idea with you and hopefully leave you with a clearer sense of direction. TL;DR: You can do both. The Benefits of Solo vs Agency FreelancingWhether you</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Share Screen on Android – How to Cast my Screen with a Windows 10 PC</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/share-screen-on-android-how-to-cast-my-screen-with-a-windows-10-pc/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Screencasting is a cool feature that was built into the Windows 10 Anniversary update in 2019.  It&#x27;s also called Wireless Display. It lets you project your phone display to a Windows 10 computer – which can help you out in a lot of ways, especially if you’re a YouTuber.  Getting</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn Python – Free Python Courses for Beginners</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-python-free-python-courses-for-beginners/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>Python is a great programming language to learn and you can use it in a variety of areas in software development.  You can use Python for web development, data analysis, machine learning, artificial intelligence, and more. In this article, I will list out 15 free Python courses for beginners.  Learn</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Become a Full Stack Developer with Svelte, Postgres, Vercel, and Gitpod</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/become-a-full-stack-developer-with-svelte/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Full stack web development includes the backend that happens on a server and the frontend that happens on a web browser. New tools are making it easier than ever to create a full stack web app. We just published a full stack web development course on the freeCodeCamp.org YouTube</span>
+                    <span class="article-reading-time">(10 min)</span>
+                    <span>Posted on 2021-12-11</span>
                   </div>
                 </a>
               </details>
@@ -1157,6 +975,40 @@ Communities prior to the advent of coinage didn’t seek to set…</span>
   <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2021-12-10">2021-12-10</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Announcing the winners of the Building Tools to Enhance Transparency in Fairness and Privacy RFP</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-building-tools-to-enhance-transparency-in-fairness-and-privacy-rfp/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>In August, Meta, formerly known as Facebook, launched the Building Tools to Enhance Transparency in Fairness and Privacy request for proposals (RFP). Today, we’re announcing the winners of this award.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://staysaasy.com/">Stay SaaSy</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Debugging My Work Health</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://staysaasy.com/lifestyle/2021/12/10/debugging-my-work-health.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Over the last two years I’ve struggled with the Zoom-heavy work style of the covid WFH world. As early as Spring 2020 I started to realize that I was feeling significantly more stress at work. To help combat burnout, I decided to debug my overall work health and spent several months experimenting with different processes and rituals to improve my overall well-being.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
@@ -1175,61 +1027,28 @@ Such basic curiosity of trying to really understand what someone else might actu
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-09">2021-12-09</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">Engineering – The GitHub Blog</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">How to Market Your Mobile App On a Budget</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-market-your-mobile-app-on-a-budget/">
+                <summary class="article-expander__title">Introducing stack graphs</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2021-12-09-introducing-stack-graphs/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Building an app is a difficult task in itself. From conceptualization, to market research, design, and development, it takes a whole lot of resources. But if you are making something for the public, you know building it is only half of the work, right? If you want your app to</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Build a GUI Quiz App Using Tkinter and Open Trivia DB</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-create-a-gui-quiz-application-using-tkinter-and-open-trivia-db/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(10 min)</span>
-                    <span>In this article, we&#x27;ll learn to build a Graphical User Interface (GUI) Quiz Application using the Tkinter Python built-in module.  The task is to ask multiple-choice questions, collect user answers, and finally display the results.  Before coding the GUI, we&#x27;ll first see how to fetch multiple-choice questions, their correct answers,</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">SVG Tutorial – How to Code Images with 7 Examples</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/svg-tutorial-learn-to-code-images/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Have you ever needed an icon for your website, but you couldn&#x27;t quite find the right one? Or perhaps you wanted to have a simple diagram, but didn&#x27;t want to learn a whole new library just for that?  Well, good news – you can do all that and more without ever</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Print Statement in Python – How to Print with Example Syntax Command</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/print-statement-in-python-how-to-print-with-example-syntax-command/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>How to print out information is one of the first things you learn as a beginner programmer.  This article goes over what you need to know about printing in Python, and we&#x27;ll look at plenty of code examples along the way.  Let&#x27;s get started!  What is print used for? Printing</span>
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>Precise code navigation is powered by stack graphs, a new open source framework that lets you define the name binding rules for a programming language.</span>
                   </div>
                 </a>
               </details>
             </article>
         </section>
       </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-09">2021-12-09</time></h2>
-    <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://martinfowler.com/feed.atom">Martin Fowler</a></h3>
@@ -1269,6 +1088,34 @@ more…</span>
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Announcing the winners of the City-Scale 3D Map Making with Mapillary Metropolis request for proposals</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-city-scale-3d-map-making-with-mapillary-metropolis-request-for-proposals/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>In July 2021, Meta launched the Benchmarking City-Scale 3D Map Making with Mapillary Metropolis request for proposals (RFP). Today, we’re...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Improving experiment precision with machine learning</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/improving-experiment-precision-with-machine-learning/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The challenge of noise in experiments Experimentation is a central part of data-driven product development, yet in practice the results...</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/jason">Jason Fried</a></h3>
           <section class="articles-per-source">
             <article>
@@ -1283,78 +1130,6 @@ Writing. Long-form, complete-thought, considered writing. We write a lot at Base
 Since long-form writing is an asynchronous form of communication, people can publish thoughts when they&#x27;re ready, and others can read them, consider them, and respond to them when they have time. No synchronization of schedules required, no pulling people off their work to sit around a table (or show their face in a box on the screen), and none of the FOMO or stress that&#x27;s tied to real-time communication like group chat. 
 Long-form writing takes many forms at Basecamp, but &quot;Heartbeats&quot; are a prime example.
 Heartbeat…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn JavaScript – Free JS Courses for Beginners</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-javascript-free-js-courses-for-beginners/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>JavaScript is a popular programming language used for building web applications, among many other things.  In this article, I will provide a list of free online resources where you can start learning JavaScript. After you have learned the basics then you can start building beginner friendly projects.  JavaScript Algorithms and</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Python Project – How to Build Tony Stark&#x27;s JARVIS with Python</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/python-project-how-to-build-your-own-jarvis-using-python/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(14 min)</span>
-                    <span>Do you remember J.A.R.V.I.S., Tony Stark&#x27;s virtual personal assistant? If you&#x27;ve seen any of the Ironman or Avengers movies, I&#x27;m sure you do. Have you ever wondered whether you could create your own personal assistant? Yes? Tony Stark can help us with that!  Oops, did</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Merge Dictionaries in Python</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/merge-dictionaries-in-python/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>In Python, a dictionary is a collection you use to store data in {key:value} pairs. It is ordered and mutable, and it cannot store duplicate data.  We write a dictionary using curly brackets like this: my_dict &#x3D; {     &quot;id&quot;: 1,     &quot;name&quot;: &quot;Ashutosh&quot;,     &quot;books&quot;: [&quot;Python&quot;, &quot;DSA&quot;] } Sometimes, we need to merge</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Build a Dark Mode Switcher With Tailwind CSS and Flowbite</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-build-a-dark-mode-switcher-with-tailwind-css-and-flowbite/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(8 min)</span>
-                    <span>Dark mode is starting to become a requirement rather that a nice-to-have feature like it was back in the day. It gives users the option to choose a theme that&#x27;s comfortable for them, whether they&#x27;re working during the day or at night. If you haven&#x27;t already heard, Tailwind CSS is</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn SQL – Free Relational Database Courses for Beginners</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-sql-free-relational-database-courses-for-beginners/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>SQL (Structured Query Language) is a popular programming language used for relational databases. And there are many good free resources you can use to start learning it. In this article, I will list out 8 free online beginner-friendly resources to learn SQL, PostgreSQL, and MySQL. Free SQL CoursesRelational Database Curriculum</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Can you code on a phone?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/can-you-code-on-a-phone/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(26 min)</span>
-                    <span>More than half of people worldwide access the internet using mobile devices instead of desktop computers. And if you only have a mobile device, you can still learn to code! We just published a tutorial on the freeCodeCamp.org YouTube channel that will teach you how to code on an</span>
                   </div>
                 </a>
               </details>
@@ -1400,6 +1175,23 @@ Finally, we wanted to thank everyone who helped develop, polish, and test the su
       </li>
       <li class="source">
         <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://github.blog">Engineering – The GitHub Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Improving GitHub code search</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://github.blog/2021-12-08-improving-github-code-search/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>Today, we are rolling out a technology preview for GitHub code search, the next iteration for search, discovery, and navigation on GitHub.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://martinfowler.com/feed.atom">Martin Fowler</a></h3>
           <section class="articles-per-source">
             <article>
@@ -1420,15 +1212,15 @@ more…</span>
       </li>
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">There Was a Problem with Resetting Your PC [Reset PC Fixed on Windows 10]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/there-was-a-problem-with-resetting-your-pc-reset-pc-fixed-on-windows-10/">
+                <summary class="article-expander__title">Shops on Facebook and Instagram: Understanding relationships between products to improve buyer and seller experience</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/shops-on-facebook-and-instagram-understanding-relationships-between-products-to-improve-buyer-and-seller-experience/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>There are a number of reasons why you might want to reset your PC. From malware attacks to bad PC health, or maybe you just want to start afresh – the list goes on.  When you&#x27;re resetting your PC, you might get the error &quot;There was a problem resetting your</span>
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>This Research in Brief summarizes various projects carried out by co-authors Yaniv Sheena and Oren Sar Shalom, along with their...</span>
                   </div>
                 </a>
               </details>
@@ -1485,94 +1277,40 @@ That might sound bitter, but I say it with a…</span>
             </article>
         </section>
       </li>
+    </ul>
+  </section>
+  <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2021-12-06">2021-12-06</time></h2>
+    <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="http://jvns.ca/atom.xml">Julia Evans</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">The 2021 New Coder Survey – More than 18,000 People Share How and Why They are Learning to Code</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/2021-new-coder-survey-18000-people-share-how-theyre-learning-to-code/">
+                <summary class="article-expander__title">DNS &quot;propagation&quot; is actually caches expiring</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/">
                   <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(6 min)</span>
-                    <span>More than 18,000 people responded to the 2021 freeCodeCamp New Coder Survey. This grants us all significant insight into how thousands of people all around the world are learning to code, and why they are choosing to do so.  We’ve released the entire dataset of participants’ responses to</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Code Splitting in React – Loadable Components to the Rescue</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/code-splitting-in-react-loadable-components/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Code splitting is a way to split up your code from a large file into smaller code bundles. These can then be requested on demand or in parallel.  Now, it isn&#x27;t a new concept, but it can be tricky to understand. When you&#x27;re doing code splitting, it is important to</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Full Bootstrap 5 Tutorial for Beginners</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/full-bootstrap-5-tutorial-for-beginners/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>Bootstrap is the most popular CSS framework. It allows web developers to quickly design and customize responsive mobile-first sites. We just published a 3-hour course on the freeCodeCamp.org YouTube channel that will teach you how to use Bootstrap 5. Dawid Adach developed this course. Dawid has been working with</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Python Print Variable – How to Print a String and Variable</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(5 min)</span>
-                    <span>Python is a versatile and flexible language – there is often more than one way to achieve something.  In this tutorial, you&#x27;ll see some of the ways you can print a string and a variable together.  Let&#x27;s get started!  How to use the print() function in Python To print anything in</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Technical Certification Guide – Are They Worth It, and How to Choose One</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/technical-certification-guide/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>If you&#x27;ve been wondering whether you should go for a technical certification or not, then this article is for you.  In it, I will share with you how I approach such dilemmas to help you decide what to pursue.  Why You Should Get Technical Certifications The main reasons to get</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">TypeScript Literal and Collective Types</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/typescript-literal-and-collective-types/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>TypeScript offers us a level of &quot;safety&quot; in our code by adding static types. We can guarantee that certain properties or functions are present in our code by making them conform to types. This can hugely reduce the amount of client-side errors you might have in your website, because it</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Build a TodoApp using ReactJS, NextJS, and Supabase</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-build-a-todoapp-using-react-and-supabase/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(25 min)</span>
-                    <span>Hello folks, welcome to this tutorial. Today we&#x27;re going to build a production-ready Todo application with React, Next, and Supabase. Before we begin, you should be familiar with the basics of React.js and Next.js to get the most out of this guide.  If you&#x27;re not and need to</span>
+                    <span class="article-reading-time">(7 min)</span>
+                    <span>Hello! Yesterday I tweeted this:
+
+I feel like the term &quot;DNS propagation&quot; is misleading, like you&#x27;re not actually waiting for DNS records to &quot;propagate&quot;, you&#x27;re waiting for cached records to expire
+— 🔎Julia Evans🔍 (@b0rk) December 5, 2021
+ 
+and I want to talk about it a little more. This came up because I was showing a
+friend a demo of how DNS caching works last week, and he realized that what was
+happening in the demo didn’t line up with his mental model of how DNS worked.
+He immediately brought this up and adjusted his mental model (“oh, DNS records are
+pulled, not pushed!“). But this it got me thinking – why did my very
+smart and experienced friend have an inaccurate mental model for how DNS works
+in the first place?
+First – I’m very tired of posts that complain about how people are “w…</span>
                   </div>
                 </a>
               </details>
             </article>
         </section>
       </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-06">2021-12-06</time></h2>
-    <ul class="sources card">
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://plaintextproject.online">The Plain Text Project</a></h3>
@@ -1584,45 +1322,6 @@ That might sound bitter, but I say it with a…</span>
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(3 min)</span>
                     <span>Some advice that can help you choose the right text editor for you</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">What is Type Erasure in TypeScript?</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/what-is-type-erasure-in-typescript/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>TypeScript is a transpiled language, and there is a step in the process called type erasure. So what exactly is transpiling, and what is type erasure? Higher Level vs Lower Level Programming LanguagesBefore we explain further, we have to understand higher and lower level languages. Higher level languages are more</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How to Get Rid of the Activate Windows Watermark [Windows 10 PC Activation Message Removal]</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/how-to-get-rid-of-the-activate-windows-watermark-windows-10-pc-activation-message-removal/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>If you&#x27;re a Windows user, you might have seen the &quot;Activate Windows&quot; message that displays over every other thing – including your cursor. I guess they gave it a z-index of infinity.  This message gets displayed when you use a Windows OS that has an invalid or expired license.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Learn How to Build Apps From a Business Perspective</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/learn-how-to-build-apps-from-a-business-perspective/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>There is way more to building successful apps than just coding. In fact, coding is often the easiest part. There are many business considerations that are extremely important. We just published an 8-hour course on the freeCodeCamp.org YouTube channel that will teach you the business of building apps.  Shad</span>
                   </div>
                 </a>
               </details>
@@ -1655,19 +1354,63 @@ The underscore is quite a versatile tool. They even have their place in defining
     </ul>
   </section>
   <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-03">2021-12-03</time></h2>
+    <h2 class="daily-heading"><time datatime="2021-12-04">2021-12-04</time></h2>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://www.freecodecamp.org/news">freeCodeCamp.org</a></h3>
+          <h3 class="source-name"><a class="source-name__link" href="http://jvns.ca/atom.xml">Julia Evans</a></h3>
           <section class="articles-per-source">
             <article>
               <details class="article-expander">
-                <summary class="article-expander__title">Mistakes Every Programmer Makes When Learning to Code – and How to Fix Them</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://www.freecodecamp.org/news/mistakes-programmers-make-when-coding-and-how-to-fix-them/">
+                <summary class="article-expander__title">How to use dig</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/2021/12/04/how-to-use-dig/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>Hello! I talked to a couple of friends recently who mentioned they wished they knew
+how to use dig to make DNS queries, so here’s a quick blog post about it.
+When I first started using dig I found it a bit intimidating – there are so
+many options! I’m going to leave out most of dig’s options in this post and just
+talk about the ones I actually use.
+Also I learned recently that you can set up a .digrc configuration file to make its output
+easier to read and it makes it SO MUCH nicer to use.
+I also drew a zine page about dig a few years ago, but I wanted to write this post to include a bit more information.
+2 types of dig arguments: query and formatting
+There are 2 main types of arguments you can pass to dig:
+arguments that tell dig what DNS query to make
+arguments that tell dig how to forma…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://nullprogram.com">null program</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Fast CSV processing with SIMD</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2021/12/04/">
                   <div class="article-summary-box-inner">
                     <span class="article-reading-time">(6 min)</span>
-                    <span>As programmers, we will inevitably make mistakes. Even the most accomplished specialists make them. But you&#x27;ll become a better programmer faster if you don&#x27;t make the same mistakes over and over. There are many types of mistakes you might make when you&#x27;re coding. The majority of them usually come from</span>
+                    <span>This article was discussed on Hacker News.
+I recently learned of csvquote, a tool that encodes troublesome
+CSV characters such that unix tools can correctly process them. It
+reverses the encoding at the end of the pipeline, recovering the original
+input. The original implementation handles CSV quotes using the
+straightforward, naive method. However, there’s a better approach that is
+not only simpler, but around 3x faster on modern hardware. Even more,
+there’s yet another approach using SIMD intrinsics, plus some bit
+twiddling tricks, which increases the processing speed by an order of
+magnitude. My csvquote implementation includes both
+approaches.
+Background
+Records in CSV data are separated by line feeds, and fields are separated
+by commas. Fields may be quoted.
+
+aaa,bbb,ccc
+xxx,&quot;yyy&quot;,zzz…</span>
                   </div>
                 </a>
               </details>
@@ -1678,7 +1421,7 @@ The underscore is quite a versatile tool. They even have their place in defining
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-01-02T00:59:25.308Z">2022-01-02T00:59:25.308Z</time>
+    <time id="build-timestamp" datetime="2022-01-02T05:03:20.070Z">2022-01-02T05:03:20.070Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.11.3</a></span>
   </footer>
   <script src="index.js"></script>
