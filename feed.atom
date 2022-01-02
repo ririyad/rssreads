@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-01T00:58:23.317Z</updated>
+    <updated>2022-01-02T00:59:25.331Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Should you vaccinate your kids?]]></title>
+        <id>https://world.hey.com/dhh/should-you-vaccinate-your-kids-16933c37</id>
+        <link href="https://world.hey.com/dhh/should-you-vaccinate-your-kids-16933c37"/>
+        <updated>2022-01-01T23:27:52.000Z</updated>
+        <summary type="html"><![CDATA[On the face of it, this seems like a basic medical question. One where reasonable people can weigh the same trade offs, yet arrive at different conclusions. And, as foreign as that might seem to Americans at the moment, that's largely how this question has been tackled in Denmark in the public forum so far.
+There are Danish pediatricians arguing that the determining factor should be that kids themselves don't stand to benefit much from the vaccine. That the Danish principle on vaccines has up until this point weighed protecting the vaccinated themselves as the number one goal. And thus Denmark should not recommend the vaccine for kids broadly.
+Then there are the health authorities saying that regardless of whether the vaccines are likely to help the individual kid, it's important that they…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[A Free Accredited Bachelor&#x27;s Degree in Computer Science – How Do We Get There?]]></title>
         <id>61cb5f2f755c16082490be2f</id>
@@ -1132,56 +1144,6 @@ The underscore is quite a versatile tool. They even have their place in defining
         <link href="https://www.freecodecamp.org/news/mistakes-programmers-make-when-coding-and-how-to-fix-them/"/>
         <updated>2021-12-03T19:14:57.000Z</updated>
         <summary type="html"><![CDATA[As programmers, we will inevitably make mistakes. Even the most accomplished specialists make them. But you'll become a better programmer faster if you don't make the same mistakes over and over. There are many types of mistakes you might make when you're coding. The majority of them usually come from]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Protect Yourself Against SIM Swapping Attacks]]></title>
-        <id>5fff3e8b98be260817e495e9</id>
-        <link href="https://www.freecodecamp.org/news/protect-yourself-against-sim-swapping-attacks/"/>
-        <updated>2021-12-02T20:05:26.000Z</updated>
-        <summary type="html"><![CDATA[What is a SIM swap?SIM swapping is when a hacker convinces your cell phone carrier to switch your phone number to a different SIM - one that they own.  This is a relatively normal thing for a retail employee to do, which means that someone asking for a swap]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use Mixins in Sass and Pass Arguments – With Code Examples]]></title>
-        <id>61951bb111d3cb08287a7bae</id>
-        <link href="https://www.freecodecamp.org/news/how-to-pass-arguments-to-mixins/"/>
-        <updated>2021-12-02T18:45:59.000Z</updated>
-        <summary type="html"><![CDATA[Mixins are my favorite thing about Sass. They made my life so much easier, so I wanted to show you how they can do the same for you. Mixins can be a bit tricky to understand at first, but don't worry. You'll get the hang of it by practicing and]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Make a Simple Async GET REST API call in SwiftUI]]></title>
-        <id>61a683330c0c7407b2b3e88f</id>
-        <link href="https://www.freecodecamp.org/news/make-rest-api-call-in-swiftui-in-2-minutes/"/>
-        <updated>2021-12-02T18:32:23.000Z</updated>
-        <summary type="html"><![CDATA[In this tutorial for beginners, you will learn the basics of using SwiftUI to make API calls using the popular Internet Chuck Norris DataBase (ICNDB) as an example. It will display a joke quickly and easily using Swift and SwiftUI.  You'll see how the cross-platform framework SwiftUI lets us use]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RTC Connecting Discord – How to Fix the Server Error]]></title>
-        <id>61a8e0bb0c0c7407b2b3f52a</id>
-        <link href="https://www.freecodecamp.org/news/rtc-connecting-discord-how-to-fix-the-server-error/"/>
-        <updated>2021-12-02T17:10:47.000Z</updated>
-        <summary type="html"><![CDATA[Discord is an instant messaging app that lets you communicate through voice, video, and texts. It is available in a web-based form, a desktop app, and a mobile app.  But sometimes, when you're trying to establish a voice call connection, you'll get an error that says “RTC Connecting Discord”. This]]></summary>
-        <author>
-            <name>freeCodeCamp.org</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use Redux for Application-Wide State Management]]></title>
-        <id>61a0677125888a07c3e1b835</id>
-        <link href="https://www.freecodecamp.org/news/how-to-use-redux-for-application-wide-state-management/"/>
-        <updated>2021-12-02T15:47:07.000Z</updated>
-        <summary type="html"><![CDATA[Let's face it – state management across multiple components isn't easy. Sometimes we might set up the state or logic handling properly, but fail to consume the states. Or we might get everything working, but clutter up the codebase in the process, making it hard to read, adapt, and extend.   The]]></summary>
         <author>
             <name>freeCodeCamp.org</name>
         </author>
