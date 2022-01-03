@@ -593,15 +593,6 @@
           "publishedOn": "2021-12-30T23:25:53.000Z",
           "wordCount": 1664,
           "title": "Some sanity for C and C++ development on Windows"
-        },
-        {
-          "id": "https://nullprogram.com/blog/2021/12/04/",
-          "author": null,
-          "description": "This article was discussed on Hacker News.\nI recently learned of csvquote, a tool that encodes troublesome\nCSV characters such that unix tools can correctly process them. It\nreverses the encoding at the end of the pipeline, recovering the original\ninput. The original implementation handles CSV quotes using the\nstraightforward, naive method. However, there’s a better approach that is\nnot only simpler, but around 3x faster on modern hardware. Even more,\nthere’s yet another approach using SIMD intrinsics, plus some bit\ntwiddling tricks, which increases the processing speed by an order of\nmagnitude. My csvquote implementation includes both\napproaches.\nBackground\nRecords in CSV data are separated by line feeds, and fields are separated\nby commas. Fields may be quoted.\n\naaa,bbb,ccc\nxxx,\"yyy\",zzz…",
-          "link": "https://nullprogram.com/blog/2021/12/04/",
-          "publishedOn": "2021-12-04T01:13:33.000Z",
-          "wordCount": 1705,
-          "title": "Fast CSV processing with SIMD"
         }
       ]
     },
@@ -610,6 +601,15 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/vrchat-avatar-to-vrm-vtubing-2022-01-02",
+          "author": null,
+          "description": "Posted on 2022-01-02",
+          "link": "https://christine.website/blog/vrchat-avatar-to-vrm-vtubing-2022-01-02",
+          "publishedOn": "2022-01-02T00:00:00.000Z",
+          "wordCount": 1843,
+          "title": "Converting a VRChat Avatar to VRM Format for VTubing"
+        },
         {
           "id": "https://christine.website/blog/excited-for-2022-2021-12-28",
           "author": null,
@@ -713,15 +713,6 @@
           "publishedOn": "2021-12-06T09:44:31.000Z",
           "wordCount": 2220,
           "title": "DNS \"propagation\" is actually caches expiring"
-        },
-        {
-          "id": "https://jvns.ca/blog/2021/12/04/how-to-use-dig/",
-          "author": null,
-          "description": "Hello! I talked to a couple of friends recently who mentioned they wished they knew\nhow to use dig to make DNS queries, so here’s a quick blog post about it.\nWhen I first started using dig I found it a bit intimidating – there are so\nmany options! I’m going to leave out most of dig’s options in this post and just\ntalk about the ones I actually use.\nAlso I learned recently that you can set up a .digrc configuration file to make its output\neasier to read and it makes it SO MUCH nicer to use.\nI also drew a zine page about dig a few years ago, but I wanted to write this post to include a bit more information.\n2 types of dig arguments: query and formatting\nThere are 2 main types of arguments you can pass to dig:\narguments that tell dig what DNS query to make\narguments that tell dig how to forma…",
-          "link": "https://jvns.ca/blog/2021/12/04/how-to-use-dig/",
-          "publishedOn": "2021-12-04T08:44:04.000Z",
-          "wordCount": 1497,
-          "title": "How to use dig"
         }
       ]
     },

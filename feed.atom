@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-02T05:03:20.091Z</updated>
+    <updated>2022-01-03T00:56:50.904Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Converting a VRChat Avatar to VRM Format for VTubing]]></title>
+        <id>https://christine.website/blog/vrchat-avatar-to-vrm-vtubing-2022-01-02</id>
+        <link href="https://christine.website/blog/vrchat-avatar-to-vrm-vtubing-2022-01-02"/>
+        <updated>2022-01-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-01-02]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Should you vaccinate your kids?]]></title>
         <id>https://world.hey.com/dhh/should-you-vaccinate-your-kids-16933c37</id>
@@ -818,53 +828,6 @@ First – I’m very tired of posts that complain about how people are “w…]]
 The underscore is quite a versatile tool. They even have their place in defining the kind of action that will take place in a function.]]></summary>
         <author>
             <name>GolangCode</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use dig]]></title>
-        <id>https://jvns.ca/blog/2021/12/04/how-to-use-dig/</id>
-        <link href="https://jvns.ca/blog/2021/12/04/how-to-use-dig/"/>
-        <updated>2021-12-04T08:44:04.000Z</updated>
-        <summary type="html"><![CDATA[Hello! I talked to a couple of friends recently who mentioned they wished they knew
-how to use dig to make DNS queries, so here’s a quick blog post about it.
-When I first started using dig I found it a bit intimidating – there are so
-many options! I’m going to leave out most of dig’s options in this post and just
-talk about the ones I actually use.
-Also I learned recently that you can set up a .digrc configuration file to make its output
-easier to read and it makes it SO MUCH nicer to use.
-I also drew a zine page about dig a few years ago, but I wanted to write this post to include a bit more information.
-2 types of dig arguments: query and formatting
-There are 2 main types of arguments you can pass to dig:
-arguments that tell dig what DNS query to make
-arguments that tell dig how to forma…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fast CSV processing with SIMD]]></title>
-        <id>https://nullprogram.com/blog/2021/12/04/</id>
-        <link href="https://nullprogram.com/blog/2021/12/04/"/>
-        <updated>2021-12-04T01:13:33.000Z</updated>
-        <summary type="html"><![CDATA[This article was discussed on Hacker News.
-I recently learned of csvquote, a tool that encodes troublesome
-CSV characters such that unix tools can correctly process them. It
-reverses the encoding at the end of the pipeline, recovering the original
-input. The original implementation handles CSV quotes using the
-straightforward, naive method. However, there’s a better approach that is
-not only simpler, but around 3x faster on modern hardware. Even more,
-there’s yet another approach using SIMD intrinsics, plus some bit
-twiddling tricks, which increases the processing speed by an order of
-magnitude. My csvquote implementation includes both
-approaches.
-Background
-Records in CSV data are separated by line feeds, and fields are separated
-by commas. Fields may be quoted.
-
-aaa,bbb,ccc
-xxx,"yyy",zzz…]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>
