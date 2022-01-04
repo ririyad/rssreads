@@ -48,7 +48,7 @@
       "articles": []
     },
     {
-      "title": "The acme of foolishness",
+      "title": "Dave Cheney",
       "feedUrl": "https://dave.cheney.net/feed/atom",
       "siteUrl": "https://dave.cheney.net",
       "articles": []
@@ -58,6 +58,15 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/celebrating-the-silence-of-high-uptimes-056c4887",
+          "author": null,
+          "description": "It was a very loud year, 2021. Which makes the satisfying silence of technical incidents at Basecamp all the more of a celebration. In the year that went, every single application we offer had at least 99.99% uptime! This is through repeated AWS outages, zero-day security alerts, and the drama of the world in those twelve months.\nBut it gets better. Basecamp 3 had an uptime of 99.997%. HEY pipped it by a point with 99.998% uptime. And Basecamp 2 hit the mythical five nines with 99.999% uptime! I believe that is the best reliability record we've ever achieved for a full year in our almost twenty year history as a software company. Worth a toast!\nIt's the result of years of investments in things like active-active double data center deployments for our on-premise apps like Basecamp 2 and 3. …",
+          "link": "https://world.hey.com/dhh/celebrating-the-silence-of-high-uptimes-056c4887",
+          "publishedOn": "2022-01-03T16:23:20.000Z",
+          "wordCount": 473,
+          "title": "Celebrating the silence of high uptimes"
+        },
         {
           "id": "https://world.hey.com/dhh/should-you-vaccinate-your-kids-16933c37",
           "author": null,
@@ -198,6 +207,15 @@
       "feedUrl": "https://plaintextproject.online/feed.xml",
       "siteUrl": "https://plaintextproject.online",
       "articles": [
+        {
+          "id": "https://plaintextproject.online/articles/2022/01/04/apostrophe.html",
+          "author": null,
+          "description": "An introduction to a lean, flexible Markdown editor",
+          "link": "https://plaintextproject.online/articles/2022/01/04/apostrophe.html",
+          "publishedOn": "2022-01-04T19:00:00.000Z",
+          "wordCount": 999,
+          "title": "Writing in Markdown with Apostrophe"
+        },
         {
           "id": "https://plaintextproject.online/articles/2021/12/28/links.html",
           "author": null,
