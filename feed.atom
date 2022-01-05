@@ -2,10 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-04T00:57:29.793Z</updated>
+    <updated>2022-01-05T00:59:11.522Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[It could be worse]]></title>
+        <id>https://world.hey.com/dhh/it-could-be-worse-3833156b</id>
+        <link href="https://world.hey.com/dhh/it-could-be-worse-3833156b"/>
+        <updated>2022-01-04T23:57:17.000Z</updated>
+        <summary type="html"><![CDATA[I grew up with persistent reminders of how any bad thing that happened could easily have been worse. Oh, you scraped your knee? It could be worse, you could have broken your leg! Oh, you broke your leg? It could be worse, you could have cracked your skull! Oh, you cracked your skull? It could be worse, you could have died!
+It wasn't just about physical setbacks either, but the social and mental ones too. Things inside of my control, things outside of my control. The way to make those setbacks and the inevitable suffering in life bearable was to constantly remind yourself that... it could be worse!
+Any student of Stoicism will recognize this pattern of mental fortification. It's closely related to negative visualization, just with a different timing. The underlying premise is the essence of Stoicism: We suffer more in our mind than in reality. And the ultimate resilience to face the struggles of living lies in controlling our reactions to the things that happen. Our reactions are not given. They can be changed.
+I wish there was more of that today. More "it could be worse". Less "this is the worst thing ever".]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why the hell not?]]></title>
+        <id>https://world.hey.com/jason/why-the-hell-not-8d2c8fbf</id>
+        <link href="https://world.hey.com/jason/why-the-hell-not-8d2c8fbf"/>
+        <updated>2022-01-04T21:23:17.000Z</updated>
+        <summary type="html"><![CDATA[Whenever I dive into something new, I try to find at least one “why the hell not?” moment. And when I can, I try to leave evidence of that moment in whatever it is that I’m building.
+
+When we launched our company (37signals) back in 1999, we launched a black and white, text-only site without a single piece of portfolio work to be found. All the other agencies we were competing with had very flashy pages, loaded with pictures of their work. So why black and white and text only? Because why the hell not lead with ideas rather than compete on pictures? We thought it could be better that way. It worked out well for us.
+
+One of my favorite why the hell not moments was when we were writing REWORK. One of the things that always bugs me about paper books is that you have to leaf through a dozen or…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Writing in Markdown with Apostrophe]]></title>
         <id>https://plaintextproject.online/articles/2022/01/04/apostrophe.html</id>
@@ -259,6 +286,16 @@ jorgemanrubia.com
 Photo by Oxa Roxa on Unsplash]]></summary>
         <author>
             <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[interview-with Nick Vamivakas, professor at Rochester University and Facebook academic collaborator]]></title>
+        <id>https://research.facebook.com/blog/2021/12/interview-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/</id>
+        <link href="https://research.facebook.com/blog/2021/12/interview-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/"/>
+        <updated>2021-12-22T09:06:00.000Z</updated>
+        <summary type="html"><![CDATA[In this Q&A, Vamivakas shares more about his research background, recent projects, the start of his collaboration with Facebook, his research interests, and his collaboration with Meta.]]></summary>
+        <author>
+            <name>Meta Research</name>
         </author>
     </entry>
     <entry>
@@ -817,39 +854,6 @@ more…]]></summary>
         <summary type="html"><![CDATA[Some advice that can help you choose the right text editor for you]]></summary>
         <author>
             <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DNS "propagation" is actually caches expiring]]></title>
-        <id>https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/</id>
-        <link href="https://jvns.ca/blog/2021/12/06/dns-doesn-t-propagate/"/>
-        <updated>2021-12-06T09:44:31.000Z</updated>
-        <summary type="html"><![CDATA[Hello! Yesterday I tweeted this:
-
-I feel like the term "DNS propagation" is misleading, like you're not actually waiting for DNS records to "propagate", you're waiting for cached records to expire
-— 🔎Julia Evans🔍 (@b0rk) December 5, 2021
- 
-and I want to talk about it a little more. This came up because I was showing a
-friend a demo of how DNS caching works last week, and he realized that what was
-happening in the demo didn’t line up with his mental model of how DNS worked.
-He immediately brought this up and adjusted his mental model (“oh, DNS records are
-pulled, not pushed!“). But this it got me thinking – why did my very
-smart and experienced friend have an inaccurate mental model for how DNS works
-in the first place?
-First – I’m very tired of posts that complain about how people are “w…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Underscores in Imports]]></title>
-        <id>https://golangcode.com/underscores-in-imports/</id>
-        <link href="https://golangcode.com/underscores-in-imports/"/>
-        <updated>2021-12-05T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Underscores in Imports Underscores in Go serve a few purposes. In U+005F, “_” is a letter (as a string). You may also see them as [ “_” ] in between successive digits and a base prefix. In this case, it’s to improve the readability of the code. You may also see them in function names, e.g., imaginary_lit.
-The underscore is quite a versatile tool. They even have their place in defining the kind of action that will take place in a function.]]></summary>
-        <author>
-            <name>GolangCode</name>
         </author>
     </entry>
 </feed>
