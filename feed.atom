@@ -2,10 +2,97 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-05T00:59:11.522Z</updated>
+    <updated>2022-01-06T01:03:19.221Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[It's harder hiring managers]]></title>
+        <id>https://world.hey.com/dhh/it-s-harder-hiring-managers-c0a41014</id>
+        <link href="https://world.hey.com/dhh/it-s-harder-hiring-managers-c0a41014"/>
+        <updated>2022-01-06T00:05:15.000Z</updated>
+        <summary type="html"><![CDATA[We just opened a position for a Director of Engineering to help us manage our rapidly expanding technical teams at Basecamp. We already have more programmers on staff than we've ever had, and we intend to double that crew within the next 12-18 months. We're going all-in on becoming a multi-product business again, and that means hiring the managers needed to to cope with those ambitions.
+Not just because of this rapid growth on the technical teams, but because the rest of the company is growing along with it. We'll be bigger than we've ever been this January, and before the end of the year, we'll be much bigger still. Wild to think that after almost twenty years in business, we're suddenly on a fast track to crack a hundred employees.
+It's even more interesting because eight years ago we st…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: December 2021]]></title>
+        <id>https://github.blog/2022-01-05-github-availability-report-december-2021/</id>
+        <link href="https://github.blog/2022-01-05-github-availability-report-december-2021/"/>
+        <updated>2022-01-05T21:34:45.000Z</updated>
+        <summary type="html"><![CDATA[In December, we experienced no incidents resulting in service downtime to our core services.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Faith in eventually]]></title>
+        <id>https://world.hey.com/jason/faith-in-eventually-2d17e90a</id>
+        <link href="https://world.hey.com/jason/faith-in-eventually-2d17e90a"/>
+        <updated>2022-01-05T21:31:17.000Z</updated>
+        <summary type="html"><![CDATA[Making something new takes patience. But it also takes faith. Faith that everything will work out in the end.
+
+During the development of most any product, there are always times when things aren’t quite right. Times when you feel like you may be going backwards a bit. Times where it’s almost there, but you can’t yet figure out why it isn’t. Times when you hate the thing today that you loved yesterday. Times when what you had in your head isn’t quite what you’re seeing in front of you. Yet. That’s when you need to have faith.
+
+There are designs that are close, but not there yet. There are obvious conflicts that will need to be resolved. There are lingering things that confound you, confuse you, or upset you, but you know that eventually they’ll work themselves out. Eventually you’ll find the right way to do something you’ve been struggling with.
+
+It’s hard to live with something that isn’t quite right yet – especially when it’s your job to get it right. It’s important to know when to say “it’s fine for now, but it won’t be fine for later.” Because moving forward is critical to getting somewhere. And, eventually, you’ll figure it all out. It’ll all work out in the end.
+
+This is what I’ve always believed, and have always tried to practice. A dedicated faith in the eventual resolution of a problem, the eventual execution of a concept, and the eventual realization of the right design. Even when something’s poking out you don’t like, or something isn’t aligning quite right, or the words aren’t as elegant as you’d hoped, or something just isn’t easy enough yet, you need to have confidence it’ll all come together eventually.
+
+Remember that what you’re making is in a perpetual state of almost right up until the end. And it's never right even after.
+
+In the meantime, you just press on and keep making things, trying things, and getting closer and closer to the time when you can tie the loose ends into a perfect bow and present it to the world. What fun it is!
+
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Paxos: using two consensus-building phases to handle unreliable                nodes]]></title>
+        <id>https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html</id>
+        <link href="https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html"/>
+        <updated>2022-01-05T15:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Unmesh Joshi is ready to start the New Year with a few
+      more of his Patterns of Distributed Systems. With this one he attempts the
+      tricky task of explaining Paxos. This is a well-known
+      protocol developed by Leslie Lamport, for nodes to reach a reliable
+      consensus when both they, and the network, are prone to unexpected
+      failure. Although it's well-known, it's also notoriously difficult to
+      understand, indeed we had considerable difficulty getting our heads around
+      it. We hope this description makes it a bit easier for those who follow
+      us.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why might you run your own DNS server?]]></title>
+        <id>https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/</id>
+        <link href="https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/"/>
+        <updated>2022-01-05T06:42:51.000Z</updated>
+        <summary type="html"><![CDATA[One of the things that makes DNS difficult to understand is that it’s
+decentralized. There are thousands (maybe hundreds of thousands? I don’t know!) of authoritative nameservers, and at least
+10 million resolvers.
+And they’re running lots of different software! All these different servers
+running software means that there’s a lot of inconsistency in how DNS works,
+which can cause all kinds of frustrating problems.
+But instead of talking about the problems, I’m interested in figuring out –
+why is it a good thing that DNS is decentralized?
+why is it good that DNS is decentralized?
+One reason is scalability – the decentralized design of DNS makes it
+easier to scale and more resilient to failures. I find it really amazing that
+DNS is still scaling well even though it’s almost 40 years old. Th…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[It could be worse]]></title>
         <id>https://world.hey.com/dhh/it-could-be-worse-3833156b</id>
@@ -41,6 +128,16 @@ One of my favorite why the hell not moments was when we were writing REWORK. One
         <summary type="html"><![CDATA[An introduction to a lean, flexible Markdown editor]]></summary>
         <author>
             <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bashing JSON into Shape with SQLite]]></title>
+        <id>https://christine.website/blog/sqlite-json-munge-2022-01-04</id>
+        <link href="https://christine.website/blog/sqlite-json-munge-2022-01-04"/>
+        <updated>2022-01-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-01-04]]></summary>
+        <author>
+            <name>Xe's Blog</name>
         </author>
     </entry>
     <entry>
@@ -844,16 +941,6 @@ That might sound bitter, but I say it with a…]]></summary>
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Choosing a Text Editor]]></title>
-        <id>https://plaintextproject.online/articles/2021/12/06/choosing.html</id>
-        <link href="https://plaintextproject.online/articles/2021/12/06/choosing.html"/>
-        <updated>2021-12-06T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Some advice that can help you choose the right text editor for you]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
         </author>
     </entry>
 </feed>

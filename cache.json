@@ -49,6 +49,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/it-s-harder-hiring-managers-c0a41014",
+          "author": null,
+          "description": "We just opened a position for a Director of Engineering to help us manage our rapidly expanding technical teams at Basecamp. We already have more programmers on staff than we've ever had, and we intend to double that crew within the next 12-18 months. We're going all-in on becoming a multi-product business again, and that means hiring the managers needed to to cope with those ambitions.\nNot just because of this rapid growth on the technical teams, but because the rest of the company is growing along with it. We'll be bigger than we've ever been this January, and before the end of the year, we'll be much bigger still. Wild to think that after almost twenty years in business, we're suddenly on a fast track to crack a hundred employees.\nIt's even more interesting because eight years ago we st…",
+          "link": "https://world.hey.com/dhh/it-s-harder-hiring-managers-c0a41014",
+          "publishedOn": "2022-01-06T00:05:15.000Z",
+          "wordCount": 693,
+          "title": "It's harder hiring managers"
+        },
+        {
           "id": "https://world.hey.com/dhh/it-could-be-worse-3833156b",
           "author": null,
           "description": "I grew up with persistent reminders of how any bad thing that happened could easily have been worse. Oh, you scraped your knee? It could be worse, you could have broken your leg! Oh, you broke your leg? It could be worse, you could have cracked your skull! Oh, you cracked your skull? It could be worse, you could have died!\nIt wasn't just about physical setbacks either, but the social and mental ones too. Things inside of my control, things outside of my control. The way to make those setbacks and the inevitable suffering in life bearable was to constantly remind yourself that... it could be worse!\nAny student of Stoicism will recognize this pattern of mental fortification. It's closely related to negative visualization, just with a different timing. The underlying premise is the essence of Stoicism: We suffer more in our mind than in reality. And the ultimate resilience to face the struggles of living lies in controlling our reactions to the things that happen. Our reactions are not given. They can be changed.\nI wish there was more of that today. More \"it could be worse\". Less \"this is the worst thing ever\".",
@@ -173,6 +182,15 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/faith-in-eventually-2d17e90a",
+          "author": null,
+          "description": "Making something new takes patience. But it also takes faith. Faith that everything will work out in the end.\n\nDuring the development of most any product, there are always times when things aren’t quite right. Times when you feel like you may be going backwards a bit. Times where it’s almost there, but you can’t yet figure out why it isn’t. Times when you hate the thing today that you loved yesterday. Times when what you had in your head isn’t quite what you’re seeing in front of you. Yet. That’s when you need to have faith.\n\nThere are designs that are close, but not there yet. There are obvious conflicts that will need to be resolved. There are lingering things that confound you, confuse you, or upset you, but you know that eventually they’ll work themselves out. Eventually you’ll find the right way to do something you’ve been struggling with.\n\nIt’s hard to live with something that isn’t quite right yet – especially when it’s your job to get it right. It’s important to know when to say “it’s fine for now, but it won’t be fine for later.” Because moving forward is critical to getting somewhere. And, eventually, you’ll figure it all out. It’ll all work out in the end.\n\nThis is what I’ve always believed, and have always tried to practice. A dedicated faith in the eventual resolution of a problem, the eventual execution of a concept, and the eventual realization of the right design. Even when something’s poking out you don’t like, or something isn’t aligning quite right, or the words aren’t as elegant as you’d hoped, or something just isn’t easy enough yet, you need to have confidence it’ll all come together eventually.\n\nRemember that what you’re making is in a perpetual state of almost right up until the end. And it's never right even after.\n\nIn the meantime, you just press on and keep making things, trying things, and getting closer and closer to the time when you can tie the loose ends into a perfect bow and present it to the world. What fun it is!\n\n\n-Jason",
+          "link": "https://world.hey.com/jason/faith-in-eventually-2d17e90a",
+          "publishedOn": "2022-01-05T21:31:17.000Z",
+          "wordCount": 387,
+          "title": "Faith in eventually"
+        },
+        {
           "id": "https://world.hey.com/jason/why-the-hell-not-8d2c8fbf",
           "author": null,
           "description": "Whenever I dive into something new, I try to find at least one “why the hell not?” moment. And when I can, I try to leave evidence of that moment in whatever it is that I’m building.\n\nWhen we launched our company (37signals) back in 1999, we launched a black and white, text-only site without a single piece of portfolio work to be found. All the other agencies we were competing with had very flashy pages, loaded with pictures of their work. So why black and white and text only? Because why the hell not lead with ideas rather than compete on pictures? We thought it could be better that way. It worked out well for us.\n\nOne of my favorite why the hell not moments was when we were writing REWORK. One of the things that always bugs me about paper books is that you have to leaf through a dozen or…",
@@ -241,15 +259,6 @@
           "publishedOn": "2021-12-15T19:00:00.000Z",
           "wordCount": 795,
           "title": "title"
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2021/12/06/choosing.html",
-          "author": null,
-          "description": "Some advice that can help you choose the right text editor for you",
-          "link": "https://plaintextproject.online/articles/2021/12/06/choosing.html",
-          "publishedOn": "2021-12-06T19:00:00.000Z",
-          "wordCount": 970,
-          "title": "Choosing a Text Editor"
         }
       ]
     },
@@ -264,6 +273,15 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html",
+          "author": null,
+          "description": "Unmesh Joshi is ready to start the New Year with a few\n      more of his Patterns of Distributed Systems. With this one he attempts the\n      tricky task of explaining Paxos. This is a well-known\n      protocol developed by Leslie Lamport, for nodes to reach a reliable\n      consensus when both they, and the network, are prone to unexpected\n      failure. Although it's well-known, it's also notoriously difficult to\n      understand, indeed we had considerable difficulty getting our heads around\n      it. We hope this description makes it a bit easier for those who follow\n      us.\nmore…",
+          "link": "https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html",
+          "publishedOn": "2022-01-05T15:53:00.000Z",
+          "wordCount": 3055,
+          "title": "Paxos: using two consensus-building phases to handle unreliable                nodes"
+        },
         {
           "id": "https://martinfowler.com/articles/2021-music.html",
           "author": null,
@@ -440,6 +458,15 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-01-05-github-availability-report-december-2021/",
+          "author": null,
+          "description": "In December, we experienced no incidents resulting in service downtime to our core services.",
+          "link": "https://github.blog/2022-01-05-github-availability-report-december-2021/",
+          "publishedOn": "2022-01-05T21:34:45.000Z",
+          "wordCount": 238,
+          "title": "GitHub Availability Report: December 2021"
+        },
         {
           "id": "https://github.blog/2021-12-16-technical-interviews-via-codespaces/",
           "author": null,
@@ -637,6 +664,15 @@
       "siteUrl": "https://christine.website/blog",
       "articles": [
         {
+          "id": "https://christine.website/blog/sqlite-json-munge-2022-01-04",
+          "author": null,
+          "description": "Posted on 2022-01-04",
+          "link": "https://christine.website/blog/sqlite-json-munge-2022-01-04",
+          "publishedOn": "2022-01-04T00:00:00.000Z",
+          "wordCount": 1623,
+          "title": "Bashing JSON into Shape with SQLite"
+        },
+        {
           "id": "https://christine.website/blog/vrchat-avatar-to-vrm-vtubing-2022-01-02",
           "author": null,
           "description": "Posted on 2022-01-02",
@@ -722,6 +758,15 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/",
+          "author": null,
+          "description": "One of the things that makes DNS difficult to understand is that it’s\ndecentralized. There are thousands (maybe hundreds of thousands? I don’t know!) of authoritative nameservers, and at least\n10 million resolvers.\nAnd they’re running lots of different software! All these different servers\nrunning software means that there’s a lot of inconsistency in how DNS works,\nwhich can cause all kinds of frustrating problems.\nBut instead of talking about the problems, I’m interested in figuring out –\nwhy is it a good thing that DNS is decentralized?\nwhy is it good that DNS is decentralized?\nOne reason is scalability – the decentralized design of DNS makes it\neasier to scale and more resilient to failures. I find it really amazing that\nDNS is still scaling well even though it’s almost 40 years old. Th…",
+          "link": "https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/",
+          "publishedOn": "2022-01-05T06:42:51.000Z",
+          "wordCount": 1858,
+          "title": "Why might you run your own DNS server?"
+        },
         {
           "id": "https://jvns.ca/blog/2021/12/31/2021--year-in-review/",
           "author": null,
