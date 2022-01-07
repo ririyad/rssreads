@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-06T01:03:19.221Z</updated>
+    <updated>2022-01-07T01:02:47.868Z</updated>
     <generator>osmosfeed 1.11.3</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Deployments: How we announce new features and updates internally at Basecamp]]></title>
+        <id>https://world.hey.com/jason/deployments-how-we-announce-new-features-and-updates-internally-at-basecamp-b709544e</id>
+        <link href="https://world.hey.com/jason/deployments-how-we-announce-new-features-and-updates-internally-at-basecamp-b709544e"/>
+        <updated>2022-01-06T20:32:30.000Z</updated>
+        <summary type="html"><![CDATA[A few weeks ago I shared how we write Heartbeats at Basecamp. Heartbeats are written by team leads that summarize their team's work over the past 6-week cycle. They are published to Basecamp, and shared with everyone at Basecamp, so everyone knows what's happening across the company.
+The post was really well received, and people have been clamoring for me to share more of our internal processes and posts. Our book Shape Up covers a lot of this in principle, but, since it's a book, it's obviously not going to have current, ongoing real-world examples. And who doesn't like to see the real stuff? I sure do! So here, let's look at something that was posted internally, today.
+
+Deployments
+In our own Basecamp account, we have a project called Deployments. Everyone in the company has access to th…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It's not a lottery]]></title>
+        <id>https://world.hey.com/dhh/it-s-not-a-lottery-8d378442</id>
+        <link href="https://world.hey.com/dhh/it-s-not-a-lottery-8d378442"/>
+        <updated>2022-01-06T18:14:09.000Z</updated>
+        <summary type="html"><![CDATA[The opening for director of engineering at Basecamp has barely been up for a day, and there's already an inbox full of applicants. Virtually none of whom seem to have bothered reading the basic requirements for the opening or comply with the instructions on how to make a successful application. And I'm just left thinking: What's the point? Do people think this is a lottery?
+This isn't unique to this position, of course. We always get a large amount of applicants to openings at Basecamp who don't even seem to do the most basic work to ensure their application fits the opening. And it fascinates me, because presumably this approach must work for some people, some of the time, right? Otherwise why would you keep operating like this?
+Maybe that's part of the disillusionment with the modern job market. That applications are being processed by AI, and humans don't even see your effort, unless the computer finds the matching keywords in the CV. So why put in the effort! But is that actually true? Are lots of companies actually hiring this way? For positions like this? I'm skeptical.
+Either way, it's not how we review applications at Basecamp. There's a human on the other side, and that human is not going to spend five minutes pondering whether you might be a fit for the role, if you don't comply with the basic requirements, like including a cover letter. Or having the relevant experience required for the role (like needing experience as a "manager of managers" for the director of engineering).
+You might think, what's the harm? Not like it takes a lot of effort to apply like this! Just spam the CV, and that's it. But I think there's a cost to that kind of job applications which show up in a psychological toll from a terrible applications-to-callbacks ratio. That further just worsens the feedback loop: I'm not getting callbacks, so I'll put even less effort into the next opening.
+I guess what I'm saying is make the effort or don't bother. We're not drawing names out of a hat here.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[It's harder hiring managers]]></title>
         <id>https://world.hey.com/dhh/it-s-harder-hiring-managers-c0a41014</id>
@@ -872,72 +901,6 @@ Heartbeat…]]></summary>
         <summary type="html"><![CDATA[Andrew uses the Architecture Advisory Forum as a regular and recurring place and
       time for conversations. It's a weekly, hour-long, open invite meeting used
       to gather advice and share information across a broad group.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shops on Facebook and Instagram: Understanding relationships between products to improve buyer and seller experience]]></title>
-        <id>https://research.facebook.com/blog/2021/12/shops-on-facebook-and-instagram-understanding-relationships-between-products-to-improve-buyer-and-seller-experience/</id>
-        <link href="https://research.facebook.com/blog/2021/12/shops-on-facebook-and-instagram-understanding-relationships-between-products-to-improve-buyer-and-seller-experience/"/>
-        <updated>2021-12-08T02:29:28.000Z</updated>
-        <summary type="html"><![CDATA[This Research in Brief summarizes various projects carried out by co-authors Yaniv Sheena and Oren Sar Shalom, along with their...]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Launching the 2021 State of Rust Survey]]></title>
-        <id>https://blog.rust-lang.org/2021/12/08/survey-launch.html</id>
-        <link href="https://blog.rust-lang.org/2021/12/08/survey-launch.html"/>
-        <updated>2021-12-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[It's that time again! Time for us to take a look at who the Rust community is composed of, how the Rust project is doing, and how we can improve the Rust programming experience. The Rust Community Team is pleased to announce our 2021 State of Rust Survey! Whether or not you use Rust today, we want to know your opinions. Your responses will help the project understand its strengths and weaknesses, and establish development priorities for the future.
-Completing this survey should take about 10–30 minutes and is anonymous. We will be accepting submissions for the next two weeks (until the 22nd of December), and we will write up our findings afterwards to blog.rust-lang.org. You can also check out last year’s results.
-English
-Simplified Chinese
-Traditional Chinese
-French
-German
-Japanese
-Korean
-Portuguese
-Russian
-Spanish
-(If you speak multiple languages, please pick one)
-Please help us spread the word by sharing the survey link on your social network feeds, at meetups, around your office, and in other communities.
-If you have any questions, please see our frequently asked questions or email the Rust Community team at community-team@rust-lang.org.
-Finally, we wanted to thank everyone who helped develop, polish, and test the survey. In particular, we'd like to thank all of the volunteers who worked to provide all of the translations available this year and who will help to translate the results.]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The time is right for Hotwire]]></title>
-        <id>https://world.hey.com/dhh/the-time-is-right-for-hotwire-ecdb9b33</id>
-        <link href="https://world.hey.com/dhh/the-time-is-right-for-hotwire-ecdb9b33"/>
-        <updated>2021-12-07T14:51:02.000Z</updated>
-        <summary type="html"><![CDATA[It's not exactly been a big secret that I've harbored a fair skepticism towards single-page applications over the years. Not because of some innate animosity with JavaScript, at least not the modern variety, which we first tasted in the form of CoffeeScript, then as transpiled ES Next. But because writing and updating HTML like that never felt like an appropriate solution for the kind of apps I was interested in writing.
-Such resistance to the proliferation of JavaScripting Everything turned into a minority position in years past. It seemed for a while that everyone were simultaneously obsessed with React, GraphQL, and the endless variations on the theme. This was The New Thing, and the wave of exuberance washed over all objections. For a while.
-That might sound bitter, but I say it with a…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use a general purpose language to manage the interface evolution]]></title>
-        <id>https://martinfowler.com/articles/cant-buy-integration.html#UseAGeneralPurposeLanguageToManageTheInterfaceEvolution</id>
-        <link href="https://martinfowler.com/articles/cant-buy-integration.html#UseAGeneralPurposeLanguageToManageTheInterfaceEvolution"/>
-        <updated>2021-12-07T14:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Many commercial integration tools market their ability to own the
-      integration landscape and call out to general purpose languages as needed.
-      While I can appreciate the marketing behind such messaging — it promotes
-      product penetration and lock-in — as architectural guidance, it is exactly
-      backwards. Instead, we should almost always manage the interface evolution
-      in a general purpose language for at least two reasons: so we can better
-      manage the complexity of maintaining a clean interface, and so that we
-      avoid the gravitational pull of our tool's mental model when making
-      strategic integration decisions.
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>

@@ -49,6 +49,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/it-s-not-a-lottery-8d378442",
+          "author": null,
+          "description": "The opening for director of engineering at Basecamp has barely been up for a day, and there's already an inbox full of applicants. Virtually none of whom seem to have bothered reading the basic requirements for the opening or comply with the instructions on how to make a successful application. And I'm just left thinking: What's the point? Do people think this is a lottery?\nThis isn't unique to this position, of course. We always get a large amount of applicants to openings at Basecamp who don't even seem to do the most basic work to ensure their application fits the opening. And it fascinates me, because presumably this approach must work for some people, some of the time, right? Otherwise why would you keep operating like this?\nMaybe that's part of the disillusionment with the modern job market. That applications are being processed by AI, and humans don't even see your effort, unless the computer finds the matching keywords in the CV. So why put in the effort! But is that actually true? Are lots of companies actually hiring this way? For positions like this? I'm skeptical.\nEither way, it's not how we review applications at Basecamp. There's a human on the other side, and that human is not going to spend five minutes pondering whether you might be a fit for the role, if you don't comply with the basic requirements, like including a cover letter. Or having the relevant experience required for the role (like needing experience as a \"manager of managers\" for the director of engineering).\nYou might think, what's the harm? Not like it takes a lot of effort to apply like this! Just spam the CV, and that's it. But I think there's a cost to that kind of job applications which show up in a psychological toll from a terrible applications-to-callbacks ratio. That further just worsens the feedback loop: I'm not getting callbacks, so I'll put even less effort into the next opening.\nI guess what I'm saying is make the effort or don't bother. We're not drawing names out of a hat here.",
+          "link": "https://world.hey.com/dhh/it-s-not-a-lottery-8d378442",
+          "publishedOn": "2022-01-06T18:14:09.000Z",
+          "wordCount": 390,
+          "title": "It's not a lottery"
+        },
+        {
           "id": "https://world.hey.com/dhh/it-s-harder-hiring-managers-c0a41014",
           "author": null,
           "description": "We just opened a position for a Director of Engineering to help us manage our rapidly expanding technical teams at Basecamp. We already have more programmers on staff than we've ever had, and we intend to double that crew within the next 12-18 months. We're going all-in on becoming a multi-product business again, and that means hiring the managers needed to to cope with those ambitions.\nNot just because of this rapid growth on the technical teams, but because the rest of the company is growing along with it. We'll be bigger than we've ever been this January, and before the end of the year, we'll be much bigger still. Wild to think that after almost twenty years in business, we're suddenly on a fast track to crack a hundred employees.\nIt's even more interesting because eight years ago we st…",
@@ -164,15 +173,6 @@
           "publishedOn": "2021-12-10T12:43:00.000Z",
           "wordCount": 642,
           "title": "Everything popular is problematic"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-time-is-right-for-hotwire-ecdb9b33",
-          "author": null,
-          "description": "It's not exactly been a big secret that I've harbored a fair skepticism towards single-page applications over the years. Not because of some innate animosity with JavaScript, at least not the modern variety, which we first tasted in the form of CoffeeScript, then as transpiled ES Next. But because writing and updating HTML like that never felt like an appropriate solution for the kind of apps I was interested in writing.\nSuch resistance to the proliferation of JavaScripting Everything turned into a minority position in years past. It seemed for a while that everyone were simultaneously obsessed with React, GraphQL, and the endless variations on the theme. This was The New Thing, and the wave of exuberance washed over all objections. For a while.\nThat might sound bitter, but I say it with a…",
-          "link": "https://world.hey.com/dhh/the-time-is-right-for-hotwire-ecdb9b33",
-          "publishedOn": "2021-12-07T14:51:02.000Z",
-          "wordCount": 678,
-          "title": "The time is right for Hotwire"
         }
       ]
     },
@@ -181,6 +181,15 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/deployments-how-we-announce-new-features-and-updates-internally-at-basecamp-b709544e",
+          "author": null,
+          "description": "A few weeks ago I shared how we write Heartbeats at Basecamp. Heartbeats are written by team leads that summarize their team's work over the past 6-week cycle. They are published to Basecamp, and shared with everyone at Basecamp, so everyone knows what's happening across the company.\nThe post was really well received, and people have been clamoring for me to share more of our internal processes and posts. Our book Shape Up covers a lot of this in principle, but, since it's a book, it's obviously not going to have current, ongoing real-world examples. And who doesn't like to see the real stuff? I sure do! So here, let's look at something that was posted internally, today.\n\nDeployments\nIn our own Basecamp account, we have a project called Deployments. Everyone in the company has access to th…",
+          "link": "https://world.hey.com/jason/deployments-how-we-announce-new-features-and-updates-internally-at-basecamp-b709544e",
+          "publishedOn": "2022-01-06T20:32:30.000Z",
+          "wordCount": 677,
+          "title": "Deployments: How we announce new features and updates internally at Basecamp"
+        },
         {
           "id": "https://world.hey.com/jason/faith-in-eventually-2d17e90a",
           "author": null,
@@ -344,15 +353,6 @@
           "publishedOn": "2021-12-08T15:07:00.000Z",
           "wordCount": 7377,
           "title": "A time and place for conversations: The Architecture Advisory                Forum"
-        },
-        {
-          "id": "https://martinfowler.com/articles/cant-buy-integration.html#UseAGeneralPurposeLanguageToManageTheInterfaceEvolution",
-          "author": null,
-          "description": "Many commercial integration tools market their ability to own the\n      integration landscape and call out to general purpose languages as needed.\n      While I can appreciate the marketing behind such messaging — it promotes\n      product penetration and lock-in — as architectural guidance, it is exactly\n      backwards. Instead, we should almost always manage the interface evolution\n      in a general purpose language for at least two reasons: so we can better\n      manage the complexity of maintaining a clean interface, and so that we\n      avoid the gravitational pull of our tool's mental model when making\n      strategic integration decisions.\nmore…",
-          "link": "https://martinfowler.com/articles/cant-buy-integration.html#UseAGeneralPurposeLanguageToManageTheInterfaceEvolution",
-          "publishedOn": "2021-12-07T14:50:00.000Z",
-          "wordCount": 5433,
-          "title": "Use a general purpose language to manage the interface evolution"
         }
       ]
     },
@@ -409,17 +409,7 @@
       "title": "Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
-      "articles": [
-        {
-          "id": "https://blog.rust-lang.org/2021/12/08/survey-launch.html",
-          "author": null,
-          "description": "It's that time again! Time for us to take a look at who the Rust community is composed of, how the Rust project is doing, and how we can improve the Rust programming experience. The Rust Community Team is pleased to announce our 2021 State of Rust Survey! Whether or not you use Rust today, we want to know your opinions. Your responses will help the project understand its strengths and weaknesses, and establish development priorities for the future.\nCompleting this survey should take about 10–30 minutes and is anonymous. We will be accepting submissions for the next two weeks (until the 22nd of December), and we will write up our findings afterwards to blog.rust-lang.org. You can also check out last year’s results.\nEnglish\nSimplified Chinese\nTraditional Chinese\nFrench\nGerman\nJapanese\nKorean\nPortuguese\nRussian\nSpanish\n(If you speak multiple languages, please pick one)\nPlease help us spread the word by sharing the survey link on your social network feeds, at meetups, around your office, and in other communities.\nIf you have any questions, please see our frequently asked questions or email the Rust Community team at community-team@rust-lang.org.\nFinally, we wanted to thank everyone who helped develop, polish, and test the survey. In particular, we'd like to thank all of the volunteers who worked to provide all of the translations available this year and who will help to translate the results.",
-          "link": "https://blog.rust-lang.org/2021/12/08/survey-launch.html",
-          "publishedOn": "2021-12-08T00:00:00.000Z",
-          "wordCount": 310,
-          "title": "Launching the 2021 State of Rust Survey"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Inside Rust Blog",
@@ -599,15 +589,6 @@
           "publishedOn": "2021-12-09T03:44:34.000Z",
           "wordCount": 878,
           "title": "Improving experiment precision with machine learning"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2021/12/shops-on-facebook-and-instagram-understanding-relationships-between-products-to-improve-buyer-and-seller-experience/",
-          "author": null,
-          "description": "This Research in Brief summarizes various projects carried out by co-authors Yaniv Sheena and Oren Sar Shalom, along with their...",
-          "link": "https://research.facebook.com/blog/2021/12/shops-on-facebook-and-instagram-understanding-relationships-between-products-to-improve-buyer-and-seller-experience/",
-          "publishedOn": "2021-12-08T02:29:28.000Z",
-          "wordCount": 1588,
-          "title": "Shops on Facebook and Instagram: Understanding relationships between products to improve buyer and seller experience"
         }
       ]
     },
