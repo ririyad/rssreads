@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-11T00:59:43.112Z</updated>
+    <updated>2022-01-12T00:58:08.633Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Tools Roundup - January 12, 2022]]></title>
+        <id>https://plaintextproject.online/articles/2022/01/12/tools.html</id>
+        <link href="https://plaintextproject.online/articles/2022/01/12/tools.html"/>
+        <updated>2022-01-12T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A quick look at four useful plain text tools]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Replicated Log: synchronize multiple nodes with a write-ahead                log]]></title>
+        <id>https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html</id>
+        <link href="https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html"/>
+        <updated>2022-01-11T15:09:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the core challenges in a distributed system is keeping the state
+      synchronized across all the nodes, especially when neither the nodes, or
+      the connections between them, are reliable. The core approach to handle
+      with is a replicated log: using the write-ahead log pattern
+      over the cluster. Unmesh Joshi shows how this works using
+      its most common implementation: the Raft protocol.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to find a domain's authoritative nameservers]]></title>
+        <id>https://jvns.ca/blog/2022/01/11/how-to-find-a-domain-s-authoritative-nameserver/</id>
+        <link href="https://jvns.ca/blog/2022/01/11/how-to-find-a-domain-s-authoritative-nameserver/"/>
+        <updated>2022-01-11T08:30:16.000Z</updated>
+        <summary type="html"><![CDATA[Here’s a very quick “how to” post on how to find your domain’s authoritative
+nameserver.
+I’m writing this because if you made a DNS update and it didn’t work, there are 2 options:
+Your authoritative nameserver doesn’t have the correct record
+Your authoritative nameserver does have the correct record, but an old record is cached and you need to wait for the cache to expire
+To be able to tell which one is happening (do you need to make a change, or do
+you just need to wait?), you need to be able to find your domain’s
+authoritative nameserver and query it to see what records it has.
+But when I looked up “how to find a domain’s authoritative nameserver” to see
+what advice was out there, I found a lot of different methods being mentioned,
+some of which can give you the wrong answer.
+So let’s wa…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.58.0 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/01/11/1.58.0-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/01/11/1.58.0-prerelease.html"/>
+        <updated>2022-01-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.58.0 pre-release is ready for testing. The release is scheduled for this
+Thursday, January 13th. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2022-01-11/index.html. You
+can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The merit of hiring by merit]]></title>
         <id>https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af</id>
@@ -768,26 +833,6 @@ Communities prior to the advent of coinage didn’t seek to set…]]></summary>
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clojure Sublimed Logo]]></title>
-        <id>https://tonsky.me/design/#clojure-sublimed</id>
-        <link href="https://tonsky.me/design/#clojure-sublimed"/>
-        <updated>2021-12-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Clojure Sublimed is a Clojure development environment for Sublime Text.]]></summary>
-        <author>
-            <name>tonsky.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sublime ❤︎ Clojure]]></title>
-        <id>https://tonsky.me/blog/sublime-clojure/</id>
-        <link href="https://tonsky.me/blog/sublime-clojure/"/>
-        <updated>2021-12-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New Sublime Text plugin for working with Clojure]]></summary>
-        <author>
-            <name>tonsky.me</name>
         </author>
     </entry>
 </feed>

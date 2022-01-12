@@ -4,26 +4,7 @@
       "title": "tonsky.me",
       "feedUrl": "http://tonsky.me/blog/atom.xml",
       "siteUrl": "https://tonsky.me/",
-      "articles": [
-        {
-          "id": "https://tonsky.me/design/#clojure-sublimed",
-          "author": null,
-          "description": "Clojure Sublimed is a Clojure development environment for Sublime Text.",
-          "link": "https://tonsky.me/design/#clojure-sublimed",
-          "publishedOn": "2021-12-13T00:00:00.000Z",
-          "wordCount": 407,
-          "title": "Clojure Sublimed Logo"
-        },
-        {
-          "id": "https://tonsky.me/blog/sublime-clojure/",
-          "author": null,
-          "description": "New Sublime Text plugin for working with Clojure",
-          "link": "https://tonsky.me/blog/sublime-clojure/",
-          "publishedOn": "2021-12-13T00:00:00.000Z",
-          "wordCount": 1911,
-          "title": "Sublime ❤︎ Clojure"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "GolangCode",
@@ -234,6 +215,15 @@
       "siteUrl": "https://plaintextproject.online",
       "articles": [
         {
+          "id": "https://plaintextproject.online/articles/2022/01/12/tools.html",
+          "author": null,
+          "description": "A quick look at four useful plain text tools",
+          "link": "https://plaintextproject.online/articles/2022/01/12/tools.html",
+          "publishedOn": "2022-01-12T19:00:00.000Z",
+          "wordCount": 496,
+          "title": "Tools Roundup - January 12, 2022"
+        },
+        {
           "id": "https://plaintextproject.online/articles/2022/01/04/apostrophe.html",
           "author": null,
           "description": "An introduction to a lean, flexible Markdown editor",
@@ -273,6 +263,15 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html",
+          "author": null,
+          "description": "One of the core challenges in a distributed system is keeping the state\n      synchronized across all the nodes, especially when neither the nodes, or\n      the connections between them, are reliable. The core approach to handle\n      with is a replicated log: using the write-ahead log pattern\n      over the cluster. Unmesh Joshi shows how this works using\n      its most common implementation: the Raft protocol.\nmore…",
+          "link": "https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html",
+          "publishedOn": "2022-01-11T15:09:00.000Z",
+          "wordCount": 3404,
+          "title": "Replicated Log: synchronize multiple nodes with a write-ahead                log"
+        },
         {
           "id": "https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html",
           "author": null,
@@ -380,6 +379,15 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/01/11/1.58.0-prerelease.html",
+          "author": null,
+          "description": "The 1.58.0 pre-release is ready for testing. The release is scheduled for this\nThursday, January 13th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-01-11/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/01/11/1.58.0-prerelease.html",
+          "publishedOn": "2022-01-11T00:00:00.000Z",
+          "wordCount": 144,
+          "title": "1.58.0 pre-release testing"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2021/12/17/follow-up-on-the-moderation-issue.html",
           "author": null,
@@ -649,6 +657,15 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/01/11/how-to-find-a-domain-s-authoritative-nameserver/",
+          "author": null,
+          "description": "Here’s a very quick “how to” post on how to find your domain’s authoritative\nnameserver.\nI’m writing this because if you made a DNS update and it didn’t work, there are 2 options:\nYour authoritative nameserver doesn’t have the correct record\nYour authoritative nameserver does have the correct record, but an old record is cached and you need to wait for the cache to expire\nTo be able to tell which one is happening (do you need to make a change, or do\nyou just need to wait?), you need to be able to find your domain’s\nauthoritative nameserver and query it to see what records it has.\nBut when I looked up “how to find a domain’s authoritative nameserver” to see\nwhat advice was out there, I found a lot of different methods being mentioned,\nsome of which can give you the wrong answer.\nSo let’s wa…",
+          "link": "https://jvns.ca/blog/2022/01/11/how-to-find-a-domain-s-authoritative-nameserver/",
+          "publishedOn": "2022-01-11T08:30:16.000Z",
+          "wordCount": 1299,
+          "title": "How to find a domain's authoritative nameservers"
+        },
         {
           "id": "https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/",
           "author": null,
