@@ -307,15 +307,6 @@
           "publishedOn": "2021-12-15T15:10:00.000Z",
           "wordCount": 7374,
           "title": "How the advice process works in practice"
-        },
-        {
-          "id": "https://martinfowler.com/articles/cant-buy-integration.html#TreatIntegrationAsStrategicToYourBusiness",
-          "author": null,
-          "description": "Brandon finishes his article on how we should look at\n      integration by arguing that it is a strategic element of an enterprise's\n      infrastructure. You can buy the best products in the world but \"none of it\n      will make you competitive in a digital world if you continue to treat\n      integration as a tactical nuisance to overcome so you take advantage of\n      those new systems.\"\nmore…",
-          "link": "https://martinfowler.com/articles/cant-buy-integration.html#TreatIntegrationAsStrategicToYourBusiness",
-          "publishedOn": "2021-12-14T14:27:00.000Z",
-          "wordCount": 7646,
-          "title": "Treat integration as strategic to your business"
         }
       ]
     },
@@ -727,6 +718,31 @@
       "feedUrl": "https://feross.org/atom.xml",
       "siteUrl": "https://feross.org",
       "articles": []
+    },
+    {
+      "title": "joshua stein",
+      "feedUrl": "https://jcs.org/rss",
+      "siteUrl": "https://jcs.org/",
+      "articles": [
+        {
+          "id": "https://jcs.org/2022/01/08/bile",
+          "author": null,
+          "description": "It’s a new year and my old computer is still old.",
+          "link": "https://jcs.org/2022/01/08/bile",
+          "publishedOn": "2022-01-08T06:00:00.000Z",
+          "wordCount": 314,
+          "title": "Video: C Programming on System 6 - A New On-Disk Database Format"
+        },
+        {
+          "id": "https://jcs.org/2021/12/18/chat",
+          "author": null,
+          "description": "Let’s have a chat. Continuing feature development of my BBS software.",
+          "link": "https://jcs.org/2021/12/18/chat",
+          "publishedOn": "2021-12-18T06:00:00.000Z",
+          "wordCount": 169,
+          "title": "Video: C Programming on System 6 - Implementing Multi-User Chat"
+        }
+      ]
     }
   ],
   "cliVersion": "1.12.0"

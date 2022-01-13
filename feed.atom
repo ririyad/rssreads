@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-13T01:00:49.827Z</updated>
+    <updated>2022-01-13T09:19:54.851Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -168,6 +168,16 @@ So far, so uncontroversial, you'd think? But I'm increasingly seeing this basic 
         <summary type="html"><![CDATA[Posted on 2022-01-10]]></summary>
         <author>
             <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Video: C Programming on System 6 - A New On-Disk Database Format]]></title>
+        <id>https://jcs.org/2022/01/08/bile</id>
+        <link href="https://jcs.org/2022/01/08/bile"/>
+        <updated>2022-01-08T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s a new year and my old computer is still old.]]></summary>
+        <author>
+            <name>joshua stein</name>
         </author>
     </entry>
     <entry>
@@ -686,6 +696,16 @@ Heartbeats…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Video: C Programming on System 6 - Implementing Multi-User Chat]]></title>
+        <id>https://jcs.org/2021/12/18/chat</id>
+        <link href="https://jcs.org/2021/12/18/chat"/>
+        <updated>2021-12-18T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Let’s have a chat. Continuing feature development of my BBS software.]]></summary>
+        <author>
+            <name>joshua stein</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[That shipping feeling]]></title>
         <id>https://world.hey.com/dhh/that-shipping-feeling-b7c8c565</id>
         <link href="https://world.hey.com/dhh/that-shipping-feeling-b7c8c565"/>
@@ -841,22 +861,6 @@ First: Mess W…]]></summary>
         <summary type="html"><![CDATA[Today, we’re excited to announce an early beta release of Bean Machine, a PyTorch-based probabilistic programming system that makes it easy to represent and to learn about uncertainties in the machine learning models that we work with every day.]]></summary>
         <author>
             <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Treat integration as strategic to your business]]></title>
-        <id>https://martinfowler.com/articles/cant-buy-integration.html#TreatIntegrationAsStrategicToYourBusiness</id>
-        <link href="https://martinfowler.com/articles/cant-buy-integration.html#TreatIntegrationAsStrategicToYourBusiness"/>
-        <updated>2021-12-14T14:27:00.000Z</updated>
-        <summary type="html"><![CDATA[Brandon finishes his article on how we should look at
-      integration by arguing that it is a strategic element of an enterprise's
-      infrastructure. You can buy the best products in the world but "none of it
-      will make you competitive in a digital world if you continue to treat
-      integration as a tactical nuisance to overcome so you take advantage of
-      those new systems."
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
