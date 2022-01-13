@@ -30,6 +30,24 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/why-is-denmark-able-to-have-these-vaccine-debates-b5e4301d",
+          "author": null,
+          "description": "It continues to fascinate me to no end how different countries have ended up with such different approaches to this late-stage pandemic game. While the French president is talking about \"pissing off the unvaccinated\", the Australians are trying to a martyr of Djokovic, and the Americans continue to render everything virus through the basic two-way political tribal lens, Denmark is doing something else.\nI already wrote about the curious state of affairs that in a country with extremely high levels of trust in government, just 40% of parents have decided to vaccinate their 5-11 year-old kids. Despite a strong, persistent recommendation from the health authorities to do so. Well, that was two weeks ago. The vaccination rate hasn't budged since. Meaning the vaccine drive for that age group has…",
+          "link": "https://world.hey.com/dhh/why-is-denmark-able-to-have-these-vaccine-debates-b5e4301d",
+          "publishedOn": "2022-01-12T11:32:41.000Z",
+          "wordCount": 550,
+          "title": "Why is Denmark able to have these vaccine debates?"
+        },
+        {
+          "id": "https://world.hey.com/dhh/the-thrill-of-changing-your-mind-88ff9063",
+          "author": null,
+          "description": "I've changed my mind on a lot of topics over the last few years, and it's frankly been exhilarating. Especially if the topic had been one left unquestioned for a long time. To me, it feels similar to the rush of solving a hard problem. When the pieces suddenly fit into place, and an elegant solution emerges, you can't help but smile.\nTake nuclear power. I vividly remember the stickers from the 80s opposing it. Even looking them today, it brings warm and fuzzy memories. Together with that era's activism, like the Greenpeace Rainbow Warrior. And fundraising as a kid for the Brazilian rain forest.\nFurther more, it seemed like a settled question: The future of energy is wind and solar! Of course it is. Renewables with no downsides, right? Wrong. Michael Shellenberger's exposition of energy sou…",
+          "link": "https://world.hey.com/dhh/the-thrill-of-changing-your-mind-88ff9063",
+          "publishedOn": "2022-01-12T08:38:30.000Z",
+          "wordCount": 804,
+          "title": "The thrill of changing your mind"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-merit-of-hiring-by-merit-0400f4af",
           "author": null,
           "description": "I've spent years pushing back against hiring practices based on years of irrelevance, pedigree gates, and brainteasers. These indirect measures of talent have proven both unreliable and unfair. If you can, why not look directly at merit?\nWhen it comes to programmers, that merit is chiefly their ability to program! And program well. It's not the only thing that matters, and being a good programmer isn't alone sufficient to be hired at Basecamp, but it is a prerequisite. It doesn't matter what else is true about you, if your programming chops aren't up to par, there's not going to be a job offer. \nSo far, so uncontroversial, you'd think? But I'm increasingly seeing this basic lean on merit, as the key hiring assessment, becoming contested. Perhaps that started with the broad attempt to discr…",
@@ -136,24 +154,6 @@
           "publishedOn": "2021-12-15T17:08:56.000Z",
           "wordCount": 425,
           "title": "The art of not having a take"
-        },
-        {
-          "id": "https://world.hey.com/dhh/heaven-is-hazy-369cb6ca",
-          "author": null,
-          "description": "In trying to understand the ideology of The Elect, as John McWorter calls them, I've found a historical dive into the late 60s and early 70s tremendously productive. The echoes of history provide a strange comfort: We are not the first people to be struggling with this.\nI don't just mean that in a general sense. That other peoples at other times have faced crippling polarization, societal upheaval, and political distress. No, that the very battlegrounds of thought are the same. Not similar, but the same.\nWilliam Buckley's show Firing Line is a treasure trove in this regard. Take this episode where he hosts Dotson Rader and Arnold Beichman in a discussion about the student revolutionaries, the radicalization process, class consciousness, and the general turmoil of the late 60s. It's remarka…",
-          "link": "https://world.hey.com/dhh/heaven-is-hazy-369cb6ca",
-          "publishedOn": "2021-12-13T23:23:01.000Z",
-          "wordCount": 1094,
-          "title": "Heaven is hazy"
-        },
-        {
-          "id": "https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568",
-          "author": null,
-          "description": "In Debt: The First 5,000 Years, anthropologist David Graeber explores the fascinating history of debt and economies. \n\nIt starts out by debunking the common myth that prior to coinage, everyone were trapped in this inefficient mode of barter.\n\nIf you had a chicken to give and wanted sugar from Gandalf, but Gandalf was a vegetarian, you had to first trade your chicken to Frodo, who’d give you the barley, that Gandalf wanted for his sugar.\n\nThis is how mosts economists from Adam Smith forward have described what they imagined the primitive, inefficient barter economies prior to the advent of coinage looked like. It’s a great sales pitch for modern commerce, but unfortunately, as Graeber details, it’s also mostly made-up bullshit.\n\nCommunities prior to the advent of coinage didn’t seek to set…",
-          "link": "https://world.hey.com/dhh/i-won-t-let-you-pay-me-for-my-open-source-d7cf4568",
-          "publishedOn": "2021-12-13T15:26:07.000Z",
-          "wordCount": 7331,
-          "title": "I won't let you pay me for my open source"
         }
       ]
     },
@@ -264,6 +264,15 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/patterns-legacy-displacement/legacy-mimic.html",
+          "author": null,
+          "description": "Ian Cartwright, Rob Horn, and James Lewis are also\n      back with the New Year with a couple more articles from Patterns of Legacy\n      Displacement in the funnel for the next couple of weeks. This one\n      describes a Legacy Mimic: a part of the new system designed\n      to make the old system think that nothing has changed. \nmore…",
+          "link": "https://martinfowler.com/articles/patterns-legacy-displacement/legacy-mimic.html",
+          "publishedOn": "2022-01-12T15:11:00.000Z",
+          "wordCount": 709,
+          "title": "Legacy Mimic: a new component that looks like an old one"
+        },
+        {
           "id": "https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html",
           "author": null,
           "description": "One of the core challenges in a distributed system is keeping the state\n      synchronized across all the nodes, especially when neither the nodes, or\n      the connections between them, are reliable. The core approach to handle\n      with is a replicated log: using the write-ahead log pattern\n      over the cluster. Unmesh Joshi shows how this works using\n      its most common implementation: the Raft protocol.\nmore…",
@@ -307,15 +316,6 @@
           "publishedOn": "2021-12-14T14:27:00.000Z",
           "wordCount": 7646,
           "title": "Treat integration as strategic to your business"
-        },
-        {
-          "id": "https://martinfowler.com/articles/scaling-architecture-conversationally.html#4.ATechLandscapeAndCurrentClimateSensingTool-YourOwnTechRadar",
-          "author": null,
-          "description": "Andrew's fourth supporting element for the Advice Process is using a\n      tech radar to capture and map out your local version of the technology\n      trends you see across your organization. \nmore…",
-          "link": "https://martinfowler.com/articles/scaling-architecture-conversationally.html#4.ATechLandscapeAndCurrentClimateSensingTool-YourOwnTechRadar",
-          "publishedOn": "2021-12-13T15:05:00.000Z",
-          "wordCount": 5056,
-          "title": "A tech landscape and current climate sensing tool - Your own Tech Radar"
         }
       ]
     },
@@ -421,6 +421,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/",
+          "author": null,
+          "description": "Learn how the GitHub Mobile Team automates their release process with GitHub Actions.",
+          "link": "https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/",
+          "publishedOn": "2022-01-12T17:56:11.000Z",
+          "wordCount": 1641,
+          "title": "How we ship GitHub Mobile every week"
+        },
+        {
           "id": "https://github.blog/2022-01-05-github-availability-report-december-2021/",
           "author": null,
           "description": "In December, we experienced no incidents resulting in service downtime to our core services.",
@@ -454,6 +463,15 @@
       "feedUrl": "https://research.facebook.com/feed/",
       "siteUrl": "https://research.facebook.com/",
       "articles": [
+        {
+          "id": "https://research.facebook.com/blog/2022/1/microestimates-of-wealth-for-all-low-and-middle-income-countries/",
+          "author": null,
+          "description": "",
+          "link": "https://research.facebook.com/blog/2022/1/microestimates-of-wealth-for-all-low-and-middle-income-countries/",
+          "publishedOn": "2022-01-12T07:27:57.000Z",
+          "wordCount": 1299,
+          "title": "Microestimates of wealth for all low and middle income countries"
+        },
         {
           "id": "https://research.facebook.com/blog/2021/12/interview-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/",
           "author": null,
@@ -572,6 +590,24 @@
       "siteUrl": "https://christine.website/blog",
       "articles": [
         {
+          "id": "https://christine.website/blog/a-tool-to-aid-forgetfulness-2022-01-12",
+          "author": null,
+          "description": "Posted on 2022-01-12",
+          "link": "https://christine.website/blog/a-tool-to-aid-forgetfulness-2022-01-12",
+          "publishedOn": "2022-01-12T00:00:00.000Z",
+          "wordCount": 369,
+          "title": "A Tool to Aid Forgetfulness"
+        },
+        {
+          "id": "https://christine.website/blog/a-sigil-2022-01-11",
+          "author": null,
+          "description": "Posted on 2022-01-11",
+          "link": "https://christine.website/blog/a-sigil-2022-01-11",
+          "publishedOn": "2022-01-11T00:00:00.000Z",
+          "wordCount": 316,
+          "title": "Site Update: A Sigil"
+        },
+        {
           "id": "https://christine.website/blog/broken-database-schemas-2022-01-10",
           "author": null,
           "description": "Posted on 2022-01-10",
@@ -640,15 +676,6 @@
           "publishedOn": "2021-12-28T14:59:22.000Z",
           "wordCount": 1150,
           "title": "Your Head of Product and Your CEO"
-        },
-        {
-          "id": "https://staysaasy.com/management/2021/12/14/Happy.html",
-          "author": null,
-          "description": "Lord, grant me the strength to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.",
-          "link": "https://staysaasy.com/management/2021/12/14/Happy.html",
-          "publishedOn": "2021-12-14T00:00:00.000Z",
-          "wordCount": 608,
-          "title": "Managers Should Optimize Job Satisfaction, Not Happiness"
         }
       ]
     },
