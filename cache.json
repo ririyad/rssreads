@@ -30,6 +30,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f",
+          "author": null,
+          "description": "I finally had a chance to read ILSR's blockbuster report on Amazon's squeeze of independent retailers who sell through their marketplace. It's unusually well-written and researched, and the picture it paints is depressingly familiar to anyone who've been at the sharp end of a big tech monopoly spear.\nThe overarching conclusion is that the squeeze is accelerating, and that the average all-in cut Amazon extracts from independent retailers on their marketplace has shot up from 19% to 30% in the last five years. Magically arriving at the same exorbitant rate that Apple and Google are taking in their digital marketplaces.\nThis has been achieved by tying more and more overpriced-but-necessary services to its basic 15% cut. First Amazon basically made it a requirement to use them for storage and …",
+          "link": "https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f",
+          "publishedOn": "2022-01-13T14:23:36.000Z",
+          "wordCount": 1055,
+          "title": "The monopoly playbook is depressingly uniform across big tech"
+        },
+        {
           "id": "https://world.hey.com/dhh/why-is-denmark-able-to-have-these-vaccine-debates-b5e4301d",
           "author": null,
           "description": "It continues to fascinate me to no end how different countries have ended up with such different approaches to this late-stage pandemic game. While the French president is talking about \"pissing off the unvaccinated\", the Australians are trying to a martyr of Djokovic, and the Americans continue to render everything virus through the basic two-way political tribal lens, Denmark is doing something else.\nI already wrote about the curious state of affairs that in a country with extremely high levels of trust in government, just 40% of parents have decided to vaccinate their 5-11 year-old kids. Despite a strong, persistent recommendation from the health authorities to do so. Well, that was two weeks ago. The vaccination rate hasn't budged since. Meaning the vaccine drive for that age group has…",
@@ -363,7 +372,17 @@
       "title": "Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2022/01/13/Rust-1.58.0.html",
+          "author": null,
+          "description": "The Rust team is happy to announce a new version of Rust, 1.58.0.\nRust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.58.0 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.58.0 on GitHub.\nWhat's in 1.58.0 stable\nRust 1.58 brings captured identifiers in format strings, a change to the\nCommand search path on Windows, more #[must_use] annotations in the\nstandard library, and some new library stabilizations.\nCaptured identifiers in format strings\nFormat strings can now capture arguments simply by writing {ident} in the\nstring. Formats have long accepted p…",
+          "link": "https://blog.rust-lang.org/2022/01/13/Rust-1.58.0.html",
+          "publishedOn": "2022-01-13T00:00:00.000Z",
+          "wordCount": 828,
+          "title": "Announcing Rust 1.58.0"
+        }
+      ]
     },
     {
       "title": "Inside Rust Blog",
@@ -464,6 +483,15 @@
           "title": "Microestimates of wealth for all low and middle income countries"
         },
         {
+          "id": "https://research.facebook.com/blog/2021/12/qa-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/",
+          "author": null,
+          "description": "In this Q&A, Vamivakas shares more about his research background, recent projects, the start of his collaboration with Facebook, his research interests, and his collaboration with Meta.",
+          "link": "https://research.facebook.com/blog/2021/12/qa-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/",
+          "publishedOn": "2021-12-22T09:06:00.000Z",
+          "wordCount": 565,
+          "title": "Q&A with Nick Vamivakas, professor at Rochester University and Facebook academic collaborator"
+        },
+        {
           "id": "https://research.facebook.com/blog/2021/12/interview-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/",
           "author": null,
           "description": "In this Q&A, Vamivakas shares more about his research background, recent projects, the start of his collaboration with Facebook, his research interests, and his collaboration with Meta.",
@@ -516,15 +544,6 @@
           "publishedOn": "2021-12-17T10:12:51.000Z",
           "wordCount": 792,
           "title": "2021 Academic Review: Developer Infrastructure"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2021/12/introducing-bean-machine-a-probabilistic-programming-platform-built-on-pytorch/",
-          "author": null,
-          "description": "Today, we’re excited to announce an early beta release of Bean Machine, a PyTorch-based probabilistic programming system that makes it easy to represent and to learn about uncertainties in the machine learning models that we work with every day.",
-          "link": "https://research.facebook.com/blog/2021/12/introducing-bean-machine-a-probabilistic-programming-platform-built-on-pytorch/",
-          "publishedOn": "2021-12-15T09:03:00.000Z",
-          "wordCount": 3496,
-          "title": "Introducing Bean Machine, a probabilistic programming platform built on PyTorch"
         }
       ]
     },
@@ -580,6 +599,15 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/vtubing-setup-2022-01-13",
+          "author": null,
+          "description": "Posted on 2022-01-13",
+          "link": "https://christine.website/blog/vtubing-setup-2022-01-13",
+          "publishedOn": "2022-01-13T00:00:00.000Z",
+          "wordCount": 2181,
+          "title": "How I VTuber"
+        },
         {
           "id": "https://christine.website/blog/a-tool-to-aid-forgetfulness-2022-01-12",
           "author": null,
@@ -701,15 +729,6 @@
           "publishedOn": "2021-12-31T09:27:53.000Z",
           "wordCount": 1790,
           "title": "2021: Year in review"
-        },
-        {
-          "id": "https://jvns.ca/blog/2021/12/15/mess-with-dns/",
-          "author": null,
-          "description": "Hello! I’ve been thinking about how to explain DNS a bunch in the last year.\nI like to learn in a very hands-on way. And so when I write a zine, I often\nclose the zine by saying something like “… and the best way to learn more\nabout this is to play around and experiment!“.\nSo I built a site where you can do experiments with DNS called Mess With DNS. It has examples of experiments you can try, and\nyou’ve very encouraged to come up with your own experiments.\nIn this post I’ll talk about why I made this, how it works, and give you\nprobably more details than you want to know about how I built it (design, testing,\nsecurity, writing an authoritative nameserver, live streaming updates, etc)\na screencast\nHere’s a GIF screencast of what it looks like to use it:\n\nit’s a real DNS server\nFirst: Mess W…",
-          "link": "https://jvns.ca/blog/2021/12/15/mess-with-dns/",
-          "publishedOn": "2021-12-15T09:41:36.000Z",
-          "wordCount": 3109,
-          "title": "New tool: Mess with DNS!"
         }
       ]
     },
