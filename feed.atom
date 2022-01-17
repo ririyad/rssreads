@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-16T01:01:18.800Z</updated>
+    <updated>2022-01-17T00:58:59.220Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -28,6 +28,15 @@ Your network requests are a little bit slower than expected, and it’s actually
 …]]></summary>
         <author>
             <name>Julia Evans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Street Fighter 2: Sound System Internals]]></title>
+        <id>http://fabiensanglard.net/sf2_sound_system/index.html</id>
+        <link href="http://fabiensanglard.net/sf2_sound_system/index.html"/>
+        <updated>2022-01-15T00:00:00.000Z</updated>
+        <author>
+            <name>fabiensanglard.net</name>
         </author>
     </entry>
     <entry>
@@ -819,39 +828,6 @@ Heartbeats…]]></summary>
         <summary type="html"><![CDATA[Posted on 2021-12-19]]></summary>
         <author>
             <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Q&A with Sin Lee Loh, UX Research Manager based in Singapore]]></title>
-        <id>https://research.facebook.com/blog/2021/12/interview-with-sin-lee-loh-ux-research-manager-singapore/</id>
-        <link href="https://research.facebook.com/blog/2021/12/interview-with-sin-lee-loh-ux-research-manager-singapore/"/>
-        <updated>2021-12-18T12:25:00.000Z</updated>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Video: C Programming on System 6 - Implementing Multi-User Chat]]></title>
-        <id>https://jcs.org/2021/12/18/chat</id>
-        <link href="https://jcs.org/2021/12/18/chat"/>
-        <updated>2021-12-18T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Let’s have a chat. Continuing feature development of my BBS software.]]></summary>
-        <author>
-            <name>joshua stein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[That shipping feeling]]></title>
-        <id>https://world.hey.com/dhh/that-shipping-feeling-b7c8c565</id>
-        <link href="https://world.hey.com/dhh/that-shipping-feeling-b7c8c565"/>
-        <updated>2021-12-17T16:48:43.000Z</updated>
-        <summary type="html"><![CDATA["Real artists ship" was one of Steve Jobs' mottos. You can clearly see that ethos still in present-day Apple. There are no far-future tech demos from things in the R&D lab at Apple keynotes. While their car project is the perhaps one of the worst kept secrets in company history, they aren't deliberately trying to flaunt it. Because a tech demo isn't shipping. And shipping is what counts.
-That's a hard ethos to live by! It's so tempting to bask in the excitement of a demo showing things that (might) come later. But it's an artificial feeling. Largely empty calories. And it often comes back to bite you in the ass when reality proves more troublesome than the imagination, and fulfilling the promises become hard or impossible.
-We've been there plenty of times at Basecamp. Despite trying to hold the line, occasionally the temptation would prove too much, and we'd make a promise, which we occasionally couldn't keep. It sucks.
-But the flip side is that the authentic shipping feeling is one of the best in the business. Getting real improvements, real progress, into the hands of real people. It's addicting! Yes, it's a bit of a hamster wheel, as all forms of attainment ultimately are, but there are worse things to be addicted to than shipping quality goods.
-Be a real artist. Ship.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
