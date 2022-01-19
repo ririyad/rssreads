@@ -264,6 +264,15 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html",
+          "author": null,
+          "description": "Continuing his exploration of important patterns to maintain consistency\n      across a cluster, Unmesh Joshi now looks at Two Phase\n      Commit. It's broadly the most familiar approach, but comes with lots of\n      complexities to make it work in practice over unreliable networks.\nmore…",
+          "link": "https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html",
+          "publishedOn": "2022-01-18T17:42:00.000Z",
+          "wordCount": 6067,
+          "title": "Two Phase Commit"
+        },
+        {
           "id": "https://martinfowler.com/articles/patterns-legacy-displacement/legacy-mimic.html",
           "author": null,
           "description": "Ian Cartwright, Rob Horn, and James Lewis are also\n      back with the New Year with a couple more articles from Patterns of Legacy\n      Displacement in the funnel for the next couple of weeks. This one\n      describes a Legacy Mimic: a part of the new system designed\n      to make the old system think that nothing has changed. \nmore…",
@@ -381,6 +390,15 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html",
+          "author": null,
+          "description": "n Friday, January 14th, the Rust Compiler team had a planning meeting for the January steering cycle.\nEvery fourth Friday, the Rust compiler team decides how\nit is going to use its scheduled steering and design meeting time over the next\nthree Fridays.\nOn Friday, 28 January, we will be having a meeting to\ndiscuss the  backlog of P-high issues (there are currently 86 such issues). pnkfelix will prepare a document to drive the meeting, with a categorization of the issues, especially in terms of how they relate to specific subteams.\nOn Friday, 4 February, we will be having a meeting to\ndiscuss any beta regressions or backports that are pending for the\nRust 1.59 release (due out 24 February, 2022). (We did not file a\nmeeting proposal for this meeting, but you can see a similar meeting\nproposal that was used to drive an analogous meeting for the 1.48 release\nhere.)\nEach meeting will run from 2pm to 3pm GMT, and will take place on the\nT-compiler/meetings zulip stream.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html",
+          "publishedOn": "2022-01-18T00:00:00.000Z",
+          "wordCount": 254,
+          "title": "Rust Compiler January 2022 Steering Cycle"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2022/01/11/1.58.0-prerelease.html",
           "author": null,
           "description": "The 1.58.0 pre-release is ready for testing. The release is scheduled for this\nThursday, January 13th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-01-11/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
@@ -490,15 +508,6 @@
           "publishedOn": "2021-12-21T07:40:14.000Z",
           "wordCount": 497,
           "title": "Announcing the winners of the Mathematical Modeling and Optimization for Large-Scale Distributed Systems request for proposals"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/",
-          "author": null,
-          "description": "Meta's Core Data Science team discusses opportunities for academics at Meta such as full-time employment, temporary employment, and dual affiliation.",
-          "link": "https://research.facebook.com/blog/2021/12/core-data-science-researchers-discuss-opportunities-for-academics-at-meta/",
-          "publishedOn": "2021-12-20T10:45:00.000Z",
-          "wordCount": 1567,
-          "title": "Four Core Data Science researchers discuss opportunities for academics at Meta"
         }
       ]
     },
