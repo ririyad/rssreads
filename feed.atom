@@ -2,10 +2,56 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-19T00:52:35.290Z</updated>
+    <updated>2022-01-20T01:04:24.204Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Creativity requires optimism]]></title>
+        <id>https://world.hey.com/jason/creativity-requires-optimism-1158ff2b</id>
+        <link href="https://world.hey.com/jason/creativity-requires-optimism-1158ff2b"/>
+        <updated>2022-01-19T20:36:15.000Z</updated>
+        <summary type="html"><![CDATA[Pessimism can spark an idea.
+Annoyance can drive ingenuity.
+Disappointment can redirect effort towards change.
+But creativity requires optimism.
+Creativity isn't about starting something. It's about making something. Making requires sustained effort, and sustained effort requires fuel.
+That fuel is optimism.
+When you run out, momentum dies, and effort grinds to a halt.
+When you run out, creativity converts to drudgery.
+When you run out, you give up.
+If you're making something that doesn't exist, you must believe that it can. That's optimism, that's the feeling. That's the chemical reaction. Without it, creativity is inert.]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Critical Aggregator]]></title>
+        <id>https://martinfowler.com/articles/patterns-legacy-displacement/critical-aggregator.html</id>
+        <link href="https://martinfowler.com/articles/patterns-legacy-displacement/critical-aggregator.html"/>
+        <updated>2022-01-19T15:53:00.000Z</updated>
+        <summary type="html"><![CDATA[Business Leaders often need to make decisions that are influenced by a
+      wide range of activity throughout the whole enterprise. To support this
+      systems often have a what Ian Cartwright, Rob Horn, and James
+      Lewis call a Critical Aggregator: a component whose job is to
+      visit various other systems and pull this information together. A critical
+      aggregator is important, but often metastasizes into an Invasive Critical Aggregator
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple turns the legislative contempt up to 11]]></title>
+        <id>https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec</id>
+        <link href="https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec"/>
+        <updated>2022-01-19T14:18:21.000Z</updated>
+        <summary type="html"><![CDATA[In North Dakota, Apple sent Erik Neuenschwander, a chief privacy engineer, to make its case that opening up the App Store to free and fair competition on payment processing would be bad for privacy. He focused in a relatively sober tone on the sanctity of Apple's integration and curation as arguments for why they deserved their monopoly privileges. A technical witness perhaps stretching the truth to fit the narrative needed, but at least feeling somewhat constrained by it.
+In Arizona, Apple sent Kyle Andeer, the Chief Compliance Offer, to claim that preventing Apple from shaking down app developers for 30% would be tantamount to "a government mandate that Apple give away the App Store" because it would "allow billion-dollar developers to take all of the App Store’s value for free". This wa…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Two Phase Commit]]></title>
         <id>https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html</id>
@@ -830,43 +876,6 @@ I don't just mean newsletters, though I love them dearly. In fact, I'd say the m
 I also mean …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing the winners of the Mathematical Modeling and Optimization for Large-Scale Distributed Systems request for proposals]]></title>
-        <id>https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-mathematical-modeling-and-optimization-for-large-scale-distributed-systems-request-for-proposals/</id>
-        <link href="https://research.facebook.com/blog/2021/12/announcing-the-winners-of-the-mathematical-modeling-and-optimization-for-large-scale-distributed-systems-request-for-proposals/"/>
-        <updated>2021-12-21T07:40:14.000Z</updated>
-        <summary type="html"><![CDATA[Meta announces the winners of the Mathematical modeling and optimization for large-scale distributed systems request for proposals]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Are we past peak "woke"?]]></title>
-        <id>https://world.hey.com/dhh/are-we-past-peak-woke-c313b7d1</id>
-        <link href="https://world.hey.com/dhh/are-we-past-peak-woke-c313b7d1"/>
-        <updated>2021-12-21T01:10:42.000Z</updated>
-        <summary type="html"><![CDATA[Could John McWhorter have gone on MSNBC or The View or PBS or NPR a year ago to talk about a new book called Woke Racism? Would a book with a title like that even have been welcome at that moment in such chambers? I doubt it.
-But now it is. McWhorter has not only written an important book that's rightfully garnering broad attention, he's also secured an important platform by joining The New York Times as a columnist, and through these outlets, brought an oppositional argument to what five minutes ago were unassailable, widely adopted axioms of antiracism.
-That's both an incredible personal achievement for McWhorter, and an indication of how quickly sentiments can change. The religious fervor of "woke", as McWhorter might put it, reached a stunning cultural dominance over the past year or t…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What's in a Heartbeat?]]></title>
-        <id>https://world.hey.com/jason/what-s-in-a-heartbeat-4fd72d0e</id>
-        <link href="https://world.hey.com/jason/what-s-in-a-heartbeat-4fd72d0e"/>
-        <updated>2021-12-20T23:39:33.000Z</updated>
-        <summary type="html"><![CDATA[We're famous for having very few meetings at Basecamp. We generally think meetings are toxic.
-Yet, meetings do convey information, and we need to convey information, so what's our replacement?
-Writing. Long-form, complete-thought, considered writing. We write a lot at Basecamp.
-Since long-form writing is an asynchronous form of communication, people can publish thoughts when they're ready, and others can read them, consider them, and respond to them when they have time. No synchronization of schedules required, no pulling people off their work to sit around a table (or show their face in a box on the screen), and none of the FOMO or stress that's tied to real-time communication like group chat.
-Long-form writing takes many forms at Basecamp, but "Heartbeats" are a prime example.
-Heartbeats…]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>
