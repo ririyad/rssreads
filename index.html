@@ -16,6 +16,125 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2022-01-20">2022-01-20</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://blog.rust-lang.org/">Rust Blog</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Security advisory for the standard library (CVE-2022-21658)</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(2 min)</span>
+                    <span>This is a cross-post of the official security advisory. The
+official advisory contains a signed version with our PGP key, as well.
+The Rust Security Response WG was notified that the std::fs::remove_dir_all
+standard library function is vulnerable to a race condition enabling symlink
+following (CWE-363). An attacker could use this security issue to trick a
+privileged program into deleting files and directories the attacker couldn&#x27;t
+otherwise access or delete.
+This issue has been assigned CVE-2022-21658.
+Overview
+Let&#x27;s suppose an attacker obtained unprivileged access to a system and needed
+to delete a system directory called sensitive/, but they didn&#x27;t have the
+permissions to do so. If std::fs::remove_dir_all followed symbolic links,
+they could find a privileged program that removes a direct…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Announcing Rust 1.58.1</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>The Rust team has published a new point release of Rust, 1.58.1. Rust is a
+programming language that is empowering everyone to build reliable and
+efficient software.
+If you have a previous version of Rust installed via rustup, getting Rust
+1.58.1 is as easy as:
+rustup update stable
+
+If you don&#x27;t have it already, you can get rustup from the
+appropriate page on our website.
+What&#x27;s in 1.58.1 stable
+Rust 1.58.1 fixes a race condition in the std::fs::remove_dir_all standard
+library function. This security vulnerability is tracked as CVE-2022-21658,
+and you can read more about it on the advisory we published earlier
+today. We recommend all users to update their toolchain immediately
+and rebuild their programs with the updated compiler.
+Rust 1.58.1 also addresses several regressions in diagnostics and tooling introduced in Rust 1.58.0:
+The non_send_fields_in_send_ty Clippy lint was discovered to have too many
+false positives and has been moved to the experimental lints group (called
+&quot;nursery&quot;).
+The useless_format Clippy lint has been updated to handle captured
+identifiers in format strings, introduced in Rust 1.58.0.
+A regression in Rustfmt preventing generated files from being formatted when
+passed through the standard input has been fixed.
+An incorrect error message displayed by rustc in some cases has been fixed.
+You can find more detailed information on the specific regressions in the
+release notes.
+Contributors to 1.58.1
+Many people came together to create Rust 1.58.1. We couldn&#x27;t have done it
+without all of you. Thanks!</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://martinfowler.com/feed.atom">Martin Fowler</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Divert the Flow</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://martinfowler.com/articles/patterns-legacy-displacement/divert-the-flow.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(6 min)</span>
+                    <span>Yesterday Ian Cartwright, Rob Horn, and James Lewis
+      described the Critical Aggregator and how it can metastasize into an
+      invasive form. When a legacy system has such an Invasive Critical
+      Aggregator it&#x27;s often best, if a little counter-intuitive, to Divert
+      the Flow of data by building a new critical aggregator first. Once
+      this is done, we have far more freedom to change or relocate the various
+      upstream data sources.
+more…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Free is never forever</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/dhh/free-is-never-forever-b2e8f8df">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(1 min)</span>
+                    <span>Google gave away free email on custom domains for years. This unsurprisingly lured lots of people into switching to Gmail. But now the party is over, and what used to be free will now easily cost $500/year or more (if you have 10 users on a custom domain). Yikes.
+Unsurprisingly, I&#x27;m not actually against Google charging for email. The long deep freeze of innovation in email came as a result of Google giving away free* service. (* It wasn&#x27;t ever free FREE, of course, but the price in data and attention wasn&#x27;t obvious to most before they got hooked.)
+The problem is the switcheroo. When you give something away for free for years, and then suddenly show up with a demand for payment, people are rightfully going to feel like it&#x27;s a stickup. Especially if they have over a decade&#x27;s worth of data that&#x27;s difficult to get out locked inside that box you gave them for &quot;free&quot;.
+It feels even more so if the vendor showing up with demands for payment is a monopolist like Google. Who controls the majority of all email that flows in the US. Then it very much feels like you got suckered. Oh, we were just the stepping stone for you to get the dominant marketshare, and now that you&#x27;ve captured it, you return for the loot? Gah.
+Email wasn&#x27;t ever free to offer. Especially not the unlimited kind with gigabytes of storage that gave Gmail its original splash. It&#x27;s just that Google monetized it through data plunder (like reading your purchase receipts!), attention drains (promoted emails!), and now finally with a paid switcheroo for the most locked-in accounts.
+You could of course also just pay with cash monies from the get go. And vote with those dollars for what you&#x27;d like to see more of in the world. How&#x27;s that for a New Year&#x27;s resolution: Paying for things with money, and skipping the ones that aren&#x27;t worth it.</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2022-01-19">2022-01-19</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -1291,62 +1410,6 @@ more…</span>
     <ul class="sources card">
       <li class="source">
         <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://fabiensanglard.net">fabiensanglard.net</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Following Street Fighter 2 paper trails</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://fabiensanglard.net/sf2_sheets/index.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(7 min)</span>
-                    <span>No content preview</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://research.facebook.com/">Meta Research</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Q&amp;A with Nick Vamivakas, professor at Rochester University and Facebook academic collaborator</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/qa-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>In this Q&amp;A, Vamivakas shares more about his research background, recent projects, the start of his collaboration with Facebook, his research interests, and his collaboration with Meta.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">interview-with Nick Vamivakas, professor at Rochester University and Facebook academic collaborator</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/interview-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>In this Q&amp;A, Vamivakas shares more about his research background, recent projects, the start of his collaboration with Facebook, his research interests, and his collaboration with Meta.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Making our displacement maps more representative</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://research.facebook.com/blog/2021/12/making-our-displacement-maps-more-representative/">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(4 min)</span>
-                    <span>Meta Data for Good announces a new re-weighted version of displacement maps that aims to better represent displacement trends on the ground.</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
           <section class="articles-per-source">
             <article>
@@ -1401,33 +1464,9 @@ Photo by Oxa Roxa on Unsplash</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-21">2021-12-21</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Email is the antidote</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/dhh/email-is-the-antidote-d9d53c10">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>It&#x27;s easy to get down on the internet as a medium for reasoned debate. Every discussion on social media that touch controversial topics seems to descent into the depths of hell in less than sixty seconds. But social media is not the internet. It&#x27;s merely one distorted expression of it. There are other ways to connect, to reason, to learn. Like email!
-I don&#x27;t just mean newsletters, though I love them dearly. In fact, I&#x27;d say the majority part part of my media diet now consists of newsletters. Both from the mastodons like The New York Times and Washington Post, but just as importantly from individual journalists and writers, like Matt Levine, Glenn Loury, Bari Weiss, Ben Thompson, Zaid Jilani, Andrew Sullivan, Bob Lefsetz, Michael Shellenberger, Matt Taibbi, and Glenn Greenwald.
-I also mean …</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-01-20T01:04:24.182Z">2022-01-20T01:04:24.182Z</time>
+    <time id="build-timestamp" datetime="2022-01-21T00:53:19.209Z">2022-01-21T00:53:19.209Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.12.0</a></span>
   </footer>
   <script src="index.js"></script>

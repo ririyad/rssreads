@@ -2,10 +2,102 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-20T01:04:24.204Z</updated>
+    <updated>2022-01-21T00:53:19.230Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Divert the Flow]]></title>
+        <id>https://martinfowler.com/articles/patterns-legacy-displacement/divert-the-flow.html</id>
+        <link href="https://martinfowler.com/articles/patterns-legacy-displacement/divert-the-flow.html"/>
+        <updated>2022-01-20T15:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday Ian Cartwright, Rob Horn, and James Lewis
+      described the Critical Aggregator and how it can metastasize into an
+      invasive form. When a legacy system has such an Invasive Critical
+      Aggregator it's often best, if a little counter-intuitive, to Divert
+      the Flow of data by building a new critical aggregator first. Once
+      this is done, we have far more freedom to change or relocate the various
+      upstream data sources.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Free is never forever]]></title>
+        <id>https://world.hey.com/dhh/free-is-never-forever-b2e8f8df</id>
+        <link href="https://world.hey.com/dhh/free-is-never-forever-b2e8f8df"/>
+        <updated>2022-01-20T13:21:31.000Z</updated>
+        <summary type="html"><![CDATA[Google gave away free email on custom domains for years. This unsurprisingly lured lots of people into switching to Gmail. But now the party is over, and what used to be free will now easily cost $500/year or more (if you have 10 users on a custom domain). Yikes.
+Unsurprisingly, I'm not actually against Google charging for email. The long deep freeze of innovation in email came as a result of Google giving away free* service. (* It wasn't ever free FREE, of course, but the price in data and attention wasn't obvious to most before they got hooked.)
+The problem is the switcheroo. When you give something away for free for years, and then suddenly show up with a demand for payment, people are rightfully going to feel like it's a stickup. Especially if they have over a decade's worth of data that's difficult to get out locked inside that box you gave them for "free".
+It feels even more so if the vendor showing up with demands for payment is a monopolist like Google. Who controls the majority of all email that flows in the US. Then it very much feels like you got suckered. Oh, we were just the stepping stone for you to get the dominant marketshare, and now that you've captured it, you return for the loot? Gah.
+Email wasn't ever free to offer. Especially not the unlimited kind with gigabytes of storage that gave Gmail its original splash. It's just that Google monetized it through data plunder (like reading your purchase receipts!), attention drains (promoted emails!), and now finally with a paid switcheroo for the most locked-in accounts.
+You could of course also just pay with cash monies from the get go. And vote with those dollars for what you'd like to see more of in the world. How's that for a New Year's resolution: Paying for things with money, and skipping the ones that aren't worth it.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security advisory for the standard library (CVE-2022-21658)]]></title>
+        <id>https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html</id>
+        <link href="https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html"/>
+        <updated>2022-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a cross-post of the official security advisory. The
+official advisory contains a signed version with our PGP key, as well.
+The Rust Security Response WG was notified that the std::fs::remove_dir_all
+standard library function is vulnerable to a race condition enabling symlink
+following (CWE-363). An attacker could use this security issue to trick a
+privileged program into deleting files and directories the attacker couldn't
+otherwise access or delete.
+This issue has been assigned CVE-2022-21658.
+Overview
+Let's suppose an attacker obtained unprivileged access to a system and needed
+to delete a system directory called sensitive/, but they didn't have the
+permissions to do so. If std::fs::remove_dir_all followed symbolic links,
+they could find a privileged program that removes a direct…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.58.1]]></title>
+        <id>https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html</id>
+        <link href="https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html"/>
+        <updated>2022-01-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team has published a new point release of Rust, 1.58.1. Rust is a
+programming language that is empowering everyone to build reliable and
+efficient software.
+If you have a previous version of Rust installed via rustup, getting Rust
+1.58.1 is as easy as:
+rustup update stable
+
+If you don't have it already, you can get rustup from the
+appropriate page on our website.
+What's in 1.58.1 stable
+Rust 1.58.1 fixes a race condition in the std::fs::remove_dir_all standard
+library function. This security vulnerability is tracked as CVE-2022-21658,
+and you can read more about it on the advisory we published earlier
+today. We recommend all users to update their toolchain immediately
+and rebuild their programs with the updated compiler.
+Rust 1.58.1 also addresses several regressions in diagnostics and tooling introduced in Rust 1.58.0:
+The non_send_fields_in_send_ty Clippy lint was discovered to have too many
+false positives and has been moved to the experimental lints group (called
+"nursery").
+The useless_format Clippy lint has been updated to handle captured
+identifiers in format strings, introduced in Rust 1.58.0.
+A regression in Rustfmt preventing generated files from being formatted when
+passed through the standard input has been fixed.
+An incorrect error message displayed by rustc in some cases has been fixed.
+You can find more detailed information on the specific regressions in the
+release notes.
+Contributors to 1.58.1
+Many people came together to create Rust 1.58.1. We couldn't have done it
+without all of you. Thanks!]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Creativity requires optimism]]></title>
         <id>https://world.hey.com/jason/creativity-requires-optimism-1158ff2b</id>
@@ -825,57 +917,6 @@ jorgemanrubia.com
 Photo by Oxa Roxa on Unsplash]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Q&A with Nick Vamivakas, professor at Rochester University and Facebook academic collaborator]]></title>
-        <id>https://research.facebook.com/blog/2021/12/qa-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/</id>
-        <link href="https://research.facebook.com/blog/2021/12/qa-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/"/>
-        <updated>2021-12-22T09:06:00.000Z</updated>
-        <summary type="html"><![CDATA[In this Q&A, Vamivakas shares more about his research background, recent projects, the start of his collaboration with Facebook, his research interests, and his collaboration with Meta.]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[interview-with Nick Vamivakas, professor at Rochester University and Facebook academic collaborator]]></title>
-        <id>https://research.facebook.com/blog/2021/12/interview-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/</id>
-        <link href="https://research.facebook.com/blog/2021/12/interview-with-nick-vamivakas-professor-at-rochester-university-and-facebook-academic-collaborator/"/>
-        <updated>2021-12-22T09:06:00.000Z</updated>
-        <summary type="html"><![CDATA[In this Q&A, Vamivakas shares more about his research background, recent projects, the start of his collaboration with Facebook, his research interests, and his collaboration with Meta.]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Making our displacement maps more representative]]></title>
-        <id>https://research.facebook.com/blog/2021/12/making-our-displacement-maps-more-representative/</id>
-        <link href="https://research.facebook.com/blog/2021/12/making-our-displacement-maps-more-representative/"/>
-        <updated>2021-12-22T07:07:51.000Z</updated>
-        <summary type="html"><![CDATA[Meta Data for Good announces a new re-weighted version of displacement maps that aims to better represent displacement trends on the ground.]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Following Street Fighter 2 paper trails]]></title>
-        <id>http://fabiensanglard.net/sf2_sheets/index.html</id>
-        <link href="http://fabiensanglard.net/sf2_sheets/index.html"/>
-        <updated>2021-12-22T00:00:00.000Z</updated>
-        <author>
-            <name>fabiensanglard.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Email is the antidote]]></title>
-        <id>https://world.hey.com/dhh/email-is-the-antidote-d9d53c10</id>
-        <link href="https://world.hey.com/dhh/email-is-the-antidote-d9d53c10"/>
-        <updated>2021-12-21T20:21:58.000Z</updated>
-        <summary type="html"><![CDATA[It's easy to get down on the internet as a medium for reasoned debate. Every discussion on social media that touch controversial topics seems to descent into the depths of hell in less than sixty seconds. But social media is not the internet. It's merely one distorted expression of it. There are other ways to connect, to reason, to learn. Like email!
-I don't just mean newsletters, though I love them dearly. In fact, I'd say the majority part part of my media diet now consists of newsletters. Both from the mastodons like The New York Times and Washington Post, but just as importantly from individual journalists and writers, like Matt Levine, Glenn Loury, Bari Weiss, Ben Thompson, Zaid Jilani, Andrew Sullivan, Bob Lefsetz, Michael Shellenberger, Matt Taibbi, and Glenn Greenwald.
-I also mean …]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
