@@ -30,6 +30,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72",
+          "author": null,
+          "description": "The Mac is such an inconvenient platform for Apple. It prevents the company from making any credible claim of an impending security catastrophe, if lawmakers force the iPhone to allow installation of apps without the App Store. With the Mac, we have almost forty years of proof that computers don't need an App Store to be safe. Made by the same company that now tries to pretend to legislators that this isn't possible!\nWorse still, Apple continues to brag about this solid security record for the Mac when they try to sell you a new computer while their lobbyists argue the opposite on Capitol Hill. Here's how the company presents the Mac as a fortress when it comes to apps installed without the Mac App Store:\n\nGatekeeper on your Mac ensures that all apps from the internet have already been che…",
+          "link": "https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72",
+          "publishedOn": "2022-01-21T11:32:30.000Z",
+          "wordCount": 933,
+          "title": "The Mac proves Apple can safely open the iPhone"
+        },
+        {
           "id": "https://world.hey.com/dhh/free-is-never-forever-b2e8f8df",
           "author": null,
           "description": "Google gave away free email on custom domains for years. This unsurprisingly lured lots of people into switching to Gmail. But now the party is over, and what used to be free will now easily cost $500/year or more (if you have 10 users on a custom domain). Yikes.\nUnsurprisingly, I'm not actually against Google charging for email. The long deep freeze of innovation in email came as a result of Google giving away free* service. (* It wasn't ever free FREE, of course, but the price in data and attention wasn't obvious to most before they got hooked.)\nThe problem is the switcheroo. When you give something away for free for years, and then suddenly show up with a demand for payment, people are rightfully going to feel like it's a stickup. Especially if they have over a decade's worth of data that's difficult to get out locked inside that box you gave them for \"free\".\nIt feels even more so if the vendor showing up with demands for payment is a monopolist like Google. Who controls the majority of all email that flows in the US. Then it very much feels like you got suckered. Oh, we were just the stepping stone for you to get the dominant marketshare, and now that you've captured it, you return for the loot? Gah.\nEmail wasn't ever free to offer. Especially not the unlimited kind with gigabytes of storage that gave Gmail its original splash. It's just that Google monetized it through data plunder (like reading your purchase receipts!), attention drains (promoted emails!), and now finally with a paid switcheroo for the most locked-in accounts.\nYou could of course also just pay with cash monies from the get go. And vote with those dollars for what you'd like to see more of in the world. How's that for a New Year's resolution: Paying for things with money, and skipping the ones that aren't worth it.",
@@ -154,15 +163,6 @@
           "publishedOn": "2022-01-01T23:27:52.000Z",
           "wordCount": 1033,
           "title": "Should you vaccinate your kids?"
-        },
-        {
-          "id": "https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c",
-          "author": null,
-          "description": "That we manage all our programming projects in Basecamp is perhaps an obvious admission since its our own product. But it's less obvious to some how that's possible, given the apparent lack of affordances to tie todos, messages, or check-ins together with code commits automatically. Some teams who are Basecamp curious can't seem get over this conceptual hump: How can we organize the programming work, if everything isn't tied together?\nThe simple answer is: don't. You don't need to string every todo to every commit. Micromanaging that level of detail has the appeal of superficial neatness, but without much if any payoff in additional ease or insight in practical terms. Modern programming projects are already packaged for easy reference and review through the magic of the pull request. That'…",
-          "link": "https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c",
-          "publishedOn": "2021-12-22T17:19:50.000Z",
-          "wordCount": 758,
-          "title": "How we manage programming projects in Basecamp"
         }
       ]
     },
@@ -359,15 +359,6 @@
           "publishedOn": "2021-12-24T00:00:00.000Z",
           "wordCount": 641,
           "title": "Street Fighter 2: Spin when you can't"
-        },
-        {
-          "id": "http://fabiensanglard.net/sf2_warrier/index.html",
-          "author": null,
-          "description": "",
-          "link": "http://fabiensanglard.net/sf2_warrier/index.html",
-          "publishedOn": "2021-12-23T00:00:00.000Z",
-          "wordCount": 743,
-          "title": "Street Fighter 2: The World Warrier"
         }
       ]
     },
@@ -440,17 +431,7 @@
       "title": "Jorge Manrubia",
       "feedUrl": "https://world.hey.com/jorge/feed.atom",
       "siteUrl": "https://world.hey.com/jorge",
-      "articles": [
-        {
-          "id": "https://world.hey.com/jorge/a-system-to-encrypt-data-in-bulk-for-rails-e339e213",
-          "author": null,
-          "description": "We just released mass_encryption, a library to encrypt large sets of data using Active Record Encryption. If you have been following along, Rails 7 was recently released and, among many goodies, it supports at-work encryption with Active Record. This new gem answers a problem many apps will face: perform the initial encryption in existing applications.\n\n\nActive Record Encryption was an extraction from HEY, and so is this library. We created the first version to encrypt the data entered during the private beta stage, and we eventually extracted it to a private gem that we used to re-encrypt data in HEY several times.\n\n\nAt some point this year, we decided to encrypt sensitive persona data in Basecamp too. There was an objective reason: contents like chats, messages, comments, or todos are sensitive enough to raise the bar. And a subjective one: once you get used to working with encrypted personal data, not doing it feels off.\n\n\nNow, encrypting data at the scale of Basecamp represented a challenge on its own. We had to encrypt 2 billion records and revamp the version we used for HEY to support this load. We added the \"track encryption mode\" as part of these improvements, and we used upsert_all, which we extended, to perform updates in bulk.\n\n\nSo after Active Record encryption, console1984 and audits1984, mass_encryption was the last past of the puzzle, and I'm thrilled it's open-source now.\n\n\nFinally, on a personal note, kudos to Basecamp for the big bet on all this technology and for releasing it so now everyone can use it in their apps. No customer was demanding this (try to explain at-work encryption to a non tech-savvy person), and there was no legal or operational need either. The motivation since the first moment was doing the right thing, which makes seeing how everything has crystalized even more special.\n \n---\njorgemanrubia.com\nPhoto by Oxa Roxa on Unsplash",
-          "link": "https://world.hey.com/jorge/a-system-to-encrypt-data-in-bulk-for-rails-e339e213",
-          "publishedOn": "2021-12-22T13:02:51.000Z",
-          "wordCount": 360,
-          "title": "A system to encrypt data in bulk for Rails"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Engineering – The GitHub Blog",

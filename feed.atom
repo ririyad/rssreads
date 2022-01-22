@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-21T00:53:19.230Z</updated>
+    <updated>2022-01-22T00:52:41.976Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Mac proves Apple can safely open the iPhone]]></title>
+        <id>https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72</id>
+        <link href="https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72"/>
+        <updated>2022-01-21T11:32:30.000Z</updated>
+        <summary type="html"><![CDATA[The Mac is such an inconvenient platform for Apple. It prevents the company from making any credible claim of an impending security catastrophe, if lawmakers force the iPhone to allow installation of apps without the App Store. With the Mac, we have almost forty years of proof that computers don't need an App Store to be safe. Made by the same company that now tries to pretend to legislators that this isn't possible!
+Worse still, Apple continues to brag about this solid security record for the Mac when they try to sell you a new computer while their lobbyists argue the opposite on Capitol Hill. Here's how the company presents the Mac as a fortress when it comes to apps installed without the Mac App Store:
+
+Gatekeeper on your Mac ensures that all apps from the internet have already been che…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Divert the Flow]]></title>
         <id>https://martinfowler.com/articles/patterns-legacy-displacement/divert-the-flow.html</id>
@@ -868,55 +881,6 @@ more…]]></summary>
         <updated>2021-12-24T00:00:00.000Z</updated>
         <author>
             <name>fabiensanglard.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Street Fighter 2: The World Warrier]]></title>
-        <id>http://fabiensanglard.net/sf2_warrier/index.html</id>
-        <link href="http://fabiensanglard.net/sf2_warrier/index.html"/>
-        <updated>2021-12-23T00:00:00.000Z</updated>
-        <author>
-            <name>fabiensanglard.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we manage programming projects in Basecamp]]></title>
-        <id>https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c</id>
-        <link href="https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c"/>
-        <updated>2021-12-22T17:19:50.000Z</updated>
-        <summary type="html"><![CDATA[That we manage all our programming projects in Basecamp is perhaps an obvious admission since its our own product. But it's less obvious to some how that's possible, given the apparent lack of affordances to tie todos, messages, or check-ins together with code commits automatically. Some teams who are Basecamp curious can't seem get over this conceptual hump: How can we organize the programming work, if everything isn't tied together?
-The simple answer is: don't. You don't need to string every todo to every commit. Micromanaging that level of detail has the appeal of superficial neatness, but without much if any payoff in additional ease or insight in practical terms. Modern programming projects are already packaged for easy reference and review through the magic of the pull request. That'…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A system to encrypt data in bulk for Rails]]></title>
-        <id>https://world.hey.com/jorge/a-system-to-encrypt-data-in-bulk-for-rails-e339e213</id>
-        <link href="https://world.hey.com/jorge/a-system-to-encrypt-data-in-bulk-for-rails-e339e213"/>
-        <updated>2021-12-22T13:02:51.000Z</updated>
-        <summary type="html"><![CDATA[We just released mass_encryption, a library to encrypt large sets of data using Active Record Encryption. If you have been following along, Rails 7 was recently released and, among many goodies, it supports at-work encryption with Active Record. This new gem answers a problem many apps will face: perform the initial encryption in existing applications.
-
-
-Active Record Encryption was an extraction from HEY, and so is this library. We created the first version to encrypt the data entered during the private beta stage, and we eventually extracted it to a private gem that we used to re-encrypt data in HEY several times.
-
-
-At some point this year, we decided to encrypt sensitive persona data in Basecamp too. There was an objective reason: contents like chats, messages, comments, or todos are sensitive enough to raise the bar. And a subjective one: once you get used to working with encrypted personal data, not doing it feels off.
-
-
-Now, encrypting data at the scale of Basecamp represented a challenge on its own. We had to encrypt 2 billion records and revamp the version we used for HEY to support this load. We added the "track encryption mode" as part of these improvements, and we used upsert_all, which we extended, to perform updates in bulk.
-
-
-So after Active Record encryption, console1984 and audits1984, mass_encryption was the last past of the puzzle, and I'm thrilled it's open-source now.
-
-
-Finally, on a personal note, kudos to Basecamp for the big bet on all this technology and for releasing it so now everyone can use it in their apps. No customer was demanding this (try to explain at-work encryption to a non tech-savvy person), and there was no legal or operational need either. The motivation since the first moment was doing the right thing, which makes seeing how everything has crystalized even more special.
- 
----
-jorgemanrubia.com
-Photo by Oxa Roxa on Unsplash]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
         </author>
     </entry>
 </feed>

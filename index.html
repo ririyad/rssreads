@@ -16,6 +16,31 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2022-01-21">2022-01-21</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">The Mac proves Apple can safely open the iPhone</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/dhh/the-mac-proves-apple-can-safely-open-the-iphone-cfa68a72">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(3 min)</span>
+                    <span>The Mac is such an inconvenient platform for Apple. It prevents the company from making any credible claim of an impending security catastrophe, if lawmakers force the iPhone to allow installation of apps without the App Store. With the Mac, we have almost forty years of proof that computers don&#x27;t need an App Store to be safe. Made by the same company that now tries to pretend to legislators that this isn&#x27;t possible!
+Worse still, Apple continues to brag about this solid security record for the Mac when they try to sell you a new computer while their lobbyists argue the opposite on Capitol Hill. Here&#x27;s how the company presents the Mac as a fortress when it comes to apps installed without the Mac App Store:
+
+Gatekeeper on your Mac ensures that all apps from the internet have already been che…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2022-01-20">2022-01-20</time></h2>
     <ul class="sources card">
       <li class="source">
@@ -1383,90 +1408,9 @@ more…</span>
       </li>
     </ul>
   </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-23">2021-12-23</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://fabiensanglard.net">fabiensanglard.net</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">Street Fighter 2: The World Warrier</summary>
-                <a class="article-summary-link article-summary-box-outer" href="http://fabiensanglard.net/sf2_warrier/index.html">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(2 min)</span>
-                    <span>No content preview</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
-  <section class="daily-content">
-    <h2 class="daily-heading"><time datatime="2021-12-22">2021-12-22</time></h2>
-    <ul class="sources card">
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/dhh">David Heinemeier Hansson</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">How we manage programming projects in Basecamp</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/dhh/how-we-manage-programming-projects-in-basecamp-33454b4c">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(3 min)</span>
-                    <span>That we manage all our programming projects in Basecamp is perhaps an obvious admission since its our own product. But it&#x27;s less obvious to some how that&#x27;s possible, given the apparent lack of affordances to tie todos, messages, or check-ins together with code commits automatically. Some teams who are Basecamp curious can&#x27;t seem get over this conceptual hump: How can we organize the programming work, if everything isn&#x27;t tied together?
-The simple answer is: don&#x27;t. You don&#x27;t need to string every todo to every commit. Micromanaging that level of detail has the appeal of superficial neatness, but without much if any payoff in additional ease or insight in practical terms. Modern programming projects are already packaged for easy reference and review through the magic of the pull request. That&#x27;…</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-      <li class="source">
-        <section>
-          <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/jorge">Jorge Manrubia</a></h3>
-          <section class="articles-per-source">
-            <article>
-              <details class="article-expander">
-                <summary class="article-expander__title">A system to encrypt data in bulk for Rails</summary>
-                <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/jorge/a-system-to-encrypt-data-in-bulk-for-rails-e339e213">
-                  <div class="article-summary-box-inner">
-                    <span class="article-reading-time">(1 min)</span>
-                    <span>We just released mass_encryption, a library to encrypt large sets of data using Active Record Encryption. If you have been following along, Rails 7 was recently released and, among many goodies, it supports at-work encryption with Active Record. This new gem answers a problem many apps will face: perform the initial encryption in existing applications.
-
-
-Active Record Encryption was an extraction from HEY, and so is this library. We created the first version to encrypt the data entered during the private beta stage, and we eventually extracted it to a private gem that we used to re-encrypt data in HEY several times.
-
-
-At some point this year, we decided to encrypt sensitive persona data in Basecamp too. There was an objective reason: contents like chats, messages, comments, or todos are sensitive enough to raise the bar. And a subjective one: once you get used to working with encrypted personal data, not doing it feels off.
-
-
-Now, encrypting data at the scale of Basecamp represented a challenge on its own. We had to encrypt 2 billion records and revamp the version we used for HEY to support this load. We added the &quot;track encryption mode&quot; as part of these improvements, and we used upsert_all, which we extended, to perform updates in bulk.
-
-
-So after Active Record encryption, console1984 and audits1984, mass_encryption was the last past of the puzzle, and I&#x27;m thrilled it&#x27;s open-source now.
-
-
-Finally, on a personal note, kudos to Basecamp for the big bet on all this technology and for releasing it so now everyone can use it in their apps. No customer was demanding this (try to explain at-work encryption to a non tech-savvy person), and there was no legal or operational need either. The motivation since the first moment was doing the right thing, which makes seeing how everything has crystalized even more special.
- 
----
-jorgemanrubia.com
-Photo by Oxa Roxa on Unsplash</span>
-                  </div>
-                </a>
-              </details>
-            </article>
-        </section>
-      </li>
-    </ul>
-  </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-01-21T00:53:19.209Z">2022-01-21T00:53:19.209Z</time>
+    <time id="build-timestamp" datetime="2022-01-22T00:52:41.956Z">2022-01-22T00:52:41.956Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.12.0</a></span>
   </footer>
   <script src="index.js"></script>
