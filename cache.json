@@ -421,6 +421,15 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-01-24-highlights-from-git-2-35/",
+          "author": null,
+          "description": "The open source Git project just released Git 2.35. Here's GitHub's look at some of the most interesting features and changes introduced since last time.",
+          "link": "https://github.blog/2022-01-24-highlights-from-git-2-35/",
+          "publishedOn": "2022-01-24T20:00:43.000Z",
+          "wordCount": 2548,
+          "title": "Highlights from Git 2.35"
+        },
+        {
           "id": "https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/",
           "author": null,
           "description": "Learn how the GitHub Mobile Team automates their release process with GitHub Actions.",
@@ -621,6 +630,15 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/01/24/hosting-my-static-sites-with-nginx/",
+          "author": null,
+          "description": "Hello! Recently I’ve been thinking about putting my static sites on servers\nthat I run myself instead of using managed services like Netlify or GitHub\nPages.\nOriginally I thought that running my own servers would require a lot of\nmaintenance and be a huge pain, but I was chatting with Wesley about what kind\nof maintainance their servers require, and\nthey convinced me that it might not be that bad.\nSo I decided to try out moving all my static sites to a $5/month server to see\nwhat it was like.\nEverything in here is pretty standard but I wanted to write down what I did\nanyway because there are a surprising number of decisions and I like to see\nwhat choices other people make.\nthe constraint: only static sites\nTo keep things simple, I decided that this server would only run nginx and\nonly serv…",
+          "link": "https://jvns.ca/blog/2022/01/24/hosting-my-static-sites-with-nginx/",
+          "publishedOn": "2022-01-24T07:59:19.000Z",
+          "wordCount": 1666,
+          "title": "Hosting my static sites with nginx"
+        },
         {
           "id": "https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/",
           "author": null,

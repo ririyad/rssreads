@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-24T00:53:57.848Z</updated>
+    <updated>2022-01-25T01:00:31.115Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Highlights from Git 2.35]]></title>
+        <id>https://github.blog/2022-01-24-highlights-from-git-2-35/</id>
+        <link href="https://github.blog/2022-01-24-highlights-from-git-2-35/"/>
+        <updated>2022-01-24T20:00:43.000Z</updated>
+        <summary type="html"><![CDATA[The open source Git project just released Git 2.35. Here's GitHub's look at some of the most interesting features and changes introduced since last time.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hosting my static sites with nginx]]></title>
+        <id>https://jvns.ca/blog/2022/01/24/hosting-my-static-sites-with-nginx/</id>
+        <link href="https://jvns.ca/blog/2022/01/24/hosting-my-static-sites-with-nginx/"/>
+        <updated>2022-01-24T07:59:19.000Z</updated>
+        <summary type="html"><![CDATA[Hello! Recently I’ve been thinking about putting my static sites on servers
+that I run myself instead of using managed services like Netlify or GitHub
+Pages.
+Originally I thought that running my own servers would require a lot of
+maintenance and be a huge pain, but I was chatting with Wesley about what kind
+of maintainance their servers require, and
+they convinced me that it might not be that bad.
+So I decided to try out moving all my static sites to a $5/month server to see
+what it was like.
+Everything in here is pretty standard but I wanted to write down what I did
+anyway because there are a surprising number of decisions and I like to see
+what choices other people make.
+the constraint: only static sites
+To keep things simple, I decided that this server would only run nginx and
+only serv…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On Leaving Facebook]]></title>
         <id>https://frantic.im/leaving-facebook</id>
