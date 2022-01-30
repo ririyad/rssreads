@@ -40,6 +40,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/spotify-s-completely-reasonable-healthcare-content-policy-e145f400",
+          "author": null,
+          "description": "Here's what you can't say on a podcast hosted by Spotify about Covid, per the company's internal moderation policy:\n\nContent that promotes dangerous false or deceptive content about healthcare that may cause offline harm and/or pose a direct threat to public health such as:\nDenying the existence of AIDS or COVID-19\nEncouraging the deliberate contracting of a serious or life threatening disease or illness\nSuggesting that consuming bleach can cure various illnesses and diseases\nSuggesting that wearing a mask will cause the wearer imminent, life-threatening physical harm\nPromoting or suggesting that the vaccines are designed to cause death\n\n\nWhat an impressively clear and concise policy! Focused primarily on the concrete \"imminent threat\" principle. Thus making it clear whether a violation ha…",
+          "link": "https://world.hey.com/dhh/spotify-s-completely-reasonable-healthcare-content-policy-e145f400",
+          "publishedOn": "2022-01-29T14:45:06.000Z",
+          "wordCount": 556,
+          "title": "Spotify's completely reasonable healthcare content policy"
+        },
+        {
           "id": "https://world.hey.com/dhh/spotify-must-be-afraid-of-canceling-rogan-right-right-8fc9f1f6",
           "author": null,
           "description": "What's stood out most to me about the latest Rogan round over Neil Young's ultimatum is the iron-clad assumption that Spotify surely must – MUST! – agree with the underlying premise. That Rogan is a menace to society because he host guests with divergent views on covid, and because he shares his unsanctioned opinion on the matter. Therefore, the only reason they're not yanking him is fear. Fear of losing subscribers, money, marketshare, whatever. It can't possibly be due to a genuine disagreement with the menace-to-society charge.\nJonathan Haidt talks about this in The Righteous Mind:\n\nMorality binds and blinds. It binds us into ideological teams that fight each other as though the fate of the world depended on our side winning each battle. It blinds us to the fact that each team is compos…",
@@ -270,15 +279,6 @@
           "publishedOn": "2022-01-04T21:23:17.000Z",
           "wordCount": 475,
           "title": "Why the hell not?"
-        },
-        {
-          "id": "https://world.hey.com/jason/does-it-make-you-enjoy-4ef7072d",
-          "author": null,
-          "description": "My friend and I have been discussing cars.\nHe's thinking of buying his first fancy one.\nHis dad had one years ago, and he's thought about buying a car like this — like his dad's — for years. He's stressed over it, he's agonized over it, and he's spent a few too many hours thinking about all the reasons why and why not.\nThis morning he told me he was worried that it wouldn't make him happy.\nOf course it won't, I said. But that's the wrong question.\nThe better question is \"Will I enjoy it?\"\nMaking you happy is too high a bar for anything. It's unfair to ask that of anyone or anything — it's something you can really only ask yourself, or bring yourself.\nBut enjoying something? That's possible! It's very much within reach.\nSo I said, will you enjoy the car? Could you see yourself enjoying the car? Will you enjoy the drive?\nAnd that's a much easier question to answer. And an expectation that's easier to accept.\nObjects (and experiences) don't make you anything, you have to enjoy them.\nEnjoying something is plenty.\nI think he's going to buy one.",
-          "link": "https://world.hey.com/jason/does-it-make-you-enjoy-4ef7072d",
-          "publishedOn": "2021-12-30T17:50:40.000Z",
-          "wordCount": 227,
-          "title": "Does it make you enjoy?"
         }
       ]
     },
@@ -468,7 +468,17 @@
       "title": "Jorge Manrubia",
       "feedUrl": "https://world.hey.com/jorge/feed.atom",
       "siteUrl": "https://world.hey.com/jorge",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://world.hey.com/jorge/silence-48cc695d",
+          "author": null,
+          "description": "I quit Twitter for the first time nine years ago. Two years ago, when I started at Basecamp, I felt like giving it a new try. Long story short: it didn’t work. \n\n\nI had identified noise as my biggest problem with Twitter back in the day. The signal was very low. I naively thought I could improve that by carefully selecting who to follow and letting Twitter know about the tweets I didn’t like. I failed miserably. I quickly found myself in a situation I knew well: spending too much time consuming information that, for the most part, I didn’t care about. \n\n\nOn top of the noise, there was now a new ingredient: Twitter often made me feel sad, or angry, or outraged, or hopeless, or a bunch of other negative emotions. It happened in small doses, one tweet at a time, not at a high intensity, but r…",
+          "link": "https://world.hey.com/jorge/silence-48cc695d",
+          "publishedOn": "2022-01-29T23:16:24.000Z",
+          "wordCount": 548,
+          "title": "Silence"
+        }
+      ]
     },
     {
       "title": "Engineering – The GitHub Blog",
@@ -564,15 +574,6 @@
           "publishedOn": "2021-12-31T22:17:26.000Z",
           "wordCount": 1354,
           "title": "A new protocol and tool for PNG file attachments"
-        },
-        {
-          "id": "https://nullprogram.com/blog/2021/12/30/",
-          "author": null,
-          "description": "A hard reality of C and C++ software development on Windows is that there\nhas never been a good, native C or C++ standard library implementation for\nthe platform. A standard library should abstract over the underlying host\nfacilities in order to ease portable software development. On Windows, C\nand C++ is so poorly hooked up to operating system interfaces that most\nportable or mostly-portable software — programs which work perfectly\nelsewhere — are subtly broken on Windows, particularly outside of the\nEnglish-speaking world. The reasons are almost certainly political,\noriginally motivated by vendor lock-in, than technical, which adds insult\nto injury. This article is about what’s wrong, how it’s wrong, and some\neasy techniques to deal with it in portable software.\nThere are multiple C impl…",
-          "link": "https://nullprogram.com/blog/2021/12/30/",
-          "publishedOn": "2021-12-30T23:25:53.000Z",
-          "wordCount": 1664,
-          "title": "Some sanity for C and C++ development on Windows"
         }
       ]
     },
@@ -661,6 +662,15 @@
       "siteUrl": "https://staysaasy.com/",
       "articles": [
         {
+          "id": "https://staysaasy.com/software/2022/01/29/integrity.html",
+          "author": null,
+          "description": "A person has got to have a code.",
+          "link": "https://staysaasy.com/software/2022/01/29/integrity.html",
+          "publishedOn": "2022-01-29T14:59:22.000Z",
+          "wordCount": 741,
+          "title": "Working with Integrity"
+        },
+        {
           "id": "https://staysaasy.com/software/2022/01/17/complexity.html",
           "author": null,
           "description": "At growth companies, complexity kills. The reason is simple - complexity is slow, and slow don’t grow.",
@@ -676,6 +686,15 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/",
+          "author": null,
+          "description": "I’ve been having a hard time understanding IPv6. On one hand, the basics initially seem pretty\nstraightforward (there aren’t enough IPv4 addresses for all the devices on the\ninternet, so people invented IPv6! There are enough IPv6 addresses for\neveryone!)\nBut when I try to actually understand it, I run into a lot of questions. One\nquestion is: twitter.com does not support IPv6. Presumably it can’t be causing\nthem THAT many issues to not support it. So why do websites support IPv6?\nI asked people on Twitter why their servers support IPv6\nand I got a lot of great answers, which I’ll summarize here. These all come\nwith the disclaimer that I have basically 0 experience with IPv6 so I can’t evaluate these reasons very well.\nFirst though, I want to explain why it’s possible for twitter.com to no…",
+          "link": "https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/",
+          "publishedOn": "2022-01-29T07:44:38.000Z",
+          "wordCount": 1832,
+          "title": "Reasons for servers to support IPv6"
+        },
         {
           "id": "https://jvns.ca/blog/2022/01/24/hosting-my-static-sites-with-nginx/",
           "author": null,
@@ -711,15 +730,6 @@
           "publishedOn": "2022-01-05T06:42:51.000Z",
           "wordCount": 1858,
           "title": "Why might you run your own DNS server?"
-        },
-        {
-          "id": "https://jvns.ca/blog/2021/12/31/2021--year-in-review/",
-          "author": null,
-          "description": "It’s the end of the year again! This was my second full year working for myself\non wizard zines.\nHere are some thoughts about what I’m working towards, a bunch of things I made\nthis year, and a few ideas and questions about 2022.\nmade some progress on a “mission statement”\nI think the two hardest things about working for myself are working alone and\nhaving to decide what to do.\nThis year I spent some time trying to figure out what I’m doing with wizard\nzines. This is hard for me because I work in a pretty intuitive way – I have\nsome feelings about what’s important, and even though following my feelings\nusually turns out well, I can’t always explain what I’m trying to do.\nHere are some thoughts about what I’m trying to do:\nI’m only interested in explaining “old” established technologies (HT…",
-          "link": "https://jvns.ca/blog/2021/12/31/2021--year-in-review/",
-          "publishedOn": "2021-12-31T09:27:53.000Z",
-          "wordCount": 1790,
-          "title": "2021: Year in review"
         }
       ]
     },
