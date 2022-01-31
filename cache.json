@@ -549,33 +549,13 @@
       "title": "Coding Horror",
       "feedUrl": "https://blog.codinghorror.com/rss/",
       "siteUrl": "https://blog.codinghorror.com/",
-      "articles": [
-        {
-          "id": "61cfb0fa34500c00482dc601",
-          "author": "Jeff Atwood",
-          "description": "In a way, these two books are responsible for my entire professional career.\n\nWith early computers, you didn't boot up to a fancy schmancy desktop, or a screen full of apps you could easily poke and prod with your finger. No, those computers booted up to the command line.\n\nFrom",
-          "link": "https://blog.codinghorror.com/updating-the-single-most-influential-book-of-the-basic-era/",
-          "publishedOn": "2021-12-31T23:49:00.000Z",
-          "wordCount": 1269,
-          "title": "Updating The Single Most Influential Book of the BASIC Era"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2021/12/31/",
-          "author": null,
-          "description": "When my articles include diagrams to illustrate a concept, such as a\nstate machine, I will check the Graphviz, gnuplot, or SVG\nsource into source control alongside the image in case I need to make\nchanges in the future. Sometimes I even make the image itself a link to\nits source file. I’ve thought it would be convenient if the raster image\nsomehow contained its own source as metadata so that they don’t get\nseparated. I looked around and wasn’t satisfied with the solutions I\nfound, so I wrote one: pngattach.\nMy approach introduces a new private chunk type atCh (“attachment”)\nwhich contains a file name, a flag to indicate if the attachment is\ncompressed, and an optionally DEFLATE-compressed blob of file contents. I\ntried to follow the spirit of PNG chunk formatting, but without the\nconstrain…",
-          "link": "https://nullprogram.com/blog/2021/12/31/",
-          "publishedOn": "2021-12-31T22:17:26.000Z",
-          "wordCount": 1354,
-          "title": "A new protocol and tool for PNG file attachments"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Xe's Blog",

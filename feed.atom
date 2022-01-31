@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-01-30T00:55:41.973Z</updated>
+    <updated>2022-01-31T00:53:39.198Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -939,42 +939,6 @@ There are Danish pediatricians arguing that the determining factor should be tha
 Then there are the health authorities saying that regardless of whether the vaccines are likely to help the individual kid, it's important that they…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Updating The Single Most Influential Book of the BASIC Era]]></title>
-        <id>61cfb0fa34500c00482dc601</id>
-        <link href="https://blog.codinghorror.com/updating-the-single-most-influential-book-of-the-basic-era/"/>
-        <updated>2021-12-31T23:49:00.000Z</updated>
-        <summary type="html"><![CDATA[In a way, these two books are responsible for my entire professional career.
-
-With early computers, you didn't boot up to a fancy schmancy desktop, or a screen full of apps you could easily poke and prod with your finger. No, those computers booted up to the command line.
-
-From]]></summary>
-        <author>
-            <name>Jeff Atwood</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A new protocol and tool for PNG file attachments]]></title>
-        <id>https://nullprogram.com/blog/2021/12/31/</id>
-        <link href="https://nullprogram.com/blog/2021/12/31/"/>
-        <updated>2021-12-31T22:17:26.000Z</updated>
-        <summary type="html"><![CDATA[When my articles include diagrams to illustrate a concept, such as a
-state machine, I will check the Graphviz, gnuplot, or SVG
-source into source control alongside the image in case I need to make
-changes in the future. Sometimes I even make the image itself a link to
-its source file. I’ve thought it would be convenient if the raster image
-somehow contained its own source as metadata so that they don’t get
-separated. I looked around and wasn’t satisfied with the solutions I
-found, so I wrote one: pngattach.
-My approach introduces a new private chunk type atCh (“attachment”)
-which contains a file name, a flag to indicate if the attachment is
-compressed, and an optionally DEFLATE-compressed blob of file contents. I
-tried to follow the spirit of PNG chunk formatting, but without the
-constrain…]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>
