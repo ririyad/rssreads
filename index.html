@@ -16,8 +16,84 @@
 <body>
 <!-- %after-body-begin.html% -->
   <section class="daily-content">
+    <h2 class="daily-heading"><time datatime="2022-02-02">2022-02-02</time></h2>
+    <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://plaintextproject.online">The Plain Text Project</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Thoughts About Using Obsidian</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://plaintextproject.online/articles/2022/02/02/obsidian.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(4 min)</span>
+                    <span>Some thoughts inspired by my experiment with using Obsidian as a personal knowledge management tool</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+    </ul>
+  </section>
+  <section class="daily-content">
     <h2 class="daily-heading"><time datatime="2022-02-01">2022-02-01</time></h2>
     <ul class="sources card">
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="http://jvns.ca/atom.xml">Julia Evans</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">A toy DNS resolver</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/2022/02/01/a-dns-resolver-in-80-lines-of-go/">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(9 min)</span>
+                    <span>Hello! I wrote a comic last week called “life of a DNS query” that explains how
+DNS resolvers work.
+In this post, I want to explain how DNS resolvers work in a different way –
+with a short Go program that does the same thing described in the comic.
+The main function (resolve) is actually just 20 lines, including comments.
+I usually find it easier to understand things work when they come in the form
+of programs that I can run and modify and poke at, so hopefully this program
+will be helpful to some of you.
+The program is here: https://github.com/jvns/tiny-resolver/blob/main/resolve.go
+what’s a DNS resolver?
+When your browser needs to make a DNS query, it asks a DNS resolvers. When
+they start, DNS resolvers don’t know any DNS records (except the IP addresses
+of the root nameservers). But the…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
+      <li class="source">
+        <section>
+          <h3 class="source-name"><a class="source-name__link" href="https://martinfowler.com/feed.atom">Martin Fowler</a></h3>
+          <section class="articles-per-source">
+            <article>
+              <details class="article-expander">
+                <summary class="article-expander__title">Building Infrastructure Platforms</summary>
+                <a class="article-summary-link article-summary-box-outer" href="https://martinfowler.com/articles/building-infrastructure-platform.html">
+                  <div class="article-summary-box-inner">
+                    <span class="article-reading-time">(5 min)</span>
+                    <span>A lot of organizations are looking to improve the way their teams
+      build on top of clouds by assembling their own preferred set of cloud
+      components into an infrastructure platform. This allows product teams
+      work with a consistent and curated set of services, rather than having
+      to figure it out on their own. Poppy Rowse and
+      Chris Shepherd have worked with several of these teams
+      and put together some guidelines on how to do this successfully. They
+      begin by outlining how to create a strategy for such a platform.
+more…</span>
+                  </div>
+                </a>
+              </details>
+            </article>
+        </section>
+      </li>
       <li class="source">
         <section>
           <h3 class="source-name"><a class="source-name__link" href="https://world.hey.com/jason">Jason Fried</a></h3>
@@ -1544,7 +1620,7 @@ It&#x27;s the result of years of investments in things like active-active double
   </section>
 
   <footer>
-    <time id="build-timestamp" datetime="2022-02-01T00:57:23.143Z">2022-02-01T00:57:23.143Z</time>
+    <time id="build-timestamp" datetime="2022-02-02T00:56:51.491Z">2022-02-02T00:56:51.491Z</time>
     <span><a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.12.0</a></span>
   </footer>
   <script src="index.js"></script>

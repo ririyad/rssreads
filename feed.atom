@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-01T00:57:23.165Z</updated>
+    <updated>2022-02-02T00:56:51.513Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Thoughts About Using Obsidian]]></title>
+        <id>https://plaintextproject.online/articles/2022/02/02/obsidian.html</id>
+        <link href="https://plaintextproject.online/articles/2022/02/02/obsidian.html"/>
+        <updated>2022-02-02T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some thoughts inspired by my experiment with using Obsidian as a personal knowledge management tool]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Infrastructure Platforms]]></title>
+        <id>https://martinfowler.com/articles/building-infrastructure-platform.html</id>
+        <link href="https://martinfowler.com/articles/building-infrastructure-platform.html"/>
+        <updated>2022-02-01T14:52:00.000Z</updated>
+        <summary type="html"><![CDATA[A lot of organizations are looking to improve the way their teams
+      build on top of clouds by assembling their own preferred set of cloud
+      components into an infrastructure platform. This allows product teams
+      work with a consistent and curated set of services, rather than having
+      to figure it out on their own. Poppy Rowse and
+      Chris Shepherd have worked with several of these teams
+      and put together some guidelines on how to do this successfully. They
+      begin by outlining how to create a strategy for such a platform.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A toy DNS resolver]]></title>
+        <id>https://jvns.ca/blog/2022/02/01/a-dns-resolver-in-80-lines-of-go/</id>
+        <link href="https://jvns.ca/blog/2022/02/01/a-dns-resolver-in-80-lines-of-go/"/>
+        <updated>2022-02-01T09:15:14.000Z</updated>
+        <summary type="html"><![CDATA[Hello! I wrote a comic last week called “life of a DNS query” that explains how
+DNS resolvers work.
+In this post, I want to explain how DNS resolvers work in a different way –
+with a short Go program that does the same thing described in the comic.
+The main function (resolve) is actually just 20 lines, including comments.
+I usually find it easier to understand things work when they come in the form
+of programs that I can run and modify and poke at, so hopefully this program
+will be helpful to some of you.
+The program is here: https://github.com/jvns/tiny-resolver/blob/main/resolve.go
+what’s a DNS resolver?
+When your browser needs to make a DNS query, it asks a DNS resolvers. When
+they start, DNS resolvers don’t know any DNS records (except the IP addresses
+of the root nameservers). But the…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#11]]]></title>
         <id>https://world.hey.com/jason/heard-something-read-something-saw-something-11-b27b098e</id>
