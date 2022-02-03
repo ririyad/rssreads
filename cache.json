@@ -40,6 +40,24 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0",
+          "author": null,
+          "description": "For Rogan's own sake, and for all of our sakes, I hope we'll soon move on from picking apart every facet of his popular podcast. But before we do, just one more thing. Really 😂\nIn this whole saga, I must admit to a guilty pleasure of chuckling at all the folks infuriated by the fact that Rogan commands such popularity from his off-the-cuff approach. Here's his own presentation of his style:\n\nThese podcasts are very strange because they’re just conversations. And oftentimes I have no idea what I’m going to talk about until I sit down and talk to people. And that’s why some of my ideas are not that prepared or fleshed out because I’m literally having them in real time, but I do my best and they’re just conversations, and I think that’s also the appeal of the show. It’s one of the things tha…",
+          "link": "https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0",
+          "publishedOn": "2022-02-02T10:34:43.000Z",
+          "wordCount": 394,
+          "title": "The infuriating ease of Rogan's popularity"
+        },
+        {
+          "id": "https://world.hey.com/dhh/work-unites-what-politics-divide-a43f8688",
+          "author": null,
+          "description": "Is there a more powerful, communal force than making stuff together? It pulls the shared humanity right out of people when they collaborate on making something greater than what they could make themselves. It intersects all the major sources of meaning by combining human connections, pursuits of mastery, and a shared purpose. It's quite literally a creative force.\nWhen you're focused on making, you focus on what people bring to the task, not what they believe, how they pray, or which political sect they belong to. You can avoid all these gaps simply by virtue of staying clear of them. Which in turn means that more people of more varied backgrounds are able to thrive together.\nThis is the wisdom of the Mark Twain's etiquette \"never [to] discuss politics or religion in polite company\". Specifically the point about \"polite company\". It's the politeness that oils the gears of collaboration.\nAll this used to be so much easier, because we never had to know. People's religious observance or political affinity could easily be a matter kept separate from the realms of collaboration. \nToday social media has spoiled that for millions. The cacophony of likes, follows, shares, and retweets betray many people's stances on the thorniest issues. It's often hard not to know someone's leanings or affinities if you connect on these nefarious networks.\nBut it's worth taking the effort not to know, and if you do, to forget. To avoid these traps of division, to chew on the bliss of ignorance. That's the choice of the creative force.",
+          "link": "https://world.hey.com/dhh/work-unites-what-politics-divide-a43f8688",
+          "publishedOn": "2022-02-02T08:14:47.000Z",
+          "wordCount": 293,
+          "title": "Work unites what politics divide"
+        },
+        {
           "id": "https://world.hey.com/dhh/there-are-no-all-knowing-all-seeing-oracles-bc6ed1fc",
           "author": null,
           "description": "Moderating content on the basis of \"truth\" is an impossible task at all but the dullest edges of discourse. Because the vanguard of truth is always in dispute. Out there on the edge, truth is a process, and it emerges faster when opposing inquiries are pursued simultaneously. This is the bedrock of science.\nRarely has this principle been proven more emphatically true than over the past few years. Our truth, their truth, your truth has been sent fumbling in the dark. Trying its way through the maze of reality, finding dead ends at every turn.\nThis doesn't mean all forms of content moderation are impossible. Forbidding direct threats of violence or doxxing is doable, for example. But mixing these prohibitions together with those against \"misinformation\" or \"disinformation\" is a rhetorical sl…",
@@ -209,15 +227,6 @@
           "publishedOn": "2022-01-04T23:57:17.000Z",
           "wordCount": 237,
           "title": "It could be worse"
-        },
-        {
-          "id": "https://world.hey.com/dhh/celebrating-the-silence-of-high-uptimes-056c4887",
-          "author": null,
-          "description": "It was a very loud year, 2021. Which makes the satisfying silence of technical incidents at Basecamp all the more of a celebration. In the year that went, every single application we offer had at least 99.99% uptime! This is through repeated AWS outages, zero-day security alerts, and the drama of the world in those twelve months.\nBut it gets better. Basecamp 3 had an uptime of 99.997%. HEY pipped it by a point with 99.998% uptime. And Basecamp 2 hit the mythical five nines with 99.999% uptime! I believe that is the best reliability record we've ever achieved for a full year in our almost twenty year history as a software company. Worth a toast!\nIt's the result of years of investments in things like active-active double data center deployments for our on-premise apps like Basecamp 2 and 3. …",
-          "link": "https://world.hey.com/dhh/celebrating-the-silence-of-high-uptimes-056c4887",
-          "publishedOn": "2022-01-03T16:23:20.000Z",
-          "wordCount": 473,
-          "title": "Celebrating the silence of high uptimes"
         }
       ]
     },
@@ -345,6 +354,15 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/building-infrastructure-platform.html#FindOutWhatYourCustomersNeed",
+          "author": null,
+          "description": "Poppy Rowse and Chris Shepherd\n      continue their advice on building infrastructure platforms by discussing\n      techniques to discover what platform users need and stress\n      the importance of finding the Shortest Path to Value by onboarding them\n      quickly.\nmore…",
+          "link": "https://martinfowler.com/articles/building-infrastructure-platform.html#FindOutWhatYourCustomersNeed",
+          "publishedOn": "2022-02-02T15:21:00.000Z",
+          "wordCount": 2728,
+          "title": "Find out what infrastructure platform customers need"
+        },
         {
           "id": "https://martinfowler.com/articles/building-infrastructure-platform.html",
           "author": null,
@@ -506,6 +524,15 @@
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
         {
+          "id": "https://world.hey.com/jorge/of-bugs-and-giants-ad1d2510",
+          "author": null,
+          "description": "In October of last year, we started to receive reports about chats that  stopped working in Basecamp. They were all iOS/Safari users. Campfires wouldn’t work, as if there was no internet connection, and the only solution was completely restarting Safari.\n\n\nThe bug was elusive and happened very intermittently. We tried several things without understanding what was going on. Sometimes they seemed to help, but we eventually hit the problem again. We decided to prioritize it and put several people to work on it.\n\n\nWe discovered that the new WebSockets implementation in Safari 15.1+ presented some serious bugs. We found a way to reproduce a consistent crash when using compression, although this wasn’t the problem impacting us, and, finally, a way to reproduce our bug in question. With that in place, we could prepare a patch. After shipping the fix, we noticed a steep decrease in these errors, and, more importantly, we stopped receiving customer reports about this.\n  \n      \n        \n\n  \nWe also upstreamed this fix to Rails, to hopefully prevent other Rails users from going through the same painful experience.\n\n\nWhile investigating this, I was concerned that this was a bug we couldn’t fix. Something was getting borked in Safari internals and completely breaking WebSockets until you restarted it. We found a way to circumvent the problem with Javascript, but it might well have been the case that this wasn’t possible.\n\n\nThis also made me think of Apple and its responsiveness to Safari bugs. They released a new implementation for a core web system that was severely flawed. As a result, many applications and WebSocket libraries stopped working on Safari. I am not naive, and I’m not expecting an overnight fix but, months later, we don’t even know if we can expect a fix. I am genuinely curious about what kind of organizational issues make a situation like this possible (I dare to discard a lack of resources 😬).\n\n---\njorgemanrubia.com",
+          "link": "https://world.hey.com/jorge/of-bugs-and-giants-ad1d2510",
+          "publishedOn": "2022-02-02T15:23:35.000Z",
+          "wordCount": 348,
+          "title": "Of bugs and giants"
+        },
+        {
           "id": "https://world.hey.com/jorge/silence-48cc695d",
           "author": null,
           "description": "I quit Twitter for the first time nine years ago. Two years ago, when I started at Basecamp, I felt like giving it a new try. Long story short: it didn’t work. \n\n\nI had identified noise as my biggest problem with Twitter back in the day. The signal was very low. I naively thought I could improve that by carefully selecting who to follow and letting Twitter know about the tweets I didn’t like. I failed miserably. I quickly found myself in a situation I knew well: spending too much time consuming information that, for the most part, I didn’t care about. \n\n\nOn top of the noise, there was now a new ingredient: Twitter often made me feel sad, or angry, or outraged, or hopeless, or a bunch of other negative emotions. It happened in small doses, one tweet at a time, not at a high intensity, but r…",
@@ -556,6 +583,15 @@
       "siteUrl": "https://research.facebook.com/",
       "articles": [
         {
+          "id": "https://research.facebook.com/blog/2022/2/announcing-the-recipients-of-the-2022-meta-phd-research-fellowship/",
+          "author": null,
+          "description": "",
+          "link": "https://research.facebook.com/blog/2022/2/announcing-the-recipients-of-the-2022-meta-phd-research-fellowship/",
+          "publishedOn": "2022-02-02T11:31:00.000Z",
+          "wordCount": 917,
+          "title": "Announcing the recipients of the 2022 Meta PhD Research Fellowship"
+        },
+        {
           "id": "https://research.facebook.com/blog/2022/1/microestimates-of-wealth-for-all-low-and-middle-income-countries/",
           "author": null,
           "description": "",
@@ -598,6 +634,15 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/scamcoin-jobs-2022-02-01",
+          "author": null,
+          "description": "Posted on 2022-02-01",
+          "link": "https://christine.website/blog/scamcoin-jobs-2022-02-01",
+          "publishedOn": "2022-02-01T00:00:00.000Z",
+          "wordCount": 1229,
+          "title": "How To Approach Me With Scamcoin Jobs"
+        },
         {
           "id": "https://christine.website/blog/make-microservices-cluster-2022-01-27",
           "author": null,
@@ -651,15 +696,6 @@
           "publishedOn": "2022-01-10T00:00:00.000Z",
           "wordCount": 879,
           "title": "You Win, Broken Database Schemas"
-        },
-        {
-          "id": "https://christine.website/blog/sqlite-json-munge-2022-01-04",
-          "author": null,
-          "description": "Posted on 2022-01-04",
-          "link": "https://christine.website/blog/sqlite-json-munge-2022-01-04",
-          "publishedOn": "2022-01-04T00:00:00.000Z",
-          "wordCount": 1623,
-          "title": "Bashing JSON into Shape with SQLite"
         }
       ]
     },

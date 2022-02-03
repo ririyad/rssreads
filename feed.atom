@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-02T00:56:51.513Z</updated>
+    <updated>2022-02-03T00:53:29.886Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -14,6 +14,89 @@
         <summary type="html"><![CDATA[Some thoughts inspired by my experiment with using Obsidian as a personal knowledge management tool]]></summary>
         <author>
             <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Of bugs and giants]]></title>
+        <id>https://world.hey.com/jorge/of-bugs-and-giants-ad1d2510</id>
+        <link href="https://world.hey.com/jorge/of-bugs-and-giants-ad1d2510"/>
+        <updated>2022-02-02T15:23:35.000Z</updated>
+        <summary type="html"><![CDATA[In October of last year, we started to receive reports about chats that  stopped working in Basecamp. They were all iOS/Safari users. Campfires wouldn’t work, as if there was no internet connection, and the only solution was completely restarting Safari.
+
+
+The bug was elusive and happened very intermittently. We tried several things without understanding what was going on. Sometimes they seemed to help, but we eventually hit the problem again. We decided to prioritize it and put several people to work on it.
+
+
+We discovered that the new WebSockets implementation in Safari 15.1+ presented some serious bugs. We found a way to reproduce a consistent crash when using compression, although this wasn’t the problem impacting us, and, finally, a way to reproduce our bug in question. With that in place, we could prepare a patch. After shipping the fix, we noticed a steep decrease in these errors, and, more importantly, we stopped receiving customer reports about this.
+  
+      
+        
+
+  
+We also upstreamed this fix to Rails, to hopefully prevent other Rails users from going through the same painful experience.
+
+
+While investigating this, I was concerned that this was a bug we couldn’t fix. Something was getting borked in Safari internals and completely breaking WebSockets until you restarted it. We found a way to circumvent the problem with Javascript, but it might well have been the case that this wasn’t possible.
+
+
+This also made me think of Apple and its responsiveness to Safari bugs. They released a new implementation for a core web system that was severely flawed. As a result, many applications and WebSocket libraries stopped working on Safari. I am not naive, and I’m not expecting an overnight fix but, months later, we don’t even know if we can expect a fix. I am genuinely curious about what kind of organizational issues make a situation like this possible (I dare to discard a lack of resources 😬).
+
+---
+jorgemanrubia.com]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Find out what infrastructure platform customers need]]></title>
+        <id>https://martinfowler.com/articles/building-infrastructure-platform.html#FindOutWhatYourCustomersNeed</id>
+        <link href="https://martinfowler.com/articles/building-infrastructure-platform.html#FindOutWhatYourCustomersNeed"/>
+        <updated>2022-02-02T15:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Poppy Rowse and Chris Shepherd
+      continue their advice on building infrastructure platforms by discussing
+      techniques to discover what platform users need and stress
+      the importance of finding the Shortest Path to Value by onboarding them
+      quickly.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the recipients of the 2022 Meta PhD Research Fellowship]]></title>
+        <id>https://research.facebook.com/blog/2022/2/announcing-the-recipients-of-the-2022-meta-phd-research-fellowship/</id>
+        <link href="https://research.facebook.com/blog/2022/2/announcing-the-recipients-of-the-2022-meta-phd-research-fellowship/"/>
+        <updated>2022-02-02T11:31:00.000Z</updated>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The infuriating ease of Rogan's popularity]]></title>
+        <id>https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0</id>
+        <link href="https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0"/>
+        <updated>2022-02-02T10:34:43.000Z</updated>
+        <summary type="html"><![CDATA[For Rogan's own sake, and for all of our sakes, I hope we'll soon move on from picking apart every facet of his popular podcast. But before we do, just one more thing. Really 😂
+In this whole saga, I must admit to a guilty pleasure of chuckling at all the folks infuriated by the fact that Rogan commands such popularity from his off-the-cuff approach. Here's his own presentation of his style:
+
+These podcasts are very strange because they’re just conversations. And oftentimes I have no idea what I’m going to talk about until I sit down and talk to people. And that’s why some of my ideas are not that prepared or fleshed out because I’m literally having them in real time, but I do my best and they’re just conversations, and I think that’s also the appeal of the show. It’s one of the things tha…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Work unites what politics divide]]></title>
+        <id>https://world.hey.com/dhh/work-unites-what-politics-divide-a43f8688</id>
+        <link href="https://world.hey.com/dhh/work-unites-what-politics-divide-a43f8688"/>
+        <updated>2022-02-02T08:14:47.000Z</updated>
+        <summary type="html"><![CDATA[Is there a more powerful, communal force than making stuff together? It pulls the shared humanity right out of people when they collaborate on making something greater than what they could make themselves. It intersects all the major sources of meaning by combining human connections, pursuits of mastery, and a shared purpose. It's quite literally a creative force.
+When you're focused on making, you focus on what people bring to the task, not what they believe, how they pray, or which political sect they belong to. You can avoid all these gaps simply by virtue of staying clear of them. Which in turn means that more people of more varied backgrounds are able to thrive together.
+This is the wisdom of the Mark Twain's etiquette "never [to] discuss politics or religion in polite company". Specifically the point about "polite company". It's the politeness that oils the gears of collaboration.
+All this used to be so much easier, because we never had to know. People's religious observance or political affinity could easily be a matter kept separate from the realms of collaboration. 
+Today social media has spoiled that for millions. The cacophony of likes, follows, shares, and retweets betray many people's stances on the thorniest issues. It's often hard not to know someone's leanings or affinities if you connect on these nefarious networks.
+But it's worth taking the effort not to know, and if you do, to forget. To avoid these traps of division, to chew on the bliss of ignorance. That's the choice of the creative force.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
     <entry>
@@ -78,6 +161,16 @@ Until next time.
 -Jason]]></summary>
         <author>
             <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Approach Me With Scamcoin Jobs]]></title>
+        <id>https://christine.website/blog/scamcoin-jobs-2022-02-01</id>
+        <link href="https://christine.website/blog/scamcoin-jobs-2022-02-01"/>
+        <updated>2022-02-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-02-01]]></summary>
+        <author>
+            <name>Xe's Blog</name>
         </author>
     </entry>
     <entry>
@@ -998,28 +1091,6 @@ One of my favorite why the hell not moments was when we were writing REWORK. One
         <summary type="html"><![CDATA[An introduction to a lean, flexible Markdown editor]]></summary>
         <author>
             <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bashing JSON into Shape with SQLite]]></title>
-        <id>https://christine.website/blog/sqlite-json-munge-2022-01-04</id>
-        <link href="https://christine.website/blog/sqlite-json-munge-2022-01-04"/>
-        <updated>2022-01-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-01-04]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Celebrating the silence of high uptimes]]></title>
-        <id>https://world.hey.com/dhh/celebrating-the-silence-of-high-uptimes-056c4887</id>
-        <link href="https://world.hey.com/dhh/celebrating-the-silence-of-high-uptimes-056c4887"/>
-        <updated>2022-01-03T16:23:20.000Z</updated>
-        <summary type="html"><![CDATA[It was a very loud year, 2021. Which makes the satisfying silence of technical incidents at Basecamp all the more of a celebration. In the year that went, every single application we offer had at least 99.99% uptime! This is through repeated AWS outages, zero-day security alerts, and the drama of the world in those twelve months.
-But it gets better. Basecamp 3 had an uptime of 99.997%. HEY pipped it by a point with 99.998% uptime. And Basecamp 2 hit the mythical five nines with 99.999% uptime! I believe that is the best reliability record we've ever achieved for a full year in our almost twenty year history as a software company. Worth a toast!
-It's the result of years of investments in things like active-active double data center deployments for our on-premise apps like Basecamp 2 and 3. …]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
