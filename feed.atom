@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-03T00:53:29.886Z</updated>
+    <updated>2022-02-04T00:54:39.992Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The second-hand stress of social media]]></title>
+        <id>https://world.hey.com/dhh/the-second-hand-stress-of-social-media-26178dd0</id>
+        <link href="https://world.hey.com/dhh/the-second-hand-stress-of-social-media-26178dd0"/>
+        <updated>2022-02-03T10:14:05.000Z</updated>
+        <summary type="html"><![CDATA[I'd been an active combatant in the arena of social media for so long that I thought the baseline stress it produced was mainly due to the direct involvement. Over the past ten-plus years, rarely did I go a week without getting into some sort of heated argument with strangers online. But since retiring from the back-and-forth, it's clear that active involvement is not required for social media to produce a stress response. Passive exposure surely does too it.
+This is most apparent when you take a prolonged break. Take a couple of weeks off scrolling through your feed, then return, and I'd be surprised if you aren't aghast at what it feels like. The tolerance you built up from years of exposure to these rivers of unhappy, resentful, angry exchanges wanes remarkably quickly, and when you throw yourself back in without that tolerance, it's a shock to the system.
+That shock isn't the problem, though. It's the solution. It's your body telling you just how unhealthy soaking your mind in these flows actually is. The problem is the tolerance because it allows you to cope with the constant exposure. Meanwhile all that cortisol is flowing through veins, producing everything from ulcers to heart disease.
+I think most people already know this, but I don't think we have any idea of how bad it really is. I wouldn't be surprised if the effects of second-hand stress from social media is worse than the second-hand stress from smoking in many developed countries. That's a longitudinal study I'd love to see. (Blessed be those selected for the control group!)]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Async Rust in 2022]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/02/03/async-in-2022.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/02/03/async-in-2022.html"/>
+        <updated>2022-02-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Almost a year ago, the Async Working Group1 embarked on a collaborative effort to write a shared async vision document. As we enter 2022, we wanted to give an update on the results from that process along with the progress we are making towards realizing that vision.
+Writing an async issue aggregator in Rust 2024
+To set the scene, imagine it's Rust 2024, and you've decided to build your first project in Rust. You're working on a project that uses GitHub and you'd like a tool that will walk over all the issues on your repository and do some automatic triage. You decide to use async Rust for this. You pull out the Rust book and thumb over to the Async I/O section. In there, it shows you the basic structure of an async Rust application. Like any Rust program, it begins with main, but this tim…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thoughts About Using Obsidian]]></title>
         <id>https://plaintextproject.online/articles/2022/02/02/obsidian.html</id>
@@ -60,6 +85,16 @@ jorgemanrubia.com]]></summary>
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Swiss Army Product Management Team]]></title>
+        <id>https://staysaasy.com/product/2022/02/02/the-swiss-army-product-management-team.html</id>
+        <link href="https://staysaasy.com/product/2022/02/02/the-swiss-army-product-management-team.html"/>
+        <updated>2022-02-02T14:59:22.000Z</updated>
+        <summary type="html"><![CDATA[If you want to be excellent at fielding a diverse array of business needs you must field a diverse team. Staffing a wide array of skills and experience makes it much more likely that your PM team will have a qualified person for any given need.]]></summary>
+        <author>
+            <name>Stay SaaSy</name>
         </author>
     </entry>
     <entry>
@@ -1033,64 +1068,6 @@ In the meantime, you just press on and keep making things, trying things, and ge
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why might you run your own DNS server?]]></title>
-        <id>https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/</id>
-        <link href="https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/"/>
-        <updated>2022-01-05T06:42:51.000Z</updated>
-        <summary type="html"><![CDATA[One of the things that makes DNS difficult to understand is that it’s
-decentralized. There are thousands (maybe hundreds of thousands? I don’t know!) of authoritative nameservers, and at least
-10 million resolvers.
-And they’re running lots of different software! All these different servers
-running software means that there’s a lot of inconsistency in how DNS works,
-which can cause all kinds of frustrating problems.
-But instead of talking about the problems, I’m interested in figuring out –
-why is it a good thing that DNS is decentralized?
-why is it good that DNS is decentralized?
-One reason is scalability – the decentralized design of DNS makes it
-easier to scale and more resilient to failures. I find it really amazing that
-DNS is still scaling well even though it’s almost 40 years old. Th…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It could be worse]]></title>
-        <id>https://world.hey.com/dhh/it-could-be-worse-3833156b</id>
-        <link href="https://world.hey.com/dhh/it-could-be-worse-3833156b"/>
-        <updated>2022-01-04T23:57:17.000Z</updated>
-        <summary type="html"><![CDATA[I grew up with persistent reminders of how any bad thing that happened could easily have been worse. Oh, you scraped your knee? It could be worse, you could have broken your leg! Oh, you broke your leg? It could be worse, you could have cracked your skull! Oh, you cracked your skull? It could be worse, you could have died!
-It wasn't just about physical setbacks either, but the social and mental ones too. Things inside of my control, things outside of my control. The way to make those setbacks and the inevitable suffering in life bearable was to constantly remind yourself that... it could be worse!
-Any student of Stoicism will recognize this pattern of mental fortification. It's closely related to negative visualization, just with a different timing. The underlying premise is the essence of Stoicism: We suffer more in our mind than in reality. And the ultimate resilience to face the struggles of living lies in controlling our reactions to the things that happen. Our reactions are not given. They can be changed.
-I wish there was more of that today. More "it could be worse". Less "this is the worst thing ever".]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why the hell not?]]></title>
-        <id>https://world.hey.com/jason/why-the-hell-not-8d2c8fbf</id>
-        <link href="https://world.hey.com/jason/why-the-hell-not-8d2c8fbf"/>
-        <updated>2022-01-04T21:23:17.000Z</updated>
-        <summary type="html"><![CDATA[Whenever I dive into something new, I try to find at least one “why the hell not?” moment. And when I can, I try to leave evidence of that moment in whatever it is that I’m building.
-
-When we launched our company (37signals) back in 1999, we launched a black and white, text-only site without a single piece of portfolio work to be found. All the other agencies we were competing with had very flashy pages, loaded with pictures of their work. So why black and white and text only? Because why the hell not lead with ideas rather than compete on pictures? We thought it could be better that way. It worked out well for us.
-
-One of my favorite why the hell not moments was when we were writing REWORK. One of the things that always bugs me about paper books is that you have to leaf through a dozen or…]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Writing in Markdown with Apostrophe]]></title>
-        <id>https://plaintextproject.online/articles/2022/01/04/apostrophe.html</id>
-        <link href="https://plaintextproject.online/articles/2022/01/04/apostrophe.html"/>
-        <updated>2022-01-04T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An introduction to a lean, flexible Markdown editor]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
         </author>
     </entry>
 </feed>

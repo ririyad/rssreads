@@ -40,6 +40,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-second-hand-stress-of-social-media-26178dd0",
+          "author": null,
+          "description": "I'd been an active combatant in the arena of social media for so long that I thought the baseline stress it produced was mainly due to the direct involvement. Over the past ten-plus years, rarely did I go a week without getting into some sort of heated argument with strangers online. But since retiring from the back-and-forth, it's clear that active involvement is not required for social media to produce a stress response. Passive exposure surely does too it.\nThis is most apparent when you take a prolonged break. Take a couple of weeks off scrolling through your feed, then return, and I'd be surprised if you aren't aghast at what it feels like. The tolerance you built up from years of exposure to these rivers of unhappy, resentful, angry exchanges wanes remarkably quickly, and when you throw yourself back in without that tolerance, it's a shock to the system.\nThat shock isn't the problem, though. It's the solution. It's your body telling you just how unhealthy soaking your mind in these flows actually is. The problem is the tolerance because it allows you to cope with the constant exposure. Meanwhile all that cortisol is flowing through veins, producing everything from ulcers to heart disease.\nI think most people already know this, but I don't think we have any idea of how bad it really is. I wouldn't be surprised if the effects of second-hand stress from social media is worse than the second-hand stress from smoking in many developed countries. That's a longitudinal study I'd love to see. (Blessed be those selected for the control group!)",
+          "link": "https://world.hey.com/dhh/the-second-hand-stress-of-social-media-26178dd0",
+          "publishedOn": "2022-02-03T10:14:05.000Z",
+          "wordCount": 306,
+          "title": "The second-hand stress of social media"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0",
           "author": null,
           "description": "For Rogan's own sake, and for all of our sakes, I hope we'll soon move on from picking apart every facet of his popular podcast. But before we do, just one more thing. Really 😂\nIn this whole saga, I must admit to a guilty pleasure of chuckling at all the folks infuriated by the fact that Rogan commands such popularity from his off-the-cuff approach. Here's his own presentation of his style:\n\nThese podcasts are very strange because they’re just conversations. And oftentimes I have no idea what I’m going to talk about until I sit down and talk to people. And that’s why some of my ideas are not that prepared or fleshed out because I’m literally having them in real time, but I do my best and they’re just conversations, and I think that’s also the appeal of the show. It’s one of the things tha…",
@@ -218,15 +227,6 @@
           "publishedOn": "2022-01-06T00:05:15.000Z",
           "wordCount": 693,
           "title": "It's harder hiring managers"
-        },
-        {
-          "id": "https://world.hey.com/dhh/it-could-be-worse-3833156b",
-          "author": null,
-          "description": "I grew up with persistent reminders of how any bad thing that happened could easily have been worse. Oh, you scraped your knee? It could be worse, you could have broken your leg! Oh, you broke your leg? It could be worse, you could have cracked your skull! Oh, you cracked your skull? It could be worse, you could have died!\nIt wasn't just about physical setbacks either, but the social and mental ones too. Things inside of my control, things outside of my control. The way to make those setbacks and the inevitable suffering in life bearable was to constantly remind yourself that... it could be worse!\nAny student of Stoicism will recognize this pattern of mental fortification. It's closely related to negative visualization, just with a different timing. The underlying premise is the essence of Stoicism: We suffer more in our mind than in reality. And the ultimate resilience to face the struggles of living lies in controlling our reactions to the things that happen. Our reactions are not given. They can be changed.\nI wish there was more of that today. More \"it could be worse\". Less \"this is the worst thing ever\".",
-          "link": "https://world.hey.com/dhh/it-could-be-worse-3833156b",
-          "publishedOn": "2022-01-04T23:57:17.000Z",
-          "wordCount": 237,
-          "title": "It could be worse"
         }
       ]
     },
@@ -288,15 +288,6 @@
           "publishedOn": "2022-01-05T21:31:17.000Z",
           "wordCount": 387,
           "title": "Faith in eventually"
-        },
-        {
-          "id": "https://world.hey.com/jason/why-the-hell-not-8d2c8fbf",
-          "author": null,
-          "description": "Whenever I dive into something new, I try to find at least one “why the hell not?” moment. And when I can, I try to leave evidence of that moment in whatever it is that I’m building.\n\nWhen we launched our company (37signals) back in 1999, we launched a black and white, text-only site without a single piece of portfolio work to be found. All the other agencies we were competing with had very flashy pages, loaded with pictures of their work. So why black and white and text only? Because why the hell not lead with ideas rather than compete on pictures? We thought it could be better that way. It worked out well for us.\n\nOne of my favorite why the hell not moments was when we were writing REWORK. One of the things that always bugs me about paper books is that you have to leaf through a dozen or…",
-          "link": "https://world.hey.com/jason/why-the-hell-not-8d2c8fbf",
-          "publishedOn": "2022-01-04T21:23:17.000Z",
-          "wordCount": 475,
-          "title": "Why the hell not?"
         }
       ]
     },
@@ -331,15 +322,6 @@
           "publishedOn": "2022-01-12T19:00:00.000Z",
           "wordCount": 496,
           "title": "Tools Roundup - January 12, 2022"
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2022/01/04/apostrophe.html",
-          "author": null,
-          "description": "An introduction to a lean, flexible Markdown editor",
-          "link": "https://plaintextproject.online/articles/2022/01/04/apostrophe.html",
-          "publishedOn": "2022-01-04T19:00:00.000Z",
-          "wordCount": 999,
-          "title": "Writing in Markdown with Apostrophe"
         }
       ]
     },
@@ -498,6 +480,15 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/02/03/async-in-2022.html",
+          "author": null,
+          "description": "Almost a year ago, the Async Working Group1 embarked on a collaborative effort to write a shared async vision document. As we enter 2022, we wanted to give an update on the results from that process along with the progress we are making towards realizing that vision.\nWriting an async issue aggregator in Rust 2024\nTo set the scene, imagine it's Rust 2024, and you've decided to build your first project in Rust. You're working on a project that uses GitHub and you'd like a tool that will walk over all the issues on your repository and do some automatic triage. You decide to use async Rust for this. You pull out the Rust book and thumb over to the Async I/O section. In there, it shows you the basic structure of an async Rust application. Like any Rust program, it begins with main, but this tim…",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/02/03/async-in-2022.html",
+          "publishedOn": "2022-02-03T00:00:00.000Z",
+          "wordCount": 1246,
+          "title": "Async Rust in 2022"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html",
           "author": null,
@@ -705,6 +696,15 @@
       "siteUrl": "https://staysaasy.com/",
       "articles": [
         {
+          "id": "https://staysaasy.com/product/2022/02/02/the-swiss-army-product-management-team.html",
+          "author": null,
+          "description": "If you want to be excellent at fielding a diverse array of business needs you must field a diverse team. Staffing a wide array of skills and experience makes it much more likely that your PM team will have a qualified person for any given need.",
+          "link": "https://staysaasy.com/product/2022/02/02/the-swiss-army-product-management-team.html",
+          "publishedOn": "2022-02-02T14:59:22.000Z",
+          "wordCount": 1679,
+          "title": "The Swiss Army Product Management Team"
+        },
+        {
           "id": "https://staysaasy.com/software/2022/01/29/integrity.html",
           "author": null,
           "description": "A person has got to have a code.",
@@ -773,15 +773,6 @@
           "publishedOn": "2022-01-11T08:30:16.000Z",
           "wordCount": 1299,
           "title": "How to find a domain's authoritative nameservers"
-        },
-        {
-          "id": "https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/",
-          "author": null,
-          "description": "One of the things that makes DNS difficult to understand is that it’s\ndecentralized. There are thousands (maybe hundreds of thousands? I don’t know!) of authoritative nameservers, and at least\n10 million resolvers.\nAnd they’re running lots of different software! All these different servers\nrunning software means that there’s a lot of inconsistency in how DNS works,\nwhich can cause all kinds of frustrating problems.\nBut instead of talking about the problems, I’m interested in figuring out –\nwhy is it a good thing that DNS is decentralized?\nwhy is it good that DNS is decentralized?\nOne reason is scalability – the decentralized design of DNS makes it\neasier to scale and more resilient to failures. I find it really amazing that\nDNS is still scaling well even though it’s almost 40 years old. Th…",
-          "link": "https://jvns.ca/blog/2022/01/05/why-might-you-run-your-own-dns-server-/",
-          "publishedOn": "2022-01-05T06:42:51.000Z",
-          "wordCount": 1858,
-          "title": "Why might you run your own DNS server?"
         }
       ]
     },
