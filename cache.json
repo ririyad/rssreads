@@ -40,6 +40,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/apple-reveals-road-map-to-tax-any-business-with-an-app-at-27-0644ff3a",
+          "author": null,
+          "description": "In response to getting fined €5 million by the Dutch competition authorities, Apple has revealed an even more draconian, invasive, and frankly, terrifying scheme to collect their App Store tax from dating-app developers operating in The Netherlands. One that grants themselves the right to audit the books of any developer who dares refuse Apple's own in-app payment system, still collects a preposterous 27% of the economic activity, and mandates a scary-sounding disclaimer to discourage users from even trying it. Yowza!\nHere's how Apple lays out the framework that'll govern the economic and operating punishment that exactly nobody would ever in their right mind volunteer for (my emphasis):\n\nConsistent with the ACM’s order, dating apps that are granted an entitlement to link out or use a thir…",
+          "link": "https://world.hey.com/dhh/apple-reveals-road-map-to-tax-any-business-with-an-app-at-27-0644ff3a",
+          "publishedOn": "2022-02-04T15:55:16.000Z",
+          "wordCount": 660,
+          "title": "Apple reveals road map to tax any business with an app at 27%"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-second-hand-stress-of-social-media-26178dd0",
           "author": null,
           "description": "I'd been an active combatant in the arena of social media for so long that I thought the baseline stress it produced was mainly due to the direct involvement. Over the past ten-plus years, rarely did I go a week without getting into some sort of heated argument with strangers online. But since retiring from the back-and-forth, it's clear that active involvement is not required for social media to produce a stress response. Passive exposure surely does too it.\nThis is most apparent when you take a prolonged break. Take a couple of weeks off scrolling through your feed, then return, and I'd be surprised if you aren't aghast at what it feels like. The tolerance you built up from years of exposure to these rivers of unhappy, resentful, angry exchanges wanes remarkably quickly, and when you throw yourself back in without that tolerance, it's a shock to the system.\nThat shock isn't the problem, though. It's the solution. It's your body telling you just how unhealthy soaking your mind in these flows actually is. The problem is the tolerance because it allows you to cope with the constant exposure. Meanwhile all that cortisol is flowing through veins, producing everything from ulcers to heart disease.\nI think most people already know this, but I don't think we have any idea of how bad it really is. I wouldn't be surprised if the effects of second-hand stress from social media is worse than the second-hand stress from smoking in many developed countries. That's a longitudinal study I'd love to see. (Blessed be those selected for the control group!)",
@@ -218,15 +227,6 @@
           "publishedOn": "2022-01-06T18:14:09.000Z",
           "wordCount": 390,
           "title": "It's not a lottery"
-        },
-        {
-          "id": "https://world.hey.com/dhh/it-s-harder-hiring-managers-c0a41014",
-          "author": null,
-          "description": "We just opened a position for a Director of Engineering to help us manage our rapidly expanding technical teams at Basecamp. We already have more programmers on staff than we've ever had, and we intend to double that crew within the next 12-18 months. We're going all-in on becoming a multi-product business again, and that means hiring the managers needed to to cope with those ambitions.\nNot just because of this rapid growth on the technical teams, but because the rest of the company is growing along with it. We'll be bigger than we've ever been this January, and before the end of the year, we'll be much bigger still. Wild to think that after almost twenty years in business, we're suddenly on a fast track to crack a hundred employees.\nIt's even more interesting because eight years ago we st…",
-          "link": "https://world.hey.com/dhh/it-s-harder-hiring-managers-c0a41014",
-          "publishedOn": "2022-01-06T00:05:15.000Z",
-          "wordCount": 693,
-          "title": "It's harder hiring managers"
         }
       ]
     },
@@ -279,15 +279,6 @@
           "publishedOn": "2022-01-06T20:32:30.000Z",
           "wordCount": 677,
           "title": "Deployments: How we announce new features and updates internally at Basecamp"
-        },
-        {
-          "id": "https://world.hey.com/jason/faith-in-eventually-2d17e90a",
-          "author": null,
-          "description": "Making something new takes patience. But it also takes faith. Faith that everything will work out in the end.\n\nDuring the development of most any product, there are always times when things aren’t quite right. Times when you feel like you may be going backwards a bit. Times where it’s almost there, but you can’t yet figure out why it isn’t. Times when you hate the thing today that you loved yesterday. Times when what you had in your head isn’t quite what you’re seeing in front of you. Yet. That’s when you need to have faith.\n\nThere are designs that are close, but not there yet. There are obvious conflicts that will need to be resolved. There are lingering things that confound you, confuse you, or upset you, but you know that eventually they’ll work themselves out. Eventually you’ll find the right way to do something you’ve been struggling with.\n\nIt’s hard to live with something that isn’t quite right yet – especially when it’s your job to get it right. It’s important to know when to say “it’s fine for now, but it won’t be fine for later.” Because moving forward is critical to getting somewhere. And, eventually, you’ll figure it all out. It’ll all work out in the end.\n\nThis is what I’ve always believed, and have always tried to practice. A dedicated faith in the eventual resolution of a problem, the eventual execution of a concept, and the eventual realization of the right design. Even when something’s poking out you don’t like, or something isn’t aligning quite right, or the words aren’t as elegant as you’d hoped, or something just isn’t easy enough yet, you need to have confidence it’ll all come together eventually.\n\nRemember that what you’re making is in a perpetual state of almost right up until the end. And it's never right even after.\n\nIn the meantime, you just press on and keep making things, trying things, and getting closer and closer to the time when you can tie the loose ends into a perfect bow and present it to the world. What fun it is!\n\n\n-Jason",
-          "link": "https://world.hey.com/jason/faith-in-eventually-2d17e90a",
-          "publishedOn": "2022-01-05T21:31:17.000Z",
-          "wordCount": 387,
-          "title": "Faith in eventually"
         }
       ]
     },
@@ -398,15 +389,6 @@
           "publishedOn": "2022-01-11T15:09:00.000Z",
           "wordCount": 3404,
           "title": "Replicated Log: synchronize multiple nodes with a write-ahead                log"
-        },
-        {
-          "id": "https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html",
-          "author": null,
-          "description": "Unmesh Joshi is ready to start the New Year with a few\n      more of his Patterns of Distributed Systems. With this one he attempts the\n      tricky task of explaining Paxos. This is a well-known\n      protocol developed by Leslie Lamport, for nodes to reach a reliable\n      consensus when both they, and the network, are prone to unexpected\n      failure. Although it's well-known, it's also notoriously difficult to\n      understand, indeed we had considerable difficulty getting our heads around\n      it. We hope this description makes it a bit easier for those who follow\n      us.\nmore…",
-          "link": "https://martinfowler.com/articles/patterns-of-distributed-systems/paxos.html",
-          "publishedOn": "2022-01-05T15:53:00.000Z",
-          "wordCount": 3055,
-          "title": "Paxos: using two consensus-building phases to handle unreliable                nodes"
         }
       ]
     },
