@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-05T00:47:52.949Z</updated>
+    <updated>2022-02-06T01:03:13.082Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My MacOS essentials]]></title>
+        <id>https://world.hey.com/jorge/my-macos-essentials-10f08f65</id>
+        <link href="https://world.hey.com/jorge/my-macos-essentials-10f08f65"/>
+        <updated>2022-02-05T22:26:40.000Z</updated>
+        <summary type="html"><![CDATA[Just because the world is short of lists of favorite apps, here is mine:
+Task Paper for todos
+I used to have a thing for todo apps. I have tried them all and even tried to build my own. I switched to Task Paper years ago and have stuck to it since then. The truth is that my relationship with todos has changed significantly over the years. These days I only track a short list of things usually related to what I'm currently working on, and Task Paper is perfect for this.
+In Task Paper, you feel like you are freely editing a text document with a thin layer of todo-related niceties. This looks simple but balancing both aspects successfully is not easy at all. Try to deal with todos in any note-taking app and then switch to Task Paper to see the difference.
+Craft for note taking
+I love writing …]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to mint a crypto fan]]></title>
+        <id>https://world.hey.com/dhh/how-to-mint-a-crypto-fan-b482ede2</id>
+        <link href="https://world.hey.com/dhh/how-to-mint-a-crypto-fan-b482ede2"/>
+        <updated>2022-02-05T16:59:34.000Z</updated>
+        <summary type="html"><![CDATA[You couldn’t have planned a better advertising campaign for crypto than Gofundme’s ham-fisted cancelation of donations intended for the protesting Canadian truckers. Their first attempt would literally have re-routed donations for the truckers to “other charities”. That sounded so crazy when I first read it that I had to dig up multiple confirming sources to believe it to be true. But true enough it was!
+
+
+Thankfully, this original plan was revised after Gofundme got some “donor feedback”, including from the likes of Elon Musk (what a timeline we’re living in!). The new plan will “just” block the donations from reaching their intended recipients, and result in refunds 7-10 days(!!) from now. What a conveniently long time to keep $10 million locked up, and unable to support the protesting t…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apple reveals road map to tax any business with an app at 27%]]></title>
         <id>https://world.hey.com/dhh/apple-reveals-road-map-to-tax-any-business-with-an-app-at-27-0644ff3a</id>
@@ -986,35 +1014,6 @@ So far, so uncontroversial, you'd think? But I'm increasingly seeing this basic 
         <summary type="html"><![CDATA[It’s a new year and my old computer is still old.]]></summary>
         <author>
             <name>joshua stein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Deployments: How we announce new features and updates internally at Basecamp]]></title>
-        <id>https://world.hey.com/jason/deployments-how-we-announce-new-features-and-updates-internally-at-basecamp-b709544e</id>
-        <link href="https://world.hey.com/jason/deployments-how-we-announce-new-features-and-updates-internally-at-basecamp-b709544e"/>
-        <updated>2022-01-06T20:32:30.000Z</updated>
-        <summary type="html"><![CDATA[A few weeks ago I shared how we write Heartbeats at Basecamp. Heartbeats are written by team leads that summarize their team's work over the past 6-week cycle. They are published to Basecamp, and shared with everyone at Basecamp, so everyone knows what's happening across the company.
-The post was really well received, and people have been clamoring for me to share more of our internal processes and posts. Our book Shape Up covers a lot of this in principle, but, since it's a book, it's obviously not going to have current, ongoing real-world examples. And who doesn't like to see the real stuff? I sure do! So here, let's look at something that was posted internally, today.
-
-Deployments
-In our own Basecamp account, we have a project called Deployments. Everyone in the company has access to th…]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's not a lottery]]></title>
-        <id>https://world.hey.com/dhh/it-s-not-a-lottery-8d378442</id>
-        <link href="https://world.hey.com/dhh/it-s-not-a-lottery-8d378442"/>
-        <updated>2022-01-06T18:14:09.000Z</updated>
-        <summary type="html"><![CDATA[The opening for director of engineering at Basecamp has barely been up for a day, and there's already an inbox full of applicants. Virtually none of whom seem to have bothered reading the basic requirements for the opening or comply with the instructions on how to make a successful application. And I'm just left thinking: What's the point? Do people think this is a lottery?
-This isn't unique to this position, of course. We always get a large amount of applicants to openings at Basecamp who don't even seem to do the most basic work to ensure their application fits the opening. And it fascinates me, because presumably this approach must work for some people, some of the time, right? Otherwise why would you keep operating like this?
-Maybe that's part of the disillusionment with the modern job market. That applications are being processed by AI, and humans don't even see your effort, unless the computer finds the matching keywords in the CV. So why put in the effort! But is that actually true? Are lots of companies actually hiring this way? For positions like this? I'm skeptical.
-Either way, it's not how we review applications at Basecamp. There's a human on the other side, and that human is not going to spend five minutes pondering whether you might be a fit for the role, if you don't comply with the basic requirements, like including a cover letter. Or having the relevant experience required for the role (like needing experience as a "manager of managers" for the director of engineering).
-You might think, what's the harm? Not like it takes a lot of effort to apply like this! Just spam the CV, and that's it. But I think there's a cost to that kind of job applications which show up in a psychological toll from a terrible applications-to-callbacks ratio. That further just worsens the feedback loop: I'm not getting callbacks, so I'll put even less effort into the next opening.
-I guess what I'm saying is make the effort or don't bother. We're not drawing names out of a hat here.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
     <entry>
