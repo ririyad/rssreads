@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-07T00:55:38.363Z</updated>
+    <updated>2022-02-08T00:57:53.261Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Humble Dialog Box]]></title>
+        <id>https://martinfowler.com/articles/humble-dialog-box.html</id>
+        <link href="https://martinfowler.com/articles/humble-dialog-box.html"/>
+        <updated>2022-02-07T14:59:00.000Z</updated>
+        <summary type="html"><![CDATA[A 2002 article by Michael Feathers. This article introduced the idea of dealing with a hard-to-test GUI behavior by minimizing the behavior within the GUI element, moving as much as possible to a separate object that’s easier to test. This idea was generalized into the Humble Object pattern.
+The pdf of this article is here, but if you’re wish to share a link, please link to this page instead, as that pdf link may not be stable and this page allows us to more easily enhance this resource later.]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wallops 1.0 Released]]></title>
+        <id>https://jcs.org/2022/02/07/wallops</id>
+        <link href="https://jcs.org/2022/02/07/wallops"/>
+        <updated>2022-02-07T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As teased on Twitter, the first release of my Wallops IRC client is now available:]]></summary>
+        <author>
+            <name>joshua stein</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[waifud Progress Report #1]]></title>
+        <id>https://christine.website/blog/waifud-progress-2022-02-06</id>
+        <link href="https://christine.website/blog/waifud-progress-2022-02-06"/>
+        <updated>2022-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-02-06]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[My MacOS essentials]]></title>
         <id>https://world.hey.com/jorge/my-macos-essentials-10f08f65</id>
@@ -58,6 +89,26 @@ That shock isn't the problem, though. It's the solution. It's your body telling 
 I think most people already know this, but I don't think we have any idea of how bad it really is. I wouldn't be surprised if the effects of second-hand stress from social media is worse than the second-hand stress from smoking in many developed countries. That's a longitudinal study I'd love to see. (Blessed be those selected for the control group!)]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amend 3.2 Released]]></title>
+        <id>https://jcs.org/2022/02/03/amend</id>
+        <link href="https://jcs.org/2022/02/03/amend"/>
+        <updated>2022-02-03T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Amend 3.2 has been released:]]></summary>
+        <author>
+            <name>joshua stein</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: January 2022]]></title>
+        <id>https://github.blog/2022-02-02-github-availability-report-january-2022/</id>
+        <link href="https://github.blog/2022-02-02-github-availability-report-january-2022/"/>
+        <updated>2022-02-03T00:00:24.000Z</updated>
+        <summary type="html"><![CDATA[In January, we experienced no incidents resulting in service downtime to our core services.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -173,6 +224,16 @@ Today social media has spoiled that for millions. The cacophony of likes, follow
 But it's worth taking the effort not to know, and if you do, to forget. To avoid these traps of division, to chew on the bliss of ignorance. That's the choice of the creative force.]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code scanning and Ruby: turning source code into a queryable database]]></title>
+        <id>https://github.blog/2022-02-01-code-scanning-and-ruby-turning-source-code-into-a-queryable-database/</id>
+        <link href="https://github.blog/2022-02-01-code-scanning-and-ruby-turning-source-code-into-a-queryable-database/"/>
+        <updated>2022-02-01T17:07:01.000Z</updated>
+        <summary type="html"><![CDATA[A deep dive into how GitHub adds support for new languages to CodeQL.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
         </author>
     </entry>
     <entry>
@@ -1004,16 +1065,6 @@ So far, so uncontroversial, you'd think? But I'm increasingly seeing this basic 
         <summary type="html"><![CDATA[Posted on 2022-01-10]]></summary>
         <author>
             <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: December 2021]]></title>
-        <id>https://github.blog/2022-01-05-github-availability-report-december-2021/</id>
-        <link href="https://github.blog/2022-01-05-github-availability-report-december-2021/"/>
-        <updated>2022-01-05T21:34:45.000Z</updated>
-        <summary type="html"><![CDATA[In December, we experienced no incidents resulting in service downtime to our core services.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
         </author>
     </entry>
 </feed>
