@@ -319,6 +319,15 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/building-infrastructure-platform.html##Donx2019tOver-complicateThings",
+          "author": null,
+          "description": "Poppy Rowse and\n      Chris Shepherd complete their article on infrastructure\n      platforms with a warning on over-complicating a platform and a section\n      on how to use the Four Key Metrics to assess a platform's success.\n      \nmore…",
+          "link": "https://martinfowler.com/articles/building-infrastructure-platform.html##Donx2019tOver-complicateThings",
+          "publishedOn": "2022-02-09T15:43:00.000Z",
+          "wordCount": 5530,
+          "title": "Using the Four Key Metrics to assess an infrastructure platform"
+        },
+        {
           "id": "https://martinfowler.com/articles/building-infrastructure-platform.html#CommunicateYourTechnicalVision",
           "author": null,
           "description": "The next installment of Poppy Rowse and\n        Chris Shepherd's article on infrastructure platforms\n        looks how to communicate the technical vision of platform\n        and how to understand the platform from the users' point of view.\nmore…",
@@ -599,15 +608,6 @@
           "publishedOn": "2022-01-12T07:27:57.000Z",
           "wordCount": 1299,
           "title": "Microestimates of wealth for all low and middle income countries"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/1/introducing-the-researcher-platform-empowering-independent-research-analyzing-large-scale-data-from-meta/",
-          "author": null,
-          "description": "Today, FORT shares Meta platform data with researchers around the world in a privacy-protective environment. Our focus has been on supporting computational social scientists who apply computational approaches to large-scale human behavioral data in order to study and explain social phenomena.",
-          "link": "https://research.facebook.com/blog/2022/1/introducing-the-researcher-platform-empowering-independent-research-analyzing-large-scale-data-from-meta/",
-          "publishedOn": "2022-01-11T11:34:08.000Z",
-          "wordCount": 1217,
-          "title": "Introducing the Researcher Platform: Empowering independent research analyzing large-scale data from Meta"
         }
       ]
     },
@@ -764,15 +764,6 @@
           "publishedOn": "2022-01-15T12:25:37.000Z",
           "wordCount": 1508,
           "title": "Some ways DNS can break"
-        },
-        {
-          "id": "https://jvns.ca/blog/2022/01/11/how-to-find-a-domain-s-authoritative-nameserver/",
-          "author": null,
-          "description": "Here’s a very quick “how to” post on how to find your domain’s authoritative\nnameserver.\nI’m writing this because if you made a DNS update and it didn’t work, there are 2 options:\nYour authoritative nameserver doesn’t have the correct record\nYour authoritative nameserver does have the correct record, but an old record is cached and you need to wait for the cache to expire\nTo be able to tell which one is happening (do you need to make a change, or do\nyou just need to wait?), you need to be able to find your domain’s\nauthoritative nameserver and query it to see what records it has.\nBut when I looked up “how to find a domain’s authoritative nameserver” to see\nwhat advice was out there, I found a lot of different methods being mentioned,\nsome of which can give you the wrong answer.\nSo let’s wa…",
-          "link": "https://jvns.ca/blog/2022/01/11/how-to-find-a-domain-s-authoritative-nameserver/",
-          "publishedOn": "2022-01-11T08:30:16.000Z",
-          "wordCount": 1299,
-          "title": "How to find a domain's authoritative nameservers"
         }
       ]
     },
