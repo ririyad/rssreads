@@ -2,10 +2,55 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-10T00:57:42.976Z</updated>
+    <updated>2022-02-11T01:01:41.250Z</updated>
     <generator>osmosfeed 1.12.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[After two weeks with no covid restrictions in Denmark]]></title>
+        <id>https://world.hey.com/dhh/after-two-weeks-with-no-covid-restrictions-in-denmark-923dd9a2</id>
+        <link href="https://world.hey.com/dhh/after-two-weeks-with-no-covid-restrictions-in-denmark-923dd9a2"/>
+        <updated>2022-02-10T09:41:20.000Z</updated>
+        <summary type="html"><![CDATA[It's been a couple of weeks now without any form of covid restrictions in Denmark. The daily infection numbers have remained as high as they were when the restrictions were dropped, and the positivity rate for tests is still a staggering 30%. And yet, Danish society has simply moved on.
+At our kids' school, it seems that virtually everyone has had omicron by now. With anecdotes ranging from no symptoms at all to the majority experiencing mild colds to a few with flu-like symptoms. The majority of teachers have now also been through an infection, so the churn of substitutes is basically over as well.
+Danish health authorities are pretty excited about all of this. Omicron is basically heralded as a blessing. The ticket out of the pandemic. By infecting the majority of Danes, society will hav…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wallops 1.1 Released]]></title>
+        <id>https://jcs.org/2022/02/10/wallops1-1</id>
+        <link href="https://jcs.org/2022/02/10/wallops1-1"/>
+        <updated>2022-02-10T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A large update to my Wallops IRC client is available:]]></summary>
+        <author>
+            <name>joshua stein</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting better vs. feeling better]]></title>
+        <id>https://world.hey.com/jason/getting-better-vs-feeling-better-6b025acb</id>
+        <link href="https://world.hey.com/jason/getting-better-vs-feeling-better-6b025acb"/>
+        <updated>2022-02-10T01:30:13.000Z</updated>
+        <summary type="html"><![CDATA[Over the past few months I've been taking guitar lessons from a friend of mine who happens to be an exceptional teacher. I got lucky.
+I used to play years ago, but probably only retained 10% of what I knew, so I was as close to starting from scratch as any barely-experienced player could be. Basically, I could dabble and play some chords, but my skills plateaued quickly after that. And it's a lonely, desolate, tumbleweedy-flat plateau. You don't get better hanging out there.
+So that's why I'm back to in-person lessons. I tried YouTube, I tried some books, I tried an app or two, I tried a bunch of stuff, but I've discovered I simply learn guitar best with one-on-one in-person instruction.
+And I've gotten better. But I've also discovered there's another dimension that unlocks with practice: …]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GNU Doesn't Care About Your Agency]]></title>
+        <id>https://christine.website/blog/gnu-your-parent-2022-02-10</id>
+        <link href="https://christine.website/blog/gnu-your-parent-2022-02-10"/>
+        <updated>2022-02-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-02-10]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Using the Four Key Metrics to assess an infrastructure platform]]></title>
         <id>https://martinfowler.com/articles/building-infrastructure-platform.html##Donx2019tOver-complicateThings</id>
@@ -1959,6 +2004,16 @@ more…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Researchers’ role in diversity, equity, and inclusion]]></title>
+        <id>https://medium.com/meta-research/researchers-role-in-diversity-equity-and-inclusion-e9034025c9fd</id>
+        <link href="https://medium.com/meta-research/researchers-role-in-diversity-equity-and-inclusion-e9034025c9fd"/>
+        <updated>2022-02-08T08:09:00.000Z</updated>
+        <summary type="html"><![CDATA[How researchers can help ensure that DEI leads to product changes that truly serve people in marginalized communities.]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Humble Dialog Box]]></title>
         <id>https://martinfowler.com/articles/humble-dialog-box.html</id>
         <link href="https://martinfowler.com/articles/humble-dialog-box.html"/>
@@ -2875,64 +2930,6 @@ string. Formats have long accepted p…]]></summary>
       Displacement in the funnel for the next couple of weeks. This one
       describes a Legacy Mimic: a part of the new system designed
       to make the old system think that nothing has changed. 
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why is Denmark able to have these vaccine debates?]]></title>
-        <id>https://world.hey.com/dhh/why-is-denmark-able-to-have-these-vaccine-debates-b5e4301d</id>
-        <link href="https://world.hey.com/dhh/why-is-denmark-able-to-have-these-vaccine-debates-b5e4301d"/>
-        <updated>2022-01-12T11:32:41.000Z</updated>
-        <summary type="html"><![CDATA[It continues to fascinate me to no end how different countries have ended up with such different approaches to this late-stage pandemic game. While the French president is talking about "pissing off the unvaccinated", the Australians are trying to a martyr of Djokovic, and the Americans continue to render everything virus through the basic two-way political tribal lens, Denmark is doing something else.
-I already wrote about the curious state of affairs that in a country with extremely high levels of trust in government, just 40% of parents have decided to vaccinate their 5-11 year-old kids. Despite a strong, persistent recommendation from the health authorities to do so. Well, that was two weeks ago. The vaccination rate hasn't budged since. Meaning the vaccine drive for that age group has…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The thrill of changing your mind]]></title>
-        <id>https://world.hey.com/dhh/the-thrill-of-changing-your-mind-88ff9063</id>
-        <link href="https://world.hey.com/dhh/the-thrill-of-changing-your-mind-88ff9063"/>
-        <updated>2022-01-12T08:38:30.000Z</updated>
-        <summary type="html"><![CDATA[I've changed my mind on a lot of topics over the last few years, and it's frankly been exhilarating. Especially if the topic had been one left unquestioned for a long time. To me, it feels similar to the rush of solving a hard problem. When the pieces suddenly fit into place, and an elegant solution emerges, you can't help but smile.
-Take nuclear power. I vividly remember the stickers from the 80s opposing it. Even looking them today, it brings warm and fuzzy memories. Together with that era's activism, like the Greenpeace Rainbow Warrior. And fundraising as a kid for the Brazilian rain forest.
-Further more, it seemed like a settled question: The future of energy is wind and solar! Of course it is. Renewables with no downsides, right? Wrong. Michael Shellenberger's exposition of energy sou…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microestimates of wealth for all low and middle income countries]]></title>
-        <id>https://research.facebook.com/blog/2022/1/microestimates-of-wealth-for-all-low-and-middle-income-countries/</id>
-        <link href="https://research.facebook.com/blog/2022/1/microestimates-of-wealth-for-all-low-and-middle-income-countries/"/>
-        <updated>2022-01-12T07:27:57.000Z</updated>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Tool to Aid Forgetfulness]]></title>
-        <id>https://christine.website/blog/a-tool-to-aid-forgetfulness-2022-01-12</id>
-        <link href="https://christine.website/blog/a-tool-to-aid-forgetfulness-2022-01-12"/>
-        <updated>2022-01-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-01-12]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Replicated Log: synchronize multiple nodes with a write-ahead                log]]></title>
-        <id>https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html</id>
-        <link href="https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html"/>
-        <updated>2022-01-11T15:09:00.000Z</updated>
-        <summary type="html"><![CDATA[One of the core challenges in a distributed system is keeping the state
-      synchronized across all the nodes, especially when neither the nodes, or
-      the connections between them, are reliable. The core approach to handle
-      with is a replicated log: using the write-ahead log pattern
-      over the cluster. Unmesh Joshi shows how this works using
-      its most common implementation: the Raft protocol.
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>

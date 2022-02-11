@@ -40,6 +40,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/after-two-weeks-with-no-covid-restrictions-in-denmark-923dd9a2",
+          "author": null,
+          "description": "It's been a couple of weeks now without any form of covid restrictions in Denmark. The daily infection numbers have remained as high as they were when the restrictions were dropped, and the positivity rate for tests is still a staggering 30%. And yet, Danish society has simply moved on.\nAt our kids' school, it seems that virtually everyone has had omicron by now. With anecdotes ranging from no symptoms at all to the majority experiencing mild colds to a few with flu-like symptoms. The majority of teachers have now also been through an infection, so the churn of substitutes is basically over as well.\nDanish health authorities are pretty excited about all of this. Omicron is basically heralded as a blessing. The ticket out of the pandemic. By infecting the majority of Danes, society will hav…",
+          "link": "https://world.hey.com/dhh/after-two-weeks-with-no-covid-restrictions-in-denmark-923dd9a2",
+          "publishedOn": "2022-02-10T09:41:20.000Z",
+          "wordCount": 816,
+          "title": "After two weeks with no covid restrictions in Denmark"
+        },
+        {
           "id": "https://world.hey.com/dhh/go-truck-yourself-a14306d9",
           "author": null,
           "description": "The Canadian truckers have now for almost two weeks faced insults, threats, and slander to protest the country's new vaccine mandates. With a persistence that is driving some progressives both inside and outside of Canada absolutely batty. How dare these truckers continue to exercise their basic political rights to freedom of assembly, association, and speech?!\nEven more frustrating to the queue of disparaging observers seems to be the peaceful nature of these protests. While honking horns and blocking roads is surely thinning the patience of nearby residents, it's hardly the kind of actions that would warrant sending in the military. Which is rather inconvenient if you'd really like the military to use its force against your domestic, political opponents!\nThe persistent but peaceful prote…",
@@ -209,24 +218,6 @@
           "publishedOn": "2022-01-13T14:23:36.000Z",
           "wordCount": 1055,
           "title": "The monopoly playbook is depressingly uniform across big tech"
-        },
-        {
-          "id": "https://world.hey.com/dhh/why-is-denmark-able-to-have-these-vaccine-debates-b5e4301d",
-          "author": null,
-          "description": "It continues to fascinate me to no end how different countries have ended up with such different approaches to this late-stage pandemic game. While the French president is talking about \"pissing off the unvaccinated\", the Australians are trying to a martyr of Djokovic, and the Americans continue to render everything virus through the basic two-way political tribal lens, Denmark is doing something else.\nI already wrote about the curious state of affairs that in a country with extremely high levels of trust in government, just 40% of parents have decided to vaccinate their 5-11 year-old kids. Despite a strong, persistent recommendation from the health authorities to do so. Well, that was two weeks ago. The vaccination rate hasn't budged since. Meaning the vaccine drive for that age group has…",
-          "link": "https://world.hey.com/dhh/why-is-denmark-able-to-have-these-vaccine-debates-b5e4301d",
-          "publishedOn": "2022-01-12T11:32:41.000Z",
-          "wordCount": 550,
-          "title": "Why is Denmark able to have these vaccine debates?"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-thrill-of-changing-your-mind-88ff9063",
-          "author": null,
-          "description": "I've changed my mind on a lot of topics over the last few years, and it's frankly been exhilarating. Especially if the topic had been one left unquestioned for a long time. To me, it feels similar to the rush of solving a hard problem. When the pieces suddenly fit into place, and an elegant solution emerges, you can't help but smile.\nTake nuclear power. I vividly remember the stickers from the 80s opposing it. Even looking them today, it brings warm and fuzzy memories. Together with that era's activism, like the Greenpeace Rainbow Warrior. And fundraising as a kid for the Brazilian rain forest.\nFurther more, it seemed like a settled question: The future of energy is wind and solar! Of course it is. Renewables with no downsides, right? Wrong. Michael Shellenberger's exposition of energy sou…",
-          "link": "https://world.hey.com/dhh/the-thrill-of-changing-your-mind-88ff9063",
-          "publishedOn": "2022-01-12T08:38:30.000Z",
-          "wordCount": 804,
-          "title": "The thrill of changing your mind"
         }
       ]
     },
@@ -235,6 +226,15 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/getting-better-vs-feeling-better-6b025acb",
+          "author": null,
+          "description": "Over the past few months I've been taking guitar lessons from a friend of mine who happens to be an exceptional teacher. I got lucky.\nI used to play years ago, but probably only retained 10% of what I knew, so I was as close to starting from scratch as any barely-experienced player could be. Basically, I could dabble and play some chords, but my skills plateaued quickly after that. And it's a lonely, desolate, tumbleweedy-flat plateau. You don't get better hanging out there.\nSo that's why I'm back to in-person lessons. I tried YouTube, I tried some books, I tried an app or two, I tried a bunch of stuff, but I've discovered I simply learn guitar best with one-on-one in-person instruction.\nAnd I've gotten better. But I've also discovered there's another dimension that unlocks with practice: …",
+          "link": "https://world.hey.com/jason/getting-better-vs-feeling-better-6b025acb",
+          "publishedOn": "2022-02-10T01:30:13.000Z",
+          "wordCount": 477,
+          "title": "Getting better vs. feeling better"
+        },
         {
           "id": "https://world.hey.com/jason/heard-something-read-something-saw-something-11-b27b098e",
           "author": null,
@@ -398,15 +398,6 @@
           "publishedOn": "2022-01-12T15:11:00.000Z",
           "wordCount": 709,
           "title": "Legacy Mimic: a new component that looks like an old one"
-        },
-        {
-          "id": "https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html",
-          "author": null,
-          "description": "One of the core challenges in a distributed system is keeping the state\n      synchronized across all the nodes, especially when neither the nodes, or\n      the connections between them, are reliable. The core approach to handle\n      with is a replicated log: using the write-ahead log pattern\n      over the cluster. Unmesh Joshi shows how this works using\n      its most common implementation: the Raft protocol.\nmore…",
-          "link": "https://martinfowler.com/articles/patterns-of-distributed-systems/replicated-log.html",
-          "publishedOn": "2022-01-11T15:09:00.000Z",
-          "wordCount": 3404,
-          "title": "Replicated Log: synchronize multiple nodes with a write-ahead                log"
         }
       ]
     },
@@ -592,6 +583,15 @@
       "siteUrl": "https://research.facebook.com/",
       "articles": [
         {
+          "id": "https://medium.com/meta-research/researchers-role-in-diversity-equity-and-inclusion-e9034025c9fd",
+          "author": null,
+          "description": "How researchers can help ensure that DEI leads to product changes that truly serve people in marginalized communities.",
+          "link": "https://medium.com/meta-research/researchers-role-in-diversity-equity-and-inclusion-e9034025c9fd",
+          "publishedOn": "2022-02-08T08:09:00.000Z",
+          "wordCount": 1471,
+          "title": "Researchers’ role in diversity, equity, and inclusion"
+        },
+        {
           "id": "https://research.facebook.com/blog/2022/2/announcing-the-recipients-of-the-2022-meta-phd-research-fellowship/",
           "author": null,
           "description": "",
@@ -599,15 +599,6 @@
           "publishedOn": "2022-02-02T11:31:00.000Z",
           "wordCount": 917,
           "title": "Announcing the recipients of the 2022 Meta PhD Research Fellowship"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/1/microestimates-of-wealth-for-all-low-and-middle-income-countries/",
-          "author": null,
-          "description": "",
-          "link": "https://research.facebook.com/blog/2022/1/microestimates-of-wealth-for-all-low-and-middle-income-countries/",
-          "publishedOn": "2022-01-12T07:27:57.000Z",
-          "wordCount": 1299,
-          "title": "Microestimates of wealth for all low and middle income countries"
         }
       ]
     },
@@ -634,6 +625,15 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/gnu-your-parent-2022-02-10",
+          "author": null,
+          "description": "Posted on 2022-02-10",
+          "link": "https://christine.website/blog/gnu-your-parent-2022-02-10",
+          "publishedOn": "2022-02-10T00:00:00.000Z",
+          "wordCount": 1943,
+          "title": "GNU Doesn't Care About Your Agency"
+        },
         {
           "id": "https://christine.website/blog/waifud-progress-2022-02-06",
           "author": null,
@@ -678,15 +678,6 @@
           "publishedOn": "2022-01-13T00:00:00.000Z",
           "wordCount": 2181,
           "title": "How I VTuber"
-        },
-        {
-          "id": "https://christine.website/blog/a-tool-to-aid-forgetfulness-2022-01-12",
-          "author": null,
-          "description": "Posted on 2022-01-12",
-          "link": "https://christine.website/blog/a-tool-to-aid-forgetfulness-2022-01-12",
-          "publishedOn": "2022-01-12T00:00:00.000Z",
-          "wordCount": 369,
-          "title": "A Tool to Aid Forgetfulness"
         }
       ]
     },
@@ -778,6 +769,15 @@
       "feedUrl": "https://jcs.org/rss",
       "siteUrl": "https://jcs.org/",
       "articles": [
+        {
+          "id": "https://jcs.org/2022/02/10/wallops1-1",
+          "author": null,
+          "description": "A large update to my Wallops IRC client is available:",
+          "link": "https://jcs.org/2022/02/10/wallops1-1",
+          "publishedOn": "2022-02-10T06:00:00.000Z",
+          "wordCount": 250,
+          "title": "Wallops 1.1 Released"
+        },
         {
           "id": "https://jcs.org/2022/02/07/wallops",
           "author": null,
