@@ -40,6 +40,15 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/introducing-propshaft-ee60f4f6",
+          "author": null,
+          "description": "It's an exciting time in web development. After a decade's worth of front-end progress kept demanding ever more complicated setups, we're finally moving in the opposite direction. With simpler tools that are still able to hit those high-fidelity user interface notes, but at a sliver of the cost in complexity. The long expansion of enabling concepts is now at last being compressed for human comprehension. Hallelujah!\nAnd like with expanding complexity, where one complication often leads to another, compressing complexity also cascades.\nPropshaft, a new asset pipeline library for Rails, is the result of such a cascading compression of complexity. Enabled by the same trifecta of HTTP/2, browser-run ES6, and import maps that powers Rails 7, Propshaft is dramatically simpler than the Sprockets …",
+          "link": "https://world.hey.com/dhh/introducing-propshaft-ee60f4f6",
+          "publishedOn": "2022-02-11T09:31:27.000Z",
+          "wordCount": 712,
+          "title": "Introducing Propshaft"
+        },
+        {
           "id": "https://world.hey.com/dhh/after-two-weeks-with-no-covid-restrictions-in-denmark-923dd9a2",
           "author": null,
           "description": "It's been a couple of weeks now without any form of covid restrictions in Denmark. The daily infection numbers have remained as high as they were when the restrictions were dropped, and the positivity rate for tests is still a staggering 30%. And yet, Danish society has simply moved on.\nAt our kids' school, it seems that virtually everyone has had omicron by now. With anecdotes ranging from no symptoms at all to the majority experiencing mild colds to a few with flu-like symptoms. The majority of teachers have now also been through an infection, so the churn of substitutes is basically over as well.\nDanish health authorities are pretty excited about all of this. Omicron is basically heralded as a blessing. The ticket out of the pandemic. By infecting the majority of Danes, society will hav…",
@@ -295,15 +304,6 @@
           "publishedOn": "2022-01-26T19:00:00.000Z",
           "wordCount": 93,
           "title": "Four Links - January 26, 2022"
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2022/01/12/tools.html",
-          "author": null,
-          "description": "A quick look at four useful plain text tools",
-          "link": "https://plaintextproject.online/articles/2022/01/12/tools.html",
-          "publishedOn": "2022-01-12T19:00:00.000Z",
-          "wordCount": 496,
-          "title": "Tools Roundup - January 12, 2022"
         }
       ]
     },
@@ -389,15 +389,6 @@
           "publishedOn": "2022-01-18T17:42:00.000Z",
           "wordCount": 6067,
           "title": "Two Phase Commit"
-        },
-        {
-          "id": "https://martinfowler.com/articles/patterns-legacy-displacement/legacy-mimic.html",
-          "author": null,
-          "description": "Ian Cartwright, Rob Horn, and James Lewis are also\n      back with the New Year with a couple more articles from Patterns of Legacy\n      Displacement in the funnel for the next couple of weeks. This one\n      describes a Legacy Mimic: a part of the new system designed\n      to make the old system think that nothing has changed. \nmore…",
-          "link": "https://martinfowler.com/articles/patterns-legacy-displacement/legacy-mimic.html",
-          "publishedOn": "2022-01-12T15:11:00.000Z",
-          "wordCount": 709,
-          "title": "Legacy Mimic: a new component that looks like an old one"
         }
       ]
     },
@@ -454,15 +445,6 @@
           "publishedOn": "2022-01-20T00:00:00.000Z",
           "wordCount": 313,
           "title": "Announcing Rust 1.58.1"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2022/01/13/Rust-1.58.0.html",
-          "author": null,
-          "description": "The Rust team is happy to announce a new version of Rust, 1.58.0.\nRust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust 1.58.0 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.58.0 on GitHub.\nWhat's in 1.58.0 stable\nRust 1.58 brings captured identifiers in format strings, a change to the\nCommand search path on Windows, more #[must_use] annotations in the\nstandard library, and some new library stabilizations.\nCaptured identifiers in format strings\nFormat strings can now capture arguments simply by writing {ident} in the\nstring. Formats have long accepted p…",
-          "link": "https://blog.rust-lang.org/2022/01/13/Rust-1.58.0.html",
-          "publishedOn": "2022-01-13T00:00:00.000Z",
-          "wordCount": 828,
-          "title": "Announcing Rust 1.58.0"
         }
       ]
     },
@@ -471,6 +453,15 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/02/11/CTCFT-february.html",
+          "author": null,
+          "description": "The next \"Cross Team Collaboration Fun Times\" (CTCFT) meeting will take\nplace on Monday, 2022-02-21 at 3pm US Eastern Time (click to see in your\ntime zone). You’ll find the full details (along with a calendar\nevent, zoom details, etc) on the CTCFT website.\nAgenda\nFor this month's CTCFT meeting, the theme is \"planning for 2022\". We'll hear\nabout the results of the 2021 Rust survey, and updates happening in the Async\nWorking Group and the Compiler Team.\n(5 min) Opening remarks 👋 (angelonfira)\n(20 min) Rust 2021 Survey Results (nrc)\n(20 min) Compiler team ambitions (pnkfelix, wesleywiser)\n(5 min) Closing (angelonfira)\nAfterwards: Social Hour\nLike always, we'll be running a social hour after the CTCFT. The idea is really\nsimple: for the hour after the meeting, we will create breakout rooms in Zoom\nwith different themes. You can join any breakout room you like and hangout.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/02/11/CTCFT-february.html",
+          "publishedOn": "2022-02-11T00:00:00.000Z",
+          "wordCount": 220,
+          "title": "CTCFT 2022-02-21 Agenda"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/02/03/async-in-2022.html",
           "author": null,
@@ -669,15 +660,6 @@
           "publishedOn": "2022-01-15T00:00:00.000Z",
           "wordCount": 1422,
           "title": "VTubing on Linux"
-        },
-        {
-          "id": "https://christine.website/blog/vtubing-setup-2022-01-13",
-          "author": null,
-          "description": "Posted on 2022-01-13",
-          "link": "https://christine.website/blog/vtubing-setup-2022-01-13",
-          "publishedOn": "2022-01-13T00:00:00.000Z",
-          "wordCount": 2181,
-          "title": "How I VTuber"
         }
       ]
     },
