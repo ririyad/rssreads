@@ -209,24 +209,6 @@
           "publishedOn": "2022-01-14T13:51:31.000Z",
           "wordCount": 700,
           "title": "This swapping of roles is making me dizzy"
-        },
-        {
-          "id": "https://world.hey.com/dhh/hey-is-running-its-javascript-off-import-maps-2abcf203",
-          "author": null,
-          "description": "The advent of import maps, and the bundler-less JavaScript reality it introduced, was undoubtedly my favorite advancement in web tech for 2021. Between Guy Bedford's excellent shim and native support in Chrome 89, we've finally been granted an escape from a decade's worth of frustrating complexity with excess tooling.\nUsually progress means more to learn, more to master. It's not often we get to celebrate the progress of true conceptual compression, so when we do, the confetti is well deserved. Hurrah for import maps!\nThus I'm thrilled to announce that HEY has been running on import maps in production for the past two weeks, and the experience has been bliss. An entire class of problems flushed from the daily development experience. WOOSH.\nThis work had been months underway. First, I used …",
-          "link": "https://world.hey.com/dhh/hey-is-running-its-javascript-off-import-maps-2abcf203",
-          "publishedOn": "2022-01-14T10:41:45.000Z",
-          "wordCount": 585,
-          "title": "HEY is running its JavaScript off import maps"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f",
-          "author": null,
-          "description": "I finally had a chance to read ILSR's blockbuster report on Amazon's squeeze of independent retailers who sell through their marketplace. It's unusually well-written and researched, and the picture it paints is depressingly familiar to anyone who've been at the sharp end of a big tech monopoly spear.\nThe overarching conclusion is that the squeeze is accelerating, and that the average all-in cut Amazon extracts from independent retailers on their marketplace has shot up from 19% to 30% in the last five years. Magically arriving at the same exorbitant rate that Apple and Google are taking in their digital marketplaces.\nThis has been achieved by tying more and more overpriced-but-necessary services to its basic 15% cut. First Amazon basically made it a requirement to use them for storage and …",
-          "link": "https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f",
-          "publishedOn": "2022-01-13T14:23:36.000Z",
-          "wordCount": 1055,
-          "title": "The monopoly playbook is depressingly uniform across big tech"
         }
       ]
     },
@@ -669,6 +651,15 @@
       "siteUrl": "https://staysaasy.com/",
       "articles": [
         {
+          "id": "https://staysaasy.com/software/2022/02/12/runbooks.html",
+          "author": null,
+          "description": "Instead, fix your production issues.",
+          "link": "https://staysaasy.com/software/2022/02/12/runbooks.html",
+          "publishedOn": "2022-02-12T14:59:22.000Z",
+          "wordCount": 468,
+          "title": "Stop Writing Great Runbooks"
+        },
+        {
           "id": "https://staysaasy.com/product/2022/02/02/the-swiss-army-product-management-team.html",
           "author": null,
           "description": "If you want to be excellent at fielding a diverse array of business needs you must field a diverse team. Staffing a wide array of skills and experience makes it much more likely that your PM team will have a qualified person for any given need.",
@@ -777,15 +768,6 @@
           "publishedOn": "2022-02-03T06:00:00.000Z",
           "wordCount": 107,
           "title": "Amend 3.2 Released"
-        },
-        {
-          "id": "https://jcs.org/2022/01/14/q&a",
-          "author": null,
-          "description": "I put out a tweet asking if anyone would be interested in a Q&amp;A, and to my surprise, I got many Q’s to A.",
-          "link": "https://jcs.org/2022/01/14/q&a",
-          "publishedOn": "2022-01-14T06:00:00.000Z",
-          "wordCount": 626,
-          "title": "Video: Q&amp;A"
         }
       ]
     },
@@ -2703,5 +2685,5 @@
       ]
     }
   ],
-  "cliVersion": "1.12.0"
+  "cliVersion": "1.12.1"
 }

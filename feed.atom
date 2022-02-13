@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-12T01:00:17.969Z</updated>
-    <generator>osmosfeed 1.12.0</generator>
+    <updated>2022-02-13T01:00:53.219Z</updated>
+    <generator>osmosfeed 1.12.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stop Writing Great Runbooks]]></title>
+        <id>https://staysaasy.com/software/2022/02/12/runbooks.html</id>
+        <link href="https://staysaasy.com/software/2022/02/12/runbooks.html"/>
+        <updated>2022-02-12T14:59:22.000Z</updated>
+        <summary type="html"><![CDATA[Instead, fix your production issues.]]></summary>
+        <author>
+            <name>Stay SaaSy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing Propshaft]]></title>
         <id>https://world.hey.com/dhh/introducing-propshaft-ee60f4f6</id>
@@ -2864,41 +2874,6 @@ Your network requests are a little bit slower than expected, and it’s actually
         <summary type="html"><![CDATA[Matt Taibbi wrote a great piece called The Left is Now the Right last year. It detailed how many of the tactics and thought processes anyone who came of age in the 90s would recognize as "of the right" are now being used by the opposite side of the political spectrum. A clip:
 
 Conservatives once tried to legislate what went on in your bedroom; now it’s the left that obsesses over sexual codicils, not just for the bedroom but everywhere. Right-wingers from time to time made headlines campaigning against everything from The Last Temptation of Christ to “Fuck the Police,” though we laughed at the idea that Ice Cube made cops literally unsafe, and it was understood an artist had to do something fairly ambitious, like piss on a crucifix in public, to get conservative protesters off their couche…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HEY is running its JavaScript off import maps]]></title>
-        <id>https://world.hey.com/dhh/hey-is-running-its-javascript-off-import-maps-2abcf203</id>
-        <link href="https://world.hey.com/dhh/hey-is-running-its-javascript-off-import-maps-2abcf203"/>
-        <updated>2022-01-14T10:41:45.000Z</updated>
-        <summary type="html"><![CDATA[The advent of import maps, and the bundler-less JavaScript reality it introduced, was undoubtedly my favorite advancement in web tech for 2021. Between Guy Bedford's excellent shim and native support in Chrome 89, we've finally been granted an escape from a decade's worth of frustrating complexity with excess tooling.
-Usually progress means more to learn, more to master. It's not often we get to celebrate the progress of true conceptual compression, so when we do, the confetti is well deserved. Hurrah for import maps!
-Thus I'm thrilled to announce that HEY has been running on import maps in production for the past two weeks, and the experience has been bliss. An entire class of problems flushed from the daily development experience. WOOSH.
-This work had been months underway. First, I used …]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Video: Q&amp;A]]></title>
-        <id>https://jcs.org/2022/01/14/q&amp;a</id>
-        <link href="https://jcs.org/2022/01/14/q&amp;a"/>
-        <updated>2022-01-14T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I put out a tweet asking if anyone would be interested in a Q&amp;A, and to my surprise, I got many Q’s to A.]]></summary>
-        <author>
-            <name>joshua stein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The monopoly playbook is depressingly uniform across big tech]]></title>
-        <id>https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f</id>
-        <link href="https://world.hey.com/dhh/the-monopoly-playbook-is-depressingly-uniform-across-big-tech-1616501f"/>
-        <updated>2022-01-13T14:23:36.000Z</updated>
-        <summary type="html"><![CDATA[I finally had a chance to read ILSR's blockbuster report on Amazon's squeeze of independent retailers who sell through their marketplace. It's unusually well-written and researched, and the picture it paints is depressingly familiar to anyone who've been at the sharp end of a big tech monopoly spear.
-The overarching conclusion is that the squeeze is accelerating, and that the average all-in cut Amazon extracts from independent retailers on their marketplace has shot up from 19% to 30% in the last five years. Magically arriving at the same exorbitant rate that Apple and Google are taking in their digital marketplaces.
-This has been achieved by tying more and more overpriced-but-necessary services to its basic 15% cut. First Amazon basically made it a requirement to use them for storage and …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>
