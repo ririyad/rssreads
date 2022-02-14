@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-13T01:00:53.219Z</updated>
-    <generator>osmosfeed 1.12.1</generator>
+    <updated>2022-02-14T00:54:50.354Z</updated>
+    <generator>osmosfeed 1.13.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644719717&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644719717&amp;"/>
+        <updated>2022-02-14T00:54:08.245Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644719717&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644719717&amp;"/>
+        <updated>2022-02-14T00:54:08.245Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Putting Ideas into Words]]></title>
+        <id>http://www.paulgraham.com/words.html</id>
+        <link href="http://www.paulgraham.com/words.html"/>
+        <updated>2022-02-14T00:54:06.402Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[No silver buckets]]></title>
+        <id>https://world.hey.com/jorge/no-silver-buckets-84d249d5</id>
+        <link href="https://world.hey.com/jorge/no-silver-buckets-84d249d5"/>
+        <updated>2022-02-13T16:50:09.000Z</updated>
+        <summary type="html"><![CDATA[The suggestion that mixing buckets is the root of all your software quality problems is common in our industry.
+In Rails, it's a recurring theme from his critics. Augment Ruby core classes with monkey-patching? Wrong! Those buckets are meant to remain separate. Invoke models logic from controllers? Wrong again! Those actions deserve their own bucket. Mixing persistence and domain logic in Active Record? Sacrilege! Persistence is an orthogonal concern that should be confined to its own bucket.
+I always read these critics intrigued about the premise, which looks promising. Coupling and cohesion are essential software quality traits, no question about that. But, after checking the proposed alternatives, they often look not only worse than what they confront to me, but ultimately very naive wh…]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Stop Writing Great Runbooks]]></title>
         <id>https://staysaasy.com/software/2022/02/12/runbooks.html</id>
@@ -2819,61 +2858,6 @@ T-compiler/meetings zulip stream.]]></summary>
         <summary type="html"><![CDATA[A few days ago, an anonymous Twitter user claiming to be an employee at a Big Tech company wrote a thread about work that went viral (since deleted, possibly partly by Twitter). Hazard Harrington's thread depicted a company drowning in woke excesses, so of course it sent the internet to the trenches. "This is EXACTLY what we suspected!!" firing at "There's NO WAY this is true, total fanfic!!" and back again.
 There's of course no way of knowing either way based on what was presented. This is an anonymous account of an unnamed company detailing personal but unverifiable experiences. (Not unlike a myriad of threads claiming to expose various isms in a similar anonymous, unverifiable format!)
 It certainly could be true! The comments were full of folks backing up the account from their experien…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some ways DNS can break]]></title>
-        <id>https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/</id>
-        <link href="https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/"/>
-        <updated>2022-01-15T12:25:37.000Z</updated>
-        <summary type="html"><![CDATA[When I first learned about it, DNS didn’t seem like it should be THAT
-complicated. Like, there are DNS records, they’re stored on a server, what’s
-the big deal?
-But with DNS, reading about how it works in a textbook doesn’t prepare you for
-the sheer volume of different ways DNS can break your system in practice. It’s
-not just caching problems!
-So I asked people on Twitter for
-example of DNS problems they’ve run into, especially DNS problems that didn’t
-initially appear to be DNS problems. (the popular “it’s always DNS” meme)
-I’m not going to discuss how to solve or avoid any of these problems in this
-post, but I’ve linked to webpages discussing the problem where I could find
-them.
-problem: slow network requests
-Your network requests are a little bit slower than expected, and it’s actually
-…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Street Fighter 2: Sound System Internals]]></title>
-        <id>http://fabiensanglard.net/sf2_sound_system/index.html</id>
-        <link href="http://fabiensanglard.net/sf2_sound_system/index.html"/>
-        <updated>2022-01-15T00:00:00.000Z</updated>
-        <author>
-            <name>fabiensanglard.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VTubing on Linux]]></title>
-        <id>https://christine.website/blog/vtubing-linux-2021-01-15</id>
-        <link href="https://christine.website/blog/vtubing-linux-2021-01-15"/>
-        <updated>2022-01-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-01-15]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This swapping of roles is making me dizzy]]></title>
-        <id>https://world.hey.com/dhh/this-swapping-of-roles-is-making-me-dizzy-2d91d1d9</id>
-        <link href="https://world.hey.com/dhh/this-swapping-of-roles-is-making-me-dizzy-2d91d1d9"/>
-        <updated>2022-01-14T13:51:31.000Z</updated>
-        <summary type="html"><![CDATA[Matt Taibbi wrote a great piece called The Left is Now the Right last year. It detailed how many of the tactics and thought processes anyone who came of age in the 90s would recognize as "of the right" are now being used by the opposite side of the political spectrum. A clip:
-
-Conservatives once tried to legislate what went on in your bedroom; now it’s the left that obsesses over sexual codicils, not just for the bedroom but everywhere. Right-wingers from time to time made headlines campaigning against everything from The Last Temptation of Christ to “Fuck the Police,” though we laughed at the idea that Ice Cube made cops literally unsafe, and it was understood an artist had to do something fairly ambitious, like piss on a crucifix in public, to get conservative protesters off their couche…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>

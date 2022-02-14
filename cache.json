@@ -200,15 +200,6 @@
           "publishedOn": "2022-01-17T09:13:42.000Z",
           "wordCount": 455,
           "title": "Case study in motivated reasoning"
-        },
-        {
-          "id": "https://world.hey.com/dhh/this-swapping-of-roles-is-making-me-dizzy-2d91d1d9",
-          "author": null,
-          "description": "Matt Taibbi wrote a great piece called The Left is Now the Right last year. It detailed how many of the tactics and thought processes anyone who came of age in the 90s would recognize as \"of the right\" are now being used by the opposite side of the political spectrum. A clip:\n\nConservatives once tried to legislate what went on in your bedroom; now it’s the left that obsesses over sexual codicils, not just for the bedroom but everywhere. Right-wingers from time to time made headlines campaigning against everything from The Last Temptation of Christ to “Fuck the Police,” though we laughed at the idea that Ice Cube made cops literally unsafe, and it was understood an artist had to do something fairly ambitious, like piss on a crucifix in public, to get conservative protesters off their couche…",
-          "link": "https://world.hey.com/dhh/this-swapping-of-roles-is-making-me-dizzy-2d91d1d9",
-          "publishedOn": "2022-01-14T13:51:31.000Z",
-          "wordCount": 700,
-          "title": "This swapping of roles is making me dizzy"
         }
       ]
     },
@@ -378,17 +369,7 @@
       "title": "fabiensanglard.net",
       "feedUrl": "https://fabiensanglard.net/rss.xml",
       "siteUrl": "https://fabiensanglard.net",
-      "articles": [
-        {
-          "id": "http://fabiensanglard.net/sf2_sound_system/index.html",
-          "author": null,
-          "description": "",
-          "link": "http://fabiensanglard.net/sf2_sound_system/index.html",
-          "publishedOn": "2022-01-15T00:00:00.000Z",
-          "wordCount": 1682,
-          "title": "Street Fighter 2: Sound System Internals"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Adam Wathan's Work Journal",
@@ -469,6 +450,16 @@
       "feedUrl": "https://world.hey.com/jorge/feed.atom",
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
+        {
+          "id": "https://world.hey.com/jorge/no-silver-buckets-84d249d5",
+          "author": null,
+          "description": "The suggestion that mixing buckets is the root of all your software quality problems is common in our industry.\nIn Rails, it's a recurring theme from his critics. Augment Ruby core classes with monkey-patching? Wrong! Those buckets are meant to remain separate. Invoke models logic from controllers? Wrong again! Those actions deserve their own bucket. Mixing persistence and domain logic in Active Record? Sacrilege! Persistence is an orthogonal concern that should be confined to its own bucket.\nI always read these critics intrigued about the premise, which looks promising. Coupling and cohesion are essential software quality traits, no question about that. But, after checking the proposed alternatives, they often look not only worse than what they confront to me, but ultimately very naive wh…",
+          "link": "https://world.hey.com/jorge/no-silver-buckets-84d249d5",
+          "publishedOn": "2022-02-13T16:50:09.000Z",
+          "wordCount": 496,
+          "title": "No silver buckets",
+          "imageUrl": "https://world.hey.com/jorge/84d249d5/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCR1I2UFNvPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bed4b439f402ca6aa6db81276baa77aa41d9d391/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/olav-ahrens-rotne-4Ennrbj1svk-unsplash.jpg"
+        },
         {
           "id": "https://world.hey.com/jorge/balance-76417d97",
           "author": null,
@@ -633,15 +624,6 @@
           "publishedOn": "2022-01-27T00:00:00.000Z",
           "wordCount": 690,
           "title": "Hidden Secrets to Making a New Microservices Cluster a Success"
-        },
-        {
-          "id": "https://christine.website/blog/vtubing-linux-2021-01-15",
-          "author": null,
-          "description": "Posted on 2022-01-15",
-          "link": "https://christine.website/blog/vtubing-linux-2021-01-15",
-          "publishedOn": "2022-01-15T00:00:00.000Z",
-          "wordCount": 1422,
-          "title": "VTubing on Linux"
         }
       ]
     },
@@ -719,15 +701,6 @@
           "publishedOn": "2022-01-24T07:59:19.000Z",
           "wordCount": 1666,
           "title": "Hosting my static sites with nginx"
-        },
-        {
-          "id": "https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/",
-          "author": null,
-          "description": "When I first learned about it, DNS didn’t seem like it should be THAT\ncomplicated. Like, there are DNS records, they’re stored on a server, what’s\nthe big deal?\nBut with DNS, reading about how it works in a textbook doesn’t prepare you for\nthe sheer volume of different ways DNS can break your system in practice. It’s\nnot just caching problems!\nSo I asked people on Twitter for\nexample of DNS problems they’ve run into, especially DNS problems that didn’t\ninitially appear to be DNS problems. (the popular “it’s always DNS” meme)\nI’m not going to discuss how to solve or avoid any of these problems in this\npost, but I’ve linked to webpages discussing the problem where I could find\nthem.\nproblem: slow network requests\nYour network requests are a little bit slower than expected, and it’s actually\n…",
-          "link": "https://jvns.ca/blog/2022/01/15/some-ways-dns-can-break/",
-          "publishedOn": "2022-01-15T12:25:37.000Z",
-          "wordCount": 1508,
-          "title": "Some ways DNS can break"
         }
       ]
     },
@@ -792,6 +765,36 @@
       "feedUrl": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "siteUrl": "http://www.paulgraham.com/",
       "articles": [
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644719717&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644719717&",
+          "publishedOn": "2022-02-14T00:54:08.245Z",
+          "wordCount": null,
+          "title": "Chapter 1 of Ansi Common Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644719717&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644719717&",
+          "publishedOn": "2022-02-14T00:54:08.245Z",
+          "wordCount": null,
+          "title": "Chapter 2 of Ansi Common Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/words.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/words.html",
+          "publishedOn": "2022-02-14T00:54:06.402Z",
+          "wordCount": 1152,
+          "title": "Putting Ideas into Words",
+          "imageUrl": null
+        },
         {
           "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644332328&",
           "author": null,
@@ -2685,5 +2688,5 @@
       ]
     }
   ],
-  "cliVersion": "1.12.1"
+  "cliVersion": "1.13.0"
 }
