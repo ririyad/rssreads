@@ -40,6 +40,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06",
+          "author": null,
+          "description": "I'm slowly regaining my faith in debates again. You know, the ancient practice of listening, presenting arguments, accepting counterarguments, and progressing towards a deeper shared understanding. Even when the topics are hot. Even when the counterpart is a stranger. And it's giving me vintage internet vibes!\nTake this Canadian trucker protest, for example. I've heard from a lot of Canadians on the topic. Some support the protests, others don't. It's clearly a topic where a Canadian might feel like a Dane shouldn't have standing to participate in the discussion (and plenty do!). Yet literally all the many debates I've had over the past week since writing about this topic have managed to be civil and respectful despite also occasionally being tense. Remarkable.\nThat would never, ever happe…",
+          "link": "https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06",
+          "publishedOn": "2022-02-15T10:32:11.000Z",
+          "wordCount": 728,
+          "title": "This just wouldn't happen on Twitter",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/introducing-propshaft-ee60f4f6",
           "author": null,
           "description": "It's an exciting time in web development. After a decade's worth of front-end progress kept demanding ever more complicated setups, we're finally moving in the opposite direction. With simpler tools that are still able to hit those high-fidelity user interface notes, but at a sliver of the cost in complexity. The long expansion of enabling concepts is now at last being compressed for human comprehension. Hallelujah!\nAnd like with expanding complexity, where one complication often leads to another, compressing complexity also cascades.\nPropshaft, a new asset pipeline library for Rails, is the result of such a cascading compression of complexity. Enabled by the same trifecta of HTTP/2, browser-run ES6, and import maps that powers Rails 7, Propshaft is dramatically simpler than the Sprockets …",
@@ -191,15 +201,6 @@
           "publishedOn": "2022-01-19T14:18:21.000Z",
           "wordCount": 806,
           "title": "Apple turns the legislative contempt up to 11"
-        },
-        {
-          "id": "https://world.hey.com/dhh/case-study-in-motivated-reasoning-53507329",
-          "author": null,
-          "description": "A few days ago, an anonymous Twitter user claiming to be an employee at a Big Tech company wrote a thread about work that went viral (since deleted, possibly partly by Twitter). Hazard Harrington's thread depicted a company drowning in woke excesses, so of course it sent the internet to the trenches. \"This is EXACTLY what we suspected!!\" firing at \"There's NO WAY this is true, total fanfic!!\" and back again.\nThere's of course no way of knowing either way based on what was presented. This is an anonymous account of an unnamed company detailing personal but unverifiable experiences. (Not unlike a myriad of threads claiming to expose various isms in a similar anonymous, unverifiable format!)\nIt certainly could be true! The comments were full of folks backing up the account from their experien…",
-          "link": "https://world.hey.com/dhh/case-study-in-motivated-reasoning-53507329",
-          "publishedOn": "2022-01-17T09:13:42.000Z",
-          "wordCount": 455,
-          "title": "Case study in motivated reasoning"
         }
       ]
     },
@@ -208,6 +209,16 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/watch-out-for-12-day-weeks-b4441874",
+          "author": null,
+          "description": "Way back when, we used to release new software on Fridays all the time. That often meant working Saturdays and Sundays to fix an urgent problem with the new stuff, wrecking the weekend for whoever did the release.\nIt was stupid yet predictable, because we kept setting deadlines at the end of the week, as most naturally do. But Friday is the worse day to release anything.\nFirst off, you probably rushed to finish before the weekend. So work done on Fridays tends to be a bit sloppy.\nSecond, Mondays don't come after Fridays. Saturdays and Sundays do. So if something goes wrong, someone's working the weekend.\nThird, if you work the weekends, you don't get a chance to recharge. Basically, when you've worked all week, and you're forced to work the weekend, the following Monday is the eighth day o…",
+          "link": "https://world.hey.com/jason/watch-out-for-12-day-weeks-b4441874",
+          "publishedOn": "2022-02-15T22:39:57.000Z",
+          "wordCount": 380,
+          "title": "Watch out for 12-day weeks",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
         {
           "id": "https://world.hey.com/jason/getting-better-vs-feeling-better-6b025acb",
           "author": null,
@@ -260,6 +271,16 @@
       "feedUrl": "https://plaintextproject.online/feed.xml",
       "siteUrl": "https://plaintextproject.online",
       "articles": [
+        {
+          "id": "https://plaintextproject.online/articles/2022/02/15/notes.html",
+          "author": null,
+          "description": "A peek at using the Notes app in the online file syncing tool Nextcloud",
+          "link": "https://plaintextproject.online/articles/2022/02/15/notes.html",
+          "publishedOn": "2022-02-15T19:00:00.000Z",
+          "wordCount": 753,
+          "title": "Taking Plain Text Notes with Nextcloud Notes",
+          "imageUrl": null
+        },
         {
           "id": "https://plaintextproject.online/articles/2022/02/02/obsidian.html",
           "author": null,
@@ -382,6 +403,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2022/02/15/Rust-Survey-2021.html",
+          "author": null,
+          "description": "Greetings Rustaceans!\nAnother year has passed, and with it comes another annual Rust survey analysis! The survey was conducted in December 2021.\nWe’d like to thank everyone who participated in this year’s survey, with a special shout-out to those who helped translate the survey from English into other languages.\nWithout further ado, let’s dive into the analysis!\nA Global Community\nThe Rust community continues to grow, with this survey having the largest number of complete survey responses (9354 respondents), exceeding last year's total by roughly 1500 responses.\n90% of respondents said that they use Rust for any purpose, while 5% stated they had used Rust at some point in the past but no longer do, and 4% stated they have yet to use Rust at all.\nThe survey was offered in 10 languages with …",
+          "link": "https://blog.rust-lang.org/2022/02/15/Rust-Survey-2021.html",
+          "publishedOn": "2022-02-15T00:00:00.000Z",
+          "wordCount": 1087,
+          "title": "Rust Survey 2021 Results",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2022/02/14/crates-io-snapshot-branches.html",
           "author": null,
@@ -514,6 +545,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/",
+          "author": null,
+          "description": "A picture tells a thousand words. Now you can quickly create and edit diagrams in markdown using words with Mermaid support in your Markdown files.",
+          "link": "https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/",
+          "publishedOn": "2022-02-14T16:57:42.000Z",
+          "wordCount": 752,
+          "title": "Include diagrams in your Markdown files with Mermaid",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/mvp2.png"
+        },
+        {
           "id": "https://github.blog/2022-02-02-github-availability-report-january-2022/",
           "author": null,
           "description": "In January, we experienced no incidents resulting in service downtime to our core services.",
@@ -539,15 +580,6 @@
           "publishedOn": "2022-01-24T20:00:43.000Z",
           "wordCount": 2548,
           "title": "Highlights from Git 2.35"
-        },
-        {
-          "id": "https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/",
-          "author": null,
-          "description": "Learn how the GitHub Mobile Team automates their release process with GitHub Actions.",
-          "link": "https://github.blog/2022-01-12-how-we-ship-github-mobile-every-week/",
-          "publishedOn": "2022-01-12T17:56:11.000Z",
-          "wordCount": 1641,
-          "title": "How we ship GitHub Mobile every week"
         }
       ]
     },
