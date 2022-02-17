@@ -40,6 +40,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/gritting-your-teeth-biding-your-time-6d38aefd",
+          "author": null,
+          "description": "What's the goodwill of developers worth to a platform operator? It's a hard question, because it can't be answered by the traditional economic models used by bean counters to populate the balance sheet. And it's far more ephemeral than the goodwill of consumers. The relationship is more intertwined. We're not just engaging in transactions, we're lifting each other up. Good developers breed strong platforms, and strong platforms attract good developers. When it works, it's symbiotic.\nThere's nothing symbiotic about Apple's current relationship with its developers. \nEvery time Apple mobilizes its law machine to squash a developer in court, foil democratic accountability in the legislatures, or give regulators the middle finger, Apple wounds the relationship with developers. They can win ever…",
+          "link": "https://world.hey.com/dhh/gritting-your-teeth-biding-your-time-6d38aefd",
+          "publishedOn": "2022-02-16T11:32:58.000Z",
+          "wordCount": 851,
+          "title": "Gritting your teeth, biding your time",
+          "imageUrl": "https://world.hey.com/dhh/6d38aefd/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCUE4wYmlvPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0af87a35851b314b288249acfd7ab5ab6c526196/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/ballmer%20clapping%20develoeprs.jpg"
+        },
+        {
           "id": "https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06",
           "author": null,
           "description": "I'm slowly regaining my faith in debates again. You know, the ancient practice of listening, presenting arguments, accepting counterarguments, and progressing towards a deeper shared understanding. Even when the topics are hot. Even when the counterpart is a stranger. And it's giving me vintage internet vibes!\nTake this Canadian trucker protest, for example. I've heard from a lot of Canadians on the topic. Some support the protests, others don't. It's clearly a topic where a Canadian might feel like a Dane shouldn't have standing to participate in the discussion (and plenty do!). Yet literally all the many debates I've had over the past week since writing about this topic have managed to be civil and respectful despite also occasionally being tense. Remarkable.\nThat would never, ever happe…",
@@ -474,15 +484,6 @@
           "publishedOn": "2022-02-03T00:00:00.000Z",
           "wordCount": 1246,
           "title": "Async Rust in 2022"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html",
-          "author": null,
-          "description": "n Friday, January 14th, the Rust Compiler team had a planning meeting for the January steering cycle.\nEvery fourth Friday, the Rust compiler team decides how\nit is going to use its scheduled steering and design meeting time over the next\nthree Fridays.\nOn Friday, 28 January, we will be having a meeting to\ndiscuss the  backlog of P-high issues (there are currently 86 such issues). pnkfelix will prepare a document to drive the meeting, with a categorization of the issues, especially in terms of how they relate to specific subteams.\nOn Friday, 4 February, we will be having a meeting to\ndiscuss any beta regressions or backports that are pending for the\nRust 1.59 release (due out 24 February, 2022). (We did not file a\nmeeting proposal for this meeting, but you can see a similar meeting\nproposal that was used to drive an analogous meeting for the 1.48 release\nhere.)\nEach meeting will run from 2pm to 3pm GMT, and will take place on the\nT-compiler/meetings zulip stream.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html",
-          "publishedOn": "2022-01-18T00:00:00.000Z",
-          "wordCount": 254,
-          "title": "Rust Compiler January 2022 Steering Cycle"
         }
       ]
     },
@@ -710,15 +711,6 @@
           "publishedOn": "2022-01-29T14:59:22.000Z",
           "wordCount": 741,
           "title": "Working with Integrity"
-        },
-        {
-          "id": "https://staysaasy.com/software/2022/01/17/complexity.html",
-          "author": null,
-          "description": "At growth companies, complexity kills. The reason is simple - complexity is slow, and slow don’t grow.",
-          "link": "https://staysaasy.com/software/2022/01/17/complexity.html",
-          "publishedOn": "2022-01-17T14:59:22.000Z",
-          "wordCount": 460,
-          "title": "Complexity Debt"
         }
       ]
     },
@@ -778,6 +770,16 @@
       "siteUrl": "https://jcs.org/",
       "articles": [
         {
+          "id": "https://jcs.org/2022/02/16/ioctl",
+          "author": null,
+          "description": "I was trying to use a V4L2 Ruby module on my OpenBSD laptop but ran into a problem where sending the V4L2 ioctls from this module would fail, while other V4L2 programs on OpenBSD worked fine.",
+          "link": "https://jcs.org/2022/02/16/ioctl",
+          "publishedOn": "2022-02-16T06:00:00.000Z",
+          "wordCount": 992,
+          "title": "Debugging an ioctl Problem on OpenBSD",
+          "imageUrl": null
+        },
+        {
           "id": "https://jcs.org/2022/02/10/wallops1-1",
           "author": null,
           "description": "A large update to my Wallops IRC client is available:",
@@ -827,6 +829,26 @@
       "feedUrl": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "siteUrl": "http://www.paulgraham.com/",
       "articles": [
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644943269&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644943269&",
+          "publishedOn": "2022-02-17T00:52:39.015Z",
+          "wordCount": null,
+          "title": "Chapter 1 of Ansi Common Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644943269&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644943269&",
+          "publishedOn": "2022-02-17T00:52:39.015Z",
+          "wordCount": null,
+          "title": "Chapter 2 of Ansi Common Lisp",
+          "imageUrl": null
+        },
         {
           "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644822817&",
           "author": null,

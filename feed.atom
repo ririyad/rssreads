@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-16T01:00:24.367Z</updated>
+    <updated>2022-02-17T00:53:22.678Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644943269&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644943269&amp;"/>
+        <updated>2022-02-17T00:52:39.015Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644943269&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644943269&amp;"/>
+        <updated>2022-02-17T00:52:39.015Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gritting your teeth, biding your time]]></title>
+        <id>https://world.hey.com/dhh/gritting-your-teeth-biding-your-time-6d38aefd</id>
+        <link href="https://world.hey.com/dhh/gritting-your-teeth-biding-your-time-6d38aefd"/>
+        <updated>2022-02-16T11:32:58.000Z</updated>
+        <summary type="html"><![CDATA[What's the goodwill of developers worth to a platform operator? It's a hard question, because it can't be answered by the traditional economic models used by bean counters to populate the balance sheet. And it's far more ephemeral than the goodwill of consumers. The relationship is more intertwined. We're not just engaging in transactions, we're lifting each other up. Good developers breed strong platforms, and strong platforms attract good developers. When it works, it's symbiotic.
+There's nothing symbiotic about Apple's current relationship with its developers. 
+Every time Apple mobilizes its law machine to squash a developer in court, foil democratic accountability in the legislatures, or give regulators the middle finger, Apple wounds the relationship with developers. They can win ever…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Debugging an ioctl Problem on OpenBSD]]></title>
+        <id>https://jcs.org/2022/02/16/ioctl</id>
+        <link href="https://jcs.org/2022/02/16/ioctl"/>
+        <updated>2022-02-16T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I was trying to use a V4L2 Ruby module on my OpenBSD laptop but ran into a problem where sending the V4L2 ioctls from this module would fail, while other V4L2 programs on OpenBSD worked fine.]]></summary>
+        <author>
+            <name>joshua stein</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Watch out for 12-day weeks]]></title>
         <id>https://world.hey.com/jason/watch-out-for-12-day-weeks-b4441874</id>
@@ -2964,39 +3004,6 @@ In Arizona, Apple sent Kyle Andeer, the Chief Compliance Offer, to claim that pr
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Compiler January 2022 Steering Cycle]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/01/18/jan-steering-cycle.html"/>
-        <updated>2022-01-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[n Friday, January 14th, the Rust Compiler team had a planning meeting for the January steering cycle.
-Every fourth Friday, the Rust compiler team decides how
-it is going to use its scheduled steering and design meeting time over the next
-three Fridays.
-On Friday, 28 January, we will be having a meeting to
-discuss the  backlog of P-high issues (there are currently 86 such issues). pnkfelix will prepare a document to drive the meeting, with a categorization of the issues, especially in terms of how they relate to specific subteams.
-On Friday, 4 February, we will be having a meeting to
-discuss any beta regressions or backports that are pending for the
-Rust 1.59 release (due out 24 February, 2022). (We did not file a
-meeting proposal for this meeting, but you can see a similar meeting
-proposal that was used to drive an analogous meeting for the 1.48 release
-here.)
-Each meeting will run from 2pm to 3pm GMT, and will take place on the
-T-compiler/meetings zulip stream.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Complexity Debt]]></title>
-        <id>https://staysaasy.com/software/2022/01/17/complexity.html</id>
-        <link href="https://staysaasy.com/software/2022/01/17/complexity.html"/>
-        <updated>2022-01-17T14:59:22.000Z</updated>
-        <summary type="html"><![CDATA[At growth companies, complexity kills. The reason is simple - complexity is slow, and slow don’t grow.]]></summary>
-        <author>
-            <name>Stay SaaSy</name>
         </author>
     </entry>
 </feed>
