@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-17T00:53:22.678Z</updated>
+    <updated>2022-02-18T01:03:41.417Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Leveraging machine learning to find security vulnerabilities]]></title>
+        <id>https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/</id>
+        <link href="https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/"/>
+        <updated>2022-02-17T17:59:19.000Z</updated>
+        <summary type="html"><![CDATA[A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
         <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644943269&amp;</id>
@@ -22,6 +32,40 @@
         <updated>2022-02-17T00:52:39.015Z</updated>
         <author>
             <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Humble Chronicles: Decomposition]]></title>
+        <id>https://tonsky.me/blog/humble-decomposition/</id>
+        <link href="https://tonsky.me/blog/humble-decomposition/"/>
+        <updated>2022-02-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Overall shape of Humble UI project, a Clojure UI framework]]></summary>
+        <author>
+            <name>tonsky.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust Compiler February 2022 Steering Cycle]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/02/17/feb-steering-cycle.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/02/17/feb-steering-cycle.html"/>
+        <updated>2022-02-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On Friday, February 11th, the Rust Compiler team had a planning meeting for the February steering cycle.
+Every fourth Friday, the Rust compiler team decides how
+it is going to use its scheduled steering and design meeting time over the next
+three Fridays.
+On Friday, 18 February, we will be having a meeting to discuss the
+draft blog post describing the compiler team's ambitions for 2022.
+pnkfelix and wesleywiser have prepared the post and circulated it amongst the
+compiler contributors.
+We will be skipping the meeting on Friday, 25 February.
+On Friday, 4 March, we will be having a "backlog bonanza", in a
+similar vein to that done by T-lang, to review the list of unimplemented or
+partially-implemented features. pnkfelix and Jack Huey will prepare a document to
+drive the meeting.
+Each meeting will run from 2pm to 3pm GMT, and will take place on the
+T-compiler/meetings zulip stream.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
         </author>
     </entry>
     <entry>
@@ -2990,20 +3034,6 @@ more…]]></summary>
 In Arizona, Apple sent Kyle Andeer, the Chief Compliance Offer, to claim that preventing Apple from shaking down app developers for 30% would be tantamount to "a government mandate that Apple give away the App Store" because it would "allow billion-dollar developers to take all of the App Store’s value for free". This wa…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two Phase Commit]]></title>
-        <id>https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html</id>
-        <link href="https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html"/>
-        <updated>2022-01-18T17:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Continuing his exploration of important patterns to maintain consistency
-      across a cluster, Unmesh Joshi now looks at Two Phase
-      Commit. It's broadly the most familiar approach, but comes with lots of
-      complexities to make it work in practice over unreliable networks.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>

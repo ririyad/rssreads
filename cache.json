@@ -4,7 +4,18 @@
       "title": "tonsky.me",
       "feedUrl": "http://tonsky.me/blog/atom.xml",
       "siteUrl": "https://tonsky.me/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://tonsky.me/blog/humble-decomposition/",
+          "author": null,
+          "description": "Overall shape of Humble UI project, a Clojure UI framework",
+          "link": "https://tonsky.me/blog/humble-decomposition/",
+          "publishedOn": "2022-02-17T00:00:00.000Z",
+          "wordCount": 819,
+          "title": "Humble Chronicles: Decomposition",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "GolangCode",
@@ -384,15 +395,6 @@
           "publishedOn": "2022-01-19T15:53:00.000Z",
           "wordCount": 1741,
           "title": "Critical Aggregator"
-        },
-        {
-          "id": "https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html",
-          "author": null,
-          "description": "Continuing his exploration of important patterns to maintain consistency\n      across a cluster, Unmesh Joshi now looks at Two Phase\n      Commit. It's broadly the most familiar approach, but comes with lots of\n      complexities to make it work in practice over unreliable networks.\nmore…",
-          "link": "https://martinfowler.com/articles/patterns-of-distributed-systems/two-phase-commit.html",
-          "publishedOn": "2022-01-18T17:42:00.000Z",
-          "wordCount": 6067,
-          "title": "Two Phase Commit"
         }
       ]
     },
@@ -467,6 +469,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/02/17/feb-steering-cycle.html",
+          "author": null,
+          "description": "On Friday, February 11th, the Rust Compiler team had a planning meeting for the February steering cycle.\nEvery fourth Friday, the Rust compiler team decides how\nit is going to use its scheduled steering and design meeting time over the next\nthree Fridays.\nOn Friday, 18 February, we will be having a meeting to discuss the\ndraft blog post describing the compiler team's ambitions for 2022.\npnkfelix and wesleywiser have prepared the post and circulated it amongst the\ncompiler contributors.\nWe will be skipping the meeting on Friday, 25 February.\nOn Friday, 4 March, we will be having a \"backlog bonanza\", in a\nsimilar vein to that done by T-lang, to review the list of unimplemented or\npartially-implemented features. pnkfelix and Jack Huey will prepare a document to\ndrive the meeting.\nEach meeting will run from 2pm to 3pm GMT, and will take place on the\nT-compiler/meetings zulip stream.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/02/17/feb-steering-cycle.html",
+          "publishedOn": "2022-02-17T00:00:00.000Z",
+          "wordCount": 233,
+          "title": "Rust Compiler February 2022 Steering Cycle",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/02/11/CTCFT-february.html",
           "author": null,
@@ -545,6 +557,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/",
+          "author": null,
+          "description": "A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.",
+          "link": "https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/",
+          "publishedOn": "2022-02-17T17:59:19.000Z",
+          "wordCount": 1982,
+          "title": "Leveraging machine learning to find security vulnerabilities",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/diagram.png"
+        },
         {
           "id": "https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/",
           "author": null,
