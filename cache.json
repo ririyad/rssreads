@@ -213,15 +213,6 @@
           "publishedOn": "2022-01-20T13:21:31.000Z",
           "wordCount": 357,
           "title": "Free is never forever"
-        },
-        {
-          "id": "https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec",
-          "author": null,
-          "description": "In North Dakota, Apple sent Erik Neuenschwander, a chief privacy engineer, to make its case that opening up the App Store to free and fair competition on payment processing would be bad for privacy. He focused in a relatively sober tone on the sanctity of Apple's integration and curation as arguments for why they deserved their monopoly privileges. A technical witness perhaps stretching the truth to fit the narrative needed, but at least feeling somewhat constrained by it.\nIn Arizona, Apple sent Kyle Andeer, the Chief Compliance Offer, to claim that preventing Apple from shaking down app developers for 30% would be tantamount to \"a government mandate that Apple give away the App Store\" because it would \"allow billion-dollar developers to take all of the App Store’s value for free\". This wa…",
-          "link": "https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec",
-          "publishedOn": "2022-01-19T14:18:21.000Z",
-          "wordCount": 806,
-          "title": "Apple turns the legislative contempt up to 11"
         }
       ]
     },
@@ -275,15 +266,6 @@
           "publishedOn": "2022-01-25T19:51:28.000Z",
           "wordCount": 776,
           "title": "The Presence Prison"
-        },
-        {
-          "id": "https://world.hey.com/jason/creativity-requires-optimism-1158ff2b",
-          "author": null,
-          "description": "Pessimism can spark an idea.\nAnnoyance can drive ingenuity.\nDisappointment can redirect effort towards change.\nBut creativity requires optimism.\nCreativity isn't about starting something. It's about making something. Making requires sustained effort, and sustained effort requires fuel.\nThat fuel is optimism.\nWhen you run out, momentum dies, and effort grinds to a halt.\nWhen you run out, creativity converts to drudgery.\nWhen you run out, you give up.\nIf you're making something that doesn't exist, you must believe that it can. That's optimism, that's the feeling. That's the chemical reaction. Without it, creativity is inert.",
-          "link": "https://world.hey.com/jason/creativity-requires-optimism-1158ff2b",
-          "publishedOn": "2022-01-19T20:36:15.000Z",
-          "wordCount": 120,
-          "title": "Creativity requires optimism"
         }
       ]
     },
@@ -386,15 +368,6 @@
           "publishedOn": "2022-01-20T15:50:00.000Z",
           "wordCount": 1942,
           "title": "Divert the Flow"
-        },
-        {
-          "id": "https://martinfowler.com/articles/patterns-legacy-displacement/critical-aggregator.html",
-          "author": null,
-          "description": "Business Leaders often need to make decisions that are influenced by a\n      wide range of activity throughout the whole enterprise. To support this\n      systems often have a what Ian Cartwright, Rob Horn, and James\n      Lewis call a Critical Aggregator: a component whose job is to\n      visit various other systems and pull this information together. A critical\n      aggregator is important, but often metastasizes into an Invasive Critical Aggregator\nmore…",
-          "link": "https://martinfowler.com/articles/patterns-legacy-displacement/critical-aggregator.html",
-          "publishedOn": "2022-01-19T15:53:00.000Z",
-          "wordCount": 1741,
-          "title": "Critical Aggregator"
         }
       ]
     },
@@ -443,24 +416,6 @@
           "publishedOn": "2022-01-31T00:00:00.000Z",
           "wordCount": 343,
           "title": "Changes in the Core Team"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html",
-          "author": null,
-          "description": "This is a cross-post of the official security advisory. The\nofficial advisory contains a signed version with our PGP key, as well.\nThe Rust Security Response WG was notified that the std::fs::remove_dir_all\nstandard library function is vulnerable to a race condition enabling symlink\nfollowing (CWE-363). An attacker could use this security issue to trick a\nprivileged program into deleting files and directories the attacker couldn't\notherwise access or delete.\nThis issue has been assigned CVE-2022-21658.\nOverview\nLet's suppose an attacker obtained unprivileged access to a system and needed\nto delete a system directory called sensitive/, but they didn't have the\npermissions to do so. If std::fs::remove_dir_all followed symbolic links,\nthey could find a privileged program that removes a direct…",
-          "link": "https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html",
-          "publishedOn": "2022-01-20T00:00:00.000Z",
-          "wordCount": 637,
-          "title": "Security advisory for the standard library (CVE-2022-21658)"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html",
-          "author": null,
-          "description": "The Rust team has published a new point release of Rust, 1.58.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust\n1.58.1 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the\nappropriate page on our website.\nWhat's in 1.58.1 stable\nRust 1.58.1 fixes a race condition in the std::fs::remove_dir_all standard\nlibrary function. This security vulnerability is tracked as CVE-2022-21658,\nand you can read more about it on the advisory we published earlier\ntoday. We recommend all users to update their toolchain immediately\nand rebuild their programs with the updated compiler.\nRust 1.58.1 also addresses several regressions in diagnostics and tooling introduced in Rust 1.58.0:\nThe non_send_fields_in_send_ty Clippy lint was discovered to have too many\nfalse positives and has been moved to the experimental lints group (called\n\"nursery\").\nThe useless_format Clippy lint has been updated to handle captured\nidentifiers in format strings, introduced in Rust 1.58.0.\nA regression in Rustfmt preventing generated files from being formatted when\npassed through the standard input has been fixed.\nAn incorrect error message displayed by rustc in some cases has been fixed.\nYou can find more detailed information on the specific regressions in the\nrelease notes.\nContributors to 1.58.1\nMany people came together to create Rust 1.58.1. We couldn't have done it\nwithout all of you. Thanks!",
-          "link": "https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html",
-          "publishedOn": "2022-01-20T00:00:00.000Z",
-          "wordCount": 313,
-          "title": "Announcing Rust 1.58.1"
         }
       ]
     },
@@ -469,6 +424,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html",
+          "author": null,
+          "description": "wo weeks ago, the lang team held its February planning meeting (minutes). We hold these meetings on the first Wednesday of every month.\nThe planning meeting is used for:\nChecking in on the status of our active initiatives\nPlanning the design meetings for the remainder of the month\nAfter each meeting, we post an update (like this one!) with notes and meeting announcements.\nUpdate from active initiatives\nWe didn't have any updates from initiatives this week and in fact are thinking of changing our\n\"update\" structure to integrate into the regular triage meeting. For the time being, though, you\ncan check in on the progress of any active initiatives you're interested in by visiting the active initiatives project board, which is also a great way to get a summary of the\nmajor goings on of the Lang team.\nUpcoming design meetings\nWe have planned the following design meetings:\nFebruary 23: Never type next steps (lang-team#141)\nDesign meeting expectations\nThe document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.\n\nIf it is not sent out by then, the meeting will be canceled. This gives folks 24 hour notice.\nThere is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.\n\nHowever, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html",
+          "publishedOn": "2022-02-18T00:00:00.000Z",
+          "wordCount": 320,
+          "title": "Lang team February update",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/02/17/feb-steering-cycle.html",
           "author": null,
@@ -657,7 +622,18 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2022/02/18/",
+          "author": null,
+          "description": "I’ve been experimenting again lately with writing software without a\nruntime aside from the operating system itself, both on Linux and\nWindows. Another way to look at it: I write and embed a bespoke, minimal\nruntime within the application. One of the runtime’s core jobs is\nretrieving command line arguments from the operating system. On Windows\nthis is a deeper rabbit hole than I expected, and far more complex than I\nrealized. There is no standard, and every runtime does it a little\ndifferently. Five different applications may see five different sets of\narguments — even different argument counts — from the same input, and this\nis before any sort of option parsing. It’s truly a modern day Tower of\nBabel: “Confound their command line parsing, that they may not understand\none another’s argumen…",
+          "link": "https://nullprogram.com/blog/2022/02/18/",
+          "publishedOn": "2022-02-18T03:52:12.000Z",
+          "wordCount": 1719,
+          "title": "The wild west of Windows command line parsing",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Xe's Blog",

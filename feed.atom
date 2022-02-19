@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-18T01:03:41.417Z</updated>
+    <updated>2022-02-19T01:00:31.658Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The wild west of Windows command line parsing]]></title>
+        <id>https://nullprogram.com/blog/2022/02/18/</id>
+        <link href="https://nullprogram.com/blog/2022/02/18/"/>
+        <updated>2022-02-18T03:52:12.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been experimenting again lately with writing software without a
+runtime aside from the operating system itself, both on Linux and
+Windows. Another way to look at it: I write and embed a bespoke, minimal
+runtime within the application. One of the runtime’s core jobs is
+retrieving command line arguments from the operating system. On Windows
+this is a deeper rabbit hole than I expected, and far more complex than I
+realized. There is no standard, and every runtime does it a little
+differently. Five different applications may see five different sets of
+arguments — even different argument counts — from the same input, and this
+is before any sort of option parsing. It’s truly a modern day Tower of
+Babel: “Confound their command line parsing, that they may not understand
+one another’s argumen…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lang team February update]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html"/>
+        <updated>2022-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[wo weeks ago, the lang team held its February planning meeting (minutes). We hold these meetings on the first Wednesday of every month.
+The planning meeting is used for:
+Checking in on the status of our active initiatives
+Planning the design meetings for the remainder of the month
+After each meeting, we post an update (like this one!) with notes and meeting announcements.
+Update from active initiatives
+We didn't have any updates from initiatives this week and in fact are thinking of changing our
+"update" structure to integrate into the regular triage meeting. For the time being, though, you
+can check in on the progress of any active initiatives you're interested in by visiting the active initiatives project board, which is also a great way to get a summary of the
+major goings on of the Lang team.
+Upcoming design meetings
+We have planned the following design meetings:
+February 23: Never type next steps (lang-team#141)
+Design meeting expectations
+The document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.
+
+If it is not sent out by then, the meeting will be canceled. This gives folks 24 hour notice.
+There is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.
+
+However, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Leveraging machine learning to find security vulnerabilities]]></title>
         <id>https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/</id>
@@ -2926,112 +2976,6 @@ The problem is the switcheroo. When you give something away for free for years, 
 It feels even more so if the vendor showing up with demands for payment is a monopolist like Google. Who controls the majority of all email that flows in the US. Then it very much feels like you got suckered. Oh, we were just the stepping stone for you to get the dominant marketshare, and now that you've captured it, you return for the loot? Gah.
 Email wasn't ever free to offer. Especially not the unlimited kind with gigabytes of storage that gave Gmail its original splash. It's just that Google monetized it through data plunder (like reading your purchase receipts!), attention drains (promoted emails!), and now finally with a paid switcheroo for the most locked-in accounts.
 You could of course also just pay with cash monies from the get go. And vote with those dollars for what you'd like to see more of in the world. How's that for a New Year's resolution: Paying for things with money, and skipping the ones that aren't worth it.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security advisory for the standard library (CVE-2022-21658)]]></title>
-        <id>https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html</id>
-        <link href="https://blog.rust-lang.org/2022/01/20/cve-2022-21658.html"/>
-        <updated>2022-01-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a cross-post of the official security advisory. The
-official advisory contains a signed version with our PGP key, as well.
-The Rust Security Response WG was notified that the std::fs::remove_dir_all
-standard library function is vulnerable to a race condition enabling symlink
-following (CWE-363). An attacker could use this security issue to trick a
-privileged program into deleting files and directories the attacker couldn't
-otherwise access or delete.
-This issue has been assigned CVE-2022-21658.
-Overview
-Let's suppose an attacker obtained unprivileged access to a system and needed
-to delete a system directory called sensitive/, but they didn't have the
-permissions to do so. If std::fs::remove_dir_all followed symbolic links,
-they could find a privileged program that removes a direct…]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.58.1]]></title>
-        <id>https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html</id>
-        <link href="https://blog.rust-lang.org/2022/01/20/Rust-1.58.1.html"/>
-        <updated>2022-01-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Rust team has published a new point release of Rust, 1.58.1. Rust is a
-programming language that is empowering everyone to build reliable and
-efficient software.
-If you have a previous version of Rust installed via rustup, getting Rust
-1.58.1 is as easy as:
-rustup update stable
-
-If you don't have it already, you can get rustup from the
-appropriate page on our website.
-What's in 1.58.1 stable
-Rust 1.58.1 fixes a race condition in the std::fs::remove_dir_all standard
-library function. This security vulnerability is tracked as CVE-2022-21658,
-and you can read more about it on the advisory we published earlier
-today. We recommend all users to update their toolchain immediately
-and rebuild their programs with the updated compiler.
-Rust 1.58.1 also addresses several regressions in diagnostics and tooling introduced in Rust 1.58.0:
-The non_send_fields_in_send_ty Clippy lint was discovered to have too many
-false positives and has been moved to the experimental lints group (called
-"nursery").
-The useless_format Clippy lint has been updated to handle captured
-identifiers in format strings, introduced in Rust 1.58.0.
-A regression in Rustfmt preventing generated files from being formatted when
-passed through the standard input has been fixed.
-An incorrect error message displayed by rustc in some cases has been fixed.
-You can find more detailed information on the specific regressions in the
-release notes.
-Contributors to 1.58.1
-Many people came together to create Rust 1.58.1. We couldn't have done it
-without all of you. Thanks!]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creativity requires optimism]]></title>
-        <id>https://world.hey.com/jason/creativity-requires-optimism-1158ff2b</id>
-        <link href="https://world.hey.com/jason/creativity-requires-optimism-1158ff2b"/>
-        <updated>2022-01-19T20:36:15.000Z</updated>
-        <summary type="html"><![CDATA[Pessimism can spark an idea.
-Annoyance can drive ingenuity.
-Disappointment can redirect effort towards change.
-But creativity requires optimism.
-Creativity isn't about starting something. It's about making something. Making requires sustained effort, and sustained effort requires fuel.
-That fuel is optimism.
-When you run out, momentum dies, and effort grinds to a halt.
-When you run out, creativity converts to drudgery.
-When you run out, you give up.
-If you're making something that doesn't exist, you must believe that it can. That's optimism, that's the feeling. That's the chemical reaction. Without it, creativity is inert.]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Critical Aggregator]]></title>
-        <id>https://martinfowler.com/articles/patterns-legacy-displacement/critical-aggregator.html</id>
-        <link href="https://martinfowler.com/articles/patterns-legacy-displacement/critical-aggregator.html"/>
-        <updated>2022-01-19T15:53:00.000Z</updated>
-        <summary type="html"><![CDATA[Business Leaders often need to make decisions that are influenced by a
-      wide range of activity throughout the whole enterprise. To support this
-      systems often have a what Ian Cartwright, Rob Horn, and James
-      Lewis call a Critical Aggregator: a component whose job is to
-      visit various other systems and pull this information together. A critical
-      aggregator is important, but often metastasizes into an Invasive Critical Aggregator
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple turns the legislative contempt up to 11]]></title>
-        <id>https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec</id>
-        <link href="https://world.hey.com/dhh/apple-turns-the-legislative-contempt-up-to-11-7c65eeec"/>
-        <updated>2022-01-19T14:18:21.000Z</updated>
-        <summary type="html"><![CDATA[In North Dakota, Apple sent Erik Neuenschwander, a chief privacy engineer, to make its case that opening up the App Store to free and fair competition on payment processing would be bad for privacy. He focused in a relatively sober tone on the sanctity of Apple's integration and curation as arguments for why they deserved their monopoly privileges. A technical witness perhaps stretching the truth to fit the narrative needed, but at least feeling somewhat constrained by it.
-In Arizona, Apple sent Kyle Andeer, the Chief Compliance Offer, to claim that preventing Apple from shaking down app developers for 30% would be tantamount to "a government mandate that Apple give away the App Store" because it would "allow billion-dollar developers to take all of the App Store’s value for free". This wa…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>
