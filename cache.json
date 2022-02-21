@@ -701,6 +701,16 @@
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
         {
+          "id": "https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/",
+          "author": null,
+          "description": "Hello! I was talking to some friends the other day about the types of\nconference talks we enjoyed.\nOne category we came up with was “you know this thing that used to be super\nhard? Turns out now it’s WAY EASIER and maybe you can do it now!“.\nSo I asked on Twitter about programming things that used to be hard and are now easy\nHere are some of the answers I got. Not all of them are equally “easy”, but I\nfound reading the list really fun and it gave me some ideas for things to\nlearn. Maybe it’ll give you some ideas too.\nSSL certificates, with Let’s Encrypt\nConcurrency, with async/await (in several languages)\nCentering in CSS, with flexbox/grid\nBuilding fast programs, with Go\nImage recognition, with transfer learning (someone pointed out that the joke in this XKCD doesn’t make sense anymore)\nB…",
+          "link": "https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/",
+          "publishedOn": "2022-02-20T09:00:36.000Z",
+          "wordCount": 452,
+          "title": "Things that used to be hard and are now easy",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvns.ca/blog/2022/02/14/some-dns-terminology/",
           "author": null,
           "description": "I’m working on a zine about DNS right now, so I’ve been thinking about DNS\nterminology a lot more than a normal person. Here’s something slightly\nconfusing I’ve noticed about DNS terminology!\nTwo of the most common DNS server terms (“nameserver” and “DNS resolver”)\nhave different meanings depending on the situation.\nNow this isn’t a problem if you already understand how DNS works – I can\neasily figure out what type of “nameserver” is being discussed based on\ncontext.\nBut it can be a problem if you’re trying to learn how DNS works and you don’t\nrealize that those words might refer to different things depending on the\ncontext – it’s confusing! So I’m going to explain the different possible\nmeanings and how to figure out which meaning is intended.\nthe 2 meanings of “nameserver”\nThere are 2 ty…",

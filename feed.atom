@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-20T05:28:39.791Z</updated>
+    <updated>2022-02-21T00:57:28.612Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Things that used to be hard and are now easy]]></title>
+        <id>https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/</id>
+        <link href="https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/"/>
+        <updated>2022-02-20T09:00:36.000Z</updated>
+        <summary type="html"><![CDATA[Hello! I was talking to some friends the other day about the types of
+conference talks we enjoyed.
+One category we came up with was “you know this thing that used to be super
+hard? Turns out now it’s WAY EASIER and maybe you can do it now!“.
+So I asked on Twitter about programming things that used to be hard and are now easy
+Here are some of the answers I got. Not all of them are equally “easy”, but I
+found reading the list really fun and it gave me some ideas for things to
+learn. Maybe it’ll give you some ideas too.
+SSL certificates, with Let’s Encrypt
+Concurrency, with async/await (in several languages)
+Centering in CSS, with flexbox/grid
+Building fast programs, with Go
+Image recognition, with transfer learning (someone pointed out that the joke in this XKCD doesn’t make sense anymore)
+B…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How I Pomodoro]]></title>
         <id>https://christine.website/blog/pomodoro-2022-02-19</id>
