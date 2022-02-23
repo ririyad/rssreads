@@ -6,6 +6,16 @@
       "siteUrl": "https://tonsky.me/",
       "articles": [
         {
+          "id": "https://tonsky.me/blog/humble-dx/",
+          "author": null,
+          "description": "Using Humble UI from the REPL",
+          "link": "https://tonsky.me/blog/humble-dx/",
+          "publishedOn": "2022-02-22T00:00:00.000Z",
+          "wordCount": 565,
+          "title": "Humble Chronicles: Developer Experience",
+          "imageUrl": null
+        },
+        {
           "id": "https://tonsky.me/blog/humble-layout/",
           "author": null,
           "description": "Humble UI approach to layout",
@@ -60,6 +70,16 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/simulacra-33e81a8e",
+          "author": null,
+          "description": "I never did make it all the way through Jean Baudrillard's book Simulacra and Simulation before I lost my paperback copy on a trip. But it lodged several perspectives deep in my brain that I'm still trying to process. One of which was this:\n\nDisneyland is presented as imaginary in order to make us believe that the rest is real.\n\nIt's a novel illustration of the point both David Graeber and Yuval Noah Harari have kept making in their works: Human institutions are all, broadly speaking, make believe. \nWhere Harari illustrates this point with everything from the corporation to human rights, Graeber invites us to imagine fresh alternatives to debt and capitalism. And I remember nodding to both, but it was Baudrillard's pithy contrast that really made the point sink in.\nYet even when it's sunk …",
+          "link": "https://world.hey.com/dhh/simulacra-33e81a8e",
+          "publishedOn": "2022-02-22T11:05:04.000Z",
+          "wordCount": 519,
+          "title": "Simulacra",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
         {
           "id": "https://world.hey.com/dhh/i-was-wrong-we-need-crypto-587ccb03",
           "author": null,
@@ -224,6 +244,16 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/how-to-land-the-job-you-really-want-dcf208ab",
+          "author": null,
+          "description": "As someone who's been hiring people for 23 years, I've seen, read, and reviewed tens of thousands of job applications.\nThe ones that typically rise to the top are the ones that demonstrate effort to get this job, and not just any job.\nWe recently hired our first Email Marketing Manager. Nearly 400 people applied for the position.\nAs applications tend to do, they ranged from the basic resume, to the standard cover letter and resume, to the custom cover letter and resume, and, finally, some more creative approaches to stand out.\nI wanted to share one, in particular. This application is shared with the applicant's permission, although it's been slightly modified to remove personal information they weren't comfortable sharing publicly.\nBeyond it being an exceptionally good application — you'll know why when you see it — it was the one that got the person the job. This is who we hired. It's a great example of what really wanting the job can look like when you put in the extra effort to stand out in the right ways.\nHere it is, check it out: https://jobsapp.info/basecamp/",
+          "link": "https://world.hey.com/jason/how-to-land-the-job-you-really-want-dcf208ab",
+          "publishedOn": "2022-02-22T18:06:30.000Z",
+          "wordCount": 224,
+          "title": "How to land the job you really want",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
           "id": "https://world.hey.com/jason/watch-out-for-12-day-weeks-b4441874",
           "author": null,
           "description": "Way back when, we used to release new software on Fridays all the time. That often meant working Saturdays and Sundays to fix an urgent problem with the new stuff, wrecking the weekend for whoever did the release.\nIt was stupid yet predictable, because we kept setting deadlines at the end of the week, as most naturally do. But Friday is the worse day to release anything.\nFirst off, you probably rushed to finish before the weekend. So work done on Fridays tends to be a bit sloppy.\nSecond, Mondays don't come after Fridays. Saturdays and Sundays do. So if something goes wrong, someone's working the weekend.\nThird, if you work the weekends, you don't get a chance to recharge. Basically, when you've worked all week, and you're forced to work the weekend, the following Monday is the eighth day o…",
@@ -284,6 +314,16 @@
           "publishedOn": "2022-02-15T19:00:00.000Z",
           "wordCount": 753,
           "title": "Taking Plain Text Notes with Nextcloud Notes",
+          "imageUrl": null
+        },
+        {
+          "id": "https://plaintextproject.online/articles/2022/02/23/links.html",
+          "author": null,
+          "description": "Four links, focusing on Markdown",
+          "link": "https://plaintextproject.online/articles/2022/02/23/links.html",
+          "publishedOn": "2022-02-02T19:00:00.000Z",
+          "wordCount": 90,
+          "title": "Four Links - February 23, 2022",
           "imageUrl": null
         },
         {
@@ -438,6 +478,26 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html",
+          "author": null,
+          "description": "Rust Compiler Ambitions for 2022\nSome people have been wondering about what the Rust Compiler Team has planned for 2022. This note is to let you all know what activities the team plans to focus on this year.\nThis document is structured into three parts: our Overall Themes for this year, the Concrete Initiatives we have resources to drive, and Aspirations for what we could do if given more help.\nIntroduction\nPart of the motivation for this note is to encourage new contributors to get involved. We have a lot of newcomers, from individuals to large organizations, who are very excited about Rust's potential, and we want to show all of them what they can do to help.\nThis is a list of items, divided into a Concrete Initiatives section and an Aspirations section. We accumulated these items during…",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html",
+          "publishedOn": "2022-02-22T00:00:00.000Z",
+          "wordCount": 3388,
+          "title": "Rust Compiler Ambitions for 2022",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/02/22/1.59.0-prerelease.html",
+          "author": null,
+          "description": "The 1.59.0 pre-release is ready for testing. The release is scheduled for this\nThursday, February 24th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-02-22/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/02/22/1.59.0-prerelease.html",
+          "publishedOn": "2022-02-22T00:00:00.000Z",
+          "wordCount": 144,
+          "title": "1.59.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html",
           "author": null,
@@ -798,15 +858,6 @@
           "publishedOn": "2022-01-29T07:44:38.000Z",
           "wordCount": 1832,
           "title": "Reasons for servers to support IPv6"
-        },
-        {
-          "id": "https://jvns.ca/blog/2022/01/24/hosting-my-static-sites-with-nginx/",
-          "author": null,
-          "description": "Hello! Recently I’ve been thinking about putting my static sites on servers\nthat I run myself instead of using managed services like Netlify or GitHub\nPages.\nOriginally I thought that running my own servers would require a lot of\nmaintenance and be a huge pain, but I was chatting with Wesley about what kind\nof maintainance their servers require, and\nthey convinced me that it might not be that bad.\nSo I decided to try out moving all my static sites to a $5/month server to see\nwhat it was like.\nEverything in here is pretty standard but I wanted to write down what I did\nanyway because there are a surprising number of decisions and I like to see\nwhat choices other people make.\nthe constraint: only static sites\nTo keep things simple, I decided that this server would only run nginx and\nonly serv…",
-          "link": "https://jvns.ca/blog/2022/01/24/hosting-my-static-sites-with-nginx/",
-          "publishedOn": "2022-01-24T07:59:19.000Z",
-          "wordCount": 1666,
-          "title": "Hosting my static sites with nginx"
         }
       ]
     },
@@ -881,6 +932,26 @@
       "feedUrl": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "siteUrl": "http://www.paulgraham.com/",
       "articles": [
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645488487&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645488487&",
+          "publishedOn": "2022-02-23T01:05:50.011Z",
+          "wordCount": null,
+          "title": "Chapter 2 of Ansi Common Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645488487&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645488487&",
+          "publishedOn": "2022-02-23T01:05:50.009Z",
+          "wordCount": null,
+          "title": "Chapter 1 of Ansi Common Lisp",
+          "imageUrl": null
+        },
         {
           "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644943269&",
           "author": null,
