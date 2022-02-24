@@ -2,10 +2,70 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-23T01:06:31.855Z</updated>
+    <updated>2022-02-24T01:03:13.535Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645579534&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645579534&amp;"/>
+        <updated>2022-02-24T01:02:31.323Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645579534&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645579534&amp;"/>
+        <updated>2022-02-24T01:02:31.285Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Codespaces for the largest repositories just got faster]]></title>
+        <id>https://github.blog/2022-02-23-codespaces-largest-repositories-faster/</id>
+        <link href="https://github.blog/2022-02-23-codespaces-largest-repositories-faster/"/>
+        <updated>2022-02-23T18:10:01.000Z</updated>
+        <summary type="html"><![CDATA[The ability to prebuild codespaces is entering public beta. Enable fast environment creation times, regardless of the size and complexity of your repositories.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Equating blasphemy with violence legitimizes the inquisition]]></title>
+        <id>https://world.hey.com/dhh/equating-blasphemy-with-violence-legitimizes-the-inquisition-5b271760</id>
+        <link href="https://world.hey.com/dhh/equating-blasphemy-with-violence-legitimizes-the-inquisition-5b271760"/>
+        <updated>2022-02-23T15:48:29.000Z</updated>
+        <summary type="html"><![CDATA[By far the most furiously pushback I've received for writing about the Canadian trucker protest has come from calling it "peaceful". Objections to this term has taken many forms. But they all seek to justify the opposite label of "violent", no matter the blind logical leaps required.
+Some claim that the background of certain organizers or participants as either anti-government, white supremacist, trumpers, conferate-flag-wavers, or whatever means that even if there were no (or only isolated) violent acts, that this still rendered the protests at large violent. Others that "hateful rhetoric" or "unacceptable views" was violence in speech. Others still that incessant honking or blocked streets constituted violence against the peace and habitability of their city. 
+There may or may not be mer…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some things about getaddrinfo that surprised me]]></title>
+        <id>https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/</id>
+        <link href="https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/"/>
+        <updated>2022-02-23T08:33:56.000Z</updated>
+        <summary type="html"><![CDATA[Hello! Here are some things you may or may not have noticed about DNS:
+when you resolve a DNS name in a Python program, it checks /etc/hosts, but when you use dig, it doesn’t.
+switching Linux distributions can sometimes change how your DNS works, for example if you use Alpine Linux instead of Ubuntu it can cause problems.
+Mac OS has DNS caching, but Linux doesn’t necessarily unless you use systemd-resolved or something
+To understand all of these, we need to learn about a function called
+getaddrinfo which is responsible for doing DNS lookups.
+There are a bunch of surprising-to-me things about getaddrinfo, and once I
+learned about them, it explained a bunch of the confusing DNS behaviour I’d
+seen in the past.
+where does getaddrinfo come from?
+getaddrinfo is part of a library called libc whic…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
         <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645488487&amp;</id>
@@ -3088,30 +3148,6 @@ This is not nearly as hard as it sounds. But it does require a shift in mindset.
 If you’re constantly pulling people into things, then yeah, where they are r…]]></summary>
         <author>
             <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Just the cost of doing business [crimes]]]></title>
-        <id>https://world.hey.com/dhh/just-the-cost-of-doing-business-crimes-c9a0316e</id>
-        <link href="https://world.hey.com/dhh/just-the-cost-of-doing-business-crimes-c9a0316e"/>
-        <updated>2022-01-25T09:31:29.000Z</updated>
-        <summary type="html"><![CDATA[The Dutch competition authorities just slapped Apple with a five million euro fine for refusing to comply with the country's new requirements on App Store policies. These new requirements are somewhat oddly contained to just dating apps, as they came as a consequence of a specific complaint from a specific provider, but even with that seriously restrictive caveat, Apple has chosen to blow them off. Because this is just the cost of doing business [crimes]!
-The five million euro fine is the first of potentially ten such weekly fines, which will come due if Apple continues to violate the new requirements (like allowing Dutch dating apps the right to link out of app for payment). But as Daring Fireball points out, €50 million is "spare-change-under-the-sofa" money for Apple, a company that literally makes a billion dollars per day in revenue.
-This is the problem with fines. They put a price on criminal behavior, and if the gains from committing those crimes exceed the cost of the fines, there's a base hyper-rational calculus that says the company should continue to break the law.
-I don't necessarily disagree with the basic incentives here. Fines should be sufficient to deter violations (and these surely are not). But I also have some sympathy with the Dutch authorities. The normal rules of commerce, competition, and regulation just don't apply when you're dealing with a trillion-dollar global behemoth like Apple. For whom a €50 million fine is chump change.
-What'll be curious to see now is whether Apple will embrace this calculus, and the odious cape of contempt that comes with it. Because while that might make sense in the short term, there's just no way this is the last stop. If Apple willfully decides to flip off the Dutch and their national sovereignty, I think we might just see the leviathan that is the European Union awaken.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Highlights from Git 2.35]]></title>
-        <id>https://github.blog/2022-01-24-highlights-from-git-2-35/</id>
-        <link href="https://github.blog/2022-01-24-highlights-from-git-2-35/"/>
-        <updated>2022-01-24T20:00:43.000Z</updated>
-        <summary type="html"><![CDATA[The open source Git project just released Git 2.35. Here's GitHub's look at some of the most interesting features and changes introduced since last time.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
         </author>
     </entry>
 </feed>

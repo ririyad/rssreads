@@ -71,6 +71,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/equating-blasphemy-with-violence-legitimizes-the-inquisition-5b271760",
+          "author": null,
+          "description": "By far the most furiously pushback I've received for writing about the Canadian trucker protest has come from calling it \"peaceful\". Objections to this term has taken many forms. But they all seek to justify the opposite label of \"violent\", no matter the blind logical leaps required.\nSome claim that the background of certain organizers or participants as either anti-government, white supremacist, trumpers, conferate-flag-wavers, or whatever means that even if there were no (or only isolated) violent acts, that this still rendered the protests at large violent. Others that \"hateful rhetoric\" or \"unacceptable views\" was violence in speech. Others still that incessant honking or blocked streets constituted violence against the peace and habitability of their city. \nThere may or may not be mer…",
+          "link": "https://world.hey.com/dhh/equating-blasphemy-with-violence-legitimizes-the-inquisition-5b271760",
+          "publishedOn": "2022-02-23T15:48:29.000Z",
+          "wordCount": 517,
+          "title": "Equating blasphemy with violence legitimizes the inquisition",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/simulacra-33e81a8e",
           "author": null,
           "description": "I never did make it all the way through Jean Baudrillard's book Simulacra and Simulation before I lost my paperback copy on a trip. But it lodged several perspectives deep in my brain that I'm still trying to process. One of which was this:\n\nDisneyland is presented as imaginary in order to make us believe that the rest is real.\n\nIt's a novel illustration of the point both David Graeber and Yuval Noah Harari have kept making in their works: Human institutions are all, broadly speaking, make believe. \nWhere Harari illustrates this point with everything from the corporation to human rights, Graeber invites us to imagine fresh alternatives to debt and capitalism. And I remember nodding to both, but it was Baudrillard's pithy contrast that really made the point sink in.\nYet even when it's sunk …",
@@ -226,15 +236,6 @@
           "publishedOn": "2022-01-26T14:07:58.000Z",
           "wordCount": 580,
           "title": "A pandemic dispatch from Denmark"
-        },
-        {
-          "id": "https://world.hey.com/dhh/just-the-cost-of-doing-business-crimes-c9a0316e",
-          "author": null,
-          "description": "The Dutch competition authorities just slapped Apple with a five million euro fine for refusing to comply with the country's new requirements on App Store policies. These new requirements are somewhat oddly contained to just dating apps, as they came as a consequence of a specific complaint from a specific provider, but even with that seriously restrictive caveat, Apple has chosen to blow them off. Because this is just the cost of doing business [crimes]!\nThe five million euro fine is the first of potentially ten such weekly fines, which will come due if Apple continues to violate the new requirements (like allowing Dutch dating apps the right to link out of app for payment). But as Daring Fireball points out, €50 million is \"spare-change-under-the-sofa\" money for Apple, a company that literally makes a billion dollars per day in revenue.\nThis is the problem with fines. They put a price on criminal behavior, and if the gains from committing those crimes exceed the cost of the fines, there's a base hyper-rational calculus that says the company should continue to break the law.\nI don't necessarily disagree with the basic incentives here. Fines should be sufficient to deter violations (and these surely are not). But I also have some sympathy with the Dutch authorities. The normal rules of commerce, competition, and regulation just don't apply when you're dealing with a trillion-dollar global behemoth like Apple. For whom a €50 million fine is chump change.\nWhat'll be curious to see now is whether Apple will embrace this calculus, and the odious cape of contempt that comes with it. Because while that might make sense in the short term, there's just no way this is the last stop. If Apple willfully decides to flip off the Dutch and their national sovereignty, I think we might just see the leviathan that is the European Union awaken.",
-          "link": "https://world.hey.com/dhh/just-the-cost-of-doing-business-crimes-c9a0316e",
-          "publishedOn": "2022-01-25T09:31:29.000Z",
-          "wordCount": 352,
-          "title": "Just the cost of doing business [crimes]"
         }
       ]
     },
@@ -597,6 +598,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-02-23-codespaces-largest-repositories-faster/",
+          "author": null,
+          "description": "The ability to prebuild codespaces is entering public beta. Enable fast environment creation times, regardless of the size and complexity of your repositories.",
+          "link": "https://github.blog/2022-02-23-codespaces-largest-repositories-faster/",
+          "publishedOn": "2022-02-23T18:10:01.000Z",
+          "wordCount": 1014,
+          "title": "Codespaces for the largest repositories just got faster",
+          "imageUrl": "https://github.blog/wp-content/uploads/2021/08/1200x630-codespaces-social-3.png"
+        },
+        {
           "id": "https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/",
           "author": null,
           "description": "A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.",
@@ -633,15 +644,6 @@
           "publishedOn": "2022-02-01T17:07:01.000Z",
           "wordCount": 3134,
           "title": "Code scanning and Ruby: turning source code into a queryable database"
-        },
-        {
-          "id": "https://github.blog/2022-01-24-highlights-from-git-2-35/",
-          "author": null,
-          "description": "The open source Git project just released Git 2.35. Here's GitHub's look at some of the most interesting features and changes introduced since last time.",
-          "link": "https://github.blog/2022-01-24-highlights-from-git-2-35/",
-          "publishedOn": "2022-01-24T20:00:43.000Z",
-          "wordCount": 2548,
-          "title": "Highlights from Git 2.35"
         }
       ]
     },
@@ -822,6 +824,16 @@
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
         {
+          "id": "https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/",
+          "author": null,
+          "description": "Hello! Here are some things you may or may not have noticed about DNS:\nwhen you resolve a DNS name in a Python program, it checks /etc/hosts, but when you use dig, it doesn’t.\nswitching Linux distributions can sometimes change how your DNS works, for example if you use Alpine Linux instead of Ubuntu it can cause problems.\nMac OS has DNS caching, but Linux doesn’t necessarily unless you use systemd-resolved or something\nTo understand all of these, we need to learn about a function called\ngetaddrinfo which is responsible for doing DNS lookups.\nThere are a bunch of surprising-to-me things about getaddrinfo, and once I\nlearned about them, it explained a bunch of the confusing DNS behaviour I’d\nseen in the past.\nwhere does getaddrinfo come from?\ngetaddrinfo is part of a library called libc whic…",
+          "link": "https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/",
+          "publishedOn": "2022-02-23T08:33:56.000Z",
+          "wordCount": 1180,
+          "title": "Some things about getaddrinfo that surprised me",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/",
           "author": null,
           "description": "Hello! I was talking to some friends the other day about the types of\nconference talks we enjoyed.\nOne category we came up with was “you know this thing that used to be super\nhard? Turns out now it’s WAY EASIER and maybe you can do it now!“.\nSo I asked on Twitter about programming things that used to be hard and are now easy\nHere are some of the answers I got. Not all of them are equally “easy”, but I\nfound reading the list really fun and it gave me some ideas for things to\nlearn. Maybe it’ll give you some ideas too.\nSSL certificates, with Let’s Encrypt\nConcurrency, with async/await (in several languages)\nCentering in CSS, with flexbox/grid\nBuilding fast programs, with Go\nImage recognition, with transfer learning (someone pointed out that the joke in this XKCD doesn’t make sense anymore)\nB…",
@@ -932,6 +944,26 @@
       "feedUrl": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "siteUrl": "http://www.paulgraham.com/",
       "articles": [
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645579534&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645579534&",
+          "publishedOn": "2022-02-24T01:02:31.323Z",
+          "wordCount": null,
+          "title": "Chapter 1 of Ansi Common Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645579534&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645579534&",
+          "publishedOn": "2022-02-24T01:02:31.285Z",
+          "wordCount": null,
+          "title": "Chapter 2 of Ansi Common Lisp",
+          "imageUrl": null
+        },
         {
           "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645488487&",
           "author": null,
