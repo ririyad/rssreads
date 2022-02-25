@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-24T01:03:13.535Z</updated>
+    <updated>2022-02-25T01:03:37.207Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645657427&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645657427&amp;"/>
+        <updated>2022-02-25T01:02:54.347Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645657427&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645657427&amp;"/>
+        <updated>2022-02-25T01:02:54.338Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The advantages of large, long-running pull requests]]></title>
+        <id>https://world.hey.com/dhh/the-advantages-of-large-long-running-pull-requests-c33d913c</id>
+        <link href="https://world.hey.com/dhh/the-advantages-of-large-long-running-pull-requests-c33d913c"/>
+        <updated>2022-02-24T12:45:20.000Z</updated>
+        <summary type="html"><![CDATA[My favorite part of doing code reviews is to see all the trade-offs, design decisions, and changes in context together. You can't easily do that if your feature has been chopped into itty bitty pieces as independent pull requests under pressure never to let them run longer than a week. So at Basecamp, we let pull requests run as long as they need to encompass a complete feature or fix. That's everything from a few weeks up to as much as six (since we follow Shape Up).
+This approach isn't entirely without trade-offs. The longer your pull request is running off the main branch, the greater the chance that you'll have merge conflicts. But you can mitigate much of this by ensuring you keep your pull request up to date with main by frequently merging main into the pull request. I can appreciate…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
         <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645579534&amp;</id>
@@ -22,6 +51,32 @@
         <updated>2022-02-24T01:02:31.285Z</updated>
         <author>
             <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.59.0]]></title>
+        <id>https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html</id>
+        <link href="https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html"/>
+        <updated>2022-02-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team has published a new version of Rust, 1.59.0. Rust is a programming
+language that is empowering everyone to build reliable and efficient software.
+Today's release falls on the day in which the world's attention is captured by
+the sudden invasion of Ukraine by Putin's forces. Before going into the details
+of the new Rust release, we'd like to state that we stand in solidarity with the
+people of Ukraine and express our support for all people affected by this
+conflict.
+If you have a previous version of Rust installed via rustup, you can get 1.59.0
+with:
+rustup update stable
+
+If you don't have it already, you can get rustup
+from the appropriate page on our website, and check out the
+detailed release notes for 1.59.0 on GitHub.
+What's in 1.59.0 stable
+Inline assembly
+The Rust langu…]]></summary>
+        <author>
+            <name>Rust Blog</name>
         </author>
     </entry>
     <entry>
@@ -3132,22 +3187,6 @@ What's striking about this decision is that it's been taken against a backdrop o
 But the number of patients in the ICU because …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Presence Prison]]></title>
-        <id>https://world.hey.com/jason/the-presence-prison-69608e0f</id>
-        <link href="https://world.hey.com/jason/the-presence-prison-69608e0f"/>
-        <updated>2022-01-25T19:51:28.000Z</updated>
-        <summary type="html"><![CDATA[As a general rule, nobody at Basecamp really knows where anyone else is at any given moment. Are they working? Dunno. Are they taking a break? Dunno. Are they at lunch? Dunno. Are they picking up their kid from school? Dunno. Don’t care.
-
-The vast majority of the time, it just doesn’t matter. What matters is letting people design their own schedule around when they can do their best work.
-
-This is not nearly as hard as it sounds. But it does require a shift in mindset. Away from “I have to call Jeff into a meeting now to get his take on this new feature idea” to “I’ll write up my feature idea for Jeff to check-out whenever he has some free time, and then, maybe, we can have a chat about it live later, if needed”.
-
-If you’re constantly pulling people into things, then yeah, where they are r…]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>

@@ -71,6 +71,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-advantages-of-large-long-running-pull-requests-c33d913c",
+          "author": null,
+          "description": "My favorite part of doing code reviews is to see all the trade-offs, design decisions, and changes in context together. You can't easily do that if your feature has been chopped into itty bitty pieces as independent pull requests under pressure never to let them run longer than a week. So at Basecamp, we let pull requests run as long as they need to encompass a complete feature or fix. That's everything from a few weeks up to as much as six (since we follow Shape Up).\nThis approach isn't entirely without trade-offs. The longer your pull request is running off the main branch, the greater the chance that you'll have merge conflicts. But you can mitigate much of this by ensuring you keep your pull request up to date with main by frequently merging main into the pull request. I can appreciate…",
+          "link": "https://world.hey.com/dhh/the-advantages-of-large-long-running-pull-requests-c33d913c",
+          "publishedOn": "2022-02-24T12:45:20.000Z",
+          "wordCount": 600,
+          "title": "The advantages of large, long-running pull requests",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/equating-blasphemy-with-violence-legitimizes-the-inquisition-5b271760",
           "author": null,
           "description": "By far the most furiously pushback I've received for writing about the Canadian trucker protest has come from calling it \"peaceful\". Objections to this term has taken many forms. But they all seek to justify the opposite label of \"violent\", no matter the blind logical leaps required.\nSome claim that the background of certain organizers or participants as either anti-government, white supremacist, trumpers, conferate-flag-wavers, or whatever means that even if there were no (or only isolated) violent acts, that this still rendered the protests at large violent. Others that \"hateful rhetoric\" or \"unacceptable views\" was violence in speech. Others still that incessant honking or blocked streets constituted violence against the peace and habitability of their city. \nThere may or may not be mer…",
@@ -290,15 +300,6 @@
           "publishedOn": "2022-01-28T19:40:32.000Z",
           "wordCount": 475,
           "title": "No big deal or the end of the world?"
-        },
-        {
-          "id": "https://world.hey.com/jason/the-presence-prison-69608e0f",
-          "author": null,
-          "description": "As a general rule, nobody at Basecamp really knows where anyone else is at any given moment. Are they working? Dunno. Are they taking a break? Dunno. Are they at lunch? Dunno. Are they picking up their kid from school? Dunno. Don’t care.\n\nThe vast majority of the time, it just doesn’t matter. What matters is letting people design their own schedule around when they can do their best work.\n\nThis is not nearly as hard as it sounds. But it does require a shift in mindset. Away from “I have to call Jeff into a meeting now to get his take on this new feature idea” to “I’ll write up my feature idea for Jeff to check-out whenever he has some free time, and then, maybe, we can have a chat about it live later, if needed”.\n\nIf you’re constantly pulling people into things, then yeah, where they are r…",
-          "link": "https://world.hey.com/jason/the-presence-prison-69608e0f",
-          "publishedOn": "2022-01-25T19:51:28.000Z",
-          "wordCount": 776,
-          "title": "The Presence Prison"
         }
       ]
     },
@@ -433,6 +434,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html",
+          "author": null,
+          "description": "The Rust team has published a new version of Rust, 1.59.0. Rust is a programming\nlanguage that is empowering everyone to build reliable and efficient software.\nToday's release falls on the day in which the world's attention is captured by\nthe sudden invasion of Ukraine by Putin's forces. Before going into the details\nof the new Rust release, we'd like to state that we stand in solidarity with the\npeople of Ukraine and express our support for all people affected by this\nconflict.\nIf you have a previous version of Rust installed via rustup, you can get 1.59.0\nwith:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.59.0 on GitHub.\nWhat's in 1.59.0 stable\nInline assembly\nThe Rust langu…",
+          "link": "https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html",
+          "publishedOn": "2022-02-24T00:00:00.000Z",
+          "wordCount": 1144,
+          "title": "Announcing Rust 1.59.0",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2022/02/21/rust-analyzer-joins-rust-org.html",
           "author": null,
@@ -944,6 +955,26 @@
       "feedUrl": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "siteUrl": "http://www.paulgraham.com/",
       "articles": [
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645657427&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645657427&",
+          "publishedOn": "2022-02-25T01:02:54.347Z",
+          "wordCount": null,
+          "title": "Chapter 2 of Ansi Common Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645657427&",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645657427&",
+          "publishedOn": "2022-02-25T01:02:54.338Z",
+          "wordCount": null,
+          "title": "Chapter 1 of Ansi Common Lisp",
+          "imageUrl": null
+        },
         {
           "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645579534&",
           "author": null,
