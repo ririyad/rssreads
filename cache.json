@@ -47,17 +47,7 @@
       "title": "Applied Go",
       "feedUrl": "https://appliedgo.net/index.xml",
       "siteUrl": "https://appliedgo.net/",
-      "articles": [
-        {
-          "id": "https://appliedgo.net/mantil/",
-          "author": null,
-          "description": "If you need to develop an AWS Lambda function in Go, take a look at Mantil, a dev kit with staging and database connection included.",
-          "link": "https://appliedgo.net/mantil/",
-          "publishedOn": "2022-01-28T00:00:00.000Z",
-          "wordCount": 1965,
-          "title": "Rapid AWS Lambda development with Go and Mantil"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Dave Cheney",
@@ -70,6 +60,16 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/dangerous-conversations-going-private-db84b6b3",
+          "author": null,
+          "description": "I went on Jason Calacanis' podcast this week for the fourth time. We've had some explosive, illuminating, and contested conversations over the years, Jason and I. And I've loved everyone of them. Whether we were discussing venture capital, profitable businesses, and the definition of success or talking about big tech, education, healthcare, and wealth taxes. Having intense debates about big questions is a thrill. But this last one was different.\nPartly because we simply agreed more than we usually do, but also because the topics felt dangerous this time around. Like I ought to weigh my words carefully, lest I open a flank for later attacks. Like every argument ought to be hidden in an armored helmet from inside a protective trench.\nIn all my appearances on Jason's show over the past decade…",
+          "link": "https://world.hey.com/dhh/dangerous-conversations-going-private-db84b6b3",
+          "publishedOn": "2022-02-26T10:54:41.000Z",
+          "wordCount": 554,
+          "title": "Dangerous conversations going private",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
         {
           "id": "https://world.hey.com/dhh/russell-brand-is-grand-ce7bbe99",
           "author": null,
@@ -238,15 +238,6 @@
           "publishedOn": "2022-01-28T15:31:22.000Z",
           "wordCount": 651,
           "title": "Spotify must be afraid of canceling Rogan, right? Right?!"
-        },
-        {
-          "id": "https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3",
-          "author": null,
-          "description": "Social media platforms have been on relentless quest since their inception to remove all friction from all acts of engagement. The distance from emotion to reaction has been whittled away one A/B test at the time, and there's barely any left. You don't even have to portray any original sentiment today, just like or retweet that of someone else, and you'll be microdosing on that sweet rush of belonging.\nWe know it too! Celebrate it, even! Have you seen that new thing that just went viral? SAVAGE. Yes, this level of virulent spread is savage. Because it's literally been engineered in a lab to be so. All our natural human defenses have been studied by machines learning, and are now effectively and consistently evaded. No wonder this meta virus has taken over key parts of society.\nBut you know…",
-          "link": "https://world.hey.com/dhh/we-can-t-thrive-without-friction-6cb38fd3",
-          "publishedOn": "2022-01-28T12:06:50.000Z",
-          "wordCount": 1805,
-          "title": "We can't thrive without friction"
         }
       ]
     },
@@ -719,6 +710,26 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/spellblade-part-2-2022-02-26",
+          "author": null,
+          "description": "Posted on 2022-02-26",
+          "link": "https://christine.website/blog/spellblade-part-2-2022-02-26",
+          "publishedOn": "2022-02-26T00:00:00.000Z",
+          "wordCount": 1708,
+          "title": "Spellblade: Part 2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://christine.website/blog/postdrome-2022-02-26",
+          "author": null,
+          "description": "Posted on 2022-02-25",
+          "link": "https://christine.website/blog/postdrome-2022-02-26",
+          "publishedOn": "2022-02-25T00:00:00.000Z",
+          "wordCount": 826,
+          "title": "Postdrome",
+          "imageUrl": null
+        },
         {
           "id": "https://christine.website/blog/nix-flakes-1-2022-02-21",
           "author": null,
