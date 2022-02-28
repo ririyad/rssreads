@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-02-27T01:03:55.433Z</updated>
+    <updated>2022-02-28T01:02:31.186Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Nix Flakes: Packages and How to Use Them]]></title>
+        <id>https://christine.website/blog/nix-flakes-2-2022-02-27</id>
+        <link href="https://christine.website/blog/nix-flakes-2-2022-02-27"/>
+        <updated>2022-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-02-27]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Dangerous conversations going private]]></title>
         <id>https://world.hey.com/dhh/dangerous-conversations-going-private-db84b6b3</id>
@@ -3129,52 +3139,6 @@ Promoting or suggesting that the vaccines are designed to cause death
 
 
 What an impressively clear and concise policy! Focused primarily on the concrete "imminent threat" principle. Thus making it clear whether a violation ha…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reasons for servers to support IPv6]]></title>
-        <id>https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/</id>
-        <link href="https://jvns.ca/blog/2022/01/29/reasons-for-servers-to-support-ipv6/"/>
-        <updated>2022-01-29T07:44:38.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been having a hard time understanding IPv6. On one hand, the basics initially seem pretty
-straightforward (there aren’t enough IPv4 addresses for all the devices on the
-internet, so people invented IPv6! There are enough IPv6 addresses for
-everyone!)
-But when I try to actually understand it, I run into a lot of questions. One
-question is: twitter.com does not support IPv6. Presumably it can’t be causing
-them THAT many issues to not support it. So why do websites support IPv6?
-I asked people on Twitter why their servers support IPv6
-and I got a lot of great answers, which I’ll summarize here. These all come
-with the disclaimer that I have basically 0 experience with IPv6 so I can’t evaluate these reasons very well.
-First though, I want to explain why it’s possible for twitter.com to no…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No big deal or the end of the world?]]></title>
-        <id>https://world.hey.com/jason/no-big-deal-or-the-end-of-the-world-0b0d8619</id>
-        <link href="https://world.hey.com/jason/no-big-deal-or-the-end-of-the-world-0b0d8619"/>
-        <updated>2022-01-28T19:40:32.000Z</updated>
-        <summary type="html"><![CDATA[Here’s something that should be obvious: People don’t like to have their grievances downplayed or dismissed. When that happens, even the smallest irritations can turn into an obsessive crusade.
-Imagine you’re staying at a hotel, and the air conditioning isn’t working right. You call the front desk to mention it, and they say, oh yeah, they know about that, and someone is going to come fix that next week (after you’ve left). In the meantime, could you just open a window (down to that noisy, busy street)? Not a word of apology, no tone of contrition.
-Now what was a mild annoyance – that it’s 74F degrees when you like to sleep at 69F – is suddenly the end of the world! You swell with righteous fury, swear you’ll write a letter to management, and savage the hotel in your online review.
-Jean-Lo…]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spotify must be afraid of canceling Rogan, right? Right?!]]></title>
-        <id>https://world.hey.com/dhh/spotify-must-be-afraid-of-canceling-rogan-right-right-8fc9f1f6</id>
-        <link href="https://world.hey.com/dhh/spotify-must-be-afraid-of-canceling-rogan-right-right-8fc9f1f6"/>
-        <updated>2022-01-28T15:31:22.000Z</updated>
-        <summary type="html"><![CDATA[What's stood out most to me about the latest Rogan round over Neil Young's ultimatum is the iron-clad assumption that Spotify surely must – MUST! – agree with the underlying premise. That Rogan is a menace to society because he host guests with divergent views on covid, and because he shares his unsanctioned opinion on the matter. Therefore, the only reason they're not yanking him is fear. Fear of losing subscribers, money, marketshare, whatever. It can't possibly be due to a genuine disagreement with the menace-to-society charge.
-Jonathan Haidt talks about this in The Righteous Mind:
-
-Morality binds and blinds. It binds us into ideological teams that fight each other as though the fate of the world depended on our side winning each battle. It blinds us to the fact that each team is compos…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>
