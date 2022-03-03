@@ -2,10 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-02T01:06:25.198Z</updated>
+    <updated>2022-03-03T01:06:54.889Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: February 2022]]></title>
+        <id>https://github.blog/2022-03-02-github-availability-report-february-2022/</id>
+        <link href="https://github.blog/2022-03-02-github-availability-report-february-2022/"/>
+        <updated>2022-03-02T23:24:53.000Z</updated>
+        <summary type="html"><![CDATA[In February, we experienced one incident resulting in significant impact to multiple GitHub services.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Working in Plain Text with Notepad++]]></title>
+        <id>https://plaintextproject.online/articles/2022/03/02/npp.html</id>
+        <link href="https://plaintextproject.online/articles/2022/03/02/npp.html"/>
+        <updated>2022-03-02T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A look at a powerful and flexible text editor for Windows]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diversify your life]]></title>
+        <id>https://world.hey.com/dhh/diversify-your-life-d7fd8020</id>
+        <link href="https://world.hey.com/dhh/diversify-your-life-d7fd8020"/>
+        <updated>2022-03-02T08:11:37.000Z</updated>
+        <summary type="html"><![CDATA[If your existence is all about work, and work goes to shit, then life goes to shit too. If you live for your hobby, and your hobby hits the wall, then your life crashes too. If everything else is waiting until you hang with your mates, and your mates fade away, then you fade too. Betting your drive to get up in the morning on a single path will leave you completely stuck if that one road is blocked.
+Don't bet all your happiness and purpose on a single square. 
+It's fine to lean on one pillar or another at different times in your life, but you'd do well to make sure there's a few others holding up the roof if the first one crumbles. Yes, rock it out at work, but reserve some evenings and weekends for a hobby too. Sure, enjoy that tight-knit crew, but realize that life eventually changes for them some day as well.
+Diversification is resilience in action. It's having something in reserve. It's knowing that everyone, everywhere, doing anything, will eventually suffer setbacks, frustration, and despair. And planning for that by packing a bag with more than just hammers.
+It doesn't have to be 33/33/33, but you aren't prepared for the likely life if it's 90/5/5. And it won't help you that one in a hundred can hit glory for a while betting it all on 100/0/0. You'll only ever see their highlight reel, and you'll never see the other ninety-nine who crashed and burned.
+Diversify your life.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The other side of social media]]></title>
         <id>https://world.hey.com/dhh/the-other-side-of-social-media-da8c63e6</id>
@@ -3021,62 +3056,6 @@ But it's worth taking the effort not to know, and if you do, to forget. To avoid
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A toy DNS resolver]]></title>
-        <id>https://jvns.ca/blog/2022/02/01/a-dns-resolver-in-80-lines-of-go/</id>
-        <link href="https://jvns.ca/blog/2022/02/01/a-dns-resolver-in-80-lines-of-go/"/>
-        <updated>2022-02-01T09:15:14.000Z</updated>
-        <summary type="html"><![CDATA[Hello! I wrote a comic last week called “life of a DNS query” that explains how
-DNS resolvers work.
-In this post, I want to explain how DNS resolvers work in a different way –
-with a short Go program that does the same thing described in the comic.
-The main function (resolve) is actually just 20 lines, including comments.
-I usually find it easier to understand things work when they come in the form
-of programs that I can run and modify and poke at, so hopefully this program
-will be helpful to some of you.
-The program is here: https://github.com/jvns/tiny-resolver/blob/main/resolve.go
-what’s a DNS resolver?
-When your browser needs to make a DNS query, it asks a DNS resolvers. When
-they start, DNS resolvers don’t know any DNS records (except the IP addresses
-of the root nameservers). But the…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#11]]]></title>
-        <id>https://world.hey.com/jason/heard-something-read-something-saw-something-11-b27b098e</id>
-        <link href="https://world.hey.com/jason/heard-something-read-something-saw-something-11-b27b098e"/>
-        <updated>2022-02-01T00:06:39.000Z</updated>
-        <summary type="html"><![CDATA[Hey!
-Back again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...
-Heard Something
-While this is a video, it's really about sound. If you like cars, or simply dig physics, I bet you'll find this video (and audio) fascinating. I sure did. Why do engines sound they way they do? I was surprised by what I heard. 
-Hear it: https://www.youtube.com/watch?v=ygGmLbzuBU4
-Read Something
-While this is an article, it's the little looping video that blew my mind. Scientists at the University of Vermont, Tufts University and Harvard University's Wyss Institute for Biologically Inspired Engineering said they have discovered an entirely new form of biological reproduction different from any animal or plant known to science. Absolutely fascinating. 
-Read it: https://www.cnn.com/2021/11/29/americas/xenobots-self-replicating-robots-scn/index.html
-Saw Something
-This brief video on Dutch street design and safety hones in specifically on the concept of continuous sidewalks. I remember noticing this when we spent time in Amsterdam a few years back, and it struck me as absolutely obvious, yet completely foreign to my eyes. BTW, I can't wait to get back to Amsterdam — love that place. 
-See it: https://www.youtube.com/watch?v=9OfBpQgLXUc
-Until next time.
-
-
--Jason]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Approach Me With Scamcoin Jobs]]></title>
-        <id>https://christine.website/blog/scamcoin-jobs-2022-02-01</id>
-        <link href="https://christine.website/blog/scamcoin-jobs-2022-02-01"/>
-        <updated>2022-02-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-02-01]]></summary>
-        <author>
-            <name>Xe's Blog</name>
         </author>
     </entry>
 </feed>
