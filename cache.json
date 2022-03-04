@@ -61,6 +61,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/no-railsconf-faa7935e",
+          "author": null,
+          "description": "2021 was an incredible year for Ruby on Rails. We started it off still celebrating the third major version of Ruby, and left it with the accomplishment of the seventh major version of Rails. Together, these releases sparked a renewed enthusiasm for building modern web applications with Ruby on Rails, unlike anything I can recall since the late oughts. The moment was finally right, and we were right for the moment.\nI spent most of my time last year advancing the new vision of Rails on the frontend with a slew of projects. The biggest lift was getting the dream of a Node-free default Rails approach validated, solidified, and production ready. \nI worked to make that happen by creating importmap-rails, and by taking HEY to this new frontier as a confirmation that we'd crossed the chasm from vi…",
+          "link": "https://world.hey.com/dhh/no-railsconf-faa7935e",
+          "publishedOn": "2022-03-03T14:11:10.000Z",
+          "wordCount": 1516,
+          "title": "No RailsConf",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/diversify-your-life-d7fd8020",
           "author": null,
           "description": "If your existence is all about work, and work goes to shit, then life goes to shit too. If you live for your hobby, and your hobby hits the wall, then your life crashes too. If everything else is waiting until you hang with your mates, and your mates fade away, then you fade too. Betting your drive to get up in the morning on a single path will leave you completely stuck if that one road is blocked.\nDon't bet all your happiness and purpose on a single square. \nIt's fine to lean on one pillar or another at different times in your life, but you'd do well to make sure there's a few others holding up the roof if the first one crumbles. Yes, rock it out at work, but reserve some evenings and weekends for a hobby too. Sure, enjoy that tight-knit crew, but realize that life eventually changes for them some day as well.\nDiversification is resilience in action. It's having something in reserve. It's knowing that everyone, everywhere, doing anything, will eventually suffer setbacks, frustration, and despair. And planning for that by packing a bag with more than just hammers.\nIt doesn't have to be 33/33/33, but you aren't prepared for the likely life if it's 90/5/5. And it won't help you that one in a hundred can hit glory for a while betting it all on 100/0/0. You'll only ever see their highlight reel, and you'll never see the other ninety-nine who crashed and burned.\nDiversify your life.",
@@ -213,24 +223,6 @@
           "publishedOn": "2022-02-03T10:14:05.000Z",
           "wordCount": 306,
           "title": "The second-hand stress of social media"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0",
-          "author": null,
-          "description": "For Rogan's own sake, and for all of our sakes, I hope we'll soon move on from picking apart every facet of his popular podcast. But before we do, just one more thing. Really 😂\nIn this whole saga, I must admit to a guilty pleasure of chuckling at all the folks infuriated by the fact that Rogan commands such popularity from his off-the-cuff approach. Here's his own presentation of his style:\n\nThese podcasts are very strange because they’re just conversations. And oftentimes I have no idea what I’m going to talk about until I sit down and talk to people. And that’s why some of my ideas are not that prepared or fleshed out because I’m literally having them in real time, but I do my best and they’re just conversations, and I think that’s also the appeal of the show. It’s one of the things tha…",
-          "link": "https://world.hey.com/dhh/the-infuriating-ease-of-rogan-s-popularity-625e4cf0",
-          "publishedOn": "2022-02-02T10:34:43.000Z",
-          "wordCount": 394,
-          "title": "The infuriating ease of Rogan's popularity"
-        },
-        {
-          "id": "https://world.hey.com/dhh/work-unites-what-politics-divide-a43f8688",
-          "author": null,
-          "description": "Is there a more powerful, communal force than making stuff together? It pulls the shared humanity right out of people when they collaborate on making something greater than what they could make themselves. It intersects all the major sources of meaning by combining human connections, pursuits of mastery, and a shared purpose. It's quite literally a creative force.\nWhen you're focused on making, you focus on what people bring to the task, not what they believe, how they pray, or which political sect they belong to. You can avoid all these gaps simply by virtue of staying clear of them. Which in turn means that more people of more varied backgrounds are able to thrive together.\nThis is the wisdom of the Mark Twain's etiquette \"never [to] discuss politics or religion in polite company\". Specifically the point about \"polite company\". It's the politeness that oils the gears of collaboration.\nAll this used to be so much easier, because we never had to know. People's religious observance or political affinity could easily be a matter kept separate from the realms of collaboration. \nToday social media has spoiled that for millions. The cacophony of likes, follows, shares, and retweets betray many people's stances on the thorniest issues. It's often hard not to know someone's leanings or affinities if you connect on these nefarious networks.\nBut it's worth taking the effort not to know, and if you do, to forget. To avoid these traps of division, to chew on the bliss of ignorance. That's the choice of the creative force.",
-          "link": "https://world.hey.com/dhh/work-unites-what-politics-divide-a43f8688",
-          "publishedOn": "2022-02-02T08:14:47.000Z",
-          "wordCount": 293,
-          "title": "Work unites what politics divide"
         }
       ]
     },
@@ -362,15 +354,6 @@
           "publishedOn": "2022-02-02T15:21:00.000Z",
           "wordCount": 2728,
           "title": "Find out what infrastructure platform customers need"
-        },
-        {
-          "id": "https://martinfowler.com/articles/building-infrastructure-platform.html",
-          "author": null,
-          "description": "A lot of organizations are looking to improve the way their teams\n      build on top of clouds by assembling their own preferred set of cloud\n      components into an infrastructure platform. This allows product teams\n      work with a consistent and curated set of services, rather than having\n      to figure it out on their own. Poppy Rowse and\n      Chris Shepherd have worked with several of these teams\n      and put together some guidelines on how to do this successfully. They\n      begin by outlining how to create a strategy for such a platform.\nmore…",
-          "link": "https://martinfowler.com/articles/building-infrastructure-platform.html",
-          "publishedOn": "2022-02-01T14:52:00.000Z",
-          "wordCount": 1595,
-          "title": "Building Infrastructure Platforms"
         }
       ]
     },
@@ -606,15 +589,6 @@
           "publishedOn": "2022-02-03T00:00:24.000Z",
           "wordCount": 319,
           "title": "GitHub Availability Report: January 2022"
-        },
-        {
-          "id": "https://github.blog/2022-02-01-code-scanning-and-ruby-turning-source-code-into-a-queryable-database/",
-          "author": null,
-          "description": "A deep dive into how GitHub adds support for new languages to CodeQL.",
-          "link": "https://github.blog/2022-02-01-code-scanning-and-ruby-turning-source-code-into-a-queryable-database/",
-          "publishedOn": "2022-02-01T17:07:01.000Z",
-          "wordCount": 3134,
-          "title": "Code scanning and Ruby: turning source code into a queryable database"
         }
       ]
     },
@@ -641,15 +615,6 @@
           "publishedOn": "2022-02-08T08:09:00.000Z",
           "wordCount": 1471,
           "title": "Researchers’ role in diversity, equity, and inclusion"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/2/announcing-the-recipients-of-the-2022-meta-phd-research-fellowship/",
-          "author": null,
-          "description": "",
-          "link": "https://research.facebook.com/blog/2022/2/announcing-the-recipients-of-the-2022-meta-phd-research-fellowship/",
-          "publishedOn": "2022-02-02T11:31:00.000Z",
-          "wordCount": 917,
-          "title": "Announcing the recipients of the 2022 Meta PhD Research Fellowship"
         }
       ]
     },
@@ -687,6 +652,16 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/new-language-blog-backend-2022-03-02",
+          "author": null,
+          "description": "Posted on 2022-03-02",
+          "link": "https://christine.website/blog/new-language-blog-backend-2022-03-02",
+          "publishedOn": "2022-03-02T00:00:00.000Z",
+          "wordCount": 1489,
+          "title": "Want to Learn a New Language? Write a Blog Backend!",
+          "imageUrl": null
+        },
         {
           "id": "https://christine.website/blog/nix-flakes-2-2022-02-27",
           "author": null,
