@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-05T01:05:28.649Z</updated>
+    <updated>2022-03-06T01:03:42.682Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Video: C Programming on System 6 - Talking to the Modem]]></title>
+        <id>https://jcs.org/2022/03/05/serial</id>
+        <link href="https://jcs.org/2022/03/05/serial"/>
+        <updated>2022-03-05T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Starting work on adding a serial module to join the console and telnet inputs, to allow calls through a modem. I got stuck for a while trying to figure out why writes to the serial port would hang the machine.]]></summary>
+        <author>
+            <name>joshua stein</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Reframing it]]></title>
         <id>https://world.hey.com/jason/reframing-it-0aa9ef7e</id>
@@ -245,6 +255,16 @@ Inline assembly
 The Rust langu…]]></summary>
         <author>
             <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Four Links - February 23, 2022]]></title>
+        <id>https://plaintextproject.online/articles/2022/02/23/links.html</id>
+        <link href="https://plaintextproject.online/articles/2022/02/23/links.html"/>
+        <updated>2022-02-23T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Four links, focusing on Markdown]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
         </author>
     </entry>
     <entry>
