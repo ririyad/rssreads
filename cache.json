@@ -61,6 +61,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-long-argument-92458868",
+          "author": null,
+          "description": "It's rare that an argument is so strong that'll immediately pierce through all the cognitive defenses an opposing mind might muster. So if you only weigh an argument's worth on whether it served to convert someone to your perspective this instant, you'll usually be disappointed. \"Right now, right here\" is a bad timeframe to measure the success of your arguments on. There's a long tail of conversion.\nBecause even when the best arguments fail to breach the mental walls, they often leave cracks. Cracks which time, new observations, and deeper consideration can open. Until the walls finally crumble, and a perspective is let in.\nThis might happen five minutes after the debate is over, two weeks later, or even a couple of years from now. Some arguments cause cracks that can take a decade or more…",
+          "link": "https://world.hey.com/dhh/the-long-argument-92458868",
+          "publishedOn": "2022-03-07T08:53:55.000Z",
+          "wordCount": 402,
+          "title": "The long argument",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/weak-principles-strong-tribes-fead41e9",
           "author": null,
           "description": "One of the most compelling metaphors of the battle between emotion and reason is that of the elephant and the rider. I first encountered it in Jonathan Haidt's book The Righteous Mind. It goes like this:\n\nThe mind is divided, like a rider on an elephant, and the rider’s job is to serve the elephant. The rider is our conscious reasoning—the stream of words and images of which we are fully aware. The elephant is the other 99 percent of mental processes—the ones that occur outside of awareness but that actually govern most of our behavior.\n\nIt's the same underlying premise to Julia Galaef's book The Scout Mindset. We launder our arguments and reasoning through the tribal wash. Which is made easier by the fact that many valiant principles are in opposition to each other, and that you can often…",
@@ -206,15 +216,6 @@
           "publishedOn": "2022-02-09T14:16:32.000Z",
           "wordCount": 796,
           "title": "Go truck yourself"
-        },
-        {
-          "id": "https://world.hey.com/dhh/how-to-mint-a-crypto-fan-b482ede2",
-          "author": null,
-          "description": "You couldn’t have planned a better advertising campaign for crypto than Gofundme’s ham-fisted cancelation of donations intended for the protesting Canadian truckers. Their first attempt would literally have re-routed donations for the truckers to “other charities”. That sounded so crazy when I first read it that I had to dig up multiple confirming sources to believe it to be true. But true enough it was!\n\n\nThankfully, this original plan was revised after Gofundme got some “donor feedback”, including from the likes of Elon Musk (what a timeline we’re living in!). The new plan will “just” block the donations from reaching their intended recipients, and result in refunds 7-10 days(!!) from now. What a conveniently long time to keep $10 million locked up, and unable to support the protesting t…",
-          "link": "https://world.hey.com/dhh/how-to-mint-a-crypto-fan-b482ede2",
-          "publishedOn": "2022-02-05T16:59:34.000Z",
-          "wordCount": 592,
-          "title": "How to mint a crypto fan"
         }
       ]
     },
@@ -500,15 +501,6 @@
           "publishedOn": "2022-02-08T22:33:46.000Z",
           "wordCount": 343,
           "title": "Balance"
-        },
-        {
-          "id": "https://world.hey.com/jorge/my-macos-essentials-10f08f65",
-          "author": null,
-          "description": "Just because the world is short of lists of favorite apps, here is mine:\nTask Paper for todos\nI used to have a thing for todo apps. I have tried them all and even tried to build my own. I switched to Task Paper years ago and have stuck to it since then. The truth is that my relationship with todos has changed significantly over the years. These days I only track a short list of things usually related to what I'm currently working on, and Task Paper is perfect for this.\nIn Task Paper, you feel like you are freely editing a text document with a thin layer of todo-related niceties. This looks simple but balancing both aspects successfully is not easy at all. Try to deal with todos in any note-taking app and then switch to Task Paper to see the difference.\nCraft for note taking\nI love writing …",
-          "link": "https://world.hey.com/jorge/my-macos-essentials-10f08f65",
-          "publishedOn": "2022-02-05T22:26:40.000Z",
-          "wordCount": 587,
-          "title": "My MacOS essentials"
         }
       ]
     },
@@ -614,6 +606,16 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2022/03/07/",
+          "author": null,
+          "description": "Wordle is all the rage, resulting in an explosion of hobbyist clones,\nwith new ones appearing every day. At the current rate I estimate by the\nend of 2022 that 99% of all new software releases will be Wordle clones.\nThat’s no surprise since the rules are simple, it’s more fun to implement\nand study than to actually play, and the hard part is building a decent\nuser interface. Such implementations go back at least 30 years.\nImplementers get to decide on a platform, language, and the particular\nsubject of this article: how to handle the word list. Is it a separate\nfile/database or embedded in the program? If embedded, is it\nworth compressing? In this article I’ll present a simple, tailored Wordle\nlist compression strategy that beats general purpose compressors.\nLast week one particular QuickB…",
+          "link": "https://nullprogram.com/blog/2022/03/07/",
+          "publishedOn": "2022-03-07T03:22:41.000Z",
+          "wordCount": 3080,
+          "title": "Compressing and embedding a Wordle word list",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2022/02/18/",
           "author": null,
           "description": "I’ve been experimenting again lately with writing software without a\nruntime aside from the operating system itself, both on Linux and\nWindows. Another way to look at it: I write and embed a bespoke, minimal\nruntime within the application. One of the runtime’s core jobs is\nretrieving command line arguments from the operating system. On Windows\nthis is a deeper rabbit hole than I expected, and far more complex than I\nrealized. There is no standard, and every runtime does it a little\ndifferently. Five different applications may see five different sets of\narguments — even different argument counts — from the same input, and this\nis before any sort of option parsing. It’s truly a modern day Tower of\nBabel: “Confound their command line parsing, that they may not understand\none another’s argumen…",
@@ -698,15 +700,6 @@
           "publishedOn": "2022-02-10T00:00:00.000Z",
           "wordCount": 1943,
           "title": "GNU Doesn't Care About Your Agency"
-        },
-        {
-          "id": "https://christine.website/blog/waifud-progress-2022-02-06",
-          "author": null,
-          "description": "Posted on 2022-02-06",
-          "link": "https://christine.website/blog/waifud-progress-2022-02-06",
-          "publishedOn": "2022-02-06T00:00:00.000Z",
-          "wordCount": 1863,
-          "title": "waifud Progress Report #1"
         }
       ]
     },
