@@ -2,10 +2,69 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-08T01:03:16.367Z</updated>
+    <updated>2022-03-09T01:08:12.264Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bottlenecks of Scaleups: How did you get tech debt?]]></title>
+        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html</id>
+        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html"/>
+        <updated>2022-03-08T14:40:00.000Z</updated>
+        <summary type="html"><![CDATA[In its early days, a startup searches for a good product-market fit.
+      When it finds one it looks to grow rapidly, a phase known as a scaleup. At
+      this time it's growing rapidly along many dimensions: revenues, customer,
+      headcount. At Thoughtworks, we've worked with many such scaleups, and our
+      work has focused on how to help them overcome various bottlenecks that
+      impede this growth. As we've done this work, my colleagues have noticed common
+      bottlenecks, and learned approaches to deal with them. 
+This article, by Tim Cochran and Carl
+      Nygard, is the first in a series that examines these bottlenecks,
+      in this case looking at the problem of a startup accumulating
+      technical debt. This bottleneck is a common one, and like most
+      bottlenecks it isn't necessarily due to bad work so far, but more due to
+      the change of context that rapid growth imposes on a company. We begin the
+      article by explaining how this bottleneck appears and what the key signs
+      are the bottleneck is slowing progress.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The antidote to social media is being more social]]></title>
+        <id>https://world.hey.com/dhh/the-antidote-to-social-media-is-being-more-social-983eac16</id>
+        <link href="https://world.hey.com/dhh/the-antidote-to-social-media-is-being-more-social-983eac16"/>
+        <updated>2022-03-08T10:49:45.000Z</updated>
+        <summary type="html"><![CDATA[I'm usually not one for coffee appointments or long business lunches, but since the pandemic restrictions were once again nixed a few months ago in Denmark, I've had the calendar packed with exactly such engagements. It's been a revelation.
+Part of this came as a result of giving an interview to the Danish magazine Computerworld about getting involved in the local startup scene. Some of it from getting on LinkedIn. But just as much came from simply flipping my default from no/later to yes/now when old friends and acquaintances from the industry reached out.
+The first revelation was that no matter how introvert you are, spending time face-to-face with others after prolonged periods of isolation is nourishing in a profound and human way (even if it's also exhausting). And our family weren't …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security advisory for the regex crate (CVE-2022-24713)]]></title>
+        <id>https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html</id>
+        <link href="https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html"/>
+        <updated>2022-03-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a cross-post of the official security advisory. The
+official advisory contains a signed version with our PGP key, as well.
+The Rust Security Response WG was notified that the regex crate did not
+properly limit the complexity of the regular expressions (regex) it parses. An
+attacker could use this security issue to perform a denial of service, by
+sending a specially crafted regex to a service accepting untrusted regexes. No
+known vulnerability is present when parsing untrusted input with trusted
+regexes.
+This issue has been assigned CVE-2022-24713. The severity of this vulnerability
+is "high" when the regex crate is used to parse untrusted regexes. Other uses
+of the regex crate are not affected by this vulnerability.
+Overview
+The regex crate features built-in mitigations to prevent …]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The long argument]]></title>
         <id>https://world.hey.com/dhh/the-long-argument-92458868</id>
@@ -37,6 +96,16 @@ list compression strategy that beats general purpose compressors.
 Last week one particular QuickB…]]></summary>
         <author>
             <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pokémon Legends Arceus Review]]></title>
+        <id>https://christine.website/blog/pokemon-legends-arceus-review-2022-03-07</id>
+        <link href="https://christine.website/blog/pokemon-legends-arceus-review-2022-03-07"/>
+        <updated>2022-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-03-07]]></summary>
+        <author>
+            <name>Xe's Blog</name>
         </author>
     </entry>
     <entry>
@@ -2949,16 +3018,6 @@ more…]]></summary>
 The pdf of this article is here, but if you’re wish to share a link, please link to this page instead, as that pdf link may not be stable and this page allows us to more easily enhance this resource later.]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wallops 1.0 Released]]></title>
-        <id>https://jcs.org/2022/02/07/wallops</id>
-        <link href="https://jcs.org/2022/02/07/wallops"/>
-        <updated>2022-02-07T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As teased on Twitter, the first release of my Wallops IRC client is now available:]]></summary>
-        <author>
-            <name>joshua stein</name>
         </author>
     </entry>
 </feed>

@@ -61,6 +61,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-antidote-to-social-media-is-being-more-social-983eac16",
+          "author": null,
+          "description": "I'm usually not one for coffee appointments or long business lunches, but since the pandemic restrictions were once again nixed a few months ago in Denmark, I've had the calendar packed with exactly such engagements. It's been a revelation.\nPart of this came as a result of giving an interview to the Danish magazine Computerworld about getting involved in the local startup scene. Some of it from getting on LinkedIn. But just as much came from simply flipping my default from no/later to yes/now when old friends and acquaintances from the industry reached out.\nThe first revelation was that no matter how introvert you are, spending time face-to-face with others after prolonged periods of isolation is nourishing in a profound and human way (even if it's also exhausting). And our family weren't …",
+          "link": "https://world.hey.com/dhh/the-antidote-to-social-media-is-being-more-social-983eac16",
+          "publishedOn": "2022-03-08T10:49:45.000Z",
+          "wordCount": 715,
+          "title": "The antidote to social media is being more social",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-long-argument-92458868",
           "author": null,
           "description": "It's rare that an argument is so strong that'll immediately pierce through all the cognitive defenses an opposing mind might muster. So if you only weigh an argument's worth on whether it served to convert someone to your perspective this instant, you'll usually be disappointed. \"Right now, right here\" is a bad timeframe to measure the success of your arguments on. There's a long tail of conversion.\nBecause even when the best arguments fail to breach the mental walls, they often leave cracks. Cracks which time, new observations, and deeper consideration can open. Until the walls finally crumble, and a perspective is let in.\nThis might happen five minutes after the debate is over, two weeks later, or even a couple of years from now. Some arguments cause cracks that can take a decade or more…",
@@ -314,6 +324,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html",
+          "author": null,
+          "description": "In its early days, a startup searches for a good product-market fit.\n      When it finds one it looks to grow rapidly, a phase known as a scaleup. At\n      this time it's growing rapidly along many dimensions: revenues, customer,\n      headcount. At Thoughtworks, we've worked with many such scaleups, and our\n      work has focused on how to help them overcome various bottlenecks that\n      impede this growth. As we've done this work, my colleagues have noticed common\n      bottlenecks, and learned approaches to deal with them. \nThis article, by Tim Cochran and Carl\n      Nygard, is the first in a series that examines these bottlenecks,\n      in this case looking at the problem of a startup accumulating\n      technical debt. This bottleneck is a common one, and like most\n      bottlenecks it isn't necessarily due to bad work so far, but more due to\n      the change of context that rapid growth imposes on a company. We begin the\n      article by explaining how this bottleneck appears and what the key signs\n      are the bottleneck is slowing progress.\nmore…",
+          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html",
+          "publishedOn": "2022-03-08T14:40:00.000Z",
+          "wordCount": 2477,
+          "title": "Bottlenecks of Scaleups: How did you get tech debt?",
+          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/building-infrastructure-platform.html##Donx2019tOver-complicateThings",
           "author": null,
           "description": "Poppy Rowse and\n      Chris Shepherd complete their article on infrastructure\n      platforms with a warning on over-complicating a platform and a section\n      on how to use the Four Key Metrics to assess a platform's success.\n      \nmore…",
@@ -370,6 +390,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html",
+          "author": null,
+          "description": "This is a cross-post of the official security advisory. The\nofficial advisory contains a signed version with our PGP key, as well.\nThe Rust Security Response WG was notified that the regex crate did not\nproperly limit the complexity of the regular expressions (regex) it parses. An\nattacker could use this security issue to perform a denial of service, by\nsending a specially crafted regex to a service accepting untrusted regexes. No\nknown vulnerability is present when parsing untrusted input with trusted\nregexes.\nThis issue has been assigned CVE-2022-24713. The severity of this vulnerability\nis \"high\" when the regex crate is used to parse untrusted regexes. Other uses\nof the regex crate are not affected by this vulnerability.\nOverview\nThe regex crate features built-in mitigations to prevent …",
+          "link": "https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html",
+          "publishedOn": "2022-03-08T00:00:00.000Z",
+          "wordCount": 423,
+          "title": "Security advisory for the regex crate (CVE-2022-24713)",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html",
           "author": null,
@@ -633,6 +663,16 @@
       "siteUrl": "https://christine.website/blog",
       "articles": [
         {
+          "id": "https://christine.website/blog/pokemon-legends-arceus-review-2022-03-07",
+          "author": null,
+          "description": "Posted on 2022-03-07",
+          "link": "https://christine.website/blog/pokemon-legends-arceus-review-2022-03-07",
+          "publishedOn": "2022-03-07T00:00:00.000Z",
+          "wordCount": 3196,
+          "title": "Pokémon Legends Arceus Review",
+          "imageUrl": null
+        },
+        {
           "id": "https://christine.website/blog/new-language-blog-backend-2022-03-02",
           "author": null,
           "description": "Posted on 2022-03-02",
@@ -815,15 +855,6 @@
           "publishedOn": "2022-02-10T06:00:00.000Z",
           "wordCount": 250,
           "title": "Wallops 1.1 Released"
-        },
-        {
-          "id": "https://jcs.org/2022/02/07/wallops",
-          "author": null,
-          "description": "As teased on Twitter, the first release of my Wallops IRC client is now available:",
-          "link": "https://jcs.org/2022/02/07/wallops",
-          "publishedOn": "2022-02-07T06:00:00.000Z",
-          "wordCount": 100,
-          "title": "Wallops 1.0 Released"
         }
       ]
     },
