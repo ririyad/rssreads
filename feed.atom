@@ -2,10 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-09T01:08:12.264Z</updated>
+    <updated>2022-03-10T01:09:39.110Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How to get out of the tech debt bottleneck]]></title>
+        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html#exit</id>
+        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html#exit"/>
+        <updated>2022-03-09T16:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Tim Cochran and Carl
+      Nygard finish their examination of the tech debt bottleneck by
+      looking at how to get out of it. This includes close collaboration betwen
+      product and engineering, a strategy for the four phases of a startup's
+      journey, and empowering teams to fix the tech debt problems.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You could be wrong]]></title>
+        <id>https://world.hey.com/dhh/you-could-be-wrong-f122be59</id>
+        <link href="https://world.hey.com/dhh/you-could-be-wrong-f122be59"/>
+        <updated>2022-03-09T15:00:14.000Z</updated>
+        <summary type="html"><![CDATA[We recorded an episode for the REWORK podcast yesterday on the essay "Making the Call is Making Progress", which encourages training those decision-making muscles to be stronger so you can forward quicker. It included a discussion of lowering the price of making decisions by setting yourself up for cheap reversals. If making a bad call isn't ruinous, you won't be so afraid of making one in the face of incomplete information (upon which all decisions are ultimately made to some degree). What if the same holds true for opinions?
+I think one of the reasons my post on being wrong about crypto took off to such an extraordinary degree (the tweet was seen five million times; it was the most read thing ever posted to HEY World) was exactly because it seemed like a very expensive reversal. I had sp…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lang team March update]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html"/>
+        <updated>2022-03-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[wo weeks ago, the lang team held its March planning meeting (minutes). We hold these meetings on the first Wednesday of every month and we use them to schedule design meetings for the remainder of the month.
+Upcoming design meetings
+We have planned the following design meetings:
+March 9: Draft lang team roadmap (this already happened! minutes)
+March 16: Backlog bonanza
+March 23: Return Position Impl Trait in Dyn Trait (RPITIDT) lang-team#144
+March 30: Lint policy lang-team#132
+Design meeting expectations
+The document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.
+
+If it is not sent out by then, the meeting will be canceled. This gives folks 24 hour notice.
+There is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.
+
+However, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bottlenecks of Scaleups: How did you get tech debt?]]></title>
         <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html</id>
@@ -41,6 +90,29 @@ Part of this came as a result of giving an interview to the Danish magazine Comp
 The first revelation was that no matter how introvert you are, spending time face-to-face with others after prolonged periods of isolation is nourishing in a profound and human way (even if it's also exhausting). And our family weren't …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some tiny personal programs I've written]]></title>
+        <id>https://jvns.ca/blog/2022/03/08/tiny-programs/</id>
+        <link href="https://jvns.ca/blog/2022/03/08/tiny-programs/"/>
+        <updated>2022-03-08T08:35:56.000Z</updated>
+        <summary type="html"><![CDATA[I was talking to a friend last summer about what resources might be helpful for
+folks learning to program. My friend said they thought some people might
+benefit from a list of small and fun programming projects – the kind of thing
+you can do in an evening or weekend.
+So let’s talk about that! I like to write small programs that have some
+marginal utility in my life. Kind of like this:
+ah! A minor problem in my life!
+I know, I bet I can solve this problem with CODE. YAY.
+4 hours of happy programming ensues
+This isn’t always the most practical (many of the problems I’ve
+solved with programming could have been solved in less time in other ways), but
+as long as your goal is actually to have fun programming and your programs
+don’t hurt anyone else, I think this is a great approach :)
+So here ar…]]></summary>
+        <author>
+            <name>Julia Evans</name>
         </author>
     </entry>
     <entry>
@@ -2995,27 +3067,6 @@ Photo by Jon Flobrant on Unsplash]]></summary>
         looks how to communicate the technical vision of platform
         and how to understand the platform from the users' point of view.
 more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers’ role in diversity, equity, and inclusion]]></title>
-        <id>https://medium.com/meta-research/researchers-role-in-diversity-equity-and-inclusion-e9034025c9fd</id>
-        <link href="https://medium.com/meta-research/researchers-role-in-diversity-equity-and-inclusion-e9034025c9fd"/>
-        <updated>2022-02-08T08:09:00.000Z</updated>
-        <summary type="html"><![CDATA[How researchers can help ensure that DEI leads to product changes that truly serve people in marginalized communities.]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Humble Dialog Box]]></title>
-        <id>https://martinfowler.com/articles/humble-dialog-box.html</id>
-        <link href="https://martinfowler.com/articles/humble-dialog-box.html"/>
-        <updated>2022-02-07T14:59:00.000Z</updated>
-        <summary type="html"><![CDATA[A 2002 article by Michael Feathers. This article introduced the idea of dealing with a hard-to-test GUI behavior by minimizing the behavior within the GUI element, moving as much as possible to a separate object that’s easier to test. This idea was generalized into the Humble Object pattern.
-The pdf of this article is here, but if you’re wish to share a link, please link to this page instead, as that pdf link may not be stable and this page allows us to more easily enhance this resource later.]]></summary>
         <author>
             <name>Martin Fowler</name>
         </author>

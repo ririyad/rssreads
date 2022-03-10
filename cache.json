@@ -61,6 +61,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/you-could-be-wrong-f122be59",
+          "author": null,
+          "description": "We recorded an episode for the REWORK podcast yesterday on the essay \"Making the Call is Making Progress\", which encourages training those decision-making muscles to be stronger so you can forward quicker. It included a discussion of lowering the price of making decisions by setting yourself up for cheap reversals. If making a bad call isn't ruinous, you won't be so afraid of making one in the face of incomplete information (upon which all decisions are ultimately made to some degree). What if the same holds true for opinions?\nI think one of the reasons my post on being wrong about crypto took off to such an extraordinary degree (the tweet was seen five million times; it was the most read thing ever posted to HEY World) was exactly because it seemed like a very expensive reversal. I had sp…",
+          "link": "https://world.hey.com/dhh/you-could-be-wrong-f122be59",
+          "publishedOn": "2022-03-09T15:00:14.000Z",
+          "wordCount": 564,
+          "title": "You could be wrong",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-antidote-to-social-media-is-being-more-social-983eac16",
           "author": null,
           "description": "I'm usually not one for coffee appointments or long business lunches, but since the pandemic restrictions were once again nixed a few months ago in Denmark, I've had the calendar packed with exactly such engagements. It's been a revelation.\nPart of this came as a result of giving an interview to the Danish magazine Computerworld about getting involved in the local startup scene. Some of it from getting on LinkedIn. But just as much came from simply flipping my default from no/later to yes/now when old friends and acquaintances from the industry reached out.\nThe first revelation was that no matter how introvert you are, spending time face-to-face with others after prolonged periods of isolation is nourishing in a profound and human way (even if it's also exhausting). And our family weren't …",
@@ -324,6 +334,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html#exit",
+          "author": null,
+          "description": "Tim Cochran and Carl\n      Nygard finish their examination of the tech debt bottleneck by\n      looking at how to get out of it. This includes close collaboration betwen\n      product and engineering, a strategy for the four phases of a startup's\n      journey, and empowering teams to fix the tech debt problems.\nmore…",
+          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html#exit",
+          "publishedOn": "2022-03-09T16:03:00.000Z",
+          "wordCount": 4023,
+          "title": "How to get out of the tech debt bottleneck",
+          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html",
           "author": null,
           "description": "In its early days, a startup searches for a good product-market fit.\n      When it finds one it looks to grow rapidly, a phase known as a scaleup. At\n      this time it's growing rapidly along many dimensions: revenues, customer,\n      headcount. At Thoughtworks, we've worked with many such scaleups, and our\n      work has focused on how to help them overcome various bottlenecks that\n      impede this growth. As we've done this work, my colleagues have noticed common\n      bottlenecks, and learned approaches to deal with them. \nThis article, by Tim Cochran and Carl\n      Nygard, is the first in a series that examines these bottlenecks,\n      in this case looking at the problem of a startup accumulating\n      technical debt. This bottleneck is a common one, and like most\n      bottlenecks it isn't necessarily due to bad work so far, but more due to\n      the change of context that rapid growth imposes on a company. We begin the\n      article by explaining how this bottleneck appears and what the key signs\n      are the bottleneck is slowing progress.\nmore…",
@@ -350,15 +370,6 @@
           "publishedOn": "2022-02-08T14:31:00.000Z",
           "wordCount": 4298,
           "title": "Communicating the technical vision of an infrastructure platform"
-        },
-        {
-          "id": "https://martinfowler.com/articles/humble-dialog-box.html",
-          "author": null,
-          "description": "A 2002 article by Michael Feathers. This article introduced the idea of dealing with a hard-to-test GUI behavior by minimizing the behavior within the GUI element, moving as much as possible to a separate object that’s easier to test. This idea was generalized into the Humble Object pattern.\nThe pdf of this article is here, but if you’re wish to share a link, please link to this page instead, as that pdf link may not be stable and this page allows us to more easily enhance this resource later.",
-          "link": "https://martinfowler.com/articles/humble-dialog-box.html",
-          "publishedOn": "2022-02-07T14:59:00.000Z",
-          "wordCount": 173,
-          "title": "The Humble Dialog Box"
         }
       ]
     },
@@ -447,6 +458,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html",
+          "author": null,
+          "description": "wo weeks ago, the lang team held its March planning meeting (minutes). We hold these meetings on the first Wednesday of every month and we use them to schedule design meetings for the remainder of the month.\nUpcoming design meetings\nWe have planned the following design meetings:\nMarch 9: Draft lang team roadmap (this already happened! minutes)\nMarch 16: Backlog bonanza\nMarch 23: Return Position Impl Trait in Dyn Trait (RPITIDT) lang-team#144\nMarch 30: Lint policy lang-team#132\nDesign meeting expectations\nThe document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.\n\nIf it is not sent out by then, the meeting will be canceled. This gives folks 24 hour notice.\nThere is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.\n\nHowever, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html",
+          "publishedOn": "2022-03-09T00:00:00.000Z",
+          "wordCount": 242,
+          "title": "Lang team March update",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html",
           "author": null,
@@ -595,15 +616,6 @@
           "wordCount": 1067,
           "title": "Engineering Director Sriram Sankar discusses Meta’s first research award opportunity in silent data corruptions at scale",
           "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.8562-6/273984190_316452863845166_5097367070454004221_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=6825c5&_nc_ohc=f-f-OsIj-p4AX9mgwhc&_nc_ht=scontent-iad3-2.xx&oh=00_AT-TCInrr5mPwW2KkI8cJxQJP2CRLLk0_jMzWL9rC2PebA&oe=620F896E"
-        },
-        {
-          "id": "https://medium.com/meta-research/researchers-role-in-diversity-equity-and-inclusion-e9034025c9fd",
-          "author": null,
-          "description": "How researchers can help ensure that DEI leads to product changes that truly serve people in marginalized communities.",
-          "link": "https://medium.com/meta-research/researchers-role-in-diversity-equity-and-inclusion-e9034025c9fd",
-          "publishedOn": "2022-02-08T08:09:00.000Z",
-          "wordCount": 1471,
-          "title": "Researchers’ role in diversity, equity, and inclusion"
         }
       ]
     },
@@ -774,6 +786,16 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/03/08/tiny-programs/",
+          "author": null,
+          "description": "I was talking to a friend last summer about what resources might be helpful for\nfolks learning to program. My friend said they thought some people might\nbenefit from a list of small and fun programming projects – the kind of thing\nyou can do in an evening or weekend.\nSo let’s talk about that! I like to write small programs that have some\nmarginal utility in my life. Kind of like this:\nah! A minor problem in my life!\nI know, I bet I can solve this problem with CODE. YAY.\n4 hours of happy programming ensues\nThis isn’t always the most practical (many of the problems I’ve\nsolved with programming could have been solved in less time in other ways), but\nas long as your goal is actually to have fun programming and your programs\ndon’t hurt anyone else, I think this is a great approach :)\nSo here ar…",
+          "link": "https://jvns.ca/blog/2022/03/08/tiny-programs/",
+          "publishedOn": "2022-03-08T08:35:56.000Z",
+          "wordCount": 1129,
+          "title": "Some tiny personal programs I've written",
+          "imageUrl": null
+        },
         {
           "id": "https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/",
           "author": null,
