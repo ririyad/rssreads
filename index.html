@@ -22,11 +22,108 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-03-13 datetime="2022-03-13T01:02:21.700Z">2022-03-13</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-03-13 datetime="2022-03-13T01:02:21.700Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-03-13 datetime="2022-03-13T23:55:08.000Z">2022-03-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-03-13 datetime="2022-03-13T23:55:08.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2022/03/13/"
+                        open
+                      >
+                        <summary class="article-expander__title">A flexible, lightweight, spin-lock barrier</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2022/03/13/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>The other day I wanted try the famous memory reordering experiment
+for myself. It’s the double-slit experiment of concurrency, where a
+program can observe an “impossible” result on common hardware, as
+though a thread had time-traveled. While getting thread timing as tight as
+possible, I designed a possibly-novel thread barrier. It’s purely
+spin-locked, the entire footprint is a zero-initialized integer, it
+automatically resets, it can be used across processes, and the entire
+implementation is just three to four lines of code.
+Here’s the entire barrier implementation for two threads in C11.
+
+// Spin-lock barrier for two threads. Initialize *barrier to zero.
+void barrier_wait(_Atomic uint32_t *barrier)
+{
+    uint32_t v &#x3D; ++*barrier;
+    if (v &amp; 1) {
+        for (v &amp;&#x3D; 2; (*barrier&amp;2) &#x3D;&#x3D; v;);
+…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Julia Evans</button>
+                  <a class="source-heading__link" href="http://jvns.ca/atom.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/"
+                        open
+                      >
+                        <summary class="article-expander__title">Celebrate tiny learning milestones</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Hello! Today I want to talk about – how do you know you’re getting better at programming?
+One obvious approach is:
+make goals
+periodically check if you achieved those goals
+if you did, celebrate
+I kind of hate goals
+Goals can be useful, but a lot of the time I actually find them stressful and
+not that helpful. For example, here are a few goals I wrote down for myself 9
+years ago:
+write a nontrivial amount of C code that works and is used by actual people
+contribute to an open source project in C
+learn C++
+9 years later, I have done 0 of those things. With the “goal” framing, it’s to
+think of this as a bad thing! Like, I wanted to learn C++ and I didn’t! I still
+can’t write C comfortably! Oh no! I guess I failed!
+I find this framing depressing and unhelpful. In reality, I didn’t have any re…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -7389,8 +7486,8 @@ I always read these critics intrigued about the premise, which looks promising. 
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/1974925820">
-        <time id="build-timestamp" datetime="2022-03-13T01:03:04.667Z">2022-03-13T01:03:04.667Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/1978082525">
+        <time id="build-timestamp" datetime="2022-03-14T01:06:14.944Z">2022-03-14T01:06:14.944Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>

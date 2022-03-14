@@ -646,6 +646,16 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2022/03/13/",
+          "author": null,
+          "description": "The other day I wanted try the famous memory reordering experiment\nfor myself. It’s the double-slit experiment of concurrency, where a\nprogram can observe an “impossible” result on common hardware, as\nthough a thread had time-traveled. While getting thread timing as tight as\npossible, I designed a possibly-novel thread barrier. It’s purely\nspin-locked, the entire footprint is a zero-initialized integer, it\nautomatically resets, it can be used across processes, and the entire\nimplementation is just three to four lines of code.\nHere’s the entire barrier implementation for two threads in C11.\n\n// Spin-lock barrier for two threads. Initialize *barrier to zero.\nvoid barrier_wait(_Atomic uint32_t *barrier)\n{\n    uint32_t v = ++*barrier;\n    if (v & 1) {\n        for (v &= 2; (*barrier&2) == v;);\n…",
+          "link": "https://nullprogram.com/blog/2022/03/13/",
+          "publishedOn": "2022-03-13T23:55:08.000Z",
+          "wordCount": 1896,
+          "title": "A flexible, lightweight, spin-lock barrier",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2022/03/07/",
           "author": null,
           "description": "Wordle is all the rage, resulting in an explosion of hobbyist clones,\nwith new ones appearing every day. At the current rate I estimate by the\nend of 2022 that 99% of all new software releases will be Wordle clones.\nThat’s no surprise since the rules are simple, it’s more fun to implement\nand study than to actually play, and the hard part is building a decent\nuser interface. Such implementations go back at least 30 years.\nImplementers get to decide on a platform, language, and the particular\nsubject of this article: how to handle the word list. Is it a separate\nfile/database or embedded in the program? If embedded, is it\nworth compressing? In this article I’ll present a simple, tailored Wordle\nlist compression strategy that beats general purpose compressors.\nLast week one particular QuickB…",
@@ -775,6 +785,16 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/",
+          "author": null,
+          "description": "Hello! Today I want to talk about – how do you know you’re getting better at programming?\nOne obvious approach is:\nmake goals\nperiodically check if you achieved those goals\nif you did, celebrate\nI kind of hate goals\nGoals can be useful, but a lot of the time I actually find them stressful and\nnot that helpful. For example, here are a few goals I wrote down for myself 9\nyears ago:\nwrite a nontrivial amount of C code that works and is used by actual people\ncontribute to an open source project in C\nlearn C++\n9 years later, I have done 0 of those things. With the “goal” framing, it’s to\nthink of this as a bad thing! Like, I wanted to learn C++ and I didn’t! I still\ncan’t write C comfortably! Oh no! I guess I failed!\nI find this framing depressing and unhelpful. In reality, I didn’t have any re…",
+          "link": "https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/",
+          "publishedOn": "2022-03-13T09:27:58.000Z",
+          "wordCount": 829,
+          "title": "Celebrate tiny learning milestones",
+          "imageUrl": null
+        },
         {
           "id": "https://jvns.ca/blog/2022/03/10/how-to-use-undocumented-web-apis/",
           "author": null,

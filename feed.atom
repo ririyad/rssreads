@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-13T01:03:04.706Z</updated>
+    <updated>2022-03-14T01:06:14.990Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A flexible, lightweight, spin-lock barrier]]></title>
+        <id>https://nullprogram.com/blog/2022/03/13/</id>
+        <link href="https://nullprogram.com/blog/2022/03/13/"/>
+        <updated>2022-03-13T23:55:08.000Z</updated>
+        <summary type="html"><![CDATA[The other day I wanted try the famous memory reordering experiment
+for myself. It’s the double-slit experiment of concurrency, where a
+program can observe an “impossible” result on common hardware, as
+though a thread had time-traveled. While getting thread timing as tight as
+possible, I designed a possibly-novel thread barrier. It’s purely
+spin-locked, the entire footprint is a zero-initialized integer, it
+automatically resets, it can be used across processes, and the entire
+implementation is just three to four lines of code.
+Here’s the entire barrier implementation for two threads in C11.
+
+// Spin-lock barrier for two threads. Initialize *barrier to zero.
+void barrier_wait(_Atomic uint32_t *barrier)
+{
+    uint32_t v = ++*barrier;
+    if (v & 1) {
+        for (v &= 2; (*barrier&2) == v;);
+…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Celebrate tiny learning milestones]]></title>
+        <id>https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/</id>
+        <link href="https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/"/>
+        <updated>2022-03-13T09:27:58.000Z</updated>
+        <summary type="html"><![CDATA[Hello! Today I want to talk about – how do you know you’re getting better at programming?
+One obvious approach is:
+make goals
+periodically check if you achieved those goals
+if you did, celebrate
+I kind of hate goals
+Goals can be useful, but a lot of the time I actually find them stressful and
+not that helpful. For example, here are a few goals I wrote down for myself 9
+years ago:
+write a nontrivial amount of C code that works and is used by actual people
+contribute to an open source project in C
+learn C++
+9 years later, I have done 0 of those things. With the “goal” framing, it’s to
+think of this as a bad thing! Like, I wanted to learn C++ and I didn’t! I still
+can’t write C comfortably! Oh no! I guess I failed!
+I find this framing depressing and unhelpful. In reality, I didn’t have any re…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Lesson to Unlearn]]></title>
         <id>http://www.paulgraham.com/lesson.html</id>
