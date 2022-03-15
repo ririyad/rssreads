@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-14T01:06:14.990Z</updated>
+    <updated>2022-03-15T01:10:03.917Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -1930,6 +1930,19 @@ I find this framing depressing and unhelpful. In reality, I didn’t have any re
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Changing critical code paths with scientist]]></title>
+        <id>https://world.hey.com/jorge/changing-critical-code-paths-with-scientist-a3becb84</id>
+        <link href="https://world.hey.com/jorge/changing-critical-code-paths-with-scientist-a3becb84"/>
+        <updated>2022-03-12T21:23:39.000Z</updated>
+        <summary type="html"><![CDATA[I recently worked on improving the inbound email analysis system in HEY. This system analyzes every email that hits HEY to decide whether it should flag it as spam, bounce it, or warn the user about specific problems such as having a forged sender or containing a virus. In its current form, the system was making it difficult to add some features we wanted, so we decided to rework it before adding new stuff.
+
+
+I had heard of a GitHub library called scientist years ago, and I thought this would be a good use case for it. Its tagline, "A Ruby library for carefully refactoring critical paths", matched precisely what we needed. HEY ingests millions of emails every day, and the last thing I wanted was to introduce unintended changes here. Those could be as subtle as not showing the right warning…]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Critical code path changes with scientist]]></title>
         <id>https://world.hey.com/jorge/critical-code-path-changes-with-scientist-a3becb84</id>
         <link href="https://world.hey.com/jorge/critical-code-path-changes-with-scientist-a3becb84"/>
@@ -3068,16 +3081,6 @@ In Rails, it's a recurring theme from his critics. Augment Ruby core classes wit
 I always read these critics intrigued about the premise, which looks promising. Coupling and cohesion are essential software quality traits, no question about that. But, after checking the proposed alternatives, they often look not only worse than what they confront to me, but ultimately very naive wh…]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop Writing Great Runbooks]]></title>
-        <id>https://staysaasy.com/software/2022/02/12/runbooks.html</id>
-        <link href="https://staysaasy.com/software/2022/02/12/runbooks.html"/>
-        <updated>2022-02-12T14:59:22.000Z</updated>
-        <summary type="html"><![CDATA[Instead, fix your production issues.]]></summary>
-        <author>
-            <name>Stay SaaSy</name>
         </author>
     </entry>
 </feed>

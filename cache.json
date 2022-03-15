@@ -502,6 +502,16 @@
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
         {
+          "id": "https://world.hey.com/jorge/changing-critical-code-paths-with-scientist-a3becb84",
+          "author": null,
+          "description": "I recently worked on improving the inbound email analysis system in HEY. This system analyzes every email that hits HEY to decide whether it should flag it as spam, bounce it, or warn the user about specific problems such as having a forged sender or containing a virus. In its current form, the system was making it difficult to add some features we wanted, so we decided to rework it before adding new stuff.\n\n\nI had heard of a GitHub library called scientist years ago, and I thought this would be a good use case for it. Its tagline, \"A Ruby library for carefully refactoring critical paths\", matched precisely what we needed. HEY ingests millions of emails every day, and the last thing I wanted was to introduce unintended changes here. Those could be as subtle as not showing the right warning…",
+          "link": "https://world.hey.com/jorge/changing-critical-code-paths-with-scientist-a3becb84",
+          "publishedOn": "2022-03-12T21:23:39.000Z",
+          "wordCount": 535,
+          "title": "Changing critical code paths with scientist",
+          "imageUrl": "https://world.hey.com/jorge/a3becb84/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCSUZ0RkN3PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0cb455541b7103eccee59c944a7e53e4f425a2e1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/indiana-jones-change.jpeg"
+        },
+        {
           "id": "https://world.hey.com/jorge/critical-code-path-changes-with-scientist-a3becb84",
           "author": null,
           "description": "I recently worked on improving the inbound email analysis system in HEY. This system analyzes every email that hits HEY to decide whether it should flag it as spam, bounce it, or warn the user about specific problems such as having a forged sender or containing a virus. In its current form, the system was making it difficult to add some features we wanted, so we decided to rework it before adding new stuff.\n\n\nI had heard of a GitHub library called scientist years ago, and I thought this would be a good use case for it. Its tagline, \"A Ruby library for carefully refactoring critical paths\", matched precisely what we needed. HEY ingests millions of emails every day, and the last thing I wanted was to introduce unintended changes here. Those could be as subtle as not showing the right warning…",
@@ -768,15 +778,6 @@
           "wordCount": 770,
           "title": "Selling to the Enterprise: Be Enterprise-Ready",
           "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
-        },
-        {
-          "id": "https://staysaasy.com/software/2022/02/12/runbooks.html",
-          "author": null,
-          "description": "Instead, fix your production issues.",
-          "link": "https://staysaasy.com/software/2022/02/12/runbooks.html",
-          "publishedOn": "2022-02-12T14:59:22.000Z",
-          "wordCount": 468,
-          "title": "Stop Writing Great Runbooks"
         }
       ]
     },
