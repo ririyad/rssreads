@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-15T01:10:03.917Z</updated>
+    <updated>2022-03-16T01:07:57.846Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -2974,113 +2974,6 @@ The survey was offered in 10 languages with …]]></summary>
         <summary type="html"><![CDATA[A picture tells a thousand words. Now you can quickly create and edit diagrams in markdown using words with Mermaid support in your Markdown files.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The multiple meanings of "nameserver" and "DNS resolver"]]></title>
-        <id>https://jvns.ca/blog/2022/02/14/some-dns-terminology/</id>
-        <link href="https://jvns.ca/blog/2022/02/14/some-dns-terminology/"/>
-        <updated>2022-02-14T12:31:34.000Z</updated>
-        <summary type="html"><![CDATA[I’m working on a zine about DNS right now, so I’ve been thinking about DNS
-terminology a lot more than a normal person. Here’s something slightly
-confusing I’ve noticed about DNS terminology!
-Two of the most common DNS server terms (“nameserver” and “DNS resolver”)
-have different meanings depending on the situation.
-Now this isn’t a problem if you already understand how DNS works – I can
-easily figure out what type of “nameserver” is being discussed based on
-context.
-But it can be a problem if you’re trying to learn how DNS works and you don’t
-realize that those words might refer to different things depending on the
-context – it’s confusing! So I’m going to explain the different possible
-meanings and how to figure out which meaning is intended.
-the 2 meanings of “nameserver”
-There are 2 ty…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Engineering Director Sriram Sankar discusses Meta’s first research award opportunity in silent data corruptions at scale]]></title>
-        <id>https://research.facebook.com/blog/2022/2/engineering-director-sriram-sankar-discusses-metas-first-research-award-opportunity-in-silent-data-corruptions-at-scale/</id>
-        <link href="https://research.facebook.com/blog/2022/2/engineering-director-sriram-sankar-discusses-metas-first-research-award-opportunity-in-silent-data-corruptions-at-scale/"/>
-        <updated>2022-02-14T07:56:43.000Z</updated>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644719717&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644719717&amp;"/>
-        <updated>2022-02-14T00:54:08.245Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644719717&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644719717&amp;"/>
-        <updated>2022-02-14T00:54:08.245Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Putting Ideas into Words]]></title>
-        <id>http://www.paulgraham.com/words.html</id>
-        <link href="http://www.paulgraham.com/words.html"/>
-        <updated>2022-02-14T00:54:06.402Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crates.io Index Snapshot Branches Moving]]></title>
-        <id>https://blog.rust-lang.org/2022/02/14/crates-io-snapshot-branches.html</id>
-        <link href="https://blog.rust-lang.org/2022/02/14/crates-io-snapshot-branches.html"/>
-        <updated>2022-02-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Every so often, the crates.io index's Git history
-is squashed into one
-commit
-to minimize the history Cargo needs to download. When the index is squashed, we save snapshots
-to preserve the history of crate publishes.
-Currently, those snapshots are stored as branches in the main index Git repository. Those branches
-are using server resources though, as the server still has to consider their contents whenever
-Cargo asks for the master branch. We will be deleting the snapshot branches from this repository to
-ensure that all objects referenced in the master branch will only be compressed against other
-objects in the master branch, ensuring that the current clone behavior will be much more efficient
-on the server side.
-Here's how this might affect you:
-If you use Cargo
-You should not see any effects from this change. Cargo does not use the snapshot branches, and
-Cargo regularly handles index squashes. If you do see any issues, they are a bug, please report
-them on the Cargo repo.
-If you use the snapshot branches
-In one week, on 2022-02-21, we will be removing all snapshot branches from the crates.io-index
-repo. All snapshot branches, both historical and in the future, are and will be in the
-rust-lang/crates.io-index-archive repo
-instead. Please update any scripts or tools referencing the snapshot branches by that time.
-In the future
-In the medium term, we're working to prioritize the completion of in-progress
-work to add a way to serve the index as static
-files on HTTP, which will further ease the server load. The index repository will not be going
-away so that older versions of Cargo will continue to work. See RFC
-2789 for more details.]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[No silver buckets]]></title>
-        <id>https://world.hey.com/jorge/no-silver-buckets-84d249d5</id>
-        <link href="https://world.hey.com/jorge/no-silver-buckets-84d249d5"/>
-        <updated>2022-02-13T16:50:09.000Z</updated>
-        <summary type="html"><![CDATA[The suggestion that mixing buckets is the root of all your software quality problems is common in our industry.
-In Rails, it's a recurring theme from his critics. Augment Ruby core classes with monkey-patching? Wrong! Those buckets are meant to remain separate. Invoke models logic from controllers? Wrong again! Those actions deserve their own bucket. Mixing persistence and domain logic in Active Record? Sacrilege! Persistence is an orthogonal concern that should be confined to its own bucket.
-I always read these critics intrigued about the premise, which looks promising. Coupling and cohesion are essential software quality traits, no question about that. But, after checking the proposed alternatives, they often look not only worse than what they confront to me, but ultimately very naive wh…]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
         </author>
     </entry>
 </feed>

@@ -416,16 +416,6 @@
           "wordCount": 1087,
           "title": "Rust Survey 2021 Results",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2022/02/14/crates-io-snapshot-branches.html",
-          "author": null,
-          "description": "Every so often, the crates.io index's Git history\nis squashed into one\ncommit\nto minimize the history Cargo needs to download. When the index is squashed, we save snapshots\nto preserve the history of crate publishes.\nCurrently, those snapshots are stored as branches in the main index Git repository. Those branches\nare using server resources though, as the server still has to consider their contents whenever\nCargo asks for the master branch. We will be deleting the snapshot branches from this repository to\nensure that all objects referenced in the master branch will only be compressed against other\nobjects in the master branch, ensuring that the current clone behavior will be much more efficient\non the server side.\nHere's how this might affect you:\nIf you use Cargo\nYou should not see any effects from this change. Cargo does not use the snapshot branches, and\nCargo regularly handles index squashes. If you do see any issues, they are a bug, please report\nthem on the Cargo repo.\nIf you use the snapshot branches\nIn one week, on 2022-02-21, we will be removing all snapshot branches from the crates.io-index\nrepo. All snapshot branches, both historical and in the future, are and will be in the\nrust-lang/crates.io-index-archive repo\ninstead. Please update any scripts or tools referencing the snapshot branches by that time.\nIn the future\nIn the medium term, we're working to prioritize the completion of in-progress\nwork to add a way to serve the index as static\nfiles on HTTP, which will further ease the server load. The index repository will not be going\naway so that older versions of Cargo will continue to work. See RFC\n2789 for more details.",
-          "link": "https://blog.rust-lang.org/2022/02/14/crates-io-snapshot-branches.html",
-          "publishedOn": "2022-02-14T00:00:00.000Z",
-          "wordCount": 355,
-          "title": "Crates.io Index Snapshot Branches Moving",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -530,16 +520,6 @@
           "wordCount": 1224,
           "title": "Social media evilness",
           "imageUrl": "https://world.hey.com/jorge/a32be7c7/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTU01b0NzPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ab9e1bc859dc932cde0c91e03e5441eb06b0d46d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/pelly-benassi-Hz1WQbHcXag-unsplash.jpg"
-        },
-        {
-          "id": "https://world.hey.com/jorge/no-silver-buckets-84d249d5",
-          "author": null,
-          "description": "The suggestion that mixing buckets is the root of all your software quality problems is common in our industry.\nIn Rails, it's a recurring theme from his critics. Augment Ruby core classes with monkey-patching? Wrong! Those buckets are meant to remain separate. Invoke models logic from controllers? Wrong again! Those actions deserve their own bucket. Mixing persistence and domain logic in Active Record? Sacrilege! Persistence is an orthogonal concern that should be confined to its own bucket.\nI always read these critics intrigued about the premise, which looks promising. Coupling and cohesion are essential software quality traits, no question about that. But, after checking the proposed alternatives, they often look not only worse than what they confront to me, but ultimately very naive wh…",
-          "link": "https://world.hey.com/jorge/no-silver-buckets-84d249d5",
-          "publishedOn": "2022-02-13T16:50:09.000Z",
-          "wordCount": 496,
-          "title": "No silver buckets",
-          "imageUrl": "https://world.hey.com/jorge/84d249d5/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCR1I2UFNvPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--bed4b439f402ca6aa6db81276baa77aa41d9d391/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/olav-ahrens-rotne-4Ennrbj1svk-unsplash.jpg"
         }
       ]
     },
@@ -614,16 +594,6 @@
           "wordCount": 1692,
           "title": "Meta’s AI Learning Alliance aims to expand pipeline of underrepresented students in AI",
           "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/274490949_492580865762364_7743458004530071807_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=ad8a9d&_nc_ohc=E-T88C8I9g0AX8xRD18&_nc_ht=scontent-iad3-1.xx&oh=00_AT8-j7f_B7qbp-EhBUzqt9ZkDbMyoGYFHjJO0V2RQTqReA&oe=623081C6"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/2/engineering-director-sriram-sankar-discusses-metas-first-research-award-opportunity-in-silent-data-corruptions-at-scale/",
-          "author": null,
-          "description": "",
-          "link": "https://research.facebook.com/blog/2022/2/engineering-director-sriram-sankar-discusses-metas-first-research-award-opportunity-in-silent-data-corruptions-at-scale/",
-          "publishedOn": "2022-02-14T07:56:43.000Z",
-          "wordCount": 1067,
-          "title": "Engineering Director Sriram Sankar discusses Meta’s first research award opportunity in silent data corruptions at scale",
-          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.8562-6/273984190_316452863845166_5097367070454004221_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=6825c5&_nc_ohc=f-f-OsIj-p4AX9mgwhc&_nc_ht=scontent-iad3-2.xx&oh=00_AT-TCInrr5mPwW2KkI8cJxQJP2CRLLk0_jMzWL9rC2PebA&oe=620F896E"
         }
       ]
     },
@@ -834,16 +804,6 @@
           "publishedOn": "2022-02-20T09:00:36.000Z",
           "wordCount": 452,
           "title": "Things that used to be hard and are now easy",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvns.ca/blog/2022/02/14/some-dns-terminology/",
-          "author": null,
-          "description": "I’m working on a zine about DNS right now, so I’ve been thinking about DNS\nterminology a lot more than a normal person. Here’s something slightly\nconfusing I’ve noticed about DNS terminology!\nTwo of the most common DNS server terms (“nameserver” and “DNS resolver”)\nhave different meanings depending on the situation.\nNow this isn’t a problem if you already understand how DNS works – I can\neasily figure out what type of “nameserver” is being discussed based on\ncontext.\nBut it can be a problem if you’re trying to learn how DNS works and you don’t\nrealize that those words might refer to different things depending on the\ncontext – it’s confusing! So I’m going to explain the different possible\nmeanings and how to figure out which meaning is intended.\nthe 2 meanings of “nameserver”\nThere are 2 ty…",
-          "link": "https://jvns.ca/blog/2022/02/14/some-dns-terminology/",
-          "publishedOn": "2022-02-14T12:31:34.000Z",
-          "wordCount": 1066,
-          "title": "The multiple meanings of \"nameserver\" and \"DNS resolver\"",
           "imageUrl": null
         }
       ]
@@ -3080,36 +3040,6 @@
           "publishedOn": "2022-02-15T01:03:54.375Z",
           "wordCount": null,
           "title": "Chapter 1 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644719717&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644719717&",
-          "publishedOn": "2022-02-14T00:54:08.245Z",
-          "wordCount": null,
-          "title": "Chapter 1 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644719717&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644719717&",
-          "publishedOn": "2022-02-14T00:54:08.245Z",
-          "wordCount": null,
-          "title": "Chapter 2 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/words.html",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/words.html",
-          "publishedOn": "2022-02-14T00:54:06.402Z",
-          "wordCount": 1152,
-          "title": "Putting Ideas into Words",
           "imageUrl": null
         }
       ]
