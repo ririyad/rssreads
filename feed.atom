@@ -2,10 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-16T04:38:00.151Z</updated>
+    <updated>2022-03-17T01:05:52.714Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Tools Roundup - March 16, 2022]]></title>
+        <id>https://plaintextproject.online/articles/2022/03/16/tools.html</id>
+        <link href="https://plaintextproject.online/articles/2022/03/16/tools.html"/>
+        <updated>2022-03-16T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A quick look at three useful plain text tools]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Investing in the hiring process]]></title>
+        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#InvestInTheHiringProcess</id>
+        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#InvestInTheHiringProcess"/>
+        <updated>2022-03-16T14:06:00.000Z</updated>
+        <summary type="html"><![CDATA[Tim Cochran and
+      Roni Smith complete their article by looking at how
+      scaleups need to invest in the hiring process to overcome the talent
+      bottleneck. They add a case study from our experiences with talent
+      acquisition at Thoughtworks.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I can't tell the difference]]></title>
+        <id>https://world.hey.com/dhh/i-can-t-tell-the-difference-80c20167</id>
+        <link href="https://world.hey.com/dhh/i-can-t-tell-the-difference-80c20167"/>
+        <updated>2022-03-16T08:21:58.000Z</updated>
+        <summary type="html"><![CDATA[Despite my continued and fierce opposition to Apple's monopoly abuses on the App Store, I continue to be thoroughly impressed with the technical advances they keep making. I don't have a problem in the slighest with admiring the engineers while skewering the business operators. And perhaps no engineering unit within Apple is currently more worthy of praise than the chip team. They single-handedly managed to make CPUs interesting again, after what seemed like a decade of stagnation under Intel's efforts.
+I've been marveling at the year-over-year improvements this team has delivered for the iPhone for quite a while. Perhaps even tasted a bit of glee as Apple humiliated Qualcomm by putting their fastest chips in devices costing half the Android flagships. It's hard to resist that pull of "tea…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Putting Ideas into Words]]></title>
         <id>http://www.paulgraham.com/words.html</id>
@@ -13,6 +49,45 @@
         <updated>2022-03-16T04:37:15.390Z</updated>
         <author>
             <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CTCFT 2022-03-21 Agenda]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/03/16/CTCFT-march.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/03/16/CTCFT-march.html"/>
+        <updated>2022-03-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The next "Cross Team Collaboration Fun Times" (CTCFT) meeting will take
+place on Monday, 2022-03-21 at 1pm US Eastern Time (click to see in your
+time zone). You’ll find the full details (along with a calendar
+event, zoom details, etc) on the CTCFT website.
+Agenda
+For this month's CTCFT meeting, the theme is "planning for 2022". Rebecca
+Rumbul, the CEO of the Rust Foundation, will give some insight into the Foundation's
+mission. Niko Matsakis and Josh Triplett will go over the lang team's roadmap
+of the priorities for Rust 2024.
+(5 min) Opening remarks 👋 (nikomatsakis)
+(15 min) Planning for Rust 2024 (nikomatsakis, joshtriplett)
+
+Now that Rust 2021 is behind us, it's time to start thinking about Rust
+2024! The lang team has been working on a roadmap that proposes various
+priorities for Rus…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to get out of the talent bottleneck]]></title>
+        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#exit</id>
+        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#exit"/>
+        <updated>2022-03-15T14:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Tim Cochran and
+      Roni Smith explore how scaleups can get out of the
+      hiring bottleneck by using technology and innovation as a hiring
+      differentiator, hiring T-shaped and non-senior developers, and embracing
+      remote working.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
         </author>
     </entry>
     <entry>
@@ -2926,63 +3001,6 @@ Third, if you work the weekends, you don't get a chance to recharge. Basically, 
         <summary type="html"><![CDATA[A peek at using the Notes app in the online file syncing tool Nextcloud]]></summary>
         <author>
             <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This just wouldn't happen on Twitter]]></title>
-        <id>https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06</id>
-        <link href="https://world.hey.com/dhh/this-just-wouldn-t-happen-on-twitter-b32dbd06"/>
-        <updated>2022-02-15T10:32:11.000Z</updated>
-        <summary type="html"><![CDATA[I'm slowly regaining my faith in debates again. You know, the ancient practice of listening, presenting arguments, accepting counterarguments, and progressing towards a deeper shared understanding. Even when the topics are hot. Even when the counterpart is a stranger. And it's giving me vintage internet vibes!
-Take this Canadian trucker protest, for example. I've heard from a lot of Canadians on the topic. Some support the protests, others don't. It's clearly a topic where a Canadian might feel like a Dane shouldn't have standing to participate in the discussion (and plenty do!). Yet literally all the many debates I've had over the past week since writing about this topic have managed to be civil and respectful despite also occasionally being tense. Remarkable.
-That would never, ever happe…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644822817&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1644822817&amp;"/>
-        <updated>2022-02-15T01:03:54.434Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644822817&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1644822817&amp;"/>
-        <updated>2022-02-15T01:03:54.375Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Survey 2021 Results]]></title>
-        <id>https://blog.rust-lang.org/2022/02/15/Rust-Survey-2021.html</id>
-        <link href="https://blog.rust-lang.org/2022/02/15/Rust-Survey-2021.html"/>
-        <updated>2022-02-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Greetings Rustaceans!
-Another year has passed, and with it comes another annual Rust survey analysis! The survey was conducted in December 2021.
-We’d like to thank everyone who participated in this year’s survey, with a special shout-out to those who helped translate the survey from English into other languages.
-Without further ado, let’s dive into the analysis!
-A Global Community
-The Rust community continues to grow, with this survey having the largest number of complete survey responses (9354 respondents), exceeding last year's total by roughly 1500 responses.
-90% of respondents said that they use Rust for any purpose, while 5% stated they had used Rust at some point in the past but no longer do, and 4% stated they have yet to use Rust at all.
-The survey was offered in 10 languages with …]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Include diagrams in your Markdown files with Mermaid]]></title>
-        <id>https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/</id>
-        <link href="https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/"/>
-        <updated>2022-02-14T16:57:42.000Z</updated>
-        <summary type="html"><![CDATA[A picture tells a thousand words. Now you can quickly create and edit diagrams in markdown using words with Mermaid support in your Markdown files.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
         </author>
     </entry>
 </feed>
