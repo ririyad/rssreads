@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-17T01:05:52.714Z</updated>
+    <updated>2022-03-18T01:13:28.719Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Technical Solutions Poorly Solve Social Problems]]></title>
+        <id>https://christine.website/blog/social-quandry-devops-2022-03-17</id>
+        <link href="https://christine.website/blog/social-quandry-devops-2022-03-17"/>
+        <updated>2022-03-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-03-17]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tools Roundup - March 16, 2022]]></title>
         <id>https://plaintextproject.online/articles/2022/03/16/tools.html</id>
@@ -2955,52 +2965,6 @@ Each meeting will run from 2pm to 3pm GMT, and will take place on the
 T-compiler/meetings zulip stream.]]></summary>
         <author>
             <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gritting your teeth, biding your time]]></title>
-        <id>https://world.hey.com/dhh/gritting-your-teeth-biding-your-time-6d38aefd</id>
-        <link href="https://world.hey.com/dhh/gritting-your-teeth-biding-your-time-6d38aefd"/>
-        <updated>2022-02-16T11:32:58.000Z</updated>
-        <summary type="html"><![CDATA[What's the goodwill of developers worth to a platform operator? It's a hard question, because it can't be answered by the traditional economic models used by bean counters to populate the balance sheet. And it's far more ephemeral than the goodwill of consumers. The relationship is more intertwined. We're not just engaging in transactions, we're lifting each other up. Good developers breed strong platforms, and strong platforms attract good developers. When it works, it's symbiotic.
-There's nothing symbiotic about Apple's current relationship with its developers. 
-Every time Apple mobilizes its law machine to squash a developer in court, foil democratic accountability in the legislatures, or give regulators the middle finger, Apple wounds the relationship with developers. They can win ever…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Debugging an ioctl Problem on OpenBSD]]></title>
-        <id>https://jcs.org/2022/02/16/ioctl</id>
-        <link href="https://jcs.org/2022/02/16/ioctl"/>
-        <updated>2022-02-16T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[I was trying to use a V4L2 Ruby module on my OpenBSD laptop but ran into a problem where sending the V4L2 ioctls from this module would fail, while other V4L2 programs on OpenBSD worked fine.]]></summary>
-        <author>
-            <name>joshua stein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Watch out for 12-day weeks]]></title>
-        <id>https://world.hey.com/jason/watch-out-for-12-day-weeks-b4441874</id>
-        <link href="https://world.hey.com/jason/watch-out-for-12-day-weeks-b4441874"/>
-        <updated>2022-02-15T22:39:57.000Z</updated>
-        <summary type="html"><![CDATA[Way back when, we used to release new software on Fridays all the time. That often meant working Saturdays and Sundays to fix an urgent problem with the new stuff, wrecking the weekend for whoever did the release.
-It was stupid yet predictable, because we kept setting deadlines at the end of the week, as most naturally do. But Friday is the worse day to release anything.
-First off, you probably rushed to finish before the weekend. So work done on Fridays tends to be a bit sloppy.
-Second, Mondays don't come after Fridays. Saturdays and Sundays do. So if something goes wrong, someone's working the weekend.
-Third, if you work the weekends, you don't get a chance to recharge. Basically, when you've worked all week, and you're forced to work the weekend, the following Monday is the eighth day o…]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Taking Plain Text Notes with Nextcloud Notes]]></title>
-        <id>https://plaintextproject.online/articles/2022/02/15/notes.html</id>
-        <link href="https://plaintextproject.online/articles/2022/02/15/notes.html"/>
-        <updated>2022-02-15T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A peek at using the Notes app in the online file syncing tool Nextcloud]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
         </author>
     </entry>
 </feed>
