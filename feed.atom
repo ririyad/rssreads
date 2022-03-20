@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-19T01:02:26.951Z</updated>
+    <updated>2022-03-20T01:06:05.375Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -2864,66 +2864,6 @@ B…]]></summary>
         <summary type="html"><![CDATA[Posted on 2022-02-19]]></summary>
         <author>
             <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The wild west of Windows command line parsing]]></title>
-        <id>https://nullprogram.com/blog/2022/02/18/</id>
-        <link href="https://nullprogram.com/blog/2022/02/18/"/>
-        <updated>2022-02-18T03:52:12.000Z</updated>
-        <summary type="html"><![CDATA[I’ve been experimenting again lately with writing software without a
-runtime aside from the operating system itself, both on Linux and
-Windows. Another way to look at it: I write and embed a bespoke, minimal
-runtime within the application. One of the runtime’s core jobs is
-retrieving command line arguments from the operating system. On Windows
-this is a deeper rabbit hole than I expected, and far more complex than I
-realized. There is no standard, and every runtime does it a little
-differently. Five different applications may see five different sets of
-arguments — even different argument counts — from the same input, and this
-is before any sort of option parsing. It’s truly a modern day Tower of
-Babel: “Confound their command line parsing, that they may not understand
-one another’s argumen…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lang team February update]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html"/>
-        <updated>2022-02-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[wo weeks ago, the lang team held its February planning meeting (minutes). We hold these meetings on the first Wednesday of every month.
-The planning meeting is used for:
-Checking in on the status of our active initiatives
-Planning the design meetings for the remainder of the month
-After each meeting, we post an update (like this one!) with notes and meeting announcements.
-Update from active initiatives
-We didn't have any updates from initiatives this week and in fact are thinking of changing our
-"update" structure to integrate into the regular triage meeting. For the time being, though, you
-can check in on the progress of any active initiatives you're interested in by visiting the active initiatives project board, which is also a great way to get a summary of the
-major goings on of the Lang team.
-Upcoming design meetings
-We have planned the following design meetings:
-February 23: Never type next steps (lang-team#141)
-Design meeting expectations
-The document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.
-
-If it is not sent out by then, the meeting will be canceled. This gives folks 24 hour notice.
-There is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.
-
-However, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leveraging machine learning to find security vulnerabilities]]></title>
-        <id>https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/</id>
-        <link href="https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/"/>
-        <updated>2022-02-17T17:59:19.000Z</updated>
-        <summary type="html"><![CDATA[A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
         </author>
     </entry>
 </feed>

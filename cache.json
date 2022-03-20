@@ -463,16 +463,6 @@
           "wordCount": 144,
           "title": "1.59.0 pre-release testing",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html",
-          "author": null,
-          "description": "wo weeks ago, the lang team held its February planning meeting (minutes). We hold these meetings on the first Wednesday of every month.\nThe planning meeting is used for:\nChecking in on the status of our active initiatives\nPlanning the design meetings for the remainder of the month\nAfter each meeting, we post an update (like this one!) with notes and meeting announcements.\nUpdate from active initiatives\nWe didn't have any updates from initiatives this week and in fact are thinking of changing our\n\"update\" structure to integrate into the regular triage meeting. For the time being, though, you\ncan check in on the progress of any active initiatives you're interested in by visiting the active initiatives project board, which is also a great way to get a summary of the\nmajor goings on of the Lang team.\nUpcoming design meetings\nWe have planned the following design meetings:\nFebruary 23: Never type next steps (lang-team#141)\nDesign meeting expectations\nThe document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.\n\nIf it is not sent out by then, the meeting will be canceled. This gives folks 24 hour notice.\nThere is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.\n\nHowever, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/02/18/lang-team-feb-update.html",
-          "publishedOn": "2022-02-18T00:00:00.000Z",
-          "wordCount": 320,
-          "title": "Lang team February update",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -537,16 +527,6 @@
           "wordCount": 1014,
           "title": "Codespaces for the largest repositories just got faster",
           "imageUrl": "https://github.blog/wp-content/uploads/2021/08/1200x630-codespaces-social-3.png"
-        },
-        {
-          "id": "https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/",
-          "author": null,
-          "description": "A behind-the-scenes peek into the machine learning framework powering new code scanning security alerts.",
-          "link": "https://github.blog/2022-02-17-leveraging-machine-learning-find-security-vulnerabilities/",
-          "publishedOn": "2022-02-17T17:59:19.000Z",
-          "wordCount": 1982,
-          "title": "Leveraging machine learning to find security vulnerabilities",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/02/diagram.png"
         }
       ]
     },
@@ -623,16 +603,6 @@
           "publishedOn": "2022-03-07T03:22:41.000Z",
           "wordCount": 3080,
           "title": "Compressing and embedding a Wordle word list",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2022/02/18/",
-          "author": null,
-          "description": "I’ve been experimenting again lately with writing software without a\nruntime aside from the operating system itself, both on Linux and\nWindows. Another way to look at it: I write and embed a bespoke, minimal\nruntime within the application. One of the runtime’s core jobs is\nretrieving command line arguments from the operating system. On Windows\nthis is a deeper rabbit hole than I expected, and far more complex than I\nrealized. There is no standard, and every runtime does it a little\ndifferently. Five different applications may see five different sets of\narguments — even different argument counts — from the same input, and this\nis before any sort of option parsing. It’s truly a modern day Tower of\nBabel: “Confound their command line parsing, that they may not understand\none another’s argumen…",
-          "link": "https://nullprogram.com/blog/2022/02/18/",
-          "publishedOn": "2022-02-18T03:52:12.000Z",
-          "wordCount": 1719,
-          "title": "The wild west of Windows command line parsing",
           "imageUrl": null
         }
       ]
