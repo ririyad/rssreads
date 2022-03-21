@@ -681,16 +681,6 @@
           "wordCount": 2623,
           "title": "Nix Flakes: an Introduction",
           "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/pomodoro-2022-02-19",
-          "author": null,
-          "description": "Posted on 2022-02-19",
-          "link": "https://christine.website/blog/pomodoro-2022-02-19",
-          "publishedOn": "2022-02-19T00:00:00.000Z",
-          "wordCount": 802,
-          "title": "How I Pomodoro",
-          "imageUrl": null
         }
       ]
     },
@@ -2968,7 +2958,18 @@
       "title": "Simon Eskildsen",
       "feedUrl": "https://sirupsen.com/atom.xml",
       "siteUrl": "https://sirupsen.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://sirupsen.com/metrics",
+          "author": null,
+          "description": "<p>Whenever I create a dashboard for an application, it&#x27;s generally the same\nhandful of metrics I look to. They&#x27;re the ones I always use to orient myself\nquickly when Pagerduty fires. They give me the grand overview, and then I&#x27;ll\nknow what",
+          "link": "https://sirupsen.com/metrics",
+          "publishedOn": "2022-03-19T00:00:00.000Z",
+          "wordCount": 852,
+          "title": "Metrics For Your Web Application's Dashboards",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "iA",
