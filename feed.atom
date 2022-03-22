@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-21T01:08:07.438Z</updated>
+    <updated>2022-03-22T01:12:44.635Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Site Update: Axum]]></title>
+        <id>https://christine.website/blog/site-update-axum-2022-03-21</id>
+        <link href="https://christine.website/blog/site-update-axum-2022-03-21"/>
+        <updated>2022-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-03-21]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Metrics For Your Web Application's Dashboards]]></title>
         <id>https://sirupsen.com/metrics</id>
@@ -2828,43 +2838,11 @@ Not only is it a very capable language server for Rust, b…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Things that used to be hard and are now easy]]></title>
-        <id>https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/</id>
-        <link href="https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/"/>
-        <updated>2022-02-20T09:00:36.000Z</updated>
-        <summary type="html"><![CDATA[Hello! I was talking to some friends the other day about the types of
-conference talks we enjoyed.
-One category we came up with was “you know this thing that used to be super
-hard? Turns out now it’s WAY EASIER and maybe you can do it now!“.
-So I asked on Twitter about programming things that used to be hard and are now easy
-Here are some of the answers I got. Not all of them are equally “easy”, but I
-found reading the list really fun and it gave me some ideas for things to
-learn. Maybe it’ll give you some ideas too.
-SSL certificates, with Let’s Encrypt
-Concurrency, with async/await (in several languages)
-Centering in CSS, with flexbox/grid
-Building fast programs, with Go
-Image recognition, with transfer learning (someone pointed out that the joke in this XKCD doesn’t make sense anymore)
-B…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CPS-1: GFX system internals]]></title>
-        <id>http://fabiensanglard.net/cps1_gfx/index.html</id>
-        <link href="http://fabiensanglard.net/cps1_gfx/index.html"/>
-        <updated>2022-02-20T00:00:00.000Z</updated>
-        <author>
-            <name>fabiensanglard.net</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Selling to the Enterprise: Be Enterprise-Ready]]></title>
-        <id>https://staysaasy.com/product/2022/02/19/enterprise-selling-be-enterprise-ready.html</id>
-        <link href="https://staysaasy.com/product/2022/02/19/enterprise-selling-be-enterprise-ready.html"/>
-        <updated>2022-02-19T14:59:22.000Z</updated>
-        <summary type="html"><![CDATA[In this post we'll lay out some of the most important enterprise features to add to your product. The activities listed here will help you move up-market, as surely as brushing your teeth and having good hygeine will help you land a hot date.]]></summary>
+        <title type="html"><![CDATA[Working Across Departments]]></title>
+        <id>https://staysaasy.com/startups/2022/02/20/departments.html</id>
+        <link href="https://staysaasy.com/startups/2022/02/20/departments.html"/>
+        <updated>2022-02-20T14:59:22.000Z</updated>
+        <summary type="html"><![CDATA[In any organization, working across departments comes with a lot of interesting challenges. Below, find a guide to navigating some common challenges in cross-departmental coordination.]]></summary>
         <author>
             <name>Stay SaaSy</name>
         </author>

@@ -353,18 +353,7 @@
       "title": "fabiensanglard.net",
       "feedUrl": "https://fabiensanglard.net/rss.xml",
       "siteUrl": "https://fabiensanglard.net",
-      "articles": [
-        {
-          "id": "http://fabiensanglard.net/cps1_gfx/index.html",
-          "author": null,
-          "description": "",
-          "link": "http://fabiensanglard.net/cps1_gfx/index.html",
-          "publishedOn": "2022-02-20T00:00:00.000Z",
-          "wordCount": 1297,
-          "title": "CPS-1: GFX system internals",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Adam Wathan's Work Journal",
@@ -613,6 +602,16 @@
       "siteUrl": "https://christine.website/blog",
       "articles": [
         {
+          "id": "https://christine.website/blog/site-update-axum-2022-03-21",
+          "author": null,
+          "description": "Posted on 2022-03-21",
+          "link": "https://christine.website/blog/site-update-axum-2022-03-21",
+          "publishedOn": "2022-03-21T00:00:00.000Z",
+          "wordCount": 934,
+          "title": "Site Update: Axum",
+          "imageUrl": null
+        },
+        {
           "id": "https://christine.website/blog/social-quandry-devops-2022-03-17",
           "author": null,
           "description": "Posted on 2022-03-17",
@@ -690,13 +689,13 @@
       "siteUrl": "https://staysaasy.com/",
       "articles": [
         {
-          "id": "https://staysaasy.com/product/2022/02/19/enterprise-selling-be-enterprise-ready.html",
+          "id": "https://staysaasy.com/startups/2022/02/20/departments.html",
           "author": null,
-          "description": "In this post we'll lay out some of the most important enterprise features to add to your product. The activities listed here will help you move up-market, as surely as brushing your teeth and having good hygeine will help you land a hot date.",
-          "link": "https://staysaasy.com/product/2022/02/19/enterprise-selling-be-enterprise-ready.html",
-          "publishedOn": "2022-02-19T14:59:22.000Z",
-          "wordCount": 770,
-          "title": "Selling to the Enterprise: Be Enterprise-Ready",
+          "description": "In any organization, working across departments comes with a lot of interesting challenges. Below, find a guide to navigating some common challenges in cross-departmental coordination.",
+          "link": "https://staysaasy.com/startups/2022/02/20/departments.html",
+          "publishedOn": "2022-02-20T14:59:22.000Z",
+          "wordCount": 1463,
+          "title": "Working Across Departments",
           "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
         }
       ]
@@ -744,16 +743,6 @@
           "publishedOn": "2022-02-23T08:33:56.000Z",
           "wordCount": 1180,
           "title": "Some things about getaddrinfo that surprised me",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/",
-          "author": null,
-          "description": "Hello! I was talking to some friends the other day about the types of\nconference talks we enjoyed.\nOne category we came up with was “you know this thing that used to be super\nhard? Turns out now it’s WAY EASIER and maybe you can do it now!“.\nSo I asked on Twitter about programming things that used to be hard and are now easy\nHere are some of the answers I got. Not all of them are equally “easy”, but I\nfound reading the list really fun and it gave me some ideas for things to\nlearn. Maybe it’ll give you some ideas too.\nSSL certificates, with Let’s Encrypt\nConcurrency, with async/await (in several languages)\nCentering in CSS, with flexbox/grid\nBuilding fast programs, with Go\nImage recognition, with transfer learning (someone pointed out that the joke in this XKCD doesn’t make sense anymore)\nB…",
-          "link": "https://jvns.ca/blog/2022/02/20/things-that-used-to-be-hard-and-are-now-easy/",
-          "publishedOn": "2022-02-20T09:00:36.000Z",
-          "wordCount": 452,
-          "title": "Things that used to be hard and are now easy",
           "imageUrl": null
         }
       ]
