@@ -4,18 +4,7 @@
       "title": "tonsky.me",
       "feedUrl": "http://tonsky.me/blog/atom.xml",
       "siteUrl": "https://tonsky.me/",
-      "articles": [
-        {
-          "id": "https://tonsky.me/blog/humble-dx/",
-          "author": null,
-          "description": "Using Humble UI from the REPL",
-          "link": "https://tonsky.me/blog/humble-dx/",
-          "publishedOn": "2022-02-22T00:00:00.000Z",
-          "wordCount": 565,
-          "title": "Humble Chronicles: Developer Experience",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "GolangCode",
@@ -188,16 +177,6 @@
           "publishedOn": "2022-02-23T15:48:29.000Z",
           "wordCount": 517,
           "title": "Equating blasphemy with violence legitimizes the inquisition",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/simulacra-33e81a8e",
-          "author": null,
-          "description": "I never did make it all the way through Jean Baudrillard's book Simulacra and Simulation before I lost my paperback copy on a trip. But it lodged several perspectives deep in my brain that I'm still trying to process. One of which was this:\n\nDisneyland is presented as imaginary in order to make us believe that the rest is real.\n\nIt's a novel illustration of the point both David Graeber and Yuval Noah Harari have kept making in their works: Human institutions are all, broadly speaking, make believe. \nWhere Harari illustrates this point with everything from the corporation to human rights, Graeber invites us to imagine fresh alternatives to debt and capitalism. And I remember nodding to both, but it was Baudrillard's pithy contrast that really made the point sink in.\nYet even when it's sunk …",
-          "link": "https://world.hey.com/dhh/simulacra-33e81a8e",
-          "publishedOn": "2022-02-22T11:05:04.000Z",
-          "wordCount": 519,
-          "title": "Simulacra",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
         }
       ]
@@ -402,26 +381,6 @@
           "wordCount": 242,
           "title": "Lang team March update",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html",
-          "author": null,
-          "description": "Rust Compiler Ambitions for 2022\nSome people have been wondering about what the Rust Compiler Team has planned for 2022. This note is to let you all know what activities the team plans to focus on this year.\nThis document is structured into three parts: our Overall Themes for this year, the Concrete Initiatives we have resources to drive, and Aspirations for what we could do if given more help.\nIntroduction\nPart of the motivation for this note is to encourage new contributors to get involved. We have a lot of newcomers, from individuals to large organizations, who are very excited about Rust's potential, and we want to show all of them what they can do to help.\nThis is a list of items, divided into a Concrete Initiatives section and an Aspirations section. We accumulated these items during…",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html",
-          "publishedOn": "2022-02-22T00:00:00.000Z",
-          "wordCount": 3388,
-          "title": "Rust Compiler Ambitions for 2022",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/02/22/1.59.0-prerelease.html",
-          "author": null,
-          "description": "The 1.59.0 pre-release is ready for testing. The release is scheduled for this\nThursday, February 24th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-02-22/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/02/22/1.59.0-prerelease.html",
-          "publishedOn": "2022-02-22T00:00:00.000Z",
-          "wordCount": 144,
-          "title": "1.59.0 pre-release testing",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -468,6 +427,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/",
+          "author": null,
+          "description": "Over the past few weeks, we have experienced multiple incidents due to the health of our database. We wanted to share what we know about these incidents while our team continues to address them.",
+          "link": "https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/",
+          "publishedOn": "2022-03-23T20:39:01.000Z",
+          "wordCount": 902,
+          "title": "An update on recent service disruptions",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Engineering@2x.png"
+        },
+        {
           "id": "https://github.blog/2022-03-02-github-availability-report-february-2022/",
           "author": null,
           "description": "In February, we experienced one incident resulting in significant impact to multiple GitHub services.",
@@ -494,6 +463,16 @@
       "feedUrl": "https://research.facebook.com/feed/",
       "siteUrl": "https://research.facebook.com/",
       "articles": [
+        {
+          "id": "https://research.facebook.com/blog/2022/3/registration-now-open-for-the-workshop-on-policy-and-management-in-the-digital-economy-hosted-by-ie-university/",
+          "author": null,
+          "description": "",
+          "link": "https://research.facebook.com/blog/2022/3/registration-now-open-for-the-workshop-on-policy-and-management-in-the-digital-economy-hosted-by-ie-university/",
+          "publishedOn": "2022-03-22T10:54:08.000Z",
+          "wordCount": 516,
+          "title": "Registration now open for the Workshop on Policy and Management in the Digital Economy, hosted by IE University",
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.8562-6/277228678_373081627812391_5176408009239940046_n.png?_nc_cat=109&ccb=1-5&_nc_sid=6825c5&_nc_ohc=lgz8vnsM2WQAX8Dt2Zv&_nc_ht=scontent-iad3-2.xx&oh=00_AT9gMQ-HkGFoWiYA65TXUcKAEiUQbrHRjIKzZuZ9y7IG9A&oe=624154F6"
+        },
         {
           "id": "https://research.facebook.com/blog/2022/3/conducting-research-in-industry-without-a-phd-qa-with-production-engineer-and-data-scientist-yuling-chen/",
           "author": null,
@@ -654,6 +633,16 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/03/23/a-toy-version-of-tls/",
+          "author": null,
+          "description": "Hello! Recently I’ve been thinking about how I find it fun to learn computer\nnetworking by implementing working versions of real network protocols.\nAnd it made me wonder – I’ve implemented toy versions of\ntraceroute, TCP and DNS.\nWhat about TLS? Could I implement a toy version of that to learn more about how it works?\nI asked on Twitter if this would be hard, got some encouragement and pointers for where to start, so I decided to go for it.\nThis was really fun and I learned a little more about how involved real\ncryptography is – thanks to cryptopals, I already 100% believed that I should not invent my own\ncrypto implementations, and seeing how the crypto in TLS 1.3 works gave me even more of\nan appreciation for why I shouldn’t :)\nAs a warning: I am really not a cryptography person, I will …",
+          "link": "https://jvns.ca/blog/2022/03/23/a-toy-version-of-tls/",
+          "publishedOn": "2022-03-23T12:25:30.000Z",
+          "wordCount": 2959,
+          "title": "Implementing a toy version of TLS 1.3",
+          "imageUrl": null
+        },
         {
           "id": "https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/",
           "author": null,

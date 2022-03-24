@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-23T01:18:44.120Z</updated>
+    <updated>2022-03-24T01:11:30.564Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[An update on recent service disruptions]]></title>
+        <id>https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/</id>
+        <link href="https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/"/>
+        <updated>2022-03-23T20:39:01.000Z</updated>
+        <summary type="html"><![CDATA[Over the past few weeks, we have experienced multiple incidents due to the health of our database. We wanted to share what we know about these incidents while our team continues to address them.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Implementing a toy version of TLS 1.3]]></title>
+        <id>https://jvns.ca/blog/2022/03/23/a-toy-version-of-tls/</id>
+        <link href="https://jvns.ca/blog/2022/03/23/a-toy-version-of-tls/"/>
+        <updated>2022-03-23T12:25:30.000Z</updated>
+        <summary type="html"><![CDATA[Hello! Recently I’ve been thinking about how I find it fun to learn computer
+networking by implementing working versions of real network protocols.
+And it made me wonder – I’ve implemented toy versions of
+traceroute, TCP and DNS.
+What about TLS? Could I implement a toy version of that to learn more about how it works?
+I asked on Twitter if this would be hard, got some encouragement and pointers for where to start, so I decided to go for it.
+This was really fun and I learned a little more about how involved real
+cryptography is – thanks to cryptopals, I already 100% believed that I should not invent my own
+crypto implementations, and seeing how the crypto in TLS 1.3 works gave me even more of
+an appreciation for why I shouldn’t :)
+As a warning: I am really not a cryptography person, I will …]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Registration now open for the Workshop on Policy and Management in the Digital Economy, hosted by IE University]]></title>
+        <id>https://research.facebook.com/blog/2022/3/registration-now-open-for-the-workshop-on-policy-and-management-in-the-digital-economy-hosted-by-ie-university/</id>
+        <link href="https://research.facebook.com/blog/2022/3/registration-now-open-for-the-workshop-on-policy-and-management-in-the-digital-economy-hosted-by-ie-university/"/>
+        <updated>2022-03-22T10:54:08.000Z</updated>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Site Update: Axum]]></title>
         <id>https://christine.website/blog/site-update-axum-2022-03-21</id>
@@ -2718,65 +2757,6 @@ Beyond it being an exceptionally good application — you'll know why when you s
 Here it is, check it out: https://jobsapp.info/basecamp/]]></summary>
         <author>
             <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simulacra]]></title>
-        <id>https://world.hey.com/dhh/simulacra-33e81a8e</id>
-        <link href="https://world.hey.com/dhh/simulacra-33e81a8e"/>
-        <updated>2022-02-22T11:05:04.000Z</updated>
-        <summary type="html"><![CDATA[I never did make it all the way through Jean Baudrillard's book Simulacra and Simulation before I lost my paperback copy on a trip. But it lodged several perspectives deep in my brain that I'm still trying to process. One of which was this:
-
-Disneyland is presented as imaginary in order to make us believe that the rest is real.
-
-It's a novel illustration of the point both David Graeber and Yuval Noah Harari have kept making in their works: Human institutions are all, broadly speaking, make believe. 
-Where Harari illustrates this point with everything from the corporation to human rights, Graeber invites us to imagine fresh alternatives to debt and capitalism. And I remember nodding to both, but it was Baudrillard's pithy contrast that really made the point sink in.
-Yet even when it's sunk …]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Humble Chronicles: Developer Experience]]></title>
-        <id>https://tonsky.me/blog/humble-dx/</id>
-        <link href="https://tonsky.me/blog/humble-dx/"/>
-        <updated>2022-02-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Using Humble UI from the REPL]]></summary>
-        <author>
-            <name>tonsky.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Compiler Ambitions for 2022]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/02/22/compiler-team-ambitions-2022.html"/>
-        <updated>2022-02-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Rust Compiler Ambitions for 2022
-Some people have been wondering about what the Rust Compiler Team has planned for 2022. This note is to let you all know what activities the team plans to focus on this year.
-This document is structured into three parts: our Overall Themes for this year, the Concrete Initiatives we have resources to drive, and Aspirations for what we could do if given more help.
-Introduction
-Part of the motivation for this note is to encourage new contributors to get involved. We have a lot of newcomers, from individuals to large organizations, who are very excited about Rust's potential, and we want to show all of them what they can do to help.
-This is a list of items, divided into a Concrete Initiatives section and an Aspirations section. We accumulated these items during…]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.59.0 pre-release testing]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/02/22/1.59.0-prerelease.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/02/22/1.59.0-prerelease.html"/>
-        <updated>2022-02-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The 1.59.0 pre-release is ready for testing. The release is scheduled for this
-Thursday, February 24th. Release notes can be found here.
-You can try it out locally by running:
-RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
-
-The index is https://dev-static.rust-lang.org/dist/2022-02-22/index.html. You
-can leave feedback on the internals thread.
-The release team is also thinking about changes to our pre-release process:
-we'd love your feedback on this GitHub issue.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>
