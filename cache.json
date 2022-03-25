@@ -195,16 +195,6 @@
           "wordCount": 309,
           "title": "Reframing it",
           "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
-        },
-        {
-          "id": "https://world.hey.com/jason/how-to-land-the-job-you-really-want-dcf208ab",
-          "author": null,
-          "description": "As someone who's been hiring people for 23 years, I've seen, read, and reviewed tens of thousands of job applications.\nThe ones that typically rise to the top are the ones that demonstrate effort to get this job, and not just any job.\nWe recently hired our first Email Marketing Manager. Nearly 400 people applied for the position.\nAs applications tend to do, they ranged from the basic resume, to the standard cover letter and resume, to the custom cover letter and resume, and, finally, some more creative approaches to stand out.\nI wanted to share one, in particular. This application is shared with the applicant's permission, although it's been slightly modified to remove personal information they weren't comfortable sharing publicly.\nBeyond it being an exceptionally good application — you'll know why when you see it — it was the one that got the person the job. This is who we hired. It's a great example of what really wanting the job can look like when you put in the extra effort to stand out in the right ways.\nHere it is, check it out: https://jobsapp.info/basecamp/",
-          "link": "https://world.hey.com/jason/how-to-land-the-job-you-really-want-dcf208ab",
-          "publishedOn": "2022-02-22T18:06:30.000Z",
-          "wordCount": 224,
-          "title": "How to land the job you really want",
-          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
         }
       ]
     },
@@ -482,16 +472,6 @@
           "wordCount": 1293,
           "title": "Conducting research in industry without a PhD: Q&A with Production Engineer and Data Scientist YuLing Chen",
           "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.8562-6/275679831_909600829693963_3009267898994646451_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=6825c5&_nc_ohc=jYiDvDwPZ4MAX_A_Jyu&_nc_ht=scontent-iad3-1.xx&oh=00_AT8Z3diCxn7M3y7VkmsBeLPnEGZ0aOHJVWwJZMDRMwzsaQ&oe=62316588"
-        },
-        {
-          "id": "https://ai.facebook.com/blog/ai-learning-alliance/",
-          "author": null,
-          "description": "Meta is announcing the Artificial Intelligence Learning Alliance (AILA), an initiative to strengthen diversity and increase equity in the field of...",
-          "link": "https://ai.facebook.com/blog/ai-learning-alliance/",
-          "publishedOn": "2022-02-23T10:40:00.000Z",
-          "wordCount": 1692,
-          "title": "Meta’s AI Learning Alliance aims to expand pipeline of underrepresented students in AI",
-          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.2365-6/274490949_492580865762364_7743458004530071807_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=ad8a9d&_nc_ohc=E-T88C8I9g0AX8xRD18&_nc_ht=scontent-iad3-1.xx&oh=00_AT8-j7f_B7qbp-EhBUzqt9ZkDbMyoGYFHjJO0V2RQTqReA&oe=623081C6"
         }
       ]
     },
@@ -550,6 +530,16 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/closed-projects-2022-03-24",
+          "author": null,
+          "description": "Posted on 2022-03-24",
+          "link": "https://christine.website/blog/closed-projects-2022-03-24",
+          "publishedOn": "2022-03-24T00:00:00.000Z",
+          "wordCount": 386,
+          "title": "Book Release: Closed Projects",
+          "imageUrl": null
+        },
         {
           "id": "https://christine.website/blog/site-update-axum-2022-03-21",
           "author": null,
@@ -626,7 +616,18 @@
       "title": "Stay SaaSy",
       "feedUrl": "https://staysaasy.com/feed.xml",
       "siteUrl": "https://staysaasy.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://staysaasy.com/product/2022/03/23/expanding-saas-business.html",
+          "author": null,
+          "description": "SaaS growth is a multiple choice question rather than a free-response essay. Learn the standard ways to grow your SaaS business here.",
+          "link": "https://staysaasy.com/product/2022/03/23/expanding-saas-business.html",
+          "publishedOn": "2022-03-23T14:59:22.000Z",
+          "wordCount": 1780,
+          "title": "Ways to Expand Your SaaS Business",
+          "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
+        }
+      ]
     },
     {
       "title": "Julia Evans",
@@ -671,16 +672,6 @@
           "publishedOn": "2022-03-08T08:35:56.000Z",
           "wordCount": 1129,
           "title": "Some tiny personal programs I've written",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/",
-          "author": null,
-          "description": "Hello! Here are some things you may or may not have noticed about DNS:\nwhen you resolve a DNS name in a Python program, it checks /etc/hosts, but when you use dig, it doesn’t.\nswitching Linux distributions can sometimes change how your DNS works, for example if you use Alpine Linux instead of Ubuntu it can cause problems.\nMac OS has DNS caching, but Linux doesn’t necessarily unless you use systemd-resolved or something\nTo understand all of these, we need to learn about a function called\ngetaddrinfo which is responsible for doing DNS lookups.\nThere are a bunch of surprising-to-me things about getaddrinfo, and once I\nlearned about them, it explained a bunch of the confusing DNS behaviour I’d\nseen in the past.\nwhere does getaddrinfo come from?\ngetaddrinfo is part of a library called libc whic…",
-          "link": "https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/",
-          "publishedOn": "2022-02-23T08:33:56.000Z",
-          "wordCount": 1180,
-          "title": "Some things about getaddrinfo that surprised me",
           "imageUrl": null
         }
       ]
@@ -2847,26 +2838,6 @@
           "publishedOn": "2022-02-24T01:02:31.285Z",
           "wordCount": null,
           "title": "Chapter 2 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645488487&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645488487&",
-          "publishedOn": "2022-02-23T01:05:50.011Z",
-          "wordCount": null,
-          "title": "Chapter 2 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645488487&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645488487&",
-          "publishedOn": "2022-02-23T01:05:50.009Z",
-          "wordCount": null,
-          "title": "Chapter 1 of Ansi Common Lisp",
           "imageUrl": null
         }
       ]

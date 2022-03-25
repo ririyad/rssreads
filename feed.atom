@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-24T01:11:30.564Z</updated>
+    <updated>2022-03-25T01:07:50.397Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Book Release: Closed Projects]]></title>
+        <id>https://christine.website/blog/closed-projects-2022-03-24</id>
+        <link href="https://christine.website/blog/closed-projects-2022-03-24"/>
+        <updated>2022-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-03-24]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An update on recent service disruptions]]></title>
         <id>https://github.blog/2022-03-23-an-update-on-recent-service-disruptions/</id>
@@ -14,6 +24,16 @@
         <summary type="html"><![CDATA[Over the past few weeks, we have experienced multiple incidents due to the health of our database. We wanted to share what we know about these incidents while our team continues to address them.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ways to Expand Your SaaS Business]]></title>
+        <id>https://staysaasy.com/product/2022/03/23/expanding-saas-business.html</id>
+        <link href="https://staysaasy.com/product/2022/03/23/expanding-saas-business.html"/>
+        <updated>2022-03-23T14:59:22.000Z</updated>
+        <summary type="html"><![CDATA[SaaS growth is a multiple choice question rather than a free-response essay. Learn the standard ways to grow your SaaS business here.]]></summary>
+        <author>
+            <name>Stay SaaSy</name>
         </author>
     </entry>
     <entry>
@@ -2693,70 +2713,6 @@ Some claim that the background of certain organizers or participants as either a
 There may or may not be mer…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta’s AI Learning Alliance aims to expand pipeline of underrepresented students in AI]]></title>
-        <id>https://ai.facebook.com/blog/ai-learning-alliance/</id>
-        <link href="https://ai.facebook.com/blog/ai-learning-alliance/"/>
-        <updated>2022-02-23T10:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Meta is announcing the Artificial Intelligence Learning Alliance (AILA), an initiative to strengthen diversity and increase equity in the field of...]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some things about getaddrinfo that surprised me]]></title>
-        <id>https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/</id>
-        <link href="https://jvns.ca/blog/2022/02/23/getaddrinfo-is-kind-of-weird/"/>
-        <updated>2022-02-23T08:33:56.000Z</updated>
-        <summary type="html"><![CDATA[Hello! Here are some things you may or may not have noticed about DNS:
-when you resolve a DNS name in a Python program, it checks /etc/hosts, but when you use dig, it doesn’t.
-switching Linux distributions can sometimes change how your DNS works, for example if you use Alpine Linux instead of Ubuntu it can cause problems.
-Mac OS has DNS caching, but Linux doesn’t necessarily unless you use systemd-resolved or something
-To understand all of these, we need to learn about a function called
-getaddrinfo which is responsible for doing DNS lookups.
-There are a bunch of surprising-to-me things about getaddrinfo, and once I
-learned about them, it explained a bunch of the confusing DNS behaviour I’d
-seen in the past.
-where does getaddrinfo come from?
-getaddrinfo is part of a library called libc whic…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645488487&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645488487&amp;"/>
-        <updated>2022-02-23T01:05:50.011Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645488487&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645488487&amp;"/>
-        <updated>2022-02-23T01:05:50.009Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to land the job you really want]]></title>
-        <id>https://world.hey.com/jason/how-to-land-the-job-you-really-want-dcf208ab</id>
-        <link href="https://world.hey.com/jason/how-to-land-the-job-you-really-want-dcf208ab"/>
-        <updated>2022-02-22T18:06:30.000Z</updated>
-        <summary type="html"><![CDATA[As someone who's been hiring people for 23 years, I've seen, read, and reviewed tens of thousands of job applications.
-The ones that typically rise to the top are the ones that demonstrate effort to get this job, and not just any job.
-We recently hired our first Email Marketing Manager. Nearly 400 people applied for the position.
-As applications tend to do, they ranged from the basic resume, to the standard cover letter and resume, to the custom cover letter and resume, and, finally, some more creative approaches to stand out.
-I wanted to share one, in particular. This application is shared with the applicant's permission, although it's been slightly modified to remove personal information they weren't comfortable sharing publicly.
-Beyond it being an exceptionally good application — you'll know why when you see it — it was the one that got the person the job. This is who we hired. It's a great example of what really wanting the job can look like when you put in the extra effort to stand out in the right ways.
-Here it is, check it out: https://jobsapp.info/basecamp/]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>
