@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-25T01:07:50.397Z</updated>
+    <updated>2022-03-26T01:06:48.385Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A state of sunshine]]></title>
+        <id>https://world.hey.com/dhh/a-state-of-sunshine-17d0cb31</id>
+        <link href="https://world.hey.com/dhh/a-state-of-sunshine-17d0cb31"/>
+        <updated>2022-03-25T18:37:33.000Z</updated>
+        <summary type="html"><![CDATA[The contrast couldn't have been starker. About a year ago, we were going through a really difficult time at Basecamp, after instituting a new etiquette around societal politics at work. Twenty-odd employees took our 3-6 months severance offer, and we became the main characters on Twitter for a moment. Today, we've just finished a wonderful week in Miami hosting the first company meet-up in two and half years, connecting with all our many new awesome coworkers, celebrating a Basecamp that's bigger and on a better course than ever before, as well as cherishing the spirit, camaraderie, and optimism now present.
+This did not seem like an assured outcome in the darkest moments last year. When things are difficult, it's tempting to lose hope, regret your principles, and shrivel from the occasion…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transitioning to tech: How UX Researcher Jose Rodriguez came to work at Meta Singapore]]></title>
+        <id>https://research.facebook.com/blog/2022/3/transitioning-to-tech-how-ux-researcher-jose-rodriguez-came-to-work-at-meta-singapore/</id>
+        <link href="https://research.facebook.com/blog/2022/3/transitioning-to-tech-how-ux-researcher-jose-rodriguez-came-to-work-at-meta-singapore/"/>
+        <updated>2022-03-25T06:14:00.000Z</updated>
+        <summary type="html"><![CDATA[We reached out to UX Researcher Jose Rodriguez to learn more about his academic and professional background, his journey at Meta so far, and what it’s like to be a UX Researcher at Meta.]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Book Release: Closed Projects]]></title>
         <id>https://christine.website/blog/closed-projects-2022-03-24</id>
@@ -2626,93 +2647,6 @@ In this age of identitarianism, this presentation is not to be dismissed. I thin
         <summary type="html"><![CDATA[Posted on 2022-02-25]]></summary>
         <author>
             <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The advantages of large, long-running pull requests]]></title>
-        <id>https://world.hey.com/dhh/the-advantages-of-large-long-running-pull-requests-c33d913c</id>
-        <link href="https://world.hey.com/dhh/the-advantages-of-large-long-running-pull-requests-c33d913c"/>
-        <updated>2022-02-24T12:45:20.000Z</updated>
-        <summary type="html"><![CDATA[My favorite part of doing code reviews is to see all the trade-offs, design decisions, and changes in context together. You can't easily do that if your feature has been chopped into itty bitty pieces as independent pull requests under pressure never to let them run longer than a week. So at Basecamp, we let pull requests run as long as they need to encompass a complete feature or fix. That's everything from a few weeks up to as much as six (since we follow Shape Up).
-This approach isn't entirely without trade-offs. The longer your pull request is running off the main branch, the greater the chance that you'll have merge conflicts. But you can mitigate much of this by ensuring you keep your pull request up to date with main by frequently merging main into the pull request. I can appreciate…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645579534&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645579534&amp;"/>
-        <updated>2022-02-24T01:02:31.323Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645579534&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645579534&amp;"/>
-        <updated>2022-02-24T01:02:31.285Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.59.0]]></title>
-        <id>https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html</id>
-        <link href="https://blog.rust-lang.org/2022/02/24/Rust-1.59.0.html"/>
-        <updated>2022-02-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Rust team has published a new version of Rust, 1.59.0. Rust is a programming
-language that is empowering everyone to build reliable and efficient software.
-Today's release falls on the day in which the world's attention is captured by
-the sudden invasion of Ukraine by Putin's forces. Before going into the details
-of the new Rust release, we'd like to state that we stand in solidarity with the
-people of Ukraine and express our support for all people affected by this
-conflict.
-If you have a previous version of Rust installed via rustup, you can get 1.59.0
-with:
-rustup update stable
-
-If you don't have it already, you can get rustup
-from the appropriate page on our website, and check out the
-detailed release notes for 1.59.0 on GitHub.
-What's in 1.59.0 stable
-Inline assembly
-The Rust langu…]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four Links - February 23, 2022]]></title>
-        <id>https://plaintextproject.online/articles/2022/02/23/links.html</id>
-        <link href="https://plaintextproject.online/articles/2022/02/23/links.html"/>
-        <updated>2022-02-23T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Four links, focusing on Markdown]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Codespaces for the largest repositories just got faster]]></title>
-        <id>https://github.blog/2022-02-23-codespaces-largest-repositories-faster/</id>
-        <link href="https://github.blog/2022-02-23-codespaces-largest-repositories-faster/"/>
-        <updated>2022-02-23T18:10:01.000Z</updated>
-        <summary type="html"><![CDATA[The ability to prebuild codespaces is entering public beta. Enable fast environment creation times, regardless of the size and complexity of your repositories.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Equating blasphemy with violence legitimizes the inquisition]]></title>
-        <id>https://world.hey.com/dhh/equating-blasphemy-with-violence-legitimizes-the-inquisition-5b271760</id>
-        <link href="https://world.hey.com/dhh/equating-blasphemy-with-violence-legitimizes-the-inquisition-5b271760"/>
-        <updated>2022-02-23T15:48:29.000Z</updated>
-        <summary type="html"><![CDATA[By far the most furiously pushback I've received for writing about the Canadian trucker protest has come from calling it "peaceful". Objections to this term has taken many forms. But they all seek to justify the opposite label of "violent", no matter the blind logical leaps required.
-Some claim that the background of certain organizers or participants as either anti-government, white supremacist, trumpers, conferate-flag-wavers, or whatever means that even if there were no (or only isolated) violent acts, that this still rendered the protests at large violent. Others that "hateful rhetoric" or "unacceptable views" was violence in speech. Others still that incessant honking or blocked streets constituted violence against the peace and habitability of their city. 
-There may or may not be mer…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
