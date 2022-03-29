@@ -4,7 +4,18 @@
       "title": "tonsky.me",
       "feedUrl": "http://tonsky.me/blog/atom.xml",
       "siteUrl": "https://tonsky.me/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://tonsky.me/blog/horizon/",
+          "author": null,
+          "description": "Why editing is a crucial part of visual arts",
+          "link": "https://tonsky.me/blog/horizon/",
+          "publishedOn": "2022-03-28T00:00:00.000Z",
+          "wordCount": 1963,
+          "title": "Forbidden West and the Art of Editing",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "GolangCode",
@@ -216,6 +227,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/patterns-legacy-displacement/transitional-architecture.html",
+          "author": null,
+          "description": "The core to a successful legacy displacement is the gradual\n        replacement of legacy with new software, as this allows benefits to\n        delivered early and circumvents the risks of a Big Bang. During\n        displacement the legacy and new system will have to operate\n        simultaneously allowing behavior to be split between old and new.\n        \nIan Cartwright, Rob Horn, and James Lewis explain\n        how to build and\n        evolve a Transitional Architecture that supports this collaboration as it\n        changes over time. For this to work, intermediate configurations may require integrations\n        that have no place in the target architecture of the new system.\nOr to put this more directly - you will have to invest in work that\n        will be thrown away. \nmore…",
+          "link": "https://martinfowler.com/articles/patterns-legacy-displacement/transitional-architecture.html",
+          "publishedOn": "2022-03-28T18:49:00.000Z",
+          "wordCount": 2092,
+          "title": "Transitional Architecture",
+          "imageUrl": "https://martinfowler.com/articles/patterns-legacy-displacement/card.png"
+        },
         {
           "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#InvestInTheHiringProcess",
           "author": null,
@@ -491,6 +512,16 @@
       "siteUrl": "https://christine.website/blog",
       "articles": [
         {
+          "id": "https://christine.website/blog/3d-printing-openscad-2022-03-28",
+          "author": null,
+          "description": "Posted on 2022-03-28",
+          "link": "https://christine.website/blog/3d-printing-openscad-2022-03-28",
+          "publishedOn": "2022-03-28T00:00:00.000Z",
+          "wordCount": 1241,
+          "title": "Compiling Code to Matter in My Living Room",
+          "imageUrl": null
+        },
+        {
           "id": "https://christine.website/blog/closed-projects-2022-03-24",
           "author": null,
           "description": "Posted on 2022-03-24",
@@ -538,16 +569,6 @@
           "publishedOn": "2022-03-02T00:00:00.000Z",
           "wordCount": 1489,
           "title": "Want to Learn a New Language? Write a Blog Backend!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/nix-flakes-2-2022-02-27",
-          "author": null,
-          "description": "Posted on 2022-02-27",
-          "link": "https://christine.website/blog/nix-flakes-2-2022-02-27",
-          "publishedOn": "2022-02-27T00:00:00.000Z",
-          "wordCount": 2693,
-          "title": "Nix Flakes: Packages and How to Use Them",
           "imageUrl": null
         }
       ]

@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-03-28T01:21:10.230Z</updated>
+    <updated>2022-03-29T01:14:22.421Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Transitional Architecture]]></title>
+        <id>https://martinfowler.com/articles/patterns-legacy-displacement/transitional-architecture.html</id>
+        <link href="https://martinfowler.com/articles/patterns-legacy-displacement/transitional-architecture.html"/>
+        <updated>2022-03-28T18:49:00.000Z</updated>
+        <summary type="html"><![CDATA[The core to a successful legacy displacement is the gradual
+        replacement of legacy with new software, as this allows benefits to
+        delivered early and circumvents the risks of a Big Bang. During
+        displacement the legacy and new system will have to operate
+        simultaneously allowing behavior to be split between old and new.
+        
+Ian Cartwright, Rob Horn, and James Lewis explain
+        how to build and
+        evolve a Transitional Architecture that supports this collaboration as it
+        changes over time. For this to work, intermediate configurations may require integrations
+        that have no place in the target architecture of the new system.
+Or to put this more directly - you will have to invest in work that
+        will be thrown away. 
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
         <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645657427&amp;</id>
@@ -22,6 +45,26 @@
         <updated>2022-03-28T01:20:27.237Z</updated>
         <author>
             <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Forbidden West and the Art of Editing]]></title>
+        <id>https://tonsky.me/blog/horizon/</id>
+        <link href="https://tonsky.me/blog/horizon/"/>
+        <updated>2022-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Why editing is a crucial part of visual arts]]></summary>
+        <author>
+            <name>tonsky.me</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compiling Code to Matter in My Living Room]]></title>
+        <id>https://christine.website/blog/3d-printing-openscad-2022-03-28</id>
+        <link href="https://christine.website/blog/3d-printing-openscad-2022-03-28"/>
+        <updated>2022-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-03-28]]></summary>
+        <author>
+            <name>Xe's Blog</name>
         </author>
     </entry>
     <entry>
@@ -2606,16 +2649,6 @@ Diversify your life.]]></summary>
 Being able to read, in real time, about members of the Ukrainian parliament taking up arms, mixed together with pictures of walking the dog, is a deeply humanizing experience. Seeing Zelenskyy tweeting his calls wi…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nix Flakes: Packages and How to Use Them]]></title>
-        <id>https://christine.website/blog/nix-flakes-2-2022-02-27</id>
-        <link href="https://christine.website/blog/nix-flakes-2-2022-02-27"/>
-        <updated>2022-02-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-02-27]]></summary>
-        <author>
-            <name>Xe's Blog</name>
         </author>
     </entry>
 </feed>
