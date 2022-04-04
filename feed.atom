@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-03T01:19:54.288Z</updated>
+    <updated>2022-04-04T01:20:22.273Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The Most Important Performance Management Rule For Software Engineers]]></title>
+        <id>https://staysaasy.com/startups/2022/04/03/performance-management.html</id>
+        <link href="https://staysaasy.com/startups/2022/04/03/performance-management.html"/>
+        <updated>2022-04-03T14:59:22.000Z</updated>
+        <summary type="html"><![CDATA[Merge code every week. That’s what you should be saying to your new Software Engineer hire. Let’s discuss.]]></summary>
+        <author>
+            <name>Stay SaaSy</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Not a designer]]></title>
         <id>https://world.hey.com/jorge/not-a-designer-9673a458</id>
@@ -2623,48 +2633,6 @@ Moral outrages
 This book references an article titled Moral outrage in the digital age by Molly Crocket. "Moral outr…]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Video: C Programming on System 6 - Talking to the Modem]]></title>
-        <id>https://jcs.org/2022/03/05/serial</id>
-        <link href="https://jcs.org/2022/03/05/serial"/>
-        <updated>2022-03-05T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Starting work on adding a serial module to join the console and telnet inputs, to allow calls through a modem. I got stuck for a while trying to figure out why writes to the serial port would hang the machine.]]></summary>
-        <author>
-            <name>joshua stein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reframing it]]></title>
-        <id>https://world.hey.com/jason/reframing-it-0aa9ef7e</id>
-        <link href="https://world.hey.com/jason/reframing-it-0aa9ef7e"/>
-        <updated>2022-03-04T19:11:17.000Z</updated>
-        <summary type="html"><![CDATA[A friend of mine is pissed off.
-He hired someone to replace a bunch of windows at his house.
-The guy did the work. Poorly. And now it turns out he needs to have everything redone. Given how badly the job went, he's going to work with someone else to get it done right the second time.
-What's there isn't really salvageable. Even the windows themselves need to be reordered.
-It's a big number, it's real money.
-He's going to try to get some money back from the original guy who messed up the job, but it's a long road. Outcomes unknown.
-So he's staring at a big loss. He called me to talk about it.
-He asked me if I've ever experienced something like this, and how I coped with it.
-I absolutely have, and I've always found that how you frame it has a huge impact on how you feel about it. It allows you to move on.
-I told him the way I've approached this sort of thing in the past is to frame it as "overall, this job cost more than I expected", rather than "This guy fucked me, I'm out $X, and now I have to pay someone else $Y more to redo it".
-Yes, the total is the same, but one involves loss while the other involves missed expectations. I find it a lot easier to deal with underestimating total cost than feeling like I got screwed. Construction projects frequently go over budget. People deal with this all the time. The community is large! You're a member now.
-Loss aversion is of course how it's described, but applying technical definitions doesn't often change how you feel. Being able to reframe it does.]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The 2030 Self-Driving Car Bet]]></title>
-        <id>62225c0cca10de003db5e1f7</id>
-        <link href="https://blog.codinghorror.com/the-2030-self-driving-car-bet/"/>
-        <updated>2022-03-04T18:53:32.000Z</updated>
-        <summary type="html"><![CDATA[It's my honor to announce that John Carmack and I have initiated a friendly bet of $10,000* to the 501(c)(3) charity of the winner’s choice:
-By January 1st, 2030, completely autonomous self-driving cars meeting SAE J3016 level 5 will be commercially available for]]></summary>
-        <author>
-            <name>Jeff Atwood</name>
         </author>
     </entry>
 </feed>
