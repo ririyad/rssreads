@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-04T01:20:22.273Z</updated>
+    <updated>2022-04-05T01:14:02.161Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Writing for yourself]]></title>
+        <id>https://world.hey.com/jorge/writing-for-yourself-c25a5a13</id>
+        <link href="https://world.hey.com/jorge/writing-for-yourself-c25a5a13"/>
+        <updated>2022-04-04T20:13:04.000Z</updated>
+        <summary type="html"><![CDATA[This question applies to most people, and it certainly applies to me: does it make sense to write without an audience?
+
+
+It does.
+
+
+One of my favorite books is Pragmatic thinking and learning by Andy Hunt. It's a book about how our brains work, which is a subject I find fascinating. A core concept it develops is how our brains operate in two modes: the linear and logical (L-mode); and the intuitive, holistic, and magically powerful (R-mode)¹:
+
+
+R-mode is critical for intuition, problem-solving, and creativity. L-mode gives you the power to work through the details and make things happen.
+
+
+You need to leverage both modes in any creative endeavor, which is easier said than done. L-mode is deliberate: it happens when you focus and concentrate. R-mode, however, can't be commanded, only invite…]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.60.0 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html"/>
+        <updated>2022-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.60.0 pre-release is ready for testing. The release is scheduled for this
+Thursday, April 7th. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2022-04-04/index.html. You
+can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The Most Important Performance Management Rule For Software Engineers]]></title>
         <id>https://staysaasy.com/startups/2022/04/03/performance-management.html</id>
@@ -2614,25 +2654,6 @@ Last week one particular QuickB…]]></summary>
         <summary type="html"><![CDATA[Posted on 2022-03-07]]></summary>
         <author>
             <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Social media evilness]]></title>
-        <id>https://world.hey.com/jorge/social-media-evilness-a32be7c7</id>
-        <link href="https://world.hey.com/jorge/social-media-evilness-a32be7c7"/>
-        <updated>2022-03-06T09:16:12.000Z</updated>
-        <summary type="html"><![CDATA[Why are so many people so awful towards other people on Twitter? How can there be this massive gap between how people conduct themselves on Twitter and in real life? I've always found fascinating how our brains work, and I was sure there would be good answers out there.
-
-
-I've read a few books and articles on social media issues lately, but I didn't find clear answers until I grabbed Social Warming, by Charles Arthur. A recurring problem with many books is that they provide plenty of examples and evidence, but they don't explain the science or existing research. This book covers both; it's a joy to read and includes insights about this particular concern and many others.
-
-
-Moral outrages
-
-
-This book references an article titled Moral outrage in the digital age by Molly Crocket. "Moral outr…]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
         </author>
     </entry>
 </feed>

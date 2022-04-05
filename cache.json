@@ -284,6 +284,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html",
+          "author": null,
+          "description": "The 1.60.0 pre-release is ready for testing. The release is scheduled for this\nThursday, April 7th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-04-04/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html",
+          "publishedOn": "2022-04-04T00:00:00.000Z",
+          "wordCount": 144,
+          "title": "1.60.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2022/03/31/cargo-team-changes.html",
           "author": null,
           "description": "We are thrilled to publicly announce that Weihang\nLo and Ed Page\nhave joined the Cargo Team!\nWeihang has been providing thoughtful and helpful replies on our issue\ntracker. He has often had the patience to explain to people what problem\nthey're hitting and how to get unstuck. He often summarizes technical\nconversations clearly describing the available solutions and their costs both\ntechnical and more importantly human. He has also been contributing to many\nimprovements and code reviews.\nEd has been a champion on many fronts. He has done tremendous work on\ntoml_edit to push Cargo towards getting\ncargo add merged in cargo\nproper. He has brought\nclap to the momentous 3.0 release and\ncontinues to push on CLI improvements, more advanced testing tools, and much\nmore!\nAt the same time one of the …",
@@ -331,6 +341,16 @@
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
         {
+          "id": "https://world.hey.com/jorge/writing-for-yourself-c25a5a13",
+          "author": null,
+          "description": "This question applies to most people, and it certainly applies to me: does it make sense to write without an audience?\n\n\nIt does.\n\n\nOne of my favorite books is Pragmatic thinking and learning by Andy Hunt. It's a book about how our brains work, which is a subject I find fascinating. A core concept it develops is how our brains operate in two modes: the linear and logical (L-mode); and the intuitive, holistic, and magically powerful (R-mode)¹:\n\n\nR-mode is critical for intuition, problem-solving, and creativity. L-mode gives you the power to work through the details and make things happen.\n\n\nYou need to leverage both modes in any creative endeavor, which is easier said than done. L-mode is deliberate: it happens when you focus and concentrate. R-mode, however, can't be commanded, only invite…",
+          "link": "https://world.hey.com/jorge/writing-for-yourself-c25a5a13",
+          "publishedOn": "2022-04-04T20:13:04.000Z",
+          "wordCount": 535,
+          "title": "Writing for yourself",
+          "imageUrl": "https://world.hey.com/jorge/c25a5a13/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCUDV5aWkwPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a385850a9a7784a8b32452b5d9f61fb0bc9ca453/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/writing.png"
+        },
+        {
           "id": "https://world.hey.com/jorge/not-a-designer-9673a458",
           "author": null,
           "description": "I love design (as in product design). It's a discipline I have tried to educate myself at, and it's what I appreciate the most in any product I use. And yet, I'm terrible at it. I have empirical evidence that it's not my thing. But I can't help having strong opinions on how things should be designed. A contradiction, you see, HELP!\nI genuinely admire the products we build at Basecamp. I would pay for Basecamp and HEY, and I wholeheartedly recommend them to others. I consider them incredibly well-designed products. So, what should I do with the many opinions and ideas I have when I see something is being cooked? I often feel the temptation to speak up, but then I decide to shut up and wait, and I rarely regret it.\nI think it is a common problem in any situation where you are a spectator, es…",
@@ -359,16 +379,6 @@
           "wordCount": 529,
           "title": "Critical code path changes with scientist",
           "imageUrl": "https://world.hey.com/jorge/a3becb84/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCSUZ0RkN3PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0cb455541b7103eccee59c944a7e53e4f425a2e1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/indiana-jones-change.jpeg"
-        },
-        {
-          "id": "https://world.hey.com/jorge/social-media-evilness-a32be7c7",
-          "author": null,
-          "description": "Why are so many people so awful towards other people on Twitter? How can there be this massive gap between how people conduct themselves on Twitter and in real life? I've always found fascinating how our brains work, and I was sure there would be good answers out there.\n\n\nI've read a few books and articles on social media issues lately, but I didn't find clear answers until I grabbed Social Warming, by Charles Arthur. A recurring problem with many books is that they provide plenty of examples and evidence, but they don't explain the science or existing research. This book covers both; it's a joy to read and includes insights about this particular concern and many others.\n\n\nMoral outrages\n\n\nThis book references an article titled Moral outrage in the digital age by Molly Crocket. \"Moral outr…",
-          "link": "https://world.hey.com/jorge/social-media-evilness-a32be7c7",
-          "publishedOn": "2022-03-06T09:16:12.000Z",
-          "wordCount": 1224,
-          "title": "Social media evilness",
-          "imageUrl": "https://world.hey.com/jorge/a32be7c7/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCTU01b0NzPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ab9e1bc859dc932cde0c91e03e5441eb06b0d46d/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/pelly-benassi-Hz1WQbHcXag-unsplash.jpg"
         }
       ]
     },
