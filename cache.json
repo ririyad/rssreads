@@ -119,16 +119,6 @@
           "wordCount": 715,
           "title": "The antidote to social media is being more social",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-long-argument-92458868",
-          "author": null,
-          "description": "It's rare that an argument is so strong that'll immediately pierce through all the cognitive defenses an opposing mind might muster. So if you only weigh an argument's worth on whether it served to convert someone to your perspective this instant, you'll usually be disappointed. \"Right now, right here\" is a bad timeframe to measure the success of your arguments on. There's a long tail of conversion.\nBecause even when the best arguments fail to breach the mental walls, they often leave cracks. Cracks which time, new observations, and deeper consideration can open. Until the walls finally crumble, and a perspective is let in.\nThis might happen five minutes after the debate is over, two weeks later, or even a couple of years from now. Some arguments cause cracks that can take a decade or more…",
-          "link": "https://world.hey.com/dhh/the-long-argument-92458868",
-          "publishedOn": "2022-03-07T08:53:55.000Z",
-          "wordCount": 402,
-          "title": "The long argument",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
         }
       ]
     },
@@ -284,6 +274,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html",
+          "author": null,
+          "description": "Note: this blog post is a snapshot of the living roadmap at\nhttps://lang-team.rust-lang.org/roadmaps/roadmap-2024.html. Subsequent\nchanges may occur in that version, but not in this blog post. Please see that\npage for the most up-to-date version.\nLang Team Roadmap 2024\nRust 1.0 was released in 2015. Since that time, we've seen Rust grow from a\nsmall language used for a handful of prominent projects into a mainstay in use\nat virtually every major tech company.\nAs we work towards Rust 2024, it's natural to ask what's next for the language.\nThis roadmap provides insight into that question by describing what we, as\nmembers of the lang team with input from other Rust teams, would like to\nprioritize.\nWe have two goals with this roadmap:\nto give people a sense for what to expect in Rust over the …",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html",
+          "publishedOn": "2022-04-04T00:00:00.000Z",
+          "wordCount": 3192,
+          "title": "Rust Lang Roadmap for 2024",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html",
           "author": null,
           "description": "The 1.60.0 pre-release is ready for testing. The release is scheduled for this\nThursday, April 7th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-04-04/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
@@ -388,6 +388,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-04-05-4-ways-we-use-github-actions-to-build-github/",
+          "author": null,
+          "description": "From automating builds and releases to taking care of large-scale regression testing, here are a few ways we use GitHub Actions to build GitHub.",
+          "link": "https://github.blog/2022-04-05-4-ways-we-use-github-actions-to-build-github/",
+          "publishedOn": "2022-04-05T15:50:13.000Z",
+          "wordCount": 2107,
+          "title": "4 ways we use GitHub Actions to build GitHub",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Company@2x.png?fit=2400%2C1260"
+        },
+        {
           "id": "https://github.blog/2022-03-31-how-github-does-take-home-technical-interviews/",
           "author": null,
           "description": "We believe our technical interviews should be as similar as possible to the way we work at GitHub.",
@@ -414,6 +424,16 @@
       "feedUrl": "https://research.facebook.com/feed/",
       "siteUrl": "https://research.facebook.com/",
       "articles": [
+        {
+          "id": "https://research.facebook.com/blog/2022/4/meta-launches-new-research-award-opportunity-in-networking-for-ai-at-nsdi-2022/",
+          "author": null,
+          "description": "Meta launches new research award opportunity in networking for AI at NSDI 2022",
+          "link": "https://research.facebook.com/blog/2022/4/meta-launches-new-research-award-opportunity-in-networking-for-ai-at-nsdi-2022/",
+          "publishedOn": "2022-04-05T05:48:28.000Z",
+          "wordCount": 991,
+          "title": "Meta launches new research award opportunity in networking for AI at NSDI 2022",
+          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.8562-6/277536884_664973777895749_5812629694015457349_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=6825c5&_nc_ohc=nr2JxQblcP8AX_Mlp6V&_nc_ht=scontent-iad3-1.xx&oh=00_AT8a0JeoAGedt5ErsgRG-PPIAPzS3SPyMczc0VL94llNsA&oe=6252A1B4"
+        },
         {
           "id": "https://research.facebook.com/blog/2022/4/four-core-data-science-research-scientists-discuss-remote-hybrid-and-in-person-work-options-at-meta/",
           "author": null,
@@ -492,16 +512,6 @@
           "wordCount": 1896,
           "title": "A flexible, lightweight, spin-lock barrier",
           "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2022/03/07/",
-          "author": null,
-          "description": "Wordle is all the rage, resulting in an explosion of hobbyist clones,\nwith new ones appearing every day. At the current rate I estimate by the\nend of 2022 that 99% of all new software releases will be Wordle clones.\nThat’s no surprise since the rules are simple, it’s more fun to implement\nand study than to actually play, and the hard part is building a decent\nuser interface. Such implementations go back at least 30 years.\nImplementers get to decide on a platform, language, and the particular\nsubject of this article: how to handle the word list. Is it a separate\nfile/database or embedded in the program? If embedded, is it\nworth compressing? In this article I’ll present a simple, tailored Wordle\nlist compression strategy that beats general purpose compressors.\nLast week one particular QuickB…",
-          "link": "https://nullprogram.com/blog/2022/03/07/",
-          "publishedOn": "2022-03-07T03:22:41.000Z",
-          "wordCount": 3080,
-          "title": "Compressing and embedding a Wordle word list",
-          "imageUrl": null
         }
       ]
     },
@@ -558,16 +568,6 @@
           "publishedOn": "2022-03-17T00:00:00.000Z",
           "wordCount": 2647,
           "title": "Technical Solutions Poorly Solve Social Problems",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/pokemon-legends-arceus-review-2022-03-07",
-          "author": null,
-          "description": "Posted on 2022-03-07",
-          "link": "https://christine.website/blog/pokemon-legends-arceus-review-2022-03-07",
-          "publishedOn": "2022-03-07T00:00:00.000Z",
-          "wordCount": 3196,
-          "title": "Pokémon Legends Arceus Review",
           "imageUrl": null
         }
       ]

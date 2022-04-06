@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-05T01:14:02.161Z</updated>
+    <updated>2022-04-06T01:16:42.117Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[4 ways we use GitHub Actions to build GitHub]]></title>
+        <id>https://github.blog/2022-04-05-4-ways-we-use-github-actions-to-build-github/</id>
+        <link href="https://github.blog/2022-04-05-4-ways-we-use-github-actions-to-build-github/"/>
+        <updated>2022-04-05T15:50:13.000Z</updated>
+        <summary type="html"><![CDATA[From automating builds and releases to taking care of large-scale regression testing, here are a few ways we use GitHub Actions to build GitHub.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta launches new research award opportunity in networking for AI at NSDI 2022]]></title>
+        <id>https://research.facebook.com/blog/2022/4/meta-launches-new-research-award-opportunity-in-networking-for-ai-at-nsdi-2022/</id>
+        <link href="https://research.facebook.com/blog/2022/4/meta-launches-new-research-award-opportunity-in-networking-for-ai-at-nsdi-2022/"/>
+        <updated>2022-04-05T05:48:28.000Z</updated>
+        <summary type="html"><![CDATA[Meta launches new research award opportunity in networking for AI at NSDI 2022]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Writing for yourself]]></title>
         <id>https://world.hey.com/jorge/writing-for-yourself-c25a5a13</id>
@@ -26,6 +46,29 @@ R-mode is critical for intuition, problem-solving, and creativity. L-mode gives 
 You need to leverage both modes in any creative endeavor, which is easier said than done. L-mode is deliberate: it happens when you focus and concentrate. R-mode, however, can't be commanded, only invite…]]></summary>
         <author>
             <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust Lang Roadmap for 2024]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html"/>
+        <updated>2022-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Note: this blog post is a snapshot of the living roadmap at
+https://lang-team.rust-lang.org/roadmaps/roadmap-2024.html. Subsequent
+changes may occur in that version, but not in this blog post. Please see that
+page for the most up-to-date version.
+Lang Team Roadmap 2024
+Rust 1.0 was released in 2015. Since that time, we've seen Rust grow from a
+small language used for a handful of prominent projects into a mainstay in use
+at virtually every major tech company.
+As we work towards Rust 2024, it's natural to ask what's next for the language.
+This roadmap provides insight into that question by describing what we, as
+members of the lang team with input from other Rust teams, would like to
+prioritize.
+We have two goals with this roadmap:
+to give people a sense for what to expect in Rust over the …]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
         </author>
     </entry>
     <entry>
@@ -2611,49 +2654,6 @@ Overview
 The regex crate features built-in mitigations to prevent …]]></summary>
         <author>
             <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The long argument]]></title>
-        <id>https://world.hey.com/dhh/the-long-argument-92458868</id>
-        <link href="https://world.hey.com/dhh/the-long-argument-92458868"/>
-        <updated>2022-03-07T08:53:55.000Z</updated>
-        <summary type="html"><![CDATA[It's rare that an argument is so strong that'll immediately pierce through all the cognitive defenses an opposing mind might muster. So if you only weigh an argument's worth on whether it served to convert someone to your perspective this instant, you'll usually be disappointed. "Right now, right here" is a bad timeframe to measure the success of your arguments on. There's a long tail of conversion.
-Because even when the best arguments fail to breach the mental walls, they often leave cracks. Cracks which time, new observations, and deeper consideration can open. Until the walls finally crumble, and a perspective is let in.
-This might happen five minutes after the debate is over, two weeks later, or even a couple of years from now. Some arguments cause cracks that can take a decade or more…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compressing and embedding a Wordle word list]]></title>
-        <id>https://nullprogram.com/blog/2022/03/07/</id>
-        <link href="https://nullprogram.com/blog/2022/03/07/"/>
-        <updated>2022-03-07T03:22:41.000Z</updated>
-        <summary type="html"><![CDATA[Wordle is all the rage, resulting in an explosion of hobbyist clones,
-with new ones appearing every day. At the current rate I estimate by the
-end of 2022 that 99% of all new software releases will be Wordle clones.
-That’s no surprise since the rules are simple, it’s more fun to implement
-and study than to actually play, and the hard part is building a decent
-user interface. Such implementations go back at least 30 years.
-Implementers get to decide on a platform, language, and the particular
-subject of this article: how to handle the word list. Is it a separate
-file/database or embedded in the program? If embedded, is it
-worth compressing? In this article I’ll present a simple, tailored Wordle
-list compression strategy that beats general purpose compressors.
-Last week one particular QuickB…]]></summary>
-        <author>
-            <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pokémon Legends Arceus Review]]></title>
-        <id>https://christine.website/blog/pokemon-legends-arceus-review-2022-03-07</id>
-        <link href="https://christine.website/blog/pokemon-legends-arceus-review-2022-03-07"/>
-        <updated>2022-03-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-03-07]]></summary>
-        <author>
-            <name>Xe's Blog</name>
         </author>
     </entry>
 </feed>
