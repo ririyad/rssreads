@@ -2,10 +2,97 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-06T01:16:42.117Z</updated>
+    <updated>2022-04-07T01:15:40.432Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#12]]]></title>
+        <id>https://world.hey.com/jason/heard-something-read-something-saw-something-12-2d58940c</id>
+        <link href="https://world.hey.com/jason/heard-something-read-something-saw-something-12-2d58940c"/>
+        <updated>2022-04-07T00:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey!
+Back again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...
+Heard Something
+My friend Bob Moesta is out with a new podcast on product development and innovation, and this 27-minute episode is an especially good one. By the end, you'll have a new framework for thinking about the difference between pizza and steak. This is very good stuff.
+Hear it: https://podcasts.apple.com/us/podcast/2-the-secret-language-of-bob-isms/id1617350970?i=1000556255967 
+Read Something
+This one's been making the rounds, so you may have read it already, but this letter from producer Steve Albini to Nirvana is wonderfully clear and casual, which makes it perfectly suited to the cause. How could you not hire him after reading this? Everything about this letter suggests understanding, fairness, devotion, reverence, professionalism, heart, and mind.
+Read it: https://news.lettersofnote.com/p/nirvana
+Saw Something
+Condor airlines is out with new livery. It's quite different from other airlines. I like it.
+See it: https://www.condor.com/us/fly-with-us/condor-partner/our-new-look.jsp
+Until next time.
+BTW, if you like these, and think someone else might too, please forward it on. You/they can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.
+
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Creating a Nice-Looking PDF with pandoc]]></title>
+        <id>https://plaintextproject.online/articles/2022/04/06/pdf.html</id>
+        <link href="https://plaintextproject.online/articles/2022/04/06/pdf.html"/>
+        <updated>2022-04-06T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A quick look at how to convert a Markdown file to a nice-looking PDF using pandoc and CSS]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: March 2022]]></title>
+        <id>https://github.blog/2022-04-06-github-availability-report-march-2022/</id>
+        <link href="https://github.blog/2022-04-06-github-availability-report-march-2022/"/>
+        <updated>2022-04-06T18:45:52.000Z</updated>
+        <summary type="html"><![CDATA[In March, we experienced several incidents resulting in significant impact to multiple GitHub services.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Prevent the introduction of known vulnerabilities into your code]]></title>
+        <id>https://github.blog/2022-04-06-prevent-introduction-known-vulnerabilities-into-your-code/</id>
+        <link href="https://github.blog/2022-04-06-prevent-introduction-known-vulnerabilities-into-your-code/"/>
+        <updated>2022-04-06T18:13:40.000Z</updated>
+        <summary type="html"><![CDATA[The new dependency review action and API prevents the introduction of known supply chain vulnerabilities into your code.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta VP of Security Engineering Clyde Rodriguez discusses new research award opportunities]]></title>
+        <id>https://research.facebook.com/blog/2022/4/meta-vp-of-security-engineering-clyde-rodriguez-discusses-new-research-award-opportunities/</id>
+        <link href="https://research.facebook.com/blog/2022/4/meta-vp-of-security-engineering-clyde-rodriguez-discusses-new-research-award-opportunities/"/>
+        <updated>2022-04-06T04:59:44.000Z</updated>
+        <summary type="html"><![CDATA[To learn more about these RFPs, we reached out to Clyde Rodriguez, Vice President on the Security Engineering team at Meta.]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lang team April update]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/04/06/lang-team-april-update.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/04/06/lang-team-april-update.html"/>
+        <updated>2022-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, the lang team held its April planning meeting. We hold these meetings on the first Wednesday of every month, and we use them to schedule design meetings for the remainder of the month.
+Upcoming design meetings
+We have planned the following design meetings:
+2021-04-13: Implied bounds and perfect derive
+2021-04-20: Language design research overview
+2021-04-27: Backlog Bonanza
+Design meeting expectations
+The document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.
+
+If it is not sent out by then, the meeting will be replaced with a Backlog Bonanza session. This gives folks 24 hour notice.
+There is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.
+
+However, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[4 ways we use GitHub Actions to build GitHub]]></title>
         <id>https://github.blog/2022-04-05-4-ways-we-use-github-actions-to-build-github/</id>
@@ -2597,63 +2684,6 @@ This article, by Tim Cochran and Carl
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The antidote to social media is being more social]]></title>
-        <id>https://world.hey.com/dhh/the-antidote-to-social-media-is-being-more-social-983eac16</id>
-        <link href="https://world.hey.com/dhh/the-antidote-to-social-media-is-being-more-social-983eac16"/>
-        <updated>2022-03-08T10:49:45.000Z</updated>
-        <summary type="html"><![CDATA[I'm usually not one for coffee appointments or long business lunches, but since the pandemic restrictions were once again nixed a few months ago in Denmark, I've had the calendar packed with exactly such engagements. It's been a revelation.
-Part of this came as a result of giving an interview to the Danish magazine Computerworld about getting involved in the local startup scene. Some of it from getting on LinkedIn. But just as much came from simply flipping my default from no/later to yes/now when old friends and acquaintances from the industry reached out.
-The first revelation was that no matter how introvert you are, spending time face-to-face with others after prolonged periods of isolation is nourishing in a profound and human way (even if it's also exhausting). And our family weren't …]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Some tiny personal programs I've written]]></title>
-        <id>https://jvns.ca/blog/2022/03/08/tiny-programs/</id>
-        <link href="https://jvns.ca/blog/2022/03/08/tiny-programs/"/>
-        <updated>2022-03-08T08:35:56.000Z</updated>
-        <summary type="html"><![CDATA[I was talking to a friend last summer about what resources might be helpful for
-folks learning to program. My friend said they thought some people might
-benefit from a list of small and fun programming projects – the kind of thing
-you can do in an evening or weekend.
-So let’s talk about that! I like to write small programs that have some
-marginal utility in my life. Kind of like this:
-ah! A minor problem in my life!
-I know, I bet I can solve this problem with CODE. YAY.
-4 hours of happy programming ensues
-This isn’t always the most practical (many of the problems I’ve
-solved with programming could have been solved in less time in other ways), but
-as long as your goal is actually to have fun programming and your programs
-don’t hurt anyone else, I think this is a great approach :)
-So here ar…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security advisory for the regex crate (CVE-2022-24713)]]></title>
-        <id>https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html</id>
-        <link href="https://blog.rust-lang.org/2022/03/08/cve-2022-24713.html"/>
-        <updated>2022-03-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a cross-post of the official security advisory. The
-official advisory contains a signed version with our PGP key, as well.
-The Rust Security Response WG was notified that the regex crate did not
-properly limit the complexity of the regular expressions (regex) it parses. An
-attacker could use this security issue to perform a denial of service, by
-sending a specially crafted regex to a service accepting untrusted regexes. No
-known vulnerability is present when parsing untrusted input with trusted
-regexes.
-This issue has been assigned CVE-2022-24713. The severity of this vulnerability
-is "high" when the regex crate is used to parse untrusted regexes. Other uses
-of the regex crate are not affected by this vulnerability.
-Overview
-The regex crate features built-in mitigations to prevent …]]></summary>
-        <author>
-            <name>Rust Blog</name>
         </author>
     </entry>
 </feed>
