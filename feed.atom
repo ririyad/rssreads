@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-07T01:15:40.432Z</updated>
+    <updated>2022-04-08T01:14:26.996Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Git Credential Manager: authentication for everyone]]></title>
+        <id>https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/</id>
+        <link href="https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/"/>
+        <updated>2022-04-07T18:00:41.000Z</updated>
+        <summary type="html"><![CDATA[Ensuring secure access to your source code is more important than ever. Git Credential Manager helps make that easy.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#12]]]></title>
         <id>https://world.hey.com/jason/heard-something-read-something-saw-something-12-2d58940c</id>
@@ -29,6 +39,37 @@ BTW, if you like these, and think someone else might too, please forward it on. 
 -Jason]]></summary>
         <author>
             <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.60.0]]></title>
+        <id>https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html</id>
+        <link href="https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html"/>
+        <updated>2022-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.60.0. Rust is a programming language empowering everyone to build reliable and efficient software.
+If you have a previous version of Rust installed via rustup, you can get 1.60.0 with:
+rustup update stable
+
+If you don't have it already, you can get rustup
+from the appropriate page on our website, and check out the
+detailed release notes for 1.60.0 on GitHub.
+If you'd like to help us out by testing future releases, you might consider updating locally to use
+the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
+What's in 1.60.0 stable
+Source-based Code Coverage
+Support for LLVM-based coverage instrumentation has been stabilized in rustc. You can try this…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nix Flakes: Exposing and using NixOS Modules]]></title>
+        <id>https://christine.website/blog/nix-flakes-3-2022-04-07</id>
+        <link href="https://christine.website/blog/nix-flakes-3-2022-04-07"/>
+        <updated>2022-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-04-07]]></summary>
+        <author>
+            <name>Xe's Blog</name>
         </author>
     </entry>
     <entry>
@@ -2636,54 +2677,6 @@ more…]]></summary>
 I think one of the reasons my post on being wrong about crypto took off to such an extraordinary degree (the tweet was seen five million times; it was the most read thing ever posted to HEY World) was exactly because it seemed like a very expensive reversal. I had sp…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lang team March update]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html"/>
-        <updated>2022-03-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[wo weeks ago, the lang team held its March planning meeting (minutes). We hold these meetings on the first Wednesday of every month and we use them to schedule design meetings for the remainder of the month.
-Upcoming design meetings
-We have planned the following design meetings:
-March 9: Draft lang team roadmap (this already happened! minutes)
-March 16: Backlog bonanza
-March 23: Return Position Impl Trait in Dyn Trait (RPITIDT) lang-team#144
-March 30: Lint policy lang-team#132
-Design meeting expectations
-The document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.
-
-If it is not sent out by then, the meeting will be canceled. This gives folks 24 hour notice.
-There is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.
-
-However, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bottlenecks of Scaleups: How did you get tech debt?]]></title>
-        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html</id>
-        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html"/>
-        <updated>2022-03-08T14:40:00.000Z</updated>
-        <summary type="html"><![CDATA[In its early days, a startup searches for a good product-market fit.
-      When it finds one it looks to grow rapidly, a phase known as a scaleup. At
-      this time it's growing rapidly along many dimensions: revenues, customer,
-      headcount. At Thoughtworks, we've worked with many such scaleups, and our
-      work has focused on how to help them overcome various bottlenecks that
-      impede this growth. As we've done this work, my colleagues have noticed common
-      bottlenecks, and learned approaches to deal with them. 
-This article, by Tim Cochran and Carl
-      Nygard, is the first in a series that examines these bottlenecks,
-      in this case looking at the problem of a startup accumulating
-      technical debt. This bottleneck is a common one, and like most
-      bottlenecks it isn't necessarily due to bad work so far, but more due to
-      the change of context that rapid growth imposes on a company. We begin the
-      article by explaining how this bottleneck appears and what the key signs
-      are the bottleneck is slowing progress.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>

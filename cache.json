@@ -236,16 +236,6 @@
           "wordCount": 4023,
           "title": "How to get out of the tech debt bottleneck",
           "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html",
-          "author": null,
-          "description": "In its early days, a startup searches for a good product-market fit.\n      When it finds one it looks to grow rapidly, a phase known as a scaleup. At\n      this time it's growing rapidly along many dimensions: revenues, customer,\n      headcount. At Thoughtworks, we've worked with many such scaleups, and our\n      work has focused on how to help them overcome various bottlenecks that\n      impede this growth. As we've done this work, my colleagues have noticed common\n      bottlenecks, and learned approaches to deal with them. \nThis article, by Tim Cochran and Carl\n      Nygard, is the first in a series that examines these bottlenecks,\n      in this case looking at the problem of a startup accumulating\n      technical debt. This bottleneck is a common one, and like most\n      bottlenecks it isn't necessarily due to bad work so far, but more due to\n      the change of context that rapid growth imposes on a company. We begin the\n      article by explaining how this bottleneck appears and what the key signs\n      are the bottleneck is slowing progress.\nmore…",
-          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/01-tech-debt.html",
-          "publishedOn": "2022-03-08T14:40:00.000Z",
-          "wordCount": 2477,
-          "title": "Bottlenecks of Scaleups: How did you get tech debt?",
-          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
         }
       ]
     },
@@ -265,7 +255,18 @@
       "title": "Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html",
+          "author": null,
+          "description": "The Rust team is happy to announce a new version of Rust, 1.60.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.60.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.60.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use\nthe beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.60.0 stable\nSource-based Code Coverage\nSupport for LLVM-based coverage instrumentation has been stabilized in rustc. You can try this…",
+          "link": "https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html",
+          "publishedOn": "2022-04-07T00:00:00.000Z",
+          "wordCount": 1221,
+          "title": "Announcing Rust 1.60.0",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        }
+      ]
     },
     {
       "title": "Inside Rust Blog",
@@ -331,16 +332,6 @@
           "wordCount": 437,
           "title": "Rust Compiler March 2022 Steering Cycle",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html",
-          "author": null,
-          "description": "wo weeks ago, the lang team held its March planning meeting (minutes). We hold these meetings on the first Wednesday of every month and we use them to schedule design meetings for the remainder of the month.\nUpcoming design meetings\nWe have planned the following design meetings:\nMarch 9: Draft lang team roadmap (this already happened! minutes)\nMarch 16: Backlog bonanza\nMarch 23: Return Position Impl Trait in Dyn Trait (RPITIDT) lang-team#144\nMarch 30: Lint policy lang-team#132\nDesign meeting expectations\nThe document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.\n\nIf it is not sent out by then, the meeting will be canceled. This gives folks 24 hour notice.\nThere is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.\n\nHowever, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/03/09/lang-team-mar-update.html",
-          "publishedOn": "2022-03-09T00:00:00.000Z",
-          "wordCount": 242,
-          "title": "Lang team March update",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -396,6 +387,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/",
+          "author": null,
+          "description": "Ensuring secure access to your source code is more important than ever. Git Credential Manager helps make that easy.",
+          "link": "https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/",
+          "publishedOn": "2022-04-07T18:00:41.000Z",
+          "wordCount": 2241,
+          "title": "Git Credential Manager: authentication for everyone",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/gcm-social.png"
+        },
         {
           "id": "https://github.blog/2022-04-06-github-availability-report-march-2022/",
           "author": null,
@@ -559,6 +560,16 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/nix-flakes-3-2022-04-07",
+          "author": null,
+          "description": "Posted on 2022-04-07",
+          "link": "https://christine.website/blog/nix-flakes-3-2022-04-07",
+          "publishedOn": "2022-04-07T00:00:00.000Z",
+          "wordCount": 2161,
+          "title": "Nix Flakes: Exposing and using NixOS Modules",
+          "imageUrl": null
+        },
         {
           "id": "https://christine.website/blog/recruiters-correct-name-2022-04-01",
           "author": null,
