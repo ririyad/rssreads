@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-15T01:19:47.007Z</updated>
+    <updated>2022-04-16T01:15:18.003Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Putting Ideas into Words]]></title>
+        <id>http://www.paulgraham.com/words.html</id>
+        <link href="http://www.paulgraham.com/words.html"/>
+        <updated>2022-04-16T01:14:33.891Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rust Compiler April 2022 Steering Cycle]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html"/>
+        <updated>2022-04-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On Friday, April 8th, the Rust Compiler team had a planning meeting for the April 2022 steering cycle.
+Every fourth Friday, the Rust compiler team decides how
+it is going to use its scheduled steering and design meeting time over the next
+three Fridays.
+I want to apologize for how late I am posting this message: Our planning meeting
+was a week ago, and my intent each cycle is to put up this post that day, so
+that everyone, not just the compiler team members, has a chance participate in
+the meetings. But, since this is going out a week late, it means one of the
+meetings already happened (today).
+On Friday, 15 April, we discussed salsa 2.0's entity design. Salsa
+is a generic framework for on-demand incrementalized computation, which has many
+ties to rustc's query system. Niko Matsakis author…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Q&A with Stefano Leonardi, professor and principal investigator at Sapienza University of Rome]]></title>
         <id>https://research.facebook.com/blog/2022/4/qa-with-stefano-leonardi-professor-and-principal-investigator-at-sapienza-university-of-rome/</id>
@@ -2556,41 +2586,6 @@ know what]]></summary>
 Because if you don't, if you block the graceful exit, you'll end up pushing those with doubts who are ready to leave right back into their former doctrines. Few humans can weather the world without companions. Most will choose comfort among compatriots, even if internal opposition to the shared ideology has crept in, rather than be hazed…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Technical Solutions Poorly Solve Social Problems]]></title>
-        <id>https://christine.website/blog/social-quandry-devops-2022-03-17</id>
-        <link href="https://christine.website/blog/social-quandry-devops-2022-03-17"/>
-        <updated>2022-03-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-03-17]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tools Roundup - March 16, 2022]]></title>
-        <id>https://plaintextproject.online/articles/2022/03/16/tools.html</id>
-        <link href="https://plaintextproject.online/articles/2022/03/16/tools.html"/>
-        <updated>2022-03-16T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A quick look at three useful plain text tools]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Investing in the hiring process]]></title>
-        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#InvestInTheHiringProcess</id>
-        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#InvestInTheHiringProcess"/>
-        <updated>2022-03-16T14:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Tim Cochran and
-      Roni Smith complete their article by looking at how
-      scaleups need to invest in the hiring process to overcome the talent
-      bottleneck. They add a case study from our experiences with talent
-      acquisition at Thoughtworks.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>

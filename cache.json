@@ -133,16 +133,6 @@
           "wordCount": 97,
           "title": "Four Links - March 29, 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2022/03/16/tools.html",
-          "author": null,
-          "description": "A quick look at three useful plain text tools",
-          "link": "https://plaintextproject.online/articles/2022/03/16/tools.html",
-          "publishedOn": "2022-03-16T19:00:00.000Z",
-          "wordCount": 379,
-          "title": "Tools Roundup - March 16, 2022",
-          "imageUrl": null
         }
       ]
     },
@@ -166,16 +156,6 @@
           "wordCount": 2092,
           "title": "Transitional Architecture",
           "imageUrl": "https://martinfowler.com/articles/patterns-legacy-displacement/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#InvestInTheHiringProcess",
-          "author": null,
-          "description": "Tim Cochran and\n      Roni Smith complete their article by looking at how\n      scaleups need to invest in the hiring process to overcome the talent\n      bottleneck. They add a case study from our experiences with talent\n      acquisition at Thoughtworks.\nmore…",
-          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/02-talent.html#InvestInTheHiringProcess",
-          "publishedOn": "2022-03-16T14:06:00.000Z",
-          "wordCount": 6700,
-          "title": "Investing in the hiring process",
-          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card-hiring.png"
         }
       ]
     },
@@ -213,6 +193,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html",
+          "author": null,
+          "description": "On Friday, April 8th, the Rust Compiler team had a planning meeting for the April 2022 steering cycle.\nEvery fourth Friday, the Rust compiler team decides how\nit is going to use its scheduled steering and design meeting time over the next\nthree Fridays.\nI want to apologize for how late I am posting this message: Our planning meeting\nwas a week ago, and my intent each cycle is to put up this post that day, so\nthat everyone, not just the compiler team members, has a chance participate in\nthe meetings. But, since this is going out a week late, it means one of the\nmeetings already happened (today).\nOn Friday, 15 April, we discussed salsa 2.0's entity design. Salsa\nis a generic framework for on-demand incrementalized computation, which has many\nties to rustc's query system. Niko Matsakis author…",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html",
+          "publishedOn": "2022-04-15T00:00:00.000Z",
+          "wordCount": 482,
+          "title": "Rust Compiler April 2022 Steering Cycle",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/04/12/CTCFT-april.html",
           "author": null,
@@ -528,16 +518,6 @@
           "wordCount": 934,
           "title": "Site Update: Axum",
           "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/social-quandry-devops-2022-03-17",
-          "author": null,
-          "description": "Posted on 2022-03-17",
-          "link": "https://christine.website/blog/social-quandry-devops-2022-03-17",
-          "publishedOn": "2022-03-17T00:00:00.000Z",
-          "wordCount": 2647,
-          "title": "Technical Solutions Poorly Solve Social Problems",
-          "imageUrl": null
         }
       ]
     },
@@ -618,6 +598,16 @@
       "feedUrl": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "siteUrl": "http://www.paulgraham.com/",
       "articles": [
+        {
+          "id": "http://www.paulgraham.com/words.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/words.html",
+          "publishedOn": "2022-04-16T01:14:33.891Z",
+          "wordCount": 1154,
+          "title": "Putting Ideas into Words",
+          "imageUrl": null
+        },
         {
           "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1649707417&",
           "author": null,
