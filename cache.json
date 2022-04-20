@@ -105,6 +105,16 @@
       "siteUrl": "https://plaintextproject.online",
       "articles": [
         {
+          "id": "https://plaintextproject.online/articles/2022/04/19/bear.html",
+          "author": null,
+          "description": "A look at another minimalist blogging platform that's powered by plain text",
+          "link": "https://plaintextproject.online/articles/2022/04/19/bear.html",
+          "publishedOn": "2022-04-19T19:00:00.000Z",
+          "wordCount": 1017,
+          "title": "Blogging in Plain Text with Bear",
+          "imageUrl": null
+        },
+        {
           "id": "https://plaintextproject.online/articles/2022/04/06/pdf.html",
           "author": null,
           "description": "A quick look at how to convert a Markdown file to a nice-looking PDF using pandoc and CSS",
@@ -127,6 +137,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/photos/128.html",
+          "author": null,
+          "description": "Heian-jingu Shrine\nKyoto, Japan (2004)",
+          "link": "https://martinfowler.com/photos/128.html",
+          "publishedOn": "2022-04-19T21:58:00.000Z",
+          "wordCount": 23,
+          "title": "photostream 128",
+          "imageUrl": "https://martinfowler.com/photos/128.jpg"
+        },
         {
           "id": "https://martinfowler.com/articles/patterns-legacy-displacement/transitional-architecture.html",
           "author": null,
@@ -173,6 +193,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/04/19/imposter-syndrome.html",
+          "author": null,
+          "description": "Preface: This is in response to some feedback the project directors received\nfrom the Rust Foundation staff. Some of the contributors they'd talked to said\nthey didn't feel justified in applying for Foundation grants even though they'd\nlove the opportunity, because they don't feel qualified or deserving of them\ncompared to the other amazing contributors they look up to within the Rust\nproject. This was a little bit heart breaking to me, because I know exactly\nwhat that feeling is like1, and I also know just how wrong they are.\nImposter syndrome is an insidious problem within software communities. Many of\nus, especially members of marginalized communities, struggle to shake the\nfeeling that we aren't as qualified as our peers. This makes us feel\nunqualified and undeserving compared to those…",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/04/19/imposter-syndrome.html",
+          "publishedOn": "2022-04-19T00:00:00.000Z",
+          "wordCount": 1237,
+          "title": "Imposter Syndrome",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/04/18/libs-contributors.html",
           "author": null,
@@ -277,6 +307,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/",
+          "author": null,
+          "description": "Introducing CodeQL packs to help you codify and share your knowledge of vulnerabilities.",
+          "link": "https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/",
+          "publishedOn": "2022-04-19T17:00:02.000Z",
+          "wordCount": 2115,
+          "title": "Sharing security expertise through CodeQL packs (Part I)",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Security.png?fit=1200%2C630"
+        },
         {
           "id": "https://github.blog/2022-04-18-highlights-from-git-2-36/",
           "author": null,
@@ -517,16 +557,6 @@
           "publishedOn": "2022-03-24T00:00:00.000Z",
           "wordCount": 386,
           "title": "Book Release: Closed Projects",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/site-update-axum-2022-03-21",
-          "author": null,
-          "description": "Posted on 2022-03-21",
-          "link": "https://christine.website/blog/site-update-axum-2022-03-21",
-          "publishedOn": "2022-03-21T00:00:00.000Z",
-          "wordCount": 934,
-          "title": "Site Update: Axum",
           "imageUrl": null
         }
       ]

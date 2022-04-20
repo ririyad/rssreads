@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-19T01:37:22.419Z</updated>
+    <updated>2022-04-20T01:44:02.741Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[photostream 128]]></title>
+        <id>https://martinfowler.com/photos/128.html</id>
+        <link href="https://martinfowler.com/photos/128.html"/>
+        <updated>2022-04-19T21:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Heian-jingu Shrine
+Kyoto, Japan (2004)]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blogging in Plain Text with Bear]]></title>
+        <id>https://plaintextproject.online/articles/2022/04/19/bear.html</id>
+        <link href="https://plaintextproject.online/articles/2022/04/19/bear.html"/>
+        <updated>2022-04-19T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A look at another minimalist blogging platform that's powered by plain text]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sharing security expertise through CodeQL packs (Part I)]]></title>
+        <id>https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/</id>
+        <link href="https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/"/>
+        <updated>2022-04-19T17:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Introducing CodeQL packs to help you codify and share your knowledge of vulnerabilities.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Imposter Syndrome]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/04/19/imposter-syndrome.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/04/19/imposter-syndrome.html"/>
+        <updated>2022-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Preface: This is in response to some feedback the project directors received
+from the Rust Foundation staff. Some of the contributors they'd talked to said
+they didn't feel justified in applying for Foundation grants even though they'd
+love the opportunity, because they don't feel qualified or deserving of them
+compared to the other amazing contributors they look up to within the Rust
+project. This was a little bit heart breaking to me, because I know exactly
+what that feeling is like1, and I also know just how wrong they are.
+Imposter syndrome is an insidious problem within software communities. Many of
+us, especially members of marginalized communities, struggle to shake the
+feeling that we aren't as qualified as our peers. This makes us feel
+unqualified and undeserving compared to those…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Highlights from Git 2.36]]></title>
         <id>https://github.blog/2022-04-18-highlights-from-git-2-36/</id>
@@ -2591,16 +2642,6 @@ As a warning: I am really not a cryptography person, I will …]]></summary>
         <updated>2022-03-22T10:54:08.000Z</updated>
         <author>
             <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Site Update: Axum]]></title>
-        <id>https://christine.website/blog/site-update-axum-2022-03-21</id>
-        <link href="https://christine.website/blog/site-update-axum-2022-03-21"/>
-        <updated>2022-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-03-21]]></summary>
-        <author>
-            <name>Xe's Blog</name>
         </author>
     </entry>
 </feed>
