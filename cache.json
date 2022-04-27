@@ -24,16 +24,6 @@
           "wordCount": 326,
           "title": "ClojureStream — Clojure Sublimed",
           "imageUrl": "https://i1.sndcdn.com/avatars-61gvsbzamwSERgff-yK8Q8Q-t500x500.jpg"
-        },
-        {
-          "id": "https://tonsky.me/blog/horizon/",
-          "author": null,
-          "description": "Why editing is a crucial part of visual arts",
-          "link": "https://tonsky.me/blog/horizon/",
-          "publishedOn": "2022-03-28T00:00:00.000Z",
-          "wordCount": 1963,
-          "title": "Forbidden West and the Art of Editing",
-          "imageUrl": null
         }
       ]
     },
@@ -127,6 +117,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/2022-use-twitter.html",
+          "author": null,
+          "description": "A couple of recent conversations about Twitter were nudging me into writing\n      about how I use Twitter even before The Muskover developed. Twitter has\n      become an important part of my online life, and my online life is a big part\n      of what I do. But like any tool, Twitter can be used in many different ways,\n      and how you use it affects how useful it can be.\nmore…",
+          "link": "https://martinfowler.com/articles/2022-use-twitter.html",
+          "publishedOn": "2022-04-26T12:50:00.000Z",
+          "wordCount": 940,
+          "title": "How I use Twitter",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
         {
           "id": "https://martinfowler.com/photos/128.html",
           "author": null,
@@ -317,6 +317,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/",
+          "author": null,
+          "description": "This is the first post in a two-part series describing friendly forks and alternative strategies for managing them. Stay tuned for part two coming in May!",
+          "link": "https://github.blog/2022-04-25-the-friend-zone-friendly-forks-101/",
+          "publishedOn": "2022-04-25T17:29:10.000Z",
+          "wordCount": 1614,
+          "title": "The friend zone: friendly forks 101",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/friendly-forks-.png"
+        },
         {
           "id": "https://github.blog/2022-04-21-improving-git-push-times-through-faster-server-side-hooks/",
           "author": null,
@@ -588,16 +598,6 @@
           "wordCount": 1204,
           "title": "What To Do As A Recruiter When A Gender-diverse Person Asks You To Update Their Name",
           "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/3d-printing-openscad-2022-03-28",
-          "author": null,
-          "description": "Posted on 2022-03-28",
-          "link": "https://christine.website/blog/3d-printing-openscad-2022-03-28",
-          "publishedOn": "2022-03-28T00:00:00.000Z",
-          "wordCount": 1241,
-          "title": "Compiling Code to Matter in My Living Room",
-          "imageUrl": null
         }
       ]
     },
@@ -633,6 +633,16 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/04/26/new-zine--how-dns-works-/",
+          "author": null,
+          "description": "Hello! On Thursday we released a new zine about one of my favourite computer systems: DNS!\nYou can get it for $12 here:\nhttps://wizardzines.com/zines/dns, or get\nan 11-pack of all my zines here.\nHere’s the cover and table of contents:\n\n\n\n\nwhy DNS?\nI wanted to write about DNS for three reasons:\nDNS is everywhere! You basically can’t use the internet without using\nDNS — nobody is going to memorize all the IP addresses for every domain they\nuse. You need to look them up with DNS!\nDNS has a really cool decentralized design! I love that it gives you\ncontrol of your own little corner of the internet (it just costs ~$12/year to\nown a domain!), I love that the basic design is relatively straightforward,\nand I love that it’s worked basically the same way for 40 years and scaled\nrelatively well over…",
+          "link": "https://jvns.ca/blog/2022/04/26/new-zine--how-dns-works-/",
+          "publishedOn": "2022-04-26T07:28:10.000Z",
+          "wordCount": 935,
+          "title": "New zine: How DNS Works!",
+          "imageUrl": null
+        },
         {
           "id": "https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/",
           "author": null,
@@ -2806,26 +2816,6 @@
           "publishedOn": "2022-04-12T01:17:10.210Z",
           "wordCount": 2080,
           "title": "Heresy",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645657427&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1645657427&",
-          "publishedOn": "2022-03-28T01:20:27.238Z",
-          "wordCount": null,
-          "title": "Chapter 1 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645657427&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1645657427&",
-          "publishedOn": "2022-03-28T01:20:27.237Z",
-          "wordCount": null,
-          "title": "Chapter 2 of Ansi Common Lisp",
           "imageUrl": null
         }
       ]
