@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-27T01:42:24.442Z</updated>
+    <updated>2022-04-28T02:02:46.894Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Where are all the kids in America]]></title>
+        <id>https://world.hey.com/dhh/where-are-all-the-kids-in-america-ed0eebec</id>
+        <link href="https://world.hey.com/dhh/where-are-all-the-kids-in-america-ed0eebec"/>
+        <updated>2022-04-27T07:23:39.000Z</updated>
+        <summary type="html"><![CDATA[There's a lot to notice about Copenhagen when you arrive fresh off the plane from America. Look at all those bikes! What a clean city! See all those pedestrians dutifully waiting at the crossover for the light to turn green without a car in sight!  All these observations stick out, but none trigger the culture shock like seeing kids everywhere. Little kids, big kids, kids on bikes, kids on the metro, kids walking with their parents, kids walking alone. Kids, kids, kids!
+Kids are visible in the city landscape of Copenhagen like no major American city I've ever lived or visited. Not because there are actually more children in Denmark than the US. On average, Americans have slightly more children than Danes. But you'd swear that wasn't so by comparing the metropolitan areas.
+The importance of…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How I use Twitter]]></title>
         <id>https://martinfowler.com/articles/2022-use-twitter.html</id>
@@ -2655,39 +2667,6 @@ At the same time one of the …]]></summary>
         <summary type="html"><![CDATA[Sublime Text setup for Clojure development]]></summary>
         <author>
             <name>tonsky.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reality Labs Research fosters metaverse innovation at Canadian labs with $510,000 in unrestricted grants]]></title>
-        <id>https://research.facebook.com/blog/2022/3/reality-labs-research-fosters-metaverse-innovation-at-canadian-labs-with-510000-in-unrestricted-grants/</id>
-        <link href="https://research.facebook.com/blog/2022/3/reality-labs-research-fosters-metaverse-innovation-at-canadian-labs-with-510000-in-unrestricted-grants/"/>
-        <updated>2022-03-29T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Reality Labs Research fosters metaverse innovation at Canadian labs with $510,000 in unrestricted grants]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Transitional Architecture]]></title>
-        <id>https://martinfowler.com/articles/patterns-legacy-displacement/transitional-architecture.html</id>
-        <link href="https://martinfowler.com/articles/patterns-legacy-displacement/transitional-architecture.html"/>
-        <updated>2022-03-28T18:49:00.000Z</updated>
-        <summary type="html"><![CDATA[The core to a successful legacy displacement is the gradual
-        replacement of legacy with new software, as this allows benefits to
-        delivered early and circumvents the risks of a Big Bang. During
-        displacement the legacy and new system will have to operate
-        simultaneously allowing behavior to be split between old and new.
-        
-Ian Cartwright, Rob Horn, and James Lewis explain
-        how to build and
-        evolve a Transitional Architecture that supports this collaboration as it
-        changes over time. For this to work, intermediate configurations may require integrations
-        that have no place in the target architecture of the new system.
-Or to put this more directly - you will have to invest in work that
-        will be thrown away. 
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
