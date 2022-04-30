@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-29T01:40:46.162Z</updated>
+    <updated>2022-04-30T01:43:41.599Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bringing code navigation to communities]]></title>
+        <id>https://github.blog/2022-04-29-bringing-code-navigation-to-communities/</id>
+        <link href="https://github.blog/2022-04-29-bringing-code-navigation-to-communities/"/>
+        <updated>2022-04-29T15:00:02.000Z</updated>
+        <summary type="html"><![CDATA[Thanks to the efforts of the Elixir community, GitHub supports code navigation for Elixir repositories. Read how favorite language can add this support too!]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Breaking from the news]]></title>
+        <id>https://world.hey.com/dhh/breaking-from-the-news-bb599adf</id>
+        <link href="https://world.hey.com/dhh/breaking-from-the-news-bb599adf"/>
+        <updated>2022-04-29T07:50:05.000Z</updated>
+        <summary type="html"><![CDATA[I’m not sure exactly when I became addicted to the news. But I clearly remember the time before I was checking the latest developments in the world three times per day (or four or five!). I remember momentous events like 9/11 or the swine flu pandemic from an era before being hooked into an IV feed of BREAKING NEWS. World events that registered, but didn’t wash over my mind with all the minute details and their angles.
+And then I remember the killing of Bin Laden, Fukushima, and Charlie Sheen’s WINNING stories from 2011 with a very different fidelity of commentary, reporting, and engagement. So that pretty much pins this change in news consumption to about 2010. Meaning it’s now been over a decade. Which is a good time to reflect over whether what you’ve been doing is worth continuing.
+To …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
         <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1651069852&amp;</id>
@@ -2687,32 +2709,6 @@ I think it is a common problem in any situation where you are a spectator, es…
         <summary type="html"><![CDATA[We believe our technical interviews should be as similar as possible to the way we work at GitHub.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Changes at the Cargo Team]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/03/31/cargo-team-changes.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/03/31/cargo-team-changes.html"/>
-        <updated>2022-03-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are thrilled to publicly announce that Weihang
-Lo and Ed Page
-have joined the Cargo Team!
-Weihang has been providing thoughtful and helpful replies on our issue
-tracker. He has often had the patience to explain to people what problem
-they're hitting and how to get unstuck. He often summarizes technical
-conversations clearly describing the available solutions and their costs both
-technical and more importantly human. He has also been contributing to many
-improvements and code reviews.
-Ed has been a champion on many fronts. He has done tremendous work on
-toml_edit to push Cargo towards getting
-cargo add merged in cargo
-proper. He has brought
-clap to the momentous 3.0 release and
-continues to push on CLI improvements, more advanced testing tools, and much
-more!
-At the same time one of the …]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>
