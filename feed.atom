@@ -2,10 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-04-30T01:43:41.599Z</updated>
+    <updated>2022-05-01T01:57:18.529Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Ceremony]]></title>
+        <id>https://world.hey.com/jorge/ceremony-8f47e582</id>
+        <link href="https://world.hey.com/jorge/ceremony-8f47e582"/>
+        <updated>2022-04-30T23:46:24.000Z</updated>
+        <summary type="html"><![CDATA[Ceremony at work is those self-imposed rituals people follow to get things done. Too much, and it becomes a burden. Too little, and it's chaos.
+
+
+Ceremony serves two purposes: assessment and communication. Assessment is about making sure you are working on the right problems at any given moment; communication is about getting everyone on the same page while doing it. Without the right amount of ceremony, the odds are that people won't do a great job, won't aim for the correct targets or both at the same time.
+
+
+For the individual contributor in me, ceremony is a necessary evil. I don't love it, but I tolerate it because I understand its importance. What is the optimal amount of ceremony? That's the million-dollar question, and I don't have a clue. I do believe the correct answer has to be …]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Luhn algorithm using SWAR and SIMD]]></title>
+        <id>https://nullprogram.com/blog/2022/04/30/</id>
+        <link href="https://nullprogram.com/blog/2022/04/30/"/>
+        <updated>2022-04-30T17:53:05.000Z</updated>
+        <summary type="html"><![CDATA[Ever been so successful that credit card processing was your bottleneck?
+Perhaps you’ve wondered, “If only I could compute check digits three times
+faster using the same hardware!” Me neither. But if that ever happens
+someday, then this article is for you. I will show how to compute the
+Luhn algorithm in parallel using SIMD within a register, or
+SWAR.
+If you want to skip ahead, here’s the full source, tests, and benchmark:
+luhn.c
+The Luhn algorithm isn’t just for credit card numbers, but they do make a
+nice target for a SWAR approach. The major payment processors use 16
+digit numbers — i.e. 16 ASCII bytes — and typical machines today have
+8-byte registers, so the input fits into two machine registers. In this
+context, the algorithm works like so:
+Consider the digits number as an array, and…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[robocadey: Shitposting as a Service]]></title>
+        <id>https://christine.website/blog/robocadey-2022-04-30</id>
+        <link href="https://christine.website/blog/robocadey-2022-04-30"/>
+        <updated>2022-04-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-04-30]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bringing code navigation to communities]]></title>
         <id>https://github.blog/2022-04-29-bringing-code-navigation-to-communities/</id>
@@ -2679,36 +2728,6 @@ I genuinely admire the products we build at Basecamp. I would pay for Basecamp a
 I think it is a common problem in any situation where you are a spectator, es…]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Four Core Data Science research scientists discuss remote, hybrid, and in-person work options at Meta]]></title>
-        <id>https://research.facebook.com/blog/2022/4/four-core-data-science-research-scientists-discuss-remote-hybrid-and-in-person-work-options-at-meta/</id>
-        <link href="https://research.facebook.com/blog/2022/4/four-core-data-science-research-scientists-discuss-remote-hybrid-and-in-person-work-options-at-meta/"/>
-        <updated>2022-04-01T10:50:18.000Z</updated>
-        <summary type="html"><![CDATA[Researchers discuss remote, hybrid, and in-person work options at Meta]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What To Do As A Recruiter When A Gender-diverse Person Asks You To Update Their Name]]></title>
-        <id>https://christine.website/blog/recruiters-correct-name-2022-04-01</id>
-        <link href="https://christine.website/blog/recruiters-correct-name-2022-04-01"/>
-        <updated>2022-04-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-04-01]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How GitHub does take home technical interviews]]></title>
-        <id>https://github.blog/2022-03-31-how-github-does-take-home-technical-interviews/</id>
-        <link href="https://github.blog/2022-03-31-how-github-does-take-home-technical-interviews/"/>
-        <updated>2022-03-31T17:00:30.000Z</updated>
-        <summary type="html"><![CDATA[We believe our technical interviews should be as similar as possible to the way we work at GitHub.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
         </author>
     </entry>
 </feed>
