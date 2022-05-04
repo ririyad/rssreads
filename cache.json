@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/growing-apart-and-losing-touch-is-human-and-healthy-f0f962a8",
+          "author": null,
+          "description": "I quit Facebook back in 2011 for a lot of reasons, but perhaps the most crucial was to rebel against its core mission: Connecting the world. I was over-connected with the world, acquaintances and friends from the past, and I wanted out.\n\nZuckerberg has repeatedly doubled down on the toxic idea that we should only have one self, one persona. That we should be the same person in all social circles, lest we be “frauds”.\n\nI’m happy to be a fraud under that definition. I’m not the same person I was in high school. Not the same person I was at university. Not the same person I was with friends at age 15 as I was with a different group of friends at 21. I’m still not the same person with friends in programming as I am with friends in racing or with family or old mates from Denmark.\n\nWhat allowed …",
+          "link": "https://world.hey.com/dhh/growing-apart-and-losing-touch-is-human-and-healthy-f0f962a8",
+          "publishedOn": "2022-05-03T08:31:02.000Z",
+          "wordCount": 543,
+          "title": "Growing apart and losing touch is human and healthy",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/it-s-hard-to-escape-being-ordinary-in-a-connected-world-317fe611",
           "author": null,
           "description": "There's a scene at the beginning of The LEGO Movie where the main character Emmet is faced with the brutal assessment of his bland ordinariness by the people he works with. A few quotes: \"Look at Randy here, he likes sausage. That's something. Gail is perky, that's something... I mean, all [Emmet] does is say yes to everything everybody else is doing.. We all have something that makes us something, and Emmet is... nothing\". Ouch.\nThis scene pins the deep fear in most people that the worst you can possibly be is ordinary. Plain. Bland. Not unique. If you don't have something special about you, your friends will barely even notice your existence. Thus making it utterly existential to ensure that you \"have something that makes you someone\".\nThat used to be pretty easy. As the LEGO movie goes,…",
@@ -97,6 +107,16 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/37signals-hello-again-117eae60",
+          "author": null,
+          "description": "When we launched our company in 1999, we were called 37signals. We started out as a web design firm that ultimately transitioned into a software company. As 37signals, we made a bunch of products over the years including Basecamp, Backpack, Campfire, Highrise, and others. We wrote a number of books, and blogged like crazy too. We were prolific.\nThen about 8 years ago in 2014 we decided to go all-in and focus on just one product moving forward. That product was Basecamp, our biggest hit. To eliminate any doubt about our newfound focus, we renamed the entire company from 37signals to Basecamp. We were now Basecamp, the makers of Basecamp.\nBut then in 2018 we had an itch we couldn't ignore. We had some new ideas for email — a long neglected, but wonderful and essential part of the internet. T…",
+          "link": "https://world.hey.com/jason/37signals-hello-again-117eae60",
+          "publishedOn": "2022-05-03T15:00:54.000Z",
+          "wordCount": 531,
+          "title": "37signals: Hello again",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
         {
           "id": "https://world.hey.com/jason/heard-something-read-something-saw-something-12-2d58940c",
           "author": null,
@@ -281,26 +301,6 @@
           "publishedOn": "2022-04-06T00:00:00.000Z",
           "wordCount": 229,
           "title": "Lang team April update",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html",
-          "author": null,
-          "description": "Note: this blog post is a snapshot of the living roadmap at\nhttps://lang-team.rust-lang.org/roadmaps/roadmap-2024.html. Subsequent\nchanges may occur in that version, but not in this blog post. Please see that\npage for the most up-to-date version.\nLang Team Roadmap 2024\nRust 1.0 was released in 2015. Since that time, we've seen Rust grow from a\nsmall language used for a handful of prominent projects into a mainstay in use\nat virtually every major tech company.\nAs we work towards Rust 2024, it's natural to ask what's next for the language.\nThis roadmap provides insight into that question by describing what we, as\nmembers of the lang team with input from other Rust teams, would like to\nprioritize.\nWe have two goals with this roadmap:\nto give people a sense for what to expect in Rust over the …",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html",
-          "publishedOn": "2022-04-04T00:00:00.000Z",
-          "wordCount": 3192,
-          "title": "Rust Lang Roadmap for 2024",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html",
-          "author": null,
-          "description": "The 1.60.0 pre-release is ready for testing. The release is scheduled for this\nThursday, April 7th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-04-04/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html",
-          "publishedOn": "2022-04-04T00:00:00.000Z",
-          "wordCount": 144,
-          "title": "1.60.0 pre-release testing",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -655,16 +655,6 @@
           "publishedOn": "2022-04-16T14:59:22.000Z",
           "wordCount": 951,
           "title": "Don’t Build Useless Features",
-          "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
-        },
-        {
-          "id": "https://staysaasy.com/startups/2022/04/03/performance-management.html",
-          "author": null,
-          "description": "Merge code every week. That’s what you should be saying to your new Software Engineer hire. Let’s discuss.",
-          "link": "https://staysaasy.com/startups/2022/04/03/performance-management.html",
-          "publishedOn": "2022-04-03T14:59:22.000Z",
-          "wordCount": 1128,
-          "title": "The Most Important Performance Management Rule For Software Engineers",
           "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
         }
       ]

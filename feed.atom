@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-03T01:42:48.845Z</updated>
+    <updated>2022-05-04T01:42:30.460Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[37signals: Hello again]]></title>
+        <id>https://world.hey.com/jason/37signals-hello-again-117eae60</id>
+        <link href="https://world.hey.com/jason/37signals-hello-again-117eae60"/>
+        <updated>2022-05-03T15:00:54.000Z</updated>
+        <summary type="html"><![CDATA[When we launched our company in 1999, we were called 37signals. We started out as a web design firm that ultimately transitioned into a software company. As 37signals, we made a bunch of products over the years including Basecamp, Backpack, Campfire, Highrise, and others. We wrote a number of books, and blogged like crazy too. We were prolific.
+Then about 8 years ago in 2014 we decided to go all-in and focus on just one product moving forward. That product was Basecamp, our biggest hit. To eliminate any doubt about our newfound focus, we renamed the entire company from 37signals to Basecamp. We were now Basecamp, the makers of Basecamp.
+But then in 2018 we had an itch we couldn't ignore. We had some new ideas for email — a long neglected, but wonderful and essential part of the internet. T…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Growing apart and losing touch is human and healthy]]></title>
+        <id>https://world.hey.com/dhh/growing-apart-and-losing-touch-is-human-and-healthy-f0f962a8</id>
+        <link href="https://world.hey.com/dhh/growing-apart-and-losing-touch-is-human-and-healthy-f0f962a8"/>
+        <updated>2022-05-03T08:31:02.000Z</updated>
+        <summary type="html"><![CDATA[I quit Facebook back in 2011 for a lot of reasons, but perhaps the most crucial was to rebel against its core mission: Connecting the world. I was over-connected with the world, acquaintances and friends from the past, and I wanted out.
+
+Zuckerberg has repeatedly doubled down on the toxic idea that we should only have one self, one persona. That we should be the same person in all social circles, lest we be “frauds”.
+
+I’m happy to be a fraud under that definition. I’m not the same person I was in high school. Not the same person I was at university. Not the same person I was with friends at age 15 as I was with a different group of friends at 21. I’m still not the same person with friends in programming as I am with friends in racing or with family or old mates from Denmark.
+
+What allowed …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Being friendly: Strategies for friendly fork management]]></title>
         <id>https://github.blog/2022-05-02-friend-zone-strategies-friendly-fork-management/</id>
@@ -2697,57 +2725,6 @@ R-mode is critical for intuition, problem-solving, and creativity. L-mode gives 
 You need to leverage both modes in any creative endeavor, which is easier said than done. L-mode is deliberate: it happens when you focus and concentrate. R-mode, however, can't be commanded, only invite…]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Lang Roadmap for 2024]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/04/04/lang-roadmap-2024.html"/>
-        <updated>2022-04-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Note: this blog post is a snapshot of the living roadmap at
-https://lang-team.rust-lang.org/roadmaps/roadmap-2024.html. Subsequent
-changes may occur in that version, but not in this blog post. Please see that
-page for the most up-to-date version.
-Lang Team Roadmap 2024
-Rust 1.0 was released in 2015. Since that time, we've seen Rust grow from a
-small language used for a handful of prominent projects into a mainstay in use
-at virtually every major tech company.
-As we work towards Rust 2024, it's natural to ask what's next for the language.
-This roadmap provides insight into that question by describing what we, as
-members of the lang team with input from other Rust teams, would like to
-prioritize.
-We have two goals with this roadmap:
-to give people a sense for what to expect in Rust over the …]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.60.0 pre-release testing]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/04/04/1.60.0-prerelease.html"/>
-        <updated>2022-04-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The 1.60.0 pre-release is ready for testing. The release is scheduled for this
-Thursday, April 7th. Release notes can be found here.
-You can try it out locally by running:
-RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
-
-The index is https://dev-static.rust-lang.org/dist/2022-04-04/index.html. You
-can leave feedback on the internals thread.
-The release team is also thinking about changes to our pre-release process:
-we'd love your feedback on this GitHub issue.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Most Important Performance Management Rule For Software Engineers]]></title>
-        <id>https://staysaasy.com/startups/2022/04/03/performance-management.html</id>
-        <link href="https://staysaasy.com/startups/2022/04/03/performance-management.html"/>
-        <updated>2022-04-03T14:59:22.000Z</updated>
-        <summary type="html"><![CDATA[Merge code every week. That’s what you should be saying to your new Software Engineer hire. Let’s discuss.]]></summary>
-        <author>
-            <name>Stay SaaSy</name>
         </author>
     </entry>
 </feed>
