@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-04T01:42:30.460Z</updated>
+    <updated>2022-05-05T01:28:24.324Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: April 2022]]></title>
+        <id>https://github.blog/2022-05-04-github-availability-report-april-2022/</id>
+        <link href="https://github.blog/2022-05-04-github-availability-report-april-2022/"/>
+        <updated>2022-05-04T22:01:17.000Z</updated>
+        <summary type="html"><![CDATA[In April, we experienced two distinct incidents resulting in significant impact and degraded state of availability for Codespaces and GitHub Packages.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[37signals: Hello again]]></title>
         <id>https://world.hey.com/jason/37signals-hello-again-117eae60</id>
@@ -2693,38 +2703,6 @@ However, there is no rule against reading the document beforehand and providing 
         <summary type="html"><![CDATA[From automating builds and releases to taking care of large-scale regression testing, here are a few ways we use GitHub Actions to build GitHub.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta launches new research award opportunity in networking for AI at NSDI 2022]]></title>
-        <id>https://research.facebook.com/blog/2022/4/meta-launches-new-research-award-opportunity-in-networking-for-ai-at-nsdi-2022/</id>
-        <link href="https://research.facebook.com/blog/2022/4/meta-launches-new-research-award-opportunity-in-networking-for-ai-at-nsdi-2022/"/>
-        <updated>2022-04-05T05:48:28.000Z</updated>
-        <summary type="html"><![CDATA[Meta launches new research award opportunity in networking for AI at NSDI 2022]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Writing for yourself]]></title>
-        <id>https://world.hey.com/jorge/writing-for-yourself-c25a5a13</id>
-        <link href="https://world.hey.com/jorge/writing-for-yourself-c25a5a13"/>
-        <updated>2022-04-04T20:13:04.000Z</updated>
-        <summary type="html"><![CDATA[This question applies to most people, and it certainly applies to me: does it make sense to write without an audience?
-
-
-It does.
-
-
-One of my favorite books is Pragmatic thinking and learning by Andy Hunt. It's a book about how our brains work, which is a subject I find fascinating. A core concept it develops is how our brains operate in two modes: the linear and logical (L-mode); and the intuitive, holistic, and magically powerful (R-mode)¹:
-
-
-R-mode is critical for intuition, problem-solving, and creativity. L-mode gives you the power to work through the details and make things happen.
-
-
-You need to leverage both modes in any creative endeavor, which is easier said than done. L-mode is deliberate: it happens when you focus and concentrate. R-mode, however, can't be commanded, only invite…]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
         </author>
     </entry>
 </feed>
