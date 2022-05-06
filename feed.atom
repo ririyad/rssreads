@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-05T01:28:24.324Z</updated>
+    <updated>2022-05-06T01:19:16.485Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Creating a Plain Text Contact List]]></title>
+        <id>https://plaintextproject.online/articles/2022/05/04/contacts.html</id>
+        <link href="https://plaintextproject.online/articles/2022/05/04/contacts.html"/>
+        <updated>2022-05-05T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A look at how to list and manage your contacts using a plain text file]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bring your work self to work]]></title>
+        <id>https://world.hey.com/dhh/bring-your-work-self-to-work-f5fbc2eb</id>
+        <link href="https://world.hey.com/dhh/bring-your-work-self-to-work-f5fbc2eb"/>
+        <updated>2022-05-05T12:53:57.000Z</updated>
+        <summary type="html"><![CDATA[If employees are expected to spend the majority of their life at work — pulling those 60-80+ hour weeks — it's no wonder they in return demand work embraces their "whole self". But that's a terrible trade in both directions. What work and you really need is for everyone to show up with their "work self".
+Your work self needn't be a facade, it can still be you — just not all of it. It's the part that shows up to be courteous to coworkers (even when you don't really feel like it), engaged in solving the tasks at hand (even when you'd rather do something else), and with no more of your outside-of-work self than you'd be comfortable sharing with a kind stranger on a long plane ride.
+That doesn't mean work can't be a place where you form deeper, fuller bonds. I've met some wonderful friends at …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USB Cheat Sheet]]></title>
+        <id>http://fabiensanglard.net/usbcheat/index.html</id>
+        <link href="http://fabiensanglard.net/usbcheat/index.html"/>
+        <updated>2022-05-05T00:00:00.000Z</updated>
+        <author>
+            <name>fabiensanglard.net</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Availability Report: April 2022]]></title>
         <id>https://github.blog/2022-05-04-github-availability-report-april-2022/</id>
@@ -2659,48 +2690,6 @@ Support for LLVM-based coverage instrumentation has been stabilized in rustc. Yo
         <link href="https://github.blog/2022-04-06-prevent-introduction-known-vulnerabilities-into-your-code/"/>
         <updated>2022-04-06T18:13:40.000Z</updated>
         <summary type="html"><![CDATA[The new dependency review action and API prevents the introduction of known supply chain vulnerabilities into your code.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta VP of Security Engineering Clyde Rodriguez discusses new research award opportunities]]></title>
-        <id>https://research.facebook.com/blog/2022/4/meta-vp-of-security-engineering-clyde-rodriguez-discusses-new-research-award-opportunities/</id>
-        <link href="https://research.facebook.com/blog/2022/4/meta-vp-of-security-engineering-clyde-rodriguez-discusses-new-research-award-opportunities/"/>
-        <updated>2022-04-06T04:59:44.000Z</updated>
-        <summary type="html"><![CDATA[To learn more about these RFPs, we reached out to Clyde Rodriguez, Vice President on the Security Engineering team at Meta.]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lang team April update]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/04/06/lang-team-april-update.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/04/06/lang-team-april-update.html"/>
-        <updated>2022-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, the lang team held its April planning meeting. We hold these meetings on the first Wednesday of every month, and we use them to schedule design meetings for the remainder of the month.
-Upcoming design meetings
-We have planned the following design meetings:
-2021-04-13: Implied bounds and perfect derive
-2021-04-20: Language design research overview
-2021-04-27: Backlog Bonanza
-Design meeting expectations
-The document for the meeting must be prepared by the triage meeting on Tuesday and posted to the tracking issue.
-
-If it is not sent out by then, the meeting will be replaced with a Backlog Bonanza session. This gives folks 24 hour notice.
-There is no expectation that people will read the document before the meeting. The meeting will begin with a recap of the document.
-
-However, there is no rule against reading the document beforehand and providing feedback or advice on how to improve it.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4 ways we use GitHub Actions to build GitHub]]></title>
-        <id>https://github.blog/2022-04-05-4-ways-we-use-github-actions-to-build-github/</id>
-        <link href="https://github.blog/2022-04-05-4-ways-we-use-github-actions-to-build-github/"/>
-        <updated>2022-04-05T15:50:13.000Z</updated>
-        <summary type="html"><![CDATA[From automating builds and releases to taking care of large-scale regression testing, here are a few ways we use GitHub Actions to build GitHub.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
         </author>
