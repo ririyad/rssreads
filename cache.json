@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2",
+          "author": null,
+          "description": "It's deja vu all over again for founders looking for easy money on soft terms to chase dreams of unicorns and waterfalls. With interest rates shooting up, a recession in the forecast, and three whirlwinds of economic hurt spinning at the same time, the fair-weather funding conditions are over.\nGood.\nSee, The Good Times™ all too often serve as an enabling backdrop for short-termism and hot potatoes. A time for scammy SPACs, bonfires of cash, and endless, hyping gobbledygook about magic beans growing beanstalks into the sky. It is most definitely, absolutely, not the time to talk about the boring fundamentals of business. Like selling products and services for more than it cost you to make and deliver them (including all the costs, not just the ones you happen to feel should be counted).\nThe…",
+          "link": "https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2",
+          "publishedOn": "2022-05-06T12:32:23.000Z",
+          "wordCount": 438,
+          "title": "Celebrating the end of The Good Times",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/bring-your-work-self-to-work-f5fbc2eb",
           "author": null,
           "description": "If employees are expected to spend the majority of their life at work — pulling those 60-80+ hour weeks — it's no wonder they in return demand work embraces their \"whole self\". But that's a terrible trade in both directions. What work and you really need is for everyone to show up with their \"work self\".\nYour work self needn't be a facade, it can still be you — just not all of it. It's the part that shows up to be courteous to coworkers (even when you don't really feel like it), engaged in solving the tasks at hand (even when you'd rather do something else), and with no more of your outside-of-work self than you'd be comfortable sharing with a kind stranger on a long plane ride.\nThat doesn't mean work can't be a place where you form deeper, fuller bonds. I've met some wonderful friends at …",
@@ -126,16 +136,6 @@
           "wordCount": 531,
           "title": "37signals: Hello again",
           "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
-        },
-        {
-          "id": "https://world.hey.com/jason/heard-something-read-something-saw-something-12-2d58940c",
-          "author": null,
-          "description": "Hey!\nBack again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...\nHeard Something\nMy friend Bob Moesta is out with a new podcast on product development and innovation, and this 27-minute episode is an especially good one. By the end, you'll have a new framework for thinking about the difference between pizza and steak. This is very good stuff.\nHear it: https://podcasts.apple.com/us/podcast/2-the-secret-language-of-bob-isms/id1617350970?i=1000556255967 \nRead Something\nThis one's been making the rounds, so you may have read it already, but this letter from producer Steve Albini to Nirvana is wonderfully clear and casual, which makes it perfectly suited to the cause. How could you not hire him after reading this? Everything about this letter suggests understanding, fairness, devotion, reverence, professionalism, heart, and mind.\nRead it: https://news.lettersofnote.com/p/nirvana\nSaw Something\nCondor airlines is out with new livery. It's quite different from other airlines. I like it.\nSee it: https://www.condor.com/us/fly-with-us/condor-partner/our-new-look.jsp\nUntil next time.\nBTW, if you like these, and think someone else might too, please forward it on. You/they can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.\n\n\n-Jason",
-          "link": "https://world.hey.com/jason/heard-something-read-something-saw-something-12-2d58940c",
-          "publishedOn": "2022-04-07T00:19:00.000Z",
-          "wordCount": 217,
-          "title": "Heard Something, Read Something, Saw Something [#12]",
-          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
         }
       ]
     },
@@ -172,16 +172,6 @@
           "publishedOn": "2022-04-19T19:00:00.000Z",
           "wordCount": 1017,
           "title": "Blogging in Plain Text with Bear",
-          "imageUrl": null
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2022/04/06/pdf.html",
-          "author": null,
-          "description": "A quick look at how to convert a Markdown file to a nice-looking PDF using pandoc and CSS",
-          "link": "https://plaintextproject.online/articles/2022/04/06/pdf.html",
-          "publishedOn": "2022-04-06T19:00:00.000Z",
-          "wordCount": 784,
-          "title": "Creating a Nice-Looking PDF with pandoc",
           "imageUrl": null
         }
       ]
@@ -256,18 +246,7 @@
       "title": "Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
-      "articles": [
-        {
-          "id": "https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html",
-          "author": null,
-          "description": "The Rust team is happy to announce a new version of Rust, 1.60.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.60.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.60.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use\nthe beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.60.0 stable\nSource-based Code Coverage\nSupport for LLVM-based coverage instrumentation has been stabilized in rustc. You can try this…",
-          "link": "https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html",
-          "publishedOn": "2022-04-07T00:00:00.000Z",
-          "wordCount": 1221,
-          "title": "Announcing Rust 1.60.0",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Inside Rust Blog",
@@ -467,26 +446,6 @@
           "wordCount": 2241,
           "title": "Git Credential Manager: authentication for everyone",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/gcm-social.png"
-        },
-        {
-          "id": "https://github.blog/2022-04-06-github-availability-report-march-2022/",
-          "author": null,
-          "description": "In March, we experienced several incidents resulting in significant impact to multiple GitHub services.",
-          "link": "https://github.blog/2022-04-06-github-availability-report-march-2022/",
-          "publishedOn": "2022-04-06T18:45:52.000Z",
-          "wordCount": 1617,
-          "title": "GitHub Availability Report: March 2022",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Enterprise@2x-1.png?fit=2400%2C1260"
-        },
-        {
-          "id": "https://github.blog/2022-04-06-prevent-introduction-known-vulnerabilities-into-your-code/",
-          "author": null,
-          "description": "The new dependency review action and API prevents the introduction of known supply chain vulnerabilities into your code.",
-          "link": "https://github.blog/2022-04-06-prevent-introduction-known-vulnerabilities-into-your-code/",
-          "publishedOn": "2022-04-06T18:13:40.000Z",
-          "wordCount": 641,
-          "title": "Prevent the introduction of known vulnerabilities into your code",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Engineering-Product@2x-1.png"
         }
       ]
     },
@@ -619,16 +578,6 @@
           "publishedOn": "2022-04-21T00:00:00.000Z",
           "wordCount": 572,
           "title": "Stop Using Politics As A Cudgel To Discourage Experimentation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/nix-flakes-3-2022-04-07",
-          "author": null,
-          "description": "Posted on 2022-04-07",
-          "link": "https://christine.website/blog/nix-flakes-3-2022-04-07",
-          "publishedOn": "2022-04-07T00:00:00.000Z",
-          "wordCount": 2161,
-          "title": "Nix Flakes: Exposing and using NixOS Modules",
           "imageUrl": null
         }
       ]

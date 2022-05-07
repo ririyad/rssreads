@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-06T01:19:16.485Z</updated>
+    <updated>2022-05-07T01:18:35.626Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Celebrating the end of The Good Times]]></title>
+        <id>https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2</id>
+        <link href="https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2"/>
+        <updated>2022-05-06T12:32:23.000Z</updated>
+        <summary type="html"><![CDATA[It's deja vu all over again for founders looking for easy money on soft terms to chase dreams of unicorns and waterfalls. With interest rates shooting up, a recession in the forecast, and three whirlwinds of economic hurt spinning at the same time, the fair-weather funding conditions are over.
+Good.
+See, The Good Times™ all too often serve as an enabling backdrop for short-termism and hot potatoes. A time for scammy SPACs, bonfires of cash, and endless, hyping gobbledygook about magic beans growing beanstalks into the sky. It is most definitely, absolutely, not the time to talk about the boring fundamentals of business. Like selling products and services for more than it cost you to make and deliver them (including all the costs, not just the ones you happen to feel should be counted).
+The…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Creating a Plain Text Contact List]]></title>
         <id>https://plaintextproject.online/articles/2022/05/04/contacts.html</id>
@@ -2604,92 +2617,6 @@ with different themes. You can join any breakout room you like and hangout.]]></
         <link href="https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/"/>
         <updated>2022-04-07T18:00:41.000Z</updated>
         <summary type="html"><![CDATA[Ensuring secure access to your source code is more important than ever. Git Credential Manager helps make that easy.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#12]]]></title>
-        <id>https://world.hey.com/jason/heard-something-read-something-saw-something-12-2d58940c</id>
-        <link href="https://world.hey.com/jason/heard-something-read-something-saw-something-12-2d58940c"/>
-        <updated>2022-04-07T00:19:00.000Z</updated>
-        <summary type="html"><![CDATA[Hey!
-Back again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...
-Heard Something
-My friend Bob Moesta is out with a new podcast on product development and innovation, and this 27-minute episode is an especially good one. By the end, you'll have a new framework for thinking about the difference between pizza and steak. This is very good stuff.
-Hear it: https://podcasts.apple.com/us/podcast/2-the-secret-language-of-bob-isms/id1617350970?i=1000556255967 
-Read Something
-This one's been making the rounds, so you may have read it already, but this letter from producer Steve Albini to Nirvana is wonderfully clear and casual, which makes it perfectly suited to the cause. How could you not hire him after reading this? Everything about this letter suggests understanding, fairness, devotion, reverence, professionalism, heart, and mind.
-Read it: https://news.lettersofnote.com/p/nirvana
-Saw Something
-Condor airlines is out with new livery. It's quite different from other airlines. I like it.
-See it: https://www.condor.com/us/fly-with-us/condor-partner/our-new-look.jsp
-Until next time.
-BTW, if you like these, and think someone else might too, please forward it on. You/they can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.
-
-
--Jason]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.60.0]]></title>
-        <id>https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html</id>
-        <link href="https://blog.rust-lang.org/2022/04/07/Rust-1.60.0.html"/>
-        <updated>2022-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.60.0. Rust is a programming language empowering everyone to build reliable and efficient software.
-If you have a previous version of Rust installed via rustup, you can get 1.60.0 with:
-rustup update stable
-
-If you don't have it already, you can get rustup
-from the appropriate page on our website, and check out the
-detailed release notes for 1.60.0 on GitHub.
-If you'd like to help us out by testing future releases, you might consider updating locally to use
-the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
-What's in 1.60.0 stable
-Source-based Code Coverage
-Support for LLVM-based coverage instrumentation has been stabilized in rustc. You can try this…]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nix Flakes: Exposing and using NixOS Modules]]></title>
-        <id>https://christine.website/blog/nix-flakes-3-2022-04-07</id>
-        <link href="https://christine.website/blog/nix-flakes-3-2022-04-07"/>
-        <updated>2022-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-04-07]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating a Nice-Looking PDF with pandoc]]></title>
-        <id>https://plaintextproject.online/articles/2022/04/06/pdf.html</id>
-        <link href="https://plaintextproject.online/articles/2022/04/06/pdf.html"/>
-        <updated>2022-04-06T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A quick look at how to convert a Markdown file to a nice-looking PDF using pandoc and CSS]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: March 2022]]></title>
-        <id>https://github.blog/2022-04-06-github-availability-report-march-2022/</id>
-        <link href="https://github.blog/2022-04-06-github-availability-report-march-2022/"/>
-        <updated>2022-04-06T18:45:52.000Z</updated>
-        <summary type="html"><![CDATA[In March, we experienced several incidents resulting in significant impact to multiple GitHub services.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prevent the introduction of known vulnerabilities into your code]]></title>
-        <id>https://github.blog/2022-04-06-prevent-introduction-known-vulnerabilities-into-your-code/</id>
-        <link href="https://github.blog/2022-04-06-prevent-introduction-known-vulnerabilities-into-your-code/"/>
-        <updated>2022-04-06T18:13:40.000Z</updated>
-        <summary type="html"><![CDATA[The new dependency review action and API prevents the introduction of known supply chain vulnerabilities into your code.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
         </author>
