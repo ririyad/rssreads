@@ -2,10 +2,36 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-07T01:18:35.626Z</updated>
+    <updated>2022-05-08T01:26:06.246Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rails attributes: an essential API you can probably ignore]]></title>
+        <id>https://world.hey.com/jorge/rails-attributes-an-essential-api-you-can-probably-ignore-27147cc2</id>
+        <link href="https://world.hey.com/jorge/rails-attributes-an-essential-api-you-can-probably-ignore-27147cc2"/>
+        <updated>2022-05-07T22:56:27.000Z</updated>
+        <summary type="html"><![CDATA[A few years ago, Rails 5 introduced an API for declaring Active Record attributes. It lets you define typed attributes at the model level, to capture the list of attributes a model has and control how to cast values assigned to them.
+
+
+Active Record internally uses this API profusely. When using an Active Record model, it automatically declares these attributes for you by inferring the types from the database. Did you ever wonder how Rails converts date columns to the local time zone when reading them through active record models?
+
+
+my_model.type_for_attribute(:updated_at).class
+=> ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
+
+
+The answer is a type in charge of doing the casting for these attributes.
+
+
+Same reason why these three queries trigger the same query:
+
+
+>…]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Celebrating the end of The Good Times]]></title>
         <id>https://world.hey.com/dhh/celebrating-the-end-of-the-good-times-12a715f2</id>
@@ -2607,16 +2633,6 @@ with different themes. You can join any breakout room you like and hangout.]]></
         <link href="https://github.blog/2022-04-11-performance-at-github-deferring-stats-with-rack-after_reply/"/>
         <updated>2022-04-11T17:20:57.000Z</updated>
         <summary type="html"><![CDATA[How we sped up GitHub.com by moving slow, non-critical code into rack.after_reply.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Git Credential Manager: authentication for everyone]]></title>
-        <id>https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/</id>
-        <link href="https://github.blog/2022-04-07-git-credential-manager-authentication-for-everyone/"/>
-        <updated>2022-04-07T18:00:41.000Z</updated>
-        <summary type="html"><![CDATA[Ensuring secure access to your source code is more important than ever. Git Credential Manager helps make that easy.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
         </author>
