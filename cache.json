@@ -266,13 +266,34 @@
       "title": "Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html",
+          "author": null,
+          "description": "This is a cross-post of the official security advisory. The\nofficial advisory contains a signed version with our PGP key, as well.\nThe Rust Security Response WG and the crates.io team were notified on\n2022-05-02 of the existence of the malicious crate rustdecimal, which\ncontained malware. The crate name was intentionally similar to the name of the\npopular rust_decimal crate, hoping that potential victims would misspell\nits name (an attack called \"typosquatting\").\nTo protect the security of the ecosystem, the crates.io team permanently\nremoved the crate from the registry as soon as it was made aware of the\nmalware. An analysis of all the crates on crates.io was also performed, and no\nother crate with similar code patterns was found.\nKeep in mind that the rust_decimal crate was not compromis…",
+          "link": "https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html",
+          "publishedOn": "2022-05-10T00:00:00.000Z",
+          "wordCount": 425,
+          "title": "Security advisory: malicious crate rustdecimal",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        }
+      ]
     },
     {
       "title": "Inside Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html",
+          "author": null,
+          "description": "The next \"Cross Team Collaboration Fun Times\" (CTCFT) meeting will take\nplace on Monday, 2022-05-16 at 11am US Eastern Time (click to see in your\ntime zone). You’ll find the full details (along with a calendar\nevent, zoom details, etc) on the CTCFT website.\nAgenda\nThe theme for this month's CTCFT is Embedded Rust. We'll hear from some\nmembers of the Rust Embedded Working Group and community about the state of the ecosystem, as\nwell as how async Rust is working for embedded systems. We also have some people\ncoming in from the automotive industry to talk about how Rust use is starting to\nprogress.\n(5 min) Opening remarks 👋 (angelonfira)\n(15 min) A whirlwind tour of Embedded Rust (jamesmunns)\n\nA brief history of the embedded-wg and use of Rust for embedded\nA look at how developing embedded Rust looks like today\nA sample of patterns that are special to embedded Rust, or differences from\n\"desktop\" Rust\n(15 min) Async Rust for Embedded Systems (Dirbaio)\n\nWe'll explore how concurrency is traditionally handled in embedded, and how\nRust's async makes it significantly easier while still requiring no runtime,\nno OS, and no allocation, and what Rust improvements could make it even more\nawesome.\n(15 min) Rust in Automotive (cpetig, skade)\n\nWe'll look at Rust from a Functional Safety perspective, and continuing to\nthe AUTOSAR architecture. We'll also look a bit at what Ferrocene's role is\nin all this, and look at the AUTOSAR Rust bindings. Finally, we'll see\nwhat's next for this space.\n(5 min) Closing (angelonfira)\nAfterwards: Social Hour\nLike always, we'll be running a social hour after the CTCFT. The idea is really\nsimple: for the hour after the meeting, we will create breakout rooms in Zoom\nwith different themes. You can join any breakout room you like and hangout.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html",
+          "publishedOn": "2022-05-10T00:00:00.000Z",
+          "wordCount": 374,
+          "title": "CTCFT 2022-05-16 Agenda",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/04/20/libs-aspirations.html",
           "author": null,
@@ -624,6 +645,16 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/05/10/pages-that-didn-t-make-it-into--how-dns-works-/",
+          "author": null,
+          "description": "Hello! A couple weeks ago I released a new zine called How DNS Works.\nWhen I started writing that zine (in, uh, January 2021), I originally had in\nmind a broader zine on “everything you need to know to own a domain”. So it had\na bunch of pages on domain registration, TLS, and email.\nAt the time I thought “I can just explain DNS in like 5 pages, it’s not\nthat complicated, there will be lots of space for other topics about domains”.\nI was extremely wrong about that and it turned out I needed all 28 pages to\nexplain DNS. So I ended up deciding to just focus the zine on DNS and all those\nother topics didn’t make it into the final zine.\nThis morning it occurred to me that instead of letting all of the old draft\npages languish in purgatory on my hard drive, I could post those extra pages\nhere all together on my blog. So here they are!\ndisclaimer: not super cohesive\nI will say (as a disclaimer) that these pages aren’t as cohesive as I usually\nlike my zines to be and they definitely do not tell you everything you need to\nneed to know to own a domain.\ndomain registration\n\n\n\n\n\n\nemail\n\n\nI should say that these 2 pages don’t really do email justice – email security\nis a HUGE topic that honestly I don’t know a lot about.\nTLS\n\n\nThese two pages also don’t remotely cover TLS, it’s possible I’ll write more in\ndepth about TLS at some point. Who knows!\nthat’s all!\nthough I will say: if you liked these, you might be interested in buying How DNS Works :)",
+          "link": "https://jvns.ca/blog/2022/05/10/pages-that-didn-t-make-it-into--how-dns-works-/",
+          "publishedOn": "2022-05-10T14:44:24.000Z",
+          "wordCount": 361,
+          "title": "Pages that didn't make it into \"How DNS Works\"",
+          "imageUrl": null
+        },
         {
           "id": "https://jvns.ca/blog/2022/04/26/new-zine--how-dns-works-/",
           "author": null,

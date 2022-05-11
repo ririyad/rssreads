@@ -2,10 +2,118 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-10T01:14:08.364Z</updated>
+    <updated>2022-05-11T01:44:55.686Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Pages that didn't make it into "How DNS Works"]]></title>
+        <id>https://jvns.ca/blog/2022/05/10/pages-that-didn-t-make-it-into--how-dns-works-/</id>
+        <link href="https://jvns.ca/blog/2022/05/10/pages-that-didn-t-make-it-into--how-dns-works-/"/>
+        <updated>2022-05-10T14:44:24.000Z</updated>
+        <summary type="html"><![CDATA[Hello! A couple weeks ago I released a new zine called How DNS Works.
+When I started writing that zine (in, uh, January 2021), I originally had in
+mind a broader zine on “everything you need to know to own a domain”. So it had
+a bunch of pages on domain registration, TLS, and email.
+At the time I thought “I can just explain DNS in like 5 pages, it’s not
+that complicated, there will be lots of space for other topics about domains”.
+I was extremely wrong about that and it turned out I needed all 28 pages to
+explain DNS. So I ended up deciding to just focus the zine on DNS and all those
+other topics didn’t make it into the final zine.
+This morning it occurred to me that instead of letting all of the old draft
+pages languish in purgatory on my hard drive, I could post those extra pages
+here all together on my blog. So here they are!
+disclaimer: not super cohesive
+I will say (as a disclaimer) that these pages aren’t as cohesive as I usually
+like my zines to be and they definitely do not tell you everything you need to
+need to know to own a domain.
+domain registration
+
+
+
+
+
+
+email
+
+
+I should say that these 2 pages don’t really do email justice – email security
+is a HUGE topic that honestly I don’t know a lot about.
+TLS
+
+
+These two pages also don’t remotely cover TLS, it’s possible I’ll write more in
+depth about TLS at some point. Who knows!
+that’s all!
+though I will say: if you liked these, you might be interested in buying How DNS Works :)]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Security advisory: malicious crate rustdecimal]]></title>
+        <id>https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html</id>
+        <link href="https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html"/>
+        <updated>2022-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This is a cross-post of the official security advisory. The
+official advisory contains a signed version with our PGP key, as well.
+The Rust Security Response WG and the crates.io team were notified on
+2022-05-02 of the existence of the malicious crate rustdecimal, which
+contained malware. The crate name was intentionally similar to the name of the
+popular rust_decimal crate, hoping that potential victims would misspell
+its name (an attack called "typosquatting").
+To protect the security of the ecosystem, the crates.io team permanently
+removed the crate from the registry as soon as it was made aware of the
+malware. An analysis of all the crates on crates.io was also performed, and no
+other crate with similar code patterns was found.
+Keep in mind that the rust_decimal crate was not compromis…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CTCFT 2022-05-16 Agenda]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html"/>
+        <updated>2022-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The next "Cross Team Collaboration Fun Times" (CTCFT) meeting will take
+place on Monday, 2022-05-16 at 11am US Eastern Time (click to see in your
+time zone). You’ll find the full details (along with a calendar
+event, zoom details, etc) on the CTCFT website.
+Agenda
+The theme for this month's CTCFT is Embedded Rust. We'll hear from some
+members of the Rust Embedded Working Group and community about the state of the ecosystem, as
+well as how async Rust is working for embedded systems. We also have some people
+coming in from the automotive industry to talk about how Rust use is starting to
+progress.
+(5 min) Opening remarks 👋 (angelonfira)
+(15 min) A whirlwind tour of Embedded Rust (jamesmunns)
+
+A brief history of the embedded-wg and use of Rust for embedded
+A look at how developing embedded Rust looks like today
+A sample of patterns that are special to embedded Rust, or differences from
+"desktop" Rust
+(15 min) Async Rust for Embedded Systems (Dirbaio)
+
+We'll explore how concurrency is traditionally handled in embedded, and how
+Rust's async makes it significantly easier while still requiring no runtime,
+no OS, and no allocation, and what Rust improvements could make it even more
+awesome.
+(15 min) Rust in Automotive (cpetig, skade)
+
+We'll look at Rust from a Functional Safety perspective, and continuing to
+the AUTOSAR architecture. We'll also look a bit at what Ferrocene's role is
+in all this, and look at the AUTOSAR Rust bindings. Finally, we'll see
+what's next for this space.
+(5 min) Closing (angelonfira)
+Afterwards: Social Hour
+Like always, we'll be running a social hour after the CTCFT. The idea is really
+simple: for the hour after the meeting, we will create breakout rooms in Zoom
+with different themes. You can join any breakout room you like and hangout.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Everybody losses when legitimate power isn't exercised]]></title>
         <id>https://world.hey.com/dhh/everybody-losses-when-legitimate-power-isn-t-exercised-1f22cdc6</id>
