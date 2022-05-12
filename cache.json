@@ -41,6 +41,26 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-founder-s-gamble-24d11ef2",
+          "author": null,
+          "description": "As companies mature, grow departments, accumulate staff, and develop reliable streams of revenue, it gets structurally harder and harder to make the big decisions that might upset the applecart. This is the familiar scene of The Innovator's Dilemma. \nThe more of everything there is, the higher the stakes appear, and the less likely professional management at most mature companies is to risk it on a big call. But, as Clayton Christensen tells us, the biggest risk of all is thinking that what worked yesterday is going to work tomorrow too. \nThis is where the founder's gamble come in.\nIf you were there before the pillars of wealth and progress stood solid, it's easier not to fear the ruins. All are from the dust, and to dust all return. But if you entered the temple of the successful enterpri…",
+          "link": "https://world.hey.com/dhh/the-founder-s-gamble-24d11ef2",
+          "publishedOn": "2022-05-11T08:40:30.000Z",
+          "wordCount": 481,
+          "title": "The founder's gamble",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
+          "id": "https://world.hey.com/dhh/everybody-loses-when-legitimate-power-isn-t-exercised-1f22cdc6",
+          "author": null,
+          "description": "Just because you have a high-ranking title, doesn't mean you're automatically right about everything. More junior employees can surely hold better insights, field smarter ideas, or judo solutions toward simplicity in a given circumstance. But it does mean you should be mostly right, most of the time, or that title isn't vested in legitimate power.\nA ranking title is a recognition of seniority and proficiency. One that you should only have been granted because you indeed do have good insights, the experience to substantiate them, and the competence to plot a path to their completion. These factors make it's your duty to exercise your judgement and competence for the betterment of more junior coworkers and the organization at large.\nAnd this is where I've seen some senior folks falter. Become afraid of their own shadow. Retreat into some relativistic cave where all opinions, ideas, and insights are presumed equally good, equally deserving of first-principles reasoning, and resulting in an arm's length \"who am I to judge\" distancing. This helps no one.\nLegitimate power drawn from competence and experience is wasted if not exercised. Junior folks learn less and slower if they are not exposed to decisive action by people who know stuff and have seen stuff. The organization swerves in its mission if not built on a foundation of decisions and directions made and set by the people most qualified to do so.\nNone of this is incompatible with a culture where it's allowed to question the captain. Which is the stereotype of the bad old days when copilots would let planes crash rather than oppose authority or nurses would let doctors harm patients to the same deference.\nWe don't have to pick between these extremes. We can recognize that legitimate power is vested in being highly competence and experienced, and that this renders better decisions most of the time, but also that everyone occasionally gets it wrong and need correction.",
+          "link": "https://world.hey.com/dhh/everybody-loses-when-legitimate-power-isn-t-exercised-1f22cdc6",
+          "publishedOn": "2022-05-09T09:53:08.000Z",
+          "wordCount": 360,
+          "title": "Everybody loses when legitimate power isn't exercised",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/everybody-losses-when-legitimate-power-isn-t-exercised-1f22cdc6",
           "author": null,
           "description": "Just because you have a high-ranking title, doesn't mean you're automatically right about everything. More junior employees can surely hold better insights, field smarter ideas, or judo solutions toward simplicity in a given circumstance. But it does mean you should be mostly right, most of the time, or that title isn't vested in legitimate power.\nA ranking title is a recognition of seniority and proficiency. One that you should only have been granted because you indeed do have good insights, the experience to substantiate them, and the competence to plot a path to their completion. These factors make it's your duty to exercise your judgement and competence for the betterment of more junior coworkers and the organization at large.\nAnd this is where I've seen some senior folks falter. Become afraid of their own shadow. Retreat into some relativistic cave where all opinions, ideas, and insights are presumed equally good, equally deserving of first-principles reasoning, and resulting in an arm's length \"who am I to judge\" distancing. This helps no one.\nLegitimate power drawn from competence and experience is wasted if not exercised. Junior folks learn less and slower if they are not exposed to decisive action by people who know stuff and have seen stuff. The organization swerves in its mission if not built on a foundation of decisions and directions made and set by the people most qualified to do so.\nNone of this is incompatible with a culture where it's allowed to question the captain. Which is the stereotype of the bad old days when copilots would let planes crash rather than oppose authority or nurses would let doctors harm patients to the same deference.\nWe don't have to pick between these extremes. We can recognize that legitimate power is vested in being highly competence and experienced, and that this renders better decisions most of the time, but also that everyone occasionally gets it wrong and need correction.",
@@ -333,16 +353,6 @@
           "wordCount": 482,
           "title": "Rust Compiler April 2022 Steering Cycle",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/04/12/CTCFT-april.html",
-          "author": null,
-          "description": "The next \"Cross Team Collaboration Fun Times\" (CTCFT) meeting will take\nplace on Monday, 2022-04-18 at 9pm US Eastern Time (click to see in your\ntime zone). You’ll find the full details (along with a calendar\nevent, zoom details, etc) on the CTCFT website.\nAgenda\nThe theme of April's CTCFT is \"learning\". Doc Jones will speak about the Rustc\nReading Club Phase II, and what was learned from the first iteration of the\nclub. Jon Gjengset will talk about teaching advanced Rust concepts.\n(5 min) Opening remarks 👋 ([angelonfira])\n(15 min) Rustc Reading Club Phase II ([doc-jones])\n(15 min) Teaching Advanced Rust ([jonhoo])\nAfterwards: Social Hour\nLike always, we'll be running a social hour after the CTCFT. The idea is really\nsimple: for the hour after the meeting, we will create breakout rooms in Zoom\nwith different themes. You can join any breakout room you like and hangout.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/04/12/CTCFT-april.html",
-          "publishedOn": "2022-04-12T00:00:00.000Z",
-          "wordCount": 221,
-          "title": "CTCFT 2022-04-18 Agenda",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -477,16 +487,6 @@
           "wordCount": 660,
           "title": "Git security vulnerability announced",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Security-Community@2x.png"
-        },
-        {
-          "id": "https://github.blog/2022-04-11-performance-at-github-deferring-stats-with-rack-after_reply/",
-          "author": null,
-          "description": "How we sped up GitHub.com by moving slow, non-critical code into rack.after_reply.",
-          "link": "https://github.blog/2022-04-11-performance-at-github-deferring-stats-with-rack-after_reply/",
-          "publishedOn": "2022-04-11T17:20:57.000Z",
-          "wordCount": 919,
-          "title": "Performance at GitHub: deferring stats with rack.after_reply",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Background-3-Template-1200-x-631@2x.png?fit=2400%2C1260"
         }
       ]
     },
@@ -571,6 +571,16 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://christine.website/blog",
       "articles": [
+        {
+          "id": "https://christine.website/blog/heroku-devex-2022-05-12",
+          "author": null,
+          "description": "Posted on 2022-05-12",
+          "link": "https://christine.website/blog/heroku-devex-2022-05-12",
+          "publishedOn": "2022-05-12T00:00:00.000Z",
+          "wordCount": 1273,
+          "title": "I Miss Heroku's DevEx",
+          "imageUrl": null
+        },
         {
           "id": "https://christine.website/blog/nix-flakes-4-wsl-2022-05-01",
           "author": null,
@@ -2828,36 +2838,6 @@
           "publishedOn": "2022-04-13T01:21:26.252Z",
           "wordCount": 1304,
           "title": "Crazy New Ideas",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1649600628&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1649600628&",
-          "publishedOn": "2022-04-12T01:17:13.476Z",
-          "wordCount": null,
-          "title": "Chapter 2 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1649600628&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1649600628&",
-          "publishedOn": "2022-04-12T01:17:13.397Z",
-          "wordCount": null,
-          "title": "Chapter 1 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/heresy.html",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/heresy.html",
-          "publishedOn": "2022-04-12T01:17:10.210Z",
-          "wordCount": 2080,
-          "title": "Heresy",
           "imageUrl": null
         }
       ]
