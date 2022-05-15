@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-14T01:49:58.779Z</updated>
+    <updated>2022-05-15T01:47:01.236Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A lock-free, concurrent, generic queue in 32 bits]]></title>
+        <id>https://nullprogram.com/blog/2022/05/14/</id>
+        <link href="https://nullprogram.com/blog/2022/05/14/"/>
+        <updated>2022-05-14T04:22:24.000Z</updated>
+        <summary type="html"><![CDATA[While considering concurrent queue design I came up with a generic,
+lock-free queue that fits in a 32-bit integer. The queue is “generic” in
+that a single implementation supports elements of any arbitrary type,
+despite an implementation in C. It’s lock-free in that there is guaranteed
+system-wide progress. It can store up to 32,767 elements at a time — more
+than enough for message queues, which must always be bounded. I
+will first present a single-consumer, single-producer queue, then expand
+support to multiple consumers at a cost. Like my lightweight barrier,
+I’m not presenting this as a packaged solution, but rather as a technique
+you can apply when circumstances call.
+How can the queue store so many elements when it’s just 32 bits? It only
+handles the indexes of a circular buffer. The c…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What We Look for in Founders]]></title>
         <id>http://www.paulgraham.com/founders.html</id>
@@ -2706,27 +2727,6 @@ Congratulations Thom and Chris, and thanks for everything you do!]]></summary>
         <updated>2022-04-16T01:14:33.891Z</updated>
         <author>
             <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Compiler April 2022 Steering Cycle]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html"/>
-        <updated>2022-04-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On Friday, April 8th, the Rust Compiler team had a planning meeting for the April 2022 steering cycle.
-Every fourth Friday, the Rust compiler team decides how
-it is going to use its scheduled steering and design meeting time over the next
-three Fridays.
-I want to apologize for how late I am posting this message: Our planning meeting
-was a week ago, and my intent each cycle is to put up this post that day, so
-that everyone, not just the compiler team members, has a chance participate in
-the meetings. But, since this is going out a week late, it means one of the
-meetings already happened (today).
-On Friday, 15 April, we discussed salsa 2.0's entity design. Salsa
-is a generic framework for on-demand incrementalized computation, which has many
-ties to rustc's query system. Niko Matsakis author…]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>

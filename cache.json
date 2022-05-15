@@ -343,16 +343,6 @@
           "wordCount": 182,
           "title": "Please welcome Thom and Chris to Library Contributors",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html",
-          "author": null,
-          "description": "On Friday, April 8th, the Rust Compiler team had a planning meeting for the April 2022 steering cycle.\nEvery fourth Friday, the Rust compiler team decides how\nit is going to use its scheduled steering and design meeting time over the next\nthree Fridays.\nI want to apologize for how late I am posting this message: Our planning meeting\nwas a week ago, and my intent each cycle is to put up this post that day, so\nthat everyone, not just the compiler team members, has a chance participate in\nthe meetings. But, since this is going out a week late, it means one of the\nmeetings already happened (today).\nOn Friday, 15 April, we discussed salsa 2.0's entity design. Salsa\nis a generic framework for on-demand incrementalized computation, which has many\nties to rustc's query system. Niko Matsakis author…",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html",
-          "publishedOn": "2022-04-15T00:00:00.000Z",
-          "wordCount": 482,
-          "title": "Rust Compiler April 2022 Steering Cycle",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -554,6 +544,16 @@
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
       "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2022/05/14/",
+          "author": null,
+          "description": "While considering concurrent queue design I came up with a generic,\nlock-free queue that fits in a 32-bit integer. The queue is “generic” in\nthat a single implementation supports elements of any arbitrary type,\ndespite an implementation in C. It’s lock-free in that there is guaranteed\nsystem-wide progress. It can store up to 32,767 elements at a time — more\nthan enough for message queues, which must always be bounded. I\nwill first present a single-consumer, single-producer queue, then expand\nsupport to multiple consumers at a cost. Like my lightweight barrier,\nI’m not presenting this as a packaged solution, but rather as a technique\nyou can apply when circumstances call.\nHow can the queue store so many elements when it’s just 32 bits? It only\nhandles the indexes of a circular buffer. The c…",
+          "link": "https://nullprogram.com/blog/2022/05/14/",
+          "publishedOn": "2022-05-14T04:22:24.000Z",
+          "wordCount": 2027,
+          "title": "A lock-free, concurrent, generic queue in 32 bits",
+          "imageUrl": null
+        },
         {
           "id": "https://nullprogram.com/blog/2022/04/30/",
           "author": null,

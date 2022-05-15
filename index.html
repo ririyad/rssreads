@@ -22,11 +22,55 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-05-14 datetime="2022-05-14T01:49:16.545Z">2022-05-14</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-05-14 datetime="2022-05-14T01:49:16.545Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-05-14 datetime="2022-05-14T04:22:24.000Z">2022-05-14</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-05-14 datetime="2022-05-14T04:22:24.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >null program</button>
+                  <a class="source-heading__link" href="https://nullprogram.com">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://nullprogram.com/blog/2022/05/14/"
+                        open
+                      >
+                        <summary class="article-expander__title">A lock-free, concurrent, generic queue in 32 bits</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://nullprogram.com/blog/2022/05/14/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>While considering concurrent queue design I came up with a generic,
+lock-free queue that fits in a 32-bit integer. The queue is “generic” in
+that a single implementation supports elements of any arbitrary type,
+despite an implementation in C. It’s lock-free in that there is guaranteed
+system-wide progress. It can store up to 32,767 elements at a time — more
+than enough for message queues, which must always be bounded. I
+will first present a single-consumer, single-producer queue, then expand
+support to multiple consumers at a cost. Like my lightweight barrier,
+I’m not presenting this as a packaged solution, but rather as a technique
+you can apply when circumstances call.
+How can the queue store so many elements when it’s just 32 bits? It only
+handles the indexes of a circular buffer. The c…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -6515,69 +6559,10 @@ Congratulations Thom and Chris, and thanks for everything you do!</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-04-15 datetime="2022-04-15T00:00:00.000Z">2022-04-15</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-04-15 datetime="2022-04-15T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Inside Rust Blog</button>
-                  <a class="source-heading__link" href="https://blog.rust-lang.org/inside-rust/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Rust Compiler April 2022 Steering Cycle</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2022/04/15/apr-steering-cycle.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>On Friday, April 8th, the Rust Compiler team had a planning meeting for the April 2022 steering cycle.
-Every fourth Friday, the Rust compiler team decides how
-it is going to use its scheduled steering and design meeting time over the next
-three Fridays.
-I want to apologize for how late I am posting this message: Our planning meeting
-was a week ago, and my intent each cycle is to put up this post that day, so
-that everyone, not just the compiler team members, has a chance participate in
-the meetings. But, since this is going out a week late, it means one of the
-meetings already happened (today).
-On Friday, 15 April, we discussed salsa 2.0&#x27;s entity design. Salsa
-is a generic framework for on-demand incrementalized computation, which has many
-ties to rustc&#x27;s query system. Niko Matsakis author…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/2322633563">
-        <time id="build-timestamp" datetime="2022-05-14T01:49:58.743Z">2022-05-14T01:49:58.743Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/2325772092">
+        <time id="build-timestamp" datetime="2022-05-15T01:47:01.206Z">2022-05-15T01:47:01.206Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
