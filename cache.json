@@ -352,6 +352,16 @@
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
         {
+          "id": "https://world.hey.com/jorge/priceless-adversity-d15a39ca",
+          "author": null,
+          "description": "It's hard to appreciate the good without having experienced the bad.\nMy first job made me professionally very unhappy. It lasted a few years, and it deeply impacted me. I swear there hasn't been a week since I quit, almost ten years ago, where I didn't reflect on my good luck compared to my starting point. Don't get me wrong: if I could go back, I wouldn't repeat it, but I got something good out of it.\nIn all honesty, I am not sure I would have wanted to start my career at Basecamp. I feel I appreciate many things here because I have an intimate knowledge of how the alternative feels: working with kind and brilliant people, being fully remote, having a high degree of autonomy, the efficient async-driven processes without meetings, the products I love, the technology, the excellent conditio…",
+          "link": "https://world.hey.com/jorge/priceless-adversity-d15a39ca",
+          "publishedOn": "2022-05-16T20:09:22.000Z",
+          "wordCount": 550,
+          "title": "Priceless adversity",
+          "imageUrl": "https://world.hey.com/jorge/avatar-20210531172846000000-22805770"
+        },
+        {
           "id": "https://world.hey.com/jorge/performance-in-context-323e60b7",
           "author": null,
           "description": "When it comes to analyzing code performance, context matters a lot. For example, say we have this code that adds two numbers:\n\n\na = 1 + 2\n\n\nAnd now we need to add a subtraction:\n\n\na = 1 + 2\na = a - 3\n\n\nSo what's the cost of this change? We can benchmark:\n\n\nrequire \"benchmark/ips\"\n\nBenchmark.ips do |x|\n  x.report(\"only add\") { a = 1 + 2 }\n  x.report(\"add + subtract\") do\n    a = 1 + 2\n    a = a - 3\n  end\nend\n\n\nWhen I run that, I get that the performance penalty of the additional subtraction is around 13%:\n\n\nCalculating -------------------------------------\n            only add     18.694M (± 0.3%) i/s -     94.382M in   5.048948s\n      add + subtract     16.258M (± 0.8%) i/s -     82.635M in   5.083165s\n\n\nA 13% overhead! That doesn't sound very good. Here is when context comes into place. Th…",
@@ -398,6 +408,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-05-16-how-were-using-projects-to-build-projects/",
+          "author": null,
+          "description": "At GitHub we use GitHub to build our own products, and the new projects experience is no different. Check out how our team uses projects to build powerful project planning for developers.",
+          "link": "https://github.blog/2022-05-16-how-were-using-projects-to-build-projects/",
+          "publishedOn": "2022-05-16T16:02:19.000Z",
+          "wordCount": 1656,
+          "title": "How we’re using projects to build projects",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/blog-header-image.png"
+        },
         {
           "id": "https://github.blog/2022-05-04-github-availability-report-april-2022/",
           "author": null,
@@ -647,18 +667,7 @@
       "title": "Stay SaaSy",
       "feedUrl": "https://staysaasy.com/feed.xml",
       "siteUrl": "https://staysaasy.com/",
-      "articles": [
-        {
-          "id": "https://staysaasy.com/product/2022/04/16/battlefield-product-management-dont-build-useless-features.html",
-          "author": null,
-          "description": "One of the most important core product management skills is the ability to triage unsuccessful products and avoid spending unnecessary effort on products that are destined to be losers.",
-          "link": "https://staysaasy.com/product/2022/04/16/battlefield-product-management-dont-build-useless-features.html",
-          "publishedOn": "2022-04-16T14:59:22.000Z",
-          "wordCount": 951,
-          "title": "Don’t Build Useless Features",
-          "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Julia Evans",
@@ -720,6 +729,16 @@
       "feedUrl": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "siteUrl": "http://www.paulgraham.com/",
       "articles": [
+        {
+          "id": "http://www.paulgraham.com/words.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/words.html",
+          "publishedOn": "2022-05-17T01:26:33.234Z",
+          "wordCount": 1154,
+          "title": "Putting Ideas into Words",
+          "imageUrl": null
+        },
         {
           "id": "http://www.paulgraham.com/founders.html",
           "author": null,

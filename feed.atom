@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-16T01:22:45.168Z</updated>
+    <updated>2022-05-17T01:27:16.696Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Putting Ideas into Words]]></title>
+        <id>http://www.paulgraham.com/words.html</id>
+        <link href="http://www.paulgraham.com/words.html"/>
+        <updated>2022-05-17T01:26:33.234Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Priceless adversity]]></title>
+        <id>https://world.hey.com/jorge/priceless-adversity-d15a39ca</id>
+        <link href="https://world.hey.com/jorge/priceless-adversity-d15a39ca"/>
+        <updated>2022-05-16T20:09:22.000Z</updated>
+        <summary type="html"><![CDATA[It's hard to appreciate the good without having experienced the bad.
+My first job made me professionally very unhappy. It lasted a few years, and it deeply impacted me. I swear there hasn't been a week since I quit, almost ten years ago, where I didn't reflect on my good luck compared to my starting point. Don't get me wrong: if I could go back, I wouldn't repeat it, but I got something good out of it.
+In all honesty, I am not sure I would have wanted to start my career at Basecamp. I feel I appreciate many things here because I have an intimate knowledge of how the alternative feels: working with kind and brilliant people, being fully remote, having a high degree of autonomy, the efficient async-driven processes without meetings, the products I love, the technology, the excellent conditio…]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we’re using projects to build projects]]></title>
+        <id>https://github.blog/2022-05-16-how-were-using-projects-to-build-projects/</id>
+        <link href="https://github.blog/2022-05-16-how-were-using-projects-to-build-projects/"/>
+        <updated>2022-05-16T16:02:19.000Z</updated>
+        <summary type="html"><![CDATA[At GitHub we use GitHub to build our own products, and the new projects experience is no different. Check out how our team uses projects to build powerful project planning for developers.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Fly.io: the Reclaimer of Heroku's Magic]]></title>
         <id>https://christine.website/blog/fly.io-heroku-replacement</id>
@@ -2718,16 +2749,6 @@ to improve the Windows side of std::fs, std::path, std::process and other module
 Congratulations Thom and Chris, and thanks for everything you do!]]></summary>
         <author>
             <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don’t Build Useless Features]]></title>
-        <id>https://staysaasy.com/product/2022/04/16/battlefield-product-management-dont-build-useless-features.html</id>
-        <link href="https://staysaasy.com/product/2022/04/16/battlefield-product-management-dont-build-useless-features.html"/>
-        <updated>2022-04-16T14:59:22.000Z</updated>
-        <summary type="html"><![CDATA[One of the most important core product management skills is the ability to triage unsuccessful products and avoid spending unnecessary effort on products that are destined to be losers.]]></summary>
-        <author>
-            <name>Stay SaaSy</name>
         </author>
     </entry>
 </feed>
