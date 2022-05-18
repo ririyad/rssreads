@@ -305,6 +305,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html",
+          "author": null,
+          "description": "The 1.61.0 pre-release is ready for testing. The release is scheduled for this\nThursday, May 19th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-05-16/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html",
+          "publishedOn": "2022-05-16T00:00:00.000Z",
+          "wordCount": 144,
+          "title": "1.61.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html",
           "author": null,
           "description": "The next \"Cross Team Collaboration Fun Times\" (CTCFT) meeting will take\nplace on Monday, 2022-05-16 at 11am US Eastern Time (click to see in your\ntime zone). You’ll find the full details (along with a calendar\nevent, zoom details, etc) on the CTCFT website.\nAgenda\nThe theme for this month's CTCFT is Embedded Rust. We'll hear from some\nmembers of the Rust Embedded Working Group and community about the state of the ecosystem, as\nwell as how async Rust is working for embedded systems. We also have some people\ncoming in from the automotive industry to talk about how Rust use is starting to\nprogress.\n(5 min) Opening remarks 👋 (angelonfira)\n(15 min) A whirlwind tour of Embedded Rust (jamesmunns)\n\nA brief history of the embedded-wg and use of Rust for embedded\nA look at how developing embedded Rust looks like today\nA sample of patterns that are special to embedded Rust, or differences from\n\"desktop\" Rust\n(15 min) Async Rust for Embedded Systems (Dirbaio)\n\nWe'll explore how concurrency is traditionally handled in embedded, and how\nRust's async makes it significantly easier while still requiring no runtime,\nno OS, and no allocation, and what Rust improvements could make it even more\nawesome.\n(15 min) Rust in Automotive (cpetig, skade)\n\nWe'll look at Rust from a Functional Safety perspective, and continuing to\nthe AUTOSAR architecture. We'll also look a bit at what Ferrocene's role is\nin all this, and look at the AUTOSAR Rust bindings. Finally, we'll see\nwhat's next for this space.\n(5 min) Closing (angelonfira)\nAfterwards: Social Hour\nLike always, we'll be running a social hour after the CTCFT. The idea is really\nsimple: for the hour after the meeting, we will create breakout rooms in Zoom\nwith different themes. You can join any breakout room you like and hangout.",
@@ -332,16 +342,6 @@
           "publishedOn": "2022-04-19T00:00:00.000Z",
           "wordCount": 1237,
           "title": "Imposter Syndrome",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/04/18/libs-contributors.html",
-          "author": null,
-          "description": "Please welcome Thom Chiovoloni and Chris Denton to the\nLibrary Contributors group!\nThom has been working on various improvements to the implementation\nof the standard library, such as optimizing io::Error,\noptimizing Chars::count, and has been helping out\nwith reviewing various implementation changes.\nChris has been focusing on the Windows specific parts of the standard library.\nChris implemented the Windows part of the patch for CVE-2022-21658,\nand has done a ton of work\nto improve the Windows side of std::fs, std::path, std::process and other modules.\nCongratulations Thom and Chris, and thanks for everything you do!",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/04/18/libs-contributors.html",
-          "publishedOn": "2022-04-18T00:00:00.000Z",
-          "wordCount": 182,
-          "title": "Please welcome Thom and Chris to Library Contributors",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -534,16 +534,6 @@
           "wordCount": 1516,
           "title": "New lessons learned in building COVID-19 vaccine acceptance",
           "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.8562-6/278646993_377613267602810_1810413488274664557_n.png?_nc_cat=110&ccb=1-5&_nc_sid=6825c5&_nc_ohc=OpdE9vJfUF8AX_3xvFH&_nc_ht=scontent-iad3-1.xx&oh=00_AT-kWf-Y43NId-5Lno1ucoVXY3lKeordIzc52q3XhLi8vQ&oe=62689D74"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/4/us-businesses-willing-to-change-practices-to-reduce-emissions-but-need-more-information-on-how/",
-          "author": null,
-          "description": "",
-          "link": "https://research.facebook.com/blog/2022/4/us-businesses-willing-to-change-practices-to-reduce-emissions-but-need-more-information-on-how/",
-          "publishedOn": "2022-04-18T10:31:00.000Z",
-          "wordCount": 999,
-          "title": "U.S. businesses willing to change practices to reduce emissions, but need more information on how",
-          "imageUrl": "https://scontent-iad3-1.xx.fbcdn.net/v/t39.8562-6/277747678_1006355740276387_6224110364964989799_n.png?_nc_cat=109&ccb=1-5&_nc_sid=6825c5&_nc_ohc=zpEBZYpFfBgAX-gvTU3&_nc_ht=scontent-iad3-1.xx&oh=00_AT9BC7GPsSygsnLevG_Q7HdlbP-lCFty43wDSLILsdNSsg&oe=62638AD0"
         }
       ]
     },

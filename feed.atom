@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-17T01:27:16.696Z</updated>
+    <updated>2022-05-18T01:19:14.154Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -35,6 +35,24 @@ In all honesty, I am not sure I would have wanted to start my career at Basecamp
         <summary type="html"><![CDATA[At GitHub we use GitHub to build our own products, and the new projects experience is no different. Check out how our team uses projects to build powerful project planning for developers.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.61.0 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html"/>
+        <updated>2022-05-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.61.0 pre-release is ready for testing. The release is scheduled for this
+Thursday, May 19th. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2022-05-16/index.html. You
+can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
         </author>
     </entry>
     <entry>
@@ -2720,35 +2738,6 @@ unqualified and undeserving compared to those…]]></summary>
         <summary type="html"><![CDATA[Another new release of Git is here! Take a look at some of our highlights on what's new in Git 2.36.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[U.S. businesses willing to change practices to reduce emissions, but need more information on how]]></title>
-        <id>https://research.facebook.com/blog/2022/4/us-businesses-willing-to-change-practices-to-reduce-emissions-but-need-more-information-on-how/</id>
-        <link href="https://research.facebook.com/blog/2022/4/us-businesses-willing-to-change-practices-to-reduce-emissions-but-need-more-information-on-how/"/>
-        <updated>2022-04-18T10:31:00.000Z</updated>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Please welcome Thom and Chris to Library Contributors]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/04/18/libs-contributors.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/04/18/libs-contributors.html"/>
-        <updated>2022-04-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Please welcome Thom Chiovoloni and Chris Denton to the
-Library Contributors group!
-Thom has been working on various improvements to the implementation
-of the standard library, such as optimizing io::Error,
-optimizing Chars::count, and has been helping out
-with reviewing various implementation changes.
-Chris has been focusing on the Windows specific parts of the standard library.
-Chris implemented the Windows part of the patch for CVE-2022-21658,
-and has done a ton of work
-to improve the Windows side of std::fs, std::path, std::process and other modules.
-Congratulations Thom and Chris, and thanks for everything you do!]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>
