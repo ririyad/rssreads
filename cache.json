@@ -203,16 +203,6 @@
           "wordCount": 97,
           "title": "Four Links - April 28, 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2022/04/19/bear.html",
-          "author": null,
-          "description": "A look at another minimalist blogging platform that's powered by plain text",
-          "link": "https://plaintextproject.online/articles/2022/04/19/bear.html",
-          "publishedOn": "2022-04-19T19:00:00.000Z",
-          "wordCount": 1017,
-          "title": "Blogging in Plain Text with Bear",
-          "imageUrl": null
         }
       ]
     },
@@ -246,16 +236,6 @@
           "wordCount": 940,
           "title": "How I use Twitter",
           "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://martinfowler.com/photos/128.html",
-          "author": null,
-          "description": "Heian-jingu Shrine\nKyoto, Japan (2004)",
-          "link": "https://martinfowler.com/photos/128.html",
-          "publishedOn": "2022-04-19T21:58:00.000Z",
-          "wordCount": 23,
-          "title": "photostream 128",
-          "imageUrl": "https://martinfowler.com/photos/128.jpg"
         }
       ]
     },
@@ -298,6 +278,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html",
+          "author": null,
+          "description": "The Rust team is happy to announce a new version of Rust, 1.61.0. Rust is a programming language\nempowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.61.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.61.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use\nthe beta channel (rustup default beta) or the nightly channel (rustup default nightly).\nPlease report any bugs you might come across!\nWhat's in 1.61.0 stable\nCustom exit codes from main\nIn the beginning, Rust main functions could only return the unit type () (either implicitly o…",
+          "link": "https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html",
+          "publishedOn": "2022-05-19T00:00:00.000Z",
+          "wordCount": 845,
+          "title": "Announcing Rust 1.61.0",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html",
           "author": null,
           "description": "This is a cross-post of the official security advisory. The\nofficial advisory contains a signed version with our PGP key, as well.\nThe Rust Security Response WG and the crates.io team were notified on\n2022-05-02 of the existence of the malicious crate rustdecimal, which\ncontained malware. The crate name was intentionally similar to the name of the\npopular rust_decimal crate, hoping that potential victims would misspell\nits name (an attack called \"typosquatting\").\nTo protect the security of the ecosystem, the crates.io team permanently\nremoved the crate from the registry as soon as it was made aware of the\nmalware. An analysis of all the crates on crates.io was also performed, and no\nother crate with similar code patterns was found.\nKeep in mind that the rust_decimal crate was not compromis…",
@@ -332,16 +322,6 @@
           "publishedOn": "2022-05-10T00:00:00.000Z",
           "wordCount": 374,
           "title": "CTCFT 2022-05-16 Agenda",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/04/20/libs-aspirations.html",
-          "author": null,
-          "description": "Over the past years, Rust has grown from a language used by a few dedicated users\ninto a well-known language used by lots of highly visible projects and\nsuccessful companies.\nAs the Rust user base, the community, and the ecosystem continues to grow,\nwe need to look forward and consider how we need to scale to adapt\nto the needs of the ever expanding Rust ecosystem.\nRecently, the compiler team shared their blog post\ndetailing their ambitions for 2022,\nand the language team published a roadmap\nwith their vision for Rust in 2024.\nIn this blog post, we, the Rust library team, will share our perspective\non the future of the Rust standard library and the library ecosystem.\nIt's important to note that\nthe role of the team is to coordinate changes and to guide, review and decide.\nThe majority of t…",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/04/20/libs-aspirations.html",
-          "publishedOn": "2022-04-20T00:00:00.000Z",
-          "wordCount": 1666,
-          "title": "Rust Library Team Aspirations",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -477,16 +457,6 @@
           "wordCount": 1022,
           "title": "Codespaces for multi-repository and monorepo scenarios",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Product-Engineering-Scurity.png?fit=1200%2C630"
-        },
-        {
-          "id": "https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/",
-          "author": null,
-          "description": "Introducing CodeQL packs to help you codify and share your knowledge of vulnerabilities.",
-          "link": "https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/",
-          "publishedOn": "2022-04-19T17:00:02.000Z",
-          "wordCount": 2115,
-          "title": "Sharing security expertise through CodeQL packs (Part I)",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Security.png?fit=1200%2C630"
         }
       ]
     },

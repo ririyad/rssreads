@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-19T01:44:41.378Z</updated>
+    <updated>2022-05-20T01:36:17.556Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.61.0]]></title>
+        <id>https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html</id>
+        <link href="https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html"/>
+        <updated>2022-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.61.0. Rust is a programming language
+empowering everyone to build reliable and efficient software.
+If you have a previous version of Rust installed via rustup, you can get 1.61.0 with:
+rustup update stable
+
+If you don't have it already, you can get rustup
+from the appropriate page on our website, and check out the
+detailed release notes for 1.61.0 on GitHub.
+If you'd like to help us out by testing future releases, you might consider updating locally to use
+the beta channel (rustup default beta) or the nightly channel (rustup default nightly).
+Please report any bugs you might come across!
+What's in 1.61.0 stable
+Custom exit codes from main
+In the beginning, Rust main functions could only return the unit type () (either implicitly o…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Three Text Editors for Chrome OS]]></title>
         <id>https://plaintextproject.online/articles/2022/05/18/chrome-editors.html</id>
@@ -2671,61 +2694,6 @@ Radiating information in an organization is essential, vertic…]]></summary>
         <link href="https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/"/>
         <updated>2022-04-20T16:00:57.000Z</updated>
         <summary type="html"><![CDATA[We’re releasing exciting improvements that will streamline your Codespaces experience when working with multi-repository projects and monorepos.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Library Team Aspirations]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/04/20/libs-aspirations.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/04/20/libs-aspirations.html"/>
-        <updated>2022-04-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Over the past years, Rust has grown from a language used by a few dedicated users
-into a well-known language used by lots of highly visible projects and
-successful companies.
-As the Rust user base, the community, and the ecosystem continues to grow,
-we need to look forward and consider how we need to scale to adapt
-to the needs of the ever expanding Rust ecosystem.
-Recently, the compiler team shared their blog post
-detailing their ambitions for 2022,
-and the language team published a roadmap
-with their vision for Rust in 2024.
-In this blog post, we, the Rust library team, will share our perspective
-on the future of the Rust standard library and the library ecosystem.
-It's important to note that
-the role of the team is to coordinate changes and to guide, review and decide.
-The majority of t…]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[photostream 128]]></title>
-        <id>https://martinfowler.com/photos/128.html</id>
-        <link href="https://martinfowler.com/photos/128.html"/>
-        <updated>2022-04-19T21:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Heian-jingu Shrine
-Kyoto, Japan (2004)]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blogging in Plain Text with Bear]]></title>
-        <id>https://plaintextproject.online/articles/2022/04/19/bear.html</id>
-        <link href="https://plaintextproject.online/articles/2022/04/19/bear.html"/>
-        <updated>2022-04-19T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A look at another minimalist blogging platform that's powered by plain text]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sharing security expertise through CodeQL packs (Part I)]]></title>
-        <id>https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/</id>
-        <link href="https://github.blog/2022-04-19-sharing-security-expertise-through-codeql-packs-part-i/"/>
-        <updated>2022-04-19T17:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Introducing CodeQL packs to help you codify and share your knowledge of vulnerabilities.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
         </author>
