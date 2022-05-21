@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/this-might-not-be-the-place-for-you-87800c5a",
+          "author": null,
+          "description": "They failed to capture the hill at Netflix. That small but vocal gang of employees hellbent on canceling Chappelle last year over his comedy special. Now comes the counter offensive from the executive in the form of newly updated cultural guidelines at the company:\n\nAs employees we support the principle that Netflix offers a diversity of stories, even if we find some titles counter to our own personal values. Depending on your role, you may need to work on titles you perceive to be harmful. If you’d find it hard to support our content breadth, Netflix may not be the best place for you.\n\nThat's what happens after a moment of overreach. It leaves you exposed for the riposte. Netflix has now delivered just that, and it's not just a zinger, but a booby trap.\nBy codifying the fact that Netflix …",
+          "link": "https://world.hey.com/dhh/this-might-not-be-the-place-for-you-87800c5a",
+          "publishedOn": "2022-05-20T05:39:16.000Z",
+          "wordCount": 433,
+          "title": "This might not be the place for you",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-founder-s-gamble-24d11ef2",
           "author": null,
           "description": "As companies mature, grow departments, accumulate staff, and develop reliable streams of revenue, it gets structurally harder and harder to make the big decisions that might upset the applecart. This is the familiar scene of The Innovator's Dilemma. \nThe more of everything there is, the higher the stakes appear, and the less likely professional management at most mature companies is to risk it on a big call. But, as Clayton Christensen tells us, the biggest risk of all is thinking that what worked yesterday is going to work tomorrow too. \nThis is where the founder's gamble come in.\nIf you were there before the pillars of wealth and progress stood solid, it's easier not to fear the ruins. All are from the dust, and to dust all return. But if you entered the temple of the successful enterpri…",
@@ -305,6 +315,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/05/19/governance-update.html",
+          "author": null,
+          "description": "Last month, the core team, all the leads of top-level teams, the moderators, and the project representatives on the Rust Foundation board jointly sent out an update to all Rust project members on investigations happening into improvements to the governance of the Rust project.\nAs is detailed in the update, this report follows extensive conversations with many inside of the project and will continue as we encourage others in the project to reach out should they have feedback or want to get involved.\nSince proper governance of the Rust project impacts all users of Rust, we thought it appropriate to also make this summary public. While typos and grammatical fixes have been made since the original post, the text is otherwise unaltered. 1\nAs is noted in the summary, the next steps are to take t…",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/05/19/governance-update.html",
+          "publishedOn": "2022-05-19T00:00:00.000Z",
+          "wordCount": 2738,
+          "title": "Governance Update",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html",
           "author": null,
           "description": "The 1.61.0 pre-release is ready for testing. The release is scheduled for this\nThursday, May 19th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-05-16/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
@@ -389,6 +409,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-05-20-action-needed-by-github-connect-customers-using-ghes-3-1-and-older-to-adopt-new-authentication-token-format-updates/",
+          "author": null,
+          "description": "Upgrade to GHES 3.2 or newer by June 3rd to continue using GitHub Connect.",
+          "link": "https://github.blog/2022-05-20-action-needed-by-github-connect-customers-using-ghes-3-1-and-older-to-adopt-new-authentication-token-format-updates/",
+          "publishedOn": "2022-05-20T15:27:38.000Z",
+          "wordCount": 449,
+          "title": "Action needed by GitHub Connect customers using GHES 3.1 and older to adopt new authentication token format updates",
+          "imageUrl": "https://github.blog/wp-content/uploads/2021/12/engineering-product_orange-green-banner.png"
+        },
+        {
           "id": "https://github.blog/2022-05-16-how-were-using-projects-to-build-projects/",
           "author": null,
           "description": "At GitHub we use GitHub to build our own products, and the new projects experience is no different. Check out how our team uses projects to build powerful project planning for developers.",
@@ -447,16 +477,6 @@
           "wordCount": 1361,
           "title": "Improving Git push times through faster server side hooks",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Product@2x.png?fit=2400%2C1260"
-        },
-        {
-          "id": "https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/",
-          "author": null,
-          "description": "We’re releasing exciting improvements that will streamline your Codespaces experience when working with multi-repository projects and monorepos.",
-          "link": "https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/",
-          "publishedOn": "2022-04-20T16:00:57.000Z",
-          "wordCount": 1022,
-          "title": "Codespaces for multi-repository and monorepo scenarios",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Product-Engineering-Scurity.png?fit=1200%2C630"
         }
       ]
     },
@@ -609,16 +629,6 @@
           "publishedOn": "2022-04-24T00:00:00.000Z",
           "wordCount": 2270,
           "title": "Crimes with Go Generics",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/politics-cudgel-experimentation-2022-04-21",
-          "author": null,
-          "description": "Posted on 2022-04-21",
-          "link": "https://christine.website/blog/politics-cudgel-experimentation-2022-04-21",
-          "publishedOn": "2022-04-21T00:00:00.000Z",
-          "wordCount": 572,
-          "title": "Stop Using Politics As A Cudgel To Discourage Experimentation",
           "imageUrl": null
         }
       ]

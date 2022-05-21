@@ -2,10 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-20T01:36:17.556Z</updated>
+    <updated>2022-05-21T01:12:48.073Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Action needed by GitHub Connect customers using GHES 3.1 and older to adopt new authentication token format updates]]></title>
+        <id>https://github.blog/2022-05-20-action-needed-by-github-connect-customers-using-ghes-3-1-and-older-to-adopt-new-authentication-token-format-updates/</id>
+        <link href="https://github.blog/2022-05-20-action-needed-by-github-connect-customers-using-ghes-3-1-and-older-to-adopt-new-authentication-token-format-updates/"/>
+        <updated>2022-05-20T15:27:38.000Z</updated>
+        <summary type="html"><![CDATA[Upgrade to GHES 3.2 or newer by June 3rd to continue using GitHub Connect.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This might not be the place for you]]></title>
+        <id>https://world.hey.com/dhh/this-might-not-be-the-place-for-you-87800c5a</id>
+        <link href="https://world.hey.com/dhh/this-might-not-be-the-place-for-you-87800c5a"/>
+        <updated>2022-05-20T05:39:16.000Z</updated>
+        <summary type="html"><![CDATA[They failed to capture the hill at Netflix. That small but vocal gang of employees hellbent on canceling Chappelle last year over his comedy special. Now comes the counter offensive from the executive in the form of newly updated cultural guidelines at the company:
+
+As employees we support the principle that Netflix offers a diversity of stories, even if we find some titles counter to our own personal values. Depending on your role, you may need to work on titles you perceive to be harmful. If you’d find it hard to support our content breadth, Netflix may not be the best place for you.
+
+That's what happens after a moment of overreach. It leaves you exposed for the riposte. Netflix has now delivered just that, and it's not just a zinger, but a booby trap.
+By codifying the fact that Netflix …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Announcing Rust 1.61.0]]></title>
         <id>https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html</id>
@@ -27,6 +52,19 @@ Custom exit codes from main
 In the beginning, Rust main functions could only return the unit type () (either implicitly o…]]></summary>
         <author>
             <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Governance Update]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/05/19/governance-update.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/05/19/governance-update.html"/>
+        <updated>2022-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Last month, the core team, all the leads of top-level teams, the moderators, and the project representatives on the Rust Foundation board jointly sent out an update to all Rust project members on investigations happening into improvements to the governance of the Rust project.
+As is detailed in the update, this report follows extensive conversations with many inside of the project and will continue as we encourage others in the project to reach out should they have feedback or want to get involved.
+Since proper governance of the Rust project impacts all users of Rust, we thought it appropriate to also make this summary public. While typos and grammatical fixes have been made since the original post, the text is otherwise unaltered. 1
+As is noted in the summary, the next steps are to take t…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
         </author>
     </entry>
     <entry>
@@ -2674,26 +2712,6 @@ Radiating information in an organization is essential, vertic…]]></summary>
         <link href="https://github.blog/2022-04-21-improving-git-push-times-through-faster-server-side-hooks/"/>
         <updated>2022-04-21T16:30:04.000Z</updated>
         <summary type="html"><![CDATA[The history of pre-receive hooks, how we discovered that the performance was problematic, and how we went about safely replacing them.]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stop Using Politics As A Cudgel To Discourage Experimentation]]></title>
-        <id>https://christine.website/blog/politics-cudgel-experimentation-2022-04-21</id>
-        <link href="https://christine.website/blog/politics-cudgel-experimentation-2022-04-21"/>
-        <updated>2022-04-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-04-21]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Codespaces for multi-repository and monorepo scenarios]]></title>
-        <id>https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/</id>
-        <link href="https://github.blog/2022-04-20-codespaces-multi-repository-monorepo-scenarios/"/>
-        <updated>2022-04-20T16:00:57.000Z</updated>
-        <summary type="html"><![CDATA[We’re releasing exciting improvements that will streamline your Codespaces experience when working with multi-repository projects and monorepos.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
         </author>
