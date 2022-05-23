@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-22T01:25:08.934Z</updated>
+    <updated>2022-05-23T01:23:24.911Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[My take on "where's all the code"]]></title>
+        <id>https://nullprogram.com/blog/2022/05/22/</id>
+        <link href="https://nullprogram.com/blog/2022/05/22/"/>
+        <updated>2022-05-22T23:59:59.000Z</updated>
+        <summary type="html"><![CDATA[Earlier this month Ted Unangst researched compiling the OpenBSD kernel
+50% faster, which involved stubbing out the largest, extraneous
+branches of the source tree. To find the lowest-hanging fruit, he wrote a
+tool called watc — where’s all the code — that displays an
+interactive “usage” summary of a source tree oriented around line count. A
+followup post about exploring the tree in parallel got me thinking
+about the problem, especially since I had just written about a concurrent
+queue. Turning it over in my mind, I saw opportunities for interesting
+data structures and memory management, and so I wanted to write my own
+version of the tool, watc.c, which is the subject of this
+article.
+The original watc is interactive and written in idiomatic Go. My version
+is non-interactive, written in C, …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Action needed by GitHub Connect customers using GHES 3.1 and older to adopt new authentication token format updates]]></title>
         <id>https://github.blog/2022-05-20-action-needed-by-github-connect-customers-using-ghes-3-1-and-older-to-adopt-new-authentication-token-format-updates/</id>

@@ -515,6 +515,16 @@
       "siteUrl": "https://nullprogram.com",
       "articles": [
         {
+          "id": "https://nullprogram.com/blog/2022/05/22/",
+          "author": null,
+          "description": "Earlier this month Ted Unangst researched compiling the OpenBSD kernel\n50% faster, which involved stubbing out the largest, extraneous\nbranches of the source tree. To find the lowest-hanging fruit, he wrote a\ntool called watc — where’s all the code — that displays an\ninteractive “usage” summary of a source tree oriented around line count. A\nfollowup post about exploring the tree in parallel got me thinking\nabout the problem, especially since I had just written about a concurrent\nqueue. Turning it over in my mind, I saw opportunities for interesting\ndata structures and memory management, and so I wanted to write my own\nversion of the tool, watc.c, which is the subject of this\narticle.\nThe original watc is interactive and written in idiomatic Go. My version\nis non-interactive, written in C, …",
+          "link": "https://nullprogram.com/blog/2022/05/22/",
+          "publishedOn": "2022-05-22T23:59:59.000Z",
+          "wordCount": 2982,
+          "title": "My take on \"where's all the code\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://nullprogram.com/blog/2022/05/14/",
           "author": null,
           "description": "While considering concurrent queue design I came up with a generic,\nlock-free queue that fits in a 32-bit integer. The queue is “generic” in\nthat a single implementation supports elements of any arbitrary type,\ndespite an implementation in C. It’s lock-free in that there is guaranteed\nsystem-wide progress. It can store up to 32,767 elements at a time — more\nthan enough for message queues, which must always be bounded. I\nwill first present a single-consumer, single-producer queue, then expand\nsupport to multiple consumers at a cost. Like my lightweight barrier,\nI’m not presenting this as a packaged solution, but rather as a technique\nyou can apply when circumstances call.\nHow can the queue store so many elements when it’s just 32 bits? It only\nhandles the indexes of a circular buffer. The c…",
