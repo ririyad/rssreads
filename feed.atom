@@ -2,10 +2,98 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-26T01:43:22.568Z</updated>
+    <updated>2022-05-27T01:27:16.387Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Don't defer quality]]></title>
+        <id>https://world.hey.com/jason/don-t-defer-quality-aaa105e4</id>
+        <link href="https://world.hey.com/jason/don-t-defer-quality-aaa105e4"/>
+        <updated>2022-05-26T19:42:48.000Z</updated>
+        <summary type="html"><![CDATA[Ever find yourself about to ship something that isn't good enough? You know it, you feel it, but you still want to get it out there because regardless of outcome, lots of work went into it. You want something to show for it.
+You can often make yourself feel a lot better by wrapping the uneasiness with a statement like "We can always come back and fix it up later".
+You can, but you won't.
+New priorities pull harder than old ones.
+You may add new things later, but coming back to tidy things up later is a different story. I'm not talking about bugs — those you'll probably fix. I'm talking about leveling up quality. A lack of quality rarely qualifies as a bug, and it's hard to justify the time, effort, and tradeoffs required to come back with a polishing cloth down the road. It's not just customer-facing quality either — it's behind the scenes code quality too.
+Bad quality gets baked in. It sticks around like cigarette smoke.
+Of course not everything deserves the highest fidelity. Perfect UX everywhere is a mirage. Tradeoffs have to be made, and you can often see what a company values by what they leave unfinished or or unloved.
+No one's immune, certainly not us. Every product has its dark corners, cobwebs, and junk drawers.
+Just be sure to check yourself when you defer "getting it right" to some future imaginary time when you'll have more time to do what you can't do today. It's not going to happen then, so what will you accept now?
+The two things we think about at 37signals to keep us honest are 1. the Half not Half-Assed maxim from Getting Real, and 2. our newly codified Seven Shipping Principles. They help us, and I hope they'll help you.
+Ideals are hard to live up to, but they're easy to keep in mind.
+Happy shipping!
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Four Links - May 26, 2022]]></title>
+        <id>https://plaintextproject.online/articles/2022/05/26/links.html</id>
+        <link href="https://plaintextproject.online/articles/2022/05/26/links.html"/>
+        <updated>2022-05-26T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Four new links, this time about blogging and building websites with plain text]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enterprisey expectations]]></title>
+        <id>https://world.hey.com/jorge/enterprisey-expectations-afae3f8e</id>
+        <link href="https://world.hey.com/jorge/enterprisey-expectations-afae3f8e"/>
+        <updated>2022-05-26T17:48:19.000Z</updated>
+        <summary type="html"><![CDATA[As a customer, I can't think of something I value more than how a company handles the problems I have with them.
+
+
+I have recently been evaluating Datadog for Basecamp. It's a fantastic product, and we are in the final testing stage. We recently tried the new version of its official Ruby/Rails gem, finding a severe memory leak problem. I reported the problem via GitHub, and I prepared to wait a long time before the first wave of useless replies from this $28 billion elephant. I was very wrong.
+
+
+I got a reply asking for more information two hours after reporting the problem. And a spot-on suggestion from an engineer twenty minutes after providing those details. They knew what the problem could be and offered a workaround. 
+
+
+I was delighted.
+
+
+It made me think about how I brace for impact …]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Who's been swimming naked?]]></title>
+        <id>https://world.hey.com/dhh/who-s-been-swimming-naked-b7904ccc</id>
+        <link href="https://world.hey.com/dhh/who-s-been-swimming-naked-b7904ccc"/>
+        <updated>2022-05-26T11:37:46.000Z</updated>
+        <summary type="html"><![CDATA["Only when the tide goes out do you discover who’s been swimming naked", says Warren Buffett, and now we're indeed seeing just how many tech companies have been indecently exposed as the investment mood snaps from greed to fear.
+Bolt, for example, just announced a brutal 1/3 cut of all staff, after touching the sun with a $11 billion valuation just a few months ago. The secondary market for that stock has since been cut in half. Klarna and Robinhood both announced layoffs of about ten percent of staff. Klarna chopped 650 positions, after raising mad money at a $45 billion valuation less than a year ago. Robinhood chopped ~300 positions, after its public stock got crushed from a peak of $85 to less than ten bucks today.
+Of course none of the companies are making any profits, never have made…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Concluding the events of last November]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/05/26/Concluding-events-mods.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/05/26/Concluding-events-mods.html"/>
+        <updated>2022-05-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the moderators' resignation in November, we (Josh Gould and Khionu Sybiern) had the mantle of the Moderation Team offered to us, and we caught up to speed on what lead up to this conflict. Their resignation became a catalyst, and we commited with the rest of the project leadership to do our best to solve the issues present and going forward.
+After these months, the following update was shared with core and team leaders:
+The moderation issue has been brought to a resolution. This case was open for an unsually long time, which made this process a considerably worse experience than necessary for all involved. This was caused in part due to the lack of well defined procedures and the underspecified governance structure of the project. Another major factor was the complexity of the situati…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We Already Have Go 2]]></title>
+        <id>https://xeiaso.net/blog/we-have-go-2</id>
+        <link href="https://xeiaso.net/blog/we-have-go-2"/>
+        <updated>2022-05-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-05-25]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We Already Have Go 2]]></title>
         <id>https://christine.website/blog/we-have-go-2</id>
@@ -26,6 +114,16 @@ You don't even have to buy into Graeber's economic analysis to recognize the wis
 Even more poignant is the observation that the res…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My Stance on Toxicity About Programming Languages]]></title>
+        <id>https://xeiaso.net/blog/against-toxicity-programming-languages</id>
+        <link href="https://xeiaso.net/blog/against-toxicity-programming-languages"/>
+        <updated>2022-05-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-05-23]]></summary>
+        <author>
+            <name>Xe's Blog</name>
         </author>
     </entry>
     <entry>
@@ -133,6 +231,16 @@ As is noted in the summary, the next steps are to take t…]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Site Update: I Fixed the Patron Page]]></title>
+        <id>https://xeiaso.net/blog/site-update-patron-page-fixed</id>
+        <link href="https://xeiaso.net/blog/site-update-patron-page-fixed"/>
+        <updated>2022-05-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-05-18]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Site Update: I Fixed the Patron Page]]></title>
         <id>https://christine.website/blog/site-update-patron-page-fixed</id>
         <link href="https://christine.website/blog/site-update-patron-page-fixed"/>
         <updated>2022-05-18T00:00:00.000Z</updated>
@@ -188,6 +296,16 @@ The release team is also thinking about changes to our pre-release process:
 we'd love your feedback on this GitHub issue.]]></summary>
         <author>
             <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fly.io: the Reclaimer of Heroku's Magic]]></title>
+        <id>https://xeiaso.net/blog/fly.io-heroku-replacement</id>
+        <link href="https://xeiaso.net/blog/fly.io-heroku-replacement"/>
+        <updated>2022-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-05-15]]></summary>
+        <author>
+            <name>Xe's Blog</name>
         </author>
     </entry>
     <entry>
@@ -2190,6 +2308,16 @@ JSON orders, I…]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[I Miss Heroku's DevEx]]></title>
+        <id>https://xeiaso.net/blog/heroku-devex-2022-05-12</id>
+        <link href="https://xeiaso.net/blog/heroku-devex-2022-05-12"/>
+        <updated>2022-05-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-05-12]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I Miss Heroku's DevEx]]></title>
         <id>https://christine.website/blog/heroku-devex-2022-05-12</id>
         <link href="https://christine.website/blog/heroku-devex-2022-05-12"/>
         <updated>2022-05-12T00:00:00.000Z</updated>
@@ -2621,18 +2749,6 @@ more…]]></summary>
         <summary type="html"><![CDATA[I know it's a couple of episodes ago on The Current Thing show, but remember when much of the media together with Neil Young and a motley crew of "270 health professionals" (that included dentists, consultants, students, psychologists, and a licensed marriage and family therapist) had a collective freak-out over Joe Rogan?
 That episode droned on for weeks with a million think piety pieces about tHe mIsINFoRmAtiON that the world's favorite podcaster was inflicting upon the public by having a few folks with unsanctioned views on covid on his show. It even had a trending #CancelSpotify hash tag on Twitter for a minute. 'Member that?
 If you do, but it seems like it was years ago already – and not just the few months that have actually passed – it's probably because The Current Thing is at once…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where are all the kids in America]]></title>
-        <id>https://world.hey.com/dhh/where-are-all-the-kids-in-america-ed0eebec</id>
-        <link href="https://world.hey.com/dhh/where-are-all-the-kids-in-america-ed0eebec"/>
-        <updated>2022-04-27T07:23:39.000Z</updated>
-        <summary type="html"><![CDATA[There's a lot to notice about Copenhagen when you arrive fresh off the plane from America. Look at all those bikes! What a clean city! See all those pedestrians dutifully waiting at the crossover for the light to turn green without a car in sight!  All these observations stick out, but none trigger the culture shock like seeing kids everywhere. Little kids, big kids, kids on bikes, kids on the metro, kids walking with their parents, kids walking alone. Kids, kids, kids!
-Kids are visible in the city landscape of Copenhagen like no major American city I've ever lived or visited. Not because there are actually more children in Denmark than the US. On average, Americans have slightly more children than Danes. But you'd swear that wasn't so by comparing the metropolitan areas.
-The importance of…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>
