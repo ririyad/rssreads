@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-29T01:43:40.407Z</updated>
+    <updated>2022-05-30T01:40:29.101Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1651069852&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1651069852&amp;"/>
+        <updated>2022-05-30T01:39:47.955Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
+        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1651069852&amp;</id>
+        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1651069852&amp;"/>
+        <updated>2022-05-30T01:39:47.953Z</updated>
+        <author>
+            <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Site Update: The Big Domain Move To xeiaso.net]]></title>
         <id>https://xeiaso.net/blog/big-domain-move</id>
@@ -2683,26 +2701,6 @@ context, the algorithm works like so:
 Consider the digits number as an array, and…]]></summary>
         <author>
             <name>null program</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[robocadey: Shitposting as a Service]]></title>
-        <id>https://christine.website/blog/robocadey-2022-04-30</id>
-        <link href="https://christine.website/blog/robocadey-2022-04-30"/>
-        <updated>2022-04-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-04-30]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bringing code navigation to communities]]></title>
-        <id>https://github.blog/2022-04-29-bringing-code-navigation-to-communities/</id>
-        <link href="https://github.blog/2022-04-29-bringing-code-navigation-to-communities/"/>
-        <updated>2022-04-29T15:00:02.000Z</updated>
-        <summary type="html"><![CDATA[Thanks to the efforts of the Elixir community, GitHub supports code navigation for Elixir repositories. Read how favorite language can add this support too!]]></summary>
-        <author>
-            <name>Engineering – The GitHub Blog</name>
         </author>
     </entry>
 </feed>
