@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-05-30T01:40:29.101Z</updated>
+    <updated>2022-05-31T01:40:52.396Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -2652,55 +2652,6 @@ This scene pins the deep fear in most people that the worst you can possibly be 
 That used to be pretty easy. As the LEGO movie goes,…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nix Flakes on WSL]]></title>
-        <id>https://christine.website/blog/nix-flakes-4-wsl-2022-05-01</id>
-        <link href="https://christine.website/blog/nix-flakes-4-wsl-2022-05-01"/>
-        <updated>2022-05-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-05-01]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ceremony]]></title>
-        <id>https://world.hey.com/jorge/ceremony-8f47e582</id>
-        <link href="https://world.hey.com/jorge/ceremony-8f47e582"/>
-        <updated>2022-04-30T23:46:24.000Z</updated>
-        <summary type="html"><![CDATA[Ceremony at work is those self-imposed rituals people follow to get things done. Too much, and it becomes a burden. Too little, and it's chaos.
-
-
-Ceremony serves two purposes: assessment and communication. Assessment is about making sure you are working on the right problems at any given moment; communication is about getting everyone on the same page while doing it. Without the right amount of ceremony, the odds are that people won't do a great job, won't aim for the correct targets or both at the same time.
-
-
-For the individual contributor in me, ceremony is a necessary evil. I don't love it, but I tolerate it because I understand its importance. What is the optimal amount of ceremony? That's the million-dollar question, and I don't have a clue. I do believe the correct answer has to be …]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Luhn algorithm using SWAR and SIMD]]></title>
-        <id>https://nullprogram.com/blog/2022/04/30/</id>
-        <link href="https://nullprogram.com/blog/2022/04/30/"/>
-        <updated>2022-04-30T17:53:05.000Z</updated>
-        <summary type="html"><![CDATA[Ever been so successful that credit card processing was your bottleneck?
-Perhaps you’ve wondered, “If only I could compute check digits three times
-faster using the same hardware!” Me neither. But if that ever happens
-someday, then this article is for you. I will show how to compute the
-Luhn algorithm in parallel using SIMD within a register, or
-SWAR.
-If you want to skip ahead, here’s the full source, tests, and benchmark:
-luhn.c
-The Luhn algorithm isn’t just for credit card numbers, but they do make a
-nice target for a SWAR approach. The major payment processors use 16
-digit numbers — i.e. 16 ASCII bytes — and typical machines today have
-8-byte registers, so the input fits into two machine registers. In this
-context, the algorithm works like so:
-Consider the digits number as an array, and…]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>

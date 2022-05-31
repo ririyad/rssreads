@@ -369,16 +369,6 @@
           "wordCount": 596,
           "title": "Rails attributes: an essential API you can probably ignore",
           "imageUrl": "https://world.hey.com/jorge/27147cc2/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRi9uNWk4PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--79b23f471623edcc0f9ef05391cebdb139ec0cdc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/vardan-papikyan-DnXqvmS0eXM-unsplash.jpg"
-        },
-        {
-          "id": "https://world.hey.com/jorge/ceremony-8f47e582",
-          "author": null,
-          "description": "Ceremony at work is those self-imposed rituals people follow to get things done. Too much, and it becomes a burden. Too little, and it's chaos.\n\n\nCeremony serves two purposes: assessment and communication. Assessment is about making sure you are working on the right problems at any given moment; communication is about getting everyone on the same page while doing it. Without the right amount of ceremony, the odds are that people won't do a great job, won't aim for the correct targets or both at the same time.\n\n\nFor the individual contributor in me, ceremony is a necessary evil. I don't love it, but I tolerate it because I understand its importance. What is the optimal amount of ceremony? That's the million-dollar question, and I don't have a clue. I do believe the correct answer has to be …",
-          "link": "https://world.hey.com/jorge/ceremony-8f47e582",
-          "publishedOn": "2022-04-30T23:46:24.000Z",
-          "wordCount": 389,
-          "title": "Ceremony",
-          "imageUrl": "https://world.hey.com/jorge/8f47e582/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRkNvYWk4PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b03639a249fd303b471380f64884be1cc449067a/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/ceremony.png"
         }
       ]
     },
@@ -481,16 +471,6 @@
           "publishedOn": "2022-05-14T04:22:24.000Z",
           "wordCount": 2027,
           "title": "A lock-free, concurrent, generic queue in 32 bits",
-          "imageUrl": null
-        },
-        {
-          "id": "https://nullprogram.com/blog/2022/04/30/",
-          "author": null,
-          "description": "Ever been so successful that credit card processing was your bottleneck?\nPerhaps you’ve wondered, “If only I could compute check digits three times\nfaster using the same hardware!” Me neither. But if that ever happens\nsomeday, then this article is for you. I will show how to compute the\nLuhn algorithm in parallel using SIMD within a register, or\nSWAR.\nIf you want to skip ahead, here’s the full source, tests, and benchmark:\nluhn.c\nThe Luhn algorithm isn’t just for credit card numbers, but they do make a\nnice target for a SWAR approach. The major payment processors use 16\ndigit numbers — i.e. 16 ASCII bytes — and typical machines today have\n8-byte registers, so the input fits into two machine registers. In this\ncontext, the algorithm works like so:\nConsider the digits number as an array, and…",
-          "link": "https://nullprogram.com/blog/2022/04/30/",
-          "publishedOn": "2022-04-30T17:53:05.000Z",
-          "wordCount": 1403,
-          "title": "Luhn algorithm using SWAR and SIMD",
           "imageUrl": null
         }
       ]
@@ -618,16 +598,6 @@
           "publishedOn": "2022-05-12T00:00:00.000Z",
           "wordCount": 1273,
           "title": "I Miss Heroku's DevEx",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/nix-flakes-4-wsl-2022-05-01",
-          "author": null,
-          "description": "Posted on 2022-05-01",
-          "link": "https://christine.website/blog/nix-flakes-4-wsl-2022-05-01",
-          "publishedOn": "2022-05-01T00:00:00.000Z",
-          "wordCount": 1414,
-          "title": "Nix Flakes on WSL",
           "imageUrl": null
         }
       ]
