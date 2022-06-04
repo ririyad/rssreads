@@ -129,16 +129,6 @@
           "wordCount": 438,
           "title": "Celebrating the end of The Good Times",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/bring-your-work-self-to-work-f5fbc2eb",
-          "author": null,
-          "description": "If employees are expected to spend the majority of their life at work — pulling those 60-80+ hour weeks — it's no wonder they in return demand work embraces their \"whole self\". But that's a terrible trade in both directions. What work and you really need is for everyone to show up with their \"work self\".\nYour work self needn't be a facade, it can still be you — just not all of it. It's the part that shows up to be courteous to coworkers (even when you don't really feel like it), engaged in solving the tasks at hand (even when you'd rather do something else), and with no more of your outside-of-work self than you'd be comfortable sharing with a kind stranger on a long plane ride.\nThat doesn't mean work can't be a place where you form deeper, fuller bonds. I've met some wonderful friends at …",
-          "link": "https://world.hey.com/dhh/bring-your-work-self-to-work-f5fbc2eb",
-          "publishedOn": "2022-05-05T12:53:57.000Z",
-          "wordCount": 410,
-          "title": "Bring your work self to work",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
         }
       ]
     },
@@ -231,16 +221,6 @@
           "publishedOn": "2022-05-08T00:00:00.000Z",
           "wordCount": 4103,
           "title": "The Beautiful Diablo 2 Resurrected machine",
-          "imageUrl": null
-        },
-        {
-          "id": "http://fabiensanglard.net/usbcheat/index.html",
-          "author": null,
-          "description": "",
-          "link": "http://fabiensanglard.net/usbcheat/index.html",
-          "publishedOn": "2022-05-05T00:00:00.000Z",
-          "wordCount": null,
-          "title": "USB Cheat Sheet",
           "imageUrl": null
         }
       ]
@@ -406,16 +386,6 @@
           "wordCount": 1656,
           "title": "How we’re using projects to build projects",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/05/blog-header-image.png"
-        },
-        {
-          "id": "https://github.blog/2022-05-04-github-availability-report-april-2022/",
-          "author": null,
-          "description": "In April, we experienced two distinct incidents resulting in significant impact and degraded state of availability for Codespaces and GitHub Packages.",
-          "link": "https://github.blog/2022-05-04-github-availability-report-april-2022/",
-          "publishedOn": "2022-05-04T22:01:17.000Z",
-          "wordCount": 960,
-          "title": "GitHub Availability Report: April 2022",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Enterprise@2x-1.png"
         }
       ]
     },
@@ -656,7 +626,18 @@
       "title": "joshua stein",
       "feedUrl": "https://jcs.org/rss",
       "siteUrl": "https://jcs.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://jcs.org/2022/06/03/amend",
+          "author": null,
+          "description": "Amend 3.3 has been released:",
+          "link": "https://jcs.org/2022/06/03/amend",
+          "publishedOn": "2022-06-03T05:00:00.000Z",
+          "wordCount": 94,
+          "title": "Amend 3.3 Released",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "frantic.im",
@@ -2801,7 +2782,38 @@
       "title": "iA",
       "feedUrl": "https://ia.net/feed",
       "siteUrl": "https://ia.net",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://preview.ia.net/?p=8669",
+          "author": "John Bennett",
+          "description": "It’s easy to think that artists and writers have the luxury of time, but this is rarely the case.",
+          "link": "https://ia.net/topics/writing-when-you-dont-have-time",
+          "publishedOn": "2022-05-20T07:02:20.000Z",
+          "wordCount": 1057,
+          "title": "Writing When You Don’t Have Time",
+          "imageUrl": null
+        },
+        {
+          "id": "https://preview.ia.net/?p=8515",
+          "author": "John Bennett",
+          "description": "A slogan is the soul of a brand. But there are a number of mistaken beliefs about slogans. Let’s consider, and reject, 5 of the most popular ones to make your life a little easier.",
+          "link": "https://ia.net/topics/create-a-better-slogan-for-your-brand-by-ignoring-these-five-stupid-stereotypes",
+          "publishedOn": "2022-05-10T06:49:36.000Z",
+          "wordCount": 1109,
+          "title": "Create a better slogan for your brand by ignoring these five stupid stereotypes",
+          "imageUrl": null
+        },
+        {
+          "id": "https://preview.ia.net/?p=8461",
+          "author": "John Bennett",
+          "description": "What if I said you could purchase a computer that never became obsolete, could process information faster than any computer on the market, never required you to install an update, can make you lots of money, and best of all, is completely free?!",
+          "link": "https://ia.net/topics/3-tips-to-boost-the-processing-power-of-your-creative-brain-and-write-more",
+          "publishedOn": "2022-05-10T03:39:30.000Z",
+          "wordCount": 1600,
+          "title": "3 Tips to Boost the Processing Power of Your Creative Brain (and write more)!",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.14.4"
