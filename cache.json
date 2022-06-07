@@ -128,6 +128,16 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/risk-decisons-and-scarcity-d4c7636c",
+          "author": null,
+          "description": "This weekend I took a long walk with a fellow founder/CEO. We had talked on the phone before, but never met in person. We found ourselves in the same city, so it felt like it was time to shake hands and catch up IRL.\nHe runs a company that's an order or magnitude larger than 37signals, so his experiences, responsibilities, and perspectives are quite a bit different from mine. But as we've careened towards our own renewed growth phase — we're currently larger than we've ever been, and still hiring — a few of his insights really resonated.\nAnd one really stuck.\nWhen he said it, I had to repeat it to make sure I heard it right. I wanted to sear the words in my brain so I both fully understood and wouldn't forget.\nHe said \"Risk tolerance is the scarcest resource in most companies.\" I just love…",
+          "link": "https://world.hey.com/jason/risk-decisons-and-scarcity-d4c7636c",
+          "publishedOn": "2022-06-06T19:22:37.000Z",
+          "wordCount": 499,
+          "title": "Risk, decisons, and scarcity",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
           "id": "https://world.hey.com/jason/wait-to-concentrate-9e936ef7",
           "author": null,
           "description": "Procrastination is often tagged as a negative.\nIf you're putting something off until the last minute, it's assumed it's because you don't want to do it, or it's too hard, or you've been avoiding it for some other reason.\nMaybe I'm making excuses, but lately I've found procrastination can be aimed to your advantage. Not always, but more than I imagined.\nProcrastination has a way of concentrating attention. When it has to be done, and the clock is ticking, it blocks your attention from wandering to other things. There's simply no time, and the penalty for further delay is high.\nConcentrated attention, at least for me, helps me do my best work. It's as if attention is a reduced sauce, thickened and viscous, sticking to what I'm working on. Undivided, undiluted, unbroken.\nProcrastination helps wedge me into a sustained flow state. \"I have to get it done this afternoon\" turns into 3 or 4 hours of continuous, focused work. When the deadline is over the horizon, it's too easy to shatter those hours into ineffective slices of attention doled out over days or weeks. But when it's right in front of you, you tuck in, get real, and get it done.\nThere are obviously occasions where you wish you had more time, or a second take, or another edit, but, more often than not, I find more time talks you out of your best ideas, and slips in too many second guesses. I think I'd rather take something slightly undercooked than overcooked.\nOne downside of waiting is if others are waiting on you. Procrastination is disrespect if others need what you're making in order to move forward on what they need to make. So be sure to take that all into consideration too. You can't wait until the 11th hour, if it forces everyone else into the 12th.\n\n-Jason",
@@ -192,18 +202,7 @@
       "title": "fabiensanglard.net",
       "feedUrl": "https://fabiensanglard.net/rss.xml",
       "siteUrl": "https://fabiensanglard.net",
-      "articles": [
-        {
-          "id": "http://fabiensanglard.net/d2r/index.html",
-          "author": null,
-          "description": "",
-          "link": "http://fabiensanglard.net/d2r/index.html",
-          "publishedOn": "2022-05-08T00:00:00.000Z",
-          "wordCount": 4103,
-          "title": "The Beautiful Diablo 2 Resurrected machine",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Adam Wathan's Work Journal",
@@ -243,6 +242,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html",
+          "author": null,
+          "description": "On Friday, June 3rd, the Rust Compiler team had a planning meeting for the June 2022 steering cycle.\nT-compiler June Steering Schedule\nDate\nMeeting Id\nMeeting Topic\n\n\n\n\n2022-06-10\ncompiler-team#516\npath sanitisation changes rfc#3127\n\n\n2022-06-17\ncompiler-team#517\n2022 Q2 P-high review\n\n\n2022-06-24\ncompiler-team#484\nCompiler Feature Backlog Bonanza\n\n\n2022-07-01\nnone\n(planning for July cycle)\n\n\n\nDetails\nEvery fourth Friday, the Rust compiler team decides how\nit is going to use its scheduled steering and design meeting time over the next\nthree Fridays.\nOn Friday, 10 June, we will review RFC PR #3127, which proposes\nnew rustc and Cargo options to allow path sanitisation by default.\nOn Friday, 17 June, we will be doing a quarterly review of the open P-high issues.\npnkfelix will do some ahead of time work triaging\nsome of the issues, and potentially prepare a meeting document summarizing the\nremainder, to maximize the quality of our synchronous in-meeting time.\nOn Friday, 24 June, we will be having a \"backlog bonanza\", in a\nsimilar vein to that done by T-lang, to review the list of unimplemented or\npartially-implemented features. pnkfelix and Jack Huey will prepare a document\nto drive the meeting.\nOn Friday, 1 July, we will hold our planning meeting for the next steering cycle in July.\nEach meeting will run from 2pm to 3pm GMT, and will take place on the\nT-compiler/meetings zulip stream.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html",
+          "publishedOn": "2022-06-03T00:00:00.000Z",
+          "wordCount": 308,
+          "title": "Rust Compiler June 2022 Steering Cycle",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/05/26/Concluding-events-mods.html",
           "author": null,
@@ -329,16 +338,6 @@
           "wordCount": 670,
           "title": "Performance in context",
           "imageUrl": "https://world.hey.com/jorge/323e60b7/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCS2NiVkRBPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c9923fe1fc95438767f2858159d9aca14bd2bd5f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/performance.jpg"
-        },
-        {
-          "id": "https://world.hey.com/jorge/rails-attributes-an-essential-api-you-can-probably-ignore-27147cc2",
-          "author": null,
-          "description": "A few years ago, Rails 5 introduced an API for declaring Active Record attributes. It lets you define typed attributes at the model level, to capture the list of attributes a model has and control how to cast values assigned to them.\n\n\nActive Record internally uses this API profusely. When using an Active Record model, it automatically declares these attributes for you by inferring the types from the database. Did you ever wonder how Rails converts date columns to the local time zone when reading them through active record models?\n\n\nmy_model.type_for_attribute(:updated_at).class\n=> ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter\n\n\nThe answer is a type in charge of doing the casting for these attributes.\n\n\nSame reason why these three queries trigger the same query:\n\n\n>…",
-          "link": "https://world.hey.com/jorge/rails-attributes-an-essential-api-you-can-probably-ignore-27147cc2",
-          "publishedOn": "2022-05-07T22:56:27.000Z",
-          "wordCount": 596,
-          "title": "Rails attributes: an essential API you can probably ignore",
-          "imageUrl": "https://world.hey.com/jorge/27147cc2/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRi9uNWk4PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--79b23f471623edcc0f9ef05391cebdb139ec0cdc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/vardan-papikyan-DnXqvmS0eXM-unsplash.jpg"
         }
       ]
     },

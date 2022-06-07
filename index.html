@@ -22,6 +22,58 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-06 datetime="2022-06-06T19:22:37.000Z">2022-06-06</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-06 datetime="2022-06-06T19:22:37.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Jason Fried</button>
+                  <a class="source-heading__link" href="https://world.hey.com/jason">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://world.hey.com/jason/risk-decisons-and-scarcity-d4c7636c"
+                        open
+                      >
+                        <summary class="article-expander__title">Risk, decisons, and scarcity</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/jason/risk-decisons-and-scarcity-d4c7636c">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://world.hey.com/jason/avatar-20200630203149000000-2745081" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This weekend I took a long walk with a fellow founder/CEO. We had talked on the phone before, but never met in person. We found ourselves in the same city, so it felt like it was time to shake hands and catch up IRL.
+He runs a company that&#x27;s an order or magnitude larger than 37signals, so his experiences, responsibilities, and perspectives are quite a bit different from mine. But as we&#x27;ve careened towards our own renewed growth phase — we&#x27;re currently larger than we&#x27;ve ever been, and still hiring — a few of his insights really resonated.
+And one really stuck.
+When he said it, I had to repeat it to make sure I heard it right. I wanted to sear the words in my brain so I both fully understood and wouldn&#x27;t forget.
+He said &quot;Risk tolerance is the scarcest resource in most companies.&quot; I just love…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-05 datetime="2022-06-05T22:33:41.000Z">2022-06-05</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-05 datetime="2022-06-05T22:33:41.000Z"></time>
           </button>
@@ -120,6 +172,86 @@ Take this with a grain of salt, as this is not my thing, but I’ve seen the val
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
                               <span>Amend 3.3 has been released:</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Inside Rust Blog</button>
+                  <a class="source-heading__link" href="https://blog.rust-lang.org/inside-rust/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Rust Compiler June 2022 Steering Cycle</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>On Friday, June 3rd, the Rust Compiler team had a planning meeting for the June 2022 steering cycle.
+T-compiler June Steering Schedule
+Date
+Meeting Id
+Meeting Topic
+
+
+
+
+2022-06-10
+compiler-team#516
+path sanitisation changes rfc#3127
+
+
+2022-06-17
+compiler-team#517
+2022 Q2 P-high review
+
+
+2022-06-24
+compiler-team#484
+Compiler Feature Backlog Bonanza
+
+
+2022-07-01
+none
+(planning for July cycle)
+
+
+
+Details
+Every fourth Friday, the Rust compiler team decides how
+it is going to use its scheduled steering and design meeting time over the next
+three Fridays.
+On Friday, 10 June, we will review RFC PR #3127, which proposes
+new rustc and Cargo options to allow path sanitisation by default.
+On Friday, 17 June, we will be doing a quarterly review of the open P-high issues.
+pnkfelix will do some ahead of time work triaging
+some of the issues, and potentially prepare a meeting document summarizing the
+remainder, to maximize the quality of our synchronous in-meeting time.
+On Friday, 24 June, we will be having a &quot;backlog bonanza&quot;, in a
+similar vein to that done by T-lang, to review the list of unimplemented or
+partially-implemented features. pnkfelix and Jack Huey will prepare a document
+to drive the meeting.
+On Friday, 1 July, we will hold our planning meeting for the next steering cycle in July.
+Each meeting will run from 2pm to 3pm GMT, and will take place on the
+T-compiler/meetings zulip stream.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -6234,121 +6366,10 @@ We don&#x27;t have to pick between these extremes. We can recognize that legitim
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-05-08 datetime="2022-05-08T00:00:00.000Z">2022-05-08</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-05-08 datetime="2022-05-08T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >fabiensanglard.net</button>
-                  <a class="source-heading__link" href="https://fabiensanglard.net">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="http://fabiensanglard.net/d2r/index.html"
-                        open
-                      >
-                        <summary class="article-expander__title">The Beautiful Diablo 2 Resurrected machine</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="http://fabiensanglard.net/d2r/index.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;14
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-05-07 datetime="2022-05-07T22:56:27.000Z">2022-05-07</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-05-07 datetime="2022-05-07T22:56:27.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Jorge Manrubia</button>
-                  <a class="source-heading__link" href="https://world.hey.com/jorge">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://world.hey.com/jorge/rails-attributes-an-essential-api-you-can-probably-ignore-27147cc2"
-                        open
-                      >
-                        <summary class="article-expander__title">Rails attributes: an essential API you can probably ignore</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/jorge/rails-attributes-an-essential-api-you-can-probably-ignore-27147cc2">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://world.hey.com/jorge/27147cc2/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRi9uNWk4PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ&#x3D;&#x3D;--79b23f471623edcc0f9ef05391cebdb139ec0cdc/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0&#x3D;--f2badd95ce31e495769e48a538e401dea1aca2ae/vardan-papikyan-DnXqvmS0eXM-unsplash.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>A few years ago, Rails 5 introduced an API for declaring Active Record attributes. It lets you define typed attributes at the model level, to capture the list of attributes a model has and control how to cast values assigned to them.
-
-
-Active Record internally uses this API profusely. When using an Active Record model, it automatically declares these attributes for you by inferring the types from the database. Did you ever wonder how Rails converts date columns to the local time zone when reading them through active record models?
-
-
-my_model.type_for_attribute(:updated_at).class
-&#x3D;&gt; ActiveRecord::AttributeMethods::TimeZoneConversion::TimeZoneConverter
-
-
-The answer is a type in charge of doing the casting for these attributes.
-
-
-Same reason why these three queries trigger the same query:
-
-
-&gt;…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/2445099392">
-        <time id="build-timestamp" datetime="2022-06-06T01:38:04.966Z">2022-06-06T01:38:04.966Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/2451515182">
+        <time id="build-timestamp" datetime="2022-06-07T01:23:41.931Z">2022-06-07T01:23:41.931Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.14.4</a>
     </footer>
