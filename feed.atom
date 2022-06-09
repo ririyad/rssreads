@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-08T01:25:56.782Z</updated>
+    <updated>2022-06-09T01:27:20.739Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Creating a Plain Text Day Planner]]></title>
+        <id>https://plaintextproject.online/articles/2022/06/08/planner.html</id>
+        <link href="https://plaintextproject.online/articles/2022/06/08/planner.html"/>
+        <updated>2022-06-08T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A look at one way to use a simple text file to plan your day]]></summary>
+        <author>
+            <name>The Plain Text Project</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sunsetting Atom]]></title>
+        <id>https://github.blog/2022-06-08-sunsetting-atom/</id>
+        <link href="https://github.blog/2022-06-08-sunsetting-atom/"/>
+        <updated>2022-06-08T15:00:23.000Z</updated>
+        <summary type="html"><![CDATA[We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What research at Meta FinTech looks like: Q&A with Research Scientist Shaz Qadeer]]></title>
+        <id>https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/</id>
+        <link href="https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/"/>
+        <updated>2022-06-08T08:24:49.000Z</updated>
+        <summary type="html"><![CDATA[PhDs come to work at Meta Research from a wide variety of disciplines related to computer science and engineering. Research Scientist Shaz Qadeer joined Meta to work on blockchain [...]]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Site Update: Hero Images]]></title>
+        <id>https://xeiaso.net/blog/site-update-hero-images</id>
+        <link href="https://xeiaso.net/blog/site-update-hero-images"/>
+        <updated>2022-06-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-06-08]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[One developer’s journey bringing Dependabot to GitHub Enterprise Server]]></title>
         <id>https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/</id>
@@ -2623,90 +2663,6 @@ that’s all!
 though I will say: if you liked these, you might be interested in buying How DNS Works :)]]></summary>
         <author>
             <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Create a better slogan for your brand by ignoring these five stupid stereotypes]]></title>
-        <id>https://preview.ia.net/?p=8515</id>
-        <link href="https://ia.net/topics/create-a-better-slogan-for-your-brand-by-ignoring-these-five-stupid-stereotypes"/>
-        <updated>2022-05-10T06:49:36.000Z</updated>
-        <summary type="html"><![CDATA[A slogan is the soul of a brand. But there are a number of mistaken beliefs about slogans. Let’s consider, and reject, 5 of the most popular ones to make your life a little easier.]]></summary>
-        <author>
-            <name>John Bennett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Tips to Boost the Processing Power of Your Creative Brain (and write more)!]]></title>
-        <id>https://preview.ia.net/?p=8461</id>
-        <link href="https://ia.net/topics/3-tips-to-boost-the-processing-power-of-your-creative-brain-and-write-more"/>
-        <updated>2022-05-10T03:39:30.000Z</updated>
-        <summary type="html"><![CDATA[What if I said you could purchase a computer that never became obsolete, could process information faster than any computer on the market, never required you to install an update, can make you lots of money, and best of all, is completely free?!]]></summary>
-        <author>
-            <name>John Bennett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security advisory: malicious crate rustdecimal]]></title>
-        <id>https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html</id>
-        <link href="https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html"/>
-        <updated>2022-05-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is a cross-post of the official security advisory. The
-official advisory contains a signed version with our PGP key, as well.
-The Rust Security Response WG and the crates.io team were notified on
-2022-05-02 of the existence of the malicious crate rustdecimal, which
-contained malware. The crate name was intentionally similar to the name of the
-popular rust_decimal crate, hoping that potential victims would misspell
-its name (an attack called "typosquatting").
-To protect the security of the ecosystem, the crates.io team permanently
-removed the crate from the registry as soon as it was made aware of the
-malware. An analysis of all the crates on crates.io was also performed, and no
-other crate with similar code patterns was found.
-Keep in mind that the rust_decimal crate was not compromis…]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CTCFT 2022-05-16 Agenda]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html"/>
-        <updated>2022-05-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The next "Cross Team Collaboration Fun Times" (CTCFT) meeting will take
-place on Monday, 2022-05-16 at 11am US Eastern Time (click to see in your
-time zone). You’ll find the full details (along with a calendar
-event, zoom details, etc) on the CTCFT website.
-Agenda
-The theme for this month's CTCFT is Embedded Rust. We'll hear from some
-members of the Rust Embedded Working Group and community about the state of the ecosystem, as
-well as how async Rust is working for embedded systems. We also have some people
-coming in from the automotive industry to talk about how Rust use is starting to
-progress.
-(5 min) Opening remarks 👋 (angelonfira)
-(15 min) A whirlwind tour of Embedded Rust (jamesmunns)
-
-A brief history of the embedded-wg and use of Rust for embedded
-A look at how developing embedded Rust looks like today
-A sample of patterns that are special to embedded Rust, or differences from
-"desktop" Rust
-(15 min) Async Rust for Embedded Systems (Dirbaio)
-
-We'll explore how concurrency is traditionally handled in embedded, and how
-Rust's async makes it significantly easier while still requiring no runtime,
-no OS, and no allocation, and what Rust improvements could make it even more
-awesome.
-(15 min) Rust in Automotive (cpetig, skade)
-
-We'll look at Rust from a Functional Safety perspective, and continuing to
-the AUTOSAR architecture. We'll also look a bit at what Ferrocene's role is
-in all this, and look at the AUTOSAR Rust bindings. Finally, we'll see
-what's next for this space.
-(5 min) Closing (angelonfira)
-Afterwards: Social Hour
-Like always, we'll be running a social hour after the CTCFT. The idea is really
-simple: for the hour after the meeting, we will create breakout rooms in Zoom
-with different themes. You can join any breakout room you like and hangout.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>

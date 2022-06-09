@@ -145,6 +145,16 @@
       "siteUrl": "https://plaintextproject.online",
       "articles": [
         {
+          "id": "https://plaintextproject.online/articles/2022/06/08/planner.html",
+          "author": null,
+          "description": "A look at one way to use a simple text file to plan your day",
+          "link": "https://plaintextproject.online/articles/2022/06/08/planner.html",
+          "publishedOn": "2022-06-08T19:00:00.000Z",
+          "wordCount": 891,
+          "title": "Creating a Plain Text Day Planner",
+          "imageUrl": null
+        },
+        {
           "id": "https://plaintextproject.online/articles/2022/05/26/links.html",
           "author": null,
           "description": "Four new links, this time about blogging and building websites with plain text",
@@ -204,16 +214,6 @@
           "wordCount": 845,
           "title": "Announcing Rust 1.61.0",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html",
-          "author": null,
-          "description": "This is a cross-post of the official security advisory. The\nofficial advisory contains a signed version with our PGP key, as well.\nThe Rust Security Response WG and the crates.io team were notified on\n2022-05-02 of the existence of the malicious crate rustdecimal, which\ncontained malware. The crate name was intentionally similar to the name of the\npopular rust_decimal crate, hoping that potential victims would misspell\nits name (an attack called \"typosquatting\").\nTo protect the security of the ecosystem, the crates.io team permanently\nremoved the crate from the registry as soon as it was made aware of the\nmalware. An analysis of all the crates on crates.io was also performed, and no\nother crate with similar code patterns was found.\nKeep in mind that the rust_decimal crate was not compromis…",
-          "link": "https://blog.rust-lang.org/2022/05/10/malicious-crate-rustdecimal.html",
-          "publishedOn": "2022-05-10T00:00:00.000Z",
-          "wordCount": 425,
-          "title": "Security advisory: malicious crate rustdecimal",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -260,16 +260,6 @@
           "publishedOn": "2022-05-16T00:00:00.000Z",
           "wordCount": 144,
           "title": "1.61.0 pre-release testing",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html",
-          "author": null,
-          "description": "The next \"Cross Team Collaboration Fun Times\" (CTCFT) meeting will take\nplace on Monday, 2022-05-16 at 11am US Eastern Time (click to see in your\ntime zone). You’ll find the full details (along with a calendar\nevent, zoom details, etc) on the CTCFT website.\nAgenda\nThe theme for this month's CTCFT is Embedded Rust. We'll hear from some\nmembers of the Rust Embedded Working Group and community about the state of the ecosystem, as\nwell as how async Rust is working for embedded systems. We also have some people\ncoming in from the automotive industry to talk about how Rust use is starting to\nprogress.\n(5 min) Opening remarks 👋 (angelonfira)\n(15 min) A whirlwind tour of Embedded Rust (jamesmunns)\n\nA brief history of the embedded-wg and use of Rust for embedded\nA look at how developing embedded Rust looks like today\nA sample of patterns that are special to embedded Rust, or differences from\n\"desktop\" Rust\n(15 min) Async Rust for Embedded Systems (Dirbaio)\n\nWe'll explore how concurrency is traditionally handled in embedded, and how\nRust's async makes it significantly easier while still requiring no runtime,\nno OS, and no allocation, and what Rust improvements could make it even more\nawesome.\n(15 min) Rust in Automotive (cpetig, skade)\n\nWe'll look at Rust from a Functional Safety perspective, and continuing to\nthe AUTOSAR architecture. We'll also look a bit at what Ferrocene's role is\nin all this, and look at the AUTOSAR Rust bindings. Finally, we'll see\nwhat's next for this space.\n(5 min) Closing (angelonfira)\nAfterwards: Social Hour\nLike always, we'll be running a social hour after the CTCFT. The idea is really\nsimple: for the hour after the meeting, we will create breakout rooms in Zoom\nwith different themes. You can join any breakout room you like and hangout.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/05/10/CTCFT-may.html",
-          "publishedOn": "2022-05-10T00:00:00.000Z",
-          "wordCount": 374,
-          "title": "CTCFT 2022-05-16 Agenda",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -327,6 +317,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-06-08-sunsetting-atom/",
+          "author": null,
+          "description": "We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.",
+          "link": "https://github.blog/2022-06-08-sunsetting-atom/",
+          "publishedOn": "2022-06-08T15:00:23.000Z",
+          "wordCount": 625,
+          "title": "Sunsetting Atom",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Engineering-Product@2x.png?fit=2400%2C1260"
+        },
+        {
           "id": "https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/",
           "author": null,
           "description": "A personal story about building the feature you want and sharing it with the world.",
@@ -373,6 +373,16 @@
       "feedUrl": "https://research.facebook.com/feed/",
       "siteUrl": "https://research.facebook.com/",
       "articles": [
+        {
+          "id": "https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/",
+          "author": null,
+          "description": "PhDs come to work at Meta Research from a wide variety of disciplines related to computer science and engineering. Research Scientist Shaz Qadeer joined Meta to work on blockchain [...]",
+          "link": "https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/",
+          "publishedOn": "2022-06-08T08:24:49.000Z",
+          "wordCount": 1220,
+          "title": "What research at Meta FinTech looks like: Q&A with Research Scientist Shaz Qadeer",
+          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.8562-6/285212967_389016416530710_286530681098233185_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6825c5&_nc_ohc=looWxd8EneIAX-KK9yb&_nc_ht=scontent-iad3-2.xx&oh=00_AT-y70FF2juLlsBR1L6NhMxRHy4IsqlQ9uDdNeyYwzAFFQ&oe=62A66C24"
+        },
         {
           "id": "https://research.facebook.com/blog/2022/5/qa-with-uiuc-professor-lav-varshney-the-ai-expert-behind-sustainable-concrete-collaboration-with-meta/",
           "author": null,
@@ -429,6 +439,16 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://xeiaso.net/blog",
       "articles": [
+        {
+          "id": "https://xeiaso.net/blog/site-update-hero-images",
+          "author": null,
+          "description": "Posted on 2022-06-08",
+          "link": "https://xeiaso.net/blog/site-update-hero-images",
+          "publishedOn": "2022-06-08T00:00:00.000Z",
+          "wordCount": 772,
+          "title": "Site Update: Hero Images",
+          "imageUrl": null
+        },
         {
           "id": "https://xeiaso.net/blog/the-oasis",
           "author": null,
@@ -2780,26 +2800,6 @@
           "publishedOn": "2022-05-20T07:02:20.000Z",
           "wordCount": 1057,
           "title": "Writing When You Don’t Have Time",
-          "imageUrl": null
-        },
-        {
-          "id": "https://preview.ia.net/?p=8515",
-          "author": "John Bennett",
-          "description": "A slogan is the soul of a brand. But there are a number of mistaken beliefs about slogans. Let’s consider, and reject, 5 of the most popular ones to make your life a little easier.",
-          "link": "https://ia.net/topics/create-a-better-slogan-for-your-brand-by-ignoring-these-five-stupid-stereotypes",
-          "publishedOn": "2022-05-10T06:49:36.000Z",
-          "wordCount": 1109,
-          "title": "Create a better slogan for your brand by ignoring these five stupid stereotypes",
-          "imageUrl": null
-        },
-        {
-          "id": "https://preview.ia.net/?p=8461",
-          "author": "John Bennett",
-          "description": "What if I said you could purchase a computer that never became obsolete, could process information faster than any computer on the market, never required you to install an update, can make you lots of money, and best of all, is completely free?!",
-          "link": "https://ia.net/topics/3-tips-to-boost-the-processing-power-of-your-creative-brain-and-write-more",
-          "publishedOn": "2022-05-10T03:39:30.000Z",
-          "wordCount": 1600,
-          "title": "3 Tips to Boost the Processing Power of Your Creative Brain (and write more)!",
           "imageUrl": null
         }
       ]
