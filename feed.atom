@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-09T01:27:20.739Z</updated>
+    <updated>2022-06-10T01:42:59.652Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How Static Code Analysis Prevents You From Waking Up at 3AM With Production on Fire]]></title>
+        <id>https://xeiaso.net/talks/conf42-static-analysis</id>
+        <link href="https://xeiaso.net/talks/conf42-static-analysis"/>
+        <updated>2022-06-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-06-09]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Creating a Plain Text Day Planner]]></title>
         <id>https://plaintextproject.online/articles/2022/06/08/planner.html</id>
@@ -2606,63 +2616,6 @@ JSON orders, I…]]></summary>
         <summary type="html"><![CDATA[Posted on 2022-05-12]]></summary>
         <author>
             <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The founder's gamble]]></title>
-        <id>https://world.hey.com/dhh/the-founder-s-gamble-24d11ef2</id>
-        <link href="https://world.hey.com/dhh/the-founder-s-gamble-24d11ef2"/>
-        <updated>2022-05-11T08:40:30.000Z</updated>
-        <summary type="html"><![CDATA[As companies mature, grow departments, accumulate staff, and develop reliable streams of revenue, it gets structurally harder and harder to make the big decisions that might upset the applecart. This is the familiar scene of The Innovator's Dilemma. 
-The more of everything there is, the higher the stakes appear, and the less likely professional management at most mature companies is to risk it on a big call. But, as Clayton Christensen tells us, the biggest risk of all is thinking that what worked yesterday is going to work tomorrow too. 
-This is where the founder's gamble come in.
-If you were there before the pillars of wealth and progress stood solid, it's easier not to fear the ruins. All are from the dust, and to dust all return. But if you entered the temple of the successful enterpri…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pages that didn't make it into "How DNS Works"]]></title>
-        <id>https://jvns.ca/blog/2022/05/10/pages-that-didn-t-make-it-into--how-dns-works-/</id>
-        <link href="https://jvns.ca/blog/2022/05/10/pages-that-didn-t-make-it-into--how-dns-works-/"/>
-        <updated>2022-05-10T14:44:24.000Z</updated>
-        <summary type="html"><![CDATA[Hello! A couple weeks ago I released a new zine called How DNS Works.
-When I started writing that zine (in, uh, January 2021), I originally had in
-mind a broader zine on “everything you need to know to own a domain”. So it had
-a bunch of pages on domain registration, TLS, and email.
-At the time I thought “I can just explain DNS in like 5 pages, it’s not
-that complicated, there will be lots of space for other topics about domains”.
-I was extremely wrong about that and it turned out I needed all 28 pages to
-explain DNS. So I ended up deciding to just focus the zine on DNS and all those
-other topics didn’t make it into the final zine.
-This morning it occurred to me that instead of letting all of the old draft
-pages languish in purgatory on my hard drive, I could post those extra pages
-here all together on my blog. So here they are!
-disclaimer: not super cohesive
-I will say (as a disclaimer) that these pages aren’t as cohesive as I usually
-like my zines to be and they definitely do not tell you everything you need to
-need to know to own a domain.
-domain registration
-
-
-
-
-
-
-email
-
-
-I should say that these 2 pages don’t really do email justice – email security
-is a HUGE topic that honestly I don’t know a lot about.
-TLS
-
-
-These two pages also don’t remotely cover TLS, it’s possible I’ll write more in
-depth about TLS at some point. Who knows!
-that’s all!
-though I will say: if you liked these, you might be interested in buying How DNS Works :)]]></summary>
-        <author>
-            <name>Julia Evans</name>
         </author>
     </entry>
 </feed>
