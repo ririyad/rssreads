@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-10T01:42:59.652Z</updated>
+    <updated>2022-06-11T01:25:44.805Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How we think about browsers]]></title>
+        <id>https://github.blog/2022-06-10-how-we-think-about-browsers/</id>
+        <link href="https://github.blog/2022-06-10-how-we-think-about-browsers/"/>
+        <updated>2022-06-10T18:37:03.000Z</updated>
+        <summary type="html"><![CDATA[Discover how GitHub thinks about browser support, look at usage patterns, and learn about the tools we use to make sure our customers are getting the best experience.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Research highlights from the Core Data Science team at Meta]]></title>
+        <id>https://research.facebook.com/blog/2022/6/research-highlights-from-the-core-data-science-team-at-meta/</id>
+        <link href="https://research.facebook.com/blog/2022/6/research-highlights-from-the-core-data-science-team-at-meta/"/>
+        <updated>2022-06-10T06:42:00.000Z</updated>
+        <summary type="html"><![CDATA[Core Data Science (CDS) is a central science organization that drives impact for Meta and the world through use-inspired advancements to our fundamental understanding of the intern...]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How Static Code Analysis Prevents You From Waking Up at 3AM With Production on Fire]]></title>
         <id>https://xeiaso.net/talks/conf42-static-analysis</id>
@@ -2575,47 +2595,6 @@ A 13% overhead! That doesn't sound very good. Here is when context comes into pl
         <summary type="html"><![CDATA[How nREPL could be improved]]></summary>
         <author>
             <name>tonsky.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[sqlite-utils: a nice way to import data into SQLite for analysis]]></title>
-        <id>https://jvns.ca/blog/2022/05/12/sqlite-utils--a-nice-way-to-import-data-into-sqlite/</id>
-        <link href="https://jvns.ca/blog/2022/05/12/sqlite-utils--a-nice-way-to-import-data-into-sqlite/"/>
-        <updated>2022-05-12T09:35:06.000Z</updated>
-        <summary type="html"><![CDATA[Hello! This is a quick post about a nice tool I found recently called sqlite-utils, from the tools category.
-Recently I wanted to do some basic data analysis using data from my Shopify
-store. So I figured I’d query the Shopify API and import my data into SQLite,
-and then I could make queries to get the graphs I want.
-But this seemed like a lot of boring work, like I’d have to write a
-schema and write a Python program. So I hunted around for a solution, and I
-found sqlite-utils, a tool designed to make it easy to import arbitrary data
-into SQLite to do data analysis on the data.
-sqlite-utils automatically generates a schema
-The Shopify data has about a billion fields and I really did not want to type
-out a schema for it. sqlite-utils solves this problem: if I have an array of
-JSON orders, I…]]></summary>
-        <author>
-            <name>Julia Evans</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Miss Heroku's DevEx]]></title>
-        <id>https://xeiaso.net/blog/heroku-devex-2022-05-12</id>
-        <link href="https://xeiaso.net/blog/heroku-devex-2022-05-12"/>
-        <updated>2022-05-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-05-12]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I Miss Heroku's DevEx]]></title>
-        <id>https://christine.website/blog/heroku-devex-2022-05-12</id>
-        <link href="https://christine.website/blog/heroku-devex-2022-05-12"/>
-        <updated>2022-05-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-05-12]]></summary>
-        <author>
-            <name>Xe's Blog</name>
         </author>
     </entry>
 </feed>

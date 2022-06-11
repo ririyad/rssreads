@@ -307,6 +307,16 @@
       "siteUrl": "https://github.blog",
       "articles": [
         {
+          "id": "https://github.blog/2022-06-10-how-we-think-about-browsers/",
+          "author": null,
+          "description": "Discover how GitHub thinks about browser support, look at usage patterns, and learn about the tools we use to make sure our customers are getting the best experience.",
+          "link": "https://github.blog/2022-06-10-how-we-think-about-browsers/",
+          "publishedOn": "2022-06-10T18:37:03.000Z",
+          "wordCount": 5792,
+          "title": "How we think about browsers",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/03/Engineering@2x.png"
+        },
+        {
           "id": "https://github.blog/2022-06-08-sunsetting-atom/",
           "author": null,
           "description": "We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.",
@@ -363,6 +373,16 @@
       "feedUrl": "https://research.facebook.com/feed/",
       "siteUrl": "https://research.facebook.com/",
       "articles": [
+        {
+          "id": "https://research.facebook.com/blog/2022/6/research-highlights-from-the-core-data-science-team-at-meta/",
+          "author": null,
+          "description": "Core Data Science (CDS) is a central science organization that drives impact for Meta and the world through use-inspired advancements to our fundamental understanding of the intern...",
+          "link": "https://research.facebook.com/blog/2022/6/research-highlights-from-the-core-data-science-team-at-meta/",
+          "publishedOn": "2022-06-10T06:42:00.000Z",
+          "wordCount": 2588,
+          "title": "Research highlights from the Core Data Science team at Meta",
+          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/287112060_516572846833818_2049230434565546905_n.png?_nc_cat=106&ccb=1-7&_nc_sid=6825c5&_nc_ohc=bvMdcV_mfWoAX9DJitE&_nc_ht=scontent-sjc3-1.xx&oh=00_AT-idCnxDr2gHSCiiUcIMY9GLUQBj1NzuM9Mp9oKopIcpw&oe=62A8E086"
+        },
         {
           "id": "https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/",
           "author": null,
@@ -558,26 +578,6 @@
           "wordCount": 1039,
           "title": "Fly.io: the Reclaimer of Heroku's Magic",
           "imageUrl": null
-        },
-        {
-          "id": "https://xeiaso.net/blog/heroku-devex-2022-05-12",
-          "author": null,
-          "description": "Posted on 2022-05-12",
-          "link": "https://xeiaso.net/blog/heroku-devex-2022-05-12",
-          "publishedOn": "2022-05-12T00:00:00.000Z",
-          "wordCount": 2656,
-          "title": "I Miss Heroku's DevEx",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/heroku-devex-2022-05-12",
-          "author": null,
-          "description": "Posted on 2022-05-12",
-          "link": "https://christine.website/blog/heroku-devex-2022-05-12",
-          "publishedOn": "2022-05-12T00:00:00.000Z",
-          "wordCount": 1273,
-          "title": "I Miss Heroku's DevEx",
-          "imageUrl": null
         }
       ]
     },
@@ -602,18 +602,7 @@
       "title": "Julia Evans",
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
-      "articles": [
-        {
-          "id": "https://jvns.ca/blog/2022/05/12/sqlite-utils--a-nice-way-to-import-data-into-sqlite/",
-          "author": null,
-          "description": "Hello! This is a quick post about a nice tool I found recently called sqlite-utils, from the tools category.\nRecently I wanted to do some basic data analysis using data from my Shopify\nstore. So I figured I’d query the Shopify API and import my data into SQLite,\nand then I could make queries to get the graphs I want.\nBut this seemed like a lot of boring work, like I’d have to write a\nschema and write a Python program. So I hunted around for a solution, and I\nfound sqlite-utils, a tool designed to make it easy to import arbitrary data\ninto SQLite to do data analysis on the data.\nsqlite-utils automatically generates a schema\nThe Shopify data has about a billion fields and I really did not want to type\nout a schema for it. sqlite-utils solves this problem: if I have an array of\nJSON orders, I…",
-          "link": "https://jvns.ca/blog/2022/05/12/sqlite-utils--a-nice-way-to-import-data-into-sqlite/",
-          "publishedOn": "2022-05-12T09:35:06.000Z",
-          "wordCount": 653,
-          "title": "sqlite-utils: a nice way to import data into SQLite for analysis",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Feross.org",
