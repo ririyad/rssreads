@@ -165,7 +165,18 @@
       "title": "Martin Fowler",
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://martinfowler.com/articles/product-backlog-building-canvas.html",
+          "author": null,
+          "description": "Many software teams describe desired product capabilities as a product\n      backlog: a list of user stories. These stories capture who needs the work,\n      what the work is, and why it's needed. Too often teams expect a product\n      owner to be the sole source of the backlog, but anyone could (and should)\n      write user stories. Paulo Caroli teaches teams to use a Product Backlog\n      Building Canvas, which provides a simple process to develop user stories,\n      starting with describing personas for product users and the activities\n      they do. These activities yield features: their interactions with the\n      product. Features are broken down into backlog items, which can then be\n      formulated into user stories from the background of personas and\n      activities.\nmore…",
+          "link": "https://martinfowler.com/articles/product-backlog-building-canvas.html",
+          "publishedOn": "2022-06-14T14:15:00.000Z",
+          "wordCount": 3679,
+          "title": "Product Backlog Building Canvas",
+          "imageUrl": "https://martinfowler.com/articles/product-backlog-building-canvas/card.png"
+        }
+      ]
     },
     {
       "title": "fabiensanglard.net",
@@ -230,16 +241,6 @@
           "wordCount": 2738,
           "title": "Governance Update",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html",
-          "author": null,
-          "description": "The 1.61.0 pre-release is ready for testing. The release is scheduled for this\nThursday, May 19th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-05-16/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html",
-          "publishedOn": "2022-05-16T00:00:00.000Z",
-          "wordCount": 144,
-          "title": "1.61.0 pre-release testing",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -295,6 +296,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/",
+          "author": null,
+          "description": "Learn why the GitHub Design Infrastructure team built a dedicated color tool and how they use it to create new color palettes for GitHub.",
+          "link": "https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/",
+          "publishedOn": "2022-06-14T19:04:41.000Z",
+          "wordCount": 1275,
+          "title": "Accelerating GitHub theme creation with color tooling",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Primer.png"
+        },
         {
           "id": "https://github.blog/2022-06-10-how-we-think-about-browsers/",
           "author": null,
@@ -418,6 +429,16 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://xeiaso.net/blog",
       "articles": [
+        {
+          "id": "https://xeiaso.net/blog/site-update-salary-transparency",
+          "author": null,
+          "description": "Posted on 2022-06-14",
+          "link": "https://xeiaso.net/blog/site-update-salary-transparency",
+          "publishedOn": "2022-06-14T00:00:00.000Z",
+          "wordCount": 489,
+          "title": "Site Update: Salary Transparency Page Added",
+          "imageUrl": null
+        },
         {
           "id": "https://xeiaso.net/talks/conf42-static-analysis",
           "author": null,
@@ -2730,6 +2751,16 @@
       "feedUrl": "https://ia.net/feed",
       "siteUrl": "https://ia.net",
       "articles": [
+        {
+          "id": "https://preview.ia.net/?p=10062",
+          "author": "Oliver Reichenstein",
+          "description": "In 2010, the original iA Writer introduced focused writing with Markdown. Twelve years later, iA Writer opens the doors to a simple and friendly knowledge management system with wikilinks.",
+          "link": "https://ia.net/topics/ia-writer-6-now-with-lasers",
+          "publishedOn": "2022-06-14T08:46:57.000Z",
+          "wordCount": 820,
+          "title": "iA Writer 6: Now with Lasers",
+          "imageUrl": null
+        },
         {
           "id": "https://preview.ia.net/?p=8669",
           "author": "John Bennett",

@@ -2,10 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-14T01:51:48.806Z</updated>
+    <updated>2022-06-15T01:41:27.596Z</updated>
     <generator>osmosfeed 1.14.4</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Accelerating GitHub theme creation with color tooling]]></title>
+        <id>https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/</id>
+        <link href="https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/"/>
+        <updated>2022-06-14T19:04:41.000Z</updated>
+        <summary type="html"><![CDATA[Learn why the GitHub Design Infrastructure team built a dedicated color tool and how they use it to create new color palettes for GitHub.]]></summary>
+        <author>
+            <name>Engineering – The GitHub Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Product Backlog Building Canvas]]></title>
+        <id>https://martinfowler.com/articles/product-backlog-building-canvas.html</id>
+        <link href="https://martinfowler.com/articles/product-backlog-building-canvas.html"/>
+        <updated>2022-06-14T14:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Many software teams describe desired product capabilities as a product
+      backlog: a list of user stories. These stories capture who needs the work,
+      what the work is, and why it's needed. Too often teams expect a product
+      owner to be the sole source of the backlog, but anyone could (and should)
+      write user stories. Paulo Caroli teaches teams to use a Product Backlog
+      Building Canvas, which provides a simple process to develop user stories,
+      starting with describing personas for product users and the activities
+      they do. These activities yield features: their interactions with the
+      product. Features are broken down into backlog items, which can then be
+      formulated into user stories from the background of personas and
+      activities.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iA Writer 6: Now with Lasers]]></title>
+        <id>https://preview.ia.net/?p=10062</id>
+        <link href="https://ia.net/topics/ia-writer-6-now-with-lasers"/>
+        <updated>2022-06-14T08:46:57.000Z</updated>
+        <summary type="html"><![CDATA[In 2010, the original iA Writer introduced focused writing with Markdown. Twelve years later, iA Writer opens the doors to a simple and friendly knowledge management system with wikilinks.]]></summary>
+        <author>
+            <name>Oliver Reichenstein</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[How to Raise Money]]></title>
         <id>http://www.paulgraham.com/fr.html</id>
@@ -1879,6 +1920,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Site Update: Salary Transparency Page Added]]></title>
+        <id>https://xeiaso.net/blog/site-update-salary-transparency</id>
+        <link href="https://xeiaso.net/blog/site-update-salary-transparency"/>
+        <updated>2022-06-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Posted on 2022-06-14]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Code I like (I): Domain-driven boldness]]></title>
         <id>https://world.hey.com/jorge/code-i-like-i-domain-driven-boldness-71456476</id>
         <link href="https://world.hey.com/jorge/code-i-like-i-domain-driven-boldness-71456476"/>
@@ -2514,24 +2565,6 @@ In all honesty, I am not sure I would have wanted to start my career at Basecamp
         <summary type="html"><![CDATA[At GitHub we use GitHub to build our own products, and the new projects experience is no different. Check out how our team uses projects to build powerful project planning for developers.]]></summary>
         <author>
             <name>Engineering – The GitHub Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.61.0 pre-release testing]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/05/16/1.61.0-prerelease.html"/>
-        <updated>2022-05-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The 1.61.0 pre-release is ready for testing. The release is scheduled for this
-Thursday, May 19th. Release notes can be found here.
-You can try it out locally by running:
-RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
-
-The index is https://dev-static.rust-lang.org/dist/2022-05-16/index.html. You
-can leave feedback on the internals thread.
-The release team is also thinking about changes to our pre-release process:
-we'd love your feedback on this GitHub issue.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>
