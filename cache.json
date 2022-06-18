@@ -152,16 +152,6 @@
           "wordCount": 87,
           "title": "Four Links - May 26, 2022",
           "imageUrl": null
-        },
-        {
-          "id": "https://plaintextproject.online/articles/2022/05/18/chrome-editors.html",
-          "author": null,
-          "description": "A look at three text editors that you can use on devices running ChromeOS",
-          "link": "https://plaintextproject.online/articles/2022/05/18/chrome-editors.html",
-          "publishedOn": "2022-05-18T19:00:00.000Z",
-          "wordCount": 769,
-          "title": "Three Text Editors for Chrome OS",
-          "imageUrl": null
         }
       ]
     },
@@ -204,18 +194,7 @@
       "title": "Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
-      "articles": [
-        {
-          "id": "https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html",
-          "author": null,
-          "description": "The Rust team is happy to announce a new version of Rust, 1.61.0. Rust is a programming language\nempowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.61.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.61.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use\nthe beta channel (rustup default beta) or the nightly channel (rustup default nightly).\nPlease report any bugs you might come across!\nWhat's in 1.61.0 stable\nCustom exit codes from main\nIn the beginning, Rust main functions could only return the unit type () (either implicitly o…",
-          "link": "https://blog.rust-lang.org/2022/05/19/Rust-1.61.0.html",
-          "publishedOn": "2022-05-19T00:00:00.000Z",
-          "wordCount": 845,
-          "title": "Announcing Rust 1.61.0",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Inside Rust Blog",
@@ -240,16 +219,6 @@
           "publishedOn": "2022-05-26T00:00:00.000Z",
           "wordCount": 432,
           "title": "Concluding the events of last November",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/05/19/governance-update.html",
-          "author": null,
-          "description": "Last month, the core team, all the leads of top-level teams, the moderators, and the project representatives on the Rust Foundation board jointly sent out an update to all Rust project members on investigations happening into improvements to the governance of the Rust project.\nAs is detailed in the update, this report follows extensive conversations with many inside of the project and will continue as we encourage others in the project to reach out should they have feedback or want to get involved.\nSince proper governance of the Rust project impacts all users of Rust, we thought it appropriate to also make this summary public. While typos and grammatical fixes have been made since the original post, the text is otherwise unaltered. 1\nAs is noted in the summary, the next steps are to take t…",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/05/19/governance-update.html",
-          "publishedOn": "2022-05-19T00:00:00.000Z",
-          "wordCount": 2738,
-          "title": "Governance Update",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
