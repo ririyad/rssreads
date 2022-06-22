@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-21T01:43:16.363Z</updated>
+    <updated>2022-06-22T01:50:13.229Z</updated>
     <generator>osmosfeed 1.15.0</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#13]]]></title>
+        <id>https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4</id>
+        <link href="https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4"/>
+        <updated>2022-06-21T20:12:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey!
+Back again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...
+Heard Something
+Really enjoyed this heady Making Sense episode that asks "Do you really have a self?" Theoretical conversations like these feel like a massage for the mind. They get down to root assumptions upon which so much is built. After listening, I find myself looking up and wondering more. Maybe you will too.
+Hear it: https://www.samharris.org/podcasts/making-sense-episodes/282-do-you-really-have-a-self
+Read Something
+"Projections: A Story of Human Emotions" by Karl Deisseroth completely blew me away. It's absolutely beautiful writing about some of the darkest mental states and conditions we know. The stories are fascinating, the science he invented is illuminating, and the whole work is immensely powerful. It had me both in tears and in awe. One of the best non-fiction books I've ever read, hands down. The author reads the audiobook too, which makes it even more personal. Highly recommended.
+Read it: https://bookshop.org/books/projections-a-story-of-human-emotions/9781984853691
+Saw Something
+I enjoy all things Richard Feynman, and this animated short uses text from a speech he gave in 1955 on the wonders of life as the backing track. A lovely way to spend 4 minutes and 21 seconds. 
+See it: https://vimeo.com/700869688
+Until next time.
+BTW, if you like these, and think someone else might too, please forward it on. They can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.
+
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021 Annual Survey Report]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/06/21/survey-2021-report.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/06/21/survey-2021-report.html"/>
+        <updated>2022-06-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As usual, we conducted an annual community survey in 2021. We previously shared some some highlights and charts
+in a blog post. This year we would also like to
+make the complete (-ish) dataset available. We have compiled a report which contains data and charts for nearly
+all questions with minimal analysis. We have elided a few sensitive questions and have combined some answers
+or elided some answers where there is any chance of respondents being identified or of sensitive data being released.
+We intend to produce further small reports with more analysis targetted at specific teams or groups within the
+project. If there is any analysis or processed data you'd like to see, please get in touch with the survey working group via
+Zulip.
+Once again, we'd like to thank all the respondents, our translators, and everyone else who helped to make the survey a success!
+Download the report.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Value Sell Recruiting]]></title>
         <id>https://staysaasy.com/recruiting/2022/06/20/value-recruiting.html</id>
@@ -2470,48 +2514,6 @@ You don't even have to buy into Graeber's economic analysis to recognize the wis
 Even more poignant is the observation that the res…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Stance on Toxicity About Programming Languages]]></title>
-        <id>https://xeiaso.net/blog/against-toxicity-programming-languages</id>
-        <link href="https://xeiaso.net/blog/against-toxicity-programming-languages"/>
-        <updated>2022-05-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-05-23]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My Stance on Toxicity About Programming Languages]]></title>
-        <id>https://christine.website/blog/against-toxicity-programming-languages</id>
-        <link href="https://christine.website/blog/against-toxicity-programming-languages"/>
-        <updated>2022-05-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-05-23]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[My take on "where's all the code"]]></title>
-        <id>https://nullprogram.com/blog/2022/05/22/</id>
-        <link href="https://nullprogram.com/blog/2022/05/22/"/>
-        <updated>2022-05-22T23:59:59.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this month Ted Unangst researched compiling the OpenBSD kernel
-50% faster, which involved stubbing out the largest, extraneous
-branches of the source tree. To find the lowest-hanging fruit, he wrote a
-tool called watc — where’s all the code — that displays an
-interactive “usage” summary of a source tree oriented around line count. A
-followup post about exploring the tree in parallel got me thinking
-about the problem, especially since I had just written about a concurrent
-queue. Turning it over in my mind, I saw opportunities for interesting
-data structures and memory management, and so I wanted to write my own
-version of the tool, watc.c, which is the subject of this
-article.
-The original watc is interactive and written in idiomatic Go. My version
-is non-interactive, written in C, …]]></summary>
-        <author>
-            <name>null program</name>
         </author>
     </entry>
 </feed>

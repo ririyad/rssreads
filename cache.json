@@ -77,6 +77,16 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4",
+          "author": null,
+          "description": "Hey!\nBack again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...\nHeard Something\nReally enjoyed this heady Making Sense episode that asks \"Do you really have a self?\" Theoretical conversations like these feel like a massage for the mind. They get down to root assumptions upon which so much is built. After listening, I find myself looking up and wondering more. Maybe you will too.\nHear it: https://www.samharris.org/podcasts/making-sense-episodes/282-do-you-really-have-a-self\nRead Something\n\"Projections: A Story of Human Emotions\" by Karl Deisseroth completely blew me away. It's absolutely beautiful writing about some of the darkest mental states and conditions we know. The stories are fascinating, the science he invented is illuminating, and the whole work is immensely powerful. It had me both in tears and in awe. One of the best non-fiction books I've ever read, hands down. The author reads the audiobook too, which makes it even more personal. Highly recommended.\nRead it: https://bookshop.org/books/projections-a-story-of-human-emotions/9781984853691\nSaw Something\nI enjoy all things Richard Feynman, and this animated short uses text from a speech he gave in 1955 on the wonders of life as the backing track. A lovely way to spend 4 minutes and 21 seconds. \nSee it: https://vimeo.com/700869688\nUntil next time.\nBTW, if you like these, and think someone else might too, please forward it on. They can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.\n\n\n-Jason",
+          "link": "https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4",
+          "publishedOn": "2022-06-21T20:12:00.000Z",
+          "wordCount": 267,
+          "title": "Heard Something, Read Something, Saw Something [#13]",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
           "id": "https://world.hey.com/jason/risk-decisons-and-scarcity-d4c7636c",
           "author": null,
           "description": "This weekend I took a long walk with a fellow founder/CEO. We had talked on the phone before, but never met in person. We found ourselves in the same city, so it felt like it was time to shake hands and catch up IRL.\nHe runs a company that's an order or magnitude larger than 37signals, so his experiences, responsibilities, and perspectives are quite a bit different from mine. But as we've careened towards our own renewed growth phase — we're currently larger than we've ever been, and still hiring — a few of his insights really resonated.\nAnd one really stuck.\nWhen he said it, I had to repeat it to make sure I heard it right. I wanted to sear the words in my brain so I both fully understood and wouldn't forget.\nHe said \"Risk tolerance is the scarcest resource in most companies.\" I just love…",
@@ -191,6 +201,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/06/21/survey-2021-report.html",
+          "author": null,
+          "description": "As usual, we conducted an annual community survey in 2021. We previously shared some some highlights and charts\nin a blog post. This year we would also like to\nmake the complete (-ish) dataset available. We have compiled a report which contains data and charts for nearly\nall questions with minimal analysis. We have elided a few sensitive questions and have combined some answers\nor elided some answers where there is any chance of respondents being identified or of sensitive data being released.\nWe intend to produce further small reports with more analysis targetted at specific teams or groups within the\nproject. If there is any analysis or processed data you'd like to see, please get in touch with the survey working group via\nZulip.\nOnce again, we'd like to thank all the respondents, our translators, and everyone else who helped to make the survey a success!\nDownload the report.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/06/21/survey-2021-report.html",
+          "publishedOn": "2022-06-21T00:00:00.000Z",
+          "wordCount": 231,
+          "title": "2021 Annual Survey Report",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html",
           "author": null,
@@ -390,18 +410,7 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": [
-        {
-          "id": "https://nullprogram.com/blog/2022/05/22/",
-          "author": null,
-          "description": "Earlier this month Ted Unangst researched compiling the OpenBSD kernel\n50% faster, which involved stubbing out the largest, extraneous\nbranches of the source tree. To find the lowest-hanging fruit, he wrote a\ntool called watc — where’s all the code — that displays an\ninteractive “usage” summary of a source tree oriented around line count. A\nfollowup post about exploring the tree in parallel got me thinking\nabout the problem, especially since I had just written about a concurrent\nqueue. Turning it over in my mind, I saw opportunities for interesting\ndata structures and memory management, and so I wanted to write my own\nversion of the tool, watc.c, which is the subject of this\narticle.\nThe original watc is interactive and written in idiomatic Go. My version\nis non-interactive, written in C, …",
-          "link": "https://nullprogram.com/blog/2022/05/22/",
-          "publishedOn": "2022-05-22T23:59:59.000Z",
-          "wordCount": 2982,
-          "title": "My take on \"where's all the code\"",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Xe's Blog",
@@ -486,26 +495,6 @@
           "publishedOn": "2022-05-25T00:00:00.000Z",
           "wordCount": 7544,
           "title": "We Already Have Go 2",
-          "imageUrl": null
-        },
-        {
-          "id": "https://xeiaso.net/blog/against-toxicity-programming-languages",
-          "author": null,
-          "description": "Posted on 2022-05-23",
-          "link": "https://xeiaso.net/blog/against-toxicity-programming-languages",
-          "publishedOn": "2022-05-23T00:00:00.000Z",
-          "wordCount": 2390,
-          "title": "My Stance on Toxicity About Programming Languages",
-          "imageUrl": null
-        },
-        {
-          "id": "https://christine.website/blog/against-toxicity-programming-languages",
-          "author": null,
-          "description": "Posted on 2022-05-23",
-          "link": "https://christine.website/blog/against-toxicity-programming-languages",
-          "publishedOn": "2022-05-23T00:00:00.000Z",
-          "wordCount": 760,
-          "title": "My Stance on Toxicity About Programming Languages",
           "imageUrl": null
         }
       ]
