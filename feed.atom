@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-22T01:50:13.229Z</updated>
-    <generator>osmosfeed 1.15.0</generator>
+    <updated>2022-06-23T01:26:01.678Z</updated>
+    <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Call for testing: Cargo sparse-registry]]></title>
+        <id>https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html</id>
+        <link href="https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html"/>
+        <updated>2022-06-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Cargo nightly sparse-registry feature is ready for testing. The
+feature causes Cargo to access the crates.io index over HTTP, rather than git. It can
+provide a significant performance improvement, especially if the local copy of
+the git index is out-of-date or not yet cloned.
+Overview
+To try it out, add the -Z sparse-registry flag on a recent nightly build of Cargo.
+For example, to update dependencies:
+rustup update nightly
+cargo +nightly -Z sparse-registry update
+
+The feature can also be enabled by setting the environment variable
+CARGO_UNSTABLE_SPARSE_REGISTRY=true. Setting this variable will have no effect on stable
+Cargo, making it easy to opt-in for CI jobs.
+The minimum Cargo version is cargo 2022-06-17, which is bundled with rustc 2022-06-20.
+You can leave feedback on the interna…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#13]]]></title>
         <id>https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4</id>
@@ -2502,18 +2526,6 @@ The moderation issue has been brought to a resolution. This case was open for an
         <summary type="html"><![CDATA[Posted on 2022-05-25]]></summary>
         <author>
             <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bullshit jobs hide more easily in big companies]]></title>
-        <id>https://world.hey.com/dhh/bullshit-jobs-hide-more-easily-in-big-companies-d53bcbc4</id>
-        <link href="https://world.hey.com/dhh/bullshit-jobs-hide-more-easily-in-big-companies-d53bcbc4"/>
-        <updated>2022-05-24T09:55:06.000Z</updated>
-        <summary type="html"><![CDATA[The late, great David Graeber struck a nerve with his 2013 essay On the Phenomenon of Bullshit Jobs. It diagnosed the "moral and spiritual damage" caused to our "collective soul" when masses of white-collar employees work pointless jobs. The thesis was confirmed by a startling poll a few years later that showed 37% of British workers thinking their jobs to be meaningless. Literally depressing.
-You don't even have to buy into Graeber's economic analysis to recognize the wisdom of the psychological one. That our human search for meaning is sent seriously astray when we work a job that's pointless. And that the theater of productivity performed in pursuit of the pointless only offers a shallow distraction from the plot of existential anguish.
-Even more poignant is the observation that the res…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>

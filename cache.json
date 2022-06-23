@@ -58,16 +58,6 @@
           "wordCount": 558,
           "title": "Who's been swimming naked?",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/bullshit-jobs-hide-more-easily-in-big-companies-d53bcbc4",
-          "author": null,
-          "description": "The late, great David Graeber struck a nerve with his 2013 essay On the Phenomenon of Bullshit Jobs. It diagnosed the \"moral and spiritual damage\" caused to our \"collective soul\" when masses of white-collar employees work pointless jobs. The thesis was confirmed by a startling poll a few years later that showed 37% of British workers thinking their jobs to be meaningless. Literally depressing.\nYou don't even have to buy into Graeber's economic analysis to recognize the wisdom of the psychological one. That our human search for meaning is sent seriously astray when we work a job that's pointless. And that the theater of productivity performed in pursuit of the pointless only offers a shallow distraction from the plot of existential anguish.\nEven more poignant is the observation that the res…",
-          "link": "https://world.hey.com/dhh/bullshit-jobs-hide-more-easily-in-big-companies-d53bcbc4",
-          "publishedOn": "2022-05-24T09:55:06.000Z",
-          "wordCount": 622,
-          "title": "Bullshit jobs hide more easily in big companies",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
         }
       ]
     },
@@ -194,7 +184,18 @@
       "title": "Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html",
+          "author": null,
+          "description": "The Cargo nightly sparse-registry feature is ready for testing. The\nfeature causes Cargo to access the crates.io index over HTTP, rather than git. It can\nprovide a significant performance improvement, especially if the local copy of\nthe git index is out-of-date or not yet cloned.\nOverview\nTo try it out, add the -Z sparse-registry flag on a recent nightly build of Cargo.\nFor example, to update dependencies:\nrustup update nightly\ncargo +nightly -Z sparse-registry update\n\nThe feature can also be enabled by setting the environment variable\nCARGO_UNSTABLE_SPARSE_REGISTRY=true. Setting this variable will have no effect on stable\nCargo, making it easy to opt-in for CI jobs.\nThe minimum Cargo version is cargo 2022-06-17, which is bundled with rustc 2022-06-20.\nYou can leave feedback on the interna…",
+          "link": "https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html",
+          "publishedOn": "2022-06-22T00:00:00.000Z",
+          "wordCount": 489,
+          "title": "Call for testing: Cargo sparse-registry",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        }
+      ]
     },
     {
       "title": "Inside Rust Blog",
@@ -2732,5 +2733,5 @@
       ]
     }
   ],
-  "cliVersion": "1.15.0"
+  "cliVersion": "1.15.1"
 }
