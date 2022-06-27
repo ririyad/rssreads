@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-26T01:48:20.776Z</updated>
+    <updated>2022-06-27T01:49:51.497Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Assertions should be more debugger-oriented]]></title>
+        <id>https://nullprogram.com/blog/2022/06/26/</id>
+        <link href="https://nullprogram.com/blog/2022/06/26/"/>
+        <updated>2022-06-26T18:51:04.000Z</updated>
+        <summary type="html"><![CDATA[Prompted by a 20 minute video, over the past month I’ve improved my
+debugger skills. I’d shamefully acquired a bad habit: avoiding a debugger
+until exhausting dumber, insufficient methods. My first choice should be
+a debugger, but I had allowed a bit of friction to dissuade me. With some
+thoughtful practice and deliberate effort clearing the path, my bad habit
+is finally broken — at least when a good debugger is available. It feels
+like I’ve leveled up and, like touch typing, this was a skill I’d
+neglected far too long. One friction point was the less-than-optimal
+assert feature in basically every programming language implementation.
+It ought to work better with debuggers.
+An assertion verifies a program invariant, and so if one fails then
+there’s undoubtedly a defect in the program. In ot…]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Being Boring]]></title>
         <id>https://ia.net/?p=10200</id>
@@ -2428,16 +2449,6 @@ Maybe, just maybe, I can in retrospect forgive the knee-jerk impulse of managers
         <updated>2022-05-30T01:39:47.953Z</updated>
         <author>
             <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Site Update: The Big Domain Move To xeiaso.net]]></title>
-        <id>https://xeiaso.net/blog/big-domain-move</id>
-        <link href="https://xeiaso.net/blog/big-domain-move"/>
-        <updated>2022-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-05-28]]></summary>
-        <author>
-            <name>Xe's Blog</name>
         </author>
     </entry>
 </feed>

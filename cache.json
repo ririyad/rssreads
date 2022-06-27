@@ -371,7 +371,18 @@
       "title": "null program",
       "feedUrl": "https://nullprogram.com/feed/",
       "siteUrl": "https://nullprogram.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2022/06/26/",
+          "author": null,
+          "description": "Prompted by a 20 minute video, over the past month I’ve improved my\ndebugger skills. I’d shamefully acquired a bad habit: avoiding a debugger\nuntil exhausting dumber, insufficient methods. My first choice should be\na debugger, but I had allowed a bit of friction to dissuade me. With some\nthoughtful practice and deliberate effort clearing the path, my bad habit\nis finally broken — at least when a good debugger is available. It feels\nlike I’ve leveled up and, like touch typing, this was a skill I’d\nneglected far too long. One friction point was the less-than-optimal\nassert feature in basically every programming language implementation.\nIt ought to work better with debuggers.\nAn assertion verifies a program invariant, and so if one fails then\nthere’s undoubtedly a defect in the program. In ot…",
+          "link": "https://nullprogram.com/blog/2022/06/26/",
+          "publishedOn": "2022-06-26T18:51:04.000Z",
+          "wordCount": 2561,
+          "title": "Assertions should be more debugger-oriented",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Xe's Blog",
@@ -416,16 +427,6 @@
           "publishedOn": "2022-06-03T00:00:00.000Z",
           "wordCount": 3488,
           "title": "The Oasis",
-          "imageUrl": null
-        },
-        {
-          "id": "https://xeiaso.net/blog/big-domain-move",
-          "author": null,
-          "description": "Posted on 2022-05-28",
-          "link": "https://xeiaso.net/blog/big-domain-move",
-          "publishedOn": "2022-05-28T00:00:00.000Z",
-          "wordCount": 891,
-          "title": "Site Update: The Big Domain Move To xeiaso.net",
           "imageUrl": null
         }
       ]
