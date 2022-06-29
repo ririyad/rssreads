@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-06-28T01:45:58.442Z</updated>
+    <updated>2022-06-29T01:46:11.675Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Notes on running containers with bubblewrap]]></title>
+        <id>https://jvns.ca/blog/2022/06/28/some-notes-on-bubblewrap/</id>
+        <link href="https://jvns.ca/blog/2022/06/28/some-notes-on-bubblewrap/"/>
+        <updated>2022-06-28T12:24:34.000Z</updated>
+        <summary type="html"><![CDATA[Hello! About a year ago I got mad about Docker container startup time. This was
+because I was building an nginx playground
+where I was starting a new “container” on every HTTP request, and so for it to
+feel reasonably snappy, nginx needed to start quickly.
+Also, I was running this project on a pretty small cloud machine (256MB RAM), a
+small CPU, so I really wanted to avoid unnecessary overhead.
+I’ve been looking for a way to run containers faster since then, but I couldn’t
+find one until last week when I discovered
+bubblewrap!! It’s very fast and I
+think it’s super cool, but I also ran into a bunch of fun problems that I
+wanted to write down for my future self.
+some disclaimers
+I’m not sure if the way I’m using bubblewrap in this post is maybe not how it’s intended to be used
+there are a l…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing The RustConf PostConf UnConf]]></title>
+        <id>https://blog.rust-lang.org/2022/06/28/rust-unconference.html</id>
+        <link href="https://blog.rust-lang.org/2022/06/28/rust-unconference.html"/>
+        <updated>2022-06-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello Rust community!
+We're excited to announce that the Rust project teams will be hosting an
+unconference1 the day after RustConf.
+
+The PostConf Unconf will be dedicated to the Rust project and will be a
+fantastic opportunity for users, contributors, and maintainers to network and
+discuss the project's development.
+There will be no set agenda; instead, attendees will decide what will be
+discussed together and can move freely between sessions to find ones in which
+they can contribute most effectively based on their individual interests and
+needs.
+To get the most out of the unconference, jot down your thoughts ahead of time
+and bring them ready to share. We will also set up a channel in the RustConf
+Discord for folks to communicate and make preliminary, informal plans.
+If you plan to attend, please register as soon as possible to help us plan
+appropriately. If we run out of space, project participants will be given preference.
+Registration is free and open to everyone attending RustConf.
+🚨Register Now!🚨
+We hope to see you there!
+If you are unfamiliar with the notion of an unconference, you may find this informational piece helpful. ↩]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.62.0 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/06/28/1.62.0-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/06/28/1.62.0-prerelease.html"/>
+        <updated>2022-06-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.62.0 pre-release is ready for testing. The release is scheduled for this
+Thursday, June 30th. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2022-06-27/index.html. You
+can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Highlights from Git 2.37]]></title>
         <id>https://github.blog/2022-06-27-highlights-from-git-2-37/</id>
@@ -2441,24 +2511,6 @@ Okay, maybe your visualization is not as grim as mine. But just setting the stag
 Maybe, just maybe, I can in retrospect forgive the knee-jerk impulse of managers breed in an office-only world their reach for surveillance-ware when the pandemic first broke out. You could at least claim then that it was all so new, that it was a highly stressful time, and that you made your mistakes out of pandemic-induced igno…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 2 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1651069852&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1651069852&amp;"/>
-        <updated>2022-05-30T01:39:47.955Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chapter 1 of Ansi Common Lisp]]></title>
-        <id>http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1651069852&amp;</id>
-        <link href="http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1651069852&amp;"/>
-        <updated>2022-05-30T01:39:47.953Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
         </author>
     </entry>
 </feed>

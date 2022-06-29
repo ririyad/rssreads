@@ -156,6 +156,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2022/06/28/rust-unconference.html",
+          "author": null,
+          "description": "Hello Rust community!\nWe're excited to announce that the Rust project teams will be hosting an\nunconference1 the day after RustConf.\n\nThe PostConf Unconf will be dedicated to the Rust project and will be a\nfantastic opportunity for users, contributors, and maintainers to network and\ndiscuss the project's development.\nThere will be no set agenda; instead, attendees will decide what will be\ndiscussed together and can move freely between sessions to find ones in which\nthey can contribute most effectively based on their individual interests and\nneeds.\nTo get the most out of the unconference, jot down your thoughts ahead of time\nand bring them ready to share. We will also set up a channel in the RustConf\nDiscord for folks to communicate and make preliminary, informal plans.\nIf you plan to attend, please register as soon as possible to help us plan\nappropriately. If we run out of space, project participants will be given preference.\nRegistration is free and open to everyone attending RustConf.\n🚨Register Now!🚨\nWe hope to see you there!\nIf you are unfamiliar with the notion of an unconference, you may find this informational piece helpful. ↩",
+          "link": "https://blog.rust-lang.org/2022/06/28/rust-unconference.html",
+          "publishedOn": "2022-06-28T00:00:00.000Z",
+          "wordCount": 269,
+          "title": "Announcing The RustConf PostConf UnConf",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html",
           "author": null,
           "description": "The Cargo nightly sparse-registry feature is ready for testing. The\nfeature causes Cargo to access the crates.io index over HTTP, rather than git. It can\nprovide a significant performance improvement, especially if the local copy of\nthe git index is out-of-date or not yet cloned.\nOverview\nTo try it out, add the -Z sparse-registry flag on a recent nightly build of Cargo.\nFor example, to update dependencies:\nrustup update nightly\ncargo +nightly -Z sparse-registry update\n\nThe feature can also be enabled by setting the environment variable\nCARGO_UNSTABLE_SPARSE_REGISTRY=true. Setting this variable will have no effect on stable\nCargo, making it easy to opt-in for CI jobs.\nThe minimum Cargo version is cargo 2022-06-17, which is bundled with rustc 2022-06-20.\nYou can leave feedback on the interna…",
@@ -172,6 +182,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/06/28/1.62.0-prerelease.html",
+          "author": null,
+          "description": "The 1.62.0 pre-release is ready for testing. The release is scheduled for this\nThursday, June 30th. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-06-27/index.html. You\ncan leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/06/28/1.62.0-prerelease.html",
+          "publishedOn": "2022-06-28T00:00:00.000Z",
+          "wordCount": 141,
+          "title": "1.62.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2022/06/21/survey-2021-report.html",
           "author": null,
@@ -482,7 +502,18 @@
       "title": "Julia Evans",
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/06/28/some-notes-on-bubblewrap/",
+          "author": null,
+          "description": "Hello! About a year ago I got mad about Docker container startup time. This was\nbecause I was building an nginx playground\nwhere I was starting a new “container” on every HTTP request, and so for it to\nfeel reasonably snappy, nginx needed to start quickly.\nAlso, I was running this project on a pretty small cloud machine (256MB RAM), a\nsmall CPU, so I really wanted to avoid unnecessary overhead.\nI’ve been looking for a way to run containers faster since then, but I couldn’t\nfind one until last week when I discovered\nbubblewrap!! It’s very fast and I\nthink it’s super cool, but I also ran into a bunch of fun problems that I\nwanted to write down for my future self.\nsome disclaimers\nI’m not sure if the way I’m using bubblewrap in this post is maybe not how it’s intended to be used\nthere are a l…",
+          "link": "https://jvns.ca/blog/2022/06/28/some-notes-on-bubblewrap/",
+          "publishedOn": "2022-06-28T12:24:34.000Z",
+          "wordCount": 3065,
+          "title": "Notes on running containers with bubblewrap",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Feross.org",
@@ -2626,26 +2657,6 @@
           "publishedOn": "2022-06-13T01:47:53.154Z",
           "wordCount": 2080,
           "title": "Heresy",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1651069852&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl2.txt?t=1651069852&",
-          "publishedOn": "2022-05-30T01:39:47.955Z",
-          "wordCount": null,
-          "title": "Chapter 2 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1651069852&",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/https://sep.yimg.com/ty/cdn/paulgraham/acl1.txt?t=1651069852&",
-          "publishedOn": "2022-05-30T01:39:47.953Z",
-          "wordCount": null,
-          "title": "Chapter 1 of Ansi Common Lisp",
           "imageUrl": null
         }
       ]
