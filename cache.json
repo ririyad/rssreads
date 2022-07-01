@@ -28,28 +28,7 @@
       "title": "David Heinemeier Hansson",
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
-      "articles": [
-        {
-          "id": "https://world.hey.com/dhh/i-ain-t-no-angel-but-i-have-made-some-startup-investments-c9ad4dd0",
-          "author": null,
-          "description": "I'm not saying the only reason I've categorically refused to invest in tech startups in the past was my instinctual aversion to the term \"angel investor\", but it surely did play a part! There's just something so ridiculously self-serving about this angelic charade that turned me off for the longest time. So too did the fact that every tech angel investor I'd ever met seemed exclusively interested in unicorn hunting. Hard pass, not for me!\nI mean, just visualize that image: A winged hustler chasing mythical creatures with a dull trident, blind-folded. Occasionally nailing the throw, usually out of luck, connections, or happy timing, then heralding themselves as visionaries, demanding a parade.\nOkay, maybe your visualization is not as grim as mine. But just setting the stage here for my pers…",
-          "link": "https://world.hey.com/dhh/i-ain-t-no-angel-but-i-have-made-some-startup-investments-c9ad4dd0",
-          "publishedOn": "2022-06-01T09:06:53.000Z",
-          "wordCount": 893,
-          "title": "I ain't no angel but I have made some startup investments",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/employee-surveillance-software-is-managerial-bankruptcy-94e48a08",
-          "author": null,
-          "description": "Moving to remote work has brought out the worst in some managers. It's revealed their insecurities and paranoia, and caused them to address these in a spectacle of incompetence. Nothing illustrates this more clearly than the continued surge in interest for employee surveillance software, which risks turning a working arrangement that should be high on autonomy, flexibility, and creativity into one dominated by suspicion, anxiety, and dread. It needn't be this way.\nMaybe, just maybe, I can in retrospect forgive the knee-jerk impulse of managers breed in an office-only world their reach for surveillance-ware when the pandemic first broke out. You could at least claim then that it was all so new, that it was a highly stressful time, and that you made your mistakes out of pandemic-induced igno…",
-          "link": "https://world.hey.com/dhh/employee-surveillance-software-is-managerial-bankruptcy-94e48a08",
-          "publishedOn": "2022-05-31T14:56:34.000Z",
-          "wordCount": 573,
-          "title": "Employee surveillance software is managerial bankruptcy",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Jason Fried",
@@ -166,6 +145,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2022/06/30/Rust-1.62.0.html",
+          "author": null,
+          "description": "The Rust team is happy to announce a new version of Rust, 1.62.0. Rust is a programming language\nempowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.62.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.62.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use\nthe beta channel (rustup default beta) or the nightly channel (rustup default nightly).\nPlease report any bugs you might come across!\nWhat's in 1.62.0 stable\ncargo add\nYou can now add new dependencies directly from the command line using cargo add. This command supports specifyi…",
+          "link": "https://blog.rust-lang.org/2022/06/30/Rust-1.62.0.html",
+          "publishedOn": "2022-06-30T00:00:00.000Z",
+          "wordCount": 595,
+          "title": "Announcing Rust 1.62.0",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2022/06/28/rust-unconference.html",
           "author": null,
           "description": "Hello Rust community!\nWe're excited to announce that the Rust project teams will be hosting an\nunconference1 the day after RustConf.\n\nThe PostConf Unconf will be dedicated to the Rust project and will be a\nfantastic opportunity for users, contributors, and maintainers to network and\ndiscuss the project's development.\nThere will be no set agenda; instead, attendees will decide what will be\ndiscussed together and can move freely between sessions to find ones in which\nthey can contribute most effectively based on their individual interests and\nneeds.\nTo get the most out of the unconference, jot down your thoughts ahead of time\nand bring them ready to share. We will also set up a channel in the RustConf\nDiscord for folks to communicate and make preliminary, informal plans.\nIf you plan to attend, please register as soon as possible to help us plan\nappropriately. If we run out of space, project participants will be given preference.\nRegistration is free and open to everyone attending RustConf.\n🚨Register Now!🚨\nWe hope to see you there!\nIf you are unfamiliar with the notion of an unconference, you may find this informational piece helpful. ↩",
@@ -256,6 +245,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-06-30-write-better-commits-build-better-projects/",
+          "author": null,
+          "description": "High-quality Git commits are the key to a maintainable and collaborative open- or closed-source project. Learn strategies to improve and use commits to streamline your development process.",
+          "link": "https://github.blog/2022-06-30-write-better-commits-build-better-projects/",
+          "publishedOn": "2022-06-30T19:34:33.000Z",
+          "wordCount": 4690,
+          "title": "Write Better Commits, Build Better Projects",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/header.png"
+        },
         {
           "id": "https://github.blog/2022-06-29-improve-git-monorepo-performance-with-a-file-system-monitor/",
           "author": null,
