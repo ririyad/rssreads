@@ -2,10 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-01T01:54:42.748Z</updated>
+    <updated>2022-07-02T01:42:12.256Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[RLS Deprecation]]></title>
+        <id>https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html</id>
+        <link href="https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html"/>
+        <updated>2022-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust Language Server (RLS) is being deprecated in favor of rust-analyzer.
+Current users of RLS should migrate to using rust-analyzer instead.
+Builds of RLS will continue to be released until at least the Rust 1.64 release (2022-09-22), after which no new releases will be made.
+This timeline may change if any issues arise.
+RLS is an implementation of the Language Server Protocol (LSP) which provides enhanced features with any editor that supports the protocol, such as code-checking and refactoring.
+RLS was introduced by RFC 1317 and development was very active from 2016 through 2019.
+However, the architecture of RLS has several limitations that can make it difficult to provide low-latency and high-quality responses needed for an interactive environment.
+Development of rust-analyzer bega…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Write Better Commits, Build Better Projects]]></title>
         <id>https://github.blog/2022-06-30-write-better-commits-build-better-projects/</id>
@@ -2559,26 +2576,6 @@ One downside of waiting is if others are waiting on you. Procrastination is dis
 -Jason]]></summary>
         <author>
             <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Availability Report: May 2022]]></title>
-        <id>https://github.blog/2022-06-01-github-availability-report-may-2022/</id>
-        <link href="https://github.blog/2022-06-01-github-availability-report-may-2022/"/>
-        <updated>2022-06-01T18:55:09.000Z</updated>
-        <summary type="html"><![CDATA[In May, we experienced three distinct incidents resulting in significant impact to multiple services across GitHub.com. This report also sheds light into the billing incident that impacted Actions and Codespaces users in April.]]></summary>
-        <author>
-            <name>The GitHub Blog: Engineering News and Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Battlefield Product Management]]></title>
-        <id>https://staysaasy.com/product/2022/06/01/battlefield-product-management.html</id>
-        <link href="https://staysaasy.com/product/2022/06/01/battlefield-product-management.html"/>
-        <updated>2022-06-01T14:59:22.000Z</updated>
-        <summary type="html"><![CDATA[Your lead PM just quit. These are the steps that absolutely cannot be skipped, and an approach to tackling them that can hopefully be executed by someone who is busy, distracted, or otherwise not a trained PM.]]></summary>
-        <author>
-            <name>Stay SaaSy</name>
         </author>
     </entry>
 </feed>

@@ -145,6 +145,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html",
+          "author": null,
+          "description": "The Rust Language Server (RLS) is being deprecated in favor of rust-analyzer.\nCurrent users of RLS should migrate to using rust-analyzer instead.\nBuilds of RLS will continue to be released until at least the Rust 1.64 release (2022-09-22), after which no new releases will be made.\nThis timeline may change if any issues arise.\nRLS is an implementation of the Language Server Protocol (LSP) which provides enhanced features with any editor that supports the protocol, such as code-checking and refactoring.\nRLS was introduced by RFC 1317 and development was very active from 2016 through 2019.\nHowever, the architecture of RLS has several limitations that can make it difficult to provide low-latency and high-quality responses needed for an interactive environment.\nDevelopment of rust-analyzer bega…",
+          "link": "https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html",
+          "publishedOn": "2022-07-01T00:00:00.000Z",
+          "wordCount": 387,
+          "title": "RLS Deprecation",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2022/06/30/Rust-1.62.0.html",
           "author": null,
           "description": "The Rust team is happy to announce a new version of Rust, 1.62.0. Rust is a programming language\nempowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.62.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.62.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use\nthe beta channel (rustup default beta) or the nightly channel (rustup default nightly).\nPlease report any bugs you might come across!\nWhat's in 1.62.0 stable\ncargo add\nYou can now add new dependencies directly from the command line using cargo add. This command supports specifyi…",
@@ -324,16 +334,6 @@
           "wordCount": 1429,
           "title": "One developer’s journey bringing Dependabot to GitHub Enterprise Server",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Product-Engineering-Scurity.png"
-        },
-        {
-          "id": "https://github.blog/2022-06-01-github-availability-report-may-2022/",
-          "author": null,
-          "description": "In May, we experienced three distinct incidents resulting in significant impact to multiple services across GitHub.com. This report also sheds light into the billing incident that impacted Actions and Codespaces users in April.",
-          "link": "https://github.blog/2022-06-01-github-availability-report-may-2022/",
-          "publishedOn": "2022-06-01T18:55:09.000Z",
-          "wordCount": 1066,
-          "title": "GitHub Availability Report: May 2022",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/05/Engineering-Enterprise@2x.png"
         }
       ]
     },
@@ -523,16 +523,6 @@
           "publishedOn": "2022-06-12T14:59:22.000Z",
           "wordCount": 2034,
           "title": "How to Improve Your Gross Margins",
-          "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
-        },
-        {
-          "id": "https://staysaasy.com/product/2022/06/01/battlefield-product-management.html",
-          "author": null,
-          "description": "Your lead PM just quit. These are the steps that absolutely cannot be skipped, and an approach to tackling them that can hopefully be executed by someone who is busy, distracted, or otherwise not a trained PM.",
-          "link": "https://staysaasy.com/product/2022/06/01/battlefield-product-management.html",
-          "publishedOn": "2022-06-01T14:59:22.000Z",
-          "wordCount": 1376,
-          "title": "Battlefield Product Management",
           "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
         }
       ]
