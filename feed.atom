@@ -2,10 +2,32 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-02T01:42:12.256Z</updated>
+    <updated>2022-07-03T01:51:51.677Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Working around people]]></title>
+        <id>https://world.hey.com/jason/working-around-people-796dd96e</id>
+        <link href="https://world.hey.com/jason/working-around-people-796dd96e"/>
+        <updated>2022-07-02T20:45:13.000Z</updated>
+        <summary type="html"><![CDATA[We all know it’s important to work with people. That’s collaboration.
+But it’s perhaps even more important to learn how to work around people. To uncollaborate.
+Not by ignoring them or dismissing them. But moving without them because they simply aren’t available to move with you. This isn’t about avoidance, it’s about “ah, you’re busy, no worries, we’ll figure it out.”
+They could be a person, or they could be a team.
+Maybe they’re busy. Maybe their priories are different. Maybe they’re free in three weeks, but what you’re working on needs to happen next week.
+The default position is to stand still and wait for them, or to actively interrupt to shift their priorities to favor your needs over theirs.
+This is how companies slow down. It’s how they grind gears and end up running in circles. The default mode is dependency, favoring syncing up and locking in over decoupling and letting loose.
+Dependency is the wrong mode. Don’t slow down to merge, speed up and take a different path forward.
+The way to move quicker is to move independently. To learn how to work around people. To glide, not to grind. And not to wait, but either to do without, to do on your own, or to find a simpler way that eliminates the requirement of their help in the first place.
+This helps you, and it’s a favor to them too.
+Of course it’s not always the case, but, more often than not, it is.
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[RLS Deprecation]]></title>
         <id>https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html</id>
@@ -2481,101 +2503,6 @@ I’ve reflected on how much I am not a designer in the past. I think this is th
 Take this with a grain of salt, as this is not my thing, but I’ve seen the value of this question empirically validated: when working on a feature or product, what do you want people to feel?]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amend 3.3 Released]]></title>
-        <id>https://jcs.org/2022/06/03/amend</id>
-        <link href="https://jcs.org/2022/06/03/amend"/>
-        <updated>2022-06-03T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amend 3.3 has been released:]]></summary>
-        <author>
-            <name>joshua stein</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rust Compiler June 2022 Steering Cycle]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html"/>
-        <updated>2022-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On Friday, June 3rd, the Rust Compiler team had a planning meeting for the June 2022 steering cycle.
-T-compiler June Steering Schedule
-Date
-Meeting Id
-Meeting Topic
-
-
-
-
-2022-06-10
-compiler-team#516
-path sanitisation changes rfc#3127
-
-
-2022-06-17
-compiler-team#517
-2022 Q2 P-high review
-
-
-2022-06-24
-compiler-team#484
-Compiler Feature Backlog Bonanza
-
-
-2022-07-01
-none
-(planning for July cycle)
-
-
-
-Details
-Every fourth Friday, the Rust compiler team decides how
-it is going to use its scheduled steering and design meeting time over the next
-three Fridays.
-On Friday, 10 June, we will review RFC PR #3127, which proposes
-new rustc and Cargo options to allow path sanitisation by default.
-On Friday, 17 June, we will be doing a quarterly review of the open P-high issues.
-pnkfelix will do some ahead of time work triaging
-some of the issues, and potentially prepare a meeting document summarizing the
-remainder, to maximize the quality of our synchronous in-meeting time.
-On Friday, 24 June, we will be having a "backlog bonanza", in a
-similar vein to that done by T-lang, to review the list of unimplemented or
-partially-implemented features. pnkfelix and Jack Huey will prepare a document
-to drive the meeting.
-On Friday, 1 July, we will hold our planning meeting for the next steering cycle in July.
-Each meeting will run from 2pm to 3pm GMT, and will take place on the
-T-compiler/meetings zulip stream.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Oasis]]></title>
-        <id>https://xeiaso.net/blog/the-oasis</id>
-        <link href="https://xeiaso.net/blog/the-oasis"/>
-        <updated>2022-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-06-03]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wait to concentrate]]></title>
-        <id>https://world.hey.com/jason/wait-to-concentrate-9e936ef7</id>
-        <link href="https://world.hey.com/jason/wait-to-concentrate-9e936ef7"/>
-        <updated>2022-06-02T15:06:41.000Z</updated>
-        <summary type="html"><![CDATA[Procrastination is often tagged as a negative.
-If you're putting something off until the last minute, it's assumed it's because you don't want to do it, or it's too hard, or you've been avoiding it for some other reason.
-Maybe I'm making excuses, but lately I've found procrastination can be aimed to your advantage. Not always, but more than I imagined.
-Procrastination has a way of concentrating attention. When it has to be done, and the clock is ticking, it blocks your attention from wandering to other things. There's simply no time, and the penalty for further delay is high.
-Concentrated attention, at least for me, helps me do my best work. It's as if attention is a reduced sauce, thickened and viscous, sticking to what I'm working on. Undivided, undiluted, unbroken.
-Procrastination helps wedge me into a sustained flow state. "I have to get it done this afternoon" turns into 3 or 4 hours of continuous, focused work. When the deadline is over the horizon, it's too easy to shatter those hours into ineffective slices of attention doled out over days or weeks. But when it's right in front of you, you tuck in, get real, and get it done.
-There are obviously occasions where you wish you had more time, or a second take, or another edit, but, more often than not, I find more time talks you out of your best ideas, and slips in too many second guesses. I think I'd rather take something slightly undercooked than overcooked.
-One downside of waiting is if others are waiting on you. Procrastination is disrespect if others need what you're making in order to move forward on what they need to make. So be sure to take that all into consideration too. You can't wait until the 11th hour, if it forces everyone else into the 12th.
-
--Jason]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>

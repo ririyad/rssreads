@@ -36,6 +36,16 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/working-around-people-796dd96e",
+          "author": null,
+          "description": "We all know it’s important to work with people. That’s collaboration.\nBut it’s perhaps even more important to learn how to work around people. To uncollaborate.\nNot by ignoring them or dismissing them. But moving without them because they simply aren’t available to move with you. This isn’t about avoidance, it’s about “ah, you’re busy, no worries, we’ll figure it out.”\nThey could be a person, or they could be a team.\nMaybe they’re busy. Maybe their priories are different. Maybe they’re free in three weeks, but what you’re working on needs to happen next week.\nThe default position is to stand still and wait for them, or to actively interrupt to shift their priorities to favor your needs over theirs.\nThis is how companies slow down. It’s how they grind gears and end up running in circles. The default mode is dependency, favoring syncing up and locking in over decoupling and letting loose.\nDependency is the wrong mode. Don’t slow down to merge, speed up and take a different path forward.\nThe way to move quicker is to move independently. To learn how to work around people. To glide, not to grind. And not to wait, but either to do without, to do on your own, or to find a simpler way that eliminates the requirement of their help in the first place.\nThis helps you, and it’s a favor to them too.\nOf course it’s not always the case, but, more often than not, it is.\n\n-Jason",
+          "link": "https://world.hey.com/jason/working-around-people-796dd96e",
+          "publishedOn": "2022-07-02T20:45:13.000Z",
+          "wordCount": 272,
+          "title": "Working around people",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
           "id": "https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4",
           "author": null,
           "description": "Hey!\nBack again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...\nHeard Something\nReally enjoyed this heady Making Sense episode that asks \"Do you really have a self?\" Theoretical conversations like these feel like a massage for the mind. They get down to root assumptions upon which so much is built. After listening, I find myself looking up and wondering more. Maybe you will too.\nHear it: https://www.samharris.org/podcasts/making-sense-episodes/282-do-you-really-have-a-self\nRead Something\n\"Projections: A Story of Human Emotions\" by Karl Deisseroth completely blew me away. It's absolutely beautiful writing about some of the darkest mental states and conditions we know. The stories are fascinating, the science he invented is illuminating, and the whole work is immensely powerful. It had me both in tears and in awe. One of the best non-fiction books I've ever read, hands down. The author reads the audiobook too, which makes it even more personal. Highly recommended.\nRead it: https://bookshop.org/books/projections-a-story-of-human-emotions/9781984853691\nSaw Something\nI enjoy all things Richard Feynman, and this animated short uses text from a speech he gave in 1955 on the wonders of life as the backing track. A lovely way to spend 4 minutes and 21 seconds. \nSee it: https://vimeo.com/700869688\nUntil next time.\nBTW, if you like these, and think someone else might too, please forward it on. They can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.\n\n\n-Jason",
@@ -53,16 +63,6 @@
           "publishedOn": "2022-06-06T19:22:37.000Z",
           "wordCount": 499,
           "title": "Risk, decisons, and scarcity",
-          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
-        },
-        {
-          "id": "https://world.hey.com/jason/wait-to-concentrate-9e936ef7",
-          "author": null,
-          "description": "Procrastination is often tagged as a negative.\nIf you're putting something off until the last minute, it's assumed it's because you don't want to do it, or it's too hard, or you've been avoiding it for some other reason.\nMaybe I'm making excuses, but lately I've found procrastination can be aimed to your advantage. Not always, but more than I imagined.\nProcrastination has a way of concentrating attention. When it has to be done, and the clock is ticking, it blocks your attention from wandering to other things. There's simply no time, and the penalty for further delay is high.\nConcentrated attention, at least for me, helps me do my best work. It's as if attention is a reduced sauce, thickened and viscous, sticking to what I'm working on. Undivided, undiluted, unbroken.\nProcrastination helps wedge me into a sustained flow state. \"I have to get it done this afternoon\" turns into 3 or 4 hours of continuous, focused work. When the deadline is over the horizon, it's too easy to shatter those hours into ineffective slices of attention doled out over days or weeks. But when it's right in front of you, you tuck in, get real, and get it done.\nThere are obviously occasions where you wish you had more time, or a second take, or another edit, but, more often than not, I find more time talks you out of your best ideas, and slips in too many second guesses. I think I'd rather take something slightly undercooked than overcooked.\nOne downside of waiting is if others are waiting on you. Procrastination is disrespect if others need what you're making in order to move forward on what they need to make. So be sure to take that all into consideration too. You can't wait until the 11th hour, if it forces everyone else into the 12th.\n\n-Jason",
-          "link": "https://world.hey.com/jason/wait-to-concentrate-9e936ef7",
-          "publishedOn": "2022-06-02T15:06:41.000Z",
-          "wordCount": 335,
-          "title": "Wait to concentrate",
           "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
         }
       ]
@@ -209,16 +209,6 @@
           "publishedOn": "2022-06-21T00:00:00.000Z",
           "wordCount": 231,
           "title": "2021 Annual Survey Report",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html",
-          "author": null,
-          "description": "On Friday, June 3rd, the Rust Compiler team had a planning meeting for the June 2022 steering cycle.\nT-compiler June Steering Schedule\nDate\nMeeting Id\nMeeting Topic\n\n\n\n\n2022-06-10\ncompiler-team#516\npath sanitisation changes rfc#3127\n\n\n2022-06-17\ncompiler-team#517\n2022 Q2 P-high review\n\n\n2022-06-24\ncompiler-team#484\nCompiler Feature Backlog Bonanza\n\n\n2022-07-01\nnone\n(planning for July cycle)\n\n\n\nDetails\nEvery fourth Friday, the Rust compiler team decides how\nit is going to use its scheduled steering and design meeting time over the next\nthree Fridays.\nOn Friday, 10 June, we will review RFC PR #3127, which proposes\nnew rustc and Cargo options to allow path sanitisation by default.\nOn Friday, 17 June, we will be doing a quarterly review of the open P-high issues.\npnkfelix will do some ahead of time work triaging\nsome of the issues, and potentially prepare a meeting document summarizing the\nremainder, to maximize the quality of our synchronous in-meeting time.\nOn Friday, 24 June, we will be having a \"backlog bonanza\", in a\nsimilar vein to that done by T-lang, to review the list of unimplemented or\npartially-implemented features. pnkfelix and Jack Huey will prepare a document\nto drive the meeting.\nOn Friday, 1 July, we will hold our planning meeting for the next steering cycle in July.\nEach meeting will run from 2pm to 3pm GMT, and will take place on the\nT-compiler/meetings zulip stream.",
-          "link": "https://blog.rust-lang.org/inside-rust/2022/06/03/jun-steering-cycle.html",
-          "publishedOn": "2022-06-03T00:00:00.000Z",
-          "wordCount": 308,
-          "title": "Rust Compiler June 2022 Steering Cycle",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -487,16 +477,6 @@
           "wordCount": 772,
           "title": "Site Update: Hero Images",
           "imageUrl": null
-        },
-        {
-          "id": "https://xeiaso.net/blog/the-oasis",
-          "author": null,
-          "description": "Posted on 2022-06-03",
-          "link": "https://xeiaso.net/blog/the-oasis",
-          "publishedOn": "2022-06-03T00:00:00.000Z",
-          "wordCount": 3488,
-          "title": "The Oasis",
-          "imageUrl": null
         }
       ]
     },
@@ -563,16 +543,6 @@
           "publishedOn": "2022-06-15T05:00:00.000Z",
           "wordCount": 106,
           "title": "Amend 3.4 Released",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jcs.org/2022/06/03/amend",
-          "author": null,
-          "description": "Amend 3.3 has been released:",
-          "link": "https://jcs.org/2022/06/03/amend",
-          "publishedOn": "2022-06-03T05:00:00.000Z",
-          "wordCount": 94,
-          "title": "Amend 3.3 Released",
           "imageUrl": null
         }
       ]
