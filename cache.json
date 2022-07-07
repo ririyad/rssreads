@@ -54,16 +54,6 @@
           "wordCount": 267,
           "title": "Heard Something, Read Something, Saw Something [#13]",
           "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
-        },
-        {
-          "id": "https://world.hey.com/jason/risk-decisons-and-scarcity-d4c7636c",
-          "author": null,
-          "description": "This weekend I took a long walk with a fellow founder/CEO. We had talked on the phone before, but never met in person. We found ourselves in the same city, so it felt like it was time to shake hands and catch up IRL.\nHe runs a company that's an order or magnitude larger than 37signals, so his experiences, responsibilities, and perspectives are quite a bit different from mine. But as we've careened towards our own renewed growth phase — we're currently larger than we've ever been, and still hiring — a few of his insights really resonated.\nAnd one really stuck.\nWhen he said it, I had to repeat it to make sure I heard it right. I wanted to sear the words in my brain so I both fully understood and wouldn't forget.\nHe said \"Risk tolerance is the scarcest resource in most companies.\" I just love…",
-          "link": "https://world.hey.com/jason/risk-decisons-and-scarcity-d4c7636c",
-          "publishedOn": "2022-06-06T19:22:37.000Z",
-          "wordCount": 499,
-          "title": "Risk, decisons, and scarcity",
-          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
         }
       ]
     },
@@ -245,6 +235,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-07-06-github-availability-report-june-2022/",
+          "author": null,
+          "description": "In June, we experienced four incidents resulting in significant impact to multiple GitHub.com services. This report also sheds light into an incident that impacted several GitHub.com services in May.",
+          "link": "https://github.blog/2022-07-06-github-availability-report-june-2022/",
+          "publishedOn": "2022-07-06T16:00:13.000Z",
+          "wordCount": 1703,
+          "title": "GitHub Availability Report: June 2022",
+          "imageUrl": "https://github.blog/wp-content/uploads/2021/11/GitHub-Engineering_blog-social-teal.png?fit=1200%2C630"
+        },
         {
           "id": "https://github.blog/2022-06-30-write-better-commits-build-better-projects/",
           "author": null,
@@ -2694,7 +2694,18 @@
       "title": "Simon Eskildsen",
       "feedUrl": "https://sirupsen.com/atom.xml",
       "siteUrl": "https://sirupsen.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://sirupsen.com/causal",
+          "author": null,
+          "description": "<figure><span style=\"box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%\"><span style=\"box-sizing:border-box;display:block;width:ini",
+          "link": "https://sirupsen.com/causal",
+          "publishedOn": "2022-07-05T00:00:00.000Z",
+          "wordCount": 12823,
+          "title": "Scaling Causal's Spreadsheet Engine from Thousands to Billions of Cells: From Maps to Arrays",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "iA",
