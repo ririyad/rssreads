@@ -116,6 +116,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/patterns-legacy-displacement/revert-to-source.html",
+          "author": null,
+          "description": "Legacy systems often act as integration hubs, ingesting source data to\n      pass on to downstream systems. A new downstream system can decouple itself\n      from legacy by finding the source of data to the legacy and integrating\n      directly to that instead. Ian Cartwright, Rob Horn, and James\n      Lewis describe this Revert to Source pattern,\n      explaining that this part of legacy displacement often also allows a new\n      system to take advantage of upgrades to source data that the legacy had neglected.\nmore…",
+          "link": "https://martinfowler.com/articles/patterns-legacy-displacement/revert-to-source.html",
+          "publishedOn": "2022-07-07T14:07:00.000Z",
+          "wordCount": 1947,
+          "title": "Legacy Displacement: Revert to Source",
+          "imageUrl": "https://martinfowler.com/articles/patterns-legacy-displacement/card.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/product-backlog-building-canvas.html",
           "author": null,
           "description": "Many software teams describe desired product capabilities as a product\n      backlog: a list of user stories. These stories capture who needs the work,\n      what the work is, and why it's needed. Too often teams expect a product\n      owner to be the sole source of the backlog, but anyone could (and should)\n      write user stories. Paulo Caroli teaches teams to use a Product Backlog\n      Building Canvas, which provides a simple process to develop user stories,\n      starting with describing personas for product users and the activities\n      they do. These activities yield features: their interactions with the\n      product. Features are broken down into backlog items, which can then be\n      formulated into user stories from the background of personas and\n      activities.\nmore…",
@@ -314,16 +324,6 @@
           "wordCount": 625,
           "title": "Sunsetting Atom",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Engineering-Product@2x.png?fit=2400%2C1260"
-        },
-        {
-          "id": "https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/",
-          "author": null,
-          "description": "A personal story about building the feature you want and sharing it with the world.",
-          "link": "https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/",
-          "publishedOn": "2022-06-07T19:55:45.000Z",
-          "wordCount": 1429,
-          "title": "One developer’s journey bringing Dependabot to GitHub Enterprise Server",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Product-Engineering-Scurity.png"
         }
       ]
     },
@@ -401,16 +401,6 @@
           "wordCount": 2588,
           "title": "Research highlights from the Core Data Science team at Meta",
           "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/287112060_516572846833818_2049230434565546905_n.png?_nc_cat=106&ccb=1-7&_nc_sid=6825c5&_nc_ohc=bvMdcV_mfWoAX9DJitE&_nc_ht=scontent-sjc3-1.xx&oh=00_AT-idCnxDr2gHSCiiUcIMY9GLUQBj1NzuM9Mp9oKopIcpw&oe=62A8E086"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/",
-          "author": null,
-          "description": "PhDs come to work at Meta Research from a wide variety of disciplines related to computer science and engineering. Research Scientist Shaz Qadeer joined Meta to work on blockchain [...]",
-          "link": "https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/",
-          "publishedOn": "2022-06-08T08:24:49.000Z",
-          "wordCount": 1220,
-          "title": "What research at Meta FinTech looks like: Q&A with Research Scientist Shaz Qadeer",
-          "imageUrl": "https://scontent-iad3-2.xx.fbcdn.net/v/t39.8562-6/285212967_389016416530710_286530681098233185_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6825c5&_nc_ohc=looWxd8EneIAX-KK9yb&_nc_ht=scontent-iad3-2.xx&oh=00_AT-y70FF2juLlsBR1L6NhMxRHy4IsqlQ9uDdNeyYwzAFFQ&oe=62A66C24"
         }
       ]
     },
@@ -477,16 +467,6 @@
           "wordCount": 2798,
           "title": "How Static Code Analysis Prevents You From Waking Up at 3AM With Production on Fire",
           "imageUrl": null
-        },
-        {
-          "id": "https://xeiaso.net/blog/site-update-hero-images",
-          "author": null,
-          "description": "Posted on 2022-06-08",
-          "link": "https://xeiaso.net/blog/site-update-hero-images",
-          "publishedOn": "2022-06-08T00:00:00.000Z",
-          "wordCount": 772,
-          "title": "Site Update: Hero Images",
-          "imageUrl": null
         }
       ]
     },
@@ -495,6 +475,16 @@
       "feedUrl": "https://staysaasy.com/feed.xml",
       "siteUrl": "https://staysaasy.com/",
       "articles": [
+        {
+          "id": "https://staysaasy.com/software/2022/07/06/Context.html",
+          "author": null,
+          "description": "As companies grow, context can become a scarce resource. As more variables, people, teams, products, customers, and coworkers create an increasingly infinite combination of possible ways to move forward, deep context on what to do and how to do it should be thought of explicitly, because its thoughtful allocation can make, or, notably, break, a company’s productivity.",
+          "link": "https://staysaasy.com/software/2022/07/06/Context.html",
+          "publishedOn": "2022-07-06T14:59:22.000Z",
+          "wordCount": 990,
+          "title": "Low Context - Software’s Silent Killer",
+          "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
+        },
         {
           "id": "https://staysaasy.com/recruiting/2022/06/20/value-recruiting.html",
           "author": null,

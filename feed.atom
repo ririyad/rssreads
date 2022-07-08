@@ -2,10 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-07T01:50:34.911Z</updated>
+    <updated>2022-07-08T01:49:51.509Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Legacy Displacement: Revert to Source]]></title>
+        <id>https://martinfowler.com/articles/patterns-legacy-displacement/revert-to-source.html</id>
+        <link href="https://martinfowler.com/articles/patterns-legacy-displacement/revert-to-source.html"/>
+        <updated>2022-07-07T14:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Legacy systems often act as integration hubs, ingesting source data to
+      pass on to downstream systems. A new downstream system can decouple itself
+      from legacy by finding the source of data to the legacy and integrating
+      directly to that instead. Ian Cartwright, Rob Horn, and James
+      Lewis describe this Revert to Source pattern,
+      explaining that this part of legacy displacement often also allows a new
+      system to take advantage of upgrades to source data that the legacy had neglected.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GitHub Availability Report: June 2022]]></title>
         <id>https://github.blog/2022-07-06-github-availability-report-june-2022/</id>
@@ -14,6 +31,16 @@
         <summary type="html"><![CDATA[In June, we experienced four incidents resulting in significant impact to multiple GitHub.com services. This report also sheds light into an incident that impacted several GitHub.com services in May.]]></summary>
         <author>
             <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Low Context - Software’s Silent Killer]]></title>
+        <id>https://staysaasy.com/software/2022/07/06/Context.html</id>
+        <link href="https://staysaasy.com/software/2022/07/06/Context.html"/>
+        <updated>2022-07-06T14:59:22.000Z</updated>
+        <summary type="html"><![CDATA[As companies grow, context can become a scarce resource. As more variables, people, teams, products, customers, and coworkers create an increasingly infinite combination of possible ways to move forward, deep context on what to do and how to do it should be thought of explicitly, because its thoughtful allocation can make, or, notably, break, a company’s productivity.]]></summary>
+        <author>
+            <name>Stay SaaSy</name>
         </author>
     </entry>
     <entry>
@@ -2465,36 +2492,6 @@ I was well-versed in Domain-Driven Des…]]></summary>
         <link href="https://github.blog/2022-06-08-sunsetting-atom/"/>
         <updated>2022-06-08T15:00:23.000Z</updated>
         <summary type="html"><![CDATA[We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.]]></summary>
-        <author>
-            <name>The GitHub Blog: Engineering News and Updates</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What research at Meta FinTech looks like: Q&A with Research Scientist Shaz Qadeer]]></title>
-        <id>https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/</id>
-        <link href="https://research.facebook.com/blog/2022/6/what-research-at-meta-fintech-looks-like-qa-with-research-scientist-shaz-qadeer/"/>
-        <updated>2022-06-08T08:24:49.000Z</updated>
-        <summary type="html"><![CDATA[PhDs come to work at Meta Research from a wide variety of disciplines related to computer science and engineering. Research Scientist Shaz Qadeer joined Meta to work on blockchain [...]]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Site Update: Hero Images]]></title>
-        <id>https://xeiaso.net/blog/site-update-hero-images</id>
-        <link href="https://xeiaso.net/blog/site-update-hero-images"/>
-        <updated>2022-06-08T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-06-08]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One developer’s journey bringing Dependabot to GitHub Enterprise Server]]></title>
-        <id>https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/</id>
-        <link href="https://github.blog/2022-06-07-one-developers-journey-bringing-dependabot-to-github-enterprise-server/"/>
-        <updated>2022-06-07T19:55:45.000Z</updated>
-        <summary type="html"><![CDATA[A personal story about building the feature you want and sharing it with the world.]]></summary>
         <author>
             <name>The GitHub Blog: Engineering News and Updates</name>
         </author>
