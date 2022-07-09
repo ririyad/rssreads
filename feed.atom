@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-08T01:49:51.509Z</updated>
+    <updated>2022-07-09T01:26:43.925Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Like a squirrel]]></title>
+        <id>https://world.hey.com/jason/like-a-squirrel-bd821787</id>
+        <link href="https://world.hey.com/jason/like-a-squirrel-bd821787"/>
+        <updated>2022-07-08T18:16:51.000Z</updated>
+        <summary type="html"><![CDATA[Stick with me on this one.
+I've been spending more time watching birds, squirrels, and insects lately. Nature has always fascinated me, and the more I observe, the more I notice.
+And one thing I've noticed in general is that birds, squirrels, and insects stop and start a lot. They're headed somewhere, but context plays an enormous role in how they get there.
+Watch a squirrel make its way to a tree. It rarely runs from point A (current location) to point B (the tree). It runs in stutters. Staccato. Starts and stops. Looks around. Runs some more. Stops. Looks around. Measuring the moment, taking in the surroundings, the situation, the context. Sometimes the path alters depending on what's now between its current location and its eventual destination. Sometimes it's more of the same. But ther…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Research PhD Fellowship Spotlight: Solving dynamic problems to reduce algorithm bias]]></title>
+        <id>https://research.facebook.com/blog/2022/7/meta-research-phd-fellowship-spotlight-solving-dynamic-problems-to-reduce-algorithm-bias/</id>
+        <link href="https://research.facebook.com/blog/2022/7/meta-research-phd-fellowship-spotlight-solving-dynamic-problems-to-reduce-algorithm-bias/"/>
+        <updated>2022-07-08T07:03:23.000Z</updated>
+        <summary type="html"><![CDATA[As a continuation of our Fellowship spotlight series, we’re highlighting a 2021 Meta PhD Fellow, Andrés Cristi, PhD candidate at University of Chile.]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Legacy Displacement: Revert to Source]]></title>
         <id>https://martinfowler.com/articles/patterns-legacy-displacement/revert-to-source.html</id>
@@ -41,6 +64,16 @@ more…]]></summary>
         <summary type="html"><![CDATA[As companies grow, context can become a scarce resource. As more variables, people, teams, products, customers, and coworkers create an increasingly infinite combination of possible ways to move forward, deep context on what to do and how to do it should be thought of explicitly, because its thoughtful allocation can make, or, notably, break, a company’s productivity.]]></summary>
         <author>
             <name>Stay SaaSy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[200 languages within a single AI model: A breakthrough in high-quality machine translation]]></title>
+        <id>https://ai.facebook.com/blog/nllb-200-high-quality-machine-translation/</id>
+        <link href="https://ai.facebook.com/blog/nllb-200-high-quality-machine-translation/"/>
+        <updated>2022-07-06T06:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Meta AI has built a single AI model, NLLB-200, that is the first to translate across 200 different languages with state-of-the-art quality that has been validated through extensive evaluations for each of them.]]></summary>
+        <author>
+            <name>Meta Research</name>
         </author>
     </entry>
     <entry>
@@ -325,6 +358,16 @@ there’s undoubtedly a defect in the program. In ot…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Meta Research PhD Fellowship Spotlight: Empowering older adults and combating bias in tech development]]></title>
+        <id>https://research.facebook.com/blog/2022/6/meta-research-phd-fellowship-spotlight-empowering-older-adults-and-combating-bias-in-tech-development/</id>
+        <link href="https://research.facebook.com/blog/2022/6/meta-research-phd-fellowship-spotlight-empowering-older-adults-and-combating-bias-in-tech-development/"/>
+        <updated>2022-06-24T04:42:00.000Z</updated>
+        <summary type="html"><![CDATA[As a continuation of our Fellowship spotlight series, we’re highlighting a 2021 Meta PhD Fellow in Human-Centered Computing, Reza Ghaiumy Anaraky.]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Call for testing: Cargo sparse-registry]]></title>
         <id>https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html</id>
         <link href="https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html"/>
@@ -419,6 +462,16 @@ Download the report.]]></summary>
         <updated>2022-06-17T01:24:20.752Z</updated>
         <author>
             <name>Paul Graham: Essays</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Research PhD Fellowship Spotlight: Helping the human condition with virtual reality]]></title>
+        <id>https://research.facebook.com/blog/2022/6/meta-research-phd-fellowship-spotlight-helping-the-human-condition-with-virtual-reality/</id>
+        <link href="https://research.facebook.com/blog/2022/6/meta-research-phd-fellowship-spotlight-helping-the-human-condition-with-virtual-reality/"/>
+        <updated>2022-06-16T08:36:00.000Z</updated>
+        <summary type="html"><![CDATA[As a continuation of our Fellowship spotlight series, we’re highlighting 2021 Meta Research PhD Fellow Logan Clark, PhD student at the University of Virginia.]]></summary>
+        <author>
+            <name>Meta Research</name>
         </author>
     </entry>
     <entry>
@@ -2464,36 +2517,6 @@ I was well-versed in Domain-Driven Des…]]></summary>
         <summary type="html"><![CDATA[Core Data Science (CDS) is a central science organization that drives impact for Meta and the world through use-inspired advancements to our fundamental understanding of the intern...]]></summary>
         <author>
             <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Static Code Analysis Prevents You From Waking Up at 3AM With Production on Fire]]></title>
-        <id>https://xeiaso.net/talks/conf42-static-analysis</id>
-        <link href="https://xeiaso.net/talks/conf42-static-analysis"/>
-        <updated>2022-06-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Posted on 2022-06-09]]></summary>
-        <author>
-            <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Creating a Plain Text Day Planner]]></title>
-        <id>https://plaintextproject.online/articles/2022/06/08/planner.html</id>
-        <link href="https://plaintextproject.online/articles/2022/06/08/planner.html"/>
-        <updated>2022-06-08T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A look at one way to use a simple text file to plan your day]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sunsetting Atom]]></title>
-        <id>https://github.blog/2022-06-08-sunsetting-atom/</id>
-        <link href="https://github.blog/2022-06-08-sunsetting-atom/"/>
-        <updated>2022-06-08T15:00:23.000Z</updated>
-        <summary type="html"><![CDATA[We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.]]></summary>
-        <author>
-            <name>The GitHub Blog: Engineering News and Updates</name>
         </author>
     </entry>
 </feed>
