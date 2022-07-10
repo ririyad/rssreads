@@ -421,16 +421,6 @@
           "wordCount": 702,
           "title": "WhatsApp announces first research award opportunity on privacy-aware program analysis",
           "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/288322935_587758732767095_7525785490157137788_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6825c5&_nc_ohc=7LnYU8Uw3-0AX_VQgj9&_nc_oc=AQlCm3h-BsDnrWtL6Pfw76Glivvj2VhgaTLblvhJFfzAcGrI2b7MU86oyq7OCfEEFCs&_nc_ht=scontent-sjc3-1.xx&oh=00_AT9P5oN7fsgRB1UBAKS4AI2ER_VT1e8Q-eIsHzS2hZ3_PQ&oe=62AFE7B0"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/6/research-highlights-from-the-core-data-science-team-at-meta/",
-          "author": null,
-          "description": "Core Data Science (CDS) is a central science organization that drives impact for Meta and the world through use-inspired advancements to our fundamental understanding of the intern...",
-          "link": "https://research.facebook.com/blog/2022/6/research-highlights-from-the-core-data-science-team-at-meta/",
-          "publishedOn": "2022-06-10T06:42:00.000Z",
-          "wordCount": 2588,
-          "title": "Research highlights from the Core Data Science team at Meta",
-          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/287112060_516572846833818_2049230434565546905_n.png?_nc_cat=106&ccb=1-7&_nc_sid=6825c5&_nc_ohc=bvMdcV_mfWoAX9DJitE&_nc_ht=scontent-sjc3-1.xx&oh=00_AT-idCnxDr2gHSCiiUcIMY9GLUQBj1NzuM9Mp9oKopIcpw&oe=62A8E086"
         }
       ]
     },
@@ -468,6 +458,16 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://xeiaso.net/blog",
       "articles": [
+        {
+          "id": "https://xeiaso.net/blog/spearphishing",
+          "author": null,
+          "description": "Posted on 2022-07-09",
+          "link": "https://xeiaso.net/blog/spearphishing",
+          "publishedOn": "2022-07-09T00:00:00.000Z",
+          "wordCount": 979,
+          "title": "Spearphishing: it can happen to you too",
+          "imageUrl": null
+        },
         {
           "id": "https://xeiaso.net/blog/doing-a-writing",
           "author": null,
@@ -532,6 +532,16 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/",
+          "author": null,
+          "description": "Hello! I’ve started to run a few more servers recently\n(nginx playground,\nmess with dns,\ndns lookup), so I’ve been\nthinking about monitoring.\nIt wasn’t initially totally obvious to me how to monitor these websites, so I\nwanted to quickly write up what how I did it.\nI’m not going to talk about how to monitor Big Serious Mission Critical\nwebsites at all, only tiny unimportant websites.\ngoal: spend approximately 0 time on operations\nI want the sites to mostly work, but I also want to spend approximately 0% of\nmy time on the ongoing operations.\nI was initially very wary of running servers at all because at my last job I\nwas on a 24⁄7 oncall rotation for some critical services, and in my mind “being\nresponsible for servers” meant “get woken up at 2am to fix the servers” and\n“have lots of compli…",
+          "link": "https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/",
+          "publishedOn": "2022-07-09T09:25:21.000Z",
+          "wordCount": 1168,
+          "title": "Monitoring tiny web services",
+          "imageUrl": null
+        },
         {
           "id": "https://jvns.ca/blog/2022/06/28/some-notes-on-bubblewrap/",
           "author": null,
