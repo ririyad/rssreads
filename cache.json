@@ -155,6 +155,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2022/07/11/Rustup-1.25.0.html",
+          "author": null,
+          "description": "The rustup working group is happy to announce the release of rustup version 1.25.0. Rustup is the recommended tool to install Rust, a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of rustup installed, getting rustup 1.25.0 is as easy as stopping any programs which may be using Rustup (e.g. closing your IDE) and running:\nrustup self update\n\nRustup will also automatically update itself at the end of a normal toolchain update:\nrustup update\n\nIf you don't have it already, you can get rustup from the appropriate page on our website.\nWhat's new in rustup 1.25.0\nThis version of Rustup involves a significant number of internal cleanups, both in terms\nof the Rustup code and its documentation. In addition to a lot of work on…",
+          "link": "https://blog.rust-lang.org/2022/07/11/Rustup-1.25.0.html",
+          "publishedOn": "2022-07-11T00:00:00.000Z",
+          "wordCount": 555,
+          "title": "Announcing Rustup 1.25.0",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2022/07/01/RLS-deprecation.html",
           "author": null,
           "description": "The Rust Language Server (RLS) is being deprecated in favor of rust-analyzer.\nCurrent users of RLS should migrate to using rust-analyzer instead.\nBuilds of RLS will continue to be released until at least the Rust 1.64 release (2022-09-22), after which no new releases will be made.\nThis timeline may change if any issues arise.\nRLS is an implementation of the Language Server Protocol (LSP) which provides enhanced features with any editor that supports the protocol, such as code-checking and refactoring.\nRLS was introduced by RFC 1317 and development was very active from 2016 through 2019.\nHowever, the architecture of RLS has several limitations that can make it difficult to provide low-latency and high-quality responses needed for an interactive environment.\nDevelopment of rust-analyzer bega…",
