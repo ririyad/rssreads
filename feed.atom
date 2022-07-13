@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-12T01:52:26.564Z</updated>
+    <updated>2022-07-13T01:46:08.635Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How Can We Make Presentations Better?]]></title>
+        <id>https://ia.net/?p=10307</id>
+        <link href="https://ia.net/topics/how-can-we-make-presentations-better"/>
+        <updated>2022-07-12T06:52:04.000Z</updated>
+        <summary type="html"><![CDATA[Presentation apps haven’t fundamentally changed at all since the early 80s. In all that time they’ve never really solved the human side of the problem. As designers, we feel compelled to create a new solution, one with a slightly different emphasis. By changing our focus, we change the likely outcome. To avoid reinventing the wheel, it is useful to look back before moving forward.]]></summary>
+        <author>
+            <name>@iawriter</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Changes in the Core Team]]></title>
+        <id>https://blog.rust-lang.org/2022/07/12/changes-in-the-core-team.html</id>
+        <link href="https://blog.rust-lang.org/2022/07/12/changes-in-the-core-team.html"/>
+        <updated>2022-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We want to say farewell and thanks to a couple of people who are stepping back from the Core Team:
+Aidan Hobson Sayers is leaving the Core Team and other roles. Joining the Core Team in 2018, he started out on the project with fixing CI issues and has been a member of the Infrastructure Team since its inception (moving through lead and co-lead). Aidan wants to dedicate more time to working with the Rust community and growing Rust usage at his company, and is looking forward to doing so from the other side of the fence.
+Ashley Williams will be stepping down from the Core Team and other roles. She became a member of the Core Team in 2018 and has had impact on many parts of the project, from leading the Community team, to setting up PagerDuty for Infrastructure and Crates.io, to the Wasm working group, to Increasing Rust’s Reach and Rustbridge, to her instrumental work creating the Rust Foundation and serving as its first Executive Director. Ashley is leaving her role in the project to focus on her newly founded company.
+Many thanks to both of them for their contributions and we look forward to seeing their future efforts with Rust!]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rustup 1.25.1]]></title>
+        <id>https://blog.rust-lang.org/2022/07/12/Rustup-1.25.1.html</id>
+        <link href="https://blog.rust-lang.org/2022/07/12/Rustup-1.25.1.html"/>
+        <updated>2022-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The rustup working group is announcing the release of rustup version 1.25.1.
+Rustup is the recommended tool to install Rust, a
+programming language that is empowering everyone to build reliable and
+efficient software.
+If you have a previous version of rustup installed, getting rustup 1.25.1 is as
+easy as stopping any programs which may be using Rustup (e.g. closing your IDE)
+and running:
+rustup self update
+
+Rustup will also automatically update itself at the end of a normal toolchain
+update:
+rustup update
+
+If you don't have it already, you can get rustup from the
+appropriate page on our website.
+What's new in rustup 1.25.1
+This version of rustup fixes a regression introduced in the previous release
+(1.25.0), which caused some workflows to fail.
+Regression in nested Cargo invocations with d…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Announcing Rustup 1.25.0]]></title>
         <id>https://blog.rust-lang.org/2022/07/11/Rustup-1.25.0.html</id>
@@ -2510,58 +2561,6 @@ more…]]></summary>
         <summary type="html"><![CDATA[Posted on 2022-06-14]]></summary>
         <author>
             <name>Xe's Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Code I like (I): Domain-driven boldness]]></title>
-        <id>https://world.hey.com/jorge/code-i-like-i-domain-driven-boldness-71456476</id>
-        <link href="https://world.hey.com/jorge/code-i-like-i-domain-driven-boldness-71456476"/>
-        <updated>2022-06-13T07:53:32.000Z</updated>
-        <summary type="html"><![CDATA[One of the first things I did when I started working at 37signals almost three years ago was cloning the git repo for Basecamp. I poked around and ended up at this method:
-
-
-module Person::Tombstonable
-  ...
-  def decease
-    case
-    when deceasable?
-      erect_tombstone
-      remove_administratorships
-      remove_accesses_later
-      self
-    when deceased?
-      nil
-    else
-      raise ArgumentError, "an account owner cannot be removed. You must transfer ownership first"
-    end
-  end
-end
-
-
-A person in Basecamp has a delegate type attribute that represents its specific kind (e.g., User or Client). When you remove a person from a given account, Basecamp replaces it with a placeholder so that its associated data remains untouched and functional. 
-
-I was well-versed in Domain-Driven Des…]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Heresy]]></title>
-        <id>http://www.paulgraham.com/heresy.html</id>
-        <link href="http://www.paulgraham.com/heresy.html"/>
-        <updated>2022-06-13T01:47:53.154Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Improve Your Gross Margins]]></title>
-        <id>https://staysaasy.com/product/2022/06/12/how-to-improve-your-gross-margins.html</id>
-        <link href="https://staysaasy.com/product/2022/06/12/how-to-improve-your-gross-margins.html"/>
-        <updated>2022-06-12T14:59:22.000Z</updated>
-        <summary type="html"><![CDATA[The challenge of how to increase the critical metric of gross margin is a multiple choice question, not free response. Here's how to do it.]]></summary>
-        <author>
-            <name>Stay SaaSy</name>
         </author>
     </entry>
 </feed>

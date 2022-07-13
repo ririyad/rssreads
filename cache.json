@@ -155,6 +155,26 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2022/07/12/changes-in-the-core-team.html",
+          "author": null,
+          "description": "We want to say farewell and thanks to a couple of people who are stepping back from the Core Team:\nAidan Hobson Sayers is leaving the Core Team and other roles. Joining the Core Team in 2018, he started out on the project with fixing CI issues and has been a member of the Infrastructure Team since its inception (moving through lead and co-lead). Aidan wants to dedicate more time to working with the Rust community and growing Rust usage at his company, and is looking forward to doing so from the other side of the fence.\nAshley Williams will be stepping down from the Core Team and other roles. She became a member of the Core Team in 2018 and has had impact on many parts of the project, from leading the Community team, to setting up PagerDuty for Infrastructure and Crates.io, to the Wasm working group, to Increasing Rust’s Reach and Rustbridge, to her instrumental work creating the Rust Foundation and serving as its first Executive Director. Ashley is leaving her role in the project to focus on her newly founded company.\nMany thanks to both of them for their contributions and we look forward to seeing their future efforts with Rust!",
+          "link": "https://blog.rust-lang.org/2022/07/12/changes-in-the-core-team.html",
+          "publishedOn": "2022-07-12T00:00:00.000Z",
+          "wordCount": 277,
+          "title": "Changes in the Core Team",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/2022/07/12/Rustup-1.25.1.html",
+          "author": null,
+          "description": "The rustup working group is announcing the release of rustup version 1.25.1.\nRustup is the recommended tool to install Rust, a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of rustup installed, getting rustup 1.25.1 is as\neasy as stopping any programs which may be using Rustup (e.g. closing your IDE)\nand running:\nrustup self update\n\nRustup will also automatically update itself at the end of a normal toolchain\nupdate:\nrustup update\n\nIf you don't have it already, you can get rustup from the\nappropriate page on our website.\nWhat's new in rustup 1.25.1\nThis version of rustup fixes a regression introduced in the previous release\n(1.25.0), which caused some workflows to fail.\nRegression in nested Cargo invocations with d…",
+          "link": "https://blog.rust-lang.org/2022/07/12/Rustup-1.25.1.html",
+          "publishedOn": "2022-07-12T00:00:00.000Z",
+          "wordCount": 495,
+          "title": "Announcing Rustup 1.25.1",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2022/07/11/Rustup-1.25.0.html",
           "author": null,
           "description": "The rustup working group is happy to announce the release of rustup version 1.25.0. Rustup is the recommended tool to install Rust, a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of rustup installed, getting rustup 1.25.0 is as easy as stopping any programs which may be using Rustup (e.g. closing your IDE) and running:\nrustup self update\n\nRustup will also automatically update itself at the end of a normal toolchain update:\nrustup update\n\nIf you don't have it already, you can get rustup from the appropriate page on our website.\nWhat's new in rustup 1.25.0\nThis version of Rustup involves a significant number of internal cleanups, both in terms\nof the Rustup code and its documentation. In addition to a lot of work on…",
@@ -237,18 +257,7 @@
       "title": "Jorge Manrubia",
       "feedUrl": "https://world.hey.com/jorge/feed.atom",
       "siteUrl": "https://world.hey.com/jorge",
-      "articles": [
-        {
-          "id": "https://world.hey.com/jorge/code-i-like-i-domain-driven-boldness-71456476",
-          "author": null,
-          "description": "One of the first things I did when I started working at 37signals almost three years ago was cloning the git repo for Basecamp. I poked around and ended up at this method:\n\n\nmodule Person::Tombstonable\n  ...\n  def decease\n    case\n    when deceasable?\n      erect_tombstone\n      remove_administratorships\n      remove_accesses_later\n      self\n    when deceased?\n      nil\n    else\n      raise ArgumentError, \"an account owner cannot be removed. You must transfer ownership first\"\n    end\n  end\nend\n\n\nA person in Basecamp has a delegate type attribute that represents its specific kind (e.g., User or Client). When you remove a person from a given account, Basecamp replaces it with a placeholder so that its associated data remains untouched and functional. \n\nI was well-versed in Domain-Driven Des…",
-          "link": "https://world.hey.com/jorge/code-i-like-i-domain-driven-boldness-71456476",
-          "publishedOn": "2022-06-13T07:53:32.000Z",
-          "wordCount": 624,
-          "title": "Code I like (I): Domain-driven boldness",
-          "imageUrl": "https://world.hey.com/jorge/71456476/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCRk1YUERJPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9fe6a63601e1b24898345977f4c4b90d181ef53c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f2badd95ce31e495769e48a538e401dea1aca2ae/domain.png"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "The GitHub Blog: Engineering News and Updates",
@@ -523,16 +532,6 @@
           "publishedOn": "2022-06-20T14:59:22.000Z",
           "wordCount": 1022,
           "title": "Value Sell Recruiting",
-          "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
-        },
-        {
-          "id": "https://staysaasy.com/product/2022/06/12/how-to-improve-your-gross-margins.html",
-          "author": null,
-          "description": "The challenge of how to increase the critical metric of gross margin is a multiple choice question, not free response. Here's how to do it.",
-          "link": "https://staysaasy.com/product/2022/06/12/how-to-improve-your-gross-margins.html",
-          "publishedOn": "2022-06-12T14:59:22.000Z",
-          "wordCount": 2034,
-          "title": "How to Improve Your Gross Margins",
           "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
         }
       ]
@@ -2707,16 +2706,6 @@
           "wordCount": 3276,
           "title": "How to Work Hard",
           "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/heresy.html",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/heresy.html",
-          "publishedOn": "2022-06-13T01:47:53.154Z",
-          "wordCount": 2080,
-          "title": "Heresy",
-          "imageUrl": null
         }
       ]
     },
@@ -2742,6 +2731,16 @@
       "feedUrl": "https://ia.net/feed",
       "siteUrl": "https://ia.net",
       "articles": [
+        {
+          "id": "https://ia.net/?p=10307",
+          "author": "@iawriter",
+          "description": "Presentation apps haven’t fundamentally changed at all since the early 80s. In all that time they’ve never really solved the human side of the problem. As designers, we feel compelled to create a new solution, one with a slightly different emphasis. By changing our focus, we change the likely outcome. To avoid reinventing the wheel, it is useful to look back before moving forward.",
+          "link": "https://ia.net/topics/how-can-we-make-presentations-better",
+          "publishedOn": "2022-07-12T06:52:04.000Z",
+          "wordCount": 3098,
+          "title": "How Can We Make Presentations Better?",
+          "imageUrl": null
+        },
         {
           "id": "https://ia.net/?p=10200",
           "author": "Oliver Reichenstein",
