@@ -36,6 +36,16 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/return-on-effort-644acfe8",
+          "author": null,
+          "description": "Over the last few days, a few department heads at 37signals got together for an offsite gathering, lead by Bill Joy from The Joy Group.\nWe've worked with Bill in a somewhat different capacity in the past. This time he was here to help us understand some truths about how we really run the business, make decisions, and value what's worth doing. When I say value, I don't mean a list of generalized \"values\", or the bullshit phrase of \"adding value\", but how we attribute value when evaluating our options and making tradeoffs.\nIt was a very honest discussion, and I think it helped crystalize a number of things that we either take for granted, don't realize we do, or we haven't been able to elucidate and share broadly.\nOne thing you realize when getting into this kind of work is that when somethi…",
+          "link": "https://world.hey.com/jason/return-on-effort-644acfe8",
+          "publishedOn": "2022-07-14T19:43:44.000Z",
+          "wordCount": 539,
+          "title": "Return On Effort",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
           "id": "https://world.hey.com/jason/like-a-squirrel-bd821787",
           "author": null,
           "description": "Stick with me on this one.\nI've been spending more time watching birds, squirrels, and insects lately. Nature has always fascinated me, and the more I observe, the more I notice.\nAnd one thing I've noticed in general is that birds, squirrels, and insects stop and start a lot. They're headed somewhere, but context plays an enormous role in how they get there.\nWatch a squirrel make its way to a tree. It rarely runs from point A (current location) to point B (the tree). It runs in stutters. Staccato. Starts and stops. Looks around. Runs some more. Stops. Looks around. Measuring the moment, taking in the surroundings, the situation, the context. Sometimes the path alters depending on what's now between its current location and its eventual destination. Sometimes it's more of the same. But ther…",
@@ -134,16 +144,6 @@
           "wordCount": 1947,
           "title": "Legacy Displacement: Revert to Source",
           "imageUrl": "https://martinfowler.com/articles/patterns-legacy-displacement/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/product-backlog-building-canvas.html",
-          "author": null,
-          "description": "Many software teams describe desired product capabilities as a product\n      backlog: a list of user stories. These stories capture who needs the work,\n      what the work is, and why it's needed. Too often teams expect a product\n      owner to be the sole source of the backlog, but anyone could (and should)\n      write user stories. Paulo Caroli teaches teams to use a Product Backlog\n      Building Canvas, which provides a simple process to develop user stories,\n      starting with describing personas for product users and the activities\n      they do. These activities yield features: their interactions with the\n      product. Features are broken down into backlog items, which can then be\n      formulated into user stories from the background of personas and\n      activities.\nmore…",
-          "link": "https://martinfowler.com/articles/product-backlog-building-canvas.html",
-          "publishedOn": "2022-06-14T14:15:00.000Z",
-          "wordCount": 3679,
-          "title": "Product Backlog Building Canvas",
-          "imageUrl": "https://martinfowler.com/articles/product-backlog-building-canvas/card.png"
         }
       ]
     },
@@ -333,16 +333,6 @@
           "wordCount": 1277,
           "title": "Prebuilding codespaces is generally available",
           "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Codespaces-header.png"
-        },
-        {
-          "id": "https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/",
-          "author": null,
-          "description": "Learn why the GitHub Design Infrastructure team built a dedicated color tool and how they use it to create new color palettes for GitHub.",
-          "link": "https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/",
-          "publishedOn": "2022-06-14T19:04:41.000Z",
-          "wordCount": 1275,
-          "title": "Accelerating GitHub theme creation with color tooling",
-          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Primer.png"
         }
       ]
     },
@@ -351,6 +341,16 @@
       "feedUrl": "https://research.facebook.com/feed/",
       "siteUrl": "https://research.facebook.com/",
       "articles": [
+        {
+          "id": "https://engineering.fb.com/2022/07/14/data-infrastructure/owl-distributing-content-at-meta-scale/",
+          "author": null,
+          "description": "Owl is a new system for high-fanout distribution of large data objects to hosts in Meta’s private cloud.",
+          "link": "https://engineering.fb.com/2022/07/14/data-infrastructure/owl-distributing-content-at-meta-scale/",
+          "publishedOn": "2022-07-14T04:23:38.000Z",
+          "wordCount": 2693,
+          "title": "Owl: Distributing content at Meta scale",
+          "imageUrl": "https://engineering.fb.com/wp-content/uploads/2022/07/Eng-Blog-Self-Serve-Hero-Images-DATACENTERS-502-Orange.jpg"
+        },
         {
           "id": "https://research.facebook.com/blog/2022/7/meta-research-phd-fellowship-spotlight-solving-dynamic-problems-to-reduce-algorithm-bias/",
           "author": null,
@@ -440,16 +440,6 @@
           "wordCount": 688,
           "title": "Meta PhD Fellow Spotlight: Helping the Human Condition with Virtual Reality",
           "imageUrl": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.8562-6/288386882_772005267487458_1698048598593499744_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=6825c5&_nc_ohc=5yV-msxYhuYAX8vTCbC&_nc_ht=scontent-sea1-1.xx&oh=00_AT9SxwSIOHlWHAN5YnJRQH06yNsQeIkPrH-B3eSAK8rVeA&oe=62AFF785"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/6/whatsapp-announces-first-research-award-opportunity-on-privacy-aware-program-analysis/",
-          "author": null,
-          "description": "WhatsApp announces first research award opportunity on privacy-aware program analysis",
-          "link": "https://research.facebook.com/blog/2022/6/whatsapp-announces-first-research-award-opportunity-on-privacy-aware-program-analysis/",
-          "publishedOn": "2022-06-15T11:08:00.000Z",
-          "wordCount": 702,
-          "title": "WhatsApp announces first research award opportunity on privacy-aware program analysis",
-          "imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.8562-6/288322935_587758732767095_7525785490157137788_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6825c5&_nc_ohc=7LnYU8Uw3-0AX_VQgj9&_nc_oc=AQlCm3h-BsDnrWtL6Pfw76Glivvj2VhgaTLblvhJFfzAcGrI2b7MU86oyq7OCfEEFCs&_nc_ht=scontent-sjc3-1.xx&oh=00_AT9P5oN7fsgRB1UBAKS4AI2ER_VT1e8Q-eIsHzS2hZ3_PQ&oe=62AFE7B0"
         }
       ]
     },
@@ -487,6 +477,16 @@
       "feedUrl": "https://christine.website/blog.atom",
       "siteUrl": "https://xeiaso.net/blog",
       "articles": [
+        {
+          "id": "https://xeiaso.net/blog/anbernic-win600-first-impressions",
+          "author": null,
+          "description": "Posted on 2022-07-14",
+          "link": "https://xeiaso.net/blog/anbernic-win600-first-impressions",
+          "publishedOn": "2022-07-14T00:00:00.000Z",
+          "wordCount": 1955,
+          "title": "Anbernic Win600 First Impressions",
+          "imageUrl": null
+        },
         {
           "id": "https://xeiaso.net/blog/spearphishing",
           "author": null,
@@ -583,18 +583,7 @@
       "title": "joshua stein",
       "feedUrl": "https://jcs.org/rss",
       "siteUrl": "https://jcs.org/",
-      "articles": [
-        {
-          "id": "https://jcs.org/2022/06/15/amend",
-          "author": null,
-          "description": "Amend 3.4 has been released:",
-          "link": "https://jcs.org/2022/06/15/amend",
-          "publishedOn": "2022-06-15T05:00:00.000Z",
-          "wordCount": 106,
-          "title": "Amend 3.4 Released",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "frantic.im",
@@ -607,6 +596,2086 @@
       "feedUrl": "http://www.aaronsw.com/2002/feeds/pgessays.rss",
       "siteUrl": "http://www.paulgraham.com/",
       "articles": [
+        {
+          "id": "http://www.paulgraham.com/prop62.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/prop62.html",
+          "publishedOn": "2022-07-15T01:59:31.905Z",
+          "wordCount": 366,
+          "title": "This Year We Can End the Death Penalty in California",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ds.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ds.html",
+          "publishedOn": "2022-07-15T01:59:31.904Z",
+          "wordCount": 4471,
+          "title": "Do Things that Don't Scale",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/diff.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/diff.html",
+          "publishedOn": "2022-07-15T01:59:31.890Z",
+          "wordCount": 863,
+          "title": "What Made Lisp Different",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/progbot.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/progbot.html",
+          "publishedOn": "2022-07-15T01:59:31.888Z",
+          "wordCount": 1094,
+          "title": "Programming Bottom-Up",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/avg.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/avg.html",
+          "publishedOn": "2022-07-15T01:59:31.886Z",
+          "wordCount": 4601,
+          "title": "Beating the Averages",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ffb.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ffb.html",
+          "publishedOn": "2022-07-15T01:59:31.881Z",
+          "wordCount": 995,
+          "title": "Filters that Fight Back",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/iflisp.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/iflisp.html",
+          "publishedOn": "2022-07-15T01:59:31.879Z",
+          "wordCount": 593,
+          "title": "If Lisp is So Great",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/gh.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/gh.html",
+          "publishedOn": "2022-07-15T01:59:31.878Z",
+          "wordCount": 5349,
+          "title": "Great Hackers",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/langdes.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/langdes.html",
+          "publishedOn": "2022-07-15T01:59:31.864Z",
+          "wordCount": 3058,
+          "title": "Five Questions about Language Design",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hundred.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hundred.html",
+          "publishedOn": "2022-07-15T01:59:31.860Z",
+          "wordCount": 4907,
+          "title": "The Hundred-Year Language",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/college.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/college.html",
+          "publishedOn": "2022-07-15T01:59:31.856Z",
+          "wordCount": 3790,
+          "title": "Undergraduation",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/venturecapital.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/venturecapital.html",
+          "publishedOn": "2022-07-15T01:59:31.852Z",
+          "wordCount": 1630,
+          "title": "A Unified Theory of VC Suckage",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/rootsoflisp.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/rootsoflisp.html",
+          "publishedOn": "2022-07-15T01:59:31.849Z",
+          "wordCount": 546,
+          "title": "The Roots of Lisp",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/vcsqueeze.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/vcsqueeze.html",
+          "publishedOn": "2022-07-15T01:59:31.848Z",
+          "wordCount": 1733,
+          "title": "The Venture Capital Squeeze",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hiring.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hiring.html",
+          "publishedOn": "2022-07-15T01:59:31.845Z",
+          "wordCount": 4890,
+          "title": "Hiring is Obsolete",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/copy.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/copy.html",
+          "publishedOn": "2022-07-15T01:59:31.832Z",
+          "wordCount": 1107,
+          "title": "Copy What You Like",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/whyyc.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/whyyc.html",
+          "publishedOn": "2022-07-15T01:59:31.830Z",
+          "wordCount": 549,
+          "title": "Why YC",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/web20.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/web20.html",
+          "publishedOn": "2022-07-15T01:59:31.829Z",
+          "wordCount": 3508,
+          "title": "Web 2.0",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/procrastination.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/procrastination.html",
+          "publishedOn": "2022-07-15T01:59:31.825Z",
+          "wordCount": 1961,
+          "title": "Good and Bad Procrastination",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/randomness.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/randomness.html",
+          "publishedOn": "2022-07-15T01:59:31.822Z",
+          "wordCount": 758,
+          "title": "See Randomness",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/startupmistakes.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/startupmistakes.html",
+          "publishedOn": "2022-07-15T01:59:31.820Z",
+          "wordCount": 5677,
+          "title": "The 18 Mistakes That Kill Startups",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/road.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/road.html",
+          "publishedOn": "2022-07-15T01:59:31.814Z",
+          "wordCount": 11999,
+          "title": "The Other Road Ahead",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/investors.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/investors.html",
+          "publishedOn": "2022-07-15T01:59:31.796Z",
+          "wordCount": 2954,
+          "title": "How to Present to Investors",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/mit.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/mit.html",
+          "publishedOn": "2022-07-15T01:59:31.792Z",
+          "wordCount": 6557,
+          "title": "A Student's Guide to Startups",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/better.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/better.html",
+          "publishedOn": "2022-07-15T01:59:31.786Z",
+          "wordCount": 4432,
+          "title": "Better Bayesian Filtering",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/notnot.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/notnot.html",
+          "publishedOn": "2022-07-15T01:59:31.782Z",
+          "wordCount": 6359,
+          "title": "Why to Not Not Start a Startup",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/fix.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/fix.html",
+          "publishedOn": "2022-07-15T01:59:31.768Z",
+          "wordCount": 376,
+          "title": "What Languages Fix",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/lwba.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/lwba.html",
+          "publishedOn": "2022-07-15T01:59:31.766Z",
+          "wordCount": 238,
+          "title": "Lisp for Web-Based Applications",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/guidetoinvestors.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/guidetoinvestors.html",
+          "publishedOn": "2022-07-15T01:59:31.765Z",
+          "wordCount": 6305,
+          "title": "The Hacker's Guide to Investors",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/desres.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/desres.html",
+          "publishedOn": "2022-07-15T01:59:31.759Z",
+          "wordCount": 2807,
+          "title": "Design and Research",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/noop.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/noop.html",
+          "publishedOn": "2022-07-15T01:59:31.755Z",
+          "wordCount": 668,
+          "title": "Why Arc Isn't Especially Object-Oriented",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/gba.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/gba.html",
+          "publishedOn": "2022-07-15T01:59:31.754Z",
+          "wordCount": 2100,
+          "title": "The Word \"Hacker\"",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/javacover.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/javacover.html",
+          "publishedOn": "2022-07-15T01:59:31.751Z",
+          "wordCount": 1533,
+          "title": "Java's Cover",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/icad.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/icad.html",
+          "publishedOn": "2022-07-15T01:59:31.749Z",
+          "wordCount": 5935,
+          "title": "Revenge of the Nerds",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/pypar.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/pypar.html",
+          "publishedOn": "2022-07-15T01:59:31.735Z",
+          "wordCount": 643,
+          "title": "The Python Paradox",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/charisma.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/charisma.html",
+          "publishedOn": "2022-07-15T01:59:31.733Z",
+          "wordCount": 1656,
+          "title": "It's Charisma, Stupid",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/essay.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/essay.html",
+          "publishedOn": "2022-07-15T01:59:31.730Z",
+          "wordCount": 4645,
+          "title": "The Age of the Essay",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/say.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/say.html",
+          "publishedOn": "2022-07-15T01:59:31.725Z",
+          "wordCount": 5544,
+          "title": "What You Can't Say",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/disagree.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/disagree.html",
+          "publishedOn": "2022-07-15T01:59:31.719Z",
+          "wordCount": 1663,
+          "title": "How to Disagree",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/badeconomy.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/badeconomy.html",
+          "publishedOn": "2022-07-15T01:59:31.716Z",
+          "wordCount": 1277,
+          "title": "Why to Start a Startup in a Bad Economy",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/writing44.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/writing44.html",
+          "publishedOn": "2022-07-15T01:59:31.714Z",
+          "wordCount": 646,
+          "title": "Writing,  Briefly",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/googles.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/googles.html",
+          "publishedOn": "2022-07-15T01:59:31.712Z",
+          "wordCount": 1491,
+          "title": "Why There Aren't More Googles",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/wealth.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/wealth.html",
+          "publishedOn": "2022-07-15T01:59:31.702Z",
+          "wordCount": 9005,
+          "title": "How to Make Wealth",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/start.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/start.html",
+          "publishedOn": "2022-07-15T01:59:31.693Z",
+          "wordCount": 9797,
+          "title": "How to Start a Startup",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/opensource.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/opensource.html",
+          "publishedOn": "2022-07-15T01:59:31.685Z",
+          "wordCount": 4462,
+          "title": "What Business Can Learn from Open Source",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/laundry.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/laundry.html",
+          "publishedOn": "2022-07-15T01:59:31.680Z",
+          "wordCount": 4402,
+          "title": "A Version 1.0",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ladder.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ladder.html",
+          "publishedOn": "2022-07-15T01:59:31.666Z",
+          "wordCount": 757,
+          "title": "After the Ladder",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/island.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/island.html",
+          "publishedOn": "2022-07-15T01:59:31.664Z",
+          "wordCount": 923,
+          "title": "The Island Test",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/america.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/america.html",
+          "publishedOn": "2022-07-15T01:59:31.663Z",
+          "wordCount": 4849,
+          "title": "Why Startups Condense in America",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/power.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/power.html",
+          "publishedOn": "2022-07-15T01:59:31.658Z",
+          "wordCount": 3155,
+          "title": "Succinctness is Power",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/taste.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/taste.html",
+          "publishedOn": "2022-07-15T01:59:31.653Z",
+          "wordCount": 4441,
+          "title": "Taste for Makers",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/popular.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/popular.html",
+          "publishedOn": "2022-07-15T01:59:31.648Z",
+          "wordCount": 7655,
+          "title": "Being Popular",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/wisdom.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/wisdom.html",
+          "publishedOn": "2022-07-15T01:59:31.633Z",
+          "wordCount": 3861,
+          "title": "Is It Worth Being Wise?",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/submarine.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/submarine.html",
+          "publishedOn": "2022-07-15T01:59:31.628Z",
+          "wordCount": 2505,
+          "title": "The Submarine",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/goodart.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/goodart.html",
+          "publishedOn": "2022-07-15T01:59:31.624Z",
+          "wordCount": 3754,
+          "title": "How Art Can Be Good",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/softwarepatents.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/softwarepatents.html",
+          "publishedOn": "2022-07-15T01:59:31.620Z",
+          "wordCount": 4765,
+          "title": "Are Software Patents Evil?",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/13sentences.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/13sentences.html",
+          "publishedOn": "2022-07-15T01:59:31.615Z",
+          "wordCount": 1474,
+          "title": "Startups in 13 Sentences",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/maybe.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/maybe.html",
+          "publishedOn": "2022-07-15T01:59:31.612Z",
+          "wordCount": 2055,
+          "title": "Can You Buy a Silicon Valley?  Maybe.",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/nthings.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/nthings.html",
+          "publishedOn": "2022-07-15T01:59:31.610Z",
+          "wordCount": 1609,
+          "title": "The List of N Things",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ideas.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ideas.html",
+          "publishedOn": "2022-07-15T01:59:31.596Z",
+          "wordCount": 4051,
+          "title": "Ideas for Startups",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/marginal.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/marginal.html",
+          "publishedOn": "2022-07-15T01:59:31.591Z",
+          "wordCount": 6142,
+          "title": "The Power of the Marginal",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/discover.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/discover.html",
+          "publishedOn": "2022-07-15T01:59:31.585Z",
+          "wordCount": 1459,
+          "title": "Persuade xor Discover",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/twitter.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/twitter.html",
+          "publishedOn": "2022-07-15T01:59:31.583Z",
+          "wordCount": 327,
+          "title": "Why Twitter is a Big Deal",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/startupfunding.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/startupfunding.html",
+          "publishedOn": "2022-07-15T01:59:31.580Z",
+          "wordCount": 8972,
+          "title": "How to Fund a Startup",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/top.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/top.html",
+          "publishedOn": "2022-07-15T01:59:31.572Z",
+          "wordCount": 1329,
+          "title": "The Top Idea in Your Mind",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/unions.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/unions.html",
+          "publishedOn": "2022-07-15T01:59:31.563Z",
+          "wordCount": 687,
+          "title": "An Alternative Theory of Unions",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/kate.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/kate.html",
+          "publishedOn": "2022-07-15T01:59:31.561Z",
+          "wordCount": 980,
+          "title": "What Kate Saw in Silicon Valley",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/nerds.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/nerds.html",
+          "publishedOn": "2022-07-15T01:59:31.560Z",
+          "wordCount": 5809,
+          "title": "Why Nerds are Unpopular",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hp.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hp.html",
+          "publishedOn": "2022-07-15T01:59:31.554Z",
+          "wordCount": 5711,
+          "title": "Hackers and Painters",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/seesv.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/seesv.html",
+          "publishedOn": "2022-07-15T01:59:31.547Z",
+          "wordCount": 1239,
+          "title": "Where to See Silicon Valley",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/equity.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/equity.html",
+          "publishedOn": "2022-07-15T01:59:31.545Z",
+          "wordCount": 1289,
+          "title": "The Equity Equation",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/webstartups.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/webstartups.html",
+          "publishedOn": "2022-07-15T01:59:31.542Z",
+          "wordCount": 3515,
+          "title": "The Future of Web Startups",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/publishing.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/publishing.html",
+          "publishedOn": "2022-07-15T01:59:31.538Z",
+          "wordCount": 1916,
+          "title": "Post-Medium Publishing",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/philosophy.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/philosophy.html",
+          "publishedOn": "2022-07-15T01:59:31.535Z",
+          "wordCount": 4821,
+          "title": "How to Do Philosophy",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/gap.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/gap.html",
+          "publishedOn": "2022-07-15T01:59:31.514Z",
+          "wordCount": 5773,
+          "title": "Mind the Gap",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/spam.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/spam.html",
+          "publishedOn": "2022-07-15T01:59:31.508Z",
+          "wordCount": 5446,
+          "title": "A Plan for Spam",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/trolls.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/trolls.html",
+          "publishedOn": "2022-07-15T01:59:31.502Z",
+          "wordCount": 1056,
+          "title": "Trolls",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/bubble.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/bubble.html",
+          "publishedOn": "2022-07-15T01:59:31.500Z",
+          "wordCount": 3840,
+          "title": "What the Bubble Got Right",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/judgement.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/judgement.html",
+          "publishedOn": "2022-07-15T01:59:31.494Z",
+          "wordCount": 913,
+          "title": "Two Kinds of Judgement",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/addiction.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/addiction.html",
+          "publishedOn": "2022-07-15T01:59:31.493Z",
+          "wordCount": 1430,
+          "title": "The Acceleration of Addictiveness",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ycombinator.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ycombinator.html",
+          "publishedOn": "2022-07-15T01:59:31.483Z",
+          "wordCount": 2142,
+          "title": "A New Venture Animal",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/highres.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/highres.html",
+          "publishedOn": "2022-07-15T01:59:31.480Z",
+          "wordCount": 1674,
+          "title": "The High-Res Society",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hiresfund.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hiresfund.html",
+          "publishedOn": "2022-07-15T01:59:31.478Z",
+          "wordCount": 880,
+          "title": "High Resolution Fundraising",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/newthings.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/newthings.html",
+          "publishedOn": "2022-07-15T01:59:31.476Z",
+          "wordCount": 1334,
+          "title": "Six Principles for Making New Things",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/prcmc.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/prcmc.html",
+          "publishedOn": "2022-07-15T01:59:31.474Z",
+          "wordCount": 1420,
+          "title": "The Pooled-Risk Company Management Company",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/heroes.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/heroes.html",
+          "publishedOn": "2022-07-15T01:59:31.472Z",
+          "wordCount": 2830,
+          "title": "Some Heroes",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/polls.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/polls.html",
+          "publishedOn": "2022-07-15T01:59:31.469Z",
+          "wordCount": 803,
+          "title": "Bradley's Ghost",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/usa.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/usa.html",
+          "publishedOn": "2022-07-15T01:59:31.467Z",
+          "wordCount": 2000,
+          "title": "Made in USA",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/good.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/good.html",
+          "publishedOn": "2022-07-15T01:59:31.464Z",
+          "wordCount": 3072,
+          "title": "Be Good",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/distraction.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/distraction.html",
+          "publishedOn": "2022-07-15T01:59:31.461Z",
+          "wordCount": 1312,
+          "title": "Disconnecting Distraction",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/artistsship.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/artistsship.html",
+          "publishedOn": "2022-07-15T01:59:31.459Z",
+          "wordCount": 1470,
+          "title": "The Other Half of \"Artists Ship\"",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hs.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hs.html",
+          "publishedOn": "2022-07-15T01:59:31.457Z",
+          "wordCount": 5171,
+          "title": "What You'll Wish You'd Known",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/startupideas.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/startupideas.html",
+          "publishedOn": "2022-07-15T01:59:31.445Z",
+          "wordCount": 7296,
+          "title": "How to Get Startup Ideas",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/inequality.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/inequality.html",
+          "publishedOn": "2022-07-15T01:59:31.439Z",
+          "wordCount": 2964,
+          "title": "Inequality and Risk",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/convergence.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/convergence.html",
+          "publishedOn": "2022-07-15T01:59:31.435Z",
+          "wordCount": 1685,
+          "title": "Why TV Lost",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/convince.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/convince.html",
+          "publishedOn": "2022-07-15T01:59:31.433Z",
+          "wordCount": 3815,
+          "title": "How to Convince Investors",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hackernews.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hackernews.html",
+          "publishedOn": "2022-07-15T01:59:31.428Z",
+          "wordCount": 2994,
+          "title": "What I've Learned from Hacker News",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ycstart.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ycstart.html",
+          "publishedOn": "2022-07-15T01:59:31.421Z",
+          "wordCount": 1627,
+          "title": "How Y Combinator Started",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/vw.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/vw.html",
+          "publishedOn": "2022-07-15T01:59:31.413Z",
+          "wordCount": 1034,
+          "title": "Snapshot: Viaweb, June 1998",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/6631327.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/6631327.html",
+          "publishedOn": "2022-07-15T01:59:31.412Z",
+          "wordCount": 857,
+          "title": "6,631,372",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/bronze.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/bronze.html",
+          "publishedOn": "2022-07-15T01:59:31.410Z",
+          "wordCount": 3308,
+          "title": "Why Smart People Have Bad Ideas",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/before.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/before.html",
+          "publishedOn": "2022-07-15T01:59:31.406Z",
+          "wordCount": 4717,
+          "title": "Before the Startup",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/fr.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/fr.html",
+          "publishedOn": "2022-07-15T01:59:31.401Z",
+          "wordCount": 10709,
+          "title": "How to Raise Money",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/really.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/really.html",
+          "publishedOn": "2022-07-15T01:59:31.390Z",
+          "wordCount": 5207,
+          "title": "What Startups Are Really Like",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/cities.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/cities.html",
+          "publishedOn": "2022-07-15T01:59:31.372Z",
+          "wordCount": 3728,
+          "title": "Cities and Ambition",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/fundraising.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/fundraising.html",
+          "publishedOn": "2022-07-15T01:59:31.368Z",
+          "wordCount": 4936,
+          "title": "A Fundraising Survival Guide",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/die.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/die.html",
+          "publishedOn": "2022-07-15T01:59:31.363Z",
+          "wordCount": 2127,
+          "title": "How Not to Die",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/lies.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/lies.html",
+          "publishedOn": "2022-07-15T01:59:31.360Z",
+          "wordCount": 5350,
+          "title": "Lies We Tell Kids",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hubs.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hubs.html",
+          "publishedOn": "2022-07-15T01:59:31.354Z",
+          "wordCount": 1954,
+          "title": "Why Startup Hubs Work",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/growth.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/growth.html",
+          "publishedOn": "2022-07-15T01:59:31.352Z",
+          "wordCount": 5463,
+          "title": "Startup = Growth",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/worked.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/worked.html",
+          "publishedOn": "2022-07-15T01:59:31.339Z",
+          "wordCount": 13823,
+          "title": "What I Worked On",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/startuplessons.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/startuplessons.html",
+          "publishedOn": "2022-07-15T01:59:31.325Z",
+          "wordCount": 4929,
+          "title": "The Hardest Lessons for Startups to Learn",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/sfp.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/sfp.html",
+          "publishedOn": "2022-07-15T01:59:31.317Z",
+          "wordCount": 2704,
+          "title": "What I Did this Summer",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/foundersatwork.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/foundersatwork.html",
+          "publishedOn": "2022-07-15T01:59:31.314Z",
+          "wordCount": 1001,
+          "title": "Learning from Founders",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/mac.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/mac.html",
+          "publishedOn": "2022-07-15T01:59:31.305Z",
+          "wordCount": 1169,
+          "title": "Return of the Mac",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/love.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/love.html",
+          "publishedOn": "2022-07-15T01:59:31.303Z",
+          "wordCount": 4788,
+          "title": "How to Do What You Love",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/relres.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/relres.html",
+          "publishedOn": "2022-07-15T01:59:31.296Z",
+          "wordCount": 1162,
+          "title": "Relentlessly Resourceful",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/siliconvalley.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/siliconvalley.html",
+          "publishedOn": "2022-07-15T01:59:31.294Z",
+          "wordCount": 3740,
+          "title": "How to Be Silicon Valley",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ramenprofitable.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ramenprofitable.html",
+          "publishedOn": "2022-07-15T01:59:31.288Z",
+          "wordCount": 1987,
+          "title": "Ramen Profitable",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/5founders.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/5founders.html",
+          "publishedOn": "2022-07-15T01:59:31.286Z",
+          "wordCount": 917,
+          "title": "Five Founders",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/revolution.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/revolution.html",
+          "publishedOn": "2022-07-15T01:59:31.284Z",
+          "wordCount": 1498,
+          "title": "A Local Revolution?",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/angelinvesting.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/angelinvesting.html",
+          "publishedOn": "2022-07-15T01:59:31.280Z",
+          "wordCount": 4070,
+          "title": "How to Be an Angel Investor",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/organic.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/organic.html",
+          "publishedOn": "2022-07-15T01:59:31.274Z",
+          "wordCount": 1168,
+          "title": "Organic Startup Ideas",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/segway.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/segway.html",
+          "publishedOn": "2022-07-15T01:59:31.265Z",
+          "wordCount": 550,
+          "title": "The Trouble with the Segway",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/colleges.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/colleges.html",
+          "publishedOn": "2022-07-15T01:59:31.263Z",
+          "wordCount": 2368,
+          "title": "News from the Front",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/microsoft.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/microsoft.html",
+          "publishedOn": "2022-07-15T01:59:31.259Z",
+          "wordCount": 1448,
+          "title": "Microsoft is Dead",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/apple.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/apple.html",
+          "publishedOn": "2022-07-15T01:59:31.255Z",
+          "wordCount": 2283,
+          "title": "Apple's Mistake",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/startuphubs.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/startuphubs.html",
+          "publishedOn": "2022-07-15T01:59:31.252Z",
+          "wordCount": 1616,
+          "title": "Why to Move to a Startup Hub",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/herd.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/herd.html",
+          "publishedOn": "2022-07-15T01:59:31.250Z",
+          "wordCount": 1272,
+          "title": "Investor Herd Dynamics",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/invtrend.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/invtrend.html",
+          "publishedOn": "2022-07-15T01:59:31.247Z",
+          "wordCount": 3090,
+          "title": "Startup Investing Trends",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/head.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/head.html",
+          "publishedOn": "2022-07-15T01:59:31.242Z",
+          "wordCount": 2006,
+          "title": "Holding a Program in One's Head",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/boss.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/boss.html",
+          "publishedOn": "2022-07-15T01:59:31.239Z",
+          "wordCount": 2675,
+          "title": "You Weren't Meant to Have a Boss",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/stuff.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/stuff.html",
+          "publishedOn": "2022-07-15T01:59:31.235Z",
+          "wordCount": 1412,
+          "title": "Stuff",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/yahoo.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/yahoo.html",
+          "publishedOn": "2022-07-15T01:59:31.223Z",
+          "wordCount": 2193,
+          "title": "What Happened to Yahoo",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/selfindulgence.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/selfindulgence.html",
+          "publishedOn": "2022-07-15T01:59:31.219Z",
+          "wordCount": 853,
+          "title": "How to Lose Time and Money",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/future.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/future.html",
+          "publishedOn": "2022-07-15T01:59:31.217Z",
+          "wordCount": 3992,
+          "title": "The Future of Startup Funding",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/divergence.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/divergence.html",
+          "publishedOn": "2022-07-15T01:59:31.212Z",
+          "wordCount": 1519,
+          "title": "Could VC be a Casualty of the Recession?",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/credentials.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/credentials.html",
+          "publishedOn": "2022-07-15T01:59:31.210Z",
+          "wordCount": 2513,
+          "title": "After Credentials",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/identity.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/identity.html",
+          "publishedOn": "2022-07-15T01:59:31.207Z",
+          "wordCount": 1034,
+          "title": "Keep Your Identity Small",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/tablets.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/tablets.html",
+          "publishedOn": "2022-07-15T01:59:31.205Z",
+          "wordCount": 719,
+          "title": "Tablets",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hw.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hw.html",
+          "publishedOn": "2022-07-15T01:59:31.203Z",
+          "wordCount": 582,
+          "title": "The Hardware Renaissance",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ambitious.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ambitious.html",
+          "publishedOn": "2022-07-15T01:59:31.201Z",
+          "wordCount": 3905,
+          "title": "Frighteningly Ambitious Startup Ideas",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/vb.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/vb.html",
+          "publishedOn": "2022-07-15T01:59:31.196Z",
+          "wordCount": 1829,
+          "title": "Life is Short",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/swan.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/swan.html",
+          "publishedOn": "2022-07-15T01:59:31.193Z",
+          "wordCount": 2305,
+          "title": "Black Swan Farming",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/re.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/re.html",
+          "publishedOn": "2022-07-15T01:59:31.182Z",
+          "wordCount": 7260,
+          "title": "The Refragmentation",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/airbnb.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/airbnb.html",
+          "publishedOn": "2022-07-15T01:59:31.170Z",
+          "wordCount": 1465,
+          "title": "Subject: Airbnb",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/pgh.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/pgh.html",
+          "publishedOn": "2022-07-15T01:59:31.163Z",
+          "wordCount": 2783,
+          "title": "How to Make Pittsburgh a Startup Hub",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/property.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/property.html",
+          "publishedOn": "2022-07-15T01:59:31.154Z",
+          "wordCount": 1140,
+          "title": "Defining Property",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/foundervisa.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/foundervisa.html",
+          "publishedOn": "2022-07-15T01:59:31.151Z",
+          "wordCount": 576,
+          "title": "The Founder Visa",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/patentpledge.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/patentpledge.html",
+          "publishedOn": "2022-07-15T01:59:31.147Z",
+          "wordCount": 851,
+          "title": "The Patent Pledge",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/speak.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/speak.html",
+          "publishedOn": "2022-07-15T01:59:31.145Z",
+          "wordCount": 1359,
+          "title": "Writing and Speaking",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/word.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/word.html",
+          "publishedOn": "2022-07-15T01:59:31.143Z",
+          "wordCount": 968,
+          "title": "A Word to the Resourceful",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/determination.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/determination.html",
+          "publishedOn": "2022-07-15T01:59:31.141Z",
+          "wordCount": 1653,
+          "title": "The Anatomy of Determination",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/todo.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/todo.html",
+          "publishedOn": "2022-07-15T01:59:31.138Z",
+          "wordCount": 413,
+          "title": "The Top of My Todo List",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/makersschedule.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/makersschedule.html",
+          "publishedOn": "2022-07-15T01:59:31.133Z",
+          "wordCount": 1322,
+          "title": "Maker's Schedule, Manager's Schedule",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/altair.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/altair.html",
+          "publishedOn": "2022-07-15T01:59:31.121Z",
+          "wordCount": 556,
+          "title": "What Microsoft Is this the Altair Basic of?",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/founders.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/founders.html",
+          "publishedOn": "2022-07-15T01:59:31.119Z",
+          "wordCount": 968,
+          "title": "What We Look for in Founders",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/mean.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/mean.html",
+          "publishedOn": "2022-07-15T01:59:31.117Z",
+          "wordCount": 1300,
+          "title": "Mean People Fail",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ecw.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ecw.html",
+          "publishedOn": "2022-07-15T01:59:31.115Z",
+          "wordCount": 1230,
+          "title": "How to Be an Expert in a Changing World",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/know.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/know.html",
+          "publishedOn": "2022-07-15T01:59:31.113Z",
+          "wordCount": 818,
+          "title": "How You Know",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/jessica.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/jessica.html",
+          "publishedOn": "2022-07-15T01:59:31.111Z",
+          "wordCount": 2116,
+          "title": "Jessica Livingston",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ace.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ace.html",
+          "publishedOn": "2022-07-15T01:59:31.108Z",
+          "wordCount": 3553,
+          "title": "Billionaires Build",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/control.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/control.html",
+          "publishedOn": "2022-07-15T01:59:31.104Z",
+          "wordCount": 945,
+          "title": "Founder Control",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/superangels.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/superangels.html",
+          "publishedOn": "2022-07-15T01:59:31.102Z",
+          "wordCount": 3710,
+          "title": "The New Funding Landscape",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/safe.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/safe.html",
+          "publishedOn": "2022-07-15T01:59:31.098Z",
+          "wordCount": 955,
+          "title": "Why It's Safe for Founders to Be Nice",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/think.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/think.html",
+          "publishedOn": "2022-07-15T01:59:31.096Z",
+          "wordCount": 3577,
+          "title": "How to Think for Yourself",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/schlep.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/schlep.html",
+          "publishedOn": "2022-07-15T01:59:31.084Z",
+          "wordCount": 1016,
+          "title": "Schlep Blindness",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/early.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/early.html",
+          "publishedOn": "2022-07-15T01:59:31.082Z",
+          "wordCount": 2646,
+          "title": "Early Work",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ronco.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ronco.html",
+          "publishedOn": "2022-07-15T01:59:31.076Z",
+          "wordCount": 795,
+          "title": "The Ronco Principle",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/95.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/95.html",
+          "publishedOn": "2022-07-15T01:59:31.074Z",
+          "wordCount": 1095,
+          "title": "Let the Other 95% of Great Programmers In",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/corpdev.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/corpdev.html",
+          "publishedOn": "2022-07-15T01:59:31.072Z",
+          "wordCount": 1450,
+          "title": "Don't Talk to Corp Dev",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/fh.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/fh.html",
+          "publishedOn": "2022-07-15T01:59:31.069Z",
+          "wordCount": 1547,
+          "title": "Haters",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/work.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/work.html",
+          "publishedOn": "2022-07-15T01:59:31.063Z",
+          "wordCount": 661,
+          "title": "What Doesn't Seem Like Work?",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/pinch.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/pinch.html",
+          "publishedOn": "2022-07-15T01:59:31.056Z",
+          "wordCount": 1755,
+          "title": "The Fatal Pinch",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/ineq.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/ineq.html",
+          "publishedOn": "2022-07-15T01:59:31.026Z",
+          "wordCount": 3558,
+          "title": "Economic Inequality",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/genius.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/genius.html",
+          "publishedOn": "2022-07-15T01:59:30.982Z",
+          "wordCount": 2774,
+          "title": "The Bus Ticket Theory of Genius",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/useful.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/useful.html",
+          "publishedOn": "2022-07-15T01:59:30.968Z",
+          "wordCount": 2996,
+          "title": "How to Write Usefully",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/fp.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/fp.html",
+          "publishedOn": "2022-07-15T01:59:30.940Z",
+          "wordCount": 368,
+          "title": "Fashionable Problems",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/own.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/own.html",
+          "publishedOn": "2022-07-15T01:59:30.931Z",
+          "wordCount": 2661,
+          "title": "A Project of One's Own",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/nov.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/nov.html",
+          "publishedOn": "2022-07-15T01:59:30.925Z",
+          "wordCount": 435,
+          "title": "Novelty and Heresy",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/bias.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/bias.html",
+          "publishedOn": "2022-07-15T01:59:30.922Z",
+          "wordCount": 740,
+          "title": "A Way to Detect Bias",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/name.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/name.html",
+          "publishedOn": "2022-07-15T01:59:30.914Z",
+          "wordCount": 922,
+          "title": "Change Your Name",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/cred.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/cred.html",
+          "publishedOn": "2022-07-15T01:59:30.910Z",
+          "wordCount": 414,
+          "title": "Coronavirus and Credibility",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/talk.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/talk.html",
+          "publishedOn": "2022-07-15T01:59:30.908Z",
+          "wordCount": 877,
+          "title": "Write Like You Talk",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/disc.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/disc.html",
+          "publishedOn": "2022-07-15T01:59:30.883Z",
+          "wordCount": 394,
+          "title": "The Risk of Discovery",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/lesson.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/lesson.html",
+          "publishedOn": "2022-07-15T01:59:30.879Z",
+          "wordCount": 4165,
+          "title": "The Lesson to Unlearn",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/orth.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/orth.html",
+          "publishedOn": "2022-07-15T01:59:30.873Z",
+          "wordCount": 936,
+          "title": "Orthodox Privilege",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/conformism.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/conformism.html",
+          "publishedOn": "2022-07-15T01:59:30.871Z",
+          "wordCount": 2124,
+          "title": "The Four Quadrants of Conformism",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/kids.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/kids.html",
+          "publishedOn": "2022-07-15T01:59:30.868Z",
+          "wordCount": 1691,
+          "title": "Having Kids",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/simply.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/simply.html",
+          "publishedOn": "2022-07-15T01:59:30.865Z",
+          "wordCount": 675,
+          "title": "Write Simply",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/aord.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/aord.html",
+          "publishedOn": "2022-07-15T01:59:30.863Z",
+          "wordCount": 1654,
+          "title": "Default Alive or Default Dead?",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/real.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/real.html",
+          "publishedOn": "2022-07-15T01:59:30.860Z",
+          "wordCount": 950,
+          "title": "The Real Reason to End the Death Penalty",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/wtax.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/wtax.html",
+          "publishedOn": "2022-07-15T01:59:30.858Z",
+          "wordCount": 593,
+          "title": "Modeling a Wealth Tax",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/earnest.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/earnest.html",
+          "publishedOn": "2022-07-15T01:59:30.846Z",
+          "wordCount": 1819,
+          "title": "Earnestness",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/sun.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/sun.html",
+          "publishedOn": "2022-07-15T01:59:30.827Z",
+          "wordCount": 614,
+          "title": "General and Surprising",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/newideas.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/newideas.html",
+          "publishedOn": "2022-07-15T01:59:30.825Z",
+          "wordCount": 1479,
+          "title": "Crazy New Ideas",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/richnow.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/richnow.html",
+          "publishedOn": "2022-07-15T01:59:30.823Z",
+          "wordCount": 2718,
+          "title": "How People Get Rich Now",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/mod.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/mod.html",
+          "publishedOn": "2022-07-15T01:59:30.815Z",
+          "wordCount": 839,
+          "title": "The Two Kinds of Moderate",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/pow.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/pow.html",
+          "publishedOn": "2022-07-15T01:59:30.813Z",
+          "wordCount": 299,
+          "title": "Charisma / Power",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/noob.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/noob.html",
+          "publishedOn": "2022-07-15T01:59:30.809Z",
+          "wordCount": 553,
+          "title": "Being a Noob",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/hwh.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/hwh.html",
+          "publishedOn": "2022-07-15T01:59:30.794Z",
+          "wordCount": 3451,
+          "title": "How to Work Hard",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/airbnbs.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/airbnbs.html",
+          "publishedOn": "2022-07-15T01:59:30.771Z",
+          "wordCount": 1265,
+          "title": "The Airbnbs",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/donate.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/donate.html",
+          "publishedOn": "2022-07-15T01:59:30.764Z",
+          "wordCount": 656,
+          "title": "Donate Unrestricted",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/nft.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/nft.html",
+          "publishedOn": "2022-07-15T01:59:30.762Z",
+          "wordCount": 489,
+          "title": "An NFT That Saves Lives",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/weird.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/weird.html",
+          "publishedOn": "2022-07-15T01:59:30.756Z",
+          "wordCount": 523,
+          "title": "Weird Languages",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/fn.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/fn.html",
+          "publishedOn": "2022-07-15T01:59:30.725Z",
+          "wordCount": 1409,
+          "title": "Fierce Nerds",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/goodtaste.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/goodtaste.html",
+          "publishedOn": "2022-07-15T01:59:30.671Z",
+          "wordCount": 1294,
+          "title": "Is There Such a Thing as Good Taste?",
+          "imageUrl": null
+        },
+        {
+          "id": "http://www.paulgraham.com/smart.html",
+          "author": null,
+          "description": "",
+          "link": "http://www.paulgraham.com/smart.html",
+          "publishedOn": "2022-07-15T01:59:30.666Z",
+          "wordCount": 1580,
+          "title": "Beyond Smart",
+          "imageUrl": null
+        },
         {
           "id": "http://www.paulgraham.com/heresy.html",
           "author": null,
