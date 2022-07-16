@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-15T02:00:13.254Z</updated>
+    <updated>2022-07-16T01:46:22.235Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Writing and Running a BBS on a Macintosh Plus]]></title>
+        <id>https://jcs.org/2022/07/15/kludge</id>
+        <link href="https://jcs.org/2022/07/15/kludge"/>
+        <updated>2022-07-15T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In 2015, I wrote a custom BBS server in Ruby and had been using it to run the Kludge BBS on a small OpenBSD server in my home office since then.]]></summary>
+        <author>
+            <name>joshua stein</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[This Year We Can End the Death Penalty in California]]></title>
         <id>http://www.paulgraham.com/prop62.html</id>
@@ -2525,46 +2535,6 @@ Download the report.]]></summary>
         <updated>2022-06-17T01:24:20.752Z</updated>
         <author>
             <name>Paul Graham: Essays</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta Research PhD Fellowship Spotlight: Helping the human condition with virtual reality]]></title>
-        <id>https://research.facebook.com/blog/2022/6/meta-research-phd-fellowship-spotlight-helping-the-human-condition-with-virtual-reality/</id>
-        <link href="https://research.facebook.com/blog/2022/6/meta-research-phd-fellowship-spotlight-helping-the-human-condition-with-virtual-reality/"/>
-        <updated>2022-06-16T08:36:00.000Z</updated>
-        <summary type="html"><![CDATA[As a continuation of our Fellowship spotlight series, we’re highlighting 2021 Meta Research PhD Fellow Logan Clark, PhD student at the University of Virginia.]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta PhD Fellow Spotlight: Helping the Human Condition with Virtual Reality]]></title>
-        <id>https://research.facebook.com/blog/2022/6/meta-phd-fellow-spotlight-helping-the-human-condition-with-virtual-reality/</id>
-        <link href="https://research.facebook.com/blog/2022/6/meta-phd-fellow-spotlight-helping-the-human-condition-with-virtual-reality/"/>
-        <updated>2022-06-16T08:36:00.000Z</updated>
-        <summary type="html"><![CDATA[Meta Research PhD Fellow Spotlight: Helping the human condition with virtual reality]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 More Fonts for Working with Plain Text]]></title>
-        <id>https://plaintextproject.online/articles/2022/06/15/fonts.html</id>
-        <link href="https://plaintextproject.online/articles/2022/06/15/fonts.html"/>
-        <updated>2022-06-15T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Let's take a quick look at another three monospace fonts that are great for working in plain text]]></summary>
-        <author>
-            <name>The Plain Text Project</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Prebuilding codespaces is generally available]]></title>
-        <id>https://github.blog/2022-06-15-prebuilding-codespaces-is-generally-available/</id>
-        <link href="https://github.blog/2022-06-15-prebuilding-codespaces-is-generally-available/"/>
-        <updated>2022-06-15T17:00:27.000Z</updated>
-        <summary type="html"><![CDATA[Teams and GHEC customers can now create blazing fast codespaces, even for your largest and most complex projects.]]></summary>
-        <author>
-            <name>The GitHub Blog: Engineering News and Updates</name>
         </author>
     </entry>
 </feed>
