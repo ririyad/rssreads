@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-16T01:46:22.235Z</updated>
+    <updated>2022-07-17T01:53:26.615Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[1.62.1 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2022/07/16/1.62.1-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2022/07/16/1.62.1-prerelease.html"/>
+        <updated>2022-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.62.1 pre-release is ready for testing. The release is scheduled for
+July 19. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2022-07-16/index.html.
+You can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Writing and Running a BBS on a Macintosh Plus]]></title>
         <id>https://jcs.org/2022/07/15/kludge</id>
@@ -2516,25 +2534,6 @@ Download the report.]]></summary>
         <summary type="html"><![CDATA[Articulate The Value Of What Candidates Care About]]></summary>
         <author>
             <name>Stay SaaSy</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing the winners of the 2022 Silent Data Corruptions at Scale request for proposals]]></title>
-        <id>https://research.facebook.com/blog/2022/6/announcing-the-winners-of-the-2022-silent-data-corruptions-at-scale-request-for-proposals/</id>
-        <link href="https://research.facebook.com/blog/2022/6/announcing-the-winners-of-the-2022-silent-data-corruptions-at-scale-request-for-proposals/"/>
-        <updated>2022-06-17T12:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Announcing the winners of the 2022 Silent Data Corruptions at Scale request for proposals]]></summary>
-        <author>
-            <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Putting Ideas into Words]]></title>
-        <id>http://www.paulgraham.com/words.html</id>
-        <link href="http://www.paulgraham.com/words.html"/>
-        <updated>2022-06-17T01:24:20.752Z</updated>
-        <author>
-            <name>Paul Graham: Essays</name>
         </author>
     </entry>
 </feed>

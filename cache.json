@@ -232,6 +232,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2022/07/16/1.62.1-prerelease.html",
+          "author": null,
+          "description": "The 1.62.1 pre-release is ready for testing. The release is scheduled for\nJuly 19. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2022-07-16/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2022/07/16/1.62.1-prerelease.html",
+          "publishedOn": "2022-07-16T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.62.1 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2022/07/13/clippy-team-changes.html",
           "author": null,
           "description": "New Members\nWe are thrilled to publicly announce that Alex\nMacleod, dswij, and\nJason Newcomb have joined the Clippy Team!\nJason has been contributing to Clippy since late 2020 and was the most active\ncontributor since then. He has contributed in pretty much every area - big\nrefactors, bug fixes, and major improvements to our Clippy utils. Having him as\nan additional reviewer will be a great improvement to the team.\ndswij first started contributing late last summer and has fixed many bugs in\nClippy as well as implementing some new lints to make Clippy even more helpful.\nWith their continued contributions to Clippy and engagement in the project,\nwe're happy to now have them as a full team member.\nAlex started contributing to Clippy shortly after and has improved our dev\ntooling quite a bit. …",
@@ -390,16 +400,6 @@
           "wordCount": 860,
           "title": "Meta Research PhD Fellowship Spotlight: Empowering older adults and combating bias in tech development",
           "imageUrl": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.8562-6/290171194_1462091634226836_5694642806879959832_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6825c5&_nc_ohc=Kl2Klzsvz7gAX8JaBgq&_nc_ht=scontent-sea1-1.xx&oh=00_AT8bp9saGsb71dohmgyJbiHneEXFp1NHMpkDPMWgd7DyrQ&oe=62CE249A"
-        },
-        {
-          "id": "https://research.facebook.com/blog/2022/6/announcing-the-winners-of-the-2022-silent-data-corruptions-at-scale-request-for-proposals/",
-          "author": null,
-          "description": "Announcing the winners of the 2022 Silent Data Corruptions at Scale request for proposals",
-          "link": "https://research.facebook.com/blog/2022/6/announcing-the-winners-of-the-2022-silent-data-corruptions-at-scale-request-for-proposals/",
-          "publishedOn": "2022-06-17T12:42:00.000Z",
-          "wordCount": 294,
-          "title": "Announcing the winners of the 2022 Silent Data Corruptions at Scale request for proposals",
-          "imageUrl": "https://scontent-sea1-1.xx.fbcdn.net/v/t39.8562-6/288613601_2520156714785968_6189087806632427380_n.png?_nc_cat=110&ccb=1-7&_nc_sid=6825c5&_nc_ohc=_MH4yLYl8jcAX9ULi1n&_nc_ht=scontent-sea1-1.xx&oh=00_AT_b-CHEGOpvDVjbpW7oKWt7Q0y8crvQnk6ahSEwMAuaKw&oe=62AFD969"
         }
       ]
     },
@@ -2675,16 +2675,6 @@
           "publishedOn": "2022-06-30T01:43:08.210Z",
           "wordCount": null,
           "title": "Chapter 2 of Ansi Common Lisp",
-          "imageUrl": null
-        },
-        {
-          "id": "http://www.paulgraham.com/words.html",
-          "author": null,
-          "description": "",
-          "link": "http://www.paulgraham.com/words.html",
-          "publishedOn": "2022-06-17T01:24:20.752Z",
-          "wordCount": 1154,
-          "title": "Putting Ideas into Words",
           "imageUrl": null
         }
       ]
