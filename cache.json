@@ -126,6 +126,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/authorial-stance.html",
+          "author": null,
+          "description": "When I'm writing, or mentoring others in writing, about a particular\n      technique I prefer to take the role of an educator rather than that of an\n      advocate. When doing that, I see two main stances an author\n      can take. One is to focus on the trade-offs between this technique and its\n      alternatives, the other is to focus on the merits of the particular\n      technique and not discuss the alternatives.\nmore…",
+          "link": "https://martinfowler.com/articles/authorial-stance.html",
+          "publishedOn": "2022-07-19T17:20:00.000Z",
+          "wordCount": 1218,
+          "title": "Advocate, educator, and authorial stance",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/patterns-legacy-displacement/revert-to-source.html",
           "author": null,
           "description": "Legacy systems often act as integration hubs, ingesting source data to\n      pass on to downstream systems. A new downstream system can decouple itself\n      from legacy by finding the source of data to the legacy and integrating\n      directly to that instead. Ian Cartwright, Rob Horn, and James\n      Lewis describe this Revert to Source pattern,\n      explaining that this part of legacy displacement often also allows a new\n      system to take advantage of upgrades to source data that the legacy had neglected.\nmore…",
@@ -154,6 +164,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2022/07/19/Rust-1.62.1.html",
+          "author": null,
+          "description": "The Rust team has published a new point release of Rust, 1.62.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.62.1 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.62.1 on GitHub.\nWhat's in 1.62.1 stable\nRust 1.62.1 addresses a few recent regressions in the compiler and standard\nlibrary, and also mitigates a CPU vulnerability on Intel SGX.\nThe compiler fixed unsound function coercions involving impl Trait return types.\nThe compiler fixed an incremental compilation bug with async fn lifetimes.\nWindows added a fallback for overlapped I/O in synchronous reads and writes.\nThe x86_64-fortanix-unknown-sgx target added a mitigation for the\nMMIO stale data vulnerability, advisory INTEL-SA-00615.\nContributors to 1.62.1\nMany people came together to create Rust 1.62.1. We couldn't have done it\nwithout all of you. Thanks!",
+          "link": "https://blog.rust-lang.org/2022/07/19/Rust-1.62.1.html",
+          "publishedOn": "2022-07-19T00:00:00.000Z",
+          "wordCount": 238,
+          "title": "Announcing Rust 1.62.1",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2022/07/12/changes-in-the-core-team.html",
           "author": null,
@@ -284,6 +304,16 @@
       "feedUrl": "https://github.blog/engineering.atom",
       "siteUrl": "https://github.blog",
       "articles": [
+        {
+          "id": "https://github.blog/2022-07-19-6-strategic-ways-to-level-up-your-ci-cd-pipeline/",
+          "author": null,
+          "description": "From incorporating accessibility testing to implementing blue-green deployment models, here are six practical and strategic ways to improve your CI/CD pipeline.",
+          "link": "https://github.blog/2022-07-19-6-strategic-ways-to-level-up-your-ci-cd-pipeline/",
+          "publishedOn": "2022-07-19T16:15:27.000Z",
+          "wordCount": 2857,
+          "title": "6 strategic ways to level up your CI/CD pipeline",
+          "imageUrl": "https://github.blog/wp-content/uploads/2021/11/devops-tips_social.png"
+        },
         {
           "id": "https://github.blog/2022-07-06-github-availability-report-june-2022/",
           "author": null,
