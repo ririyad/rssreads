@@ -22,11 +22,55 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-07-20 datetime="2022-07-20T16:08:44.000Z">2022-07-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-07-20 datetime="2022-07-20T16:08:44.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-07-20 datetime="2022-07-20T20:57:15.000Z">2022-07-20</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-07-20 datetime="2022-07-20T20:57:15.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Julia Evans</button>
+                  <a class="source-heading__link" href="http://jvns.ca/atom.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvns.ca/blog/2022/07/20/pseudoterminals/"
+                        open
+                      >
+                        <summary class="article-expander__title">What happens when you press a key in your terminal?</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvns.ca/blog/2022/07/20/pseudoterminals/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>I’ve been confused about what’s going on with terminals for a long time.
+But this past week I was using xterm.js to display an
+interactive terminal in a browser and I finally thought to ask a pretty basic
+question: when you press a key on your keyboard in a terminal (like Delete, or Escape, or a), which
+bytes get sent?
+As usual we’ll answer that question by doing some experiments and seeing what happens :)
+remote terminals are very old technology
+First, I want to say that displaying a terminal in the browser with xterm.js
+might seem like a New Thing, but it’s really not. In the 70s, computers were
+expensive. So many employees at an institution would share a single computer,
+and each person could have their own “terminal” to that computer.
+For example, here’s a photo of a VT100 terminal fro…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -6090,135 +6134,10 @@ there’s undoubtedly a defect in the program. In ot…</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-22 datetime="2022-06-22T00:00:00.000Z">2022-06-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-22 datetime="2022-06-22T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Rust Blog</button>
-                  <a class="source-heading__link" href="https://blog.rust-lang.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Call for testing: Cargo sparse-registry</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Cargo nightly sparse-registry feature is ready for testing. The
-feature causes Cargo to access the crates.io index over HTTP, rather than git. It can
-provide a significant performance improvement, especially if the local copy of
-the git index is out-of-date or not yet cloned.
-Overview
-To try it out, add the -Z sparse-registry flag on a recent nightly build of Cargo.
-For example, to update dependencies:
-rustup update nightly
-cargo +nightly -Z sparse-registry update
-
-The feature can also be enabled by setting the environment variable
-CARGO_UNSTABLE_SPARSE_REGISTRY&#x3D;true. Setting this variable will have no effect on stable
-Cargo, making it easy to opt-in for CI jobs.
-The minimum Cargo version is cargo 2022-06-17, which is bundled with rustc 2022-06-20.
-You can leave feedback on the interna…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2022-06-21 datetime="2022-06-21T20:12:00.000Z">2022-06-21</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2022-06-21 datetime="2022-06-21T20:12:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Jason Fried</button>
-                  <a class="source-heading__link" href="https://world.hey.com/jason">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4"
-                        open
-                      >
-                        <summary class="article-expander__title">Heard Something, Read Something, Saw Something [#13]</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://world.hey.com/jason/avatar-20200630203149000000-2745081" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Hey!
-Back again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...
-Heard Something
-Really enjoyed this heady Making Sense episode that asks &quot;Do you really have a self?&quot; Theoretical conversations like these feel like a massage for the mind. They get down to root assumptions upon which so much is built. After listening, I find myself looking up and wondering more. Maybe you will too.
-Hear it: https://www.samharris.org/podcasts/making-sense-episodes/282-do-you-really-have-a-self
-Read Something
-&quot;Projections: A Story of Human Emotions&quot; by Karl Deisseroth completely blew me away. It&#x27;s absolutely beautiful writing about some of the darkest mental states and conditions we know. The stories are fascinating, the science he invented is illuminating, and the whole work is immensely powerful. It had me both in tears and in awe. One of the best non-fiction books I&#x27;ve ever read, hands down. The author reads the audiobook too, which makes it even more personal. Highly recommended.
-Read it: https://bookshop.org/books/projections-a-story-of-human-emotions/9781984853691
-Saw Something
-I enjoy all things Richard Feynman, and this animated short uses text from a speech he gave in 1955 on the wonders of life as the backing track. A lovely way to spend 4 minutes and 21 seconds. 
-See it: https://vimeo.com/700869688
-Until next time.
-BTW, if you like these, and think someone else might too, please forward it on. They can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.
-
-
--Jason</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/2708783574">
-        <time id="build-timestamp" datetime="2022-07-21T01:48:08.393Z">2022-07-21T01:48:08.393Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/2715802522">
+        <time id="build-timestamp" datetime="2022-07-22T01:49:56.248Z">2022-07-22T01:49:56.248Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

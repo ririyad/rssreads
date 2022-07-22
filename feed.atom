@@ -2,10 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-07-21T01:48:08.426Z</updated>
+    <updated>2022-07-22T01:49:56.292Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[What happens when you press a key in your terminal?]]></title>
+        <id>https://jvns.ca/blog/2022/07/20/pseudoterminals/</id>
+        <link href="https://jvns.ca/blog/2022/07/20/pseudoterminals/"/>
+        <updated>2022-07-20T20:57:15.000Z</updated>
+        <summary type="html"><![CDATA[I’ve been confused about what’s going on with terminals for a long time.
+But this past week I was using xterm.js to display an
+interactive terminal in a browser and I finally thought to ask a pretty basic
+question: when you press a key on your keyboard in a terminal (like Delete, or Escape, or a), which
+bytes get sent?
+As usual we’ll answer that question by doing some experiments and seeing what happens :)
+remote terminals are very old technology
+First, I want to say that displaying a terminal in the browser with xterm.js
+might seem like a New Thing, but it’s really not. In the 70s, computers were
+expensive. So many employees at an institution would share a single computer,
+and each person could have their own “terminal” to that computer.
+For example, here’s a photo of a VT100 terminal fro…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Down in front]]></title>
         <id>https://world.hey.com/jason/down-in-front-cb95d87c</id>
@@ -2578,55 +2599,6 @@ there’s undoubtedly a defect in the program. In ot…]]></summary>
         <summary type="html"><![CDATA[As a continuation of our Fellowship spotlight series, we’re highlighting a 2021 Meta PhD Fellow in Human-Centered Computing, Reza Ghaiumy Anaraky.]]></summary>
         <author>
             <name>Meta Research</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Call for testing: Cargo sparse-registry]]></title>
-        <id>https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html</id>
-        <link href="https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html"/>
-        <updated>2022-06-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Cargo nightly sparse-registry feature is ready for testing. The
-feature causes Cargo to access the crates.io index over HTTP, rather than git. It can
-provide a significant performance improvement, especially if the local copy of
-the git index is out-of-date or not yet cloned.
-Overview
-To try it out, add the -Z sparse-registry flag on a recent nightly build of Cargo.
-For example, to update dependencies:
-rustup update nightly
-cargo +nightly -Z sparse-registry update
-
-The feature can also be enabled by setting the environment variable
-CARGO_UNSTABLE_SPARSE_REGISTRY=true. Setting this variable will have no effect on stable
-Cargo, making it easy to opt-in for CI jobs.
-The minimum Cargo version is cargo 2022-06-17, which is bundled with rustc 2022-06-20.
-You can leave feedback on the interna…]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#13]]]></title>
-        <id>https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4</id>
-        <link href="https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4"/>
-        <updated>2022-06-21T20:12:00.000Z</updated>
-        <summary type="html"><![CDATA[Hey!
-Back again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...
-Heard Something
-Really enjoyed this heady Making Sense episode that asks "Do you really have a self?" Theoretical conversations like these feel like a massage for the mind. They get down to root assumptions upon which so much is built. After listening, I find myself looking up and wondering more. Maybe you will too.
-Hear it: https://www.samharris.org/podcasts/making-sense-episodes/282-do-you-really-have-a-self
-Read Something
-"Projections: A Story of Human Emotions" by Karl Deisseroth completely blew me away. It's absolutely beautiful writing about some of the darkest mental states and conditions we know. The stories are fascinating, the science he invented is illuminating, and the whole work is immensely powerful. It had me both in tears and in awe. One of the best non-fiction books I've ever read, hands down. The author reads the audiobook too, which makes it even more personal. Highly recommended.
-Read it: https://bookshop.org/books/projections-a-story-of-human-emotions/9781984853691
-Saw Something
-I enjoy all things Richard Feynman, and this animated short uses text from a speech he gave in 1955 on the wonders of life as the backing track. A lovely way to spend 4 minutes and 21 seconds. 
-See it: https://vimeo.com/700869688
-Until next time.
-BTW, if you like these, and think someone else might too, please forward it on. They can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.
-
-
--Jason]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>

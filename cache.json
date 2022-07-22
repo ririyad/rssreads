@@ -74,16 +74,6 @@
           "wordCount": 272,
           "title": "Working around people",
           "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
-        },
-        {
-          "id": "https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4",
-          "author": null,
-          "description": "Hey!\nBack again with another installment of Heard Something, Read Something, Saw Something. So, what do we have this time...\nHeard Something\nReally enjoyed this heady Making Sense episode that asks \"Do you really have a self?\" Theoretical conversations like these feel like a massage for the mind. They get down to root assumptions upon which so much is built. After listening, I find myself looking up and wondering more. Maybe you will too.\nHear it: https://www.samharris.org/podcasts/making-sense-episodes/282-do-you-really-have-a-self\nRead Something\n\"Projections: A Story of Human Emotions\" by Karl Deisseroth completely blew me away. It's absolutely beautiful writing about some of the darkest mental states and conditions we know. The stories are fascinating, the science he invented is illuminating, and the whole work is immensely powerful. It had me both in tears and in awe. One of the best non-fiction books I've ever read, hands down. The author reads the audiobook too, which makes it even more personal. Highly recommended.\nRead it: https://bookshop.org/books/projections-a-story-of-human-emotions/9781984853691\nSaw Something\nI enjoy all things Richard Feynman, and this animated short uses text from a speech he gave in 1955 on the wonders of life as the backing track. A lovely way to spend 4 minutes and 21 seconds. \nSee it: https://vimeo.com/700869688\nUntil next time.\nBTW, if you like these, and think someone else might too, please forward it on. They can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.\n\n\n-Jason",
-          "link": "https://world.hey.com/jason/heard-something-read-something-saw-something-13-2468a3c4",
-          "publishedOn": "2022-06-21T20:12:00.000Z",
-          "wordCount": 267,
-          "title": "Heard Something, Read Something, Saw Something [#13]",
-          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
         }
       ]
     },
@@ -242,16 +232,6 @@
           "publishedOn": "2022-06-28T00:00:00.000Z",
           "wordCount": 269,
           "title": "Announcing The RustConf PostConf UnConf",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html",
-          "author": null,
-          "description": "The Cargo nightly sparse-registry feature is ready for testing. The\nfeature causes Cargo to access the crates.io index over HTTP, rather than git. It can\nprovide a significant performance improvement, especially if the local copy of\nthe git index is out-of-date or not yet cloned.\nOverview\nTo try it out, add the -Z sparse-registry flag on a recent nightly build of Cargo.\nFor example, to update dependencies:\nrustup update nightly\ncargo +nightly -Z sparse-registry update\n\nThe feature can also be enabled by setting the environment variable\nCARGO_UNSTABLE_SPARSE_REGISTRY=true. Setting this variable will have no effect on stable\nCargo, making it easy to opt-in for CI jobs.\nThe minimum Cargo version is cargo 2022-06-17, which is bundled with rustc 2022-06-20.\nYou can leave feedback on the interna…",
-          "link": "https://blog.rust-lang.org/2022/06/22/sparse-registry-testing.html",
-          "publishedOn": "2022-06-22T00:00:00.000Z",
-          "wordCount": 489,
-          "title": "Call for testing: Cargo sparse-registry",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -541,6 +521,16 @@
       "feedUrl": "https://jvns.ca/atom.xml",
       "siteUrl": "http://jvns.ca/atom.xml",
       "articles": [
+        {
+          "id": "https://jvns.ca/blog/2022/07/20/pseudoterminals/",
+          "author": null,
+          "description": "I’ve been confused about what’s going on with terminals for a long time.\nBut this past week I was using xterm.js to display an\ninteractive terminal in a browser and I finally thought to ask a pretty basic\nquestion: when you press a key on your keyboard in a terminal (like Delete, or Escape, or a), which\nbytes get sent?\nAs usual we’ll answer that question by doing some experiments and seeing what happens :)\nremote terminals are very old technology\nFirst, I want to say that displaying a terminal in the browser with xterm.js\nmight seem like a New Thing, but it’s really not. In the 70s, computers were\nexpensive. So many employees at an institution would share a single computer,\nand each person could have their own “terminal” to that computer.\nFor example, here’s a photo of a VT100 terminal fro…",
+          "link": "https://jvns.ca/blog/2022/07/20/pseudoterminals/",
+          "publishedOn": "2022-07-20T20:57:15.000Z",
+          "wordCount": 2173,
+          "title": "What happens when you press a key in your terminal?",
+          "imageUrl": null
+        },
         {
           "id": "https://jvns.ca/blog/2022/07/09/monitoring-small-web-services/",
           "author": null,
