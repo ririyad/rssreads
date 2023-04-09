@@ -282,6 +282,23 @@
       "feedUrl": "https://world.hey.com/jorge/feed.atom",
       "siteUrl": "https://world.hey.com/jorge",
       "articles": []
+    },
+    {
+      "title": "Notes on software development",
+      "feedUrl": "https://notes.eatonphil.com/rss.xml",
+      "siteUrl": "http://notes.eatonphil.com/",
+      "articles": [
+        {
+          "id": "http://notes.eatonphil.com/errors-and-zig.html",
+          "author": null,
+          "description": "At TigerBeetle these last few weeks I've been doing a mix of\ndocumenting client libraries, writing sample code for client\nlibraries, and writing integration tests against the sample code.\nThe client library documentation is generated with a Zig script. The\nsample code is integration tested with a Zig script. A bunch of Zig\nscripts.\nIt's not the same\nrigorous\nsort of Zig as the main database. (We're generally more lax about\nscripts and test code.)\nAnd I'm specifically writing this post on my personal blog since my\nscript code is not under incredible scrutiny.\nFurthermore, I'm still new to Zig. Since I'm still learning, there\nhave been a few things that tripped me up.\nAnd now that I've written this out, I realize most of my stumbling was\nrelated to errors.\nFailure\nLots of things in programs …",
+          "link": "http://notes.eatonphil.com/errors-and-zig.html",
+          "publishedOn": "2023-03-21T00:00:00.000Z",
+          "wordCount": 3694,
+          "title": "Errors and Zig",
+          "imageUrl": null
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"

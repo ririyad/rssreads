@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-09T04:06:57.509Z</updated>
+    <updated>2023-04-09T04:08:46.276Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -302,6 +302,33 @@ The problem was that our entire marketing budget for 2023 amounted to a "mere" f
 Of course this is all on us. While the agency knew what our budget was going in, we should have known that working with people who'd done work with the biggest, richest corporations in the worl…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Errors and Zig]]></title>
+        <id>http://notes.eatonphil.com/errors-and-zig.html</id>
+        <link href="http://notes.eatonphil.com/errors-and-zig.html"/>
+        <updated>2023-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At TigerBeetle these last few weeks I've been doing a mix of
+documenting client libraries, writing sample code for client
+libraries, and writing integration tests against the sample code.
+The client library documentation is generated with a Zig script. The
+sample code is integration tested with a Zig script. A bunch of Zig
+scripts.
+It's not the same
+rigorous
+sort of Zig as the main database. (We're generally more lax about
+scripts and test code.)
+And I'm specifically writing this post on my personal blog since my
+script code is not under incredible scrutiny.
+Furthermore, I'm still new to Zig. Since I'm still learning, there
+have been a few things that tripped me up.
+And now that I've written this out, I realize most of my stumbling was
+related to errors.
+Failure
+Lots of things in programs …]]></summary>
+        <author>
+            <name>Notes on software development</name>
         </author>
     </entry>
     <entry>
