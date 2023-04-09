@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ririyad.github.io/rssreads/index.html</id>
+    <title>osmos::feed</title>
+    <updated>2023-04-09T04:05:51.863Z</updated>
+    <generator>osmosfeed 1.15.1</generator>
+    <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
+    <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Building Xeact components with esbuild and Nix]]></title>
+        <id>https://xeiaso.net/blog/xeact-esbuild</id>
+        <link href="https://xeiaso.net/blog/xeact-esbuild"/>
+        <updated>2023-04-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Xeact has succeeded in its goal of
+intergalactic domination of the attention space of frontend
+developers. Not only has it been the catalyst towards my true
+understanding of front-end development, it is the most popular
+frontend femtoframework as signified by this handy
+graph:
+
+
+
+However, my deployment process for Xeact components relies on the
+deno bundle command, which is being
+deprecated:
+Warning "deno bundle" is deprecated and will be removed in the future.
+Use alternative bundlers like "deno_emit", "esbuild" or "rollup" instead.
+
+I have always hated the process of deploying JavaScript code to the
+internet. npm creates massive balls of mud that are so logistically
+annoying to tease out into actual real files that your browser can
+load. The tooling around building JavaScript projects in…]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What developers need to know about generative AI]]></title>
+        <id>https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/</id>
+        <link href="https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/"/>
+        <updated>2023-04-07T15:00:32.000Z</updated>
+        <summary type="html"><![CDATA[Generative AI has been dominating the news lately—but what exactly is it? Here’s what you need to know, and what it means for developers.]]></summary>
+        <author>
+            <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Rails World]]></title>
+        <id>https://world.hey.com/dhh/go-rails-world-4f3c42e6</id>
+        <link href="https://world.hey.com/dhh/go-rails-world-4f3c42e6"/>
+        <updated>2023-04-07T11:19:41.000Z</updated>
+        <summary type="html"><![CDATA[Amanda Perino had barely settled into the role as executive director of The Rails Foundation before she secured a venue, a date, and the full support of the board for Rails World. This 650-attendee conference will kick off the worldwide ambitions for The Rails Foundation to host a new series of ecosystem gatherings at incredibly affordable prices (this first effort will be just €199-€299 for a ticket!). Way to make an entrance!
+This new conference will kick off at quite a momentous occasion, too: Celebrating the 20th anniversary of Ruby on Rails! I started working on the framework in the summer of 2003 as part of the development of Basecamp. By October, the framework had a shape that would be completely recognizable today, with Active Record and Action Pack in place.
+It's thus also fitting…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building GitHub with Ruby and Rails]]></title>
+        <id>https://github.blog/2023-04-06-building-github-with-ruby-and-rails/</id>
+        <link href="https://github.blog/2023-04-06-building-github-with-ruby-and-rails/"/>
+        <updated>2023-04-06T18:05:43.000Z</updated>
+        <summary type="html"><![CDATA[Since the beginning, GitHub.com has been a Ruby on Rails monolith. Today, the application is nearly two million lines of code and more than 1,000 engineers collaborate on it daily. We deploy as often as 20 times a day, and nearly every week one of those deploys is a Rails upgrade. Upgrading Rails weekly Every [&#8230;]]]></summary>
+        <author>
+            <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The hardware we need for our cloud exit has arrived]]></title>
+        <id>https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966</id>
+        <link href="https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966"/>
+        <updated>2023-04-06T13:54:17.000Z</updated>
+        <summary type="html"><![CDATA[It's been a long time since I last saw a physical piece of hardware used to run our services at 37signals. I vaguely remember doing a tour of our Chicago data center over a decade ago, but somewhere along the line, I just lost interest in the iron itself. Now the interest is back, because hardware is fun again, so let me share my excitement with you!
+  
+      
+        
+
+  
+These are the two pallets that showed up in our Chicago data center recently. The same day that an identical set arrived in Ashburn, Virginia for our second data center. In total, we received twenty R7625 Dell servers that'll power the bulk of our cloud exit. It's a staggering amount of computing power in a shockingly small footprint.
+Here's a diagram of our four cabinets in Chicago (we have another four in Ashburn). As …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome Arlo and Scott to the Cargo Team]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/04/06/cargo-new-members.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/04/06/cargo-new-members.html"/>
+        <updated>2023-04-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to welcome Arlo Siemsen and Scott Schafer as new members to the Cargo Team!
+Arlo has been instrumental in bringing Cargo's new sparse registry support to fruition, which significantly improves registry performance. He has been involved with registry design and authentication discussions, and has been closely working with the team over the past year.
+Scott has been very active in the past year, working on various parts of Cargo, namely implementing workspace inheritance. Since then, he has been helping with maintenance and designing new features.
+With their help we now have capacity to start thinking about how feature development should be done moving forward. We are still in early discussions of processes for matching feature development with reviewer capacity, and will share more in the future. Thanks to Arlo and Scott for their help, and we are very much looking forward to having them as a part of the team!]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Availability Report: March 2023]]></title>
+        <id>https://github.blog/2023-04-05-github-availability-report-march-2023/</id>
+        <link href="https://github.blog/2023-04-05-github-availability-report-march-2023/"/>
+        <updated>2023-04-05T16:00:48.000Z</updated>
+        <summary type="html"><![CDATA[In March, we experienced six incidents that resulted in degraded performance across GitHub services. This report also sheds light into a February incident that resulted in degraded performance for GitHub Codespaces.]]></summary>
+        <author>
+            <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Standing up to golems]]></title>
+        <id>https://world.hey.com/dhh/standing-up-to-golems-c98dd4a8</id>
+        <link href="https://world.hey.com/dhh/standing-up-to-golems-c98dd4a8"/>
+        <updated>2023-04-05T13:25:14.000Z</updated>
+        <summary type="html"><![CDATA[Tim Urban's new book What's Our Problem? offers an excellent analysis of the current American political malaise. It breaks down the history of first how the Republican party got overrun by low-rung thinking from the mid-90s forward, then how equally low-rung thinking got the other side in the past decade or so. It's a light, humorous recap of modern American political history. I highly recommend it.
+It's central contribution is adding a second dimension to the political spectrum. What we're dealing with is not just far-left, left, center, right, far-right. That spectrum is about contesting "what is" and "what ought to be". Our current problem is not so much disagreeing about those two central elements. All democracies will and should continue to do that. It's how that disagreements manifes…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the 2023 Meta Research PhD Fellowship award winners]]></title>
+        <id>https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/</id>
+        <link href="https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/"/>
+        <updated>2023-04-05T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[...]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How we built something useful]]></title>
+        <id>https://world.hey.com/jason/how-we-built-something-useful-8ff6a83b</id>
+        <link href="https://world.hey.com/jason/how-we-built-something-useful-8ff6a83b"/>
+        <updated>2023-04-04T20:51:30.000Z</updated>
+        <summary type="html"><![CDATA[The product development process encompasses many moments. Moments of novel breakthrough, moments of mundane maintenance, and everything in between. But some of the most rewarding moments consistently come from making something simply useful.
+Yesterday we shipped a feature in HEY called "Reply to Everyone" that was exactly that: Simply useful.
+One of the things that makes something simply useful is a clear line from problem to solution. From hassle to effortlessness. From a lot of time to nearly no time at all. From creating work to eliminating work.
+So let's trace Reply to Everyone back to the initial germ of the idea.
+It all started with frustration. This is a great place to start any feature. In fact, the closer you start to frustration, the more fuel you have to burn up the problem.
+Wha…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Slack in your plans]]></title>
+        <id>https://martinfowler.com/bliki/Slack.html</id>
+        <link href="https://martinfowler.com/bliki/Slack.html"/>
+        <updated>2023-04-04T14:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Recent discussions with my colleagues showed that many software teams
+     still run into trouble because they pack too much planned
+     work into their iterations. Teams will usually run better when they have
+     deliberate Slack, as it allows their delivery to be more predictable and
+     gives them time to improve their environment.
+While writing that bliki post, I also defined two styles of task
+     planning in agile projects. Timeboxed Iterations are used to
+     break up work into small chunks with a regular cadence to reassess the work
+     and future plans. Using a little ceremony around allocating work to
+     iterations helps make problems visible so that they can be dealt with
+     properly. Continuous Flow
+     dispenses with that ceremony, so skilled teams often prefer it.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xeact 0.70.0: now with the useState hook]]></title>
+        <id>https://xeiaso.net/blog/xeact-0.70.0-useState</id>
+        <link href="https://xeiaso.net/blog/xeact-0.70.0-useState"/>
+        <updated>2023-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Xeact continues to dominate the front-end ecosystem. Every facet of
+the industry has been forever changed by Xeact, and we are all better
+for it. Today I have the momentous pleasure of introducing the newest
+version of Xeact: version 0.70.0. This allows you to track stateful
+values using the new useState hook.
+
+
+Image generated by Anything v3 -- 1girl, green hair, hoodie, outdoors, breath of the wild, space needle, walking, long hair, highly detailed, futuristic
+To help illustrate the point, I have copied the entire source code of
+the useState function below:
+/**
+ * Allows a stateful value to be tracked by consumers.
+ *
+ * This is the Xeact version of the React useState hook.
+ *
+ * @type{function(any): [function(): any, function(any): void]}
+ */
+const useState = (value = undefined) => {
+  …]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using Tailscale without using Tailscale]]></title>
+        <id>https://xeiaso.net/blog/tailscale-headscale-funnel</id>
+        <link href="https://xeiaso.net/blog/tailscale-headscale-funnel"/>
+        <updated>2023-04-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m always amazed by the power of technology and the creativity of people who use it. Today I want to share with you a project that I did for fun and learning. It’s about how to use Tailscale Funnel to host a Headscale server from behind NAT. Sounds crazy, right? Let me explain.
+Tailscale Funnel is a tool that lets you share a web service on your private network with the public internet. It’s like having your own personal cloud without the hassle of setting up servers and domains. Headscale is a tool that lets you create your own Tailscale control plane. It’s like having your own private VPN without relying on a third-party service.
+Now, what if you could combine these two tools and create a network that uses Tailscale without using Tailscale? That’s exactly what I did. I used waifud, NixOS, and Funnel to create a virtual machine that runs Headscale and exposes it to the internet. Then I used Funnel to connect other devices to this network and enjoy the benefits of Tailscale.
+Why did I do this? Because I love learning new things and challenging myself. Because I believe in the power of open source and decentralized solutions. Because I wanted to have some fun and make some jokes along the way.
+This project taught me a lot about networking, security, and automation. It also showed me how much potential there is in tools like Tailscale and Headscale. And it made me laugh at the absurdity of using Tailscale without using Tailscale.
+If you’re curious about how I did this, you can check out my blog post where I explain everything in detail. It’s not a serious tutorial, but rather a playful experiment.
+I hope this post inspires you to try new things and have fun with technology. Remember, nothing is impossible if you put your mind to it. And don’t forget to laugh at yourself sometimes.]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to have buckets of time]]></title>
+        <id>https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993</id>
+        <link href="https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993"/>
+        <updated>2023-03-31T09:37:11.000Z</updated>
+        <summary type="html"><![CDATA[One of the most important techniques I've embraced for managing my time is to direct related tasks to a bucket, let that bucket accumulate until full, then empty it all in one go. This in contrast to trying to catch every task the moment it lands from the myriad of interruption pipes that'll drip-drip-drip your day away if you let them. Nowhere is the most evident than with email.
+I used to take such pride in inbox zero when I was still using Gmail. I'd check email continuously throughout the day, and I'd get back to almost everyone immediately. Whether it was urgent or not. Just so I could see that sweet zero. It felt very productive. It was not.
+Every email is a drop, and every drop ripples the surface of your mind. It's careless to let them hit without a filter. Your attention will have…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a custom site for zine feedback]]></title>
+        <id>https://jvns.ca/blog/2023/03/31/zine-feedback-site/</id>
+        <link href="https://jvns.ca/blog/2023/03/31/zine-feedback-site/"/>
+        <updated>2023-03-31T08:51:30.000Z</updated>
+        <summary type="html"><![CDATA[Hello! A few years I wrote a post called A new way I’m getting feedback on my posts: beta readers!
+about how I’d started using beta readers.
+The basic strategy for getting feedback there was to email people a PDF and ask
+for feedback. This was kind of inefficient, and so over the past couple of
+years, I’ve worked a lot with Marie Flanagan to
+improve the process. In this post we’ll talk about:
+the custom site we built to handle all of the feedback
+how (and why) we designed that site
+the specific categories of feedback we ask for (and why we chose those categories)
+The site isn’t open source, this post is just about the process of building and
+using it. There are some screenshots further down.
+First, let’s talk about some problems with the original process.
+problem 1: managing the feedback w…]]></summary>
+        <author>
+            <name>Julia Evans</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[America is never "getting to Denmark"]]></title>
+        <id>https://world.hey.com/dhh/america-is-never-getting-to-denmark-e471ae91</id>
+        <link href="https://world.hey.com/dhh/america-is-never-getting-to-denmark-e471ae91"/>
+        <updated>2023-03-30T09:04:24.000Z</updated>
+        <summary type="html"><![CDATA[It took moving back to Denmark to realize the folly of thinking America is ever going to "get there". Whether on guns or healthcare or taxes or any other major policy position that's so fiercely contested in the US. Despite growing up in this little Nordic country, I didn't fully appreciate the tremendous, underpinning power of a homogenous culture to fasten all these planks of a socially-democratic state – until I returned after 15 years Over There. I do now.
+Denmark is a notoriously difficult country to integrate in. Not only because the language difficult, but because the people are too! I say this with all the love and respect of a Dane that continues to marvel at what a high-trust, high-coherence society these former Vikings have managed to construct. But it's true. Danes are ever so …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Funnel 101: sharing your local developer preview with the world]]></title>
+        <id>https://xeiaso.net/blog/tailscale-funnel-101</id>
+        <link href="https://xeiaso.net/blog/tailscale-funnel-101"/>
+        <updated>2023-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 Do you want to share your web server with the world without exposing your computer to the world? 🚀
+If you’re like me, you love using Tailscale to create a secure and private network for your devices. But sometimes, you need to let the outside world access your web server, whether it’s for testing, hosting, or collaborating.
+That’s why I’m super excited about Tailscale Funnel, a new feature that lets you route traffic from the internet to your Tailscale node. You can think of it as publicly sharing a node for anyone to access, even if they don’t have Tailscale themselves.
+Tailscale Funnel is easy to set up and use. You just need to enable it in the admin console and on your node, and you’ll get a public DNS name for your node that points to Tailscale’s Funnel servers. These servers will proxy the incoming requests over Tailscale to your node, where you can terminate the TLS and serve your content.
+The best part is that Tailscale Funnel is secure and private. The Funnel servers don’t see any information about your traffic or what you’re serving. They only see the source IP and port, the SNI name, and the number of bytes passing through. And they can’t connect to your nodes directly. They only offer a TCP connection, which your nodes can accept or reject.
+Tailscale Funnel is currently in beta and available for all users. I’ve been using it for a while now and I’m blown away by how simple and powerful it is. It’s like having your own personal cloud service without any hassle or cost.]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The improv instinct]]></title>
+        <id>https://world.hey.com/jason/the-improv-instinct-bdf7d930</id>
+        <link href="https://world.hey.com/jason/the-improv-instinct-bdf7d930"/>
+        <updated>2023-03-29T18:59:20.000Z</updated>
+        <summary type="html"><![CDATA[Last week I was talking with another business owner from a different industry. He was frustrated with an employee who kept asking him what to do if x, y, or z happens. This was a long-time employee who'd been in these situations before, not someone new who was learning the ropes.
+With this particular employee, it's always the same set of questions no matter the situation. It could be a call with a client. If could be a meeting with another department. It could be a conversation with a vendor. What if they bring this up...? What if they bring that up...? What should I say if they say...? What about if they...? Essentially this employee wanted to be prepared for every contingency in a given situation. And they were great when everything went as anticipated.
+Being prepared sounds like a good …]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Protos]]></title>
+        <id>https://xeiaso.net/blog/protos</id>
+        <link href="https://xeiaso.net/blog/protos"/>
+        <updated>2023-03-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<Cadey> On July 13, 2020, I was
+inspired to write out the outline for a short science fiction / horror
+story about a generative AI being able to write entire features in
+code and how the market reacted to that. I recently rediscovered it
+and I feel that now is the time to write it for real.
+This
+is a work of fiction. Names, characters, business, events and
+incidents are the products of the author’s imagination. Any
+resemblance to actual persons, living or dead, or actual events is
+purely coincidental.
+
+One day, Jeff stretched at his desk while he was puzzling out the
+problem his product manager had thrust upon him. It was an emergency,
+as usual. The login form had the wrong color at the wrong place, and
+it was causing people to look at the login form then run away in
+terror.
+
+
+Image genera…]]></summary>
+        <author>
+            <name>Xe's Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why is paid social media a bad idea?]]></title>
+        <id>https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76</id>
+        <link href="https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76"/>
+        <updated>2023-03-28T09:57:30.000Z</updated>
+        <summary type="html"><![CDATA[It'll soon cost $7/month to fully participate on Twitter. Musk has announced they'll start reserving presence in the For You tab solely for paying customers from April 15th, limit participation in polls to just those customers, and soon also give preferential showing in replies as well. Legacy blue-checks will not be spared, and will in fact lose their old privileges. The price is the same for all. Bold!
+All of the usual characters from the Musk Sucks Show are up in arms about this, of course. Something about how charging money for a service is a transgression against Musk's allegiance to free speech, I think? Hard to keep straight all the rationalization on why everything the man does is Literally The Worst Thing Ever.
+(This is the part where it's customary to insert a caveat that I Also …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.68.2]]></title>
+        <id>https://blog.rust-lang.org/2023/03/28/Rust-1.68.2.html</id>
+        <link href="https://blog.rust-lang.org/2023/03/28/Rust-1.68.2.html"/>
+        <updated>2023-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team has published a new point release of Rust, 1.68.2. Rust is a
+programming language that is empowering everyone to build reliable and
+efficient software.
+If you have a previous version of Rust installed via rustup, you can get 1.68.2 with:
+rustup update stable
+
+If you don't have it already, you can get rustup
+from the appropriate page on our website, and check out the
+detailed release notes for 1.68.2 on GitHub.
+What's in 1.68.2 stable
+Rust 1.68.2 addresses GitHub's recent rotation of their RSA SSH host
+key, which
+happened on March 24th 2023 after their previous key accidentally leaked:
+GitHub's RSA key bundled in Cargo has been
+updated, to ensure systems
+that haven't interacted with GitHub yet won't connect trusting the leaked
+key.
+The leaked key has been hardcoded as revoked in
+Cargo, to ensure the key
+won't be used by Cargo even on systems that still trust the key.
+Support for @revoked entries in
+.ssh/known_hosts (along with
+a better error message when the unsupported @cert-authority entries are used)
+is also included in Rust 1.68.2, as that change was a pre-requisite for
+backporting the hardcoded revocation.
+If you cannot upgrade to Rust 1.68.2, we recommend following GitHub's
+instructions
+on updating the trusted keys in your system. Note that the keys bundled in
+Cargo are only used if no trusted key for github.com is found on the system.
+Contributors to 1.68.2
+Many people came together to create Rust 1.68.2. We couldn't have done it
+without all of you. Thanks!]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing the winners of the 2022 Foundational Integrity Research request for proposals]]></title>
+        <id>https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/</id>
+        <link href="https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/"/>
+        <updated>2023-03-27T04:35:00.000Z</updated>
+        <summary type="html"><![CDATA[In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.]]></summary>
+        <author>
+            <name>Meta Research</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.68.2 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html"/>
+        <updated>2023-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.68.2 pre-release is ready for testing. The release is scheduled for
+March 28. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2023-03-27/index.html.
+You can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cut cloud before payroll]]></title>
+        <id>https://world.hey.com/dhh/cut-cloud-before-payroll-a4530ebd</id>
+        <link href="https://world.hey.com/dhh/cut-cloud-before-payroll-a4530ebd"/>
+        <updated>2023-03-23T08:37:28.000Z</updated>
+        <summary type="html"><![CDATA[Every week seems to offer fresh staff cuts at the big tech companies right now. Several of the giants are already on their second rounds, and few would probably bet against a third after those. But as hard as it is on an individual level – and it's always hard! – there's a silver lining for the economy as a whole: Releasing captive talent.
+See, the big tech companies gobbled up so much talent at such high salaries during the pandemic that it scarcely left any for the rest of the economy. So many companies outside of big tech were priced out of the competition for key tech hires. That just can't be good for the economy in the long run. We need smart people focused on other problems beyond figuring out how to make people click more ads.
+But while the mammoth cuts at Facebook, Amazon, and els…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Practical libc-free threading on Linux]]></title>
+        <id>https://nullprogram.com/blog/2023/03/23/</id>
+        <link href="https://nullprogram.com/blog/2023/03/23/"/>
+        <updated>2023-03-23T05:32:41.000Z</updated>
+        <summary type="html"><![CDATA[Suppose you’re not using a C runtime on Linux, and instead you’re
+programming against its system call API. It’s long-term and stable after
+all. Memory management and buffered I/O are easily
+solved, but a lot of software benefits from concurrency. It would be nice
+to also have thread spawning capability. This article will demonstrate a
+simple, practical, and robust approach to spawning and managing threads
+using only raw system calls. It only takes about a dozen lines of C,
+including a few inline assembly instructions.
+The catch is that there’s no way to avoid using a bit of assembly. Neither
+the clone nor clone3 system calls have threading semantics compatible
+with C, so you’ll need to paper over it with a bit of inline assembly per
+architecture. This article will focus on x86-64, but the …]]></summary>
+        <author>
+            <name>null program</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.68.1]]></title>
+        <id>https://blog.rust-lang.org/2023/03/23/Rust-1.68.1.html</id>
+        <link href="https://blog.rust-lang.org/2023/03/23/Rust-1.68.1.html"/>
+        <updated>2023-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team has published a new point release of Rust, 1.68.1. Rust is a
+programming language that is empowering everyone to build reliable and
+efficient software.
+If you have a previous version of Rust installed via rustup, you can get 1.68.1 with:
+rustup update stable
+
+If you don't have it already, you can get rustup
+from the appropriate page on our website, and check out the
+detailed release notes for 1.68.1 on GitHub.
+What's in 1.68.1 stable
+Rust 1.68.1 stable primarily contains a change to how Rust's CI builds the
+Windows MSVC compiler, no longer enabling LTO for the Rust code. This led to a
+miscompilation that the Rust
+team is debugging, but in the meantime we're reverting the change to enable
+LTO.
+This is currently believed to have no effect on wider usage of ThinLTO. The
+Rust compiler used an unstable flag as part of the build process to enable
+ThinLTO despite compiling to a dylib.
+There are a few other regression fixes included in the release:
+Fix building the compiler with --enable-local-rust
+Treat $prefix-clang as clang in linker detection code
+Fix a panic in the compiler
+Contributors to 1.68.1
+Many people came together to create Rust 1.68.1. We couldn't have done it
+without all of you. Thanks!]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Angry customers are a gift]]></title>
+        <id>https://world.hey.com/dhh/angry-customers-are-a-gift-1949c52b</id>
+        <link href="https://world.hey.com/dhh/angry-customers-are-a-gift-1949c52b"/>
+        <updated>2023-03-22T10:11:35.000Z</updated>
+        <summary type="html"><![CDATA[The majority of customers will never tell you why they stop buying on their own. In fact, even if pressed, most will just smile, nod, and give you some face-saving reason for how “now is just not the right time” or “we are just going in a different direction”. Because that’s what avoids conflict.
+
+
+Thus, the only time you’re truly allowed a free peek at the naked truth of why your product or service didn’t fit, is when the customer is really upset. That’s when they might air out their frustration.
+
+
+This is a test. 
+
+
+You can either protect your ego from the sharp words of a frustrated customer by dismissing the feedback entirely OR you can be smart enough to filter out the emotion while retaining the crucial information that’ll improve your offering. Every loud, angry customer represents at least a dozen silent ones you lost to the same issues.
+
+
+But it’s hard! We bond with our creations and our companies because that’s the human thing to do if you like your work. So those sharp words can and often do hurt your feelings. It’s only natural to want to parry and riposte.  
+
+
+Before you do, though, remember the coin. If the customer takes the side that says “this is the end of the world”, you have to train yourself not to instinctively reach for “it’s no big deal / you’re overreacting / everyone else is fine with it”. If you do, you’ll gain nothing, and you’ll learn nothing.
+
+
+So embrace the conflict of an angry customer as a rare gift of feedback. Remove your ego from the response. Extract the maximum amount of information to feed back into the offering.
+
+
+That’s how you win. By building better rather than defending worse.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Don't be a knee-jerk]]></title>
+        <id>https://world.hey.com/jason/don-t-be-a-knee-jerk-ac7440f4</id>
+        <link href="https://world.hey.com/jason/don-t-be-a-knee-jerk-ac7440f4"/>
+        <updated>2023-03-21T16:36:14.000Z</updated>
+        <summary type="html"><![CDATA[At most companies, people put together a deck, reserve a room (physical or virtual), and call a meeting to pitch a new idea. If they're lucky, no one interrupts them while they're presenting. When it's over, people react. This is precisely the problem.
+The person making the pitch has presumably put a lot of time, thought, and energy into gathering their thoughts and presenting them clearly to an audience. But the rest of the people in the room are asked to react. Not absorb, not think it over, not consider — just react. Knee-jerk it. That's no way to treat fragile, new ideas.
+At 37signals we flip the script.
+When we present work, it's almost always written up first. In long form. A few hundred words, maybe a thousand. A complete idea in the form of a carefully composed document. Complete w…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Compressing a million-dollar commercial into $37,000]]></title>
+        <id>https://world.hey.com/dhh/compressing-a-million-dollar-commercial-into-37-000-0a99a38e</id>
+        <link href="https://world.hey.com/dhh/compressing-a-million-dollar-commercial-into-37-000-0a99a38e"/>
+        <updated>2023-03-21T08:45:45.000Z</updated>
+        <summary type="html"><![CDATA[Last year, we hired a high-profile ad agency to work on our first-ever branding campaign for Basecamp. They were smart, funny... and entirely out of sync with our budget. So we ended up letting them go, hiring a new head of marketing, and doing it all ourselves.
+The problem was that our entire marketing budget for 2023 amounted to a "mere" five million dollars. That's a huge multiple of everything we've ever spent before on marketing in the entire 24-year history of the company, but a pittance when you work with a top-tier agency full of people who used to do campaigns for the like of Apple or Nike.
+Of course this is all on us. While the agency knew what our budget was going in, we should have known that working with people who'd done work with the biggest, richest corporations in the worl…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delegating projects, not tasks]]></title>
+        <id>https://world.hey.com/jason/delegating-projects-not-tasks-f36cb8bc</id>
+        <link href="https://world.hey.com/jason/delegating-projects-not-tasks-f36cb8bc"/>
+        <updated>2023-03-20T21:15:51.000Z</updated>
+        <summary type="html"><![CDATA[We recently received this email from a REWORK Podcast listener who had a question...
+
+...I think it was in Shape Up that the idea of delegating projects rather than tasks came up. And I'm trying to move this way, of working with my own team. I just wonder if you guys have any tips or help for making that transition, helping team members take ownership for their areas of work, maybe obstacles I can watch out for leading my team in this way as we move in this direction. We have a small team, just a handful of people. But I would love to move in this direction where they're taking more ownership and I can delegate whole projects rather than, um, me kind of owning the project and then delegating tasks...
+
+We're likely going to address this question out loud on an upcoming podcast AMA, but I wa…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Numbers To Know For Managing (Software Teams)]]></title>
+        <id>https://staysaasy.com/management/2023/03/20/numbers-to-manage-by.html</id>
+        <link href="https://staysaasy.com/management/2023/03/20/numbers-to-manage-by.html"/>
+        <updated>2023-03-20T05:59:22.000Z</updated>
+        <summary type="html"><![CDATA[Learning how to manage is a long race - it takes many years and each lap offers new learnings. Along the way, anchors emerge that can help orient a manager when a number of other variables are in flux. Below we offer a number of these anchors. They are based on philosophy, experience, and analysis; we hope they’ll be of some use.]]></summary>
+        <author>
+            <name>Stay SaaSy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.68.1 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/03/20/1.68.1-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/03/20/1.68.1-prerelease.html"/>
+        <updated>2023-03-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.68.1 pre-release is ready for testing. The release is scheduled for
+March 23. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2023-03-20/index.html.
+You can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the Grafana Alerting team scales their issue management with GitHub Projects]]></title>
+        <id>https://github.blog/2023-03-15-how-the-grafana-alerting-team-scales-their-issue-management-with-github-projects/</id>
+        <link href="https://github.blog/2023-03-15-how-the-grafana-alerting-team-scales-their-issue-management-with-github-projects/"/>
+        <updated>2023-03-15T21:18:11.000Z</updated>
+        <summary type="html"><![CDATA[Hear from Grafana Labs' Armand Grillet about how his team uses GitHub Projects.]]></summary>
+        <author>
+            <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Just the two of us]]></title>
+        <id>https://world.hey.com/jason/just-the-two-of-us-afb2f54e</id>
+        <link href="https://world.hey.com/jason/just-the-two-of-us-afb2f54e"/>
+        <updated>2023-03-15T17:43:46.000Z</updated>
+        <summary type="html"><![CDATA[There's a lot of talk right now about smaller, slimmer, tighter teams. Economics are forcing companies to cut back, and what they're finding is progress. Trim the overgrown crown, let the sunshine meet the ground, and all sorts of new life blooms on the forest floor.
+Even Zuck, master of a megacorp, is noticing it:
+https://twitter.com/modestproposal1/status/1635672478478475267
+
+
+"Since we reduced our workforce last year, one surprising result is that many things have gone faster... Indirect costs compound and it’s easy to underestimate them... A leaner org will execute its highest priorities faster"
+
+A number of years ago I wrote a piece lauding the number three. I meant every word. Three person teams are incredibly efficient.
+But what's better than three?
+Two.
+Over the past few years, the…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Highlights from Git 2.40]]></title>
+        <id>https://github.blog/2023-03-13-highlights-from-git-2-40/</id>
+        <link href="https://github.blog/2023-03-13-highlights-from-git-2-40/"/>
+        <updated>2023-03-13T17:57:15.000Z</updated>
+        <summary type="html"><![CDATA[The first Git release of the year is here! Take a look at some of our highlights on what's new in Git 2.40.]]></summary>
+        <author>
+            <name>The GitHub Blog: Engineering News and Updates</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Be a PM That Engineers Don’t Hate]]></title>
+        <id>https://staysaasy.com/product/2023/03/12/pm-engineers-dont-hate.html</id>
+        <link href="https://staysaasy.com/product/2023/03/12/pm-engineers-dont-hate.html"/>
+        <updated>2023-03-12T05:59:22.000Z</updated>
+        <summary type="html"><![CDATA[You see it everywhere: Engineers complaining about the product managers that they work with. Hating on PMs is so universal that it's always good for a light chuckle in the right circles. This cycle is worth breaking.]]></summary>
+        <author>
+            <name>Stay SaaSy</name>
+        </author>
+    </entry>
+</feed>

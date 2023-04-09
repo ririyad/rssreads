@@ -1,0 +1,502 @@
+{
+  "sources": [
+    {
+      "title": "tonsky.me",
+      "feedUrl": "http://tonsky.me/blog/atom.xml",
+      "siteUrl": "https://tonsky.me/",
+      "articles": []
+    },
+    {
+      "title": "GolangCode",
+      "feedUrl": "https://golangcode.com/index.xml",
+      "siteUrl": "https://golangcode.com/",
+      "articles": []
+    },
+    {
+      "title": "Applied Go",
+      "feedUrl": "https://appliedgo.net/index.xml",
+      "siteUrl": "https://appliedgo.net/",
+      "articles": []
+    },
+    {
+      "title": "Dave Cheney",
+      "feedUrl": "https://dave.cheney.net/feed/atom",
+      "siteUrl": "https://dave.cheney.net",
+      "articles": []
+    },
+    {
+      "title": "David Heinemeier Hansson",
+      "feedUrl": "https://world.hey.com/dhh/feed.atom",
+      "siteUrl": "https://world.hey.com/dhh",
+      "articles": [
+        {
+          "id": "https://world.hey.com/dhh/go-rails-world-4f3c42e6",
+          "author": null,
+          "description": "Amanda Perino had barely settled into the role as executive director of The Rails Foundation before she secured a venue, a date, and the full support of the board for Rails World. This 650-attendee conference will kick off the worldwide ambitions for The Rails Foundation to host a new series of ecosystem gatherings at incredibly affordable prices (this first effort will be just €199-€299 for a ticket!). Way to make an entrance!\nThis new conference will kick off at quite a momentous occasion, too: Celebrating the 20th anniversary of Ruby on Rails! I started working on the framework in the summer of 2003 as part of the development of Basecamp. By October, the framework had a shape that would be completely recognizable today, with Active Record and Action Pack in place.\nIt's thus also fitting…",
+          "link": "https://world.hey.com/dhh/go-rails-world-4f3c42e6",
+          "publishedOn": "2023-04-07T11:19:41.000Z",
+          "wordCount": 624,
+          "title": "Go Rails World",
+          "imageUrl": "https://world.hey.com/dhh/4f3c42e6/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2ZBOGpkRyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--ff275808e2d206e3d810c92519ecf857f0371dd2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/rails-world.png"
+        },
+        {
+          "id": "https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966",
+          "author": null,
+          "description": "It's been a long time since I last saw a physical piece of hardware used to run our services at 37signals. I vaguely remember doing a tour of our Chicago data center over a decade ago, but somewhere along the line, I just lost interest in the iron itself. Now the interest is back, because hardware is fun again, so let me share my excitement with you!\n  \n      \n        \n\n  \nThese are the two pallets that showed up in our Chicago data center recently. The same day that an identical set arrived in Ashburn, Virginia for our second data center. In total, we received twenty R7625 Dell servers that'll power the bulk of our cloud exit. It's a staggering amount of computing power in a shockingly small footprint.\nHere's a diagram of our four cabinets in Chicago (we have another four in Ashburn). As …",
+          "link": "https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966",
+          "publishedOn": "2023-04-06T13:54:17.000Z",
+          "wordCount": 852,
+          "title": "The hardware we need for our cloud exit has arrived",
+          "imageUrl": "https://world.hey.com/dhh/99d66966/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2V1L2laRyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--da3c24dbf624c104b23e6d0110ca35b23c7967c7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/server-pallets.jpg"
+        },
+        {
+          "id": "https://world.hey.com/dhh/standing-up-to-golems-c98dd4a8",
+          "author": null,
+          "description": "Tim Urban's new book What's Our Problem? offers an excellent analysis of the current American political malaise. It breaks down the history of first how the Republican party got overrun by low-rung thinking from the mid-90s forward, then how equally low-rung thinking got the other side in the past decade or so. It's a light, humorous recap of modern American political history. I highly recommend it.\nIt's central contribution is adding a second dimension to the political spectrum. What we're dealing with is not just far-left, left, center, right, far-right. That spectrum is about contesting \"what is\" and \"what ought to be\". Our current problem is not so much disagreeing about those two central elements. All democracies will and should continue to do that. It's how that disagreements manifes…",
+          "link": "https://world.hey.com/dhh/standing-up-to-golems-c98dd4a8",
+          "publishedOn": "2023-04-05T13:25:14.000Z",
+          "wordCount": 621,
+          "title": "Standing up to golems",
+          "imageUrl": "https://world.hey.com/dhh/c98dd4a8/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2NtRVJORyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--0251e85b7f28dafed480b16ea07888045a046ed3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/idea-supremacy.png"
+        },
+        {
+          "id": "https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993",
+          "author": null,
+          "description": "One of the most important techniques I've embraced for managing my time is to direct related tasks to a bucket, let that bucket accumulate until full, then empty it all in one go. This in contrast to trying to catch every task the moment it lands from the myriad of interruption pipes that'll drip-drip-drip your day away if you let them. Nowhere is the most evident than with email.\nI used to take such pride in inbox zero when I was still using Gmail. I'd check email continuously throughout the day, and I'd get back to almost everyone immediately. Whether it was urgent or not. Just so I could see that sweet zero. It felt very productive. It was not.\nEvery email is a drop, and every drop ripples the surface of your mind. It's careless to let them hit without a filter. Your attention will have…",
+          "link": "https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993",
+          "publishedOn": "2023-03-31T09:37:11.000Z",
+          "wordCount": 634,
+          "title": "How to have buckets of time",
+          "imageUrl": "https://world.hey.com/dhh/38693993/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2RsL2JORiIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--313424d7063acb8935450cc1c6ff4173a4ca9e6f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/hey-focus-and-reply.png"
+        },
+        {
+          "id": "https://world.hey.com/dhh/america-is-never-getting-to-denmark-e471ae91",
+          "author": null,
+          "description": "It took moving back to Denmark to realize the folly of thinking America is ever going to \"get there\". Whether on guns or healthcare or taxes or any other major policy position that's so fiercely contested in the US. Despite growing up in this little Nordic country, I didn't fully appreciate the tremendous, underpinning power of a homogenous culture to fasten all these planks of a socially-democratic state – until I returned after 15 years Over There. I do now.\nDenmark is a notoriously difficult country to integrate in. Not only because the language difficult, but because the people are too! I say this with all the love and respect of a Dane that continues to marvel at what a high-trust, high-coherence society these former Vikings have managed to construct. But it's true. Danes are ever so …",
+          "link": "https://world.hey.com/dhh/america-is-never-getting-to-denmark-e471ae91",
+          "publishedOn": "2023-03-30T09:04:24.000Z",
+          "wordCount": 1156,
+          "title": "America is never \"getting to Denmark\"",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
+          "id": "https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76",
+          "author": null,
+          "description": "It'll soon cost $7/month to fully participate on Twitter. Musk has announced they'll start reserving presence in the For You tab solely for paying customers from April 15th, limit participation in polls to just those customers, and soon also give preferential showing in replies as well. Legacy blue-checks will not be spared, and will in fact lose their old privileges. The price is the same for all. Bold!\nAll of the usual characters from the Musk Sucks Show are up in arms about this, of course. Something about how charging money for a service is a transgression against Musk's allegiance to free speech, I think? Hard to keep straight all the rationalization on why everything the man does is Literally The Worst Thing Ever.\n(This is the part where it's customary to insert a caveat that I Also …",
+          "link": "https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76",
+          "publishedOn": "2023-03-28T09:57:30.000Z",
+          "wordCount": 662,
+          "title": "Why is paid social media a bad idea?",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
+          "id": "https://world.hey.com/dhh/cut-cloud-before-payroll-a4530ebd",
+          "author": null,
+          "description": "Every week seems to offer fresh staff cuts at the big tech companies right now. Several of the giants are already on their second rounds, and few would probably bet against a third after those. But as hard as it is on an individual level – and it's always hard! – there's a silver lining for the economy as a whole: Releasing captive talent.\nSee, the big tech companies gobbled up so much talent at such high salaries during the pandemic that it scarcely left any for the rest of the economy. So many companies outside of big tech were priced out of the competition for key tech hires. That just can't be good for the economy in the long run. We need smart people focused on other problems beyond figuring out how to make people click more ads.\nBut while the mammoth cuts at Facebook, Amazon, and els…",
+          "link": "https://world.hey.com/dhh/cut-cloud-before-payroll-a4530ebd",
+          "publishedOn": "2023-03-23T08:37:28.000Z",
+          "wordCount": 646,
+          "title": "Cut cloud before payroll",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
+          "id": "https://world.hey.com/dhh/angry-customers-are-a-gift-1949c52b",
+          "author": null,
+          "description": "The majority of customers will never tell you why they stop buying on their own. In fact, even if pressed, most will just smile, nod, and give you some face-saving reason for how “now is just not the right time” or “we are just going in a different direction”. Because that’s what avoids conflict.\n\n\nThus, the only time you’re truly allowed a free peek at the naked truth of why your product or service didn’t fit, is when the customer is really upset. That’s when they might air out their frustration.\n\n\nThis is a test. \n\n\nYou can either protect your ego from the sharp words of a frustrated customer by dismissing the feedback entirely OR you can be smart enough to filter out the emotion while retaining the crucial information that’ll improve your offering. Every loud, angry customer represents at least a dozen silent ones you lost to the same issues.\n\n\nBut it’s hard! We bond with our creations and our companies because that’s the human thing to do if you like your work. So those sharp words can and often do hurt your feelings. It’s only natural to want to parry and riposte.  \n\n\nBefore you do, though, remember the coin. If the customer takes the side that says “this is the end of the world”, you have to train yourself not to instinctively reach for “it’s no big deal / you’re overreacting / everyone else is fine with it”. If you do, you’ll gain nothing, and you’ll learn nothing.\n\n\nSo embrace the conflict of an angry customer as a rare gift of feedback. Remove your ego from the response. Extract the maximum amount of information to feed back into the offering.\n\n\nThat’s how you win. By building better rather than defending worse.",
+          "link": "https://world.hey.com/dhh/angry-customers-are-a-gift-1949c52b",
+          "publishedOn": "2023-03-22T10:11:35.000Z",
+          "wordCount": 371,
+          "title": "Angry customers are a gift",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
+          "id": "https://world.hey.com/dhh/compressing-a-million-dollar-commercial-into-37-000-0a99a38e",
+          "author": null,
+          "description": "Last year, we hired a high-profile ad agency to work on our first-ever branding campaign for Basecamp. They were smart, funny... and entirely out of sync with our budget. So we ended up letting them go, hiring a new head of marketing, and doing it all ourselves.\nThe problem was that our entire marketing budget for 2023 amounted to a \"mere\" five million dollars. That's a huge multiple of everything we've ever spent before on marketing in the entire 24-year history of the company, but a pittance when you work with a top-tier agency full of people who used to do campaigns for the like of Apple or Nike.\nOf course this is all on us. While the agency knew what our budget was going in, we should have known that working with people who'd done work with the biggest, richest corporations in the worl…",
+          "link": "https://world.hey.com/dhh/compressing-a-million-dollar-commercial-into-37-000-0a99a38e",
+          "publishedOn": "2023-03-21T08:45:45.000Z",
+          "wordCount": 454,
+          "title": "Compressing a million-dollar commercial into $37,000",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        }
+      ]
+    },
+    {
+      "title": "Jason Fried",
+      "feedUrl": "https://world.hey.com/jason/feed.atom",
+      "siteUrl": "https://world.hey.com/jason",
+      "articles": [
+        {
+          "id": "https://world.hey.com/jason/how-we-built-something-useful-8ff6a83b",
+          "author": null,
+          "description": "The product development process encompasses many moments. Moments of novel breakthrough, moments of mundane maintenance, and everything in between. But some of the most rewarding moments consistently come from making something simply useful.\nYesterday we shipped a feature in HEY called \"Reply to Everyone\" that was exactly that: Simply useful.\nOne of the things that makes something simply useful is a clear line from problem to solution. From hassle to effortlessness. From a lot of time to nearly no time at all. From creating work to eliminating work.\nSo let's trace Reply to Everyone back to the initial germ of the idea.\nIt all started with frustration. This is a great place to start any feature. In fact, the closer you start to frustration, the more fuel you have to burn up the problem.\nWha…",
+          "link": "https://world.hey.com/jason/how-we-built-something-useful-8ff6a83b",
+          "publishedOn": "2023-04-04T20:51:30.000Z",
+          "wordCount": 936,
+          "title": "How we built something useful",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
+          "id": "https://world.hey.com/jason/the-improv-instinct-bdf7d930",
+          "author": null,
+          "description": "Last week I was talking with another business owner from a different industry. He was frustrated with an employee who kept asking him what to do if x, y, or z happens. This was a long-time employee who'd been in these situations before, not someone new who was learning the ropes.\nWith this particular employee, it's always the same set of questions no matter the situation. It could be a call with a client. If could be a meeting with another department. It could be a conversation with a vendor. What if they bring this up...? What if they bring that up...? What should I say if they say...? What about if they...? Essentially this employee wanted to be prepared for every contingency in a given situation. And they were great when everything went as anticipated.\nBeing prepared sounds like a good …",
+          "link": "https://world.hey.com/jason/the-improv-instinct-bdf7d930",
+          "publishedOn": "2023-03-29T18:59:20.000Z",
+          "wordCount": 522,
+          "title": "The improv instinct",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
+          "id": "https://world.hey.com/jason/don-t-be-a-knee-jerk-ac7440f4",
+          "author": null,
+          "description": "At most companies, people put together a deck, reserve a room (physical or virtual), and call a meeting to pitch a new idea. If they're lucky, no one interrupts them while they're presenting. When it's over, people react. This is precisely the problem.\nThe person making the pitch has presumably put a lot of time, thought, and energy into gathering their thoughts and presenting them clearly to an audience. But the rest of the people in the room are asked to react. Not absorb, not think it over, not consider — just react. Knee-jerk it. That's no way to treat fragile, new ideas.\nAt 37signals we flip the script.\nWhen we present work, it's almost always written up first. In long form. A few hundred words, maybe a thousand. A complete idea in the form of a carefully composed document. Complete w…",
+          "link": "https://world.hey.com/jason/don-t-be-a-knee-jerk-ac7440f4",
+          "publishedOn": "2023-03-21T16:36:14.000Z",
+          "wordCount": 452,
+          "title": "Don't be a knee-jerk",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
+          "id": "https://world.hey.com/jason/delegating-projects-not-tasks-f36cb8bc",
+          "author": null,
+          "description": "We recently received this email from a REWORK Podcast listener who had a question...\n\n...I think it was in Shape Up that the idea of delegating projects rather than tasks came up. And I'm trying to move this way, of working with my own team. I just wonder if you guys have any tips or help for making that transition, helping team members take ownership for their areas of work, maybe obstacles I can watch out for leading my team in this way as we move in this direction. We have a small team, just a handful of people. But I would love to move in this direction where they're taking more ownership and I can delegate whole projects rather than, um, me kind of owning the project and then delegating tasks...\n\nWe're likely going to address this question out loud on an upcoming podcast AMA, but I wa…",
+          "link": "https://world.hey.com/jason/delegating-projects-not-tasks-f36cb8bc",
+          "publishedOn": "2023-03-20T21:15:51.000Z",
+          "wordCount": 935,
+          "title": "Delegating projects, not tasks",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        },
+        {
+          "id": "https://world.hey.com/jason/just-the-two-of-us-afb2f54e",
+          "author": null,
+          "description": "There's a lot of talk right now about smaller, slimmer, tighter teams. Economics are forcing companies to cut back, and what they're finding is progress. Trim the overgrown crown, let the sunshine meet the ground, and all sorts of new life blooms on the forest floor.\nEven Zuck, master of a megacorp, is noticing it:\nhttps://twitter.com/modestproposal1/status/1635672478478475267\n\n\n\"Since we reduced our workforce last year, one surprising result is that many things have gone faster... Indirect costs compound and it’s easy to underestimate them... A leaner org will execute its highest priorities faster\"\n\nA number of years ago I wrote a piece lauding the number three. I meant every word. Three person teams are incredibly efficient.\nBut what's better than three?\nTwo.\nOver the past few years, the…",
+          "link": "https://world.hey.com/jason/just-the-two-of-us-afb2f54e",
+          "publishedOn": "2023-03-15T17:43:46.000Z",
+          "wordCount": 629,
+          "title": "Just the two of us",
+          "imageUrl": "https://world.hey.com/jason/avatar-20200630203149000000-2745081"
+        }
+      ]
+    },
+    {
+      "title": "The Plain Text Project",
+      "feedUrl": "https://plaintextproject.online/feed.xml",
+      "siteUrl": "https://plaintextproject.online",
+      "articles": []
+    },
+    {
+      "title": "Andrew Kelley",
+      "feedUrl": "https://andrewkelley.me/rss.xml",
+      "siteUrl": "http://andrewkelley.me/",
+      "articles": []
+    },
+    {
+      "title": "Martin Fowler",
+      "feedUrl": "https://martinfowler.com/feed.atom",
+      "siteUrl": "https://martinfowler.com/feed.atom",
+      "articles": [
+        {
+          "id": "https://martinfowler.com/bliki/Slack.html",
+          "author": null,
+          "description": "Recent discussions with my colleagues showed that many software teams\n     still run into trouble because they pack too much planned\n     work into their iterations. Teams will usually run better when they have\n     deliberate Slack, as it allows their delivery to be more predictable and\n     gives them time to improve their environment.\nWhile writing that bliki post, I also defined two styles of task\n     planning in agile projects. Timeboxed Iterations are used to\n     break up work into small chunks with a regular cadence to reassess the work\n     and future plans. Using a little ceremony around allocating work to\n     iterations helps make problems visible so that they can be dealt with\n     properly. Continuous Flow\n     dispenses with that ceremony, so skilled teams often prefer it.\nmore…",
+          "link": "https://martinfowler.com/bliki/Slack.html",
+          "publishedOn": "2023-04-04T14:30:00.000Z",
+          "wordCount": 688,
+          "title": "Slack in your plans",
+          "imageUrl": "https://martinfowler.com/bliki/images/slack/card.png"
+        }
+      ]
+    },
+    {
+      "title": "Adam Wathan's Work Journal",
+      "feedUrl": "https://adamwathan.me/journal/rss.xml",
+      "siteUrl": "https://adamwathan.me/journal",
+      "articles": []
+    },
+    {
+      "title": "Rust Blog",
+      "feedUrl": "https://blog.rust-lang.org/feed.xml",
+      "siteUrl": "https://blog.rust-lang.org/",
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2023/03/28/Rust-1.68.2.html",
+          "author": null,
+          "description": "The Rust team has published a new point release of Rust, 1.68.2. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.68.2 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.68.2 on GitHub.\nWhat's in 1.68.2 stable\nRust 1.68.2 addresses GitHub's recent rotation of their RSA SSH host\nkey, which\nhappened on March 24th 2023 after their previous key accidentally leaked:\nGitHub's RSA key bundled in Cargo has been\nupdated, to ensure systems\nthat haven't interacted with GitHub yet won't connect trusting the leaked\nkey.\nThe leaked key has been hardcoded as revoked in\nCargo, to ensure the key\nwon't be used by Cargo even on systems that still trust the key.\nSupport for @revoked entries in\n.ssh/known_hosts (along with\na better error message when the unsupported @cert-authority entries are used)\nis also included in Rust 1.68.2, as that change was a pre-requisite for\nbackporting the hardcoded revocation.\nIf you cannot upgrade to Rust 1.68.2, we recommend following GitHub's\ninstructions\non updating the trusted keys in your system. Note that the keys bundled in\nCargo are only used if no trusted key for github.com is found on the system.\nContributors to 1.68.2\nMany people came together to create Rust 1.68.2. We couldn't have done it\nwithout all of you. Thanks!",
+          "link": "https://blog.rust-lang.org/2023/03/28/Rust-1.68.2.html",
+          "publishedOn": "2023-03-28T00:00:00.000Z",
+          "wordCount": 320,
+          "title": "Announcing Rust 1.68.2",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/2023/03/23/Rust-1.68.1.html",
+          "author": null,
+          "description": "The Rust team has published a new point release of Rust, 1.68.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.68.1 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.68.1 on GitHub.\nWhat's in 1.68.1 stable\nRust 1.68.1 stable primarily contains a change to how Rust's CI builds the\nWindows MSVC compiler, no longer enabling LTO for the Rust code. This led to a\nmiscompilation that the Rust\nteam is debugging, but in the meantime we're reverting the change to enable\nLTO.\nThis is currently believed to have no effect on wider usage of ThinLTO. The\nRust compiler used an unstable flag as part of the build process to enable\nThinLTO despite compiling to a dylib.\nThere are a few other regression fixes included in the release:\nFix building the compiler with --enable-local-rust\nTreat $prefix-clang as clang in linker detection code\nFix a panic in the compiler\nContributors to 1.68.1\nMany people came together to create Rust 1.68.1. We couldn't have done it\nwithout all of you. Thanks!",
+          "link": "https://blog.rust-lang.org/2023/03/23/Rust-1.68.1.html",
+          "publishedOn": "2023-03-23T00:00:00.000Z",
+          "wordCount": 279,
+          "title": "Announcing Rust 1.68.1",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Inside Rust Blog",
+      "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
+      "siteUrl": "https://blog.rust-lang.org/inside-rust/",
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/04/06/cargo-new-members.html",
+          "author": null,
+          "description": "We are excited to welcome Arlo Siemsen and Scott Schafer as new members to the Cargo Team!\nArlo has been instrumental in bringing Cargo's new sparse registry support to fruition, which significantly improves registry performance. He has been involved with registry design and authentication discussions, and has been closely working with the team over the past year.\nScott has been very active in the past year, working on various parts of Cargo, namely implementing workspace inheritance. Since then, he has been helping with maintenance and designing new features.\nWith their help we now have capacity to start thinking about how feature development should be done moving forward. We are still in early discussions of processes for matching feature development with reviewer capacity, and will share more in the future. Thanks to Arlo and Scott for their help, and we are very much looking forward to having them as a part of the team!",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/04/06/cargo-new-members.html",
+          "publishedOn": "2023-04-06T00:00:00.000Z",
+          "wordCount": 238,
+          "title": "Welcome Arlo and Scott to the Cargo Team",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html",
+          "author": null,
+          "description": "The 1.68.2 pre-release is ready for testing. The release is scheduled for\nMarch 28. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-03-27/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html",
+          "publishedOn": "2023-03-27T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.68.2 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/03/20/1.68.1-prerelease.html",
+          "author": null,
+          "description": "The 1.68.1 pre-release is ready for testing. The release is scheduled for\nMarch 23. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-03-20/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/03/20/1.68.1-prerelease.html",
+          "publishedOn": "2023-03-20T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.68.1 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Jorge Manrubia",
+      "feedUrl": "https://world.hey.com/jorge/feed.atom",
+      "siteUrl": "https://world.hey.com/jorge",
+      "articles": []
+    },
+    {
+      "title": "The GitHub Blog: Engineering News and Updates",
+      "feedUrl": "https://github.blog/engineering.atom",
+      "siteUrl": "https://github.blog/category/engineering/",
+      "articles": [
+        {
+          "id": "https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/",
+          "author": null,
+          "description": "Generative AI has been dominating the news lately—but what exactly is it? Here’s what you need to know, and what it means for developers.",
+          "link": "https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/",
+          "publishedOn": "2023-04-07T15:00:32.000Z",
+          "wordCount": 3942,
+          "title": "What developers need to know about generative AI",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/04/1200.630-Global.png?fit=1200%2C630"
+        },
+        {
+          "id": "https://github.blog/2023-04-06-building-github-with-ruby-and-rails/",
+          "author": null,
+          "description": "Since the beginning, GitHub.com has been a Ruby on Rails monolith. Today, the application is nearly two million lines of code and more than 1,000 engineers collaborate on it daily. We deploy as often as 20 times a day, and nearly every week one of those deploys is a Rails upgrade. Upgrading Rails weekly Every [&#8230;]",
+          "link": "https://github.blog/2023-04-06-building-github-with-ruby-and-rails/",
+          "publishedOn": "2023-04-06T18:05:43.000Z",
+          "wordCount": 2030,
+          "title": "Building GitHub with Ruby and Rails",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/04/1200x630-Partnerships-Dark@2x.png"
+        },
+        {
+          "id": "https://github.blog/2023-04-05-github-availability-report-march-2023/",
+          "author": null,
+          "description": "In March, we experienced six incidents that resulted in degraded performance across GitHub services. This report also sheds light into a February incident that resulted in degraded performance for GitHub Codespaces.",
+          "link": "https://github.blog/2023-04-05-github-availability-report-march-2023/",
+          "publishedOn": "2023-04-05T16:00:48.000Z",
+          "wordCount": 1647,
+          "title": "GitHub Availability Report: March 2023",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/04/Engineering-Enterprise@2x-1.png?fit=2400%2C1260"
+        },
+        {
+          "id": "https://github.blog/2023-03-15-how-the-grafana-alerting-team-scales-their-issue-management-with-github-projects/",
+          "author": null,
+          "description": "Hear from Grafana Labs' Armand Grillet about how his team uses GitHub Projects.",
+          "link": "https://github.blog/2023-03-15-how-the-grafana-alerting-team-scales-their-issue-management-with-github-projects/",
+          "publishedOn": "2023-03-15T21:18:11.000Z",
+          "wordCount": 2450,
+          "title": "How the Grafana Alerting team scales their issue management with GitHub Projects",
+          "imageUrl": "https://github.blog/wp-content/uploads/2022/06/Engineering-Product@2x.png"
+        },
+        {
+          "id": "https://github.blog/2023-03-13-highlights-from-git-2-40/",
+          "author": null,
+          "description": "The first Git release of the year is here! Take a look at some of our highlights on what's new in Git 2.40.",
+          "link": "https://github.blog/2023-03-13-highlights-from-git-2-40/",
+          "publishedOn": "2023-03-13T17:57:15.000Z",
+          "wordCount": 1915,
+          "title": "Highlights from Git 2.40",
+          "imageUrl": "https://github.blog/wp-content/uploads/2023/03/git-240-2.png"
+        }
+      ]
+    },
+    {
+      "title": "Meta Research",
+      "feedUrl": "https://research.facebook.com/feed/",
+      "siteUrl": "https://research.facebook.com/",
+      "articles": [
+        {
+          "id": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
+          "author": null,
+          "description": "...",
+          "link": "https://research.facebook.com/blog/2023/4/announcing-the-2023-meta-research-phd-fellowship-award-winners/",
+          "publishedOn": "2023-04-05T09:30:00.000Z",
+          "wordCount": 846,
+          "title": "Announcing the 2023 Meta Research PhD Fellowship award winners",
+          "imageUrl": "https://research.facebook.com/file/3474092156250140/2023-fellows_v2-desktop.png"
+        },
+        {
+          "id": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
+          "author": null,
+          "description": "In September, Meta launched the Foundational Integrity Research request for proposals. Today, we announce the winners of this award.",
+          "link": "https://research.facebook.com/blog/2023/3/announcing-the-winners-of-the-2022-foundational-integrity-research-request-for-proposals-/",
+          "publishedOn": "2023-03-27T04:35:00.000Z",
+          "wordCount": 650,
+          "title": "Announcing the winners of the 2022 Foundational Integrity Research request for proposals",
+          "imageUrl": "https://research.facebook.com/file/1170333413654571/integrity.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Nick Craver",
+      "feedUrl": "https://nickcraver.com/blog/feed.xml",
+      "siteUrl": "https://nickcraver.com/blog",
+      "articles": []
+    },
+    {
+      "title": "Coding Horror",
+      "feedUrl": "https://blog.codinghorror.com/rss/",
+      "siteUrl": "https://blog.codinghorror.com/",
+      "articles": []
+    },
+    {
+      "title": "null program",
+      "feedUrl": "https://nullprogram.com/feed/",
+      "siteUrl": "https://nullprogram.com",
+      "articles": [
+        {
+          "id": "https://nullprogram.com/blog/2023/03/23/",
+          "author": null,
+          "description": "Suppose you’re not using a C runtime on Linux, and instead you’re\nprogramming against its system call API. It’s long-term and stable after\nall. Memory management and buffered I/O are easily\nsolved, but a lot of software benefits from concurrency. It would be nice\nto also have thread spawning capability. This article will demonstrate a\nsimple, practical, and robust approach to spawning and managing threads\nusing only raw system calls. It only takes about a dozen lines of C,\nincluding a few inline assembly instructions.\nThe catch is that there’s no way to avoid using a bit of assembly. Neither\nthe clone nor clone3 system calls have threading semantics compatible\nwith C, so you’ll need to paper over it with a bit of inline assembly per\narchitecture. This article will focus on x86-64, but the …",
+          "link": "https://nullprogram.com/blog/2023/03/23/",
+          "publishedOn": "2023-03-23T05:32:41.000Z",
+          "wordCount": 2014,
+          "title": "Practical libc-free threading on Linux",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Xe's Blog",
+      "feedUrl": "https://christine.website/blog.atom",
+      "siteUrl": "https://xeiaso.net/blog",
+      "articles": [
+        {
+          "id": "https://xeiaso.net/blog/xeact-esbuild",
+          "author": null,
+          "description": "Xeact has succeeded in its goal of\nintergalactic domination of the attention space of frontend\ndevelopers. Not only has it been the catalyst towards my true\nunderstanding of front-end development, it is the most popular\nfrontend femtoframework as signified by this handy\ngraph:\n\n\n\nHowever, my deployment process for Xeact components relies on the\ndeno bundle command, which is being\ndeprecated:\nWarning \"deno bundle\" is deprecated and will be removed in the future.\nUse alternative bundlers like \"deno_emit\", \"esbuild\" or \"rollup\" instead.\n\nI have always hated the process of deploying JavaScript code to the\ninternet. npm creates massive balls of mud that are so logistically\nannoying to tease out into actual real files that your browser can\nload. The tooling around building JavaScript projects in…",
+          "link": "https://xeiaso.net/blog/xeact-esbuild",
+          "publishedOn": "2023-04-08T00:00:00.000Z",
+          "wordCount": 2675,
+          "title": "Building Xeact components with esbuild and Nix",
+          "imageUrl": "https://cdn.xeiaso.net/file/christine-static/hero/inspiration-vibes-smol.png"
+        },
+        {
+          "id": "https://xeiaso.net/blog/xeact-0.70.0-useState",
+          "author": null,
+          "description": "Xeact continues to dominate the front-end ecosystem. Every facet of\nthe industry has been forever changed by Xeact, and we are all better\nfor it. Today I have the momentous pleasure of introducing the newest\nversion of Xeact: version 0.70.0. This allows you to track stateful\nvalues using the new useState hook.\n\n\nImage generated by Anything v3 -- 1girl, green hair, hoodie, outdoors, breath of the wild, space needle, walking, long hair, highly detailed, futuristic\nTo help illustrate the point, I have copied the entire source code of\nthe useState function below:\n/**\n * Allows a stateful value to be tracked by consumers.\n *\n * This is the Xeact version of the React useState hook.\n *\n * @type{function(any): [function(): any, function(any): void]}\n */\nconst useState = (value = undefined) => {\n  …",
+          "link": "https://xeiaso.net/blog/xeact-0.70.0-useState",
+          "publishedOn": "2023-04-03T00:00:00.000Z",
+          "wordCount": 1070,
+          "title": "Xeact 0.70.0: now with the useState hook",
+          "imageUrl": "https://cdn.xeiaso.net/file/christine-static/hero/solo-journey-smol.png"
+        },
+        {
+          "id": "https://xeiaso.net/blog/tailscale-headscale-funnel",
+          "author": null,
+          "description": "I’m always amazed by the power of technology and the creativity of people who use it. Today I want to share with you a project that I did for fun and learning. It’s about how to use Tailscale Funnel to host a Headscale server from behind NAT. Sounds crazy, right? Let me explain.\nTailscale Funnel is a tool that lets you share a web service on your private network with the public internet. It’s like having your own personal cloud without the hassle of setting up servers and domains. Headscale is a tool that lets you create your own Tailscale control plane. It’s like having your own private VPN without relying on a third-party service.\nNow, what if you could combine these two tools and create a network that uses Tailscale without using Tailscale? That’s exactly what I did. I used waifud, NixOS, and Funnel to create a virtual machine that runs Headscale and exposes it to the internet. Then I used Funnel to connect other devices to this network and enjoy the benefits of Tailscale.\nWhy did I do this? Because I love learning new things and challenging myself. Because I believe in the power of open source and decentralized solutions. Because I wanted to have some fun and make some jokes along the way.\nThis project taught me a lot about networking, security, and automation. It also showed me how much potential there is in tools like Tailscale and Headscale. And it made me laugh at the absurdity of using Tailscale without using Tailscale.\nIf you’re curious about how I did this, you can check out my blog post where I explain everything in detail. It’s not a serious tutorial, but rather a playful experiment.\nI hope this post inspires you to try new things and have fun with technology. Remember, nothing is impossible if you put your mind to it. And don’t forget to laugh at yourself sometimes.",
+          "link": "https://xeiaso.net/blog/tailscale-headscale-funnel",
+          "publishedOn": "2023-04-01T00:00:00.000Z",
+          "wordCount": 646,
+          "title": "Using Tailscale without using Tailscale",
+          "imageUrl": null
+        },
+        {
+          "id": "https://xeiaso.net/blog/tailscale-funnel-101",
+          "author": null,
+          "description": "🚀 Do you want to share your web server with the world without exposing your computer to the world? 🚀\nIf you’re like me, you love using Tailscale to create a secure and private network for your devices. But sometimes, you need to let the outside world access your web server, whether it’s for testing, hosting, or collaborating.\nThat’s why I’m super excited about Tailscale Funnel, a new feature that lets you route traffic from the internet to your Tailscale node. You can think of it as publicly sharing a node for anyone to access, even if they don’t have Tailscale themselves.\nTailscale Funnel is easy to set up and use. You just need to enable it in the admin console and on your node, and you’ll get a public DNS name for your node that points to Tailscale’s Funnel servers. These servers will proxy the incoming requests over Tailscale to your node, where you can terminate the TLS and serve your content.\nThe best part is that Tailscale Funnel is secure and private. The Funnel servers don’t see any information about your traffic or what you’re serving. They only see the source IP and port, the SNI name, and the number of bytes passing through. And they can’t connect to your nodes directly. They only offer a TCP connection, which your nodes can accept or reject.\nTailscale Funnel is currently in beta and available for all users. I’ve been using it for a while now and I’m blown away by how simple and powerful it is. It’s like having your own personal cloud service without any hassle or cost.",
+          "link": "https://xeiaso.net/blog/tailscale-funnel-101",
+          "publishedOn": "2023-03-30T00:00:00.000Z",
+          "wordCount": 615,
+          "title": "Funnel 101: sharing your local developer preview with the world",
+          "imageUrl": null
+        },
+        {
+          "id": "https://xeiaso.net/blog/protos",
+          "author": null,
+          "description": "<Cadey> On July 13, 2020, I was\ninspired to write out the outline for a short science fiction / horror\nstory about a generative AI being able to write entire features in\ncode and how the market reacted to that. I recently rediscovered it\nand I feel that now is the time to write it for real.\nThis\nis a work of fiction. Names, characters, business, events and\nincidents are the products of the author’s imagination. Any\nresemblance to actual persons, living or dead, or actual events is\npurely coincidental.\n\nOne day, Jeff stretched at his desk while he was puzzling out the\nproblem his product manager had thrust upon him. It was an emergency,\nas usual. The login form had the wrong color at the wrong place, and\nit was causing people to look at the login form then run away in\nterror.\n\n\nImage genera…",
+          "link": "https://xeiaso.net/blog/protos",
+          "publishedOn": "2023-03-29T00:00:00.000Z",
+          "wordCount": 1873,
+          "title": "Protos",
+          "imageUrl": "https://cdn.xeiaso.net/file/christine-static/hero/jeff-protos-smol.png"
+        }
+      ]
+    },
+    {
+      "title": "Stay SaaSy",
+      "feedUrl": "https://staysaasy.com/feed.xml",
+      "siteUrl": "https://staysaasy.com/",
+      "articles": [
+        {
+          "id": "https://staysaasy.com/management/2023/03/20/numbers-to-manage-by.html",
+          "author": null,
+          "description": "Learning how to manage is a long race - it takes many years and each lap offers new learnings. Along the way, anchors emerge that can help orient a manager when a number of other variables are in flux. Below we offer a number of these anchors. They are based on philosophy, experience, and analysis; we hope they’ll be of some use.",
+          "link": "https://staysaasy.com/management/2023/03/20/numbers-to-manage-by.html",
+          "publishedOn": "2023-03-20T05:59:22.000Z",
+          "wordCount": 1494,
+          "title": "Numbers To Know For Managing (Software Teams)",
+          "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
+        },
+        {
+          "id": "https://staysaasy.com/product/2023/03/12/pm-engineers-dont-hate.html",
+          "author": null,
+          "description": "You see it everywhere: Engineers complaining about the product managers that they work with. Hating on PMs is so universal that it's always good for a light chuckle in the right circles. This cycle is worth breaking.",
+          "link": "https://staysaasy.com/product/2023/03/12/pm-engineers-dont-hate.html",
+          "publishedOn": "2023-03-12T05:59:22.000Z",
+          "wordCount": 1770,
+          "title": "How to Be a PM That Engineers Don’t Hate",
+          "imageUrl": "https://staysaasy.com/assets/template/stay-saasy-black-ogimage.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "Julia Evans",
+      "feedUrl": "https://jvns.ca/atom.xml",
+      "siteUrl": "http://jvns.ca/atom.xml",
+      "articles": [
+        {
+          "id": "https://jvns.ca/blog/2023/03/31/zine-feedback-site/",
+          "author": null,
+          "description": "Hello! A few years I wrote a post called A new way I’m getting feedback on my posts: beta readers!\nabout how I’d started using beta readers.\nThe basic strategy for getting feedback there was to email people a PDF and ask\nfor feedback. This was kind of inefficient, and so over the past couple of\nyears, I’ve worked a lot with Marie Flanagan to\nimprove the process. In this post we’ll talk about:\nthe custom site we built to handle all of the feedback\nhow (and why) we designed that site\nthe specific categories of feedback we ask for (and why we chose those categories)\nThe site isn’t open source, this post is just about the process of building and\nusing it. There are some screenshots further down.\nFirst, let’s talk about some problems with the original process.\nproblem 1: managing the feedback w…",
+          "link": "https://jvns.ca/blog/2023/03/31/zine-feedback-site/",
+          "publishedOn": "2023-03-31T08:51:30.000Z",
+          "wordCount": 2501,
+          "title": "Building a custom site for zine feedback",
+          "imageUrl": null
+        }
+      ]
+    }
+  ],
+  "cliVersion": "1.15.1"
+}
