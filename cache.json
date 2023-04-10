@@ -30,6 +30,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/we-spent-300k-on-billboards-in-boston-and-it-was-a-bust-2ae8c9dd",
+          "author": null,
+          "description": "Our 2023 marketing campaign for Basecamp kicked off on a ton of different channels at once. Web ads, search ads, podcast ads, and TV ads all blasted the message of JUST LET ME DO MY JOB. Our flagship commercial was a hit with the audience and the critics. But our attempt at out-of-home advertising, with billboards all over Boston, was a bust at a $300,000 cost.\n\n\n    \n      \n        \n\n    \n      \n        \n\n    \n      \n        \n\n  \n\nThat's advertisement! It's hard to know what's going to work unless you give it a go. And since we're fighting competitors with one hand behind our back by refusing to use privacy-invasive ads targeted on personal data, we thought it was worth trying some more conventional channels, like billboards. But at least for software like Basecamp, it's clear that isn't likely to work.\nIt's not that it did nothing. We did have 98 billboards all over Boston for about a month. But the effect was only barely measurable:\n  \n      \n        \n\n  \nAs you can see, we were at the top end of the predicted normal range, or even slightly above. But even with that, we ended up spending thousands of dollars on every attributable trial signup. Way outside the realm of anything we could claim a return on, even if you factored in a fair bit of long-run brand awareness.\nI will say that it felt pretty cool to see the irreverent Basecamp marketing messages appear on building-hugging billboards. There was an emotionally gratifying return on the investment. And perhaps that explains why it used to be common to see business software advertised in places like San Francisco where a lot of executives of such companies could feel good about seeing them. There's something gratifying about being in the real world like this.\nBut yeah, it didn't work. We won't be doing that again. But we'll always have the pictures 😄",
+          "link": "https://world.hey.com/dhh/we-spent-300k-on-billboards-in-boston-and-it-was-a-bust-2ae8c9dd",
+          "publishedOn": "2023-04-10T14:24:32.000Z",
+          "wordCount": 398,
+          "title": "We spent $300K on billboards in Boston and it was a bust",
+          "imageUrl": "https://world.hey.com/dhh/2ae8c9dd/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2MrVW1GRyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e42125ccd1aec27496165a67dfe0e9f4397959f1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/boston-ad-3.jpg"
+        },
+        {
           "id": "https://world.hey.com/dhh/go-rails-world-4f3c42e6",
           "author": null,
           "description": "Amanda Perino had barely settled into the role as executive director of The Rails Foundation before she secured a venue, a date, and the full support of the board for Rails World. This 650-attendee conference will kick off the worldwide ambitions for The Rails Foundation to host a new series of ecosystem gatherings at incredibly affordable prices (this first effort will be just €199-€299 for a ticket!). Way to make an entrance!\nThis new conference will kick off at quite a momentous occasion, too: Celebrating the 20th anniversary of Ruby on Rails! I started working on the framework in the summer of 2003 as part of the development of Basecamp. By October, the framework had a shape that would be completely recognizable today, with Active Record and Action Pack in place.\nIt's thus also fitting…",
@@ -321,6 +331,23 @@
             "type": "audio/mpeg",
             "url": "https://chtbl.com/track/7D91G/traffic.libsyn.com/secure/corecursive/087-Douglas-Crockford.mp3?dest-id=628353"
           },
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Notes on software development",
+      "feedUrl": "https://notes.eatonphil.com/rss.xml",
+      "siteUrl": "http://notes.eatonphil.com/",
+      "articles": [
+        {
+          "id": "http://notes.eatonphil.com/errors-and-zig.html",
+          "author": null,
+          "description": "At TigerBeetle these last few weeks I've been doing a mix of\ndocumenting client libraries, writing sample code for client\nlibraries, and writing integration tests against the sample code.\nThe client library documentation is generated with a Zig script. The\nsample code is integration tested with a Zig script. A bunch of Zig\nscripts.\nIt's not the same\nrigorous\nsort of Zig as the main database. (We're generally more lax about\nscripts and test code.)\nAnd I'm specifically writing this post on my personal blog since my\nscript code is not under incredible scrutiny.\nFurthermore, I'm still new to Zig. Since I'm still learning, there\nhave been a few things that tripped me up.\nAnd now that I've written this out, I realize most of my stumbling was\nrelated to errors.\nFailure\nLots of things in programs …",
+          "link": "http://notes.eatonphil.com/errors-and-zig.html",
+          "publishedOn": "2023-03-21T00:00:00.000Z",
+          "wordCount": 3694,
+          "title": "Errors and Zig",
           "imageUrl": null
         }
       ]
