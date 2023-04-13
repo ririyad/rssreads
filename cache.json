@@ -266,6 +266,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/04/12/trademark-policy-draft-feedback.html",
+          "author": null,
+          "description": "A note on the Trademark Policy Draft\nFor the past eight months, the Rust Foundation Project Directors have been working with the informal Trademark Working Group and the Foundation staff to draft an updated policy and FAQ for the Rust trademark. We'd like to provide some context around this work and address the community response to the feedback form for the recently circulated draft.\nBackground\nBack when the Rust Foundation was created, one of the first things to happen was Mozilla transferring its ownership of the Rust trademark to the newly created foundation. An update to the existing policy was needed, and project leadership planned for this to be done together with the Foundation.\nSince we wanted to incorporate community input to this policy and make it accessible as possible, the bo…",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/04/12/trademark-policy-draft-feedback.html",
+          "publishedOn": "2023-04-12T00:00:00.000Z",
+          "wordCount": 1072,
+          "title": "A note on the Trademark Policy Draft",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2023/04/06/cargo-new-members.html",
           "author": null,
           "description": "We are excited to welcome Arlo Siemsen and Scott Schafer as new members to the Cargo Team!\nArlo has been instrumental in bringing Cargo's new sparse registry support to fruition, which significantly improves registry performance. He has been involved with registry design and authentication discussions, and has been closely working with the team over the past year.\nScott has been very active in the past year, working on various parts of Cargo, namely implementing workspace inheritance. Since then, he has been helping with maintenance and designing new features.\nWith their help we now have capacity to start thinking about how feature development should be done moving forward. We are still in early discussions of processes for matching feature development with reviewer capacity, and will share more in the future. Thanks to Arlo and Scott for their help, and we are very much looking forward to having them as a part of the team!",
