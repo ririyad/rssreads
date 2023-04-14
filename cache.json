@@ -216,6 +216,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/2023-chatgpt-xu-hao.html",
+          "author": null,
+          "description": "A couple of weeks ago I watched a fascinating Zoom call hosted by Xu\n     Hao, Thoughtworks's Head of Technology in China. He showed an\n     example of how he uses ChatGPT to help him code in a self-testing\n     style. His initial prompt primes the LLM with an implementation strategy\n     (chain of thought prompting). His prompt also asks for an implementation\n     plan rather than code (general knowledge prompting). Once he has the plan\n     he uses it to refine the implementation and generate useful sections of\n     code.\nmore…",
+          "link": "https://martinfowler.com/articles/2023-chatgpt-xu-hao.html",
+          "publishedOn": "2023-04-13T13:30:00.000Z",
+          "wordCount": 2863,
+          "title": "An example of LLM prompting for programming",
+          "imageUrl": "https://martinfowler.com/articles/2023-chatgpt-xu-hao/xu-chat-final.png"
+        },
+        {
           "id": "https://martinfowler.com/bliki/Slack.html",
           "author": null,
           "description": "Recent discussions with my colleagues showed that many software teams\n     still run into trouble because they pack too much planned\n     work into their iterations. Teams will usually run better when they have\n     deliberate Slack, as it allows their delivery to be more predictable and\n     gives them time to improve their environment.\nWhile writing that bliki post, I also defined two styles of task\n     planning in agile projects. Timeboxed Iterations are used to\n     break up work into small chunks with a regular cadence to reassess the work\n     and future plans. Using a little ceremony around allocating work to\n     iterations helps make problems visible so that they can be dealt with\n     properly. Continuous Flow\n     dispenses with that ceremony, so skilled teams often prefer it.\nmore…",
