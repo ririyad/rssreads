@@ -428,6 +428,53 @@
           "imageUrl": "https://dmitripavlutin.com/vue-v-model-form-inputs/cover.png"
         }
       ]
+    },
+    {
+      "title": "Dietcode | Sid's blog",
+      "feedUrl": "https://dietcode.io/rss",
+      "siteUrl": "https://dietcode.io/",
+      "articles": [
+        {
+          "id": "https://dietcode.io/t/stdout-perf/",
+          "author": null,
+          "description": "Would you believe me if I told you what terminal you use heavily impacts how many requests-per-second your server can handle?",
+          "link": "https://dietcode.io/t/stdout-perf/",
+          "publishedOn": "2023-04-07T00:00:00.000Z",
+          "wordCount": 754,
+          "title": "Writing to stdout is only as fast as your terminal",
+          "imageUrl": "https://dietcode.io/t/stdout-perf/og.png"
+        },
+        {
+          "id": "https://dietcode.io/t/git-remotes/",
+          "author": null,
+          "description": "Turns out setting up your own Git remote on a VPS is stupid simple",
+          "link": "https://dietcode.io/t/git-remotes/",
+          "publishedOn": "2023-03-29T00:00:00.000Z",
+          "wordCount": 591,
+          "title": "Git remotes",
+          "imageUrl": "https://dietcode.io/t/git-remotes/og.png"
+        },
+        {
+          "id": "https://dietcode.io/p/tracing-macros/",
+          "author": null,
+          "description": "The tracing / log crates expose complicated-looking macros like `trace!` that accept a whole bunch of different kinds of arguments. Surely building a macro like this isn't _easy_. Or is it?",
+          "link": "https://dietcode.io/p/tracing-macros/",
+          "publishedOn": "2023-03-28T00:00:00.000Z",
+          "wordCount": 2976,
+          "title": "Understanding tracing's macros by rebuilding them from scratch",
+          "imageUrl": "https://dietcode.io/p/tracing-macros/og.png"
+        },
+        {
+          "id": "https://dietcode.io/t/tt-munchers/",
+          "author": null,
+          "description": "TT-munching is a technique for writing complex macros in Rust. I'll show you how to write a variadic \"function\" in Rust, AKA one that can take in any number of arguments.",
+          "link": "https://dietcode.io/t/tt-munchers/",
+          "publishedOn": "2023-03-27T00:00:00.000Z",
+          "wordCount": 1245,
+          "title": "TT muncher macros in Rust",
+          "imageUrl": "https://dietcode.io/t/tt-munchers/og.png"
+        }
+      ]
     }
   ],
   "cliVersion": "1.15.1"

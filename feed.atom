@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-15T01:10:12.089Z</updated>
+    <updated>2023-04-15T08:05:19.006Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -152,6 +152,16 @@ It's thus also fitting…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Writing to stdout is only as fast as your terminal]]></title>
+        <id>https://dietcode.io/t/stdout-perf/</id>
+        <link href="https://dietcode.io/t/stdout-perf/"/>
+        <updated>2023-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Would you believe me if I told you what terminal you use heavily impacts how many requests-per-second your server can handle?]]></summary>
+        <author>
+            <name>Dietcode | Sid's blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The hardware we need for our cloud exit has arrived]]></title>
         <id>https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966</id>
         <link href="https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966"/>
@@ -292,6 +302,16 @@ Being prepared sounds like a good …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Git remotes]]></title>
+        <id>https://dietcode.io/t/git-remotes/</id>
+        <link href="https://dietcode.io/t/git-remotes/"/>
+        <updated>2023-03-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Turns out setting up your own Git remote on a VPS is stupid simple]]></summary>
+        <author>
+            <name>Dietcode | Sid's blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Why is paid social media a bad idea?]]></title>
         <id>https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76</id>
         <link href="https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76"/>
@@ -355,6 +375,16 @@ without all of you. Thanks!]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Understanding tracing's macros by rebuilding them from scratch]]></title>
+        <id>https://dietcode.io/p/tracing-macros/</id>
+        <link href="https://dietcode.io/p/tracing-macros/"/>
+        <updated>2023-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The tracing / log crates expose complicated-looking macros like `trace!` that accept a whole bunch of different kinds of arguments. Surely building a macro like this isn't _easy_. Or is it?]]></summary>
+        <author>
+            <name>Dietcode | Sid's blog</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[1.68.2 pre-release testing]]></title>
         <id>https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html</id>
         <link href="https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html"/>
@@ -370,6 +400,16 @@ The release team is also thinking about changes to our pre-release process:
 we'd love your feedback on this GitHub issue.]]></summary>
         <author>
             <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TT muncher macros in Rust]]></title>
+        <id>https://dietcode.io/t/tt-munchers/</id>
+        <link href="https://dietcode.io/t/tt-munchers/"/>
+        <updated>2023-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TT-munching is a technique for writing complex macros in Rust. I'll show you how to write a variadic "function" in Rust, AKA one that can take in any number of arguments.]]></summary>
+        <author>
+            <name>Dietcode | Sid's blog</name>
         </author>
     </entry>
     <entry>
