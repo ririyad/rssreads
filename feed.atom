@@ -2,10 +2,60 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-14T01:09:06.741Z</updated>
+    <updated>2023-04-15T01:10:12.089Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Innovation is overrated]]></title>
+        <id>https://world.hey.com/jason/innovation-is-overrated-4994874c</id>
+        <link href="https://world.hey.com/jason/innovation-is-overrated-4994874c"/>
+        <updated>2023-04-14T19:02:44.000Z</updated>
+        <summary type="html"><![CDATA[Yesterday I was speaking to a university class and, as it usually does, a question about innovation came up.
+
+
+"How do you stay innovative? How do you encourage innovative thinking at work?"
+
+
+My answer: You don't stay innovative and you don't encourage innovative thinking at work.
+
+
+WHAT? Yes.
+
+
+Innovation should almost never happen. It's incredibly rare. It mostly happens by accident, not by intention. It's wonderful when it does, but you merely fluctuate in and out of it, it's not steady state.
+
+
+Work is mostly mundane. It's mostly maintenance. It's mostly local improvement and iteration. Work is mostly... Work. Any innovation is an outlier, nearly a rounding error.
+
+
+Even the most innovative projects or products are full of rote, prosaic stuff that still needs building. The poetic magic may be in the 5%, but the bulk of the work is in the other 95.
+
+
+So I told the students they'd better get used to that. Work is not often very exciting, but it can absolutely be fulfilling. And you can be excited about that. But if you're expecting breakthroughs all the time, riff sessions that constantly lead somewhere new, or brainstorms that shoot lightning, you're going to be disappointed.
+
+
+Yes innovation happens. Occasionally. Being happy at work is about finding challenge, reward, growth, and creative and intellectual stimulation in everything else.
+
+
+Now... back to this new product we're building.
+
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4 Ways to Create an Enum in JavaScript]]></title>
+        <id>https://dmitripavlutin.com/javascript-enum/</id>
+        <link href="https://dmitripavlutin.com/javascript-enum/"/>
+        <updated>2023-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An enum is a set of named constants. The plain object, frozen object, proxied object or class-based are the 4 ways to create enums in JavaScript.]]></summary>
+        <author>
+            <name>Dmitri Pavlutin</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[An example of LLM prompting for programming]]></title>
         <id>https://martinfowler.com/articles/2023-chatgpt-xu-hao.html</id>
@@ -518,26 +568,6 @@ we'd love your feedback on this GitHub issue.]]></summary>
         <summary type="html"><![CDATA[How to use v-model to bind form input elements like text input, textarea, select, checkbox, radio in Vue.]]></summary>
         <author>
             <name>Dmitri Pavlutin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Just the two of us]]></title>
-        <id>https://world.hey.com/jason/just-the-two-of-us-afb2f54e</id>
-        <link href="https://world.hey.com/jason/just-the-two-of-us-afb2f54e"/>
-        <updated>2023-03-15T17:43:46.000Z</updated>
-        <summary type="html"><![CDATA[There's a lot of talk right now about smaller, slimmer, tighter teams. Economics are forcing companies to cut back, and what they're finding is progress. Trim the overgrown crown, let the sunshine meet the ground, and all sorts of new life blooms on the forest floor.
-Even Zuck, master of a megacorp, is noticing it:
-https://twitter.com/modestproposal1/status/1635672478478475267
-
-
-"Since we reduced our workforce last year, one surprising result is that many things have gone faster... Indirect costs compound and it’s easy to underestimate them... A leaner org will execute its highest priorities faster"
-
-A number of years ago I wrote a piece lauding the number three. I meant every word. Three person teams are incredibly efficient.
-But what's better than three?
-Two.
-Over the past few years, the…]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>
