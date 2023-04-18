@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-17T01:10:18.305Z</updated>
+    <updated>2023-04-18T01:07:59.698Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[1.69.0 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/04/17/1.69.0-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/04/17/1.69.0-prerelease.html"/>
+        <updated>2023-04-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.69.0 pre-release is ready for testing. The release is scheduled for
+April 20. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2023-04-17/index.html.
+You can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Innovation is overrated]]></title>
         <id>https://world.hey.com/jason/innovation-is-overrated-4994874c</id>

@@ -276,6 +276,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/04/17/1.69.0-prerelease.html",
+          "author": null,
+          "description": "The 1.69.0 pre-release is ready for testing. The release is scheduled for\nApril 20. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-04-17/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/04/17/1.69.0-prerelease.html",
+          "publishedOn": "2023-04-17T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.69.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2023/04/12/trademark-policy-draft-feedback.html",
           "author": null,
           "description": "A note on the Trademark Policy Draft\nFor the past eight months, the Rust Foundation Project Directors have been working with the informal Trademark Working Group and the Foundation staff to draft an updated policy and FAQ for the Rust trademark. We'd like to provide some context around this work and address the community response to the feedback form for the recently circulated draft.\nBackground\nBack when the Rust Foundation was created, one of the first things to happen was Mozilla transferring its ownership of the Rust trademark to the newly created foundation. An update to the existing policy was needed, and project leadership planned for this to be done together with the Foundation.\nSince we wanted to incorporate community input to this policy and make it accessible as possible, the bo…",
