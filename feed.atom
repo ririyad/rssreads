@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-18T01:07:59.698Z</updated>
+    <updated>2023-04-19T01:10:33.005Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[How to continue making kerosene lamps on the eve of electricity]]></title>
+        <id>https://world.hey.com/dhh/how-to-continue-making-kerosene-lamps-on-the-eve-of-electricity-5a8b8e1a</id>
+        <link href="https://world.hey.com/dhh/how-to-continue-making-kerosene-lamps-on-the-eve-of-electricity-5a8b8e1a"/>
+        <updated>2023-04-18T12:43:10.000Z</updated>
+        <summary type="html"><![CDATA[The recent and rapid advance of AI has rightfully giving many in software real doubts about the future of their profession. I'd probably still wager that the fears are overstated – that we also got prematurely euphoric about the imminent prospects of self-driving cars – and that AI generating code is different from it evolving existing systems. But I wouldn't want to bet the house on it. This might just be The Big One.
+That uncertainty, whether we truly are on the cusp of a total transformation, is a surprising novelty to me, despite thirty years in software. We've been through so many breathless predictions about how this or that advancement in software would simply "Change. Everything. Forever." that a certain pessimism would be perfectly reasonable.
+I've seen, for example, at least thre…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1.69.0 pre-release testing]]></title>
         <id>https://blog.rust-lang.org/inside-rust/2023/04/17/1.69.0-prerelease.html</id>
@@ -598,24 +610,6 @@ Lots of things in programs …]]></summary>
 We're likely going to address this question out loud on an upcoming podcast AMA, but I wa…]]></summary>
         <author>
             <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.68.1 pre-release testing]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/03/20/1.68.1-prerelease.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/03/20/1.68.1-prerelease.html"/>
-        <updated>2023-03-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The 1.68.1 pre-release is ready for testing. The release is scheduled for
-March 23. Release notes can be found here.
-You can try it out locally by running:
-RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
-
-The index is https://dev-static.rust-lang.org/dist/2023-03-20/index.html.
-You can leave feedback on the internals thread.
-The release team is also thinking about changes to our pre-release process:
-we'd love your feedback on this GitHub issue.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>
