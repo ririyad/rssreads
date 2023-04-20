@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-19T01:10:33.005Z</updated>
+    <updated>2023-04-20T01:07:57.802Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -528,86 +528,6 @@ That’s how you win. By building better rather than defending worse.]]></summar
 The person making the pitch has presumably put a lot of time, thought, and energy into gathering their thoughts and presenting them clearly to an audience. But the rest of the people in the room are asked to react. Not absorb, not think it over, not consider — just react. Knee-jerk it. That's no way to treat fragile, new ideas.
 At 37signals we flip the script.
 When we present work, it's almost always written up first. In long form. A few hundred words, maybe a thousand. A complete idea in the form of a carefully composed document. Complete w…]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Compressing a million-dollar commercial into $37,000]]></title>
-        <id>https://world.hey.com/dhh/compressing-a-million-dollar-commercial-into-37-000-0a99a38e</id>
-        <link href="https://world.hey.com/dhh/compressing-a-million-dollar-commercial-into-37-000-0a99a38e"/>
-        <updated>2023-03-21T08:45:45.000Z</updated>
-        <summary type="html"><![CDATA[Last year, we hired a high-profile ad agency to work on our first-ever branding campaign for Basecamp. They were smart, funny... and entirely out of sync with our budget. So we ended up letting them go, hiring a new head of marketing, and doing it all ourselves.
-The problem was that our entire marketing budget for 2023 amounted to a "mere" five million dollars. That's a huge multiple of everything we've ever spent before on marketing in the entire 24-year history of the company, but a pittance when you work with a top-tier agency full of people who used to do campaigns for the like of Apple or Nike.
-Of course this is all on us. While the agency knew what our budget was going in, we should have known that working with people who'd done work with the biggest, richest corporations in the worl…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Errors and Zig]]></title>
-        <id>http://notes.eatonphil.com/errors-and-zig.html</id>
-        <link href="http://notes.eatonphil.com/errors-and-zig.html"/>
-        <updated>2023-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[At TigerBeetle these last few weeks I've been doing a mix of
-documenting client libraries, writing sample code for client
-libraries, and writing integration tests against the sample code.
-The client library documentation is generated with a Zig script. The
-sample code is integration tested with a Zig script. A bunch of Zig
-scripts.
-It's not the same
-rigorous
-sort of Zig as the main database. (We're generally more lax about
-scripts and test code.)
-And I'm specifically writing this post on my personal blog since my
-script code is not under incredible scrutiny.
-Furthermore, I'm still new to Zig. Since I'm still learning, there
-have been a few things that tripped me up.
-And now that I've written this out, I realize most of my stumbling was
-related to errors.
-Failure
-Lots of things in programs …]]></summary>
-        <author>
-            <name>Notes on software development</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Errors and Zig]]></title>
-        <id>http://notes.eatonphil.com/errors-and-zig.html</id>
-        <link href="http://notes.eatonphil.com/errors-and-zig.html"/>
-        <updated>2023-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[At TigerBeetle these last few weeks I've been doing a mix of
-documenting client libraries, writing sample code for client
-libraries, and writing integration tests against the sample code.
-The client library documentation is generated with a Zig script. The
-sample code is integration tested with a Zig script. A bunch of Zig
-scripts.
-It's not the same
-rigorous
-sort of Zig as the main database. (We're generally more lax about
-scripts and test code.)
-And I'm specifically writing this post on my personal blog since my
-script code is not under incredible scrutiny.
-Furthermore, I'm still new to Zig. Since I'm still learning, there
-have been a few things that tripped me up.
-And now that I've written this out, I realize most of my stumbling was
-related to errors.
-Failure
-Lots of things in programs …]]></summary>
-        <author>
-            <name>Notes on software development</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delegating projects, not tasks]]></title>
-        <id>https://world.hey.com/jason/delegating-projects-not-tasks-f36cb8bc</id>
-        <link href="https://world.hey.com/jason/delegating-projects-not-tasks-f36cb8bc"/>
-        <updated>2023-03-20T21:15:51.000Z</updated>
-        <summary type="html"><![CDATA[We recently received this email from a REWORK Podcast listener who had a question...
-
-...I think it was in Shape Up that the idea of delegating projects rather than tasks came up. And I'm trying to move this way, of working with my own team. I just wonder if you guys have any tips or help for making that transition, helping team members take ownership for their areas of work, maybe obstacles I can watch out for leading my team in this way as we move in this direction. We have a small team, just a handful of people. But I would love to move in this direction where they're taking more ownership and I can delegate whole projects rather than, um, me kind of owning the project and then delegating tasks...
-
-We're likely going to address this question out loud on an upcoming podcast AMA, but I wa…]]></summary>
         <author>
             <name>Jason Fried</name>
         </author>
