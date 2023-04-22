@@ -108,16 +108,6 @@
           "wordCount": 662,
           "title": "Why is paid social media a bad idea?",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/cut-cloud-before-payroll-a4530ebd",
-          "author": null,
-          "description": "Every week seems to offer fresh staff cuts at the big tech companies right now. Several of the giants are already on their second rounds, and few would probably bet against a third after those. But as hard as it is on an individual level – and it's always hard! – there's a silver lining for the economy as a whole: Releasing captive talent.\nSee, the big tech companies gobbled up so much talent at such high salaries during the pandemic that it scarcely left any for the rest of the economy. So many companies outside of big tech were priced out of the competition for key tech hires. That just can't be good for the economy in the long run. We need smart people focused on other problems beyond figuring out how to make people click more ads.\nBut while the mammoth cuts at Facebook, Amazon, and els…",
-          "link": "https://world.hey.com/dhh/cut-cloud-before-payroll-a4530ebd",
-          "publishedOn": "2023-03-23T08:37:28.000Z",
-          "wordCount": 646,
-          "title": "Cut cloud before payroll",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
         }
       ]
     },
@@ -237,16 +227,6 @@
           "wordCount": 320,
           "title": "Announcing Rust 1.68.2",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/03/23/Rust-1.68.1.html",
-          "author": null,
-          "description": "The Rust team has published a new point release of Rust, 1.68.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.68.1 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup\nfrom the appropriate page on our website, and check out the\ndetailed release notes for 1.68.1 on GitHub.\nWhat's in 1.68.1 stable\nRust 1.68.1 stable primarily contains a change to how Rust's CI builds the\nWindows MSVC compiler, no longer enabling LTO for the Rust code. This led to a\nmiscompilation that the Rust\nteam is debugging, but in the meantime we're reverting the change to enable\nLTO.\nThis is currently believed to have no effect on wider usage of ThinLTO. The\nRust compiler used an unstable flag as part of the build process to enable\nThinLTO despite compiling to a dylib.\nThere are a few other regression fixes included in the release:\nFix building the compiler with --enable-local-rust\nTreat $prefix-clang as clang in linker detection code\nFix a panic in the compiler\nContributors to 1.68.1\nMany people came together to create Rust 1.68.1. We couldn't have done it\nwithout all of you. Thanks!",
-          "link": "https://blog.rust-lang.org/2023/03/23/Rust-1.68.1.html",
-          "publishedOn": "2023-03-23T00:00:00.000Z",
-          "wordCount": 279,
-          "title": "Announcing Rust 1.68.1",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -345,6 +325,16 @@
       "feedUrl": "https://dmitripavlutin.com/rss.xml",
       "siteUrl": "https://dmitripavlutin.com",
       "articles": [
+        {
+          "id": "https://dmitripavlutin.com/react-comments/",
+          "author": "Dmitri Pavlutin",
+          "description": "{/* Comment */} is the usual way to write comments in React. But there are 2 better ways to comment you just have to know.",
+          "link": "https://dmitripavlutin.com/react-comments/",
+          "publishedOn": "2023-04-21T00:00:00.000Z",
+          "wordCount": 2075,
+          "title": "How to Write Comments in React: The Good, the Bad and the Ugly",
+          "imageUrl": "https://dmitripavlutin.com/react-comments/cover.png"
+        },
         {
           "id": "https://dmitripavlutin.com/javascript-enum/",
           "author": "Dmitri Pavlutin",
