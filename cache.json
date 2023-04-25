@@ -176,6 +176,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/2023-tech-author-portrait.html",
+          "author": null,
+          "description": "While working with my colleague Mike Mason on a forthcoming article, we\n     asked Stable Diffusion to come up with portraits of technical authors. We\n     thought the results were worth sharing.\nmore…",
+          "link": "https://martinfowler.com/articles/2023-tech-author-portrait.html",
+          "publishedOn": "2023-04-24T17:30:00.000Z",
+          "wordCount": 538,
+          "title": "What Does a Technical Author Look Like?",
+          "imageUrl": "https://martinfowler.com/articles/2023-tech-author-portrait/card.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/2023-chatgpt-xu-hao.html",
           "author": null,
           "description": "A couple of weeks ago I watched a fascinating Zoom call hosted by Xu\n     Hao, Thoughtworks's Head of Technology in China. He showed an\n     example of how he uses ChatGPT to help him code in a self-testing\n     style. His initial prompt primes the LLM with an implementation strategy\n     (chain of thought prompting). His prompt also asks for an implementation\n     plan rather than code (general knowledge prompting). Once he has the plan\n     he uses it to refine the implementation and generate useful sections of\n     code.\nmore…",
