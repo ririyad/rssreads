@@ -22,6 +22,64 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-25 datetime="2023-04-25T00:00:00.000Z">2023-04-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-25 datetime="2023-04-25T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Rust Blog</button>
+                  <a class="source-heading__link" href="https://blog.rust-lang.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.rust-lang.org/2023/04/25/Rustup-1.26.0.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Announcing Rustup 1.26.0</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2023/04/25/Rustup-1.26.0.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The rustup working group is happy to announce the release of rustup version 1.26.0. Rustup is the recommended tool to install Rust, a programming language that is empowering everyone to build reliable and efficient software.
+If you have a previous version of rustup installed, getting rustup 1.26.0 is as easy as stopping any programs which may be using Rustup (e.g. closing your IDE) and running:
+rustup self update
+
+Rustup will also automatically update itself at the end of a normal toolchain update:
+rustup update
+
+If you don&#x27;t have it already, you can get rustup from the appropriate page on our website.
+What&#x27;s new in rustup 1.26.0
+This version of Rustup involves a significant number of internal cleanups, both in terms
+of the Rustup code and its tests. In addition to a lot of work on the cod…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-24 datetime="2023-04-24T17:30:00.000Z">2023-04-24</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-24 datetime="2023-04-24T17:30:00.000Z"></time>
           </button>
@@ -1453,98 +1511,10 @@ without all of you. Thanks!</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-03-27 datetime="2023-03-27T00:00:00.000Z">2023-03-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-03-27 datetime="2023-03-27T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Inside Rust Blog</button>
-                  <a class="source-heading__link" href="https://blog.rust-lang.org/inside-rust/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html"
-                        open
-                      >
-                        <summary class="article-expander__title">1.68.2 pre-release testing</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The 1.68.2 pre-release is ready for testing. The release is scheduled for
-March 28. Release notes can be found here.
-You can try it out locally by running:
-RUSTUP_DIST_SERVER&#x3D;https://dev-static.rust-lang.org rustup update stable
-
-The index is https://dev-static.rust-lang.org/dist/2023-03-27/index.html.
-You can leave feedback on the internals thread.
-The release team is also thinking about changes to our pre-release process:
-we&#x27;d love your feedback on this GitHub issue.</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Dietcode | Sid&#x27;s blog</button>
-                  <a class="source-heading__link" href="https://dietcode.io/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://dietcode.io/t/tt-munchers/"
-                        open
-                      >
-                        <summary class="article-expander__title">TT muncher macros in Rust</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://dietcode.io/t/tt-munchers/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://dietcode.io/t/tt-munchers/og.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>TT-munching is a technique for writing complex macros in Rust. I&#x27;ll show you how to write a variadic &quot;function&quot; in Rust, AKA one that can take in any number of arguments.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/4792594136">
-        <time id="build-timestamp" datetime="2023-04-25T01:10:55.801Z">2023-04-25T01:10:55.801Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/4803769851">
+        <time id="build-timestamp" datetime="2023-04-26T01:09:09.778Z">2023-04-26T01:09:09.778Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

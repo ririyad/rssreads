@@ -2,10 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-25T01:10:55.822Z</updated>
+    <updated>2023-04-26T01:09:09.803Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rustup 1.26.0]]></title>
+        <id>https://blog.rust-lang.org/2023/04/25/Rustup-1.26.0.html</id>
+        <link href="https://blog.rust-lang.org/2023/04/25/Rustup-1.26.0.html"/>
+        <updated>2023-04-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The rustup working group is happy to announce the release of rustup version 1.26.0. Rustup is the recommended tool to install Rust, a programming language that is empowering everyone to build reliable and efficient software.
+If you have a previous version of rustup installed, getting rustup 1.26.0 is as easy as stopping any programs which may be using Rustup (e.g. closing your IDE) and running:
+rustup self update
+
+Rustup will also automatically update itself at the end of a normal toolchain update:
+rustup update
+
+If you don't have it already, you can get rustup from the appropriate page on our website.
+What's new in rustup 1.26.0
+This version of Rustup involves a significant number of internal cleanups, both in terms
+of the Rustup code and its tests. In addition to a lot of work on the cod…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[What Does a Technical Author Look Like?]]></title>
         <id>https://martinfowler.com/articles/2023-tech-author-portrait.html</id>
@@ -469,34 +489,6 @@ without all of you. Thanks!]]></summary>
         <link href="https://dietcode.io/p/tracing-macros/"/>
         <updated>2023-03-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[The tracing / log crates expose complicated-looking macros like `trace!` that accept a whole bunch of different kinds of arguments. Surely building a macro like this isn't _easy_. Or is it?]]></summary>
-        <author>
-            <name>Dietcode | Sid's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.68.2 pre-release testing]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/03/27/1.68.2-prerelease.html"/>
-        <updated>2023-03-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The 1.68.2 pre-release is ready for testing. The release is scheduled for
-March 28. Release notes can be found here.
-You can try it out locally by running:
-RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
-
-The index is https://dev-static.rust-lang.org/dist/2023-03-27/index.html.
-You can leave feedback on the internals thread.
-The release team is also thinking about changes to our pre-release process:
-we'd love your feedback on this GitHub issue.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TT muncher macros in Rust]]></title>
-        <id>https://dietcode.io/t/tt-munchers/</id>
-        <link href="https://dietcode.io/t/tt-munchers/"/>
-        <updated>2023-03-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[TT-munching is a technique for writing complex macros in Rust. I'll show you how to write a variadic "function" in Rust, AKA one that can take in any number of arguments.]]></summary>
         <author>
             <name>Dietcode | Sid's blog</name>
         </author>
