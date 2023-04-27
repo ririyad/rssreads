@@ -2,10 +2,61 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-26T01:09:09.803Z</updated>
+    <updated>2023-04-27T01:11:02.151Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Founder & CEO is kinda a BS title]]></title>
+        <id>https://world.hey.com/jason/founder-ceo-is-kinda-a-bs-title-9fe101e9</id>
+        <link href="https://world.hey.com/jason/founder-ceo-is-kinda-a-bs-title-9fe101e9"/>
+        <updated>2023-04-26T20:24:39.000Z</updated>
+        <summary type="html"><![CDATA[Founder & CEO is a common title, especially in tech.
+It happens to be my title too.
+I've come to believe it's an impossible title. You're either CEO, or you're Founder. You can't hold both full-time jobs.
+And unless your company is probably 100+, CEO isn't really a job anyway. It's more of a role someone needs to play occasionally.
+There simply aren't that many big picture things or decisions to "execute" day in and day out — or even week in and week out — to make it a true full time job. A role yes, a hat to wear yes, a full-time job at a smallish company? No. It's part-time at best, quarter-time even better.
+Further, the fundamental responsibilities of Founders and CEOs are at odds. Having them mashed up in the same title is as ridiculous as having someone who's a "CTO & Chief Luddite".
+…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Using ChatGPT as a technical writing assistant]]></title>
+        <id>https://martinfowler.com/articles/2023-chatgpt-tech-writing.html</id>
+        <link href="https://martinfowler.com/articles/2023-chatgpt-tech-writing.html"/>
+        <updated>2023-04-26T14:49:00.000Z</updated>
+        <summary type="html"><![CDATA[My colleague Mike Mason is an experienced software
+     developer and architect. He's also an skillful writer, with a couple of
+     books under his belt together with plenty of writing for Thoughtworks,
+     including a regular macro-trends article and contributing to the
+     Thoughtworks Technology Radar. In the last couple of months he's been
+     experimenting with Large Language Models (LLMs) both for programming and
+     prose writing. Here he focuses on the latter, sharing how he's been able to
+     make effective use of ChatGPT.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting America's mojo back]]></title>
+        <id>https://world.hey.com/dhh/getting-america-s-mojo-back-7889dec1</id>
+        <link href="https://world.hey.com/dhh/getting-america-s-mojo-back-7889dec1"/>
+        <updated>2023-04-26T09:35:35.000Z</updated>
+        <summary type="html"><![CDATA[There is no end to accounts of America's current ailments. From deaths of despair, soaring crime in some cities, ballooning debts, dysfunctional politics, and a raging culture war. It's easy to be down on those United States. Too easy, in fact.
+Take gun deaths, for example. Americans own more guns per capita than any other country in the world, and by a huge margin too. Those guns are used by people to kill others and themselves. But while the homicide rate is up recently, it's still below where it was in the 90s or even the 70s. Suicides by gun haven't really swung that much either.
+  
+      
+        
+
+  
+Is this a great place to be? No. Is it some historical new peak? No. Have past peaks come down? Yes. America is a violent country. It's been a violent country for a long time. This is no…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Announcing Rustup 1.26.0]]></title>
         <id>https://blog.rust-lang.org/2023/04/25/Rustup-1.26.0.html</id>
@@ -416,79 +467,6 @@ Being prepared sounds like a good …]]></summary>
         <link href="https://dietcode.io/t/git-remotes/"/>
         <updated>2023-03-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Turns out setting up your own Git remote on a VPS is stupid simple]]></summary>
-        <author>
-            <name>Dietcode | Sid's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why is paid social media a bad idea?]]></title>
-        <id>https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76</id>
-        <link href="https://world.hey.com/dhh/why-is-paid-social-media-a-bad-idea-623a9c76"/>
-        <updated>2023-03-28T09:57:30.000Z</updated>
-        <summary type="html"><![CDATA[It'll soon cost $7/month to fully participate on Twitter. Musk has announced they'll start reserving presence in the For You tab solely for paying customers from April 15th, limit participation in polls to just those customers, and soon also give preferential showing in replies as well. Legacy blue-checks will not be spared, and will in fact lose their old privileges. The price is the same for all. Bold!
-All of the usual characters from the Musk Sucks Show are up in arms about this, of course. Something about how charging money for a service is a transgression against Musk's allegiance to free speech, I think? Hard to keep straight all the rationalization on why everything the man does is Literally The Worst Thing Ever.
-(This is the part where it's customary to insert a caveat that I Also …]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.68.2]]></title>
-        <id>https://blog.rust-lang.org/2023/03/28/Rust-1.68.2.html</id>
-        <link href="https://blog.rust-lang.org/2023/03/28/Rust-1.68.2.html"/>
-        <updated>2023-03-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Rust team has published a new point release of Rust, 1.68.2. Rust is a
-programming language that is empowering everyone to build reliable and
-efficient software.
-If you have a previous version of Rust installed via rustup, you can get 1.68.2 with:
-rustup update stable
-
-If you don't have it already, you can get rustup
-from the appropriate page on our website, and check out the
-detailed release notes for 1.68.2 on GitHub.
-What's in 1.68.2 stable
-Rust 1.68.2 addresses GitHub's recent rotation of their RSA SSH host
-key, which
-happened on March 24th 2023 after their previous key accidentally leaked:
-GitHub's RSA key bundled in Cargo has been
-updated, to ensure systems
-that haven't interacted with GitHub yet won't connect trusting the leaked
-key.
-The leaked key has been hardcoded as revoked in
-Cargo, to ensure the key
-won't be used by Cargo even on systems that still trust the key.
-Support for @revoked entries in
-.ssh/known_hosts (along with
-a better error message when the unsupported @cert-authority entries are used)
-is also included in Rust 1.68.2, as that change was a pre-requisite for
-backporting the hardcoded revocation.
-If you cannot upgrade to Rust 1.68.2, we recommend following GitHub's
-instructions
-on updating the trusted keys in your system. Note that the keys bundled in
-Cargo are only used if no trusted key for github.com is found on the system.
-Contributors to 1.68.2
-Many people came together to create Rust 1.68.2. We couldn't have done it
-without all of you. Thanks!]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TypeScript Function Types: A Beginner's Guide]]></title>
-        <id>https://dmitripavlutin.com/typescript-function-type/</id>
-        <link href="https://dmitripavlutin.com/typescript-function-type/"/>
-        <updated>2023-03-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Are you struggling to understand TypeScript function types? Look no further! This comprehensive guide covers everything you need to know.]]></summary>
-        <author>
-            <name>Dmitri Pavlutin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Understanding tracing's macros by rebuilding them from scratch]]></title>
-        <id>https://dietcode.io/p/tracing-macros/</id>
-        <link href="https://dietcode.io/p/tracing-macros/"/>
-        <updated>2023-03-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The tracing / log crates expose complicated-looking macros like `trace!` that accept a whole bunch of different kinds of arguments. Surely building a macro like this isn't _easy_. Or is it?]]></summary>
         <author>
             <name>Dietcode | Sid's blog</name>
         </author>
