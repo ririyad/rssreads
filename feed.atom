@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-29T01:09:04.374Z</updated>
+    <updated>2023-04-30T01:15:19.375Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Humble Chronicles: State Management]]></title>
+        <id>https://tonsky.me/blog/humble-state/</id>
+        <link href="https://tonsky.me/blog/humble-state/"/>
+        <updated>2023-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Search for the best state management solution for Humble UI]]></summary>
+        <author>
+            <name>tonsky.me</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Record Type in TypeScript]]></title>
         <id>https://dmitripavlutin.com/typescript-record/</id>
@@ -434,18 +444,6 @@ Episode Page
  Join The Newsletter]]></summary>
         <author>
             <name>CoRecursive: Coding Stories</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to have buckets of time]]></title>
-        <id>https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993</id>
-        <link href="https://world.hey.com/dhh/how-to-have-buckets-of-time-38693993"/>
-        <updated>2023-03-31T09:37:11.000Z</updated>
-        <summary type="html"><![CDATA[One of the most important techniques I've embraced for managing my time is to direct related tasks to a bucket, let that bucket accumulate until full, then empty it all in one go. This in contrast to trying to catch every task the moment it lands from the myriad of interruption pipes that'll drip-drip-drip your day away if you let them. Nowhere is the most evident than with email.
-I used to take such pride in inbox zero when I was still using Gmail. I'd check email continuously throughout the day, and I'd get back to almost everyone immediately. Whether it was urgent or not. Just so I could see that sweet zero. It felt very productive. It was not.
-Every email is a drop, and every drop ripples the surface of your mind. It's careless to let them hit without a filter. Your attention will have…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
