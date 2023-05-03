@@ -2,10 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-02T01:10:12.101Z</updated>
+    <updated>2023-05-03T01:10:31.001Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Evaluating a redesign]]></title>
+        <id>https://world.hey.com/jason/evaluating-a-redesign-80309257</id>
+        <link href="https://world.hey.com/jason/evaluating-a-redesign-80309257"/>
+        <updated>2023-05-02T17:26:50.000Z</updated>
+        <summary type="html"><![CDATA[We're fortunate we get to make things. But sometimes something sticks around long enough that we have the good fortune to have a chance to remake it.
+When evaluating a redesign, your first instinct is to compare the new design to the old design. But don’t do that.
+The first step is to understand what you’re evaluating. If you just put the new design up against the old design, and compare the two, the old design will strongly influence your evaluation of the new design.
+
+This is OK if nothing’s changed since the original design was launched. But it’s likely a lot has changed since then – especially if many months or years have passed.
+
+Maybe there are new insights, maybe there’s new data, maybe there’s a new goal, maybe there’s a new hunch, or maybe there’s a whole new strategy at play. Maybe “make it readable” was important 3 years ago, while “help people see things they couldn’t see before” is more important today. Or maybe it’s both now.
+
+But if the old design sets the tone about what’s important, then you may be losing out on an opportunity to make a significant leap forward. A design should never set the tone – ideas should set the tone. Ideas are independent of the design.
+
+So, when evaluating a redesign you have to know what you’re looking for, not just what you’re looking at. How the new design compares to the old may be the least important thing to consider.
+
+It’s a subtle thing, but it can make all the difference.
+
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloud exit pays off in performance too]]></title>
+        <id>https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697</id>
+        <link href="https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697"/>
+        <updated>2023-05-02T13:50:22.000Z</updated>
+        <summary type="html"><![CDATA[Last week, we successfully pulled off our biggest cloud exit yet for Basecamp Classic. This is the original app that started it all for us from way back in 2004. And now, after a couple of years running on AWS, it's back on our own hardware, using MRSK, and holy smokes is it fast! Just look at these charts:
+  
+      
+        
+
+  
+The median request now runs in just 19ms, compared to 67ms before. The mean request in 95ms vs 138ms. The median query time has dropped in half (which adds up when you do a lot of queries per request!). Basecamp Classic was no slouch in the cloud before, but now 95% of all requests are below that magic 300ms cut-off.
+(But take these comparisons with a pound of salt. It's not exactly a clean-room, scientific test. Just a peak at the reality of leaving a fine-tuned …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The responsibility is the reward]]></title>
+        <id>https://world.hey.com/dhh/the-responsibility-is-the-reward-69e5b73f</id>
+        <link href="https://world.hey.com/dhh/the-responsibility-is-the-reward-69e5b73f"/>
+        <updated>2023-05-02T10:23:55.000Z</updated>
+        <summary type="html"><![CDATA[One of the straightest paths to purpose in life is to take responsibility for something (or someone). Becoming a person whose presence and competence benefits others. For both your sake and theirs.
+Jordan Peterson calls this the "meaningful burden" in 12 Rules for Life, and downright posits it as an antidote to depression. Echoing Victor Frankl's famous quote "he who has a why to live for can bear almost any how" from Man's Search for Meaning.
+There's something inherently counterintuitive about this notion that people who feel overwhelmed by life, or lost in its endless possibilities, might not need a lighter load, but a more meaningful burden instead. It reminds me of the version of burnout that stems not from overwork, but from under-purpose. Sometimes, the answer to "it's just all too m…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Story: From Project Management to Data Compression Innovator]]></title>
+        <id>9a2308c2-d87e-44a2-921f-721115d24fdc</id>
+        <link href="https://corecursive.com/data-compression-yann--collet/"/>
+        <updated>2023-05-02T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How do you accomplish something massive over time? I've had the chance to meet with a number of exceptional software developers and it's something I always wonder about. 
+ Today, I might have an answer with the incredible story of Yann Collet.
+ Yann was a project manager who went from being burnt out on corporate life to becoming one of the most sought-after developers in the world. What happens when you build something so impressive and valuable that it essentially becomes invisible?
+ And how do you do that when your day job is mainly organizing spreadsheets and keeping timelines on track?
+ Yann built LZ4 and ZStandard - two of the world's fastest compression algorithms that have transformed databases, operating systems, file systems, and much more. We'll go back in time to Yann's initial steps with programming, his game-changing discoveries along the way and how his devotion to data compression hobby led him to create something that saves billions of dollars worldwide.
+ Episode Links
+  
+Episode Page
+ Bonus 17 - Accomplishing Hard Things
+ Support The Show
+ Subscribe To The Podcast
+ Join The Newsletter]]></summary>
+        <author>
+            <name>CoRecursive: Coding Stories</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postmortem Analysis in Cargo]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/05/01/cargo-postmortem.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/05/01/cargo-postmortem.html"/>
+        <updated>2023-05-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At 01:52 UTC, 2022-10-28, rust-lang/cargo#11183 was merged into the Cargo master branch. It introduced a bug that caused Cargo to fail to build packages that use a particular, but very common, dependency setup. The change nearly made its way into the next nightly release. If it had, it would have rendered any of the 30k crates with serde_derive as a dependency (one of the most popular crate on crates.io) unbuildable for anyone using the resulting nightly release.
+Following this incident, the Cargo team went through a postmortem analysis, as is appropriate for incidents with (a potential for) broad blast-radius or otherwise significant impact. This time around, we followed a particular structured postmortem template in the hopes that it might make the resulting write-up more thorough, insig…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Humble Chronicles: State Management]]></title>
         <id>https://tonsky.me/blog/humble-state/</id>
@@ -427,23 +513,6 @@ While writing that bliki post, I also defined two styles of task
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Story: JSON vs XML]]></title>
-        <id>735580a3-3de6-45bc-910f-6465197cf860</id>
-        <link href="https://corecursive.com/json-vs-xml-douglas-crockford/"/>
-        <updated>2023-04-03T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today's guest is Douglas Crockford. He's sharing the story of JSON, his discovery of JavaScript's good parts, and his approach to finding a simple way to build software. Also, his battles against XML, against complexity, his battles to say that there's a better way to build software. 
-  
- This is foundational stuff for the web, and Doug is an iconoclast
-  
-Episode Page
- Support The Show
- Subscribe To The Podcast
- Join The Newsletter]]></summary>
-        <author>
-            <name>CoRecursive: Coding Stories</name>
         </author>
     </entry>
 </feed>
