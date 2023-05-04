@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/sovereign-clouds-661eb5e4",
+          "author": null,
+          "description": "I've been talking about our departure from renting computers via AWS to owning them in a colocated datacenter as our \"cloud exit\". But I recognize this terminology can rub some people the wrong way. There's an entire generation of technologists who see themselves as \"cloud native\", and alienating them just because we want to own our hardware rather than rent it doesn't help anyone. Most of the skills of these cloud natives are useful regardless of where the applications run.\nThat skill overlap is actually part of why our transition out of AWS has gone so incredibly fast. 80-90% of what you need to know to run your own hardware these days is the same as what you need to know to operate in the rental clouds. From containers to load balancers to monitoring to performance analysis, and a milli…",
+          "link": "https://world.hey.com/dhh/sovereign-clouds-661eb5e4",
+          "publishedOn": "2023-05-03T08:01:29.000Z",
+          "wordCount": 547,
+          "title": "Sovereign clouds",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697",
           "author": null,
           "description": "Last week, we successfully pulled off our biggest cloud exit yet for Basecamp Classic. This is the original app that started it all for us from way back in 2004. And now, after a couple of years running on AWS, it's back on our own hardware, using MRSK, and holy smokes is it fast! Just look at these charts:\n  \n      \n        \n\n  \nThe median request now runs in just 19ms, compared to 67ms before. The mean request in 95ms vs 138ms. The median query time has dropped in half (which adds up when you do a lot of queries per request!). Basecamp Classic was no slouch in the cloud before, but now 95% of all requests are below that magic 300ms cut-off.\n(But take these comparisons with a pound of salt. It's not exactly a clean-room, scientific test. Just a peak at the reality of leaving a fine-tuned …",
@@ -276,6 +286,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html",
+          "author": null,
+          "description": "The async working group's headline goal for 2023 is to stabilize a \"minimum viable product\" (MVP) version of async functions in traits. We are currently targeting Rust 1.74 for stabilization. This post lays out the features we plan to ship and the status of each one.\nIn November, we blogged about nightly support for async fn in trait and identified some key next steps, most importantly support for send bounds to allow spawning in generic functions. Since then we've done a significant amount of design exploration and collected a set of case studies evaluating how well the current code works in practice.\nAs of now, all of the functionality described in this blog post is available on the nightly compiler. Some of this work was implemented using experimental feature gates so that we could cond…",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html",
+          "publishedOn": "2023-05-03T00:00:00.000Z",
+          "wordCount": 1700,
+          "title": "Stabilizing async fn in traits in 2023",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2023/05/01/cargo-postmortem.html",
           "author": null,

@@ -2,10 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-03T01:10:31.001Z</updated>
+    <updated>2023-05-04T01:08:52.454Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Sovereign clouds]]></title>
+        <id>https://world.hey.com/dhh/sovereign-clouds-661eb5e4</id>
+        <link href="https://world.hey.com/dhh/sovereign-clouds-661eb5e4"/>
+        <updated>2023-05-03T08:01:29.000Z</updated>
+        <summary type="html"><![CDATA[I've been talking about our departure from renting computers via AWS to owning them in a colocated datacenter as our "cloud exit". But I recognize this terminology can rub some people the wrong way. There's an entire generation of technologists who see themselves as "cloud native", and alienating them just because we want to own our hardware rather than rent it doesn't help anyone. Most of the skills of these cloud natives are useful regardless of where the applications run.
+That skill overlap is actually part of why our transition out of AWS has gone so incredibly fast. 80-90% of what you need to know to run your own hardware these days is the same as what you need to know to operate in the rental clouds. From containers to load balancers to monitoring to performance analysis, and a milli…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stabilizing async fn in traits in 2023]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html"/>
+        <updated>2023-05-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The async working group's headline goal for 2023 is to stabilize a "minimum viable product" (MVP) version of async functions in traits. We are currently targeting Rust 1.74 for stabilization. This post lays out the features we plan to ship and the status of each one.
+In November, we blogged about nightly support for async fn in trait and identified some key next steps, most importantly support for send bounds to allow spawning in generic functions. Since then we've done a significant amount of design exploration and collected a set of case studies evaluating how well the current code works in practice.
+As of now, all of the functionality described in this blog post is available on the nightly compiler. Some of this work was implemented using experimental feature gates so that we could cond…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Evaluating a redesign]]></title>
         <id>https://world.hey.com/jason/evaluating-a-redesign-80309257</id>
