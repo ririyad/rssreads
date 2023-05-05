@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-04T01:08:52.454Z</updated>
+    <updated>2023-05-05T01:03:42.118Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Even Amazon can't make sense of serverless or microservices]]></title>
+        <id>https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580</id>
+        <link href="https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580"/>
+        <updated>2023-05-04T09:23:57.000Z</updated>
+        <summary type="html"><![CDATA[The Prime Video team at Amazon has published a rather remarkable case study on their decision to dump their serverless, microservices architecture and replace it with a monolith instead. This move saved them a staggering 90%(!!) on operating costs, and simplified the system too. What a win!
+But beyond celebrating their good sense, I think there's a bigger point here that applies to our entire industry. Here's the telling bit:
+
+"We designed our initial solution as a distributed system using serverless components... In theory, this would allow us to scale each service component independently. However, the way we used some components caused us to hit a hard scaling limit at around 5% of the expected load."
+
+That really sums up so much of the microservices craze that was tearing through the te…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Sovereign clouds]]></title>
         <id>https://world.hey.com/dhh/sovereign-clouds-661eb5e4</id>
@@ -499,43 +514,6 @@ With their help we now have capacity to start thinking about how feature develop
 It's central contribution is adding a second dimension to the political spectrum. What we're dealing with is not just far-left, left, center, right, far-right. That spectrum is about contesting "what is" and "what ought to be". Our current problem is not so much disagreeing about those two central elements. All democracies will and should continue to do that. It's how that disagreements manifes…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How we built something useful]]></title>
-        <id>https://world.hey.com/jason/how-we-built-something-useful-8ff6a83b</id>
-        <link href="https://world.hey.com/jason/how-we-built-something-useful-8ff6a83b"/>
-        <updated>2023-04-04T20:51:30.000Z</updated>
-        <summary type="html"><![CDATA[The product development process encompasses many moments. Moments of novel breakthrough, moments of mundane maintenance, and everything in between. But some of the most rewarding moments consistently come from making something simply useful.
-Yesterday we shipped a feature in HEY called "Reply to Everyone" that was exactly that: Simply useful.
-One of the things that makes something simply useful is a clear line from problem to solution. From hassle to effortlessness. From a lot of time to nearly no time at all. From creating work to eliminating work.
-So let's trace Reply to Everyone back to the initial germ of the idea.
-It all started with frustration. This is a great place to start any feature. In fact, the closer you start to frustration, the more fuel you have to burn up the problem.
-Wha…]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Slack in your plans]]></title>
-        <id>https://martinfowler.com/bliki/Slack.html</id>
-        <link href="https://martinfowler.com/bliki/Slack.html"/>
-        <updated>2023-04-04T14:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Recent discussions with my colleagues showed that many software teams
-     still run into trouble because they pack too much planned
-     work into their iterations. Teams will usually run better when they have
-     deliberate Slack, as it allows their delivery to be more predictable and
-     gives them time to improve their environment.
-While writing that bliki post, I also defined two styles of task
-     planning in agile projects. Timeboxed Iterations are used to
-     break up work into small chunks with a regular cadence to reassess the work
-     and future plans. Using a little ceremony around allocating work to
-     iterations helps make problems visible so that they can be dealt with
-     properly. Continuous Flow
-     dispenses with that ceremony, so skilled teams often prefer it.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
