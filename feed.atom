@@ -2,10 +2,48 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-05T01:03:42.118Z</updated>
+    <updated>2023-05-06T01:04:21.091Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#14]]]></title>
+        <id>https://world.hey.com/jason/heard-something-read-something-saw-something-14-d7628c64</id>
+        <link href="https://world.hey.com/jason/heard-something-read-something-saw-something-14-d7628c64"/>
+        <updated>2023-05-05T21:23:36.000Z</updated>
+        <summary type="html"><![CDATA[Hey!
+It’s been many months since my last installment of the Heard Something, Read Something, Saw Something series. Let’s get back into it.
+So, what do we have this time...
+Heard Something
+A buddy randomly sent me this Turkish Electro Funk Güzel Mix on YouTube. This wasn’t on my radar at all, which is all the more reason I was glad he sent it.
+Hear it: https://youtu.be/DQWokgdyeYw
+Read Something
+19 sharks were all found in the same condition: missing their livers, which had been sucked out through a clean tear in their shoulders. The rest of their organs remained intact. Who’s performing such surgery at sea, and possibly teaching others how to do it as well?
+Read it: https://www.nationalgeographic.co.uk/animals/2023/03/why-are-these-orcas-killing-sharks-and-removing-their-livers
+Saw Something
+I can look at Slime Molds all day. Their forms, textures, and wide, whimsical variety are sublimely captivating. Here’s a good collection to get you started:
+See it: https://www.barrywebbimages.co.uk/Images/Macro/Slime-Moulds-Myxomycetes/
+Until next time.
+BTW, if you like these, and think someone else might too, please forward it on. They can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.
+
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to recover from microservices]]></title>
+        <id>https://world.hey.com/dhh/how-to-recover-from-microservices-ce3803cc</id>
+        <link href="https://world.hey.com/dhh/how-to-recover-from-microservices-ce3803cc"/>
+        <updated>2023-05-05T08:33:52.000Z</updated>
+        <summary type="html"><![CDATA[I won't deny there may well be cases where a microservices-first architecture makes sense, but I think they're few and far in between. The vast majority of systems are much better served by starting and staying with a majestic monolith. The Prime Video case study that blew up the internet yesterday is but the latest illustration.
+Maybe once you reach the scale of Netflix or Amazon, there are areas where it starts to make sense, but remember that even the likes of GitHub and Shopify run their main applications as monoliths with millions of lines of code and have thousands of programmers collaborating on them. Do you have many more millions of lines of code or thousands of programmers working on the same code bases? If not, exercise extreme caution before even thinking about microservices.
+B…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Even Amazon can't make sense of serverless or microservices]]></title>
         <id>https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580</id>
@@ -478,40 +516,6 @@ It's thus also fitting…]]></summary>
   
 These are the two pallets that showed up in our Chicago data center recently. The same day that an identical set arrived in Ashburn, Virginia for our second data center. In total, we received twenty R7625 Dell servers that'll power the bulk of our cloud exit. It's a staggering amount of computing power in a shockingly small footprint.
 Here's a diagram of our four cabinets in Chicago (we have another four in Ashburn). As …]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome Arlo and Scott to the Cargo Team]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/04/06/cargo-new-members.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/04/06/cargo-new-members.html"/>
-        <updated>2023-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We are excited to welcome Arlo Siemsen and Scott Schafer as new members to the Cargo Team!
-Arlo has been instrumental in bringing Cargo's new sparse registry support to fruition, which significantly improves registry performance. He has been involved with registry design and authentication discussions, and has been closely working with the team over the past year.
-Scott has been very active in the past year, working on various parts of Cargo, namely implementing workspace inheritance. Since then, he has been helping with maintenance and designing new features.
-With their help we now have capacity to start thinking about how feature development should be done moving forward. We are still in early discussions of processes for matching feature development with reviewer capacity, and will share more in the future. Thanks to Arlo and Scott for their help, and we are very much looking forward to having them as a part of the team!]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React forwardRef(): How to Pass Refs to Child Components]]></title>
-        <id>https://dmitripavlutin.com/react-forwardref/</id>
-        <link href="https://dmitripavlutin.com/react-forwardref/"/>
-        <updated>2023-04-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[React forwardRef() is a tool for passing refs to child components. Discover how to use it with ease in this comprehensive tutorial.]]></summary>
-        <author>
-            <name>Dmitri Pavlutin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Standing up to golems]]></title>
-        <id>https://world.hey.com/dhh/standing-up-to-golems-c98dd4a8</id>
-        <link href="https://world.hey.com/dhh/standing-up-to-golems-c98dd4a8"/>
-        <updated>2023-04-05T13:25:14.000Z</updated>
-        <summary type="html"><![CDATA[Tim Urban's new book What's Our Problem? offers an excellent analysis of the current American political malaise. It breaks down the history of first how the Republican party got overrun by low-rung thinking from the mid-90s forward, then how equally low-rung thinking got the other side in the past decade or so. It's a light, humorous recap of modern American political history. I highly recommend it.
-It's central contribution is adding a second dimension to the political spectrum. What we're dealing with is not just far-left, left, center, right, far-right. That spectrum is about contesting "what is" and "what ought to be". Our current problem is not so much disagreeing about those two central elements. All democracies will and should continue to do that. It's how that disagreements manifes…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>
