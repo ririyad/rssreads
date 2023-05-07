@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-06T01:04:21.091Z</updated>
+    <updated>2023-05-07T01:14:45.860Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Escaping creative downturns]]></title>
+        <id>https://world.hey.com/dhh/escaping-creative-downturns-15281997</id>
+        <link href="https://world.hey.com/dhh/escaping-creative-downturns-15281997"/>
+        <updated>2023-05-06T15:10:09.000Z</updated>
+        <summary type="html"><![CDATA[If I'm stuck in a creative downturn, there's usually only one remedy: keep going. That is, accept the downturn, but continue to stare at the computer, waiting for it to pass. While staring at the computer, there's room for menial and managerial tasks put aside during more inspired times. Checking up on things, getting back to people, and reading copious amount of internet. But it's still a creative deadzone.
+Then the curse is usually broken when I'm sufficiently bored with the menial, the managerial, and the internet. That's the moment the creativity returns. When all the distractions have been drained of their doldrum. When there is literally nothing better to do than open the editor and code. 
+I usually hit these downturns after a dopamine high, like one propelled by a particularly intense creative period. From working fervently on an idea, seeing it bloom, and then feeling the release of summer. As if fall must follow the flowers. As if the creative juices really are juices, and you can chug the jug. 
+But it can also happen after being out of the routine for too long. Maybe a particularly bad streak of weeks filled with meetings or travel. Like the mind has to settle back into a comfortable groove before sprouting again.
+I used to be more impatient with this oscillating process. Overly eager to get back riding high again. But as I've grown older, I've come to terms with the fact that it can't be eternal sunshine in the productive mind. You need to let weather pass. The grey, wet days of today soak the soil for the sun of tomorrow.
+Complaining about the rain won't do you any good, anyway. Don't argue with nature. Just wait. It'll be bright before you know it.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Heard Something, Read Something, Saw Something [#14]]]></title>
         <id>https://world.hey.com/jason/heard-something-read-something-saw-something-14-d7628c64</id>
@@ -477,45 +492,6 @@ It's not that it did nothing. We did have 98 billboards all over Boston for abou
 As you can see, we were at the top end of the predicted normal range, or even slightly above. But even with that, we ended up spending thousands of dollars on every attributable trial signup. Way outside the realm of anything we could claim a return on, even if you factored in a fair bit of long-run brand awareness.
 I will say that it felt pretty cool to see the irreverent Basecamp marketing messages appear on building-hugging billboards. There was an emotionally gratifying return on the investment. And perhaps that explains why it used to be common to see business software advertised in places like San Francisco where a lot of executives of such companies could feel good about seeing them. There's something gratifying about being in the real world like this.
 But yeah, it didn't work. We won't be doing that again. But we'll always have the pictures 😄]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Go Rails World]]></title>
-        <id>https://world.hey.com/dhh/go-rails-world-4f3c42e6</id>
-        <link href="https://world.hey.com/dhh/go-rails-world-4f3c42e6"/>
-        <updated>2023-04-07T11:19:41.000Z</updated>
-        <summary type="html"><![CDATA[Amanda Perino had barely settled into the role as executive director of The Rails Foundation before she secured a venue, a date, and the full support of the board for Rails World. This 650-attendee conference will kick off the worldwide ambitions for The Rails Foundation to host a new series of ecosystem gatherings at incredibly affordable prices (this first effort will be just €199-€299 for a ticket!). Way to make an entrance!
-This new conference will kick off at quite a momentous occasion, too: Celebrating the 20th anniversary of Ruby on Rails! I started working on the framework in the summer of 2003 as part of the development of Basecamp. By October, the framework had a shape that would be completely recognizable today, with Active Record and Action Pack in place.
-It's thus also fitting…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Writing to stdout is only as fast as your terminal]]></title>
-        <id>https://dietcode.io/t/stdout-perf/</id>
-        <link href="https://dietcode.io/t/stdout-perf/"/>
-        <updated>2023-04-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Would you believe me if I told you what terminal you use heavily impacts how many requests-per-second your server can handle?]]></summary>
-        <author>
-            <name>Dietcode | Sid's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The hardware we need for our cloud exit has arrived]]></title>
-        <id>https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966</id>
-        <link href="https://world.hey.com/dhh/the-hardware-we-need-for-our-cloud-exit-has-arrived-99d66966"/>
-        <updated>2023-04-06T13:54:17.000Z</updated>
-        <summary type="html"><![CDATA[It's been a long time since I last saw a physical piece of hardware used to run our services at 37signals. I vaguely remember doing a tour of our Chicago data center over a decade ago, but somewhere along the line, I just lost interest in the iron itself. Now the interest is back, because hardware is fun again, so let me share my excitement with you!
-  
-      
-        
-
-  
-These are the two pallets that showed up in our Chicago data center recently. The same day that an identical set arrived in Ashburn, Virginia for our second data center. In total, we received twenty R7625 Dell servers that'll power the bulk of our cloud exit. It's a staggering amount of computing power in a shockingly small footprint.
-Here's a diagram of our four cabinets in Chicago (we have another four in Ashburn). As …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>
