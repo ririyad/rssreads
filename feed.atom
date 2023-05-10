@@ -2,10 +2,155 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-09T01:11:02.406Z</updated>
+    <updated>2023-05-10T01:08:33.552Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The misallocation of tech talent]]></title>
+        <id>https://world.hey.com/dhh/the-misallocation-of-tech-talent-6c3b4403</id>
+        <link href="https://world.hey.com/dhh/the-misallocation-of-tech-talent-6c3b4403"/>
+        <updated>2023-05-09T09:13:09.000Z</updated>
+        <summary type="html"><![CDATA[Getting fired sucks. It doesn't matter how or when. It just sucks. And right now there are an awful lot of people in the tech industry feeling just how much. But what's bad for the individual isn't always bad for the group. Believe it or not, there's also collective upside to the massive tech layoffs happening at the moment.
+Like undoing the absurd hiring spree committed by the largest tech companies during the pandemic. This spree swallowed up a preposterous amount of talent, then put much of it to work on bullshit projects with little to no value for the company or the economy as a whole.
+Such hoarding of tech talent represented a tragic misallocation of productive capacity. The likes of Amazon, Meta, Google, and many others added tens of thousands of positions to already bloated bureauc…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Updating Rust's Linux musl targets]]></title>
+        <id>https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html</id>
+        <link href="https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html"/>
+        <updated>2023-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Beginning with Rust 1.71 (slated for stable release on 2023-07-13), the various *-linux-musl targets will ship with musl 1.2.3.
+These targets currently use musl 1.1.24.
+While musl 1.2.3 introduces some new features, most notably 64-bit time on all platforms, it is ABI compatible with earlier musl versions.
+As such, this change is unlikely to affect you.
+Updated targets
+The following targets will be updated:
+Target
+Support Tier
+
+
+
+
+aarch64-unknown-linux-musl
+Tier 2 with Host Tools
+
+
+x86_64-unknown-linux-musl
+Tier 2 with Host Tools
+
+
+arm-unknown-linux-musleabi
+Tier 2
+
+
+arm-unknown-linux-musleabihf
+Tier 2
+
+
+armv5te-unknown-linux-musleabi
+Tier 2
+
+
+armv7-unknown-linux-musleabi
+Tier 2
+
+
+armv7-unknown-linux-musleabihf
+Tier 2
+
+
+i586-unknown-linux-musl
+Tier 2
+
+
+i686-unknown-linux-musl
+Tier 2
+
+
+mips-unknown-linux-musl
+Tier 2
+
+
+mips64-unknown-linux-muslabi64
+Tier 2
+
+
+mips64el-unknown-linux-muslabi64
+Tier 2
+
+
+mipsel-unknown-linux-musl
+Tier 2
+
+
+hexagon-unknown-linux-musl
+Tier 3
+
+
+mips64-openwrt-linux-musl
+Tier 3
+
+
+powerpc-unknown-linux-musl
+Tier 3
+
+
+powerpc64-unknown-linux-musl
+Tier 3
+
+
+powerpc64le-unknown-linux-musl
+Tier 3
+
+
+riscv32gc-unknown-linux-musl
+Tier 3
+
+
+riscv64gc-unknown-linux-musl
+Tier 3
+
+
+s390x-unknown-linux-musl
+Tier 3
+
+
+thumbv7neon-unknown-linux-musleabihf
+Tier 3
+
+
+
+Note: musl 1.2.3 does not raise the minimum required Linux kernel version for any target.
+Will 64-bit time break the libc crate on 32-bit targets?
+No, the musl project made this change carefully preserving ABI compatibility.
+The libc crate will continue to function correctly without modification.
+A future version of the libc crate will update the definitions of time-related structures and functions to be 64-bit on all musl targets however this is blocked on the musl targets themselves first being updated.
+At present, there is no anticipated date when this change will take place and care will be taken to help the Rust ecosystem transition successfully to the updated time-related definitions.]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[API token scopes]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html"/>
+        <updated>2023-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Roughly three years ago Pietro Albini opened an RFC called "crates.io token scopes". This RFC described an improvement to the existing API tokens, that everyone is using to publish crates to the crates.io package registry. The proposal was to make it possible to restrict API tokens to 1) certain operations and 2) certain crates.
+Unfortunately, the crates.io team members were quite busy at the time, so it took a while for this proposal to get accepted. To be precise, during the EuroRust conference in October 2022 we talked about the RFC again and after a few modifications the RFC was moved into FCP status and then finally merged.
+The implementation was started soon after, but was paused again due to other priorities at the time. Fortunately, I was lucky enough to get one of the software engineering jobs at the Rust Foundation, so in early April the development continued, and I am happy to report:
+API token scopes on crates.io are now in a public beta testing period!
+For details on what these token scopes are and how they are supposed to work, I recommend reading through the RFC. If you want to try them out, you can go to https://crates.io/settings/tokens/new and create a new API token scoped to the operations and crates you want:
+
+Please note that this page is currently not reachable from the regular user interface, you have to access it via URL directly while we test it out.
+Finally, if you notice any issues, or if you have any questions don't hesitate to find us on Zulip or open an issue on GitHub.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On hiring, rehiring, and one question to answer them all]]></title>
         <id>https://world.hey.com/jason/on-hiring-rehiring-and-one-question-to-answer-them-all-5db97bcb</id>

@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-misallocation-of-tech-talent-6c3b4403",
+          "author": null,
+          "description": "Getting fired sucks. It doesn't matter how or when. It just sucks. And right now there are an awful lot of people in the tech industry feeling just how much. But what's bad for the individual isn't always bad for the group. Believe it or not, there's also collective upside to the massive tech layoffs happening at the moment.\nLike undoing the absurd hiring spree committed by the largest tech companies during the pandemic. This spree swallowed up a preposterous amount of talent, then put much of it to work on bullshit projects with little to no value for the company or the economy as a whole.\nSuch hoarding of tech talent represented a tragic misallocation of productive capacity. The likes of Amazon, Meta, Google, and many others added tens of thousands of positions to already bloated bureauc…",
+          "link": "https://world.hey.com/dhh/the-misallocation-of-tech-talent-6c3b4403",
+          "publishedOn": "2023-05-09T09:13:09.000Z",
+          "wordCount": 581,
+          "title": "The misallocation of tech talent",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/in-defense-of-the-office-450fc177",
           "author": null,
           "description": "You're never getting me back into an office. I credit much of my career to escaping that place in the early 2000s. It wasn't until I found the prolonged solitude of working from home that I could consistently make big leaps in my creative process. The pandemic taught millions the same lesson. And yet – AND YET! – I'm going to come to the defense of the office. \nBecause I find it so nonsensical to hear remote-work advocates proclaim the universal, moral superiority of abolishing the office, as I did listening to those who couldn't envision productive work from home just a few minutes ago. Let's be real here. The modern world we live in was designed and executed from an office. It's a perfectly legitimate way of working.\nIt may not be your preferred way of working. It sure as hell isn't mine…",
@@ -280,6 +290,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html",
+          "author": null,
+          "description": "Beginning with Rust 1.71 (slated for stable release on 2023-07-13), the various *-linux-musl targets will ship with musl 1.2.3.\nThese targets currently use musl 1.1.24.\nWhile musl 1.2.3 introduces some new features, most notably 64-bit time on all platforms, it is ABI compatible with earlier musl versions.\nAs such, this change is unlikely to affect you.\nUpdated targets\nThe following targets will be updated:\nTarget\nSupport Tier\n\n\n\n\naarch64-unknown-linux-musl\nTier 2 with Host Tools\n\n\nx86_64-unknown-linux-musl\nTier 2 with Host Tools\n\n\narm-unknown-linux-musleabi\nTier 2\n\n\narm-unknown-linux-musleabihf\nTier 2\n\n\narmv5te-unknown-linux-musleabi\nTier 2\n\n\narmv7-unknown-linux-musleabi\nTier 2\n\n\narmv7-unknown-linux-musleabihf\nTier 2\n\n\ni586-unknown-linux-musl\nTier 2\n\n\ni686-unknown-linux-musl\nTier 2\n\n\nmips-unknown-linux-musl\nTier 2\n\n\nmips64-unknown-linux-muslabi64\nTier 2\n\n\nmips64el-unknown-linux-muslabi64\nTier 2\n\n\nmipsel-unknown-linux-musl\nTier 2\n\n\nhexagon-unknown-linux-musl\nTier 3\n\n\nmips64-openwrt-linux-musl\nTier 3\n\n\npowerpc-unknown-linux-musl\nTier 3\n\n\npowerpc64-unknown-linux-musl\nTier 3\n\n\npowerpc64le-unknown-linux-musl\nTier 3\n\n\nriscv32gc-unknown-linux-musl\nTier 3\n\n\nriscv64gc-unknown-linux-musl\nTier 3\n\n\ns390x-unknown-linux-musl\nTier 3\n\n\nthumbv7neon-unknown-linux-musleabihf\nTier 3\n\n\n\nNote: musl 1.2.3 does not raise the minimum required Linux kernel version for any target.\nWill 64-bit time break the libc crate on 32-bit targets?\nNo, the musl project made this change carefully preserving ABI compatibility.\nThe libc crate will continue to function correctly without modification.\nA future version of the libc crate will update the definitions of time-related structures and functions to be 64-bit on all musl targets however this is blocked on the musl targets themselves first being updated.\nAt present, there is no anticipated date when this change will take place and care will be taken to help the Rust ecosystem transition successfully to the updated time-related definitions.",
+          "link": "https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html",
+          "publishedOn": "2023-05-09T00:00:00.000Z",
+          "wordCount": 327,
+          "title": "Updating Rust's Linux musl targets",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/04/25/Rustup-1.26.0.html",
           "author": null,
           "description": "The rustup working group is happy to announce the release of rustup version 1.26.0. Rustup is the recommended tool to install Rust, a programming language that is empowering everyone to build reliable and efficient software.\nIf you have a previous version of rustup installed, getting rustup 1.26.0 is as easy as stopping any programs which may be using Rustup (e.g. closing your IDE) and running:\nrustup self update\n\nRustup will also automatically update itself at the end of a normal toolchain update:\nrustup update\n\nIf you don't have it already, you can get rustup from the appropriate page on our website.\nWhat's new in rustup 1.26.0\nThis version of Rustup involves a significant number of internal cleanups, both in terms\nof the Rustup code and its tests. In addition to a lot of work on the cod…",
@@ -306,6 +326,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html",
+          "author": null,
+          "description": "Roughly three years ago Pietro Albini opened an RFC called \"crates.io token scopes\". This RFC described an improvement to the existing API tokens, that everyone is using to publish crates to the crates.io package registry. The proposal was to make it possible to restrict API tokens to 1) certain operations and 2) certain crates.\nUnfortunately, the crates.io team members were quite busy at the time, so it took a while for this proposal to get accepted. To be precise, during the EuroRust conference in October 2022 we talked about the RFC again and after a few modifications the RFC was moved into FCP status and then finally merged.\nThe implementation was started soon after, but was paused again due to other priorities at the time. Fortunately, I was lucky enough to get one of the software engineering jobs at the Rust Foundation, so in early April the development continued, and I am happy to report:\nAPI token scopes on crates.io are now in a public beta testing period!\nFor details on what these token scopes are and how they are supposed to work, I recommend reading through the RFC. If you want to try them out, you can go to https://crates.io/settings/tokens/new and create a new API token scoped to the operations and crates you want:\n\nPlease note that this page is currently not reachable from the regular user interface, you have to access it via URL directly while we test it out.\nFinally, if you notice any issues, or if you have any questions don't hesitate to find us on Zulip or open an issue on GitHub.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html",
+          "publishedOn": "2023-05-09T00:00:00.000Z",
+          "wordCount": 342,
+          "title": "API token scopes",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html",
           "author": null,
