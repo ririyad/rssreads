@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-13T01:07:12.846Z</updated>
+    <updated>2023-05-14T01:13:23.886Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -677,34 +677,6 @@ Now... back to this new product we're building.
 -Jason]]></summary>
         <author>
             <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4 Ways to Create an Enum in JavaScript]]></title>
-        <id>https://dmitripavlutin.com/javascript-enum/</id>
-        <link href="https://dmitripavlutin.com/javascript-enum/"/>
-        <updated>2023-04-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An enum is a set of named constants. The plain object, frozen object, proxied object or class-based are the 4 ways to create enums in JavaScript.]]></summary>
-        <author>
-            <name>Dmitri Pavlutin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An example of LLM prompting for programming]]></title>
-        <id>https://martinfowler.com/articles/2023-chatgpt-xu-hao.html</id>
-        <link href="https://martinfowler.com/articles/2023-chatgpt-xu-hao.html"/>
-        <updated>2023-04-13T13:30:00.000Z</updated>
-        <summary type="html"><![CDATA[A couple of weeks ago I watched a fascinating Zoom call hosted by Xu
-     Hao, Thoughtworks's Head of Technology in China. He showed an
-     example of how he uses ChatGPT to help him code in a self-testing
-     style. His initial prompt primes the LLM with an implementation strategy
-     (chain of thought prompting). His prompt also asks for an implementation
-     plan rather than code (general knowledge prompting). Once he has the plan
-     he uses it to refine the implementation and generate useful sections of
-     code.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>

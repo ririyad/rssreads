@@ -295,16 +295,6 @@
           "wordCount": 538,
           "title": "What Does a Technical Author Look Like?",
           "imageUrl": "https://martinfowler.com/articles/2023-tech-author-portrait/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/2023-chatgpt-xu-hao.html",
-          "author": null,
-          "description": "A couple of weeks ago I watched a fascinating Zoom call hosted by Xu\n     Hao, Thoughtworks's Head of Technology in China. He showed an\n     example of how he uses ChatGPT to help him code in a self-testing\n     style. His initial prompt primes the LLM with an implementation strategy\n     (chain of thought prompting). His prompt also asks for an implementation\n     plan rather than code (general knowledge prompting). Once he has the plan\n     he uses it to refine the implementation and generate useful sections of\n     code.\nmore…",
-          "link": "https://martinfowler.com/articles/2023-chatgpt-xu-hao.html",
-          "publishedOn": "2023-04-13T13:30:00.000Z",
-          "wordCount": 2863,
-          "title": "An example of LLM prompting for programming",
-          "imageUrl": "https://martinfowler.com/articles/2023-chatgpt-xu-hao/xu-chat-final.png"
         }
       ]
     },
@@ -476,16 +466,6 @@
           "wordCount": 2075,
           "title": "How to Write Comments in React: The Good, the Bad and the Ugly",
           "imageUrl": "https://dmitripavlutin.com/react-comments/cover.png"
-        },
-        {
-          "id": "https://dmitripavlutin.com/javascript-enum/",
-          "author": "Dmitri Pavlutin",
-          "description": "An enum is a set of named constants. The plain object, frozen object, proxied object or class-based are the 4 ways to create enums in JavaScript.",
-          "link": "https://dmitripavlutin.com/javascript-enum/",
-          "publishedOn": "2023-04-14T00:00:00.000Z",
-          "wordCount": 3325,
-          "title": "4 Ways to Create an Enum in JavaScript",
-          "imageUrl": "https://dmitripavlutin.com/javascript-enum/cover.png"
         }
       ]
     },
