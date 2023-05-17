@@ -375,16 +375,6 @@
           "wordCount": 620,
           "title": "Postmortem Analysis in Cargo",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/04/17/1.69.0-prerelease.html",
-          "author": null,
-          "description": "The 1.69.0 pre-release is ready for testing. The release is scheduled for\nApril 20. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-04-17/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/04/17/1.69.0-prerelease.html",
-          "publishedOn": "2023-04-17T00:00:00.000Z",
-          "wordCount": 139,
-          "title": "1.69.0 pre-release testing",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -409,7 +399,28 @@
       "title": "Notes on software development",
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://notes.eatonphil.com/high-quality-subreddits-you-should-be-following.html",
+          "author": null,
+          "description": "Originally published on December 5, 2021.\n\nIf you are an experienced software developer whose only exposure to\nreddit is dank memes, proggit or even\nlanguage-specific subreddits like\n/r/python, you're missing out.\nWhat follows are my favorite subreddits in tech. My criteria is that:\nThe subreddit topic is relevant to advancing as a programmer\nPosts generally go into good depth\nThe comments stay on topic\nAnd the shit-posting is minimal\nThis list isn't hard to guess at if you consider advanced topics\nin software. But I wanted to share because I think it's worth\nexplicitly supporting high-quality subreddits.\n/r/EmuDev\nMy favorite sub of all. Also has a phenomenal Discord group.\n/r/ProgrammingLanguages\nFocuses a little more on PLT topics (parsing techniques, syntax, type systems) than on compiling and interpreting techniques, but still good.\n/r/DatabaseDevelopment\nAll about database internals, which ends up involving a bunch of\ncorrectness and distributed systems stuff as well.\nDisclosure: I run this sub. It's at 2.7k+ members at time of publishing.\n/r/ReverseEngineering\nThe largest subreddit on this list but still has pretty good posts.\n/r/EsoLangs\nOne of the best/most fun intros to programming languages/compilers/interpreters is through languages like Brainfuck. This sub does a good job of keeping the fun going.\n/r/Compilers\n/r/GraphicsProgramming\nWhile some language subreddits are pretty good, they are more so a\nmixed bag than some of the topic-specific subreddits here. So they\ndon't make my list, more on principle than anything else.\nIf there is a good one already, send me it!\nWhat am I missing?\nAm I missing other amazing subreddits? Just don't say\nlanguage-specific ones. :)\n\nIt's an incorrect meme IMO that tech Reddit is low-quality. You just have to find the interesting subreddits.\nI've updated my list for 2023.https://t.co/OtM2tk8HOn pic.twitter.com/ymyzChp0SO\n— Phil Eaton (@eatonphil) May 16, 2023",
+          "link": "http://notes.eatonphil.com/high-quality-subreddits-you-should-be-following.html",
+          "publishedOn": "2023-05-16T00:00:00.000Z",
+          "wordCount": 2242,
+          "title": "My favorite software subreddits",
+          "imageUrl": null
+        },
+        {
+          "id": "http://notes.eatonphil.com/books-developers-should-read.html",
+          "author": null,
+          "description": "Originally published on February 1, 2021. The original version\n  included two books I don't think are actually so worthwhile. This\n  list is down to two. I think that's a good thing actually.\n\nThese are the books I recommend to developers wanting to improve their\nskills as professional programmers because of high information\ndensity, believable premises/examples, and being well edited.\nYou don't need to read books to improve as a developer but\nthey are unparalleled in quickly helping you gain depth in a subject.\nHigh Performance Browser Networking\nIf you deal with networks, you would probably benefit from this book.\nIt is a thorough high level introduction to mobile networks, browser\nnetwork protocols, and fundementals of networking.\nDesigning Data-Intensive Applications\nIf you use a database (including an in-memory array of items you\nsearch periodically) or if you build APIs, you would probably benefit\nfrom this book. A solid introduction to distributed computing, data\ntransfer, indexing, etc.\nThat's it!\nGeneric software books conspicuously not on this list for\nme:\nClean Code\nJavaScript the Good Parts\nDesign Patterns/Gang of Four\nStructure and Interpretation of Computer Programs\nA Philosophy of Software Design\nThey're not all bad but give nowhere near as much return for the\ninvestment of your time.\n\nFour books I recommend to professional developers wanting to improve their craft, and a few I'd nothttps://t.co/1aTrfqZ9bd\n— Phil Eaton (@phil_eaton) February 2, 2021",
+          "link": "http://notes.eatonphil.com/books-developers-should-read.html",
+          "publishedOn": "2023-05-16T00:00:00.000Z",
+          "wordCount": 2179,
+          "title": "Two books I recommend to developers",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "CoRecursive: Coding Stories",
@@ -440,7 +451,28 @@
       "title": "Notes on software development",
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://notes.eatonphil.com/high-quality-subreddits-you-should-be-following.html",
+          "author": null,
+          "description": "Originally published on December 5, 2021.\n\nIf you are an experienced software developer whose only exposure to\nreddit is dank memes, proggit or even\nlanguage-specific subreddits like\n/r/python, you're missing out.\nWhat follows are my favorite subreddits in tech. My criteria is that:\nThe subreddit topic is relevant to advancing as a programmer\nPosts generally go into good depth\nThe comments stay on topic\nAnd the shit-posting is minimal\nThis list isn't hard to guess at if you consider advanced topics\nin software. But I wanted to share because I think it's worth\nexplicitly supporting high-quality subreddits.\n/r/EmuDev\nMy favorite sub of all. Also has a phenomenal Discord group.\n/r/ProgrammingLanguages\nFocuses a little more on PLT topics (parsing techniques, syntax, type systems) than on compiling and interpreting techniques, but still good.\n/r/DatabaseDevelopment\nAll about database internals, which ends up involving a bunch of\ncorrectness and distributed systems stuff as well.\nDisclosure: I run this sub. It's at 2.7k+ members at time of publishing.\n/r/ReverseEngineering\nThe largest subreddit on this list but still has pretty good posts.\n/r/EsoLangs\nOne of the best/most fun intros to programming languages/compilers/interpreters is through languages like Brainfuck. This sub does a good job of keeping the fun going.\n/r/Compilers\n/r/GraphicsProgramming\nWhile some language subreddits are pretty good, they are more so a\nmixed bag than some of the topic-specific subreddits here. So they\ndon't make my list, more on principle than anything else.\nIf there is a good one already, send me it!\nWhat am I missing?\nAm I missing other amazing subreddits? Just don't say\nlanguage-specific ones. :)\n\nIt's an incorrect meme IMO that tech Reddit is low-quality. You just have to find the interesting subreddits.\nI've updated my list for 2023.https://t.co/OtM2tk8HOn pic.twitter.com/ymyzChp0SO\n— Phil Eaton (@eatonphil) May 16, 2023",
+          "link": "http://notes.eatonphil.com/high-quality-subreddits-you-should-be-following.html",
+          "publishedOn": "2023-05-16T00:00:00.000Z",
+          "wordCount": 2242,
+          "title": "My favorite software subreddits",
+          "imageUrl": null
+        },
+        {
+          "id": "http://notes.eatonphil.com/books-developers-should-read.html",
+          "author": null,
+          "description": "Originally published on February 1, 2021. The original version\n  included two books I don't think are actually so worthwhile. This\n  list is down to two. I think that's a good thing actually.\n\nThese are the books I recommend to developers wanting to improve their\nskills as professional programmers because of high information\ndensity, believable premises/examples, and being well edited.\nYou don't need to read books to improve as a developer but\nthey are unparalleled in quickly helping you gain depth in a subject.\nHigh Performance Browser Networking\nIf you deal with networks, you would probably benefit from this book.\nIt is a thorough high level introduction to mobile networks, browser\nnetwork protocols, and fundementals of networking.\nDesigning Data-Intensive Applications\nIf you use a database (including an in-memory array of items you\nsearch periodically) or if you build APIs, you would probably benefit\nfrom this book. A solid introduction to distributed computing, data\ntransfer, indexing, etc.\nThat's it!\nGeneric software books conspicuously not on this list for\nme:\nClean Code\nJavaScript the Good Parts\nDesign Patterns/Gang of Four\nStructure and Interpretation of Computer Programs\nA Philosophy of Software Design\nThey're not all bad but give nowhere near as much return for the\ninvestment of your time.\n\nFour books I recommend to professional developers wanting to improve their craft, and a few I'd nothttps://t.co/1aTrfqZ9bd\n— Phil Eaton (@phil_eaton) February 2, 2021",
+          "link": "http://notes.eatonphil.com/books-developers-should-read.html",
+          "publishedOn": "2023-05-16T00:00:00.000Z",
+          "wordCount": 2179,
+          "title": "Two books I recommend to developers",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Dmitri Pavlutin Blog",
