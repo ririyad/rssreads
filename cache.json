@@ -287,6 +287,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/2023-xref-problem.html",
+          "author": null,
+          "description": "Recently I found that xref in Emacs had stopped working for me on my mac laptop. Today I finally tried to figure out what went wrong. xref is just a front-end, all the work is done by backends. It took a while for me to realize (ie remember) that I was using the excellent dumb-jump package as the backend. dumb-jump uses a range of fast search commands (such as ag and ripgrep) to detect references without using the awkward tags tables that Emacs used to rely on.\nThe command flow between xref and dumb-jump is difficult to follow, but looking at the dumb-jump customization page alerted me to dumb-jump having a debug option. With this enabled, I could see what command dumb-jump was sending to the operating system. By default it uses git grep while in a git repo (almost everything I do is in a git repo). Its git grep command is quite complex, using regexps to (I assume) get more sensible results. I tried out the command it issued in my own terminal and it failed to find anything, while a simple git grep worked fine.\nArmed with a better knowledge of what was failing, I dug into dumb-jump’s issues and found Issue with git-grep. Reading that, I discovered that a change to git grep means that how git grep processes regexes differs depending on the operating system. This would mean that dumb-jump would need to detect git-grep’s version and the underlying OS to pick the right regexes for its search.\nThe fix for me is to force dumb-jump to use another searcher with (setq dumb-jump-force-searcher 'rg). With that my xref commands worked again.",
+          "link": "https://martinfowler.com/articles/2023-xref-problem.html",
+          "publishedOn": "2023-05-19T16:48:00.000Z",
+          "wordCount": 389,
+          "title": "Emacs xref stopped working on Macs with dumb-jump",
+          "imageUrl": null
+        },
+        {
           "id": "https://martinfowler.com/articles/2023-chatgpt-tech-writing.html",
           "author": null,
           "description": "My colleague Mike Mason is an experienced software\n     developer and architect. He's also an skillful writer, with a couple of\n     books under his belt together with plenty of writing for Thoughtworks,\n     including a regular macro-trends article and contributing to the\n     Thoughtworks Technology Radar. In the last couple of months he's been\n     experimenting with Large Language Models (LLMs) both for programming and\n     prose writing. Here he focuses on the latter, sharing how he's been able to\n     make effective use of ChatGPT.\nmore…",
@@ -337,16 +347,6 @@
           "publishedOn": "2023-04-25T00:00:00.000Z",
           "wordCount": 501,
           "title": "Announcing Rustup 1.26.0",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html",
-          "author": null,
-          "description": "The Rust team is happy to announce a nice version of Rust, 1.69.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.69.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.69.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.69.0 stable\nRust 1.69.0 introduces no major new features. However, it contains many small improvements, including over 3,000 commits…",
-          "link": "https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html",
-          "publishedOn": "2023-04-20T00:00:00.000Z",
-          "wordCount": 502,
-          "title": "Announcing Rust 1.69.0",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]

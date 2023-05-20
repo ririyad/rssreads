@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-19T01:11:03.281Z</updated>
+    <updated>2023-05-20T01:08:04.211Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Emacs xref stopped working on Macs with dumb-jump]]></title>
+        <id>https://martinfowler.com/articles/2023-xref-problem.html</id>
+        <link href="https://martinfowler.com/articles/2023-xref-problem.html"/>
+        <updated>2023-05-19T16:48:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently I found that xref in Emacs had stopped working for me on my mac laptop. Today I finally tried to figure out what went wrong. xref is just a front-end, all the work is done by backends. It took a while for me to realize (ie remember) that I was using the excellent dumb-jump package as the backend. dumb-jump uses a range of fast search commands (such as ag and ripgrep) to detect references without using the awkward tags tables that Emacs used to rely on.
+The command flow between xref and dumb-jump is difficult to follow, but looking at the dumb-jump customization page alerted me to dumb-jump having a debug option. With this enabled, I could see what command dumb-jump was sending to the operating system. By default it uses git grep while in a git repo (almost everything I do is in a git repo). Its git grep command is quite complex, using regexps to (I assume) get more sensible results. I tried out the command it issued in my own terminal and it failed to find anything, while a simple git grep worked fine.
+Armed with a better knowledge of what was failing, I dug into dumb-jump’s issues and found Issue with git-grep. Reading that, I discovered that a change to git grep means that how git grep processes regexes differs depending on the operating system. This would mean that dumb-jump would need to detect git-grep’s version and the underlying OS to pick the right regexes for its search.
+The fix for me is to force dumb-jump to use another searcher with (setq dumb-jump-force-searcher 'rg). With that my xref commands worked again.]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Humble Chronicles: Managing State with Signals]]></title>
         <id>https://tonsky.me/blog/humble-signals/</id>
@@ -813,23 +826,6 @@ In my case, I know pretty well wh…]]></summary>
         <summary type="html"><![CDATA[{/* Comment */} is the usual way to write comments in React. But there are 2 better ways to comment you just have to know.]]></summary>
         <author>
             <name>Dmitri Pavlutin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.69.0]]></title>
-        <id>https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html</id>
-        <link href="https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html"/>
-        <updated>2023-04-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Rust team is happy to announce a nice version of Rust, 1.69.0. Rust is a programming language empowering everyone to build reliable and efficient software.
-If you have a previous version of Rust installed via rustup, you can get 1.69.0 with:
-rustup update stable
-
-If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.69.0 on GitHub.
-If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
-What's in 1.69.0 stable
-Rust 1.69.0 introduces no major new features. However, it contains many small improvements, including over 3,000 commits…]]></summary>
-        <author>
-            <name>Rust Blog</name>
         </author>
     </entry>
 </feed>

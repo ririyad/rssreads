@@ -22,6 +22,56 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-19 datetime="2023-05-19T16:48:00.000Z">2023-05-19</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-19 datetime="2023-05-19T16:48:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Martin Fowler</button>
+                  <a class="source-heading__link" href="https://martinfowler.com/feed.atom">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://martinfowler.com/articles/2023-xref-problem.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Emacs xref stopped working on Macs with dumb-jump</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://martinfowler.com/articles/2023-xref-problem.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Recently I found that xref in Emacs had stopped working for me on my mac laptop. Today I finally tried to figure out what went wrong. xref is just a front-end, all the work is done by backends. It took a while for me to realize (ie remember) that I was using the excellent dumb-jump package as the backend. dumb-jump uses a range of fast search commands (such as ag and ripgrep) to detect references without using the awkward tags tables that Emacs used to rely on.
+The command flow between xref and dumb-jump is difficult to follow, but looking at the dumb-jump customization page alerted me to dumb-jump having a debug option. With this enabled, I could see what command dumb-jump was sending to the operating system. By default it uses git grep while in a git repo (almost everything I do is in a git repo). Its git grep command is quite complex, using regexps to (I assume) get more sensible results. I tried out the command it issued in my own terminal and it failed to find anything, while a simple git grep worked fine.
+Armed with a better knowledge of what was failing, I dug into dumb-jump’s issues and found Issue with git-grep. Reading that, I discovered that a change to git grep means that how git grep processes regexes differs depending on the operating system. This would mean that dumb-jump would need to detect git-grep’s version and the underlying OS to pick the right regexes for its search.
+The fix for me is to force dumb-jump to use another searcher with (setq dumb-jump-force-searcher &#x27;rg). With that my xref commands worked again.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-05-18 datetime="2023-05-18T00:00:00.000Z">2023-05-18</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-05-18 datetime="2023-05-18T00:00:00.000Z"></time>
           </button>
@@ -2031,65 +2081,10 @@ In my case, I know pretty well wh…</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-04-20 datetime="2023-04-20T00:00:00.000Z">2023-04-20</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-04-20 datetime="2023-04-20T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Rust Blog</button>
-                  <a class="source-heading__link" href="https://blog.rust-lang.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Announcing Rust 1.69.0</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2023/04/20/Rust-1.69.0.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The Rust team is happy to announce a nice version of Rust, 1.69.0. Rust is a programming language empowering everyone to build reliable and efficient software.
-If you have a previous version of Rust installed via rustup, you can get 1.69.0 with:
-rustup update stable
-
-If you don&#x27;t have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.69.0 on GitHub.
-If you&#x27;d like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
-What&#x27;s in 1.69.0 stable
-Rust 1.69.0 introduces no major new features. However, it contains many small improvements, including over 3,000 commits…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/5019746949">
-        <time id="build-timestamp" datetime="2023-05-19T01:11:03.241Z">2023-05-19T01:11:03.241Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/5029576304">
+        <time id="build-timestamp" datetime="2023-05-20T01:08:04.180Z">2023-05-20T01:08:04.180Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
