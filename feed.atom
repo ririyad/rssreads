@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-23T01:09:59.728Z</updated>
+    <updated>2023-05-24T01:13:05.079Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Dependency Composition]]></title>
+        <id>https://martinfowler.com/articles/dependency-composition.html</id>
+        <link href="https://martinfowler.com/articles/dependency-composition.html"/>
+        <updated>2023-05-23T17:56:00.000Z</updated>
+        <summary type="html"><![CDATA[Developers commonly ask "what framework should we use for dependency
+     injection". Daniel Somerfield explains why this is the wrong question,
+     instead we should focus how to have clearly separated modules with a simple
+     composition mechanism between them. He illustrates how he approaches this
+     in TypeScript, with a minimalist "function-first" approach, on a simple
+     example application separating application logic from persistence.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The luxury of working without metrics]]></title>
+        <id>https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac</id>
+        <link href="https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac"/>
+        <updated>2023-05-23T09:39:15.000Z</updated>
+        <summary type="html"><![CDATA[There are a million metrics you can use to track the health of a  subscription software business like ours. Customer life-time value, cost of acquisition, cohort retention, revenue churn, net promoter score, funnel conversion rates, to name but a few. All useful calculations, but I can't tell you what bliss it's been to steer 37signals without them for twenty years.
+That's not to say that we never run these numbers, but it is to say that these numbers never run us. Because in the end, even the most sophisticated KPIs all inevitably serve the simplest calculations: Are we making money? Is it enough? You don't need a degree in statistics to determine that.
+Where this is most evident for us is in the product. I remember reading a story about how Google once tested 127 different shades of blue…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[But what if you're wrong?]]></title>
         <id>https://world.hey.com/dhh/but-what-if-you-re-wrong-6de2168c</id>
@@ -810,25 +838,6 @@ of the Rustup code and its tests. In addition to a lot of work on the cod…]]><
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Energy]]></title>
-        <id>https://world.hey.com/jorge/energy-fd7c84d8</id>
-        <link href="https://world.hey.com/jorge/energy-fd7c84d8"/>
-        <updated>2023-04-23T18:49:48.000Z</updated>
-        <summary type="html"><![CDATA[Internal energy is tricky. 
-
-
-On the one hand, energy is more reliable than happiness. I liked this reflection by Jocko Willink in the Huberman podacast. Everyone experiences joy and sadness as part of their daily lives: keeping a certain energy level is more feasible than a certain level of happiness.
-
-
-On the other hand, as with anything related to habits, it's way easier to preach than practice. Many years ago, someone I love dearly told me that he tried to do more of what he liked and less of what he didn't. I remember thinking, "Doh, what a naive approach to life". Now I think there is deep wisdom there. Your internal energy is the result of a balance. You can have more money by either making more or spending less; you need to pay attention to both.
-
-
-In my case, I know pretty well wh…]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
         </author>
     </entry>
 </feed>

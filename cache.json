@@ -51,6 +51,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac",
+          "author": null,
+          "description": "There are a million metrics you can use to track the health of a  subscription software business like ours. Customer life-time value, cost of acquisition, cohort retention, revenue churn, net promoter score, funnel conversion rates, to name but a few. All useful calculations, but I can't tell you what bliss it's been to steer 37signals without them for twenty years.\nThat's not to say that we never run these numbers, but it is to say that these numbers never run us. Because in the end, even the most sophisticated KPIs all inevitably serve the simplest calculations: Are we making money? Is it enough? You don't need a degree in statistics to determine that.\nWhere this is most evident for us is in the product. I remember reading a story about how Google once tested 127 different shades of blue…",
+          "link": "https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac",
+          "publishedOn": "2023-05-23T09:39:15.000Z",
+          "wordCount": 570,
+          "title": "The luxury of working without metrics",
+          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
+        },
+        {
           "id": "https://world.hey.com/dhh/but-what-if-you-re-wrong-6de2168c",
           "author": null,
           "description": "They seemed so sure. First, that the pandemic couldn't possibly have come from a lab rather than a market. Then, that masks – any masks! – would materially retard the spread. Later, that the vaccine would prevent you from getting the virus. Finally, that if you were vaccinated, you couldn't spread the virus. All of that, and plenty more, turned out to be false.\nIn the years to come, there'll be plenty of time to point fingers. Who, when, where. The main characters are already digging their rhetorical tunnels. \nBut as we've passed the three-year anniversary for pandemic, I think it's just as important to look inwards. Because not only did most people buy the false claims, they became little foot soldiers in the crusade for them. Including me, for a while.\nStart by watching this compilation …",
@@ -297,6 +307,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/dependency-composition.html",
+          "author": null,
+          "description": "Developers commonly ask \"what framework should we use for dependency\n     injection\". Daniel Somerfield explains why this is the wrong question,\n     instead we should focus how to have clearly separated modules with a simple\n     composition mechanism between them. He illustrates how he approaches this\n     in TypeScript, with a minimalist \"function-first\" approach, on a simple\n     example application separating application logic from persistence.\nmore…",
+          "link": "https://martinfowler.com/articles/dependency-composition.html",
+          "publishedOn": "2023-05-23T17:56:00.000Z",
+          "wordCount": 6803,
+          "title": "Dependency Composition",
+          "imageUrl": "https://martinfowler.com/articles/dependency-composition/card.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/2023-xref-problem.html",
           "author": null,
           "description": "Recently I found that xref in Emacs had stopped working for me on my mac laptop. Today I finally tried to figure out what went wrong. xref is just a front-end, all the work is done by backends. It took a while for me to realize (ie remember) that I was using the excellent dumb-jump package as the backend. dumb-jump uses a range of fast search commands (such as ag and ripgrep) to detect references without using the awkward tags tables that Emacs used to rely on.\nThe command flow between xref and dumb-jump is difficult to follow, but looking at the dumb-jump customization page alerted me to dumb-jump having a debug option. With this enabled, I could see what command dumb-jump was sending to the operating system. By default it uses git grep while in a git repo (almost everything I do is in a git repo). Its git grep command is quite complex, using regexps to (I assume) get more sensible results. I tried out the command it issued in my own terminal and it failed to find anything, while a simple git grep worked fine.\nArmed with a better knowledge of what was failing, I dug into dumb-jump’s issues and found Issue with git-grep. Reading that, I discovered that a change to git grep means that how git grep processes regexes differs depending on the operating system. This would mean that dumb-jump would need to detect git-grep’s version and the underlying OS to pick the right regexes for its search.\nThe fix for me is to force dumb-jump to use another searcher with (setq dumb-jump-force-searcher 'rg). With that my xref commands worked again.",
@@ -402,18 +422,7 @@
       "title": "Jorge Manrubia",
       "feedUrl": "https://world.hey.com/jorge/feed.atom",
       "siteUrl": "https://world.hey.com/jorge",
-      "articles": [
-        {
-          "id": "https://world.hey.com/jorge/energy-fd7c84d8",
-          "author": null,
-          "description": "Internal energy is tricky. \n\n\nOn the one hand, energy is more reliable than happiness. I liked this reflection by Jocko Willink in the Huberman podacast. Everyone experiences joy and sadness as part of their daily lives: keeping a certain energy level is more feasible than a certain level of happiness.\n\n\nOn the other hand, as with anything related to habits, it's way easier to preach than practice. Many years ago, someone I love dearly told me that he tried to do more of what he liked and less of what he didn't. I remember thinking, \"Doh, what a naive approach to life\". Now I think there is deep wisdom there. Your internal energy is the result of a balance. You can have more money by either making more or spending less; you need to pay attention to both.\n\n\nIn my case, I know pretty well wh…",
-          "link": "https://world.hey.com/jorge/energy-fd7c84d8",
-          "publishedOn": "2023-04-23T18:49:48.000Z",
-          "wordCount": 439,
-          "title": "Energy",
-          "imageUrl": "https://world.hey.com/jorge/fd7c84d8/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2QydTBaSCIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--41658909d6b1af01da17efa7774cd803ffabfb99/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/roland-larsson-k9e4KXs6AGQ-unsplash.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notes on software development",
