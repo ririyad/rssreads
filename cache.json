@@ -51,6 +51,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/manage-process-before-people-20736695",
+          "author": null,
+          "description": "If you want to run a company that's light on full-time managers, you have to focus on managing processes before people. The traditional paradigm of a reporting manager that's constantly following up with their reports, conducting daily stand-up meetings, weekly 1-1s, and all other forms of intensive supervision, needs to be (mostly) replaced with an asynchronous, self-managing paradigm instead.\nLet's look at five ways that principle works in practice at 37signals. \nFirst, we've replaced the commonly used daily stand-up meetings with a set of automated questions in Basecamp. On Monday mornings, we ask everyone \"What are you going to work on this week?\", and at the end of every day, we ask \"What did you work on today?\". These two recurring questions provide the key process for keeping everyo…",
+          "link": "https://world.hey.com/dhh/manage-process-before-people-20736695",
+          "publishedOn": "2023-05-25T08:23:15.000Z",
+          "wordCount": 724,
+          "title": "Manage process before people",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac",
           "author": null,
           "description": "There are a million metrics you can use to track the health of a  subscription software business like ours. Customer life-time value, cost of acquisition, cohort retention, revenue churn, net promoter score, funnel conversion rates, to name but a few. All useful calculations, but I can't tell you what bliss it's been to steer 37signals without them for twenty years.\nThat's not to say that we never run these numbers, but it is to say that these numbers never run us. Because in the end, even the most sophisticated KPIs all inevitably serve the simplest calculations: Are we making money? Is it enough? You don't need a degree in statistics to determine that.\nWhere this is most evident for us is in the product. I remember reading a story about how Google once tested 127 different shades of blue…",
@@ -189,16 +199,6 @@
           "wordCount": 498,
           "title": "The responsibility is the reward",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/getting-america-s-mojo-back-7889dec1",
-          "author": null,
-          "description": "There is no end to accounts of America's current ailments. From deaths of despair, soaring crime in some cities, ballooning debts, dysfunctional politics, and a raging culture war. It's easy to be down on those United States. Too easy, in fact.\nTake gun deaths, for example. Americans own more guns per capita than any other country in the world, and by a huge margin too. Those guns are used by people to kill others and themselves. But while the homicide rate is up recently, it's still below where it was in the 90s or even the 70s. Suicides by gun haven't really swung that much either.\n  \n      \n        \n\n  \nIs this a great place to be? No. Is it some historical new peak? No. Have past peaks come down? Yes. America is a violent country. It's been a violent country for a long time. This is no…",
-          "link": "https://world.hey.com/dhh/getting-america-s-mojo-back-7889dec1",
-          "publishedOn": "2023-04-26T09:35:35.000Z",
-          "wordCount": 965,
-          "title": "Getting America's mojo back",
-          "imageUrl": "https://world.hey.com/dhh/7889dec1/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2NUUW5SSCIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--72de7fe13a2a5ed92701082c53cffdad3443d4ad/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/gun-deaths-usa-per-capita.png"
         }
       ]
     },
@@ -410,6 +410,16 @@
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
         {
+          "id": "http://notes.eatonphil.com/2023-05-25-raft.html",
+          "author": null,
+          "description": "As part of bringing myself up-to-speed after joining TigerBeetle, I\nwanted some background on how distributed consensus and replicated state\nmachines protocols work. TigerBeetle uses Viewstamped\nReplication. But I\nwanted to understand all popular protocols and I decided to start with\nRaft.\nWe'll implement two key components of Raft in this post (leader\nelection and log replication). Around 1k lines of Go. It took me\naround 7 months of sporadic studying to come to (what I hope is) an\nunderstanding of the basics.\nDisclaimer: I'm not an expert. My implementation isn't yet hooked\nup to Jepsen. I've run it\nthrough a mix of\nmanual and\nautomated\ntests and\nit seems generally correct. This is not intended to be used in\nproduction. It's just for my education.\nAll code for this project is available o…",
+          "link": "http://notes.eatonphil.com/2023-05-25-raft.html",
+          "publishedOn": "2023-05-25T00:00:00.000Z",
+          "wordCount": 9619,
+          "title": "Implementing a distributed key-value store on top of implementing Raft in Go",
+          "imageUrl": null
+        },
+        {
           "id": "http://notes.eatonphil.com/high-quality-subreddits-you-should-be-following.html",
           "author": null,
           "description": "Originally published on December 5, 2021.\n\nIf you are an experienced software developer whose only exposure to\nreddit is dank memes, proggit or even\nlanguage-specific subreddits like\n/r/python, you're missing out.\nWhat follows are my favorite subreddits in tech. My criteria is that:\nThe subreddit topic is relevant to advancing as a programmer\nPosts generally go into good depth\nThe comments stay on topic\nAnd the shit-posting is minimal\nThis list isn't hard to guess at if you consider advanced topics\nin software. But I wanted to share because I think it's worth\nexplicitly supporting high-quality subreddits.\n/r/EmuDev\nMy favorite sub of all. Also has a phenomenal Discord group.\n/r/ProgrammingLanguages\nFocuses a little more on PLT topics (parsing techniques, syntax, type systems) than on compiling and interpreting techniques, but still good.\n/r/DatabaseDevelopment\nAll about database internals, which ends up involving a bunch of\ncorrectness and distributed systems stuff as well.\nDisclosure: I run this sub. It's at 2.7k+ members at time of publishing.\n/r/ReverseEngineering\nThe largest subreddit on this list but still has pretty good posts.\n/r/EsoLangs\nOne of the best/most fun intros to programming languages/compilers/interpreters is through languages like Brainfuck. This sub does a good job of keeping the fun going.\n/r/Compilers\n/r/GraphicsProgramming\nWhile some language subreddits are pretty good, they are more so a\nmixed bag than some of the topic-specific subreddits here. So they\ndon't make my list, more on principle than anything else.\nIf there is a good one already, send me it!\nWhat am I missing?\nAm I missing other amazing subreddits? Just don't say\nlanguage-specific ones. :)\n\nIt's an incorrect meme IMO that tech Reddit is low-quality. You just have to find the interesting subreddits.\nI've updated my list for 2023.https://t.co/OtM2tk8HOn pic.twitter.com/ymyzChp0SO\n— Phil Eaton (@eatonphil) May 16, 2023",
@@ -461,6 +471,16 @@
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
+        {
+          "id": "http://notes.eatonphil.com/2023-05-25-raft.html",
+          "author": null,
+          "description": "As part of bringing myself up-to-speed after joining TigerBeetle, I\nwanted some background on how distributed consensus and replicated state\nmachines protocols work. TigerBeetle uses Viewstamped\nReplication. But I\nwanted to understand all popular protocols and I decided to start with\nRaft.\nWe'll implement two key components of Raft in this post (leader\nelection and log replication). Around 1k lines of Go. It took me\naround 7 months of sporadic studying to come to (what I hope is) an\nunderstanding of the basics.\nDisclaimer: I'm not an expert. My implementation isn't yet hooked\nup to Jepsen. I've run it\nthrough a mix of\nmanual and\nautomated\ntests and\nit seems generally correct. This is not intended to be used in\nproduction. It's just for my education.\nAll code for this project is available o…",
+          "link": "http://notes.eatonphil.com/2023-05-25-raft.html",
+          "publishedOn": "2023-05-25T00:00:00.000Z",
+          "wordCount": 9619,
+          "title": "Implementing a distributed key-value store on top of implementing Raft in Go",
+          "imageUrl": null
+        },
         {
           "id": "http://notes.eatonphil.com/high-quality-subreddits-you-should-be-following.html",
           "author": null,
