@@ -330,6 +330,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/05/29/RustConf.html",
+          "author": null,
+          "description": "On May 26th 2023, JeanHeyd Meneide announced they would not speak at RustConf 2023 anymore. They were invited to give a keynote at the conference, only to be told two weeks later the keynote would be demoted to a normal talk, due to a decision made within the Rust project leadership.\nThat decision was not right, and first off we want to publicly apologize for the harm we caused. We failed you JeanHeyd. The idea of downgrading a talk after the invitation was insulting, and nobody in leadership should have been willing to entertain it.\nEveryone in leadership chat is still working to fully figure out everything that went wrong and how we can prevent all of this from happening again. That work is not finished yet. Still, we want to share some steps we are taking to reduce the risk of something…",
+          "link": "https://blog.rust-lang.org/2023/05/29/RustConf.html",
+          "publishedOn": "2023-05-29T00:00:00.000Z",
+          "wordCount": 515,
+          "title": "On the RustConf keynote",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html",
           "author": null,
           "description": "Beginning with Rust 1.71 (slated for stable release on 2023-07-13), the various *-linux-musl targets will ship with musl 1.2.3.\nThese targets currently use musl 1.1.24.\nWhile musl 1.2.3 introduces some new features, most notably 64-bit time on all platforms, it is ABI compatible with earlier musl versions.\nAs such, this change is unlikely to affect you.\nUpdated targets\nThe following targets will be updated:\nTarget\nSupport Tier\n\n\n\n\naarch64-unknown-linux-musl\nTier 2 with Host Tools\n\n\nx86_64-unknown-linux-musl\nTier 2 with Host Tools\n\n\narm-unknown-linux-musleabi\nTier 2\n\n\narm-unknown-linux-musleabihf\nTier 2\n\n\narmv5te-unknown-linux-musleabi\nTier 2\n\n\narmv7-unknown-linux-musleabi\nTier 2\n\n\narmv7-unknown-linux-musleabihf\nTier 2\n\n\ni586-unknown-linux-musl\nTier 2\n\n\ni686-unknown-linux-musl\nTier 2\n\n\nmips-unknown-linux-musl\nTier 2\n\n\nmips64-unknown-linux-muslabi64\nTier 2\n\n\nmips64el-unknown-linux-muslabi64\nTier 2\n\n\nmipsel-unknown-linux-musl\nTier 2\n\n\nhexagon-unknown-linux-musl\nTier 3\n\n\nmips64-openwrt-linux-musl\nTier 3\n\n\npowerpc-unknown-linux-musl\nTier 3\n\n\npowerpc64-unknown-linux-musl\nTier 3\n\n\npowerpc64le-unknown-linux-musl\nTier 3\n\n\nriscv32gc-unknown-linux-musl\nTier 3\n\n\nriscv64gc-unknown-linux-musl\nTier 3\n\n\ns390x-unknown-linux-musl\nTier 3\n\n\nthumbv7neon-unknown-linux-musleabihf\nTier 3\n\n\n\nNote: musl 1.2.3 does not raise the minimum required Linux kernel version for any target.\nWill 64-bit time break the libc crate on 32-bit targets?\nNo, the musl project made this change carefully preserving ABI compatibility.\nThe libc crate will continue to function correctly without modification.\nA future version of the libc crate will update the definitions of time-related structures and functions to be 64-bit on all musl targets however this is blocked on the musl targets themselves first being updated.\nAt present, there is no anticipated date when this change will take place and care will be taken to help the Rust ecosystem transition successfully to the updated time-related definitions.",
@@ -346,6 +356,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/05/29/1.70.0-prerelease.html",
+          "author": null,
+          "description": "The 1.70.0 pre-release is ready for testing. The release is scheduled for\nJune 1. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-05-29/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/05/29/1.70.0-prerelease.html",
+          "publishedOn": "2023-05-29T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.70.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html",
           "author": null,

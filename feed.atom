@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-29T01:13:56.794Z</updated>
+    <updated>2023-05-30T01:13:43.802Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[On the RustConf keynote]]></title>
+        <id>https://blog.rust-lang.org/2023/05/29/RustConf.html</id>
+        <link href="https://blog.rust-lang.org/2023/05/29/RustConf.html"/>
+        <updated>2023-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On May 26th 2023, JeanHeyd Meneide announced they would not speak at RustConf 2023 anymore. They were invited to give a keynote at the conference, only to be told two weeks later the keynote would be demoted to a normal talk, due to a decision made within the Rust project leadership.
+That decision was not right, and first off we want to publicly apologize for the harm we caused. We failed you JeanHeyd. The idea of downgrading a talk after the invitation was insulting, and nobody in leadership should have been willing to entertain it.
+Everyone in leadership chat is still working to fully figure out everything that went wrong and how we can prevent all of this from happening again. That work is not finished yet. Still, we want to share some steps we are taking to reduce the risk of something…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.70.0 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/05/29/1.70.0-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/05/29/1.70.0-prerelease.html"/>
+        <updated>2023-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.70.0 pre-release is ready for testing. The release is scheduled for
+June 1. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2023-05-29/index.html.
+You can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Recharging trust batteries with meetups in a remote company]]></title>
         <id>https://world.hey.com/dhh/recharging-trust-batteries-with-meetups-in-a-remote-company-5ad0cbeb</id>
