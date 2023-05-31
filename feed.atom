@@ -2,10 +2,42 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-30T01:13:43.802Z</updated>
+    <updated>2023-05-31T01:20:31.866Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Privacy Enhancing Technologies: An Introduction for Technologists]]></title>
+        <id>https://martinfowler.com/articles/intro-pet.html</id>
+        <link href="https://martinfowler.com/articles/intro-pet.html"/>
+        <updated>2023-05-30T14:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Making data open and available to all helps us all understand our world
+     and are thus better informed to shape the policies to run it. But such openness
+     does come with problems - one in particular is the invasion of people's
+     privacy. Detailed census information about household income helps debate
+     and planning for local government, but can reveal personal information that
+     citizens reasonably prefer to keep private. Privacy Enhancing Technologies
+     are tools that can finesse this problem. My colleague Katharine Jarmul is a
+     data scientist who is also an activist for personal privacy. Here she
+     introduces three of these tools that are usable now: Differential Privacy,
+     Distributed & Federated Analysis & Learning, and Encrypted Computation.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[360 degrees of phony back-patting]]></title>
+        <id>https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47</id>
+        <link href="https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47"/>
+        <updated>2023-05-30T07:30:49.000Z</updated>
+        <summary type="html"><![CDATA[In all the years we ran 360 performance reviews – the employee assessment process where you solicit feedback from peers, reports, and manager – I can think of only once when it lead to a meaningful follow-up. The rest of the time, across hundreds of reviews, it was an arduous, awkward affair of forcing people to come up with novel ways to congratulate each other on command. Dropping these 360s was perhaps one of the most popular acts of minimizing management we've ever done at 37signals.
+It should have been obvious that the 360 process wasn't valuable because almost nobody wanted to do it. Getting folks to fill out their reviews required constant nagging, resulting in weeks-long procrastination. That is not the hallmark of a happy process that serves the interests of the people involved.
+I…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[On the RustConf keynote]]></title>
         <id>https://blog.rust-lang.org/2023/05/29/RustConf.html</id>
@@ -832,17 +864,6 @@ Episode Page
  Join The Newsletter]]></summary>
         <author>
             <name>CoRecursive: Coding Stories</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Postmortem Analysis in Cargo]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/05/01/cargo-postmortem.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/05/01/cargo-postmortem.html"/>
-        <updated>2023-05-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[At 01:52 UTC, 2022-10-28, rust-lang/cargo#11183 was merged into the Cargo master branch. It introduced a bug that caused Cargo to fail to build packages that use a particular, but very common, dependency setup. The change nearly made its way into the next nightly release. If it had, it would have rendered any of the 30k crates with serde_derive as a dependency (one of the most popular crate on crates.io) unbuildable for anyone using the resulting nightly release.
-Following this incident, the Cargo team went through a postmortem analysis, as is appropriate for incidents with (a potential for) broad blast-radius or otherwise significant impact. This time around, we followed a particular structured postmortem template in the hopes that it might make the resulting write-up more thorough, insig…]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>

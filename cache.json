@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47",
+          "author": null,
+          "description": "In all the years we ran 360 performance reviews – the employee assessment process where you solicit feedback from peers, reports, and manager – I can think of only once when it lead to a meaningful follow-up. The rest of the time, across hundreds of reviews, it was an arduous, awkward affair of forcing people to come up with novel ways to congratulate each other on command. Dropping these 360s was perhaps one of the most popular acts of minimizing management we've ever done at 37signals.\nIt should have been obvious that the 360 process wasn't valuable because almost nobody wanted to do it. Getting folks to fill out their reviews required constant nagging, resulting in weeks-long procrastination. That is not the hallmark of a happy process that serves the interests of the people involved.\nI…",
+          "link": "https://world.hey.com/dhh/360-degrees-of-phony-back-patting-ec915f47",
+          "publishedOn": "2023-05-30T07:30:49.000Z",
+          "wordCount": 614,
+          "title": "360 degrees of phony back-patting",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/recharging-trust-batteries-with-meetups-in-a-remote-company-5ad0cbeb",
           "author": null,
           "description": "Nothing can substitute for spending time together in person as a way to build bonds, create connections, and foster trust with your colleagues. There's just a special kind of magic that comes from being together, which Zoom will never match or catch. But what's enabled the remote-work revolution to be effective is that these moments don't need to happen every day, week, or even month. \nAt 37signals, we've been doing company-wide meetups twice a year for over fifteen years. Through these meetups, we've secured the lion's share of the social in-person benefits afforded by an office, while allowing nearly eighty people from twenty countries to collaborate happily and effectively. It's remarkable how nourishing it can be simply to see your coworkers every six months, and then rely on those ful…",
@@ -297,6 +307,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/intro-pet.html",
+          "author": null,
+          "description": "Making data open and available to all helps us all understand our world\n     and are thus better informed to shape the policies to run it. But such openness\n     does come with problems - one in particular is the invasion of people's\n     privacy. Detailed census information about household income helps debate\n     and planning for local government, but can reveal personal information that\n     citizens reasonably prefer to keep private. Privacy Enhancing Technologies\n     are tools that can finesse this problem. My colleague Katharine Jarmul is a\n     data scientist who is also an activist for personal privacy. Here she\n     introduces three of these tools that are usable now: Differential Privacy,\n     Distributed & Federated Analysis & Learning, and Encrypted Computation.\nmore…",
+          "link": "https://martinfowler.com/articles/intro-pet.html",
+          "publishedOn": "2023-05-30T14:32:00.000Z",
+          "wordCount": 5384,
+          "title": "Privacy Enhancing Technologies: An Introduction for Technologists",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/dependency-composition.html",
           "author": null,
           "description": "Developers commonly ask \"what framework should we use for dependency\n     injection\". Daniel Somerfield explains why this is the wrong question,\n     instead we should focus how to have clearly separated modules with a simple\n     composition mechanism between them. He illustrates how he approaches this\n     in TypeScript, with a minimalist \"function-first\" approach, on a simple\n     example application separating application logic from persistence.\nmore…",
@@ -384,16 +404,6 @@
           "publishedOn": "2023-05-03T00:00:00.000Z",
           "wordCount": 1700,
           "title": "Stabilizing async fn in traits in 2023",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/05/01/cargo-postmortem.html",
-          "author": null,
-          "description": "At 01:52 UTC, 2022-10-28, rust-lang/cargo#11183 was merged into the Cargo master branch. It introduced a bug that caused Cargo to fail to build packages that use a particular, but very common, dependency setup. The change nearly made its way into the next nightly release. If it had, it would have rendered any of the 30k crates with serde_derive as a dependency (one of the most popular crate on crates.io) unbuildable for anyone using the resulting nightly release.\nFollowing this incident, the Cargo team went through a postmortem analysis, as is appropriate for incidents with (a potential for) broad blast-radius or otherwise significant impact. This time around, we followed a particular structured postmortem template in the hopes that it might make the resulting write-up more thorough, insig…",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/05/01/cargo-postmortem.html",
-          "publishedOn": "2023-05-01T00:00:00.000Z",
-          "wordCount": 620,
-          "title": "Postmortem Analysis in Cargo",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
