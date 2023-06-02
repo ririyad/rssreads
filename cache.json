@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/when-promotions-become-punishment-b1cc1430",
+          "author": null,
+          "description": "The world is full of talented, capable people who'd rather put their own efforts to direct use than manage others. But the natural inclination is to promote senior contributors up a managerial ladder, and out of the trenches. This often ends poorly, turning the promotion into a punishment.\nIt's usually not that these potential managers don't like working with others. Quite the contrary. I've found that nothing motivates ambitious people like working close together with other talented individuals. It's also usually not that they're uncomfortable being senior, in terms of setting a direction for the work. It's that they don't want the responsibility, and associated guilt, that comes with managing others. Especially when there's a need for correction.\nI've witnessed time and again how someone…",
+          "link": "https://world.hey.com/dhh/when-promotions-become-punishment-b1cc1430",
+          "publishedOn": "2023-06-01T09:21:02.000Z",
+          "wordCount": 511,
+          "title": "When promotions become punishment",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/start-them-in-the-deep-end-8c9c77fe",
           "author": null,
           "description": "The kindest thing you can do to a new team member is to involve them in something real and challenging right away. Don't squander weeks of new-job enthusiasm with baby rails and play tasks. Get them into the deep end right from the start.\nThis doesn't mean leaving them all alone to figure out the culture, the work, and the people by themselves, mind you. Nobody hits the ground running, and everyone needs guidance and mentorship to thrive in a new situation. But it does mean that the context in which you offer that assistance ought to be real as quickly as possible.\nFor programmers at 37signals, for example, we assign both a buddy and a mentor to new hires. The buddy is solely there to be a friendly guide to the innards of the organization. Why do we do the things we do? The mentor is there…",
@@ -189,26 +199,6 @@
           "wordCount": 635,
           "title": "Even Amazon can't make sense of serverless or microservices",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/sovereign-clouds-661eb5e4",
-          "author": null,
-          "description": "I've been talking about our departure from renting computers via AWS to owning them in a colocated datacenter as our \"cloud exit\". But I recognize this terminology can rub some people the wrong way. There's an entire generation of technologists who see themselves as \"cloud native\", and alienating them just because we want to own our hardware rather than rent it doesn't help anyone. Most of the skills of these cloud natives are useful regardless of where the applications run.\nThat skill overlap is actually part of why our transition out of AWS has gone so incredibly fast. 80-90% of what you need to know to run your own hardware these days is the same as what you need to know to operate in the rental clouds. From containers to load balancers to monitoring to performance analysis, and a milli…",
-          "link": "https://world.hey.com/dhh/sovereign-clouds-661eb5e4",
-          "publishedOn": "2023-05-03T08:01:29.000Z",
-          "wordCount": 547,
-          "title": "Sovereign clouds",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697",
-          "author": null,
-          "description": "Last week, we successfully pulled off our biggest cloud exit yet for Basecamp Classic. This is the original app that started it all for us from way back in 2004. And now, after a couple of years running on AWS, it's back on our own hardware, using MRSK, and holy smokes is it fast! Just look at these charts:\n  \n      \n        \n\n  \nThe median request now runs in just 19ms, compared to 67ms before. The mean request in 95ms vs 138ms. The median query time has dropped in half (which adds up when you do a lot of queries per request!). Basecamp Classic was no slouch in the cloud before, but now 95% of all requests are below that magic 300ms cut-off.\n(But take these comparisons with a pound of salt. It's not exactly a clean-room, scientific test. Just a peak at the reality of leaving a fine-tuned …",
-          "link": "https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697",
-          "publishedOn": "2023-05-02T13:50:22.000Z",
-          "wordCount": 558,
-          "title": "Cloud exit pays off in performance too",
-          "imageUrl": "https://world.hey.com/dhh/4c53b697/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2N4aU9CSCIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--2ea18fe4df25864aeb312b318edb0514eefea4ef/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/cloud-exit-performance.png"
         }
       ]
     },
@@ -276,16 +266,6 @@
           "wordCount": 250,
           "title": "Heard Something, Read Something, Saw Something [#14]",
           "imageUrl": "https://world.hey.com/jason/avatar-20230413145313000000-2745081"
-        },
-        {
-          "id": "https://world.hey.com/jason/evaluating-a-redesign-80309257",
-          "author": null,
-          "description": "We're fortunate we get to make things. But sometimes something sticks around long enough that we have the good fortune to have a chance to remake it.\nWhen evaluating a redesign, your first instinct is to compare the new design to the old design. But don’t do that.\nThe first step is to understand what you’re evaluating. If you just put the new design up against the old design, and compare the two, the old design will strongly influence your evaluation of the new design.\n\nThis is OK if nothing’s changed since the original design was launched. But it’s likely a lot has changed since then – especially if many months or years have passed.\n\nMaybe there are new insights, maybe there’s new data, maybe there’s a new goal, maybe there’s a new hunch, or maybe there’s a whole new strategy at play. Maybe “make it readable” was important 3 years ago, while “help people see things they couldn’t see before” is more important today. Or maybe it’s both now.\n\nBut if the old design sets the tone about what’s important, then you may be losing out on an opportunity to make a significant leap forward. A design should never set the tone – ideas should set the tone. Ideas are independent of the design.\n\nSo, when evaluating a redesign you have to know what you’re looking for, not just what you’re looking at. How the new design compares to the old may be the least important thing to consider.\n\nIt’s a subtle thing, but it can make all the difference.\n\n\n-Jason",
-          "link": "https://world.hey.com/jason/evaluating-a-redesign-80309257",
-          "publishedOn": "2023-05-02T17:26:50.000Z",
-          "wordCount": 327,
-          "title": "Evaluating a redesign",
-          "imageUrl": "https://world.hey.com/jason/avatar-20230413145313000000-2745081"
         }
       ]
     },
@@ -350,6 +330,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html",
+          "author": null,
+          "description": "The Rust team is happy to announce a new version of Rust, 1.70.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.70.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.70.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.70.0 stable\nSparse by default for crates.io\nCargo's \"sparse\" protocol is now enabled by default for reading the index from crates.io.…",
+          "link": "https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html",
+          "publishedOn": "2023-06-01T00:00:00.000Z",
+          "wordCount": 996,
+          "title": "Announcing Rust 1.70.0",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/05/29/RustConf.html",
           "author": null,
           "description": "On May 26th 2023, JeanHeyd Meneide announced they would not speak at RustConf 2023 anymore. They were invited to give a keynote at the conference, only to be told two weeks later the keynote would be demoted to a normal talk, due to a decision made within the Rust project leadership.\nThat decision was not right, and first off we want to publicly apologize for the harm we caused. We failed you JeanHeyd. The idea of downgrading a talk after the invitation was insulting, and nobody in leadership should have been willing to entertain it.\nEveryone in leadership chat is still working to fully figure out everything that went wrong and how we can prevent all of this from happening again. That work is not finished yet. Still, we want to share some steps we are taking to reduce the risk of something…",
@@ -394,16 +384,6 @@
           "publishedOn": "2023-05-09T00:00:00.000Z",
           "wordCount": 342,
           "title": "API token scopes",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html",
-          "author": null,
-          "description": "The async working group's headline goal for 2023 is to stabilize a \"minimum viable product\" (MVP) version of async functions in traits. We are currently targeting Rust 1.74 for stabilization. This post lays out the features we plan to ship and the status of each one.\nIn November, we blogged about nightly support for async fn in trait and identified some key next steps, most importantly support for send bounds to allow spawning in generic functions. Since then we've done a significant amount of design exploration and collected a set of case studies evaluating how well the current code works in practice.\nAs of now, all of the functionality described in this blog post is available on the nightly compiler. Some of this work was implemented using experimental feature gates so that we could cond…",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html",
-          "publishedOn": "2023-05-03T00:00:00.000Z",
-          "wordCount": 1700,
-          "title": "Stabilizing async fn in traits in 2023",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]

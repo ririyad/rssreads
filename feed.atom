@@ -2,10 +2,40 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-01T01:46:54.858Z</updated>
+    <updated>2023-06-02T01:23:33.143Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[When promotions become punishment]]></title>
+        <id>https://world.hey.com/dhh/when-promotions-become-punishment-b1cc1430</id>
+        <link href="https://world.hey.com/dhh/when-promotions-become-punishment-b1cc1430"/>
+        <updated>2023-06-01T09:21:02.000Z</updated>
+        <summary type="html"><![CDATA[The world is full of talented, capable people who'd rather put their own efforts to direct use than manage others. But the natural inclination is to promote senior contributors up a managerial ladder, and out of the trenches. This often ends poorly, turning the promotion into a punishment.
+It's usually not that these potential managers don't like working with others. Quite the contrary. I've found that nothing motivates ambitious people like working close together with other talented individuals. It's also usually not that they're uncomfortable being senior, in terms of setting a direction for the work. It's that they don't want the responsibility, and associated guilt, that comes with managing others. Especially when there's a need for correction.
+I've witnessed time and again how someone…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.70.0]]></title>
+        <id>https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html</id>
+        <link href="https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html"/>
+        <updated>2023-06-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.70.0. Rust is a programming language empowering everyone to build reliable and efficient software.
+If you have a previous version of Rust installed via rustup, you can get 1.70.0 with:
+rustup update stable
+
+If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.70.0 on GitHub.
+If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
+What's in 1.70.0 stable
+Sparse by default for crates.io
+Cargo's "sparse" protocol is now enabled by default for reading the index from crates.io.…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Start them in the deep end]]></title>
         <id>https://world.hey.com/dhh/start-them-in-the-deep-end-8c9c77fe</id>
@@ -776,71 +806,6 @@ But beyond celebrating their good sense, I think there's a bigger point here tha
 "We designed our initial solution as a distributed system using serverless components... In theory, this would allow us to scale each service component independently. However, the way we used some components caused us to hit a hard scaling limit at around 5% of the expected load."
 
 That really sums up so much of the microservices craze that was tearing through the te…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sovereign clouds]]></title>
-        <id>https://world.hey.com/dhh/sovereign-clouds-661eb5e4</id>
-        <link href="https://world.hey.com/dhh/sovereign-clouds-661eb5e4"/>
-        <updated>2023-05-03T08:01:29.000Z</updated>
-        <summary type="html"><![CDATA[I've been talking about our departure from renting computers via AWS to owning them in a colocated datacenter as our "cloud exit". But I recognize this terminology can rub some people the wrong way. There's an entire generation of technologists who see themselves as "cloud native", and alienating them just because we want to own our hardware rather than rent it doesn't help anyone. Most of the skills of these cloud natives are useful regardless of where the applications run.
-That skill overlap is actually part of why our transition out of AWS has gone so incredibly fast. 80-90% of what you need to know to run your own hardware these days is the same as what you need to know to operate in the rental clouds. From containers to load balancers to monitoring to performance analysis, and a milli…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stabilizing async fn in traits in 2023]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/05/03/stabilizing-async-fn-in-trait.html"/>
-        <updated>2023-05-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The async working group's headline goal for 2023 is to stabilize a "minimum viable product" (MVP) version of async functions in traits. We are currently targeting Rust 1.74 for stabilization. This post lays out the features we plan to ship and the status of each one.
-In November, we blogged about nightly support for async fn in trait and identified some key next steps, most importantly support for send bounds to allow spawning in generic functions. Since then we've done a significant amount of design exploration and collected a set of case studies evaluating how well the current code works in practice.
-As of now, all of the functionality described in this blog post is available on the nightly compiler. Some of this work was implemented using experimental feature gates so that we could cond…]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Evaluating a redesign]]></title>
-        <id>https://world.hey.com/jason/evaluating-a-redesign-80309257</id>
-        <link href="https://world.hey.com/jason/evaluating-a-redesign-80309257"/>
-        <updated>2023-05-02T17:26:50.000Z</updated>
-        <summary type="html"><![CDATA[We're fortunate we get to make things. But sometimes something sticks around long enough that we have the good fortune to have a chance to remake it.
-When evaluating a redesign, your first instinct is to compare the new design to the old design. But don’t do that.
-The first step is to understand what you’re evaluating. If you just put the new design up against the old design, and compare the two, the old design will strongly influence your evaluation of the new design.
-
-This is OK if nothing’s changed since the original design was launched. But it’s likely a lot has changed since then – especially if many months or years have passed.
-
-Maybe there are new insights, maybe there’s new data, maybe there’s a new goal, maybe there’s a new hunch, or maybe there’s a whole new strategy at play. Maybe “make it readable” was important 3 years ago, while “help people see things they couldn’t see before” is more important today. Or maybe it’s both now.
-
-But if the old design sets the tone about what’s important, then you may be losing out on an opportunity to make a significant leap forward. A design should never set the tone – ideas should set the tone. Ideas are independent of the design.
-
-So, when evaluating a redesign you have to know what you’re looking for, not just what you’re looking at. How the new design compares to the old may be the least important thing to consider.
-
-It’s a subtle thing, but it can make all the difference.
-
-
--Jason]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cloud exit pays off in performance too]]></title>
-        <id>https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697</id>
-        <link href="https://world.hey.com/dhh/cloud-exit-pays-off-in-performance-too-4c53b697"/>
-        <updated>2023-05-02T13:50:22.000Z</updated>
-        <summary type="html"><![CDATA[Last week, we successfully pulled off our biggest cloud exit yet for Basecamp Classic. This is the original app that started it all for us from way back in 2004. And now, after a couple of years running on AWS, it's back on our own hardware, using MRSK, and holy smokes is it fast! Just look at these charts:
-  
-      
-        
-
-  
-The median request now runs in just 19ms, compared to 67ms before. The mean request in 95ms vs 138ms. The median query time has dropped in half (which adds up when you do a lot of queries per request!). Basecamp Classic was no slouch in the cloud before, but now 95% of all requests are below that magic 300ms cut-off.
-(But take these comparisons with a pound of salt. It's not exactly a clean-room, scientific test. Just a peak at the reality of leaving a fine-tuned …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>
