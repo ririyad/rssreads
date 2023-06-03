@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-02T14:40:20.997Z</updated>
+    <updated>2023-06-03T01:21:04.581Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Protectionism]]></title>
+        <id>https://world.hey.com/jason/protectionism-56be443d</id>
+        <link href="https://world.hey.com/jason/protectionism-56be443d"/>
+        <updated>2023-06-02T17:46:11.000Z</updated>
+        <summary type="html"><![CDATA[Companies love to protect.
+They protect their brand with trademarks and lawsuits. They protect their data and trade secrets with rules, policies, and NDAs. They protect their money with budgets, CFOs, and investments.
+They guard so many things, but all too often they fail to protect what’s both most vulnerable and precious: their employees’ time and attention.
+Companies spend their employees’ time and attention as if there was an infinite supply of both. As if they cost nothing. Yet employees’ time and attention are among the scarcest resources we have.
+At 37signals, we see it as our top job to protect our employees’ time and attention. You can’t expect people to do great work if they don’t have a full day’s attention to devote to it. Partial attention is barely attention at all.
+For examp…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Story: Quitting (And Then Rejoining) Stack Overflow]]></title>
         <id>091c1f58-93d8-400a-a440-affae6319cf4</id>
@@ -823,21 +838,6 @@ BTW, if you like these, and think someone else might too, please forward it on. 
         <summary type="html"><![CDATA[I won't deny there may well be cases where a microservices-first architecture makes sense, but I think they're few and far in between. The vast majority of systems are much better served by starting and staying with a majestic monolith. The Prime Video case study that blew up the internet yesterday is but the latest illustration.
 Maybe once you reach the scale of Netflix or Amazon, there are areas where it starts to make sense, but remember that even the likes of GitHub and Shopify run their main applications as monoliths with millions of lines of code and have thousands of programmers collaborating on them. Do you have many more millions of lines of code or thousands of programmers working on the same code bases? If not, exercise extreme caution before even thinking about microservices.
 B…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Even Amazon can't make sense of serverless or microservices]]></title>
-        <id>https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580</id>
-        <link href="https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580"/>
-        <updated>2023-05-04T09:23:57.000Z</updated>
-        <summary type="html"><![CDATA[The Prime Video team at Amazon has published a rather remarkable case study on their decision to dump their serverless, microservices architecture and replace it with a monolith instead. This move saved them a staggering 90%(!!) on operating costs, and simplified the system too. What a win!
-But beyond celebrating their good sense, I think there's a bigger point here that applies to our entire industry. Here's the telling bit:
-
-"We designed our initial solution as a distributed system using serverless components... In theory, this would allow us to scale each service component independently. However, the way we used some components caused us to hit a hard scaling limit at around 5% of the expected load."
-
-That really sums up so much of the microservices craze that was tearing through the te…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>

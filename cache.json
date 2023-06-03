@@ -199,16 +199,6 @@
           "wordCount": 1227,
           "title": "How to recover from microservices",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580",
-          "author": null,
-          "description": "The Prime Video team at Amazon has published a rather remarkable case study on their decision to dump their serverless, microservices architecture and replace it with a monolith instead. This move saved them a staggering 90%(!!) on operating costs, and simplified the system too. What a win!\nBut beyond celebrating their good sense, I think there's a bigger point here that applies to our entire industry. Here's the telling bit:\n\n\"We designed our initial solution as a distributed system using serverless components... In theory, this would allow us to scale each service component independently. However, the way we used some components caused us to hit a hard scaling limit at around 5% of the expected load.\"\n\nThat really sums up so much of the microservices craze that was tearing through the te…",
-          "link": "https://world.hey.com/dhh/even-amazon-can-t-make-sense-of-serverless-or-microservices-59625580",
-          "publishedOn": "2023-05-04T09:23:57.000Z",
-          "wordCount": 635,
-          "title": "Even Amazon can't make sense of serverless or microservices",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
         }
       ]
     },
@@ -217,6 +207,16 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/protectionism-56be443d",
+          "author": null,
+          "description": "Companies love to protect.\nThey protect their brand with trademarks and lawsuits. They protect their data and trade secrets with rules, policies, and NDAs. They protect their money with budgets, CFOs, and investments.\nThey guard so many things, but all too often they fail to protect what’s both most vulnerable and precious: their employees’ time and attention.\nCompanies spend their employees’ time and attention as if there was an infinite supply of both. As if they cost nothing. Yet employees’ time and attention are among the scarcest resources we have.\nAt 37signals, we see it as our top job to protect our employees’ time and attention. You can’t expect people to do great work if they don’t have a full day’s attention to devote to it. Partial attention is barely attention at all.\nFor examp…",
+          "link": "https://world.hey.com/jason/protectionism-56be443d",
+          "publishedOn": "2023-06-02T17:46:11.000Z",
+          "wordCount": 470,
+          "title": "Protectionism",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
         {
           "id": "https://world.hey.com/jason/kill-overkill-4689acac",
           "author": null,
