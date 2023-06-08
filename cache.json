@@ -149,16 +149,6 @@
           "wordCount": 452,
           "title": "It's not just cloud costs that are out of control",
           "imageUrl": "https://world.hey.com/dhh/efcd098c/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2RxWFgxSSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--034767300620f0766911ecf12bd27747f0328057/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/datadog-costs.jpeg"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-misallocation-of-tech-talent-6c3b4403",
-          "author": null,
-          "description": "Getting fired sucks. It doesn't matter how or when. It just sucks. And right now there are an awful lot of people in the tech industry feeling just how much. But what's bad for the individual isn't always bad for the group. Believe it or not, there's also collective upside to the massive tech layoffs happening at the moment.\nLike undoing the absurd hiring spree committed by the largest tech companies during the pandemic. This spree swallowed up a preposterous amount of talent, then put much of it to work on bullshit projects with little to no value for the company or the economy as a whole.\nSuch hoarding of tech talent represented a tragic misallocation of productive capacity. The likes of Amazon, Meta, Google, and many others added tens of thousands of positions to already bloated bureauc…",
-          "link": "https://world.hey.com/dhh/the-misallocation-of-tech-talent-6c3b4403",
-          "publishedOn": "2023-05-09T09:13:09.000Z",
-          "wordCount": 581,
-          "title": "The misallocation of tech talent",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
         }
       ]
     },
@@ -225,16 +215,6 @@
           "publishedOn": "2023-05-10T16:06:06.000Z",
           "wordCount": 381,
           "title": "You can learn AI later",
-          "imageUrl": "https://world.hey.com/jason/avatar-20230413145313000000-2745081"
-        },
-        {
-          "id": "https://world.hey.com/jason/on-hiring-rehiring-and-one-question-to-answer-them-all-5db97bcb",
-          "author": null,
-          "description": "Out of all things I’m asked about, hiring tops the list. From the actual hiring process, to reviews, to motivation and retention strategies, curiosity about hiring is on full charge.\nThere’s a lot to cover, but I’d like to share some thoughts about a moment that doesn’t get enough attention: The end of the first year and the beginning of the second.\nHiring is typically thought of as something you do once per person. Once someone’s hired, training, growing, and retaining are the next things you do. You may keep training someone, you may keep growing someone, you may keep promoting someone, but you surely don’t keep hiring someone.\nIt’s on that point I disagree.\nI’ve found that, actually, you hire someone at least twice. You hire someone initially, and then, if all goes well, you hire them a…",
-          "link": "https://world.hey.com/jason/on-hiring-rehiring-and-one-question-to-answer-them-all-5db97bcb",
-          "publishedOn": "2023-05-08T15:52:19.000Z",
-          "wordCount": 723,
-          "title": "On hiring, rehiring, and one question to answer them all",
           "imageUrl": "https://world.hey.com/jason/avatar-20230413145313000000-2745081"
         }
       ]
@@ -318,16 +298,6 @@
           "wordCount": 515,
           "title": "On the RustConf keynote",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html",
-          "author": null,
-          "description": "Beginning with Rust 1.71 (slated for stable release on 2023-07-13), the various *-linux-musl targets will ship with musl 1.2.3.\nThese targets currently use musl 1.1.24.\nWhile musl 1.2.3 introduces some new features, most notably 64-bit time on all platforms, it is ABI compatible with earlier musl versions.\nAs such, this change is unlikely to affect you.\nUpdated targets\nThe following targets will be updated:\nTarget\nSupport Tier\n\n\n\n\naarch64-unknown-linux-musl\nTier 2 with Host Tools\n\n\nx86_64-unknown-linux-musl\nTier 2 with Host Tools\n\n\narm-unknown-linux-musleabi\nTier 2\n\n\narm-unknown-linux-musleabihf\nTier 2\n\n\narmv5te-unknown-linux-musleabi\nTier 2\n\n\narmv7-unknown-linux-musleabi\nTier 2\n\n\narmv7-unknown-linux-musleabihf\nTier 2\n\n\ni586-unknown-linux-musl\nTier 2\n\n\ni686-unknown-linux-musl\nTier 2\n\n\nmips-unknown-linux-musl\nTier 2\n\n\nmips64-unknown-linux-muslabi64\nTier 2\n\n\nmips64el-unknown-linux-muslabi64\nTier 2\n\n\nmipsel-unknown-linux-musl\nTier 2\n\n\nhexagon-unknown-linux-musl\nTier 3\n\n\nmips64-openwrt-linux-musl\nTier 3\n\n\npowerpc-unknown-linux-musl\nTier 3\n\n\npowerpc64-unknown-linux-musl\nTier 3\n\n\npowerpc64le-unknown-linux-musl\nTier 3\n\n\nriscv32gc-unknown-linux-musl\nTier 3\n\n\nriscv64gc-unknown-linux-musl\nTier 3\n\n\ns390x-unknown-linux-musl\nTier 3\n\n\nthumbv7neon-unknown-linux-musleabihf\nTier 3\n\n\n\nNote: musl 1.2.3 does not raise the minimum required Linux kernel version for any target.\nWill 64-bit time break the libc crate on 32-bit targets?\nNo, the musl project made this change carefully preserving ABI compatibility.\nThe libc crate will continue to function correctly without modification.\nA future version of the libc crate will update the definitions of time-related structures and functions to be 64-bit on all musl targets however this is blocked on the musl targets themselves first being updated.\nAt present, there is no anticipated date when this change will take place and care will be taken to help the Rust ecosystem transition successfully to the updated time-related definitions.",
-          "link": "https://blog.rust-lang.org/2023/05/09/Updating-musl-targets.html",
-          "publishedOn": "2023-05-09T00:00:00.000Z",
-          "wordCount": 327,
-          "title": "Updating Rust's Linux musl targets",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -344,16 +314,6 @@
           "publishedOn": "2023-05-29T00:00:00.000Z",
           "wordCount": 139,
           "title": "1.70.0 pre-release testing",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html",
-          "author": null,
-          "description": "Roughly three years ago Pietro Albini opened an RFC called \"crates.io token scopes\". This RFC described an improvement to the existing API tokens, that everyone is using to publish crates to the crates.io package registry. The proposal was to make it possible to restrict API tokens to 1) certain operations and 2) certain crates.\nUnfortunately, the crates.io team members were quite busy at the time, so it took a while for this proposal to get accepted. To be precise, during the EuroRust conference in October 2022 we talked about the RFC again and after a few modifications the RFC was moved into FCP status and then finally merged.\nThe implementation was started soon after, but was paused again due to other priorities at the time. Fortunately, I was lucky enough to get one of the software engineering jobs at the Rust Foundation, so in early April the development continued, and I am happy to report:\nAPI token scopes on crates.io are now in a public beta testing period!\nFor details on what these token scopes are and how they are supposed to work, I recommend reading through the RFC. If you want to try them out, you can go to https://crates.io/settings/tokens/new and create a new API token scoped to the operations and crates you want:\n\nPlease note that this page is currently not reachable from the regular user interface, you have to access it via URL directly while we test it out.\nFinally, if you notice any issues, or if you have any questions don't hesitate to find us on Zulip or open an issue on GitHub.",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/05/09/api-token-scopes.html",
-          "publishedOn": "2023-05-09T00:00:00.000Z",
-          "wordCount": 342,
-          "title": "API token scopes",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
