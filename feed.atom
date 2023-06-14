@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-13T01:20:14.051Z</updated>
+    <updated>2023-06-14T01:18:22.581Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Linking Modular Architecture to Development Teams]]></title>
+        <id>https://martinfowler.com/articles/linking-modular-arch.html</id>
+        <link href="https://martinfowler.com/articles/linking-modular-arch.html"/>
+        <updated>2023-06-13T13:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Mobile applications often deliver features rapidly at first, but slow as
+     a codebase builds up. These common software problems are exacerbated by the
+     need to prioritize different features in different markets. Matthew
+     Foster describes an example of this from his work with clients,
+     and how using Domain-Driven Design and Team Topologies helped create a
+     modular architecture that substantially reduced the time needed to deliver
+     new features. 
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Le Mans Centenary]]></title>
+        <id>https://world.hey.com/dhh/the-le-mans-centenary-a0802694</id>
+        <link href="https://world.hey.com/dhh/the-le-mans-centenary-a0802694"/>
+        <updated>2023-06-13T10:48:25.000Z</updated>
+        <summary type="html"><![CDATA[I didn't get into the race car until two in the morning. By then, the rollercoaster that is the 24 Hours of Le Mans had already been going for ten hours. Oh, and we were a lap down on the leaders in our class. Doh!
+I've never had the race go that long before getting into the car. Usually by midnight, I'll have driven at least a good two hours of the required minimum six. But this edition of Le Mans also had more drama than any of the previous nine attempts I've been part of. At the end of the race, 22 cars had retired from crashes or mechanical issues, and several more were limping home many laps down. It was mayhem.
+Which started right from the words green, green, green. By the first chicane down the Mulsanne straight, a Cadillac in the class above us crashed hard immediately in front of …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Remote struggles]]></title>
         <id>https://world.hey.com/jorge/remote-struggles-43c4ee20</id>
@@ -593,30 +622,6 @@ Four books I recommend to professional developers wanting to improve their craft
 — Phil Eaton (@phil_eaton) February 2, 2021]]></summary>
         <author>
             <name>Notes on software development</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sitting on the bench]]></title>
-        <id>https://world.hey.com/dhh/sitting-on-the-bench-ba937b84</id>
-        <link href="https://world.hey.com/dhh/sitting-on-the-bench-ba937b84"/>
-        <updated>2023-05-15T08:17:29.000Z</updated>
-        <summary type="html"><![CDATA[There are many reasons to pick working for a bigger company in tech. The benefits, the pay, and, at least until recently, the job security. In many ways, it's hard to argue with the cold logic of taking a seat on a star destroyer, if you can land one. But odds are you'll be sitting on the bench if you do.
-That is, your talents won't get to play center stage in a way that really matters. If you weren't there, there'd probably just be someone else to fill the slot, and it'd rarely make a big difference either way. That's part of the resilience of a big ship, it's built to withstand whatever the weather, so much of the crew is redundant by design.
-That just isn't so in a small boat. If you're not rowing, everyone will notice. You can't just rest and vest. You gotta play. That's the appeal. You gotta play.
-That can be intellectually exhausting, but it's also the kind of flexing of your talents that make them grow rapidly. It's the fact that others, and the boat as a whole, count on you being there that rewards you with meaning.
-Would you rather be on the bench in the big leagues or playing every game with an underdog team moving up?]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pure Functions in JavaScript: A Beginner's Guide]]></title>
-        <id>https://dmitripavlutin.com/javascript-pure-function/</id>
-        <link href="https://dmitripavlutin.com/javascript-pure-function/"/>
-        <updated>2023-05-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A pure function always returns the same value for the same arguments and produces no side-effects.]]></summary>
-        <author>
-            <name>Dmitri Pavlutin</name>
         </author>
     </entry>
 </feed>
