@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-16T01:18:45.317Z</updated>
+    <updated>2023-06-17T01:13:31.556Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -448,29 +448,6 @@ Armed with a better knowledge of what was failing, I dug into dumb-jump’s issu
 The fix for me is to force dumb-jump to use another searcher with (setq dumb-jump-force-searcher 'rg). With that my xref commands worked again.]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Humble Chronicles: Managing State with Signals]]></title>
-        <id>https://tonsky.me/blog/humble-signals/</id>
-        <link href="https://tonsky.me/blog/humble-signals/"/>
-        <updated>2023-05-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An experiment of using incremental computations for managing state in Humble UI]]></summary>
-        <author>
-            <name>tonsky.me</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kill Overkill]]></title>
-        <id>https://world.hey.com/jason/kill-overkill-4689acac</id>
-        <link href="https://world.hey.com/jason/kill-overkill-4689acac"/>
-        <updated>2023-05-17T16:27:49.000Z</updated>
-        <summary type="html"><![CDATA[Business is often seen as the art of acquisition. Acquiring talent, customers, revenue, profits, mindshare, marketshare. Building and growing requires consumption, addition, parlaying some of this into a lot of that.
-But the smartest businesses — the ones that tend to stick around for the long haul — know that existence is also about avoidance.
-Avoiding careening variable costs, avoiding getting involved with things that aren't core to your business, avoiding spending time on things that don't matter, avoiding bad investments, avoiding people who don't help you prosper, and even avoiding customers who aren't the right fit.
-However, there's something even more fundamental to avoid. It would be easy to call it "complexity" but that's not quite it. Complexity can be necessary, and intricacy c…]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>
