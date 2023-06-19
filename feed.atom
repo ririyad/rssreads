@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-18T01:28:06.566Z</updated>
+    <updated>2023-06-19T01:18:11.961Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -435,19 +435,6 @@ But as we've passed the three-year anniversary for pandemic, I think it's just a
 Start by watching this compilation …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Emacs xref stopped working on Macs with dumb-jump]]></title>
-        <id>https://martinfowler.com/articles/2023-xref-problem.html</id>
-        <link href="https://martinfowler.com/articles/2023-xref-problem.html"/>
-        <updated>2023-05-19T16:48:00.000Z</updated>
-        <summary type="html"><![CDATA[Recently I found that xref in Emacs had stopped working for me on my mac laptop. Today I finally tried to figure out what went wrong. xref is just a front-end, all the work is done by backends. It took a while for me to realize (ie remember) that I was using the excellent dumb-jump package as the backend. dumb-jump uses a range of fast search commands (such as ag and ripgrep) to detect references without using the awkward tags tables that Emacs used to rely on.
-The command flow between xref and dumb-jump is difficult to follow, but looking at the dumb-jump customization page alerted me to dumb-jump having a debug option. With this enabled, I could see what command dumb-jump was sending to the operating system. By default it uses git grep while in a git repo (almost everything I do is in a git repo). Its git grep command is quite complex, using regexps to (I assume) get more sensible results. I tried out the command it issued in my own terminal and it failed to find anything, while a simple git grep worked fine.
-Armed with a better knowledge of what was failing, I dug into dumb-jump’s issues and found Issue with git-grep. Reading that, I discovered that a change to git grep means that how git grep processes regexes differs depending on the operating system. This would mean that dumb-jump would need to detect git-grep’s version and the underlying OS to pick the right regexes for its search.
-The fix for me is to force dumb-jump to use another searcher with (setq dumb-jump-force-searcher 'rg). With that my xref commands worked again.]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>

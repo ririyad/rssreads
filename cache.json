@@ -234,16 +234,6 @@
           "wordCount": 6803,
           "title": "Dependency Composition",
           "imageUrl": "https://martinfowler.com/articles/dependency-composition/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/2023-xref-problem.html",
-          "author": null,
-          "description": "Recently I found that xref in Emacs had stopped working for me on my mac laptop. Today I finally tried to figure out what went wrong. xref is just a front-end, all the work is done by backends. It took a while for me to realize (ie remember) that I was using the excellent dumb-jump package as the backend. dumb-jump uses a range of fast search commands (such as ag and ripgrep) to detect references without using the awkward tags tables that Emacs used to rely on.\nThe command flow between xref and dumb-jump is difficult to follow, but looking at the dumb-jump customization page alerted me to dumb-jump having a debug option. With this enabled, I could see what command dumb-jump was sending to the operating system. By default it uses git grep while in a git repo (almost everything I do is in a git repo). Its git grep command is quite complex, using regexps to (I assume) get more sensible results. I tried out the command it issued in my own terminal and it failed to find anything, while a simple git grep worked fine.\nArmed with a better knowledge of what was failing, I dug into dumb-jump’s issues and found Issue with git-grep. Reading that, I discovered that a change to git grep means that how git grep processes regexes differs depending on the operating system. This would mean that dumb-jump would need to detect git-grep’s version and the underlying OS to pick the right regexes for its search.\nThe fix for me is to force dumb-jump to use another searcher with (setq dumb-jump-force-searcher 'rg). With that my xref commands worked again.",
-          "link": "https://martinfowler.com/articles/2023-xref-problem.html",
-          "publishedOn": "2023-05-19T16:48:00.000Z",
-          "wordCount": 389,
-          "title": "Emacs xref stopped working on Macs with dumb-jump",
-          "imageUrl": null
         }
       ]
     },
