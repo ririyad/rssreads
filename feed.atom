@@ -2,10 +2,105 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-19T01:18:11.961Z</updated>
+    <updated>2023-06-20T01:15:51.942Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Promise not to promise]]></title>
+        <id>https://world.hey.com/jason/promise-not-to-promise-18eca88a</id>
+        <link href="https://world.hey.com/jason/promise-not-to-promise-18eca88a"/>
+        <updated>2023-06-19T16:33:27.000Z</updated>
+        <summary type="html"><![CDATA[Since the beginning of Basecamp, we’ve been loath to make promises about future product improvements. We’ve always wanted customers to judge the product they could buy and use today, not some imaginary version that might exist in the future.
+It’s why we’ve never committed to a product road map. It’s not because we have a secret one in the back of some smoky room we don’t want to share, but because one doesn’t actually exist. We honestly don’t know what we’ll be working on in a year, so why act like we do?
+But when we recently launched an all-new version of Basecamp, we ended up making a promise about the future anyway. D’oh.
+See, a new version didn’t initially include a feature our customers were clamoring for: Project templates. The requests piled in, the emails piled up. We wanted to do …]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You can't trust Google]]></title>
+        <id>https://world.hey.com/dhh/you-can-t-trust-google-f7d64064</id>
+        <link href="https://world.hey.com/dhh/you-can-t-trust-google-f7d64064"/>
+        <updated>2023-06-19T15:54:47.000Z</updated>
+        <summary type="html"><![CDATA[Google will eventually kill every single service you care about, if they can't find a way to directly monetize it with ads at a scale of billions. They're institutionally incapable of being in the product or service business, because neither products nor services butter Google's bread. Advertisement does.
+You can see this emphasis in a myriad of ways, but my favorite lens is customer service. Google has always been uniquely awful when it comes to customer service, because helping someone with a problem on Workspaces or even the Google Cloud Platform was never going to be as profitable as helping an advertiser carpet bomb your attention span.
+This is an evergreen observation, but I'm bringing it up in celebration of Google killing their domain name registrar Google Domains just now. After nine years in business, it'll unceremoniously get obliterated in just three months (and the shrapnel sold to Squarespace). That was a $180m/year business, servicing 10 million domains!
+It's no better in the dead-business-walking department of Google Home / Nest. Google bought Nest almost a decade ago, and has managed to do worse than nothing with its product portfolio since. Just a few years ago they killed Nest Secure, leaving anyone who bought into that system with a bundle of bricks next year. And the Google Home app that was supposed to take over from the superior Nest app has been a multi-year stumble of embarrassment and neglect.
+With a history like this, why would anyone trust Google on products and services outsides of the ad space? This goes from Workspaces to Gmail for Domains to even the Google Cloud Platform. This company is one major reorganization or recently promoted executive away from murdering any of these.
+All I'm saying is you better have a backup plan. Be that for your collaboration, your email, your home security system. Anything that reads "Made by Google" implicitly has the subscript "until we don't give a fuck any more" printed below.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Turn down the volume on the world]]></title>
+        <id>https://world.hey.com/dhh/turn-down-the-volume-on-the-world-14131d30</id>
+        <link href="https://world.hey.com/dhh/turn-down-the-volume-on-the-world-14131d30"/>
+        <updated>2023-06-19T09:26:52.000Z</updated>
+        <summary type="html"><![CDATA[It's hard to think original thoughts if your senses are being perpetually flooded with everything from everyone all the time. And it's hard to protect your senses against this if you're constantly in close mental proximity to those who've had success running the established script. To escape back to first principles, you need to consciously turn down the volume on the world.
+I credit much of the novel work we've done on product development, organizational design, and software tooling at 37signals with being far removed from the centers of Silicon Valley. Physically, spiritually, and mentally. Right from the start.
+Being in Chicago in those early years of the post-dot-com-bust internet was like living in a monastery. We knew there was a party going on a hundred miles inland, but the debauchery was never so close as to color our thinking or tempt our aspirations. We were geographically destined to see the world in a different light.
+This was before social media. When much of Silicon Valley's propaganda had to be carried by monthly magazines and the occasionally breathless mainstream story. Which made it so much easier to tune out. Now it's more work.
+It takes concerted effort these days to escape the AI FOMO fest, say. Like it required fortitude to resist the fear of missing out on the latest coin hype before that. Every feed is there to homogenize your thinking into a preconfigured camp. For or against, hype or denounce. These are all just plusses and minuses in front of the same thinking.
+If you want more than this, you ought to embrace the paradox that there are times when the less you know raises the bar for what you can do. Don't drown out our inner drumbeat by living all your days inside the permanent intellectual festival of your profession.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Metaprogramming in Zig and parsing CSS]]></title>
+        <id>http://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html</id>
+        <link href="http://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html"/>
+        <updated>2023-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I knew Zig supported some sort of reflection on types. But I had been
+confused about how to use it. What's the difference between
+@typeInfo and @TypeOf? I ignored this aspect of Zig until a
+problem came up at work where reflection
+made sense.
+The situation was parsing and storing parsed fields in a struct. Each
+field name that is parsed should match up to a struct field.
+This is a fairly common problem. So this post walks through how to use
+Zig's metaprogramming features in a simpler but related domain:
+parsing CSS into typed objects, and pretty-printing these typed CSS
+objects.
+I live-streamed the implementation of this project yesterday on
+Twitch. The video is available on
+YouTube. And the source is available
+on GitHub.
+If you want to skip the parsing steps and just see the
+metaprogrammi…]]></summary>
+        <author>
+            <name>Notes on software development</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Metaprogramming in Zig and parsing CSS]]></title>
+        <id>http://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html</id>
+        <link href="http://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html"/>
+        <updated>2023-06-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I knew Zig supported some sort of reflection on types. But I had been
+confused about how to use it. What's the difference between
+@typeInfo and @TypeOf? I ignored this aspect of Zig until a
+problem came up at work where reflection
+made sense.
+The situation was parsing and storing parsed fields in a struct. Each
+field name that is parsed should match up to a struct field.
+This is a fairly common problem. So this post walks through how to use
+Zig's metaprogramming features in a simpler but related domain:
+parsing CSS into typed objects, and pretty-printing these typed CSS
+objects.
+I live-streamed the implementation of this project yesterday on
+Twitch. The video is available on
+YouTube. And the source is available
+on GitHub.
+If you want to skip the parsing steps and just see the
+metaprogrammi…]]></summary>
+        <author>
+            <name>Notes on software development</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Acting your wage will atrophy your abilities]]></title>
         <id>https://world.hey.com/dhh/acting-your-wage-will-atrophy-your-abilities-1ca261c4</id>
