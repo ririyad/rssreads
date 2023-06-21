@@ -30,6 +30,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce",
+          "author": null,
+          "description": "It's hard to know what'll stick around when shopping for software online. Popular services and crucial products get shut down all the time. You can't even trust that major conglomerates like Google to provide something you can count on two-five-ten years from now. And if you're betting on something backed by venture capital, well, you know that the odds of permanence are as long as can be. It needn't be this way.\nLook at some of the most beloved brands of the 20th century. The Leicas, the Rolexes, the Porsches of the world. Companies that proudly embrace their legacy, and ensure that enthusiasts can still service their camera, watch, or car, even if it's fifty-plus years old. What a beautiful model, and what a contrast to what passes for product dedication these days in the digital realm.\n…",
+          "link": "https://world.hey.com/dhh/until-the-end-of-the-internet-439ccfce",
+          "publishedOn": "2023-06-20T07:49:34.000Z",
+          "wordCount": 716,
+          "title": "Until the end of the internet",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/you-can-t-trust-google-f7d64064",
           "author": null,
           "description": "Google will eventually kill every single service you care about, if they can't find a way to directly monetize it with ads at a scale of billions. They're institutionally incapable of being in the product or service business, because neither products nor services butter Google's bread. Advertisement does.\nYou can see this emphasis in a myriad of ways, but my favorite lens is customer service. Google has always been uniquely awful when it comes to customer service, because helping someone with a problem on Workspaces or even the Google Cloud Platform was never going to be as profitable as helping an advertiser carpet bomb your attention span.\nThis is an evergreen observation, but I'm bringing it up in celebration of Google killing their domain name registrar Google Domains just now. After nine years in business, it'll unceremoniously get obliterated in just three months (and the shrapnel sold to Squarespace). That was a $180m/year business, servicing 10 million domains!\nIt's no better in the dead-business-walking department of Google Home / Nest. Google bought Nest almost a decade ago, and has managed to do worse than nothing with its product portfolio since. Just a few years ago they killed Nest Secure, leaving anyone who bought into that system with a bundle of bricks next year. And the Google Home app that was supposed to take over from the superior Nest app has been a multi-year stumble of embarrassment and neglect.\nWith a history like this, why would anyone trust Google on products and services outsides of the ad space? This goes from Workspaces to Gmail for Domains to even the Google Cloud Platform. This company is one major reorganization or recently promoted executive away from murdering any of these.\nAll I'm saying is you better have a backup plan. Be that for your collaboration, your email, your home security system. Anything that reads \"Made by Google\" implicitly has the subscript \"until we don't give a fuck any more\" printed below.",
@@ -148,16 +158,6 @@
           "wordCount": 570,
           "title": "The luxury of working without metrics",
           "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
-        },
-        {
-          "id": "https://world.hey.com/dhh/but-what-if-you-re-wrong-6de2168c",
-          "author": null,
-          "description": "They seemed so sure. First, that the pandemic couldn't possibly have come from a lab rather than a market. Then, that masks – any masks! – would materially retard the spread. Later, that the vaccine would prevent you from getting the virus. Finally, that if you were vaccinated, you couldn't spread the virus. All of that, and plenty more, turned out to be false.\nIn the years to come, there'll be plenty of time to point fingers. Who, when, where. The main characters are already digging their rhetorical tunnels. \nBut as we've passed the three-year anniversary for pandemic, I think it's just as important to look inwards. Because not only did most people buy the false claims, they became little foot soldiers in the crusade for them. Including me, for a while.\nStart by watching this compilation …",
-          "link": "https://world.hey.com/dhh/but-what-if-you-re-wrong-6de2168c",
-          "publishedOn": "2023-05-22T11:42:39.000Z",
-          "wordCount": 547,
-          "title": "But what if you're wrong?",
-          "imageUrl": "https://world.hey.com/dhh/avatar-20210222112907000000-293866624"
         }
       ]
     },
@@ -166,6 +166,16 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/73-of-what-80e24c13",
+          "author": null,
+          "description": "Look around in the tools you use. Especially project management tools. You'll likely find the products proudly displaying the percentage of this or that that's been completed.\nThis project is 73% done. This task list is 57% done. This process is 42% complete.\nIt's almost certainly wrong. A lie would be more accurate.\nMost of these percentages are attempting to measure work. But work isn't a vote — it's not either for this candidate or for that one. 62% voted for Candidate A is a fair assessment, but \"This to-do list is 62% complete\" is not. It may represent the percentage of items checked off vs. not checked off, but it doesn't represent the reality of what remains whatsoever.\nWhy's that? Because a number can't represent the position of a project, or a piece of work. There's easier work, t…",
+          "link": "https://world.hey.com/jason/73-of-what-80e24c13",
+          "publishedOn": "2023-06-20T22:19:49.000Z",
+          "wordCount": 458,
+          "title": "73% of what?",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
         {
           "id": "https://world.hey.com/jason/promise-not-to-promise-18eca88a",
           "author": null,
@@ -278,6 +288,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2023/06/20/introducing-leadership-council.html",
+          "author": null,
+          "description": "As of today, RFC 3392 has been merged, forming the new top level governance body of the Rust Project: the Leadership Council. The creation of this Council marks the end of both the Core Team and the interim Leadership Chat.\nThe Council will assume responsibility for top-level governance concerns while most of the responsibilities of the Rust Project (such as maintenance of the compiler and core tooling, evolution of the language and standard libraries, administration of infrastructure, etc.) remain with the nine top level teams.\nEach of these top level teams, as defined in the RFC, has chosen a representative who collectively form the Council:\nCompiler: Eric Holk\nCrates.io: Carol (Nichols || Goulding)\nDev Tools: Eric Huss\nInfrastructure: Ryan Levick\nLanguage: Jack Huey\nLaunching Pad1: Jonathan Pallant\nLibrary: Mara Bos\nModeration: Khionu Sybiern\nRelease: Mark Rousskov\nFirst, we want to take a moment to thank the Core Team and interim Leadership Chat for the hard work they've put in over the years. Their efforts have been critical for the Rust Project. However, we do recognize that the governance of the Rust Project has had its shortcomings. We hope to build on the successes and improve upon the failures to ultimately lead to greater transparency and accountability.\nWe know that there is a lot of work to do and we are eager to get started. In the coming weeks we will be establishing the basic infrastructure for the group, including creating a plan for regular meetings and a process for raising agenda items, setting up a team repository, and ultimately completing the transition from the former Rust leadership structures.\nWe will post more once this bootstrapping process has been completed.\nThe RFC defines the launching pad team as a temporary umbrella team to represent subteams that do not currently have a top-level team. ↩",
+          "link": "https://blog.rust-lang.org/2023/06/20/introducing-leadership-council.html",
+          "publishedOn": "2023-06-20T00:00:00.000Z",
+          "wordCount": 379,
+          "title": "Introducing the Rust Leadership Council",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html",
           "author": null,
