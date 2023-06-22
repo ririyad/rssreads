@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-21T01:18:26.320Z</updated>
+    <updated>2023-06-22T01:19:03.630Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Europe is half the cost for our company meet-ups]]></title>
+        <id>https://world.hey.com/dhh/europe-is-half-the-cost-for-our-company-meet-ups-825291a7</id>
+        <link href="https://world.hey.com/dhh/europe-is-half-the-cost-for-our-company-meet-ups-825291a7"/>
+        <updated>2023-06-21T06:34:56.000Z</updated>
+        <summary type="html"><![CDATA[Since the pandemic ended, we've had the pleasure of organizing three different company meet-ups for 37signals. We got going again in Miami, then hopped to Amsterdam, and most recently we went to New Orleans. Next we're going to Barcelona in the fall. Would you have guessed that hosting a company meet-up in US was almost twice as expensive as Europe? I wouldn't!
+I feel like Americans often complain about how expensive things are in Europe, but looking at our expenditures on meet-ups, that just isn't so. Here's what we spent per person in the three most recent locations, all-in:
+
+
+Miami: $6,200
+Amsterdam: $3,500
+New Orleans: $5,700
+
+And as much as I liked both Miami and New Orleans, I felt like we ate far better in Amsterdam! Accommodations were of comparable quality. Perhaps, again, a tad m…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[73% of what?]]></title>
         <id>https://world.hey.com/jason/73-of-what-80e24c13</id>
@@ -556,18 +574,6 @@ All code for this project is available o…]]></summary>
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The luxury of working without metrics]]></title>
-        <id>https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac</id>
-        <link href="https://world.hey.com/dhh/the-luxury-of-working-without-metrics-02e5dbac"/>
-        <updated>2023-05-23T09:39:15.000Z</updated>
-        <summary type="html"><![CDATA[There are a million metrics you can use to track the health of a  subscription software business like ours. Customer life-time value, cost of acquisition, cohort retention, revenue churn, net promoter score, funnel conversion rates, to name but a few. All useful calculations, but I can't tell you what bliss it's been to steer 37signals without them for twenty years.
-That's not to say that we never run these numbers, but it is to say that these numbers never run us. Because in the end, even the most sophisticated KPIs all inevitably serve the simplest calculations: Are we making money? Is it enough? You don't need a degree in statistics to determine that.
-Where this is most evident for us is in the product. I remember reading a story about how Google once tested 127 different shades of blue…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
