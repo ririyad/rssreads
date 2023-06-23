@@ -30,6 +30,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/breaking-the-inertia-of-mediocrity-88048743",
+          "author": null,
+          "description": "It's rarely the terrible decisions, processes, or even people that'll sink your organization. It's the accumulation and inertia of the mediocre ones. Dealing with the truly bad is easy. It's painfully obvious to all that change is required. The danger is imminent. It's much harder to find the will to act when the danger lurks in inadequate urgency, cumbersome collaboration, or just a missing spark. But act you must, before inertia sets in to devour you whole.\nThe insidious nature of inertia is in its ability to compound the cost of action as time goes on. Letting go of an employee that just didn't meet the bar after three months is endlessly easier than doing the same after three years. Same with reverting a bad organizational restructuring or poor development practices or awkward reporting protocols. Every additional month you let mediocrity fester, you make it harder to undo.\nBecause hitting undo usually means at least one difficult conversation, some amount of disappointment, and a recognition that you get this one wrong. All factors that most mortals are loathe to face! It's so much more comfortable to punt. Come up with excuses of why it just hasn't worked yet. Why just a bit more time is needed to turn it around. Any argument will do, as long as it postpones the requirement to move.\nAnd if mediocrity dwelled in isolation, you'd probably get away with it. That's exactly why it's so difficult to counter. It's rarely the one mediocre employee, process, or decision that conspires to take you off course. It's the accumulation of all of them together.\nThe sad truth is that most of us are cowards whenever we can be. We usually know what needs to be done, but we shrink from the responsibility to do it. Unless occasion calls upon us without a choice, we'll find a way around.\nWhenever I find myself looking at a coward in the mirror, I remind myself: Easy choices, hard life. Hard choices, easy life. Make the hard choices. Even when it's possible to punt. The inertia of mediocrity will not break unless you break it.",
+          "link": "https://world.hey.com/dhh/breaking-the-inertia-of-mediocrity-88048743",
+          "publishedOn": "2023-06-22T08:47:24.000Z",
+          "wordCount": 440,
+          "title": "Breaking the inertia of mediocrity",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/europe-is-half-the-cost-for-our-company-meet-ups-825291a7",
           "author": null,
           "description": "Since the pandemic ended, we've had the pleasure of organizing three different company meet-ups for 37signals. We got going again in Miami, then hopped to Amsterdam, and most recently we went to New Orleans. Next we're going to Barcelona in the fall. Would you have guessed that hosting a company meet-up in US was almost twice as expensive as Europe? I wouldn't!\nI feel like Americans often complain about how expensive things are in Europe, but looking at our expenditures on meet-ups, that just isn't so. Here's what we spent per person in the three most recent locations, all-in:\n\n\nMiami: $6,200\nAmsterdam: $3,500\nNew Orleans: $5,700\n\nAnd as much as I liked both Miami and New Orleans, I felt like we ate far better in Amsterdam! Accommodations were of comparable quality. Perhaps, again, a tad m…",
@@ -264,16 +274,6 @@
           "wordCount": 5384,
           "title": "Privacy Enhancing Technologies: An Introduction for Technologists",
           "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/dependency-composition.html",
-          "author": null,
-          "description": "Developers commonly ask \"what framework should we use for dependency\n     injection\". Daniel Somerfield explains why this is the wrong question,\n     instead we should focus how to have clearly separated modules with a simple\n     composition mechanism between them. He illustrates how he approaches this\n     in TypeScript, with a minimalist \"function-first\" approach, on a simple\n     example application separating application logic from persistence.\nmore…",
-          "link": "https://martinfowler.com/articles/dependency-composition.html",
-          "publishedOn": "2023-05-23T17:56:00.000Z",
-          "wordCount": 6803,
-          "title": "Dependency Composition",
-          "imageUrl": "https://martinfowler.com/articles/dependency-composition/card.png"
         }
       ]
     },

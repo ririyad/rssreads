@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-22T01:19:03.630Z</updated>
+    <updated>2023-06-23T01:27:35.141Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Breaking the inertia of mediocrity]]></title>
+        <id>https://world.hey.com/dhh/breaking-the-inertia-of-mediocrity-88048743</id>
+        <link href="https://world.hey.com/dhh/breaking-the-inertia-of-mediocrity-88048743"/>
+        <updated>2023-06-22T08:47:24.000Z</updated>
+        <summary type="html"><![CDATA[It's rarely the terrible decisions, processes, or even people that'll sink your organization. It's the accumulation and inertia of the mediocre ones. Dealing with the truly bad is easy. It's painfully obvious to all that change is required. The danger is imminent. It's much harder to find the will to act when the danger lurks in inadequate urgency, cumbersome collaboration, or just a missing spark. But act you must, before inertia sets in to devour you whole.
+The insidious nature of inertia is in its ability to compound the cost of action as time goes on. Letting go of an employee that just didn't meet the bar after three months is endlessly easier than doing the same after three years. Same with reverting a bad organizational restructuring or poor development practices or awkward reporting protocols. Every additional month you let mediocrity fester, you make it harder to undo.
+Because hitting undo usually means at least one difficult conversation, some amount of disappointment, and a recognition that you get this one wrong. All factors that most mortals are loathe to face! It's so much more comfortable to punt. Come up with excuses of why it just hasn't worked yet. Why just a bit more time is needed to turn it around. Any argument will do, as long as it postpones the requirement to move.
+And if mediocrity dwelled in isolation, you'd probably get away with it. That's exactly why it's so difficult to counter. It's rarely the one mediocre employee, process, or decision that conspires to take you off course. It's the accumulation of all of them together.
+The sad truth is that most of us are cowards whenever we can be. We usually know what needs to be done, but we shrink from the responsibility to do it. Unless occasion calls upon us without a choice, we'll find a way around.
+Whenever I find myself looking at a coward in the mirror, I remind myself: Easy choices, hard life. Hard choices, easy life. Make the hard choices. Even when it's possible to punt. The inertia of mediocrity will not break unless you break it.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Europe is half the cost for our company meet-ups]]></title>
         <id>https://world.hey.com/dhh/europe-is-half-the-cost-for-our-company-meet-ups-825291a7</id>
@@ -558,22 +573,6 @@ production. It's just for my education.
 All code for this project is available o…]]></summary>
         <author>
             <name>Notes on software development</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Dependency Composition]]></title>
-        <id>https://martinfowler.com/articles/dependency-composition.html</id>
-        <link href="https://martinfowler.com/articles/dependency-composition.html"/>
-        <updated>2023-05-23T17:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Developers commonly ask "what framework should we use for dependency
-     injection". Daniel Somerfield explains why this is the wrong question,
-     instead we should focus how to have clearly separated modules with a simple
-     composition mechanism between them. He illustrates how he approaches this
-     in TypeScript, with a minimalist "function-first" approach, on a simple
-     example application separating application logic from persistence.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
