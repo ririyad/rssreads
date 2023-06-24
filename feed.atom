@@ -2,10 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-23T01:27:35.141Z</updated>
+    <updated>2023-06-24T01:26:50.417Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[We have left the cloud]]></title>
+        <id>https://world.hey.com/dhh/we-have-left-the-cloud-251760fb</id>
+        <link href="https://world.hey.com/dhh/we-have-left-the-cloud-251760fb"/>
+        <updated>2023-06-23T08:24:37.000Z</updated>
+        <summary type="html"><![CDATA[Since it took us years to get into the cloud in the first place, I originally imagined it would take us years to get out as well. But all that work to containerize our applications and prepare them for the cloud actually turned out to make it relatively easy to exit. And now, after six months of effort, it's done. We're out. The last application was brought home to our own hardware on Wednesday. Hallelujah!
+In those six months, we brought home six heritage services that we're no longer selling, but have committed to support for existing customers and users until the end of the internet. Basecamp Classic, Highrise, Writeboard, Campfire, Backpack, and Ta-da List are all over a decade old, but continue to serve tens of thousands of people, and generate millions of dollars in revenue. But now …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improved API tokens for crates.io]]></title>
+        <id>https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html</id>
+        <link href="https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html"/>
+        <updated>2023-06-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[If you recently generated a new API token on crates.io, you might have noticed
+our new API token creation page and some of the new features it now supports.
+Previously, when clicking the "New Token" button on https://crates.io/settings/tokens,
+you were only provided with the option to choose a token name, without any
+additional choices. We knew that we wanted to offer our users more flexibility,
+but in the previous user interface that would have been difficult, so our first
+step was to build a proper "New API Token" page.
+Our roadmap included two essential features known as "token scopes". The first
+of them allows you to restrict API tokens to specific operations. For instance,
+you can configure a token to solely enable the publishing of new versions for
+existing crates, while disallowing …]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Breaking the inertia of mediocrity]]></title>
         <id>https://world.hey.com/dhh/breaking-the-inertia-of-mediocrity-88048743</id>
@@ -505,74 +536,6 @@ we'd love your feedback on this GitHub issue.]]></summary>
 At 37signals, we've been doing company-wide meetups twice a year for over fifteen years. Through these meetups, we've secured the lion's share of the social in-person benefits afforded by an office, while allowing nearly eighty people from twenty countries to collaborate happily and effectively. It's remarkable how nourishing it can be simply to see your coworkers every six months, and then rely on those ful…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Manage process before people]]></title>
-        <id>https://world.hey.com/dhh/manage-process-before-people-20736695</id>
-        <link href="https://world.hey.com/dhh/manage-process-before-people-20736695"/>
-        <updated>2023-05-25T08:23:15.000Z</updated>
-        <summary type="html"><![CDATA[If you want to run a company that's light on full-time managers, you have to focus on managing processes before people. The traditional paradigm of a reporting manager that's constantly following up with their reports, conducting daily stand-up meetings, weekly 1-1s, and all other forms of intensive supervision, needs to be (mostly) replaced with an asynchronous, self-managing paradigm instead.
-Let's look at five ways that principle works in practice at 37signals. 
-First, we've replaced the commonly used daily stand-up meetings with a set of automated questions in Basecamp. On Monday mornings, we ask everyone "What are you going to work on this week?", and at the end of every day, we ask "What did you work on today?". These two recurring questions provide the key process for keeping everyo…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Implementing a distributed key-value store on top of implementing Raft in Go]]></title>
-        <id>http://notes.eatonphil.com/2023-05-25-raft.html</id>
-        <link href="http://notes.eatonphil.com/2023-05-25-raft.html"/>
-        <updated>2023-05-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As part of bringing myself up-to-speed after joining TigerBeetle, I
-wanted some background on how distributed consensus and replicated state
-machines protocols work. TigerBeetle uses Viewstamped
-Replication. But I
-wanted to understand all popular protocols and I decided to start with
-Raft.
-We'll implement two key components of Raft in this post (leader
-election and log replication). Around 1k lines of Go. It took me
-around 7 months of sporadic studying to come to (what I hope is) an
-understanding of the basics.
-Disclaimer: I'm not an expert. My implementation isn't yet hooked
-up to Jepsen. I've run it
-through a mix of
-manual and
-automated
-tests and
-it seems generally correct. This is not intended to be used in
-production. It's just for my education.
-All code for this project is available o…]]></summary>
-        <author>
-            <name>Notes on software development</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Implementing a distributed key-value store on top of implementing Raft in Go]]></title>
-        <id>http://notes.eatonphil.com/2023-05-25-raft.html</id>
-        <link href="http://notes.eatonphil.com/2023-05-25-raft.html"/>
-        <updated>2023-05-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As part of bringing myself up-to-speed after joining TigerBeetle, I
-wanted some background on how distributed consensus and replicated state
-machines protocols work. TigerBeetle uses Viewstamped
-Replication. But I
-wanted to understand all popular protocols and I decided to start with
-Raft.
-We'll implement two key components of Raft in this post (leader
-election and log replication). Around 1k lines of Go. It took me
-around 7 months of sporadic studying to come to (what I hope is) an
-understanding of the basics.
-Disclaimer: I'm not an expert. My implementation isn't yet hooked
-up to Jepsen. I've run it
-through a mix of
-manual and
-automated
-tests and
-it seems generally correct. This is not intended to be used in
-production. It's just for my education.
-All code for this project is available o…]]></summary>
-        <author>
-            <name>Notes on software development</name>
         </author>
     </entry>
 </feed>

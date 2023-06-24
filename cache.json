@@ -30,6 +30,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/we-have-left-the-cloud-251760fb",
+          "author": null,
+          "description": "Since it took us years to get into the cloud in the first place, I originally imagined it would take us years to get out as well. But all that work to containerize our applications and prepare them for the cloud actually turned out to make it relatively easy to exit. And now, after six months of effort, it's done. We're out. The last application was brought home to our own hardware on Wednesday. Hallelujah!\nIn those six months, we brought home six heritage services that we're no longer selling, but have committed to support for existing customers and users until the end of the internet. Basecamp Classic, Highrise, Writeboard, Campfire, Backpack, and Ta-da List are all over a decade old, but continue to serve tens of thousands of people, and generate millions of dollars in revenue. But now …",
+          "link": "https://world.hey.com/dhh/we-have-left-the-cloud-251760fb",
+          "publishedOn": "2023-06-23T08:24:37.000Z",
+          "wordCount": 1053,
+          "title": "We have left the cloud",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/breaking-the-inertia-of-mediocrity-88048743",
           "author": null,
           "description": "It's rarely the terrible decisions, processes, or even people that'll sink your organization. It's the accumulation and inertia of the mediocre ones. Dealing with the truly bad is easy. It's painfully obvious to all that change is required. The danger is imminent. It's much harder to find the will to act when the danger lurks in inadequate urgency, cumbersome collaboration, or just a missing spark. But act you must, before inertia sets in to devour you whole.\nThe insidious nature of inertia is in its ability to compound the cost of action as time goes on. Letting go of an employee that just didn't meet the bar after three months is endlessly easier than doing the same after three years. Same with reverting a bad organizational restructuring or poor development practices or awkward reporting protocols. Every additional month you let mediocrity fester, you make it harder to undo.\nBecause hitting undo usually means at least one difficult conversation, some amount of disappointment, and a recognition that you get this one wrong. All factors that most mortals are loathe to face! It's so much more comfortable to punt. Come up with excuses of why it just hasn't worked yet. Why just a bit more time is needed to turn it around. Any argument will do, as long as it postpones the requirement to move.\nAnd if mediocrity dwelled in isolation, you'd probably get away with it. That's exactly why it's so difficult to counter. It's rarely the one mediocre employee, process, or decision that conspires to take you off course. It's the accumulation of all of them together.\nThe sad truth is that most of us are cowards whenever we can be. We usually know what needs to be done, but we shrink from the responsibility to do it. Unless occasion calls upon us without a choice, we'll find a way around.\nWhenever I find myself looking at a coward in the mirror, I remind myself: Easy choices, hard life. Hard choices, easy life. Make the hard choices. Even when it's possible to punt. The inertia of mediocrity will not break unless you break it.",
@@ -158,16 +168,6 @@
           "wordCount": 469,
           "title": "Recharging trust batteries with meetups in a remote company",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/manage-process-before-people-20736695",
-          "author": null,
-          "description": "If you want to run a company that's light on full-time managers, you have to focus on managing processes before people. The traditional paradigm of a reporting manager that's constantly following up with their reports, conducting daily stand-up meetings, weekly 1-1s, and all other forms of intensive supervision, needs to be (mostly) replaced with an asynchronous, self-managing paradigm instead.\nLet's look at five ways that principle works in practice at 37signals. \nFirst, we've replaced the commonly used daily stand-up meetings with a set of automated questions in Basecamp. On Monday mornings, we ask everyone \"What are you going to work on this week?\", and at the end of every day, we ask \"What did you work on today?\". These two recurring questions provide the key process for keeping everyo…",
-          "link": "https://world.hey.com/dhh/manage-process-before-people-20736695",
-          "publishedOn": "2023-05-25T08:23:15.000Z",
-          "wordCount": 724,
-          "title": "Manage process before people",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -289,6 +289,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html",
+          "author": null,
+          "description": "If you recently generated a new API token on crates.io, you might have noticed\nour new API token creation page and some of the new features it now supports.\nPreviously, when clicking the \"New Token\" button on https://crates.io/settings/tokens,\nyou were only provided with the option to choose a token name, without any\nadditional choices. We knew that we wanted to offer our users more flexibility,\nbut in the previous user interface that would have been difficult, so our first\nstep was to build a proper \"New API Token\" page.\nOur roadmap included two essential features known as \"token scopes\". The first\nof them allows you to restrict API tokens to specific operations. For instance,\nyou can configure a token to solely enable the publishing of new versions for\nexisting crates, while disallowing …",
+          "link": "https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html",
+          "publishedOn": "2023-06-23T00:00:00.000Z",
+          "wordCount": 418,
+          "title": "Improved API tokens for crates.io",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/06/20/introducing-leadership-council.html",
           "author": null,
           "description": "As of today, RFC 3392 has been merged, forming the new top level governance body of the Rust Project: the Leadership Council. The creation of this Council marks the end of both the Core Team and the interim Leadership Chat.\nThe Council will assume responsibility for top-level governance concerns while most of the responsibilities of the Rust Project (such as maintenance of the compiler and core tooling, evolution of the language and standard libraries, administration of infrastructure, etc.) remain with the nine top level teams.\nEach of these top level teams, as defined in the RFC, has chosen a representative who collectively form the Council:\nCompiler: Eric Holk\nCrates.io: Carol (Nichols || Goulding)\nDev Tools: Eric Huss\nInfrastructure: Ryan Levick\nLanguage: Jack Huey\nLaunching Pad1: Jonathan Pallant\nLibrary: Mara Bos\nModeration: Khionu Sybiern\nRelease: Mark Rousskov\nFirst, we want to take a moment to thank the Core Team and interim Leadership Chat for the hard work they've put in over the years. Their efforts have been critical for the Rust Project. However, we do recognize that the governance of the Rust Project has had its shortcomings. We hope to build on the successes and improve upon the failures to ultimately lead to greater transparency and accountability.\nWe know that there is a lot of work to do and we are eager to get started. In the coming weeks we will be establishing the basic infrastructure for the group, including creating a plan for regular meetings and a process for raising agenda items, setting up a team repository, and ultimately completing the transition from the former Rust leadership structures.\nWe will post more once this bootstrapping process has been completed.\nThe RFC defines the launching pad team as a temporary umbrella team to represent subteams that do not currently have a top-level team. ↩",
@@ -378,16 +388,6 @@
           "wordCount": 4681,
           "title": "Metaprogramming in Zig and parsing CSS",
           "imageUrl": null
-        },
-        {
-          "id": "http://notes.eatonphil.com/2023-05-25-raft.html",
-          "author": null,
-          "description": "As part of bringing myself up-to-speed after joining TigerBeetle, I\nwanted some background on how distributed consensus and replicated state\nmachines protocols work. TigerBeetle uses Viewstamped\nReplication. But I\nwanted to understand all popular protocols and I decided to start with\nRaft.\nWe'll implement two key components of Raft in this post (leader\nelection and log replication). Around 1k lines of Go. It took me\naround 7 months of sporadic studying to come to (what I hope is) an\nunderstanding of the basics.\nDisclaimer: I'm not an expert. My implementation isn't yet hooked\nup to Jepsen. I've run it\nthrough a mix of\nmanual and\nautomated\ntests and\nit seems generally correct. This is not intended to be used in\nproduction. It's just for my education.\nAll code for this project is available o…",
-          "link": "http://notes.eatonphil.com/2023-05-25-raft.html",
-          "publishedOn": "2023-05-25T00:00:00.000Z",
-          "wordCount": 9619,
-          "title": "Implementing a distributed key-value store on top of implementing Raft in Go",
-          "imageUrl": null
         }
       ]
     },
@@ -429,16 +429,6 @@
           "publishedOn": "2023-06-19T00:00:00.000Z",
           "wordCount": 4681,
           "title": "Metaprogramming in Zig and parsing CSS",
-          "imageUrl": null
-        },
-        {
-          "id": "http://notes.eatonphil.com/2023-05-25-raft.html",
-          "author": null,
-          "description": "As part of bringing myself up-to-speed after joining TigerBeetle, I\nwanted some background on how distributed consensus and replicated state\nmachines protocols work. TigerBeetle uses Viewstamped\nReplication. But I\nwanted to understand all popular protocols and I decided to start with\nRaft.\nWe'll implement two key components of Raft in this post (leader\nelection and log replication). Around 1k lines of Go. It took me\naround 7 months of sporadic studying to come to (what I hope is) an\nunderstanding of the basics.\nDisclaimer: I'm not an expert. My implementation isn't yet hooked\nup to Jepsen. I've run it\nthrough a mix of\nmanual and\nautomated\ntests and\nit seems generally correct. This is not intended to be used in\nproduction. It's just for my education.\nAll code for this project is available o…",
-          "link": "http://notes.eatonphil.com/2023-05-25-raft.html",
-          "publishedOn": "2023-05-25T00:00:00.000Z",
-          "wordCount": 9619,
-          "title": "Implementing a distributed key-value store on top of implementing Raft in Go",
           "imageUrl": null
         }
       ]
