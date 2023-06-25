@@ -2,10 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-24T01:26:50.417Z</updated>
+    <updated>2023-06-25T01:44:34.785Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Rails World sold out less than 45 minutes]]></title>
+        <id>https://world.hey.com/dhh/rails-world-sold-out-less-than-45-minutes-78a0b276</id>
+        <link href="https://world.hey.com/dhh/rails-world-sold-out-less-than-45-minutes-78a0b276"/>
+        <updated>2023-06-24T12:05:05.000Z</updated>
+        <summary type="html"><![CDATA[There hasn't been a major, dedicated Rails conference in Europe since 2008, so perhaps it's no surprise that there was pent-up demand. But I was still shocked to see the forthcoming Rails World visit to Amsterdam sell out in less than 45 minutes yesterday! What an awesome reception to the first major project undertaken by our new Rails Foundation.
+And what an awesome validation that companies like Cookpad, Doximity, Fleetio, GitHub, Intercom, Procore, Shopify, and 37signals were right to back a new institution, as core members, with a clear mission to improve the documentation, education, marketing, and events for Ruby on Rails. Same too for our contributing members, like AppSignal, Cedarcode and Planet Argon.
+To have all of this come together, with Rails World, with the Rails Foundation, …]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We have left the cloud]]></title>
         <id>https://world.hey.com/dhh/we-have-left-the-cloud-251760fb</id>
@@ -525,17 +537,6 @@ The release team is also thinking about changes to our pre-release process:
 we'd love your feedback on this GitHub issue.]]></summary>
         <author>
             <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Recharging trust batteries with meetups in a remote company]]></title>
-        <id>https://world.hey.com/dhh/recharging-trust-batteries-with-meetups-in-a-remote-company-5ad0cbeb</id>
-        <link href="https://world.hey.com/dhh/recharging-trust-batteries-with-meetups-in-a-remote-company-5ad0cbeb"/>
-        <updated>2023-05-26T08:27:46.000Z</updated>
-        <summary type="html"><![CDATA[Nothing can substitute for spending time together in person as a way to build bonds, create connections, and foster trust with your colleagues. There's just a special kind of magic that comes from being together, which Zoom will never match or catch. But what's enabled the remote-work revolution to be effective is that these moments don't need to happen every day, week, or even month. 
-At 37signals, we've been doing company-wide meetups twice a year for over fifteen years. Through these meetups, we've secured the lion's share of the social in-person benefits afforded by an office, while allowing nearly eighty people from twenty countries to collaborate happily and effectively. It's remarkable how nourishing it can be simply to see your coworkers every six months, and then rely on those ful…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
