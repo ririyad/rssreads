@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/staying-in-the-arena-1ff9f285",
+          "author": null,
+          "description": "One of the things that can seem difficult to understand for people who merely tolerate having a job is why anyone would continue working if they didn't have to. You often see a version of this incredulity when the peanut gallery weighs in on the choices of billionaires. Why do these Very Rich People continue to do things – especially things I disagree with! – when they have enough money to live forever after on a beach sipping mojitos and taking pottery classes?! I WOULD NEVER.\nIt's a curious contradiction in the conceptualization of ambition. On the one hand, the \"I WOULD NEVER\" sentiment is drawn from a longing desire to have financial freedom. Fantasizing about what life would be like without a boss, without bills to worry about, and without the other obligations of modern life carried …",
+          "link": "https://world.hey.com/dhh/staying-in-the-arena-1ff9f285",
+          "publishedOn": "2023-06-27T12:26:41.000Z",
+          "wordCount": 741,
+          "title": "Staying in the arena",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/wisdom-is-not-what-you-know-e8cf9191",
           "author": null,
           "description": "The hallmark of great wisdom is not what you know, but what you know and can put to use. The globe is full of learned idiots, unable or incapable of following the wisdom they have accumulated. There's no prize for a closet full of axioms or insights, if you leave it all in there, and venture philosophically naked into the world.\nIronically, this was a lesson I had to learn late in life myself. I used to find it silly when people would read the same book twice. With so much more knowledge to discover, why waste your efforts on what you've already explored?\nBecause wisdom doesn't stick just by reading it once.\nAll the most valuable lessons in life require repetition. You don't get in shape by knowing how to do a push-up but by doing a hundred a week. Accept that wisdom is a form of mental ex…",
@@ -348,16 +358,6 @@
           "wordCount": 996,
           "title": "Announcing Rust 1.70.0",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/05/29/RustConf.html",
-          "author": null,
-          "description": "On May 26th 2023, JeanHeyd Meneide announced they would not speak at RustConf 2023 anymore. They were invited to give a keynote at the conference, only to be told two weeks later the keynote would be demoted to a normal talk, due to a decision made within the Rust project leadership.\nThat decision was not right, and first off we want to publicly apologize for the harm we caused. We failed you JeanHeyd. The idea of downgrading a talk after the invitation was insulting, and nobody in leadership should have been willing to entertain it.\nEveryone in leadership chat is still working to fully figure out everything that went wrong and how we can prevent all of this from happening again. That work is not finished yet. Still, we want to share some steps we are taking to reduce the risk of something…",
-          "link": "https://blog.rust-lang.org/2023/05/29/RustConf.html",
-          "publishedOn": "2023-05-29T00:00:00.000Z",
-          "wordCount": 515,
-          "title": "On the RustConf keynote",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -365,18 +365,7 @@
       "title": "Inside Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
-      "articles": [
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/05/29/1.70.0-prerelease.html",
-          "author": null,
-          "description": "The 1.70.0 pre-release is ready for testing. The release is scheduled for\nJune 1. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-05-29/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/05/29/1.70.0-prerelease.html",
-          "publishedOn": "2023-05-29T00:00:00.000Z",
-          "wordCount": 139,
-          "title": "1.70.0 pre-release testing",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Jorge Manrubia",
