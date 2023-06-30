@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218",
+          "author": null,
+          "description": "By all accounts, Figma has been an amazing tool for designers. We've used it extensively at 37signals, and I'm sure most every other software shop has too. Adobe didn't pay $20 billion for nothing. But we don't do the bulk of our design work with or in Figma when developing Basecamp or HEY for the web. That's all done directly in HTML and CSS, as it should be.\nBecause no matter how good Figma is, it's an intermediary abstraction, like Photoshop before it. If you're working with the web, you'll work faster without such an abstraction layer in the design process filtering the collaboration between programmer and designer.\nThis is perhaps the biggest, open secret to the productivity and viability of our two-person teams at 37signals. All our web designers work directly with the native materia…",
+          "link": "https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218",
+          "publishedOn": "2023-06-29T14:38:54.000Z",
+          "wordCount": 560,
+          "title": "Design for the web without Figma",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/staying-in-the-arena-1ff9f285",
           "author": null,
           "description": "One of the things that can seem difficult to understand for people who merely tolerate having a job is why anyone would continue working if they didn't have to. You often see a version of this incredulity when the peanut gallery weighs in on the choices of billionaires. Why do these Very Rich People continue to do things – especially things I disagree with! – when they have enough money to live forever after on a beach sipping mojitos and taking pottery classes?! I WOULD NEVER.\nIt's a curious contradiction in the conceptualization of ambition. On the one hand, the \"I WOULD NEVER\" sentiment is drawn from a longing desire to have financial freedom. Fantasizing about what life would be like without a boss, without bills to worry about, and without the other obligations of modern life carried …",
@@ -189,16 +199,6 @@
           "wordCount": 511,
           "title": "When promotions become punishment",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/start-them-in-the-deep-end-8c9c77fe",
-          "author": null,
-          "description": "The kindest thing you can do to a new team member is to involve them in something real and challenging right away. Don't squander weeks of new-job enthusiasm with baby rails and play tasks. Get them into the deep end right from the start.\nThis doesn't mean leaving them all alone to figure out the culture, the work, and the people by themselves, mind you. Nobody hits the ground running, and everyone needs guidance and mentorship to thrive in a new situation. But it does mean that the context in which you offer that assistance ought to be real as quickly as possible.\nFor programmers at 37signals, for example, we assign both a buddy and a mentor to new hires. The buddy is solely there to be a friendly guide to the innards of the organization. Why do we do the things we do? The mentor is there…",
-          "link": "https://world.hey.com/dhh/start-them-in-the-deep-end-8c9c77fe",
-          "publishedOn": "2023-05-31T09:20:38.000Z",
-          "wordCount": 469,
-          "title": "Start them in the deep end",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -287,6 +287,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/building-boba.html",
+          "author": null,
+          "description": "While it's fascinating to work directly with a Large Language Model,\n     such as ChatGPT, it takes some skill and practice to learn how to prompt it\n     effectively. My colleague Farooq Ali has been working on a co-pilot tool,\n     Boba AI, for using an LLM to help generate ideas for product strategy. From\n     this experience he as proposed eight patterns which he judges\n     will be generally useful for building these kinds of AI co-pilot applications.\nmore…",
+          "link": "https://martinfowler.com/articles/building-boba.html",
+          "publishedOn": "2023-06-29T14:10:00.000Z",
+          "wordCount": 5342,
+          "title": "Building Boba AI: Some lessons and patterns learnt in building an             LLM-powered generative application",
+          "imageUrl": "https://martinfowler.com/articles/building-boba/thumbnail.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/linking-modular-arch.html",
           "author": null,
           "description": "Mobile applications often deliver features rapidly at first, but slow as\n     a codebase builds up. These common software problems are exacerbated by the\n     need to prioritize different features in different markets. Matthew\n     Foster describes an example of this from his work with clients,\n     and how using Domain-Driven Design and Team Topologies helped create a\n     modular architecture that substantially reduced the time needed to deliver\n     new features. \nmore…",
@@ -295,16 +305,6 @@
           "wordCount": 4831,
           "title": "Linking Modular Architecture to Development Teams",
           "imageUrl": "https://martinfowler.com/articles/linking-modular-arch/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/intro-pet.html",
-          "author": null,
-          "description": "Making data open and available to all helps us all understand our world\n     and are thus better informed to shape the policies to run it. But such openness\n     does come with problems - one in particular is the invasion of people's\n     privacy. Detailed census information about household income helps debate\n     and planning for local government, but can reveal personal information that\n     citizens reasonably prefer to keep private. Privacy Enhancing Technologies\n     are tools that can finesse this problem. My colleague Katharine Jarmul is a\n     data scientist who is also an activist for personal privacy. Here she\n     introduces three of these tools that are usable now: Differential Privacy,\n     Distributed & Federated Analysis & Learning, and Encrypted Computation.\nmore…",
-          "link": "https://martinfowler.com/articles/intro-pet.html",
-          "publishedOn": "2023-05-30T14:32:00.000Z",
-          "wordCount": 5384,
-          "title": "Privacy Enhancing Technologies: An Introduction for Technologists",
-          "imageUrl": "https://martinfowler.com/logo-sq.png"
         }
       ]
     },

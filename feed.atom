@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-29T01:24:57.404Z</updated>
+    <updated>2023-06-30T01:23:14.042Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Design for the web without Figma]]></title>
+        <id>https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218</id>
+        <link href="https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218"/>
+        <updated>2023-06-29T14:38:54.000Z</updated>
+        <summary type="html"><![CDATA[By all accounts, Figma has been an amazing tool for designers. We've used it extensively at 37signals, and I'm sure most every other software shop has too. Adobe didn't pay $20 billion for nothing. But we don't do the bulk of our design work with or in Figma when developing Basecamp or HEY for the web. That's all done directly in HTML and CSS, as it should be.
+Because no matter how good Figma is, it's an intermediary abstraction, like Photoshop before it. If you're working with the web, you'll work faster without such an abstraction layer in the design process filtering the collaboration between programmer and designer.
+This is perhaps the biggest, open secret to the productivity and viability of our two-person teams at 37signals. All our web designers work directly with the native materia…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Boba AI: Some lessons and patterns learnt in building an             LLM-powered generative application]]></title>
+        <id>https://martinfowler.com/articles/building-boba.html</id>
+        <link href="https://martinfowler.com/articles/building-boba.html"/>
+        <updated>2023-06-29T14:10:00.000Z</updated>
+        <summary type="html"><![CDATA[While it's fascinating to work directly with a Large Language Model,
+     such as ChatGPT, it takes some skill and practice to learn how to prompt it
+     effectively. My colleague Farooq Ali has been working on a co-pilot tool,
+     Boba AI, for using an LLM to help generate ideas for product strategy. From
+     this experience he as proposed eight patterns which he judges
+     will be generally useful for building these kinds of AI co-pilot applications.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Staying in the arena]]></title>
         <id>https://world.hey.com/dhh/staying-in-the-arena-1ff9f285</id>
@@ -508,38 +536,6 @@ Sparse by default for crates.io
 Cargo's "sparse" protocol is now enabled by default for reading the index from crates.io.…]]></summary>
         <author>
             <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Start them in the deep end]]></title>
-        <id>https://world.hey.com/dhh/start-them-in-the-deep-end-8c9c77fe</id>
-        <link href="https://world.hey.com/dhh/start-them-in-the-deep-end-8c9c77fe"/>
-        <updated>2023-05-31T09:20:38.000Z</updated>
-        <summary type="html"><![CDATA[The kindest thing you can do to a new team member is to involve them in something real and challenging right away. Don't squander weeks of new-job enthusiasm with baby rails and play tasks. Get them into the deep end right from the start.
-This doesn't mean leaving them all alone to figure out the culture, the work, and the people by themselves, mind you. Nobody hits the ground running, and everyone needs guidance and mentorship to thrive in a new situation. But it does mean that the context in which you offer that assistance ought to be real as quickly as possible.
-For programmers at 37signals, for example, we assign both a buddy and a mentor to new hires. The buddy is solely there to be a friendly guide to the innards of the organization. Why do we do the things we do? The mentor is there…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Privacy Enhancing Technologies: An Introduction for Technologists]]></title>
-        <id>https://martinfowler.com/articles/intro-pet.html</id>
-        <link href="https://martinfowler.com/articles/intro-pet.html"/>
-        <updated>2023-05-30T14:32:00.000Z</updated>
-        <summary type="html"><![CDATA[Making data open and available to all helps us all understand our world
-     and are thus better informed to shape the policies to run it. But such openness
-     does come with problems - one in particular is the invasion of people's
-     privacy. Detailed census information about household income helps debate
-     and planning for local government, but can reveal personal information that
-     citizens reasonably prefer to keep private. Privacy Enhancing Technologies
-     are tools that can finesse this problem. My colleague Katharine Jarmul is a
-     data scientist who is also an activist for personal privacy. Here she
-     introduces three of these tools that are usable now: Differential Privacy,
-     Distributed & Federated Analysis & Learning, and Encrypted Computation.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
