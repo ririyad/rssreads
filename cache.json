@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-law-of-the-land-c2231109",
+          "author": null,
+          "description": "Affirmative action is right up there with abortion and gun control among the highest-profile, longest-running social fissures in America. So of course the recent ruling from the Supreme Court making its use in college admissions illegal was going to light a political fire. The surprising thing is just how contained the burn has been within the tech industry.\nBut perhaps it shouldn't be so surprising. As I argued last year, we're now in the waning days of DEI's dominance within the corporate world in general and tech in particular. I don't know exactly when future historians will pin the peak, but it'll be sometime in that 2020-2021 period. The only thing that's clear today is that things have calmed down considerably since the ideological crusade reigned supreme.\nGood.\nIt really was a craz…",
+          "link": "https://world.hey.com/dhh/the-law-of-the-land-c2231109",
+          "publishedOn": "2023-06-30T17:26:00.000Z",
+          "wordCount": 733,
+          "title": "The law of the land",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218",
           "author": null,
           "description": "By all accounts, Figma has been an amazing tool for designers. We've used it extensively at 37signals, and I'm sure most every other software shop has too. Adobe didn't pay $20 billion for nothing. But we don't do the bulk of our design work with or in Figma when developing Basecamp or HEY for the web. That's all done directly in HTML and CSS, as it should be.\nBecause no matter how good Figma is, it's an intermediary abstraction, like Photoshop before it. If you're working with the web, you'll work faster without such an abstraction layer in the design process filtering the collaboration between programmer and designer.\nThis is perhaps the biggest, open secret to the productivity and viability of our two-person teams at 37signals. All our web designers work directly with the native materia…",
@@ -189,16 +199,6 @@
           "wordCount": 539,
           "title": "We need not all be connected, all the time",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/when-promotions-become-punishment-b1cc1430",
-          "author": null,
-          "description": "The world is full of talented, capable people who'd rather put their own efforts to direct use than manage others. But the natural inclination is to promote senior contributors up a managerial ladder, and out of the trenches. This often ends poorly, turning the promotion into a punishment.\nIt's usually not that these potential managers don't like working with others. Quite the contrary. I've found that nothing motivates ambitious people like working close together with other talented individuals. It's also usually not that they're uncomfortable being senior, in terms of setting a direction for the work. It's that they don't want the responsibility, and associated guilt, that comes with managing others. Especially when there's a need for correction.\nI've witnessed time and again how someone…",
-          "link": "https://world.hey.com/dhh/when-promotions-become-punishment-b1cc1430",
-          "publishedOn": "2023-06-01T09:21:02.000Z",
-          "wordCount": 511,
-          "title": "When promotions become punishment",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -337,16 +337,6 @@
           "publishedOn": "2023-06-20T00:00:00.000Z",
           "wordCount": 379,
           "title": "Introducing the Rust Leadership Council",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html",
-          "author": null,
-          "description": "The Rust team is happy to announce a new version of Rust, 1.70.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.70.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.70.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.70.0 stable\nSparse by default for crates.io\nCargo's \"sparse\" protocol is now enabled by default for reading the index from crates.io.…",
-          "link": "https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html",
-          "publishedOn": "2023-06-01T00:00:00.000Z",
-          "wordCount": 996,
-          "title": "Announcing Rust 1.70.0",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]

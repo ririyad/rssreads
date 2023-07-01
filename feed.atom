@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-06-30T01:23:14.042Z</updated>
+    <updated>2023-07-01T01:42:03.897Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The law of the land]]></title>
+        <id>https://world.hey.com/dhh/the-law-of-the-land-c2231109</id>
+        <link href="https://world.hey.com/dhh/the-law-of-the-land-c2231109"/>
+        <updated>2023-06-30T17:26:00.000Z</updated>
+        <summary type="html"><![CDATA[Affirmative action is right up there with abortion and gun control among the highest-profile, longest-running social fissures in America. So of course the recent ruling from the Supreme Court making its use in college admissions illegal was going to light a political fire. The surprising thing is just how contained the burn has been within the tech industry.
+But perhaps it shouldn't be so surprising. As I argued last year, we're now in the waning days of DEI's dominance within the corporate world in general and tech in particular. I don't know exactly when future historians will pin the peak, but it'll be sometime in that 2020-2021 period. The only thing that's clear today is that things have calmed down considerably since the ideological crusade reigned supreme.
+Good.
+It really was a craz…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Design for the web without Figma]]></title>
         <id>https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218</id>
@@ -506,36 +519,6 @@ In Denmark today, we have a centralized app used by all Danish public schools ca
 I say that as someone who've spent a long career in th…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When promotions become punishment]]></title>
-        <id>https://world.hey.com/dhh/when-promotions-become-punishment-b1cc1430</id>
-        <link href="https://world.hey.com/dhh/when-promotions-become-punishment-b1cc1430"/>
-        <updated>2023-06-01T09:21:02.000Z</updated>
-        <summary type="html"><![CDATA[The world is full of talented, capable people who'd rather put their own efforts to direct use than manage others. But the natural inclination is to promote senior contributors up a managerial ladder, and out of the trenches. This often ends poorly, turning the promotion into a punishment.
-It's usually not that these potential managers don't like working with others. Quite the contrary. I've found that nothing motivates ambitious people like working close together with other talented individuals. It's also usually not that they're uncomfortable being senior, in terms of setting a direction for the work. It's that they don't want the responsibility, and associated guilt, that comes with managing others. Especially when there's a need for correction.
-I've witnessed time and again how someone…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.70.0]]></title>
-        <id>https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html</id>
-        <link href="https://blog.rust-lang.org/2023/06/01/Rust-1.70.0.html"/>
-        <updated>2023-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.70.0. Rust is a programming language empowering everyone to build reliable and efficient software.
-If you have a previous version of Rust installed via rustup, you can get 1.70.0 with:
-rustup update stable
-
-If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.70.0 on GitHub.
-If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
-What's in 1.70.0 stable
-Sparse by default for crates.io
-Cargo's "sparse" protocol is now enabled by default for reading the index from crates.io.…]]></summary>
-        <author>
-            <name>Rust Blog</name>
         </author>
     </entry>
 </feed>
