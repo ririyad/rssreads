@@ -300,6 +300,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html",
+          "author": null,
+          "description": "Rustfmt will add support for formatting let-else statements starting with the nightly 2023-07-02 toolchain, and then let-else formatting support should come to stable Rust as part of the 1.72 release.\nOverview\nlet-else statements were stabilized back in 2022 as part of the 1.65.0 release. However, the current and previous versions of Rustfmt did not have formatting support for let-else statements. When Rustfmt encountered a let-else statement it would leave it alone and maintain the manual styling originally authored by the developer.\nAfter updating to one of the toolchains with let-else formatting support, you may notice that cargo fmt/rustfmt invocations want to \"change\" the formatting of your let-else statements. However, this isn't actually a \"change\" in formatting, but instead is simp…",
+          "link": "https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html",
+          "publishedOn": "2023-07-01T00:00:00.000Z",
+          "wordCount": 998,
+          "title": "Rustfmt support for let-else statements",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html",
           "author": null,
           "description": "If you recently generated a new API token on crates.io, you might have noticed\nour new API token creation page and some of the new features it now supports.\nPreviously, when clicking the \"New Token\" button on https://crates.io/settings/tokens,\nyou were only provided with the option to choose a token name, without any\nadditional choices. We knew that we wanted to offer our users more flexibility,\nbut in the previous user interface that would have been difficult, so our first\nstep was to build a proper \"New API Token\" page.\nOur roadmap included two essential features known as \"token scopes\". The first\nof them allows you to restrict API tokens to specific operations. For instance,\nyou can configure a token to solely enable the publishing of new versions for\nexisting crates, while disallowing …",
@@ -351,16 +361,6 @@
           "wordCount": 535,
           "title": "Remote struggles",
           "imageUrl": "https://world.hey.com/jorge/43c4ee20/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2U0L1psSyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--22821561fec9279fec2513eb6caf9ce177d17654/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/alex-padurariu-VxtWBOQjGdI-unsplash.jpg"
-        },
-        {
-          "id": "https://world.hey.com/jorge/erase-and-rewind-2ff46b55",
-          "author": null,
-          "description": "Imagine a problem you can't understand without solving it first. The first time I saw software development described as a wicked problem was in Code Complete by Steve McConnell, and I haven't seen anything but a constant validation of this proposition throughout my career. And it's a paradoxical one with several counterintuitive corollaries. Here's one: if you don't understand what you need to build, you should start building it. And here's another: sweating to build something just to hit the delete button is sometimes part of the process.\n\n\nWriting and making code work is costly; thinking and discussing things in the abstract is cheap. Everything holds up on paper, but computers are picky. I don’t believe that LLMs – as revolutionary as they are – will change this imbalance soon. Spending…",
-          "link": "https://world.hey.com/jorge/erase-and-rewind-2ff46b55",
-          "publishedOn": "2023-06-04T06:14:28.000Z",
-          "wordCount": 593,
-          "title": "Erase and rewind",
-          "imageUrl": "https://world.hey.com/jorge/2ff46b55/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2VJQUJkSyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d8668a77ee6c586c4d0353738469e8d8e08054f3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/closeup-computer-keyboard.jpg"
         }
       ]
     },
@@ -385,7 +385,26 @@
       "title": "CoRecursive: Coding Stories",
       "feedUrl": "https://corecursive.libsyn.com/feed",
       "siteUrl": "http://corecursive.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "ca44e4fa-443c-40a5-89be-c81013632258",
+          "author": null,
+          "description": "Have you ever been frustrated with your job? Maybe not burnt out, but getting close to there? You used to love what you did, and it felt so creative and empowering, but then it starts to feel a bit more cookie cutter.\n Have you ever been frustrated with your whole life? The daily grind has taken what you love and it just doesn't feel the same anymore. Some of the magic just has slowly faded away. You don't know when it started, but it did. \n Today's guest is Amir Rajan. He's hard to describe. \n   \n Is he a developer? Yes. An artist who sold everything that he owned for indie game development. Yes. The subject of a New Yorker profile? Yes, all of that. And also, somebody who got frustrated with his life and left everything behind.\n  \nEpisode Page\n Support The Show\n Subscribe To The Podcast\n Join The Newsletter",
+          "link": "https://corecursive.com/a-dark-room-with-amir-rajan/",
+          "publishedOn": "2023-07-03T14:39:00.000Z",
+          "wordCount": null,
+          "title": "Story: A Dark Room",
+          "itunes": {
+            "duration": "40:42"
+          },
+          "enclosure": {
+            "length": "59774381",
+            "type": "audio/mpeg",
+            "url": "https://chtbl.com/track/7D91G/traffic.libsyn.com/secure/corecursive/090-Amir_Rajan.mp3?dest-id=628353"
+          },
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Notes on software development",

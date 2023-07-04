@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-03T01:36:35.338Z</updated>
+    <updated>2023-07-04T01:27:28.214Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Story: A Dark Room]]></title>
+        <id>ca44e4fa-443c-40a5-89be-c81013632258</id>
+        <link href="https://corecursive.com/a-dark-room-with-amir-rajan/"/>
+        <updated>2023-07-03T14:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Have you ever been frustrated with your job? Maybe not burnt out, but getting close to there? You used to love what you did, and it felt so creative and empowering, but then it starts to feel a bit more cookie cutter.
+ Have you ever been frustrated with your whole life? The daily grind has taken what you love and it just doesn't feel the same anymore. Some of the magic just has slowly faded away. You don't know when it started, but it did. 
+ Today's guest is Amir Rajan. He's hard to describe. 
+   
+ Is he a developer? Yes. An artist who sold everything that he owned for indie game development. Yes. The subject of a New Yorker profile? Yes, all of that. And also, somebody who got frustrated with his life and left everything behind.
+  
+Episode Page
+ Support The Show
+ Subscribe To The Podcast
+ Join The Newsletter]]></summary>
+        <author>
+            <name>CoRecursive: Coding Stories</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Social media evilness (II)]]></title>
         <id>https://world.hey.com/jorge/social-media-evilness-ii-f7f83126</id>
@@ -20,6 +39,19 @@ A recent tweet by Dr. Jonathan Shedler referred an article that suggests a prett
 As a completely ignorant regarding soci…]]></summary>
         <author>
             <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rustfmt support for let-else statements]]></title>
+        <id>https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html</id>
+        <link href="https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html"/>
+        <updated>2023-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rustfmt will add support for formatting let-else statements starting with the nightly 2023-07-02 toolchain, and then let-else formatting support should come to stable Rust as part of the 1.72 release.
+Overview
+let-else statements were stabilized back in 2022 as part of the 1.65.0 release. However, the current and previous versions of Rustfmt did not have formatting support for let-else statements. When Rustfmt encountered a let-else statement it would leave it alone and maintain the manual styling originally authored by the developer.
+After updating to one of the toolchains with let-else formatting support, you may notice that cargo fmt/rustfmt invocations want to "change" the formatting of your let-else statements. However, this isn't actually a "change" in formatting, but instead is simp…]]></summary>
+        <author>
+            <name>Rust Blog</name>
         </author>
     </entry>
     <entry>
@@ -475,19 +507,6 @@ Both are extraordinary.
 -Jason]]></summary>
         <author>
             <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Erase and rewind]]></title>
-        <id>https://world.hey.com/jorge/erase-and-rewind-2ff46b55</id>
-        <link href="https://world.hey.com/jorge/erase-and-rewind-2ff46b55"/>
-        <updated>2023-06-04T06:14:28.000Z</updated>
-        <summary type="html"><![CDATA[Imagine a problem you can't understand without solving it first. The first time I saw software development described as a wicked problem was in Code Complete by Steve McConnell, and I haven't seen anything but a constant validation of this proposition throughout my career. And it's a paradoxical one with several counterintuitive corollaries. Here's one: if you don't understand what you need to build, you should start building it. And here's another: sweating to build something just to hit the delete button is sometimes part of the process.
-
-
-Writing and making code work is costly; thinking and discussing things in the abstract is cheap. Everything holds up on paper, but computers are picky. I don’t believe that LLMs – as revolutionary as they are – will change this imbalance soon. Spending…]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
         </author>
     </entry>
 </feed>
