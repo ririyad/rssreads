@@ -22,6 +22,68 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-05 datetime="2023-07-05T00:00:00.000Z">2023-07-05</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-05 datetime="2023-07-05T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Rust Blog</button>
+                  <a class="source-heading__link" href="https://blog.rust-lang.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.rust-lang.org/2023/07/05/regex-1.9.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Announcing regex 1.9</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The regex sub-team is announcing the release of regex 1.9. The regex crate
+is maintained by the Rust project and is the recommended way to use regular
+expressions in Rust. Its defining characteristic is its guarantee of worst case
+linear time searches with respect to the size of the string being searched.
+Releases of the regex crate aren&#x27;t normally announced on this blog, but
+since the majority of its internals have been rewritten in version 1.9, this
+announcement serves to encourage extra scrutiny. If you run into any problems
+or performance regressions, please report them on the issue tracker or ask
+questions on the Discussion forum.
+Few API additions have been made, but one worth calling out is the
+Captures::extract method that should make getting capture groups in some
+cases more convenient. Otherwise, the main change folks should see is hopefully
+faster search times.
+You can read more in the CHANGELOG and in a more in depth blog post on
+regex crate internals as a library.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-03 datetime="2023-07-03T14:39:00.000Z">2023-07-03</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-03 datetime="2023-07-03T14:39:00.000Z"></time>
           </button>
@@ -1460,72 +1522,10 @@ This reversal plot is know as hybrid work, and combines the worst of in-office a
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-06-06 datetime="2023-06-06T00:41:00.000Z">2023-06-06</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-06-06 datetime="2023-06-06T00:41:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Jason Fried</button>
-                  <a class="source-heading__link" href="https://world.hey.com/jason">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://world.hey.com/jason/two-visions-of-the-future-88e4d9bf"
-                        open
-                      >
-                        <summary class="article-expander__title">Two visions of the future</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/jason/two-visions-of-the-future-88e4d9bf">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://world.hey.com/jason/88e4d9bf/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2REZFRWSyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ&#x3D;&#x3D;--b4fdc618359050bd93dd5305462f293e1d5e788c/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0&#x3D;--5f3b12054ee1575e23e552561c36229a846c13ea/sidebyside.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>What an interesting moment.
-We&#x27;re staring at two distinctly different visions of the future. They may co-exist, but they are radically different takes on what&#x27;s modern, what&#x27;s current, and where things are headed.
-One vision gets the UI out of the way. The other vision is UI everywhere you look.
-One vision gets the computer out of the way. The other vision mounts a computer on your face.
-One vision is get it and go. One vision is get it and stay.
-One vision fades into the background. The other vision is front and center.
-One vision is about information. The other vision is about immersion.
-One vision is natural and understands you. The other vision requires new methods of interaction that you have to learn and master.
-One vision feels like an assist. One vision feels like obstruction.
-One vision fits with whatever you already have. One vision requires you buy something that fits.
-One vision is simply text. One vision is anything but.
-One vision feels like before. One vision feels like after. But I&#x27;m not sure which is which.
-Both are extraordinary.
-
--Jason</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/5459570827">
-        <time id="build-timestamp" datetime="2023-07-05T01:27:20.432Z">2023-07-05T01:27:20.432Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/5470567562">
+        <time id="build-timestamp" datetime="2023-07-06T01:28:18.782Z">2023-07-06T01:28:18.782Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

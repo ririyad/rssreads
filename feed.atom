@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-05T01:27:20.466Z</updated>
+    <updated>2023-07-06T01:28:18.807Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Announcing regex 1.9]]></title>
+        <id>https://blog.rust-lang.org/2023/07/05/regex-1.9.html</id>
+        <link href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html"/>
+        <updated>2023-07-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The regex sub-team is announcing the release of regex 1.9. The regex crate
+is maintained by the Rust project and is the recommended way to use regular
+expressions in Rust. Its defining characteristic is its guarantee of worst case
+linear time searches with respect to the size of the string being searched.
+Releases of the regex crate aren't normally announced on this blog, but
+since the majority of its internals have been rewritten in version 1.9, this
+announcement serves to encourage extra scrutiny. If you run into any problems
+or performance regressions, please report them on the issue tracker or ask
+questions on the Discussion forum.
+Few API additions have been made, but one worth calling out is the
+Captures::extract method that should make getting capture groups in some
+cases more convenient. Otherwise, the main change folks should see is hopefully
+faster search times.
+You can read more in the CHANGELOG and in a more in depth blog post on
+regex crate internals as a library.]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Story: A Dark Room]]></title>
         <id>ca44e4fa-443c-40a5-89be-c81013632258</id>
@@ -483,30 +507,6 @@ Whenever I get advice, I first find out if the person giving i…]]></summary>
 This reversal plot is know as hybrid work, and combines the worst of in-office and remote work worlds. The shrewd – but likely temporary – concession here is starting with three days in the office, two from home. By starting like this, managers who have no interest in remote work at all can claim to have "compromised", dulling the urge to revolt. Then …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Two visions of the future]]></title>
-        <id>https://world.hey.com/jason/two-visions-of-the-future-88e4d9bf</id>
-        <link href="https://world.hey.com/jason/two-visions-of-the-future-88e4d9bf"/>
-        <updated>2023-06-06T00:41:00.000Z</updated>
-        <summary type="html"><![CDATA[What an interesting moment.
-We're staring at two distinctly different visions of the future. They may co-exist, but they are radically different takes on what's modern, what's current, and where things are headed.
-One vision gets the UI out of the way. The other vision is UI everywhere you look.
-One vision gets the computer out of the way. The other vision mounts a computer on your face.
-One vision is get it and go. One vision is get it and stay.
-One vision fades into the background. The other vision is front and center.
-One vision is about information. The other vision is about immersion.
-One vision is natural and understands you. The other vision requires new methods of interaction that you have to learn and master.
-One vision feels like an assist. One vision feels like obstruction.
-One vision fits with whatever you already have. One vision requires you buy something that fits.
-One vision is simply text. One vision is anything but.
-One vision feels like before. One vision feels like after. But I'm not sure which is which.
-Both are extraordinary.
-
--Jason]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>
