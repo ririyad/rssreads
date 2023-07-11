@@ -188,6 +188,16 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/you-only-compete-with-one-thing-48a20d93",
+          "author": null,
+          "description": "There's so much chatter and advice out there about how to handle \"the competition\".\nHow much should you worry about them, what you can do to beat them, how much should you pay attention to what they're doing, how you should respond when they release or say something new, what you should say when a customer compares you to them, etc.\nEssentially, lots of they's and them's.\nOf course you compete in a market with multiple options, but that's not your real competition.\nYour real competition are your costs. Yours, not theirs. You, not them.\nYou ultimately stay in business when you make more money than you spend. The amount you make depends on a number of factors, many surprisingly far outside your control.\nBut one of the few controls you have in business is cost control. Bills don't materialize…",
+          "link": "https://world.hey.com/jason/you-only-compete-with-one-thing-48a20d93",
+          "publishedOn": "2023-07-10T17:24:53.000Z",
+          "wordCount": 698,
+          "title": "You only compete with one thing",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
+        {
           "id": "https://world.hey.com/jason/73-of-what-80e24c13",
           "author": null,
           "description": "Look around in the tools you use. Especially project management tools. You'll likely find the products proudly displaying the percentage of this or that that's been completed.\nThis project is 73% done. This task list is 57% done. This process is 42% complete.\nIt's almost certainly wrong. A lie would be more accurate.\nMost of these percentages are attempting to measure work. But work isn't a vote — it's not either for this candidate or for that one. 62% voted for Candidate A is a fair assessment, but \"This to-do list is 62% complete\" is not. It may represent the percentage of items checked off vs. not checked off, but it doesn't represent the reality of what remains whatsoever.\nWhy's that? Because a number can't represent the position of a project, or a piece of work. There's easier work, t…",
@@ -315,13 +325,34 @@
       "title": "Inside Rust Blog",
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/07/10/1.71.0-prerelease.html",
+          "author": null,
+          "description": "The 1.71.0 pre-release is ready for testing. The release is scheduled for\nJuly 13. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-07-10/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/07/10/1.71.0-prerelease.html",
+          "publishedOn": "2023-07-10T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.71.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        }
+      ]
     },
     {
       "title": "Jorge Manrubia",
       "feedUrl": "https://world.hey.com/jorge/feed.atom",
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
+        {
+          "id": "https://world.hey.com/jorge/let-people-be-52bd85a4",
+          "author": null,
+          "description": "Have side-projects / don’t have them.\nDo open source / don’t do it.\nHave tech-related hobbies / have completely unrelated ones.\nHave children / don’t have them. \nWork long hours / never put in an extra hour.\nSmall and risky / large and secure.\nWork for others / work for yourself.\nWork out of passion / work to pay the bills. \n\n\nThose are examples of dichotomies that enter my radar from time to time. Usually, someone criticizes someone else’s position after performing some intellectual judo to vilify it.\n\n\nWhenever I see people telling others how to live, I can’t help wondering: isn’t figuring out what works for you already difficult enough?\n\n\nLet people be.",
+          "link": "https://world.hey.com/jorge/let-people-be-52bd85a4",
+          "publishedOn": "2023-07-10T15:20:49.000Z",
+          "wordCount": 156,
+          "title": "Let people be",
+          "imageUrl": "https://world.hey.com/jorge/avatar-1dbd00c15bf56ad31d816708f6e138fd7d92ff21"
+        },
         {
           "id": "https://world.hey.com/jorge/social-media-evilness-ii-f7f83126",
           "author": null,
