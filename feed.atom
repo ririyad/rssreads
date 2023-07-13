@@ -2,10 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-12T01:27:03.121Z</updated>
+    <updated>2023-07-13T01:38:23.158Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Who do you do business with?]]></title>
+        <id>https://world.hey.com/jason/who-do-you-do-business-with-47c6c9d5</id>
+        <link href="https://world.hey.com/jason/who-do-you-do-business-with-47c6c9d5"/>
+        <updated>2023-07-12T18:16:32.000Z</updated>
+        <summary type="html"><![CDATA[Way back when we launched the first version of Basecamp in 2004, we ran all our credit card charges through a merchant account provided by JP Morgan Chase.
+Charging credit cards wasn't easy in the early 2000s. This was back when being an "internet company" was a major red flag. The process required mounds of paperwork, proof, and business model scrutiny just to get approved. Barely capable, ancient APIs sorta kinda let you hook into internal systems. Charging a card successfully felt like a miracle. You had no idea. It wasn't years later until companies like Stripe made it simple.
+While you were never really happy with the service, you had to have it. And switching to another service meant going through the whole ungainly process again. And the grass was probably browner.
+However, one day …]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We put a distributed database in the browser – and made a game of it]]></title>
         <id>http://notes.eatonphil.com/2023-07-11-we-put-a-distributed-database-in-the-browse.html</id>
@@ -491,35 +504,6 @@ Besides, you’ll appreciate a good place so much more if you’ve made it throu
 
 
 Don’t play yourself by living down to their expectations. Show yourself the path out by shining bright whatever the weather.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linking Modular Architecture to Development Teams]]></title>
-        <id>https://martinfowler.com/articles/linking-modular-arch.html</id>
-        <link href="https://martinfowler.com/articles/linking-modular-arch.html"/>
-        <updated>2023-06-13T13:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Mobile applications often deliver features rapidly at first, but slow as
-     a codebase builds up. These common software problems are exacerbated by the
-     need to prioritize different features in different markets. Matthew
-     Foster describes an example of this from his work with clients,
-     and how using Domain-Driven Design and Team Topologies helped create a
-     modular architecture that substantially reduced the time needed to deliver
-     new features. 
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Le Mans Centenary]]></title>
-        <id>https://world.hey.com/dhh/the-le-mans-centenary-a0802694</id>
-        <link href="https://world.hey.com/dhh/the-le-mans-centenary-a0802694"/>
-        <updated>2023-06-13T10:48:25.000Z</updated>
-        <summary type="html"><![CDATA[I didn't get into the race car until two in the morning. By then, the rollercoaster that is the 24 Hours of Le Mans had already been going for ten hours. Oh, and we were a lap down on the leaders in our class. Doh!
-I've never had the race go that long before getting into the car. Usually by midnight, I'll have driven at least a good two hours of the required minimum six. But this edition of Le Mans also had more drama than any of the previous nine attempts I've been part of. At the end of the race, 22 cars had retired from crashes or mechanical issues, and several more were limping home many laps down. It was mayhem.
-Which started right from the words green, green, green. By the first chicane down the Mulsanne straight, a Cadillac in the class above us crashed hard immediately in front of …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
         </author>
