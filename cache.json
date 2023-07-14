@@ -260,6 +260,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html",
+          "author": null,
+          "description": "The Rust team is happy to announce a new version of Rust, 1.71.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.71.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.71.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.71.0 stable\nC-unwind ABI\n1.71.0 stabilizes C-unwind (and other -unwind suffixed ABI variants1).\nThe behavior for unforced unwinding (…",
+          "link": "https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html",
+          "publishedOn": "2023-07-13T00:00:00.000Z",
+          "wordCount": 757,
+          "title": "Announcing Rust 1.71.0",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/07/05/regex-1.9.html",
           "author": null,
           "description": "The regex sub-team is announcing the release of regex 1.9. The regex crate\nis maintained by the Rust project and is the recommended way to use regular\nexpressions in Rust. Its defining characteristic is its guarantee of worst case\nlinear time searches with respect to the size of the string being searched.\nReleases of the regex crate aren't normally announced on this blog, but\nsince the majority of its internals have been rewritten in version 1.9, this\nannouncement serves to encourage extra scrutiny. If you run into any problems\nor performance regressions, please report them on the issue tracker or ask\nquestions on the Discussion forum.\nFew API additions have been made, but one worth calling out is the\nCaptures::extract method that should make getting capture groups in some\ncases more convenient. Otherwise, the main change folks should see is hopefully\nfaster search times.\nYou can read more in the CHANGELOG and in a more in depth blog post on\nregex crate internals as a library.",

@@ -2,10 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-13T01:38:23.158Z</updated>
+    <updated>2023-07-14T01:28:45.020Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.71.0]]></title>
+        <id>https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html</id>
+        <link href="https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html"/>
+        <updated>2023-07-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.71.0. Rust is a programming language empowering everyone to build reliable and efficient software.
+If you have a previous version of Rust installed via rustup, you can get 1.71.0 with:
+rustup update stable
+
+If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.71.0 on GitHub.
+If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
+What's in 1.71.0 stable
+C-unwind ABI
+1.71.0 stabilizes C-unwind (and other -unwind suffixed ABI variants1).
+The behavior for unforced unwinding (…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Who do you do business with?]]></title>
         <id>https://world.hey.com/jason/who-do-you-do-business-with-47c6c9d5</id>
