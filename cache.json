@@ -168,6 +168,16 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/stalking-not-sales-8c750b03",
+          "author": null,
+          "description": "What you see above is a 17-day sales sequence, or cadence. A friend of mine just sent it over and it creeped me out.\nFrom email to LinkedIn to phone to email back to LinkedIn back to phone, and so on. I assume day 18 would be a bullhorn outside your window.\nSomehow this is allowed to be called sales. But in any other realm it would be called stalking.\nThe sales industry calls these moments \"touches\", which is even creepier. And then, check out that last one: The break up email. Ouch.\nImagine if you ran this playbook when trying to sell yourself in a new relationship (or save yourself in a failing one). You meet someone new, and you contact them 15 times in a variety of ways over 17 days. And sometimes multiple times a day after they've already ignored your earlier attempts. They'd be right in calling the cops and getting a restraining order.\nI know this isn't how sales always works, but it's prevalent enough. I've been on the receiving end before. It's just wrong, even if it \"works\" sometimes.\nClean up in aisle sales! Something's broken.\n\n-Jason",
+          "link": "https://world.hey.com/jason/stalking-not-sales-8c750b03",
+          "publishedOn": "2023-07-17T15:09:24.000Z",
+          "wordCount": 259,
+          "title": "Stalking, not sales",
+          "imageUrl": "https://world.hey.com/jason/8c750b03/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2VmeHdSTiIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8057cdd1b830c2a6d04b5b7c4d07bcfbbdcddfe4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/salessequence.png"
+        },
+        {
           "id": "https://world.hey.com/jason/who-do-you-do-business-with-47c6c9d5",
           "author": null,
           "description": "Way back when we launched the first version of Basecamp in 2004, we ran all our credit card charges through a merchant account provided by JP Morgan Chase.\nCharging credit cards wasn't easy in the early 2000s. This was back when being an \"internet company\" was a major red flag. The process required mounds of paperwork, proof, and business model scrutiny just to get approved. Barely capable, ancient APIs sorta kinda let you hook into internal systems. Charging a card successfully felt like a miracle. You had no idea. It wasn't years later until companies like Stripe made it simple.\nWhile you were never really happy with the service, you had to have it. And switching to another service meant going through the whole ungainly process again. And the grass was probably browner.\nHowever, one day …",
@@ -306,6 +316,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html",
+          "author": null,
+          "description": "As announced in the Types Team announcement post at the start of this year, the Types Team has started to reimplement the trait solver of rustc. This refactor is similar to Chalk, but directly integrated into the existing codebase using the experience gathered over the last few years. Unlike Chalk, the new trait solver has the sole goal of replacing the existing implementation. We are separately working on formalizing the type system in a-mir-formality. It has now been half a year since that announcement which matches the first step of our roadmap.\nBy reimplementing the trait solver of rustc we are able to fix many subtle bugs and inefficiencies of the existing implementation. This should result in faster compilation speed and fewer bugs. The new trait solver implementation should also unb…",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html",
+          "publishedOn": "2023-07-17T00:00:00.000Z",
+          "wordCount": 903,
+          "title": "Rustc Trait System Refactor Initiative Update",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2023/07/10/1.71.0-prerelease.html",
           "author": null,

@@ -2,10 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-17T01:40:24.914Z</updated>
+    <updated>2023-07-18T01:49:14.345Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Stalking, not sales]]></title>
+        <id>https://world.hey.com/jason/stalking-not-sales-8c750b03</id>
+        <link href="https://world.hey.com/jason/stalking-not-sales-8c750b03"/>
+        <updated>2023-07-17T15:09:24.000Z</updated>
+        <summary type="html"><![CDATA[What you see above is a 17-day sales sequence, or cadence. A friend of mine just sent it over and it creeped me out.
+From email to LinkedIn to phone to email back to LinkedIn back to phone, and so on. I assume day 18 would be a bullhorn outside your window.
+Somehow this is allowed to be called sales. But in any other realm it would be called stalking.
+The sales industry calls these moments "touches", which is even creepier. And then, check out that last one: The break up email. Ouch.
+Imagine if you ran this playbook when trying to sell yourself in a new relationship (or save yourself in a failing one). You meet someone new, and you contact them 15 times in a variety of ways over 17 days. And sometimes multiple times a day after they've already ignored your earlier attempts. They'd be right in calling the cops and getting a restraining order.
+I know this isn't how sales always works, but it's prevalent enough. I've been on the receiving end before. It's just wrong, even if it "works" sometimes.
+Clean up in aisle sales! Something's broken.
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rustc Trait System Refactor Initiative Update]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html"/>
+        <updated>2023-07-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As announced in the Types Team announcement post at the start of this year, the Types Team has started to reimplement the trait solver of rustc. This refactor is similar to Chalk, but directly integrated into the existing codebase using the experience gathered over the last few years. Unlike Chalk, the new trait solver has the sole goal of replacing the existing implementation. We are separately working on formalizing the type system in a-mir-formality. It has now been half a year since that announcement which matches the first step of our roadmap.
+By reimplementing the trait solver of rustc we are able to fix many subtle bugs and inefficiencies of the existing implementation. This should result in faster compilation speed and fewer bugs. The new trait solver implementation should also unb…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Announcing Rust 1.71.0]]></title>
         <id>https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html</id>
