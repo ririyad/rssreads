@@ -149,16 +149,6 @@
           "wordCount": 412,
           "title": "You can't trust Google",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/turn-down-the-volume-on-the-world-14131d30",
-          "author": null,
-          "description": "It's hard to think original thoughts if your senses are being perpetually flooded with everything from everyone all the time. And it's hard to protect your senses against this if you're constantly in close mental proximity to those who've had success running the established script. To escape back to first principles, you need to consciously turn down the volume on the world.\nI credit much of the novel work we've done on product development, organizational design, and software tooling at 37signals with being far removed from the centers of Silicon Valley. Physically, spiritually, and mentally. Right from the start.\nBeing in Chicago in those early years of the post-dot-com-bust internet was like living in a monastery. We knew there was a party going on a hundred miles inland, but the debauchery was never so close as to color our thinking or tempt our aspirations. We were geographically destined to see the world in a different light.\nThis was before social media. When much of Silicon Valley's propaganda had to be carried by monthly magazines and the occasionally breathless mainstream story. Which made it so much easier to tune out. Now it's more work.\nIt takes concerted effort these days to escape the AI FOMO fest, say. Like it required fortitude to resist the fear of missing out on the latest coin hype before that. Every feed is there to homogenize your thinking into a preconfigured camp. For or against, hype or denounce. These are all just plusses and minuses in front of the same thinking.\nIf you want more than this, you ought to embrace the paradox that there are times when the less you know raises the bar for what you can do. Don't drown out our inner drumbeat by living all your days inside the permanent intellectual festival of your profession.",
-          "link": "https://world.hey.com/dhh/turn-down-the-volume-on-the-world-14131d30",
-          "publishedOn": "2023-06-19T09:26:52.000Z",
-          "wordCount": 393,
-          "title": "Turn down the volume on the world",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -236,6 +226,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/xapo-architecture-experience.html",
+          "author": null,
+          "description": "It's common to see a centralized architecture function that sets\n     standards and oversees development projects. Such teams often suffer from\n     being far removed from the issues of implementation with long\n     feedback loops that slow down the flow of work. To counter these problems,\n     many organizations have explored a decentralized approach to yield\n     alignment between teams without these problems. One such organization is\n     Xapo bank, which did this using ideas taken from Domain-Driven Design, Team\n     Topologies, and the Architectural Advice Process.\nmore…",
+          "link": "https://martinfowler.com/articles/xapo-architecture-experience.html",
+          "publishedOn": "2023-07-18T11:46:00.000Z",
+          "wordCount": 5389,
+          "title": "Decentralizing the Practice of Architecture at Xapo Bank",
+          "imageUrl": "https://martinfowler.com/articles/xapo-architecture-experience/card.png"
+        },
         {
           "id": "https://martinfowler.com/articles/building-boba.html",
           "author": null,
@@ -379,16 +379,6 @@
           "wordCount": 1989,
           "title": "We put a distributed database in the browser – and made a game of it",
           "imageUrl": null
-        },
-        {
-          "id": "http://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html",
-          "author": null,
-          "description": "I knew Zig supported some sort of reflection on types. But I had been\nconfused about how to use it. What's the difference between\n@typeInfo and @TypeOf? I ignored this aspect of Zig until a\nproblem came up at work where reflection\nmade sense.\nThe situation was parsing and storing parsed fields in a struct. Each\nfield name that is parsed should match up to a struct field.\nThis is a fairly common problem. So this post walks through how to use\nZig's metaprogramming features in a simpler but related domain:\nparsing CSS into typed objects, and pretty-printing these typed CSS\nobjects.\nI live-streamed the implementation of this project yesterday on\nTwitch. The video is available on\nYouTube. And the source is available\non GitHub.\nIf you want to skip the parsing steps and just see the\nmetaprogrammi…",
-          "link": "http://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html",
-          "publishedOn": "2023-06-19T00:00:00.000Z",
-          "wordCount": 4681,
-          "title": "Metaprogramming in Zig and parsing CSS",
-          "imageUrl": null
         }
       ]
     },
@@ -430,16 +420,6 @@
           "publishedOn": "2023-07-11T00:00:00.000Z",
           "wordCount": 1989,
           "title": "We put a distributed database in the browser – and made a game of it",
-          "imageUrl": null
-        },
-        {
-          "id": "http://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html",
-          "author": null,
-          "description": "I knew Zig supported some sort of reflection on types. But I had been\nconfused about how to use it. What's the difference between\n@typeInfo and @TypeOf? I ignored this aspect of Zig until a\nproblem came up at work where reflection\nmade sense.\nThe situation was parsing and storing parsed fields in a struct. Each\nfield name that is parsed should match up to a struct field.\nThis is a fairly common problem. So this post walks through how to use\nZig's metaprogramming features in a simpler but related domain:\nparsing CSS into typed objects, and pretty-printing these typed CSS\nobjects.\nI live-streamed the implementation of this project yesterday on\nTwitch. The video is available on\nYouTube. And the source is available\non GitHub.\nIf you want to skip the parsing steps and just see the\nmetaprogrammi…",
-          "link": "http://notes.eatonphil.com/2023-06-19-metaprogramming-in-zig-and-parsing-css.html",
-          "publishedOn": "2023-06-19T00:00:00.000Z",
-          "wordCount": 4681,
-          "title": "Metaprogramming in Zig and parsing CSS",
           "imageUrl": null
         }
       ]
