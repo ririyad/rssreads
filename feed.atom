@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-21T01:15:02.728Z</updated>
+    <updated>2023-07-22T01:14:26.060Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[crates.io Postmortem: Broken Crate Downloads]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/07/21/crates-io-postmortem.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/07/21/crates-io-postmortem.html"/>
+        <updated>2023-07-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[(based on https://www.atlassian.com/incident-management/postmortem/templates)
+Summary
+On 2023-07-20 between 12:17 and 12:30 UTC all crate downloads from crates.io were broken due to a deployment that contained a bug in the download URL generation.
+During this time we had an average of 4.71K requests per second to crates.io, resulting in about 3.7M failed requests, including the retry attempts from cargo.
+The incident was noticed by the developer triggering the production deployment after seeing elevated request-per-second numbers in our monitoring dashboard after the deployment. At this point the root cause for the elevated numbers was not clear yet, but a community member notified the developer via Zulip.
+Immediately after the notification, the broken deployment was rolled back to the pre…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Effective > Productive]]></title>
         <id>https://world.hey.com/jason/effective-productive-acfa210d</id>
@@ -439,21 +454,6 @@ you can configure a token to solely enable the publishing of new versions for
 existing crates, while disallowing …]]></summary>
         <author>
             <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Breaking the inertia of mediocrity]]></title>
-        <id>https://world.hey.com/dhh/breaking-the-inertia-of-mediocrity-88048743</id>
-        <link href="https://world.hey.com/dhh/breaking-the-inertia-of-mediocrity-88048743"/>
-        <updated>2023-06-22T08:47:24.000Z</updated>
-        <summary type="html"><![CDATA[It's rarely the terrible decisions, processes, or even people that'll sink your organization. It's the accumulation and inertia of the mediocre ones. Dealing with the truly bad is easy. It's painfully obvious to all that change is required. The danger is imminent. It's much harder to find the will to act when the danger lurks in inadequate urgency, cumbersome collaboration, or just a missing spark. But act you must, before inertia sets in to devour you whole.
-The insidious nature of inertia is in its ability to compound the cost of action as time goes on. Letting go of an employee that just didn't meet the bar after three months is endlessly easier than doing the same after three years. Same with reverting a bad organizational restructuring or poor development practices or awkward reporting protocols. Every additional month you let mediocrity fester, you make it harder to undo.
-Because hitting undo usually means at least one difficult conversation, some amount of disappointment, and a recognition that you get this one wrong. All factors that most mortals are loathe to face! It's so much more comfortable to punt. Come up with excuses of why it just hasn't worked yet. Why just a bit more time is needed to turn it around. Any argument will do, as long as it postpones the requirement to move.
-And if mediocrity dwelled in isolation, you'd probably get away with it. That's exactly why it's so difficult to counter. It's rarely the one mediocre employee, process, or decision that conspires to take you off course. It's the accumulation of all of them together.
-The sad truth is that most of us are cowards whenever we can be. We usually know what needs to be done, but we shrink from the responsibility to do it. Unless occasion calls upon us without a choice, we'll find a way around.
-Whenever I find myself looking at a coward in the mirror, I remind myself: Easy choices, hard life. Hard choices, easy life. Make the hard choices. Even when it's possible to punt. The inertia of mediocrity will not break unless you break it.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
