@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-22T01:14:26.060Z</updated>
+    <updated>2023-07-23T01:19:57.146Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -414,9 +414,9 @@ In fact, if you were to make a pro/con list contrasting family life in Denmark v
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Rails World sold out less than 45 minutes]]></title>
-        <id>https://world.hey.com/dhh/rails-world-sold-out-less-than-45-minutes-78a0b276</id>
-        <link href="https://world.hey.com/dhh/rails-world-sold-out-less-than-45-minutes-78a0b276"/>
+        <title type="html"><![CDATA[Rails World sold out in less than 45 minutes]]></title>
+        <id>https://world.hey.com/dhh/rails-world-sold-out-in-less-than-45-minutes-78a0b276</id>
+        <link href="https://world.hey.com/dhh/rails-world-sold-out-in-less-than-45-minutes-78a0b276"/>
         <updated>2023-06-24T12:05:05.000Z</updated>
         <summary type="html"><![CDATA[There hasn't been a major, dedicated Rails conference in Europe since 2008, so perhaps it's no surprise that there was pent-up demand. But I was still shocked to see the forthcoming Rails World visit to Amsterdam sell out in less than 45 minutes yesterday! What an awesome reception to the first major project undertaken by our new Rails Foundation.
 And what an awesome validation that companies like Cookpad, Doximity, Fleetio, GitHub, Intercom, Procore, Shopify, and 37signals were right to back a new institution, as core members, with a clear mission to improve the documentation, education, marketing, and events for Ruby on Rails. Same too for our contributing members, like AppSignal, Cedarcode and Planet Argon.
@@ -426,34 +426,15 @@ To have all of this come together, with Rails World, with the Rails Foundation, 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[We have left the cloud]]></title>
-        <id>https://world.hey.com/dhh/we-have-left-the-cloud-251760fb</id>
-        <link href="https://world.hey.com/dhh/we-have-left-the-cloud-251760fb"/>
-        <updated>2023-06-23T08:24:37.000Z</updated>
-        <summary type="html"><![CDATA[Since it took us years to get into the cloud in the first place, I originally imagined it would take us years to get out as well. But all that work to containerize our applications and prepare them for the cloud actually turned out to make it relatively easy to exit. And now, after six months of effort, it's done. We're out. The last application was brought home to our own hardware on Wednesday. Hallelujah!
-In those six months, we brought home six heritage services that we're no longer selling, but have committed to support for existing customers and users until the end of the internet. Basecamp Classic, Highrise, Writeboard, Campfire, Backpack, and Ta-da List are all over a decade old, but continue to serve tens of thousands of people, and generate millions of dollars in revenue. But now …]]></summary>
+        <title type="html"><![CDATA[Rails World sold out less than 45 minutes]]></title>
+        <id>https://world.hey.com/dhh/rails-world-sold-out-less-than-45-minutes-78a0b276</id>
+        <link href="https://world.hey.com/dhh/rails-world-sold-out-less-than-45-minutes-78a0b276"/>
+        <updated>2023-06-24T12:05:05.000Z</updated>
+        <summary type="html"><![CDATA[There hasn't been a major, dedicated Rails conference in Europe since 2008, so perhaps it's no surprise that there was pent-up demand. But I was still shocked to see the forthcoming Rails World visit to Amsterdam sell out in less than 45 minutes yesterday! What an awesome reception to the first major project undertaken by our new Rails Foundation.
+And what an awesome validation that companies like Cookpad, Doximity, Fleetio, GitHub, Intercom, Procore, Shopify, and 37signals were right to back a new institution, as core members, with a clear mission to improve the documentation, education, marketing, and events for Ruby on Rails. Same too for our contributing members, like AppSignal, Cedarcode and Planet Argon.
+To have all of this come together, with Rails World, with the Rails Foundation, …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improved API tokens for crates.io]]></title>
-        <id>https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html</id>
-        <link href="https://blog.rust-lang.org/2023/06/23/improved-api-tokens-for-crates-io.html"/>
-        <updated>2023-06-23T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you recently generated a new API token on crates.io, you might have noticed
-our new API token creation page and some of the new features it now supports.
-Previously, when clicking the "New Token" button on https://crates.io/settings/tokens,
-you were only provided with the option to choose a token name, without any
-additional choices. We knew that we wanted to offer our users more flexibility,
-but in the previous user interface that would have been difficult, so our first
-step was to build a proper "New API Token" page.
-Our roadmap included two essential features known as "token scopes". The first
-of them allows you to restrict API tokens to specific operations. For instance,
-you can configure a token to solely enable the publishing of new versions for
-existing crates, while disallowing …]]></summary>
-        <author>
-            <name>Rust Blog</name>
         </author>
     </entry>
 </feed>
