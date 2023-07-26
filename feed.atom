@@ -2,10 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-25T01:20:42.771Z</updated>
+    <updated>2023-07-26T01:16:09.051Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bliki: TeamTopologies]]></title>
+        <id>https://martinfowler.com/bliki/TeamTopologies.html</id>
+        <link href="https://martinfowler.com/bliki/TeamTopologies.html"/>
+        <updated>2023-07-25T13:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Any large software effort, such as the software estate for a large
+    company, requires a lot of people - and whenever you have a lot of people
+    you have to figure out how to divide them into effective teams. Forming
+    Business Capability Centric teams helps software efforts to
+    be responsive to customers’ needs, but the range of skills required often
+    overwhelms such teams. Team Topologies is a model
+    for describing the organization of software development teams,
+    developed by Matthew Skelton and Manuel Pais. It defines four forms
+    of teams and three modes of team
+    interactions. The model encourages healthy interactions that allow 
+    business-capability centric teams to flourish in their task of providing a
+    steady flow of valuable software.
+The primary kind o…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bliki: TwoPizzaTeam]]></title>
+        <id>https://martinfowler.com/bliki/TwoPizzaTeam.html</id>
+        <link href="https://martinfowler.com/bliki/TwoPizzaTeam.html"/>
+        <updated>2023-07-25T13:22:00.000Z</updated>
+        <summary type="html"><![CDATA[A two-pizza team is a small team
+  that fully supports software for a particular business capability. The term
+  became popular as it used to describe how Amazon organized their software staff.
+The name suggests the most obvious aspect of such teams, their size. The
+  name comes from the principle that the team should no larger than can be fed
+  with two pizzas. (Although we are talking about American Pizzas here, which
+  seemed alarmingly huge when I first encountered them over here.) Keeping a
+  team small keeps it cohesive, forming tight working relationships. Typically I
+  hear this means such teams are about 5-8 people, although my experience
+  suggests that the upper limit is somewhere about 15.
+Although the name focuses solely on the size, just as important is the
+  team's focus. A …]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pick promise over proof]]></title>
+        <id>https://world.hey.com/dhh/pick-promise-over-proof-756604d3</id>
+        <link href="https://world.hey.com/dhh/pick-promise-over-proof-756604d3"/>
+        <updated>2023-07-25T08:49:19.000Z</updated>
+        <summary type="html"><![CDATA[After hiring people for twenty years, I've come to accept that it's impossible to know up front what someone is truly capable of. Sure, we try our best to make good, educated guesses during the hiring process, and this is why asking finalists to do sample work projects is so crucial. But it still remains just guessing, and the truth doesn't emerge until you afford the hire a full attempt on a real project.
+That's why I'm such a fan of starting new employees in the deep end. Putting them to work on a real project right away. But this is only half the commitment you ought to make to their potential.
+It's just as important to retain the possibility of rapid progression by continuing to test their promise against harder and bigger challenges. I can't tell you the number of times I've been posi…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[July 2023 Leadership Council Update]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/07/25/leadership-council-update.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/07/25/leadership-council-update.html"/>
+        <updated>2023-07-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello again from the Rust Leadership Council. In our first blog post, we laid out several immediate goals for the council and promised to report back on their progress. It has been about a month since our first update so we wanted to share how it's going and what we're working on now.
+Accomplishments so far
+In our first post, we wrote:
+In the coming weeks we will be establishing the basic infrastructure for the group, including creating a plan for regular meetings and a process for raising agenda items, setting up a team repository, and ultimately completing the transition from the former Rust leadership structures.
+We have made progress on each of these things.
+For the last month we have been holding weekly meetings and will continue to do so for at least the next month. In the long term,…]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Clear the barnacles]]></title>
         <id>https://world.hey.com/dhh/clear-the-barnacles-b9558830</id>
@@ -392,29 +462,6 @@ more…]]></summary>
 It's a curious contradiction in the conceptualization of ambition. On the one hand, the "I WOULD NEVER" sentiment is drawn from a longing desire to have financial freedom. Fantasizing about what life would be like without a boss, without bills to worry about, and without the other obligations of modern life carried …]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wisdom is not what you know]]></title>
-        <id>https://world.hey.com/dhh/wisdom-is-not-what-you-know-e8cf9191</id>
-        <link href="https://world.hey.com/dhh/wisdom-is-not-what-you-know-e8cf9191"/>
-        <updated>2023-06-26T07:24:52.000Z</updated>
-        <summary type="html"><![CDATA[The hallmark of great wisdom is not what you know, but what you know and can put to use. The globe is full of learned idiots, unable or incapable of following the wisdom they have accumulated. There's no prize for a closet full of axioms or insights, if you leave it all in there, and venture philosophically naked into the world.
-Ironically, this was a lesson I had to learn late in life myself. I used to find it silly when people would read the same book twice. With so much more knowledge to discover, why waste your efforts on what you've already explored?
-Because wisdom doesn't stick just by reading it once.
-All the most valuable lessons in life require repetition. You don't get in shape by knowing how to do a push-up but by doing a hundred a week. Accept that wisdom is a form of mental ex…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A case for ClojureScript 2.0]]></title>
-        <id>https://tonsky.me/blog/clojurescript-2/</id>
-        <link href="https://tonsky.me/blog/clojurescript-2/"/>
-        <updated>2023-06-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Innocent early design decision that led to a disaster years later]]></summary>
-        <author>
-            <name>tonsky.me</name>
         </author>
     </entry>
 </feed>
