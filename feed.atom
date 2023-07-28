@@ -2,10 +2,38 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-27T01:07:25.171Z</updated>
+    <updated>2023-07-28T01:08:52.114Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Exploring Gen AI - Three versions of a median]]></title>
+        <id>https://martinfowler.com/articles/exploring-gen-ai.html#median---a-tale-in-three-functions</id>
+        <link href="https://martinfowler.com/articles/exploring-gen-ai.html#median---a-tale-in-three-functions"/>
+        <updated>2023-07-27T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Birgitta Böckeler continues her explorations in using
+     LLMs, this time by asking GitHub Copilot to write a median
+     function. It gave her three suggestions to choose from. The
+     experience shows you still have to know what you're doing when asking LLMs
+     to write code, since the LLM's programming skills are often rather flawed.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X marks the motivated reasoning]]></title>
+        <id>https://world.hey.com/dhh/x-marks-the-motivated-reasoning-13450584</id>
+        <link href="https://world.hey.com/dhh/x-marks-the-motivated-reasoning-13450584"/>
+        <updated>2023-07-27T09:16:53.000Z</updated>
+        <summary type="html"><![CDATA[I’ve lost track of all the things that Musk has done to Twitter that ought to have brought it down by now. Scarcely a month goes by without some action triggering the incessant bells of doom, ringing from the bellies of bloviating ding dongs. And the ringing seemingly never stops long enough to allow for some basic contemplation or correction, as reality wrecks another prediction of peril.
+
+
+But the obsession with all things Elon is so strong that there’s no room or time for introspection of any kind. It’s just on to the next faux outrage of tomorrow. Make sure you never miss a chance to be an expert on social media, advertising, team building, economics, or branding so you can tell the world’s most successful entrepreneur what a total idiot he’s being, and how much smarter, wiser, and kin…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Exploring Gen AI - The toolchain]]></title>
         <id>https://martinfowler.com/articles/exploring-gen-ai.html#the-toolchain</id>
