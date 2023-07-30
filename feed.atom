@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-29T01:08:55.233Z</updated>
+    <updated>2023-07-30T01:11:14.424Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -478,34 +478,6 @@ Good.
 It really was a craz…]]></summary>
         <author>
             <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Design for the web without Figma]]></title>
-        <id>https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218</id>
-        <link href="https://world.hey.com/dhh/design-for-the-web-without-figma-4bc3a218"/>
-        <updated>2023-06-29T14:38:54.000Z</updated>
-        <summary type="html"><![CDATA[By all accounts, Figma has been an amazing tool for designers. We've used it extensively at 37signals, and I'm sure most every other software shop has too. Adobe didn't pay $20 billion for nothing. But we don't do the bulk of our design work with or in Figma when developing Basecamp or HEY for the web. That's all done directly in HTML and CSS, as it should be.
-Because no matter how good Figma is, it's an intermediary abstraction, like Photoshop before it. If you're working with the web, you'll work faster without such an abstraction layer in the design process filtering the collaboration between programmer and designer.
-This is perhaps the biggest, open secret to the productivity and viability of our two-person teams at 37signals. All our web designers work directly with the native materia…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building Boba AI: Some lessons and patterns learnt in building an             LLM-powered generative application]]></title>
-        <id>https://martinfowler.com/articles/building-boba.html</id>
-        <link href="https://martinfowler.com/articles/building-boba.html"/>
-        <updated>2023-06-29T14:10:00.000Z</updated>
-        <summary type="html"><![CDATA[While it's fascinating to work directly with a Large Language Model,
-     such as ChatGPT, it takes some skill and practice to learn how to prompt it
-     effectively. My colleague Farooq Ali has been working on a co-pilot tool,
-     Boba AI, for using an LLM to help generate ideas for product strategy. From
-     this experience he as proposed eight patterns which he judges
-     will be generally useful for building these kinds of AI co-pilot applications.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
