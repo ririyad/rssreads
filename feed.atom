@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-30T06:16:15.505Z</updated>
+    <updated>2023-07-31T01:12:11.362Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -452,19 +452,6 @@ A recent tweet by Dr. Jonathan Shedler referred an article that suggests a prett
 As a completely ignorant regarding soci…]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rustfmt support for let-else statements]]></title>
-        <id>https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html</id>
-        <link href="https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html"/>
-        <updated>2023-07-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Rustfmt will add support for formatting let-else statements starting with the nightly 2023-07-02 toolchain, and then let-else formatting support should come to stable Rust as part of the 1.72 release.
-Overview
-let-else statements were stabilized back in 2022 as part of the 1.65.0 release. However, the current and previous versions of Rustfmt did not have formatting support for let-else statements. When Rustfmt encountered a let-else statement it would leave it alone and maintain the manual styling originally authored by the developer.
-After updating to one of the toolchains with let-else formatting support, you may notice that cargo fmt/rustfmt invocations want to "change" the formatting of your let-else statements. However, this isn't actually a "change" in formatting, but instead is simp…]]></summary>
-        <author>
-            <name>Rust Blog</name>
         </author>
     </entry>
 </feed>

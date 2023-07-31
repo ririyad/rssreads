@@ -247,16 +247,6 @@
           "wordCount": 240,
           "title": "Announcing regex 1.9",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html",
-          "author": null,
-          "description": "Rustfmt will add support for formatting let-else statements starting with the nightly 2023-07-02 toolchain, and then let-else formatting support should come to stable Rust as part of the 1.72 release.\nOverview\nlet-else statements were stabilized back in 2022 as part of the 1.65.0 release. However, the current and previous versions of Rustfmt did not have formatting support for let-else statements. When Rustfmt encountered a let-else statement it would leave it alone and maintain the manual styling originally authored by the developer.\nAfter updating to one of the toolchains with let-else formatting support, you may notice that cargo fmt/rustfmt invocations want to \"change\" the formatting of your let-else statements. However, this isn't actually a \"change\" in formatting, but instead is simp…",
-          "link": "https://blog.rust-lang.org/2023/07/01/rustfmt-supports-let-else-statements.html",
-          "publishedOn": "2023-07-01T00:00:00.000Z",
-          "wordCount": 998,
-          "title": "Rustfmt support for let-else statements",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
