@@ -156,6 +156,26 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#exit",
+          "author": null,
+          "description": "Sofia and Stefania begin their examination of how to\n     get out of the bottleneck of surging cloud costs by relating a case study\n     from a recent client - illustrating how the cost control can be separated\n     into reduce and sustain phases.\nmore…",
+          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#exit",
+          "publishedOn": "2023-08-01T14:19:00.000Z",
+          "wordCount": 2494,
+          "title": "A case study of getting out of the costs bottleneck",
+          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/exploring-gen-ai.html#in-line-assistance---when-is-it-more-useful?",
+          "author": null,
+          "description": "The most widely used form of coding assistance in Thoughtworks at the\n     moment is in-line code generation in the IDE, where an IDE extension\n     generates suggestions for the developer as they are typing.\n     Birgitta Böckeler looks at the factors that\n     impact the usefulness of these suggestions, indicating where they\n     lead to safe waters, and the rocks that we need to look out for.\nmore…",
+          "link": "https://martinfowler.com/articles/exploring-gen-ai.html#in-line-assistance---when-is-it-more-useful?",
+          "publishedOn": "2023-08-01T13:51:00.000Z",
+          "wordCount": 3272,
+          "title": "Exploring Gen AI: When is in-line assistance useful?",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html",
           "author": null,
           "description": "As startups begin to grow rapidly, they often find that early decisions\n     that helped them find a product/market fit lead to excessive costs once\n     traffic increases. These costs can threaten a scaleup's ability to grow.\n     Sofia Tania and Stefania Stefansdottir have worked with\n     many scaleups in this predicament and share their approach to understanding\n     and reducing these costs.\nmore…",
@@ -266,6 +286,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/08/01/1.71.1-prerelease.html",
+          "author": null,
+          "description": "The 1.71.1 pre-release is ready for testing. The release is scheduled for\nAugust 3. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-08-01/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/08/01/1.71.1-prerelease.html",
+          "publishedOn": "2023-08-01T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.71.1 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2023/07/25/leadership-council-update.html",
           "author": null,
           "description": "Hello again from the Rust Leadership Council. In our first blog post, we laid out several immediate goals for the council and promised to report back on their progress. It has been about a month since our first update so we wanted to share how it's going and what we're working on now.\nAccomplishments so far\nIn our first post, we wrote:\nIn the coming weeks we will be establishing the basic infrastructure for the group, including creating a plan for regular meetings and a process for raising agenda items, setting up a team repository, and ultimately completing the transition from the former Rust leadership structures.\nWe have made progress on each of these things.\nFor the last month we have been holding weekly meetings and will continue to do so for at least the next month. In the long term,…",
@@ -313,6 +343,16 @@
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
         {
+          "id": "https://world.hey.com/jorge/globals-callbacks-and-other-sacrileges-d9832c35",
+          "author": null,
+          "description": "This article was originally published in the 37signals dev blog.\n\nSacrificing purity for convenience is one of the Rails pillars. This principle informs several Rails features that some recommend avoiding but that we happily use in our apps. In this post, I’ll discuss how we use three of those in Basecamp.\n\nI’ll show some examples involving projects. In Basecamp, a Bucket represents a top-level container of data, and there are several types of buckets, one of which is a Project. Internally, we implement this with delegated type attribute, where a Bucket has an associated Bucketable. A Bucket can contain many Events, and an Event is a holder for information on the related request, such as the IP or the transaction id (Event::Request) and some additional information (Event::Detail).\n\n  \n    …",
+          "link": "https://world.hey.com/jorge/globals-callbacks-and-other-sacrileges-d9832c35",
+          "publishedOn": "2023-08-01T07:18:20.000Z",
+          "wordCount": 1903,
+          "title": "Globals, callbacks and other sacrileges",
+          "imageUrl": "https://world.hey.com/jorge/d9832c35/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2YyT3c1TyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4ab7d06f3d845b2692f05bfaaee944187585be01/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/CleanShot%202023-08-01%20at%2009.18.53@2x.png"
+        },
+        {
           "id": "https://world.hey.com/jorge/let-people-be-52bd85a4",
           "author": null,
           "description": "Have side-projects / don’t have them.\nDo open source / don’t do it.\nHave tech-related hobbies / have completely unrelated ones.\nHave children / don’t have them. \nWork long hours / never put in an extra hour.\nSmall and risky / large and secure.\nWork for others / work for yourself.\nWork out of passion / work to pay the bills. \n\n\nThose are examples of dichotomies that enter my radar from time to time. Usually, someone criticizes someone else’s position after performing some intellectual judo to vilify it.\n\n\nWhenever I see people telling others how to live, I can’t help wondering: isn’t figuring out what works for you already difficult enough?\n\n\nLet people be.",
@@ -320,16 +360,6 @@
           "publishedOn": "2023-07-10T15:20:49.000Z",
           "wordCount": 156,
           "title": "Let people be",
-          "imageUrl": "https://world.hey.com/jorge/avatar-1dbd00c15bf56ad31d816708f6e138fd7d92ff21"
-        },
-        {
-          "id": "https://world.hey.com/jorge/social-media-evilness-ii-f7f83126",
-          "author": null,
-          "description": "Back in the day, I wrote some notes on the puzzling question of why so many people act so maliciously toward others on social media. A book introduced me to the concept of moral outrage, which brought some answers for my questions.\n\n\nA recent tweet by Dr. Jonathan Shedler referred an article that suggests a pretty different angle: the primary driver for people participating in public shaming is not justice but primarily hedonic – it makes participants feel good. A sense of justice plays a role, though: it increases the pleasure of witnessing the offender receiving punishment. I also learned a term for this form of malicious pleasure at another's misfortune: schadenfreude. This article states that the main driver for online shaming is schadenfreude.\n\n\nAs a completely ignorant regarding soci…",
-          "link": "https://world.hey.com/jorge/social-media-evilness-ii-f7f83126",
-          "publishedOn": "2023-07-02T15:43:40.000Z",
-          "wordCount": 493,
-          "title": "Social media evilness (II)",
           "imageUrl": "https://world.hey.com/jorge/avatar-1dbd00c15bf56ad31d816708f6e138fd7d92ff21"
         }
       ]

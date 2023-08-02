@@ -2,10 +2,75 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-01T01:15:10.227Z</updated>
+    <updated>2023-08-02T01:07:22.890Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[A case study of getting out of the costs bottleneck]]></title>
+        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#exit</id>
+        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#exit"/>
+        <updated>2023-08-01T14:19:00.000Z</updated>
+        <summary type="html"><![CDATA[Sofia and Stefania begin their examination of how to
+     get out of the bottleneck of surging cloud costs by relating a case study
+     from a recent client - illustrating how the cost control can be separated
+     into reduce and sustain phases.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exploring Gen AI: When is in-line assistance useful?]]></title>
+        <id>https://martinfowler.com/articles/exploring-gen-ai.html#in-line-assistance---when-is-it-more-useful?</id>
+        <link href="https://martinfowler.com/articles/exploring-gen-ai.html#in-line-assistance---when-is-it-more-useful?"/>
+        <updated>2023-08-01T13:51:00.000Z</updated>
+        <summary type="html"><![CDATA[The most widely used form of coding assistance in Thoughtworks at the
+     moment is in-line code generation in the IDE, where an IDE extension
+     generates suggestions for the developer as they are typing.
+     Birgitta Böckeler looks at the factors that
+     impact the usefulness of these suggestions, indicating where they
+     lead to safe waters, and the rocks that we need to look out for.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Globals, callbacks and other sacrileges]]></title>
+        <id>https://world.hey.com/jorge/globals-callbacks-and-other-sacrileges-d9832c35</id>
+        <link href="https://world.hey.com/jorge/globals-callbacks-and-other-sacrileges-d9832c35"/>
+        <updated>2023-08-01T07:18:20.000Z</updated>
+        <summary type="html"><![CDATA[This article was originally published in the 37signals dev blog.
+
+Sacrificing purity for convenience is one of the Rails pillars. This principle informs several Rails features that some recommend avoiding but that we happily use in our apps. In this post, I’ll discuss how we use three of those in Basecamp.
+
+I’ll show some examples involving projects. In Basecamp, a Bucket represents a top-level container of data, and there are several types of buckets, one of which is a Project. Internally, we implement this with delegated type attribute, where a Bucket has an associated Bucketable. A Bucket can contain many Events, and an Event is a holder for information on the related request, such as the IP or the transaction id (Event::Request) and some additional information (Event::Detail).
+
+  
+    …]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.71.1 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/08/01/1.71.1-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/08/01/1.71.1-prerelease.html"/>
+        <updated>2023-08-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.71.1 pre-release is ready for testing. The release is scheduled for
+August 3. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2023-08-01/index.html.
+You can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bottlenecks of Scaleups: Cost Efficiency]]></title>
         <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html</id>
@@ -452,22 +517,6 @@ Episode Page
  Join The Newsletter]]></summary>
         <author>
             <name>CoRecursive: Coding Stories</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Social media evilness (II)]]></title>
-        <id>https://world.hey.com/jorge/social-media-evilness-ii-f7f83126</id>
-        <link href="https://world.hey.com/jorge/social-media-evilness-ii-f7f83126"/>
-        <updated>2023-07-02T15:43:40.000Z</updated>
-        <summary type="html"><![CDATA[Back in the day, I wrote some notes on the puzzling question of why so many people act so maliciously toward others on social media. A book introduced me to the concept of moral outrage, which brought some answers for my questions.
-
-
-A recent tweet by Dr. Jonathan Shedler referred an article that suggests a pretty different angle: the primary driver for people participating in public shaming is not justice but primarily hedonic – it makes participants feel good. A sense of justice plays a role, though: it increases the pleasure of witnessing the offender receiving punishment. I also learned a term for this form of malicious pleasure at another's misfortune: schadenfreude. This article states that the main driver for online shaming is schadenfreude.
-
-
-As a completely ignorant regarding soci…]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
         </author>
     </entry>
 </feed>
