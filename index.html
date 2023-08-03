@@ -22,6 +22,66 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-03 datetime="2023-08-03T00:00:00.000Z">2023-08-03</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-03 datetime="2023-08-03T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Rust Blog</button>
+                  <a class="source-heading__link" href="https://blog.rust-lang.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.rust-lang.org/2023/08/03/cve-2023-38497.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Security advisory for Cargo (CVE-2023-38497)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2023/08/03/cve-2023-38497.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>This is a cross-post of the official security advisory. The
+official advisory contains a signed version with our PGP key, as well.
+The Rust Security Response WG was notified that Cargo did not respect the umask
+when extracting crate archives on UNIX-like systems. If the user downloaded a
+crate containing files writeable by any local user, another local user could
+exploit this to change the source code compiled and executed by the current
+user.
+This vulnerability has been assigned CVE-2023-38497.
+Overview
+In UNIX-like systems, each file has three sets of permissions: for the user
+owning the file, for the group owning the file, and for all other local users.
+The &quot;umask&quot; is configured on most systems to limit those permissions
+during file creation, removing dangerous ones. For example, the de…</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-02 datetime="2023-08-02T10:00:00.000Z">2023-08-02</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-02 datetime="2023-08-02T10:00:00.000Z"></time>
           </button>
@@ -59,6 +119,82 @@ Episode Page
  Support The Show
  Subscribe To The Podcast
  Join The Newsletter</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Inside Rust Blog</button>
+                  <a class="source-heading__link" href="https://blog.rust-lang.org/inside-rust/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.rust-lang.org/inside-rust/2023/08/02/rotating-compiler-leads.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Rotating Rust compiler team leadership</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2023/08/02/rotating-compiler-leads.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>As initiated in late 2020 and ratified by RFC 3262, the Rust compiler team uses a rotating system of co-leads.
+After two and a half years, we&#x27;ve decided its time to rotate the leadership again!
+Welcome David Wood
+Felix Klock is stepping down from his role as senior lead and David Wood is joining Wesley Wiser as the new junior lead for the team.
+Felix remains a valued member of the compiler team (and also the language design team).
+Felix will be focusing on reducing the sizes of Rust futures, and on improving the state of the art for authoring Unsafe Rust, via projects such as Krabcake.
+David has been a contributor to the Rust project since 2017, a compiler-contributor since 2019 and became a compiler team member in 2021.
+His contributions include work on the diagnostic translation effort, split DWARF support, polymorphisation, non-lexical lifetimes initiative and general maintenance to the compiler.
+David has also been a contributor to the governance and organization of the compiler team itself via policy proposals and regular participation in our weekly triage and steering meetings.
+Felix and I are excited to welcome David into this leadership role and I am thrilled to be working alongside him.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/entire-career"
+                        open
+                      >
+                        <summary class="article-expander__title">Man Spends Entire Career Mastering Crappy Codebase</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/entire-career">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Westbrook spent 35 years in a codebase that allegedly powers some sort of medical software somewhere. During his tenure, he contributed hundreds of lines of code to his projects.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -226,6 +362,39 @@ we&#x27;d love your feedback on this GitHub issue.</span>
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/medium"
+                        open
+                      >
+                        <summary class="article-expander__title">go big or go small or go home but don&#x27;t go medium</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/medium">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Big things make life meaningful. Small things make life delightful.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -271,6 +440,86 @@ we&#x27;d love your feedback on this GitHub issue.</span>
      and reducing these costs.
 more…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/town-hall-0013"
+                        open
+                      >
+                        <summary class="article-expander__title">Town Hall #13: Pests</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/town-hall-0013">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Your skull cannot be tented nor fumigated.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-28 datetime="2023-07-28T00:00:00.000Z">2023-07-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-28 datetime="2023-07-28T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/corporate-camouflage"
+                        open
+                      >
+                        <summary class="article-expander__title">How to Coast with Corporate Camouflage</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/corporate-camouflage">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Stay at your company for a long time, not a good time.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -625,6 +874,172 @@ For the last month we have been holding weekly meetings and will continue to do 
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/demonstrate-evergreen-proof"
+                        open
+                      >
+                        <summary class="article-expander__title">Demonstrate Evergreen Proof</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/demonstrate-evergreen-proof">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Find something that matters and distill it into as few words as possible.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/do-unforgettable-work"
+                        open
+                      >
+                        <summary class="article-expander__title">Do Unforgettable Work</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/do-unforgettable-work">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>There are no shortcuts. Hand-written notes and flowers and donuts are cute but completely forgettable. Exceed common convention. Continually reinvent your reputation.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/dont-fight-customers"
+                        open
+                      >
+                        <summary class="article-expander__title">Don&#x27;t Fight Customers</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/dont-fight-customers">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Revenge is wasteful. Reputation is worth more than petty justice.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/find-your-value"
+                        open
+                      >
+                        <summary class="article-expander__title">Find Your Value</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/find-your-value">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>When a behavior is valuable, people call it a &quot;skill&quot;.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/pick-your-price"
+                        open
+                      >
+                        <summary class="article-expander__title">How To Pick Your Price</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/pick-your-price">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Most people live fewer than 25,000 days. What are your hours worth?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/ruck-kids"
+                        open
+                      >
+                        <summary class="article-expander__title">Rucking with Children</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/ruck-kids">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Leave the stroller at home. Ruck with children. Climb up stairs! Reclaim your mobility! Take back your hands!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/select-your-service"
+                        open
+                      >
+                        <summary class="article-expander__title">Select Your Service</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/select-your-service">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Plant giant flags in uncontested territories. Never squabble over tiny crowded plots.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/sell-your-service"
+                        open
+                      >
+                        <summary class="article-expander__title">Sell Your Service</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/sell-your-service">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Given a fixed amount, you have one major knob to turn: risk.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -670,6 +1085,37 @@ The hardest part about this is not to wait until it&#x27;s too much, until the d
 In short, be decisive about what you&#x27;ll no longer do. Summon your inner Jack Welch to cut at least the bottom 10% of the stuff dragging your attention every few months or so.</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/productize-yourself"
+                        open
+                      >
+                        <summary class="article-expander__title">Productize Yourself</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/productize-yourself">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Find your value. Select your service. Pick your price. Sell your service. Do unforgettable work. Don&#x27;t fight customers. Demonstrate evergreen proof.</span>
                             </span>
                           </div>
                         </a>
@@ -829,6 +1275,39 @@ So don&#x27;t give up. Every company needs to have someone asking why we can&#x2
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/fancy-rats"
+                        open
+                      >
+                        <summary class="article-expander__title">Things That Outlive Fancy Rats</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/fancy-rats">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Would you rather see your name on a novel or a thousand tweets?</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -917,6 +1396,39 @@ This is an important change from the marathon bull run that lifted all tech busi
      collaboration patterns work best.
 more…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/secret-sauce"
+                        open
+                      >
+                        <summary class="article-expander__title">Spoil Your Secret Sauce</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/secret-sauce">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Go on an adventure. Find a New Thing™. Bring it back. Share it, and demonstrate why the New Thing™ is worth sharing.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -1065,6 +1577,51 @@ Clean up in aisle sales! Something&#x27;s broken.
 By reimplementing the trait solver of rustc we are able to fix many subtle bugs and inefficiencies of the existing implementation. This should result in faster compilation speed and fewer bugs. The new trait solver implementation should also unb…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-16 datetime="2023-07-16T00:00:00.000Z">2023-07-16</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-16 datetime="2023-07-16T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://chexs.io/"
+                        open
+                      >
+                        <summary class="article-expander__title">chexs.io</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://chexs.io/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Putting the &quot;hex&quot; in chess.</span>
                             </span>
                           </div>
                         </a>
@@ -1265,6 +1822,39 @@ if you are not redirected.</span>
                 </section>
               </section>
             </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >taylor.town</button>
+                  <a class="source-heading__link" href="https://taylor.town/feed.xml">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://taylor.town/town-hall-0012"
+                        open
+                      >
+                        <summary class="article-expander__title">Town Hall #12: WONTFIX</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://taylor.town/town-hall-0012">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Your time is scarce; nobody can protect it but you.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
         </ul>
       </section>
       <section class="daily-content js-toggle-accordions-scope">
@@ -1411,72 +2001,10 @@ we&#x27;d love your feedback on this GitHub issue.</span>
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-05 datetime="2023-07-05T00:00:00.000Z">2023-07-05</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-05 datetime="2023-07-05T00:00:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Rust Blog</button>
-                  <a class="source-heading__link" href="https://blog.rust-lang.org/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://blog.rust-lang.org/2023/07/05/regex-1.9.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Announcing regex 1.9</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/2023/07/05/regex-1.9.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>The regex sub-team is announcing the release of regex 1.9. The regex crate
-is maintained by the Rust project and is the recommended way to use regular
-expressions in Rust. Its defining characteristic is its guarantee of worst case
-linear time searches with respect to the size of the string being searched.
-Releases of the regex crate aren&#x27;t normally announced on this blog, but
-since the majority of its internals have been rewritten in version 1.9, this
-announcement serves to encourage extra scrutiny. If you run into any problems
-or performance regressions, please report them on the issue tracker or ask
-questions on the Discussion forum.
-Few API additions have been made, but one worth calling out is the
-Captures::extract method that should make getting capture groups in some
-cases more convenient. Otherwise, the main change folks should see is hopefully
-faster search times.
-You can read more in the CHANGELOG and in a more in depth blog post on
-regex crate internals as a library.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/5745419852">
-        <time id="build-timestamp" datetime="2023-08-03T01:08:56.529Z">2023-08-03T01:08:56.529Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/5752093337">
+        <time id="build-timestamp" datetime="2023-08-03T14:33:17.727Z">2023-08-03T14:33:17.727Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
