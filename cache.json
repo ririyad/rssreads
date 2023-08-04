@@ -156,6 +156,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/exploring-gen-ai.html#in-line-assistance---how-can-it-get-in-the-way?",
+          "author": null,
+          "description": "While coding assistants like Copilot can improve speed and flow, they\n     can also disrupt it. Birgitta Böckeler looks at two ways\n     in which they can get in the way: amplifying bad or outdated\n     practices, and review fatigue.\nmore…",
+          "link": "https://martinfowler.com/articles/exploring-gen-ai.html#in-line-assistance---how-can-it-get-in-the-way?",
+          "publishedOn": "2023-08-03T15:37:00.000Z",
+          "wordCount": 4050,
+          "title": "Exploring Gen AI: how can in-line assistance get in the way?",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#exit",
           "author": null,
           "description": "Sofia and Stefania begin their examination of how to\n     get out of the bottleneck of surging cloud costs by relating a case study\n     from a recent client - illustrating how the cost control can be separated\n     into reduce and sustain phases.\nmore…",
@@ -258,6 +268,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html",
+          "author": null,
+          "description": "The Rust team has published a new point release of Rust, 1.71.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust\n1.71.1 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the\nappropriate page on our website.\nWhat's in 1.71.1 stable\nRust 1.71.1 fixes Cargo not respecting the umask when extracting dependencies,\nwhich could allow a local attacker to edit the cache of extracted source code\nbelonging to another local user, potentially executing code as another user.\nThis security vulnerability is tracked as CVE-2023-38497, and you can read\nmore about it on the advisory we published earlier today. We\nrecommend all users to update their toolchain as soon as possible.\nRust 1.71.1 also addresses several regressions introduced in Rust 1.71.0,\nincluding bash completion being broken for users of Rustup, and the\nsuspicious_double_ref_op being emitted when calling borrow() even though it\nshouldn't.\nYou can find more detailed information on the specific regressions, and other\nminor fixes, in the release notes.\nContributors to 1.71.1\nMany people came together to create Rust 1.71.1. We couldn't have done it\nwithout all of you. Thanks!",
+          "link": "https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html",
+          "publishedOn": "2023-08-03T00:00:00.000Z",
+          "wordCount": 277,
+          "title": "Announcing Rust 1.71.1",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2023/08/03/cve-2023-38497.html",
           "author": null,

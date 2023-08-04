@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-03T14:33:17.754Z</updated>
+    <updated>2023-08-04T01:11:40.170Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Exploring Gen AI: how can in-line assistance get in the way?]]></title>
+        <id>https://martinfowler.com/articles/exploring-gen-ai.html#in-line-assistance---how-can-it-get-in-the-way?</id>
+        <link href="https://martinfowler.com/articles/exploring-gen-ai.html#in-line-assistance---how-can-it-get-in-the-way?"/>
+        <updated>2023-08-03T15:37:00.000Z</updated>
+        <summary type="html"><![CDATA[While coding assistants like Copilot can improve speed and flow, they
+     can also disrupt it. Birgitta Böckeler looks at two ways
+     in which they can get in the way: amplifying bad or outdated
+     practices, and review fatigue.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.71.1]]></title>
+        <id>https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html</id>
+        <link href="https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html"/>
+        <updated>2023-08-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team has published a new point release of Rust, 1.71.1. Rust is a
+programming language that is empowering everyone to build reliable and
+efficient software.
+If you have a previous version of Rust installed via rustup, getting Rust
+1.71.1 is as easy as:
+rustup update stable
+
+If you don't have it already, you can get rustup from the
+appropriate page on our website.
+What's in 1.71.1 stable
+Rust 1.71.1 fixes Cargo not respecting the umask when extracting dependencies,
+which could allow a local attacker to edit the cache of extracted source code
+belonging to another local user, potentially executing code as another user.
+This security vulnerability is tracked as CVE-2023-38497, and you can read
+more about it on the advisory we published earlier today. We
+recommend all users to update their toolchain as soon as possible.
+Rust 1.71.1 also addresses several regressions introduced in Rust 1.71.0,
+including bash completion being broken for users of Rustup, and the
+suspicious_double_ref_op being emitted when calling borrow() even though it
+shouldn't.
+You can find more detailed information on the specific regressions, and other
+minor fixes, in the release notes.
+Contributors to 1.71.1
+Many people came together to create Rust 1.71.1. We couldn't have done it
+without all of you. Thanks!]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Security advisory for Cargo (CVE-2023-38497)]]></title>
         <id>https://blog.rust-lang.org/2023/08/03/cve-2023-38497.html</id>
