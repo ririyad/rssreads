@@ -30,6 +30,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/et-tu-zoom-b90a0a0a",
+          "author": null,
+          "description": "The corporate cause for return-to-office just claimed its perhaps most ironic victim: Zoom! The company that literally lives to sell us all on the wonders of remote collaboration wants its own people back into the office again. Which I guess is just a regression to the mean of productivity tool makers failing to believe their own marketing, but it's a bit sad none the less.\nNot the least because this push for return-to-office has now been proven completely safe for large tech corporations. Thanks to the mixture of mass layoffs earlier this year and the now numerous proclamations that remote-first is over at the majority of big companies. Safety in sentiment, safety in numbers.\nThis is an opportunistic squeeze, because what's most tech workers supposed to do? The option of simply hopping to another company has been severely limited. Outside the small realm of AI experts, most other domains just aren't anywhere nearly as contested in hiring as they once were. So this is happening now because it can happen now.\nI just hope that people who really did enjoy that remote work-lifetyle don't forget what it was like. The balance of power will presumably turn around one day again, and when it does, voting with your feet will be an option again.\nUntil then, I suspect that the likes of Shopify, Automattic, and other stalwart defenders of remote work will continue to see their openings become increasingly oversubscribed. Just like we've had at 37signals for going on two decades.\nRemote work might be receding, but it's simply too compelling an option for too many to ever disappear. The long-term trend line ain't going anywhere.",
+          "link": "https://world.hey.com/dhh/et-tu-zoom-b90a0a0a",
+          "publishedOn": "2023-08-07T16:30:48.000Z",
+          "wordCount": 357,
+          "title": "Et tu, Zoom?",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/not-everyone-can-be-the-best-ef9ebacd",
           "author": null,
           "description": "Many software developers seem to have a uniquely hard time accepting that not everyone who just tries real hard will become so good as to be among the best in this field. That there really is a discrepancy of talent that leads to a discrepancy of competence. That not everyone can or will become equally good at this job.\nIn contrast, nobody seems to have trouble with the fact that not every soccer player who loves the game and trains their best will become eligible for the Premier League. Or that becoming a brain surgeon might indeed really be harder than making it as a general practitioner, which in itself is hard enough too!\nBut becoming a developer can happen without ever really having to face an adversarial examination of your skills. There's no 90-minute clock that ends with a look at …",
@@ -279,6 +289,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/08/07/Rust-Survey-2023-Results.html",
+          "author": null,
+          "description": "Hello, Rustaceans!\nFor the 6th year in a row, the Rust Project conducted a survey on the Rust programming language, with participation from project maintainers, contributors, and those generally interested in the future of Rust. This edition of the annual State of Rust Survey opened for submissions on December 5 and ran until December 22, 2022.\nFirst, we'd like to thank you for your patience on these long delayed results. We hope to identify a more expedient and sustainable process going forward so that the results come out more quickly and have even more actionable insights for the community.\nThe goal of this survey is always to give our wider community a chance to express their opinions about the language we all love and help shape its future. We’re grateful to those of you who took the …",
+          "link": "https://blog.rust-lang.org/2023/08/07/Rust-Survey-2023-Results.html",
+          "publishedOn": "2023-08-07T00:00:00.000Z",
+          "wordCount": 1292,
+          "title": "2022 Annual Rust Survey Results",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html",
           "author": null,
           "description": "The Rust team has published a new point release of Rust, 1.71.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust\n1.71.1 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the\nappropriate page on our website.\nWhat's in 1.71.1 stable\nRust 1.71.1 fixes Cargo not respecting the umask when extracting dependencies,\nwhich could allow a local attacker to edit the cache of extracted source code\nbelonging to another local user, potentially executing code as another user.\nThis security vulnerability is tracked as CVE-2023-38497, and you can read\nmore about it on the advisory we published earlier today. We\nrecommend all users to update their toolchain as soon as possible.\nRust 1.71.1 also addresses several regressions introduced in Rust 1.71.0,\nincluding bash completion being broken for users of Rustup, and the\nsuspicious_double_ref_op being emitted when calling borrow() even though it\nshouldn't.\nYou can find more detailed information on the specific regressions, and other\nminor fixes, in the release notes.\nContributors to 1.71.1\nMany people came together to create Rust 1.71.1. We couldn't have done it\nwithout all of you. Thanks!",
@@ -509,6 +529,16 @@
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://taylor.town/friday-demos",
+          "author": null,
+          "description": "Add demos to a #demo-friday channel in Slack or Teams.",
+          "link": "https://taylor.town/friday-demos",
+          "publishedOn": "2023-08-06T00:00:00.000Z",
+          "wordCount": 666,
+          "title": "Share Demos Every Friday",
+          "imageUrl": null
+        },
         {
           "id": "https://taylor.town/entire-career",
           "author": null,
