@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-08T01:07:38.596Z</updated>
+    <updated>2023-08-09T01:11:14.241Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Creating an integrated business and technology strategy]]></title>
+        <id>https://martinfowler.com/articles/creating-integrated-tech-strategy.html</id>
+        <link href="https://martinfowler.com/articles/creating-integrated-tech-strategy.html"/>
+        <updated>2023-08-08T10:35:00.000Z</updated>
+        <summary type="html"><![CDATA[My colleague Sarah Taraporewalla describes an approach
+     to building technology strategy that challenges the convention. It starts
+     by identifying the overall strategic directions that the organization is
+     considering, and using common aspects of these directions to indicate the
+     investigations needed for the organization to understand the technology
+     implications raised by that strategic change. This first
+     installment looks at two of these directions: expanding the business
+     by creating complementary products, and expanding the business into new
+     markets and regions. 
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The curing value of creation]]></title>
+        <id>https://world.hey.com/dhh/the-curing-value-of-creation-98736f9f</id>
+        <link href="https://world.hey.com/dhh/the-curing-value-of-creation-98736f9f"/>
+        <updated>2023-08-08T09:52:21.000Z</updated>
+        <summary type="html"><![CDATA[It's hard not to see your spirits lifted when you're part of bringing something to life. Be that a product, an organization, or a community, or all three at once. Like exercise, it's one of those rare avenues of human endeavor that almost invariably will make anyone feel better. And, also like exercise, the hard part is getting started when you need it the most!
+That's the curious chasm between knowledge and action. As much as you may know that regular, high-intensity training of the body does wonders for the mind, summoning the motivation to follow through with a commitment to working out only gets harder and harder the more you need it. I've had periods in my life where being removed from meaningful acts of creation felt just the same way.
+Those periods were especially depressing when they felt like a simulacra of creation. Being in a situation designed to mimic the motions of making, but bereft of any meaningful progress towards that end. The pretending of purpose. The appearance of collaboration. Without any thrust towards completion.
+And just as how getting a positive streak of accomplishment going provides its own momentum to keep at it, so too does a negative streak of performative busyness. It pulls you back into the comfort of the mental couch, and hands you the bag of chips to soothe your nagging sense of uselessness. For every day you stay there, the harder it is to get up, so best to muster everything you got to escape the dulling inertia now.
+Make something. Participate in something. Engage with someone. All of it might feel as unnatural as strapping on those running shoes after too long of a break, but once you're back to creating, the energy comes by itself.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Et tu, Zoom?]]></title>
         <id>https://world.hey.com/dhh/et-tu-zoom-b90a0a0a</id>
@@ -796,24 +829,6 @@ Whenever I see people telling others how to live, I can’t help wondering: isn�
 Let people be.]]></summary>
         <author>
             <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1.71.0 pre-release testing]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/07/10/1.71.0-prerelease.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/07/10/1.71.0-prerelease.html"/>
-        <updated>2023-07-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The 1.71.0 pre-release is ready for testing. The release is scheduled for
-July 13. Release notes can be found here.
-You can try it out locally by running:
-RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
-
-The index is https://dev-static.rust-lang.org/dist/2023-07-10/index.html.
-You can leave feedback on the internals thread.
-The release team is also thinking about changes to our pre-release process:
-we'd love your feedback on this GitHub issue.]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>
