@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-11T00:56:46.583Z</updated>
+    <updated>2023-08-12T00:56:26.051Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Difficult and complex]]></title>
+        <id>https://world.hey.com/jorge/difficult-and-complex-8b3bcc2f</id>
+        <link href="https://world.hey.com/jorge/difficult-and-complex-8b3bcc2f"/>
+        <updated>2023-08-11T11:10:12.000Z</updated>
+        <summary type="html"><![CDATA[There is complex and there is difficult, they are not the same. 
+
+
+Being able to run a marathon is very difficult. But what you have to do to prepare is simple. A small sheet of paper is enough to describe the steps. You will need tremendous effort and discipline - so it’s hard - but it is simple.
+
+
+Software development is different: it is also complex.
+
+
+A common theme in my articles on how we do Rails at 37signals is how facing software development with rigid recipes is naive and counterproductive. A good example is services: using a service for everything is a simple idea; applying domain-driven design and object orientation is not. Another manifestation is banning techniques because they can be harmful: concerns, accessing the database from models, callbacks, globals, etc. Ironically, the alternative critics usually recommend for those is using services.
+
+
+In software, you must take a Babylonian body of knowledge, combine it with your own experience, and apply the result to make countless daily decisions. And of all this for a problem you can’t understand without solving it first. Rigidity doesn’t work, and – because this is a game of intricate complexity – it yields more harm than benefit. You need to embrace nuance.
+
+
+Mind the recipes you follow.
+
+---
+jorgemanrubia.com]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learning to accept defeat against reality]]></title>
+        <id>https://world.hey.com/dhh/learning-to-accept-defeat-against-reality-141fb093</id>
+        <link href="https://world.hey.com/dhh/learning-to-accept-defeat-against-reality-141fb093"/>
+        <updated>2023-08-11T10:53:48.000Z</updated>
+        <summary type="html"><![CDATA[A great many smart people terminably hamper their ability to better understand the world by refusing to accept defeat when reality proves them wrong. Armed with an intellect that's at once both too proud to recognize it's own failings and cunningly capable of producing sophisticated excuses, they're adapt at spotting this failing in others but not in themselves.
+You see this all the time in the realm of public policy. Someone presents a plausible thesis on how to deal with a given problem. They drum up support for an attempt that follows their ideas, but when the attempt is defeated by reality, they can't retreat, and become stuck trying to defend the path in ever-more creative yet ludicrous ways.
+Watch the cadre of "harm reduction" activists attempt to defend the increasingly decrepit sta…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[First stage of reducing costs for a scaleup]]></title>
         <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#ReducePhase</id>
@@ -777,38 +817,6 @@ By reimplementing the trait solver of rustc we are able to fix many subtle bugs 
         <summary type="html"><![CDATA[Putting the "hex" in chess.]]></summary>
         <author>
             <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.71.0]]></title>
-        <id>https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html</id>
-        <link href="https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html"/>
-        <updated>2023-07-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.71.0. Rust is a programming language empowering everyone to build reliable and efficient software.
-If you have a previous version of Rust installed via rustup, you can get 1.71.0 with:
-rustup update stable
-
-If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.71.0 on GitHub.
-If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
-What's in 1.71.0 stable
-C-unwind ABI
-1.71.0 stabilizes C-unwind (and other -unwind suffixed ABI variants1).
-The behavior for unforced unwinding (…]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Who do you do business with?]]></title>
-        <id>https://world.hey.com/jason/who-do-you-do-business-with-47c6c9d5</id>
-        <link href="https://world.hey.com/jason/who-do-you-do-business-with-47c6c9d5"/>
-        <updated>2023-07-12T18:16:32.000Z</updated>
-        <summary type="html"><![CDATA[Way back when we launched the first version of Basecamp in 2004, we ran all our credit card charges through a merchant account provided by JP Morgan Chase.
-Charging credit cards wasn't easy in the early 2000s. This was back when being an "internet company" was a major red flag. The process required mounds of paperwork, proof, and business model scrutiny just to get approved. Barely capable, ancient APIs sorta kinda let you hook into internal systems. Charging a card successfully felt like a miracle. You had no idea. It wasn't years later until companies like Stripe made it simple.
-While you were never really happy with the service, you had to have it. And switching to another service meant going through the whole ungainly process again. And the grass was probably browner.
-However, one day …]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>

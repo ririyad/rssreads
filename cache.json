@@ -30,6 +30,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/learning-to-accept-defeat-against-reality-141fb093",
+          "author": null,
+          "description": "A great many smart people terminably hamper their ability to better understand the world by refusing to accept defeat when reality proves them wrong. Armed with an intellect that's at once both too proud to recognize it's own failings and cunningly capable of producing sophisticated excuses, they're adapt at spotting this failing in others but not in themselves.\nYou see this all the time in the realm of public policy. Someone presents a plausible thesis on how to deal with a given problem. They drum up support for an attempt that follows their ideas, but when the attempt is defeated by reality, they can't retreat, and become stuck trying to defend the path in ever-more creative yet ludicrous ways.\nWatch the cadre of \"harm reduction\" activists attempt to defend the increasingly decrepit sta…",
+          "link": "https://world.hey.com/dhh/learning-to-accept-defeat-against-reality-141fb093",
+          "publishedOn": "2023-08-11T10:53:48.000Z",
+          "wordCount": 611,
+          "title": "Learning to accept defeat against reality",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/turns-out-nobody-cared-about-panel-gaps-914127d5",
           "author": null,
           "description": "One of the most fascinating aspects of Tesla's rise to dominance has been how they discarded many of the traditional values of car making. While the rest of the industry was stuck competing on the size of their panel gaps, and other aspects of precision and quality assembly, Tesla didn't even show up to participate. Their cars are legendary for being delivered with shoddy paint jobs, rattling interiors, and even mismatched doors. But it just didn't matter! Consumers voted with their wallets for poorly built EVs because well-built gas-powered cars were deemed irrelevant in comparison.\nThere's tremendous wisdom for product makers of all kinds in this lesson. It's the epitome of Blue Ocean Strategy. To find a breakthrough angle in commerce, it's as important to decide where you will not compe…",
@@ -155,16 +165,6 @@
           "wordCount": 259,
           "title": "Stalking, not sales",
           "imageUrl": "https://world.hey.com/jason/8c750b03/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2VmeHdSTiIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8057cdd1b830c2a6d04b5b7c4d07bcfbbdcddfe4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/salessequence.png"
-        },
-        {
-          "id": "https://world.hey.com/jason/who-do-you-do-business-with-47c6c9d5",
-          "author": null,
-          "description": "Way back when we launched the first version of Basecamp in 2004, we ran all our credit card charges through a merchant account provided by JP Morgan Chase.\nCharging credit cards wasn't easy in the early 2000s. This was back when being an \"internet company\" was a major red flag. The process required mounds of paperwork, proof, and business model scrutiny just to get approved. Barely capable, ancient APIs sorta kinda let you hook into internal systems. Charging a card successfully felt like a miracle. You had no idea. It wasn't years later until companies like Stripe made it simple.\nWhile you were never really happy with the service, you had to have it. And switching to another service meant going through the whole ungainly process again. And the grass was probably browner.\nHowever, one day …",
-          "link": "https://world.hey.com/jason/who-do-you-do-business-with-47c6c9d5",
-          "publishedOn": "2023-07-12T18:16:32.000Z",
-          "wordCount": 605,
-          "title": "Who do you do business with?",
-          "imageUrl": "https://world.hey.com/jason/47c6c9d5/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2VpMzdkTSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--38165328c6ce4d6317f10b1dc241ab93034c3a49/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/basecampwelcomeletter.png"
         }
       ]
     },
@@ -367,16 +367,6 @@
           "wordCount": 585,
           "title": "Security advisory for Cargo (CVE-2023-38497)",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html",
-          "author": null,
-          "description": "The Rust team is happy to announce a new version of Rust, 1.71.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.71.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.71.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.71.0 stable\nC-unwind ABI\n1.71.0 stabilizes C-unwind (and other -unwind suffixed ABI variants1).\nThe behavior for unforced unwinding (…",
-          "link": "https://blog.rust-lang.org/2023/07/13/Rust-1.71.0.html",
-          "publishedOn": "2023-07-13T00:00:00.000Z",
-          "wordCount": 757,
-          "title": "Announcing Rust 1.71.0",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -442,6 +432,16 @@
       "feedUrl": "https://world.hey.com/jorge/feed.atom",
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
+        {
+          "id": "https://world.hey.com/jorge/difficult-and-complex-8b3bcc2f",
+          "author": null,
+          "description": "There is complex and there is difficult, they are not the same. \n\n\nBeing able to run a marathon is very difficult. But what you have to do to prepare is simple. A small sheet of paper is enough to describe the steps. You will need tremendous effort and discipline - so it’s hard - but it is simple.\n\n\nSoftware development is different: it is also complex.\n\n\nA common theme in my articles on how we do Rails at 37signals is how facing software development with rigid recipes is naive and counterproductive. A good example is services: using a service for everything is a simple idea; applying domain-driven design and object orientation is not. Another manifestation is banning techniques because they can be harmful: concerns, accessing the database from models, callbacks, globals, etc. Ironically, the alternative critics usually recommend for those is using services.\n\n\nIn software, you must take a Babylonian body of knowledge, combine it with your own experience, and apply the result to make countless daily decisions. And of all this for a problem you can’t understand without solving it first. Rigidity doesn’t work, and – because this is a game of intricate complexity – it yields more harm than benefit. You need to embrace nuance.\n\n\nMind the recipes you follow.\n\n---\njorgemanrubia.com",
+          "link": "https://world.hey.com/jorge/difficult-and-complex-8b3bcc2f",
+          "publishedOn": "2023-08-11T11:10:12.000Z",
+          "wordCount": 258,
+          "title": "Difficult and complex",
+          "imageUrl": "https://world.hey.com/jorge/avatar-d08cb3ee63ecbd49736f76ee2caffa4c99a1c0fd"
+        },
         {
           "id": "https://world.hey.com/jorge/globals-callbacks-and-other-sacrileges-d9832c35",
           "author": null,
