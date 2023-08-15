@@ -2,10 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-14T00:58:49.471Z</updated>
+    <updated>2023-08-15T00:57:29.251Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[We will miss Stefan Tilkov]]></title>
+        <id>https://martinfowler.com/articles/202308-stefan-tilkov.html</id>
+        <link href="https://martinfowler.com/articles/202308-stefan-tilkov.html"/>
+        <updated>2023-08-14T18:58:00.000Z</updated>
+        <summary type="html"><![CDATA[We are saddened today to learn of the passing of Stefan Tilkov. We’ve met Stefan several times at workshops and conferences and always enjoyed his good company and insightful views. He advocated many of the things that we and our colleagues support - and as well as skillfully explaining these ideas, he also backed them up with concrete experience from his work. We shall really miss his wise contributions online, and regret that we won’t get the chance to chat with him again. We offer our condolences to his family, friends, and colleagues at INNOQ.
+Birgitta Boeckeler
+Erik Dörnenburg
+Neal Ford
+Martin Fowler
+James Lewis
+Rebecca Parsons
+Daniel Terhorst-North]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Difficult and complex]]></title>
         <id>https://world.hey.com/jorge/difficult-and-complex-8b3bcc2f</id>
@@ -817,16 +834,6 @@ Clean up in aisle sales! Something's broken.
 By reimplementing the trait solver of rustc we are able to fix many subtle bugs and inefficiencies of the existing implementation. This should result in faster compilation speed and fewer bugs. The new trait solver implementation should also unb…]]></summary>
         <author>
             <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[chexs.io]]></title>
-        <id>https://chexs.io/</id>
-        <link href="https://chexs.io/"/>
-        <updated>2023-07-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Putting the "hex" in chess.]]></summary>
-        <author>
-            <name>taylor.town</name>
         </author>
     </entry>
 </feed>

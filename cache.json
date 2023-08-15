@@ -177,7 +177,7 @@
     {
       "title": "Andrew Kelley",
       "feedUrl": "https://andrewkelley.me/rss.xml",
-      "siteUrl": "http://andrewkelley.me/",
+      "siteUrl": "https://andrewkelley.me/",
       "articles": []
     },
     {
@@ -185,6 +185,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/202308-stefan-tilkov.html",
+          "author": null,
+          "description": "We are saddened today to learn of the passing of Stefan Tilkov. We’ve met Stefan several times at workshops and conferences and always enjoyed his good company and insightful views. He advocated many of the things that we and our colleagues support - and as well as skillfully explaining these ideas, he also backed them up with concrete experience from his work. We shall really miss his wise contributions online, and regret that we won’t get the chance to chat with him again. We offer our condolences to his family, friends, and colleagues at INNOQ.\nBirgitta Boeckeler\nErik Dörnenburg\nNeal Ford\nMartin Fowler\nJames Lewis\nRebecca Parsons\nDaniel Terhorst-North",
+          "link": "https://martinfowler.com/articles/202308-stefan-tilkov.html",
+          "publishedOn": "2023-08-14T18:58:00.000Z",
+          "wordCount": 216,
+          "title": "We will miss Stefan Tilkov",
+          "imageUrl": null
+        },
         {
           "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#ReducePhase",
           "author": null,
@@ -705,16 +715,6 @@
           "publishedOn": "2023-07-19T00:00:00.000Z",
           "wordCount": 1298,
           "title": "Spoil Your Secret Sauce",
-          "imageUrl": null
-        },
-        {
-          "id": "https://chexs.io/",
-          "author": null,
-          "description": "Putting the \"hex\" in chess.",
-          "link": "https://chexs.io/",
-          "publishedOn": "2023-07-16T00:00:00.000Z",
-          "wordCount": 10,
-          "title": "chexs.io",
           "imageUrl": null
         }
       ]
