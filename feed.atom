@@ -2,10 +2,72 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-15T00:57:29.251Z</updated>
+    <updated>2023-08-16T00:57:06.815Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Bottlenecks of Scaleups Webinar: Sep 7 2023]]></title>
+        <id>https://www.thoughtworks.com/about-us/events/webinars/scaling-bottlenecks--technology-mistakes-every-growing-startup-m</id>
+        <link href="https://www.thoughtworks.com/about-us/events/webinars/scaling-bottlenecks--technology-mistakes-every-growing-startup-m"/>
+        <updated>2023-08-15T18:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Join Tim Cochran and Rickey Zachery on Thursday, September 7th 1-2pm EST
+     for a webinar on Bottlenecks of
+     Scaleups: Technology mistakes every growing startup makes. They researched
+     Thoughtwork's portfolio to analyze why companies struggle to scale,
+     spanning across Technology, People, and Product. Covering areas such as
+     experimentation culture, overcomplicated architectures, onboarding,
+     developer productivity, product and engineering collaboration, and cost
+     efficiency.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Strategic directions to build a strong foundation]]></title>
+        <id>https://martinfowler.com/articles/creating-integrated-tech-strategy.html#BuildingAStrongFoundation</id>
+        <link href="https://martinfowler.com/articles/creating-integrated-tech-strategy.html#BuildingAStrongFoundation"/>
+        <updated>2023-08-15T14:16:00.000Z</updated>
+        <summary type="html"><![CDATA[Any business that wants to grow needs to be built on strong and stable
+     foundations. While these strategic directions are often familiar to
+     technical folks it's important that the improvements to engineering align
+     with the themes that resonate with the rest of the organization.
+     Sarah Taraporewalla illustrates how this appears with two
+     strategic directions that consider improvements in efficiency and quality.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Actions to sustain cost control for scaleups]]></title>
+        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#SustainPhase</id>
+        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#SustainPhase"/>
+        <updated>2023-08-15T14:15:00.000Z</updated>
+        <summary type="html"><![CDATA[When scaling up, getting costs under control is vital to stabilizing
+       financial health. But as a weight-loss expert might say, the key to
+       long-term health is to do things that promote a sustainable lifestyle.
+       Sofia Tania  and  Stefania
+       Stefansdottir now move on to begin to describe these
+       initiatives: federated accountability, visibility, and nudges
+       towards better financial discipline.
+       
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How would you like ChatGPT to respond?]]></title>
+        <id>https://taylor.town/chatgpt-custom</id>
+        <link href="https://taylor.town/chatgpt-custom"/>
+        <updated>2023-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Emulate clear writers like Steinbeck, Hemingway, Orwell.]]></summary>
+        <author>
+            <name>taylor.town</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[We will miss Stefan Tilkov]]></title>
         <id>https://martinfowler.com/articles/202308-stefan-tilkov.html</id>
@@ -21,6 +83,16 @@ Rebecca Parsons
 Daniel Terhorst-North]]></summary>
         <author>
             <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gpt'day mate]]></title>
+        <id>https://taylor.town/gpt-day-mate</id>
+        <link href="https://taylor.town/gpt-day-mate"/>
+        <updated>2023-08-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Please prioritize today's task list.]]></summary>
+        <author>
+            <name>taylor.town</name>
         </author>
     </entry>
     <entry>
@@ -823,17 +895,6 @@ Clean up in aisle sales! Something's broken.
 -Jason]]></summary>
         <author>
             <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rustc Trait System Refactor Initiative Update]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html"/>
-        <updated>2023-07-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As announced in the Types Team announcement post at the start of this year, the Types Team has started to reimplement the trait solver of rustc. This refactor is similar to Chalk, but directly integrated into the existing codebase using the experience gathered over the last few years. Unlike Chalk, the new trait solver has the sole goal of replacing the existing implementation. We are separately working on formalizing the type system in a-mir-formality. It has now been half a year since that announcement which matches the first step of our roadmap.
-By reimplementing the trait solver of rustc we are able to fix many subtle bugs and inefficiencies of the existing implementation. This should result in faster compilation speed and fewer bugs. The new trait solver implementation should also unb…]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
         </author>
     </entry>
 </feed>

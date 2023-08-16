@@ -186,6 +186,36 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://www.thoughtworks.com/about-us/events/webinars/scaling-bottlenecks--technology-mistakes-every-growing-startup-m",
+          "author": null,
+          "description": "Join Tim Cochran and Rickey Zachery on Thursday, September 7th 1-2pm EST\n     for a webinar on Bottlenecks of\n     Scaleups: Technology mistakes every growing startup makes. They researched\n     Thoughtwork's portfolio to analyze why companies struggle to scale,\n     spanning across Technology, People, and Product. Covering areas such as\n     experimentation culture, overcomplicated architectures, onboarding,\n     developer productivity, product and engineering collaboration, and cost\n     efficiency.\nmore…",
+          "link": "https://www.thoughtworks.com/about-us/events/webinars/scaling-bottlenecks--technology-mistakes-every-growing-startup-m",
+          "publishedOn": "2023-08-15T18:35:00.000Z",
+          "wordCount": 1060,
+          "title": "Bottlenecks of Scaleups Webinar: Sep 7 2023",
+          "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/meta/about-us/ab_meta_scaling_bottlenecks2.jpg"
+        },
+        {
+          "id": "https://martinfowler.com/articles/creating-integrated-tech-strategy.html#BuildingAStrongFoundation",
+          "author": null,
+          "description": "Any business that wants to grow needs to be built on strong and stable\n     foundations. While these strategic directions are often familiar to\n     technical folks it's important that the improvements to engineering align\n     with the themes that resonate with the rest of the organization.\n     Sarah Taraporewalla illustrates how this appears with two\n     strategic directions that consider improvements in efficiency and quality.\nmore…",
+          "link": "https://martinfowler.com/articles/creating-integrated-tech-strategy.html#BuildingAStrongFoundation",
+          "publishedOn": "2023-08-15T14:16:00.000Z",
+          "wordCount": 6389,
+          "title": "Strategic directions to build a strong foundation",
+          "imageUrl": "https://martinfowler.com/articles/creating-integrated-tech-strategy/card.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#SustainPhase",
+          "author": null,
+          "description": "When scaling up, getting costs under control is vital to stabilizing\n       financial health. But as a weight-loss expert might say, the key to\n       long-term health is to do things that promote a sustainable lifestyle.\n       Sofia Tania  and  Stefania\n       Stefansdottir now move on to begin to describe these\n       initiatives: federated accountability, visibility, and nudges\n       towards better financial discipline.\n       \nmore…",
+          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#SustainPhase",
+          "publishedOn": "2023-08-15T14:15:00.000Z",
+          "wordCount": 6073,
+          "title": "Actions to sustain cost control for scaleups",
+          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
+        },
+        {
           "id": "https://martinfowler.com/articles/202308-stefan-tilkov.html",
           "author": null,
           "description": "We are saddened today to learn of the passing of Stefan Tilkov. We’ve met Stefan several times at workshops and conferences and always enjoyed his good company and insightful views. He advocated many of the things that we and our colleagues support - and as well as skillfully explaining these ideas, he also backed them up with concrete experience from his work. We shall really miss his wise contributions online, and regret that we won’t get the chance to chat with him again. We offer our condolences to his family, friends, and colleagues at INNOQ.\nBirgitta Boeckeler\nErik Dörnenburg\nNeal Ford\nMartin Fowler\nJames Lewis\nRebecca Parsons\nDaniel Terhorst-North",
@@ -424,16 +454,6 @@
           "wordCount": 1653,
           "title": "crates.io Postmortem: Broken Crate Downloads",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html",
-          "author": null,
-          "description": "As announced in the Types Team announcement post at the start of this year, the Types Team has started to reimplement the trait solver of rustc. This refactor is similar to Chalk, but directly integrated into the existing codebase using the experience gathered over the last few years. Unlike Chalk, the new trait solver has the sole goal of replacing the existing implementation. We are separately working on formalizing the type system in a-mir-formality. It has now been half a year since that announcement which matches the first step of our roadmap.\nBy reimplementing the trait solver of rustc we are able to fix many subtle bugs and inefficiencies of the existing implementation. This should result in faster compilation speed and fewer bugs. The new trait solver implementation should also unb…",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/07/17/trait-system-refactor-initiative.html",
-          "publishedOn": "2023-07-17T00:00:00.000Z",
-          "wordCount": 903,
-          "title": "Rustc Trait System Refactor Initiative Update",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -547,6 +567,26 @@
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://taylor.town/chatgpt-custom",
+          "author": null,
+          "description": "Emulate clear writers like Steinbeck, Hemingway, Orwell.",
+          "link": "https://taylor.town/chatgpt-custom",
+          "publishedOn": "2023-08-15T00:00:00.000Z",
+          "wordCount": 233,
+          "title": "How would you like ChatGPT to respond?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/gpt-day-mate",
+          "author": null,
+          "description": "Please prioritize today's task list.",
+          "link": "https://taylor.town/gpt-day-mate",
+          "publishedOn": "2023-08-14T00:00:00.000Z",
+          "wordCount": 133,
+          "title": "gpt'day mate",
+          "imageUrl": null
+        },
         {
           "id": "https://taylor.town/listener",
           "author": null,
