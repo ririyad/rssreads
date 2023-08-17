@@ -155,16 +155,6 @@
           "wordCount": 299,
           "title": "Effective > Productive",
           "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
-        },
-        {
-          "id": "https://world.hey.com/jason/stalking-not-sales-8c750b03",
-          "author": null,
-          "description": "What you see above is a 17-day sales sequence, or cadence. A friend of mine just sent it over and it creeped me out.\nFrom email to LinkedIn to phone to email back to LinkedIn back to phone, and so on. I assume day 18 would be a bullhorn outside your window.\nSomehow this is allowed to be called sales. But in any other realm it would be called stalking.\nThe sales industry calls these moments \"touches\", which is even creepier. And then, check out that last one: The break up email. Ouch.\nImagine if you ran this playbook when trying to sell yourself in a new relationship (or save yourself in a failing one). You meet someone new, and you contact them 15 times in a variety of ways over 17 days. And sometimes multiple times a day after they've already ignored your earlier attempts. They'd be right in calling the cops and getting a restraining order.\nI know this isn't how sales always works, but it's prevalent enough. I've been on the receiving end before. It's just wrong, even if it \"works\" sometimes.\nClean up in aisle sales! Something's broken.\n\n-Jason",
-          "link": "https://world.hey.com/jason/stalking-not-sales-8c750b03",
-          "publishedOn": "2023-07-17T15:09:24.000Z",
-          "wordCount": 259,
-          "title": "Stalking, not sales",
-          "imageUrl": "https://world.hey.com/jason/8c750b03/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2VmeHdSTiIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8057cdd1b830c2a6d04b5b7c4d07bcfbbdcddfe4/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/salessequence.png"
         }
       ]
     },
@@ -185,6 +175,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/creating-integrated-tech-strategy.html#risk",
+          "author": null,
+          "description": "Time for two more strategic directions from Sarah\n     Taraporewalla. These look at the questions that need to be investigated when\n     reducing cost, minimizing operation risk, and enabling data-driven decision\n     making.\nmore…",
+          "link": "https://martinfowler.com/articles/creating-integrated-tech-strategy.html#risk",
+          "publishedOn": "2023-08-16T19:49:00.000Z",
+          "wordCount": 7866,
+          "title": "Strategic directions: minimizing risk and being data driven",
+          "imageUrl": "https://martinfowler.com/articles/creating-integrated-tech-strategy/card.png"
+        },
         {
           "id": "https://www.thoughtworks.com/about-us/events/webinars/scaling-bottlenecks--technology-mistakes-every-growing-startup-m",
           "author": null,
@@ -354,16 +354,6 @@
           "wordCount": 4480,
           "title": "How platform teams get stuff done",
           "imageUrl": "https://martinfowler.com/articles/platform-teams-stuff-done/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/xapo-architecture-experience.html",
-          "author": null,
-          "description": "It's common to see a centralized architecture function that sets\n     standards and oversees development projects. Such teams often suffer from\n     being far removed from the issues of implementation with long\n     feedback loops that slow down the flow of work. To counter these problems,\n     many organizations have explored a decentralized approach to yield\n     alignment between teams without these problems. One such organization is\n     Xapo bank, which did this using ideas taken from Domain-Driven Design, Team\n     Topologies, and the Architectural Advice Process.\nmore…",
-          "link": "https://martinfowler.com/articles/xapo-architecture-experience.html",
-          "publishedOn": "2023-07-18T11:46:00.000Z",
-          "wordCount": 5389,
-          "title": "Decentralizing the Practice of Architecture at Xapo Bank",
-          "imageUrl": "https://martinfowler.com/articles/xapo-architecture-experience/card.png"
         }
       ]
     },
@@ -488,7 +478,18 @@
       "title": "Notes on software development",
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html",
+          "author": null,
+          "description": "Someone on Discord asked about how to learn functional programming.\nThe question and my initial tweet on the subject prompted an\ninteresting\ndiscussion\nwith Shriram\nKrishnamurthi and other folks.\nSo here's a slightly more thought out exploration.\nAnd just for backstory sake: I spent a few years a while\nago programming in\nStandard ML and I wrote\na chunk of a Scheme\n  implementation. I'm not an expert, but I have a bit of background.\nHey, this is a free opinion.\nConcepts from functional programming\nWhen people talk about functional programming, I think of a few key\nchoices you can make while programming:\nImmutability by default\n(Tail) recursion by default\nFirst-class functions (and the suite of tools that go along with it. e.g. map, reduce/fold)\nAnd if you have experience as a programmer, yo…",
+          "link": "http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html",
+          "publishedOn": "2023-08-15T00:00:00.000Z",
+          "wordCount": 2744,
+          "title": "Thinking about functional programming",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "CoRecursive: Coding Stories",
@@ -519,7 +520,18 @@
       "title": "Notes on software development",
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html",
+          "author": null,
+          "description": "Someone on Discord asked about how to learn functional programming.\nThe question and my initial tweet on the subject prompted an\ninteresting\ndiscussion\nwith Shriram\nKrishnamurthi and other folks.\nSo here's a slightly more thought out exploration.\nAnd just for backstory sake: I spent a few years a while\nago programming in\nStandard ML and I wrote\na chunk of a Scheme\n  implementation. I'm not an expert, but I have a bit of background.\nHey, this is a free opinion.\nConcepts from functional programming\nWhen people talk about functional programming, I think of a few key\nchoices you can make while programming:\nImmutability by default\n(Tail) recursion by default\nFirst-class functions (and the suite of tools that go along with it. e.g. map, reduce/fold)\nAnd if you have experience as a programmer, yo…",
+          "link": "http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html",
+          "publishedOn": "2023-08-15T00:00:00.000Z",
+          "wordCount": 2744,
+          "title": "Thinking about functional programming",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Dmitri Pavlutin Blog",

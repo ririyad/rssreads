@@ -2,10 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-16T00:57:06.815Z</updated>
+    <updated>2023-08-17T00:56:54.602Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Strategic directions: minimizing risk and being data driven]]></title>
+        <id>https://martinfowler.com/articles/creating-integrated-tech-strategy.html#risk</id>
+        <link href="https://martinfowler.com/articles/creating-integrated-tech-strategy.html#risk"/>
+        <updated>2023-08-16T19:49:00.000Z</updated>
+        <summary type="html"><![CDATA[Time for two more strategic directions from Sarah
+     Taraporewalla. These look at the questions that need to be investigated when
+     reducing cost, minimizing operation risk, and enabling data-driven decision
+     making.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Bottlenecks of Scaleups Webinar: Sep 7 2023]]></title>
         <id>https://www.thoughtworks.com/about-us/events/webinars/scaling-bottlenecks--technology-mistakes-every-growing-startup-m</id>
@@ -56,6 +70,64 @@ more…]]></summary>
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thinking about functional programming]]></title>
+        <id>http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html</id>
+        <link href="http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html"/>
+        <updated>2023-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Someone on Discord asked about how to learn functional programming.
+The question and my initial tweet on the subject prompted an
+interesting
+discussion
+with Shriram
+Krishnamurthi and other folks.
+So here's a slightly more thought out exploration.
+And just for backstory sake: I spent a few years a while
+ago programming in
+Standard ML and I wrote
+a chunk of a Scheme
+  implementation. I'm not an expert, but I have a bit of background.
+Hey, this is a free opinion.
+Concepts from functional programming
+When people talk about functional programming, I think of a few key
+choices you can make while programming:
+Immutability by default
+(Tail) recursion by default
+First-class functions (and the suite of tools that go along with it. e.g. map, reduce/fold)
+And if you have experience as a programmer, yo…]]></summary>
+        <author>
+            <name>Notes on software development</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Thinking about functional programming]]></title>
+        <id>http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html</id>
+        <link href="http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html"/>
+        <updated>2023-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Someone on Discord asked about how to learn functional programming.
+The question and my initial tweet on the subject prompted an
+interesting
+discussion
+with Shriram
+Krishnamurthi and other folks.
+So here's a slightly more thought out exploration.
+And just for backstory sake: I spent a few years a while
+ago programming in
+Standard ML and I wrote
+a chunk of a Scheme
+  implementation. I'm not an expert, but I have a bit of background.
+Hey, this is a free opinion.
+Concepts from functional programming
+When people talk about functional programming, I think of a few key
+choices you can make while programming:
+Immutability by default
+(Tail) recursion by default
+First-class functions (and the suite of tools that go along with it. e.g. map, reduce/fold)
+And if you have experience as a programmer, yo…]]></summary>
+        <author>
+            <name>Notes on software development</name>
         </author>
     </entry>
     <entry>
@@ -859,42 +931,6 @@ more…]]></summary>
         <summary type="html"><![CDATA[Go on an adventure. Find a New Thing™. Bring it back. Share it, and demonstrate why the New Thing™ is worth sharing.]]></summary>
         <author>
             <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Decentralizing the Practice of Architecture at Xapo Bank]]></title>
-        <id>https://martinfowler.com/articles/xapo-architecture-experience.html</id>
-        <link href="https://martinfowler.com/articles/xapo-architecture-experience.html"/>
-        <updated>2023-07-18T11:46:00.000Z</updated>
-        <summary type="html"><![CDATA[It's common to see a centralized architecture function that sets
-     standards and oversees development projects. Such teams often suffer from
-     being far removed from the issues of implementation with long
-     feedback loops that slow down the flow of work. To counter these problems,
-     many organizations have explored a decentralized approach to yield
-     alignment between teams without these problems. One such organization is
-     Xapo bank, which did this using ideas taken from Domain-Driven Design, Team
-     Topologies, and the Architectural Advice Process.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stalking, not sales]]></title>
-        <id>https://world.hey.com/jason/stalking-not-sales-8c750b03</id>
-        <link href="https://world.hey.com/jason/stalking-not-sales-8c750b03"/>
-        <updated>2023-07-17T15:09:24.000Z</updated>
-        <summary type="html"><![CDATA[What you see above is a 17-day sales sequence, or cadence. A friend of mine just sent it over and it creeped me out.
-From email to LinkedIn to phone to email back to LinkedIn back to phone, and so on. I assume day 18 would be a bullhorn outside your window.
-Somehow this is allowed to be called sales. But in any other realm it would be called stalking.
-The sales industry calls these moments "touches", which is even creepier. And then, check out that last one: The break up email. Ouch.
-Imagine if you ran this playbook when trying to sell yourself in a new relationship (or save yourself in a failing one). You meet someone new, and you contact them 15 times in a variety of ways over 17 days. And sometimes multiple times a day after they've already ignored your earlier attempts. They'd be right in calling the cops and getting a restraining order.
-I know this isn't how sales always works, but it's prevalent enough. I've been on the receiving end before. It's just wrong, even if it "works" sometimes.
-Clean up in aisle sales! Something's broken.
-
--Jason]]></summary>
-        <author>
-            <name>Jason Fried</name>
         </author>
     </entry>
 </feed>
