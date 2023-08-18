@@ -2,10 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-17T00:56:54.602Z</updated>
+    <updated>2023-08-18T00:57:32.162Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[TDD with GitHub Copilot]]></title>
+        <id>https://martinfowler.com/articles/exploring-gen-ai.html#memo-06</id>
+        <link href="https://martinfowler.com/articles/exploring-gen-ai.html#memo-06"/>
+        <updated>2023-08-17T18:44:00.000Z</updated>
+        <summary type="html"><![CDATA[At Thoughtworks, we are strong practitioners of Test Driven Development (TDD).
+     Naturally this leads to the question of how generative AI can help with
+     this technique. Paul Sobocinski writes a brief memo
+     explaining how some of our teams have used TDD with GitHub
+     Copilot. As ever, co-pilot can't be relied on to fly the plane, but
+     can suggest some useful ideas for the red and green steps. It isn't
+     very helpful for the all-important refactoring step.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Final parts of the cost bottleneck of scaleups]]></title>
+        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#ReviewAndGovernTechnologyPortfolio</id>
+        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#ReviewAndGovernTechnologyPortfolio"/>
+        <updated>2023-08-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sofia Tania  and  Stefania
+       Stefansdottir complete their examination of how to overcome the
+       bottleneck that costs impose on a scaleup. In this final installment,
+       they look at how to review and govern the technology portfolio,
+       optimize rates, and provide a general view of cost efficiency initiatives
+       during the life-cycle of a scaleup.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Strategic directions: minimizing risk and being data driven]]></title>
         <id>https://martinfowler.com/articles/creating-integrated-tech-strategy.html#risk</id>
@@ -921,16 +954,6 @@ This is an important change from the marathon bull run that lifted all tech busi
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spoil Your Secret Sauce]]></title>
-        <id>https://taylor.town/secret-sauce</id>
-        <link href="https://taylor.town/secret-sauce"/>
-        <updated>2023-07-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Go on an adventure. Find a New Thing™. Bring it back. Share it, and demonstrate why the New Thing™ is worth sharing.]]></summary>
-        <author>
-            <name>taylor.town</name>
         </author>
     </entry>
 </feed>
