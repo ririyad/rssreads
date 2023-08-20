@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-19T00:55:46.150Z</updated>
+    <updated>2023-08-20T01:00:16.657Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
@@ -858,57 +858,6 @@ In short, be decisive about what you'll no longer do. Summon your inner Jack Wel
         <summary type="html"><![CDATA[Find your value. Select your service. Pick your price. Sell your service. Do unforgettable work. Don't fight customers. Demonstrate evergreen proof.]]></summary>
         <author>
             <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[crates.io Postmortem: Broken Crate Downloads]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/07/21/crates-io-postmortem.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/07/21/crates-io-postmortem.html"/>
-        <updated>2023-07-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[(based on https://www.atlassian.com/incident-management/postmortem/templates)
-Summary
-On 2023-07-20 between 12:17 and 12:30 UTC all crate downloads from crates.io were broken due to a deployment that contained a bug in the download URL generation.
-During this time we had an average of 4.71K requests per second to crates.io, resulting in about 3.7M failed requests, including the retry attempts from cargo.
-The incident was noticed by the developer triggering the production deployment after seeing elevated request-per-second numbers in our monitoring dashboard after the deployment. At this point the root cause for the elevated numbers was not clear yet, but a community member notified the developer via Zulip.
-Immediately after the notification, the broken deployment was rolled back to the pre…]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Effective > Productive]]></title>
-        <id>https://world.hey.com/jason/effective-productive-acfa210d</id>
-        <link href="https://world.hey.com/jason/effective-productive-acfa210d"/>
-        <updated>2023-07-20T17:31:49.000Z</updated>
-        <summary type="html"><![CDATA[So much talk about hacking productivity these days. There’s an endless stream of methodologies and tools promising to make you more productive. But more productive at what?
-Productivity is for machines, not for people. There’s nothing meaningful about packing some number of work units into some amount of time or squeezing more into less.
-Machines can work 24/7; humans can’t.
-When people focus on productivity, they end up focusing on being busy. Filling every moment with something to do. And there’s always more to do!
-We don’t believe in busyness at Basecamp. We believe in effectiveness. How little can we do? How much can we cut out? Instead of adding to-dos, we add to-don’ts.
-Being productive is about occupying your time—filling your schedule to the brim and getting as much as you can. Being effective is about finding more of your time unoccupied and open for other things besides work. Time for leisure, time for family and friends. Or time for doing absolutely nothing.
-Yes, it’s perfectly okay to have nothing to do. Or, better yet, nothing worth doing. If you’ve only got three hours of work to do on a given day, then stop. Don’t fill your day with five more just to stay busy or feel productive. Not doing something that isn’t worth doing is a wonderful way to spend your time.
-——
-via It Doesn't Have to Be Crazy at Work
-https://basecamp.com/books/calm
-
--Jason]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't lose your unreasonable sense of urgency]]></title>
-        <id>https://world.hey.com/dhh/don-t-lose-your-unreasonable-sense-of-urgency-b381699c</id>
-        <link href="https://world.hey.com/dhh/don-t-lose-your-unreasonable-sense-of-urgency-b381699c"/>
-        <updated>2023-07-20T15:33:29.000Z</updated>
-        <summary type="html"><![CDATA[Getting anything new off the ground usually requires a tremendous amount of urgency. It's hard to launch something  from nothing into reality without being incredibly impatient for progress. Thus most founders begin 🎶Their Journey🎶 sprinting from one pressing problem to the next in rapid succession to achieve their lift off. But reaching escape velocity doesn't guarantee you'll keep going, unless you retain the propulsion from an unreasonable sense of urgency.
-Yet the irony of being successful in business is that it'll invariably attract smart people who can tell you all the good reasons for why you can no longer go as quickly as you once did. Why it's actually natural, perhaps even good, that a company ten or a hundred times the size of what it was when it first became successful now has to travel at half the pace to be prudent.
-Don't listen too closely. Not because they'll be wrong in any narrow technical sense, but because they're wrong in the broad directional sense. The risk of succumbing to the rigor mortis of success is usually far greater than the risk of making a mistake by not considering and mitigating all possible bad outcomes up front.
-It's the risk of mandating everyone put on a bike helmet, only to realize that doing so means fewer people will bike, leading to worse health outcomes for all. Being obsessive about specific, short-term risks often sits in opposition to worrying about fuzzy, long-term risks.
-And nobody will be as motivated as a founder to inject risk into the business. Sticking with an unreasonable sense of urgency undoubtedly comes with clear and immediate risks. But giving up on it with even worse, less defined ones.
-So don't give up. Every company needs to have someone asking why we can't launch next Monday instead of next month. Willing to accept and underwrite the risks needed to make it happen. And with a stomach for occasionally being wrong, eating the loss, but keep playing.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
