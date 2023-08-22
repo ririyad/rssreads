@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-21T00:58:01.686Z</updated>
+    <updated>2023-08-22T00:58:09.068Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[1.72.0 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/08/21/1.72.0-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/08/21/1.72.0-prerelease.html"/>
+        <updated>2023-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.72.0 pre-release is ready for testing. The release is scheduled for
+August 24. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2023-08-21/index.html.
+You can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I'm a Coin Boy, Too]]></title>
+        <id>https://taylor.town/coin-boys</id>
+        <link href="https://taylor.town/coin-boys"/>
+        <updated>2023-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My crystal ball shattered in my twenties, but the coin offers faith to the faithless.]]></summary>
+        <author>
+            <name>taylor.town</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to do a successful Hacker News launch]]></title>
+        <id>https://lucasfcosta.com/2023/08/21/hn-launch.html</id>
+        <link href="https://lucasfcosta.com/2023/08/21/hn-launch.html"/>
+        <updated>2023-08-20T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When it comes to writing, the #1 question I usually get asked is how do I get so many HN front pages with this blog.
+This week, Layerform got to the front page for the first time too, and I got asked that question another bunch of times.
+
+
+I decided to write this document explaining how to do it so I can send people a link now.
+As a heads-up, there is only one hack: making something people want (to upvote).
+Also, keep in mind this is all public information on how HackerNews works. There’s no magic here.
+Make your title direct and specific. Get straight to the point. Generic or vague titles do not perform well. Salesy titles perform even worse. Don’t worry about adding some technical detail. Explain what you do precisely.
+    
+Good example: Show HN: Layerform – Open-source development envir…]]></summary>
+        <author>
+            <name>Lucas F. Costa</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[TDD with GitHub Copilot]]></title>
         <id>https://martinfowler.com/articles/exploring-gen-ai.html#memo-06</id>

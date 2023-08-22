@@ -385,6 +385,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/08/21/1.72.0-prerelease.html",
+          "author": null,
+          "description": "The 1.72.0 pre-release is ready for testing. The release is scheduled for\nAugust 24. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-08-21/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/08/21/1.72.0-prerelease.html",
+          "publishedOn": "2023-08-21T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.72.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2023/08/02/rotating-compiler-leads.html",
           "author": null,
           "description": "As initiated in late 2020 and ratified by RFC 3262, the Rust compiler team uses a rotating system of co-leads.\nAfter two and a half years, we've decided its time to rotate the leadership again!\nWelcome David Wood\nFelix Klock is stepping down from his role as senior lead and David Wood is joining Wesley Wiser as the new junior lead for the team.\nFelix remains a valued member of the compiler team (and also the language design team).\nFelix will be focusing on reducing the sizes of Rust futures, and on improving the state of the art for authoring Unsafe Rust, via projects such as Krabcake.\nDavid has been a contributor to the Rust project since 2017, a compiler-contributor since 2019 and became a compiler team member in 2021.\nHis contributions include work on the diagnostic translation effort, split DWARF support, polymorphisation, non-lexical lifetimes initiative and general maintenance to the compiler.\nDavid has also been a contributor to the governance and organization of the compiler team itself via policy proposals and regular participation in our weekly triage and steering meetings.\nFelix and I are excited to welcome David into this leadership role and I am thrilled to be working alongside him.",
@@ -541,13 +551,34 @@
       "title": "Lucas F. Costa",
       "feedUrl": "https://lucasfcosta.com/feed.xml",
       "siteUrl": "https://lucasfcosta.com/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://lucasfcosta.com/2023/08/21/hn-launch.html",
+          "author": null,
+          "description": "When it comes to writing, the #1 question I usually get asked is how do I get so many HN front pages with this blog.\nThis week, Layerform got to the front page for the first time too, and I got asked that question another bunch of times.\n\n\nI decided to write this document explaining how to do it so I can send people a link now.\nAs a heads-up, there is only one hack: making something people want (to upvote).\nAlso, keep in mind this is all public information on how HackerNews works. There’s no magic here.\nMake your title direct and specific. Get straight to the point. Generic or vague titles do not perform well. Salesy titles perform even worse. Don’t worry about adding some technical detail. Explain what you do precisely.\n    \nGood example: Show HN: Layerform – Open-source development envir…",
+          "link": "https://lucasfcosta.com/2023/08/21/hn-launch.html",
+          "publishedOn": "2023-08-20T23:00:00.000Z",
+          "wordCount": 779,
+          "title": "How to do a successful Hacker News launch",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "taylor.town",
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://taylor.town/coin-boys",
+          "author": null,
+          "description": "My crystal ball shattered in my twenties, but the coin offers faith to the faithless.",
+          "link": "https://taylor.town/coin-boys",
+          "publishedOn": "2023-08-21T00:00:00.000Z",
+          "wordCount": 598,
+          "title": "I'm a Coin Boy, Too",
+          "imageUrl": null
+        },
         {
           "id": "https://taylor.town/chatgpt-custom",
           "author": null,
