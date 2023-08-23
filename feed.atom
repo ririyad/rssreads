@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-22T00:58:09.068Z</updated>
+    <updated>2023-08-23T00:57:45.106Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Strategic Directions supporting the people]]></title>
+        <id>https://martinfowler.com/articles/creating-integrated-tech-strategy.html#SupportingThePeople</id>
+        <link href="https://martinfowler.com/articles/creating-integrated-tech-strategy.html#SupportingThePeople"/>
+        <updated>2023-08-22T15:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Having a robust digital talent strategy is a competitive advantage in
+     today’s fiercely competitive market. This enables businesses to have the
+     right talent and have the right competencies to meet current and future
+     demand to meet business goals or to stay on track for digital
+     transformation aspirations. Sarah Taraporewalla continues
+     her article on how to create an integrated business and technology strategy
+     by looking at questions raised by two strategic directions that
+     support people: culture and internal systems.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bottlenecks of Scaleups #05: Resilience and Observability]]></title>
+        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/05-resilience-and-observability.html</id>
+        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/05-resilience-and-observability.html"/>
+        <updated>2023-08-22T14:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Here is a new article in the bottlenecks of scaleups series, looking at
+     resilience and observability. Startups tend to only address resilience when
+     their systems are already down, often taking a very reactive approach. For
+     a scaleup, excessive system downtime represents a significant
+     bottleneck to the organization, both from the effort expended on
+     restoring function and also from the impact of customer dissatisfaction.
+     Punit Lad and Carl Nygard explain that to
+     move past this, resilience needs to be built into the business objectives,
+     which will influence the architecture, design, product management, and even
+     governance of business systems. 
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[56% of McNugget Carbon is Corn]]></title>
+        <id>https://taylor.town/carbon-nuggets</id>
+        <link href="https://taylor.town/carbon-nuggets"/>
+        <updated>2023-08-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Corn isotopes everywhere! Has science gone too far?]]></summary>
+        <author>
+            <name>taylor.town</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1.72.0 pre-release testing]]></title>
         <id>https://blog.rust-lang.org/inside-rust/2023/08/21/1.72.0-prerelease.html</id>
@@ -878,31 +926,6 @@ For the last month we have been holding weekly meetings and will continue to do 
         <link href="https://taylor.town/sell-your-service"/>
         <updated>2023-07-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Given a fixed amount, you have one major knob to turn: risk.]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Clear the barnacles]]></title>
-        <id>https://world.hey.com/dhh/clear-the-barnacles-b9558830</id>
-        <link href="https://world.hey.com/dhh/clear-the-barnacles-b9558830"/>
-        <updated>2023-07-24T08:42:45.000Z</updated>
-        <summary type="html"><![CDATA[The easiest way to squander your focus is by paying attention to a million inconsequential things at once. These little mental barnacles add up in imperceptible ways until you suddenly feel like you're getting nowhere, no matter how hard you push. You must keep scrubbing your mind clear of such attention-sapping colonies to remain capable of making smooth, swift progress.
-These barnacles can accumulate from middling marketing initiatives, process theatre, and tolerance for mediocre performance. All individually presenting as more hassle to deal with than to dismiss, but combined killing the efficiency and focus on progress.
-But they can also be things that actually appears to be working well enough, just not up to the bar of your very best. Those are the tricky ones. The base hits, the modest accomplishments, the things you might even have celebrated once. The past darlings.
-It just doesn't matter. You can't keep stuffing your head with ever more things to pay partial attention to every month and expect to keep a clear eye on the horizon and the future. There's only room for so much.
-The hardest part about this is not to wait until it's too much, until the drag is actually there. Keep your mind below carrying capacity, such that there's room for serendipity, at all times.
-In short, be decisive about what you'll no longer do. Summon your inner Jack Welch to cut at least the bottom 10% of the stuff dragging your attention every few months or so.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Productize Yourself]]></title>
-        <id>https://taylor.town/productize-yourself</id>
-        <link href="https://taylor.town/productize-yourself"/>
-        <updated>2023-07-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Find your value. Select your service. Pick your price. Sell your service. Do unforgettable work. Don't fight customers. Demonstrate evergreen proof.]]></summary>
         <author>
             <name>taylor.town</name>
         </author>
