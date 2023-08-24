@@ -2,10 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-23T00:57:45.106Z</updated>
+    <updated>2023-08-24T00:57:40.800Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[So Long, Twitter and Reddit]]></title>
+        <id>https://andrewkelley.me/post/goodbye-twitter-reddit.html</id>
+        <link href="https://andrewkelley.me/post/goodbye-twitter-reddit.html"/>
+        <updated>2023-08-23T22:05:07.000Z</updated>
+        <summary type="html"><![CDATA[So Long, Twitter and Reddit
+It's been over three years since my last blog post. I think that
+the website code started to feel like it had bitrotted, and so making new blog
+posts became onerous. But I've taken the time to redo this website
+using Zig, so it's quite easy to add blog
+posts now, and plus I added
+dark mode.
+Twitter
+Over the past few years I amassed a healthy number of followers on Twitter by posting
+screenshots, demos, and small progress updates for the Zig programming language. It
+felt good to gain an audience and have my perspective and efforts weighed more heavily in
+the court of public opinion.
+However, I always knew that it would need to end. It's not really possible to use Twitter
+without at least a little bit of doomscrolling, and that activity took a toll on me emotional…]]></summary>
+        <author>
+            <name>Andrew Kelley</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scatter]]></title>
+        <id>https://world.hey.com/jason/scatter-8a4a1e4a</id>
+        <link href="https://world.hey.com/jason/scatter-8a4a1e4a"/>
+        <updated>2023-08-23T19:30:11.000Z</updated>
+        <summary type="html"><![CDATA[Scatter.
+
+
+Scatter is the silent killer at work.
+
+
+Scatter is tools siloed by teams.
+
+
+Scatter is multiple apps to do one thing.
+
+
+Scatter is doing the same thing at the same time in multiple places.
+
+
+Scatter is asking around rather than doing it right now.
+
+
+Scatter is pulling people off this to jump on that.
+
+
+Scatter is wondering where something is rather than knowing where it lives.
+
+
+Scatter is repeating yourself.
+
+
+Scatter is dependencies.
+
+
+Scatter is looking but not paying attention.
+
+
+Scatter is intracompany fiefdoms defending themselves.
+
+
+Scatter is attempted multitasking.
+
+
+Scatter is waiting around for something else to happen first.
+
+
+Scatter is multiple monitors.
+
+
+Scatter is being busy without making progress.
+
+
+Scatter is principles on the wall that no one believes.
+
+
+Scatter is a backlog of ideas you'll never get to.
+
+
+Scatter are far off promises you made because it was easier than saying no.
+
+
+Scatter is looking back at your day and wondering where it all went.
+
+
+Scatter is conceptual engines burning in opposite directions.
+Scatter is a huge, invisible liability you'll never see on your balance sheet.
+
+
+Scatter is what scatter does.
+Scatter has its place as long as it's not the steady state.
+
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Demo Front-End: A front-end application to test and explore an API]]></title>
+        <id>https://martinfowler.com/articles/demo-front-end.html</id>
+        <link href="https://martinfowler.com/articles/demo-front-end.html"/>
+        <updated>2023-08-23T14:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Many software teams create services exposed as APIs, designed to be
+     consumed by other software and thus without any user-interface. Such
+     services are hard to demonstrate, as they effectively just dump pages of
+     JSON. A demo front-end is a simple user-interface just used to
+     manipulate such an API. Matteo Vaccari describes how and
+     why to build one - showing its usefulness both in explaining the
+     API's capabilities to stakeholders and to help client developers explore
+     how to interact with the API.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Strategic Directions supporting the people]]></title>
         <id>https://martinfowler.com/articles/creating-integrated-tech-strategy.html#SupportingThePeople</id>
@@ -821,113 +940,6 @@ Although the name focuses solely on the size, just as important is the
   team's focus. A …]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pick promise over proof]]></title>
-        <id>https://world.hey.com/dhh/pick-promise-over-proof-756604d3</id>
-        <link href="https://world.hey.com/dhh/pick-promise-over-proof-756604d3"/>
-        <updated>2023-07-25T08:49:19.000Z</updated>
-        <summary type="html"><![CDATA[After hiring people for twenty years, I've come to accept that it's impossible to know up front what someone is truly capable of. Sure, we try our best to make good, educated guesses during the hiring process, and this is why asking finalists to do sample work projects is so crucial. But it still remains just guessing, and the truth doesn't emerge until you afford the hire a full attempt on a real project.
-That's why I'm such a fan of starting new employees in the deep end. Putting them to work on a real project right away. But this is only half the commitment you ought to make to their potential.
-It's just as important to retain the possibility of rapid progression by continuing to test their promise against harder and bigger challenges. I can't tell you the number of times I've been posi…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[July 2023 Leadership Council Update]]></title>
-        <id>https://blog.rust-lang.org/inside-rust/2023/07/25/leadership-council-update.html</id>
-        <link href="https://blog.rust-lang.org/inside-rust/2023/07/25/leadership-council-update.html"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello again from the Rust Leadership Council. In our first blog post, we laid out several immediate goals for the council and promised to report back on their progress. It has been about a month since our first update so we wanted to share how it's going and what we're working on now.
-Accomplishments so far
-In our first post, we wrote:
-In the coming weeks we will be establishing the basic infrastructure for the group, including creating a plan for regular meetings and a process for raising agenda items, setting up a team repository, and ultimately completing the transition from the former Rust leadership structures.
-We have made progress on each of these things.
-For the last month we have been holding weekly meetings and will continue to do so for at least the next month. In the long term,…]]></summary>
-        <author>
-            <name>Inside Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Demonstrate Evergreen Proof]]></title>
-        <id>https://taylor.town/demonstrate-evergreen-proof</id>
-        <link href="https://taylor.town/demonstrate-evergreen-proof"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Find something that matters and distill it into as few words as possible.]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Do Unforgettable Work]]></title>
-        <id>https://taylor.town/do-unforgettable-work</id>
-        <link href="https://taylor.town/do-unforgettable-work"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There are no shortcuts. Hand-written notes and flowers and donuts are cute but completely forgettable. Exceed common convention. Continually reinvent your reputation.]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't Fight Customers]]></title>
-        <id>https://taylor.town/dont-fight-customers</id>
-        <link href="https://taylor.town/dont-fight-customers"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Revenge is wasteful. Reputation is worth more than petty justice.]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Find Your Value]]></title>
-        <id>https://taylor.town/find-your-value</id>
-        <link href="https://taylor.town/find-your-value"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[When a behavior is valuable, people call it a "skill".]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How To Pick Your Price]]></title>
-        <id>https://taylor.town/pick-your-price</id>
-        <link href="https://taylor.town/pick-your-price"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Most people live fewer than 25,000 days. What are your hours worth?]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rucking with Children]]></title>
-        <id>https://taylor.town/ruck-kids</id>
-        <link href="https://taylor.town/ruck-kids"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Leave the stroller at home. Ruck with children. Climb up stairs! Reclaim your mobility! Take back your hands!]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Select Your Service]]></title>
-        <id>https://taylor.town/select-your-service</id>
-        <link href="https://taylor.town/select-your-service"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Plant giant flags in uncontested territories. Never squabble over tiny crowded plots.]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sell Your Service]]></title>
-        <id>https://taylor.town/sell-your-service</id>
-        <link href="https://taylor.town/sell-your-service"/>
-        <updated>2023-07-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Given a fixed amount, you have one major knob to turn: risk.]]></summary>
-        <author>
-            <name>taylor.town</name>
         </author>
     </entry>
 </feed>
