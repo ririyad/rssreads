@@ -2,10 +2,58 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-24T00:57:40.800Z</updated>
+    <updated>2023-08-25T00:58:30.192Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Admiration makes the team]]></title>
+        <id>https://world.hey.com/jason/admiration-makes-the-team-a26570c3</id>
+        <link href="https://world.hey.com/jason/admiration-makes-the-team-a26570c3"/>
+        <updated>2023-08-24T22:40:16.000Z</updated>
+        <summary type="html"><![CDATA[When people talk about great teams, they'll talk about hard work, trust, respect, looking out for one another, etc. All good things.
+But there's one quality amongst teammates on great teams that often goes unrecognized by all but the most astute organizational observers: Admiration.
+Great teams are made of people who *admire* one another's talents, skills, character, and contributions. Great teams are mutual admiration societies who get to work together.
+Admiration is the critical, silent variable in the powerful formula that equals exceptional teamwork.
+
+-Jason]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Technology Strategy for Emerging Technologies and Markets]]></title>
+        <id>https://martinfowler.com/articles/creating-integrated-tech-strategy.html#RespondingToTheEverChangingFuture</id>
+        <link href="https://martinfowler.com/articles/creating-integrated-tech-strategy.html#RespondingToTheEverChangingFuture"/>
+        <updated>2023-08-24T13:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Sarah Taraporewalla completes her study of building a
+     technology strategy that's integrated with strategic business interests.
+     This final strategic direction considers the ever-changing future,
+     suggesting lines of inquiry to consider the impact of new
+     technologies, market trends, and broader social-political changes. 
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Announcing Rust 1.72.0]]></title>
+        <id>https://blog.rust-lang.org/2023/08/24/Rust-1.72.0.html</id>
+        <link href="https://blog.rust-lang.org/2023/08/24/Rust-1.72.0.html"/>
+        <updated>2023-08-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.72.0. Rust is a programming language empowering everyone to build reliable and efficient software.
+If you have a previous version of Rust installed via rustup, you can get 1.72.0 with:
+rustup update stable
+
+If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.72.0 on GitHub.
+If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
+What's in 1.72.0 stable
+Rust reports potentially useful cfg-disabled items in errors
+You can conditionally enable Rust code using cfg, such as to…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[So Long, Twitter and Reddit]]></title>
         <id>https://andrewkelley.me/post/goodbye-twitter-reddit.html</id>
@@ -884,60 +932,6 @@ But the obsession with all things Elon is so strong that there’s no room or ti
      memo looks at the current toolchain for LLMs, categorizing them by what
      tasks they help with, how we interact with the LLM, and where they come from.
 more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Working remotely is a competitive hiring advantage again]]></title>
-        <id>https://world.hey.com/dhh/working-remotely-is-a-competitive-hiring-advantage-again-c182250e</id>
-        <link href="https://world.hey.com/dhh/working-remotely-is-a-competitive-hiring-advantage-again-c182250e"/>
-        <updated>2023-07-26T07:44:14.000Z</updated>
-        <summary type="html"><![CDATA[As more and more companies, especially large ones, have started demanding remote workers return to the office, the competitive hiring advantage for remote-first companies is back. And it's even bigger than before the pandemic, now that so many workers have had a taste of what life can be like when you don't have to commute to the office. This is great news for smaller companies and startups in particular.
-Let's face it, if you're trying to compete for talent with the likes of Google or Apple, you need all the help you can get, and these companies forcing everyone back into an office might just be your biggest lift. Because for quite a few people, working remotely or not has become the defining characteristic of a job. To the point where many remote workers won't even consider a position th…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bliki: TeamTopologies]]></title>
-        <id>https://martinfowler.com/bliki/TeamTopologies.html</id>
-        <link href="https://martinfowler.com/bliki/TeamTopologies.html"/>
-        <updated>2023-07-25T13:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Any large software effort, such as the software estate for a large
-    company, requires a lot of people - and whenever you have a lot of people
-    you have to figure out how to divide them into effective teams. Forming
-    Business Capability Centric teams helps software efforts to
-    be responsive to customers’ needs, but the range of skills required often
-    overwhelms such teams. Team Topologies is a model
-    for describing the organization of software development teams,
-    developed by Matthew Skelton and Manuel Pais. It defines four forms
-    of teams and three modes of team
-    interactions. The model encourages healthy interactions that allow 
-    business-capability centric teams to flourish in their task of providing a
-    steady flow of valuable software.
-The primary kind o…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bliki: TwoPizzaTeam]]></title>
-        <id>https://martinfowler.com/bliki/TwoPizzaTeam.html</id>
-        <link href="https://martinfowler.com/bliki/TwoPizzaTeam.html"/>
-        <updated>2023-07-25T13:22:00.000Z</updated>
-        <summary type="html"><![CDATA[A two-pizza team is a small team
-  that fully supports software for a particular business capability. The term
-  became popular as it used to describe how Amazon organized their software staff.
-The name suggests the most obvious aspect of such teams, their size. The
-  name comes from the principle that the team should no larger than can be fed
-  with two pizzas. (Although we are talking about American Pizzas here, which
-  seemed alarmingly huge when I first encountered them over here.) Keeping a
-  team small keeps it cohesive, forming tight working relationships. Typically I
-  hear this means such teams are about 5-8 people, although my experience
-  suggests that the upper limit is somewhere about 15.
-Although the name focuses solely on the size, just as important is the
-  team's focus. A …]]></summary>
         <author>
             <name>Martin Fowler</name>
         </author>
