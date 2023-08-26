@@ -78,16 +78,6 @@
           "wordCount": 698,
           "title": "Not everyone can be the best",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/x-marks-the-motivated-reasoning-13450584",
-          "author": null,
-          "description": "I’ve lost track of all the things that Musk has done to Twitter that ought to have brought it down by now. Scarcely a month goes by without some action triggering the incessant bells of doom, ringing from the bellies of bloviating ding dongs. And the ringing seemingly never stops long enough to allow for some basic contemplation or correction, as reality wrecks another prediction of peril.\n\n\nBut the obsession with all things Elon is so strong that there’s no room or time for introspection of any kind. It’s just on to the next faux outrage of tomorrow. Make sure you never miss a chance to be an expert on social media, advertising, team building, economics, or branding so you can tell the world’s most successful entrepreneur what a total idiot he’s being, and how much smarter, wiser, and kin…",
-          "link": "https://world.hey.com/dhh/x-marks-the-motivated-reasoning-13450584",
-          "publishedOn": "2023-07-27T09:16:53.000Z",
-          "wordCount": 579,
-          "title": "X marks the motivated reasoning",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -345,16 +335,6 @@
           "wordCount": 2163,
           "title": "Exploring Gen AI - Three versions of a median",
           "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/exploring-gen-ai.html#the-toolchain",
-          "author": null,
-          "description": "My colleague Birgitta Böckeler has long been one of our senior\n     technology leaders in Germany. She's now moved into a new role coordinating\n     our work with Generative AI and its effect of software delivery practices.\n     She's decided to publish her exploration in a series of memos. The first\n     memo looks at the current toolchain for LLMs, categorizing them by what\n     tasks they help with, how we interact with the LLM, and where they come from.\nmore…",
-          "link": "https://martinfowler.com/articles/exploring-gen-ai.html#the-toolchain",
-          "publishedOn": "2023-07-26T14:52:00.000Z",
-          "wordCount": 1082,
-          "title": "Exploring Gen AI - The toolchain",
-          "imageUrl": "https://martinfowler.com/logo-sq.png"
         }
       ]
     },
@@ -416,6 +396,26 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/08/25/leadership-initiatives.html",
+          "author": null,
+          "description": "Having not heard any significant disagreement with the first set of proposed priorities,\nwe are moving ahead with forming subgroups that will work towards defining and\ncompleting the work needed to drive these forward. We plan to re-assess\npriorities regularly, but for now these are our main work items (in no\nparticular order). We have some initial volunteers who will be pushing these\ninitiatives forward, but for all of these we are also looking for support from\nany interested people. Please reach out on Zulip in #council if\nyou'd like to help out with any of these in some capacity, or to the initial\nvolunteers called out here.\nEstablishing plans for how to strengthen the moderation team (i.e., 2 is not a sustainable number) and strengthen moderation policies.\n\nJosh Gould is leading, with support from Eric Holk. Their top priority is finding additional moderators and forming a contingent moderator team.\nFiguring out the \"shape\" of the Rust Project. The Leadership Council needs to reflect the will of the Rust Project so it is important to know who that includes.\n\nEric Huss is leading, with support from Jack Huey. They're working on defining the initial set of priorities here now.\nDocumenting and improving processes for interaction with the Rust Foundation including formalising the role of project directors in this process (the trademark policy process may be part of this).\n\nWe are looking for someone to help lead this initiative, with support from Mark Rousskov and Ryan Levick, two of the current  project directors. One of the proposed first concrete deliverables might be working towards a path forward on the trademark issue, using that as a stepping stone to defining broader policies. We're intentionally looking for someone not directly involved previously to help give an outside perspective as the lead.\nPlease reach out if you're interested in helping!",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/08/25/leadership-initiatives.html",
+          "publishedOn": "2023-08-25T00:00:00.000Z",
+          "wordCount": 389,
+          "title": "Seeking help for initial Leadership Council initiatives",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/08/24/cargo-config-merging.html",
+          "author": null,
+          "description": "Cargo will be changing the order of merged configuration arrays, and we are looking for people to help test this change and provide feedback.\nWhen an array in Cargo's configuration is defined in multiple places, the elements are merged together. The order that the elements were merged was inconsistent with how other configuration types were merged together, and was not working as expected.\nThe new merging order will match the precedence order of non-array configuration, with higher-precedence configuration being placed later in the array.\nIn the case of build.rustflags, this resolves the confusing situation where higher precedence flags (in a project's config.toml) are overridden with lower precedence flags (in the global $CARGO_HOME, for example).\nThis may result in behavior changes if a …",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/08/24/cargo-config-merging.html",
+          "publishedOn": "2023-08-24T00:00:00.000Z",
+          "wordCount": 493,
+          "title": "Cargo changes how arrays in config are merged",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2023/08/21/1.72.0-prerelease.html",
           "author": null,

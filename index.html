@@ -22,6 +22,72 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-25 datetime="2023-08-25T00:00:00.000Z">2023-08-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-25 datetime="2023-08-25T00:00:00.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Inside Rust Blog</button>
+                  <a class="source-heading__link" href="https://blog.rust-lang.org/inside-rust/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.rust-lang.org/inside-rust/2023/08/25/leadership-initiatives.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Seeking help for initial Leadership Council initiatives</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2023/08/25/leadership-initiatives.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Having not heard any significant disagreement with the first set of proposed priorities,
+we are moving ahead with forming subgroups that will work towards defining and
+completing the work needed to drive these forward. We plan to re-assess
+priorities regularly, but for now these are our main work items (in no
+particular order). We have some initial volunteers who will be pushing these
+initiatives forward, but for all of these we are also looking for support from
+any interested people. Please reach out on Zulip in #council if
+you&#x27;d like to help out with any of these in some capacity, or to the initial
+volunteers called out here.
+Establishing plans for how to strengthen the moderation team (i.e., 2 is not a sustainable number) and strengthen moderation policies.
+
+Josh Gould is leading, with support from Eric Holk. Their top priority is finding additional moderators and forming a contingent moderator team.
+Figuring out the &quot;shape&quot; of the Rust Project. The Leadership Council needs to reflect the will of the Rust Project so it is important to know who that includes.
+
+Eric Huss is leading, with support from Jack Huey. They&#x27;re working on defining the initial set of priorities here now.
+Documenting and improving processes for interaction with the Rust Foundation including formalising the role of project directors in this process (the trademark policy process may be part of this).
+
+We are looking for someone to help lead this initiative, with support from Mark Rousskov and Ryan Levick, two of the current  project directors. One of the proposed first concrete deliverables might be working towards a path forward on the trademark issue, using that as a stepping stone to defining broader policies. We&#x27;re intentionally looking for someone not directly involved previously to help give an outside perspective as the lead.
+Please reach out if you&#x27;re interested in helping!</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
             <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-24 datetime="2023-08-24T22:40:16.000Z">2023-08-24</time>
             <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-24 datetime="2023-08-24T22:40:16.000Z"></time>
           </button>
@@ -138,6 +204,44 @@ What&#x27;s in 1.72.0 stable
 Rust reports potentially useful cfg-disabled items in errors
 You can conditionally enable Rust code using cfg, such as to…</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Inside Rust Blog</button>
+                  <a class="source-heading__link" href="https://blog.rust-lang.org/inside-rust/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://blog.rust-lang.org/inside-rust/2023/08/24/cargo-config-merging.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Cargo changes how arrays in config are merged</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://blog.rust-lang.org/inside-rust/2023/08/24/cargo-config-merging.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.rust-lang.org/static/images/rust-social-wide.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cargo will be changing the order of merged configuration arrays, and we are looking for people to help test this change and provide feedback.
+When an array in Cargo&#x27;s configuration is defined in multiple places, the elements are merged together. The order that the elements were merged was inconsistent with how other configuration types were merged together, and was not working as expected.
+The new merging order will match the precedence order of non-array configuration, with higher-precedence configuration being placed later in the array.
+In the case of build.rustflags, this resolves the confusing situation where higher precedence flags (in a project&#x27;s config.toml) are overridden with lower precedence flags (in the global $CARGO_HOME, for example).
+This may result in behavior changes if a …</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -2319,103 +2423,12 @@ more…</span>
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >David Heinemeier Hansson</button>
-                  <a class="source-heading__link" href="https://world.hey.com/dhh">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://world.hey.com/dhh/x-marks-the-motivated-reasoning-13450584"
-                        open
-                      >
-                        <summary class="article-expander__title">X marks the motivated reasoning</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://world.hey.com/dhh/x-marks-the-motivated-reasoning-13450584">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>I’ve lost track of all the things that Musk has done to Twitter that ought to have brought it down by now. Scarcely a month goes by without some action triggering the incessant bells of doom, ringing from the bellies of bloviating ding dongs. And the ringing seemingly never stops long enough to allow for some basic contemplation or correction, as reality wrecks another prediction of peril.
-
-
-But the obsession with all things Elon is so strong that there’s no room or time for introspection of any kind. It’s just on to the next faux outrage of tomorrow. Make sure you never miss a chance to be an expert on social media, advertising, team building, economics, or branding so you can tell the world’s most successful entrepreneur what a total idiot he’s being, and how much smarter, wiser, and kin…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-26 datetime="2023-07-26T14:52:00.000Z">2023-07-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-26 datetime="2023-07-26T14:52:00.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Martin Fowler</button>
-                  <a class="source-heading__link" href="https://martinfowler.com/feed.atom">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://martinfowler.com/articles/exploring-gen-ai.html#the-toolchain"
-                        open
-                      >
-                        <summary class="article-expander__title">Exploring Gen AI - The toolchain</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://martinfowler.com/articles/exploring-gen-ai.html#the-toolchain">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://martinfowler.com/logo-sq.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>My colleague Birgitta Böckeler has long been one of our senior
-     technology leaders in Germany. She&#x27;s now moved into a new role coordinating
-     our work with Generative AI and its effect of software delivery practices.
-     She&#x27;s decided to publish her exploration in a series of memos. The first
-     memo looks at the current toolchain for LLMs, categorizing them by what
-     tasks they help with, how we interact with the LLM, and where they come from.
-more…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/5970555793">
-        <time id="build-timestamp" datetime="2023-08-25T00:58:30.161Z">2023-08-25T00:58:30.161Z</time>
+      <a class="footer-link" href="https://github.com/ririyad/rssreads/actions/runs/5981821069">
+        <time id="build-timestamp" datetime="2023-08-26T00:56:10.464Z">2023-08-26T00:56:10.464Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
