@@ -315,16 +315,6 @@
           "wordCount": 3272,
           "title": "Exploring Gen AI: When is in-line assistance useful?",
           "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html",
-          "author": null,
-          "description": "As startups begin to grow rapidly, they often find that early decisions\n     that helped them find a product/market fit lead to excessive costs once\n     traffic increases. These costs can threaten a scaleup's ability to grow.\n     Sofia Tania and Stefania Stefansdottir have worked with\n     many scaleups in this predicament and share their approach to understanding\n     and reducing these costs.\nmore…",
-          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html",
-          "publishedOn": "2023-07-31T13:30:00.000Z",
-          "wordCount": 1682,
-          "title": "Bottlenecks of Scaleups: Cost Efficiency",
-          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
         }
       ]
     },
@@ -613,6 +603,16 @@
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
         {
+          "id": "https://taylor.town/lazy-nursery",
+          "author": null,
+          "description": "If you have waste and space, you're wasting space.",
+          "link": "https://taylor.town/lazy-nursery",
+          "publishedOn": "2023-08-30T00:00:00.000Z",
+          "wordCount": 477,
+          "title": "The Lazy Garbage Nursery Guide",
+          "imageUrl": null
+        },
+        {
           "id": "https://taylor.town/how-i-eat",
           "author": null,
           "description": "I'm no dietitian, but I've been eating for quite a while.",
@@ -701,6 +701,163 @@
           "wordCount": 319,
           "title": "go big or go small or go home but don't go medium",
           "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Slashdot",
+      "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
+      "siteUrl": "https://slashdot.org/",
+      "articles": [
+        {
+          "id": "https://science.slashdot.org/story/23/08/30/017243/nasa-to-demonstrate-laser-communications-from-space-station?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "SonicSpike shares a report from NASA: In 2023, NASA is sending a technology demonstration known as the Integrated LCRD Low Earth Orbit User Modem and Amplifier Terminal (ILLUMA-T) to the space station. Together, ILLUMA-T and the Laser Communications Relay Demonstration (LCRD), which launched in December 2021, will complete NASA's first two-way, end-to-end laser relay system. With ILLUMA-T, NASA's Space Communications and Navigation (SCaN) program office will demonstrate the power of laser communications from the space station. Using invisible infrared light, laser communications systems send and receive information at higher data rates. With higher data rates, missions can send more images and videos back to Earth in a single transmission. Once installed on the space station, ILLUMA-T will…",
+          "link": "https://science.slashdot.org/story/23/08/30/017243/nasa-to-demonstrate-laser-communications-from-space-station?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-30T07:00:00.000Z",
+          "wordCount": 4318,
+          "title": "NASA To Demonstrate Laser Communications From Space Station",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/08/29/232222/womans-mystery-illness-turns-out-to-be-3-inch-snake-parasite-in-her-brain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: A neurosurgeon in Australia pulled a wriggling 3-inch roundworm from the brain of a 64-year-old woman last year -- which was quite the surprise to the woman's team of doctors and infectious disease experts, who had spent over a year trying to identify the cause of her recurring and varied symptoms. A close study of the extracted worm made clear why the diagnosis was so hard to pin down: the roundworm was one known to infect snakes -- specifically carpet pythons endemic to the area where the woman lived -- as well as the pythons' mammalian prey. The woman is thought to be the first reported human to ever have an infection with this snake-adapted worm, and it is the first time the worm has been found burrowing through a mammalian brain. …",
+          "link": "https://science.slashdot.org/story/23/08/29/232222/womans-mystery-illness-turns-out-to-be-3-inch-snake-parasite-in-her-brain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-30T03:30:00.000Z",
+          "wordCount": 6326,
+          "title": "Woman's Mystery Illness Turns Out To Be 3-Inch Snake Parasite In Her Brain",
+          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/08/29/2258208/benevolent-hackers-clear-stalking-spyware-from-75000-phones?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to TechCrunch, unnamed hackers reportedly breached the spyware firm WebDetetive, deleting device information to protect surveillance victims and denying spyware users new data. Engadget reports: Users of the spyware won't get any new data from their targets. \"Because #fuckstalkerware,\" the hackers wrote in a note obtained by TechCrunch. The WebDetetive breach compromised more than 76,000 devices belonging to customers of the stalkerware, and more than 1.5 gigabytes of data freed from app's servers, according to the hackers.\n \nWhile TechCrunch did not independently confirm the deletion of victim's data from the WebDetetive server, a cache of data shared by the hackers provided a look at what they were able to accomplish. TechCrunch also worked with a nonprofit that logs exposed datasets, DDoSecrets, to verify and analyze the information. Hackers obtained information on customers like IP addresses and devices that they targeted.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/08/29/2258208/benevolent-hackers-clear-stalking-spyware-from-75000-phones?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-30T01:25:00.000Z",
+          "wordCount": 4562,
+          "title": "Benevolent Hackers Clear Stalking Spyware From 75,000 Phones",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/08/29/2247230/apple-to-buy-tsmcs-entire-supply-of-3nm-chips-for-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to DigiTimes, Apple will receive all TSMC's first-generation 3-nanometer process chips this year for its upcoming devices. MacRumors reports: As early as May, Apple was known to have booked nearly 90% of the Taiwanese pure-play foundry for its upcoming next-gen devices. However, Apple is now projected to take 100% of TSMC's capacity in 2023, due to delays in Intel's wafer needs owing to later modifications to the company's CPU platform design plans. Intel's lack of orders means TSMC's sales of 3nm chips will be significantly lower this year. While TSMC is still expected to experience significant growth in the fourth quarter as it starts mass producing 3nm chips for Apple's needs, they too have been downgraded, according to DigiTimes' industry sources.\n \nThe report suggests TSMC's 3nm process output may be reduced to 50,000-60,000 wafers monthly in the fourth quarter, down from the 80,000-100,000 units previously anticipated, due to a cutback in Apple's orders. The current monthly output of TSMC's 3nm process is estimated at approximately 65,000 wafers, the outlet's sources said. Apple's upcoming iPhone 15 Pro models are expected to feature the A17 Bionic processor, Apple's first iPhone chip based on TSMC's first-generation 3nm process, also known as N3B. The E3nm technology is said to deliver a 35% power efficiency improvement and 15% faster performance compared to 4nm, which was used to make the A16 Bionic chip for the iPhone 14 Pro and Pro Max.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/08/29/2247230/apple-to-buy-tsmcs-entire-supply-of-3nm-chips-for-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-30T00:45:00.000Z",
+          "wordCount": 6179,
+          "title": "Apple To Buy TSMC's Entire Supply of 3nm Chips For 2023",
+          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/08/29/2118234/google-launches-bigquery-studio-a-new-way-to-work-with-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: Companies increasingly see the value in mining their data for deeper insights. According to a NewVantage survey, 97.6% of major worldwide organizations are focusing investments into big data and AI. But challenges stand in the way of executing big data analytics. One recent poll found that 65% of organizations feel they have \"too much\" data to analyze. Google's proposed solution is BigQuery Studio, a new service within BigQuery, its fully managed serverless data warehouse, that provides a single experience to edit programming languages including SQL, Python and Spark to run analytics and machine learning workloads at \"petabyte scale.\" BigQuery Studio is available in preview as of this week.\n \n\"BigQuery Studio is a new experience that rea…",
+          "link": "https://developers.slashdot.org/story/23/08/29/2118234/google-launches-bigquery-studio-a-new-way-to-work-with-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-30T00:02:00.000Z",
+          "wordCount": 4333,
+          "title": "Google Launches BigQuery Studio, a New Way To Work With Data",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/23/08/29/2112249/linux-65-kernel-released?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "ZDNet's Steven Vaughan-Nichols shares what's new in the release of Linux 6.5: The biggest news for servers -- and cloud Linux users -- is AMD Ryzen processors' P-State support. This support should mean better performance and power use across CPU cores. Intel Alder Lake CPUs have also received improved load balancing in a related development. RISC-V architecture fans will be pleased to find Linux now has Advanced Configuration and Power Interface (ACPI) support. ACPI is used in Linux and other operating systems for power management. It's vital for laptops and other battery-powered systems.\n \nFor better security, people using virtual machines or sandboxes based on Usermode Linux for testing, or running multiple versions of Linux at once, now have Landlock support. Landock is a Linux Security Module that enables applications to sandbox themselves by selecting access rights to directories. It's designed to be used by unprivileged processes while following the system security policy. To make talking with the rest of the world easier, Linux 6.5 now supports USB 4v2. This new USB-C standard will support up to an eye-watering 120Gbps. And while we're still getting used to Wi-Fi 6E, the Wi-Fi Alliance is already working on bringing us Wi-Fi 7. When Wi-Fi 7 arrives, with its theoretical maximum speed of 46Gbps, Linux will be ready. As usual, the new Linux has many more built-in audio and graphics drivers. The Bcachefs filesystem didn't make it into Linux 6.5, notes Vaughan-Nichols. \"While the Bcachefs filesystem looks good, there's been a lot of developers fighting about the development process. These personal arguments have led Torvalds to decide not to incorporate Bcachefs into Linux 6.5.\"\n \nLinus Torvalds announced Linux 6.5's delivery in a brief post on August 27.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://linux.slashdot.org/story/23/08/29/2112249/linux-65-kernel-released?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T23:20:00.000Z",
+          "wordCount": 5051,
+          "title": "Linux 6.5 Kernel Released",
+          "imageUrl": "https://a.fsdn.com/sd/topics/opensource_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/08/29/213220/netflix-added-26-million-us-subscribers-in-july-despite-password-sharing-crackdown?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to research firm Antenna, Netflix had 2.6 million gross subscriber additions in July. \"The company also saw the highest percentage of new sign-ups going to its advertising tier since the $7-a-month offering hit the market last November,\" reports Deadline. \"About 23% of new subscribers opted for the ad tier, a gain of four percentage points over June levels.\" From the report: The overall July gains represented a 26% downturn from June's record-breaking numbers, but they still show momentum stretching back to the May 23 introduction of paid password sharing in the U.S. From May 24 to 27, Netflix had its four biggest single days of sign-ups in the four-and-a-half years since Antenna has began tracking its subscribers, outpacing even the 2020 Covid boom.\n \nThe new password scheme followed last fall's debut of the cheaper, ad-supported subscription tier, with the combination of the two providing a potent boost. In the second quarter ending June 30, the company reported that it doubled projections by adding 5.9 million subscribers, reaching 238.3 million worldwide.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/08/29/213220/netflix-added-26-million-us-subscribers-in-july-despite-password-sharing-crackdown?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T22:40:00.000Z",
+          "wordCount": 6288,
+          "title": "Netflix Added 2.6 Million US Subscribers In July Despite Password-Sharing Crackdown",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/08/29/2055240/sports-leagues-ask-us-for-instantaneous-dmca-takedowns-and-website-blocking?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: Sports leagues are urging the US to require \"instantaneous\" takedowns of pirated livestreams and new requirements for Internet service providers to block pirate websites. The Digital Millennium Copyright Act of 1998 requires websites to \"expeditiously\" remove infringing material upon being notified of its existence. But pirated livestreams of sports events often aren't taken down while the events are ongoing, said comments submitted last week by Ultimate Fighting Championship, the National Basketball Association, and National Football League.\n \nThe \"DMCA does not define 'expeditiously,' and OSPs [online service providers] have exploited this ambiguity in the statutory language to delay removing content in response to takedown requests,…",
+          "link": "https://yro.slashdot.org/story/23/08/29/2055240/sports-leagues-ask-us-for-instantaneous-dmca-takedowns-and-website-blocking?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T22:00:00.000Z",
+          "wordCount": 5887,
+          "title": "Sports Leagues Ask US For 'Instantaneous' DMCA Takedowns and Website Blocking",
+          "imageUrl": "https://a.fsdn.com/sd/topics/piracy_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/08/29/1830233/reports-of-the-pcs-death-are-greatly-exaggerated-says-idc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The PC market is expected to return to growth in 2024, according to estimates from IDC analysts. From a report: Still, industry players might want to taper their enthusiasm. PC shipments are forecast to grow 3.7 percent year-on-year to hit 261.4 million units in 2024, putting them above 2018 levels, but not quite on par with 2019 demand. Meanwhile, 2023 is predicted to sink by 13.7 percent to 252 million units. Research manager Jitesh Ubrani called demand \"tepid at best\" and said 2023 will be the year with the \"greatest annual decline in consumer PC shipments since the category's inception.\" \n\nIDC recognizes the market still faces challenges including \"concerns around the consumer market refresh cycle, businesses pushing device purchases forward, and education budgets that are not rebounding in many markets.\" Market hesitancy, as always, boils down to uncertainty. For one, processors are seeing what IDC called \"some of the biggest shifts in commercial PC history\" as AMD market share hit 11 percent in 2022 and Apple pulled in just over 5 percent that year. Apple device sales have been on a decline for multiple quarters now. Q1 2023 saw new Macs plummet more than 40 percent year-on-year, compared to an overall 25-30 percent among PC vendors. The quarter before that saw Apple shipments outperform the PC market as a whole, declining a mere 2.1 percent while other manufacturers experienced 37 percent reductions.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/08/29/1830233/reports-of-the-pcs-death-are-greatly-exaggerated-says-idc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T21:20:00.000Z",
+          "wordCount": 7910,
+          "title": "Reports of the PC's Death Are Greatly Exaggerated, Says IDC",
+          "imageUrl": "https://a.fsdn.com/sd/topics/hardware_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/08/29/1826220/fbi-dismantles-a-malware-system-that-took-millions-in-ransom?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The FBI said Tuesday that it has taken down a network of hacked devices responsible for extorting tens of millions of dollars from victims around the world. From a report: US officials described the network known as Qakbot as one of the most notorious \"botnets\" in the world, referring to computer networks that have been infected with malicious software so that they can be controlled remotely without the owner's knowledge -- often to send phishing emails. These emails can in turn be used to hack into victims' computer systems, which attackers will hold for ransom. \n\nQakbot was instrumental in enabling cyberattacks against businesses and critical services around the world, according to US officials, including hits on the San Bernardino County Sheriff's Department and hospitals run by Prospect Medical Group. The latter resulted in the closure of emergency rooms and medical facilities across the US. US officials estimated that, since its creation in 2008, Qakbot had infected around 200,000 computers in the US and 700,000 globally.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/08/29/1826220/fbi-dismantles-a-malware-system-that-took-millions-in-ransom?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T20:40:00.000Z",
+          "wordCount": 4753,
+          "title": "FBI Dismantles a Malware System That Took Millions in Ransom",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/08/29/1823219/google-deepmind-launches-watermarking-tool-for-ai-generated-images?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google DeepMind has launched a new watermarking tool that labels whether images have been generated with AI. From a report: The tool, called SynthID, will initially be available only to users of Google's AI image generator Imagen, which is hosted on Google Cloud's machine learning platform Vertex. Users will be able to generate images using Imagen and then choose whether to add a watermark or not. The hope is that it could help people tell when AI-generated content is being passed off as real, or help protect copyright. [...] Traditionally images have been watermarked by adding a visible overlay onto them, or adding information into their metadata. But this method is \"brittle\" and the watermark can be lost when images are cropped, resized, or edited, says Pushmeet Kohli, vice president of research at Google DeepMind. \n\nSynthID is created using two neural networks. One takes the original image and produces another image that looks almost identical to it, but with some pixels subtly modified. This creates an embedded pattern that is invisible to the human eye. The second neural network can spot the pattern and will tell users whether it detects a watermark, suspects the image has a watermark, or finds that it doesn't have a watermark. Kohli said SynthID is designed in a way that means the watermark can still be detected even if the image is screenshotted or edited -- for example, by rotating or resizing it.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/08/29/1823219/google-deepmind-launches-watermarking-tool-for-ai-generated-images?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T20:00:00.000Z",
+          "wordCount": 5106,
+          "title": "Google DeepMind Launches Watermarking Tool For AI-Generated Images",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://slashdot.org/story/23/08/29/1816233/first-bitcoin-etf-could-be-coming-soon-as-court-rules-in-favor-of-grayscale-over-sec?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. Court of Appeals for the D.C. Circuit has paved the way for bitcoin exchange-traded funds. From a report: On Tuesday, the court sided with Grayscale in a lawsuit against the Securities and Exchange Commission which had denied the company's application to convert the Grayscale Bitcoin Trust to an ETF. The decision could impact other companies that want to create bitcoin ETFs, like BlackRock and Fidelity. A spot bitcoin ETF would be traded through a traditional stock exchange, although the bitcoin would be held by a brokerage, and would allow investors to gain exposure to the world's biggest cryptocurrency without having to own the coin themselves. Many crypto bulls believe that approval of a spot bitcoin ETF will lead to more mainstream institutional adoption. \n\nBitcoin, ether and other major cap crypto coins surged on the news, and Coinbase, which is listed as the custodian partner in multiple spot bitcoin ETF applications, was up more than 14% on Tuesday. \"The Commission failed to adequately explain why it approved the listing of two bitcoin futures ETPs but not Grayscale's proposed bitcoin ETP,\" the court said, referring to exchange-traded products. \"In the absence of a coherent explanation, this unlike regulatory treatment of like products is unlawful.\" Grayscale Investments, which manages the world's biggest crypto fund, initiated its lawsuit against the SEC in June 2022 after the agency rejected its application to turn its flagship bitcoin fund, better known by its ticker GBTC, into an ETF. The company decided to pursue the ETF, which would be backed by bitcoin rather than bitcoin derivatives, after the SEC approved ProShares' futures-based bitcoin ETF in October 2021.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/08/29/1816233/first-bitcoin-etf-could-be-coming-soon-as-court-rules-in-favor-of-grayscale-over-sec?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T19:20:00.000Z",
+          "wordCount": 5248,
+          "title": "First Bitcoin ETF Could Be Coming Soon as Court Rules in Favor of Grayscale Over SEC",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/08/29/1731251/the-new-google-chat-borrows-from-slack-teams-discord-and-even-chatgpt?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google is making some big changes to Google Chat, its answer to Slack and Microsoft Teams. The messaging app -- aka the product formerly known as hangouts -- is getting a new design, some features that will feel distinctly familiar to Slack and Teams users, and a lot of Google's new Duet AI collaboration tools. From a report: Most of the new features are rolling out later this year and early next, but they add up to a much more useful and competitive Chat platform. Duet is the flagship new feature and potentially a reason for a lot of Workspace users to start using Chat. You can use Duet to search and ask questions about all your stuff in Drive and Gmail and summarize both documents and conversations. You'll also be able to use AI-powered autocorrect in Chat, and thanks to Smart Reply, you might never have to manually talk to your co-workers again. You'll be able to talk to Duet in a one-on-one chat or invoke it in a group chat or a space to help get stuff done. \"You essentially have a co-worker who has infinite memory and amazing recall at your fingertips,\" says Vamsee Jasti, Google's product lead for Chat. \n\nOutside of the AI integrations, Chat is also getting a facelift. The app has, until now, looked like a fairly barebones messaging app, with a list of conversations on the left and the active chat on the right; now, it's going to have a lot more going on. (And, yes, it will look a lot more like Slack and Teams.) There will be a new home view with all your recent conversations, plus dedicated ways to see all your starred conversations and mentions. For now, everything will be reverse-chronological, but Google says it plans to start more intelligently organizing and ordering things next year. The interface as a whole is getting a bit of cleanup, too, with larger buttons and aesthetics borrowed from Google's Material You design language.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/08/29/1731251/the-new-google-chat-borrows-from-slack-teams-discord-and-even-chatgpt?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T18:40:00.000Z",
+          "wordCount": 5173,
+          "title": "The New Google Chat Borrows From Slack, Teams, Discord and Even ChatGPT",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/08/29/1736232/ifixit-petitions-government-for-the-right-to-fix-mcdonalds-ice-cream-machines?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "samleecole writes: A group of right to repair activists and consumer rights advocates are petitioning the Librarian of Congress for the right to hack McDonald's notoriously unreliable McFlurry machines for the purposes of repair, according to a copy of the petition obtained by 404 Media. \n\n\"This is a request to expand the repair exemption for consumer electronic devices to include commercial industrial equipment such as automated building management systems and industrial equipment (i.e. soft serve ice cream machines and other industrial kitchen equipment),\" the proposal, written by right to repair group iFixit and the nonprofit Public Knowledge, says. In addition, iFixit got its hands on a Taylor ice cream machine and tore it down in an effort to determine why they are broken so damn often and published a new video showing the process of taking the machine apart and explaining why they're always broken when you want fast food ice cream.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/08/29/1736232/ifixit-petitions-government-for-the-right-to-fix-mcdonalds-ice-cream-machines?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T18:00:00.000Z",
+          "wordCount": 9844,
+          "title": "iFixit Petitions Government For the Right To Fix McDonald's Ice Cream Machines",
+          "imageUrl": "https://a.fsdn.com/sd/topics/yro_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/08/29/1711253/google-says-over-half-of-generative-ai-startups-use-its-cloud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "When employees leave Google to join the artificial intelligence startup race, the search giant still has a way to benefit -- by keeping those former workers as cloud customers. From a report: More than half of venture-backed generative AI startups pay for Google's cloud computing platform, Alphabet, Google's parent company, said Tuesday. Of the startups valued at over $1 billion, 70% are Google Cloud customers, and about a third of those are helmed by former employees, including Anthropic, Character.ai and Cohere, the company said. That gives Google a way to extend its influence in the field even when it sheds talent. \n\nGoogle's cloud unit, which reported a profit for the first time this year, has emerged as one of the company's best bets for growth as its core search business matures. Google still trails Amazon's AWS and Microsoft's Azure in the market. But startups in the field of generative AI -- programs that can spin up images, text and video from simple prompts -- are increasingly turning to the company, said James Lee, Google Cloud's general manager for startups and AI. \"We're seeing strong momentum in our business, and we see Google Cloud as the preferred choice for startups building generative AI,\" Lee said in an interview. Google Cloud customers have the option to use AI models from Google itself as well as other companies, a degree of flexibility that appeals to startups, Lee said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/08/29/1711253/google-says-over-half-of-generative-ai-startups-use-its-cloud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-08-29T17:20:00.000Z",
+          "wordCount": 4630,
+          "title": "Google Says Over Half of Generative AI Startups Use Its Cloud",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
         }
       ]
     }
