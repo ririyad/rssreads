@@ -2,10 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-29T00:59:23.794Z</updated>
+    <updated>2023-08-30T00:59:10.112Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Change in Guidance on Committing Lockfiles]]></title>
+        <id>https://blog.rust-lang.org/2023/08/29/committing-lockfiles.html</id>
+        <link href="https://blog.rust-lang.org/2023/08/29/committing-lockfiles.html"/>
+        <updated>2023-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For years, the Cargo team has encouraged Rust developers to
+commit their Cargo.lock file for packages with binaries but not libraries.
+We now recommend people
+do what is best for their project.
+To help people make a decision, we do include some considerations and suggest
+committing Cargo.lock as a starting point in their decision making.
+To align with that starting point, cargo new will no longer ignore
+Cargo.lock for libraries as of nightly-2023-08-24.
+Regardless of what decision projects make, we encourage regular
+testing against their latest dependencies.
+Background
+The old guidelines ensured libraries tested their latest dependencies which
+helped us keep quality high within Rust's package ecosystem by ensuring issues,
+especially backwards compatibility issues,
+were quickly found and ad…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Leadership Council Membership Changes]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html"/>
+        <updated>2023-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As of today, Khionu Sybiern will no longer be the representative of the Moderation team on the
+Leadership Council, and she is also stepping down from the Moderation Team entirely, for personal
+reasons. She hopes to return to contributing in the future. Josh Gould will be joining the
+Leadership Council as the Moderation Team representative.
+We thank Khionu for her extensive time and incredibly important contributions to the Moderation
+Team and the Leadership Council. We wish her the best, and that she returns to the Rust community
+when she's ready. We thank Josh for being able to fill the Leadership Council role and look forward
+to working with them!
+We had already begun working on growing the essential Moderation Team before; because of that and
+Khio stepping down, we are also pleased to announce that Oliver Scherer (oli-obk) has joined the
+Moderation Team. Please join us in welcoming Oli!]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How I Eat]]></title>
+        <id>https://taylor.town/how-i-eat</id>
+        <link href="https://taylor.town/how-i-eat"/>
+        <updated>2023-08-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I'm no dietitian, but I've been eating for quite a while.]]></summary>
+        <author>
+            <name>taylor.town</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[gzip-ed, streaming uploads from browsers]]></title>
         <id>https://dietcode.io/t/gzip-uploads/</id>
@@ -922,16 +976,6 @@ we'd love your feedback on this GitHub issue.]]></summary>
 more…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Town Hall #13: Pests]]></title>
-        <id>https://taylor.town/town-hall-0013</id>
-        <link href="https://taylor.town/town-hall-0013"/>
-        <updated>2023-07-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Your skull cannot be tented nor fumigated.]]></summary>
-        <author>
-            <name>taylor.town</name>
         </author>
     </entry>
 </feed>

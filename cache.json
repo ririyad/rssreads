@@ -340,6 +340,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/08/29/committing-lockfiles.html",
+          "author": null,
+          "description": "For years, the Cargo team has encouraged Rust developers to\ncommit their Cargo.lock file for packages with binaries but not libraries.\nWe now recommend people\ndo what is best for their project.\nTo help people make a decision, we do include some considerations and suggest\ncommitting Cargo.lock as a starting point in their decision making.\nTo align with that starting point, cargo new will no longer ignore\nCargo.lock for libraries as of nightly-2023-08-24.\nRegardless of what decision projects make, we encourage regular\ntesting against their latest dependencies.\nBackground\nThe old guidelines ensured libraries tested their latest dependencies which\nhelped us keep quality high within Rust's package ecosystem by ensuring issues,\nespecially backwards compatibility issues,\nwere quickly found and ad…",
+          "link": "https://blog.rust-lang.org/2023/08/29/committing-lockfiles.html",
+          "publishedOn": "2023-08-29T00:00:00.000Z",
+          "wordCount": 541,
+          "title": "Change in Guidance on Committing Lockfiles",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/08/24/Rust-1.72.0.html",
           "author": null,
           "description": "The Rust team is happy to announce a new version of Rust, 1.72.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.72.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.72.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.72.0 stable\nRust reports potentially useful cfg-disabled items in errors\nYou can conditionally enable Rust code using cfg, such as to…",
@@ -386,6 +396,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html",
+          "author": null,
+          "description": "As of today, Khionu Sybiern will no longer be the representative of the Moderation team on the\nLeadership Council, and she is also stepping down from the Moderation Team entirely, for personal\nreasons. She hopes to return to contributing in the future. Josh Gould will be joining the\nLeadership Council as the Moderation Team representative.\nWe thank Khionu for her extensive time and incredibly important contributions to the Moderation\nTeam and the Leadership Council. We wish her the best, and that she returns to the Rust community\nwhen she's ready. We thank Josh for being able to fill the Leadership Council role and look forward\nto working with them!\nWe had already begun working on growing the essential Moderation Team before; because of that and\nKhio stepping down, we are also pleased to announce that Oliver Scherer (oli-obk) has joined the\nModeration Team. Please join us in welcoming Oli!",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html",
+          "publishedOn": "2023-08-29T00:00:00.000Z",
+          "wordCount": 226,
+          "title": "Leadership Council Membership Changes",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2023/08/25/leadership-initiatives.html",
           "author": null,
@@ -593,6 +613,16 @@
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
         {
+          "id": "https://taylor.town/how-i-eat",
+          "author": null,
+          "description": "I'm no dietitian, but I've been eating for quite a while.",
+          "link": "https://taylor.town/how-i-eat",
+          "publishedOn": "2023-08-29T00:00:00.000Z",
+          "wordCount": 1112,
+          "title": "How I Eat",
+          "imageUrl": null
+        },
+        {
           "id": "https://taylor.town/carbon-nuggets",
           "author": null,
           "description": "Corn isotopes everywhere! Has science gone too far?",
@@ -670,16 +700,6 @@
           "publishedOn": "2023-08-01T00:00:00.000Z",
           "wordCount": 319,
           "title": "go big or go small or go home but don't go medium",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/town-hall-0013",
-          "author": null,
-          "description": "Your skull cannot be tented nor fumigated.",
-          "link": "https://taylor.town/town-hall-0013",
-          "publishedOn": "2023-07-31T00:00:00.000Z",
-          "wordCount": 673,
-          "title": "Town Hall #13: Pests",
           "imageUrl": null
         }
       ]
