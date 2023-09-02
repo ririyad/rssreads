@@ -30,6 +30,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f",
+          "author": null,
+          "description": "When things aren't going well with a new hire, the problem usually falls into one of two categories: competency or engagement. If it's a problem with engagement – their style of collaboration, their communication, their approach – there's a good chance you can fix it with some clear feedback. But if the problem is with core competency – their technical skills – you can't expect to solve that with a stern conversation.\nIt's true that it might not be entirely clear in the early days of a new hire whether problems fall into one category or the other. But eventually it will be clear, and when it is, you have to act accordingly. \nProblems with engagement are often simply due to unstated assumptions. You expect someone to act a certain way, but they don't realize that, so they don't, and you're …",
+          "link": "https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f",
+          "publishedOn": "2023-09-01T18:22:23.000Z",
+          "wordCount": 625,
+          "title": "You can't fix core competency with a stern conversation",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/learning-to-accept-defeat-against-reality-141fb093",
           "author": null,
           "description": "A great many smart people terminably hamper their ability to better understand the world by refusing to accept defeat when reality proves them wrong. Armed with an intellect that's at once both too proud to recognize it's own failings and cunningly capable of producing sophisticated excuses, they're adapt at spotting this failing in others but not in themselves.\nYou see this all the time in the realm of public policy. Someone presents a plausible thesis on how to deal with a given problem. They drum up support for an attempt that follows their ideas, but when the attempt is defeated by reality, they can't retreat, and become stuck trying to defend the path in ever-more creative yet ludicrous ways.\nWatch the cadre of \"harm reduction\" activists attempt to defend the increasingly decrepit sta…",
@@ -348,26 +358,6 @@
           "wordCount": 1292,
           "title": "2022 Annual Rust Survey Results",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html",
-          "author": null,
-          "description": "The Rust team has published a new point release of Rust, 1.71.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust\n1.71.1 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the\nappropriate page on our website.\nWhat's in 1.71.1 stable\nRust 1.71.1 fixes Cargo not respecting the umask when extracting dependencies,\nwhich could allow a local attacker to edit the cache of extracted source code\nbelonging to another local user, potentially executing code as another user.\nThis security vulnerability is tracked as CVE-2023-38497, and you can read\nmore about it on the advisory we published earlier today. We\nrecommend all users to update their toolchain as soon as possible.\nRust 1.71.1 also addresses several regressions introduced in Rust 1.71.0,\nincluding bash completion being broken for users of Rustup, and the\nsuspicious_double_ref_op being emitted when calling borrow() even though it\nshouldn't.\nYou can find more detailed information on the specific regressions, and other\nminor fixes, in the release notes.\nContributors to 1.71.1\nMany people came together to create Rust 1.71.1. We couldn't have done it\nwithout all of you. Thanks!",
-          "link": "https://blog.rust-lang.org/2023/08/03/Rust-1.71.1.html",
-          "publishedOn": "2023-08-03T00:00:00.000Z",
-          "wordCount": 277,
-          "title": "Announcing Rust 1.71.1",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/08/03/cve-2023-38497.html",
-          "author": null,
-          "description": "This is a cross-post of the official security advisory. The\nofficial advisory contains a signed version with our PGP key, as well.\nThe Rust Security Response WG was notified that Cargo did not respect the umask\nwhen extracting crate archives on UNIX-like systems. If the user downloaded a\ncrate containing files writeable by any local user, another local user could\nexploit this to change the source code compiled and executed by the current\nuser.\nThis vulnerability has been assigned CVE-2023-38497.\nOverview\nIn UNIX-like systems, each file has three sets of permissions: for the user\nowning the file, for the group owning the file, and for all other local users.\nThe \"umask\" is configured on most systems to limit those permissions\nduring file creation, removing dangerous ones. For example, the de…",
-          "link": "https://blog.rust-lang.org/2023/08/03/cve-2023-38497.html",
-          "publishedOn": "2023-08-03T00:00:00.000Z",
-          "wordCount": 585,
-          "title": "Security advisory for Cargo (CVE-2023-38497)",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -376,6 +366,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/09/01/crates-io-malware-postmortem.html",
+          "author": null,
+          "description": "Summary\nOn August 16, the crates.io team was notified by Louis Lang at Phylum of a new user who had uploaded nine crates that typosquatted1 popular crates with ill intent. The crates were immediately yanked and the user account locked, and the crates were then fully removed from the crates.io file store on August 18.\nPhylum have also written their own blog on this incident.\nContents\nThese crates contained malicious build.rs files that would attempt to send metadata from the user's computer to a Telegram2 channel, including their operating system, IP address, and geolocation information based on their IP address.3\nOne version of one crate also contained a copy of the PuTTY4 installer, with the build.rs spawning PuTTY instead of sending metadata to Telegram. Our assumption is that this was a…",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/09/01/crates-io-malware-postmortem.html",
+          "publishedOn": "2023-09-01T00:00:00.000Z",
+          "wordCount": 679,
+          "title": "crates.io Postmortem: User Uploaded Malware",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html",
           "author": null,
@@ -466,7 +466,26 @@
       "title": "CoRecursive: Coding Stories",
       "feedUrl": "https://corecursive.libsyn.com/feed",
       "siteUrl": "http://corecursive.com",
-      "articles": []
+      "articles": [
+        {
+          "id": "38157a53-9b67-44db-8edb-24825c524f8b",
+          "author": null,
+          "description": "Today, we go behind the scenes at Chef - the game changing infrastructure automation tool. Adam Jacob created Chef, and it became a massively popular DevOps tool. But despite Chef's success, Adam constantly battled self-doubt and finding his footing as a leader. \n In this raw episode, Adam shares how the pressure of going from sysadmin to startup CEO caused an identity crisis. He opens up about the motivational speech that left him in tears, realizing his self-worth was too tied to Chef's outcomes. \n  \nEpisode Page\n Support The Show\n Subscribe To The Podcast\n Join The Newsletter",
+          "link": "https://corecursive.com/configuring-identity-adam-jacob/",
+          "publishedOn": "2023-09-01T10:00:00.000Z",
+          "wordCount": null,
+          "title": "Story: Configuring Identity: Adam Jacob and the Search for Self in Software",
+          "itunes": {
+            "duration": "42:53"
+          },
+          "enclosure": {
+            "length": "62901678",
+            "type": "audio/mpeg",
+            "url": "https://chtbl.com/track/7D91G/traffic.libsyn.com/secure/corecursive/092-Adam-Jacobs.mp3?dest-id=628353"
+          },
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Notes on software development",
@@ -640,6 +659,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://news.slashdot.org/story/23/09/01/237204/caltech-to-accept-khan-academy-success-as-option-for-admission?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "\"Given that too many schools don't teach calculus, chemistry and physics, CalTech is allowing potential undergraduates to demonstrate their ability in these fields by using Khan Academy,\" writes Slashdot reader Bruce66423. Los Angeles Times reports: One of Caltech's alternative paths is taking Khan Academy's free, online classes and scoring 90% or higher on a certification test. Sal Khan, academy founder, said Caltech's action is a \"huge deal\" for equitable access to college. While Caltech is small -- only 2,400 students, about 40% of them undergraduates -- Khan said he hoped its prestigious reputation would encourage other institutions to examine their admission barriers and find creative solutions to ease them. The Pasadena-based institute, with a 3% admission rate last year, boasts 46 N…",
+          "link": "https://news.slashdot.org/story/23/09/01/237204/caltech-to-accept-khan-academy-success-as-option-for-admission?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-02T00:45:00.000Z",
+          "wordCount": 4331,
+          "title": "CalTech To Accept Khan Academy Success As Option For Admission",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/09/01/2246211/nissan-begins-repurposing-leaf-car-batteries-as-portable-power-stations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from ExtremeTech: Slowly but surely, sales of electric cars have crept upward as traditional automakers finally embrace EVs. Nissan was early to the electric future with the venerable if modest Leaf. Nissan is now looking to turn old Leafs into something new by harvesting their batteries. The company has begun selling portable power banks built around refurbished automotive batteries, which could give these expensive Leaf cells a new lease on life. The Lithium-ion cells in vehicles have the same properties as the battery in your phone. They start out with a specific power rating, but successive discharge-recharge cycles cause physical stress to the internal structure. Eventually, this results in reduced capacity and voltage. However, Nissan says most Leaf owners stop driving the car before the battery stops working. In fact, many of the individual cells are still in good shape when the vehicles are discarded.\n \nEach Nissan Leaf has around 48 lithium-ion battery modules -- the exact number depends on model. While some may be in poor shape at the end of a car's life, Nissan has taken to disassembling the battery packs to refurbish working modules. The result is the Nissan portable power station, which was developed in partnership with JVCKenwood Corp. and 4R Energy Corp. The bulky 32-pound portable chargers contain two Leaf battery modules with about 80% of their original capacity intact. They're no longer suitable for driving an EV, but they can still charge your phone. Nissan sells the battery packs in Japan for 170,500 yen (about $1,170). That might sound like a lot, but it's actually not bad for a super high-capacity battery pack. Each of Nissan's current-gen battery modules is 1.67 kWh, which converts to 112 Ah (112,000 mAh). Assuming a 20% loss in capacity, two of them would have enough juice to charge the largest current iPhone more than 40 times.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/09/01/2246211/nissan-begins-repurposing-leaf-car-batteries-as-portable-power-stations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-02T00:02:00.000Z",
+          "wordCount": 4462,
+          "title": "Nissan Begins Repurposing Leaf Car Batteries As Portable Power Stations",
+          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/09/01/2239233/lenovos-new-27-inch-4k-monitor-offers-glasses-free-3d?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Lenovo's upcoming 27-inch 4K monitor offers a unique experience unlike any other display: glasses-free 3D that can be toggled on and off. According to Ars Technica, the monitor features a lenticular lens and real-time eye-tracking to create the effect. It's being targeted at content creators, like 3D graphic designers and developers. From the report: Like other glasses-less 3D screens, [Lenovo's ThinkVision 27 3D Monitor] works by projecting two different images to each of your eyes, resulting in a 3D effect where, as PR images would have you believe, it appears that the images are popping out of the screen. Lenovo says the monitor's 3D resolution is 1920x2160. The lenticular lens in the monitor is switchable, allowing for normal, 2D viewing at 3840x2160, too. The ThinkVision's 27-inch display gives workers a bigger palette. It also means the monitor can be a regular 2D monitor when needed. [...]\n \nAs a regular 2D monitor, the ThinkVision's specs are pretty standard. It's a 4K IPS screen claiming a 60 Hz refresh rate, 310 nits, a 1,000:1 contrast ratio, and 99 percent DCI-P3 and Adobe RGB color coverage with a Delta E under 2. Like a proper workplace monitor, there's also a strong port selection: two HDMI 2.1, one DisplayPort 1.4, four USB-A (3.1 Gen 1) ports, one USB-C port (3.2 Gen 1) with up to 15 W power delivery, RJ45, a 3.5mm jack, plus an upstream USB-C port with up to 100 W power delivery.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/09/01/2239233/lenovos-new-27-inch-4k-monitor-offers-glasses-free-3d?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T23:20:00.000Z",
+          "wordCount": 4244,
+          "title": "Lenovo's New 27-inch, 4K Monitor Offers Glasses-Free 3D",
+          "imageUrl": "https://a.fsdn.com/sd/topics/displays_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/09/01/2227255/robinhood-bought-back-sam-bankman-frieds-stake-from-us-government-for-606-million?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Robinhood announced it has purchased more than 55 million shares of the firm previously held by former FTX CEO Sam Bankman-Fried, which were seized in January by the U.S. Department of Justice as part of the criminal case against FTX and its executives. CoinTelegraph reports: The purchase had been expected. Robinhood's board of directors announced the approval of the deal in the company's Q4 2022 report, and an Aug. 30 SEC filing said the U.S. District Court for the Southern District of New York had approved the purchase \"free and clear of any claims, interests, liens and encumbrances.\" Robinhood made the repurchase agreement with the U.S. Marshals Service. \"We are happy to have completed the purchase of these shares and look forward to executing on our growth plans on behalf of our customers and shareholders,\" said Robinhood chief financial officer Jason Warnick.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/09/01/2227255/robinhood-bought-back-sam-bankman-frieds-stake-from-us-government-for-606-million?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T22:40:00.000Z",
+          "wordCount": 4118,
+          "title": "Robinhood Bought Back Sam Bankman-Fried's Stake From US Government For $606 Million",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/09/01/2139242/hacker-gains-admin-control-of-sourcegraph-and-gives-free-access-to-the-masses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: An unknown hacker gained administrative control of Sourcegraph, an AI-driven service used by developers at Uber, Reddit, Dropbox, and other companies, and used it to provide free access to resources that normally would have required payment. In the process, the hacker(s) may have accessed personal information belonging to Sourcegraph users, Diego Comas, Sourcegraph's head of security, said in a post on Wednesday. For paid users, the information exposed included license keys and the names and email addresses of license key holders. For non-paying users, it was limited to email addresses associated with their accounts. Private code, emails, passwords, usernames, or other personal information were inaccessible.\n \nThe hacker gained adminis…",
+          "link": "https://yro.slashdot.org/story/23/09/01/2139242/hacker-gains-admin-control-of-sourcegraph-and-gives-free-access-to-the-masses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T22:00:00.000Z",
+          "wordCount": 4371,
+          "title": "Hacker Gains Admin Control of Sourcegraph and Gives Free Access To the Masses",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/01/1955206/samsung-unveils-industrys-first-32gbit-ddr5-memory-die?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Samsung today revealed the world's first 32 Gb DDR5 DRAM die. From a report: The new memory die is made on the company's 12 nm-class DRAM fabrication process and not only offers increased density, but also lowers power consumption. The chip will allow Samsung to build record 1 TB RDIMMs for servers as well as lower costs of high-capacity memory modules. \"With our 12nm-class 32 Gb DRAM, we have secured a solution that will enable DRAM modules of up to 1 TB, allowing us to be ideally positioned to serve the growing need for high-capacity DRAM in the era of AI (Artificial Intelligence) and big data,\" said SangJoon Hwang, executive vice president of DRAM product & technology at Samsung Electronics. \n\n32 Gb memory dies not only enable Samsung to build a regular, single-rank 32 GB module for client PCs using only eight single-die memory chips, but they also allow for higher capacity DIMMs that were not previously possible. We are talking about 1 TB memory modules using 40 8-Hi 3DS memory stacks based on eight 32 Gb memory devices. Such modules may sound overkill, but for artificial intelligence (AI), Big Data, and database servers, more DRAM capacity can easily be put to good use. Eventually, 1TB RDIMMs would allow for up to 12 TB of memory in a single socket server (e.g. AMD's EPYC 9004 platform), something that cannot be done now.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/01/1955206/samsung-unveils-industrys-first-32gbit-ddr5-memory-die?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T21:20:00.000Z",
+          "wordCount": 4732,
+          "title": "Samsung Unveils Industry's First 32Gbit DDR5 Memory Die",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/01/1937248/nvidia-quietly-cuts-price-of-poorly-reviewed-16gb-4060-ti-ahead-of-amd-launch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: AMD last week announced what are probably the last major GPU launches of this generation of graphics cards: the $449 Radeon RX 7700 XT and $499 Radeon RX 7800 XT. AMD's pricing and performance numbers pit the cards against Nvidia's GeForce RTX 4060 Ti (specifically the $499 16GB version) and the $599 RTX 4070. AMD's pricing is aggressive enough that Nvidia is quietly cutting the prices of some 16GB RTX 4060 Ti cards to $449, to match the RX 7700 XT. \n\nThe announcement about the $50 reduction was buried toward the bottom of an email that Nvidia sent to GPU reviewers ahead of AMD's launch next week; it also drew attention to Nvidia-specific features like DLSS upscaling and frame generation, which compete with AMD's GPU-agnostic FSR, plus recent DLSS improvements that improve ray-tracing performance.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/01/1937248/nvidia-quietly-cuts-price-of-poorly-reviewed-16gb-4060-ti-ahead-of-amd-launch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T20:40:00.000Z",
+          "wordCount": 4268,
+          "title": "Nvidia Quietly Cuts Price of Poorly Reviewed 16GB 4060 Ti Ahead of AMD Launch",
+          "imageUrl": "https://a.fsdn.com/sd/topics/amd_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/09/01/1838208/india-seeks-to-top-its-moon-landing-with-spacecraft-to-study-sun?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Hot on the heels of its lunar landing success, India is readying to blast a probe even deeper into space to study the sun. From a report: The country's first solar observation mission, named Aditya-L1, is set to be launched from India's main spaceport on Sriharikota, an island off the southern state of Andhra Pradesh, at 11:50 a.m. local time on Saturday. The spacecraft is scheduled to spend 125 days traveling 1.5 million kilometers (932,000 miles) to its destination, a point in space where objects stay put and consume less fuel. \n\nWhile arriving there would be an impressive achievement for ISRO, the Indian space agency, Aditya-L1 would have gone just a fraction of the 150 million km between Earth and the sun. For ISRO, success would be another major feat after India became the first country to land a spacecraft close to the lunar south pole in August. India has more ambitious projects in the works. A human spaceflight program aims to launch astronauts into orbit for the first time possibly by 2025, ISRO Chairman S Somanath said in an interview with news agency Asian News International. ISRO and NASA plan to cooperate on sending astronauts to the International Space Station and India is in discussions with Japan to work together on a mission.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/09/01/1838208/india-seeks-to-top-its-moon-landing-with-spacecraft-to-study-sun?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T20:00:00.000Z",
+          "wordCount": 4591,
+          "title": "India Seeks To Top Its Moon Landing with Spacecraft To Study Sun",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/09/01/1828253/japan-is-preparing-for-a-massive-earthquake?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The centenary of the Great Kanto earthquake brings angst, and lessons for the world. From a report: Every year on September 1st, Japan's ministers trek by foot to the prime minister's office to take part in a crisis simulation. Across the country, local officials and schoolchildren drill for disasters. The date marks the Great Kanto earthquake, a 7.9-magnitude tremor that struck near the capital back in 1923. The ensuing disaster killed at least 105,000 people, including around 70,000 in Tokyo itself, destroyed 370,000 homes and changed the course of Japanese history. \n\nThis year's centenary of the disaster has occasioned much commemoration -- and angst. What will happen when the next Big One hits? Seismologists cannot predict earthquakes, but their statistical models, which are based on past patterns, can estimate the likelihood of one. The city government's experts reckon there is a 70% chance of a magnitude 7 or higher quake hitting the capital within the next 30 years. Far fewer people will probably die than during the disaster in 1923, thanks to better technology and planning: the worst case foresees some 6,000 deaths in the city. But millions of lives will be upended. \n\nAnother, similarly likely scenario could be much worse. A Nankai Trough earthquake, envisaged south of Kansai, Japan's industrial heartland, could trigger a tsunami; as many as 323,000 might be killed, according to an official estimate. Japan's approach to the risks of such catastrophes offers insights for a warming world facing more frequent disasters. Quakes of this size could \"challenge the survival of Japan as a state\" and send economic shock waves around the globe, says Fukuwa Nobuo of Nagoya University. After the next Tokyo quake, recovering basic city functions could take weeks and rebuilding the capital could take years; direct damage alone could run to as much as $75bn. One piece of research estimates that gdp would dip by 11% following a Nankai earthquake.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/01/1828253/japan-is-preparing-for-a-massive-earthquake?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T19:20:00.000Z",
+          "wordCount": 4880,
+          "title": "Japan is Preparing For a Massive Earthquake",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/09/01/1748216/spotify-to-cut-back-promotional-spending-on-white-noise-podcasts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Spotify is cracking down on white-noise podcasters, reducing the advertising support for programmers that provide little more than soothing sounds like rain or chirping birds. From a report: In an email to creators Friday, the company highlighted changes to its Ambassador Ads program -- promotional spots for Spotify that podcasters read. The company pays hosts to read ads to encourage more creators to make shows and join the platform. As part of the change taking effect Oct. 1, white noise podcasters will no longer be eligible for such support, according to a person with knowledge of the matter. The company is also raising the audience threshold that conventional podcasters must meet to qualify for those ads to 1,000 unique Spotify listeners over the past 60 days from 100.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/23/09/01/1748216/spotify-to-cut-back-promotional-spending-on-white-noise-podcasts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T18:40:00.000Z",
+          "wordCount": 5968,
+          "title": "Spotify To Cut Back Promotional Spending on White Noise Podcasts",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/01/1733208/cybercrime-to-cost-germany-206-billion-euros-in-2023-survey-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The theft of IT equipment and data, as well as digital and industrial espionage and sabotage, will cost Germany 206 billion euros ($224 billion) in 2023, German digital association Bitkom said on Friday. From a report: The damage will surpass the 200 billion euro mark for the third consecutive year, according to a Bitkom survey of more than 1,000 companies. \"The German economy is a highly attractive target for criminals and hostile states. The boundaries between organised crime and state-controlled actors are blurred,\" Bitkom President Ralf Wintergerst said. Around three quarters of the companies surveyed suffered digital attacks in the past 12 months, falling from 84% of the companies in the previous year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/01/1733208/cybercrime-to-cost-germany-206-billion-euros-in-2023-survey-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T18:01:00.000Z",
+          "wordCount": 4596,
+          "title": "Cybercrime To Cost Germany 206 Billion Euros in 2023, Survey Finds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/09/01/178227/hundreds-of-tough-mudder-racers-infected-by-rugged-nasty-bacterium?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Hundreds of people who participated in a recent Tough Mudder event -- a very muddy obstacle course race -- held in Sonoma, California, have fallen ill with pustular rashes, lesions, fever, flu-like symptoms, nerve pain, and other symptoms, local health officials and media outlets report. From a report: The cases could be caused by various infectious agents, including Staphylococcus bacteria, but the leading culprit is the relatively obscure Aeromonas bacteria -- specifically A. hydrophila, according to the Sonoma County health department. In a statewide alert this week, the California Department of Public Health said it is considering it an Aeromonas outbreak, noting that multiple wound cultures have yielded the hardy bacterium. \n\nA spokesperson for the Sonoma County health department told the Los Angeles Times on Thursday that, based on calls and emails the department had received, health officials estimate that the outbreak involves around 300 cases. Tough Mudder participants, meanwhile, have tallied as many as 489 cases in online forums. The Tough Mudder event was held at the Sonoma Raceway on August 19 and 20, 2023, with symptoms of infection developing in cases within 12 to 48 hours afterward. The Sonoma County health department advisory noted that the race \"involved extensive skin exposure to mud\" and that participants with a rash, fever, or other symptoms should go to their health care provider or, if no provider is available, to a local emergency department.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/01/178227/hundreds-of-tough-mudder-racers-infected-by-rugged-nasty-bacterium?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T17:25:00.000Z",
+          "wordCount": 7416,
+          "title": "Hundreds of Tough Mudder Racers Infected By Rugged, Nasty Bacterium",
+          "imageUrl": "https://a.fsdn.com/sd/topics/news_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/01/1649252/dell-and-samsung-grab-first-class-tickets-for-ai-hype-train?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Dell and Samsung are the latest beneficiaries of the current frenzy of speculation surrounding anything AI related, with both vendors seeing a rise in share prices related to their future AI prospects. From a report: Shares in Dell were said to be up 8 percent in extended trading following the Round Rock company releasing its results for the second quarter of its financial year 2024. These showed that revenue was $22.9 billion, down 13 percent on the same period last year. However, this figure was also up 10 percent on the previous quarter, with the company attributing this growth to rising demand for AI-optimized servers, as well as its PowerStore and PowerFlex storage systems. AI accounted for 20 percent of server revenue in the first half of the year, Dell said. \n\nSimilarly, Dell said it is seeing growth in demand for its workstations designed to help organizations run complex AI workloads locally, with its commercial client revenue hitting $10.6 billion. This accounted for the lion's share of the Client Solutions Group second quarter revenue of $12.9 billion, which was down 16 percent year-on-year but up 8 percent on the last quarter. Dell vice chairman and chief operating officer Jeff Clarke said that the company continued to focus on the most profitable segments of the market where he claimed Dell has a leading position.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/01/1649252/dell-and-samsung-grab-first-class-tickets-for-ai-hype-train?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T16:49:00.000Z",
+          "wordCount": 4267,
+          "title": "Dell and Samsung Grab First-Class Tickets For AI Hype Train",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/01/1551253/paris-becomes-the-first-european-capital-to-ban-rented-electric-scooters?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Paris became the first European capital to outlaw the vehicles on Friday, following a vote in April in which Parisiens overwhelmingly supported a ban, although turnout was low. Privately owned e-scooters, which the city cannot regulate, are exempt. Since their eruption onto the streets and sidewalks of cities across the world in 2019, e-scooters have posed unique regulatory problems for city officials. The vehicles often stayed in legal limbo as officials mapped out charters for e-scooter operators, capped fleets and regulated parking. \n\nCities like San Francisco and Miami temporarily banned e-scooters before reintroducing them. Santa Monica, Calif., successfully sued an e-scooter operator over its lack of licensing. And New York delayed the vehicles' arrival, citing security concerns. But no city has been as strict as Paris, where e-scooter users are mourning a cheap and flexible way of getting around without having to ride the crammed metro or use Velib', the popular but frequently overwhelmed bike-sharing system.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/01/1551253/paris-becomes-the-first-european-capital-to-ban-rented-electric-scooters?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T16:00:00.000Z",
+          "wordCount": 9401,
+          "title": "Paris Becomes the First European Capital To Ban Rented Electric Scooters",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/01/1516252/lidl-recalls-paw-patrol-snacks-after-website-on-packaging-displayed-porn?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Supermarket giant Lidl has issued a recall of Paw Patrol snacks after the website listed on the products' packaging began displaying explicit content unsuitable for children. From a report: Lidl, which operates more than 12,000 stores globally, is urging shoppers in the United Kingdom to return the snacks for a full refund. Affected products include Paw Patrol Yummy Bakes and Paw Patrol Mini Biscotti, snacks recommended for children aged two and above. Lidl's recall notice dated August 22 warns that the product's packaging contains a web address that has been \"compromised\" to display content \"not suitable for child consumption.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/01/1516252/lidl-recalls-paw-patrol-snacks-after-website-on-packaging-displayed-porn?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-01T15:20:00.000Z",
+          "wordCount": 6738,
+          "title": "Lidl Recalls Paw Patrol Snacks After Website on Packaging Displayed Porn",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
         {
           "id": "https://hardware.slashdot.org/story/23/08/31/2214247/apple-experimenting-with-3d-printing-to-create-devices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
