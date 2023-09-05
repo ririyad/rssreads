@@ -347,6 +347,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/09/04/keeping-secure-with-cargo-audit-0.18.html",
+          "author": null,
+          "description": "cargo audit checks your project's dependencies for known security vulnerabilites.\nBy default cargo audit checks on your Cargo.lock file, but it can also scan compiled binaries. You can install cargo-audit and run it against your project with the following commands:\n$ cargo install cargo-audit\n$ cargo audit\n\nBoth cargo audit and the RustSec advisory database that powers it are maintained by the Rust Secure Code working group.\nWhat's new in this release\nPerformance\ncargo audit now uses the sparse crates.io index when checking for yanked crates. This dramatically speeds up the scanning process because cargo audit no longer needs to download the entire crates.io index, which could take up to several minutes.\nSparse index is used by default if you are running Rust 1.70 or later, same as in Carg…",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/09/04/keeping-secure-with-cargo-audit-0.18.html",
+          "publishedOn": "2023-09-04T00:00:00.000Z",
+          "wordCount": 681,
+          "title": "Keeping Rust projects secure with cargo-audit 0.18: performance, compatibility and security improvements",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2023/09/01/crates-io-malware-postmortem.html",
           "author": null,
           "description": "Summary\nOn August 16, the crates.io team was notified by Louis Lang at Phylum of a new user who had uploaded nine crates that typosquatted1 popular crates with ill intent. The crates were immediately yanked and the user account locked, and the crates were then fully removed from the crates.io file store on August 18.\nPhylum have also written their own blog on this incident.\nContents\nThese crates contained malicious build.rs files that would attempt to send metadata from the user's computer to a Telegram2 channel, including their operating system, IP address, and geolocation information based on their IP address.3\nOne version of one crate also contained a copy of the PuTTY4 installer, with the build.rs spawning PuTTY instead of sending metadata to Telegram. Our assumption is that this was a…",
@@ -431,6 +441,16 @@
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
         {
+          "id": "http://notes.eatonphil.com/eight-years-of-tech-meetups.html",
+          "author": null,
+          "description": "This is a collection of random personal experiences. So if you don't\nwant to read everything, feel free to skip to the end for takeaways.\nI write because I'd like to see more high-quality meetups. And maybe\nmy little bit of experience will help someone out.\n2015: Philadelphia\nI first tried to organize a meetup in Philly in 2015. I was\ncontracting at the time and I figured a meetup might be a good way to\nsource contracts or just meet interesting people. I created the\n\"Philadelphia Software in Business\" (or some other similarly vaguely\nnamed) group on Meetup.com.\nI didn't have any network; the first companies I worked for were not\nin Philly. But Meetup.com got me a few tens of people joining the\ngroup.\nMy first challenge was finding a place to meet. I didn't know what I\nwas doing so I looked…",
+          "link": "http://notes.eatonphil.com/eight-years-of-tech-meetups.html",
+          "publishedOn": "2023-09-04T00:00:00.000Z",
+          "wordCount": 4272,
+          "title": "Eight years of organizing tech meetups",
+          "imageUrl": null
+        },
+        {
           "id": "http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html",
           "author": null,
           "description": "Someone on Discord asked about how to learn functional programming.\nThe question and my initial tweet on the subject prompted an\ninteresting\ndiscussion\nwith Shriram\nKrishnamurthi and other folks.\nSo here's a slightly more thought out exploration.\nAnd just for backstory sake: I spent a few years a while\nago programming in\nStandard ML and I wrote\na chunk of a Scheme\n  implementation. I'm not an expert, but I have a bit of background.\nHey, this is a free opinion.\nConcepts from functional programming\nWhen people talk about functional programming, I think of a few key\nchoices you can make while programming:\nImmutability by default\n(Tail) recursion by default\nFirst-class functions (and the suite of tools that go along with it. e.g. map, reduce/fold)\nAnd if you have experience as a programmer, yo…",
@@ -473,6 +493,16 @@
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
         {
+          "id": "http://notes.eatonphil.com/eight-years-of-tech-meetups.html",
+          "author": null,
+          "description": "This is a collection of random personal experiences. So if you don't\nwant to read everything, feel free to skip to the end for takeaways.\nI write because I'd like to see more high-quality meetups. And maybe\nmy little bit of experience will help someone out.\n2015: Philadelphia\nI first tried to organize a meetup in Philly in 2015. I was\ncontracting at the time and I figured a meetup might be a good way to\nsource contracts or just meet interesting people. I created the\n\"Philadelphia Software in Business\" (or some other similarly vaguely\nnamed) group on Meetup.com.\nI didn't have any network; the first companies I worked for were not\nin Philly. But Meetup.com got me a few tens of people joining the\ngroup.\nMy first challenge was finding a place to meet. I didn't know what I\nwas doing so I looked…",
+          "link": "http://notes.eatonphil.com/eight-years-of-tech-meetups.html",
+          "publishedOn": "2023-09-04T00:00:00.000Z",
+          "wordCount": 4272,
+          "title": "Eight years of organizing tech meetups",
+          "imageUrl": null
+        },
+        {
           "id": "http://notes.eatonphil.com/2023-08-15-thinking-about-functional-programming.html",
           "author": null,
           "description": "Someone on Discord asked about how to learn functional programming.\nThe question and my initial tweet on the subject prompted an\ninteresting\ndiscussion\nwith Shriram\nKrishnamurthi and other folks.\nSo here's a slightly more thought out exploration.\nAnd just for backstory sake: I spent a few years a while\nago programming in\nStandard ML and I wrote\na chunk of a Scheme\n  implementation. I'm not an expert, but I have a bit of background.\nHey, this is a free opinion.\nConcepts from functional programming\nWhen people talk about functional programming, I think of a few key\nchoices you can make while programming:\nImmutability by default\n(Tail) recursion by default\nFirst-class functions (and the suite of tools that go along with it. e.g. map, reduce/fold)\nAnd if you have experience as a programmer, yo…",
@@ -495,6 +525,16 @@
       "feedUrl": "https://dietcode.io/rss",
       "siteUrl": "https://dietcode.io/",
       "articles": [
+        {
+          "id": "https://dietcode.io/t/fork-remote/",
+          "author": null,
+          "description": "Miscellaneous git knowledge that may be helpful when hacking on OSS repositories",
+          "link": "https://dietcode.io/t/fork-remote/",
+          "publishedOn": "2023-09-03T00:00:00.000Z",
+          "wordCount": 201,
+          "title": "Switching out git remotes",
+          "imageUrl": "https://dietcode.io/t/fork-remote/og.png"
+        },
         {
           "id": "https://dietcode.io/t/gzip-uploads/",
           "author": null,
@@ -610,16 +650,6 @@
           "wordCount": 190,
           "title": "Chloe is a listener",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/friday-demos",
-          "author": null,
-          "description": "Add demos to a #demo-friday channel in Slack or Teams.",
-          "link": "https://taylor.town/friday-demos",
-          "publishedOn": "2023-08-06T00:00:00.000Z",
-          "wordCount": 666,
-          "title": "Share Demos Every Friday",
-          "imageUrl": null
         }
       ]
     },
@@ -628,6 +658,146 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://news.slashdot.org/story/23/09/04/1955232/wanted-skilled-workers-to-combat-the-rise-in-cyber-crime?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "As a growing number of hackers target companies, organisations and industries with debilitating attacks, more skilled cyber security workers are urgently needed to combat the threat.ÂFrom a report: ISC2, the world's largest association of cyber professionals, estimates that the cyber security workforce in 2022 stood at about 4.7mn people globally. But a further 3.4mn roles remain unfilled. \"The gap is massive,\" says Clar Rosso, ISC2's chief executive. \"This shortfall is felt more acutely in countries such as India where digitisation is rapid. But even in the US, only 69 per cent of cyber roles are filled, according to Cyberseek, a website that provides data about the cyber security job market.\" \n\nBeyond a talent shortfall, existing workers are underskilled. A UK government report this year found that 50 per cent of UK businesses -- some 739,000 in total -- have a basic cyber skills gap, meaning that those in charge of cyber security lack the confidence to carry out the technical measures that protect against the most common digital attacks. Previously, it was thought that a company's IT team could take care of all cyber security concerns. But \"over time, it became clear that this needed specialised attention,\" Rosso says, adding that, after some high-profile ransomware attacks over the past couple of years, \"business executives are now paying attention.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/04/1955232/wanted-skilled-workers-to-combat-the-rise-in-cyber-crime?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-05T00:30:00.000Z",
+          "wordCount": 4256,
+          "title": "Wanted: Skilled Workers To Combat the Rise in Cyber Crime",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/09/04/1950231/us-spy-agency-dreams-of-surveillance-underwear?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The future of wearable technology, beyond now-standard accessories like smartwatches and fitness tracking rings, is ePANTS, according to the intelligence community. The Intercept: The federal government has shelled out at least $22 million in an effort to develop \"smart\" clothing that spies on the wearer and its surroundings. Similar to previous moonshot projects funded by military and intelligence agencies, the inspiration may have come from science fiction and superpowers, but the basic applications are on brand for the government: surveillance and data collection. Billed as the \"largest single investment to develop Active Smart Textiles,\" the SMART ePANTS -- Smart Electrically Powered and Networked Textile Systems -- program aims to develop clothing capable of recording audio, video, and geolocation data, the Office of the Director of National Intelligence announced in an August 22 press release. Garments slated for production include shirts, pants, socks, and underwear, all of which are intended to be washable. \n\nThe project is being undertaken by the Intelligence Advanced Research Projects Activity, the intelligence community's secretive counterpart to the military's better-known Defense Advanced Research Projects Agency, or DARPA. IARPA's website says it \"invests federal funding into high-risk, high reward projects to address challenges facing the intelligence community.\" Its tolerance for risk has led to both impressive achievements, like a Nobel Prize awarded to physicist David Wineland for his research on quantum computing funded by IARPA, as well as costly failures. \"A lot of the IARPA and DARPA programs are like throwing spaghetti against the refrigerator,\" Annie Jacobsen, author of a book about DARPA, \"The Pentagon's Brain,\" told The Intercept. \"It may or may not stick.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/04/1950231/us-spy-agency-dreams-of-surveillance-underwear?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T22:00:00.000Z",
+          "wordCount": 6319,
+          "title": "US Spy Agency Dreams of Surveillance Underwear",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/09/04/2030248/apple-and-microsoft-say-flagship-services-not-popular-enough-to-be-gatekeepers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple and Microsoft, the most valuable companies in the US, have argued some of their flagship services are insufficiently popular to be designated \"gatekeepers\" under landmark new EU legislation designed to curb the power of Big Tech. FT: Brussels' battle with Apple over its iMessage chat app and Microsoft's search engine Bing comes ahead of Wednesday's publication of the first list of services that will be regulated by the Digital Markets Act. The legislation imposes new responsibilities on the tech companies, including sharing data, linking to competitors and making their services interoperable with rival apps.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/09/04/2030248/apple-and-microsoft-say-flagship-services-not-popular-enough-to-be-gatekeepers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T20:31:00.000Z",
+          "wordCount": 8029,
+          "title": "Apple and Microsoft Say Flagship Services Not Popular Enough To Be 'Gatekeepers'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/04/1925258/y-combinator-removes-indian-startup-from-batch-over-irregularities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Storied venture firm Y Combinator has removed an Indian startup from its batch after discovering \"irregularities\" at the firm, several people familiar with the matter told TechCrunch. Medobed, an Indian startup that promises medicine delivery in 10 minutes, was initially selected in Y Combinator's S23 batch. In recent weeks, Y Combinator has severed its ties with the Indian firm and a partner at the venture firm has also suggested many prospective investors to not engage with Medobed, according to two people familiar with the matter and a copy of an email obtained by TechCrunch. It's very rare for Y Combinator, which selects a few hundred startups from tens of thousands of applications, to remove a firm from its coveted batch, the report adds.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/04/1925258/y-combinator-removes-indian-startup-from-batch-over-irregularities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T20:00:00.000Z",
+          "wordCount": 3965,
+          "title": "Y Combinator Removes Indian Startup From Batch Over 'Irregularities'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/09/04/1854211/canadian-prisons-restrict-technology-to-the-1990s?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "belmolis writes: Canadian prisons allow prisoners to buy devices such as personal computers and gaming consoles but severely restrict the technology, nominally on security grounds. Modern gaming consoles are forbidden on the grounds that they can connect to the internet, so the typical purchase is a Playstation 1. No version of Microsoft Windows more recent than Windows 98 is allowed. No device that can play MP3 files is allowed. The regulations forbid operating systems other than Microsoft DOS or Windows and any software capable of creating a program, such as a compiler as are \"database programs capable of altering or manipulating SQL databases\". Although learning job skills is encouraged, programming is evidently not considered appropriate. The relationship of most of these restrictions to security is obscure.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/04/1854211/canadian-prisons-restrict-technology-to-the-1990s?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T19:00:00.000Z",
+          "wordCount": 13306,
+          "title": "Canadian Prisons Restrict Technology To the 1990s",
+          "imageUrl": "https://a.fsdn.com/sd/topics/canada_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/04/183201/microsoft-billing-3-cents-a-minute-to-revisit-tedious-teams-meetings-via-api?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft has announced billing in public preview for Teams recording and transcription APIs, with pricing starting at 3 cents per minute for recordings. From a report: Getting meeting transcripts and recordings using Graph APIs is currently in public developer preview, so the billing, which started on September 1, might irk coders keen to use these features in their applications. The API for recording is billed at $0.03 per minute, and the API for transcription is $0.024 per minute. \n\nMicrosoft cited line-of-business applications or ISV solutions in sales or HR as potential use cases for the technology, which permits recordings as an MP4 video file or transcripts as VTT files to be downloaded. VTT includes handy information such as the spoken words, timings, language, and the names of the speakers. A developer could automatically generate notes and attach meeting clips using one or both content API sets. Other information, such as sentiment and engagement metrics, could also be generated.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/04/183201/microsoft-billing-3-cents-a-minute-to-revisit-tedious-teams-meetings-via-api?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T18:02:00.000Z",
+          "wordCount": 5574,
+          "title": "Microsoft Billing 3 Cents a Minute To Revisit Tedious Teams Meetings via API",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/09/04/176220/eu-prepares-to-push-for-global-phase-out-of-fossil-fuels-at-cop28-draft-document-shows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A proposal to phase out CO2-emitting fossil fuels at COP27 last won backing from more than 80 countries but oil and gas-rich nations opposed it. European Union countries are preparing to push for a global deal on phasing out fossil fuels at the COP28 climate summit, a draft of the EU's negotiating position has shown. From a report: Diplomats from the bloc's 27 member states are drafting their position for the summit in Dubai in November, where nearly 200 countries will try to strengthen efforts to rein in climate change. \"The shift towards a climate neutral economy will require the global phase-out of [unabated] fossil fuels and a peak in their consumption already in the near term,\" a draft of the EU's negotiating stance, seen by Reuters, says. \n\nCountries have never agreed in UN climate negotiations to gradually stop burning all CO2-emitting fossil fuels, despite this being the main cause of climate change. \"Unabated\" refers to fossil fuels burned without using technologies to capture the resulting CO2 emissions. The word was in brackets in the draft EU text, indicating that countries have not yet agreed on whether to include it. EU diplomats hope a deal can be made at COP28 - but expect to meet resistance from economies reliant on income from selling oil and gas.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/04/176220/eu-prepares-to-push-for-global-phase-out-of-fossil-fuels-at-cop28-draft-document-shows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T17:06:00.000Z",
+          "wordCount": 13247,
+          "title": "EU Prepares To Push For 'Global Phase-Out' of Fossil Fuels at COP28, Draft Document Shows",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/09/04/1610205/invasive-species-cost-humans-423-billion-each-year-and-threaten-worlds-diversity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Invasive species are costing the world at least $423bn every year and have become a leading threat to the diversity of life on Earth, according to a UN assessment. From a news report: From invasive mice that eat seabird chicks in their nests to non-native grasses that helped fuel and intensify last month's deadly fires in Hawaii, at least 3,500 harmful invasive species have been recorded globally in every region, spread by human travel and trade. Their impact is destructive for humans and wildlife, sometimes causing extinctions and permanently damaging the healthy functioning of an ecosystem. \n\nLeading scientists say the threat posed by invasive species is under appreciated, underestimated and sometimes unacknowledged, with more than 37,000 alien species now known to be introduced around the world and about 200 establishing themselves each year. While not all will become invasive, experts say there are significant tools to mitigate their spread and impact, protecting and restoring ecosystems in the process. \n\n\"Invasive alien species are a major threat to biodiversity and can cause irreversible damage to nature, including local and global species extinctions, and also threaten human wellbeing,\" wrote Prof Helen Roy, Prof Anibal Pauchard and Prof Peter Stoett, who led the research. \"It would be an extremely costly mistake to regard biological invasions only as someone else's problem,\" said Pauchard. \"Although the specific species that inflict damage vary from place to place, these are risks and challenges with global roots but very local impacts facing people in every country, from all backgrounds and in every community -- even Antarctica is being affected.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/09/04/1610205/invasive-species-cost-humans-423-billion-each-year-and-threaten-worlds-diversity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T16:10:00.000Z",
+          "wordCount": 6966,
+          "title": "Invasive Species Cost Humans $423 Billion Each Year and Threaten World's Diversity",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/04/154248/lse-group-draws-up-plans-for-blockchain-based-digital-assets-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The London Stock Exchange Group has drawn up plans for a new digital markets business, saying this will make it the first major exchange to offer extensive trading of traditional financial assets on the blockchain technology best known for powering cryptocurrency. From a report: Murray Roos, head of capital's markets at the LSE Group, told the Financial Times that the company had been examining the potential for a blockchain-powered trading venue for about a year, and had reached an \"inflection point\" where it had decided to take the plans forward. It has asked Julia Hoggett, head of the London Stock Exchange, one unit in the broader group, to spearhead the project. \n\nRoos stressed that his exchange was \"definitely not building anything around cryptoassets\" but was looking to use the technology that underpins popular tokens such as bitcoin to improve the efficiency of buying, selling and holding traditional assets. \"The idea is to use digital technology to make a process that is slicker, smoother, cheaper and more transparent and to have it regulated,\" Roos said. He added that LSEG had waited to proceed until it was sure that the public blockchain technology was \"good enough\" and that investors were ready.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/04/154248/lse-group-draws-up-plans-for-blockchain-based-digital-assets-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T15:05:00.000Z",
+          "wordCount": 4907,
+          "title": "LSE Group Draws Up Plans for Blockchain-based Digital Assets Business",
+          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/09/04/141243/apple-set-to-embrace-an-iphone-charger-change-it-didnt-want?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: If Apple had its way, the iPhone would continue to use the current Lightning connector for the next few years -- until the point when the company is ready to begin phasing out ports on its smartphones altogether. But the European Union forced its hand, requiring mobile device makers to use the USB-C standard by the end of next year. So Apple is now in the awkward position of embracing the very technology it didn't want. When the company introduces the iPhone 15 on Sept. 12, USB-C connectors will appear on its four new phone models, as well as the AirPods Pro, and Apple will describe it as a major win for customers. \n\nCustomers will be able to use a single charging cable for iPhones, Macs and iPads. It will bring breakthrough data transfer speed increases for the new high-end iPhone models. Phones will charge faster in some instances. And, finally, the phones will be compatible with chargers used by billions of non-Apple devices. \n\nWhy will Apple be so upbeat about a change it didn't ask for? That's because the company has an iron-clad rule: When it's introducing a new product or dealing with the media, it always wants to operate from a position of strength. Apple's keynote presentation won't mention the European Union or make reference to the many times over the past few years that it criticized the government's decision to require USB-C. Back when it was still resisting the switch, Apple laid out a few arguments, including that the change would harm the environment -- given that billions of obsolete cables may wind up in a landfill. Another rationale, floated by Apple marketing chief Greg Joswiak last year, is the potentially harmful precedent of governments influencing product design.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/09/04/141243/apple-set-to-embrace-an-iphone-charger-change-it-didnt-want?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T14:01:00.000Z",
+          "wordCount": 13746,
+          "title": "Apple Set To Embrace an iPhone Charger Change It Didn't Want",
+          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/03/1528258/workers-are-resisting-calls-to-return-to-offices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "America's return-to-office has been a \"lagging return,\" reports the Washington Post:\n\nEven with millions of workers across the country being asked to return to their cubicles, office occupancy has been relatively static for the past year. The country's top 10 metropolitan areas averaged 47.2 percent of pre-pandemic levels last week, according to data from Kastle Systems. This time last year, the average was around 44 percent.... \n\nAbout 52 percent of remote-capable U.S. workers are operating under hybrid arrangements, according to data from Gallup, while 29 percent are exclusively remote. And though executives like Meta's Mark Zuckerberg have argued that the rise of flexible work has had a deleterious effect on productivity, data from the Bureau of Labor Statistics shows that labor product…",
+          "link": "https://it.slashdot.org/story/23/09/03/1528258/workers-are-resisting-calls-to-return-to-offices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T11:34:00.000Z",
+          "wordCount": 14480,
+          "title": "Workers are Resisting Calls to Return to Offices",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/04/0420246/why-self-driving-cars-slowed-down-in-high-tech-boston?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "The city of Boston also allows testing of self-driving cars. But the Boston Globe reports that \"There are far fewer complaints about self-driving cars because you barely see them.\"\n\n[F]ollowing a string of high-profile crashes and the disruption of the COVID pandemic, the state Transportation Department — now under Governor Maura Healey — has seemingly lost its enthusiasm for AVs... Only one company is permitted to test autonomous vehicles here — Boston-based Motional — and it confines its occasional experiments to a corner of the Seaport and a closed track at Suffolk Downs in East Boston. And despite past efforts to woo autonomous-vehicle firms, the state hasn't received any new applications in years... \n\nProponents have long said AVs could transform transportation, with all manner of eco…",
+          "link": "https://tech.slashdot.org/story/23/09/04/0420246/why-self-driving-cars-slowed-down-in-high-tech-boston?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T08:34:00.000Z",
+          "wordCount": 7531,
+          "title": "Why Self-Driving Cars Slowed Down in High-Tech Boston",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/09/04/0519225/scientists-finally-know-why-germanys-wild-boar-are-surprisingly-radioactive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An anonymous reader shared this report from the Washington Post:\n\nOn April 26, 1986, the infamous explosion at a Chernobyl nuclear power plant unleashed large amounts of radiation into the atmosphere, an event that contaminated wildlife across country lines. The radiation levels seen in animals as a result has decreased in recent years — with the exception of one animal: the wild boar. For years, scientists questioned why levels of a radioactive isotope known as cesium-137 have remained surprisingly high in wild boars rooting around Germany and Austria, while decreasing in other deer and roe deer. In a new study released last week, a team of researchers finally solved this \"wild boar paradox.\" \n\nThey uncovered that the main radioactive source is not the Chernobyl accident but nuclear weapo…",
+          "link": "https://hardware.slashdot.org/story/23/09/04/0519225/scientists-finally-know-why-germanys-wild-boar-are-surprisingly-radioactive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T05:22:00.000Z",
+          "wordCount": 6824,
+          "title": "Scientists Finally Know Why Germany's Wild Boar Are Surprisingly Radioactive",
+          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/09/04/0149214/how-a-billion-dollar-satellite-risks-upending-the-space-insurance-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Viasat Inc. has more than $1 billion of orbiting satellites in trouble,\" reports Bloomberg, \"and space insurers are girding for market-rattling claims.\"\n\nThe company's roughly $1 billion ViaSat-3 Americas satellite, central to expanding its fixed-broadband coverage and fending off rivals including Elon Musk's Starlink, suffered an unexpected problem as it deployed its antenna in orbit in April. Should Viasat declare it a total loss, industry executives estimate the claim would reach a record-breaking $420 million and, in turn, make it harder — and more expensive — for other satellite operators to get insurance... Viasat on Aug. 24 reported another stricken spacecraft, saying its Inmarsat-6 F2 satellite launched in February suffered a power problem. The failure may end the craft's useful life and result in a $350 million insurance claim, Space Intel Report said. \n\nViasat's troubles in orbit come a few years after big-name insurers like American International Group Inc. and Allianz SE have shuttered their space portfolios. That's left a smaller pool of providers to absorb the risks in the notoriously high-stakes $553 million market... \n\n\nFollowing news of the Inmarsat-6 anomaly, Viasat and other industry participants \"will likely experience significant challenges with obtaining insurance for future satellite launches,\" [investment banking firm] William Blair's Louie DiPalma said in an Aug. 25 note... In 2019, the total losses from satellite claims amounted to $788 million, which overwhelmed the total premiums for the year at $500 million, according to launch and satellite database Seradata. In the years that followed, big names like American International Group Inc., Swiss Re AG, and Allianz SE all closed the door on satellite insurance. \nEarlier this month Viasat's CEO says before deciding whether they'll file a claim, \"There's no consequences to us taking another couple or three months to get good measurements and then making those decisions.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/09/04/0149214/how-a-billion-dollar-satellite-risks-upending-the-space-insurance-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-04T01:52:00.000Z",
+          "wordCount": 9735,
+          "title": "How a Billion-Dollar Satellite Risks Upending the Space Insurance Industry",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
         {
           "id": "https://news.slashdot.org/story/23/09/03/2248249/after-hurricane-caused-flooding-some-evs-exposed-to-saltwater-caught-fire?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
