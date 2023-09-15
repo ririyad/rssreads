@@ -215,36 +215,6 @@
           "wordCount": 7866,
           "title": "Strategic directions: minimizing risk and being data driven",
           "imageUrl": "https://martinfowler.com/articles/creating-integrated-tech-strategy/card.png"
-        },
-        {
-          "id": "https://www.thoughtworks.com/about-us/events/webinars/scaling-bottlenecks--technology-mistakes-every-growing-startup-m",
-          "author": null,
-          "description": "Join Tim Cochran and Rickey Zachery on Thursday, September 7th 1-2pm EST\n     for a webinar on Bottlenecks of\n     Scaleups: Technology mistakes every growing startup makes. They researched\n     Thoughtwork's portfolio to analyze why companies struggle to scale,\n     spanning across Technology, People, and Product. Covering areas such as\n     experimentation culture, overcomplicated architectures, onboarding,\n     developer productivity, product and engineering collaboration, and cost\n     efficiency.\nmore…",
-          "link": "https://www.thoughtworks.com/about-us/events/webinars/scaling-bottlenecks--technology-mistakes-every-growing-startup-m",
-          "publishedOn": "2023-08-15T18:35:00.000Z",
-          "wordCount": 1060,
-          "title": "Bottlenecks of Scaleups Webinar: Sep 7 2023",
-          "imageUrl": "https://www.thoughtworks.com/content/dam/thoughtworks/images/photography/meta/about-us/ab_meta_scaling_bottlenecks2.jpg"
-        },
-        {
-          "id": "https://martinfowler.com/articles/creating-integrated-tech-strategy.html#BuildingAStrongFoundation",
-          "author": null,
-          "description": "Any business that wants to grow needs to be built on strong and stable\n     foundations. While these strategic directions are often familiar to\n     technical folks it's important that the improvements to engineering align\n     with the themes that resonate with the rest of the organization.\n     Sarah Taraporewalla illustrates how this appears with two\n     strategic directions that consider improvements in efficiency and quality.\nmore…",
-          "link": "https://martinfowler.com/articles/creating-integrated-tech-strategy.html#BuildingAStrongFoundation",
-          "publishedOn": "2023-08-15T14:16:00.000Z",
-          "wordCount": 6389,
-          "title": "Strategic directions to build a strong foundation",
-          "imageUrl": "https://martinfowler.com/articles/creating-integrated-tech-strategy/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#SustainPhase",
-          "author": null,
-          "description": "When scaling up, getting costs under control is vital to stabilizing\n       financial health. But as a weight-loss expert might say, the key to\n       long-term health is to do things that promote a sustainable lifestyle.\n       Sofia Tania  and  Stefania\n       Stefansdottir now move on to begin to describe these\n       initiatives: federated accountability, visibility, and nudges\n       towards better financial discipline.\n       \nmore…",
-          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/04-costs.html#SustainPhase",
-          "publishedOn": "2023-08-15T14:15:00.000Z",
-          "wordCount": 6073,
-          "title": "Actions to sustain cost control for scaleups",
-          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
         }
       ]
     },
@@ -296,6 +266,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/09/14/1.72.1-prerelease.html",
+          "author": null,
+          "description": "The 1.72.1 pre-release is ready for testing. The release is scheduled for\nSeptember 19. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-09-14/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/09/14/1.72.1-prerelease.html",
+          "publishedOn": "2023-09-14T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.72.1 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2023/09/08/infra-team-leadership-change.html",
           "author": null,
@@ -589,6 +569,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://slashdot.org/story/23/09/14/2149255/amazon-unleashes-gen-ai-for-product-descriptions-curbs-it-for-kindle?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Amazon.com has introduced a generative AI service that it claims will \"dramatically improve the listing creation and management experience for sellers.\" The company says the AI \"will simplify how Amazon sellers create more thorough and captivating product descriptions\" and \"enrich existing listings, helping customers more confidently make purchase decisions.\" The Register reports: Using an unspecified large language model, Amazon will allow sellers to enter \"a brief description of the product in a few words or sentences\" and then \"generate high-quality content for their review.\" Sellers can review the AI output, or just \"directly submit the automatically generated content to the Amazon catalog.\" Amazon reckons the results will offer customers \"more complete, consistent, and engaging product information that will enhance their shopping experiences.\"\n \nAuthors who post their works to the e-tail elephant's Kindle bookstore also need to consider AI as last week the content guidelines for e-book authors and publishers added a requirement to disclose machine-generated content \"when you publish a new book or make edits to and republish an existing book.\" Amazon wants to be told of any AI-generated images, texts, or translations. Altering the work of an AI does not exempt authors and publishers from this requirement, as Amazon's definition of \"AI-generated\" includes material generated by a machine that received \"substantial edits\" by a human. AI-assisted content -- defined as material created by a human and then offered to a machine for edits, refinements, error-checks or other improvements -- doesn't have to be disclosed.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/14/2149255/amazon-unleashes-gen-ai-for-product-descriptions-curbs-it-for-kindle?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T23:50:00.000Z",
+          "wordCount": 4182,
+          "title": "Amazon Unleashes Gen AI For Product Descriptions, Curbs It For Kindle",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/14/2136201/hackers-steal-53-million-worth-of-cryptocurrency-from-coinex?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Global cryptocurrency exchange CoinEX announced that someone hacked its hot wallets and stole large amounts of digital assets that were used to support the platform's operations. BleepingComputer reports: The incident occurred on September 12 and preliminary results of the investigation show that the unauthorized transactions involved Ethereum ($ETH), Tron ($TRON), and Polygon ($MATIC) cryptocurrency. CoinEx has not provided any info about the financial impact incurred, as the investigation has yet to determine the complete losses.\n \nHowever, a report from blockchain security firm PeckShield says that the attack drained CoinEx of about $19 million in $ETH, $11 million in $TRON, $6.4 million in Smart Chain Coin ($BSC), $6 million in Bitcoin (BTC), and approximately $295,000 in (MATIC). According to PeckShield, the loss from this attack amounts to about $43 million, while the remaining $72 million kept on the same stash has been transferred to better-protected cold wallets.\n \nA more recent estimation on the CoinEx losses coming from CertiK Alert raises the figure to $53 million, analyzed as seen in this document. User assets have not been impacted by the incident, CoinEx said, and assuring that any parties suffering loss will receive full compensation. At the time of writing, all deposit and withdrawal services on CoinEx have been suspended to protect user assets and will only resume after the exchange's IT team makes sure that all risk has been eliminated.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/14/2136201/hackers-steal-53-million-worth-of-cryptocurrency-from-coinex?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T23:10:00.000Z",
+          "wordCount": 4708,
+          "title": "Hackers Steal $53 Million Worth of Cryptocurrency From CoinEx",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/14/2129215/tesla-reinvents-carmaking-with-quiet-breakthrough?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Reuters: Tesla has combined a series of innovations to make a technological breakthrough that could transform the way it makes electric vehicles and help Elon Musk achieve his aim of halving production costs, five people familiar with the move said. The company pioneered the use of huge presses with 6,000 to 9,000 tons of clamping pressure to mold the front and rear structures of its Model Y in a \"gigacasting\" process that slashed production costs and left rivals scrambling to catch up. In a bid to extend its lead, Tesla is closing in on an innovation that would allow it to die cast nearly all the complex underbody of an EV in one piece, rather than about 400 parts in a conventional car, the people said.\n \nThe know-how is core to Tesla's \"unboxed\" m…",
+          "link": "https://tech.slashdot.org/story/23/09/14/2129215/tesla-reinvents-carmaking-with-quiet-breakthrough?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T22:30:00.000Z",
+          "wordCount": 8366,
+          "title": "Tesla Reinvents Carmaking With Quiet Breakthrough",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/14/2115204/github-alienates-developers-by-force-feeding-them-ai-recommendations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "A week ago, GitHub fused its home page feed with algorithmic recommendations, infuriating more than a few users of the Microsoft-owned code-hosting giant. The Register reports: On Tuesday, GitHub responded to the hostile feedback by stating that some of the questioned behavior was actually due to bugs that have now been fixed, even as it doubled down on its decision to combine the previously separate \"Following\" and \"For You\" feeds. The \"Following\" feed included \"activity by people you follow and from repositories you watch.\" It was the result of deliberate user choice: developers selected the code and contributors they were interested in. The \"For You\" feed included \"activity and recommendations based on your GitHub network.\" It was the result of GitHub's social algorithm and user behavio…",
+          "link": "https://tech.slashdot.org/story/23/09/14/2115204/github-alienates-developers-by-force-feeding-them-ai-recommendations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T21:50:00.000Z",
+          "wordCount": 5029,
+          "title": "GitHub Alienates Developers By Force Feeding Them AI Recommendations",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://mobile.slashdot.org/story/23/09/14/2048217/why-apple-put-a-thread-radio-in-the-iphone-15-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "On Tuesday, Apple unveiled the iPhone 15 Pro and Pro Max featuring USB-C ports, titanium bodies, and Action Buttons. They're also the first smartphones to support the open-source smart home protocol Thread. The Verge's Jennifer Pattison Tuohy explains how Apple might deploy this wireless connectivity protocol in its ecosystem: The obvious use for Thread in the iPhone is as a Thread border router for the slew of new Apple Home and Matter-enabled Thread smart home devices from companies like Eve, Nanoleaf, and Belkin WeMo. This would mean you wouldn't have to have a HomePod Mini, Apple TV 4K, or other Thread border router to use Thread smart home gadgets with your iPhone. ... [Jonathan Hui, VP of technology at the Thread Group and a software engineer at Google] says that Thread connectivity …",
+          "link": "https://mobile.slashdot.org/story/23/09/14/2048217/why-apple-put-a-thread-radio-in-the-iphone-15-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T21:10:00.000Z",
+          "wordCount": 6317,
+          "title": "Why Apple Put a Thread Radio In the iPhone 15 Pro",
+          "imageUrl": "https://a.fsdn.com/sd/topics/wireless_64.png"
+        },
+        {
+          "id": "https://mobile.slashdot.org/story/23/09/14/2029233/more-countries-are-concerned-about-iphone-12s-radiation-levels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Reuters: Belgium said on Thursday it would review potential health risks linked to Apple's iPhone 12, raising the prospect that more European countries might ban the model after France ordered a halt to sales due to breaches of radiation exposure limits. However, there seemed to be no immediate prospect of an EU-wide ban as the European Commission said it would wait for feedback from other EU countries before deciding on any action. European Union member states, which were notified by the French regulator on Wednesday, have three months to provide comments. Some, such as Italy, said they would take no steps for now.\n \nMathieu Michel, Belgium's state secretary for digitalization told Reuters that the Belgian regulator was looking into the matter afte…",
+          "link": "https://mobile.slashdot.org/story/23/09/14/2029233/more-countries-are-concerned-about-iphone-12s-radiation-levels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T20:30:00.000Z",
+          "wordCount": 6527,
+          "title": "More Countries Are Concerned About iPhone 12's Radiation Levels",
+          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/14/1633215/activist-investor-to-godaddy-cut-costs-and-improve-sales-or-sell?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "GoDaddy needs to cut more jobs, reduce the tech budget, and address why it is falling short of financial targets outlined at its shareholder day in 2022, or the board should consider exploring a sale of the business. From a report: This is the view from activist investor Starboard Blue LLP, GoDaddy's third largest shareholder and one which is agitating for change and a seat on the corporation's board, something it has so far failed to secure. An open letter [PDF] to GoDaddy's top brass starts off friendly enough, with Starboard Value managing member Peter Feld describing the business as a \"one-stop shop for micro- and small-businesses looking to develop a web presence.\" \n\nFeld says Starboard Value invested in the stock, a move it made public in early 2022, on the basis of opportunities for strong revenue growth, \"meaningful margin expansion\" and a \"more appropriate capital allocation strategy.\" \"Unfortunately, despite each of these opportunities remaining, over the last 18 months we have been disappointed by GoDaddy's operational, financial and stock price performance,\" the letter adds. At the investor day, GoDaddy projected compound annual growth in revenue of 10 percent between 2022 and 2024, as well as 15 percent EBITDA, 20 percent free cashflow per share and $3 billion in share buybacks. Further reading: Alphabet Selling Google Domains Assets To Squarespace.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/14/1633215/activist-investor-to-godaddy-cut-costs-and-improve-sales-or-sell?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T18:40:00.000Z",
+          "wordCount": 7254,
+          "title": "Activist Investor To GoDaddy: Cut Costs and Improve Sales, or Sell",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/09/14/1624239/a-luxury-cruise-ship-stuck-off-greenlands-coast-for-3-days-is-pulled-free?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A luxury cruise ship that had been stuck for three days after running aground off the coast of Greenland was pulled free on Thursday morning, the authorities said. From a report: The ship, the Ocean Explorer, had been carrying 206 passenger and crew members and was headed toward Alpefjord, in a remote corner of Greenland. The ship's destination was the Northeast Greenland National Park, the world's northernmost national park, which is home to icebergs, glaciers and high mountains. The Joint Arctic Command, which is part of Denmark's defense forces, and SunStone Maritime Group, the coordinators of the rescue operation, said in statements on Thursday that the ship had been pulled free by a vessel named Tarajoq. \n\nThere were no reported injuries on board the ship, and there was no threat to the environment. The ship's operator, Aurora Expeditions, a cruise company based in Australia, did not immediately respond to a request for comment. The rescue came after an unsuccessful attempt on Wednesday, in which a fishing research vessel owned by the government of Greenland tried and failed to pull free the Ocean Explorer at high tide. Bad weather also slowed the government's rescue operations, officials said. Before the ship was freed, the Joint Arctic Command had said that \"the crew and passengers are in a difficult situation, but after the circumstances, the atmosphere on the ship is good and everyone on board is fine.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/14/1624239/a-luxury-cruise-ship-stuck-off-greenlands-coast-for-3-days-is-pulled-free?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T18:00:00.000Z",
+          "wordCount": 6671,
+          "title": "A Luxury Cruise Ship, Stuck Off Greenland's Coast for 3 Days, Is Pulled Free",
+          "imageUrl": "https://a.fsdn.com/sd/topics/news_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/09/14/1629228/california-passes-strongest-right-to-repair-bill-yet-requiring-7-years-of-parts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "California, the home to many of tech's biggest companies and the nation's most populous state, is pushing ahead with a right-to-repair bill for consumer electronics and appliances. From a report: After unanimous votes in the state Assembly and Senate, the bill passed yesterday is expected to move through a concurrence vote and be signed by Governor Gavin Newsom. \"Since Right to Repair can pass here, expect it to be on its way to a backyard near you,\" said iFixit CEO Kyle Wiens in a statement. iFixit, a seller of repair parts and tools and advocate for right-to-repair laws, based in San Luis Obispo, California, was joined in its support for the California repair law by another California company with a history of opposing repair laws: Apple. The consumer tech giant's letter urging passage of the bill was surprising, to say the least, though Apple said that the bill's stipulations for \"individual users' safety\" and \"product manufacturers' intellectual property\" were satisfactory. \n\nCalifornia's bill goes further than right-to-repair laws in other states. Rather than limiting its demand that companies provide parts, tools, repair manuals, and necessary software for devices that are still actively sold, California requires that vendors provide those items for products sold after July 1, 2021, starting in July 2024. Products costing $50 to $99.99 must be accompanied by those items for three years, and items $100 and more necessitate seven years. The bill also provides for stronger enforcement mechanisms, allowing for municipalities to bring superior court cases rather than contact the state attorney general.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/09/14/1629228/california-passes-strongest-right-to-repair-bill-yet-requiring-7-years-of-parts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T17:20:00.000Z",
+          "wordCount": 9609,
+          "title": "California Passes Strongest Right-to-Repair Bill Yet, Requiring 7 Years of Parts",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/14/1620247/video-game-company-unity-closes-offices-following-death-threat?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Unity canceled a planned town hall and closed two offices Thursday after receiving what it said was a credible death threat in the wake of a controversial pricing decision earlier this week, Bloomberg News reported Thursday, citing people familiar with the matter. From the report: Unity, the maker of tools and technology for video games, set off a firestorm on Sept. 12 by announcing it will begin charging developers a new fee for games made using its software, called the Unity Engine. Beginning Jan. 1, makers of Unity games will have to pay per user installation after a certain threshold is reached. Some video-game makers accused Unity of violating its own terms of service and lamented that the new charges could threaten their livelihoods. Many game studios put out harshly worded statements urging the technology company to reconsider.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/14/1620247/video-game-company-unity-closes-offices-following-death-threat?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T16:28:00.000Z",
+          "wordCount": 12557,
+          "title": "Video-Game Company Unity Closes Offices Following Death Threat",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/14/1610212/google-extends-lifespan-of-chromebooks-with-10-year-update-policy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google is working to push back the expiration date of Chromebooks, addressing concerns held by school administrators that the laptops are too short-lived to be cost effective. From a report: The Alphabet-owned company -- which develops the Chrome operating system running on computers made mostly by others -- said Thursday it plans to provide software updates for Chromebooks for up to a decade. The new policy, which starts next year, ensures that no existing Chromebook will expire within the next two years. The disclosure of this policy change comes after an August column in The Wall Street Journal detailing schools' struggles with expiring Chromebooks. Chromebooks are ubiquitous in classrooms around the country, but some education software doesn't work after what Google calls the Auto Update Expiration date. Unsupported Chromebooks can't be used for mandatory state testing, even if the hardware still appears functional. \n\nWhen the laptops expire, school districts recycle them, sometimes at a cost, and spend millions of dollars on replacements. Google currently sets expiration dates based on the release date of specific models. Newer models have eight years of support, while older Chromebooks have five. Starting in 2024, Google will support a given laptop \"platform\" -- a certain combination of hardware components -- for 10 years after the first device in the platform hits store shelves. These so-called platforms aren't unique to specific brands or manufacturers and can be found in a variety of distinct models.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/14/1610212/google-extends-lifespan-of-chromebooks-with-10-year-update-policy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T16:10:00.000Z",
+          "wordCount": 6036,
+          "title": "Google Extends Lifespan of Chromebooks With 10-Year Update Policy",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/14/1528216/hps-5000-spectre-foldable-pc-has-a-lot-to-prove?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "HP is the latest company to announce a foldable-screen PC. From a report: The 17-inch Spectre Foldable PC has a keyboard that can be used wirelessly with the device propped up on its kickstand. Or you could magnetically attach the keyboard to the screen's bottom half or even slide the keyboard toward you for a 1.5-screen-like experience. The OLED device addresses concerns around battery life and portability by including two battery packs instead of one. But the bendy, Intel 12th-gen computer will have to do quite a lot to even begin rationalizing its staggering $5,000 price. The Spectre Fold works as a 17-inch, 0.33-inch (8.5 mm) thick OLED tablet. Uniquely, it has an integrated kickstand for propping the PC up at a 120-degree angle. This is key because HP cites the kickstand as one of the reasons the computer is so costly, but this also means you don't have to deal with separate origami stands/sleeves. \n\nWith the PC propped up, it should be easy to work with the included wireless keyboard or stylus, which both charge wirelessly on the device. The Bluetooth keyboard can attach to the bottom half of the PC's screen for a 12.3-inch laptop view. If you slide the keyboard down toward you, revealing more of the OLED, the PC will automatically display windows north of the keyboard. This scenario is like working on a 14-inch laptop. HP says it worked with Microsoft to customize Windows 11's Snap feature so it's easy to bring a window or two to the space above the docked keyboard. Lenovo's Yoga Book 9i, a clamshell laptop with a second OLED screen where you'd expect the keyboard and touchpad to be, also lets you place windows on top of a docked keyboard. But when I tested that laptop, I typically found looking down physically uncomfortable.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/14/1528216/hps-5000-spectre-foldable-pc-has-a-lot-to-prove?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T15:28:00.000Z",
+          "wordCount": 5672,
+          "title": "HP's $5,000 Spectre Foldable PC Has a Lot To Prove",
+          "imageUrl": "https://a.fsdn.com/sd/topics/hp_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/14/1447215/us-alleges-google-got-rich-because-people-stick-with-search-defaults?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Justice Department will press its argument Thursday that Google sought to strike agreements with mobile carriers to win powerful default positions on smartphones to dominate search in an antitrust trial that could change the future of the internet. From a report: The government will wrap up questioning Thursday of Antonio Rangel, who teaches behavioral biology at the California Institute of Technology. Other witnesses will be James Kolotouros, for Google, and Brian Higgins, from Verizon Communications. The government says the Alphabet unit paid $10 billion annually to wireless companies like AT&T, device makers like Apple and browser makers like Mozilla to fend off rivals and keep its search engine market share near 90%. The government has also alleged that Google illegally took steps to protect communications about the payments. \n\nThe government called witnesses on Tuesday and Wednesday to show that Google, as far back as the mid-2000s, sought to attract a large number of search queries by winning default status on mobile devices. Another witness, Rangel, discussed how powerful default status was, although data he used to show this was largely redacted. Google's clout in search, the government alleges, has helped Google build monopolies in some aspects of online search advertising. Search is free so Google makes money through advertising.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/14/1447215/us-alleges-google-got-rich-because-people-stick-with-search-defaults?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T14:47:00.000Z",
+          "wordCount": 9063,
+          "title": "US Alleges Google Got Rich Because People Stick With Search Defaults",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/14/144225/microsoft-facing-formal-eu-complaint-over-teams-video-app?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft's attempt at avoiding deeper European Union scrutiny of its Teams video-conferencing app fell flat with the bloc's antitrust enforcers readying a formal complaint against the firm's conduct. From a report: Microsoft's recent proposal to split its Teams from a broader business software package and sell it to customers separately with an annual discount wasn't enough to satisfy regulators' concerns, according to people familiar with the matter, who spoke on condition of anonymity. The European Commission is preparing a statement of objections to send to the company, which could come in the next few months, the people said. At the end of August, Microsoft attempted to allay concerns raised by the EU's antitrust arm as part of a new investigation into how it ties Teams to its Office 365 and Microsoft 365 packages. The EU's investigation followed a complaint from Salesforce's messaging platform Slack some three years ago.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/14/144225/microsoft-facing-formal-eu-complaint-over-teams-video-app?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T14:04:00.000Z",
+          "wordCount": 5591,
+          "title": "Microsoft Facing Formal EU Complaint Over Teams Video App",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/14/0120204/hackers-claim-it-only-took-a-10-minute-phone-call-to-shut-down-mgm-resorts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Engadget: The ALPHV/BlackCat ransomware group claimed responsibility for the MGM Resorts cyber outage on Tuesday, according to a post by malware archive vx-underground. The group claims to have used common social engineering tactics, or gaining trust from employees to get inside information, to try and get a ransom out of MGM Resorts, but the company reportedly refuses to pay. The conversation that granted initial access took just 10 minutes, according to the group.\n \n\"All ALPHV ransomware group did to compromise MGM Resorts was hop on LinkedIn, find an employee, then call the Help Desk,\" the organization wrote in a post on X. Those details came from ALPHV, but have not been independently confirmed by security researchers. The international resort chain started experiencing outages earlier this week, as customers noticed slot machines at casinos owned by MGM Resorts shut down on the Las Vegas strip. As of Wednesday morning, MGM Resorts still shows signs that it's experiencing downtime, like continued website disruptions. In a statement on Tuesday, MGM Resorts said: \"Our resorts, including dining, entertainment and gaming are currently operational.\" However, the company said Wednesday that the cyber incident has significantly disrupted properties across the United States and represents a material risk to the company.\n \n\"[T]he major credit rating agency Moody's warned that the cyberattack could negatively affect MGM's credit rating, saying the attack highlighted 'key risks' within the company,\" reports CNBC. \"The company's corporate email, restaurant reservation and hotel booking systems remain offline as a result of the attack, as do digital room keys. MGM on Wednesday filed a 8-K report with the Securities and Exchange Commission noting that on Tuesday the company issued a press release 'regarding a cybersecurity issue involving the Company.'\" MGM's share price has declined more than 6% since Monday.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/14/0120204/hackers-claim-it-only-took-a-10-minute-phone-call-to-shut-down-mgm-resorts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-14T13:00:00.000Z",
+          "wordCount": 7320,
+          "title": "Hackers Claim It Only Took a 10-Minute Phone Call To Shut Down MGM Resorts",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
         {
           "id": "https://tech.slashdot.org/story/23/09/13/2323238/africas-internet-registry-placed-under-receivership?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
