@@ -503,6 +503,16 @@
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
         {
+          "id": "https://taylor.town/pg-task",
+          "author": null,
+          "description": "I like slim and stupid servers, where each endpoint wraps a very dumb DB query. Dumb queries are fast. Fast queries make websites smooth and snappy. Keep those click/render loops sacred. Sweep complexity under a task table.",
+          "link": "https://taylor.town/pg-task",
+          "publishedOn": "2023-09-19T00:00:00.000Z",
+          "wordCount": 1230,
+          "title": "How/Why to Sweep Async Tasks Under a Postgres Table",
+          "imageUrl": null
+        },
+        {
           "id": "https://taylor.town/holy-prepuce",
           "author": null,
           "description": "After being lost for almost 1500 years, Christ's foreskin (known as the Holy Prepuce) was discovered in the small Roman town of Calcata, disproving a theory by 17th century theologian Leo Allatius that it ascended into heaven to become the rings of Saturn.",
@@ -599,6 +609,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://hardware.slashdot.org/story/23/09/18/210216/modder-turns-framework-laptop-pcb-into-a-handheld-gaming-pc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "YouTuber Pitstoptech built a \"fully upgradeable gaming handheld\" around one of Framework's upgradable motherboards. Tom's Hardware reports: The handheld model you see in the video is equipped with the following components:\n \n- Framework's Intel Core i7-1260P processor equipped mainboard\n- 7-inch FHD touchscreen display\n- 16 GB RAM\n- 512 GB SSD\n- Dual front-facing speakers\n- Detachable controllers\n- 55 Wh Battery\n- High-speed Wi-Fi & Bluetooth\n \nThese components appear to offer some passable small-screen gaming. And in the video, you can see the device plugs into a larger monitor / TV where using the controllers in a detached configuration (Bluetooth) may be more comfortable. [...] Pitstoptech intends to prepare and sell handheld DIY kits \"soon,\" based on the prototype design you see in the pictures / video.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/09/18/210216/modder-turns-framework-laptop-pcb-into-a-handheld-gaming-pc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-19T00:45:00.000Z",
+          "wordCount": 3819,
+          "title": "Modder Turns Framework Laptop PCB Into a Handheld Gaming PC",
+          "imageUrl": "https://a.fsdn.com/sd/topics/hardware_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/18/2058216/37-signals-says-cloud-repatriation-plan-has-already-saved-it-1-million?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "David Heinemeier Hansson, CTO of SaaS project management outfit 37Signals, has posted an update on the cloud repatriation project he's led, writing that it's already saved the company $1 million. The Register: Hansson has previously revealed that his company spent $3.2 million a year on cloud computing, most of it at Amazon Web Services. His repatriation plan called for the company to spend $600,000 on eight meaty servers that each pack 256 virtual CPUs, and have them hosted at an outfit called Deft. That plan was projected to save $7 million over five years. In his Saturday post, Hansson wrote he now thinks he can find $10 million of savings in the same period. \n\n\"Our cloud spend is down by 60 percent already... from around $180,000/month to less than $80,000,\" he wrote, qualifying that the number excludes the cost of Amazon Web Services's Simple Storage Service. \"That's a cool million dollars in savings at the yearly run rate, and we have another big drop coming in September, before the remaining spend will petter out through the rest of the year,\" he added. The CTO revealed that the 37 Signals ops team remains the same size even though it now tends its own hardware, which cost \"about half a million dollars.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/18/2058216/37-signals-says-cloud-repatriation-plan-has-already-saved-it-1-million?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-19T00:01:00.000Z",
+          "wordCount": 4578,
+          "title": "37 Signals Says Cloud Repatriation Plan Has Already Saved It $1 Million",
+          "imageUrl": "https://a.fsdn.com/sd/topics/cloud_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/18/2037211/hundreds-of-flying-taxis-to-be-made-in-ohio?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Under an agreement announced Monday, Joby Aviation will build hundreds of electric vertical takeoff and landing (eVTOL) aircraft in the same Ohio river valley where the Wright brothers pioneered human flight. The Associated Press reports: Joby's decision to locate its first scaled manufacturing facility at a 140-acre (57-hectare) site at Dayton International Airport delivers on two decades of groundwork laid by the state's leaders, Republican Lt. Gov. Jon Husted said. Importantly, the site is near Wright-Patterson Air Force Base and the headquarters of the U.S. Air Force Research Laboratories. The Wright brothers, Orville and Wilbur, lived and worked in Dayton. In 1910, they opened the first U.S. airplane factory there. To connect the historical dots, Joby's formal announcement Monday took place at Orville Wright's home, Hawthorn Hill, and concluded with a ceremonial flypast of a replica of the Wright Model B Flyer.\n \nJoby's production aircraft is designed to transport a pilot and four passengers at speeds of up to 200 miles (321.87 kilometers) per hour, with a maximum range of 100 miles (160.93 kilometers). Its quiet noise profile is barely audible against the backdrop of most cities, the company said. The plan is to place them in aerial ridesharing networks beginning in 2025. The $500 million project is supported by up to $325 million in incentives from the state of Ohio, its JobsOhio economic development office and local government. With the funds, Joby plans to build an Ohio facility capable of delivering up to 500 aircraft a year and creating 2,000 jobs. The U.S. Department of Energy has invited Joby to apply for a loan to support development of the facility as a clean energy project.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/18/2037211/hundreds-of-flying-taxis-to-be-made-in-ohio?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T23:20:00.000Z",
+          "wordCount": 4688,
+          "title": "Hundreds of Flying Taxis To Be Made In Ohio",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/09/18/2024241/us-argues-google-wants-too-much-information-kept-secret-in-antitrust-trial?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Reuters: The U.S. Justice Department on Monday objected to removing the public from the court during some discussions of how Google prices online advertising, one of the issues at the heart of the antitrust trial under way in Washington. The government is seeking to show that Alphabet's Google broke antitrust law to maintain its dominance in online search. The search dominance led to fast-increasing advertising revenues that made Google a $1 trillion company. [Throughout the trial, Google's defense is that its high market share reflects the quality of its product rather than any illegal actions to build monopolies in some aspects of its business.]\n \nDavid Dahlquist, speaking for the government, pointed to a document that was redacted that had a short back and forth about Google's pricing for search advertising. Dahlquist then argued to Judge Amit Mehta, who will decide the case, that information like the tidbit in the document should not be redacted. \"This satisfies public interest because it's at the core of the DOJ case against Google,\" he said. Speaking for Google, John Schmidtlein urged that all discussions of pricing be in a closed session, which means the public and reporters must leave the courtroom. [...]\n \nCase in point was testimony given early Monday by a Verizon executive, Brian Higgins, about the company's decision to always pre-install Google's Chrome browser with Google search on its mobile phones. After about 30 minutes of testimony, Higgins' testimony was closed for the next two hours. It's possible that he was asked about Google's payments to Verizon but the public will never know. Those payments -- which the government said are $10 billion annually to mobile carriers and others -- helped the California-based tech giant win powerful default positions on smartphones and elsewhere.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/09/18/2024241/us-argues-google-wants-too-much-information-kept-secret-in-antitrust-trial?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T22:40:00.000Z",
+          "wordCount": 4739,
+          "title": "US Argues Google Wants Too Much Information Kept Secret In Antitrust Trial",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/09/18/2145229/court-blocks-californias-online-child-safety-law?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "A federal judge has granted a request to block the California Age-Appropriate Design Code Act (CAADCA), a law that requires special data safeguards for underage users online. The Verge reports: In a ruling (PDF) issued today, Judge Beth Freeman granted a preliminary injunction for tech industry group NetChoice, saying the law likely violates the First Amendment. It's the latest of several state-level internet regulations to be blocked while a lawsuit against them proceeds, including some that are likely bound for the Supreme Court. The CAADCA is meant to expand on existing laws -- like the federal COPPA framework -- that govern how sites can collect data from children. But Judge Freeman objected to several of its provisions, saying they would unlawfully target legal speech. \"Although the s…",
+          "link": "https://yro.slashdot.org/story/23/09/18/2145229/court-blocks-californias-online-child-safety-law?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T22:00:00.000Z",
+          "wordCount": 4793,
+          "title": "Court Blocks California's Online Child Safety Law",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/09/18/1952204/textbook-publishers-sue-shadow-library-libgen-for-copyright-infringement?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "A group of publishers in the U.S. have filed a lawsuit against the \"notorious\" online database Library Genesis (Libgen), a website known for providing free access to scientific papers and books. The lawsuit accuses Libgen of facilitating the unauthorized distribution of copyrighted academic materials. The Register reports: The suit, filed in a New York federal court [PDF], asks for a legal order \"requiring the transfer of the Libgen domain names to plaintiffs or, at plaintiffs' election, canceling or deleting the Libgen domain names,\" with the idea of frustrating visitors -- mostly students -- believed to number in their millions. The filing said that according to similarweb.com, the sites collectively were visited by 9 million people from the U.S. each month from March to May 2023. The su…",
+          "link": "https://yro.slashdot.org/story/23/09/18/1952204/textbook-publishers-sue-shadow-library-libgen-for-copyright-infringement?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T21:20:00.000Z",
+          "wordCount": 4871,
+          "title": "Textbook Publishers Sue Shadow Library LibGen For Copyright Infringement",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/18/1939247/clorox-products-in-short-supply-after-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from CNN: A cyberattack at Clorox is causing wide-scale disruption of the company's operations, hampering its ability to make its cleaning materials, Clorox said Monday. Clorox said some of its products are now in short supply as it has struggled to meet consumer demand during the disruption. Clorox didn't specify which of its products are affected.\n \nThe company on Monday revealed in a regulatory filing that it detected unauthorized activity in some of its information technology systems in August. Clorox said it immediately took action to stop the attack, including reducing its operations. It now believes the attack has been contained. Still, Clorox has not been able to get its manufacturing operations back up to full speed. The company said it is fulfilling and processing orders manually. The company doesn't expect to begin the process of returning to normal operations until next week.\n \n\"Clorox has already resumed production at the vast majority of its manufacturing sites and expects the ramp up to full production to occur over time,\" the company said. \"At this time, the company cannot estimate how long it will take to resume fully normalized operations.\" The company said the cyberattack and the delays will hurt its current-quarter financial results materially, although Clorox said determining any longer-term impact would be premature, \"given the ongoing recovery.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/18/1939247/clorox-products-in-short-supply-after-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T20:40:00.000Z",
+          "wordCount": 5308,
+          "title": "Clorox Products In Short Supply After Cyberattack",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/18/1815247/google-domains-halts-registrations-as-it-waits-for-the-google-grim-reaper?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google Domains has registered its last domain. From a report: Google announced in July that the service was getting shut down and that it had struck a deal with Squarespace to sell off the existing customer base. Part of that transition process means winding down the existing Google Domains functionality. 9to5Google was the first site to notice that you can no longer buy a domain through the service while it waits for the Google Grim Reaper to arrive. Google Domain's homepage has a notice explaining that this all apparently went down a few days ago, saying, \"On September 7, 2023 Squarespace acquired all domain registrations and related customer accounts from Google Domains. Customers and domains will be transitioned over the next few months.\" You can still manage existing domains on Google Domains, but that's it.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/18/1815247/google-domains-halts-registrations-as-it-waits-for-the-google-grim-reaper?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T20:01:00.000Z",
+          "wordCount": 5583,
+          "title": "Google Domains Halts Registrations as It Waits for the Google Grim Reaper",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/18/189200/paint-app-for-windows-update-adds-support-for-layers-and-transparency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Windows blog: Today we are beginning to roll out an update for the Paint app to Windows Insiders in the Canary and Dev Channels (version 11.2308.18.0 or higher). With this update, we are introducing support for layers and transparency! You can now add, remove, and manage layers on the canvas to create richer and more complex digital art. With layers, you can stack shapes, text, and other image elements on top of each other. To get started, click on the new Layers button in the toolbar, which will open a panel on the side of the canvas. This is where you can add new layers to the canvas. Try changing the order of layers in this panel to see how the order of stacked image elements on the canvas changes. You can also show or hide and duplicate individual layers or merge layers together. \n\nWe are adding support for transparency as well, including the ability to open and save transparent PNGs! When working with a single layer, you will notice a checkerboard pattern on the canvas indicating the portions of the image that are transparent. Erasing any content from the canvas now truly erases the content instead of painting the area white. When working with multiple layers, if you erase content on one layer, you will reveal the content in layers underneath.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/18/189200/paint-app-for-windows-update-adds-support-for-layers-and-transparency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T19:20:00.000Z",
+          "wordCount": 5448,
+          "title": "Paint App For Windows Update Adds Support for Layers and Transparency",
+          "imageUrl": "https://a.fsdn.com/sd/topics/windows_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/09/18/184244/unity-overhauls-controversial-price-hike-after-game-developers-revolt?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Video-game tool maker Unity Software said Monday it's backtracking on major aspects of a controversial new price hike, telling staff in an all-hands meeting that it's now considering changes including a cap on potential fees. From a report: Unity, which operates and licenses a suite of video-game development tools called the Unity Engine, set off a firestorm last week when it announced plans to charge customers for every new installation of their game after a certain threshold. The decision triggered widespread protests, leading several video-game makers to say they would boycott Unity until the policy is changed. Under the tentative new plan, Unity will limit fees to 4% of a game's revenue for customers making over $1 million and said that installations counted toward reaching the threshold won't be retroactive, according to recording of the meeting reviewed by Bloomberg. Last week, Chief Executive Officer John Riccitiello delayed an all-hands meeting on the pricing changes and closed two offices after the company received what it said was a credible death threat.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/09/18/184244/unity-overhauls-controversial-price-hike-after-game-developers-revolt?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T18:40:00.000Z",
+          "wordCount": 7542,
+          "title": "Unity Overhauls Controversial Price Hike After Game Developers Revolt",
+          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/09/18/1732239/amazon-poised-to-hire-departing-microsoft-product-chief?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Amazon is hiring Microsoft's product chief to run the division responsible for Alexa and the Echo smart speakers, Bloomberg News reported Monday, citing people familiar with the situation. From the report: Panos Panay, who led Microsoft's Windows team and was central to the company's hardware push with its Surface computers, said he was leaving Microsoft earlier Monday. Dave Limp, the longtime Amazon hardware chief, said last month that he would retire from the company before the end of the year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/09/18/1732239/amazon-poised-to-hire-departing-microsoft-product-chief?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T18:06:00.000Z",
+          "wordCount": 4361,
+          "title": "Amazon Poised To Hire Departing Microsoft Product Chief",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/09/18/1727248/apple-releases-os-updates-for-iphone-ipad-apple-watch-apple-tv-and-homepod?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple on Monday rolled out iOS 17, iPadOS 17, tvOS 17, HomePod 17 and watchOS 10, the latest operating system versions for all its devices minus the Mac lineup. iOS 17: iOS 17 expands on last year's Lock Screen updates with the addition of interactive widgets and StandBy, a new feature that turns the iPhone into a mini home hub when it is charging. You can now see voicemail transcriptions in real time, and leave video messages in FaceTime. FaceTime also now works on the Apple TV with tvOS 17. With NameDrop, exchanging contacts is as simple as touching two phones together, and Messages has been overhauled with new safety features and updates to the way that stickers work. Autocorrect is better than ever, Spotlight search has been improved, private browsing in Safari is more secure with Face ID lock, and there's now a mood tracking feature in the Health app. Passwords can be shared in iCloud Keychain and AirTags can be shared among family members too, plus there are new features for the AirPods Pro. Apple has also added updates to Siri, Mail, Reminders, Notes, Home, and more. tvOS 17: In tvOS 17, Apple has added a FaceTime app for FaceTime calls on a larger screen. The feature works through an iPhone or iPad running iOS 17/iPadOS 17, with the iOS device serving as the camera and the TV serving as the display. With a Split View option, you can place your FaceTime call on one side of the TV and a TV show or game on the other side for SharePlay experiences. [...] Other new features include Dolby Vision 8.1 support, an enhance dialogue option to make it easier to hear what's being said over music and effects, and support for third-party VPN apps.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/09/18/1727248/apple-releases-os-updates-for-iphone-ipad-apple-watch-apple-tv-and-homepod?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T17:27:00.000Z",
+          "wordCount": 4703,
+          "title": "Apple Releases OS Updates For iPhone, iPad, Apple Watch, Apple TV and HomePod",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ios_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/09/18/1614229/in-most-industries-regulation-tends-to-prevent-competition?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Elad Gil, writing in a blog post: In most industries, regulation prevents competition. This famous chart of prices over time reflects how highly regulated industries (healthcare, education, energy) have their costs driven up over time, while less regulated industries (clothing, software, toys) drop costs dramatically over time. (Please note I do not believe these are inflation adjusted - so 60-70% may be \"break even\" pricing inflation adjusted.) \n\nRegulation favors incumbents in two ways. First, it increase the cost of entering a market, in some cases dramatically. The high cost of clinical trials and the extra hurdles put in place to launch a drug are good examples of this. A must-watch video is this one with Paul Janssen, one of the giants of pharma, in which he states that the vast majority of drug development budgets are wasted on tests imposed by regulators which \"has little to do with actual research or actual development.\" This is a partial explanation for why (outside of Moderna, an accident of COVID), no $40B+ market cap new biopharma company has been launched in almost 40 years (despite healthcare being 20% of US GDP). \n\nSecondly, regulation favors incumbents via something known as \"regulatory capture.\" In regulatory capture, the regulators become beholden to a specific industry lobby or group -- for example by receiving jobs in the industry after working as a regulator, or via specific forms of lobbying. There becomes a strong incentive to \"play nice\" with the incumbents by regulators and to bias regulations their way, in order to get favors later in life. Additional resource: All-In Summit: Bill Gurley Presents 2,851 Miles.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/18/1614229/in-most-industries-regulation-tends-to-prevent-competition?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T16:40:00.000Z",
+          "wordCount": 15156,
+          "title": "'In Most Industries, Regulation Tends To Prevent Competition'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/09/18/164216/microsoft-ai-researchers-accidentally-exposed-terabytes-of-internal-sensitive-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft AI researchers accidentally exposed tens of terabytes of sensitive data, including private keys and passwords, while publishing a storage bucket of open source training data on GitHub. From a report: In research shared with TechCrunch, cloud security startup Wiz said it discovered a GitHub repository belonging to Microsoft's AI research division as part of its ongoing work into the accidental exposure of cloud-hosted data. Readers of the GitHub repository, which provided open source code and AI models for image recognition, were instructed to download the models from an Azure Storage URL. However, Wiz found that this URL was configured to grant permissions on the entire storage account, exposing additional private data by mistake. This data included 38 terabytes of sensitive information, including the personal backups of two Microsoft employees' personal computers. The data also contained other sensitive personal data, including passwords to Microsoft services, secret keys and more than 30,000 internal Microsoft Teams messages from hundreds of Microsoft employees.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/09/18/164216/microsoft-ai-researchers-accidentally-exposed-terabytes-of-internal-sensitive-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T16:04:00.000Z",
+          "wordCount": 5167,
+          "title": "Microsoft AI Researchers Accidentally Exposed Terabytes of Internal Sensitive Data",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/09/18/1434219/windows-and-surface-leader-panos-panay-leaving-microsoft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Panos Panay, the chief product officer at Microsoft leading Windows development and the company's Surface line, is leaving Microsoft. From a report: In an announcement on Monday, Microsoft told employees: \"After nearly 20 years at the company, Panos Panay has decided to leave Microsoft.\" Panay first joined Microsoft in 2004 as a group program manager. After overseeing the company's Surface line, Panay became the company's chief product officer in 2018, where he led the development of Windows 11.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/09/18/1434219/windows-and-surface-leader-panos-panay-leaving-microsoft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-18T15:20:00.000Z",
+          "wordCount": 4596,
+          "title": "Windows and Surface Leader Panos Panay Leaving Microsoft",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
         {
           "id": "https://developers.slashdot.org/story/23/09/17/2351252/maybe-chatgpt-isnt-coming-for-your-coding-job?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
