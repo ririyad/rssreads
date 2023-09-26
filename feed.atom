@@ -2,10 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-25T01:00:00.991Z</updated>
+    <updated>2023-09-26T01:00:27.529Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Keeping easy from becoming hard]]></title>
+        <id>https://world.hey.com/jason/keeping-easy-from-becoming-hard-e6af27d0</id>
+        <link href="https://world.hey.com/jason/keeping-easy-from-becoming-hard-e6af27d0"/>
+        <updated>2023-09-25T21:38:06.000Z</updated>
+        <summary type="html"><![CDATA[Each Basecamp project has eight built-in tools you can toggle on or off. One for to-dos, one for file storage, one for scheduling, one for a message board, and so on. One of those tools is called "Campfire". Campfire is a real-time group chat. Think of it like Slack, but built right into Basecamp so you don't need Slack or anything else just to chat with your team in real-time.
+Now most tools in Basecamp have very simple, self-explanatory names. To-dos for to-dos... Messages for messages... Schedule for events... Docs & Files for, you guessed it, documents and files... Etc. There are two tools with "special" names: Campfire (group chat), and Card Table (for our unique take on kanban).
+As we continue our relentless focus on simplicity, ease, and clarity, we've decided to rename the Campfire…]]></summary>
+        <author>
+            <name>Jason Fried</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Musk Algorithm]]></title>
+        <id>https://world.hey.com/dhh/the-musk-algorithm-977bf312</id>
+        <link href="https://world.hey.com/dhh/the-musk-algorithm-977bf312"/>
+        <updated>2023-09-25T16:45:35.000Z</updated>
+        <summary type="html"><![CDATA[Walter Isaacson's new book about Elon Musk is a fine biography, but an even better business book. And like all the best business books, it's not merely an instruction manual, but an inspirational guide too. Not since reading Ricardo Semler's Maverick in the early 2000s have I been this impressed with the foresight, fortitude, and ferocity of a founder. Musk is truly one of a kind.
+I know positive statements like that about Musk can trigger some people. Most have already formed their opinion of the man, and, especially in technology, it's typically a polarized one. Either the man is the second coming of capitalist christ or he's the devil's conman incarnate. Ironically, like many of the most interesting people to ever grace this earth, there are shimmers of truth in both caricatures.
+That's…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Developer Creates 'Dark Style' GNOME Extension for Ubuntu 23.10]]></title>
         <id>https://tech.slashdot.org/story/23/09/24/2317206/developer-creates-dark-style-gnome-extension-for-ubuntu-2310?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -27,6 +51,33 @@ It only works with Ubuntu 23.10 and GNOME 45.
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Increasing the minimum supported Apple platform versions]]></title>
+        <id>https://blog.rust-lang.org/2023/09/25/Increasing-Apple-Version-Requirements.html</id>
+        <link href="https://blog.rust-lang.org/2023/09/25/Increasing-Apple-Version-Requirements.html"/>
+        <updated>2023-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As of Rust 1.74 (to be released on November 16th, 2023), the minimum version of Apple's platforms (iOS, macOS, and tvOS) that the Rust toolchain supports will be increased to newer baselines. These changes affect both the Rust compiler itself (rustc), other host tooling, and most importantly, the standard library and any binaries produced that use it. With these changes in place, any binaries produced will stop loading on older versions or exhibit other, unspecified, behavior.
+The new minimum versions are now:
+macOS: 10.12 Sierra (First released 2016)
+iOS: 10 (First released 2016)
+tvOS: 10 (First released 2016)
+If your application does not target or support macOS 10.7-10.11 or iOS 7-9 already these changes most likely do not affect you.
+Affected targets
+The following contains each affected…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Easy Email Tokens in Pure Postgres]]></title>
+        <id>https://taylor.town/pg-email-token</id>
+        <link href="https://taylor.town/pg-email-token"/>
+        <updated>2023-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[select email_token(now(), 'hello@example.com');]]></summary>
+        <author>
+            <name>taylor.town</name>
         </author>
     </entry>
     <entry>
@@ -7906,16 +7957,6 @@ Moderation Team. Please join us in welcoming Oli!]]></summary>
         <summary type="html"><![CDATA[I'm no dietitian, but I've been eating for quite a while.]]></summary>
         <author>
             <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[gzip-ed, streaming uploads from browsers]]></title>
-        <id>https://dietcode.io/t/gzip-uploads/</id>
-        <link href="https://dietcode.io/t/gzip-uploads/"/>
-        <updated>2023-08-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Can you compress files on your browser before you upload them to your server?]]></summary>
-        <author>
-            <name>Dietcode | Sid's blog</name>
         </author>
     </entry>
 </feed>

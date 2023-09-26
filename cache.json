@@ -30,6 +30,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-musk-algorithm-977bf312",
+          "author": null,
+          "description": "Walter Isaacson's new book about Elon Musk is a fine biography, but an even better business book. And like all the best business books, it's not merely an instruction manual, but an inspirational guide too. Not since reading Ricardo Semler's Maverick in the early 2000s have I been this impressed with the foresight, fortitude, and ferocity of a founder. Musk is truly one of a kind.\nI know positive statements like that about Musk can trigger some people. Most have already formed their opinion of the man, and, especially in technology, it's typically a polarized one. Either the man is the second coming of capitalist christ or he's the devil's conman incarnate. Ironically, like many of the most interesting people to ever grace this earth, there are shimmers of truth in both caricatures.\nThat's…",
+          "link": "https://world.hey.com/dhh/the-musk-algorithm-977bf312",
+          "publishedOn": "2023-09-25T16:45:35.000Z",
+          "wordCount": 850,
+          "title": "The Musk Algorithm",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/finishing-hotwire-with-the-introduction-of-strada-9efdf091",
           "author": null,
           "description": "When we announced Hotwire a few years back, it was always meant as a triptych. The center piece is Turbo. That's the drop-in level-up that makes multi-page web apps feel like single-page web apps – without giving up any of the development advantages to server-side programming. Then Stimulus brought order and structure to JavaScript sprinkles by triggering custom behavior via HTML attributes. And finally, which is what we're revealing today, there's Strada: The bridge between native controls and the web app.\nStrada continues the Majestic Monolith story by extending Hotwire onto native controls. Where Turbo Native makes it easy to have native mobile apps driven by fast web views, Strada brings that extra bit of polish only native controls, like native menus, can provide.\nThis is important fo…",
@@ -107,6 +117,16 @@
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
         {
+          "id": "https://world.hey.com/jason/keeping-easy-from-becoming-hard-e6af27d0",
+          "author": null,
+          "description": "Each Basecamp project has eight built-in tools you can toggle on or off. One for to-dos, one for file storage, one for scheduling, one for a message board, and so on. One of those tools is called \"Campfire\". Campfire is a real-time group chat. Think of it like Slack, but built right into Basecamp so you don't need Slack or anything else just to chat with your team in real-time.\nNow most tools in Basecamp have very simple, self-explanatory names. To-dos for to-dos... Messages for messages... Schedule for events... Docs & Files for, you guessed it, documents and files... Etc. There are two tools with \"special\" names: Campfire (group chat), and Card Table (for our unique take on kanban).\nAs we continue our relentless focus on simplicity, ease, and clarity, we've decided to rename the Campfire…",
+          "link": "https://world.hey.com/jason/keeping-easy-from-becoming-hard-e6af27d0",
+          "publishedOn": "2023-09-25T21:38:06.000Z",
+          "wordCount": 587,
+          "title": "Keeping easy from becoming hard",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
+        {
           "id": "https://world.hey.com/jason/company-culture-is-the-last-50-days-dab19416",
           "author": null,
           "description": "There's nothing complicated about company culture.\n\n\nCulture simply happens. It's emergent behavior. There's nothing to do, it just is.\n\n\nA company's culture is a 50-day moving average. It's what you've been collectively doing as a company over the last 50 days.\n\n\nHow do you treat people? Who have you hired (or fired) and why? What do you when people are stressed out? How do you help people? How do you critique each other? How do you share? How do you help people who are stuck? Where's the bar on quality? How do you support customers? How do you close deals? What have you let go on too long? What have you celebrated? What have you let slide? How honest have you been with each other and yourself.\n\n\nIt's all that and a zillion other things. But it's all stuff that actually happened, it's not lists of things you wish had happened, or declared would happen in some ideal setting. Much of it is interpersonal, expressed both inside and outside the organization.\n\n\nWhy 50 days? It's enough time for patterns to emerge, yet malleable enough to be current and honest. One day, or even a couple weeks, isn't enough to stand for culture. A series of moments tied together loosely by near-term time just isn't enough to establish what it's really like somewhere. We can all be on our best behavior for a little while, but the longer while tells the truth.\n\n\nCulture is the non-fiction story of an organization. It writes itself.\n\n\n-Jason",
@@ -168,6 +188,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2023/09/25/Increasing-Apple-Version-Requirements.html",
+          "author": null,
+          "description": "As of Rust 1.74 (to be released on November 16th, 2023), the minimum version of Apple's platforms (iOS, macOS, and tvOS) that the Rust toolchain supports will be increased to newer baselines. These changes affect both the Rust compiler itself (rustc), other host tooling, and most importantly, the standard library and any binaries produced that use it. With these changes in place, any binaries produced will stop loading on older versions or exhibit other, unspecified, behavior.\nThe new minimum versions are now:\nmacOS: 10.12 Sierra (First released 2016)\niOS: 10 (First released 2016)\ntvOS: 10 (First released 2016)\nIf your application does not target or support macOS 10.7-10.11 or iOS 7-9 already these changes most likely do not affect you.\nAffected targets\nThe following contains each affected…",
+          "link": "https://blog.rust-lang.org/2023/09/25/Increasing-Apple-Version-Requirements.html",
+          "publishedOn": "2023-09-25T00:00:00.000Z",
+          "wordCount": 913,
+          "title": "Increasing the minimum supported Apple platform versions",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2023/09/22/crates-io-usage-policy-rfc.html",
           "author": null,
@@ -403,16 +433,6 @@
           "wordCount": 201,
           "title": "Switching out git remotes",
           "imageUrl": "https://dietcode.io/t/fork-remote/og.png"
-        },
-        {
-          "id": "https://dietcode.io/t/gzip-uploads/",
-          "author": null,
-          "description": "Can you compress files on your browser before you upload them to your server?",
-          "link": "https://dietcode.io/t/gzip-uploads/",
-          "publishedOn": "2023-08-27T00:00:00.000Z",
-          "wordCount": 156,
-          "title": "gzip-ed, streaming uploads from browsers",
-          "imageUrl": "https://dietcode.io/t/gzip-uploads/og.png"
         }
       ]
     },
@@ -461,6 +481,16 @@
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://taylor.town/pg-email-token",
+          "author": null,
+          "description": "select email_token(now(), 'hello@example.com');",
+          "link": "https://taylor.town/pg-email-token",
+          "publishedOn": "2023-09-25T00:00:00.000Z",
+          "wordCount": 423,
+          "title": "Easy Email Tokens in Pure Postgres",
+          "imageUrl": null
+        },
         {
           "id": "https://taylor.town/pg-task",
           "author": null,
