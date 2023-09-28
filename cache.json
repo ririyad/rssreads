@@ -227,16 +227,6 @@
           "wordCount": 938,
           "title": "Electing New Project Directors",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/08/29/committing-lockfiles.html",
-          "author": null,
-          "description": "For years, the Cargo team has encouraged Rust developers to\ncommit their Cargo.lock file for packages with binaries but not libraries.\nWe now recommend people\ndo what is best for their project.\nTo help people make a decision, we do include some considerations and suggest\ncommitting Cargo.lock as a starting point in their decision making.\nTo align with that starting point, cargo new will no longer ignore\nCargo.lock for libraries as of nightly-2023-08-24.\nRegardless of what decision projects make, we encourage regular\ntesting against their latest dependencies.\nBackground\nThe old guidelines ensured libraries tested their latest dependencies which\nhelped us keep quality high within Rust's package ecosystem by ensuring issues,\nespecially backwards compatibility issues,\nwere quickly found and ad…",
-          "link": "https://blog.rust-lang.org/2023/08/29/committing-lockfiles.html",
-          "publishedOn": "2023-08-29T00:00:00.000Z",
-          "wordCount": 541,
-          "title": "Change in Guidance on Committing Lockfiles",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -293,16 +283,6 @@
           "publishedOn": "2023-09-01T00:00:00.000Z",
           "wordCount": 679,
           "title": "crates.io Postmortem: User Uploaded Malware",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html",
-          "author": null,
-          "description": "As of today, Khionu Sybiern will no longer be the representative of the Moderation team on the\nLeadership Council, and she is also stepping down from the Moderation Team entirely, for personal\nreasons. She hopes to return to contributing in the future. Josh Gould will be joining the\nLeadership Council as the Moderation Team representative.\nWe thank Khionu for her extensive time and incredibly important contributions to the Moderation\nTeam and the Leadership Council. We wish her the best, and that she returns to the Rust community\nwhen she's ready. We thank Josh for being able to fill the Leadership Council role and look forward\nto working with them!\nWe had already begun working on growing the essential Moderation Team before; because of that and\nKhio stepping down, we are also pleased to announce that Oliver Scherer (oli-obk) has joined the\nModeration Team. Please join us in welcoming Oli!",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/08/29/leadership-council-membership-changes.html",
-          "publishedOn": "2023-08-29T00:00:00.000Z",
-          "wordCount": 226,
-          "title": "Leadership Council Membership Changes",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -570,16 +550,6 @@
           "wordCount": 477,
           "title": "The Lazy Garbage Nursery Guide",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/how-i-eat",
-          "author": null,
-          "description": "I'm no dietitian, but I've been eating for quite a while.",
-          "link": "https://taylor.town/how-i-eat",
-          "publishedOn": "2023-08-29T00:00:00.000Z",
-          "wordCount": 1112,
-          "title": "How I Eat",
-          "imageUrl": null
         }
       ]
     },
@@ -588,6 +558,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/23/09/27/215243/chatgpt-can-now-browse-the-internet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "OpenAI says ChatGPT is \"no longer limited to data before September 2021.\" It can now browse the internet to provide you with up-to-date information, \"complete with direct links to sources.\" From the announcement: Since the original launch of browsing in May, we received useful feedback. Updates include following robots.txt and identifying user agents so sites can control how ChatGPT interacts with them. Browsing is particularly useful for tasks that require up-to-date information, such as helping you with technical research, trying to choose a bike, or planning a vacation.\n \nBrowsing is available to Plus and Enterprise users today, and we'll expand to all users soon. To enable, choose Browse with Bing in the selector under GPT-4.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/27/215243/chatgpt-can-now-browse-the-internet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-28T00:45:00.000Z",
+          "wordCount": 3877,
+          "title": "ChatGPT Can Now Browse the Internet",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/27/2058226/backdoored-firmware-lets-china-state-hackers-control-routers-with-magic-packets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: Hackers backed by the Chinese government are planting malware into routers that provides long-lasting and undetectable backdoor access to the networks of multinational companies in the US and Japan, governments in both countries said Wednesday. The hacking group, tracked under names including BlackTech, Palmerworm, Temp.Overboard, Circuit Panda, and Radio Panda, has been operating since at least 2010, a joint advisory published by government entities in the US and Japan reported. The group has a history of targeting public organizations and private companies in the US and East Asia. The threat actor is somehow gaining administrator credentials to network devices used by subsidiaries and using that control to install malicious firmware …",
+          "link": "https://it.slashdot.org/story/23/09/27/2058226/backdoored-firmware-lets-china-state-hackers-control-routers-with-magic-packets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-28T00:02:00.000Z",
+          "wordCount": 4384,
+          "title": "Backdoored Firmware Lets China State Hackers Control Routers With 'Magic Packets'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/27/2041229/tech-layoffs-are-all-but-a-thing-of-the-past?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Alex Wilhelm writes via TechCrunch: Layoffs in the technology industry have slowed sharply in recent months, bringing the number of jobs lost to tech's efficiency push to a near stop. According to several services that track layoffs in the tech industry, after reaching a local maximum in January, the number of people laid off had declined by more than 90% by September. What's more, some tech companies are hiring again to refill some of the roles that they had eliminated mere months ago.\n \nSuch a quick shift from mass personnel cuts to more stable employee rolls and even hiring efforts may seem surprising, but it's been a long time in the making. Data from popular tech industry layoff tracker Layoffs.fyi shows that job cuts have slowed for seven consecutive months this year, plateauing around 10,000 per month from June through August and declining to just over 3,000 so far in September. TrueUp, a jobs board focused on the tech industry, also marked that tech industry layoffs peaked in January and declined sharply thereafter. However, TrueUp's layoff count shows a slightly lumpier trend in the total number of staff cuts. Regardless of the source, though, the trend is clear that job cuts are on the decline.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/27/2041229/tech-layoffs-are-all-but-a-thing-of-the-past?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T23:20:00.000Z",
+          "wordCount": 4921,
+          "title": "Tech Layoffs Are All But a Thing of the Past",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/27/2046247/indonesia-to-ban-purchases-on-social-media-like-tiktok?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Indonesia said it will bar social media companies from allowing transactions and doubling as e-commerce platforms -- all to prevent misuse of public data. \"This means that users in Indonesia cannot buy or sell products and services on TikTok and Facebook,\" reports CNBC. From the report: In a media conference Monday, Minister of Trade Zulkifli Hasan said that \"the connection [between social media and e-commerce] must be separated so that the algorithm is not all controlled\" and this \"prevents the use of personal data\" for business purposes. Indonesia also said it would also regulate which overseas goods can be sold, adding these products would receive the same treatment as offline domestic goods. The move comes as foreign goods become increasingly available in Indonesia through social media platforms. \"Social commerce was born to solve a real world problem for local traditional small sellers, by matching them with local creators who can help drive traffic to their online shops,\" a TikTok spokesperson said in response to the move.\n \n\"While we respect local laws and regulations, we hope that the regulations take into account its impact on the livelihoods of more than 6 million sellers and close to 7 million affiliate creators who use TikTok Shop.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/27/2046247/indonesia-to-ban-purchases-on-social-media-like-tiktok?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T22:40:00.000Z",
+          "wordCount": 4038,
+          "title": "Indonesia To Ban Purchases On Social Media Like TikTok",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/27/2212213/volkswagen-hit-by-it-outage-brand-vehicle-production-in-germany-halted?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Volkswagen says it was hit by a major IT outage on Wednesday, halting production at the company's namesake brand in Germany. Reuters reports: Volkswagen said that the whole group, which includes the Porsche AG and Audi brands, was affected. Volkswagen said there had been an unspecified \"IT malfunction of network components\" at the carmaker's site in Wolfsburg, its global headquarters.\n \n\"The fault has been present since 12:30 p.m. (CET) and is currently being analysed. There are implications for vehicle-producing plants,\" the group said. \"According to current analyses, an external attack is unlikely to be the cause of the system malfunction,\" Volkswagen said, adding that efforts to fix the problem were of the highest priority and well under way.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/27/2212213/volkswagen-hit-by-it-outage-brand-vehicle-production-in-germany-halted?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T22:20:00.000Z",
+          "wordCount": 4024,
+          "title": "Volkswagen Hit By IT Outage, Brand Vehicle Production In Germany Halted",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/27/2037243/ai-generated-subliminal-messages-are-going-viral?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Motherboard: Every week, the social media hype-train seems to find new ways to sensationalize generative AI tools. Most recently, a new technique that allows users to produce optical illusions went viral, with some describing the results as AI-generated images with \"subliminal\" messages. The technique, called ControlNet, essentially lets users have more control over the generated image by specifying additional inputs -- in this case, letting you create images or words within other images. Some users characterized this as a form of \"hidden message\" that could be used to implant suggestions in the form of subtle visual cues, like a McDonald's \"M\" logo appearing in the outlines of a movie poster.\n \nControlNet uses the AI image-generating tool Stable Diffusion, and one of its initial uses was generating fancy QR codes using the code as an input image. That idea was then taken further, with some users developing a workflow that lets them specify any image or text as a black-and-white mask that implants itself into the generated image -- kind of like an automated, generative version of the masking tool in Photoshop.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/27/2037243/ai-generated-subliminal-messages-are-going-viral?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T22:00:00.000Z",
+          "wordCount": 4774,
+          "title": "AI-Generated 'Subliminal Messages' Are Going Viral",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/09/27/1913227/intel-reiterates-next-gen-meteor-lake-cpus-arent-coming-to-most-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Intel's Meteor Lake processor architecture promises to be its most interesting in recent history, but we've known for a while now that Intel isn't planning to launch a version for socketed desktop motherboards like the ones you'd find in a self-built PC or an off-the-shelf mini tower. For those systems, Intel plans to release a second consecutive refresh of the old Alder Lake architecture, the one that first came to desktops in 12th-generation Core CPUs in 2021. In an interview with PCWorld, Intel Client Computing Group General Manager Michelle Johnston Holthaus said that Meteor Lake chips would be coming to desktops after all. But the company backpedaled a bit a couple of days later, clarifying that these Meteor Lake desktop chips would be of the soldered-to-the-motherboard variety, not intended as high-performance replacements for current desktop Core i7 and Core i9 chips. \n\nThis kind of bifurcation isn't totally unheard of, especially when Intel is in the process of shifting to a new manufacturing technology, as it is with Meteor Lake. Chips for high-performance desktops tend to be physically larger and also need to be able to scale up to higher clock speeds, two things that are harder to do when a manufacturing process is new. And Meteor Lake is nothing if not complex to manufacture, using new Intel Foveros packaging technology to combine four different silicon dies produced on three different manufacturing processes by two different companies. Some of Intel's 10th-generation Core CPUs for laptops and all of the 11th-gen laptop CPUs had moved to new architectures and Intel's 10 nm manufacturing process, while the desktop chips remained stuck on the more mature (but aging) 14 nm process.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/09/27/1913227/intel-reiterates-next-gen-meteor-lake-cpus-arent-coming-to-most-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T21:20:00.000Z",
+          "wordCount": 4262,
+          "title": "Intel Reiterates: Next-gen Meteor Lake CPUs Aren't Coming To Most Desktops",
+          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/09/27/195206/us-sues-ebay-over-sale-of-harmful-products?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. government on Wednesday sued eBay, accusing the online platform of violating the Clean Air Act and other environmental laws by allowing the sale of several harmful products, including devices that defeat automobile pollution controls. From a report: EBay could face billions of dollars in penalties, including up to $5,580 for each Clean Air Act violation, according to the government's complaint filed in the federal court in Brooklyn, New York. The Department of Justice said eBay illegally allowed the sale of at least 343,011 aftermarket \"defeat\" devices that help vehicles generate more power and get better fuel economy by evading emissions controls. \n\nEBay was also accused of allowing the sale of at least 23,000 unregistered, misbranded or restricted-use pesticides, violating a 2020 \"stop sale\" order from the U.S. Environmental Protection Agency. The San Jose, California-based company also allegedly distributed 5,614 paint and coating removal products containing methylene chloride, a potentially lethal chemical linked to brain and liver cancer and non-Hodgkin lymphoma. \"EBay has the power, the authority, and the resources to stop the sale of these illegal, harmful products on its website,\" the complaint said. \"It has chosen not to; instead, it has chosen to engage in these illegal transactions.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/09/27/195206/us-sues-ebay-over-sale-of-harmful-products?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T20:40:00.000Z",
+          "wordCount": 8273,
+          "title": "US Sues eBay Over Sale of Harmful Products",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/09/27/1838232/xbox-cloud-gaming-is-coming-to-meta-quest-3-in-december?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The next-generation of Meta Quest hardware is here, and Meta announced a bunch of software news alongside the Quest 3 VR headset hardware reveal at its Connect conference. One such announcement was the debut of Microsoft's Xbox Cloud Gaming service on Meta Quest 3, which is actually a huge boon for fans of the Facebook owner's mixed reality gear. From a report: The Xbox Cloud Gaming implementation in Quest resembles a lot of how Apple showed its own vision for mixed reality with the Vision Pro headset: It's primarily a virtual screen that can float in either a virtual or mixed reality space, which appears to be reposition-able and resizable, but which basically works exactly as you'd expect an Xbox game to work with a large TV. This is a key acknowledgement on the part of Meta that while immersive, native gaming is undoubtedly a draw for users, so too is a more traditional gaming experience that basically just benefits from taking place in your own private face-mounted theater.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/09/27/1838232/xbox-cloud-gaming-is-coming-to-meta-quest-3-in-december?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T20:00:00.000Z",
+          "wordCount": 4309,
+          "title": "Xbox Cloud Gaming is Coming To Meta Quest 3 in December",
+          "imageUrl": "https://a.fsdn.com/sd/topics/cloud_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/09/27/1858225/nothings-the-matter-with-antimatter-new-experiment-confirms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Many readers shared this report: Antimatter just lost a little more pizazz. Physicists know that for every fundamental particle in nature there is an antiparticle -- an evil twin of identical mass but endowed with equal and opposite characteristics like charge and spin. When these twins meet, they obliterate each other, releasing a flash of energy on contact. In science fiction, antiparticles provide the power for warp drives. Some physicists have speculated that antiparticles are being repelled by gravity or even traveling backward in time. \n\nA new experiment at CERN, the European Center for Nuclear Research, brings some of that speculation back down to Earth. In a gravitational field, it turns out, antiparticles fall just like the rest of us. \"The bottom line is that there's no free lunch, and we're not going to be able to levitate using antimatter,\" said Joel Fajans of the University of California, Berkeley. Dr. Fajans was part of an international team known as ALPHA, the Antihydrogen Laser Physics Apparatus collaboration, which is based at CERN and led by Jeffrey Hangst, a particle physicist at Aarhus University in Denmark. \n\nDr. Fajans and his colleagues assembled about 100 hundred anti-atoms of hydrogen and suspended them in a magnetic field. When the field was slowly ramped down, the anti-hydrogen atoms drifted down like maple leaves in October and at the same rate of downward acceleration, or g force, as regular atoms: about 32 feet per second per second. They published their result on Wednesday in the journal Nature. Few physicists were surprised by the result. According to Einstein's theory of general relativity, all forms of matter and energy respond equally to gravity.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/09/27/1858225/nothings-the-matter-with-antimatter-new-experiment-confirms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T19:20:00.000Z",
+          "wordCount": 8068,
+          "title": "Nothing's the Matter With Antimatter, New Experiment Confirms",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/09/27/1834252/meta-rolls-out-higher-priced-quest-3-headset-just-ahead-of-apples-vision-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Meta introduced its latest lineup of head-worn devices, staking fresh claim to the virtual- and augmented-reality industry just ahead of Apple pushing into the market. From a report: The company officially unveiled the Quest 3 headset on Wednesday, raising the price by $200 to $500, at its annual Connect developers conference. It also introduced second-generation smart glasses that it developed with luxury sunglass maker Ray-Ban. The Quest 3, which was previewed by Meta earlier this year after Bloomberg published a hands-on review of the device, offers improved performance over the Quest 2 from 2020. It also marks a pivot from VR to mixed reality, which melds virtual and augmented reality. \n\nIt's a high-stakes moment for Meta's hardware business. Though the company has dominated VR goggles for years, Apple is poised to release its Vision Pro headset in the coming months, setting up a showdown. Like the Quest 3, the Vision Pro is a mixed-reality headset -- though one with exclusive Apple technology and content. The Vision Pro will have Apple's marketing muscle behind it, but also a much higher price: $3,499. In addition to the competitive pressure, Meta also has struggled to sell consumers on the metaverse -- a collection of interlocking online worlds that make use of its headsets.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/09/27/1834252/meta-rolls-out-higher-priced-quest-3-headset-just-ahead-of-apples-vision-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T18:40:00.000Z",
+          "wordCount": 5223,
+          "title": "Meta Rolls Out Higher-Priced Quest 3 Headset, Just Ahead of Apple's Vision Pro",
+          "imageUrl": "https://a.fsdn.com/sd/topics/facebook_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/09/27/1726232/microsoft-says-apple-used-bing-offer-as-google-bargaining-chip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A Microsoft executive said the company has tried for years to displace Alphabet's Google as the default web browser on iPhones, but that Apple never seriously considered switching to Microsoft's Bing and was content to use it as a \"bargaining chip\" with the search giant. From a report: \"Apple is making more money on Bing existing than Bing does,\" Mikhail Parakhin, the head of Microsoft's advertising and web services, testified during the US government's antitrust trial against Google in Washington. \"We are always trying to convince Apple to use our search engine.\" Parakhin, who joined Microsoft in 2019 from Russian search engine Yandex NV, said Microsoft met with Apple as recently as 2021 to discuss a potential switch to Bing, but didn't make any progress. \n\nIn response to Google's lawyers, Parakhin said it was \"uneconomical for Microsoft to invest more\" in technology for the mobile search market. \"Unless Microsoft gets a more significant, or firmer guarantee of distribution, it makes it uneconomical to invest.\" Apple has used Google as the default search engine in its Safari browser since 2003 in exchange for a share of the advertising revenue earned through searches made on its devices.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/09/27/1726232/microsoft-says-apple-used-bing-offer-as-google-bargaining-chip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T18:00:00.000Z",
+          "wordCount": 5652,
+          "title": "Microsoft Says Apple Used Bing Offer as Google 'Bargaining Chip'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/09/27/1711231/as-the-ea-sports-fc-era-dawns-fifa-23-removed-from-digital-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "EA has suddenly removed downloadable versions of FIFA 23 from multiple digital storefronts. The delisting comes earlier than expected for the title and coincides with the company's launch of the newly FIFA-license-free EA Sports FC 24. From a report: While many reports suggest there has been a recent mass purge of all legacy FIFA games from online stores, EA has a history of delisting older sports titles at a pretty regular cadence. FIFA 22, for instance, was delisted from digital storefronts in May, roughly seven months after the launch of the subsequent FIFA 23. And FIFA 21 wasn't taken down from Steam until June 2022, about eight months after FIFA 22's launch. \n\nFIFA 23, on the other hand, has been delisted less than a year from its October 2022 launch. SteamDB tracking data suggests that the delisting came on September 21, the day before the new EA Sports FC became available for a 10-hour early access trial for EA Play members. The Steam store page for FIFA 23 now notes that the delisting comes \"at the request of the publisher\" and that the game \"will not appear in search.\" The game also no longer appears on Steam's EA publisher page. FIFA 23's earlier-than-expected delisting could have something to do with the dissolution of EA's 30-year licensing relationship with FIFA. That ending came amid reports that EA was dissatisfied with gameplay restrictions and licensing costs demanded by FIFA.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/09/27/1711231/as-the-ea-sports-fc-era-dawns-fifa-23-removed-from-digital-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T17:20:00.000Z",
+          "wordCount": 5407,
+          "title": "As The EA Sports FC Era Dawns, FIFA 23 Removed From Digital Platforms",
+          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/09/27/1619232/russian-zero-day-seller-offers-20-million-for-hacking-android-and-iphones?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A company that acquires and sells zero-day exploits -- flaws in software that are unknown to the affected developer -- is now offering to pay researchers $20 million for hacking tools that would allow its customers to hack iPhones and Android devices. From a report: On Wednesday, Operation Zero announced on its Telegram accounts and on its official account on X, formerly Twitter, that it was increasing payments for zero-days in those platforms tenfold, from $200,000 to $20 million. \"By increasing the premium and providing competitive plans and bonuses for contract works, we encourage the developer teams to work with our platform,\" the company wrote. \n\nOperation Zero, which is based in Russia and launched in 2021, also added that \"as always, the end user is a non-NATO country.\" On its official website, the company says that \"our clients are Russian private and government organizations only.\" When asked why they only sell to non-NATO countries, Operation Zero CEO Sergey Zelenyuk declined to say. \"No reasons other than obvious ones,\" he said. Zelenyuk also said that the bounties Operation Zero offer right now may be temporary, and a reflection of a particular time in the market, and the difficulty of hacking iOS and Android.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/09/27/1619232/russian-zero-day-seller-offers-20-million-for-hacking-android-and-iphones?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T16:40:00.000Z",
+          "wordCount": 5699,
+          "title": "Russian Zero-Day Seller Offers $20 Million for Hacking Android and iPhones",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/09/27/1543259/us-ftc-revives-microsoft-activision-deal-challenge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The US Federal Trade Commission is reviving its challenge against Microsoft's $69 billion acquisition of video game company Activision, a move which may seek to unwind the deal after it closes. From a report: The agency will move forward with its in-house trial against the acquisition after pausing it over the summer, according to an order the agency issued Wednesday. The move means the FTC will continue challenging the deal even after it has closed this year. \"The commission has determined that the public interest warrants that this matter be resolved fully and expeditiously,\" the agency wrote in a filing. \"Therefore, the commission is returning this matter to adjudication.\" The decision comes months after a US appeals court denied the FTC's bid to pause the Microsoft-Activision acquisition in July. The FTC typically drops challenges to deals when they lose in federal court.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/09/27/1543259/us-ftc-revives-microsoft-activision-deal-challenge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-09-27T16:01:00.000Z",
+          "wordCount": 5619,
+          "title": "US FTC Revives Microsoft-Activision Deal Challenge",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
         {
           "id": "https://tech.slashdot.org/story/23/09/26/2055200/air-force-receives-its-first-electric-air-taxi?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
