@@ -98,16 +98,6 @@
           "wordCount": 583,
           "title": "Turbo 8 is dropping TypeScript",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f",
-          "author": null,
-          "description": "When things aren't going well with a new hire, the problem usually falls into one of two categories: competency or engagement. If it's a problem with engagement – their style of collaboration, their communication, their approach – there's a good chance you can fix it with some clear feedback. But if the problem is with core competency – their technical skills – you can't expect to solve that with a stern conversation.\nIt's true that it might not be entirely clear in the early days of a new hire whether problems fall into one category or the other. But eventually it will be clear, and when it is, you have to act accordingly. \nProblems with engagement are often simply due to unstated assumptions. You expect someone to act a certain way, but they don't realize that, so they don't, and you're …",
-          "link": "https://world.hey.com/dhh/you-can-t-fix-core-competency-with-a-stern-conversation-b8a2f31f",
-          "publishedOn": "2023-09-01T18:22:23.000Z",
-          "wordCount": 625,
-          "title": "You can't fix core competency with a stern conversation",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -300,6 +290,16 @@
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
         {
+          "id": "http://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html",
+          "author": null,
+          "description": "How software fails is interesting. But real-world errors can be\ninfrequent to manifest. Fault\ninjection\nis a formal-sounding term that just means: trying to explicitly\ntrigger errors in the hopes of discovering bad logic, typically\nduring automated tests.\nJepsen\nand ChaosMonkey are two\nfamous examples that help to trigger process and network failure. But\nwhat about disk and filesystem errors?\nA few avenues seem worth investigating:\nA custom FUSE filesystem\nAn LD_PRELOAD interception layer\nA ptrace system call interception layer\nA SECCOMP_RET_TRAP interception layer\nOr, symbolic analysis a la Alice from University of\nWisconsin-Madison\nI would like to try out FUSE sometime. But LD_PRELOAD layer only works\nif IO goes through libc, which won't be the case for all\nprograms. ptrace is something …",
+          "link": "http://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html",
+          "publishedOn": "2023-10-01T00:00:00.000Z",
+          "wordCount": 4863,
+          "title": "Intercepting and modifying Linux system calls with ptrace",
+          "imageUrl": null
+        },
+        {
           "id": "http://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html",
           "author": null,
           "description": "Databases are fun. They sit at the confluence of Computer\nScience topics that might otherwise not seem practical in life as a\ndeveloper. For example, every database with a query language is also a\nprogramming language implementation of some caliber. That doesn't\ninclude all databases though of course; see: RocksDB, FoundationDB,\nTigerBeetle, etc.\nThis post looks at how various databases execute expressions in their\nquery language.\ntldr; Most surveyed databases use a tree-walking interpreter. A few\nuse stack- or register-based virtual machines. A couple have\njust-in-time compilers. And, tangentially, a few do vectorized\ninterpretation.\nStepping back\nProgramming languages are typically implemented by turning an\nAbstract Syntax Tree (AST) into a linear set of instructions\nfor a virtual machin…",
@@ -332,6 +332,16 @@
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
+        {
+          "id": "http://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html",
+          "author": null,
+          "description": "How software fails is interesting. But real-world errors can be\ninfrequent to manifest. Fault\ninjection\nis a formal-sounding term that just means: trying to explicitly\ntrigger errors in the hopes of discovering bad logic, typically\nduring automated tests.\nJepsen\nand ChaosMonkey are two\nfamous examples that help to trigger process and network failure. But\nwhat about disk and filesystem errors?\nA few avenues seem worth investigating:\nA custom FUSE filesystem\nAn LD_PRELOAD interception layer\nA ptrace system call interception layer\nA SECCOMP_RET_TRAP interception layer\nOr, symbolic analysis a la Alice from University of\nWisconsin-Madison\nI would like to try out FUSE sometime. But LD_PRELOAD layer only works\nif IO goes through libc, which won't be the case for all\nprograms. ptrace is something …",
+          "link": "http://notes.eatonphil.com/2023-10-01-intercepting-and-modifying-linux-system-calls-with-ptrace.html",
+          "publishedOn": "2023-10-01T00:00:00.000Z",
+          "wordCount": 4863,
+          "title": "Intercepting and modifying Linux system calls with ptrace",
+          "imageUrl": null
+        },
         {
           "id": "http://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html",
           "author": null,
@@ -529,6 +539,136 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://apple.slashdot.org/story/23/10/01/2341215/apple-promises-software-update-to-address-iphone-15-overheating-complaints?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An anonymous reader shared this report from CNBC:\n\n\nApple said on Saturday that it will issue a software update that would address customer complaints about the latest iPhone 15 models, released just over a week ago, running hot. \n\nApple said that the new iPhone models were running hot because of a combination of bugs in iOS 17, bugs in apps, and a temporary set-up period... After Apple released the new iPhone 15 models earlier this month, user complaints on Apple's forums, Reddit, and social media suggest that all four models can get hotter than expected during use. CNBC's review of the new iPhone Pros also noted the iPhone 15 Pro Max got hot. \"I just got the iPhone 15 Pro today and it's so hot i can't even hold it for very long!\" wrote one commenter on Apple's forums. \n\nApple's new high-end models, the $999 iPhone 15 Pro and $1,199 iPhone 15 Pro Max have a redesigned titanium enclosure with an aluminum frame to make them easier to repair. The problem with the new models overheating was not related to the titanium chassis design, Apple said. Instead, Apple points to bugs with specific apps and a bug in iOS that can be fixed with software updates.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/10/01/2341215/apple-promises-software-update-to-address-iphone-15-overheating-complaints?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-02T00:24:00.000Z",
+          "wordCount": 4242,
+          "title": "Apple Promises Software Update to Address iPhone 15 Overheating Complaints",
+          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/01/2237235/san-franciscos-empty-offices-might-start-converting-into-housing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"San Francisco's downtown has lost roughly 150,000 daily workers since the pandemic,\" reports the San Francisco Chronicle. \n\nBut on the bright side, \"Some of San Francisco's empty office buildings are one step closer to being converted into residential units,\" reports SFGate:\n\nThe owners of eight San Francisco office buildings responded to a request from the city for landlords interested in converting their properties into condos or apartments, the San Francisco Chronicle reported... The properties would yield about 1,100 units if they were to all be converted, according to the Chronicle. All of the buildings are located in neighborhoods downtown, including the Civic Center area and the Financial District... \n\nConverting offices to housing is a notably difficult process, especially in San …",
+          "link": "https://it.slashdot.org/story/23/10/01/2237235/san-franciscos-empty-offices-might-start-converting-into-housing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T22:44:00.000Z",
+          "wordCount": 7087,
+          "title": "San Francisco's Empty Offices Might Start Converting Into Housing",
+          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/01/2110235/hr-block-meta-and-google-slapped-with-rico-suit-allegedly-schemed-to-scrape-taxpayer-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Anyone who has used H&R Block's tax return preparation services since 2015 \"may have unintentionally helped line Meta and Google's pocket,\" reports Gizmodo:\n\nThat's according to a new class action lawsuit which alleges the three companies \"jointly schemed\" to install trackers on the H&R Block site to scan and transmit tax data back to the tech companies which then used elements of the data to engage in targeted advertising. \n\nAttorneys bringing the case forward claim the three companies' conduct amounts to a \"pattern of racketeering activity\" covered under the Racketeer Influenced and Corrupt Organizations Act (RICO), a tool typically reserved for organized crime. \"H&R Block, Google, and Meta ignored data privacy laws, and passed information about people's financial lives around like candy,\" Brent Wisner, one of the attorneys bringing forward the complaint said. \n\nThe lawsuit, filed in the Northern District of California this week, stems from a bombshell Congressional report released earlier this year detailing the way multiple tax preparation firms, including H&R Block, \"recklessly\" shared the sensitive tax data of tens of millions of Americans without proper safeguards. At issue are the tax preparation firms' use of tracking \"pixels\" placed on their websites. These trackers, which the lawsuit refers to as \"spy cams\" would allegedly scan tax documents and reveal a variety of personal tax information, including a filer's name, filing status, federal taxes owed, address, and number of dependents. That data was then anonymized and used for targeted advertising and to train Meta's AI algorithms, the congressional report notes. \nThe attorneys argue that H&R Block, Meta, and Google \"explicitly and intentionally\" entered into an agreement to violate taxpayers' privacy rights for financial gain, according to the article. The suit seeks refunds and punitive damages.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/01/2110235/hr-block-meta-and-google-slapped-with-rico-suit-allegedly-schemed-to-scrape-taxpayer-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T21:44:00.000Z",
+          "wordCount": 5302,
+          "title": "H&amp;R Block, Meta, and Google Slapped With RICO Suit, Allegedly Schemed to Scrape Taxpayer Data",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/01/2042204/fbi-indicts-goldman-sachs-analyst-who-tried-using-xbox-chat-for-insider-trading?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Kotaku reports:\nA newly unsealed FBI indictment accuses a former analyst at Goldman Sachs of insider trading, including allegedly using an Xbox to pass tips onto his close friends. The friend group earned over $400,000 in ill-gotten gains as a result, federal prosecutors claim. \"There's no tracing [Xbox 360 chat],\" the analyst allegedly told his friend who was worried they might be discovered. \n\nHe appears to have made a grave miscalculation. \n\nThe FBI arrested Anthony Viggiano and alleged co-conspirator Christopher Salamone, charging them with securities fraud on September 28. Viggiano is accused of using his previous position at Goldman Sachs to share trading tips with Salamone and others. Salamone has already pleaded guilty. Bloomberg reports that this is the fifth incident in recent years of a person associated with the investment bank allegedly using their position to do crimes... \n\nProbably best to keep the crime talk on Xbox to a minimum either way, especially now that Microsoft is using AI to monitor communications for illicit and toxic activities. \n\nIn a statement an FBI official said \"This indictment is yet another example of individuals believing they can get away with benefiting from trading on material non-public information.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/01/2042204/fbi-indicts-goldman-sachs-analyst-who-tried-using-xbox-chat-for-insider-trading?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T20:44:00.000Z",
+          "wordCount": 4776,
+          "title": "FBI Indicts Goldman Sachs Analyst Who Tried Using Xbox Chat for Insider Trading",
+          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/10/01/1921256/cancer-moonshot-projects-funded-include-implant-to-sense-and-treat-cancer-tumor-targetting-bacteria?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Researchers from several U.S. institutions are collaborating \"to develop and test an implantable device able to sense signs of the kind of inflammation associated with cancer,\" reports CBS News, \"and delivery therapy when needed.\"\n\nNorthwestern said the implant could significantly improve outcomes for patients with ovarian, pancreatic and other difficult-to-treat cancers — potentially cutting cancer-related deaths in the U.S. in half. \"Instead of tethering patients to hospital beds, IV bags and external monitors, we'll use a minimally invasive procedure to implant a small device that continuously monitors their cancer and adjusts their immunotherapy dose in real time,\" said Rice University bioengineer Omid Veiseh. \"This kind of 'closed-loop therapy' has been used for managing diabetes, whe…",
+          "link": "https://science.slashdot.org/story/23/10/01/1921256/cancer-moonshot-projects-funded-include-implant-to-sense-and-treat-cancer-tumor-targetting-bacteria?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T19:24:00.000Z",
+          "wordCount": 7041,
+          "title": "'Cancer Moonshot' Projects Funded Include Implant to Sense and Treat Cancer, Tumor-Targetting Bacteria",
+          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/01/1745233/travel-website-bookingcom-leaves-hoteliers-thousands-of-dollars-out-of-pocket?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "The Guardian reports:\nTravel website Booking.com has left many hotel operators and other partners across the globe thousands of dollars out of pocket for months on end, blaming the lack of payment on a \"technical issue\". The issue is widespread in Thailand, Indonesia and Europe among hoteliers who are venting their frustrations in Facebook groups as rumours swirl about the cause of the failure to pay.\nUsually, if a customer makes a booking for a hotel through the website Booking.com and elects to pay upfront, the site takes the payment and passes it on to the hotel operator, minus a commission. Booking.com's partners have reported issues receiving payments since July, and in some cases months earlier. While Booking.com has continued taking payments from customers, the company has not always passed on the amount owed to hotel operators and others whom the Guardian has spoken to. \nThe article adds that last month Hungary's consumer watchdog agency \"launched a probe into the company's failure to pay hotel operators in the country and raided Booking.com's local office, after local reporting on the issue.\" \nIn a statement to the Guardian, Booking.com acknowledged the \"frustration\" of customers affected by \"an ongoing technical issue.\" They also said \"the system errors that affected the payments have now been corrected,\" and that they had now processed the transactions of \"most of\" our partners.\n\"We acknowledge that for some this has taken longer than it should have and continue to work urgently to finalise the rest of the transactions....\" \n\nIn the company's August results, CFO David Goulden said there were \"lower than expected\" IT expenses in the second quarter of this year, in part due to phasing IT spend into the third quarter, but did not outline what this IT expense included.\n \nThanks to Alain Williams (Slashdot reader #2,9272) for sharing the article.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/01/1745233/travel-website-bookingcom-leaves-hoteliers-thousands-of-dollars-out-of-pocket?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T17:49:00.000Z",
+          "wordCount": 5689,
+          "title": "Travel Website Booking.com Leaves Hoteliers Thousands of Dollars Out of Pocket",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/10/01/002234/can-generative-ai-solve-computer-sciences-greatest-unsolved-problem?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "ZDNet calls it \"a deep meditation on what can ultimately be achieved with computers\" and \"the single most important unsolved problem in computer science,\" with implications for both cryptography and quantum computing. \"The question: Does P = NP?\" \n\n\"Now, that effort has enlisted the help of generative AI.\"\nIn a paper titled \"Large Language Model for Science: A Study on P vs. NP,\" lead author Qingxiu Dong and colleagues program OpenAI's GPT-4 large language model using what they call a Socratic Method, several turns of chat via prompt with GPT-4. (The paper was posted this month on the arXiv pre-print server by scientists at Microsoft, Peking University, Beihang University in Beijing, and Beijing Technology and Business University.) The team's method amounts to taking arguments from a prior…",
+          "link": "https://developers.slashdot.org/story/23/10/01/002234/can-generative-ai-solve-computer-sciences-greatest-unsolved-problem?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T16:34:00.000Z",
+          "wordCount": 10786,
+          "title": "Can Generative AI Solve Computer Science's Greatest Unsolved Problem?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/01/046215/web-sites-can-now-choose-to-opt-out-of-google-bard-and-future-ai-models?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"We're committed to developing AI responsibly,\" says Google's VP of Trust, \"guided by our AI principles and in line with our consumer privacy commitment. However, we've also heard from web publishers that they want greater choice and control over how their content is used for emerging generative AI use cases.\" \n\nAnd so, Mashable reports, \"Websites can now choose to opt out of Google Bard, or any other future AI models that Google makes.\"\n\n\nGoogle made the announcement on Thursday introducing a new tool called Google-Extended that will allow sites to be indexed by crawlers (or a bot creating entries for search engines), while simultaneously not having their data accessed to train future AI models. For website administrators, this will be an easy fix, available through robots.txt — or the text file that allows web crawlers to access sites... \n\nOpenAI, the maker of ChatGPT, recently launched a web crawler of its own, but included instructions on how to block it. Publications like Medium, the New York Times, CNN and Reuters have notably done so.\n \nAs Google's blog post explains, \"By using Google-Extended to control access to content on a site, a website administrator can choose whether to help these AI models become more accurate and capable over time...\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/01/046215/web-sites-can-now-choose-to-opt-out-of-google-bard-and-future-ai-models?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T15:34:00.000Z",
+          "wordCount": 6523,
+          "title": "Web Sites Can Now Choose to Opt Out of Google Bard and Future AI Models",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/10/01/0531216/heres-whats-new-in-python-312?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Monday will see the stable release of Python 3.12. Here's an article summarizing \twhat the new version will include: \n- enhanced error messages \n — performance upgrades\n- the introduction of Immortal objects and sub interpreters\n- changes to F strings\n- modifications related to types and type annotations\n- the removal of certain modules\n- improvements in type implementations\n\nModules from the standard library are now suggested as part of the error messages, making it easier for developers to troubleshoot and resolve issues... \n\n\nAnother significant addition in Python 3.12 is the introduction of sub interpreters. Each sub interpreter has its own Global Interpreter Lock, enabling Python to better utilize multiple CPU cores. This feature can significantly enhance the performance of Python programs, especially those that are designed to take advantage of multi-core processors... \n\nThe pathlib module now has a walk method, allowing for the exploration of directory trees. This new feature can make it easier for developers to work with file systems in their Python programs. Python 3.12 also supports the ability to monitor calls, returns, lines, exceptions, and other events using instrumentation. This feature can be very useful for debugging and performance tuning.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://developers.slashdot.org/story/23/10/01/0531216/heres-whats-new-in-python-312?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T14:34:00.000Z",
+          "wordCount": 6022,
+          "title": "Here's What's New in Python 3.12",
+          "imageUrl": "https://a.fsdn.com/sd/topics/python_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/01/0452243/social-media-dunks-on-an-ai-generated-batman-comic-strip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"OpenAI's latest image generation model, DALL-E 3, makes it SO easy to create comic books!\" posted Ammaar Reshi on Twitter. The former Palintir product manager (now a design manager at Brex) then shared \"four panels for a fan-made Batman comic made in under five minutes.\" \n\nComic Book Resources reports that then \"social media spent most of the day dunking on the post, criticizing the idea of celebrating the idea of a 'comic' created through 'A.I. art.'\"\n\nComic book artist Javier Rodriguez noted that this is no different from simply cutting and pasting other comic books into a comic... [\"You could do the same thing a while ago with a photocopier and some scissors. Stealing other people's art seems easier now and lucrative for those behind generative models.\"] Comic book writer Sarah Horrocks called out the use of Brian Bolland's work... [\"That's literally just Brian Bolland's Joker. The shamelessness of this 'technology' is appalling. I guess it's okay to steal. Just call it AI.\"] \n\nJustine Bateman, the former actor who has become a vocal opponent of A.I. usage in the arts, explained that DC must act to legally protect usage like this in the future... [\"@DCOfficial, the longer you wait to send legal teams to @OpenAI, etc to demand that generative #AI training sets containing your copyrighted work be deleted, the more you make your entire library 'fair use'...\"]\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/01/0452243/social-media-dunks-on-an-ai-generated-batman-comic-strip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T11:34:00.000Z",
+          "wordCount": 11777,
+          "title": "Social Media Dunks on an AI-Generated 'Batman' Comic Strip",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/10/01/0123215/could-the-creator-change-hollywood-forever?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "At the beginning of The Creator a narrator describes AI-powered robots that are \"more human than human.\" From the movie site Looper:\n\nIt's in reference to the novel \"Do Androids Dream of Electric Sheep?\" by Philip K. Dick, which was adapted into the seminal sci-fi classic, \"Blade Runner.\" The phrase is used as the slogan for the Tyrell Corporation, which designs the androids that take on lives of their own. The saying perfectly encapsulates the themes of \"Blade Runner\" and, by proxy, \"The Creator.\" If a machine of sufficient intelligence is indistinguishable from humans, then shouldn't it be considered on equal footing as humanity?\n \n\n\nThe Huffington Post calls its \"the pro-AI movie we don't need right now\" — but they also praise it as \"one of the most astonishing sci-fi theatrical experie…",
+          "link": "https://entertainment.slashdot.org/story/23/10/01/0123215/could-the-creator-change-hollywood-forever?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T07:34:00.000Z",
+          "wordCount": 10491,
+          "title": "Could 'The Creator' Change Hollywood Forever?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/scifi_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/09/30/2130220/microsoft-needs-so-much-power-to-train-ai-that-its-considering-small-nuclear-reactors?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An anonymous reader shares this report from Futurism:\n\nTraining large language models is an incredibly power-intensive process that has an immense carbon footprint. Keeping data centers running requires a ludicrous amount of electricity that could generate substantial amounts of greenhouse emissions — depending, of course, on the energy's source. Now, the Verge reports, Microsoft is betting so big on AI that its pushing forward with a plan to power them using nuclear reactors. Yes, you read that right; a recent job listing suggests the company is planning to grow its energy infrastructure with the use of small modular reactors (SMR)... \n\nBut before Microsoft can start relying on nuclear power to train its AIs, it'll have plenty of other hurdles to overcome. For one, it'll have to source a working SMR design. Then, it'll have to figure out how to get its hands on a highly enriched uranium fuel that these small reactors typically require, as The Verge points out. Finally, it'll need to figure out a way to store all of that nuclear waste long term... \n\nOther than nuclear fission, Microsoft is also investing in nuclear fusion, a far more ambitious endeavor, given the many decades of research that have yet to lead to a practical power system. Nevertheless, the company signed a power purchase agreement with Helion, a fusion startup founded by OpenAI CEO Sam Altman earlier this year, with the hopes of buying electricity from it as soon as 2028.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/09/30/2130220/microsoft-needs-so-much-power-to-train-ai-that-its-considering-small-nuclear-reactors?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T03:34:00.000Z",
+          "wordCount": 11822,
+          "title": "Microsoft Needs So Much Power to Train AI That It's Considering Small Nuclear Reactors",
+          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/09/30/221252/elvis-is-back-in-the-building-thanks-to-generative-ai---and-u2?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "U2's inaugural performance at the opening of Las Vegas's Sphere included a generative AI video collage projected hundreds of feet into the air — showing hundreds of surreal renderings of Elvis Presley. \n\nAn anonymous reader shares this report from Time magazine:\n\nThe video collage is the creation of the artist Marco Brambilla, the director of Demolition Man and Kanye West's \"Power\" music video, among many other art projects. Brambilla fed hours of footage from Presley's movies and performances into the AI model Stable Diffusion to create an easily searchable library to pull from, and then created surreal new images by prompting the AI model Midjourney with questions like: \"What would Elvis look like if he were sculpted by the artist who made the Statue of Liberty...?\" \n\nWhile Brambilla's E…",
+          "link": "https://entertainment.slashdot.org/story/23/09/30/221252/elvis-is-back-in-the-building-thanks-to-generative-ai---and-u2?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-01T01:34:00.000Z",
+          "wordCount": 5911,
+          "title": "Elvis Is Back in the Building, Thanks to Generative AI - and U2",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
         {
           "id": "https://news.slashdot.org/story/23/09/30/039228/will-evs-send-opec-into-a-death-spiral?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
@@ -4468,206 +4608,6 @@
           "wordCount": 11889,
           "title": "'Starfield' Fan Banned From Subreddit For Narcing On Leaker To Cops",
           "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/09/02/0150234/a-biotech-company-says-it-put-dopamine-making-cells-into-peoples-brains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "A biotech company has conducted a small-scale trial involving the implantation of lab-made neurons into the brains of 12 people with Parkinson's disease. The implanted neurons are designed to produce dopamine, which is deficient in Parkinson's patients, and early data suggests they may have survived and improved symptoms in some cases. MIT Technology Review reports: The study is one of the largest and most costly tests yet of embryonic-stem-cell technology, the controversial and much-hyped approach of using stem cells taken from IVF embryos to produce replacement tissue and body parts. The replacement neurons were manufactured using powerful stem cells originally sourced from a human embryo created an in vitro fertilization procedure. According to data presented by Henchliffe and others on…",
-          "link": "https://science.slashdot.org/story/23/09/02/0150234/a-biotech-company-says-it-put-dopamine-making-cells-into-peoples-brains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-02T10:00:00.000Z",
-          "wordCount": 5879,
-          "title": "A Biotech Company Says It Put Dopamine-Making Cells Into People's Brains",
-          "imageUrl": "https://a.fsdn.com/sd/topics/biotech_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/23/09/02/0017225/pentagons-new-ufo-website-lets-you-explore-declassified-sightings-info?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "The U.S. Department of Defense has launched a website collecting publicly available, declassified information on unidentified anomalous phenomena (UAPs). \"For now, the general public will be able to read through the posted information,\" reports CNET. \"Soon, US government employees, contractors, and service members with knowledge of US programs can report their own sightings, and later, others will be able to submit reports.\" From the report: \"This website will provide information, including photos and videos, on resolved UAP cases as they are declassified and approved for public release,\" the department said in a release posted on Thursday. \"The website's other content includes reporting trends and a frequently asked questions section as well as links to official reports, transcripts, press releases, and other resources that the public may find useful, such as applicable statutes and aircraft, balloon and satellite tracking sites.\"\n \nFor now, one of the most interesting parts of the site is its trends section. Apparently, most reported UAPs are round, either white, silver or translucent, spotted at around 10,000 to 30,000 feet, 1-4 meters in size, and do not emit thermal exhaust. Hotspots for sightings include both the US East and West coasts. There's also a small section of videos with names such as \"DVIDS Video - Unresolved Case: Navy 2021 Flyby,\" and \"UAP Video: Middle East Object.\" Readers are able to leave comments on the videos. Of the \"Middle East Object\" video, one person writes,\"Noticed I never saw it cast a shadow. But other objects have shadows.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/23/09/02/0017225/pentagons-new-ufo-website-lets-you-explore-declassified-sightings-info?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-02T07:00:00.000Z",
-          "wordCount": 7627,
-          "title": "Pentagon's New UFO Website Lets You Explore Declassified Sightings Info",
-          "imageUrl": "https://a.fsdn.com/sd/topics/scifi_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/02/0010246/population-collapse-almost-wiped-out-human-ancestors-say-scientists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from The Guardian: Early human ancestors came close to eradication in a severe evolutionary bottleneck between 800,000 and 900,000 years ago, according to scientists. A genomics analysis of more than 3,000 living people suggested that our ancestors' total population plummeted to about 1,280 breeding individuals for about 117,000 years. Scientists believe that an extreme climate event could have led to the bottleneck that came close to wiping out our ancestral line. \"The numbers that emerge from our study correspond to those of species that are currently at risk of extinction,\" said Prof Giorgio Manzi, an anthropologist at Sapienza University of Rome and a senior author of the research. However, Manzi and his colleagues believe that the existential pressu…",
-          "link": "https://news.slashdot.org/story/23/09/02/0010246/population-collapse-almost-wiped-out-human-ancestors-say-scientists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-02T03:30:00.000Z",
-          "wordCount": 5991,
-          "title": "Population Collapse Almost Wiped Out Human Ancestors, Say Scientists",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/02/000207/nypd-to-deploy-drones-to-monitor-backyard-parties-this-holiday-weekend?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "\"The NYC police department intends to use drones to monitor Labor Day backyard parties, raising privacy concerns,\" writes Slashdot reader jjslash. \"Drone usage by U.S. police departments is increasing, with some operating them beyond visual line of sight. TechSpot reports: \"If a caller states there's a large crowd, a large party in a backyard, we're going to be utilizing our assets to go up and go check on the party,\" said assistant NYPD Commissioner Kaz Daughtry at a recent press conference. Naturally, the admission attracted the attention of privacy and civil liberties advocates who questioned if the department's plans violate existing laws governing surveillance in the area.\n \nIn its unmanned aircraft systems (UAS): Impact and use policy from 2021, the NYC police department said drones would not be used in areas where there is a reasonable expectation of privacy without a search warrant, except in exigent circumstances (PDF). Are backyard parties really all that pressing? \"Deploying drones in this way is a sci-fi inspired scenario,\" said Daniel Schwarz, a technology and privacy strategist with the New York Civil Liberties Union. Schwarz added that it is at variance with the Public Oversight of Surveillance Technology (POST) Act, which \"requires the reporting and evaluation of surveillance technologies used by the NYPD.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/02/000207/nypd-to-deploy-drones-to-monitor-backyard-parties-this-holiday-weekend?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-02T02:02:00.000Z",
-          "wordCount": 11292,
-          "title": "NYPD To Deploy Drones To Monitor Backyard Parties This Holiday Weekend",
-          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/01/2315228/microsoft-patents-sensor-filled-ai-assisted-backpack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Microsoft has patented an AI-powered backpack design featuring a plethora of sensors that may include cameras, microphones, GPS, and a compass. Tom's Hardware reports: Additionally, Microsoft thinks it may be useful to add in LEDs and speakers, as well as a haptic actuator, into the straps. Some real-time processing is deemed necessary to the smart wearable. Thus, various recognition modules are proposed to provide image, text, speech, facial, and cognitive recognition. As well as real-time monitors feeding data to the built-in processing power for AI smarts, the system housed in the backpack also will boast a recording device (using on-board storage), wireless connectivity, battery power / charging and more.\n \nWith all the above sensing and processing on your person, in the backpack, it is envisioned that wearers will benefit from AI enhanced object identification and analysis, nearby device interaction, and be able to gain contextual insights. A flow chart shows how the backpack and its data feed might work alongside personal computers and cloud servers. Other illustrations show the wandering backpack wearer navigating a ski resort, and checking out supermarket prices, as well as considering booking concert tickets. Sometimes the user may interact with the backpack's on-board AI via speech, e.g. \"Hey Backpack, add this poster to my calendar.\" Alternatively some AI actions or contextual tasks may be instigated by interacting with sensors on the straps. You can view the patent application here.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/01/2315228/microsoft-patents-sensor-filled-ai-assisted-backpack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-02T01:25:00.000Z",
-          "wordCount": 4839,
-          "title": "Microsoft Patents Sensor-Filled, AI-Assisted Backpack",
-          "imageUrl": "https://a.fsdn.com/sd/topics/patents_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/01/237204/caltech-to-accept-khan-academy-success-as-option-for-admission?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "\"Given that too many schools don't teach calculus, chemistry and physics, CalTech is allowing potential undergraduates to demonstrate their ability in these fields by using Khan Academy,\" writes Slashdot reader Bruce66423. Los Angeles Times reports: One of Caltech's alternative paths is taking Khan Academy's free, online classes and scoring 90% or higher on a certification test. Sal Khan, academy founder, said Caltech's action is a \"huge deal\" for equitable access to college. While Caltech is small -- only 2,400 students, about 40% of them undergraduates -- Khan said he hoped its prestigious reputation would encourage other institutions to examine their admission barriers and find creative solutions to ease them. The Pasadena-based institute, with a 3% admission rate last year, boasts 46 N…",
-          "link": "https://news.slashdot.org/story/23/09/01/237204/caltech-to-accept-khan-academy-success-as-option-for-admission?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-02T00:45:00.000Z",
-          "wordCount": 4331,
-          "title": "CalTech To Accept Khan Academy Success As Option For Admission",
-          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/01/2246211/nissan-begins-repurposing-leaf-car-batteries-as-portable-power-stations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from ExtremeTech: Slowly but surely, sales of electric cars have crept upward as traditional automakers finally embrace EVs. Nissan was early to the electric future with the venerable if modest Leaf. Nissan is now looking to turn old Leafs into something new by harvesting their batteries. The company has begun selling portable power banks built around refurbished automotive batteries, which could give these expensive Leaf cells a new lease on life. The Lithium-ion cells in vehicles have the same properties as the battery in your phone. They start out with a specific power rating, but successive discharge-recharge cycles cause physical stress to the internal structure. Eventually, this results in reduced capacity and voltage. However, Nissan says most Leaf owners stop driving the car before the battery stops working. In fact, many of the individual cells are still in good shape when the vehicles are discarded.\n \nEach Nissan Leaf has around 48 lithium-ion battery modules -- the exact number depends on model. While some may be in poor shape at the end of a car's life, Nissan has taken to disassembling the battery packs to refurbish working modules. The result is the Nissan portable power station, which was developed in partnership with JVCKenwood Corp. and 4R Energy Corp. The bulky 32-pound portable chargers contain two Leaf battery modules with about 80% of their original capacity intact. They're no longer suitable for driving an EV, but they can still charge your phone. Nissan sells the battery packs in Japan for 170,500 yen (about $1,170). That might sound like a lot, but it's actually not bad for a super high-capacity battery pack. Each of Nissan's current-gen battery modules is 1.67 kWh, which converts to 112 Ah (112,000 mAh). Assuming a 20% loss in capacity, two of them would have enough juice to charge the largest current iPhone more than 40 times.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/01/2246211/nissan-begins-repurposing-leaf-car-batteries-as-portable-power-stations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-02T00:02:00.000Z",
-          "wordCount": 4462,
-          "title": "Nissan Begins Repurposing Leaf Car Batteries As Portable Power Stations",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/01/2239233/lenovos-new-27-inch-4k-monitor-offers-glasses-free-3d?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Lenovo's upcoming 27-inch 4K monitor offers a unique experience unlike any other display: glasses-free 3D that can be toggled on and off. According to Ars Technica, the monitor features a lenticular lens and real-time eye-tracking to create the effect. It's being targeted at content creators, like 3D graphic designers and developers. From the report: Like other glasses-less 3D screens, [Lenovo's ThinkVision 27 3D Monitor] works by projecting two different images to each of your eyes, resulting in a 3D effect where, as PR images would have you believe, it appears that the images are popping out of the screen. Lenovo says the monitor's 3D resolution is 1920x2160. The lenticular lens in the monitor is switchable, allowing for normal, 2D viewing at 3840x2160, too. The ThinkVision's 27-inch display gives workers a bigger palette. It also means the monitor can be a regular 2D monitor when needed. [...]\n \nAs a regular 2D monitor, the ThinkVision's specs are pretty standard. It's a 4K IPS screen claiming a 60 Hz refresh rate, 310 nits, a 1,000:1 contrast ratio, and 99 percent DCI-P3 and Adobe RGB color coverage with a Delta E under 2. Like a proper workplace monitor, there's also a strong port selection: two HDMI 2.1, one DisplayPort 1.4, four USB-A (3.1 Gen 1) ports, one USB-C port (3.2 Gen 1) with up to 15 W power delivery, RJ45, a 3.5mm jack, plus an upstream USB-C port with up to 100 W power delivery.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/01/2239233/lenovos-new-27-inch-4k-monitor-offers-glasses-free-3d?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T23:20:00.000Z",
-          "wordCount": 4244,
-          "title": "Lenovo's New 27-inch, 4K Monitor Offers Glasses-Free 3D",
-          "imageUrl": "https://a.fsdn.com/sd/topics/displays_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/01/2227255/robinhood-bought-back-sam-bankman-frieds-stake-from-us-government-for-606-million?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Robinhood announced it has purchased more than 55 million shares of the firm previously held by former FTX CEO Sam Bankman-Fried, which were seized in January by the U.S. Department of Justice as part of the criminal case against FTX and its executives. CoinTelegraph reports: The purchase had been expected. Robinhood's board of directors announced the approval of the deal in the company's Q4 2022 report, and an Aug. 30 SEC filing said the U.S. District Court for the Southern District of New York had approved the purchase \"free and clear of any claims, interests, liens and encumbrances.\" Robinhood made the repurchase agreement with the U.S. Marshals Service. \"We are happy to have completed the purchase of these shares and look forward to executing on our growth plans on behalf of our customers and shareholders,\" said Robinhood chief financial officer Jason Warnick.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/01/2227255/robinhood-bought-back-sam-bankman-frieds-stake-from-us-government-for-606-million?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T22:40:00.000Z",
-          "wordCount": 4118,
-          "title": "Robinhood Bought Back Sam Bankman-Fried's Stake From US Government For $606 Million",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/01/2139242/hacker-gains-admin-control-of-sourcegraph-and-gives-free-access-to-the-masses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: An unknown hacker gained administrative control of Sourcegraph, an AI-driven service used by developers at Uber, Reddit, Dropbox, and other companies, and used it to provide free access to resources that normally would have required payment. In the process, the hacker(s) may have accessed personal information belonging to Sourcegraph users, Diego Comas, Sourcegraph's head of security, said in a post on Wednesday. For paid users, the information exposed included license keys and the names and email addresses of license key holders. For non-paying users, it was limited to email addresses associated with their accounts. Private code, emails, passwords, usernames, or other personal information were inaccessible.\n \nThe hacker gained adminis…",
-          "link": "https://yro.slashdot.org/story/23/09/01/2139242/hacker-gains-admin-control-of-sourcegraph-and-gives-free-access-to-the-masses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T22:00:00.000Z",
-          "wordCount": 4371,
-          "title": "Hacker Gains Admin Control of Sourcegraph and Gives Free Access To the Masses",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/01/1955206/samsung-unveils-industrys-first-32gbit-ddr5-memory-die?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Samsung today revealed the world's first 32 Gb DDR5 DRAM die. From a report: The new memory die is made on the company's 12 nm-class DRAM fabrication process and not only offers increased density, but also lowers power consumption. The chip will allow Samsung to build record 1 TB RDIMMs for servers as well as lower costs of high-capacity memory modules. \"With our 12nm-class 32 Gb DRAM, we have secured a solution that will enable DRAM modules of up to 1 TB, allowing us to be ideally positioned to serve the growing need for high-capacity DRAM in the era of AI (Artificial Intelligence) and big data,\" said SangJoon Hwang, executive vice president of DRAM product & technology at Samsung Electronics. \n\n32 Gb memory dies not only enable Samsung to build a regular, single-rank 32 GB module for client PCs using only eight single-die memory chips, but they also allow for higher capacity DIMMs that were not previously possible. We are talking about 1 TB memory modules using 40 8-Hi 3DS memory stacks based on eight 32 Gb memory devices. Such modules may sound overkill, but for artificial intelligence (AI), Big Data, and database servers, more DRAM capacity can easily be put to good use. Eventually, 1TB RDIMMs would allow for up to 12 TB of memory in a single socket server (e.g. AMD's EPYC 9004 platform), something that cannot be done now.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/09/01/1955206/samsung-unveils-industrys-first-32gbit-ddr5-memory-die?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T21:20:00.000Z",
-          "wordCount": 4732,
-          "title": "Samsung Unveils Industry's First 32Gbit DDR5 Memory Die",
-          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/01/1937248/nvidia-quietly-cuts-price-of-poorly-reviewed-16gb-4060-ti-ahead-of-amd-launch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: AMD last week announced what are probably the last major GPU launches of this generation of graphics cards: the $449 Radeon RX 7700 XT and $499 Radeon RX 7800 XT. AMD's pricing and performance numbers pit the cards against Nvidia's GeForce RTX 4060 Ti (specifically the $499 16GB version) and the $599 RTX 4070. AMD's pricing is aggressive enough that Nvidia is quietly cutting the prices of some 16GB RTX 4060 Ti cards to $449, to match the RX 7700 XT. \n\nThe announcement about the $50 reduction was buried toward the bottom of an email that Nvidia sent to GPU reviewers ahead of AMD's launch next week; it also drew attention to Nvidia-specific features like DLSS upscaling and frame generation, which compete with AMD's GPU-agnostic FSR, plus recent DLSS improvements that improve ray-tracing performance.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/01/1937248/nvidia-quietly-cuts-price-of-poorly-reviewed-16gb-4060-ti-ahead-of-amd-launch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T20:40:00.000Z",
-          "wordCount": 4268,
-          "title": "Nvidia Quietly Cuts Price of Poorly Reviewed 16GB 4060 Ti Ahead of AMD Launch",
-          "imageUrl": "https://a.fsdn.com/sd/topics/amd_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/09/01/1838208/india-seeks-to-top-its-moon-landing-with-spacecraft-to-study-sun?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Hot on the heels of its lunar landing success, India is readying to blast a probe even deeper into space to study the sun. From a report: The country's first solar observation mission, named Aditya-L1, is set to be launched from India's main spaceport on Sriharikota, an island off the southern state of Andhra Pradesh, at 11:50 a.m. local time on Saturday. The spacecraft is scheduled to spend 125 days traveling 1.5 million kilometers (932,000 miles) to its destination, a point in space where objects stay put and consume less fuel. \n\nWhile arriving there would be an impressive achievement for ISRO, the Indian space agency, Aditya-L1 would have gone just a fraction of the 150 million km between Earth and the sun. For ISRO, success would be another major feat after India became the first country to land a spacecraft close to the lunar south pole in August. India has more ambitious projects in the works. A human spaceflight program aims to launch astronauts into orbit for the first time possibly by 2025, ISRO Chairman S Somanath said in an interview with news agency Asian News International. ISRO and NASA plan to cooperate on sending astronauts to the International Space Station and India is in discussions with Japan to work together on a mission.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/09/01/1838208/india-seeks-to-top-its-moon-landing-with-spacecraft-to-study-sun?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T20:00:00.000Z",
-          "wordCount": 4591,
-          "title": "India Seeks To Top Its Moon Landing with Spacecraft To Study Sun",
-          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/01/1828253/japan-is-preparing-for-a-massive-earthquake?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The centenary of the Great Kanto earthquake brings angst, and lessons for the world. From a report: Every year on September 1st, Japan's ministers trek by foot to the prime minister's office to take part in a crisis simulation. Across the country, local officials and schoolchildren drill for disasters. The date marks the Great Kanto earthquake, a 7.9-magnitude tremor that struck near the capital back in 1923. The ensuing disaster killed at least 105,000 people, including around 70,000 in Tokyo itself, destroyed 370,000 homes and changed the course of Japanese history. \n\nThis year's centenary of the disaster has occasioned much commemoration -- and angst. What will happen when the next Big One hits? Seismologists cannot predict earthquakes, but their statistical models, which are based on past patterns, can estimate the likelihood of one. The city government's experts reckon there is a 70% chance of a magnitude 7 or higher quake hitting the capital within the next 30 years. Far fewer people will probably die than during the disaster in 1923, thanks to better technology and planning: the worst case foresees some 6,000 deaths in the city. But millions of lives will be upended. \n\nAnother, similarly likely scenario could be much worse. A Nankai Trough earthquake, envisaged south of Kansai, Japan's industrial heartland, could trigger a tsunami; as many as 323,000 might be killed, according to an official estimate. Japan's approach to the risks of such catastrophes offers insights for a warming world facing more frequent disasters. Quakes of this size could \"challenge the survival of Japan as a state\" and send economic shock waves around the globe, says Fukuwa Nobuo of Nagoya University. After the next Tokyo quake, recovering basic city functions could take weeks and rebuilding the capital could take years; direct damage alone could run to as much as $75bn. One piece of research estimates that gdp would dip by 11% following a Nankai earthquake.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/01/1828253/japan-is-preparing-for-a-massive-earthquake?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T19:20:00.000Z",
-          "wordCount": 4880,
-          "title": "Japan is Preparing For a Massive Earthquake",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/23/09/01/1748216/spotify-to-cut-back-promotional-spending-on-white-noise-podcasts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Spotify is cracking down on white-noise podcasters, reducing the advertising support for programmers that provide little more than soothing sounds like rain or chirping birds. From a report: In an email to creators Friday, the company highlighted changes to its Ambassador Ads program -- promotional spots for Spotify that podcasters read. The company pays hosts to read ads to encourage more creators to make shows and join the platform. As part of the change taking effect Oct. 1, white noise podcasters will no longer be eligible for such support, according to a person with knowledge of the matter. The company is also raising the audience threshold that conventional podcasters must meet to qualify for those ads to 1,000 unique Spotify listeners over the past 60 days from 100.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/23/09/01/1748216/spotify-to-cut-back-promotional-spending-on-white-noise-podcasts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T18:40:00.000Z",
-          "wordCount": 5968,
-          "title": "Spotify To Cut Back Promotional Spending on White Noise Podcasts",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/01/1733208/cybercrime-to-cost-germany-206-billion-euros-in-2023-survey-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The theft of IT equipment and data, as well as digital and industrial espionage and sabotage, will cost Germany 206 billion euros ($224 billion) in 2023, German digital association Bitkom said on Friday. From a report: The damage will surpass the 200 billion euro mark for the third consecutive year, according to a Bitkom survey of more than 1,000 companies. \"The German economy is a highly attractive target for criminals and hostile states. The boundaries between organised crime and state-controlled actors are blurred,\" Bitkom President Ralf Wintergerst said. Around three quarters of the companies surveyed suffered digital attacks in the past 12 months, falling from 84% of the companies in the previous year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/09/01/1733208/cybercrime-to-cost-germany-206-billion-euros-in-2023-survey-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T18:01:00.000Z",
-          "wordCount": 4596,
-          "title": "Cybercrime To Cost Germany 206 Billion Euros in 2023, Survey Finds",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/01/178227/hundreds-of-tough-mudder-racers-infected-by-rugged-nasty-bacterium?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Hundreds of people who participated in a recent Tough Mudder event -- a very muddy obstacle course race -- held in Sonoma, California, have fallen ill with pustular rashes, lesions, fever, flu-like symptoms, nerve pain, and other symptoms, local health officials and media outlets report. From a report: The cases could be caused by various infectious agents, including Staphylococcus bacteria, but the leading culprit is the relatively obscure Aeromonas bacteria -- specifically A. hydrophila, according to the Sonoma County health department. In a statewide alert this week, the California Department of Public Health said it is considering it an Aeromonas outbreak, noting that multiple wound cultures have yielded the hardy bacterium. \n\nA spokesperson for the Sonoma County health department told the Los Angeles Times on Thursday that, based on calls and emails the department had received, health officials estimate that the outbreak involves around 300 cases. Tough Mudder participants, meanwhile, have tallied as many as 489 cases in online forums. The Tough Mudder event was held at the Sonoma Raceway on August 19 and 20, 2023, with symptoms of infection developing in cases within 12 to 48 hours afterward. The Sonoma County health department advisory noted that the race \"involved extensive skin exposure to mud\" and that participants with a rash, fever, or other symptoms should go to their health care provider or, if no provider is available, to a local emergency department.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/01/178227/hundreds-of-tough-mudder-racers-infected-by-rugged-nasty-bacterium?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T17:25:00.000Z",
-          "wordCount": 7416,
-          "title": "Hundreds of Tough Mudder Racers Infected By Rugged, Nasty Bacterium",
-          "imageUrl": "https://a.fsdn.com/sd/topics/news_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/01/1649252/dell-and-samsung-grab-first-class-tickets-for-ai-hype-train?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Dell and Samsung are the latest beneficiaries of the current frenzy of speculation surrounding anything AI related, with both vendors seeing a rise in share prices related to their future AI prospects. From a report: Shares in Dell were said to be up 8 percent in extended trading following the Round Rock company releasing its results for the second quarter of its financial year 2024. These showed that revenue was $22.9 billion, down 13 percent on the same period last year. However, this figure was also up 10 percent on the previous quarter, with the company attributing this growth to rising demand for AI-optimized servers, as well as its PowerStore and PowerFlex storage systems. AI accounted for 20 percent of server revenue in the first half of the year, Dell said. \n\nSimilarly, Dell said it is seeing growth in demand for its workstations designed to help organizations run complex AI workloads locally, with its commercial client revenue hitting $10.6 billion. This accounted for the lion's share of the Client Solutions Group second quarter revenue of $12.9 billion, which was down 16 percent year-on-year but up 8 percent on the last quarter. Dell vice chairman and chief operating officer Jeff Clarke said that the company continued to focus on the most profitable segments of the market where he claimed Dell has a leading position.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/01/1649252/dell-and-samsung-grab-first-class-tickets-for-ai-hype-train?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T16:49:00.000Z",
-          "wordCount": 4267,
-          "title": "Dell and Samsung Grab First-Class Tickets For AI Hype Train",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/01/1551253/paris-becomes-the-first-european-capital-to-ban-rented-electric-scooters?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: Paris became the first European capital to outlaw the vehicles on Friday, following a vote in April in which Parisiens overwhelmingly supported a ban, although turnout was low. Privately owned e-scooters, which the city cannot regulate, are exempt. Since their eruption onto the streets and sidewalks of cities across the world in 2019, e-scooters have posed unique regulatory problems for city officials. The vehicles often stayed in legal limbo as officials mapped out charters for e-scooter operators, capped fleets and regulated parking. \n\nCities like San Francisco and Miami temporarily banned e-scooters before reintroducing them. Santa Monica, Calif., successfully sued an e-scooter operator over its lack of licensing. And New York delayed the vehicles' arrival, citing security concerns. But no city has been as strict as Paris, where e-scooter users are mourning a cheap and flexible way of getting around without having to ride the crammed metro or use Velib', the popular but frequently overwhelmed bike-sharing system.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/01/1551253/paris-becomes-the-first-european-capital-to-ban-rented-electric-scooters?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T16:00:00.000Z",
-          "wordCount": 9401,
-          "title": "Paris Becomes the First European Capital To Ban Rented Electric Scooters",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/01/1516252/lidl-recalls-paw-patrol-snacks-after-website-on-packaging-displayed-porn?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Supermarket giant Lidl has issued a recall of Paw Patrol snacks after the website listed on the products' packaging began displaying explicit content unsuitable for children. From a report: Lidl, which operates more than 12,000 stores globally, is urging shoppers in the United Kingdom to return the snacks for a full refund. Affected products include Paw Patrol Yummy Bakes and Paw Patrol Mini Biscotti, snacks recommended for children aged two and above. Lidl's recall notice dated August 22 warns that the product's packaging contains a web address that has been \"compromised\" to display content \"not suitable for child consumption.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/09/01/1516252/lidl-recalls-paw-patrol-snacks-after-website-on-packaging-displayed-porn?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-01T15:20:00.000Z",
-          "wordCount": 6738,
-          "title": "Lidl Recalls Paw Patrol Snacks After Website on Packaging Displayed Porn",
-          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
         }
       ]
     }
