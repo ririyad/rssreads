@@ -247,6 +247,16 @@
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/10/03/1.73.0-prerelease.html",
+          "author": null,
+          "description": "The 1.73.0 pre-release is ready for testing. The release is scheduled for\nOctober 5. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-10-03/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/10/03/1.73.0-prerelease.html",
+          "publishedOn": "2023-10-03T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.73.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/inside-rust/2023/09/22/project-director-nominees.html",
           "author": null,
           "description": "Announcing the Project Director Nominees\nOver the past couple weeks, the Rust Leadership Council has been soliciting nominees from the whole Rust project for the role of Project Director.\nNow that the nomination period is closed, we are happy to announce the list of nominees.\nAs described in our last post, we will elect from these people three new Project Directors.\nThe nominees are:\nJakob Degen\nAmanieu d'Antras\nFelix Klock\nlcnr\nscottmcm\nMichael Goulet\nSantiago Pastorino\nJubilee\nMara Bos\nThese were all spoken of highly by their nominating teams.\nWhile several other candidates were suggested, not everyone who was nominated felt like they were in a place where they were able or wanted to accept the role if they were elected.\nNow we'd again like to ask the members of the Rust Project for their feedback.\nPlease contact the Council in general or your representative(s) to tell us what we should consider going into the election process.\nWe hope that most of the feedback will be reasons we may not have considered yet for why they will be successful in the role, but if there are areas of necessary growth or other concerns that mean one or more of these nominees may not be a good fit for the role at this time, we want to know this as well!\nYou may reach out to us either on the public #council channel on Zulip or by emailing the Leadership Council at council@rust-lang.org.\nWe would also like to acknowledge the conflict of interest with Mara Bos since she is both a nominee and a member of the Leadership Council.\nIn keeping with the Leadership Council's Conflict of Interest policy, Mara will recuse herself from the election process and instead the Libraries team will send an alternate representative to participate in the Project Director election.\nWe will be open for feedback through October 2, and elections will take place soon afterwards.\nWe will announce the new Project Directors once the election is complete.",
@@ -274,16 +284,6 @@
           "publishedOn": "2023-09-08T00:00:00.000Z",
           "wordCount": 438,
           "title": "Leadership change in the Rust Infrastructure Team",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/09/04/keeping-secure-with-cargo-audit-0.18.html",
-          "author": null,
-          "description": "cargo audit checks your project's dependencies for known security vulnerabilites.\nBy default cargo audit checks on your Cargo.lock file, but it can also scan compiled binaries. You can install cargo-audit and run it against your project with the following commands:\n$ cargo install cargo-audit\n$ cargo audit\n\nBoth cargo audit and the RustSec advisory database that powers it are maintained by the Rust Secure Code working group.\nWhat's new in this release\nPerformance\ncargo audit now uses the sparse crates.io index when checking for yanked crates. This dramatically speeds up the scanning process because cargo audit no longer needs to download the entire crates.io index, which could take up to several minutes.\nSparse index is used by default if you are running Rust 1.70 or later, same as in Carg…",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/09/04/keeping-secure-with-cargo-audit-0.18.html",
-          "publishedOn": "2023-09-04T00:00:00.000Z",
-          "wordCount": 681,
-          "title": "Keeping Rust projects secure with cargo-audit 0.18: performance, compatibility and security improvements",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -328,16 +328,6 @@
           "publishedOn": "2023-09-21T00:00:00.000Z",
           "wordCount": 4182,
           "title": "How do databases execute expressions?",
-          "imageUrl": null
-        },
-        {
-          "id": "http://notes.eatonphil.com/eight-years-of-tech-meetups.html",
-          "author": null,
-          "description": "This is a collection of random personal experiences. So if you don't\nwant to read everything, feel free to skip to the end for takeaways.\nI write because I'd like to see more high-quality meetups. And maybe\nmy little bit of experience will help someone out.\n2015: Philadelphia\nI first tried to organize a meetup in Philly in 2015. I was\ncontracting at the time and I figured a meetup might be a good way to\nsource contracts or just meet interesting people. I created the\n\"Philadelphia Software in Business\" (or some other similarly vaguely\nnamed) group on Meetup.com.\nI didn't have any network; the first companies I worked for were not\nin Philly. But Meetup.com got me a few tens of people joining the\ngroup.\nMy first challenge was finding a place to meet. I didn't know what I\nwas doing so I looked…",
-          "link": "http://notes.eatonphil.com/eight-years-of-tech-meetups.html",
-          "publishedOn": "2023-09-04T00:00:00.000Z",
-          "wordCount": 4272,
-          "title": "Eight years of organizing tech meetups",
           "imageUrl": null
         }
       ]
@@ -390,16 +380,6 @@
           "publishedOn": "2023-09-21T00:00:00.000Z",
           "wordCount": 4182,
           "title": "How do databases execute expressions?",
-          "imageUrl": null
-        },
-        {
-          "id": "http://notes.eatonphil.com/eight-years-of-tech-meetups.html",
-          "author": null,
-          "description": "This is a collection of random personal experiences. So if you don't\nwant to read everything, feel free to skip to the end for takeaways.\nI write because I'd like to see more high-quality meetups. And maybe\nmy little bit of experience will help someone out.\n2015: Philadelphia\nI first tried to organize a meetup in Philly in 2015. I was\ncontracting at the time and I figured a meetup might be a good way to\nsource contracts or just meet interesting people. I created the\n\"Philadelphia Software in Business\" (or some other similarly vaguely\nnamed) group on Meetup.com.\nI didn't have any network; the first companies I worked for were not\nin Philly. But Meetup.com got me a few tens of people joining the\ngroup.\nMy first challenge was finding a place to meet. I didn't know what I\nwas doing so I looked…",
-          "link": "http://notes.eatonphil.com/eight-years-of-tech-meetups.html",
-          "publishedOn": "2023-09-04T00:00:00.000Z",
-          "wordCount": 4272,
-          "title": "Eight years of organizing tech meetups",
           "imageUrl": null
         }
       ]
@@ -472,6 +452,16 @@
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://taylor.town/pigs-bladder",
+          "author": null,
+          "description": "a study of balloon,\nLittle House on the Prairie: 21st Century Edition,\nMake a Pig-Bladder Ball\ninflated pig's bladder can be\nkicked, tossed,\nstomped,\nand fashioned into a\nfool's stick.\nwere made from intestines,\ninflated and tied into shapes of animals (intestinception).\nthe scout's rule: I left my\ncampsite worse than how I found it.\ninto cheap calories for other pigs.\n\nMy food cannot be made like this indefinitely. My life cannot be powered like\nthis indefinitely. My toys and electronics and furniture and trinkets cannot be\nmade like this indefinitely.\n\nI want to build life from the things around me.",
+          "link": "https://taylor.town/pigs-bladder",
+          "publishedOn": "2023-10-03T00:00:00.000Z",
+          "wordCount": 300,
+          "title": "much worse than kids stomping that pig's bladder",
+          "imageUrl": null
+        },
         {
           "id": "https://changelog.com/podcast/559#t=2378",
           "author": null,
@@ -569,6 +559,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://slashdot.org/story/23/10/03/2033225/japan-to-provide-13-billion-in-extra-aid-to-us-chipmaker-micron?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "In a move to strengthen its chip supply chain, Japan announced it will provide up to $1.3 billion in additional subsidies for U.S. chipmaker Micron Technology's plant in Hiroshima Prefecture. The Japan Times reports: The move, which comes on top of the up to 46.5 billion yen aid announced earlier, adds to Japan's efforts to ensure a stable supply of chips at a time when rising tensions between the United States and China are increasingly posing a threat to its economic security. Micron has said it plans to invest up to 500 billion yen in Japan in the next few years and will become the first chipmaker to introduce extreme ultraviolet lithography machines -- state-of-the-art equipment for manufacturing advanced semiconductors -- in Japan. The company is slated to start mass production of next-generation 1-gamma dynamic random access memory chips in 2026.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/03/2033225/japan-to-provide-13-billion-in-extra-aid-to-us-chipmaker-micron?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-04T00:45:00.000Z",
+          "wordCount": 3938,
+          "title": "Japan To Provide $1.3 Billion In Extra Aid To US Chipmaker Micron",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/03/2027212/microsoft-overhauls-onedrive-with-a-big-new-design-ai-copilot-integration?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Tom Warren writes via The Verge: Microsoft is announcing the third generation of its OneDrive cloud storage today, complete with the company's AI-powered Copilot system, a Fluent design refresh, and big improvements to the way businesses share and use cloud documents. [...] Microsoft is overhauling the main OneDrive web app with a new Fluent design. It more closely matches the Windows 11 interface and recent changes to Office apps, and it also fits in with the latest File Explorer design updates. There is now an AI-powered file recommendations \"For you\" section up the top, much like File Explorer. Files that matter to your workday are surfaced here immediately and can appear here whether they're in your OneDrive, Teams, or elsewhere. [...] You can also now choose the colors of your folders…",
+          "link": "https://slashdot.org/story/23/10/03/2027212/microsoft-overhauls-onedrive-with-a-big-new-design-ai-copilot-integration?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-04T00:02:00.000Z",
+          "wordCount": 4339,
+          "title": "Microsoft Overhauls OneDrive With a Big New Design, AI Copilot Integration",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://mobile.slashdot.org/story/23/10/03/1944244/hmd-global-starts-manufacturing-in-europe-with-the-made-in-hungary-nokia-phone?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: HMD Global, the phone maker and marketer behind the Nokia mobile phone brand, has launched its very first smartphone manufactured in Europe. The news comes some six months after the Finnish company first revealed it was transitioning some of its manufacturing to Europe to meet a growing demand from enterprises for locally produced hardware to address security and sustainability concerns. HMD Global hadn't revealed where, exactly, it was manufacturing in Europe, with the company telling TechCrunch in February that it was keeping the facility under wraps due to security concerns.\n \n\"Unfortunately, due to our customers being in various security-conscious industries, we're not allowed to tell anyone which countries we are producing these dev…",
+          "link": "https://mobile.slashdot.org/story/23/10/03/1944244/hmd-global-starts-manufacturing-in-europe-with-the-made-in-hungary-nokia-phone?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T23:20:00.000Z",
+          "wordCount": 4201,
+          "title": "HMD Global Starts Manufacturing In Europe With the 'Made In Hungary' Nokia Phone",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/03/1943245/meta-to-lay-off-employees-in-metaverse-silicon-unit-tomorrow?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Meta is planning to lay off employees on Wednesday in the unit of its metaverse-oriented Reality Labs division focused on creating custom silicon, Reuters reported Tuesday, citing sources familiar with the matter. From the report: Employees were informed of the layoffs in a post on Meta's internal discussion forum Workplace on Tuesday. The post said they would be notified about their status with the company by early Wednesday morning, one of the sources said. Reuters was not able to determine the extent of the cuts to the silicon unit, called Facebook Agile Silicon Team, or FAST, which has roughly 600 employees, according to the other source. The FAST unit is tasked with developing custom chips to power the augmented and virtual reality hardware produced by Meta's Reality Labs division. Meta currently makes a line of mixed reality headsets called Quest and smart glasses designed with Ray-Ban eyeglass maker EssilorLuxottica that can stream video and speak with wearers through a new artificial intelligence virtual assistant.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/03/1943245/meta-to-lay-off-employees-in-metaverse-silicon-unit-tomorrow?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T22:40:00.000Z",
+          "wordCount": 4626,
+          "title": "Meta To Lay Off Employees in Metaverse Silicon Unit Tomorrow",
+          "imageUrl": "https://a.fsdn.com/sd/topics/facebook_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/03/1935211/amazon-used-secret-project-nessie-algorithm-to-raise-prices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Amazon used an algorithm code-named \"Project Nessie\" to test how much it could raise prices in a way that competitors would follow, according to redacted portions of the Federal Trade Commission's monopoly lawsuit against the company. From a report: The algorithm helped Amazon improve its profit on items across shopping categories, and because of the power the company has in e-commerce, led competitors to raise their prices and charge customers more, according to people familiar with the allegations in the complaint. In instances where competitors didn't raise their prices to Amazon's level, the algorithm -- which is no longer in use -- automatically returned the item to its normal price point. \n\nThe company also used Nessie on what employees saw as a promotional spiral, where Amazon would match a discounted price from a competitor, such as Target.com, and other competitors would follow, lowering their prices. When Target ended its sale, Amazon and the other competitors would remain locked at the low price because they were still matching each other, according to former employees who worked on the algorithm and pricing team. The algorithm helped Amazon recoup money and improve margins. The FTC's lawsuit redacted an estimate of how much it alleges the practice \"extracted from American households,\" and it also says it helped the company generate a redacted amount of \"excess profit.\" Amazon made more than $1 billion in revenue through use of the algorithm, according to a person familiar with the matter. Amazon stopped using the algorithm in 2019, some of the people said. It wasn't clear why the company stopped using it.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/03/1935211/amazon-used-secret-project-nessie-algorithm-to-raise-prices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T22:00:00.000Z",
+          "wordCount": 5358,
+          "title": "Amazon Used Secret 'Project Nessie' Algorithm To Raise Prices",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/03/1924226/new-group-attacking-iphone-encryption-backed-by-us-political-dark-money-network?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Long-time Slashdot reader schwit1 shares a report from The Intercept: The Heat Initiative, a nonprofit child safety advocacy group, was formed earlier this year to campaign against some of the strong privacy protections Apple provides customers. The group says these protections help enable child exploitation, objecting to the fact that pedophiles can encrypt their personal data just like everyone else. When Apple launched its new iPhone this September, the Heat Initiative seized on the occasion, taking out a full-page New York Times ad, using digital billboard trucks, and even hiring a plane to fly over Apple headquarters with a banner message. The message on the banner appeared simple: 'Dear Apple, Detect Child Sexual Abuse in iCloud' -- Apple's cloud storage system, which today employs a…",
+          "link": "https://it.slashdot.org/story/23/10/03/1924226/new-group-attacking-iphone-encryption-backed-by-us-political-dark-money-network?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T21:20:00.000Z",
+          "wordCount": 5938,
+          "title": "New Group Attacking iPhone Encryption Backed By US Political Dark-Money Network",
+          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/10/03/194214/opencore-legacy-patcher-project-brings-macos-sonoma-support-to-16-year-old-macs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: When Apple decides to end update support for your Mac, you can either try to install another OS or you can trick macOS into installing on your hardware anyway. That's the entire point of the OpenCore Legacy Patcher, a community-driven project that supports old Macs by combining some repurposed Hackintosh projects with older system files extracted from past macOS versions. Yesterday, the OCLP team announced version 1.0.0 of the software, the first to formally support the recently released macOS 14 Sonoma. Although Sonoma officially supports Macs released mostly in 2018 or later, the OCLP project will allow Sonoma to install on Macs that go back to models released in 2007 and 2008, enabling them to keep up with at least some of the new features and security patches baked into the latest release.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/10/03/194214/opencore-legacy-patcher-project-brings-macos-sonoma-support-to-16-year-old-macs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T20:40:00.000Z",
+          "wordCount": 5325,
+          "title": "OpenCore Legacy Patcher Project Brings macOS Sonoma Support To 16-Year-Old Macs",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mac_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/03/199221/disney-vfx-workers-vote-unanimously-to-unionize?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Jazz Tangcay writes via Variety: Visual effects workers at Walt Disney Pictures have voted unanimously in favor of unionizing with the International Alliance of Theatrical Stage Employees (IATSE) in an election held by the National Labor Relations Board (NLRB). The 13-0 vote comes just weeks after VFX workers at Marvel Studios voted to unionize with IATSE and comes amid the ongoing WGA and SAG-AFTRA strikes, as the guilds continue to seek fair contracts with the Alliance of Motion Picture and Television Producers.\n \nThe 18 crew members who work in-house at Walt Disney Studios who were eligible voters seek fair compensation for all hours worked, adequate health care and retirement benefits. The unionizing VFX workers are responsible for creating the special effects across the studio's catalog, which includes \"Beauty and the Beast,\" \"Aladdin,\" \"The Lion King\" and more, are also seeking the same rights and protections afforded to their unionized coworkers who are already represented by IATSE. [...] With the workers behind the vote, the union's next step is to engage in collective bargaining negotiations with Disney execs to draft a contract that addresses the workers' needs. Negotiation dates have yet to be set.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/03/199221/disney-vfx-workers-vote-unanimously-to-unionize?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T20:00:00.000Z",
+          "wordCount": 5513,
+          "title": "Disney VFX Workers Vote Unanimously To Unionize",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/03/1913252/google-mandates-unsubscribe-button-in-emails-for-those-sending-over-5000-daily-messages?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google plans to make it harder for spammers to send messages to Gmail users. From a report: The company said it will require emailers who send more than 5,000 messages per day to Gmail users to offer a one-click unsubscribe button in their messages. It will also require them to authenticate their email address, configuring their systems so they prove they own their domain name and aren't spoofing IP addresses. Alphabet-owned Google says it may not deliver messages from senders whose emails are frequently marked as spam and fall under a \"clear spam rate threshold\" of 0.3% of messages sent, as measured by Google's Postmaster Tools. \n\nGoogle says it has signed up Yahoo to make the same changes, and they'll come into effect in February 2024. The moves highlight the ongoing fight between big tech companies and spammers who use open systems such as email to send fraudulent messages and annoy users. For years, machine learning techniques have been used to fight spam, but it remains a back-and-forth battle as spammers discover new techniques to get past filters.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/03/1913252/google-mandates-unsubscribe-button-in-emails-for-those-sending-over-5000-daily-messages?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T19:20:00.000Z",
+          "wordCount": 7703,
+          "title": "Google Mandates Unsubscribe Button in Emails For Those Sending Over 5,000 Daily Messages",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/03/1314225/microsoft-ceo-says-tech-giants-battling-for-content-to-build-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft chief executive Satya Nadella said Monday tech giants were competing for vast troves of content needed to train artificial intelligence, and complained Google was locking up content with expensive and exclusive deals with publishers. From a report: Testifying in a landmark U.S. trial against its rival Google, the first major antitrust case brought by the U.S. since it sued Microsoft in 1998, Nadella testified the tech giants' efforts to build content libraries to train their large language models \"reminds me of the early phases of distribution deals.\" Distribution agreements are at the core of the U.S. Justice Department's antitrust fight against Google. The government says that Google, with some 90% of the search market, illegally pays $10 billion annually to smartphone makers like Apple and wireless carriers like AT&T and others to be the default search engine on their devices. \n\nThe clout in search makes Google a heavy hitter in the lucrative advertising market, boosting its profits. Nadella said building artificial intelligence took computing power, or servers, and data to train the software. On servers, he said: \"No problem, we are happy to put in the dollars.\" But without naming Google, he said it was \"problematic\" if other companies locked up exclusive deals with big content makers. \"When I am meeting with publishers now, they say Google's going to write this check and it's exclusive and you have to match it,\" he said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/03/1314225/microsoft-ceo-says-tech-giants-battling-for-content-to-build-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T18:40:00.000Z",
+          "wordCount": 4429,
+          "title": "Microsoft CEO Says Tech Giants Battling For Content To Build AI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/03/1425257/microsoft-kills-its-classic-azure-daas-because-it-isnt-really-azure?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft will deprecate the classic edition of its Azure Virtual Desktop desktop-as-a-service (DaaS) and has given customers three years to keep using the service before they'll need to find an alternative. From a report: The software giant seems to have spent years trying to confuse cloudy DaaS users, as it has offered two products called Azure Virtual Desktop, with varying degrees of integration with Azure. \n\nThe \"classic\" service has a management GUI that's not part of the Azure Portal and isn't addressable with the Azure Resource Manager (ARM), Microsoft's main deployment and management service for its cloud. The successor to Azure Virtual Desktop (AVD) classic is called -- wait for it -- \"Azure Virtual Desktop.\" This from the innovative minds that suddenly and inexplicably renamed Azure Active Directory as \"Entra\" and kept the name \"Active Directory\" for on-prem directories.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/03/1425257/microsoft-kills-its-classic-azure-daas-because-it-isnt-really-azure?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T18:00:00.000Z",
+          "wordCount": 5117,
+          "title": "Microsoft Kills Its Classic Azure DaaS, Because It Isn't Really Azure",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/10/03/1421212/apple-will-no-longer-fix-the-17000-gold-apple-watch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: It was never clear who the $10,000 to $17,000 18-karat gold Apple Watch was for, beyond celebrities and the ultrarich, but I hope whoever bought one way back in 2015 expected Apple to stop supporting them at some point. That day has come. Apple has now internally listed all first-gen Apple Watch models, including the solid-gold Edition, as \"obsolete,\" MacRumors reports. \n\nApple's obsolete label doesn't just mean the end of software support. That ship has sailed; the original Apple Watches (widely referred to as Series 0) never updated beyond watchOS 4.3.2 in 2018. It means the end of hardware support: the company will no longer provide parts, repairs, or replacement services. The solid-gold Apple Watch Edition was something of a passion project for Apple's former lead designer, Jony Ive. When it launched, it was seen on the wrists of influential celebrities, including German fashion designer Karl Lagerfeld, who, like Beyonce, wore it with a gold link bracelet that was never available to the public.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/10/03/1421212/apple-will-no-longer-fix-the-17000-gold-apple-watch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T17:20:00.000Z",
+          "wordCount": 9253,
+          "title": "Apple Will No Longer Fix the $17,000 Gold Apple Watch",
+          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/03/148246/report-claiming-net-zero-will-cost-uk-trillions-retracted-due-to-factual-errors?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A report that hugely overestimated the cost to the UK of reaching net zero emissions has been retracted by the thinktank that published it. From a report: The Civitas pamphlet published on Thursday claimed to offer a \"realistic\" estimate of the cost -- $5.4tn -- and said \"the government needs to be honest with the British people.\" However, factual errors were quickly pointed out after publication. The most serious error was the confusion by the report's author, Ewen Stewart, between power capacity in megawatts (MW) with electricity generation in megawatt hours (MWh). As a result, he presented an unrealistic \"$1.57m per MWh\" figure for the cost for onshore wind power. The true number is more than 10,000 times lower at about $60.3 to $84 per MWh. Another error was mixing up billions with trillions. A statement on the Civitas website said: \"This report has been taken down from the website because it was found to contain factual errors, it is undergoing revision and a fresh process of peer review. A revised report will be released when this process is completed.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/03/148246/report-claiming-net-zero-will-cost-uk-trillions-retracted-due-to-factual-errors?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T16:40:00.000Z",
+          "wordCount": 8333,
+          "title": "Report Claiming Net Zero Will Cost UK Trillions Retracted Due To 'Factual Errors'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/uk_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/03/143246/meta-plans-to-charge-14-a-month-for-ad-free-instagram-or-facebook?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Would people pay nearly $14 a month to use Instagram on their phones without ads? How about nearly $17 a month for Instagram plus Facebook -- but on desktop? That is what Meta wants to charge Europeans for monthly subscriptions if they don't agree to let the company use their digital activity to target ads, according to a proposal the social-media giant has made in recent weeks to regulators. The proposal is a gambit by Meta to navigate European Union rules that threaten to restrict its ability to show users personalized ads without first seeking user consent -- jeopardizing its main source of revenue. \n\nMeta officials detailed the plan in meetings in September with its privacy regulators in Ireland and digital-competition regulators in Brussels. The plan has been shared with other EU privacy regulators for their input, too. Meta has told regulators it hopes to roll out the plan -- which it calls SNA, or subscription no ads -- in coming months for European users. It would give users the choice between continuing to access Instagram and Facebook free with personalized ads, or paying for versions of the services without any ads, people familiar with the proposal said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/03/143246/meta-plans-to-charge-14-a-month-for-ad-free-instagram-or-facebook?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T16:01:00.000Z",
+          "wordCount": 10543,
+          "title": "Meta Plans To Charge $14 a Month for Ad-Free Instagram or Facebook",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/10/03/1355209/apple-enforces-new-check-on-apps-in-china-as-beijing-tightens-oversight?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple has started requiring new apps to show proof of a Chinese government licence before their release on its China App Store, joining local rivals years that had adopted the policy years earlier to meet tightening state regulations. From a report: Apple began last Friday requiring app developers to submit the \"internet content provider (ICP) filing\" when they publish new apps on its App Store, it said on its website for developers. An ICP filing is a longtime registration system, required for websites to operate legally in China, and most local app stores including those operated by Tencent and Huawei have adopted it since at least 2017. \n\nTo get an ICP filing licence, developers need to have a company in China or work with a local publisher, which has been an obstacle for a large number of foreign apps. Apple's loose ICP policy has allowed it to offer far more mobile apps than local app rivals and helped the U.S. tech giant boost its popularity in China, its third-largest market behind the Americas and Europe. The decision by Apple comes after China further tightened its oversight over mobile apps in August by releasing a new rule requiring all app stores and app developers to submit an \"app filing\" containing business details with the regulators. Chinese regulators last week released names of the first batch of mobile app stores that have completed app filings, but Apple's App Store was not among those on the list.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/10/03/1355209/apple-enforces-new-check-on-apps-in-china-as-beijing-tightens-oversight?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-03T15:20:00.000Z",
+          "wordCount": 6176,
+          "title": "Apple Enforces New Check on Apps in China as Beijing Tightens Oversight",
+          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
+        },
         {
           "id": "https://yro.slashdot.org/story/23/10/02/2133237/supreme-court-rejects-it-worker-challenge-of-opt-program?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4538,126 +4678,6 @@
           "wordCount": 13746,
           "title": "Apple Set To Embrace an iPhone Charger Change It Didn't Want",
           "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/03/1528258/workers-are-resisting-calls-to-return-to-offices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "America's return-to-office has been a \"lagging return,\" reports the Washington Post:\n\nEven with millions of workers across the country being asked to return to their cubicles, office occupancy has been relatively static for the past year. The country's top 10 metropolitan areas averaged 47.2 percent of pre-pandemic levels last week, according to data from Kastle Systems. This time last year, the average was around 44 percent.... \n\nAbout 52 percent of remote-capable U.S. workers are operating under hybrid arrangements, according to data from Gallup, while 29 percent are exclusively remote. And though executives like Meta's Mark Zuckerberg have argued that the rise of flexible work has had a deleterious effect on productivity, data from the Bureau of Labor Statistics shows that labor product…",
-          "link": "https://it.slashdot.org/story/23/09/03/1528258/workers-are-resisting-calls-to-return-to-offices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-04T11:34:00.000Z",
-          "wordCount": 14480,
-          "title": "Workers are Resisting Calls to Return to Offices",
-          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/04/0420246/why-self-driving-cars-slowed-down-in-high-tech-boston?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The city of Boston also allows testing of self-driving cars. But the Boston Globe reports that \"There are far fewer complaints about self-driving cars because you barely see them.\"\n\n[F]ollowing a string of high-profile crashes and the disruption of the COVID pandemic, the state Transportation Department — now under Governor Maura Healey — has seemingly lost its enthusiasm for AVs... Only one company is permitted to test autonomous vehicles here — Boston-based Motional — and it confines its occasional experiments to a corner of the Seaport and a closed track at Suffolk Downs in East Boston. And despite past efforts to woo autonomous-vehicle firms, the state hasn't received any new applications in years... \n\nProponents have long said AVs could transform transportation, with all manner of eco…",
-          "link": "https://tech.slashdot.org/story/23/09/04/0420246/why-self-driving-cars-slowed-down-in-high-tech-boston?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-04T08:34:00.000Z",
-          "wordCount": 7531,
-          "title": "Why Self-Driving Cars Slowed Down in High-Tech Boston",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/04/0519225/scientists-finally-know-why-germanys-wild-boar-are-surprisingly-radioactive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader shared this report from the Washington Post:\n\nOn April 26, 1986, the infamous explosion at a Chernobyl nuclear power plant unleashed large amounts of radiation into the atmosphere, an event that contaminated wildlife across country lines. The radiation levels seen in animals as a result has decreased in recent years — with the exception of one animal: the wild boar. For years, scientists questioned why levels of a radioactive isotope known as cesium-137 have remained surprisingly high in wild boars rooting around Germany and Austria, while decreasing in other deer and roe deer. In a new study released last week, a team of researchers finally solved this \"wild boar paradox.\" \n\nThey uncovered that the main radioactive source is not the Chernobyl accident but nuclear weapo…",
-          "link": "https://hardware.slashdot.org/story/23/09/04/0519225/scientists-finally-know-why-germanys-wild-boar-are-surprisingly-radioactive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-04T05:22:00.000Z",
-          "wordCount": 6824,
-          "title": "Scientists Finally Know Why Germany's Wild Boar Are Surprisingly Radioactive",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/09/04/0149214/how-a-billion-dollar-satellite-risks-upending-the-space-insurance-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Viasat Inc. has more than $1 billion of orbiting satellites in trouble,\" reports Bloomberg, \"and space insurers are girding for market-rattling claims.\"\n\nThe company's roughly $1 billion ViaSat-3 Americas satellite, central to expanding its fixed-broadband coverage and fending off rivals including Elon Musk's Starlink, suffered an unexpected problem as it deployed its antenna in orbit in April. Should Viasat declare it a total loss, industry executives estimate the claim would reach a record-breaking $420 million and, in turn, make it harder — and more expensive — for other satellite operators to get insurance... Viasat on Aug. 24 reported another stricken spacecraft, saying its Inmarsat-6 F2 satellite launched in February suffered a power problem. The failure may end the craft's useful life and result in a $350 million insurance claim, Space Intel Report said. \n\nViasat's troubles in orbit come a few years after big-name insurers like American International Group Inc. and Allianz SE have shuttered their space portfolios. That's left a smaller pool of providers to absorb the risks in the notoriously high-stakes $553 million market... \n\n\nFollowing news of the Inmarsat-6 anomaly, Viasat and other industry participants \"will likely experience significant challenges with obtaining insurance for future satellite launches,\" [investment banking firm] William Blair's Louie DiPalma said in an Aug. 25 note... In 2019, the total losses from satellite claims amounted to $788 million, which overwhelmed the total premiums for the year at $500 million, according to launch and satellite database Seradata. In the years that followed, big names like American International Group Inc., Swiss Re AG, and Allianz SE all closed the door on satellite insurance. \nEarlier this month Viasat's CEO says before deciding whether they'll file a claim, \"There's no consequences to us taking another couple or three months to get good measurements and then making those decisions.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/09/04/0149214/how-a-billion-dollar-satellite-risks-upending-the-space-insurance-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-04T01:52:00.000Z",
-          "wordCount": 9735,
-          "title": "How a Billion-Dollar Satellite Risks Upending the Space Insurance Industry",
-          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/03/2248249/after-hurricane-caused-flooding-some-evs-exposed-to-saltwater-caught-fire?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "CBS News reports:\nFloridians battered by Hurricane Idalia this week may not have expected another threat — that floodwaters could cause their cars to suddenly burst into flames. Yet that's exactly what happened when two electric vehicles caught fire after being submerged in saltwater churned up by the storm... \n\n\"If you own a hybrid or electric vehicle that has come into contact with saltwater due to recent flooding within the last 24 hours, it is crucial to relocate the vehicle from your garage without delay,\" the fire department said in a Facebook post. \"Saltwater exposure can trigger combustion in lithium-ion batteries. If possible, transfer your vehicle to higher ground.\" The warning also applies to electric golf carts, scooters and bicycles, with lithium-ion batteries potentially sparking a fire when they get wet. More specifically, salt residue remains after the water dries out and can create \"bridges\" between the battery's cells, potentially creating electrical connections that can spark a fire. \nFire crews were actually towing one of the vehicles when it burst into flames, the article points out. And EV manufacturers want people to take the possibility seriously:\n\nTesla warns car owners about the risks of vehicle submersion and advises against driving a car that has been flooded. \"Treat your vehicle as if it has been in an accident and contact your insurance company,\" the company says in its guidance for handling a submerged vehicle.\n \nThanks to long-time Slashdot reader schwit1 for sharing the article.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/03/2248249/after-hurricane-caused-flooding-some-evs-exposed-to-saltwater-caught-fire?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-03T22:51:00.000Z",
-          "wordCount": 6909,
-          "title": "After Hurricane-Caused Flooding, Some EVs Exposed To Saltwater Caught Fire",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/03/200248/gannett-halts-ai-written-sports-recaps-after-readers-mocked-the-stories?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "CNN reports that newspaper chain Gannett \"has paused the use of an AI tool to write high school sports dispatches after the technology made several major flubs in articles in at least one of its papers.\"\nIn one notable example, preserved by the Internet Archive's Wayback Machine, the story began: \"The Worthington Christian [[WINNING_TEAM_MASCOT]] defeated the Westerville North [[LOSING_TEAM_MASCOT]] 2-1 in an Ohio boys soccer game on Saturday....\" The reports were mocked on social media for being repetitive, lacking key details, using odd language and generally sounding like they'd been written by a computer with no actual knowledge of sports. \n\nCNN identified several other local Gannett outlets, including the Louisville Courrier Journal, AZ Central, Florida Today and the Milwaukee Journal…",
-          "link": "https://news.slashdot.org/story/23/09/03/200248/gannett-halts-ai-written-sports-recaps-after-readers-mocked-the-stories?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-03T20:45:00.000Z",
-          "wordCount": 6361,
-          "title": "Gannett Halts AI-Written Sports Recaps After Readers Mocked the Stories",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/03/196247/china-accused-of-coordinated-disinformation-campaign-about-fukushima-waste-water-in-multiple-countries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The BBC has an article about Japan's release into the sea of treated waste water from the damaged Fukushima nuclear plant. \"Scientists largely agree that the impact will be negligible, but China has strongly protested the release. And disinformation has only fuelled fear and suspicion in China.\"\n\nA report by a UK-based data analysis company called Logically, which aims to fight misinformation, claims that since January, the Chinese government and state media have been running a coordinated disinformation campaign targeting the release of the waste water. As part of this, mainstream news outlets in China have continually questioned the science behind the nuclear waste water discharge. The rhetoric has only increased since the water was released on 24 August, stoking public anger... Japan's foreign ministry even warned its citizens in China to be cautious and to avoid speaking Japanese loudly in public... \n\nLogically's data also showed that, since the beginning of the year, state-owned media have run paid ads on Facebook and Instagram, without disclaimers, about the risks of the waste water release in multiple countries and languages, including English, German, and Khmer. \"It is quite evident that this is politically motivated,\" Hamsini Hariharan, a China expert at Logically, told the BBC. She added that misleading content from sources related to the Chinese government had intensified the public outcry... \n\nDozens of posts on Chinese social media Weibo showed panicked crowds buying giant sacks of salt ahead of the Fukushima water release. Some worried that future supply would be contaminated. Others believed — falsely — that salt protected them against radiation. A restaurant in Shanghai, in an apparent effort to profit off the hysteria, advertised \"anti-radiation\" meals with errant claims of reducing skin damage and cell regeneration. A social media user asked wryly, \"Why would I pay 28 yuan for tomato with seasoning?\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/03/196247/china-accused-of-coordinated-disinformation-campaign-about-fukushima-waste-water-in-multiple-countries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-03T19:45:00.000Z",
-          "wordCount": 5572,
-          "title": "China Accused of 'Coordinated Disinformation Campaign' About Fukushima Waste Water in Multiple Countries",
-          "imageUrl": "https://a.fsdn.com/sd/topics/japan_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/03/1841241/silicon-valley-billionaires-reveal-first-renderings-for-planned-city-in-california?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Silicon Valley billionaires behind a secretive $800 million land-buying spree in Northern California have finally released some details about their plans for a new green city,\" reports the Associated Press, \"but they still must win over skeptical voters and local leaders.\"\nAfter years of ducking scrutiny, Jan Sramek, the former Goldman Sachs trader spearheading the effort, launched a website Thursday about \"California Forever.\" The site billed the project as \"a chance for a new community, good paying local jobs, solar farms, and open space\" in Solano, a rural county between San Francisco and Sacramento that is now home to 450,000 people. He also began meeting with key politicians representing the area who have been trying unsuccessfully for years to find out who was behind the mysterious …",
-          "link": "https://news.slashdot.org/story/23/09/03/1841241/silicon-valley-billionaires-reveal-first-renderings-for-planned-city-in-california?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-03T18:45:00.000Z",
-          "wordCount": 9351,
-          "title": "Silicon Valley Billionaires Reveal First Renderings for Planned City in California",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/03/1722242/cruise-disputes-report-its-robotaxi-blocked-an-ambulance-carrying-patient-who-later-died?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Two stalled driverless taxis blocked an ambulance carrying a critically injured patient,\" writes the San Francisco Chronicle, citing a paywalled report from Forbes. The delay \"contributed to 'poor patient outcome' — the person died 20 to 30 minutes after reaching the hospital, according to a report by San Francisco firefighters that the taxi company disputes.\" \n\nThe report was obtained by Forbes, which recently published a story detailing accounts by San Francisco firefighters who say driverless taxis have repeatedly interfered with their emergency response. However, Forbes also reported that Cruise provided a video that disputed SFFD's account of the August 14 incident. The video, Forbes reported, shows that one Cruise car quickly left the scene while the other remained stalled at the intersection with an open lane to its right, which traffic was passing through. Forbes said it was not clear from the video if the ambulance could have navigated into the open lane. \n\nHannah Lindow, a Cruise spokesperson, told the Chronicle that the Cruise vehicle that stopped did so to yield to first responders directing traffic. \"Throughout the entire duration the (autonomous vehicle) is stopped, traffic remains unblocked and flowing to the right of the AV. The ambulance behind the AV had a clear path to pass the AV as other vehicles, including another ambulance, proceeded to do,\" Lindow said in an email. \"As soon as the victim was loaded into the ambulance, the ambulance left the scene immediately and was never impeded from doing so by the AV.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/03/1722242/cruise-disputes-report-its-robotaxi-blocked-an-ambulance-carrying-patient-who-later-died?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-03T17:34:00.000Z",
-          "wordCount": 7819,
-          "title": "Cruise Disputes Report Its Robotaxi Blocked an Ambulance Carrying Patient Who Later Died",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/09/03/1622210/mission-accomplished-india-puts-moon-rover-to-sleep-for-14-days?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "To complete one full rotation around its axis it takes the moon 655 hours. So a single \"lunar day\" is 13.64 earth days. \n\nBut sunset has finally come for India's Chandrayaan-3 spacecraft and its Pragyan rover, writes long-time Slashdot reader Geoffrey.landis , and the rover has switched off for the coming 655-hour night:\nWith luck from the moon gods, it will wake up with the sunrise in 14 days. But, even if not, mission accomplished! It was designed for fourteen days of operation, the daylight period. In that time the rover accomplished just over a hundred meters (American units: one football field) of traverse, examining and chemically analyzing the surface. \n\n\n\"The Indian Express newspaper said the electronics on board the Indian moon mission werenâ(TM)t designed to withstand very low temperatures, less than -120 C (-184 F) during the nighttime on the moon,\" according to the Associated Press. But the rover's accomplishments already include making the first-ever measurements of the south pole's near-surface Lunar plasma, and confirming the presence of aluminum, calcium, chromium, titanium, manganese, and silicon. There's also sulphur, iron, oxygen and other elements on the moon, Reuters reports, citing a statement from the Indian Space Research Organisation (ISRO):\n\nThe Pragyan rover from the Chandrayaan-3 spacecraft was \"set into Sleep mode\" but with batteries charged and receiver on, the ISRO said in a post on X, formerly Twitter, late on Saturday. \"Hoping for a successful awakening for another set of assignments!\" ISRO said. \"Else, it will forever stay there as India's lunar ambassador.\" \n\n\n\nEarlier this week the ISRO posted footage of the rover completing a near-pirouette to search for the safest route. \n\n\"The solar panel is oriented to receive the light at the next sunrise expected on September 22, 2023,\" the ISRO posted Saturday.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/09/03/1622210/mission-accomplished-india-puts-moon-rover-to-sleep-for-14-days?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-03T16:34:00.000Z",
-          "wordCount": 5729,
-          "title": "Mission Accomplished, India Puts Moon Rover to 'Sleep' for 14 Days",
-          "imageUrl": "https://a.fsdn.com/sd/topics/moon_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/03/0050200/after-28-years-microsoft-announces-it-will-remove-wordpad-from-windows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Microsoft has quietly revealed that WordPad, the basic word processor that's been included with Windows since 1995, is being retired,\" reports Windows blog Paul Thurrott:\n\"WordPad is no longer being updated and will be removed in a future release of Windows,\" the Deprecated features for Windows client page on Microsoft Learn notes in a September 1, 2023 addition. \"We recommend Microsoft Word for rich text documents like .doc and .rtf and Windows Notepad for plain text documents like .txt....\" \n\n[W]hile Microsoft's advice to use Microsoft Word instead seems a bit off-base, given that Word is a paid product, RTF is rarely used these days, and anyone can access the web versions of Word for free if needed. \n\nThe actual date of removal is unclear. But Neowinisn't the only thing Microsoft is removing from Windows:\nThe company recently turned off Cortana, its neglected voice assistant, and announced the end of Microsoft Support Diagnostic Tool (MSDT). Also, Microsoft will soon disable old Transport Layer Security protocols to make Windows 11 more secure.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/03/0050200/after-28-years-microsoft-announces-it-will-remove-wordpad-from-windows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-03T15:34:00.000Z",
-          "wordCount": 10892,
-          "title": "After 28 Years, Microsoft Announces it Will Remove WordPad From Windows",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://linux.slashdot.org/story/23/09/03/001201/linuxs-marketshare-on-steam-still-higher-than-apple-macos?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The (Arch Linux-powered) Steam Deck was released in February of 2022 — and Phoronix reports that's helping Linux's market share on Steam. \"While July was at 1.96% for Linux, the August numbers [from SteamPowered.com] show a 0.14% dip to 1.82%.\n\nInterestingly, macOS dipped by 0.27% to 1.57% while Windows rose by 0.4% to 96.61%. For those wondering why the Steam Linux numbers dropped while the Steam Deck continues to be very popular, it's possibly again another month impacted by large swings in Chinese traffic... SteamOS Holo that powers the Steam Deck gained another 2% marketshare to now commanding around 44% of the reported Linux gamers. \n\nAmong Linux gamers, AMD CPUs power around 71% of the systems. In part due to the Steam Deck being powered by an AMD APU. Meanwhile Steam on Windows has the AMD CPU marketshare at around 33%.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://linux.slashdot.org/story/23/09/03/001201/linuxs-marketshare-on-steam-still-higher-than-apple-macos?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-03T14:34:00.000Z",
-          "wordCount": 7815,
-          "title": "Linux's Marketshare on Steam Still Higher Than Apple macOS",
-          "imageUrl": "https://a.fsdn.com/sd/topics/linux_64.png"
         }
       ]
     }
