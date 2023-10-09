@@ -146,16 +146,6 @@
           "wordCount": 327,
           "title": "Company culture is the last 50 days",
           "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
-        },
-        {
-          "id": "https://world.hey.com/jason/feeling-it-0fdcdbf8",
-          "author": null,
-          "description": "I'm often asked how you know if an idea — product, business, or otherwise — is good. Good enough to pursue. Good enough to follow. Good enough to invest in. Good enough to get behind.\n\n\nYou don't know. You feel. You give into your intuition, you tune into your senses, you notice goosebumps. What does it feel like? What's the vibe of this thing? That's what I want to know. \n\n\nGood ideas are like slipstreams — they have their own effortless, accelerated pull. They slide rather than grind. They have a smooth, silky texture — like a perfect milkshake being drawn through a wide straw. Everything has a nature, and good ideas have theirs.\n\n\nFeeling like you're on to something is an unmistakable feeling. Don't look for it, don't ask about it, don't fish for opinions. Feel for it.\n\n\n-Jason",
-          "link": "https://world.hey.com/jason/feeling-it-0fdcdbf8",
-          "publishedOn": "2023-09-08T17:49:28.000Z",
-          "wordCount": 208,
-          "title": "Feeling it",
-          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
         }
       ]
     },
@@ -416,6 +406,26 @@
       "siteUrl": "https://dietcode.io/",
       "articles": [
         {
+          "id": "https://dietcode.io/t/font-preload/",
+          "author": null,
+          "description": "Turns out you need a unintuitive attribute to make it work correctly",
+          "link": "https://dietcode.io/t/font-preload/",
+          "publishedOn": "2023-10-08T00:00:00.000Z",
+          "wordCount": 305,
+          "title": "How to actually preload fonts",
+          "imageUrl": "https://dietcode.io/t/font-preload/og.png"
+        },
+        {
+          "id": "https://dietcode.io/p/cookies/",
+          "author": null,
+          "description": "Cookies can be so much more than vessels for authentication tokens",
+          "link": "https://dietcode.io/p/cookies/",
+          "publishedOn": "2023-10-08T00:00:00.000Z",
+          "wordCount": 969,
+          "title": "Cookies are a distributed storage mechanism",
+          "imageUrl": "https://dietcode.io/p/cookies/og.png"
+        },
+        {
           "id": "https://dietcode.io/p/sse/",
           "author": null,
           "description": "SSE streams are one-way WebSocket connections that are miles easier to build",
@@ -579,6 +589,126 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://news.slashdot.org/story/23/10/08/2322243/why-is-californias-population-falling-housing-costs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"34% of Californians say they are considering moving out of the state due to housing costs,\" according to statistics from a new report from the Public Policy Institute of California. \n\n\nIt's a nonprofit think tank founded in 1994 \"to inform and improve public policy in California through independent, objective, nonpartisan research.\" (Founded with a grant from Bill Hewlett of Hewlett-Packard, it also gets funding from the David and Lucile Packard Foundation). The report's startling conclusion? \"After a century of explosive growth, California is likely to become a slow-growing state.\" After the year 2030 California's seniors (older than 65) are expected to outnumber its children. \"In 2020, California had nearly four residents ages 18-64 for every adult 65 and older. This ratio is expected t…",
+          "link": "https://news.slashdot.org/story/23/10/08/2322243/why-is-californias-population-falling-housing-costs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T23:25:00.000Z",
+          "wordCount": 7064,
+          "title": "Why Is California's Population Falling?  Housing Costs",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/23/10/08/2133244/red-hat-ubuntu-debian-and-gentoo-release-patches-for-looney-tunables-linux-vulnerability?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Thursday ZDNet reported...\n\nAs security holes go, CVE-2023-4911, aka \"Looney Tunables,\" isn't horrid. It has a Common Vulnerability Scoring System score of 7.8, which is ranked as important, not critical. \n\nOn the other hand, this GNU C Library's (glibc) dynamic loader vulnerability is a buffer overflow, which is always big trouble, and it's in pretty much all Linux distributions, so it's more than bad enough. After all, its discoverers, the Qualys Threat Research Unit, were able to exploit \"this vulnerability (a local privilege escalation that grants full root privileges) on the default installations of Fedora 37 and 38, Ubuntu 22.04 and 23.04, and Debian 12 and 13.\" Other distributions are almost certainly vulnerable to attack. The one major exception is the highly secure Alpine Linux. Thanks to this vulnerability, it's trivial to take over most Linux systems as a root user. As the researchers noted, this exploitation method \"works against almost all of the SUID-root programs that are installed by default on Linux....\" \n\n\n\nThe good news is that Red Hat, Ubuntu, Debian, and Gentoo have all released their own updates. In addition, the upstream glibc code has been patched with the fix. If you can't patch it, Red Hat has a script that should work on most Linux systems to mitigate the problem by setting your system to terminate any setuid program invoked with GLIBC_TUNABLES in the environment.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://linux.slashdot.org/story/23/10/08/2133244/red-hat-ubuntu-debian-and-gentoo-release-patches-for-looney-tunables-linux-vulnerability?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T21:35:00.000Z",
+          "wordCount": 4429,
+          "title": "Red Hat, Ubuntu, Debian, and Gentoo Release Patches for 'Looney Tunables' Linux Vulnerability",
+          "imageUrl": "https://a.fsdn.com/sd/topics/debian_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/08/208250/im-a-luddite---and-why-you-should-be-one-too?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Los Angeles Times technology columnist Brian Merchant has written a book about the 1811 Luddite rebellion against industrial technology, decrying \"entrepreneurs and industrialists pushing for new, dubiously legal, highly automated and labor-saving modes of production.\" \n\nIn a new piece he applauds the spirit of the Luddites. \"The kind of visionaries we need now are those who see precisely how certain technologies are causing harm and who resist them when necessary.\"\nThe parallels to the modern day are everywhere. In the 1800s, entrepreneurs used technology to justify imposing a new mode of work: the factory system. In the 2000s, CEOs used technology to justify imposing a new mode of work: algorithmically organized gig labor, in which pay is lower and protections scarce. In the 1800s, hosie…",
+          "link": "https://it.slashdot.org/story/23/10/08/208250/im-a-luddite---and-why-you-should-be-one-too?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T20:10:00.000Z",
+          "wordCount": 12411,
+          "title": "'I'm a Luddite - and Why You Should Be One Too'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/08/1654232/will-the-placebo-effect-mold-how-we-see-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"The preconceived notions people have about AI — and what they're told before they use it — mold their experiences with these tools,\" writes Axios, \"in ways researchers are beginning to unpack...\"\n\nA strong placebo effect works to shape what people think of a particular AI tool, one study revealed. Participants who were about to interact with a mental health chatbot were told the bot was caring, was manipulative or was neither and had no motive. After using the chatbot, which is based on OpenAI's generative AI model GPT-3, most people primed to believe the AI was caring said it was. Participants who'd been told the AI had no motives said it didn't. But they were all interacting with the same chatbot. \nOnly 24% of the participants who were told the AI was trying to manipulate them into buying its service said they perceived it as malicious... \n\nThe intrigue: It wasn't just people's perceptions that were affected by their expectations. Analyzing the words in conversations people had with the chatbot, the researchers found those who were told the AI was caring had increasingly positive conversations with the chatbot, whereas the interaction with the AI became more negative with people who'd been told it was trying to manipulate them... \n\nThe placebo effect will likely be a \"big challenge in the future,\" says Thomas Kosch, who studies human-AI interaction at Humboldt University in Berlin. For example, someone might be more careless when they think an AI is helping them drive a car, he says. His own work also shows people take more risks when they think they are supported by an AI.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/08/1654232/will-the-placebo-effect-mold-how-we-see-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T18:34:00.000Z",
+          "wordCount": 5946,
+          "title": "Will the Placebo Effect Mold How We See AI?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/08/1641214/california-becomes-first-us-state-to-ban-four-toxic-food-additives?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Nearly 12% of America's population is in California. And the Los Angeles Times is predicting changes to what they eat:\n\nCalifornia became the first state in the nation to prohibit four food additives found in popular cereal, soda, candy and drinks after Gov. Gavin Newsom signed a ban on them Saturday. The California Food Safety Act will ban the manufacture, sale or distribution of brominated vegetable oil, potassium bromate, propylparaben and red dye No. 3 — potentially affecting 12,000 products that use those substances, according to the Environmental Working Group. \n\nThe legislation was popularly known as the \"Skittles ban\" because an earlier version also targeted titanium dioxide, used as a coloring agent in candies including Skittles, Starburst and Sour Patch Kids, according to the Env…",
+          "link": "https://yro.slashdot.org/story/23/10/08/1641214/california-becomes-first-us-state-to-ban-four-toxic-food-additives?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T17:34:00.000Z",
+          "wordCount": 12153,
+          "title": "California Becomes First US State to Ban Four 'Toxic' Food Additives",
+          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/10/08/0414238/openai-to-release-its-python-sdk?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"OpenAI has unveiled the Beta version of its Python SDK,\" reports Analytics India Magazine, \"marking a significant step towards enhancing access to the OpenAI API for Python developers.\"\n\nThe OpenAI Python library offers a simplified way for Python-based applications to interact with the OpenAI API, while providing an opportunity for early testing and feedback before the official launch of version 1.0. It streamlines the integration process by providing pre-defined classes for API resources, dynamically initialising from API responses, ensuring compatibility across various OpenAI API versions... \n\nDevelopers can find comprehensive documentation and code examples in the OpenAI Cookbook for various tasks, including classification, clustering, code search, customising embeddings, question answering, recommendations, visualisation of embeddings, and more... \n\n\nThis comes just weeks before OpenAI's first developer conference, OpenAI DevDay.\n \n\nMore details in OpenAI's official announcement at PyPi.org.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://developers.slashdot.org/story/23/10/08/0414238/openai-to-release-its-python-sdk?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T16:34:00.000Z",
+          "wordCount": 3933,
+          "title": "OpenAI to Release Its Python SDK",
+          "imageUrl": "https://a.fsdn.com/sd/topics/python_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/10/07/2315204/states-are-calling-for-more-k-12-cs-classes-now-they-need-the-teachers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Long-time Slashdot reader theodp writes: \"42 states to go!\" exclaimed Code.org to its 1+ million Twitter followers as it celebrated victorious efforts to pass legislation making North Carolina the 8th state to pass a high school computer science graduation requirement, bringing the tech-backed nonprofit a step closer to its goal of making CS a requirement for a HS diploma in all 50 states. But as states make good on pledges made to tech CEOs to make their schoolchildren CS savvy, Education Week cautions that K-12 CS has a big certified teacher shortage problem. \n\nFrom the article:\n\n\nWhen trying to ensure all students get access to the knowledge they need for college and careers, sometimes policy can get ahead of teacher capacity. Computer science is a case in point. As of 2022, every state in the nation has passed at least one law or policy intended to promote K-12 computer science education, and 53 percent of high schools offered basic computer science courses that year, according to the nonprofit advocacy group Code.org.\" \"'There's big money behind making [course offerings] go up higher and faster,' thanks to federal and state grants as well as private foundations, said Paul Bruno, an assistant professor of education policy, organization, and leadership at the University of Illinois Urbana-Champaign. \"But then that raises the question, well, who are we getting to teach these courses...?\"\n\n Bruno's work in states such as California and North Carolina suggests that few of those new computer science classes are staffed with teachers who are certified in that subject.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://developers.slashdot.org/story/23/10/07/2315204/states-are-calling-for-more-k-12-cs-classes-now-they-need-the-teachers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T15:34:00.000Z",
+          "wordCount": 10406,
+          "title": "States Are Calling For More K-12 CS Classes. Now They Need the Teachers.",
+          "imageUrl": "https://a.fsdn.com/sd/topics/programming_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/08/0014248/cryptographer-announces-12k-bounty-to-find-the-lost-seeds-to-5-nist-elliptic-curves?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Long-time Slashdot reader mejustme writes: The NIST elliptic curves that power much of modern cryptography were generated in the late '90s by hashing seeds provided by the NSA. Rumor has it that they are in turn hashes of English sentences, but the person who picked them, Dr. Jerry Solinas, passed away in early 2023 leaving behind a cryptographic mystery.\" \n\nThat's from the blog of Filippo Valsorda, who was in charge of cryptography and security on the Go team at Google until 2022, (and was on the Cryptography team at Cloudflare until 2017). But more importantly, he adds that \"I'm announcing a $12,288 bounty for cracking these five hashes, tripled to $36,864 if the recipient chooses to donate it to a 501(c)(3) charity of their choice.\" \n\nThere are hints to which phrase was used as the seed. Dr Jerry Solinas thinks he used something similar to \"Jerry deserves a raise.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/08/0014248/cryptographer-announces-12k-bounty-to-find-the-lost-seeds-to-5-nist-elliptic-curves?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T14:34:00.000Z",
+          "wordCount": 5543,
+          "title": "Cryptographer Announces $12K Bounty to Find the Lost Seeds to 5 NIST Elliptic Curves",
+          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/08/0318205/nchains-ceo-departs-claims-evidence-craig-wright-manipulated-bitcoin-creation-documents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Bitcoin creator Satoshi Nakamoto may or may not be businessman Craig Wright, who in 2015 founded the blockchain-tech company nChain. \n\nBut nChain's recently-departed CEO Christen Ager-Hanssen's thinks Wright is not Satoshi — and that's just the beginning. According to Forbes Ager-Hanssen went as far as \"to leak emails suggesting former gambling billionaire Calvin Ayre, who has heavily backed the company doesn't believe Wright, nChain's chief scientist, is Satoshi Nakamoto. \n\nThe alleged email from Ayre begins by citing Wright's \"litigation disaster\"...'\n\nI have been operating under the assumption that you and Ramona have the keys and that you were simply pretending not to have them as part of some strategy that you have trapped yourself in. But now that we are looking at a situation where …",
+          "link": "https://slashdot.org/story/23/10/08/0318205/nchains-ceo-departs-claims-evidence-craig-wright-manipulated-bitcoin-creation-documents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T11:34:00.000Z",
+          "wordCount": 7497,
+          "title": "NChain's CEO 'Departs', Claims Evidence Craig Wright Manipulated Bitcoin Creation Documents",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/23/10/08/0131214/greg-kroah-hartman-chastises-critic-says-linux-foundation-strongly-supports-kernel-developers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "It started when Linux blogger Bryan Lunduke complained about how the Linux Foundation was reducing the six-year long-term support (LTS) window for the Linux kernel to two years.\t Lunduke argued that the Foundation seemed more interested in funding compliance best practices — as well as artificial intelligence and blockchain projects. \n\nIn an online discussion, Linux kernel maintainer Greg Kroah-Hartman had this response:\nDid anyone think to actually ask the developer who is maintaining the long-term support kernel versions why he made that change (back in February?), i.e. me...? No, I guess that would take too much effort, and wouldn't result in such a click-bait headline. \n\"LTS kernels are no longer supported for 6 years because it turns out no one used them.\" doesn't have that same fun sound...\n\nIn a second comment Kroah-Hartman also clarified that in fact \"The amount of resources and other stuff that the Linux Foundation provides to the Linux kernel community has increased over the years, including last year. \"\n\n Just because new people are brought in with new projects (that the LF member companies want to host) does not mean that somehow less is being given to the kernel community at all. It is not a zero-sum game here at all, that's not how the LF works in any way. \nAgain, this would have been easy to verify if someone just asked us. \nSo to repeat, no \"abandonment\" is happening here at all, the opposite is happening, just like it has for the entirety of the Linux Foundation's existence, support has grown every year. \n\nThanks to long-time Slashdot reader whoever57 for sharing the news.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://linux.slashdot.org/story/23/10/08/0131214/greg-kroah-hartman-chastises-critic-says-linux-foundation-strongly-supports-kernel-developers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T07:34:00.000Z",
+          "wordCount": 8597,
+          "title": "Greg Kroah-Hartman Chastises Critic, Says Linux Foundation Strongly Supports Kernel Developers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/linux_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/10/08/0434222/7-of-python-developers-are-still-using-python-2-annual-survey-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Python 3 was by far the choice over Python 2 in a late-2022 survey of more than 23,000 Python developers,\" reports InfoWorld, \"but the percentage of respondents using Python 2 actually ticked up compared to the previous year.\"\n\nResults of the sixth annual Python Developers Survey, conducted by the Python Software Foundation and software tools maker JetBrains, were released September 27. The Python Developers Survey 2022 report indicates that 93% of respondents had adopted Python 3, while only 7% were still using Python 2.\n\nIn the 2021 survey, though, 95% used Python 3 while 5% used Python 2. In 2020, Python 3 held a 94% to 6% edge. Dating back to 2017, 75% used Python 3 and 25% used Python 2... \n\nThe 2022 report said 29% of respondents still use Python 2 for data analysis, 24% use Python 2 for computer graphics, and 23% used Python 2 for devops. The survey also found that 45% of respondents are still using Python 3.10, which arrived two years ago, while just 2% still use Python 3.5 or lower. (Python 3.11 was released October 24, 2022, right when the survey was being conducted.) \n\n Other findings from the survey:\n\n21% said they used Python for work only, while 51% said they used it for work and personal/educational use or side projects, and 21% said they used Python only for personal projects.\n\n85% of respondents said Python was their main language (rather than a secondary language).\n\nThe survey also gives the the top \"secondary languages\" for the surveyed Python developers as JavaScript (37%), HTML/CSS (37%), SQL (35%), Bash/Shell (32%), and then C/C++ (27%).\n\nWhen asked what they used Python for most, 22% said \"Web Development\", 18% said \"Data Analysis,\" 12% said \"Machine Learning,\" and 10% said \"DevOps/System Administration/Writing Automation Scripts.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://developers.slashdot.org/story/23/10/08/0434222/7-of-python-developers-are-still-using-python-2-annual-survey-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T04:39:00.000Z",
+          "wordCount": 8475,
+          "title": "7% of Python Developers Are Still Using Python 2, Annual Survey Finds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/python_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/07/233210/germany-will-keep-keep-its-coal-power-plants-on-standby-for-another-winter?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An anonymous reader writes: Amidst a winter marked by scarce gas supplies, the German government has opted to retain its lignite coal power plants on standby for another season. Originally, Germany had planned a phased shutdown of coal plants in exchange for a portion of the government's €40 billion coal phase-out fund. However, last year, disruptions in Russian gas supplies post-Ukraine war prompted an emergency decision to keep coal plants operational. This measure is now extended for the upcoming winter, maintaining 1.9 GWs of lignite capacity alongside the existing 45 GW of coal power plants. The primary purpose of these lignite plants is to alleviate gas demand during peak times and stabilize prices. Despite the economic benefits, the move raises environmental concerns, given lignite's status as a major climate polluter. The government acknowledges this and plans to assess the additional carbon emissions resulting from keeping coal plants on standby, estimated to be between 2.5 and 5.6 tonnes of CO2. The German government emphasized the persistence of the goal to ideally complete the coal phase-out by 2030 and meet climate targets.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/10/07/233210/germany-will-keep-keep-its-coal-power-plants-on-standby-for-another-winter?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-08T01:34:00.000Z",
+          "wordCount": 15013,
+          "title": "Germany Will Keep Keep Its Coal Power Plants on Standby For Another Winter",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
         {
           "id": "https://science.slashdot.org/story/23/10/07/2148254/how-edwin-hubble-expanded-the-universe-100-years-ago?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
@@ -4548,206 +4678,6 @@
           "wordCount": 6092,
           "title": "Crypto Trading Volume Slumped To Lowest Level of the Year In August",
           "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/09/0542212/wyze-security-camera-owners-were-briefly-able-to-see-feeds-from-other-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "A web caching issue resulted in some Wyze security camera owners being able to see webcam feeds that weren't theirs. The Verge reports: Earlier on Friday, users on Reddit made posts about the issue. \"Went to check on my cameras and they are all gone be replaced with a new one... and this isn't mine!\" wrote one user. \"Apologies if this is your house / dog... I don't want it showing up as much as you don't want it!\" \"I am able to click the events tab and see ALL the events on this random person's camera INSIDE their house,\" wrote another. \"I don't know why, but I can see someone else's camera,\" wrote another.\n \nEach thread has comments from other Reddit users reporting similar issues. Shockingly, I even saw some instances of people claiming they saw the same cameras that other people did. The user reports indicated that they were seeing the other feeds through Wyze's web viewer at view.wyze.com.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/09/0542212/wyze-security-camera-owners-were-briefly-able-to-see-feeds-from-other-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-09T10:00:00.000Z",
-          "wordCount": 7063,
-          "title": "Wyze Security Camera Owners Were Briefly Able To See Feeds From Other Users",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/09/0529232/dennis-austin-the-software-developer-of-powerpoint-dies-at-76?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Dennis Austin, the principal software developer of PowerPoint, passed away from lung cancer on Sept. 1. He was 76. The Washington Post reports: Released in 1987 by Forethought, a small software firm, PowerPoint was the digital successor to overhead projectors, transforming the labor-intensive process of creating slides -- a task typically assigned to design departments or outsourced -- to one where any employee with a computer could point, click and rearrange information with a mouse. \"Our users were familiar with computers, but probably not graphics software,\" Mr. Austin wrote in an unpublished history of the software's development. \"They were highly motivated to look their best in front of others, but they weren't savvy in graphics design.\"\n \nWorking alongside Robert Gaskins, the Forethought executive who conceived the software, it was Mr. Austin's job as the software engineer to make PowerPoint (originally called Presenter) easy to operate. He accomplished this with a \"direct-manipulation interface,\" he wrote, meaning that \"what you are editing looks exactly like the final product.\" Originally targeted for Macintosh computers, which had a graphical interface, Presenter included ways for users to incorporate graphics, clip art and multiple fonts. In addition, the slides could be uniform with graphic borders, corporate logos and slide numbers. The goal, Mr. Austin wrote, was \"to create presentations -- not simply slides.\"\n \nIn his book \"Sweating Bullets: Notes about Inventing PowerPoint\" (2012), Gaskins wrote that \"Dennis came up with at least half of the major design ideas,\" and was \"completely responsible for the fluid performance and the polished finish of the implementation.\" \"It's a good bet,\" Gaskins added, \"that if Dennis had not been the person designing PowerPoint, no one would ever have heard of it.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/09/0529232/dennis-austin-the-software-developer-of-powerpoint-dies-at-76?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-09T07:00:00.000Z",
-          "wordCount": 5908,
-          "title": "Dennis Austin, the Software Developer of PowerPoint, Dies At 76",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/09/08/2141232/meet-the-guy-preserving-the-new-history-of-pc-games-one-linux-port-at-a-time?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from 404 Media: Historically, video game preservation efforts usually cover two types of games. The most common are very old or \"retro\" games from the 16-bit era or earlier, which are trapped on cartridges until they're liberated via downloadable ROMs. The other are games that rely on a live service, like Enter the Matrix's now unplugged servers or whatever games you can only get by downloading them via Nintendo's Wii Shop Channel, which shut down in 2019. But time keeps marching on and a more recent era of games now needs to be attended to if we still want those games to be accessible: indies from the late aughts to mid twenty-teens. That's right. Fez, an icon of the era and indie games scene, is now more than a decade old. And while we don't think of t…",
-          "link": "https://games.slashdot.org/story/23/09/08/2141232/meet-the-guy-preserving-the-new-history-of-pc-games-one-linux-port-at-a-time?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-09T03:30:00.000Z",
-          "wordCount": 5712,
-          "title": "Meet the Guy Preserving the New History of PC Games, One Linux Port At a Time",
-          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/08/2131256/nasdaq-receives-sec-approval-for-ai-based-trade-orders?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "The SEC has approved the Nasdaq's request to operate the first exchange AI-driven order type. CoinTelegraph reports: Called the dynamic midpoint extended life order (M-ELO), the new system expands on the M-ELO automated order type by making it \"dynamic,\" meaning it will use artificial intelligence to update and, essentially, recalibrate itself in real-time. Order types are a set of software instructions that execute specific trade pairs at exact market pricing thresholds. This form of automation has been around for a while, but the new AI-driven order type is the first of its kind to use real-time reinforcement learning AI to execute orders\n \nThis should have the follow-on effect of substantially speeding up orders placed with the system. In a blog post accompanying the approval announcement, Nasdaq states that dynamic M-ELO demonstrated a \"20.3% increase in fill rates and an 11.4% reduction in mark-outs\" during its research and testing. According to a data sheet published by Nasdaq: \"Calculated on a symbol-by-symbol basis, this new functionality analyzes 140+ data points every 30 seconds to detect market conditions and optimize the holding period prior to which a trade is eligible to execute.\" By adjusting the holding periods for orders in real time, as opposed to the traditional system that simply applies static timeouts to orders, fill rates should increase without a significant increase in market impact.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/08/2131256/nasdaq-receives-sec-approval-for-ai-based-trade-orders?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-09T02:02:00.000Z",
-          "wordCount": 7285,
-          "title": "Nasdaq Receives SEC Approval For AI-Based Trade Orders",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/08/2126230/android-14-still-doesnt-calculate-device-storage-utilization-correctly?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to Android specialist Mishaal Rahman, Android miscalculates the storage space taken up by system components, leading to inflated system storage utilization and potentially misleading users. Chandraveer Mathur writes via Android Police. From the report: We usually rely on Android's storage utilization utility to find apps and files eating up storage space, so we can uninstall or delete them if required. However, Android specialist Mishaal Rahman discovered that Google's calculation of the space consumed by Android system components is flawed. He executed shell commands to create a 3GB file in the /data/media/0 storage directory, which isn't a file path used for Android system files. However, the phone's storage breakdown showed a marked 3GB increase under the System heading, suggesting the OS suddenly became bigger.\n \nThis happens because Android calculates system storage as the space used up by anything other than what's covered by other categories in the storage breakdown, including audios, videos, images, documents, trash, and games. This means the System heading in the break doesn't just include Android system files. Android 14 also uses this dangerously flawed logic for calculating storage usage. Moreover, the Files app by Google also shows similar storage utilization by Android system components, perhaps because it uses the same incredulous attribution logic. By association, all other Android skins use flawed calculation of used storage space, but Samsung reportedly fixed this issue with the One UI 6 update. After running similar ADB commands as in the previous experiment, Rahman could confirm the increased utilization showed up under the Other files heading in the storage breakdown, instead of the System heading.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/08/2126230/android-14-still-doesnt-calculate-device-storage-utilization-correctly?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-09T01:25:00.000Z",
-          "wordCount": 5278,
-          "title": "Android 14 Still Doesn't Calculate Device Storage Utilization Correctly",
-          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/08/2121223/openai-chief-sam-altman-becomes-the-first-to-get-indonesias-golden-visa?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Indonesia has awarded OpenAI Chief Executive Sam Altman its first \"Golden Visa\" -- a week after the program was launched to attract foreign investment to Southeast Asia's largest economy. CNBC reports: \"There are several categories of golden visas apart from those based on investment/capital investment, one of which is the golden visa which is given to figures who have an international reputation and can provide benefits for Indonesia,\" Silmy Karim, Indonesia's director general of immigration, said in a statement. \"With this golden visa, the hope is that Altman can contribute towards the development and use of AI in Indonesia,\" Karim said.\n \nAltman's Golden Visa is for 10 years. As a holder of the visa, the American entrepreneur will get to enjoy priority screening at airports across the country's vast archipelago, along with longer periods of stay, and ease of entry and exit.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/08/2121223/openai-chief-sam-altman-becomes-the-first-to-get-indonesias-golden-visa?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-09T00:45:00.000Z",
-          "wordCount": 3904,
-          "title": "OpenAI Chief Sam Altman Becomes the First To Get Indonesia's 'Golden Visa'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicbeanies.gif"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/08/2116231/apple-fixes-zero-day-bugs-used-to-plant-pegasus-spyware?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TechCrunch: Apple released security updates on Thursday that patch two zero-day exploits -- meaning hacking techniques that were unknown at the time Apple found out about them -- used against a member of a civil society organization in Washington, D.C., according to the researchers who found the vulnerabilities. Citizen Lab, an internet watchdog group that investigates government malware, published a short blog post explaining that last week they found a zero-click vulnerability -- meaning that the hackers' target doesn't have to tap or click anything, such as an attachment -- used to target victims with malware.\n \nThe researchers said the vulnerability was used as part of an exploit chain designed to deliver NSO Group's malware, known as Pegasus. \"The exploit chain was capable of compromising iPhones running the latest version of iOS (16.6) without any interaction from the victim,\" Citizen Lab wrote. Once they found the vulnerability, the researchers reported it to Apple, which released a patch on Thursday, thanking Citizen Lab for reporting them. Based on what Citizen Lab wrote in the blog post, and the fact that Apple also patched another vulnerability and attributed its finding to the company itself, it appears Apple may have found the second vulnerability while investigating the first. Citizen Lab researcher John Scott-Railton says Apple's Lockdown Mode would have blocked the exploits found in this case. Lockdown Mode is an opt-in feature introduced in iOS 16 that gives users the option to temporarily switch off or limit features for security purposes. According to Apple, it \"should be used only if you believe you may be targeted by a highly sophisticated cyberattack, such as by a private company developing state-sponsored mercenary spyware.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/08/2116231/apple-fixes-zero-day-bugs-used-to-plant-pegasus-spyware?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-09T00:02:00.000Z",
-          "wordCount": 4121,
-          "title": "Apple Fixes Zero-Day Bugs Used To Plant Pegasus Spyware",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/08/216251/cerabyte-ceramic-storage-poised-to-usher-in-yottabyte-era?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Cerabyte, a technology startup pioneering ceramic nanolayer-based storage, claims it will usher in the \"Yottabyte Era\" and disrupt the $500 billion storage market in the process. Tom's Hardware reports: More specifically, its roadmaps sketch out CeraMemory cartridges (2025-30) storing between 10 PB and 100 PB, and its CeraTape (2030-35) with up to 1 EB capacity per tape. According to the startup, these new formats are poised to address density, performance, and access paradigms, as well as the cost and sustainability demands of datacenters. Cerabyte, a German storage startup, has published an abstract from its upcoming presentation at the 2023 Storage Developer Conference in Fremont, California (h/t Blocks and Files). Here, for the first time, it will detail how it will introduce CeraMemor…",
-          "link": "https://hardware.slashdot.org/story/23/09/08/216251/cerabyte-ceramic-storage-poised-to-usher-in-yottabyte-era?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T23:20:00.000Z",
-          "wordCount": 4928,
-          "title": "Cerabyte Ceramic Storage Poised To Usher In 'Yottabyte Era'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/storage_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/08/210240/ftc-judge-decides-intuits-free-turbotax-ads-did-mislead-consumers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "The FTC's chief administrative law judge (ALJ) ruled that Intuit, the parent company of TurboTax, \"deceived consumers\" and \"engaged in deceptive advertising\" by advertising its \"Free Edition\" tax filing service as free when users ultimately had to pay. The Verge reports: The ruling (PDF) includes several pages of commercials and online ads where Intuit advertised its \"Free Edition\" software. While the name implies that the service is, well, free, people wound up having to pay to use it -- sparking a lawsuit from the FTC and a $141 million payout to affected users. Meanwhile, Intuit's actually no-cost Free File version, which it launched in partnership with the IRS, remained exceedingly difficult to find. In 2021, Intuit exited the program after the IRS stopped letting companies hide their free filing services from search engines.\n \nThe FTC's ALJ determined that there is a \"cognizant danger of a recurring violation\" by Intuit and issued a cease-and-desist order that prohibits the company from \"engaging in deceptive practices in the future.\" The ruling prevents Intuit from representing a product as free unless it actually is free for everyone to use and \"clearly and conspicuously discloses any terms that would limit the offer.\" In a statement, Intuit called the FTC's investigation process \"flawed and highly questionable,\" noting \"Intuit already adheres to most of the advertising practices in the FTC's erroneous decision.\" The company adds that it has \"been clear, fair, and transparent\" with customers and remains \"committed to free tax preparation.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/08/210240/ftc-judge-decides-intuits-free-turbotax-ads-did-mislead-consumers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T22:40:00.000Z",
-          "wordCount": 4991,
-          "title": "FTC Judge Decides Intuit's 'Free' TurboTax Ads Did Mislead Consumers",
-          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/08/2054212/anthropic-launches-claude-pro-a-subscription-ai-that-may-rival-chatgpt-plus?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: On Thursday, AI-maker and OpenAI competitor Anthropic launched Claude Pro, a subscription-based version of its Claude.ai web-based AI assistant, which functions similarly to ChatGPT. It's available for $20/month in the US or 18 pounds/month in the UK, and it promises five-times-higher usage limits, priority access to Claude during high-traffic periods, and early access to new features as they emerge. Like ChatGPT, Claude Pro can compose text, summarize, do analysis, solve logic puzzles, and more.\n \nClaude.ai is what Anthropic offers as its conversational interface for its Claude 2 AI language model, similar to how ChatGPT provides an application wrapper for the underlying models GPT-3.5 and GPT-4. In February, OpenAI chose a subscripti…",
-          "link": "https://slashdot.org/story/23/09/08/2054212/anthropic-launches-claude-pro-a-subscription-ai-that-may-rival-chatgpt-plus?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T22:00:00.000Z",
-          "wordCount": 4440,
-          "title": "Anthropic Launches Claude Pro, a Subscription AI That May Rival ChatGPT Plus",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/08/1943219/microsoft-and-paige-are-building-the-worlds-largest-ai-model-for-detecting-cancer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft is teaming up with digital pathology provider Paige to build the world's largest image-based artificial intelligence model for identifying cancer. From a report: The AI model is training on an unprecedented amount of data that includes billions of images, according to a release. It can identify both common cancers and rare cancers that are notoriously difficult to diagnose, and researchers hope it will eventually help doctors who are struggling to contend with staffing shortages and growing caseloads. Paige develops digital and AI-powered solutions for pathologists, which are doctors who carry out lab tests on bodily fluids and tissues to make a diagnosis. It's a specialty that often operates behind the scenes, and it's crucial for determining a patient's path forward. \n\n\"You don't have cancer until the pathologist says so. That's the critical step in the whole medical edifice,\" Thomas Fuchs, co-founder and chief scientist at Paige, told CNBC in an interview. But despite pathologists' essential role in medicine, Fuchs said their workflow has not changed much in the last 150 years. To diagnose cancer, for instance, pathologists usually examine a piece of tissue on a glass slide under a microscope. The method is tried and true, but if pathologists miss something, it can have dire consequences for patients.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/08/1943219/microsoft-and-paige-are-building-the-worlds-largest-ai-model-for-detecting-cancer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T21:21:00.000Z",
-          "wordCount": 4017,
-          "title": "Microsoft and Paige Are Building the World's Largest AI Model for Detecting Cancer",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/08/1949256/australia-moves-towards-digital-statutory-declarations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The days of signing on the dotted line may be numbered -- at least in Australia. From a report: The federal government has announced it is taking statutory declarations into the digital age, saying it will accept electronic signatures and video link witnessing from next year. It makes permanent a change introduced during the pandemic, when attending a justice of the peace (JP) for a statutory declaration -- a practice that goes back to the 19th century -- was forbidden under lockdown restrictions. \n\nLegislation introduced this week by the federal attorney general, Mark Dreyfus, will also allow people to digitally execute a statutory declaration using the online platform myGov and the myGovID Digital ID. Dreyfus says the bill is intended to keep with the changing ways of Australians. \"This bill will respond to how Australians want and expect to engage and communicate digitally with government by providing options to make commonwealth statutory declarations facilitated by technology,\" he says. \"This bill is an important milestone in driving the digitisation of government services.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/09/08/1949256/australia-moves-towards-digital-statutory-declarations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T20:41:00.000Z",
-          "wordCount": 4613,
-          "title": "Australia Moves Towards Digital Statutory Declarations",
-          "imageUrl": "https://a.fsdn.com/sd/topics/australia_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/09/08/1916226/apple-becomes-the-biggest-us-china-pawn-yet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple might be the king of tech. But in the growing cold economic war between the world's two biggest economies, it is becoming just another game piece -- albeit a big one. WSJ: Still the world's largest public company by market value, Apple has seen that value take a notable hit this week on increasing signs that its business in China might be coming under threat. The Wall Street Journal reported on Wednesday that the Chinese government is banning the iPhone and other foreign-branded devices from use by workers at central government agencies. Bloomberg reported Thursday that such a ban might also be extended to state-owned enterprises and other government-backed entities. That could amount to a significant swath of people in a state-led economy with a population totaling more than 1.4 billion. \n\nAccording to China's National Bureau of Statistics, about 56.3 million urban workers were employed by \"state-owned units\" in 2021. Those jobs commanded an average wage about 8% above the national urban average -- an attractive segment for a company specializing in premium devices. And because Apple now ships roughly 230 million iPhones globally every year, 56 million would be a notable chunk to take out of the pool of potential buyers -- especially in a mature global smartphone market with low growth prospects. [...] Apple's stock price has thus slumped nearly 7% over the past two days, costing the company about $194 billion in market value. That might seem excessive considering the many unknowns about the reported iPhone bans and how they could ultimately play out. Also, China has at least some interest in not overly harming a major local employer during a time of growing unemployment. One Chinese city alone reportedly has more than one million workers building Apple products or employed in related jobs.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/09/08/1916226/apple-becomes-the-biggest-us-china-pawn-yet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T20:02:00.000Z",
-          "wordCount": 5681,
-          "title": "'Apple Becomes the Biggest US-China Pawn Yet'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/08/1853213/un-warns-world-will-miss-climate-targets-unless-fossil-fuels-phased-out?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Governments are failing to cut greenhouse gas emissions fast enough to meet the goals of the Paris agreement and to stave off climate disaster, a major report by the UN has found. From a report: Meeting the goals will require \"phasing out all unabated fossil fuels,\" the report says, in an acknowledgment that some oil-producing countries may find hard to take. The need to phase out fossil fuels has not been explicitly adopted by the UN before, under successive rounds of climate talks, and language over \"phasing out\" or \"phasing down\" fossil fuels has caused controversy at the annual UN climate talks. \n\nThere is a \"rapidly narrowing window\" for governments to move faster, according to the report, as global greenhouse gas emissions must peak by 2025 at the latest, and be rapidly reduced from there, to limit temperature rises to 1.5C above pre-industrial levels. Emissions are still rising, however, and there is a gap of 20 to 23 gigatonnes of CO2 between the cuts needed by 2030 to limit global temperatures to 1.5C and the world's current emissions trajectory. The report, which was expected next week but was published hurriedly in draft by the UN on Friday, will form the basis of the first \"global stocktake\" under the 2015 Paris agreement. That process is meant to track countries' efforts to meet the goals of the treaty.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/08/1853213/un-warns-world-will-miss-climate-targets-unless-fossil-fuels-phased-out?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T19:22:00.000Z",
-          "wordCount": 9397,
-          "title": "UN Warns World Will Miss Climate Targets Unless Fossil Fuels Phased Out",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/08/1844221/nypd-spent-millions-to-contract-with-firm-banned-by-meta-for-fake-profiles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "New York law enforcement agencies have spent millions of dollars to expand their capabilities to track and analyze social media posts, new documents show, including by contracting with a surveillance firm accused of improperly scraping social media platforms for data. From a report: Documents obtained by the Surveillance Technology Oversight Project (Stop), a privacy advocacy non-profit and shared with the Guardian, reveal the New York police department in 2018 entered a nearly $9m contract with Voyager Labs, a surveillance company that has been sued by Meta for allegedly using nearly 40,000 fake Facebook accounts to collect data on an estimated 600,000 users. NYPD purchased Voyager Labs products that the company claims can use artificial intelligence to analyze online human behavior and detect and predict fraud and crimes, the documents show. \n\nA separate document reveals a contract between the Queens district attorney and Israeli firm Cobwebs Technologies, which also offers social network mapping products, as well as tools to track location information through phones. It's unclear how much that contract is worth. Law enforcement across the United States have worked with social media analytics companies for years, hoping to more effectively and efficiently collect and make sense of the hordes of personal information available on the internet. But experts have argued the practice can cross ethical and legal lines, particularly when used to access private information, make inferences or predict future criminality based on the content posted on social media, or otherwise help law enforcement skip obtaining subpoenas and warrants before gathering information on someone.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/08/1844221/nypd-spent-millions-to-contract-with-firm-banned-by-meta-for-fake-profiles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T18:44:00.000Z",
-          "wordCount": 5913,
-          "title": "NYPD Spent Millions To Contract With Firm Banned by Meta for Fake Profiles",
-          "imageUrl": "https://a.fsdn.com/sd/topics/yro_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/09/08/1712203/new-flaw-in-apple-devices-led-to-spyware-infection-researchers-say?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Researchers at digital watchdog group Citizen Lab say they found spyware they linked to Israeli firm NSO that exploited a newly discovered flaw in Apple devices. From a report: While inspecting the Apple device of an employee of a Washington-based civil society group last week, Citizen Lab said it found the flaw had been used to infect the device with NSO's Pegasus spyware, it said in a statement. \n\nBill Marczak, senior researcher at Citizen Lab, said the attacker likely made a mistake during the installation which is how Citizen Lab found the spyware. Citizen Lab said Apple confirmed to them that using the high security feature \"Lockdown Mode\" available on Apple devices blocks this particular attack. The flaw allowed compromise of iPhones running the latest version of iOS (16.6) without any interaction from the victim, the digital watchdog said. The new update fixes this vulnerability.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/09/08/1712203/new-flaw-in-apple-devices-led-to-spyware-infection-researchers-say?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T18:00:00.000Z",
-          "wordCount": 5480,
-          "title": "New Flaw in Apple Devices Led To Spyware Infection, Researchers Say",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/08/1635215/openai-admits-that-ai-writing-detectors-dont-work?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "OpenAI recently shared guidelines for educators on using ChatGPT as an educational tool in a blog post, also noting in a related FAQ the ineffectiveness of AI writing detectors often resulting in false positives against students. ArsTechnica: In a section of the FAQ titled \"Do AI detectors work?\", OpenAI writes, \"In short, no. While some (including OpenAI) have released tools that purport to detect AI-generated content, none of these have proven to reliably distinguish between AI-generated and human-generated content.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/08/1635215/openai-admits-that-ai-writing-detectors-dont-work?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T17:20:00.000Z",
-          "wordCount": 8259,
-          "title": "OpenAI Admits that AI Writing Detectors Don't Work",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/08/157247/irs-deploys-ai-to-target-rich-partnerships?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Internal Revenue Service has started using artificial intelligence to investigate tax evasion at multibillion-dollar partnerships as it looks for ways to better police hedge funds, private equity groups, real estate investors and large law firms. From a report: The announcement on Friday demonstrated how a more muscular I.R.S. is using some of the $80 billion allocated through last year's Inflation Reduction Act to target the wealthiest Americans and tackle the kinds of cases that had become too complex and cumbersome for the beleaguered agency to handle. The agency's new funding is intended to help the I.R.S. raise more federal revenue by cracking down on tax cheats and others who use sophisticated accounting maneuvers to avoid paying what they owe. But the allocation has been politically contentious, with Republicans claiming that the I.R.S. will use the funding to harass small businesses and middle-class taxpayers. \n\nEarlier this year, Republicans succeeded in clawing back $20 billion as part of an agreement to raise the nation's borrowing cap. That political fight has put the onus on Democrats and the Biden administration to show that the funding is primarily enabling the I.R.S. to target the rich. \"These are complex cases for I.R.S. teams to unpack,\" Daniel Werfel, the I.R.S. commissioner, said in a briefing with reporters. \"The I.R.S. has simply not had enough resources or staffing to address partnerships; in a real sense, we've been overwhelmed in this area for years.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/08/157247/irs-deploys-ai-to-target-rich-partnerships?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T16:40:00.000Z",
-          "wordCount": 9552,
-          "title": "IRS Deploys AI To Target Rich Partnerships",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/08/1419200/polish-senate-says-use-of-government-spyware-is-illegal-in-the-country?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A special commission within Poland's Senate concluded that the government's use of spyware, like the one made by NSO Group, is illegal. From a report: The commission announced on Thursday the conclusion of its 18-month-long investigation into allegations that the Polish government used NSO's spyware, known as Pegasus, to spy on an opposition politician and other politicians around the time of the country's 2019 elections. \"Pegasus cannot be used under Polish law,\" the report read, according to a machine translation. \"This is because the Polish legal system does not allow the use of programs in which acquired operational data is transferred through transmission channels uncontrolled by the relevant services, as this creates the risk of violating its integrity and does not ensure its confidentiality, as required by law.\" \n\nIn other words, NSO's spyware is not designed in a way that respects Polish law, collects too much information, and cannot guarantee that that information is secured properly, according to the report. The commission also concluded that the Polish government used Pegasus to retaliate against opposition figures, and that these surveillance operations negatively influenced the 2019 elections in the country. The commission compared these abuses with Russian government hackers activities in the 2016 elections in the United States.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/08/1419200/polish-senate-says-use-of-government-spyware-is-illegal-in-the-country?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T16:00:00.000Z",
-          "wordCount": 4166,
-          "title": "Polish Senate Says Use of Government Spyware is Illegal in the Country",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/08/151246/bogus-supplier-of-jet-engine-parts-may-have-faked-employees-too?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Siddharth Vikram Philip, Sabah Meddings, and Supriya Singh, reporting for Bloomberg News: As chief commercial officer of aircraft-parts supplier AOG Technics, Ray Kwong can look back on a well-rounded career at A-list companies including All Nippon Airways, Mitsubishi Heavy Industries and Nissan Motor. That, at least, is Kwong's two-decade corporate journey on what appears to be his LinkedIn profile, from which the self-proclaimed executive beams with a broad smile and striped tie in blue hues. Trouble is that -- much like the company for which Kwong now claims to work -- not all is as it seems. Kwong, if he even exists, was never employed at Nissan, or at ANA for that matter. Neither company has records of him as a former worker, they said in response to queries by Bloomberg News. His employment history could also not be verified at Mitsubishi. What is used as his profile picture turns out to be a stock photo that's also washed up elsewhere on the Internet, from promotional material for a German textile startup to a clinic in Northbrook, Illinois. \n\nAfter Bloomberg reported on the case of bogus jet-engine repair parts being investigated by regulators, a deeper dive into AOG revealed that the fabrication not only concerned components, but extended to major aspects of the company behind the scandal. The proliferation of undocumented parts has sent shock waves through an industry where every component requires verification to ensure aircraft safety, leaving manufacturers, operators and authorities scrambling to determine the fallout. The parts supplied by AOG went into engines that power many older-generation Airbus SE A320 and Boeing 737 planes, by far the most widely flown category of commercial aircraft. These single-aisle jets are used by millions of passengers each day and by most airlines, mainly on short-haul flights. Airbus said it's aware of media reports surrounding AOG, while Boeing said it will defer to regulators on the topic.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/08/151246/bogus-supplier-of-jet-engine-parts-may-have-faked-employees-too?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-08T15:20:00.000Z",
-          "wordCount": 6024,
-          "title": "Bogus Supplier of Jet-Engine Parts May Have Faked Employees Too",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
         }
       ]
     }
