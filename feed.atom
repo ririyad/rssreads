@@ -2,10 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-09T01:00:42.380Z</updated>
+    <updated>2023-10-10T01:00:10.506Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Mastodon Actually Has 407K+ More Monthly Users Than It Thought]]></title>
+        <id>https://tech.slashdot.org/story/23/10/09/2135224/mastodon-actually-has-407k-more-monthly-users-than-it-thought?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/09/2135224/mastodon-actually-has-407k-more-monthly-users-than-it-thought?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[A network connectivity error caused Mastodon to severely undercount its users. According to founder and CEO Eugen Rochko, the decentralized social network actually has 407,814 more monthly active users than it had been reporting previously. "The adjustment also included a gain of 2.34 million registered users across an additional 727 servers that had not been counted due to the error," reports TechCrunch. From the report: The issue was impacting the metrics reported on Mastodon's statistics aggregator on its joinmastodon.org/servers page, which had been undercounting users between October 2 and October 8. This issue has now been resolved, Rochko said. That leaves Mastodon with a total of 1.8 million monthly active users at present, an increase of 5% month-over-month and 10,000 servers, up 12% -- a testament to Mastodon's current upward swing at a time when the nature of X continues to remain in flux.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chinese Programmer Ordered To Pay 1 Million Yuan For Using VPN]]></title>
+        <id>https://tech.slashdot.org/story/23/10/09/2056239/chinese-programmer-ordered-to-pay-1-million-yuan-for-using-vpn?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/09/2056239/chinese-programmer-ordered-to-pay-1-million-yuan-for-using-vpn?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T00:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Amy Hawkins reports via The Guardian: A programmer in northern China has been ordered to pay more than 1 million yuan to the authorities for using a virtual private network (VPN), in what is thought to be the most severe individual financial penalty ever issued for circumventing China's "great firewall." The programmer, surnamed Ma, was issued with a penalty notice by the public security bureau of Chengde, a city in Hebei province, on August 18. The notice said Ma had used "unauthorised channels" to connect to international networks to work for a Turkish company. The police confiscated the 1.058m yuan ($145,092) Ma had earned as a software developer between September 2019 and November 2022, describing it as "illegal income," as well as fining him 200 yuan ($27). Charlie Smith (a pseudonym), the co-founder of GreatFire.org, a website that tracks internet censorship in China, said: "Even if this decision is overturned in court, a message has been sent and damage has been done. Is doing business outside of China now subject to penalties?"
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Profitable Parenting]]></title>
+        <id>https://taylor.town/profitable-parenting</id>
+        <link href="https://taylor.town/profitable-parenting"/>
+        <updated>2023-10-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This guide will teach you how to transform your children from liabilities into assets.]]></summary>
+        <author>
+            <name>taylor.town</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Europe's First Exascale Supercomputer Will Run On ARM Instead of X86]]></title>
+        <id>https://tech.slashdot.org/story/23/10/09/217214/europes-first-exascale-supercomputer-will-run-on-arm-instead-of-x86?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/09/217214/europes-first-exascale-supercomputer-will-run-on-arm-instead-of-x86?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T23:20:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from ExtremeTech: One of the world's most powerful supercomputers will soon be online in Europe, but it's not just the raw speed that will make the Jupiter supercomputer special. Unlike most of the Top 500 list, the exascale Jupiter system will rely on ARM cores instead of x86 parts. Intel and AMD might be disappointed, but Nvidia will get a piece of the Jupiter action. [...] Jupiter is a project of the European High-Performance Computing Joint Undertaking (EuroHPC JU), which is working with computing firms Eviden and ParTec to assemble the machine. Europe's first exascale computer will be installed at the Julich Supercomputing Centre in Munich, and assembly could start as soon as early 2024.
+ 
+EuroHPC has opted to go with SiPearl's Rhea processor, which is based on ARM architecture. Most of the top 10 supercomputers in the world are running x86 chips, and only one is running on ARM. While ARM designs were initially popular in mobile devices, the compact, efficient cores have found use in more powerful systems. Apple has recently finished moving all its desktop and laptop computers to the ARM platform, and Qualcomm has new desktop-class chips on its roadmap. Rhea is based on ARM's Neoverse V1 CPU design, which was developed specifically for high-performance computing (HPC) applications with 72 cores. It supports HBM2e high-bandwidth memory, as well as DDR5, and the cache tops out at an impressive 160MB. The report says the Jupiter system "will have Nvidia's Booster Module, which includes GPUs and Mellanox ultra-high bandwidth interconnects," and will likely include the current-gen H100 chips. "When complete, Jupiter will be near the very top of the supercomputer list."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[John Riccitiello Steps Down As CEO of Unity After Pricing Battle]]></title>
+        <id>https://developers.slashdot.org/story/23/10/09/2129255/john-riccitiello-steps-down-as-ceo-of-unity-after-pricing-battle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/23/10/09/2129255/john-riccitiello-steps-down-as-ceo-of-unity-after-pricing-battle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Dean Takahashi reports via VentureBeat: John Riccitiello, CEO of Unity, has resigned from the company in the wake of a pricing controversy that left developers in open revolt. Unity said in a press release that James M. Whitehurst has been appointed interim CEO and president of the company. Meanwhile, hoping to avoid a stock panic, Unity said that it is reaffirming its previous guidance for its fiscal third quarter financial results, which will be reported on November 9.
+ 
+Roelof Botha, lead independent director of the Unity board, has been appointed chairman. Riccitiello will continue to advise Unity to ensure a smooth transition, the company said. The news isn't a surprise as Unity angered a lot of its loyal game developers a few weeks ago after pushing through a price increase based on numbers of downloads -- and then retracted it after an uproar. Unity said the board will initiate a comprehensive search process, with the assistance of a leading executive search firm, to identify a permanent CEO. "It's been a privilege to lead Unity for nearly a decade and serve our employees, customers, developers and partners, all of whom have been instrumental to the company's growth," Riccitiello said in a statement. "I look forward to supporting Unity through this transition and following the company's future success."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[California Governor Signs Ban On Social Media 'Aiding or Abetting' Child Abuse]]></title>
+        <id>https://yro.slashdot.org/story/23/10/09/2049228/california-governor-signs-ban-on-social-media-aiding-or-abetting-child-abuse?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/09/2049228/california-governor-signs-ban-on-social-media-aiding-or-abetting-child-abuse?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T22:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Adi Robertson reports via The Verge: California Governor Gavin Newsom has signed AB 1394, a law that would punish web services for "knowingly facilitating, aiding, or abetting commercial sexual exploitation" of children. It's one of several online regulations that California has passed in recent years, some of which have been challenged as unconstitutional. Newsom's office indicated in a press release yesterday that he had signed AB 1394, which passed California's legislature in late September.
+ 
+The law is set to take effect on January 1, 2025. It adds new rules and liabilities aimed at making social media services crack down on child sexual abuse material, adding punishments for sites that "knowingly" leave reported material online. More broadly, it defines "aiding or abetting" to include "deploy[ing] a system, design, feature, or affordance that is a substantial factor in causing minor users to be victims of commercial sexual exploitation." Services can limit their risks by conducting regular audits of their systems. As motivation, the bill text cites whistleblower complaints that Facebook responded inadequately to child abuse on the platform and a 2022 Forbes article alleging that TikTok Live had become a haven for adults to prey on teenage users.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hacktivism Erupts In Response To Hamas-Israel War]]></title>
+        <id>https://it.slashdot.org/story/23/10/09/2044230/hacktivism-erupts-in-response-to-hamas-israel-war?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/10/09/2044230/hacktivism-erupts-in-response-to-hamas-israel-war?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from TechCrunch: Several groups of hacktivists have targeted Israeli websites with floods of malicious traffic following a surprise land, sea and air attack launched against Israel by militant group Hamas on Saturday, which prompted Israel to declare war and retaliate. Israeli newspaper The Jerusalem Post reported Monday that since Saturday morning its website was down "due to a series of cyberattacks initiated against us." At the time of writing, the paper's website still appeared down.
+ 
+Rob Joyce, director of cybersecurity at the National Security Agency, reportedly said at a conference on Monday that there have been denial of service (DDoS) attacks and defacements of websites, without attributing the cyberattacks to particular groups. "But we're not …]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Drops Official Support for Python 3.7 in Visual Studio Code]]></title>
+        <id>https://developers.slashdot.org/story/23/10/09/1926220/microsoft-drops-official-support-for-python-37-in-visual-studio-code?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/23/10/09/1926220/microsoft-drops-official-support-for-python-37-in-visual-studio-code?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T20:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Still using Python 3.7? Even Microsoft thinks it is time to move on after the Windows behemoth finally deprecated support for the language in the October 2023 release of its extension for Visual Studio Code. From a report: Python 3.7 reached its end of life in June but remains popular. According to some statistics, many sites use version 3.7 -- 17.2 percent of those using Python 3.x by some estimates. Python 3.6, which reached the end of life in 2021, accounts for 28.9 percent and is still the most popular. Python 3.8 sits between the two, accounting for 23.3 percent. 
+
+Doubtless mindful of its popularity, Microsoft confirmed there were no plans to strip the code from the Visual Studio Code extension deliberately, saying: "We expect the extension will continue to work unofficially with Python 3.7 for the foreseeable future." However, there are no guarantees that something won't go wrong without official support. Python has moved to an annual cadence for end of life. Python 3.8 is due to reach end of life in October 2024, meaning that official support in Microsoft's Visual Studio Code extension will end with the first release of 2025, and so on. According to Microsoft, the Python extension for Visual Studio works with all actively supported versions of Python. 3.12 is the latest version and, unsurprisingly, has yet to influence the statistics too much. 3.13 is penciled in for release next year.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Postdoc Career Optimism On the Rise]]></title>
+        <id>https://science.slashdot.org/story/23/10/09/1852239/postdoc-career-optimism-on-the-rise?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/10/09/1852239/postdoc-career-optimism-on-the-rise?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nature's global survey finds that postdoctoral researchers still feel as though they are academia's drudge labourers, but have more confidence about job prospects in a post-pandemic world. Nature: In 2020, respondents to Nature's first global survey of postdoctoral researchers feared that COVID-19 would jeopardize their work. Eighty per cent said the pandemic had hindered their ability to carry out experiments or collect data, more than half (59%) found it harder to discuss their research with colleagues than before the crisis, and nearly two-thirds (61%) thought that the pandemic was hampering their career prospects. 
+
+That outlook has changed, according to Nature's second global postdoc survey, carried out in June and July this year. Now only 8% of the respondents say the economic impacts of COVID-19 are their biggest concern (down from 40% in 2020). Instead, they are back to worrying about the usual things: competition for funding, not finding jobs in their fields of interest or feeling pressure to sacrifice personal time for work. Overall, 55% say they are satisfied in their current postdoc, a slide from 60% in 2020. This varies by geography, age and subject area. Postdocs aged 30 and younger are more likely to be satisfied (64%) than are those aged 31-40 (53%). Biomedical postdocs -- who make up slightly more than half of the respondents -- pull the average down, because only 51% say they are satisfied with their jobs.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Decomposing Language Models Into Understandable Components]]></title>
+        <id>https://science.slashdot.org/story/23/10/09/1914250/decomposing-language-models-into-understandable-components?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/10/09/1914250/decomposing-language-models-into-understandable-components?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[AI startup Anthropic, writing in a blog post: Neural networks are trained on data, not programmed to follow rules. With each step of training, millions or billions of parameters are updated to make the model better at tasks, and by the end, the model is capable of a dizzying array of behaviors. We understand the math of the trained network exactly -- each neuron in a neural network performs simple arithmetic -- but we don't understand why those mathematical operations result in the behaviors we see. This makes it hard to diagnose failure modes, hard to know how to fix them, and hard to certify that a model is truly safe. Neuroscientists face a similar problem with understanding the biological basis for human behavior. The neurons firing in a person's brain must somehow implement their thou…]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microplastics Detected in Clouds Hanging Atop Two Japanese Mountains]]></title>
+        <id>https://news.slashdot.org/story/23/10/09/1840215/microplastics-detected-in-clouds-hanging-atop-two-japanese-mountains?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/10/09/1840215/microplastics-detected-in-clouds-hanging-atop-two-japanese-mountains?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Microplastics have been found everywhere from the oceans' depths to the Antarctic ice, and now new research has detected it in an alarming new location -- clouds hanging atop two Japanese mountains. From a report: The clouds around Japan's Mount Fuji and Mount Oyama contain concerning levels of the tiny plastic bits, and highlight how the pollution can be spread long distances, contaminating the planet's crops and water via "plastic rainfall." The plastic was so concentrated in the samples researchers collected that it is thought to be causing clouds to form while giving off greenhouse gasses. 
+
+"If the issue of 'plastic air pollution' is not addressed proactively, climate change and ecological risks may become a reality, causing irreversible and serious environmental damage in the future," the study's lead author, Hiroshi Okochi, a professor at Waseda University, said in a statement. The peer-reviewed paper was published in Environmental Chemistry Letters, and the authors believe it is the first to check clouds for microplastics. The pollution is made up of plastic particles smaller than five millimeters that are released from larger pieces of plastic during degradation. They are also intentionally added to some products, or discharged in industrial effluent. Tires are thought to be among the main sources, as are plastic beads used in personal care products. Recent research has found them to be widely accumulating across the globe -- as much as 10m tons are estimated to end up in the oceans annually.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crypto Venture Funding Drops 63%]]></title>
+        <id>https://slashdot.org/story/23/10/09/1711202/crypto-venture-funding-drops-63?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/09/1711202/crypto-venture-funding-drops-63?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Venture capitalists have been under fresh scrutiny for their role hyping up the crypto industry during the criminal trial of FTX co-founder Sam Bankman-Fried, but new data shows that those investors have pulled back sharply from the industry they once helped build and promote. From a report: Global venture funding for crypto startups plunged to its lowest level since 2020 during the third quarter, tumbling 63% from the same period last year, according to data from research firm PitchBook. VCs invested just $2 billion in crypto worldwide during the quarter, a fraction of the funds they invested during happier times in the crypto world. "We aren't seeing the big deals anymore," PitchBook analyst Robert Le said. "That's one of the drivers of the decline -- deals are smaller." 
+
+Mega fundraises during the crypto bull market once benefited companies like exchange FTX, nonfungible token marketplace OpenSea and NFT creator Yuga Labs. Now, the VC pullback could force difficult choices for companies already cutting costs and enacting layoffs. "If they're not able to raise a round, even a down round, they're either going to go out of business or get acquired at a valuation that's much, much lower," Le said. While crypto deals might still be happening for early-stage companies, Le said, many late-stage tech investors have exited the space completely.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Not Even the Ghost of Obsolescence Can Coerce Users Onto Windows 11]]></title>
+        <id>https://tech.slashdot.org/story/23/10/09/177254/not-even-the-ghost-of-obsolescence-can-coerce-users-onto-windows-11?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/09/177254/not-even-the-ghost-of-obsolescence-can-coerce-users-onto-windows-11?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T17:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Windows 10 may be just shy of two years away from the ax, but its successor, Windows 11, appears to be as unpopular as ever. From a report: The end of Windows 10 support is getting closer. Unless the company blinks, October 14, 2025, will be the end of the line for the Home and Pro editions of the operating system, yet users seem reluctant to move on to Windows 11. There was a marked reluctance by users to move from Windows 7, back in the day, but some of the reasons for hesitancy this time are different. The move to Windows 10 usually required the purchase of new hardware. It tended to be unavoidable -- 7 could run on far lower-spec devices than later versions. The move from Windows 10 to Windows 11 will also require new hardware, but for different reasons. 
+
+Infamously, Microsoft axed support for a raft of hardware with Windows 11, including older Intel CPUs, on security grounds. The result was that hardware that will run Windows 10 perfectly well will not accept the new operating system. And this is not due to performance problems (who remembers trying to run Vista on XP hardware?) but rather because of Microsoft's edict. The result? A collective shrug from PC users. Windows 10 does the job. Why upgrade? The figures speak for themselves. Windows 10 dominates the desktop. According to Statcounter, the worldwide Windows version desktop market share puts Windows 10 at 71.64 percent, with Windows 11 trailing at 23.61 percent.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Should New Tech Rules Apply To Microsoft's Bing, Apple's iMessage, EU Asks]]></title>
+        <id>https://tech.slashdot.org/story/23/10/09/167243/should-new-tech-rules-apply-to-microsofts-bing-apples-imessage-eu-asks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/09/167243/should-new-tech-rules-apply-to-microsofts-bing-apples-imessage-eu-asks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T16:42:00.000Z</updated>
+        <summary type="html"><![CDATA[EU antitrust regulators are asking Microsoft's users and rivals whether Bing should comply with new tough tech rules and also whether that should be the case for Apple's iMessage, Reuters reported Monday, citing people familiar with the matter. From the report: The European Commission in September opened investigations to assess whether Microsoft's Bing, Edge and Microsoft Advertising as well as Apple's iMessage should be subject to the Digital Markets Act (DMA). The probes came after the companies contested the EU competition regulator labelling these services as core platform services under the DMA. 
+
+The DMA requires Microsoft, Apple, Alphabet's Google, Amazon, Meta Platforms and ByteDance to allow for third-party apps or app stores on their platforms and to make it easier for users to switch from default apps to rivals, among other obligations. The Commission sent out questionnaires earlier this month, asking rivals and users to rate the importance of Microsoft's three services and Apple's iMessage versus competing services.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI's Costly Buildup Could Make Early Products a Hard Sell]]></title>
+        <id>https://slashdot.org/story/23/10/09/162259/ais-costly-buildup-could-make-early-products-a-hard-sell?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/09/162259/ais-costly-buildup-could-make-early-products-a-hard-sell?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T16:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft, Google and others experiment with how to produce, market and charge for new tools. From a report: Microsoft has lost money on one of its first generative AI products, said a person with knowledge of the figures. It and Google are now launching AI-backed upgrades to their software with higher price tags. Zoom has tried to mitigate costs by sometimes using a simpler AI it developed in-house. Adobe and others are putting caps on monthly usage and charging based on consumption. "A lot of the customers I've talked to are unhappy about the cost that they are seeing for running some of these models," said Adam Selipsky, the chief executive of Amazon.com's cloud division, Amazon Web Services, speaking of the industry broadly. It will take time for companies and consumers to understand h…]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IBM CEO in Damage Control Mode After AI Job Loss Comments]]></title>
+        <id>https://slashdot.org/story/23/10/09/1529208/ibm-ceo-in-damage-control-mode-after-ai-job-loss-comments?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/09/1529208/ibm-ceo-in-damage-control-mode-after-ai-job-loss-comments?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-09T15:28:00.000Z</updated>
+        <summary type="html"><![CDATA[IBM CEO Arvind Krishna appears to be in a state of damage control following recent controversial comments on AI-related job losses. From a report: Speaking at an event in the US this week, Krishna said IBM has no intention of laying off tech staff, such as developers or programmers, and instead plans to ramp up hiring for roles in these areas. "I don't intend to get rid of a single one," he said. "I'll get more." Krishna added that the company aims to increase the number of software engineering and sales staff over the next four years to accommodate for its heightened focus on generative AI. Instead, the hammer will fall largely on staff working in back-office operations, aligning closely with what we've heard previously from the exec. 
+
+Earlier this year, IBM announced plans to cut nearly 8,000 staff working in positions spanning human resources in a bid to automate roles. The move means that anywhere up to 7,800 jobs at the tech giant's HR division could be cut, equivalent to around 30% of the overall workforce in the unit. IBM also said at the time that it would halt hiring for roles in the division on account of positions being automated. 
+
+Krishna has been among the most outspoken big tech executives on the topic of AI job losses in recent months. While industry figureheads have repeatedly shirked the topic, Krishna, to his credit, has been candid on the subject. In an interview with CNBC in August, Krishna suggested "we should all feel better" about the influx of generative AI tools, much to the ire of critics worried about its impact on the labor market. Krishna also told the broadcaster that organizations can deliver marked improvements to productivity through generative AI, but that will come at the expense of human roles.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Why Is California's Population Falling?  Housing Costs]]></title>
         <id>https://news.slashdot.org/story/23/10/08/2322243/why-is-californias-population-falling-housing-costs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8203,290 +8483,6 @@ In a statement NASA applauded the performance of the MIT-created experiment. "Wh
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Small Protest Against Cruise Robotaxis Cites Concerns for Safety - and Displaced Workers]]></title>
-        <id>https://tech.slashdot.org/story/23/09/10/1027222/small-protest-against-cruise-robotaxis-cites-concerns-for-safety---and-displaced-workers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/10/1027222/small-protest-against-cruise-robotaxis-cites-concerns-for-safety---and-displaced-workers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T10:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Last Monday the U.S. celebrated Labor Day, the federal holiday honoring America's labor movement and the contributions of U.S. workers. On that day a small protest was held outside Cruise's headquarters in San Francisco — featuring taxi drivers and mass transit workers. 
-
-CBS News spoke to Edward Escobar, a Bay Area Uber driver and director of the Alliance for Independent Workers. They report that Escobar orchestrated the protest "to convey their concerns about the potential impact of robotaxis on their jobs.
-
-"There isn't any dialogue happening. It's pretty much one-sided. It's being dictated by the tech titans, Waymo, which is Google, and General Motors, which is Cruise," Escobar said. "And they're pretty much dictating the terms, and the California Public Utilities Commission is allowin…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Startup Building Zinc-Based Alternatives to Lithium Batteries Granted $400M Loan from the US]]></title>
-        <id>https://hardware.slashdot.org/story/23/09/10/0311259/startup-building-zinc-based-alternatives-to-lithium-batteries-granted-400m-loan-from-the-us?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/23/09/10/0311259/startup-building-zinc-based-alternatives-to-lithium-batteries-granted-400m-loan-from-the-us?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T07:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Popular Science reports that America's Department of Energy "is providing a nearly $400 million loan to a startup aimed at scaling the manufacturing and deployment of a zinc-based alternative to rechargeable lithium batteries." 
-
- If realized, Eos Energy's utility- and industrial-scale zinc-bromine battery energy storage system could provide cheaper, vastly more sustainable options for the country's burgeoning renewable power infrastructure... Unlike lithium-ion and lithium iron phosphate batteries, alternatives such as the Eos Z3 design rely on zinc-based cathodes alongside a water-based electrolyte, notes MIT Technology Review. This important distinction both increases their stability, as well as makes it incredibly difficult for them to support combustion. Zinc-bromine batteries meanwhi…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[It's the 50th Anniversary of 'Star Trek: the Animated Series']]></title>
-        <id>https://entertainment.slashdot.org/story/23/09/10/045254/its-the-50th-anniversary-of-star-trek-the-animated-series?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://entertainment.slashdot.org/story/23/09/10/045254/its-the-50th-anniversary-of-star-trek-the-animated-series?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T04:09:00.000Z</updated>
-        <summary type="html"><![CDATA[Star Trek: The Animated Series was a half-hour Saturday morning cartoon that premiered exactly one half century ago — yesterday. You can watch its opening credits sequence on YouTube — with its strange 1970s version of the theme song. CBS's YouTube channel also offers clips from various episodes. 
-
-Starting in 1973, it ran for two seasons — a total of just 22 episodes. But the BBC notes it kept Star Trek in people's minds after the original series had been cancelled in 1969:
-
-While The Original Series had struggled in the ratings during its initial run, the show thrived in syndication, and created the phenomenon of fan conventions (think Comic-con in the present day). Because of this, studios were interested in more Star Trek, but there was a problem: the sets had been scrapped, the costum…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cleanup Begins at Burning Man Site: a Few Abandoned Cars, Plus a Burned-Out RV]]></title>
-        <id>https://idle.slashdot.org/story/23/09/10/0153250/cleanup-begins-at-burning-man-site-a-few-abandoned-cars-plus-a-burned-out-rv?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://idle.slashdot.org/story/23/09/10/0153250/cleanup-begins-at-burning-man-site-a-few-abandoned-cars-plus-a-burned-out-rv?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T01:56:00.000Z</updated>
-        <summary type="html"><![CDATA[Late Friday a Burning Man press release claimed that "zero stuck or abandoned vehicles remain on site or on the exit road, as people have returned with friends and tow trucks to retrieve them." 
-But the Reno Gazette-Journal reports that as of 5 p.m. Friday, "at least a half-dozen vehicles were still scattered across miles of the Black Rock National Conservation Area, public land Burning Man leases from the Bureau of Land Management. Their drivers appeared to have made a run for the exit and got stuck in mud out on the playa. One burned-out RV that caught fire in the exit queue was still on site." 
-
-The press release from the Burning Man project claimed their entire community of attendees, sometimes called "Black Rock City," had now "disappeared, leaving no trace." But the Reno Gazette-Jour…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to stay excited while achieving ambitious goals]]></title>
-        <id>https://movingthelimit.com/how-to-stay-excited-while-achieving-ambitious-goals/</id>
-        <link href="https://movingthelimit.com/how-to-stay-excited-while-achieving-ambitious-goals/"/>
-        <updated>2023-09-10T00:56:12.890Z</updated>
-        <summary type="html"><![CDATA[Arnold Schwarzenegger on his first days as a bodybuilder:
-“People always asked me why I was smiling. Other guys had a sour face or they were pissed off that they had to do another rep or another set. But I looked forward to the work. Why? Because I knew that with every rep that I did, every set that I did, with every weight that I lifted, I got one step closer to turning my vision into reality.”
-This is not how most people approach achievement. We get discouraged, are inconsistent, and let our own plans fall through. We get frustrated, punish, and guilt ourselves into trudging forward.
-It doesn't get better even if we achieve our goals. There’s a brief respite after crossing the finish line — but once we inevitably set a new goal, we’re running towards yet another finish line and beating o…]]></summary>
-        <author>
-            <name>Moving the Limit</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Better loading states with Server-Sent Events]]></title>
-        <id>https://dietcode.io/p/sse/</id>
-        <link href="https://dietcode.io/p/sse/"/>
-        <updated>2023-09-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SSE streams are one-way WebSocket connections that are miles easier to build]]></summary>
-        <author>
-            <name>Dietcode | Sid's blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTube Under No Obligation To Host Anti-Vaccine Advocate's Videos, Court Says]]></title>
-        <id>https://news.slashdot.org/story/23/09/09/239234/youtube-under-no-obligation-to-host-anti-vaccine-advocates-videos-court-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/09/239234/youtube-under-no-obligation-to-host-anti-vaccine-advocates-videos-court-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T23:25:00.000Z</updated>
-        <summary type="html"><![CDATA["12 people account for the lion's share of anti-vaccination propaganda posted to three of the leading social media outlets," NPR reported in 2021, citing a study from a London-based group opposed to online hate and disinformation." 
-
-But this week Ars Technica reports that one of those 12 "lost a lawsuit attempting to force YouTube to provide access to videos that were removed from the platform after YouTube banned his channels."
-
-Joseph Mercola had tried to argue that YouTube owed him more than $75,000 in damages for breaching its own user contract and denying him access to his videos. However, in an order dismissing Mercola's complaint, U.S. magistrate judge Laurel Beeler wrote that according to the contract Mercola signed, YouTube was "under no obligation to host" Mercola's content after terminating his channel in 2021 "for violating YouTube's Community Guidelines by posting medical misinformation about COVID-19 and vaccines." 
-
-"The court found no breach because 'there is no provision in the Terms of Service that requires YouTube to maintain particular content' or be a 'storage site for users' content,'" Beeler wrote. Because Mercola's contract with YouTube was found to be enforceable and "YouTube had the discretion to take down content that harmed its users," Beeler said that Mercola did not plausibly plead claims for breach of contract or unjust enrichment. 
-
-Mercola's complaint was dismissed without leave to amend. 
-Thanks to ArchieBunker (Slashdot reader #96,909) for sharing the article.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Broadband Buildout Finds Cost to Connect Some Households as High as $53,000]]></title>
-        <id>https://tech.slashdot.org/story/23/09/09/2218223/us-broadband-buildout-finds-cost-to-connect-some-households-as-high-as-53000?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/09/2218223/us-broadband-buildout-finds-cost-to-connect-some-households-as-high-as-53000?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T22:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Internet services has long been slow for the Winnebago Tribe in the state of Nebraska, reports the Wall Street Journal. Now the U.S. government "plans to fix that by crisscrossing the reservation with fiber-optic cable — at an average cost of $53,000 for each household and workplace connected." 
-While that amount exceeds the assessed value of some of the 658 homes getting hookups — at a cost of $35.2 million — "the tribe is also starting an internet company to run the network, creating jobs and competing with an existing provider known for slow customer service."
-
-While most connections will cost far less, the expense to reach some remote communities has triggered concerns over the ultimate price tag for ensuring every rural home, business, school and workplace in America has the same inte…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can Japan's H2-A Rocket Deliver a Precision-Lander to the Moon?]]></title>
-        <id>https://science.slashdot.org/story/23/09/09/0443222/can-japans-h2-a-rocket-deliver-a-precision-lander-to-the-moon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/09/0443222/can-japans-h2-a-rocket-deliver-a-precision-lander-to-the-moon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T20:39:00.000Z</updated>
-        <summary type="html"><![CDATA[The Washington Post reports:
- Japan launched a lunar mission Thursday, overcoming multiple failures and delays to become the fifth country to head to the moon — just weeks after India — in a global race to better understand Earth's closest neighbor... It is scheduled to enter the moon's orbit in three to four months and land early next year. 
-
-
-The rocket is carrying two space missions: a new X-ray telescope to help scientists better understand the origins of the universe and a lightweight high-precision moon lander that will serve as the basis for future moon landing technology. The telescope separated at 8:56 a.m., and the moon lander separated at 9:29 a.m... 
-
-Japan has made several attempts to reach the moon, including its Omotenashi project to land an ultrasmall probe. In November, Japan abandoned the project after failing to restore communications with the spacecraft. Earlier this year, Tokyo-based space company ispace also pulled the plug on the first Japanese private-sector attempt to land on the moon. 
-Japan's high-precision lander hopes to land within 328 feet (100 meters) of its target — which the article says it "much closer than conventional lunar landers, which usually have an accuracy of several kilometers."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Huawei Shocks With Advanced New Smartphone Built With South Korean Memory Chips]]></title>
-        <id>https://mobile.slashdot.org/story/23/09/09/1849221/huawei-shocks-with-advanced-new-smartphone-built-with-south-korean-memory-chips?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://mobile.slashdot.org/story/23/09/09/1849221/huawei-shocks-with-advanced-new-smartphone-built-with-south-korean-memory-chips?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T19:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Huawei's launch last week of the Mate 60 Pro smartphone "shocked industry experts," reports CNN, who didn't understand how Huawei "would have the ability to manufacture such an advanced smartphone following sweeping efforts by the United States to restrict China's access to foreign chip technology." 
-
-And in a related note, CNN adds that South Korean chipmaker SK Hynix "is investigating how two of its memory chips mysteriously ended up inside the Mate 60 Pro, a controversial smartphone launched by Huawei last week."
-
-Shares in Hynix fell more than 4% on Friday after it emerged that two of its products, a 12 gigabyte (GB) LPDDR5 chip and 512 GB NAND flash memory chip, were found inside the Huawei handset by TechInsights, a research organization based in Canada specializing in semiconductors, which took the phone apart for analysis. "The significance of the development is that there are restrictions on what SK Hynix can ship to China," G Dan Hutcheson, vice chair of TechInsights, told CNN. "Where do these chips come from? The big question is whether any laws were violated." 
-
- A Hynix spokesperson told CNN Friday that it was aware of its chips being used in the Huawei phone and had started investigating the issue. 
-
-The company "no longer does business with Huawei since the introduction of the U.S. restrictions against the company," it said in a statement... Industry insiders said it was possible that Huawei had purchased the memory chips from the secondary market and not directly from the manufacturer. It's also possible Huawei may have had a stockpile of components accumulated before the U.S. export curbs kicked in fully. 
-
-Thanks to long-time Slashdot reader hackingbear for sharing the news.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Staggering' Education Inequality Caused During Pandemic by Overreliance on Tech, Says UN Agency]]></title>
-        <id>https://news.slashdot.org/story/23/09/09/183225/staggering-education-inequality-caused-during-pandemic-by-overreliance-on-tech-says-un-agency?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/09/183225/staggering-education-inequality-caused-during-pandemic-by-overreliance-on-tech-says-un-agency?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T18:34:00.000Z</updated>
-        <summary type="html"><![CDATA[A United Nations report "says that overreliance on remote learning technology during the pandemic led to 'staggering' education inequality around the world," reports the New York Times. The 655-page report from the United Nations' education/culture agency UNESCO asks if we've just experienced a worldwide "ed-tech tragedy." 
-
-Long-time Slashdot reader theodp writes:
-Some of the main findings of the report include: 
- 1. The promise of education technology was overstated
-2. Remote online learning worsened education disparities
-3. Learning was hindered and altered
-4. Regulation and guardrails are needed. 
-
-Remember that the report covers countries around the world, with different levels of economic development. One section of the report is actually titled, "Most learners were left behind," citing estimates that "at least half of all students expected to access remote learning systems to continue their education were unable to do so due to technology gaps... In many parts of the world, accessing education via a technology portal was so uncommon and so unrealistic that many families did not even know that the option existed when schools closed."
-
-This should not have come as a particular surprise. The International Telecommunication Union (ITU), the specialized agency of the United Nations for ICT, estimated that approximately 3.7 billion people — roughly half of the world's population — lacked a functional internet connection in 2020... Countries around the world invested heavily in internet-connected solutions for education, even though these solutions commonly reached only a minority of students, resulting in a bifurcation of educational opportunity. 
-
-The report begins with a warning from the agency's assistant director-general for education. "Ultimately, we should heed this publication's recommendation to exercise greater humility and caution when considering the educational promise of the latest technological marvels."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Rotten Tomatoes 'Erratic, Reductive, and Easily Hacked'?]]></title>
-        <id>https://entertainment.slashdot.org/story/23/09/09/1634241/is-rotten-tomatoes-erratic-reductive-and-easily-hacked?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://entertainment.slashdot.org/story/23/09/09/1634241/is-rotten-tomatoes-erratic-reductive-and-easily-hacked?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T17:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Rotten Tomatoes celebrated its 25th year of assigning scores to movies based on their aggregate review. Now Vulture writes that Rotten Tomatoes "can make or break" movies, "with implications for how films are perceived, released, marketed, and possibly even green-lit". But unfortuately, the site "is also erratic, reductive, and easily hacked." 
-
-Vulture tells the story of a movie-publicity company contacting "obscure, often self-published critics" to say the film's teams "feel like it would benefit from more input from different critics" — while making undisclosed payments of $50 or more.) A critic asking if it's okay to pan the movie was informed that "super nice" critics move their bad reviews onto sites not included in Rotten Tomatoes scores. 
-
-Vulture says after bringing this to the si…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Security Concerns' Caused Three-Day Internet Outage at the University of Michigan Last Week]]></title>
-        <id>https://news.slashdot.org/story/23/09/09/069226/security-concerns-caused-three-day-internet-outage-at-the-university-of-michigan-last-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/09/069226/security-concerns-caused-three-day-internet-outage-at-the-university-of-michigan-last-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T16:34:00.000Z</updated>
-        <summary type="html"><![CDATA[On August 30th the University of Michigan announced it had finally restored its internet connectivity and Wi-Fi network, according to the Ann Arbor News, "after several days of outages caused by a 'significant security concern,' officials said." The outage coincided with the first days of the new school year, although "classes continued through the outage."
-The internet was shut down on 1:45 p.m. on Sunday, Aug. 27, after the Information Assurance team at the university identified a security concern, according to previous reporting. The Information Assurance team fights cybersecurity threats and malicious actors... The investigation into the security issue is ongoing and no other information will be released, said Santa Ono, president of University of Michigan. 
-
-But a local CBS station he…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cheating in Tennis:  How Cellphone Records Revealed a Massive Match-Fixing Ring]]></title>
-        <id>https://yro.slashdot.org/story/23/09/09/0218207/cheating-in-tennis-how-cellphone-records-revealed-a-massive-match-fixing-ring?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/09/0218207/cheating-in-tennis-how-cellphone-records-revealed-a-massive-match-fixing-ring?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T15:34:00.000Z</updated>
-        <summary type="html"><![CDATA["On the morning of his arrest, Grigor Sargsyan was still fixing matches. Four cellphones buzzed on his nightstand with calls and messages from around the world.... The information on his devices would provide a remarkable window into what has become the world's most manipulated sport, according to betting regulators. Thousands of texts, gambling receipts and bank transfers laid out Sargsyan's ascent in remarkable detail..." 
-
-That's part one of a two-part story in which more than 181 tennis players are involved, and from more than 30 countries, fixing more than 375 professional tennis matches. The Washington Post reveals the years-long investigation that began when Belgium's gambling commission tipped off their federal prosecutor's office to "irregular wagers on obscure tennis matches play…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NASA Admits 'At Current Cost Levels,' Its SLS Program is Unsustainable]]></title>
-        <id>https://science.slashdot.org/story/23/09/09/012237/nasa-admits-at-current-cost-levels-its-sls-program-is-unsustainable?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/09/012237/nasa-admits-at-current-cost-levels-its-sls-program-is-unsustainable?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T14:34:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shared this report from the senior space editor at Ars Technica:
-In a new report, the federal department charged with analyzing how efficiently U.S. taxpayer dollars are spent, the Government Accountability Office, says NASA lacks transparency on the true costs of its Space Launch System rocket program. Published on Thursday, the new report (see .pdf) examines the billions of dollars spent by NASA on the development of the massive rocket, which made a successful debut launch in late 2022 with the Artemis I mission. Surprisingly, as part of the reporting process, NASA officials admitted the rocket was too expensive to support its lunar exploration efforts as part of the Artemis program. "Senior NASA officials told GAO that at current cost levels, the SLS program is unaffordable," the new report states... 
-
-
-Moreover, the report indicates that NASA has not regularly updated its five-year production cost estimates for the rocket. The report also cites concerns about development costs of future hardware for NASA's big-ticket rocket program, including the Exploration Upper Stage. Another problem with NASA's cost estimates is that they do not appear to account for delays to Artemis missions. It is probable that the Artemis II mission, a crewed flight around the Moon, will launch no earlier than 2025. The Artemis III crewed landing will likely slip to at least 2026, if not more, with additional delays down the line... 
-
-
-NASA officials interviewed by the Government Accountability Office acknowledged that they were concerned about the costs of the SLS rocket. "NASA recognizes the need to improve the affordability of the SLS program and is taking steps to do so," the report states. "Senior agency officials have told us that at current cost levels the SLS program is unsustainable and exceeds what NASA officials believe will be available for its Artemis missions."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Crypto Trading Volume Slumped To Lowest Level of the Year In August]]></title>
-        <id>https://slashdot.org/story/23/09/09/0552255/crypto-trading-volume-slumped-to-lowest-level-of-the-year-in-august?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/09/0552255/crypto-trading-volume-slumped-to-lowest-level-of-the-year-in-august?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-09T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Bloomberg: Cryptocurrency trading volume declined in August to the lowest level of the year, another sign of waning investor interest since the collapse of digital asset prices from all-time highs in late 2021. The combined monthly volume of so-called spot and derivatives trading fell 11.5% to $2.09 trillion, and was the second-lowest monthly total since October 2020, according to data compiled by CCData. "The (spot) trading volumes on centralized exchanges have remained low since April this year and are now comparable to the stagnant trading activity in the bear market of 2019," CCData said in a report published Thursday.
- 
-The tepid interest appears to be carrying into September, with crypto bellwether Bitcoin little changed through much of the first week of the month. Bitcoin, which accounts for about half of crypto's $1 trillion market capitalization, was little changed at around $25,800 on Thursday. It almost reached $69,000 in November 2021. [...] While Binance remains the largest exchange for crypto spot trading, its market share shrank for the sixth straight month, settling at 38.5%, the lowest since August 2022, according to CCData.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
         </author>
     </entry>
 </feed>
