@@ -2,10 +2,292 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-10T01:00:10.506Z</updated>
+    <updated>2023-10-11T00:59:34.232Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GNOME Merge Requests Opened To Drop X11 Session Support]]></title>
+        <id>https://tech.slashdot.org/story/23/10/10/2139213/gnome-merge-requests-opened-to-drop-x11-session-support?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/10/2139213/gnome-merge-requests-opened-to-drop-x11-session-support?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA["A set of merge requests were opened to drop X.ORG (X11) from GNOME desktop," writes Slashdot reader motang. Phoronix reports: This merge request would remove the X11 session targets within gnome-session: "This is the first step towards deprecating the x11 session, the systemd targets are removed, but the x11 functionality is still there in so you can restore the x11 session by installing the targets in the appropriate place on your own. X11 has been receiving less and less testing. We have been defaulting to the wayland session since 2016 and it's about time we drop the x11 session completely. Let's remove the targets this cycle and maybe carry on with removing rest of the x11 session code next cycle."
+ 
+That was followed by this merge request that would land later on -- more than likely, one cycle later -- for actually removing the X11 session code. Dropping that code would lighten up gnome-session by 3.6k lines of code directly.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deta's Space OS Aims To Build the First 'Personal Cloud Computer']]></title>
+        <id>https://tech.slashdot.org/story/23/10/10/2146230/detas-space-os-aims-to-build-the-first-personal-cloud-computer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/10/2146230/detas-space-os-aims-to-build-the-first-personal-cloud-computer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T00:02:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from The Verge: Here's how your computer should work, according to Mustafa Abdelhai, the co-founder and CEO of a startup called Deta. Instead of a big empty screen full of icons, your desktop should be an infinite canvas on which you can take notes or watch movies or run full apps just by drawing a rectangle on the screen. Instead of logging in to a bunch of cloud services over which you ultimately have no control, you should be able to download software like PC users did 20 years ago, and the stuff you download should be completely yours. All your apps should talk to each other, so you can move data between them or even use multiple apps' features simultaneously. You should be able to use AI to accomplish almost anything. And it should all happen in a b…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple should acquire Wolfram Research.]]></title>
+        <id>https://taylor.town/wolfrapple</id>
+        <link href="https://taylor.town/wolfrapple"/>
+        <updated>2023-10-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mathematica remains an academic curiosity. Apple is, uh, sitting on Siri.]]></summary>
+        <author>
+            <name>taylor.town</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Samsung Expected To Report 80% Profit Plunge As Losses Mount At Chip Business]]></title>
+        <id>https://slashdot.org/story/23/10/10/2130205/samsung-expected-to-report-80-profit-plunge-as-losses-mount-at-chip-business?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/10/2130205/samsung-expected-to-report-80-profit-plunge-as-losses-mount-at-chip-business?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T23:20:00.000Z</updated>
+        <summary type="html"><![CDATA[According to analyst forecasts, Samsung Electronics is expected to report a nearly 80% plunge in earnings in the third quarter. CNBC reports: The South Korean technology giant will issue earnings guidance on Wednesday. Analysts polled by LSEG expect operating profit of 2.3 trillion Korean won ($1.7 billion) for the September quarter, a 78.7% year-on-year decline. Revenue is expected to come in at 67.8 trillion won, a fall of 11.6%, according to LSEG consensus forecasts.
+ 
+Samsung's semiconductor business -- typically the company's cash cow -- is expected to post a more than 3 trillion won loss for the third quarter, according to analyst forecasts, as it continues to face headwinds. Memory chip prices have fallen dramatically this year due to a glut caused by oversupply and low demand for end products like smartphones and laptops. This has hit Samsung's profits hard. In its last earnings reports in July, the company predicted a pick-up in demand for chips in the second half of the year, although this does not appear to be playing out as fast as many had hoped.
+ 
+The tech giant has cut production in a bid to help shore up prices, though the effect is not likely to be seen in the third-quarter results. Daiwa Capital Markets said in a note earlier this month that it expects Samsung earnings to miss consensus estimates "due to the higher cost burden from the memory production cut and ongoing soft demand" for its chip manufacturing unit, known as the foundry business. Daiwa analyst SK Kim sees operating profit for the third quarter at 1.65 trillion won, much lower than the average analyst estimate of 2.3 trillion won.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Waymo's Robotaxi Service Is Now Available To Thousands In San Francisco]]></title>
+        <id>https://tech.slashdot.org/story/23/10/10/2125208/waymos-robotaxi-service-is-now-available-to-thousands-in-san-francisco?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/10/2125208/waymos-robotaxi-service-is-now-available-to-thousands-in-san-francisco?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Waymo is significantly expanding its robotaxi service in San Francisco. According to The Verge, the company's driverless ridehail operations will now be available to tens of thousands of people across 47 square miles of the city. From the report: To be sure, Waymo's service isn't yet available to anyone who downloads the Waymo app and wants to ride. The Alphabet-owned company is in the process of onboarding riders from its waitlist, which it expects to complete in short order. "This territory expansion applies to those riders who currently have access to our service and all those to be added from the waitlist in the near future," Waymo spokesperson Christopher Bonelli said in an email. "We are still seeing very strong demand, so we want to scale responsibly to maintain service quality and good user experience."
+ 
+Growing the number of people who want to pay Waymo for trips is incredibly important for the company, which spent at least $1.1 billion on autonomous vehicles between 2009 and 2015 -- a figure that has assuredly grown exponentially in the proceeding years. Waymo will need to increase its revenue significantly if it hopes to turn autonomous vehicles into the profitable business that tech prognosticators have been promising for years. [The company needs more paying customers as it seeks to increase revenue so it can afford to expand to new cities like Los Angeles.]
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Facebook's Sexist, Ageist Ad-Targeting Violates California Law, Court Finds]]></title>
+        <id>https://yro.slashdot.org/story/23/10/10/2118213/facebooks-sexist-ageist-ad-targeting-violates-california-law-court-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/10/2118213/facebooks-sexist-ageist-ad-targeting-violates-california-law-court-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Ars Technica: Facebook may have to overhaul its entire ad-targeting system after a California court ruled (PDF) last month that the platform's practice of routinely targeting ads by age, gender, and other protected categories violates a state anti-discrimination law. The decision came after a 48-year-old Facebook user, Samantha Liapes, fought for years to prove that Facebook had discriminated against her as an older woman using the platform's ad-targeting system to shop for life insurance policies.
+ 
+Liapes filed a class-action lawsuit against Facebook in 2020. In her complaint, Liapes alleged that "Facebook requires all advertisers to choose the age and gender of its users who will receive ads, and companies offering insurance products routinely te…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reviewer Tests $3 SATA SSD, Gets Exactly What They Paid For]]></title>
+        <id>https://hardware.slashdot.org/story/23/10/10/1858220/reviewer-tests-3-sata-ssd-gets-exactly-what-they-paid-for?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/23/10/10/1858220/reviewer-tests-3-sata-ssd-gets-exactly-what-they-paid-for?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: StorageReview went through the remarkable journey of testing a $3 SSD from AliExpress. The Goldenfir-brand SSD was reportedly given to the storage site by one of its Discord users for testing. The good news is that Goldenfir is actually using an SSD controller for its NAND drive. The controller is a Yeestor YS9083XT, which the Chinese company announced as a SATA3.2 controller in 2019. [...] StorageReview tested the drive by putting it into a Lenovo SR635 1U server with an AMD Epyc 7742 processor and 512GB of DDR4-3200 RAM. StorageReview also decided to, admittedly "unfairly," put it up against Kingston's DC600M entry-level enterprise SATA drive. You can guess what happens next. With a 64GB file and the CrystalDiskMark benchmark, StorageReview reported that the "Kingston drive finished the entire test before this piece of turd [the $3 drive] could even build its test." With the VDBench workload benchmark filling up the entire drive, the $3 drive hit a wall at around 15,500 IOPS when running the 4K random read test, compared to the Kingston drive's approximately 80,000. The cheap SSD ultimately finished the test at 13,000 IOPS and 10,225 ms, compared to the Kingston's 78,000 IOPS and 1,630 ms.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Climate Crisis Will Make Europe's Beer Cost More and Taste Worse, Say Scientists]]></title>
+        <id>https://news.slashdot.org/story/23/10/10/1851213/climate-crisis-will-make-europes-beer-cost-more-and-taste-worse-say-scientists?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/10/10/1851213/climate-crisis-will-make-europes-beer-cost-more-and-taste-worse-say-scientists?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T20:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Climate breakdown is already changing the taste and quality of beer, scientists have warned. From a report: The quantity and quality of hops, a key ingredient in most beers, is being affected by global heating, according to a study. As a result, beer may become more expensive and manufacturers will have to adapt their brewing methods. Researchers forecast that hop yields in European growing regions will fall by 4-18% by 2050 if farmers do not adapt to hotter and drier weather, while the content of alpha acids in the hops, which gives beers their distinctive taste and smell, will fall by 20-31%. 
+
+"Beer drinkers will definitely see the climate change, either in the price tag or the quality," said Miroslav Trnka, a scientist at the Global Change Research Institute of the Czech Academy of Sciences and co-author of the study, published in the journal Nature Communications. "That seems to be inevitable from our data." Beer, the third-most popular drink in the world after water and tea, is made by fermenting malted grains like barley with yeast. It is usually flavoured with aromatic hops grown mostly in the middle latitudes that are sensitive to changes in light, heat and water. Climate-induced decline in the quality and quantity of European hops calls for immediate adaptation measures (Nature).
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Finnish President Says Undersea Gas and Telecom Cables Damaged By 'External Activity']]></title>
+        <id>https://tech.slashdot.org/story/23/10/10/1831237/finnish-president-says-undersea-gas-and-telecom-cables-damaged-by-external-activity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/10/1831237/finnish-president-says-undersea-gas-and-telecom-cables-damaged-by-external-activity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Damage to an undersea gas pipeline and telecommunications cable connecting Finland and Estonia appears to have been caused by "external activity," Finnish officials said Tuesday, adding that authorities were investigating. From a report: Finnish and Estonian gas system operators on Sunday said they noted an unusual drop in pressure in the Balticconnector pipeline after which they shut down the gas flow. The Finnish government on Tuesday said there was damage both to the gas pipeline and to a telecommunications cable between the two NATO countries. Speaking at a news conference Tuesday, Prime Minister Petteri Orpo stopped short of calling the pipeline leak sabotage, but said it could not have been caused by regular operations. "According to a preliminary assessment, the observed damage could not have occurred as a result of normal use of the pipe or pressure fluctuations. It is likely that the damage is the result of external activity," Orpo said. Finland's National Bureau of Investigation was leading an investigation into the leak, Orpo said, adding that the leak occurred in Finland's economic zone.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sony's Smaller PS5 With a Detachable Disc Drive Lands in November]]></title>
+        <id>https://games.slashdot.org/story/23/10/10/178211/sonys-smaller-ps5-with-a-detachable-disc-drive-lands-in-november?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/23/10/10/178211/sonys-smaller-ps5-with-a-detachable-disc-drive-lands-in-november?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Sony announced new PlayStation 5 models that will likely be unofficially called the "PS5 Slim." From a report: The new model has the same horsepower on the inside, but it has a smaller form factor with an attachable disc drive and a 1TB SSD. The new model's detachable drive means you can buy the Digital Edition and change your mind later, essentially adding the drive as an $80 modular accessory. [...] Sony says the new PS5 has 30 percent lower volume, and its weight is 18 percent and 24 percent lighter than the original. The model with the disc drive will cost $500.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe Unveils New Image Generation Tools in AI Push]]></title>
+        <id>https://slashdot.org/story/23/10/10/1610233/adobe-unveils-new-image-generation-tools-in-ai-push?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/10/1610233/adobe-unveils-new-image-generation-tools-in-ai-push?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Adobe on Tuesday said it is rolling out new image-generation technology that can draw inspiration from an uploaded image and match its style, in its latest push to compete with startups challenging its core business. From a report: Image-generating technology from firms like Midjourney and Stable Diffusion have threatened Adobe's customer base of creative professionals who use its tools like Photoshop. The San Jose, California-based company has responded by aggressively developing its own version of the technology and injecting it into its software programs. Adobe, which has promised its customers that generated images will be safe from legal challenges, said those customers have used the tools to generate three billion images, a billion of them in the last month alone. 
+
+The new generation of tools announced on Tuesday will include a feature called "Generative Match". Like Adobe's earlier tool, it will allow users to generate an image from a few words of text. But it will also allow users to upload as few as 10 to 20 images to use as a basis for the generated images. Ely Greenfield, Adobe's chief technology officer for digital media, said the company aims to let big brands upload a handful of photos of a product or character and then use generative technology to automatically make hundreds or thousands of images for various needs like websites, social media campaigns and print advertisements.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Valve Says Counter-Strike 2 for macOS Not Happening Because There Aren't Enough Players on Mac To Justify It]]></title>
+        <id>https://games.slashdot.org/story/23/10/10/1641209/valve-says-counter-strike-2-for-macos-not-happening-because-there-arent-enough-players-on-mac-to-justify-it?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/23/10/10/1641209/valve-says-counter-strike-2-for-macos-not-happening-because-there-arent-enough-players-on-mac-to-justify-it?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Valve says it has no plans for a macOS version of the recently released game Counter-Strike 2, the follow-up title replacing the hugely popular FPS Counter-Strike: Global Offensive. From a report: Valve confirmed its decision and gave its reasons in a newly published Steam support FAQ: "As technology advances, we have made the difficult decision to discontinue support for older hardware, including DirectX 9 and 32-bit operating systems. Similarly, we will no longer support macOS. Combined, these represented less than one percent of active CS:GO players. Moving forward, Counter-Strike 2 will exclusively support 64-bit Windows and Linux."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[RISC-V Group Says Restrictions on Open Technology Would Slow Innovation]]></title>
+        <id>https://tech.slashdot.org/story/23/10/10/1438255/risc-v-group-says-restrictions-on-open-technology-would-slow-innovation?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/10/1438255/risc-v-group-says-restrictions-on-open-technology-would-slow-innovation?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T17:20:00.000Z</updated>
+        <summary type="html"><![CDATA[The chief executive of RISC-V International says that possible government restrictions on the open-source technology will slow down the development of new and better chips, holding back the global technology industry. From a report: The comments come after Reuters last week reported that a growing group of U.S. lawmakers are calling on the Biden administration to impose export control restrictions around RISC-V, the open-source technology overseen by the RISC-V International nonprofit foundation. RISC-V technology can be used as an ingredient to create chips for smartphones or artificial intelligence. Major U.S. firms such as Qualcomm and Alphabet's Google have embraced RISC-V, but so too have Chinese firms such as Huawei, which the U.S. lawmakers argue constitutes a national security concern. 
+
+In a blog post, Calista Redmond, chief of RISC-V International, which coordinates work among companies on the technology, said RISC-V is no different than other open technology standards like Ethernet, which helps computers on the internet talk with each other. "Contemplated actions by governments for an unprecedented restriction in open standards will have the consequence of diminished access to the global marketplace of products, solutions, and talent," Redmond wrote. "Bifurcating on the standards level would lead to a world of incompatible solutions that duplicate effort and close off markets."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vintage Mac Community Begs Manufacturers for New Supply of Rare Dongle as Resellers Charge $250]]></title>
+        <id>https://apple.slashdot.org/story/23/10/10/1546249/vintage-mac-community-begs-manufacturers-for-new-supply-of-rare-dongle-as-resellers-charge-250?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/23/10/10/1546249/vintage-mac-community-begs-manufacturers-for-new-supply-of-rare-dongle-as-resellers-charge-250?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Members of the vintage Mac community are in desperate need of a new supply of a specific, discontinued dongle that has become increasingly rare and extremely expensive on the secondary market. From a report: "Bring Back the Belkin F2E9142-WHT ADC to DVI Cable for Vintage Apple Macs!," a change.org petition created this week by vintage Mac enthusiast Grant Woodward reads. "I am deeply concerned about the discontinuation of the Belkin F2E9142-WHT ADC to DVI cable. This essential piece of technology has become increasingly rare and difficult to find since it went out of production," the petition reads. "For those unfamiliar with its significance, this cable allows vintage Apple Macintosh computers to connect with more recent monitors, breathing new life into these iconic machines. It is an invaluable tool for restoring, collecting, and preserving these pieces of computing history." As Woodward notes, the adapter in question allows an older generation of Power Mac G3 and G4 from the early 2000s to connect to newer monitors.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HTTP/2 Zero-Day Exploited To Launch Largest DDoS Attacks In History]]></title>
+        <id>https://tech.slashdot.org/story/23/10/10/1550210/http2-zero-day-exploited-to-launch-largest-ddos-attacks-in-history?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/10/1550210/http2-zero-day-exploited-to-launch-largest-ddos-attacks-in-history?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[wiredmikey writes: A zero-day vulnerability named 'HTTP/2 Rapid Reset' has been exploited by malicious actors to launch the largest distributed denial-of-service (DDoS) attacks in internet history. One of the attacks seen by Cloudflare was three times larger than the record-breaking 71 million requests per second (RPS) attack reported by company in February. Specifically, the HTTP/2 Rapid Reset DDoS campaign peaked at 201 million RPS, while Google's observed a DDoS attack that peaked at 398 million RPS. The new attack method abuses an HTTP/2 feature called 'stream cancellation', by repeatedly sending a request and immediately canceling it.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IDC: AI is a Solution for a PC Industry With a Sales Problem]]></title>
+        <id>https://slashdot.org/story/23/10/10/1423230/idc-ai-is-a-solution-for-a-pc-industry-with-a-sales-problem?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/10/1423230/idc-ai-is-a-solution-for-a-pc-industry-with-a-sales-problem?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-10T15:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Business interest in AI PCs is fizzing, at least according to IDC, even though the analyst admits "use cases have yet to be fully articulated." From a report: Such is the hype around generative AI since ChatGPT was made publicly available that big software and hardware brands are looking to shoe horn the tech into every nook and cranny. Just last week HP boss Enrique Lores and Lenovo exec Luca Rossi joined in by confirming both companies are working on a range of AI PCs for general availability between July next year and early 2025. Neither went into fine technical detail on what those machines will have inside because they aren't close to release. 
+
+IDC research veep for Devices & Displays, Linn Huang, didn't pour any cold water on the hype this week when he said: "Generative AI could be a watershed moment for the PC industry. While uses cases have yet to be fully articulated, interest in the category is already strong. AI PCs promise organizations the ability to personalize the user experience at a deeper level all while being able to preserve data privacy and sovereignty." That's quite a billing. HP and Lenovo certainly seem to think there's margin potential. Huang agreed. "As more of these devices launch next year, we expect a significant boost to overall selling prices."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Mastodon Actually Has 407K+ More Monthly Users Than It Thought]]></title>
         <id>https://tech.slashdot.org/story/23/10/09/2135224/mastodon-actually-has-407k-more-monthly-users-than-it-thought?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8215,274 +8497,6 @@ Read more of this story at Slashdot.]]></summary>
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A $700 Million Bonanza for the Winners of Crypto's Collapse: Lawyers]]></title>
-        <id>https://news.slashdot.org/story/23/09/11/0514236/a-700-million-bonanza-for-the-winners-of-cryptos-collapse-lawyers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/11/0514236/a-700-million-bonanza-for-the-winners-of-cryptos-collapse-lawyers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T11:34:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous Slashdot reader shared this report from the New York Times:
-
-The collapse in cryptocurrency prices last year forced a procession of major firms into bankruptcy, triggering a government crackdown and erasing the savings of millions of inexperienced investors. But for a small group of corporate turnaround specialists, crypto's implosion has become a financial bonanza. 
-
-Lawyers, accountants, consultants, cryptocurrency analysts and other professionals have racked up more than $700 million in fees since last year from the bankruptcies of five major crypto firms, including the digital currency exchange FTX, according to a New York Times analysis of court records. That sum is likely to grow significantly as the cases unfold over the coming months.
-Large fees are common in corporate bankruptcies, which require complex and time-intensive legal work to untangle. But in the crypto world, the mounting fees have sparked widespread outrage because many of the people owed money are amateur traders who lost their personal savings, rather than corporations with the ability to weather a financial crisis. Every dollar in fees is deducted from the pool of funds that will be returned to creditors at the end of the bankruptcies. 
-
-The fees are "exorbitant and ridiculous," said Daniel Frishberg, a 19-year-old investor who lost about $3,000 when the crypto company Celsius Network filed for bankruptcy last year. "At every hearing, they have an army of people there, and most of them don't need to be there. You don't need 20 people taking notes."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IEEE Specctrum Announces Top Programming Languages of 2023: Python and SQL]]></title>
-        <id>https://developers.slashdot.org/story/23/09/11/023222/ieee-specctrum-announces-top-programming-languages-of-2023-python-and-sql?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://developers.slashdot.org/story/23/09/11/023222/ieee-specctrum-announces-top-programming-languages-of-2023-python-and-sql?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T07:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Last week IEEE Spectrum released its 10th annual rankings of the Top Programming Languages.
-It choose a top language for each of three categories: 	actively used among typical IEEE members and working software engineers, in demand by employers, or "in the zeitgeist". 
-
-
-The results?
-
-This year, Python doesn't just remain No. 1 in our general "Spectrum" ranking — which is weighted to reflect the interests of the typical IEEE member — but it widens its lead. 
-
-Python's increased dominance appears to be largely at the expense of smaller, more specialized, languages. It has become the jack-of-all-trades language — and the master of some, such as AI, where powerful and extensive libraries make it ubiquitous. And although Moore's Law is winding down for high-end computing, low-end microcontrolle…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hobbyist Builds HDMI ISA Graphics Card For Vintage PCs By Improving Graphics Gremlin]]></title>
-        <id>https://tech.slashdot.org/story/23/09/11/0241257/hobbyist-builds-hdmi-isa-graphics-card-for-vintage-pcs-by-improving-graphics-gremlin?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/11/0241257/hobbyist-builds-hdmi-isa-graphics-card-for-vintage-pcs-by-improving-graphics-gremlin?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T04:44:00.000Z</updated>
-        <summary type="html"><![CDATA[Earlier this year, Singapore-based embedded security researcher yeokm1 built a ChatGPT client for MS-DOS. 
-Now they're back with a new project:
-HDMI is a relatively modern video connector we take for granted on modern PCs and monitors. Now vintage PCs can join in the fun too with a native connection to modern HDMI monitors without any additional adapter. 
-
-Two years ago, I learned of an open-source project called Graphics Gremlin by Eric Schlaepfer who runs the website Tubetime.us. It is an 8-bit ISA graphics card that supports display standards like Color Graphics Adapter (CGA) and Monochrome Display Adapter (MDA). CGA and MDA are display standards used by older IBM(-compatible) PCs in the 1980s. The frequencies and connectors used by CGA and MDA are no longer supported by modern monitors hence it is difficult for older PCs of the 1980s era to have modern displays connected to them without external adapters. Graphics Gremline addresses this problem by using techniques like scan doubling (for CGA) and increasing the vertical refresh rate (for MDA) then outputing to a relatively newer but still old VGA port. 
-
-I fabricated and assembled the design then installed it into my IBM5155... I decided to modify the Graphics Gremlin design so it can connect natively to an external HDMI monitor and service the internal Composite-based CRT at the same time. 
-
-The post concludes triumphantly with a photo of their IBM 5155 running the CGA Compatibility Tester displaying the color palette.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a Breached  Microsoft Engineer Account Compromised the Email Accounts of US Officials]]></title>
-        <id>https://it.slashdot.org/story/23/09/11/0116237/how-a-breached-microsoft-engineer-account-compromised-the-email-accounts-of-us-officials?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/23/09/11/0116237/how-a-breached-microsoft-engineer-account-compromised-the-email-accounts-of-us-officials?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T01:44:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shared this report from Bloomberg:
-
-China-linked hackers breached the corporate account of a Microsoft engineer and are suspected of using that access to steal a valuable key that enabled the hack of senior U.S. officials' email accounts, the company said in a blog post. The hackers used the key to forge authentication tokens to access email accounts on Microsoft's cloud servers, including those belonging to Commerce Secretary Gina Raimondo, Representative Don Bacon and State Department officials earlier this year. 
-
-The U.S. Cybersecurity and Infrastructure Security Agency and Microsoft disclosed the breach in June, but it was still unclear at the time exactly how hackers were able to steal the key that allowed them to access the email accounts. Microsoft said the key …]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Is Gen Z Giving Up on College?]]></title>
-        <id>https://news.slashdot.org/story/23/09/10/2234213/is-gen-z-giving-up-on-college?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/10/2234213/is-gen-z-giving-up-on-college?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T23:11:00.000Z</updated>
-        <summary type="html"><![CDATA[Business Insider reports on "a soaring number of Gen Zers who has decided to skip college altogether. 
-
-"Four million fewer teenagers enrolled at a college in 2022 than in 2012."
-
-
- For many, the price tag has simply grown too exorbitant to justify the cost. From 2010 to 2022, college tuition rose an average of 12% a year, while overall inflation only increased an average of 2.6% each year. Today it costs at least $104,108 on average to attend four years of public university — and $223,360 for a private university. 
-
-
-At the same time, the salaries students can expect to earn after graduation haven't kept up with the cost of college. A 2019 report from the Pew Research Center found that earnings for young college-educated workers had remained mostly flat over the past 50 years. Four years …]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Localhost will inevitably die]]></title>
-        <id>https://lucasfcosta.com/2023/09/11/localhost-will-die.html</id>
-        <link href="https://lucasfcosta.com/2023/09/11/localhost-will-die.html"/>
-        <updated>2023-09-10T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Localhost is the inevitable victim of every software’s commercial success.
-Assume you’re a fintech running a Ruby on Rails monolith. If you ever get to PMF, you’ll inevitably have to scale to process more transactions, or you’ll have to hire more engineers to build ancillary features.
-When that happens, you’ll have to break your monolith into microservices so it scales more efficiently or so that multiple teams can deploy software without stepping on each other’s toes.
-Or someone in your company may have gone to too many AWS conferences and may want to sprinkle some lambdas here and there. “It’s scalable”, they’ll say.
-As that happens, there will be a point of no return in which engineers can’t run the whole system on their machines anymore — at least not in a reliable way.
-
-The beginning …]]></summary>
-        <author>
-            <name>Lucas F. Costa</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Roblox Cancelled Awards Presentation Due To Security Incident]]></title>
-        <id>https://yro.slashdot.org/story/23/09/10/229213/roblox-cancelled-awards-presentation-due-to-security-incident?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/10/229213/roblox-cancelled-awards-presentation-due-to-security-incident?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T22:11:00.000Z</updated>
-        <summary type="html"><![CDATA[Slashdot reader quonset writes: Roblox Corporation was to have its award ceremony for developers on Saturday when it cancelled the event at the last moment. According to reports, a game developer was reportedly arrested on gun charges outside the event. 
-
-More from MarketWatch:
-
-Citing jail records, the San Francisco Chronicle reported Sunday that a man identified as game developer Mikhail Olson, known by the nickname Simbuilder, was arrested by U.S. Park Police on suspicion of having a concealed firearm in his vehicle, along with armor-piercing ammunition and a large-capacity magazine.
-
- 
-The awards ceremony was held at Fort Mason Center, which is on federal property. According to the Chronicle, the suspect was arrested Saturday afternoon after allegedly assaulting U.S. Park Police officers who had been called over a report of a disturbance outside the Roblox conference.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[To Build Their AI Tech, Microsoft and Google are Using a Lot of Water]]></title>
-        <id>https://news.slashdot.org/story/23/09/10/2033253/to-build-their-ai-tech-microsoft-and-google-are-using-a-lot-of-water?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/10/2033253/to-build-their-ai-tech-microsoft-and-google-are-using-a-lot-of-water?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T20:59:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous Slashdot reader shares this report from the Associated Press:
-
-The cost of building an artificial intelligence product like ChatGPT can be hard to measure. But one thing Microsoft-backed OpenAI needed for its technology was plenty of water, pulled from the watershed of the Raccoon and Des Moines rivers in central Iowa to cool a powerful supercomputer as it helped teach its AI systems how to mimic human writing. 
-
- As they race to capitalize on a craze for generative AI, leading tech developers including Microsoft, OpenAI and Google have acknowledged that growing demand for their AI tools carries hefty costs, from expensive semiconductors to an increase in water consumption. But they're often secretive about the specifics. Few people in Iowa knew about its status as a birthplac…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Asteroid Behaving Unexpectedly After NASA's Deliberate DART Crash]]></title>
-        <id>https://science.slashdot.org/story/23/09/10/1943247/asteroid-behaving-unexpectedly-after-nasas-deliberate-dart-crash?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/10/1943247/asteroid-behaving-unexpectedly-after-nasas-deliberate-dart-crash?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T19:59:00.000Z</updated>
-        <summary type="html"><![CDATA[One year ago NASA crashed its DART spacecraft into the asteroid "Dimorphos" (which orbits around a much larger asteroid named "Didymos"). The BBC calls the mission "part of an experiment to change the space rock's direction and test Earth's defences against asteroids in the future. 
-
-"However, a teacher and his class studying the rock have now discovered that since the collision, it has moved in a strange and unexpected way."
-[U]sing their school telescope, a team of children and their teacher Jonathan Swift at Thacher School in California have found that more than a month after the collision, Dimorphos' orbit continuously slowed after impact... which is unusual and unexpected. As reported in the New Scientist, the team presented their findings at a meeting of the American Astronomical Society. 
-
-After discovering the unusual behaviour of Dimorphos, it's likely that Nasa will have to factor in the high school's findings, if they ever launch another asteroid redirection mission in the future...
-
-One explanation for the asteroid's orbit continuing to change so long after the Dart collision is that material thrown up by the impact, including rocks several metres across, eventually fell back onto the surface of the asteroid, changing its orbit even more. The European Space Agency is launching a mission called Hera, which will arrive at Dimorphos in 2026 and could reveal more details as to what happened to the asteroid following the impact.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Whatever Happened to El Salvador's Bitcoin Experiment?  Two Years Later...]]></title>
-        <id>https://yro.slashdot.org/story/23/09/10/1856209/whatever-happened-to-el-salvadors-bitcoin-experiment-two-years-later?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/10/1856209/whatever-happened-to-el-salvadors-bitcoin-experiment-two-years-later?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T18:59:00.000Z</updated>
-        <summary type="html"><![CDATA[Agence France-Presse reports that "Two years ago, El Salvador shrugged off a chorus of warnings and adopted Bitcoin as legal tender in a bid to revitalize its economy and improve access to financial services. 
-
-"It has not worked... Economist Cesar Villalona told AFP that Bitcoin 'does not exist in the local economy' in any significant way, because in El Salvador 'everything' is paid in dollars: wages, services and goods."
-
-Bitcoin has lost more than half its value since then and though President Nayib Bukele is wildly popular for his clampdown on criminal gangs, his currency gamble has not gone down equally well... [T]wo years after El Salvador became the first country in the world to adopt Bitcoin as its currency, alongside the U.S. dollar, "the goals that were pursued... have not been a…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Questions Raised about Quality of Reddit's New Moderators After Protest-Related Purges]]></title>
-        <id>https://tech.slashdot.org/story/23/09/10/0536247/questions-raised-about-quality-of-reddits-new-moderators-after-protest-related-purges?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/10/0536247/questions-raised-about-quality-of-reddits-new-moderators-after-protest-related-purges?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T16:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Reddit's forum about home food canning used to have two moderators with science-related master's degrees. And Reddit's home automation forum used to be moderated by a former IT worker with decades of networking experiencing — and some training from a professional electrician. 
-
-After the great Reddit protests, all three were removed from their positions. But now Ars Technica asks whether Reddit's replacement moderators will be as capable of spotting dangerous advice?
-In response to concerns that the new r/homeautomation mod team could overlook posts with dangerous misinformation, one moderator requesting anonymity pointed me to the subreddit's sidebar, which has a disclaimer about the dangers of electricity. However, the disclaimer is only visible on old Reddit. The mod doesn't know why...…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WebAssembly 2023 Survey Finds Enthusiasm - and Some Challenges]]></title>
-        <id>https://developers.slashdot.org/story/23/09/10/0653235/webassembly-2023-survey-finds-enthusiasm---and-some-challenges?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://developers.slashdot.org/story/23/09/10/0653235/webassembly-2023-survey-finds-enthusiasm---and-some-challenges?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T15:34:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shared this report from InfoWorld:
-The uses of WebAssembly, aka Wasm, have grown far beyond its initial target of web applications, according to The State of WebAssembly 2023 report. But some developers remain skeptical.
-
-Released September 6 by the Cloud Native Computing Foundation (CNCF) and SlashData, in collaboration with the Linux Foundation, the report finds mostly optimism among software developers about future adoption of Wasm for web and non-web environments... However, about 22% of participants in the report indicated pessimism about Wasm adoption for either the web or non-web environments. Further, 83% of the respondents reported challenges with Wasm including difficulties with debugging and troubleshooting, different performance between runtimes, lack of consistent developer experiences between runtimes, lack of learning materials, and compatibility issues with certain browsers. 
-
-The report finds that respondents are using WebAssembly across a wide range of software projects including data visualization (35%), internet of things (32%, artificial intelligence (30%), games (28%), back-end services (27%), edge computing (25%), and more. While Wasm is still primarily used to develop web applications (58%), this is changing thanks to WASI (WebAssembly System Interface), which provides a modular interface for Wasm... 
-
-Other findings of the State of WebAssembly 2023 report: 
-- When migrating existing applications to Wasm, 30% of respondents experience performance benefits of more than 50%.
-- JavaScript is the most popular language used with Wasm applications. But Rust stands out in popularity in Wasm projects compared to other use cases...
- 
-
-The article says WebAssembly developers were attracted by "faster loading times, the ability to explore new use cases and technologies, and the ability to share code between projects. Improved performance over JavaScript and efficient execution of computationally intensive tasks also were cited."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NASA's 'MOXIE' Experiment Successfully Generated 122 Grams of Oxygen on Mars]]></title>
-        <id>https://science.slashdot.org/story/23/09/09/0337241/nasas-moxie-experiment-successfully-generated-122-grams-of-oxygen-on-mars?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/09/0337241/nasas-moxie-experiment-successfully-generated-122-grams-of-oxygen-on-mars?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-10T14:34:00.000Z</updated>
-        <summary type="html"><![CDATA[CNN reports:
-
-The first experiment to produce oxygen on another planet has come to an end on Mars after exceeding NASA's initial goals and demonstrating capabilities that could help future astronauts explore the red planet. The microwave-size device called MOXIE, or Mars Oxygen In-Situ Resource Utilization Experiment, is on the Perseverance rover. 
-
-The experiment kicked off more than two years ago, a few months after the rover landed on Mars. Since then, MOXIE has generated 122 grams of oxygen, equal to what a small dog breathes in 10 hours, according to NASA. The instrument works by converting some of Mars' plentiful carbon dioxide into oxygen. During the peak of its efficiency, MOXIE produced 12 grams of oxygen an hour at 98% purity or better, which is twice as much as NASA's goals for the instrument. On August 7, MOXIE operated for the 16th and final time, having completed all its requirements...
-
-
-
-Bigger and better versions of something such as MOXIE in the future could supply life support systems with breathable air and convert and store oxygen needed for rocket fuel used to launch on a return trip to Earth. 
-
-In a statement NASA applauded the performance of the MIT-created experiment. "When the first astronauts land on Mars, they may have the descendants of a microwave-oven-size device to thank for the air they breathe and the rocket propellant that gets them home... 
-
-"Rather than bringing large quantities of oxygen with them to Mars, future astronauts could live off the land, using materials they find on the planet's surface to survive."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
         </author>
     </entry>
 </feed>
