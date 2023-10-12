@@ -2,10 +2,328 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-11T00:59:34.232Z</updated>
+    <updated>2023-10-12T00:58:03.097Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[FTX Used Python Code To Fake Its Insurance Fund Figure]]></title>
+        <id>https://developers.slashdot.org/story/23/10/11/2139242/ftx-used-python-code-to-fake-its-insurance-fund-figure?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/23/10/11/2139242/ftx-used-python-code-to-fake-its-insurance-fund-figure?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-12T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Tom Mitchelhill reports via CoinTelegraph: Crypto exchange FTX used hidden Python code to misrepresent the value of its insurance fund -- a pool of funds meant to prevent user losses during huge liquidation events -- according to testimony from FTX co-founder Gary Wang. In a damning testimony on Oct. 6, FTX's former chief technology officer, Gary Wang, said that FTX's so-called $100 million insurance fund in 2021 was fabricated and never contained any of the exchanges' FTX tokens (FTT) as claimed. Instead, the figure shown to the public was calculated by multiplying the daily trading volume of the FTX Token by a random number close to 7,500.
+ 
+When the prosecution surfaced the above tweet -- among other public statements of its value -- and asked Wang whether this amount was accurate, he replied with a single word: "No." "For one, there is no FTT in the insurance fund. It's just the USD number. And, two, the number listed here does not match what was in the database." An exhibit in the Oct. 6 trial shows the alleged code used to generate the size of the so-called "Backstop Fund" or public insurance fund.
+ 
+FTX's insurance fund was designed to protect user losses in case of huge, sudden market movements and its value was often touted on its website and social media. According to Wang's testimony, however, the amount contained within the fund was often insufficient to cover these losses. [...] In addition to revealing the allegedly fraudulent nature of FTX's insurance fund, Wang claimed that Bankman-Fried prompted him and Nishad Singh to implement an "allow_negative" balance feature in the code at FTX, which allowed Alameda Research to trade with near-unlimited liquidity on the crypto exchange.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe's Project Fast Fill Is Generative Fill For Video]]></title>
+        <id>https://slashdot.org/story/23/10/11/2130223/adobes-project-fast-fill-is-generative-fill-for-video?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/11/2130223/adobes-project-fast-fill-is-generative-fill-for-video?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-12T00:02:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from TechCrunch: As part of its MAX conference, Adobe traditionally shows off some of its more forward-looking tech, which may or may not end up in its Creative Cloud apps at some point in the future. The idea here is to show what its engineers are working on; right now, as you can imagine, that's a lot of generative AI. With Firefly now being part of Photoshop and now also Illustrator, the next frontier here is video and unsurprisingly, that's where Adobe's most interesting "sneak" of this year comes in. Project Fast Fill is, at its core, the generative fill the company introduced in Photoshop, but for video.
+ 
+Project Fast Fill simply lets editors remove objects from a video or change backgrounds as if they were working with a still image, all with a simple text prompt. Users only have to do this once and the edit will then propagate to the rest of the scene. Adobe says this even works in very complex scenes with changing lighting conditions. Over the course of the last few months, we've seen an increase in AI-powered tools across video editors, including Adobe Premiere Pro competitors like Davinci Resolve. These typically start with voice recognition for captions and object recognition for masking, but generative fill may just be the kind of feature where Adobe has a major advantage, thanks to its work on building its own Firefly models.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Town Hall #14: Frends]]></title>
+        <id>https://taylor.town/town-hall-0014</id>
+        <link href="https://taylor.town/town-hall-0014"/>
+        <updated>2023-10-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Suddenly some of my accidental friends feel like obligations.]]></summary>
+        <author>
+            <name>taylor.town</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Starlink Webpage Highlights Upcoming 'Direct To Cell' Service]]></title>
+        <id>https://tech.slashdot.org/story/23/10/11/2111236/new-starlink-webpage-highlights-upcoming-direct-to-cell-service?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/11/2111236/new-starlink-webpage-highlights-upcoming-direct-to-cell-service?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T23:20:00.000Z</updated>
+        <summary type="html"><![CDATA[SpaceX quietly published a new "Starlink Direct to Cell" webpage highlighting the company's forthcoming cell service for mobile phones. MobileSyrup reports: The new 'Starlink Direct to Cell' page boasts "seamless access to text, voice, and data for LTE phones across the globe" and notes that the company is targeting text capabilities in 2024, followed by voice and data capabilities in 2025. Internet of Things (IoT) support may also arrive in 2025. Starlink also advertises that the direct-to-cell system would work with "existing LTE phones wherever you can see the sky" and wouldn't require any changes to hardware, firmware, or special apps. The page also explains that Starlink Direct to Cell would use "an advanced eNodeB modem" that "acts like a cellphone tower in space." The system would allow network integration "similar to a standard roaming partner." Last year, SpaceX announced a partnership with T-Mobile, allowing users' mobile phones to connect directly with Starlink satellites in orbit. SpaceX said it was hoping to launch the service later this year but the company has been mum on the progress.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[T-Mobile Forcibly Moving People On Older Plans To More Expensive Ones]]></title>
+        <id>https://mobile.slashdot.org/story/23/10/11/212219/t-mobile-forcibly-moving-people-on-older-plans-to-more-expensive-ones?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://mobile.slashdot.org/story/23/10/11/212219/t-mobile-forcibly-moving-people-on-older-plans-to-more-expensive-ones?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader Shakrai writes: T-Mobile, formerly known as the "Un-carrier", confirmed plans today to force customers on older/cheaper plans onto newer/more expensive ones. Astute observers of the cellular industry will surely recall the former CEO, John Legere, assuring customers that they would always be able to keep their existing plans and prices would never rise without their consent. They will also observe that this comes nearly three years to the day after T-Mobile merged with Sprint, with one of the conditions for that merger being they would not raise prices for three years. It's also worth noting that T-Mobile continues to buyback its shares, recently announced thousands of layoffs, and is now paying a dividend. T-Mobile tells CNET that users on its older plans will see "an increase of approximately $10 per line with the migration," starting with their November bill. Those who sign up for AutoPay can save $5 per line (on up to eight lines per account), the spokesperson noted.
+ 
+"The company adds that those who don't want to have their plan changed will be able to reverse the move, but they'll need to call T-Mobile's Customer Care support line to make that happen," reports CNET. "The carrier is giving users a period of time to call in and reverse the forced switch, but how long that period will be is unknown at this point. It's also unknown whether customers who go back will be able to stay on their older plans for good or if a reversal simply buys a little more time before they're again compelled to switch."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Right-To-Repair Is Now the Law In California]]></title>
+        <id>https://yro.slashdot.org/story/23/10/11/2048201/right-to-repair-is-now-the-law-in-california?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/11/2048201/right-to-repair-is-now-the-law-in-california?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from The Verge: California Governor Gavin Newsom has signed SB 244, or the Right to Repair Act, into law, making it easier for owners to repair devices themselves or to take them to independent repair shops. Because California is one of the world's largest economies, this iFixit-cosponsored bill may make it easier for people all over the US to repair their devices. The law, which joins similar efforts in New York, Colorado, and Minnesota, is tougher than some of its predecessors.
+ 
+Manufacturers must make available appropriate tools, parts, software, and documentation for seven years after production for devices priced above $100. (Less expensive devices only have to have these materials available for three years.) [...] The bill is effective on electronics made and sold after July 1st, 2021. Though the bill is fairly sweeping, there are carve-outs for game consoles and alarm systems. Further reading: Cory Doctorow: Apple Sabotages Right-to-Repair Using 'Parts-Pairing' and the DMCA
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scientists Use CRISPR To Make Chickens More Resistant To Bird Flu]]></title>
+        <id>https://science.slashdot.org/story/23/10/11/1849220/scientists-use-crispr-to-make-chickens-more-resistant-to-bird-flu?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/10/11/1849220/scientists-use-crispr-to-make-chickens-more-resistant-to-bird-flu?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Scientists have used the gene-editing technology known as CRISPR to create chickens that have some resistance to avian influenza, according to a new study that was published in the journal Nature Communications on Tuesday. From a report: The study suggests that genetic engineering could potentially be one tool for reducing the toll of bird flu, a group of viruses that pose grave dangers to both animals and humans. But the study also highlights the limitations and potential risks of the approach, scientists said. Some breakthrough infections still occurred, especially when gene-edited chickens were exposed to very high doses of the virus, the researchers found. And when the scientists edited just one chicken gene, the virus quickly adapted. The findings suggest that creating flu-resistant chickens will require editing multiple genes and that scientists will need to proceed carefully to avoid driving further evolution of the virus, the study's authors said. 
+
+The research is "proof of concept that we can move toward making chickens resistant to the virus," Wendy Barclay, a virologist at Imperial College London and an author of the study, said at a news briefing. "But we're not there yet." Some scientists who were not involved in the research had a different takeaway. "It's an excellent study," said Dr. Carol Cardona, an expert on bird flu and avian health at the University of Minnesota. But to Dr. Cardona, the results illustrate how difficult it will be to engineer a chicken that can stay a step ahead of the flu, a virus known for its ability to evolve swiftly. "There's no such thing as an easy button for influenza," Dr. Cardona said. "It replicates quickly, and it adapts quickly."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[State-backed Hackers Are Exploiting New 'Critical' Atlassian Zero-Day Bug]]></title>
+        <id>https://it.slashdot.org/story/23/10/11/1843211/state-backed-hackers-are-exploiting-new-critical-atlassian-zero-day-bug?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/10/11/1843211/state-backed-hackers-are-exploiting-new-critical-atlassian-zero-day-bug?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T20:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft says Chinese state-backed hackers are exploiting a "critical"-rated zero-day vulnerability in Atlassian software to break into customer systems. From a report: The technology giant's threat intelligence team said in a post on X, formerly Twitter, that it has observed a nation-state threat actor it calls Storm-0062 exploiting a recently disclosed critical flaw in Atlassian Confluence Data Center and Server. Microsoft has previously identified Storm-0062 as a China-based state-sponsored hacker. 
+
+Microsoft said it observed in-the-wild abuse of the maximum rated 10.0 vulnerability, tracked as CVE-2023-22515, since September 14, some three weeks before Atlassian's public disclosure on October 4. A bug is considered a zero-day when the vendor -- in this case Atlassian -- has zero time to fix the bug before it is exploited. Atlassian updated its advisory this week to confirm it has "evidence to suggest that a known nation-state actor" is exploiting the bug, which the company says could allow a remote attacker to create unauthorized administrator accounts to access Confluence servers. Atlassian's Confluence is a widely popular collaborative wiki system used by corporations around the world to organize and share work.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Qualcomm Will Try To Have Its Apple Silicon Moment in PCs With 'Snapdragon X']]></title>
+        <id>https://it.slashdot.org/story/23/10/11/1837241/qualcomm-will-try-to-have-its-apple-silicon-moment-in-pcs-with-snapdragon-x?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/10/11/1837241/qualcomm-will-try-to-have-its-apple-silicon-moment-in-pcs-with-snapdragon-x?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Qualcomm's annual "Snapdragon Summit" is coming up later this month, and the company appears ready to share more about its long-planned next-generation Arm processor for PCs. ArsTechnica: The company hasn't shared many specifics yet, but yesterday we finally got a name: "Snapdragon X," which is coming in 2024, and it may finally do for Arm-powered Windows PCs what Apple Silicon chips did for Macs a few years ago (though it's coming a bit later than Qualcomm had initially hoped). Qualcomm has been making chips for PCs for years, most recently the Snapdragon 8cx Gen 3 (you might also know it as the Microsoft SQ3, which is what the chip is called in Surface devices). But those chips have never quite been fast enough to challenge Intel's Core or AMD's Ryzen CPUs in mainstream laptops. Any perf…]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PlayStation 5 Cloud Streaming Launches This Month]]></title>
+        <id>https://games.slashdot.org/story/23/10/11/1735201/playstation-5-cloud-streaming-launches-this-month?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/23/10/11/1735201/playstation-5-cloud-streaming-launches-this-month?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Sony Interactive Entertainment has announced plans to launch cloud streaming for PlayStation 5 this month. From a report: The feature, which will be available to PlayStation Plus Premium members, will receive a staggered rollout. Sony is targeting an October 17 launch for Japan, October 23 for Europe and October 30 for North America. "Select PS5 games will be available for streaming, and we're planning to have hundreds of PS5 titles to support this new benefit," said Hideaki Nishino, SIE's senior VP of platform experience. 
+
+Supported titles will include Game Catalogue offerings like Marvel's Spider-Man: Miles Morales, Horizon Forbidden West, Ghost of Tsushima, Mortal Kombat 11 and Saints Row IV. Some PS5 digital titles that players own will be available for streaming too including Resident Evil 4, Dead Island 2, Genshin Impact, Fall Guys and Fortnite. Game Trials for PS5 titles like Hogwarts Legacy, The Witcher 3: Wild Hunt and The Calisto Protocol will also be available. Sony said DLC and in-game purchases will be available for PS5 game streaming too.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crunchyroll Will Pay You $30 For Violating Your Data Privacy Rights]]></title>
+        <id>https://tech.slashdot.org/story/23/10/11/1612222/crunchyroll-will-pay-you-30-for-violating-your-data-privacy-rights?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/11/1612222/crunchyroll-will-pay-you-30-for-violating-your-data-privacy-rights?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: You could be entitled to a small chunk of a $16 million class action settlement against anime streaming service Crunchyroll. The Sony-owned company settled a data privacy lawsuit this week that will result in about $30 settlements for individuals impacted, according to firm behind the class action. The complaint, filed in September 2022, claims that Sony shared individual Crunchyroll viewing information with third-party sites without user's permission. That means Google or Facebook might have seen your anime watch history without your knowledge. It's a violation of the Video Privacy Protection Act, which makes it illegal to video streaming services to disclose personally identifiable information without the individual's consent. Crunchyroll denies wrongdoing.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA Unveils First Glimpse of Space Rock Collected From Asteroid]]></title>
+        <id>https://science.slashdot.org/story/23/10/11/1748245/nasa-unveils-first-glimpse-of-space-rock-collected-from-asteroid?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/10/11/1748245/nasa-unveils-first-glimpse-of-space-rock-collected-from-asteroid?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The jackpot from a seven-year mission to bring back bits of an asteroid was unveiled on Wednesday. From a report: NASA officials in Houston displayed images of salt-and-pepper chunks of rock and particles of dark space dust that were brought back to Earth from the asteroid, Bennu, and described initial scientific observations about the material. The mission, Osiris-Rex, concluded in September when a capsule full of asteroid was jettisoned through Earth's atmosphere and recovered in the Utah desert. The first pieces of materials that leaked outside the container were analyzed using a variety of laboratory techniques, revealing just the earliest findings. 
+
+Scientists found water molecules trapped in clay minerals -- water from asteroids similar to Bennu could have filled Earth's oceans. "The reason that Earth is a habitable world, that we have oceans and lakes and rivers and rain, is because these clay minerals, like minerals, like the ones we're seeing from Bennu, landed on Earth four billion years ago," Dante Lauretta, the mission's principal investigator, said during a NASA event on Wednesday. The materials also contained sulfur, key for many geological transformations in rocks. 
+
+"It determines how quickly things melt and it is also critical for biology," said Dr. Lauretta, who displayed microscopic images and 3-D visualizations of the material. The scientists also found magnetite, an iron oxide mineral that can play an important role as a catalyst in organic chemical reactions. "We're looking at the kinds of minerals that may have played a central role in the origin of life on Earth," Dr. Lauretta said. The samples are also chock-full of carbon, the element that is the building block for life.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTC Lays Out New Rule That Could End Hidden Fees]]></title>
+        <id>https://news.slashdot.org/story/23/10/11/1557254/ftc-lays-out-new-rule-that-could-end-hidden-fees?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/10/11/1557254/ftc-lays-out-new-rule-that-could-end-hidden-fees?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T17:20:00.000Z</updated>
+        <summary type="html"><![CDATA[The US Federal Trade Commission is proposing a new rule that it hopes will put an end to hidden junk fees that some businesses often add as a surprise when consumers are checking out. From a report: The agency is currently seeking public comment on the rule, known as the Trade Regulation Rule on Unfair or Deceptive Fees, after having already collected 12,000 comments last year from individuals, businesses, law enforcement groups, and others on how deceptive fees affect them. FTC Chair Lina Khan said in a statement that "by hiding the total price, these junk fees make it harder for consumers to shop for the best product or service and punish businesses who are honest upfront." FTC adds that tackling junk fees through its nearly 100-year-old legal mandate that covers "unfair and deceptive acts or practices" is not enough. A new rule with more precise language can do a better job with specifics, the agency argues: "It is an unfair and deceptive practice and a violation of this part for any Business to offer, display, or advertise an amount a consumer may pay without Clearly and Conspicuously disclosing the Total Price."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Space Force Pauses Generative AI Use Based on Security Concerns]]></title>
+        <id>https://news.slashdot.org/story/23/10/11/169222/us-space-force-pauses-generative-ai-use-based-on-security-concerns?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/10/11/169222/us-space-force-pauses-generative-ai-use-based-on-security-concerns?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[US Space Force has temporarily banned the use of web-based generative AI tools and so-called large language models that power them, citing data security and other concerns, Bloomberg News reported Wednesday, citing a memo. From the report: The Sept. 29 memorandum, addressed to the Guardian Workforce, the term for Space Force members, pauses the use of any government data on web-based generative AI tools, which can create text, images or other media from simple prompts. The memo says they "are not authorized" for use on government systems unless specifically approved. 
+
+Chatbots and tools like OpenAI's ChatGPT have exploded in popularity. They make use of language models that are trained on vast amounts of data to predict and generate new text. Such LLMs have given birth to an entire generation of AI tools that can, for example, search through troves of documents, pull out key details and present them as coherent reports in a variety of linguistic styles. Generative AI "will undoubtedly revolutionize our workforce and enhance Guardian's ability to operate at speed," Lisa Costa, Space Force's chief technology and innovation officer, said in the memo. But Costa also cited concerns over cybersecurity, data handling and procurement requirements, saying that the adoption of AI and LLMs needs to be "responsible."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[You can't get faster than No Build]]></title>
+        <id>https://world.hey.com/dhh/you-can-t-get-faster-than-no-build-7a44131c</id>
+        <link href="https://world.hey.com/dhh/you-can-t-get-faster-than-no-build-7a44131c"/>
+        <updated>2023-10-11T16:35:24.000Z</updated>
+        <summary type="html"><![CDATA[For the first time since the 2000s, I'm working on a new Rails application without using any form of real build steps on the front-end. We're making it using vanilla ES6 with import maps for Hotwire, and vanilla CSS with nesting and variables for styling. All running on a delightfully new simple asset pipeline called Propshaft. It's all just so... simple.
+It's also fast. Really fast. Infinitely fast. Here's a tongue-in-cheek slide I featured as part of my Rails World keynote last week talking about this No Build process:
+  
+      
+        
+
+  
+Now I fully understand why someone might want to use esbuild or bun, and I've gone out of my way to work on great tooling for Rails to make that really easy. Rails 7.1 ships with native support for bun in the box, and esbuild is already compiling JavaScript for lots of Rails applications in production (including Basecamp!). These are great tools, and I'm thrilled they work so well with Rails.
+But for the first time in probably 15 years, the state of the art is no longer finding more sophisticated ways to build JavaScript or CSS. It's not to build at all. To lean on HTTP/2 and the now universal support for import maps to avoid bundling, and to lean on the fundamental progress in support for modern JavaScript and CSS to avoid compiling what browsers already know how to read.
+If you aren't wedded to React, Vue, or whatever, you should have a look at what's possible to build with Hotwire and No Build these days. You just might want to shed the weight of complexity and enjoy the lighter stack.]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Utah Sues TikTok, Alleging It Lures Children Into Addictive and Destructive Social Media Habits]]></title>
+        <id>https://yro.slashdot.org/story/23/10/11/1527259/utah-sues-tiktok-alleging-it-lures-children-into-addictive-and-destructive-social-media-habits?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/11/1527259/utah-sues-tiktok-alleging-it-lures-children-into-addictive-and-destructive-social-media-habits?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Utah became the latest state Tuesday to file a lawsuit against TikTok, alleging the company is "baiting" children into addictive and unhealthy social media habits. From a report: TikTok lures children into hours of social media use, misrepresents the app's safety and deceptively portrays itself as independent of its Chinese parent company, ByteDance, Utah claims in the lawsuit. "We will not stand by while these companies fail to take adequate, meaningful action to protect our children. We will prevail in holding social media companies accountable by any means necessary," Republican Gov. Spencer Cox said at a news conference announcing the lawsuit, which was filed in state court in Salt Lake City. Arkansas and Indiana have filed similar lawsuits while the U.S. Supreme Court prepares to decide whether state attempts to regulate social media platforms such as Facebook, X and TikTok violate the Constitution.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Gives Unexpected Tutorial on How To Install Linux]]></title>
+        <id>https://linux.slashdot.org/story/23/10/11/1521249/microsoft-gives-unexpected-tutorial-on-how-to-install-linux?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://linux.slashdot.org/story/23/10/11/1521249/microsoft-gives-unexpected-tutorial-on-how-to-install-linux?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-11T15:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Hell freezes over and pigs fly south to their winter feeding grounds. Microsoft has published guidance on how to download and install Linux. From a report: The Seattle-area proprietary OS vendor has published a helpful guide entitled "How to download and install Linux," inspiring reactions from incredulity to amusement. In the humble opinion of The Reg FOSS Desk, it really isn't bad at all. Microsoft suggests four alternative installation methods: using Windows Subsystem for Linux 2, using a local VM, using a cloud VM, or on bare metal. It almost feels cruel to criticize it, but it seems that this really amounts to two methods. WSL version 2 is a VM. It's right there in the screenshots, where it says: 
+
+Installing: Virtual Machine Platform
+Virtual Machine Platform has been installed. 
+
+So the choices boil down to either on the metal, or in a VM. That leaves only the question of what kind of VM: the built-in one, an add-on VM, or a cloud VM. Perhaps the subtext of the article is something more subtle. Could it be a tacit admission that you might need a free-of-charge OS for your PC? The Windows 10 upgrade program that began back in 2015 was meant to end a year later. In fact, it didn't. We described a documented workaround in 2016, but the free upgrades continued to work, even in 2020. Which? magazine reported it was still working in July 2023.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[GNOME Merge Requests Opened To Drop X11 Session Support]]></title>
         <id>https://tech.slashdot.org/story/23/10/10/2139213/gnome-merge-requests-opened-to-drop-x11-session-support?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8225,268 +8543,6 @@ Read more of this story at Slashdot.]]></summary>
         <link href="https://mobile.slashdot.org/story/23/09/12/139219/nokia-phone-maker-hmd-is-launching-its-own-smartphone-brand?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
         <updated>2023-09-12T13:10:00.000Z</updated>
         <summary type="html"><![CDATA[HMD Global, the Finnish company best known for producing Nokia-branded smartphones, has revealed plans to launch its own line of mobile devices. From a report: On Monday, HMD Global CEO Jean-Francois Baril announced on Linkedin that the company will be expanding its portfolio with a new HMD brand that will co-exist alongside its Nokia phones and collaborations with "exciting new partners" that have yet to be disclosed. "It has been a great journey as 'HMD -- the home of Nokia phones' -- an exclusive position we have held for the past six years," said Baril. "Now we are ready for the next step on our journey -- to enter the market independently as a force to create a new world for telecommunications focused on consumer needs."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adobe, Others Join White House's Voluntary Commitments on AI]]></title>
-        <id>https://news.slashdot.org/story/23/09/12/1154251/adobe-others-join-white-houses-voluntary-commitments-on-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/12/1154251/adobe-others-join-white-houses-voluntary-commitments-on-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-12T11:55:00.000Z</updated>
-        <summary type="html"><![CDATA[Adobe, IBM, Nvidia and five other firms have signed President Joe Biden's voluntary commitments governing artificial intelligence, which requires steps such as watermarking AI-generated content, the White House said. From a report: The original commitments, which were announced in July, were aimed at ensuring that AI's considerable power was not used for destructive purposes. Google, OpenAI and OpenAI partner Microsoft signed onto the commitments in July.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New Benchmark Tests Speed of Running AI Models]]></title>
-        <id>https://slashdot.org/story/23/09/12/0936220/new-benchmark-tests-speed-of-running-ai-models?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/12/0936220/new-benchmark-tests-speed-of-running-ai-models?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-12T09:35:00.000Z</updated>
-        <summary type="html"><![CDATA[An artificial intelligence benchmark group called MLCommons unveiled the results on Monday of new tests that determine how quickly top-of-the-line hardware can run AI models. From a report: A Nvidia chip was the top performer in tests on a large language model, with a semiconductor produced by Intel a close second. The new MLPerf benchmark is based on a large language model with 6 billion parameters that summarizes CNN news articles. The benchmark simulates the "inference" portion of AI data crunching, which powers the software behind generative AI tools. 
-
-Nvidia's top submission for the inference benchmark build around eight of its flagship H100 chips. Nvidia has dominated the market for training AI models, but hasn't captured the inference market yet. "What you see is that we're delivering leadership performance across the board, and again, delivering that leadership performance on all workloads," Nvidia's accelerated computing marketing director, Dave Salvator, said. Intel's success is based around its Gaudi2 chips produced by the Habana unit the company acquired in 2019. The Gaudi2 system was roughly 10% slower than Nvidia's system.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Credit Card Disputes Keep Rising at Visa as E-Commerce Booms]]></title>
-        <id>https://news.slashdot.org/story/23/09/12/0522249/credit-card-disputes-keep-rising-at-visa-as-e-commerce-booms?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/12/0522249/credit-card-disputes-keep-rising-at-visa-as-e-commerce-booms?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-12T05:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Credit card disputes at Visa continued rising past their pandemic boom despite the proliferation of prevention software, as fraud grows alongside e-commerce and inflation. From a report: Disputes on Visa's network rose to more than 90 million in 2022, data provided by the payment company showed. More than 70 million disputes were filed in 2019, Visa said in a presentation, before rising 24% in 2020 during the pandemic and about 2% a year in 2021 and 2022. 
-
-Despite being easy for consumers to file, making it one of the most-common credit card frauds, disputes are an opaque part of the payments industry. Both Mastercard Inc. and American Express declined to provide disputes data. Visa and Mastercard both bought dispute prevention companies in 2019, Verifi and Ethoca, respectively, and regularly promote their offerings at conferences. Disputes can be costly and onerous for both credit card companies and merchants to process, while chargebacks, when a dispute results in a refund, cost merchants dearly -- about $2.40 for every dollar disputed, according to Visa's Verifi, or as high as $3.36 for every dollar, according to Mastercard's Ethoca.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WhatsApp is Working on Cross-Platform Messaging]]></title>
-        <id>https://tech.slashdot.org/story/23/09/11/1913221/whatsapp-is-working-on-cross-platform-messaging?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/11/1913221/whatsapp-is-working-on-cross-platform-messaging?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-12T02:01:00.000Z</updated>
-        <summary type="html"><![CDATA[A WhatsApp for Android beta update (version 2.23.19.8) that came out today contains a new screen called Third-party chats, reports WABetaInfo. The Verge: For now, the screen is neither functional nor accessible by users, according to WABetaInfo. But its title is a strong clue that this is likely the first step to opening Meta's encrypted messages app to cross-platform compatibility. The beta comes just days after the European Commission confirmed that WhatsApp owner Meta meets the definition of a "gatekeeper" under the EU's Digital Markets Act (DMA), which requires communication software like WhatsApp to interoperate with third-party messaging apps by March 2024.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lockheed Risks $800 Million Withheld Over New F-35 Software]]></title>
-        <id>https://news.slashdot.org/story/23/09/11/197232/lockheed-risks-800-million-withheld-over-new-f-35-software?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/11/197232/lockheed-risks-800-million-withheld-over-new-f-35-software?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T22:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Lockheed Martin may see more than $800 million in payments withheld through next June until it wins approval for the software powering its most advanced version of the F-35, according to newly disclosed delivery figures. From a report: The No. 1 US defense contractor is on tap to finish production of about 52 of the upgraded TR-3 model fighter jets by Dec. 31 and approximately 12 per month after that, or 72 more by June 30, for as many as 124 jets, according to the data released Monday by Russ Goemaere, the Pentagon's spokesman on the F-35. 
-
-The Pentagon is withholding $7 million per aircraft until the new software is validated because the aircraft are being placed in storage until then. At 124 jets, that's $868 million. Last month, the Defense Department withheld $7 million on each of the first four upgraded F-35s. The aircraft needs the delay-plagued software upgrade to function fully with new cockpit hardware before it can carry more precise weapons and gather more information on enemy aircraft and air defenses. The upgrade will increase processing power 37 times and memory 20 times over the F-35's current capabilities.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instacart IPO Sets Valuation at Up To $9.3 Billion, Well Below the $39 Billion Pandemic High]]></title>
-        <id>https://slashdot.org/story/23/09/11/1756237/instacart-ipo-sets-valuation-at-up-to-93-billion-well-below-the-39-billion-pandemic-high?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/11/1756237/instacart-ipo-sets-valuation-at-up-to-93-billion-well-below-the-39-billion-pandemic-high?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Grocery delivery app Instacart set a target valuation that was way below its prior funding round in 2021, a sign of companies treading carefully as they test investor appetite for new listings. From a report: The San-Francisco based firm said Monday it's pricing its shares between $26 and $28 per share. Instacart said it has 279 million shares outstanding as of Aug. 15. Including the stock options and the restricted stock units of 20.45 million and 31.47 million, respectively, the total stock for the purpose of valuing the company comes to 331 million shares. This makes for a valuation between $8.6 billion to $9.3 billion, far below its valuation of $39 billion set in a fundraising round in 2021. The company's internal valuation last year in March was $24 billion, and in July was reduced to $15 billion to reflect the selloff in technology stocks, a person familiar with the matter had told Barron's.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europe's Economic Outlook Worsens as High Prices Plague Consumer Spending]]></title>
-        <id>https://slashdot.org/story/23/09/11/1817228/europes-economic-outlook-worsens-as-high-prices-plague-consumer-spending?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/11/1817228/europes-economic-outlook-worsens-as-high-prices-plague-consumer-spending?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T20:01:00.000Z</updated>
-        <summary type="html"><![CDATA[The European Union has lowered its forecast for economic growth this year and next, saying inflation is taking a heavy toll on people's willingness to spend in shops -- while higher interest rates are sharply restricting the credit needed for investment and purchases. From a report: The revised forecast Monday from the European Commission, the EU's executive arm, comes as fears of recession grow and as the European Central Bank faces a key decision this week on whether to keep raising rates, which are aimed at getting inflation under control. The 20 countries that use the euro currency are expected to see growth of 0.8% this year instead of 1.1% projected in the spring forecast, the commission said. For next year, growth expectations were lowered to 1.3% from 1.6%. For the broader 27-country EU, the forecast also was lowered to 0.8% from 1% this year and to 1.4% from 1.7% next year. 
-
-"Weakness in domestic demand, in particular consumption, shows that high and still increasing consumer prices for most goods and services are taking a heavier toll than expected," a commission statement said. EU Economy Commissioner Paolo Gentiloni said at a news conference that "further weakening in the coming months" was foreseen as the economy faces "multiple headwinds." One source of uncertainty is how far the ECB will go on interest rates -- more expensive credit restrains economic growth in some areas such as real estate, but if higher rates succeed in lowering inflation, that would boost consumer spending power.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft To Kill Off Third-Party Printer Drivers in Windows]]></title>
-        <id>https://hardware.slashdot.org/story/23/09/11/1828213/microsoft-to-kill-off-third-party-printer-drivers-in-windows?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/23/09/11/1828213/microsoft-to-kill-off-third-party-printer-drivers-in-windows?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has made it clear: it will ax third-party printer drivers in Windows. From a report: The death rattle will be lengthy, as the timeline for the end of servicing stretches into 2027 -- although Microsoft noted that the dates will be subject to change. There is, after all, always that important customer with a strange old printer lacking Mopria support. 
-
-Mopria is part of the Windows' teams justification for removing support. Founded in 2013 by Canon, HP, Samsung and Xerox, the Mopria Alliance's mission is to provide universal standards for printing and scanning. Epson, Lexmark, Adobe and Microsoft have also joined the gang since then. Since Windows 10 21H2, Microsoft has baked Mopria support into the flagship operating system, with support for devices connected via the network or USB, thanks to the Microsoft IPP Class driver. Microsoft said: "This removes the need for print device manufacturers to provide their own installers, drivers, utilities, and so on."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Copyright Office Denies Protection for Another AI-Created Image]]></title>
-        <id>https://slashdot.org/story/23/09/11/1711201/us-copyright-office-denies-protection-for-another-ai-created-image?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/11/1711201/us-copyright-office-denies-protection-for-another-ai-created-image?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T18:01:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. Copyright Office has again rejected copyright protection for art created using artificial intelligence, denying a request by artist Jason M. Allen for a copyright covering an award-winning image he created with the generative AI system Midjourney. From a report: The office said on Tuesday that Allen's science-fiction themed image "Theatre D'opera Spatial" was not entitled to copyright protection because it was not the product of human authorship. The Copyright Office in February rescinded copyrights for images that artist Kris Kashtanova created using Midjourney for a graphic novel called "Zarya of the Dawn," dismissing the argument that the images showed Kashtanova's own creative expression. 
-
-It has also rejected a copyright for an image that computer scientist Stephen Thaler said his AI system created autonomously. Allen said on Wednesday that the office's decision on his work was expected, but he was "certain we will win in the end." "If this stands, it is going to create more problems than it solves," Allen said. "This is going to create new and creative problems for the copyright office in ways we can't even speculate yet."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Cuts Ties With the Surface Duo After Just 2 Android Version Updates]]></title>
-        <id>https://slashdot.org/story/23/09/11/1652242/microsoft-cuts-ties-with-the-surface-duo-after-just-2-android-version-updates?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/11/1652242/microsoft-cuts-ties-with-the-surface-duo-after-just-2-android-version-updates?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft is done supporting the original Surface Duo, three years after it first launched on September 10. From a report: The company has stated from the very start that the Surface Duo would receive just three years of OS updates, meaning today is the last day that Microsoft has to stay true to its word. Going forward, Microsoft will no longer ship new OS updates or security patches for the original Surface Duo, meaning Android 12L is the last version of the OS it will ever officially receive. Surface Duo only ever got two major OS updates, one shy of the average three that most high-end flagship Android devices get these days.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tesla wins]]></title>
-        <id>https://world.hey.com/dhh/tesla-wins-e2d68ff3</id>
-        <link href="https://world.hey.com/dhh/tesla-wins-e2d68ff3"/>
-        <updated>2023-09-11T16:56:39.000Z</updated>
-        <summary type="html"><![CDATA[When we first got our Tesla Model X four years ago, I wasn't the biggest fan. Build quality was spotty, brakes didn't match the performance, and handling was at best so-so. But it could carry seven, including luggage, was electric, and the dual-motor acceleration was a hoot. So it stayed in the garage, pending competition on these criteria. Well, now we got a Mercedes EQS SUV, which also carries seven, is electric, and is fun-fast for its size. But the Tesla still wins!
-At least in judgement of the rest of the family. Their verdict was unanimous. The Tesla is "less fuzzy", "more fun", "has games", and even is "more comfortable". Now, personally, I appreciate the German build quality, prefer CarPlay over Tesla's UI, and love the quieter cabin. But I'm clearly in the minority. Even though the Mercedes is considerably more money, and brand new, the rest of the family would rather keep the Tesla.
-This is what the legacy car industry is up against. Most of its traditional virtues under attack by a huge portion of the market who just don't give a damn. To whom the fact that, for example, Tesla has a sense of humor trumps the minor niggles it might still have compared to the legacy competition. It's fascinating.
-And even for people like yours truly, who absolutely do appreciate those traditional virtues, it's becoming harder and harder to hate on Tesla. I mean look at the performance of the Plaid, with its 1,020 horsepower, and compare the fact that it's now a mere $90,000. For a car that'll beat a Bugatti Chiron, along with virtually every other car on the planet, in the quarter mile. That's just ridiculous.
-So the Model X is staying, and I've put down an order for a Model S Plaid. GG, Elon.]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lithuania Was the Country That Secretly Wiretapped the World for the FBI]]></title>
-        <id>https://news.slashdot.org/story/23/09/11/1546246/lithuania-was-the-country-that-secretly-wiretapped-the-world-for-the-fbi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/11/1546246/lithuania-was-the-country-that-secretly-wiretapped-the-world-for-the-fbi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Slash_Account_Dot shares a report: The FBI had a problem. In 2019 the agency was secretly running an encrypted phone company called Anom. Serious organized criminals were using the phones and Anom was gaining popularity. But even though Anom contained a backdoor -- a chunk of code that silently copied every message sent -- the FBI was unable to actually read Anom's messages. The FBI had not obtained legal approval to rummage through that treasure trove of intelligence. 
-
-[...] So the agency turned to what court records have described as a "third country," the first country being America and the second being Australia, which ran a beta test of the Anom surveillance operation. The third country allowed the FBI to overcome this legal hurdle. The country hosted the Anom interception server for the FBI, and then provided Anom's messages to American authorities every Monday, Wednesday, and Friday. That country "requested its participation be kept confidential," according to a document I previously obtained. The document said the third country was a European Union member but did not name the country itself. "The FBI is neither now nor in the future in a position to release the identity of the aforementioned third country," the document added. That country was Lithuania, 404 Media has learned from a source briefed on the operation but who did not work on it on the U.S. side.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sundar Pichai Says Google and Nvidia Will Still Be Working Together 10 Years From Now]]></title>
-        <id>https://tech.slashdot.org/story/23/09/11/151241/sundar-pichai-says-google-and-nvidia-will-still-be-working-together-10-years-from-now?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/11/151241/sundar-pichai-says-google-and-nvidia-will-still-be-working-together-10-years-from-now?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T15:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Sundar Pichai said Google's longstanding relationship with chipmaker Nvidia isn't going to change any time soon -- in fact, he expects it to continue over the next 10 years. From a report: In an interview Wired published Monday, the Google CEO said the company worked "deeply" with Nvidia on Android and other initiatives for over a decade, adding that Nvidia has a "strong track record" with AI innovation. "Look, the semiconductor industry is a very dynamic, cooperative industry," Pichai said. "It's an industry that needs deep, long-term R&D and investments. I feel comfortable about our relationship with Nvidia and that we are going to be working closely with them 10 years from now."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Renews Qualcomm Deal in Sign Its Own Modem Chip Isn't Ready]]></title>
-        <id>https://apple.slashdot.org/story/23/09/11/1356212/apple-renews-qualcomm-deal-in-sign-its-own-modem-chip-isnt-ready?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/09/11/1356212/apple-renews-qualcomm-deal-in-sign-its-own-modem-chip-isnt-ready?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-11T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple is extending an agreement to get modem semiconductors from Qualcomm for three more years, a sign that its ambitious effort to design the chips in-house is taking longer than expected. From a report: The new pact will cover "smartphone launches in 2024, 2025 and 2026," Qualcomm said in a statement Monday. The companies' agreement had been set to end this year, and the latest iPhone -- due on Tuesday -- was expected to be one of the last to rely on the Qualcomm modem chip. Instead, Qualcomm will maintain its lucrative position within Apple's supply chain. The iPhone maker is Qualcomm's largest customer -- accounting for nearly a quarter of revenue, according to data compiled by Bloomberg. And their relationship helps validate Qualcomm's claim to having the best smartphone modem, a critical component that allows devices to connect to the internet and make calls. Starting with the iPhone 12 generation, the chip has supported speedier 5G networks.
 
 
 
