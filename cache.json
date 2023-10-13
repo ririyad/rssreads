@@ -136,16 +136,6 @@
           "wordCount": 587,
           "title": "Keeping easy from becoming hard",
           "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
-        },
-        {
-          "id": "https://world.hey.com/jason/company-culture-is-the-last-50-days-dab19416",
-          "author": null,
-          "description": "There's nothing complicated about company culture.\n\n\nCulture simply happens. It's emergent behavior. There's nothing to do, it just is.\n\n\nA company's culture is a 50-day moving average. It's what you've been collectively doing as a company over the last 50 days.\n\n\nHow do you treat people? Who have you hired (or fired) and why? What do you when people are stressed out? How do you help people? How do you critique each other? How do you share? How do you help people who are stuck? Where's the bar on quality? How do you support customers? How do you close deals? What have you let go on too long? What have you celebrated? What have you let slide? How honest have you been with each other and yourself.\n\n\nIt's all that and a zillion other things. But it's all stuff that actually happened, it's not lists of things you wish had happened, or declared would happen in some ideal setting. Much of it is interpersonal, expressed both inside and outside the organization.\n\n\nWhy 50 days? It's enough time for patterns to emerge, yet malleable enough to be current and honest. One day, or even a couple weeks, isn't enough to stand for culture. A series of moments tied together loosely by near-term time just isn't enough to establish what it's really like somewhere. We can all be on our best behavior for a little while, but the longer while tells the truth.\n\n\nCulture is the non-fiction story of an organization. It writes itself.\n\n\n-Jason",
-          "link": "https://world.hey.com/jason/company-culture-is-the-last-50-days-dab19416",
-          "publishedOn": "2023-09-12T16:44:02.000Z",
-          "wordCount": 327,
-          "title": "Company culture is the last 50 days",
-          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
         }
       ]
     },
@@ -587,6 +577,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://news.slashdot.org/story/23/10/12/216230/europe-mulls-open-sourcing-tetra-emergency-services-encryption-algorithms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Jessica Lyons Hardcastle reports via The Register: The European Telecommunications Standards Institute (ETSI) may open source the proprietary encryption algorithms used to secure emergency radio communications after a public backlash over security flaws found this summer. \"The ETSI Technical Committee in charge of TETRA algorithms is discussing whether to make them public,\" Claire Boyer, a spokesperson for the European standards body, told The Register. The committee will discuss the issue at its next meeting on October 26, she said, adding: \"If the consensus is not reached, it will go to a vote.\"\n \nTETRA is the Terrestrial Trunked Radio protocol, which is used in Europe, the UK, and other countries to secure radio communications used by government agencies, law enforcement, military and emergency services organizations. In July, a Netherlands security biz uncovered five vulnerabilities in TETRA, two deemed critical, that could allow criminals to decrypt communications, including in real-time, to inject messages, deanonymize users, or set the session key to zero for uplink interception. At the time ETSI downplayed the flaws, which it said had been fixed last October, and noted that \"it's not aware of any active exploitation of operational networks.\"\n \nAt the time ETSI downplayed the flaws, which it said had been fixed last October, and noted that \"it's not aware of any active exploitation of operational networks.\" It did, however, face criticism from the security community over its response to the vulnerabilities -- and the proprietary nature of the encryption algorithms, which makes it more difficult for proper pentesting of the emergency network system. \"This whole idea of secret encryption algorithms is crazy, old-fashioned stuff,\" said security author Kim Zetter who first reported the story. \"It's very 1960s and 1970s and quaint. If you're not publishing [intentionally] weak algorithms, I don't know why you would keep the algorithms secret.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/12/216230/europe-mulls-open-sourcing-tetra-emergency-services-encryption-algorithms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T00:45:00.000Z",
+          "wordCount": 4003,
+          "title": "Europe Mulls Open Sourcing TETRA Emergency Services' Encryption Algorithms",
+          "imageUrl": "https://a.fsdn.com/sd/topics/opensource_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/12/210211/act-test-scores-for-us-students-drop-to-a-30-year-low?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from NPR: High school students' scores on the ACT college admissions test have dropped to their lowest in more than three decades, showing a lack of student preparedness for college-level coursework, according to the nonprofit organization that administers the test. Scores have been falling for six consecutive years, but the trend accelerated during the COVID-19 pandemic. Students in the class of 2023 whose scores were reported Wednesday were in their first year of high school when the virus reached the U.S.\n \nThe average ACT composite score for U.S. students was 19.5 out of 36. Last year, the average score was 19.8. The average scores in reading, science and math all were below benchmarks the ACT says students must reach to have a high probability of success in first-year college courses. The average score in English was just above the benchmark but still declined compared to last year.\n \nAbout 1.4 million students in the U.S. took the ACT this year, an increase from last year. However, the numbers have not returned to pre-pandemic levels. [Janet Godwin, chief executive officer for the nonprofit ACT] said she doesn't believe those numbers will ever fully recover, partly because of test-optional admission policies. Of students who were tested, only 21% met benchmarks for success in college-level classes in all subjects. Research from the nonprofit shows students who meet those benchmarks have a 50% chance of earning a B or better and nearly a 75% chance of earning a C or better in corresponding courses. Further reading: Accounting Graduates Drop By Highest Percentage in Years\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/12/210211/act-test-scores-for-us-students-drop-to-a-30-year-low?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T00:02:00.000Z",
+          "wordCount": 4352,
+          "title": "ACT Test Scores For US Students Drop To a 30-Year Low",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/12/2055222/google-removes-the-photo-sphere-mode-from-the-pixel-8-camera?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Since 2012, Google Pixel phones have had a Photo Sphere Mode, allowing users to capture 360-degree images. Now, according to Android Authority, Google has dropped the feature from the Pixel 8 series with no explanation given. From the report: Photo Sphere Mode allowed you to capture panoramic 360-degree pictures by stitching multiple images together. The feature was first introduced back in 2012 on the Nexus 4 and persisted well into the Pixel era, with the likes of the Pixel Fold and Pixel 7a still offering it. The act of capturing a Photo Sphere wasn't exactly seamless owing to the sheer number of images required, although it had an admittedly intuitive UI. Significant stitching issues and exposure/white balance differences were also very common.\n \nWe're therefore not surprised Google has decided to drop the feature. Even without taking the aforementioned issues into account, the mode's utility seemed limited beyond some scenarios like mapping purposes (e.g. viewing environments in Google Maps) and VR. In saying so, we hope the company rebounds with a more polished take on 360-degree photos in the future.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/12/2055222/google-removes-the-photo-sphere-mode-from-the-pixel-8-camera?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T23:20:00.000Z",
+          "wordCount": 4249,
+          "title": "Google Removes the Photo Sphere Mode From the Pixel 8 Camera",
+          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/23/10/12/2050229/higher-quality-av1-video-encoding-now-available-for-radeon-graphics-on-linux?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Michael Larabel reports via Phoronix: For those making use of GPU-accelerated AV1 video encoding with the latest AMD Radeon graphics hardware on Linux, the upcoming Mesa 23.3 release will support the high-quality AV1 preset for offering higher quality encodes. Merged this week to Mesa 23.3 are the RadeonSI Video Core Next (VCN) changes for supporting the high quality AV1 encoding mode preset.\n \nMesa 23.3 will be out as stable later this quarter for those after slightly higher quality AV1 encode support for Radeon graphics on this open-source driver stack alongside many other recent Mesa driver improvements especially on the Vulkan side with Radeon RADV and Intel ANV.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://linux.slashdot.org/story/23/10/12/2050229/higher-quality-av1-video-encoding-now-available-for-radeon-graphics-on-linux?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T22:40:00.000Z",
+          "wordCount": 3852,
+          "title": "Higher Quality AV1 Video Encoding Now Available For Radeon Graphics On Linux",
+          "imageUrl": "https://a.fsdn.com/sd/topics/graphics_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/12/2047215/new-york-seeks-to-limit-social-medias-grip-on-childrens-attention?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from the New York Times: New York State officials on Wednesday unveiled a bill to protect young people from potential mental health risks by prohibiting minors from accessing algorithm-based social media feeds unless they have permission from their parents. Gov. Kathy Hochul and Letitia James, the state attorney general, announced their support of new legislation to crack down on the often inscrutable algorithms, which they argue are used to keep young users on social media platforms for extended periods of time -- sometimes to their detriment. If the bill is passed and signed into law, anyone under 18 in New York would need parental consent to access those feeds on TikTok, Instagram, Facebook, YouTube, X and other social media platforms that use algorit…",
+          "link": "https://tech.slashdot.org/story/23/10/12/2047215/new-york-seeks-to-limit-social-medias-grip-on-childrens-attention?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T22:00:00.000Z",
+          "wordCount": 5460,
+          "title": "New York Seeks To Limit Social Media's Grip On Children's Attention",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/12/1930230/accounting-graduates-drop-by-highest-percentage-in-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The pool of U.S. students who completed accounting degrees dropped sharply in the latest available academic year as more workers in the profession retire without an adequate pipeline of entrants to fill the gap. From a report: Roughly 47,070 students earned a bachelor's degree in accounting in the 2021 to 2022 academic year, down 7.8% from the prior year, according to an annual report released Thursday by the American Institute of Certified Public Accountants, a professional organization. About 18,240 students received a master's degree in that academic year, down 6.4% from the prior year. That is compared with drops of 2.8% and 4.7% for graduates with bachelor's and master's degrees in accountants in the prior-year period, respectively. \n\nOverall, the number of U.S. accounting graduates with either degree dropped 7.4% to 65,305 in the 2021 to 2022 year, the largest drop in a single year since at least the 1994 to 1995 year, when 51,622 students graduated in accounting, a review of AICPA data showed. Fewer people are selecting accounting as their career, citing low salaries compared with industries such as tech and banking. Young workers are wary of the requirement of 150 college credit hours for getting a certified public accountant license, posing additional costs and time commitment.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/12/1930230/accounting-graduates-drop-by-highest-percentage-in-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T21:20:00.000Z",
+          "wordCount": 4980,
+          "title": "Accounting Graduates Drop By Highest Percentage in Years",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/12/1928238/who-runs-the-best-us-schools-it-may-be-the-defense-department?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Schools for children of military members achieve results rarely seen in public education. From a report: Amy Dilmar, a middle-school principal in Georgia, is well aware of the many crises threatening American education. The lost learning that piled up during the coronavirus pandemic. The gaping inequalities by race and family income that have only gotten worse. A widening achievement gap between the highest- and lowest-performing students. But she sees little of that at her school in Fort Moore, Ga. The students who solve algebra equations and hone essays at Faith Middle School attend one of the highest-performing school systems in the country. It is run not by a local school board or charter network, but by the Defense Department. With about 66,000 students -- more than the public school …",
+          "link": "https://news.slashdot.org/story/23/10/12/1928238/who-runs-the-best-us-schools-it-may-be-the-defense-department?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T20:40:00.000Z",
+          "wordCount": 8944,
+          "title": "Who Runs the Best US Schools? It May Be the Defense Department",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/12/1842233/cloud-gaming-firm-shadow-says-hackers-stole-customers-personal-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "French technology company Shadow has confirmed a data breach involving customers' personal information. TechCrunch: The Paris-headquartered startup, which offers gaming through its cloud-based PC service, said in an email to customers this week that hackers had accessed their personal information after a successful social engineering attack targeted the company. \"At the end of September, we were the victim of a social engineering attack targeting one of our employees,\" Shadow CEO Eric Sele said in the email, seen by TechCrunch. \"This highly sophisticated attack began on the Discord platform with the downloading of malware under cover of a game on the Steam platform, proposed by an acquaintance of our employee, himself a victim of the same attack.\" \n\nShadow said that though its security team took unspecified \"immediate action,\" the hackers were able to connect to the management interface of one of the company's software-as-a-service (SaaS) providers to obtain customers' private data. That data includes full names, email addresses, dates of birth, billing addresses and credit card expiry dates. Shadow says no passwords or sensitive banking data were compromised.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/12/1842233/cloud-gaming-firm-shadow-says-hackers-stole-customers-personal-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T20:05:00.000Z",
+          "wordCount": 4488,
+          "title": "Cloud Gaming Firm Shadow Says Hackers Stole Customers' Personal Data",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/12/195231/openai-has-quietly-changed-its-core-values?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "ChatGPT creator OpenAI quietly revised all of the \"Core values\" listed on its website in recent weeks, putting a greater emphasis on the development of AGI -- artificial general intelligence. From a report: CEO Sam Altman has described AGI as \"the equivalent of a median human that you could hire as a co-worker.\" OpenAI's careers page previously listed six core values for its employees, according to a September 25 screenshot from the Internet Archive. They were Audacious, Thoughtful, Unpretentious, Impact-driven, Collaborative, and Growth-oriented. The same page now lists five values, with \"AGI focus\" being the first. \"Anything that doesn't help with that is out of scope,\" the website reads. The others are Intense and scrappy, Scale, Make something people love, and Team spirit.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/12/195231/openai-has-quietly-changed-its-core-values?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T19:22:00.000Z",
+          "wordCount": 6974,
+          "title": "OpenAI Has Quietly Changed Its 'Core Values'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/10/12/1819232/xbox-game-studios-could-use-board-games-to-revisit-dormant-franchises?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft could use board games to revisit dormant franchises owned by Xbox Game Studios, with Zoo Tycoon: The Board Game potentially being the first of many. From a report: Zoo Tycoon was developed by Elite: Dangerous studio Frontier Developments and published by Microsoft Studios (the previous name for Xbox Game Studios), on November 22, 2013 for Xbox One and Xbox 360. Speaking to Xbox Wire, Xbox Game Studios executive producer Robert Jerauld said this board game adaptation is a \"prime illustration\" of how Microsoft could expand its franchises that don't have video games in active development. \"It's crucial to recognize that even if certain franchises aren't currently undergoing active development, they can still be actively appreciated by their fans,\" Jerauld said. \n\n\"Zoo Tycoon serves as a prime illustration of this. It presents a valuable chance for Microsoft to extend gratitude to the dedicated and ardent Zoo Tycoon fans who have worked tirelessly to sustain the game's enchantment. We acknowledge your dedication and deeply appreciate you.\" While Jerauld didn't say if he had any other dormant franchises in mind, Xbox certainly has a wealth to choose from. These could include Banjo-Kazooie, Viva Pinata, Blinx: The Time Sweeper, Project Gotham Racing, MechAssault and plenty more. There are some bigger names that haven't seen a release in a long time, of course, but many of these currently have sequels in development at Xbox.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/10/12/1819232/xbox-game-studios-could-use-board-games-to-revisit-dormant-franchises?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T18:45:00.000Z",
+          "wordCount": 4173,
+          "title": "Xbox Game Studios Could Use Board Games To Revisit Dormant Franchises",
+          "imageUrl": "https://a.fsdn.com/sd/topics/xbox_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/12/1814210/google-to-defend-generative-ai-users-from-copyright-claims?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google said on Thursday that it will defend users of generative AI systems in its Google Cloud and Workspace platforms if they are accused of intellectual property violations, joining Microsoft, Adobe and other companies that have made similar pledges. From a report: Major technology companies like Google have been investing heavily in generative AI and racing to incorporate it into their products. Prominent writers, illustrators and other copyright owners have said in several lawsuits that both the use of their work to train the AI systems and the content the systems create violate their rights. \"To our knowledge, Google is the first in the industry to offer a comprehensive, two-pronged approach to indemnity\" that specifically covers both types of claims, a company spokesperson said. Google said its new policy applies to software, including its Vertex AI development platform and Duet AI system, which generates text and images in Google Workspace and Cloud programs.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/12/1814210/google-to-defend-generative-ai-users-from-copyright-claims?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T18:13:00.000Z",
+          "wordCount": 4772,
+          "title": "Google To Defend Generative AI Users From Copyright Claims",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/12/1624202/you-can-now-generate-ai-images-directly-in-the-google-search-bar?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google announced Thursday that users who have opted-in for its Search Generative Experience (SGE) will be able to create AI images directly from the standard Search bar. From a report: SGE is Google's vision for our web searching future. Rather than picking websites from a returned list, the system will synthesize a (reasonably) coherent response to the user's natural language prompt using the same data that the list's links led to. Thursday's updates are a natural expansion of that experience, simply returning generated images (using the company's Imagen text-to-picture AI) instead of generated text. Users type in a description of what they're looking for (a Capybara cooking breakfast, in Google's example) and, within moments, the engine will create four alternatives to pick from and refine further. Users will also be able to export their generated images to Drive or share them via email.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/12/1624202/you-can-now-generate-ai-images-directly-in-the-google-search-bar?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T17:20:00.000Z",
+          "wordCount": 4934,
+          "title": "You Can Now Generate AI Images Directly in the Google Search Bar",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/12/1612256/half-a-billion-cheap-electrical-items-go-to-uk-landfills-in-a-year-research-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Almost half a billion small, cheap electrical everyday items from headphones to handheld fans ended up in landfill in the UK in the past year, according to research. The Guardian: The not-for-profit organisation Material Focus, which conducted the research, said the scale of the issue was huge and they wanted to encourage more recycling. More than half a billion cheaply priced electronic goods were bought in the UK in the past year alone -- 16 per second. Material Focus findings showed that of these items, 471m were thrown away. This included 260m disposable vapes, 26m cables, 29m LED, solar and decorative lights, 9.8m USB sticks, and 4.8m miniature fans. \n\nScott Butler, executive director at Material Focus, described it as \"fast tech.\" He said: \"People should think carefully about buying some of the more frivolous ... items in the first place.\" He said the items people bought were often \"cheap and small,\" and that consumers may not realise they contain valuable materials that could be salvaged if recycled. Small electricals can contain precious materials including copper, lithium and stainless steel. These components can be recycled and used in wind turbines, medical devices and electric vehicles. Material Focus said that while people were used to the idea of recycling larger electrical items such as fridges, lots of smaller devices were left unused in houses.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/12/1612256/half-a-billion-cheap-electrical-items-go-to-uk-landfills-in-a-year-research-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T16:40:00.000Z",
+          "wordCount": 8560,
+          "title": "Half a Billion Cheap Electrical Items Go To UK Landfills in a Year, Research Finds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/12/160241/microsoft-calls-off-onedrive-photo-pocalypse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "After Microsoft recently imposed storage limits for photos in a user's OneDrive account, Microsoft has now reversed course after receiving a barrage of backlash. From a report: In August, Microsoft announced that photos in a user's OneDrive Gallery and in each of their saved photo albums would count separately toward the company's cloud-based limit of five gigabytes, according to Neowin. The update was expected to roll out on October 16, which would force some users to encounter storage ceilings as the extra data was added to their OneDrive, preventing additional files from syncing. Customers were surprised by the abrupt policy change, so surprised in fact that the company caved to user backlash and recently announced that the change was no longer on the table. \n\n\"On August 31, 2023, we began to communicate an upcoming update to our cloud storage infrastructure that would result in a change in how OneDrive photos and photo albums data is counted against your overall cloud storage quota,\" Microsoft said in an email to customers, which has also been posted to the company's Support page. \"This change was scheduled to start rolling out on October 16, 2023. Based on the feedback we received, we have adjusted our approach, we will no longer roll out this update.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/12/160241/microsoft-calls-off-onedrive-photo-pocalypse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T16:00:00.000Z",
+          "wordCount": 4496,
+          "title": "Microsoft Calls Off OneDrive Photo-pocalypse",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/12/1524243/youtube-tv-which-costs-73-a-month-agrees-to-end-600-less-than-cable-ads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google has agreed to stop advertising YouTube TV as \"$600 less than cable\" after losing an appeal of a previous ruling that went against the company. Google said it will \"modify or cease the disputed advertising claim.\" From a report: The case was handled in the advertising industry's self-regulatory system, not in a court of law. The National Advertising Review Board (NARB) announced today that it rejected Google's appeal and recommended that the company discontinue the YouTube TV claim. YouTube TV launched in 2017 for $35 a month, but the base package is $72.99 after the latest price hike in March 2023. Google's \"$600 less than cable\" claim was challenged by Charter, which uses the brand name Spectrum and is the second-biggest cable company after Comcast. The National Advertising Division (NAD) previously ruled in Charter's favor but Google appealed the decision to the NARB in August. \n\n\"Charter contended the $600 figure was inaccurate, arguing that its Spectrum TV Select service in Los Angeles only cost around $219 a year more than Google's YouTube TV service,\" according to a MediaPost article in August. A Google ad claimed that YouTube TV provided $600 in \"annual average savings\" compared to cable as of January 2023. A disclosure on the ad said the price was for \"new users only\" and that the $600 annual savings was \"based on a study by SmithGeiger of the published cost of comparable standalone cable in the top 50 Nielsen DMAs, including all fees, taxes, promotion pricing, DVR box rental and service fees, and a 2nd cable box.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/12/1524243/youtube-tv-which-costs-73-a-month-agrees-to-end-600-less-than-cable-ads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-12T15:24:00.000Z",
+          "wordCount": 4996,
+          "title": "YouTube TV, Which Costs $73 a Month, Agrees To End '$600 Less Than Cable' Ads",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
         {
           "id": "https://developers.slashdot.org/story/23/10/11/2139242/ftx-used-python-code-to-fake-its-insurance-fund-figure?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4626,116 +4766,6 @@
           "wordCount": 4893,
           "title": "Mozilla Patches Firefox, Thunderbird Against Zero-Day Exploited in Attacks",
           "imageUrl": "https://a.fsdn.com/sd/topics/mozilla_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/09/13/1226205/apple-is-killing-the-iphones-silent-switch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The ring/silent switch has been on the iPhone since the very first one was announced in 2007 by Steve Jobs, but now the writing is on the wall for the device's last significant moving part. From a report: With its replacement by a haptic \"action button,\" it's just a matter of time before the rest of the lineup is as smooth as a pebble from the river. At today's iPhone event, the no doubt long-contemplated change was announced with little fanfare, selling the new button as a customizable shortcut to anything the user wants. Launch the camera, or an assistance feature, or a particular app, etc. Seems useful in some ways, especially for accessibility. But I mourn the loss of this switch the way I do every time they compromise the hardware design of Apple devices. Removing TouchID is one such choice I still hold out hope they will reverse. The haptic touchpads in MacBooks is not something I enjoy compared to the actual depression of the originals, though it's probably a net benefit repair-wise. The attempt to unify under a single port was unsuccessful in everything but driving dongle sales. They have tried and failed to kill the magnetic power connector.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/09/13/1226205/apple-is-killing-the-iphones-silent-switch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T12:30:00.000Z",
-          "wordCount": 8807,
-          "title": "Apple is Killing the iPhone's Silent Switch",
-          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/12/1958254/cryptoqueen-sidekick-gets-20-years-for-4-billion-ponzi?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The cofounder and main promoter of the $4 billion OneCoin pyramid scheme was sentenced to 20 years in prison for his role in one of the first and biggest criminal frauds involving cryptocurrency. Bloomberg: Karl Sebastian Greenwood, 46, was sentenced in New York Tuesday, after pleading guilty in December to creating and promoting a phony cryptocurrency. Greenwood was the wingman of Ruja Ignatova, the so-called \"Cryptoqueen\" and most wanted crypto fugitive in the world. US District Judge Edgardo Ramos called the fraud \"massive in many respects,\" noting that OneCoin had no blockchain, no real cryptocoin and no trading market. Victims could not withdraw their investments and most face the likelihood they'll never get any of their money back. \"At base, it involved nothing more than old-fashioned snake oil,\" the judge said. Greenwoood's sentencing closes one chapter of the OneCoin case, which authorities describe as one of the largest pyramid schemes in history. It impacted 3.5 million victims across the globe and foreshadowed a broader crackdown on crime in the cryptocurrency markets.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/12/1958254/cryptoqueen-sidekick-gets-20-years-for-4-billion-ponzi?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T23:00:00.000Z",
-          "wordCount": 4269,
-          "title": "'Cryptoqueen' Sidekick Gets 20 Years For $4 Billion Ponzi",
-          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/12/203233/google-says-its-no-1-search-tool-because-users-prefer-it-to-rivals?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Companies choose Alphabet's Google as the default search engine for their browsers and smartphones because it is the best one, and not because of a lack of competition, a Google lawyer said Tuesday at the start of a high-stakes antitrust trial in Washington. From a report: Consumers use Google \"because it delivers value to them, not because they have to,\" John Schmidtlein, a partner at Williams & Connolly LLP who is representing the company, said during his opening statements on the first day of the trial. \"Users today have more search options and ways to access information online than ever before.\" \n\nSchmidtlein pushed back on claims by US Justice Department antitrust enforcers that Google has used its market power -- and billions of dollars in exclusive deals with web browsers -- to illegally block rivals. Users have choices, and it's easy to switch, he said. For example, Microsoft pre-selects its own search engine, Bing, on Windows PCs, yet most PC users switch to Google because it's a better product, he said. Web browsers offered by Apple and Mozilla, which makes Firefox, have long chosen a default search engine in exchange for a revenue-share that helps pay for innovations, Schmidtlein said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/12/203233/google-says-its-no-1-search-tool-because-users-prefer-it-to-rivals?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T20:00:00.000Z",
-          "wordCount": 11236,
-          "title": "Google Says It's No. 1 Search Tool Because Users Prefer It to Rivals",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/09/12/1954222/apple-launches-iphone-15-pro-and-pro-max-featuring-titanium-bodies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple just announced its new high-end iPhones: the iPhone 15 Pro and 15 Pro Max. The Verge: They're made of titanium, they have Action Buttons, and Apple promises they're the most powerful smartphones Apple has ever made. The 15 Pro starts at $999 with 128GB of storage, and the Pro Max at $1,199 with 256GB of storage. Both will be available for preorder this Friday and on sale September 22nd. This year's Pro has a 6.1-inch screen, and the Pro Max has a 6.7-inch display -- same as the new iPhone 15 and 15 Plus. Both are powered by the A17 Pro chip, which Apple says has the fastest performance in any smartphone and can even challenge some high-end PCs. Along with a redesigned GPU, Apple seems to think these devices could be poised to level up the kinds of games you can play on your phone.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/09/12/1954222/apple-launches-iphone-15-pro-and-pro-max-featuring-titanium-bodies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T20:00:00.000Z",
-          "wordCount": 7992,
-          "title": "Apple Launches iPhone 15 Pro and Pro Max Featuring Titanium Bodies",
-          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/12/150213/zara-finds-shoplifters-outsmarted-its-new-security-system?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Inditex is racing to iron bugs out of a new anti-shoplifting system for its Zara stores, slightly delaying its rollout partly because the security tags were easy to identify and remove in initial tests, Bloomberg reported Tuesday, citing people familiar with the matter. From the report: Chief Executive Officer Oscar Garcia Maceiras unveiled the new technology in March and pledged to roll it out for tests in all Zara stores worldwide over the summer. The system relies on tiny chips known as RFID, doing away with the hard plastic tags on garments that require checkout clerks to remove them. The new technology has run into teething issues. Staff in several countries have raised concerns to management that the technology may actually make theft easier, according to the people, who asked not to be identified.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/09/12/150213/zara-finds-shoplifters-outsmarted-its-new-security-system?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T19:00:00.000Z",
-          "wordCount": 7866,
-          "title": "Zara Finds Shoplifters Outsmarted Its New Security System",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/09/12/180244/apple-announces-iphone-15-with-usb-c?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple has just announced the iPhone 15 and 15 Plus, and the big news is a USB-C port. From a report: We've been waiting for the day that the iPhone would switch to the widely used USB-C standard instead of Apple's proprietary Lightning connector. Apple confirmed last year that it would make the change to USB-C to comply with the European Union's upcoming regulations, and the iPhone 15 is now the first iPhone to make the switch. The iPhone 15 is priced starting at $799 for a 128GB model and the iPhone 15 Plus starts at $899 for a 128GB version. \n\nUSB-C is good news, but if you were hoping for a totally new iPhone 15 design, well, that's not happening this year. This year's iPhone looks largely the same as the iPhone 14 before it, with the iPhone 15 continuing to use a 6.1-inch display. All models of the iPhone 15 will come with the Dynamic Island. That's the pill-shaped cutout that first debuted on the iPhone 14 Pro and Pro Max, providing a new way to see certain notifications and interact with apps. The iPhone 15 also has an OLED Super Retina display, which supports Dolby Vision content with 1,600 nits of brightness. The peak brightness of this display is 2,000 nits in sunlight, double that of the iPhone 14.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/09/12/180244/apple-announces-iphone-15-with-usb-c?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T18:01:00.000Z",
-          "wordCount": 13529,
-          "title": "Apple Announces iPhone 15 with USB-C",
-          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/12/1438234/world-bank-spent-billions-of-dollars-backing-fossil-fuels-in-2022-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The World Bank poured billions of dollars into fossil fuels around the world last year despite repeated promises to refocus on shifting to a low-carbon economy, research has suggested. From a report: The money went through a special form of funding known as trade finance, which is used to facilitate global transactions. Urgewald, a campaign group that tracks global fossil fuel finance, found that the World Bank supplied about $3.7bn in trade finance in 2022 that was likely to have ended up funding oil and gas developments. \n\nHeike Mainhardt, the author of the research, called for reform of the World Bank and its private finance arm, the International Finance Corporation (IFC), to make such transactions more transparent and to exclude funding for fossil fuels from its lending. \"They can't say that they are aligned with the Paris agreement, because there isn't enough transparency to be able to tell,\" she said. Fossil fuel companies would take advantage of this, she added. \"They can see that they can access public money this way, without drawing attention to themselves, and they're very clever, so they will do this,\" she told the Guardian. Trade finance is a form of funding more opaque than standard project finance. Whereas project finance usually flows to governments, organisations or consortiums for a particular well-defined purpose and is relatively easy to track, trade finance is more diffuse.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/12/1438234/world-bank-spent-billions-of-dollars-backing-fossil-fuels-in-2022-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T17:00:00.000Z",
-          "wordCount": 12409,
-          "title": "World Bank Spent Billions of Dollars Backing Fossil Fuels in 2022, Study Finds",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/12/1456243/california-lawmakers-approve-nations-most-sweeping-emissions-disclosure-rules-for-big-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Major corporations from oil and gas companies to retail giants would have to disclose their direct greenhouse gas emissions as well as those that come from activities like employee business travel under legislation passed Monday by California lawmakers, the most sweeping mandate of its kind in the nation. From a report: The legislation would require thousands of public and private businesses that operate in California and make more than $1 billion annually to report their direct and indirect emissions. The goal is to increase transparency and nudge companies to evaluate how they can cut their emissions. \"We are out of time on addressing the climate crisis,\" Democratic Assemblymember Chris Ward said. \"This will absolutely help us take a leap forward to be able to hold ourselves accountable.\" \n\nThe legislation was one of the highest profile climate bills in California this year, racking support from major companies that include Patagonia and Apple, as well as Christiana Figueres, former executive secretary of the United Nations convention behind the 2015 Paris climate agreement. The bill would still need final approval by the state Senate before it can reach Democratic Gov. Gavin Newsom. Lawmakers backing the bill say a large number of companies in the state already disclose some of their own emissions. But the bill is a controversial proposal that many other businesses and groups in the state oppose and say will be too burdensome.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/12/1456243/california-lawmakers-approve-nations-most-sweeping-emissions-disclosure-rules-for-big-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T16:00:00.000Z",
-          "wordCount": 11150,
-          "title": "California Lawmakers Approve Nation's Most Sweeping Emissions Disclosure Rules for Big Business",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/12/1443255/google-pays-10-billion-a-year-to-maintain-monopoly-us-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Alphabet's Google pays more than $10 billion a year to maintain its position as the default search engine on web browsers and mobile devices, stifling competition, the US Justice Department said Tuesday at the start of a high-stakes antitrust trial in Washington. From a report: \"This case is about the future of the internet and whether Google's search engine will ever face meaningful competition,\" Kenneth Dintzer, a government lawyer, said in his opening statement. \"The evidence will show they demanded default exclusivity to block rivals.\" Dintzer said Google became a monopoly by at least 2010 and today controls more than 89% of the online search market. \n\n\"The company pays billions for defaults because they are uniquely powerful,\" he said. \"For the last 12 years, Google has abused its monopoly in general search.\" The monopolization trial is the first pitting the federal government against a US technology company in more than two decades. The Justice Department and 52 attorneys general from states and US territories allege Google illegally maintained its monopoly by paying billions to tech rivals, smartphone makers and wireless providers in exchange for being set as the preselected option or default on mobile phones and web browsers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/12/1443255/google-pays-10-billion-a-year-to-maintain-monopoly-us-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T14:43:00.000Z",
-          "wordCount": 8210,
-          "title": "Google Pays $10 Billion a Year To Maintain Monopoly, US Says",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/12/1359229/intel-unveils-thunderbolt-5-standard-for-high-speed-connectivity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Intel has unveiled Thunderbolt 5, the latest iteration of its a standard aimed at enabling super-fast connectivity. From a report: With Thunderbolt 5, Intel promises a significant leap in connectivity speed and bandwidth, delivering enhanced performance for computer users. The unveiling of a prototype laptop and dock accompanied the announcement, providing a glimpse into the future of Thunderbolt technology. \n\nThunderbolt 5 will offer an impressive 80 gigabits per second (Gbps) of bi-directional bandwidth, enabling lightning-fast data transfer and connectivity. Additionally, with the introduction of Bandwidth Boost, Thunderbolt 5 will reach up to 120 Gbps, ensuring an unparalleled display experience for users. These advancements represent two to three times more bandwidth than Thunderbolt 4. And it can deliver up to 240 watts of power.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/09/12/1359229/intel-unveils-thunderbolt-5-standard-for-high-speed-connectivity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T14:00:00.000Z",
-          "wordCount": 7458,
-          "title": "Intel Unveils Thunderbolt 5 Standard for High-Speed Connectivity",
-          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
-        },
-        {
-          "id": "https://mobile.slashdot.org/story/23/09/12/139219/nokia-phone-maker-hmd-is-launching-its-own-smartphone-brand?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "HMD Global, the Finnish company best known for producing Nokia-branded smartphones, has revealed plans to launch its own line of mobile devices. From a report: On Monday, HMD Global CEO Jean-Francois Baril announced on Linkedin that the company will be expanding its portfolio with a new HMD brand that will co-exist alongside its Nokia phones and collaborations with \"exciting new partners\" that have yet to be disclosed. \"It has been a great journey as 'HMD -- the home of Nokia phones' -- an exclusive position we have held for the past six years,\" said Baril. \"Now we are ready for the next step on our journey -- to enter the market independently as a force to create a new world for telecommunications focused on consumer needs.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://mobile.slashdot.org/story/23/09/12/139219/nokia-phone-maker-hmd-is-launching-its-own-smartphone-brand?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-12T13:10:00.000Z",
-          "wordCount": 4963,
-          "title": "Nokia Phone Maker HMD is Launching Its Own Smartphone Brand",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
         }
       ]
     }
