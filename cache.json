@@ -41,6 +41,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/we-tried-that-didn-t-work-d9c42fe1",
+          "author": null,
+          "description": "In our quest for making programming simpler, faster, and prettier, no logical fallacy provides as much of an obstacle as “we tried that, didn’t work”. The fallacy that past failed attempts dictates the scope of what's possible.\nThat just because someone, somewhere, one time attempted something similar and failed, nobody else should try. That lowering our collective ambition to whatever was unachievable by others is somehow good.\nThere would be no human progress if we all quit trying after any unsuccessful attempt.\nThis fallacy is bad enough when it talks about what hasn’t yet successfully been achieved, but it’s downright bewildering when it’s trotted out to refute the reality of what’s already been proven possible.\nTake the example of building fast, modern web applications with #NoBuild J…",
+          "link": "https://world.hey.com/dhh/we-tried-that-didn-t-work-d9c42fe1",
+          "publishedOn": "2023-10-13T07:04:41.000Z",
+          "wordCount": 670,
+          "title": "We tried that, didn’t work",
+          "imageUrl": "https://world.hey.com/dhh/d9c42fe1/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2V2TFJoVCIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--e697dbe827ce58b23055c56cd47ae55171ea79d8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/F8QLrHdXsAAqr9D.jpeg"
+        },
+        {
           "id": "https://world.hey.com/dhh/you-can-t-get-faster-than-no-build-7a44131c",
           "author": null,
           "description": "For the first time since the 2000s, I'm working on a new Rails application without using any form of real build steps on the front-end. We're making it using vanilla ES6 with import maps for Hotwire, and vanilla CSS with nesting and variables for styling. All running on a delightfully new simple asset pipeline called Propshaft. It's all just so... simple.\nIt's also fast. Really fast. Infinitely fast. Here's a tongue-in-cheek slide I featured as part of my Rails World keynote last week talking about this No Build process:\n  \n      \n        \n\n  \nNow I fully understand why someone might want to use esbuild or bun, and I've gone out of my way to work on great tooling for Rails to make that really easy. Rails 7.1 ships with native support for bun in the box, and esbuild is already compiling JavaScript for lots of Rails applications in production (including Basecamp!). These are great tools, and I'm thrilled they work so well with Rails.\nBut for the first time in probably 15 years, the state of the art is no longer finding more sophisticated ways to build JavaScript or CSS. It's not to build at all. To lean on HTTP/2 and the now universal support for import maps to avoid bundling, and to lean on the fundamental progress in support for modern JavaScript and CSS to avoid compiling what browsers already know how to read.\nIf you aren't wedded to React, Vue, or whatever, you should have a look at what's possible to build with Hotwire and No Build these days. You just might want to shed the weight of complexity and enjoy the lighter stack.",
@@ -107,6 +117,16 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/teaching-iteration-2787a665",
+          "author": null,
+          "description": "I’ve written about the class I’d like to teach, but what I’ve been thinking about lately is the class I’d like to attend. Not necessarily now, but when I was growing up. In the 6th grade, let’s say.\n\nI don’t know why people ask me this, but I’m often polled for my opinion on the American education system. What’s my take? What would I do to fix it?\n\nI don’t know, really. “It” covers too much ground to be addressed accurately. Education is delivered at every scale, from an individual reading a book, to a 1:1 tutor, to a small home/classroom setting, to a larger university auditorium-sized class, to online classes that can be theoretically taken by the entire planet at once. From one to 8 billion.\n\nYou can’t fix anything that’s so big and so varied. You can, however, fix small parts of things…",
+          "link": "https://world.hey.com/jason/teaching-iteration-2787a665",
+          "publishedOn": "2023-10-13T20:29:57.000Z",
+          "wordCount": 828,
+          "title": "Teaching iteration",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
         {
           "id": "https://world.hey.com/jason/no-one-s-complaining-48a64c8b",
           "author": null,
@@ -254,16 +274,6 @@
           "publishedOn": "2023-09-22T00:00:00.000Z",
           "wordCount": 409,
           "title": "Announcing the Project Director Nominees",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/09/14/1.72.1-prerelease.html",
-          "author": null,
-          "description": "The 1.72.1 pre-release is ready for testing. The release is scheduled for\nSeptember 19. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-09-14/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/09/14/1.72.1-prerelease.html",
-          "publishedOn": "2023-09-14T00:00:00.000Z",
-          "wordCount": 139,
-          "title": "1.72.1 pre-release testing",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -577,6 +587,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://news.slashdot.org/story/23/10/13/2113211/across-us-chinese-bitcoin-mines-draw-national-security-scrutiny?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to the New York Times, Chinese-owned bitcoin mining operations in the United States are causing security concerns due to their proximity to important sites and the potential for cyber threats. The Crypto Times reports: There are some mining facilities close to critical sites such as Microsoft data center for Pentagon's Air Force nuclear's missile base in Wyoming USA. Officials in U.S. fear Chinese espionage activities at these places. These mining operations began after China banned bitcoin mining in 2021. These individuals sometimes maintain connections with the Chinese Communist Party or state-owned companies which may be kept concealed through multiple layers of companies.\n \nTexas has turned out to be a haven for Chinese-linked Bitcoin mining, with some US states having restrictions but Texas offers incentives. This might pose a threat to the power grid or essential infrastructure. A new concern has recently been raised in a report related to a potential cyber strike on the US infrastructure by China in case a major conflict arose.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/13/2113211/across-us-chinese-bitcoin-mines-draw-national-security-scrutiny?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-14T00:45:00.000Z",
+          "wordCount": 3927,
+          "title": "Across US, Chinese Bitcoin Mines Draw National Security Scrutiny",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/13/2047226/tesla-releases-official-api-documentation-to-support-third-party-apps?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Electrek: Tesla has officially released its API documentation to support third-party apps -- after years of operating in a gray zone with an unofficial API. For now, it is geared toward fleet management, but developers are hoping it is a first step toward creating a healthy app ecosystem. [...] So far, it still only covers the command that you can send to your car through the Tesla app, and it can ping the data from your car that goes to the app. In short, it is going to make official all the third-party fleet management apps, smartwatch integration apps, etc.\n \nIn the documentation, Tesla writes that all third-party apps are going to have to go through the new API starting next year: \"Following the release of Tesla Vehicle Command SDK support for REST API vehicle command endpoints is now reaching end of life. Starting 2024 most vehicles will require sending commands via Tesla Vehicle Command SDK.\" Tesla put together a process to onboard those apps on its website. If you are using some of those apps, you will likely receive a notification to give them official authorization to access car data.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/13/2047226/tesla-releases-official-api-documentation-to-support-third-party-apps?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-14T00:02:00.000Z",
+          "wordCount": 4000,
+          "title": "Tesla Releases Official API Documentation To Support Third-Party Apps",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/13/2041224/lenovo-will-soon-distribute-devices-powered-by-the-esper-foundation-os?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Keumars Afifi-sabet reports via TechRadar: Lenovo has the green light to see a portfolio of new enterprise-focused devices powered by Esper Foundation -- a custom Android operating system -- and bundled with a complementary mobile device management (MDM) platform. The firm's first device running Esper Foundation is the Lenovo ThinkCentre M70a, an all-in-one desktop PC fitted with an up to 12th-Gen Intel Core i9 CPU, alongside 16GB DDR4 RAM and up to 512GB SSD. It'll be followed by the Lenovo ThinkCentre M70q, M90n-1 IoT, and the ThinkEdge SE30 v2 machines by the end of 2023. Esper Foundation is based on Android 11 and has customizable branding, peripheral compatibility, quarterly security patches, and three years of support. The MDM system, meanwhile, remotely deploys, manages, and updates devices from a single view.\n \nBy integrating a custom version of Android in its PCs, Lenovo is banking on the Esper Foundation OS appealing to businesses as an alternative to Windows, as well as Google's own ChromeOS. With platforms like Esper's, there may well be a means to find a rival to compete with Windows in the enterprise, particularly in highly niche industries such as the retail, hospitality, and healthcare industries -- at which Esper Foundation is directed. \"This collaboration is another step forward in Lenovo's drive to meet changing customer demand across retail, hospitality, healthcare, and other industries,\" said Johanny Payero, Lenovo's director of global advanced solutions marketing and strategy. \"Dedicated devices are proliferating across several key industries, and our new joint solution with Esper allows us to deliver the best of Android with the consistency and predictability of Lenovo's x86 devices.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/10/13/2041224/lenovo-will-soon-distribute-devices-powered-by-the-esper-foundation-os?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T23:20:00.000Z",
+          "wordCount": 4094,
+          "title": "Lenovo Will Soon Distribute Devices Powered By the Esper Foundation OS",
+          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/13/2034249/chatgpt-is-being-used-to-declassify-redacted-government-docs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Last month, OpenAI launched GPT-4 with vision (GPT-4V), allowing the chatbot to read and respond to questions about images. One of the many ways AI users are using this new feature is to decode redacted government documents on UFO sightings. \"ChatGPT-4V Multimodal decodes a redacted government document on a UFO sighting released by NASA,\" one tweet raves. \"Maybe the truth isn't out there; it's right here in GPT-V.\" Decrypt reports: Trying to fill gaps in a string of text is basically what LLMs do. The user did the next best thing when trying to test GPT-V's capabilities and made it guess parts of a text that he censored. \"Nearly 100% intent accuracy.\" he reported. Of course, it's hard to verify whether its guess at what's otherwise obscured is accurate -- it's not like we can ask the CIA how well it did peering through the black lines. Some other ways users are utilizing GPT-4V include: deciphering a doctor's handwriting; understanding medical images, such as X-rays, and receiving analysis and insights for specific medical cases; providing information about the nutritional content of meals or food items; assisting interior design enthusiasts by offering design suggestions based on personal preferences and images of living spaces; and proving technical analysis for stocks and cryptocurrencies based on screenshots.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/13/2034249/chatgpt-is-being-used-to-declassify-redacted-government-docs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T22:40:00.000Z",
+          "wordCount": 5136,
+          "title": "ChatGPT Is Being Used To Declassify Redacted Government Docs",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/13/2020242/pc-shipments-decline-slows-in-q3-2023-but-apple-plunges-over-23?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: It hasn't been a great time in recent quarters for PC companies, but with IDC, Gartner and Canalys all reporting data for Q3 2023, it shows an improving landscape. While shipments still declined between 7% and 9%, depending on whose data you look at, the decline was slowing. But perhaps the biggest surprise in these numbers was the fact Apple was the biggest loser this quarter, with numbers declining between 23% and 29%.\n \nFirst, let's look at the overall numbers. IDC found the market dropped 7.6% year over year with 68.2 million PCs shipped, Gartner reported a 9% decline with 64.3 million units shipped and Canalys found the market down 7% with 65.6 million units shipped. In spite of that, the consensus was that the long PC market decline may be over, and we could be headed for better days with the holiday shopping season approaching in the final quarter. \"There is evidence that the PC market's decline has finally bottomed out,\" Mikako Kitagawa, director analyst at Gartner, said in a statement.\n \nWhen you look at individual manufacturers, Apple experienced by far the biggest decline, with IDC reporting -23.1%, Gartner reporting -24.2% and Canalys -29.1%. The only other company with double-digit reductions was Asus, with -10.7%, -11.5% and -10.7%, respectively. If you're looking for the only company in positive territory, that would be HP, with IDC and Gartner reporting an increase of 6.4% and Canalys only slightly different at 6.5%.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/10/13/2020242/pc-shipments-decline-slows-in-q3-2023-but-apple-plunges-over-23?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T22:00:00.000Z",
+          "wordCount": 5918,
+          "title": "PC Shipments Decline Slows In Q3 2023, But Apple Plunges Over 23%",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mac_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/13/1833217/google-tests-a-news-filled-homepage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google is still wondering if it should make major changes to its homepage. The last experiment we saw filled the usually stark white page with info cards showing things like the weather and stocks, but this new experiment has a much bigger focus on news. From a report: Instead of a homepage featuring only the Google logo, a search box, and a few buttons, this latest experiment looks a lot more like the \"Google Discover\" newsfeed you get on the Google mobile app. That means rows of news articles that Google has algorithmically detected will interest you, often with wild month-to-month quality swings in the sites it promotes. To the right of the newsfeed is a stack of \"at a glance\" cards featuring sports scores, stocks, and the weather. The change makes Google look a lot busier -- and a lot more like Bing and Yahoo.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/13/1833217/google-tests-a-news-filled-homepage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T21:20:00.000Z",
+          "wordCount": 5189,
+          "title": "Google Tests a News-Filled Homepage",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/13/1725258/sandvine-scraps-plan-to-market-tool-in-us-that-tracks-encrypted-messages?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Computer networking company Sandvine has scrapped an effort to sell US law enforcement agencies a controversial internet surveillance technology that tracks encrypted messages and laid off most of the employees involved in the initiative, Bloomberg News reported Friday, citing four people with knowledge of the matter. From the report: Sandvine had pitched the new product, called \"Digital Witness,\" to governments and law enforcement agencies in Europe, the Middle East, Asia and North America. It was marketed as a tool to covertly monitor people's internet use and encrypted messages sent using popular applications such as Meta Platform's WhatsApp and Signal, according to the people, who asked not to be identified to discuss confidential matters. \n\nSandvine had already provided trial versions of the technology in the US, these people said. But a combination of broader economic woes and lingering concern over the company's previous work with authoritarian governments hindered the product's success, the people said. Sandvine declined to comment when asked about Digital Witness. The company's marketing materials indicate the product is sold only to law enforcement and government agencies, and it is still listed on Sandvine's website.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/13/1725258/sandvine-scraps-plan-to-market-tool-in-us-that-tracks-encrypted-messages?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T20:40:00.000Z",
+          "wordCount": 4230,
+          "title": "Sandvine Scraps Plan To Market Tool in US That Tracks Encrypted Messages",
+          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/13/1517225/india-wont-impose-restrictions-on-laptop-imports?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "India is rolling back its earlier plan to impose restrictions on laptop imports, months after abruptly announcing such plans which came under criticism from industry and Washington. From a report: \"India will not impose restrictions on laptop imports,\" Trade Secretary Sunil Barthwal told a press conference on Friday. He said the government \"only wants importers to be on close watch.\" The import licensing regime, announced on Aug. 3, aimed to \"ensure trusted hardware and systems\" enter India, but it was delayed by three months after objections from industry and criticism by Washington.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/13/1517225/india-wont-impose-restrictions-on-laptop-imports?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T20:00:00.000Z",
+          "wordCount": 3904,
+          "title": "India Won't Impose Restrictions on Laptop Imports",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/13/1528201/antarctica-has-lost-75tn-tonnes-of-ice-since-1997-scientists-find?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "More than 40% of Antarctica's ice shelves have shrunk since 1997 with almost half showing \"no sign of recovery,\" a study has found, linking the change to the climate breakdown. From a report: Scientists at the University of Leeds have calculated that 67tn tonnes of ice was lost in the west while 59tn tonnes was added to the east between 1997 and 2021, resulting in a net loss of 7.5tn tonnes. Warm water on the western side of Antarctica has been melting ice, whereas in the east, ice shelves have either stayed the same or grown as the water is colder there. The ice shelves sit at the end of glaciers and slow their rate of flow into the sea. When they shrink, glaciers release larger amounts of freshwater into the sea which can disrupt the currents of the Southern Ocean. \n\nDr Benjamin Davison, an expert in Earth observation and the study's lead, said: \"There is a mixed picture of ice-shelf deterioration, and this is to do with the ocean temperature and ocean currents around Antarctica. The western half is exposed to warm water, which can rapidly erode the ice shelves from below, whereas much of east Antarctica is currently protected from nearby warm water by a band of cold water at the coast.\" Scientists measured year-by-year changes to the ice using satellites that can see through the thick cloud during long polar nights.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/13/1528201/antarctica-has-lost-75tn-tonnes-of-ice-since-1997-scientists-find?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T19:21:00.000Z",
+          "wordCount": 6546,
+          "title": "Antarctica Has Lost 7.5tn Tonnes of Ice Since 1997, Scientists Find",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/10/13/1524242/video-game-cyberpunk-2077-uses-ai-to-replace-deceased-voice-actor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Polish video game developer CD Projekt used AI technology in its latest release to recreate the voice of an actor who passed away, the company said. From a report: The voice of the late Milogost Reczek, a popular Polish voice actor who died in 2021, was reproduced by an AI algorithm for the Polish-language release of Phantom Liberty, the new expansion to CD Projekt's Cyberpunk 2077. In a statement to Bloomberg, the company said it received permission from Reczek's family to do this and that it had considered replacing him in the expansion and rerecording his lines in the original game but decided against it. \n\n\"We didn't like this approach,\" CD Projekt localization director Mikolaj Szwed said in the statement, as Reczek \"was one of the best Polish voice talents\" and his performance in the game as the doctor Viktor Vektor \"was stellar.\" Instead, CD Projekt hired a different voice actor to perform new lines for the role and then used a Ukraine-based voice-cloning software called Respeecher to create an algorithm that would alter the dialogue to sound like Reczek. \"This way we could keep his performance in the game and pay tribute to his wonderful performance as Viktor Vektor,\" Szwed said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/10/13/1524242/video-game-cyberpunk-2077-uses-ai-to-replace-deceased-voice-actor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T18:40:00.000Z",
+          "wordCount": 4698,
+          "title": "Video Game Cyberpunk 2077 Uses AI To Replace Deceased Voice Actor",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/13/1521226/canon-begins-selling-chip-machines-to-rival-worlds-best-by-asml?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Canon has begun selling its nanoimprint semiconductor manufacturing systems, seeking to claw back market share by positioning the technology as a simpler and more attainable alternative to the leading-edge tools of today. From a report: The Tokyo-based company's new chipmaking machines can produce circuits equivalent to 5-nanometer scale when using extreme ultraviolet lithography (EUV), a field dominated by industry leader ASML Holding NV. Canon expects its device to reach next-generation 2nm production with further advances and improvements, it said in a statement on Friday. Like domestic peer Nikon Corp., Canon has fallen far behind ASML in the EUV race, but its nanoimprint lithography approach may help it close the gap. \n\nCanon's machinery may also add a new front in the US-China trade war, as the import of EUV machines -- so far the only reliable method for fabricating 5nm chips and smaller -- into China is prohibited by trade sanctions. The Japanese firm's technique skips photolithography altogether and instead impresses the desired circuit pattern onto the silicon wafer. Because of its novelty, it's unlikely to be expressly forbidden by existing trade curbs.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/13/1521226/canon-begins-selling-chip-machines-to-rival-worlds-best-by-asml?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T18:00:00.000Z",
+          "wordCount": 5364,
+          "title": "Canon Begins Selling Chip Machines To Rival World's Best by ASML",
+          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/13/156242/dimon-warns-of-most-dangerous-time-in-decades?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "JPMorgan Chase's chief executive, Jamie Dimon, is as close as Wall Street has to a statesman, and on Friday he sounded a major alarm about the global effects of the conflict in Israel and Gaza. From a report: \"This may be the most dangerous time the world has seen in decades,\" he said in a statement accompanying the bank's quarterly earnings. He warned of \"far-reaching impacts on energy and food markets, global trade and geopolitical relationships.\" \n\nFor Mr. Dimon, weighing in on geopolitics isn't new: He consistently warns of dangers from the war in Ukraine and elsewhere. On Friday, he said he was preparing the nation's largest bank for a range of scary outcomes, with other risks including high inflation and rising interest rates. But on a call with reporters, he described the Gaza conflict as \"the highest and most important thing for the Western world.\" Otherwise, JPMorgan and other big banks appear to be operating smoothly. JPMorgan's profit rose to $13.2 billion in the third quarter, a 35 percent rise from the same period last year. Executives at the bank said the tumult of the regional banking crisis of the spring, which resulted in JPMorgan taking over First Republic, was steadily fading. \"U.S. consumers and businesses generally remain healthy,\" Mr. Dimon said, \"although, consumers are spending down their excess cash buffers.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/13/156242/dimon-warns-of-most-dangerous-time-in-decades?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T17:20:00.000Z",
+          "wordCount": 10362,
+          "title": "Dimon Warns of 'Most Dangerous Time in Decades'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/10/13/1534232/nasa-launches-psyche-a-mission-to-explore-a-metal-asteroid?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Is the asteroid Psyche really a hunk of mostly metal? Is the object, which is nearly as wide as Massachusetts, the core of a baby planet whose rocky outer layers were knocked off during a cataclysmic collision in the early days of the solar system? Right now, all that astronomers can say is maybe, maybe not. NASA launched a spacecraft on Friday morning, also named Psyche, on a journey to the asteroid belt between Mars and Jupiter to find out. From a report: \"We're really going to see a kind of new object, which means that a lot of our ideas are going to be proven wrong,\" said Lindy Elkins-Tanton, a professor of earth and space exploration at Arizona State University who serves as the mission's principal investigator. \n\nBeing proven wrong, she added, \"is, I think, the most exciting thing in science.\" That voyage in search of answers kicked off Friday at 10:19 a.m. Eastern time. Falcon Heavy, the largest of SpaceX's operational rockets, lifted off from Kennedy Space Center in Florida, sending the massive spacecraft on a journey that will last about six years and travel billions of miles. Friday's flight overcame early, unfavorable weather forecasts for a seemingly flawless flight. About eight minutes into the flight, the rocket's upper stage entered a 45-minute coasting period during which it will prepare to deploy the spacecraft on its flight away from Earth. The asteroid named Psyche has long been a curious enigma. Spotted in 1852 by Annibale de Gasparis, an Italian astronomer, it is named for the Greek goddess of the soul, and it was just the 16th asteroid to be discovered. In the early observations, it was, like the other asteroids, a starlike point of light that moved in an orbit around the sun, and not much more.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/10/13/1534232/nasa-launches-psyche-a-mission-to-explore-a-metal-asteroid?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T16:40:00.000Z",
+          "wordCount": 5536,
+          "title": "NASA Launches Psyche, a Mission To Explore a Metal Asteroid",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/13/1453257/equifax-scores-136-million-slap-on-wrist-over-2017-mega-breach?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The UK's Financial Conduct Authority (FCA) has fined Equifax a smidge over $13.6 million for severe failings that put millions of consumers at risk of financial crime. From a report: The regulator branded the entire debacle \"entirely preventable\" -- from Equifax's failure to promptly notify regulators to the way in which it misled the public over the severity of a security breach back in 2017. The original fine should have been greater; the true sum was $19,428,836 but the company received a 30 percent discount for agreeing to the penalty early into the proceedings. It also received a 15 percent credit for good behavior during the investigation. \n\nAfter first opening the investigation in 2017, the FCA's fine comes after the ICO wasted less time imposing a penalty of $609,092 in 2018. \"Cybersecurity and data protection are of growing importance to the security and stability of financial services,\" said Jessica Rusu, FCA chief data, information, and intelligence officer. \"Firms not only have a technical responsibility to ensure resiliency, but also an ethical responsibility in the processing of consumer information. The Consumer Duty makes it clear that firms must raise their standards.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/13/1453257/equifax-scores-136-million-slap-on-wrist-over-2017-mega-breach?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T16:00:00.000Z",
+          "wordCount": 6005,
+          "title": "Equifax Scores $13.6 Million Slap on Wrist Over 2017 Mega Breach",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/13/1446254/cisco-cant-stop-using-hard-coded-passwords?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "There's a new Cisco vulnerability in its Emergency Responder product: \"This vulnerability is due to the presence of static user credentials for the root account that are typically reserved for use during development. An attacker could exploit this vulnerability by using the account to log in to an affected system. A successful exploit could allow the attacker to log in to the affected system and execute arbitrary commands as the root user.\" Bruce Schneier adds: \"This is not the first time Cisco products have had hard-coded passwords made public. You'd think it would learn.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/13/1446254/cisco-cant-stop-using-hard-coded-passwords?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-13T15:22:00.000Z",
+          "wordCount": 6109,
+          "title": "Cisco Can't Stop Using Hard-Coded Passwords",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
         {
           "id": "https://news.slashdot.org/story/23/10/12/216230/europe-mulls-open-sourcing-tetra-emergency-services-encryption-algorithms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4626,146 +4786,6 @@
           "wordCount": 7320,
           "title": "Hackers Claim It Only Took a 10-Minute Phone Call To Shut Down MGM Resorts",
           "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/13/2323238/africas-internet-registry-placed-under-receivership?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "\"AFRINIC, the regional internet registry for the African continent and Indian Ocean region, has been placed under receivership following an injunction obtained against it in the Supreme Court of Mauritius,\" writes Slashdot reader Kelerei. \"This appears to be a result of poor governance at AFRINIC, and in part a consequence of an IP address assignment debacle in 2021.\" MyBroadband reports: Industry players on both sides of a conflict involving the registry have welcomed the Mauritian Supreme Court's latest ruling, as it potentially creates a path to reconstitute the ailing entity's board and appoint a CEO. Headquartered in Mauritius, AFRINIC found itself on the wrong side of the country's corporate governance laws after repeatedly ignoring warnings from its members and community about the danger. It also disregarded judgments on some occasions, with the courts warning AFRINIC that it was in danger of being held in contempt. The blow that finally left Afrinic without a quorate board and ultimately without a CEO was struck by Crystal Web, a defunct Internet Service Provider that used to offer consumer DSL and fiber broadband in South Africa. Although Crystal Web landed the paralyzing hit, it was hardly the primary litigant in the over 55 court cases brought against AFRINIC since June 2020.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/13/2323238/africas-internet-registry-placed-under-receivership?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-14T00:20:00.000Z",
-          "wordCount": 3999,
-          "title": "Africa's Internet Registry Placed Under Receivership",
-          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/13/2315239/marvels-vfx-workers-vote-to-unionize-in-historic-landslide-victory?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Visual effects workers at Marvel Studios have unanimously voted to unionize with the International Alliance of Theatrical Stage Employees, marking a historic milestone for the industry. Rolling Stone reports: Following the successful vote with the NLRB, Marvel's VFX union will now enter into collective bargaining negotiations with Marvel. A start date for those negotiations hasn't been announced yet. Underpinning the union drive were the poor working conditions visual effects professionals have endured on Marvel productions, including a lack of pay equity, grueling hours, understaffing, excessive requests for changes, and unfair turnaround times.\n \nVFX crews have been a crucial part of film and TV productions since the introduction of visual effects in the first Star Wars films of the 1970s. But while many other backstage/behind-the-scenes crews and professions (such as production designers, editors, lighting, make-up, and props) have long been unionized under the IATSE umbrella, VFX workers largely remained non-union.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/13/2315239/marvels-vfx-workers-vote-to-unionize-in-historic-landslide-victory?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-14T00:01:00.000Z",
-          "wordCount": 4383,
-          "title": "Marvel's VFX Workers Vote to Unionize in Historic Landslide Victory",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/13/2257252/sweden-brings-more-books-and-handwriting-practice-back-to-its-tech-heavy-schools?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from the Associated Press: As young children went back to school across Sweden last month, many of their teachers were putting a new emphasis on printed books, quiet reading time and handwriting practice and devoting less time to tablets, independent online research and keyboarding skills. The return to more traditional ways of learning is a response to politicians and experts questioning whether the country's hyper-digitalized approach to education, including the introduction of tablets in nursery schools, had led to a decline in basic skills. Swedish Minister for Schools Lotta Edholm, who took office 11 months ago as part of a new center-right coalition government, was one of the biggest critics of the all-out embrace of technology. \"Sweden's students …",
-          "link": "https://news.slashdot.org/story/23/09/13/2257252/sweden-brings-more-books-and-handwriting-practice-back-to-its-tech-heavy-schools?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T23:40:00.000Z",
-          "wordCount": 4535,
-          "title": "Sweden Brings More Books and Handwriting Practice Back To Its Tech-Heavy Schools",
-          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/13/2120248/ex-google-exec-acknowledges-aggressively-seeking-exclusive-mobile-deals?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Justice Department sought on Wednesday to show how Google did all it could to get people to use its search engine and build itself into a $1 trillion search and advertising giant on the second day of a once-in-a-generation antitrust trial. From a report: First out of the gate, the government questioned a former Google executive, Chris Barton, about billion-dollar deals with mobile carriers and others that helped make Google the default search engine. Barton, who was at Google from 2004 to 2011, said the number of Google executives working to win default status with mobile carriers grew dramatically when he was with the company, recognizing the potential growth of handheld devices and early versions of smartphones. \n\nGoogle's clout in search, the government argues, has helped Google bui…",
-          "link": "https://tech.slashdot.org/story/23/09/13/2120248/ex-google-exec-acknowledges-aggressively-seeking-exclusive-mobile-deals?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T23:00:00.000Z",
-          "wordCount": 4619,
-          "title": "Ex-Google Exec Acknowledges Aggressively Seeking Exclusive Mobile Deals",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/13/2114231/microsofts-tweaked-army-goggles-worked-well-in-new-test-us-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft's improved combat goggles have passed their first round of intensive testing by soldiers, and the tech giant has been awarded an order for another batch to be used for a make-or-break combat evaluation in 2025, according to a US Army spokesman. From a report: The first 20 prototype IVAS 1.2 goggles were delivered in late July and assessed by two squads of solders in late August to check for improvements in reliability, low-light performance and how well they fit without repeats of the nausea and dizziness that halted the deployment of earlier versions. The devices, based on Microsoft's HoloLens \"mixed reality\" goggles, \"demonstrated improvements in reliability, low light sensor performance, and form factor\" in tests last month at Fort Drum, New York, and \"soldier feedback was positive,\" spokesman David Patterson said in an email.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/13/2114231/microsofts-tweaked-army-goggles-worked-well-in-new-test-us-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T22:20:00.000Z",
-          "wordCount": 4605,
-          "title": "Microsoft's Tweaked Army Goggles Worked Well in New Test, US Says",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/13/2110234/musk-warns-senators-about-ai-threat-while-gates-says-the-technology-could-target-world-hunger?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Elon Musk, Bill Gates, Mark Zuckerberg and other technology heavyweights debated the possibilities and risks of artificial intelligence Wednesday in a closed-door meeting with more than 60 U.S. Senators who are contemplating legislation to regulate the technology. WSJ: Musk, the CEO of Tesla and owner of X (formerly Twitter), warned about what he views as AI's potential to threaten humanity, according to a participant. Microsoft founder Gates said the technology could help address world hunger, said Sen. Chuck Schumer (D., N.Y.), who convened the session. Other speakers included Facebook founder Zuckerberg and the CEOs of Google, Microsoft, Nvidia and IBM, along with union leaders. Schumer at one point asked the guests if they agreed that the government needed to play a role in regulating …",
-          "link": "https://slashdot.org/story/23/09/13/2110234/musk-warns-senators-about-ai-threat-while-gates-says-the-technology-could-target-world-hunger?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T21:40:00.000Z",
-          "wordCount": 7663,
-          "title": "Musk Warns Senators About AI Threat, While Gates Says the Technology Could Target World Hunger",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/09/13/212216/chinas-apple-iphone-ban-appears-to-be-retaliation-us-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The White House, weighing in for the first time on concerns about a Chinese backlash against Apple, said it is monitoring reports of a growing government ban of iPhones and believes the move is a reprisal against the US. From a report: \"It seems to be of a piece of the kinds of aggressive and inappropriate retaliation to US companies that we've seen from the PRC in the past,\" said John Kirby, the council's spokesman, referring to the People's Republic of China. Bloomberg News reported this month that China plans to expand a ban on the use of iPhones to a plethora of state-backed companies and agencies, a sign of growing challenges for Apple in the country. Several Chinese agencies have begun instructing staff not to bring their iPhones to work. \n\nBut the situation grew more muddled Wednesday, when Beijing pushed back on reports about iPhone restrictions while also raising concerns about security problems with the device. \"China has not issued laws and regulations to ban the purchase of Apple or foreign brands' phones,\" Foreign Ministry spokeswoman Mao Ning told a regular press briefing in Beijing on Wednesday. It marked the government's first comments on the issue, but didn't seem to refer directly to workplace bans of the device.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/09/13/212216/chinas-apple-iphone-ban-appears-to-be-retaliation-us-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T21:01:00.000Z",
-          "wordCount": 6516,
-          "title": "China's Apple iPhone Ban Appears To Be Retaliation, US Says",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/13/1934231/google-lays-off-hundreds-on-recruiting-team?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Google is laying off hundreds of people across its global recruiting team as hiring at the tech giant continues to slow. Semafor: The company declined to cite what percentage of its recruiting workforce was impacted, but said that it plans to retain a significant majority. Workers who were laid off began learning their roles had been eliminated earlier today, according to posts on social media. \"The volume of requests for our recruiters has gone down,\" Google spokesperson Courtenay Mencini said in a statement. \"In order to continue our important work to ensure we operate efficiently, we've made the hard decision to reduce the size of our recruiting team. We're supporting everyone impacted with a transition period, outplacement services, and severance as they look for new opportunities here at Google and beyond.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/13/1934231/google-lays-off-hundreds-on-recruiting-team?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T19:33:00.000Z",
-          "wordCount": 6815,
-          "title": "Google Lays Off Hundreds on Recruiting Team",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/13/1714242/researcher-shows-bodies-of-purported-non-human-beings-to-mexican-congress-at-ufo-hearing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A journalist and researcher on unidentified anomalous phenomena (UAP), or UFOs as they're better known, presented the remains of purported \"non-human\" beings to lawmakers in Mexico on Tuesday during the country's first public congressional hearing on the topic. From a report: Jamie Maussan brought two boxes containing what he said were the small, stuffed bodies of extraterrestrials recovered in Peru in 2017. He said carbon-14 dating carried out by the National Autonomous University of Mexico had determined the remains were 700 and 1,800 years old. Each of the figures has only three fingers on each hand and elongated heads, resembling, at least superficially, the Hollywood-born character ET. \n\n\"This is the first time it (extraterrestrial life) is presented in such a form and I think there is a clear demonstration that we are dealing with non-human specimens that are not related to any other species in our world,\" Maussan told the lawmakers, urging them to consider the topic, which he said should not be viewed as \"a political topic -- it's a topic for humanity.\" He said DNA evidence could prove the specimens were not of this planet, but it wasn't clear if any such tests had been carried out. At least one previous claim by Maussan about purported \"non-human\" remains discovered in Peru has been debunked, though the specimens he presented Tuesday in Mexico City appeared different to the one he previously spoke about in 2015.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/13/1714242/researcher-shows-bodies-of-purported-non-human-beings-to-mexican-congress-at-ufo-hearing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T17:20:00.000Z",
-          "wordCount": 12197,
-          "title": "Researcher Shows Bodies of Purported 'Non-Human' Beings To Mexican Congress at UFO Hearing",
-          "imageUrl": "https://a.fsdn.com/sd/topics/news_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/13/1451250/top-tech-ceos-to-discuss-ai-in-a-meeting-with-senators?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A who's who of tech tycoons will privately huddle with senators on Capitol Hill on Wednesday for a marathon brainstorming session about how lawmakers can regulate artificial intelligence. From a report: The daylong, high-profile gathering, featuring Elon Musk, Mark Zuckerberg, Bill Gates, Sam Altman and other tech figures, has its share of skeptics in both parties. Some senators lamented that the so-called AI Insight Forum is closed to the public and the media. Sen. Elizabeth Warren, D-Mass., said it would allow tech billionaires to lobby senators behind closed doors about one of the most critical issues facing the country and economy. Senate Majority Leader Chuck Schumer, D-N.Y., who organized the bipartisan gathering along with Sens. Mike Rounds, R-S.D., Todd Young, R-Ind., and Martin Heinrich, D-N.M., dismissed the criticism, noting that three public hearings on AI have been held and that the forums will also include labor and civil rights leaders, national security experts and academics.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/13/1451250/top-tech-ceos-to-discuss-ai-in-a-meeting-with-senators?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T16:40:00.000Z",
-          "wordCount": 5061,
-          "title": "Top Tech CEOs To Discuss AI in a Meeting With Senators",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/13/1447213/swedish-criminal-gangs-using-fake-spotify-streams-to-launder-money?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Criminal gangs behind a rise in bombings and shootings in Sweden in recent years are using fake Spotify streams to launder money, a Swedish newspaper reported earlier this month. From a report: Criminal networks have for several years been using money from drug deals, robberies, fraud and contract killings to pay for false Spotify streams of songs published by artists with ties to the gangs, an investigative report in Svenska Dagbladet claimed. They then get paid by the platform for the high number of streams, thereby laundering the money. The newspaper said its information had been confirmed by four gang members from separate criminal networks in Stockholm, as well as an anonymous police investigator.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/13/1447213/swedish-criminal-gangs-using-fake-spotify-streams-to-launder-money?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T16:00:00.000Z",
-          "wordCount": 7553,
-          "title": "Swedish Criminal Gangs Using Fake Spotify Streams To Launder Money",
-          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/09/13/1435245/france-halts-iphone-12-sales-over-radiation-levels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "AmiMoJo writes: France has ordered Apple to stop selling the iPhone 12 for emitting too much electromagnetic radiation. On Tuesday, the French watchdog which governs radio frequencies also told the tech giant to fix existing phones. The ANFR has advised Apple that if it cannot resolve the issue via a software update, it must recall every iPhone 12 ever sold in the country. France's digital minister Jean-Noel Barrot told French newspaper Le Parisien the decision was due to radiation levels above the acceptable threshold, according to Reuters. He said the ANFR found the iPhone 12's Specific Absorption Rate (SAR) was above what is legally allowed. \"Apple is expected to respond within two weeks,\" he said. \"If they fail to do so, I am prepared to order a recall of all iPhones 12 in circulation. The rule is the same for everyone, including the digital giants.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/09/13/1435245/france-halts-iphone-12-sales-over-radiation-levels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T15:21:00.000Z",
-          "wordCount": 12062,
-          "title": "France Halts iPhone 12 Sales Over Radiation Levels",
-          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/09/13/1431255/sonys-new-ps5-update-includes-dolby-atmos-and-the-ability-to-mute-the-startup-beep?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Sony is rolling out a big new PS5 update today, just over a month after it first started testing the changes in a beta. From a report: The update adds Dolby Atmos, lets you mute that annoying bootup beep, and even supports pairing a second controller as an assist one to let you help friends or family complete a game. Sony is also expanding its PS Remote Play app to Google's Chromecast with Google TV (4K), allowing you to stream games from a PS5 or PS4 to Android TV OS 12 devices. The Dolby Atmos support comes in the form of Sony's 3D Audio implementation (Tempest 3D AudioTech). It's compatible with Dolby Atmos devices like sound bars, TVs, or home theater systems. Media apps like Netflix can also update their apps on PS5 soon to support Dolby Atmos audio. \n\nYou can now mute the PS5 beep sound that chirps when you turn the console on or off, or even when it goes into rest mode after being idle. If you just want to adjust the volume of the beep there's now an option for that, too. One of the most useful additions is the ability to use a second DualSense controller for assistance. \"You can now assign a second controller to one account as an assist controller, and use two controllers to operate your PS5 console as if you were using a single controller,\" explains Hideaki Nishino, senior vice president of platform experience at Sony Interactive Entertainment. \"This feature introduces a new way for you to enjoy games collaboratively with others or help a friend or child navigate a particularly challenging section of a game.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/09/13/1431255/sonys-new-ps5-update-includes-dolby-atmos-and-the-ability-to-mute-the-startup-beep?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T14:40:00.000Z",
-          "wordCount": 4412,
-          "title": "Sony's New PS5 Update Includes Dolby Atmos and the Ability To Mute the Startup Beep",
-          "imageUrl": "https://a.fsdn.com/sd/topics/playstation_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/13/1328236/mozilla-patches-firefox-thunderbird-against-zero-day-exploited-in-attacks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Mozilla has released emergency security updates to fix a critical zero-day vulnerability exploited in the wild, impacting its Firefox web browser and Thunderbird email client. From a report: Tracked as CVE-2023-4863, the security flaw is caused by a heap buffer overflow in the WebP code library (libwebp), whose impact spans from crashes to arbitrary code execution. \"Opening a malicious WebP image could lead to a heap buffer overflow in the content process. We are aware of this issue being exploited in other products in the wild,\" Mozilla said in an advisory published on Tuesday. Mozilla addressed the exploited zero-day in Firefox 117.0.1, Firefox ESR 115.2.1, Firefox ESR 102.15.1, Thunderbird 102.15.1, and Thunderbird 115.2.2. Even though specific details regarding the WebP flaw's exploitation in attacks remain undisclosed, this critical vulnerability is being abused in real-world scenarios.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/13/1328236/mozilla-patches-firefox-thunderbird-against-zero-day-exploited-in-attacks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-13T14:00:00.000Z",
-          "wordCount": 4893,
-          "title": "Mozilla Patches Firefox, Thunderbird Against Zero-Day Exploited in Attacks",
-          "imageUrl": "https://a.fsdn.com/sd/topics/mozilla_64.png"
         }
       ]
     }
