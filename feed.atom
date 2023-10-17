@@ -2,10 +2,318 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-16T01:02:00.042Z</updated>
+    <updated>2023-10-17T01:00:38.769Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Meta Quest 3 Is a Virtual Reality of Repair Insanity]]></title>
+        <id>https://hardware.slashdot.org/story/23/10/16/2336230/meta-quest-3-is-a-virtual-reality-of-repair-insanity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/23/10/16/2336230/meta-quest-3-is-a-virtual-reality-of-repair-insanity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-17T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[While the tech in virtual reality headsets has "undoubtedly gotten better," iFixit says "repair is getting left off of designers' priority lists." In a recent teardown video, the DIY repair site disassembled Meta's Quest 3 headset to find that it's not super repairable," giving it a repairability score of 4 out of 10 due the absence of manuals, OEM spare parts, and "any sign of repairability considerations whatsoever." The Register reports: As the iFixit team tore into the headset, the first major failure from a repairability perspective was the "extremely complicated procedure of replacing the lithium polymer battery pack." "Replacing the battery in the Quest 3 is as difficult as it was in the Quest 2, and far more difficult than the Quest Pro." That said, the batteries in the controllers are AAs rather than the lithium-ion cells of the Quest Pro, so it's a win there.
+ 
+Faced with a multitude of screws and the lack of a service manual, iFixit stripped the headset back to its bare components, revealing the new time of flight sensor -- essential for hand and controller tracking as well as mapping out the space around the user -- and, beyond the fan, the mainboard. The Quest 3 is powered by a Snapdragon 8, the XR2 Gen2. According to iFixit: "Leaked benchmarks suggest that this newer SoC improves on the XR2+ found in the Quest Pro both in terms of performance and power efficiency."
+ 
+However, it is the battery that disappoints. Although it is a standard unit so theoretically replaceable, iFixit noted: "It's taken me three Fixmats, a single tray of plastic, and very careful organizing of about 50 screws to get this far." Yikes. Not really a user-serviceable part at all. [...] Overall, the team gave the device a provisional 4 out of 10 in its teardown, principally due to the absence of manuals, OEM spare parts, and "any sign of repairability considerations whatsoever." But hey, at least you can swap out the AAs in the controllers when they die.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple's iPhone Loses Top Spot In China To Huawei]]></title>
+        <id>https://apple.slashdot.org/story/23/10/16/2323231/apples-iphone-loses-top-spot-in-china-to-huawei?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/23/10/16/2323231/apples-iphone-loses-top-spot-in-china-to-huawei?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-17T00:02:00.000Z</updated>
+        <summary type="html"><![CDATA[According to a report from Jefferies analysts, Huawei has overtaken Apple's iPhone as the smartphone market share leader in China. CNBC reports: The analysts said smartphone sales in China have showed positive growth year over year, driven primarily by high double-digit growth in Android sales led by Huawei, Xiaomi and Honor devices. But Apple's iPhone has seen a significant, double-digit decline, and its volume growth year over year has been negative since the iPhone 15 launched, according to the analysts.
+ 
+"We believe weak demand in China would eventually lead to lower-than-expected global shipments of iPhone 15 in 2023," the analysts wrote, adding that the trend suggests the iPhone will "lose" to Huawei next year. The Jefferies analysts wrote that Android's volume growth can't be chalked up to discounts and that discounts on iPhones, excluding the iPhone 15 models, have been stable, while the average discount for Android "is not high." The analysts noted that resale iPhone 15 devices are all "trading at discounts to official selling prices," which also reflects the weak demand in China.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cloudera Hit With $240 Million Patent Verdict Over Cloud-Storage Technology]]></title>
+        <id>https://yro.slashdot.org/story/23/10/16/2057254/cloudera-hit-with-240-million-patent-verdict-over-cloud-storage-technology?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/16/2057254/cloudera-hit-with-240-million-patent-verdict-over-cloud-storage-technology?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T23:20:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Reuters: Patent owner StreamScale won a $240 million jury verdict in Waco, Texas, federal court on Friday in a patent case against data-management software company Cloudera. The jury said (PDF) after a four-day trial that Cloudera infringed three StreamScale patents related to cloud-based data storage technology. Cloudera said in a statement that it intends to challenge the decision and that it would not impact the company's customers.
+ 
+StreamScale attorney Jason Sheasby called the verdict a "referendum on the importance of small inventors and small businesses." StreamScale owns patents for inventor Michael Anderson's "accelerated erasure coding" technology, which the company's complaint called a "cornerstone" of modern data storage. It sued Santa Clara, California-based Cloudera in 2021 for allegedly infringing several of its patents.
+ 
+The lawsuit accused Cloudera's CDH open source data-management platform of violating StreamScale's patent rights. Cloudera argued its software worked in a different way than StreamScale's inventions and said that the patents were invalid. StreamScale also accused other companies, including Intel, of infringing its patents in the 2021 lawsuit. Intel filed a separate lawsuit later that year arguing that StreamScale's allegations violated a non-disclosure agreement.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comcast Resists Call To Stop Its Misleading '10G Network' Claims]]></title>
+        <id>https://tech.slashdot.org/story/23/10/16/2052231/comcast-resists-call-to-stop-its-misleading-10g-network-claims?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/16/2052231/comcast-resists-call-to-stop-its-misleading-10g-network-claims?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Jon Brodkin reports via Ars Technica: An advertising industry group urged Comcast to stop its "10G" ads or modify them to state that 10G is an "aspirational" technology rather than something the company actually provides on its cable network today. The National Advertising Division (NAD), part of the advertising industry's self-regulatory system run by BBB National Programs, ruled against Comcast after a challenge lodged by T-Mobile. In its decision announced Thursday, the NAD recommended that Comcast "discontinue its '10G' claims" or "modify its advertising to (a) make clear that it is implementing improvements that will enable it to achieve '10G' and that it is aspirational or (b) use '10G' in a manner that is not false or misleading, consistent with this decision."
+ 
+Comcast plans to appeal the decision, so it won't make any changes to marketing immediately. If Comcast loses the appeal and agrees to change its practices, it would affect more than just a few ads because Comcast now calls its entire broadband network "10G." "In February 2023, Comcast rebranded its fixed Internet network as 'Xfinity 10G Network' to signify technological upgrades to its network that are continuing to be implemented," the NAD said. Comcast's website claims that the "Xfinity 10G Network is already here! You'll see continual increases in network speed and reliability. No action is required on your part to join the Xfinity 10G Network." It also claims that 10G is "complementary" to the 5G mobile network.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Plans To Update iPhones In-Store Without Opening the Boxes]]></title>
+        <id>https://mobile.slashdot.org/story/23/10/16/2048234/apple-plans-to-update-iphones-in-store-without-opening-the-boxes?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://mobile.slashdot.org/story/23/10/16/2048234/apple-plans-to-update-iphones-in-store-without-opening-the-boxes?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Malcolm Owen reports via AppleInsider: Writing in his "Power On" newsletter for Bloomberg, Mark Gurman claims that Apple has a system that can update the operating system of iPhones before they get sold. Crucially, it can do so without opening the box. Consisting of a "pad-like device," store employees place unopened iPhone boxes onto it to trigger an update. The pad wirelessly turns on the iPhone, runs the software update, then turns it off again. While only iPhones are mentioned in the report, it's plausible that the idea could be extended to other products in Apple's catalog. It is claimed that consumers may benefit from the system at Apple Stores before the end of 2023.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New York Bill Would Require a Criminal Background Check To Buy a 3D Printer]]></title>
+        <id>https://yro.slashdot.org/story/23/10/16/2041232/new-york-bill-would-require-a-criminal-background-check-to-buy-a-3d-printer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/16/2041232/new-york-bill-would-require-a-criminal-background-check-to-buy-a-3d-printer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Gizmodo: New York residents eyeing a new 3D printer may soon have to submit a criminal background check if a newly proposed state bill becomes law. The recently introduced legislation, authored by state senator Jenifer Rajkumar, aims to snub out an increasingly popular loophole where convicted felons who would otherwise be prohibited from legally buying a firearm instead simply 3D print individual components to create an untraceable "ghost gun." If passed, New York would join a growing body of states placing restrictions on 3D printers in the name of public safety.
+ 
+The New York bill, called AB A8132, would require a criminal history background check for anyone attempting to purchase a 3D printer capable of fabricating a firearm. It would similarly prohibit the sale of those printers to anyone with a criminal history that disqualifies them from owning a firearm. As it's currently written, the bill doesn't clarify what models or makes of printers would potentially fall under this broad category. The bill defines a three-dimensional printer as a "device capable of producing a three-dimensional object from a digital model." "Three-dimensionally printed firearms, a type of untraceable ghost gun, can be built by anyone using a $150 three-dimensional printer," Rajkumar wrote in a memorandum explaining the bill. "This bill will require a background check so that three-dimensional printed firearms do not get in the wrong hands."
+ 
+The NYPD has reported a 60% increase in seized ghost guns over the past two years. Meanwhile, on a national level, the Bureau of Alcohol, Tobacco, Firearms, and Explosives reported a 1083% increase in ghost gun recoveries from 2017-2021, figures they say are likely underreported.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Analogue is Making a 4K Nintendo 64]]></title>
+        <id>https://games.slashdot.org/story/23/10/16/2025222/analogue-is-making-a-4k-nintendo-64?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/23/10/16/2025222/analogue-is-making-a-4k-nintendo-64?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T20:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Analogue, the company best known for modern takes on retro hardware, is turning its attention to the 64-bit era with the Analogue 3D, a reimagining of the Nintendo 64. From a report: The company says the new console will have "100 percent compatibility" with N64 cartridges in every region and will even support 4K output. It will also include "Original Display Modes featuring reference quality recreations of specific model CRTs and PVMs" for the purists out there, along with Bluetooth support and four controller ports. Today's announcement is mostly a tease. While we have some details, there's no word on price or a specific release date beyond 2024. Analogue isn't even showing the hardware yet -- right now, we just have these brief glimpses of what appears to be the console, as well as the wireless 8BitDo controller that's launching alongside it.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Plans To Push Other Countries Not to Pay Hacker Ransoms]]></title>
+        <id>https://it.slashdot.org/story/23/10/16/206225/us-plans-to-push-other-countries-not-to-pay-hacker-ransoms?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/10/16/206225/us-plans-to-push-other-countries-not-to-pay-hacker-ransoms?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T20:06:00.000Z</updated>
+        <summary type="html"><![CDATA[The US is pushing a group of governments to publicly commit to not make ransom payments to hackers ahead of an annual meeting of more than 45 nations in Washington later this month. From a report: Anne Neuberger, deputy national security adviser, told Bloomberg News that she is "incredibly hopeful" about enlisting support for such a statement but acknowledged it's a "hard policy decision." If members can't agree to the statement in advance of the meeting, then it will be included as a discussion point, she said. [...] The aim of the statement is to change that calculus, Neuberger said. "Ransom payments are what's driving ransomware," she said. "That's the reason we think it's so needed."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflix Deepens Videogame Push]]></title>
+        <id>https://games.slashdot.org/story/23/10/16/1653204/netflix-deepens-videogame-push?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/23/10/16/1653204/netflix-deepens-videogame-push?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T19:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Last year Netflix put up a billboard on Los Angeles's Sunset Boulevard to poke fun at itself. It read: "Wait, Netflix Has Games?" The company is working hard to clear up any confusion. It is deepening its push into the videogame industry, taking advantage of the studios it has acquired in the past two years to create more titles based on popular Netflix movies and TV shows. WSJ: Though Netflix has up to now focused on mobile games -- which appeal to casual gamers and can be downloaded on a smartphone or tablet -- it is taking steps to expand into higher-end games that can be streamed from TVs or PCs. That approach would put it up against giants such as Sony and Microsoft, which just closed its $75 billion acquisition of Activision Blizzard, and would bring some significant technical challenges. 
+
+Over the next several months, Netflix subscribers will be able to play games on their mobile devices based on hits such as Korean thriller "Squid Game" and supernatural comedy "Wednesday," according to people familiar with the situation. Similarly, Netflix is discussing games based on "Extraction," its Sherlock Holmes series and its "Black Mirror" series, the people said. Even as Netflix creates homegrown titles, it will continue to license the well-known games, from "Bloons TD 6" to "Classic Solitaire," that currently make up its catalog. It has discussed plans to release a game within the popular action-adventure series "Grand Theft Auto" from Take-Two Interactive Software through a licensing deal, some of the people said. The strategy rips a page from the streaming giant's playbook in Hollywood, where it built an audience based on reruns from other studios -- such as "Friends," "The Office" and "Breaking Bad" -- while gearing up machinery to churn out originals like "House of Cards" and "Stranger Things."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Colorado Supreme Court Approves Use of Google Search Data in Murder Case]]></title>
+        <id>https://yro.slashdot.org/story/23/10/16/1838214/colorado-supreme-court-approves-use-of-google-search-data-in-murder-case?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/16/1838214/colorado-supreme-court-approves-use-of-google-search-data-in-murder-case?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T18:39:00.000Z</updated>
+        <summary type="html"><![CDATA[The Colorado Supreme Court ruled today that evidence gleaned from a warrant for Google's search data could be used in the prosecution of a teen who was charged with murder for a fire that killed five people in the Denver area. From a report: As police scrambled to solve the source of the 2020 blaze, they asked Alphabet's Google to provide information about people who searched for the address of the house that went up in flames, using a controversial technique known as a keyword search warrant. After some initial objections, Google provided data that enabled detectives to zero in on five accounts, leading to the arrest of three suspects in the case. 
+
+Lawyers for one of the suspects, Gavin Seymour, who was found to have Googled the home's address 14 times in the days before the fire, argued that the keyword warrant constituted an illegal search and that any evidence from it should be suppressed. His motion is the first known challenge to the constitutionality of keyword search warrants. The case is ongoing. In its 74-page decision, the court found that law enforcement had acted in good faith when it obtained the warrant for the teen's search history. Still, it stressed that the findings were specific to the facts of the case, and it refrained from weighing in about the use of Google's search data more broadly.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The price of managed cloud services]]></title>
+        <id>https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e</id>
+        <link href="https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e"/>
+        <updated>2023-10-16T18:28:08.000Z</updated>
+        <summary type="html"><![CDATA[One of the common objections to our cloud exit has been that we shouldn't have expected good outcomes from a lift'n'shift operation. That the real value of the cloud is in managed services and new architectures, not just running the same software on rented cloud instances. It's basically the "you're holding it wrong" argument for the cloud, and it's hogwash.
+First of all, HEY was born in the cloud for us. It never lived a life on our own hardware before launch. We went live in 2020 using Aurora/RDS for the databases, OpenSearch for search, and EKS for managing app and job servers. That's a pretty intensive use of the native cloud elements! Not just a bunch of raw VMs rented.
+And it's exactly because we used all the cloud had to offer so extensively that the bill ended up so high. And our d…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Binance To Halt New UK Customers From Using Crypto Exchange]]></title>
+        <id>https://news.slashdot.org/story/23/10/16/181231/binance-to-halt-new-uk-customers-from-using-crypto-exchange?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/10/16/181231/binance-to-halt-new-uk-customers-from-using-crypto-exchange?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Binance has suspended access to its crypto exchange for new users based in the UK, after a partnership with a third party to approve communications on its platform under new local rules was terminated by the country's watchdog. From a report: Any customers based in the UK not already signed up to Binance's platform were no longer able to join the exchange from 5 p.m. in London on Monday, according to a blog post published by Binance. The move puts the world's largest crypto exchange out of reach for new users in the UK, setting the scene for a battle by Binance to return to one of the sector's biggest markets outside of the US. 
+
+The UK's financial promotions regime was widened starting on Oct. 8 to include cryptoasset service providers, regardless of their location. All crypto platforms are now required by the regulator to display clear risk warnings to UK-based consumers and meet higher technical standards, with all communications needing to be approved by an FCA-authorized firm. Penalties for not doing so include being added to the FCA's public warning list, as well as unlimited fines and prison time.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AMD Pulls Graphics Driver After 'Anti-Lag+' Triggers Counter-Strike 2 Bans]]></title>
+        <id>https://it.slashdot.org/story/23/10/16/1648223/amd-pulls-graphics-driver-after-anti-lag-triggers-counter-strike-2-bans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/10/16/1648223/amd-pulls-graphics-driver-after-anti-lag-triggers-counter-strike-2-bans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T17:21:00.000Z</updated>
+        <summary type="html"><![CDATA[AMD has taken down the latest version of its AMD Adrenalin Edition graphics driver after Counter-Strike 2-maker Valve warned that players using its Anti-Lag+ technology would result in a ban under Valve's anti-cheat rules. From a report: AMD first introduced regular Anti-Lag mitigation in its drivers back in 2019, limiting input lag by reducing the amount of queued CPU work when the processor was getting too far ahead of the GPU frame processing. But the newer Anti-Lag+ system -- which was first rolled out for a handful of games last month -- updates this system by "applying frame alignment within the game code itself," according to AMD. That method leads to additional lag reduction of up to 10 ms, according to AMD's data. That additional lag reduction could offer players a bit of a competitive advantage in these games (with the usual arguments about whether that advantage is "unfair" or not). But it's Anti-Lag+'s particular method of altering the "game code itself" that sets off warning bells for the Valve Anti-Cheat (VAC) system. After AMD added Anti-Lag+ support for Counter-Strike 2 in a version 23.10.1 update last week, VAC started issuing bans to unsuspecting AMD users that activated the feature. 
+
+"AMD's latest driver has made their 'Anti-Lag/+' feature available for CS2, which is implemented by detouring engine dll functions," Valve wrote on social media Friday. "If you are an AMD customer and play CS2, DO NOT ENABLE ANTI-LAG/+; any tampering with CS code will result in a VAC ban." Beyond Valve, there are also widespread reports of Anti-Lag+ triggering crashes or account bans in competitive online games like Modern Warfare 2 and Apex Legends. But Nvidia users haven't reported any similar problems with the company's Reflex system, which uses SDK-level code adjustments to further reduce input lag in games including Counter-Strike 2.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stack Overflow Cuts 28% Workforce as the AI Coding Boom Continues]]></title>
+        <id>https://developers.slashdot.org/story/23/10/16/1556222/stack-overflow-cuts-28-workforce-as-the-ai-coding-boom-continues?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/23/10/16/1556222/stack-overflow-cuts-28-workforce-as-the-ai-coding-boom-continues?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Coding help forum Stack Overflow is laying off 28 percent of its staff as it struggles toward profitability. From a report: CEO Prashanth Chandrasekar announced today that the company is "significantly reducing the size of our go-to-market organization," as well as "supporting teams" and other groups. After the team doubled its employee base last year, Chandrasekar told The Verge's Nilay Patel in an interview that about 45 percent of those hires were for its go-to-market sales team, which he said was "obviously the largest team." Prosus acquired Stack Overflow in a $1.8 billion deal in mid-2021.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intel Unveils 14th-gen 'Raptor Lake Refresh' CPUs With Speeds Up To 6GHz]]></title>
+        <id>https://slashdot.org/story/23/10/16/1544220/intel-unveils-14th-gen-raptor-lake-refresh-cpus-with-speeds-up-to-6ghz?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/16/1544220/intel-unveils-14th-gen-raptor-lake-refresh-cpus-with-speeds-up-to-6ghz?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Intel's latest 14th-gen Core desktop processors, "Raptor Lake Refresh," do away with the AI NPU and complex tiling system inside the recent 14th-gen "Meteor Lake" mobile chips. But AI is being used here, specifically to assist what gamers care about: improving game performance and CPU clock speeds. From a report: As expected, Intel's "refreshed" Raptor Lake chips offer modest performance improvements over their predecessors, while ushering in eventual platform upgrades like Thunderbolt 5. But there are boosts, such as a tweaked Intel 7 process that pushes turbo clock speeds up to 6GHz with the new Core i9-14900K and a new "Application Performance Optimization (APO)" feature that appears to optimize the CPU for a particular game. 
+
+But -- and this is important, given inflation -- Intel is holding pricing (almost) steady. Prices in Intel's 14th-gen Core desktop S-series line will range from $589 for the 24-core, 32-thread Core i9-14900K down to the $294 14-core, 20-thread Core i5-1400KF, for a total of six new processors. This is the third straight generation in which Intel has left its processor prices virtually unchanged, including the 13th-gen Raptor Lake and the 12th-gen Alder Lake chip, whose slowest chip was priced at $264. Perhaps not surprisingly, Intel's not offering many direct generation-over-generation comparisons with its own processors, though it selected a few content-creation benchmarks to highlight with its Core i7-14700K. There, performance improvements range from 3 percent (Adobe Lightroom) to 18 percent (Autodesk). According to Roger Chandler, vice president and general manager of Intel's enthusiast PC and workstation business, the Core i7 features the best multithreaded performance on a Core i7 ever. Intel executives said the chipmaker had about 130 partners and customers for the 13th-gen launch, and expect the same for the debut of the 14th-gen Raptor Lake Refresh chips.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LinkedIn To Lay Off Hundreds of People Amid Broader Restructuring]]></title>
+        <id>https://slashdot.org/story/23/10/16/1525250/linkedin-to-lay-off-hundreds-of-people-amid-broader-restructuring?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/16/1525250/linkedin-to-lay-off-hundreds-of-people-amid-broader-restructuring?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-16T15:25:00.000Z</updated>
+        <summary type="html"><![CDATA[LinkedIn plans to lay off more than 660 people across its engineering, product, talent and finance teams, it announced Monday -- representing more than 3% of the company's global workforce. From a report: LinkedIn has now seen two major rounds of layoffs this year following its cutting in May of 716 jobs and shuttering of its Chinese app InCareer. Those cuts were announced alongside a broader restructuring of the firm's Global Business Organization. The job positions are being eliminated as part of broader efforts at the company to optimize around artificial intelligence. LinkedIn released a slew of new AI product features earlier this month, including an AI-assisted candidate discovery for recruiters, and AI-powered coaching for LinkedIn's premium subscribers.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Google's AI-Powered 'Project Green Light' Speeds Traffic, Reduces Fuel Consumption and Carbon Emissions]]></title>
         <id>https://tech.slashdot.org/story/23/10/15/2313203/googles-ai-powered-project-green-light-speeds-traffic-reduces-fuel-consumption-and-carbon-emissions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8286,229 +8594,6 @@ The announcement notes 500 "planned investments in at least 450 new or expanded 
 
 
 Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask Slashdot: What's the Best Linux Resource for a Retired Windows User?]]></title>
-        <id>https://ask.slashdot.org/story/23/09/17/051227/ask-slashdot-whats-the-best-linux-resource-for-a-retired-windows-user?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://ask.slashdot.org/story/23/09/17/051227/ask-slashdot-whats-the-best-linux-resource-for-a-retired-windows-user?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-17T11:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Slashdot reader Leading Edge Boomer wants to help "a retired friend whose personal computing has always been with Windows." 
-
-But recently, they were gifted a laptop that's running "some version of Linux..."
-
-Probably he's not even aware that there are different distributions for different purposes. He seems open to learning about this different world. What recommendations might Slashdot readers have to bring him up to speed as a competent Linux user? I really don't want to hold his hand, and he's smart enough to learn on his own. 
-"Mint is the answer," argues long-time Slashdot reader denisbergeron. "First make him use Mint, because it's easy and there a lot of documentation and the community is very strong." 
-
-But long-time Slashdot reader spaceman375 thinks they can solve the problem with just three letters. "Show him the man command. When he feels confident, or breaks it pretty hard, then I'd agree — install mint and go from there. But start with man." 
-Is that it? Is it as simple as that? Share your own thoughts and opinions in the comments — along with your learning tools for beginners. 
-What's the best Linux resource for a retired Windows user?
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Avi Loeb Says Meteor Analysis Shows It Originated Outside Our Solar System]]></title>
-        <id>https://science.slashdot.org/story/23/09/17/0251241/avi-loeb-says-meteor-analysis-shows-it-originated-outside-our-solar-system?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/17/0251241/avi-loeb-says-meteor-analysis-shows-it-originated-outside-our-solar-system?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-17T07:34:00.000Z</updated>
-        <summary type="html"><![CDATA[In late August the blog of Harvard professor Avi Loeb declared he had "Wonderful news! For the first time in history, scientists analyzed materials from a meter-size object that originated from outside the solar system." 
-
-In July Loeb retrieved parts of a meteor that landed in the waters off of Papua, New Guinea in 2014. A local New York newscast describes the find as "metallic marbles, less than a millimeter in diameter," while Loeb called them "beautiful spheres that were colored — blue, brown or gold." 
-
-Now USA Today reports:
-Early analysis shows that some spherules from the meteor path contain "extremely high abundances" of an unheard-of composition of heavy elements. Researchers on the team say the composition of beryllium, lanthanum and uranium, labeled as a "BeLaU" composition, do…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Munich Students Smashed the World Record For EV Distance On a Single Charge]]></title>
-        <id>https://tech.slashdot.org/story/23/09/17/0023248/munich-students-smashed-the-world-record-for-ev-distance-on-a-single-charge?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/17/0023248/munich-students-smashed-the-world-record-for-ev-distance-on-a-single-charge?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-17T03:44:00.000Z</updated>
-        <summary type="html"><![CDATA[At 103 miles/kWh (or 0.6 kWh/100 km), the new "muc22" car built by students from the Technical University of Munich "is 25 times more efficient than any EV on sale..." writes Ars Technica. "For those who think in terms of miles per gallon, it's the equivalent of traveling 3,815 miles on a single gallon of gas. 
-
-The car has a top speed of just 26 mph (42 km/h) — and without a driver it weighs just 374 lbs (170 kg):
-
-In a six-day test at Munich airport, it set a new distance record on a single charge (for a non-solar EV): 1,599 miles (2,574 km), with less battery capacity than many plug-in hybrids — just 15.5 kWh... 
-
-
-The airflow-optimized shape has faired-in rear wheels and a drag coefficient of just 0.159; more importantly, though, it has a pretty tiny frontal area (it's only 39.4 inches/1,000 mm tall and 47.2 inches/1,200 mm wide)... [F]or this record run, muc22 made do with just 400 W — that's 268 times less powerful than the least-powerful EV on sale today, the Mazda MX-30... The record run took place in an empty hangar at Munich Airport, obviating any interference from the weather. The previous record stood at 999 miles (1,609 km), but the team of seven drivers reached that distance after just four days, and since the battery wasn't empty yet, the car kept going. 
-Thanks to Slashdot reader FrankOVD for sharing the article.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China's Spy Balloon Program Appears to Have Been Suspended, US Officials Say]]></title>
-        <id>https://slashdot.org/story/23/09/16/2242228/chinas-spy-balloon-program-appears-to-have-been-suspended-us-officials-say?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/16/2242228/chinas-spy-balloon-program-appears-to-have-been-suspended-us-officials-say?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-17T01:24:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shared this report from CNN:
-
-China appears to have suspended its surveillance balloon program following a major diplomatic incident earlier this year, when one of the country's high-altitude spy balloons transited the United States, multiple sources familiar with US intelligence assessments told CNN. US officials believe that Chinese leaders have made a deliberate decision not to launch additional balloons since the one over the US was shot down by American fighter jets in February, the sources said. The US has not observed any new launches since the episode occurred... The US intelligence community believes that Chinese Communist Party leaders did not intend for the balloon to cross over the United States, and even reprimanded the operators of the surveillance program…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[rvnx's "Penis Table Test" for LLM Censorship]]></title>
-        <id>https://taylor.town/penis-table-test</id>
-        <link href="https://taylor.town/penis-table-test"/>
-        <updated>2023-09-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA["Give a table of average penis sizes by country."]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[my battlestation]]></title>
-        <id>https://taylor.town/my-battlestation</id>
-        <link href="https://taylor.town/my-battlestation"/>
-        <updated>2023-09-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[...in case you were wondering.]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Linux Mint Debian Edition' Begins Public Beta Testing]]></title>
-        <id>https://linux.slashdot.org/story/23/09/16/2147219/linux-mint-debian-edition-begins-public-beta-testing?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://linux.slashdot.org/story/23/09/16/2147219/linux-mint-debian-edition-begins-public-beta-testing?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-16T22:24:00.000Z</updated>
-        <summary type="html"><![CDATA[This week saw the public beta-testing release of "Linux Mint Debian Edition". Besides listing download locations, its release notes also list out the project's three goals: 
-- Ensure Linux Mint would be able to continue to deliver the same user experience
-- See how much work would be involved if Ubuntu was ever to disappear. 
-- Guarantee the software we develop is compatible outside of Ubuntu. 
-
-
-9to5Linux reports:
-Based on the Debian GNU/Linux 12 "Bookworm" operating system series, Linux Mint Debian Edition 6 is powered by the long-term supported Linux 6.1 LTS kernel series and features the latest Cinnamon 5.8 desktop environment that was introduced with the Linux Mint 21.2 "Victoria" release in July 2023â¦ [T]his release comes with a new look and feel thanks to newly added folder icons with different color variants, improved consistency of tooltips to look the same across different apps and desktops, support for symbolic icons that adapt to their background, and full support for HEIF and AVIF
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Feedback' Is Now Too Harsh. The New Word is 'Feedforward']]></title>
-        <id>https://it.slashdot.org/story/23/09/16/1929234/feedback-is-now-too-harsh-the-new-word-is-feedforward?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/23/09/16/1929234/feedback-is-now-too-harsh-the-new-word-is-feedforward?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-16T21:24:00.000Z</updated>
-        <summary type="html"><![CDATA[The Wall Street Journal reports that more companies are phasing out "feedback" bosses give to workers — and replacing it with "feedforward." 
-"The idea is that 'feedforward' gives people less anxiety," the Journal's reporter said in a video interview. "It's a little bit gentler. When people hear 'feedback', they think immediately, 'What have I done wrong? What are the bad things my boss is going to tell me to fix?'"
-
-And another reason that we're hearing "feedforward" at these companies over and over is employees are younger. Younger employees make up a larger percentage of the workforce today, and a number of experts with whom we spoke said that younger employees are more comfortable with gentler terms like "feedforward"... 
-
-Q: So they're trying to appeal to the younger employees who are…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Will the Next Tech Rebellion Look Like? Ask the Luddites]]></title>
-        <id>https://it.slashdot.org/story/23/09/16/1718239/what-will-the-next-tech-rebellion-look-like-ask-the-luddites?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/23/09/16/1718239/what-will-the-next-tech-rebellion-look-like-ask-the-luddites?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-16T19:34:00.000Z</updated>
-        <summary type="html"><![CDATA[In 1811 working men felt threatened by the arrival of wooden, waterâpowered looms. And yet "The Luddite rebellion came at a time when the working class was beset by a confluence of crises that today seem all too familiar..." writes Los Angeles Times technology columnist Brian Merchant. In an upcoming book called Blood in the Machine, he writes that "amid it all, entrepreneurs and industrialists pushing for new, dubiously legal, highly automated and laborâsaving modes of production." 
-
-Fast Company has an excerpt from the book asking whether history is now repeating itself. Its headline? "A new tech rebellion is taking shape. What we can learn from the Luddites."
-
-The reason that there are so many similarities between today and the time of the Luddites is that little has fundamentally chang…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Exxon Tried to Undermine Climate Change Science]]></title>
-        <id>https://hardware.slashdot.org/story/23/09/16/0519248/how-exxon-tried-to-undermine-climate-change-science?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/23/09/16/0519248/how-exxon-tried-to-undermine-climate-change-science?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-16T18:34:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shared this report from the Guardian:
-ExxonMobil executives privately sought to undermine climate science even after the oil and gas giant publicly acknowledged the link between fossil fuel emissions and climate change, according to previously unreported documents revealed by the Wall Street Journal. 
-
-The new revelations are based on previously unreported documents subpoenaed by New York's attorney general as part of an investigation into the company announced in 2015. They add to a slew of documents that record a decades-long misinformation campaign waged by Exxon, which are cited in a growing number of state and municipal lawsuits against big oil... In 2008, Exxon pledged to stop funding climate-denier groups. But that very same year, company leadership said it would…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KSMBD Finally Reaches 'Stable' State in Release Candidate for Linux Kernel 6.6]]></title>
-        <id>https://linux.slashdot.org/story/23/09/16/0412208/ksmbd-finally-reaches-stable-state-in-release-candidate-for-linux-kernel-66?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://linux.slashdot.org/story/23/09/16/0412208/ksmbd-finally-reaches-stable-state-in-release-candidate-for-linux-kernel-66?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-16T17:34:00.000Z</updated>
-        <summary type="html"><![CDATA[When Linus Torvalds announced Linux kernel 6.6's first release candidate, it included a newly-stable version of KSMBD, which is Samsung's in-kernel server for the SMB protocol (for sharing files/folders/printers over a network). 
-
-An announcement in 2021 had said that "For many cases the current userspace server choices were suboptimal either due to memory footprint, performance or difficulty integrating well with advanced Linux features." 
-
-LWN noted at the time that Linux has been using "the user-space Samba solution since shortly after the beginning."
- In a sense, ksmbd is not meant to compete with Samba; indeed, it has been developed in cooperation with the Samba project. It is, however, meant to be a more performant and focused solution than Samba is; at this point, Samba includes a g…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EFF Recognizes Signal, Library Freedom Project for Protecting Privacy]]></title>
-        <id>https://yro.slashdot.org/story/23/09/16/0225202/eff-recognizes-signal-library-freedom-project-for-protecting-privacy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/16/0225202/eff-recognizes-signal-library-freedom-project-for-protecting-privacy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-16T16:34:00.000Z</updated>
-        <summary type="html"><![CDATA[For over 30 years the EFF has presented awards recognizing those "advancing innovation and championing digital rights," according to its web site, celebrating "the accomplishments of people working toward a better future... both in the public eye and behind the scenes." 
-
-This year's ceremony — hosted by Cory Doctorow — didn't just recognize Sci-Hub's founder. The EFF also gave its award for "Communications Policy" to the Signal Foundation — and its "Information Democracy" award to the Library Freedom Project. 
-
-From the Electronic Frontier Foundation web site:
-Since 2013, with the release of the unified app and the game-changing Signal Protocol, Signal has set the bar for private digital communications. With its flagship product, Signal Messenger, Signal provides real communications priva…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New 'Inverse Vaccine' Shows Potential to Treat MS and Other Autoimmune Diseases]]></title>
-        <id>https://science.slashdot.org/story/23/09/16/0156244/new-inverse-vaccine-shows-potential-to-treat-ms-and-other-autoimmune-diseases?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/16/0156244/new-inverse-vaccine-shows-potential-to-treat-ms-and-other-autoimmune-diseases?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-16T15:34:00.000Z</updated>
-        <summary type="html"><![CDATA[This week saw an announcement from the University of Chicago's Pritzker School of Molecular Engineering. A new type of vaccine "has shown in the lab setting that it can completely reverse autoimmune diseases like multiple sclerosis and type 1 diabetes — all without shutting down the rest of the immune system."
-
-A typical vaccine teaches the human immune system to recognize a virus or bacteria as an enemy that should be attacked. The new "inverse vaccine" does just the opposite: it removes the immune system's memory of one molecule. While such immune memory erasure would be unwanted for infectious diseases, it can stop autoimmune reactions like those seen in multiple sclerosis, type I diabetes, or rheumatoid arthritis, in which the immune system attacks a person's healthy tissues. The inver…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Researchers Including Microsoft Spot Chinese Disinformation Campaign Using AI-Generated Photos]]></title>
-        <id>https://slashdot.org/story/23/09/16/0131254/researchers-including-microsoft-spot-chinese-disinformation-campaign-using-ai-generated-photos?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/16/0131254/researchers-including-microsoft-spot-chinese-disinformation-campaign-using-ai-generated-photos?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-16T14:34:00.000Z</updated>
-        <summary type="html"><![CDATA["Until now, China's influence campaigns have been focused on amplifying propaganda defending its policies on Taiwan and other subjects," reports the New York Times. 
-
-But a new piece co-authored by the newspaper's national security correspondent and its misinformation investigative reporter notes a new effort identified by researchers from Microsoft, the RAND Corporation, the University of Maryland, the intelligence company Recorded Future, and news-rating service NewsGuard. And that newly-discovered effort "suggests that Beijing is making more direct attempts to sow discord in the United States." 
-
-It began when, sensing an opportunity,"China's increasingly resourceful information warriors pounced" after high winds in Hawaii downed three power lines that sparked wildfires in Hawaii on Aug…]]></summary>
         <author>
             <name>EditorDavid</name>
         </author>
