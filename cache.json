@@ -169,7 +169,18 @@
       "title": "Andrew Kelley",
       "feedUrl": "https://andrewkelley.me/rss.xml",
       "siteUrl": "https://andrewkelley.me/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://andrewkelley.me/post/the-techno-optimist-manifesto.html",
+          "author": null,
+          "description": "The Techno-Optimist Manifesto\nmust, and we\nwill, create more advanced human systems to prevent war forevermore.\nHuman society will mature and overcome its\nbarbaric history, learning to cooperate with each other so that we can create technological\nworks of global magnitude, such as orbital rings.\n\n\nWe cannot meaningfully explore space while borders exist on Earth.\n\n\nEvery dollar spent on the military is a blight on the country's honor. We\nbelieve that military budget reductions are a cause for celebration because\nthey symbolize progress towards the space age. We believe that the atomic\nbombings of Hiroshima and Nagasaki were the most horrifying, shameful thing\never done by humanity, to itself. Importantly, we believe that it will\nnever, ever happen again.\n\n\nWe believe that there are irreversible destructive actions. While some amount of\nspecies extinction is a natural process, the outlier extinction event currently happening\ndue to the emergence of homo sapiens is a tragedy. We believe that it is our duty to\nnot only improve technology to enhance our own lives, but also enhance technology\nto preserve natural diversity. We believe that Free Market Capitalism is an outdated\ntechnology that has failed to prevent irreversible destruction to our home planet. However,\nwe believe that human society will migrate to a better system without these flaws,\nand will prevent the ultimate irreversible action of self-destruction.\n\n\nWe believe in the simple, physical fact that endless growth is unsustainable,\nand we refuse to resolve this problem with war. Instead, we will improve\nefficiency and work within the limits of the system, whatever they may be.\nWe will upgrade our economic system to one that is capable of supporting these\nrequirements.\n\n\nTherefore, finally, we believe that it is justified to spend one's life or\ncareer in pursuit of science, engineering, and technology, because we believe\nin humanity's ability to mature and improve to the point where it can wield\never more powerful tools responsibly.",
+          "link": "https://andrewkelley.me/post/the-techno-optimist-manifesto.html",
+          "publishedOn": "2023-10-17T20:14:51.000Z",
+          "wordCount": 612,
+          "title": "The Techno-Optimist Manifesto",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Martin Fowler",
@@ -529,16 +540,6 @@
           "wordCount": 1230,
           "title": "How/Why to Sweep Async Tasks Under a Postgres Table",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/holy-prepuce",
-          "author": null,
-          "description": "After being lost for almost 1500 years, Christ's foreskin (known as the Holy Prepuce) was discovered in the small Roman town of Calcata, disproving a theory by 17th century theologian Leo Allatius that it ascended into heaven to become the rings of Saturn.",
-          "link": "https://taylor.town/holy-prepuce",
-          "publishedOn": "2023-09-18T00:00:00.000Z",
-          "wordCount": 228,
-          "title": "What happened to Jesus's foreskin?",
-          "imageUrl": null
         }
       ]
     },
@@ -547,6 +548,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://entertainment.slashdot.org/story/23/10/17/235216/netflix-effect-returns-as-studios-license-old-shows-to-their-streaming-rival?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Christopher Grimes reports via the Financial Times: Some of Netflix's competitors are reversing a streaming war tactic by licensing their old TV shows and movies to the streamer -- boosting its programming offerings but also potentially squeezing its profit margins, analysts say. Netflix relied heavily on programming that it licensed from other companies when it launched its streaming service in 2007. But after Walt Disney, NBCUniversal, Paramount and the then Time Warner launched their own streaming services, they pulled many of their shows from Netflix to avoid feeding a company that had grown into an arch-competitor. With legacy media groups under pressure to produce streaming profits, however, licensing revenue is looking attractive again -- even if it comes from Netflix. This summer, …",
+          "link": "https://entertainment.slashdot.org/story/23/10/17/235216/netflix-effect-returns-as-studios-license-old-shows-to-their-streaming-rival?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-18T00:45:00.000Z",
+          "wordCount": 4264,
+          "title": "'Netflix Effect' Returns As Studios License Old Shows To Their Streaming Rival",
+          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/17/2243227/irs-will-pilot-free-direct-tax-filing-in-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: The IRS will test a free tax filing service in 2024 for a subset of lucky taxpayers in as many as 13 states, the agency announced today. Direct File, as the service is called, is a shot across the bows of Turbotax, H&R Block, and other paid tax prep services, whose owners have resisted free and simple tax filing for decades. \"This is a critical step forward for this innovative effort that will test the feasibility of providing taxpayers a new option to file their returns for free directly with the IRS,\" said IRS Commissioner Danny Werfel in a press release announcing the news.\n \nOver the last year and a half, the IRS has been building out the pilot program, which it characterizes as being \"one more potential option\" on the continuum from…",
+          "link": "https://yro.slashdot.org/story/23/10/17/2243227/irs-will-pilot-free-direct-tax-filing-in-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-18T00:02:00.000Z",
+          "wordCount": 4873,
+          "title": "IRS Will Pilot Free, Direct Tax Filing In 2024",
+          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
+        },
+        {
+          "id": "https://politics.slashdot.org/story/23/10/17/2226200/why-switzerlands-e-voting-system-is-a-bad-idea?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Last year, Andrew Appel, professor of computer science at Princeton University, wrote a 5-part series about Switzerland's e-voting system, highlighting the inherent security vulnerabilities it faces and the safeguards the country has in place. Now, he's writing about an interesting new vulnerability in the system that can be exploited to manipulate votes without anyone knowing. The vulnerability was discovered by Swiss computer scientist Andreas Kuster. From a blog post written by security technologist Bruce Schneier: \"The Swiss Post e-voting system aims to protect your vote against vote manipulation and interference. The goal is to achieve this even if your own computer is infected by undetected malware that manipulates a user vote. This protection is implemented by special return codes (…",
+          "link": "https://politics.slashdot.org/story/23/10/17/2226200/why-switzerlands-e-voting-system-is-a-bad-idea?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T23:20:00.000Z",
+          "wordCount": 4504,
+          "title": "Why Switzerland's E-Voting System Is a Bad Idea",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/17/222214/mazdas-dmca-takedown-kills-a-hobbyists-smart-car-api-tool?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Long-time Slashdot reader couchslug shares a report from Ars Technica, writing: \"A new attack on the right to do with one's property as the owner sees fit. First step, threaten without providing evidence.\" From the report: Before last week, owners of certain Mazda vehicles who also had a Home Assistant setup could create some handy connections for their car. One CX60 driver had a charger that would only power on when it confirmed his car was plugged in and would alert him if he left the trunk open. Another used Home Assistant to control their charger based on the dynamic prices of an Agile Octopus energy plan. Yet another had really thought it through, using Home Assistant to check the gas before their morning commute, alert them if their windows were down before rain was forecast, and rem…",
+          "link": "https://tech.slashdot.org/story/23/10/17/222214/mazdas-dmca-takedown-kills-a-hobbyists-smart-car-api-tool?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T22:40:00.000Z",
+          "wordCount": 4998,
+          "title": "Mazda's DMCA Takedown Kills a Hobbyist's Smart Car API Tool",
+          "imageUrl": "https://a.fsdn.com/sd/topics/software_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/17/2150204/20000-britons-approached-by-chinese-agents-on-linkedin-says-mi5-head?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from The Guardian: An estimated 20,000 Britons have been approached by Chinese state actors on LinkedIn in the hope of stealing industrial or technological secrets, the head of MI5 has said. Ken McCallum said industrial espionage was happening at \"real scale,\" and he estimated that 10,000 UK businesses were at risk, particularly in artificial intelligence, quantum computing or synthetic biology where China was trying to gain a march. \"Week by week, our teams detect massive amounts of covert activity by the likes of China in particular, but also Russia and Iran,\" the MI5 director general said ahead of a summit of domestic spy chiefs from the Five Eyes agencies hosted by the FBI in California. \"Activity not aimed just at government or military secrets. Not even just aimed at our critical infrastructure but increasingly [at] promising startups -- innovative companies spun out of our universities, academic research itself, and people that understandably may not think national security is about them.\"\n \nA key attack vector, McCallum said, was to try and steal information by Chinese actors posing as recruitment consultants on LinkedIn. \"We think we're above 20,000 cases where that initial approach has been made online through sites of that sort,\" he said, compared to 10,000 two and a half years ago. [...] On Tuesday, the agency said it was aware of 20 instances of Chinese companies considering or pursuing use of \"obfuscated investment, imaginative company structures\" to circumvent regulations in order to gain access to technology developed by British companies and in universities. Details were scant but MI5 indicated it was aware of at least two Chinese companies trying to identify legal loopholes to access the sensitive technology of UK firms undetected, and another Chinese company acquiring research data stolen from a top UK university.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/17/2150204/20000-britons-approached-by-chinese-agents-on-linkedin-says-mi5-head?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T22:00:00.000Z",
+          "wordCount": 5095,
+          "title": "20,000 Britons Approached By Chinese Agents On LinkedIn, Says MI5 Head",
+          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/17/1927210/qualcomm-announces-first-ever-mass-market-risc-v-android-soc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Android ecosystem is hurtling toward a RISC-V future. From a report: The puzzle pieces for the up-and-coming CPU architecture started falling into place this past year when Google announced official RISC-V support in Android and plans to make it a \"tier 1 platform\" on equal footing with Arm. With the OS support underway, what we need now is hardware, and Qualcomm is stepping up to announce the first-ever mass-market RISC-V Android SoC. It doesn't have a name yet, but Qualcomm says it's developing a \"RISC-V Snapdragon Wear\" chip in collaboration with Google. The company says it plans to \"commercialize the RISC-V based wearables solution globally including the US.\" For Google and Qualcomm, this chip represents everyone's first swing at a commercial RISC-V Android project, and as far as we can tell, it's the first announced mass-market RISC-V Android chip ever. Qualcomm says the groundwork it and Google lay out \"will help pave the way for more products within the Android ecosystem to take advantage of custom CPUs that are low power and high performance.\" \n\nRISC-V represents a big threat to the Arm CPU architecture that currently dominates all mobile devices. RISC-V architecture is open source, which can make it cheaper and more flexible than Arm. If companies want to design their own chips, they can do that without paying a licensing fee to Arm. Since the architecture is open source, it's possible to create a fully open source chip. If you're a chip-design firm, you can make your own proprietary chip designs and license them, making you a competitor to Arm's chip-design business. RISC-V is also a way to sidestep all of the various problems with Arm.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/17/1927210/qualcomm-announces-first-ever-mass-market-risc-v-android-soc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T21:20:00.000Z",
+          "wordCount": 4764,
+          "title": "Qualcomm Announces First-ever Mass-market RISC-V Android SoC",
+          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/17/1918203/meta-will-now-let-you-stop-instagram-from-tracking-you-across-the-web?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Meta will now let you block Instagram from collecting your data across the apps and websites you visit. From a report: The company says that it's expanding the ability to disable this kind of tracking to Instagram, allowing you to review which businesses are sharing information with Meta, disconnect specific activity, or clear the collected information. You can now find this feature, called Activity Off-Meta Technologies, within the platform's Accounts Center. It was previously only available for Facebook. Meta receives information from third-party websites that use its business tools, such as the Meta Pixel, which tracks users on the web and allows Meta to serve personalized ads on its platforms.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/17/1918203/meta-will-now-let-you-stop-instagram-from-tracking-you-across-the-web?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T20:40:00.000Z",
+          "wordCount": 4280,
+          "title": "Meta Will Now Let You Stop Instagram From Tracking You Across the Web",
+          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/17/1912243/tech-ceo-sentenced-to-5-years-in-ip-address-scheme?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Amir Golestan, the 40-year-old CEO of the Charleston, S.C. based technology company Micfo, has been sentenced to five years in prison for wire fraud. From a report: Golestan's sentencing comes nearly two years after he pleaded guilty to using an elaborate network of phony companies to secure more than 735,000 Internet Protocol (IP) addresses from the American Registry for Internet Numbers (ARIN), the nonprofit which oversees IP addresses assigned to entities in the U.S., Canada, and parts of the Caribbean. \n\nIn 2018, ARIN sued Golestan and Micfo, alleging they had obtained hundreds of thousands of IP addresses under false pretenses. ARIN and Micfo settled that dispute in arbitration, with Micfo returning most of the addresses that it hadn't already sold. ARIN's civil case caught the attention of federal prosecutors in South Carolina, who in May 2019 filed criminal wire fraud charges against Golestan, alleging he'd orchestrated a network of shell companies and fake identities to prevent ARIN from knowing the addresses were all going to the same buyer.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/17/1912243/tech-ceo-sentenced-to-5-years-in-ip-address-scheme?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T20:01:00.000Z",
+          "wordCount": 7387,
+          "title": "Tech CEO Sentenced To 5 Years in IP Address Scheme",
+          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/17/190237/pwc-offers-advice-from-bots-in-deal-with-chatgpt-firm-openai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "PricewaterhouseCoopers has teamed up with ChatGPT owner OpenAI to offer clients advice generated by AI as the Big Four audit firms look to cut costs and boost productivity. From a report: The accounting firm will use AI to consult on complex matters in tax, legal and human resources, such as carrying out due diligence on companies, identifying compliance issues and even recommending whether to authorize business deals. The tie-up makes PwC the first of the Big Four to partner with OpenAI, which is regarded as one of the companies at the forefront of generative AI technology with its ChatGPT chatbot. \n\nThe major audit firms have been cutting costs to cope with a slowdown in professional services. PwC is freezing pay increases and bonuses for some of its 25,000 UK staff, Deloitte LLP is set to cut more than 800 jobs in the UK, Ernst & Young LLP is to cull about 5% of staff from its UK financial services consulting division, while KPMG LLP is planning to cut 125 consulting jobs. The OpenAI partnership, which is not based on ChatGPT, won't result in jobs cuts in the near-term, PwC said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/17/190237/pwc-offers-advice-from-bots-in-deal-with-chatgpt-firm-openai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T19:20:00.000Z",
+          "wordCount": 4648,
+          "title": "PwC Offers Advice From Bots in Deal With ChatGPT Firm OpenAI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/17/1819201/reddit-is-killing-blockchain-based-community-points?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Reddit is winding down Community Points -- the blockchain-based \"internet points\" program designed to reward creators and developers -- in favor of prioritizing rewards programs that are less difficult to scale. From a report: \"Though we saw some future opportunities for Community Points, the resourcing needed was unfortunately too high to justify,\" Reddit's director of consumer and product communications Tim Rathschmidt told TechCrunch. \"The regulatory environment has since added to that effort. Though the moderators and communities that supported Community Points have been incredible partners -- as it's evolved, the product is no longer set up to scale.\" \n\nCommunity Points, which will be phased out by early November, were promoted as a chance for Redditors to \"own\" a piece of their community. First launched in 2020, Community Points were awarded to users who positively engaged in select subreddits in order to incentivize better content and conversation. The points were essentially interchangeable Ethereum tokens stored in Reddit's Vault, which operated as a cryptocurrency wallet.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/17/1819201/reddit-is-killing-blockchain-based-community-points?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T18:40:00.000Z",
+          "wordCount": 4156,
+          "title": "Reddit is Killing Blockchain-Based Community Points",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/17/1810210/windows-11-is-active-on-almost-half-a-billion-devices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Windows Central: According to my sources who are familiar with the matter, Windows 11 is now in use on over 400 million monthly active devices. Internal Microsoft data seen by Windows Central reveals that Windows 11's active device usage just recently surpassed 400 million and is steadily climbing to reach half a billion by early 2024. As noted in our Windows 11 review, the OS has been on the market since October 2021, meaning it's taken Microsoft around two years to reach 400 million monthly active devices with Windows 11. This is a significantly slower rate than Windows 10, which reached the same number in just over a year (and eventually 1 billion users by early 2020). Still, factoring in both platforms' very different launch parameters is essential.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/17/1810210/windows-11-is-active-on-almost-half-a-billion-devices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T18:09:00.000Z",
+          "wordCount": 6732,
+          "title": "Windows 11 is Active on Almost Half a Billion Devices",
+          "imageUrl": "https://a.fsdn.com/sd/topics/windows_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/17/1415227/us-tightens-curbs-on-ai-chip-exports-to-china-widening-rift-with-us-businesses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Biden administration is tightening restrictions on China's ability to buy advanced semiconductors, fueling friction with U.S. businesses that sell to the vast Chinese market. From a report: The Commerce Department on Tuesday said it would significantly constrict exports of artificial-intelligence chips, making it tougher for U.S. companies Nvidia and Intel to sell existing products in China -- or to introduce new chips to circumvent the rules.\n The move aims to close perceived loopholes in export controls announced a year ago, which themselves had faced strong opposition from the global semiconductor industry and escalated tensions with Beijing. \n\nThe goal, Commerce Secretary Gina Raimondo told reporters, is to limit China's \"access to advanced semiconductors that could fuel breakthroughs in artificial intelligence and sophisticated computers.\" The chips are critical to Chinese military applications, she said, a nod to concerns that the U.S. could fall behind China in key defense technologies. The updated rules significantly expand the U.S. government's authority to determine what products U.S. companies can and can't sell in the name of national security. Shipments of high-end AI chips, including those developed by Nvidia and Intel for the Chinese market, are banned without a license. And \"gray zone\" chips just below those thresholds will now require notification to the government, which can then deny their sales.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/17/1415227/us-tightens-curbs-on-ai-chip-exports-to-china-widening-rift-with-us-businesses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T17:20:00.000Z",
+          "wordCount": 5319,
+          "title": "US Tightens Curbs on AI Chip Exports To China, Widening Rift With US Businesses",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/17/1410234/amazon-quietly-rolls-out-support-for-passkeys-with-a-catch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Amazon has quietly rolled out support for passkeys as it becomes the latest tech giant to join the passwordless future. But you still might have to hold onto your Amazon password for a little while longer. From a report: The option to set up a passkey is now available on the e-commerce giant's website, allowing users to log in using biometric authentication on their device, such as their fingerprint or face scan. Doing so makes it far more difficult for bad actors to remotely access users' accounts, given that the attacker also needs physical access to the user's device. \n\nBut Amazon's implementation of passkeys isn't without issues, as noted by Vincent Delitz, co-founder of German tech startup Corbado, who first documented the arrival of passkey support on Amazon. Delitz noted that there is currently no support for passkeys in Amazon's native apps, such as Amazon's shopping app or Prime Video, which TechCrunch has also checked, meaning you still have to use a password to sign-in (for now). What's more, if you've set up a passkey but previously set up two-factor authentication (2FA), Amazon will still prompt you to enter a one-time verification code when logging in, a move Delitz said was \"redundant,\" since passkeys remove the need for 2FA as they are stored on your device.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/17/1410234/amazon-quietly-rolls-out-support-for-passkeys-with-a-catch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T16:40:00.000Z",
+          "wordCount": 7916,
+          "title": "Amazon Quietly Rolls Out Support for Passkeys, With a Catch",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/17/1346213/ai-developer-punishes-staff-who-took-long-lunch-breaks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A top Chinese AI developer punished scores of staff who took a longer lunch break than allowed, reviving memories of the relentless work culture that plagued the country's tech sector years ago. From a report: IFlytek this week fired off a companywide memo upbraiding more than a hundred employees it accused of abandoning their workstations to line up for free chicken lunches at the campus cafeteria. \n\nAs a disciplinary measure, those who took more than the allotted hour will get a \"C\" review rating, according to a copy of the memo that was posted online and verified by a company representative. The post drew more than 66 million views on Chinese social media platform Weibo and highlighted the immense pressures on the country's AI sector, now the hottest slice of a tech arena still struggling to regain its footing since Beijing cracked down on the industry in late 2020.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/17/1346213/ai-developer-punishes-staff-who-took-long-lunch-breaks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T16:00:00.000Z",
+          "wordCount": 8117,
+          "title": "AI Developer Punishes Staff Who Took Long Lunch Breaks",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/17/1340257/eu-to-crack-down-further-on-microplastics-after-glitter-ban?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The EU has announced further plans to crack down on microplastics after its ban on glitter came into force. From a report: The proposal, which tackles tiny pellets used in nearly all plastic products, aims to cut plastic pellet pollution by 74% by the end of the decade. Overall, it would lead to a 7% reduction in Europe's microplastic pollution, according to the European Commission. \"The most important thing is to cut pollution at the source,\" said Virginijus Sinkevicius, EU commissioner for the environment, oceans and fisheries, in an interview with the Guardian. \"What we are looking to do is basically ensure we drastically cut, at the source, pollution of microplastics.\" \n\nTiny, durable pellets of plastic -- also known as nurdles or nibs -- are melted down and reformed into everyday products, from office chairs to water bottles. But they leak into the environment at every stage of the supply chain. Over time, they break down into microplastics that are eaten and drunk by people and animals. The commission estimates between 52,000 and 184,000 tons of plastic pellets are released into the environment in the EU each year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/17/1340257/eu-to-crack-down-further-on-microplastics-after-glitter-ban?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-17T15:20:00.000Z",
+          "wordCount": 6753,
+          "title": "EU To Crack Down Further on Microplastics After Glitter Ban",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
         {
           "id": "https://hardware.slashdot.org/story/23/10/16/2336230/meta-quest-3-is-a-virtual-reality-of-repair-insanity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4596,96 +4747,6 @@
           "wordCount": 4596,
           "title": "Windows and Surface Leader Panos Panay Leaving Microsoft",
           "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://developers.slashdot.org/story/23/09/17/2351252/maybe-chatgpt-isnt-coming-for-your-coding-job?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Today Wired published an opinion piece by software engineer Zeb Larson headlined \"ChatGPT Isn't Coming for Your Coding Job.\"\n\nFiring engineers and throwing AI at blocked feature development would probably result in disaster, followed by the rehiring of those engineers in short order. \n\nMore reasonable suggestions show that large language models (LLMs) can replace some of the duller work of engineering. They can offer autocomplete suggestions or methods to sort data, if they're prompted correctly. As an engineer, I can imagine using an LLM to \"rubber duck\" a problem, giving it prompts for potential solutions that I can review. It wouldn't replace conferring with another engineer, because LLMs still don't understand the actual requirements of a feature or the interconnections within a code base, but it would speed up those conversations by getting rid of the busy work... \n\n [C]omputing history has already demonstrated that attempts to reduce the presence of developers or streamline their role only end up adding complexity to the work and making those workers even more necessary. If anything, ChatGPT stands to eliminate the duller work of coding much the same way that compilers ended the drudgery of having to work in binary, which would make it easier for developers to focus more on building out the actual architecture of their creations... We've introduced more and more complexity to computers in the hopes of making them so simple that they don't need to be programmed at all. Unsurprisingly, throwing complexity at complexity has only made it worse, and we're no closer to letting managers cut out the software engineers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://developers.slashdot.org/story/23/09/17/2351252/maybe-chatgpt-isnt-coming-for-your-coding-job?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-18T00:20:00.000Z",
-          "wordCount": 4413,
-          "title": "Maybe ChatGPT Isn't Coming for Your Coding Job",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/17/2317226/uber-was-supposed-to-help-traffic-it-didnt-robotaxis-will-be-even-worse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Saturday the San Francisco Chronicle published a joint opinion piece from MIT professor Carlo Ratti (who directs an MIT digital lab exploring the collection of digital data about urban life) and John Rossant (founder of the collaborative data-sharing platform CoMotion). \nTogether they penned a warning about a future filled with robotaxis. \"Their convenience could seduce us into vastly overusing our cars. The result? An artificial-intelligence-powered nightmare of traffic, technically perfect but awful for our cities.\"\n\nWhy do we believe this? Because it has already come to pass with ride-sharing. In the 2010s, the Senseable City Lab at the Massachusetts Institute of Technology, where one of us serves as the director, was at the forefront of using Big Data to study how ride-hailing and ride…",
-          "link": "https://tech.slashdot.org/story/23/09/17/2317226/uber-was-supposed-to-help-traffic-it-didnt-robotaxis-will-be-even-worse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-17T23:20:00.000Z",
-          "wordCount": 7397,
-          "title": "'Uber Was Supposed to Help Traffic. It Didn't.  Robotaxis Will Be Even Worse.'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/17/2115232/las-vegas-still-struggling-to-recover-from-last-sundays-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Chaos and Concern in Sin City,\" read this morning's headline on a video report from ABC News about \"the massive cyberattack in Las Vegas crippling several hotels and casinos, and putting a damper on getaways for thousands of tourists there.\"\n\n\"Today marks a week since that cyberattack hit Las Vegas, and MGM hotels and casinos are still working on getting systems back up and running.. The online reservation site for MGM is still down, ATMs not working, and those playing the slot machines or even video poker having to wait for attendants to pay them out in cash. All of this fiasco leading to long lines at check-in, and now a cyber investigation with the FBI... \n\nOther gaming resorts also having issues. Caesar's entertainment says they too were a victim of a cyberattack, but their online operations were not impacted. Then this weekend at the Venetian, an outage shutting down some slots, but the resort says they're back up, and that at least thankfully was not due to a cyber attack. \nThey report MGM properties were affected as far away as Atlantic City, New Jersey.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/17/2115232/las-vegas-still-struggling-to-recover-from-last-sundays-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-17T21:18:00.000Z",
-          "wordCount": 5295,
-          "title": "Las Vegas Still Struggling to Recover from Last Sunday's Cyberattack",
-          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/17/204228/lithium-in-extinct-us-volcano---more-smoke-than-fire?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "On August 30th a scientific paper discussed lithium in an extinct volcano in the western United States. But would it also increase supplies of a crucial battery-making ingredient? \n\n\"The mining industry is seldom that simple,\" argues Bloomberg's Energy Digest newsletter:\n\nThe discovery of new deposits — be it the giant Simandou iron ore mine in Guinea or diamonds in Canada's Northwest Territories — rarely turns an industry on its head, and certainly not quickly. For lithium, that's likely to be especially true. Unlike cobalt and nickel, lithium isn't geologically scarce when it comes to economically viable deposits. And while there are short-term bottlenecks as the mining world reacts to a sudden spike in demand, few see long-term shortages. In fact, the supply outlook is so compelling that all but one of the biggest miners — Rio Tinto Group, which accidentally stumbled across a big deposit — decided it's not an industry they want to be in. \n\nInstead, much of the focus is on processing and refining the element into a grade suitable for batteries. \"The news is a reminder that lithium isn't rare, but producing battery-grade quantities at scale is the true challenge,\" said Chris Berry, president of House Mountain Partners, an industry consultant.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/17/204228/lithium-in-extinct-us-volcano---more-smoke-than-fire?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-17T20:08:00.000Z",
-          "wordCount": 5106,
-          "title": "Lithium in Extinct US Volcano - More Smoke Than Fire?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/17/1825207/amid-unity-pricing-controversy-is-epic-games-eying-unreal-engine-integration-for-apples-vision-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The VR blog Nifty Sparks made an interesting discovery:\nIn a strategic move that could reshape the gaming industry, Epic Games, the creator of the widely-used Unreal Engine, is reportedly considering native integration with Apple's forthcoming Vision Pro. \n\nThe mixed-reality headset, slated for a 2024 release, could greatly benefit from this integration, but the timing of this development is particularly noteworthy, as it comes amidst ongoing legal disputes between Apple and Epic Games and a recent controversy surrounding changes to Unity's pricing structure. \nVictor Lerp, Unreal Engine XR Product Specialist at Epic Games, has indicated that the company is actively exploring native support for Apple Vision Pro.\n \n\nIn Unreal Engine's developer forums, Lerp turned up in a thread titled \"Support for Apple Vision Pro in Unreal ??\" Someone had posted \"Please tell me there is support coming?\" and in June Lerp had first responded \"We don't have any information to share at the moment, but stay tuned for the future.\" \n\nBut four days ago, Lerp returned to the thread with an update. \"Internally we're exploring native Unreal Engine support for Apple Vision Pro, but it's too early for us to share details on the extent of support or timeline. We have access to the public SDK's like everyone else, and there's nothing fundamentally stopping us, or you, from developing support, or shipping Apple Vision Pro applications with Unreal Engine.\" \n\nThe VR blog notes that this follows Unreal Engine 5.2's native support for Apple Silicon Macs. And \"meanwhile, Unity's recent pricing changes have led some developers to consider alternatives like UE and Godot.\" \n\nThanks to Slashdot reader NiftySparks for sharing the article.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/17/1825207/amid-unity-pricing-controversy-is-epic-games-eying-unreal-engine-integration-for-apples-vision-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-17T18:34:00.000Z",
-          "wordCount": 5303,
-          "title": "Amid Unity Pricing Controversy, Is Epic Games Eying 'Unreal Engine' Integration for Apple's Vision Pro?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/displays_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/17/1647253/public-resource-wins-2012-case-judge-rules-posting-regulations-online-is-fair-use?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "From an EFF announcement this week:\nTechnical standards like fire and electrical codes developed by private organizations but incorporated into public law can be freely disseminated without any liability for copyright infringement, a federal appeals court ruled Tuesday.\n \n\nThe judge ruled that posting the materials constituted fair use — so the nonprofit group doing the posting won't be liable for copyright infringement. The American Bar Association Journal reports:\n\nThe decision is a victory for public-domain advocate Carl Malamud and the group that he founded, Public.Resource.org. The group posts legal materials on its websites, including the standards developed by the three organizations that sued... \"It has been over 10 years since plaintiffs filed suit in this case,\" said Malamud in a press release by the Electronic Frontier Foundation. \"The U.S. Court of Appeals has found decisively in favor of the proposition that citizens must not be relegated to economy-class access to the law.\" \n\nIn 2012 Carl Malamud answered questions from Slashdot readers. \n\nAnd now, finally, from the EFF's announcement:\n\nTuesday's ruling by a three-judge panel of the U.S. Court of Appeals for the District of Columbia Circuit upholds the idea that our laws belong to all of us, and we should be able to find, read, and share them free of registration requirements, fees, and other roadblocks... \"In a nation governed by the rule of law, private parties have no business controlling who can read, share, and speak the rules to which we are all subject,\" EFF Legal Director Corynne McSherry said. \"We are pleased that the Court of Appeals upheld what other U.S. courts, including the Supreme Court, have said for almost 200 years: No one should control access to the law.\" \n\nOr, as the EFF puts it on another page, \"Copyright cannot trump the essential public interest...\" \n\nThanks to long-time Slashdot reader schwit1 for sharing the news.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/17/1647253/public-resource-wins-2012-case-judge-rules-posting-regulations-online-is-fair-use?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-17T17:34:00.000Z",
-          "wordCount": 7652,
-          "title": "'Public Resource' Wins 2012 Case.  Judge Rules Posting Regulations Online is Fair Use",
-          "imageUrl": "https://a.fsdn.com/sd/topics/eff_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/17/0426252/what-happens-when-you-cross-a-gas-turbine-with-an-internal-combustion-engine?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Here is another radical replacement for the traditional combustion engine,\" writes long-time Slashdot reader Inzkeeper. \"Check out the Astron Aerospace H2 Starfire Omega 1... an ICE engine with a turbine configuration.\" \n\nThe company \"is claiming that it is a viable alternative to EVs,\" reports TopSpeed:\n\nAstron have showcased a 3D rendering of their engine which helps to understand this extremely complicated new powerplant in all of its glory. They also showed a functioning prototype which gives us a glimpse into how the engine could potentially function... The company claims that it weighs an absolutely mind-boggling 35 pounds yet produces horsepower in the region of 160 and about 170 pound-feet of torque. These are insane figures. The Omega 1 boasts an alleged 60 percent efficiency, wh…",
-          "link": "https://tech.slashdot.org/story/23/09/17/0426252/what-happens-when-you-cross-a-gas-turbine-with-an-internal-combustion-engine?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-17T16:34:00.000Z",
-          "wordCount": 11451,
-          "title": "What Happens When You Cross a Gas Turbine With an Internal Combustion Engine?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/16/2226218/wordpress-blogs-can-now-be-followed-in-the-fediverse-including-mastodon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader shared this report from TechCrunch:\n\nIn March, WordPress.com owner Automattic made a commitment to the fediverse — the decentralized social networks that include the Twitter rival Mastodon and others — with the acquisition of an ActivityPub plug-in that allows WordPress blogs to reach readers on other federated platforms. Now, the company is announcing ActivityPub 1.0.0 for WordPress has been released allowing WordPress blogs to be followed by others on apps like Mastodon and others in the fediverse and then receive replies back as comments on their own sites. \n\nSince the acquisition, the company has improved on the original software in a number of ways, including by now allowing the ability to add blog-wide catchall accounts instead of only per-author. It also introduced the ability to add a \"follow me\" block to help visitors follow your profile and a \"followers\" block to show off your followers, noted Automattic design engineer Matt Wiebe, in a post on X... For the time being, the software supports self-hosted WordPress blogs, but Wiebe teased that support for WordPress.com blogs was \"coming soon.\"\n\n \nLast year Automattic's CEO Matt Mullenweg announced Tumblr would add support for ActivityPub, the article adds. \"But more recently, Mullenweg told us he's been investigating not only ActivityPub, but also other protocols like Nostr and Bluesky's AT Protocol.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/16/2226218/wordpress-blogs-can-now-be-followed-in-the-fediverse-including-mastodon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-17T15:34:00.000Z",
-          "wordCount": 5437,
-          "title": "WordPress Blogs Can Now Be Followed in the Fediverse, Including Mastodon",
-          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/16/0455219/us-energy-department-unveils-interactive-map-showing-new-clean-energy-investments?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Long-time Slashdot reader destinyland writes: Thursday America's Energy Department released an interactive map showing America's clean energy investments, \"for tracking the industrial revitalization happening across the country, fostered by a clean energy transition...\" \n\nThe map aims to show how both the 2021 Bipartisan Infrastructure Law and the 2022 Inflation Reduction Act \"are leading to announcements of historic levels of private sector investments in the United States,\" which the head of America's Energy Department credited for \"a manufacturing renaissance across the U.S.\" A senior White House energy advisor specifically described it as \"a clean energy boom\" and called the map \"a great resource for understanding the widespread and important impact this boom is having on communities all across our nation.\" \n\nThe announcement notes 500 \"planned investments in at least 450 new or expanded clean energy manufacturing facilities, totaling over $160 billion in announced private and public sector investments\" in solar, battery, and offshore wind manufacturing projects — as well as in electric vehicle assembly, components, and chargers. Ford received over $12 billion for battery pack/cell projects and EV assembly, along with billions more for Ford's joint venture with BlueOval SK to build a battery plant. And six of the projects are Tesla — totalling over $2 billion for projects in battery materials, cells, packs, and EV assembly.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/16/0455219/us-energy-department-unveils-interactive-map-showing-new-clean-energy-investments?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-17T14:34:00.000Z",
-          "wordCount": 5104,
-          "title": "US Energy Department Unveils Interactive Map Showing New Clean Energy Investments",
-          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
         }
       ]
     }
