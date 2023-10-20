@@ -61,6 +61,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-open-source-gift-exchange-2171e0f0",
+          "author": null,
+          "description": "I love writing and sharing code as open source, but it's not an abstract act of pure altruism. The first recipients of these programming gifts are almost always myself and my company. It's an intentionally selfish drive first, then a broader benefit second. But, ironically, this is what's made my participation in the gift exchange of open source sustainable for twenty years and counting. Putting my own mask on first, so I can keep helping others.\nContrast this perspective to the resentment I occasionally see from open source developers who feel shortchanged by the exchange. People who get sucked in by the ideal of pure altruism and pursue it, but are then disappointed by what they perceive as a lack of reciprocity after a while. This has always seemed like a contradiction in terms to me. T…",
+          "link": "https://world.hey.com/dhh/the-open-source-gift-exchange-2171e0f0",
+          "publishedOn": "2023-10-19T16:33:18.000Z",
+          "wordCount": 515,
+          "title": "The open source gift exchange",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e",
           "author": null,
           "description": "One of the common objections to our cloud exit has been that we shouldn't have expected good outcomes from a lift'n'shift operation. That the real value of the cloud is in managed services and new architectures, not just running the same software on rented cloud instances. It's basically the \"you're holding it wrong\" argument for the cloud, and it's hogwash.\nFirst of all, HEY was born in the cloud for us. It never lived a life on our own hardware before launch. We went live in 2020 using Aurora/RDS for the databases, OpenSearch for search, and EKS for managing app and job servers. That's a pretty intensive use of the native cloud elements! Not just a bunch of raw VMs rented.\nAnd it's exactly because we used all the cloud had to offer so extensively that the bill ended up so high. And our d…",
@@ -119,16 +129,6 @@
           "wordCount": 665,
           "title": "Finishing Hotwire with the introduction of Strada",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/kamal-1-0-5304ff9e",
-          "author": null,
-          "description": "I count my lucky stars that SUSE's pricing for Rancher and Harvester was so ridiculous over the top for our situation. If they hadn't reached for those million-dollar contracts, we'd probably be stuck in enterprise vendor hell forever, buying over-priced consulting services for Kubernetes and VM tooling. That would have sucked.\nNow that might sound sarcastic, but I'm being earnest here. So many of the best opportunities in life only reveal themselves when the easy path is blocked. We are creatures in search of the least resistance, so to reach higher, we usually need a little push. That dance with the enterprisey sales people at SUSE was such a push for our cloud exit adventure at 37signals.\nBecause it clarified our values and cleared our minds. We will not build our critical infrastructur…",
-          "link": "https://world.hey.com/dhh/kamal-1-0-5304ff9e",
-          "publishedOn": "2023-09-19T16:26:32.000Z",
-          "wordCount": 501,
-          "title": "Kamal 1.0",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -137,6 +137,16 @@
       "feedUrl": "https://world.hey.com/jason/feed.atom",
       "siteUrl": "https://world.hey.com/jason",
       "articles": [
+        {
+          "id": "https://world.hey.com/jason/always-cheer-ccd76145",
+          "author": null,
+          "description": "I often hear from people writing in asking for advice about some broken team dynamic. Someone's against them, they're against someone, another group doesn't want them to do well because it'll make them look bad. Management this, team that, individual something or another. People want to know how to handle these unfortunate conditions.\nWith optimism. With positivity. With good faith efforts, always. Bring your best intent, always. Assume it can happen, always. If that doesn't work, alright — but it's still the right way.\nYou've got to cheer for everyone on your team. For everyone you work with. For everyone you work for. Up until the moment you aren't here, or they aren't there, you've got to want the best for everyone you're with.\nSabotaging, back stabbing, quietly rooting against, setting the traps to prove yourself right at their expense... That's the worst of you, and it's the worst for you.\nIf you have the power to change the team, change it (don't ignore it). If you only have the power to be on the team, be on it (not against it). If you can only muster the power to leave the team, leave it after you've given it everything you've got.\nTo be better, you have to make better. Bend positive.\n\n-Jason",
+          "link": "https://world.hey.com/jason/always-cheer-ccd76145",
+          "publishedOn": "2023-10-19T22:18:44.000Z",
+          "wordCount": 278,
+          "title": "Always cheer",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
         {
           "id": "https://world.hey.com/jason/then-just-say-it-like-that-3fe992bb",
           "author": null,
@@ -230,6 +240,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/10/19/announcing-the-new-rust-project-directors.html",
+          "author": null,
+          "description": "We are happy to announce that we have completed the process to elect new Project Directors.\nThe new Project Directors are:\nScott McMurray\nJakob Degen\nSantiago Pastorino\nThey will join Ryan Levick and Mark Rousskov to make up the five members of the Rust Foundation Board of Directors who represent the Rust Project.\nThe board is made up of Project Directors, who come from and represent the Rust Project, and Member Directors, who represent the corporate members of the Rust Foundation.\nBoth of these director groups have equal voting power.\nWe look forward to working with and being represented by this new group of project directors.\nWe were fortunate to have a number of excellent candidates and this was a difficult decision.\nWe wish to express our gratitude to all of the candidates who were considered for this role!\nWe also extend our thanks to the project as a whole who participated by nominating candidates and providing additional feedback once the nominees were published.\nFinally, we want to share our appreciation for the Project Director Elections Subcommittee for working to design and facilitate running this election process.\nThis was a challenging decision for a number of reasons.\nThis was also our first time doing this process and we learned a lot to use to improve it going forward.\nThe Project Director Elections Subcommittee will be following up with a retrospective outlining how well we achieved our goals with this process and making suggestions for future elections.\nWe are expecting another election next year to start a rotating cadence of 2-year terms.\nProject governance is about iterating and refining over time.\nOnce again, we thank all who were involved in this process and we are excited to welcome our new Project Directors.",
+          "link": "https://blog.rust-lang.org/2023/10/19/announcing-the-new-rust-project-directors.html",
+          "publishedOn": "2023-10-19T00:00:00.000Z",
+          "wordCount": 369,
+          "title": "Announcing the New Rust Project Directors",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/10/05/Rust-1.73.0.html",
           "author": null,
           "description": "The Rust team is happy to announce a new version of Rust, 1.73.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.73.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.73.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.73.0 stable\nCleaner panic messages\nThe output produced by the default panic handler has been changed\nto put the panic message on its …",
@@ -321,6 +341,16 @@
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
         {
+          "id": "http://notes.eatonphil.com/2023-10-19-write-file-to-disk-with-io_uring.html",
+          "author": null,
+          "description": "King and I wrote a blog\npost\nabout building an event-driven cross-platform IO library that used\nio_uring on Linux. We sketched out how it works at a high level but I\nhadn't yet internalized how you actually code with io_uring. So I\nstrapped myself down this week and wrote some\nbenchmarks to build my\nintuition about io_uring and other IO models.\nI started with implementations in Go and ported them to Zig to make\nsure I had done the Go versions decently. And I got some help from\nKing and other internetters to find some inefficiencies in my code.\nThis post will walk through my process, getting increasingly efficient\n(and a little increasingly complex) ways to write an entire file to\ndisk with io_uring, from Go and Zig.\nAll code for this post is available on\nGitHub.\nio_uring\nWith normal blocki…",
+          "link": "http://notes.eatonphil.com/2023-10-19-write-file-to-disk-with-io_uring.html",
+          "publishedOn": "2023-10-19T00:00:00.000Z",
+          "wordCount": 5538,
+          "title": "io_uring basics: Writing a file to disk",
+          "imageUrl": null
+        },
+        {
           "id": "http://notes.eatonphil.com/2023-10-05-go-database-sql-overhead-on-insert-heavy-workloads.html",
           "author": null,
           "description": "Go's builtin database/sql interface seems to have a (roughly) 20-76%\noverhead on insert-heavy benchmarks. This post will demonstrate it\nwith SQLite and PostgreSQL drivers.\nBut aside from what I've measured, database/sql\nissues are\nbasically\nwell-known.\nSo if you are bulk-inserting data with Go (and potentially also\nbulk-retrieving data with Go), you may want to consider not using the\ndatabase/sql interface. And you may even have to switch drivers\nsince the most popular drivers do not allow you to avoid the\ndatabase/sql interface.\nOther frontends like sqlc, sqlx, and\nGORM seem only to be worse than database/sql according to this\nJetBrains\npost.\nThis post is built on the workload, environment, libraries, and\nmethodology in my databases-intuition repo on\nGitHub. See the\nrepo for details that …",
@@ -382,6 +412,16 @@
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
+        {
+          "id": "http://notes.eatonphil.com/2023-10-19-write-file-to-disk-with-io_uring.html",
+          "author": null,
+          "description": "King and I wrote a blog\npost\nabout building an event-driven cross-platform IO library that used\nio_uring on Linux. We sketched out how it works at a high level but I\nhadn't yet internalized how you actually code with io_uring. So I\nstrapped myself down this week and wrote some\nbenchmarks to build my\nintuition about io_uring and other IO models.\nI started with implementations in Go and ported them to Zig to make\nsure I had done the Go versions decently. And I got some help from\nKing and other internetters to find some inefficiencies in my code.\nThis post will walk through my process, getting increasingly efficient\n(and a little increasingly complex) ways to write an entire file to\ndisk with io_uring, from Go and Zig.\nAll code for this post is available on\nGitHub.\nio_uring\nWith normal blocki…",
+          "link": "http://notes.eatonphil.com/2023-10-19-write-file-to-disk-with-io_uring.html",
+          "publishedOn": "2023-10-19T00:00:00.000Z",
+          "wordCount": 5538,
+          "title": "io_uring basics: Writing a file to disk",
+          "imageUrl": null
+        },
         {
           "id": "http://notes.eatonphil.com/2023-10-05-go-database-sql-overhead-on-insert-heavy-workloads.html",
           "author": null,
@@ -471,6 +511,16 @@
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
         {
+          "id": "https://taylor.town/sads",
+          "author": null,
+          "description": "What is SADS?  \nWho is at risk for SADS?  \nHow is SADS diagnosed?  \nCan SADS be prevented?  \nHow do you prepare for SADS?  \nchaos emeralds.\ntake everything to your grave  \n  \nlisten wholeheartedly to people; never interrupt  \n  \naccept pain; minimize suffering  \n  \nunravel your fears  \n  \nbefriend Nature  \n  \nspend time wisely",
+          "link": "https://taylor.town/sads",
+          "publishedOn": "2023-10-19T00:00:00.000Z",
+          "wordCount": 496,
+          "title": "Living with Sudden Adult Death Syndrome (SADS)",
+          "imageUrl": null
+        },
+        {
           "id": "https://taylor.town/town-hall-0014",
           "author": null,
           "description": "Suddenly some of my accidental friends feel like obligations.",
@@ -547,6 +597,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://it.slashdot.org/story/23/10/20/002204/hackers-compromise-accounts-of-kodex-company-that-vets-police-data-requests-for-tech-giants?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Slash_Account_Dot shares a report from 404 Media: Hackers are targeting accounts on Kodex, a platform that connects law enforcement agencies and tech companies and which is designed to verify emergency requests for customer data, according to multiple online conversations between hackers viewed by 404 Media. Screenshots from one of the compromised accounts shows a panel where a law enforcement officer, or a hacker, can potentially 'create a new request.' The screenshots show a wide range of companies such as tech giants Meta and Microsoft's LinkedIn; cryptocurrency exchanges Binance and Coinbase; social media platforms Pinterest, Discord, and Snapchat; financial service Fidelity, and gaming platform Roblox. The compromised account appears to belong to a national police force, but the screenshots do not include the agency's full name.\n \nThere is no evidence that hackers have successfully used compromised Kodex accounts to obtain data from a tech company, and Matt Donahue, the former FBI agent and now CEO of Kodex, said that multiple compromised accounts 404 Media found did not have authorization to make such requests, and that Kodex had shut down those accounts. But the repeated examples of criminal chatter show that Kodex is a target of interest for hackers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/20/002204/hackers-compromise-accounts-of-kodex-company-that-vets-police-data-requests-for-tech-giants?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-20T00:45:00.000Z",
+          "wordCount": 4002,
+          "title": "Hackers Compromise Accounts of Kodex, Company That Vets Police Data Requests For Tech Giants",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/19/2120248/convoy-trucking-startup-backed-by-jeff-bezos-and-bill-gates-is-closing-operation-with-no-buyer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Ty Roush reports via Forbes: Convoy, a Seattle-based digital freight booker with investors that include billionaires Bill Gates and Jeff Bezos, announced Thursday it would be shutting down, according to Bloomberg, after the company failed to find a buyer amid a \"massive freight recession.\" Convoy's founder and chief executive Dan Lewis notified employees in an internal memo Thursday that \"today is your last day at the company,\" noting the company is \"exploring and evaluating strategic options for what might come next,\" Bloomberg reported.\n \nLewis said the company had evaluated potential suitors to acquire it, though \"none of the options ultimately materialized into anything sufficient to keep the company going in its then current form.\" Convoy was in \"the middle of a massive freight recession and a contraction in the capital markets,\" according to Lewis, who added \"this combination ultimately crushed our progress\" and likely swayed potential suitors away from acquiring the firm. \"Following an exhaustive process, spanning many, many months during which we explored all viable strategic options for the business, the result is where we are today,\" Lewis wrote. Convoy was founded in 2015 in an effort to prevent trucks from driving \"empty miles\" without loads. The idea was to use technology to make freight more efficient by connecting truck drivers with freight companies -- reducing shippers' costs, increasing carriers' earnings, and eliminating carbon emissions in the process.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/19/2120248/convoy-trucking-startup-backed-by-jeff-bezos-and-bill-gates-is-closing-operation-with-no-buyer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-20T00:02:00.000Z",
+          "wordCount": 4482,
+          "title": "Convoy Trucking Startup, Backed By Jeff Bezos and Bill Gates, Is Closing Operation With No Buyer",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/19/2111235/julian-assange-to-be-made-honorary-citizen-of-rome?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Jailed WikiLeaks founder Julian Assange will become an honorary citizen of Rome by early next year following a vote this week by its local assembly, the city's former mayor Virginia Raggi said on Thursday. Reuters reports: Assange, 52, has been in London's high-security Belmarsh prison since 2019 and is wanted in the United States over the release of confidential U.S. military records and diplomatic cables in 2010. His supporters see his prosecution as a politically motivated assault on journalism and free speech. Washington says the release of secret documents put lives in danger.\n \nThe motion to make him a citizen of the Eternal City was spearheaded by Raggi, from the left-leaning Five Star Movement, and won cross-party support. \"Assange is a symbol of free speech which is essential for any genuine democracy,\" Raggi, who ran Rome's city hall between 2016 and 2021, told Reuters. \"He has been deprived of his own liberty for years, in awful conditions, for doing his job as a journalist,\" she said.\n \nThe motion was approved on Tuesday, kick-starting a process that Raggi said she hoped could be completed by Christmas but may take slightly longer. Other Italian cities have taken similar steps. The northern city of Reggio Emilia granted Assange citizenship last month, while Naples is set to follow shortly. Further reading: Australian MPs To Lobby US To Drop Julian Assange Prosecution or Risk 'Very Dangerous' Precedent for Russia and China\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/19/2111235/julian-assange-to-be-made-honorary-citizen-of-rome?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T23:20:00.000Z",
+          "wordCount": 5168,
+          "title": "Julian Assange To Be Made Honorary Citizen of Rome",
+          "imageUrl": "https://a.fsdn.com/sd/topics/news_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/19/215257/first-mini-pc-with-solid-state-active-cooling-system-launches?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Chinese multinational Zotac has announced a mini-PC built around two solid-state active cooling chips called the AirJet Pro and AirJet Mini. They're designed by a company called Frore Systems. New Atlas reports: The AirJet tech is described as a self-contained active heat sink featuring membranes inside that vibrate at ultrasonic frequency, generating \"a powerful flow of air\" that's pushed through vents at the top of the unit. These \"high-velocity pulsating jets\" remove heat from the processor and push it out through an integrated spout. Back at Computex 2023 in May, Zotac's new Zbox mini-PC was announced as the first recipient of Frore's cooling technology, in the shape of two near-silent AirJet Minis. Now The Zbox PI430AJ has launched to \"select regions.\" Zotac reckons that the active cooling modules can only be heard if the user places an ear against the Zbox's housing.\n \nThe processor of choice for this \"world's first\" device is an Intel Core i3-N300 octacore chip that can clock up to 3.8 GHz. This features integrated UHD graphics, and is supported by 8 GB of LPDDR5 RAM. The Windows flavor comes with 512 GB of SSD storage, while users who opt for the barebones version will need to install their own. The 114.8 x 76 x 23.8-mm (4.52 x 2.99 x 0.95-in) mini-PC sports two USB 3.2 Type-A ports plus one USB-C, HDMI and DisplayPort, Ethernet LAN and a combo headphone/microphone jack. Bluetooth 5.2 and Wi-Fi 6 are cooked in for wireless needs.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/10/19/215257/first-mini-pc-with-solid-state-active-cooling-system-launches?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T22:40:00.000Z",
+          "wordCount": 4692,
+          "title": "First Mini-PC With Solid-State Active Cooling System Launches",
+          "imageUrl": "https://a.fsdn.com/sd/topics/hardware_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/19/210240/cfpb-moves-to-bar-financial-firms-from-hoarding-a-consumers-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Politico: The Consumer Financial Protection Bureau on Thursday released a landmark proposal restricting how financial institutions handle consumer data. [...] The proposed rule -- which faces months of feedback and lobbying from industry and consumer groups before it's approved -- would bar financial firms from \"hoarding\" a consumer's data, the agency said. It would require companies to share information, at a customer's request, with other businesses offering competing products and prevent them from charging for it.\n \nBanks would be required to make personal financial data available to consumers free of charge, and companies that access a person's data would not be able to use it for targeted advertising. Access to a person's data would have to be reauthorized annually, and consumers would have the right to revoke access at any time. The proposal, which implements Section 1033 of the 2010 Dodd-Frank law, also \"seeks to move the market away from risky data collection practices\" such as screen scraping, the CFPB said. \"It is often really daunting for a consumer to switch banks, in part because it's difficult to take their financial transaction history data to a new bank,\" White House National Economic Council Director Lael Brainard said on a call with reporters. \"Today's rule will help ensure financial companies compete based on service quality and pricing.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/19/210240/cfpb-moves-to-bar-financial-firms-from-hoarding-a-consumers-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T22:00:00.000Z",
+          "wordCount": 4238,
+          "title": "CFPB Moves To Bar Financial Firms From 'Hoarding' a Consumer's Data",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/19/1955259/theres-a-new-way-to-flip-bits-in-dram-and-it-works-against-the-latest-defenses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: In 2015, researchers reported a surprising discovery that stoked industry-wide security concerns -- an attack called RowHammer that could corrupt, modify, or steal sensitive data when a simple user-level application repeatedly accessed certain regions of DDR memory chips. In the coming years, memory chipmakers scrambled to develop defenses that prevented the attack, mainly by limiting the number of times programs could open and close the targeted chip regions in a given time. Recently, researchers devised a new method for creating the same types of RowHammer-induced bitflips even on a newer generation of chips, known as DDR4, that have the RowHammer mitigations built into them. Known as RowPress, the new attack works not by \"hammering\" carefully selected regions repeatedly, but instead by leaving them open for longer periods than normal. Bitflips refer to the phenomenon of bits represented as ones change to zeros and vice versa. \n\nFurther amplifying the vulnerability of DDR4 chips to read-disturbance attacks -- the generic term for inducing bitflips through abnormal accesses to memory chips -- RowPress bitflips can be enhanced by combining them with RowHammer accesses. Curiously, raising the temperature of the chip also intensifies the effect. \"We demonstrate a proof of concept RowPress program that can cause bitflips in a real system that already employs protections against RowHammer,\" Onur Mutlu, a professor at ETH Zurich and a co-author of a recently published paper titled RowPress: Amplifying Read Disturbance in Modern DRAM Chips [PDF], wrote in an email. \"Note that this is not in itself an attack. It simply shows that bitflips are possible and plenty, which can easily form the basis of an attack. As many prior works in security have shown, once you can induce a bitflip, you can use that bitflip for various attacks.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/19/1955259/theres-a-new-way-to-flip-bits-in-dram-and-it-works-against-the-latest-defenses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T21:20:00.000Z",
+          "wordCount": 6202,
+          "title": "There's a New Way To Flip Bits in DRAM, and It Works Against the Latest Defenses",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/19/1941252/discord-is-going-to-give-out-warnings-instead-of-permanent-bans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Discord is overhauling the way it moderates its platform with a new warning system and teen safety assist feature. From a report: The new Discord warning system has been totally revamped to be far more transparent, educating Discord users how they've broken rules and are restricted from parts of the service rather than permanently banning them. \"The new system gives users more room to learn from their mistakes and correct misjudgments,\" explains Savannah Badalich, Discord's senior director of policy, in a briefing with The Verge. \"We're moving away from permanent bans to one-year temporary bans for many violations, except for violations that are extremely harmful.\" \n\nIn the coming weeks, Discord will start to limit features for rule breakers, instead of banning them outright. If a Discord user violates the rules, then they'll be met with a DM from Discord letting them know about the warning or violation and what action Discord is taking. So, if a Discord user uploads an image that breaks the rules, they might temporarily take away the ability to post images.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/19/1941252/discord-is-going-to-give-out-warnings-instead-of-permanent-bans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T20:40:00.000Z",
+          "wordCount": 5248,
+          "title": "Discord is Going To Give Out Warnings Instead of Permanent Bans",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/19/1917254/fcc-greenlights-superfast-wi-fi-tethering-for-ar-and-vr-headsets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The FCC has unanimously approved plans by several tech companies to use the 6GHz band for wireless devices. From a report: FCC Chair Jessica Rosenworcel proposed the new rules, which would authorize very low power (VLP) operations -- meaning their signals won't be able to go very far -- in about 850MHz of the spectrum, on September 27th. The rules will also allow devices to \"use higher power levels\" so long as they're geofenced to keep from interfering with actual licensed 6GHz usage, and the FCC will be taking comments on other ways it can expand 6GHz spectrum usage by technology devices. \n\nA September Bloomberg report pointed to some of the kinds of devices the FCC's affirmative vote could open up, including in-car connections, mobile virtual or augmented reality devices, and more. The FCC originally opened up 1,200MHz of the 6GHz spectrum for unlicensed use by Wi-Fi routers and client devices (think smartphones or laptops), giving home networks far more wireless overhead than existing Wi-Fi standards already had. This new approval expands the spectrum for much more general use.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/19/1917254/fcc-greenlights-superfast-wi-fi-tethering-for-ar-and-vr-headsets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T20:00:00.000Z",
+          "wordCount": 4323,
+          "title": "FCC Greenlights Superfast Wi-Fi Tethering for AR and VR Headsets",
+          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/19/1734256/new-york-sues-crypto-firms-for-losing-over-1-billion?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "New York Attorney General Letitia James is suing three cryptocurrency companies -- Gemini, Genesis, and Digital Currency Group (DCG) -- over claims they misled investors, leading to the loss of over $1 billion. From a report: In a lawsuit filed on Thursday, James says their alleged fraudulent schemes affected over 230,000 investors. The lawsuit targets Gemini, the crypto exchange owned by Cameron and Tyler Winklevoss, and its Earn program. The firm marketed Gemini Earn as a high-yield program that involved customers investing with Genesis Global Capital, which is owned by DCG. However, James alleges that Gemini knew investing with Genesis was risky and misled customers as a result.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/19/1734256/new-york-sues-crypto-firms-for-losing-over-1-billion?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T19:20:00.000Z",
+          "wordCount": 5989,
+          "title": "New York Sues Crypto Firms For Losing Over $1 Billion",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/19/1724240/google-hosted-malvertising-leads-to-fake-keepass-site-that-looks-genuine?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google has been caught hosting a malicious ad so convincing that there's a decent chance it has managed to trick some of the more security-savvy users who encountered it. From a report: Looking at the ad, which masquerades as a pitch for the open source password manager Keepass, there's no way to know that it's fake. It's on Google, after all, which claims to vet the ads it carries. Making the ruse all the more convincing, clicking on it leads to Äeepass[.]info, which, when viewed in an address bar, appears to be the genuine Keepass site. A closer look at the link, however, shows that the site is not the genuine one. In fact, Äeepass[.]info -- at least when it appears in the address bar -- is just an encoded way of denoting xn--eepass-vbb[.]info, which, it turns out, is pushing a malware family tracked as FakeBat. Combining the ad on Google with a website with an almost identical URL creates a near-perfect storm of deception. \n\n\"Users are first deceived via the Google ad that looks entirely legitimate and then again via a lookalike domain,\" Jerome Segura, head of threat intelligence at security provider Malwarebytes, wrote in a post on Wednesday that revealed the scam. Information from Google's Ad Transparency Center shows that the ads have been running since Saturday and last appeared on Wednesday. The ads were paid for by an outfit called Digital Eagle, which the transparency page says is an advertiser whose identity has been verified by Google.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/19/1724240/google-hosted-malvertising-leads-to-fake-keepass-site-that-looks-genuine?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T18:40:00.000Z",
+          "wordCount": 6136,
+          "title": "Google-Hosted Malvertising Leads To Fake Keepass Site That Looks Genuine",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/10/19/1635233/netflix-plans-price-increase-as-password-sharing-crackdown-boosts-subscriber-growth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Netflix said its effort to limit password sharing led to a 10.8% rise in subscriptions in the third quarter, a better-than-expected result that comes as the company plans to increase some prices in the U.S. and other markets. From a report: The streaming giant added 8.8 million subscribers in the third quarter with customer growth in every region, its largest quarterly customer gain since the second quarter of 2020. The company plans to immediately raise prices for its basic plan in the U.S., which is no longer available to new customers, to $11.99 from $9.99 and up the cost of its premium plan to $22.99 from $19.99. \n\nIt is also increasing some prices in the U.K. and France, though the cost of its ad-supported and standard ad-free plans are unchanged. The price increases are a sign of streamers' efforts to improve profitability and wean consumers off the low monthly subscription fees that drew users away from pricey cable bundles in the early days of streaming.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/23/10/19/1635233/netflix-plans-price-increase-as-password-sharing-crackdown-boosts-subscriber-growth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T18:00:00.000Z",
+          "wordCount": 6850,
+          "title": "Netflix Plans Price Increase as Password-Sharing Crackdown Boosts Subscriber Growth",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/19/1549211/universal-music-sues-ai-startup-anthropic-for-scraping-song-lyrics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Universal Music has filed a copyright infringement lawsuit against artificial intelligence start-up Anthropic, as the world's largest music group battles against chatbots that churn out its artists' lyrics. From a report: Universal and two other music companies allege that Anthropic scrapes their songs without permission and uses them to generate \"identical or nearly identical copies of those lyrics\" via Claude, its rival to ChatGPT. When Claude is asked for lyrics to the song \"I Will Survive\" by Gloria Gaynor, for example, it responds with \"a nearly word-for-word copy of those lyrics,\" Universal, Concord, and ABKCO said in a filing with a US court in Nashville, Tennessee. \n\n\"This copyrighted material is not free for the taking simply because it can be found on the Internet,\" the music companies said, while claiming that Anthropic had \"never even attempted\" to license their copyrighted work. The lawsuit comes as the music industry is grappling with the rise of AI technology that can produce \"deepfake\" songs that mimic the voices, lyrics, or sound of established musicians. The issue drew attention earlier this year after an AI-produced song that mimicked the voices of Drake and The Weeknd spread online.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/19/1549211/universal-music-sues-ai-startup-anthropic-for-scraping-song-lyrics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T17:20:00.000Z",
+          "wordCount": 5311,
+          "title": "Universal Music Sues AI Startup Anthropic For Scraping Song Lyrics",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/19/1619226/fcc-moves-ahead-with-title-ii-net-neutrality-rules-in-3-2-party-line-vote?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. FCC voted Thursday to advance a proposal to reinstate landmark net neutrality rules and assume new regulatory oversight of broadband internet that was rescinded under former President Donald Trump. From a report: In a 3-2 party-line vote, the FCC approved Chairwoman Jessica Rosenworcel's Notice of Proposed Rulemaking (NPRM), which seeks public comment on the broadband regulation plan. The comment period will officially open after the proposal is published in the Federal Register, but the docket is already active and can be found here. The proposal would reclassify broadband as a telecommunications service, a designation that allows the FCC to regulate ISPs under the common-carrier provisions in Title II of the Communications Act. The plan is essentially the same as what the FCC did in 2015 when it used Title II to prohibit fixed and mobile Internet providers from blocking or throttling traffic or giving priority to Web services in exchange for payment. \n\nThe Obama-era net neutrality rules were eliminated during Trump's presidency when then-Chairman Ajit Pai led a repeal that reclassified broadband as an information service, returning it to the less strict regulatory regime of Title I. The current FCC likely would have acted much sooner but there was a 2-2 deadlock until last month when the Senate confirmed Biden nominee Anna Gomez to fill the empty spot. After the comment period, the FCC is likely to finalize the rulemaking and put the 2015 rules back in place. The broadband industry will likely then sue the FCC in an attempt to nullify the rulemaking.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/19/1619226/fcc-moves-ahead-with-title-ii-net-neutrality-rules-in-3-2-party-line-vote?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T16:40:00.000Z",
+          "wordCount": 9549,
+          "title": "FCC Moves Ahead With Title II Net Neutrality Rules in 3-2 Party-Line Vote",
+          "imageUrl": "https://a.fsdn.com/sd/topics/yro_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/19/1455224/in-antitrust-trial-google-argues-that-smart-employees-explain-its-success?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "In its antitrust confrontation with the government, the pillar of Google's defense has been that innovation -- not restrictive contracts, backed by billions in payments to industry partners -- explains its success as the giant of internet search. From a report: Its competitive advantage, it says, is brilliant people, working tirelessly to improve its products. Pandu Nayak, Google's first witness in the antitrust trial that began last month, is the face of that defense. Mr. Nayak, a vice president of search, was raised in India and graduated at the top of his class at one of that nation's elite technical schools. He came to America, earned his Ph.D. in computer science at Stanford University and then spent seven years as a research scientist on artificial intelligence projects at NASA's Ames Research Center in Silicon Valley. \n\nNineteen years ago, Mr. Nayak joined Google and found a particularly welcoming workplace, filled with professional friends. \"At the end of the day, Google is a technology company -- it really values the skills that I have,\" Mr. Nayak said in his testimony on Wednesday. The computer scientist's testimony is an attempt to rebut a central argument in the case filed by the Justice Department and 38 states and territories. Their suit claims that scale is essential to competition in search. That is, the more data from user queries a search engine collects, the more it learns to improve its service, which attracts still more users, advertisers and ad revenue. That flywheel, the suit says, is fueled by ever-increasing volumes of user data.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/19/1455224/in-antitrust-trial-google-argues-that-smart-employees-explain-its-success?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T16:00:00.000Z",
+          "wordCount": 6565,
+          "title": "In Antitrust Trial, Google Argues That Smart Employees Explain Its Success",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/19/1449235/nokia-to-axe-up-to-14000-jobs-to-cut-costs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Finnish telecoms giant Nokia is to axe between 9,000 and 14,000 jobs by the end of 2026 to cut costs. From a report: The announcement was made as the company reported a 20% drop in sales between July and September. The company blamed slowing demand for 5G equipment in markets such as North America. It currently has 86,000 employees around the world, and has axed thousands of jobs since 2015. Nokia wants to cut costs by between $845m and $1.27bn by 2026, it said. \n\nIts customers have been cutting spending amid high inflation and interest rates, it said. Advances in cloud computing and AI will need \"significant investments in networks that have vastly improved capabilities,\" said chief executive Pekka Lundmark. \"However, given the uncertain timing of the market recovery, we are now taking decisive action,\" he said. It said it wanted to \"act quickly\" by cutting costs by $422m in 2024, and $317m in 2025.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/19/1449235/nokia-to-axe-up-to-14000-jobs-to-cut-costs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-19T15:20:00.000Z",
+          "wordCount": 5625,
+          "title": "Nokia To Axe Up To 14,000 Jobs To Cut Costs",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
         {
           "id": "https://it.slashdot.org/story/23/10/18/2148248/android-will-now-scan-sideloaded-apps-for-malware-at-install-time?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4546,206 +4746,6 @@
           "wordCount": 7323,
           "title": "The International Criminal Court In The Hague Says It Has Been Hacked",
           "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
-        },
-        {
-          "id": "https://linux.slashdot.org/story/23/09/19/2216251/long-term-support-for-linux-kernel-to-be-cut-as-maintenance-remains-under-strain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Steven Vaughan-Nichols writes via ZDNet: BILBAO, Spain: At the Open Source Summit Europe, Jonathan Corbet, Linux kernel developer and executive editor of Linux Weekly News, caught everyone up with what's new in the Linux kernel and where it's going from here. Here's one major change coming down the road: Long-term support (LTS) for Linux kernels is being reduced from six to two years.\n \nCurrently, there are six LTS Linux kernels -- 6.1, 5.15, 5.10, 5.4, 4.19, and 4.14. Under the process to date, 4.14 would roll off in January 2024, and another kernel would be added. Going forward, though, when the 4.14 kernel and the next two drop off, they won't be replaced. Why? Simple, Corbet explained: \"There's really no point to maintaining it for that long because people are not using them.\" I agree. While I'm sure someone out there is still running 4.14 in a production Linux system, there can't be many of them.\n \nAnother reason, and a far bigger problem than simply maintaining LTS, according to Corbet, is that Linux code maintainers are burning out. It's not that developers are a problem. The last few Linux releases have involved an average of more than 2,000 programmers -- including about 200 new developers coming on board -- working on each release. However, the maintainers -- the people who check the code to see if it fits and works properly -- are another matter.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://linux.slashdot.org/story/23/09/19/2216251/long-term-support-for-linux-kernel-to-be-cut-as-maintenance-remains-under-strain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-20T10:00:00.000Z",
-          "wordCount": 12928,
-          "title": "Long-Term Support For Linux Kernel To Be Cut As Maintenance Remains Under Strain",
-          "imageUrl": "https://a.fsdn.com/sd/topics/linux_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/09/19/228244/space-drugs-factory-denied-reentry-to-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "After manufacturing crystals of an HIV drug in space, the first orbital factory is stuck in orbit after being denied reentry back to Earth due to safety concerns. Gizmodo reports: The U.S. Air Force denied a request from Varda Space Industries to land its in-space manufacturing capsule at a Utah training area, while the U.S. Federal Aviation Administration (FAA) did not grant the company permission to reenter Earth's atmosphere, leaving its spacecraft hanging as the company scrambles to find a solution, TechCrunch first reported. A spokesperson from the FAA told TechCrunch in an emailed statement that the company's request was not granted at this time \"due to the overall safety, risk and impact analysis.\"\n \nGizmodo reached out to Varda Space to ask which regulatory requirements have not been met, but the company responded with a two-word email that ominously read, \"no comment.\" The California-startup did provide an update on its spacecraft through X (formerly Twitter). \"We're pleased to report that our spacecraft is healthy across all systems. It was originally designed for a full year on orbit if needed,\" Varda Space wrote on X. \"We look forward to continuing to collaborate w/ our gov partners to bring our capsule back to Earth as soon as possible.\" Varda Space Industries launched its first test mission on June 12, \"successfully sending a 200-pound (90-kilogram) capsule designed to carry drug research into Earth's orbit,\" reported CNN. \"The experiment, conducted in microgravity by simple onboard machines, aims to test whether it would be possible to manufacture pharmaceuticals in space remotely.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/09/19/228244/space-drugs-factory-denied-reentry-to-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-20T07:00:00.000Z",
-          "wordCount": 8431,
-          "title": "Space Drugs Factory Denied Reentry To Earth",
-          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/09/19/222230/rna-has-been-recovered-from-an-extinct-species-for-the-first-time?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Phys.Org: A new study shows the isolation and sequencing of more than a century-old RNA molecules from a Tasmanian tiger specimen preserved at room temperature in a museum collection. This resulted in the reconstruction of skin and skeletal muscle transcriptomes from an extinct species for the first time. The researchers note that their findings have relevant implications for international efforts to resurrect extinct species, including both the Tasmanian tiger and the wooly mammoth, as well as for studying pandemic RNA viruses. The findings have been published in the journal Genome Research.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/09/19/222230/rna-has-been-recovered-from-an-extinct-species-for-the-first-time?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-20T03:30:00.000Z",
-          "wordCount": 5638,
-          "title": "RNA Has Been Recovered From an Extinct Species For the First Time",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/19/2155211/schneider-electric-warns-that-existing-datacenters-arent-buff-enough-for-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "The infrastructure behind popular AI workloads is so demanding that Schneider Electric has suggested it may be time to reevaluate the way we build datacenters. The Register reports: In a recent white paper [PDF], the French multinational broke down several of the factors that make accommodating AI workloads so challenging and offered its guidance for how future datacenters could be optimized for them. The bad news is some of the recommendations may not make sense for existing facilities. The problem boils down to the fact that AI workloads often require low-latency, high-bandwidth networking to operate efficiently, which forces densification of racks, and ultimately puts pressure on existing datacenters' power delivery and thermal management systems.\n \nToday it's not uncommon for GPUs to c…",
-          "link": "https://slashdot.org/story/23/09/19/2155211/schneider-electric-warns-that-existing-datacenters-arent-buff-enough-for-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-20T02:02:00.000Z",
-          "wordCount": 8976,
-          "title": "Schneider Electric Warns That Existing Datacenters Aren't Buff Enough For AI",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/19/2150247/google-wants-to-map-more-of-the-worlds-roads-with-expansion-of-road-mapper-volunteer-community?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Google announced today that it is opening access to more contributors to participate in Road Mapper, a tool where you can add missing roads to Google Maps in areas of the world that need it most. TechCrunch reports: Road Mapper is an invite-only platform where people participate in challenges, drawing roads located in areas with a large population, yet have a significant amount of road network missing from Google Maps. Users draw road geometry using satellite images. The drawings then go through a review process and, if accepted, will be live on Google Maps in a few days. Those interested in joining Road Mapper can fill out Google's online form. Plus, top contributors that have mapped the most roads can now refer up to five contributors via the Road Mapper Referral form. Google's blog post notes that its contributors have mapped more than 1.5 million kilometers of roads, enabling more than 200 million people to navigate with Google Maps. That's pretty impressive considering Road Mapper only launched two years ago.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/19/2150247/google-wants-to-map-more-of-the-worlds-roads-with-expansion-of-road-mapper-volunteer-community?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-20T01:25:00.000Z",
-          "wordCount": 5766,
-          "title": "Google Wants To Map More of the World's Roads With Expansion of 'Road Mapper' Volunteer Community",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/19/2141244/ftx-sues-sam-bankman-frieds-parents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Bankrupt crypto exchange FTX is looking to claw back luxury property and \"millions of dollars in fraudulently transferred and misappropriated funds\" from the parents of Sam Bankman-Fried, the exchange's disgraced ex-CEO and founder. CNBC reports: In a Monday court filing, lawyers representing the bankruptcy estate of the failed exchange alleged that Allan Joseph Bankman and his wife, Barbara Fried, \"exploited their access and influence within the FTX enterprise to enrich themselves, directly and indirectly, by millions of dollars.\" The lawsuit, which was filed in the U.S. Bankruptcy Court for the District of Delaware, goes on to claim that \"despite knowing or blatantly ignoring that the FTX Group was insolvent or on the brink of insolvency,\" Bankman and Fried discussed with their son the t…",
-          "link": "https://yro.slashdot.org/story/23/09/19/2141244/ftx-sues-sam-bankman-frieds-parents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-20T00:45:00.000Z",
-          "wordCount": 4123,
-          "title": "FTX Sues Sam Bankman-Fried's Parents",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/19/2231228/toyota-reveals-its-plan-to-catch-up-on-ev-battery-technology?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader writes: Toyota, the world's largest automaker, has a problem. Although the company is famous for pioneering lean methods of manufacturing and being an early pioneer of hybrid electric powertrains, the switch to battery electric vehicles caught it somewhat unprepared. As rivals locked up contracts for critical minerals and formed joint ventures with battery makers (or built their own), Toyota has appeared to fall behind. Now, it has released a new roadmap showing how it will regain competitiveness and sell 3.5 million EVs by 2030. After some early experiments with electric-converted RAV4s (including a partnership with Tesla), Toyota has finally released a modern BEV, the bZ4x. The car had a difficult launch -- a recall for wheels falling off will lead to that -- but a we…",
-          "link": "https://hardware.slashdot.org/story/23/09/19/2231228/toyota-reveals-its-plan-to-catch-up-on-ev-battery-technology?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-20T00:02:00.000Z",
-          "wordCount": 4981,
-          "title": "Toyota Reveals Its Plan To Catch Up On EV Battery Technology",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/19/2122236/google-bard-extensions-brings-more-ai-power-to-maps-youtube-gmail-and-more?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Google Bard is getting support for Extensions today, incorporating essential apps like Google Maps, YouTube, Hotels, and Flights to simplify data retrieval and accelerate the creative process. Android Police reports: This integration ensures that users can seamlessly amalgamate data from myriad sources, thereby accelerating your creative process or just making it easier to accomplish basic tasks across the board. These tools were originally teased at I/O before their wider release today. The company posted an excellent explainer of how this works on its YouTube channel.\n \nWith today's update, you can now sync Bard with your Gmail, Docs, and Drive. This capability ensures that the AI collaborates with your personal content, making data retrieval and summarization more fluid. With the enhancement of the Google It button, Bard's responses can be cross-checked with Google Search, instilling greater trust in AI-generated data. Additionally, conversations initiated by others via Bard can be continued in your account, emphasizing collaborative creativity. You can learn more about Google Bard Extensions here.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/19/2122236/google-bard-extensions-brings-more-ai-power-to-maps-youtube-gmail-and-more?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T23:20:00.000Z",
-          "wordCount": 4322,
-          "title": "Google Bard Extensions Brings More AI Power To Maps, YouTube, Gmail, and More",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/09/19/213230/microsoft-accidentally-reveals-new-disc-less-xbox-series-x-design-with-a-lift-to-wake-controller?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Microsoft is planning to refresh its Xbox Series X console in 2024 with an all-new design and features. The Verge reports: Codenamed Brooklin, the unannounced console refresh has been accidentally revealed in new FTC v. Microsoft documents this week. The new Xbox Series X design looks a lot more cylindrical than the existing console and will ship without a disc drive. Internal confidential Microsoft documents reveal it has 2TB of storage (up from 1TB), a USB-C front port with power delivery, and an \"all-new, more immersive controller.\"\n \nThe new controller, codenamed Sebile, is set to be announced early next year for $69.99 and will include an accelerometer which should let you merely lift it to wake the gamepad. It has a two-tone color scheme and will support a direct connection to cloud, Bluetooth 5.2, and a presumably updated âoeXbox Wireless 2â connection. Microsoft also lists \"precision haptic feedback\" and \"VCA haptics double as speakers\" as specs for the controller. It will also have quieter buttons and thumbsticks, a rechargeable and swappable battery, and modular thumbsticks.\n \nInside the new Xbox Series X design, Microsoft is also adding Wi-Fi 6E support, a Bluetooth 5.2 radio, and the company is shrinking the existing die to 6nm \"for improve efficiency.\" The PSU power will be reduced by 15 percent, according to Microsoft's document. Microsoft is targeting the same $499 launch price of the Xbox Series X. Microsoft lists a roadmap for this new Xbox Series X console and controller, alongside a refreshed Xbox Series S with 1TB of storage. Microsoft just launched a refreshed Xbox Series S in black, but there could be another refresh on the way in 2024 with Wi-Fi 6E support and Bluetooth 5.2. It will also include this new Xbox controller. [...] Microsoft is tentatively planning to launch this new Xbox Series S refresh next September, with the Xbox Series X refresh in November.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/09/19/213230/microsoft-accidentally-reveals-new-disc-less-xbox-series-x-design-with-a-lift-to-wake-controller?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T22:40:00.000Z",
-          "wordCount": 4866,
-          "title": "Microsoft Accidentally Reveals New Disc-Less Xbox Series X Design With a Lift-To-Wake Controller",
-          "imageUrl": "https://a.fsdn.com/sd/topics/xbox_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/19/1919207/most-us-adults-dont-believe-benefits-of-ai-outweigh-the-risks-new-survey-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The majority of U.S. adults don't believe the benefits of artificial intelligence outweigh the risks, according to a new Mitre-Harris Poll released Tuesday. From a report: 54% of the 2,063 adults in a Mitre-Harris Poll survey in July said they were more concerned about the risks of AI than they were excited about the potential benefits. At the same time, 39% of adults said they believed today's AI technologies are safe and secure -- down 9 points from the previous survey in November 2022. AI operators and the tech industry are eyeing new regulations and policy changes to secure their models and mitigate the security and privacy risks associated with them. \n\nThe new survey data is some of the first to highlight the growing support for these regulatory efforts. \"While the public has started to benefit from new AI capabilities such as ChatGPT, we've all watched as chatbots have spread political disinformation and shared dangerous medical advice,\" said Douglas Robbins, vice president of engineering and prototyping at the nonprofit security research and development firm Mitre, in a statement. \"Strengthening existing government regulation and increasing public and private investments in AI assurance can play a critical role in addressing these concerns,\" he added.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/19/1919207/most-us-adults-dont-believe-benefits-of-ai-outweigh-the-risks-new-survey-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T22:00:00.000Z",
-          "wordCount": 7094,
-          "title": "Most US Adults Don't Believe Benefits of AI Outweigh the Risks, New Survey Finds",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/19/2051227/uk-parliament-passes-online-safety-bill?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TechCrunch: Controversial UK legislation that brings in a new regime of content moderation rules for online platforms and services -- establishing the comms watchdog Ofcom as the main Internet regulator -- has been passed by parliament today, paving the way for Royal Assent and the Online Safety Bill becoming law in the coming days. Speaking during the bill's final stages in the House of Lords, Lord Parkinson of Whitley Bay reiterated that the government's intention for the legislation is \"to make the UK the safest place in the world to be online, particularly for children.\" Following affirmative votes as peers considered some last stage amendments he added that attention now moves \"very swiftly to Ofcom who stand ready to implement this -- and do s…",
-          "link": "https://news.slashdot.org/story/23/09/19/2051227/uk-parliament-passes-online-safety-bill?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T21:20:00.000Z",
-          "wordCount": 5717,
-          "title": "UK Parliament Passes Online Safety Bill",
-          "imageUrl": "https://a.fsdn.com/sd/topics/uk_64.png"
-        },
-        {
-          "id": "https://linux.slashdot.org/story/23/09/19/192251/chinese-hackers-have-unleashed-a-never-before-seen-linux-backdoor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Researchers have discovered a never-before-seen backdoor for Linux that's being used by a threat actor linked to the Chinese government. From a report: The new backdoor originates from a Windows backdoor named Trochilus, which was first seen in 2015 by researchers from Arbor Networks, now known as Netscout. They said that Trochilus executed and ran only in memory, and the final payload never appeared on disks in most cases. That made the malware difficult to detect. Researchers from NHS Digital in the UK have said Trochilus was developed by APT10, an advanced persistent threat group linked to the Chinese government that also goes by the names Stone Panda and MenuPass. \n\nOther groups eventually used it, and its source code has been available on GitHub for more than six years. Trochilus has …",
-          "link": "https://linux.slashdot.org/story/23/09/19/192251/chinese-hackers-have-unleashed-a-never-before-seen-linux-backdoor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T20:40:00.000Z",
-          "wordCount": 5765,
-          "title": "Chinese Hackers Have Unleashed a Never-Before-Seen Linux Backdoor",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/19/1816221/antarctic-sea-ice-at-mind-blowing-low-alarms-experts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The sea-ice surrounding Antarctica is well below any previous recorded winter level, satellite data shows, a worrying new benchmark for a region that once seemed resistant to global warming. BBC: \"It's so far outside anything we've seen, it's almost mind-blowing,\" says Walter Meier, who monitors sea-ice with the National Snow and Ice Data Center. An unstable Antarctica could have far-reaching consequences, polar experts warn. Antarctica's huge ice expanse regulates the planet's temperature, as the white surface reflects the Sun's energy back into the atmosphere and also cools the water beneath and near it. \n\nWithout its ice cooling the planet, Antarctica could transform from Earth's refrigerator to a radiator, experts say. The ice that floats on the Antarctic Ocean's surface now measures less than 17 million sq km - that is 1.5 million sq km of sea-ice less than the September average, and well below previous winter record lows. That's an area of missing ice about five times the size of the British Isles. Dr Meier is not optimistic that the sea-ice will recover to a significant degree. \n\nScientists are still trying to identify all the factors that led to this year's low sea-ice - but studying trends in Antarctica has historically been challenging. In a year when several global heat and ocean temperature records have broken, some scientists insist the low sea-ice is the measure to pay attention to. \"We can see how much more vulnerable it is,\" says Dr Robbie Mallett, of the University of Manitoba, who is based on the Antarctic peninsula. Already braving isolation, extreme cold and powerful winds, this year's thin sea-ice has made his team's work even more difficult. \"There is a risk that it breaks off and drifts out to sea with us on it,\" Dr Mallett says.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/19/1816221/antarctic-sea-ice-at-mind-blowing-low-alarms-experts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T20:00:00.000Z",
-          "wordCount": 10838,
-          "title": "Antarctic Sea-Ice at 'Mind-Blowing' Low Alarms Experts",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/19/1859244/us-news-2024-college-ranking-boosts-public-universities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "U.S. News & World Report's 2024 college rankings features many of the usual prestigious institutions at the top of the list, but also vaults some schools much higher after the publisher revised its grading system to reward different criteria. From a report: U.S News' ranking algorithm now based more than 50% of an institution's score on what it describes as \"success in enrolling and graduating students from all backgrounds with manageable debt and post-graduate success.\" The system also places greater emphasis on \"social mobility,\" which generally refers to an individual making gains in education, income and other markers of socioeconomic status. Overall, more than a dozen public universities shot up 50 spots on the annual list of the U.S.' best colleges, while several elite private schools largely held their ground, the new report shows. \n\n\"The significant changes in this year's methodology are part of the ongoing evolution to make sure our rankings capture what is most important for students as they compare colleges and select the school that is right for them,\" U.S. News CEO Eric Gertler said in a statement. The change comes after a chorus of critics complained that the publication's rankings reinforce elitism and do little to help students find schools that suit their academic needs and financial circumstances. A growing number of schools, including elite institutions such as Columbia University and the Harvard and Yale law schools, also have stopped participating in the ranking and publicly criticized U.S. News' methodology.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/19/1859244/us-news-2024-college-ranking-boosts-public-universities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T19:20:00.000Z",
-          "wordCount": 5219,
-          "title": "US News' 2024 College Ranking Boosts Public Universities",
-          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/19/184259/no-evidence-that-china-can-make-advanced-chips-at-scale-us-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Commerce Secretary Gina Raimondo said she was \"upset\" when China's Huawei released a new phone with an advanced chip during her visit to the country last month but noted that the US has no evidence China can make those components \"at scale.\" From a report: \"We are trying to use every single tool at our disposal to deny the Chinese the ability to advance their technology in ways that can hurt us,\" Raimondo testified at a congressional hearing Tuesday. The Commerce Department's Bureau of Industry and Security this month opened an investigation into Huawei's phone and the \"purported\" 7-nanometer chip, made by China's Semiconductor Manufacturing International Corp, which was discovered in a teardown of the handset that TechInsights conducted for Bloomberg News. It is unclear whether SMIC has approval from Commerce to supply Huawei, which has been blacklisted by the US. Raimondo said she won't comment on any active investigations, but that the Commerce Department will investigate every time it appears a company may have violated US export controls.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/19/184259/no-evidence-that-china-can-make-advanced-chips-at-scale-us-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T18:41:00.000Z",
-          "wordCount": 8153,
-          "title": "No Evidence That China Can Make Advanced Chips 'at Scale,' US Says",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/19/1557251/intel-ceo-says-the-chipmakers-technology-is-central-to-ai-boom?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Intel Chief Executive Officer Pat Gelsinger, plotting a comeback for the once-dominant chipmaker, made the case that the company's technology will be vital to an industrywide boom in artificial intelligence computing. From a report: Speaking at Intel's annual Innovation conference, Gelsinger pointed to advances that his company is making in production technology and software developer tools for AI. The opportunity will only grow as more artificial intelligence capabilities are powered by personal computers, he said. \"AI represents a generational shift, giving rise to a new era of global expansion where computing is even more foundational to a better future for all,\" Gelsinger said. \n\n\"For developers, this creates massive societal and business opportunities to push the boundaries of what's possible, to create solutions to the world's biggest challenges.\" Gelsinger is trying to fire up interest in Intel's technology and return to an era when its annual conferences offered a road map for the whole computing industry. He argues that artificial intelligence use won't be confined to the data centers of giant cloud providers, which rely heavily on chips from Nvidia. Instead, it will fan out into new areas, including the now-moribund PC market.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/19/1557251/intel-ceo-says-the-chipmakers-technology-is-central-to-ai-boom?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T18:00:00.000Z",
-          "wordCount": 4725,
-          "title": "Intel CEO Says the Chipmaker's Technology Is Central To AI Boom",
-          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/19/1555245/us-federal-agencies-seek-to-streamline-hodgepodge-of-cyber-reporting-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Department of Homeland Security wants Congress and other federal agencies to help it streamline 52 different cyber reporting requirements to protect critical infrastructure and ease regulatory burdens on hacking victims. On Tuesday, it released a 107-page report that it hopes will serve as a road map to smooth that process. From a report: More than 30 federal agencies and departments, including the Nuclear Regulatory Commission, Comptroller of the Currency and US Secret Service, have met since June 2022 to hammer out how to reduce regulatory overlap as the federal government grapples with the messy state of cyber reporting rules. They are among members of the Cybersecurity Incident Reporting Council, which was set up as part of a new cyber reporting law passed last year and developed the report recommendations. \n\n\"Everybody is desperate for some harmonization and standardization here,\" Robert Silvers, DHS's under secretary for strategy, policy and plans who chairs the council, told Bloomberg News in an interview. \"This is a first-of-its-kind effort.\" Federal agencies know well that cyber reporting requirements have become \"too much of a patchwork,\" Silvers added. There are already 45 existing reporting requirements administered by 22 federal agencies, spanning national and economic security concerns to consumer and privacy protections, according to the report. Seven more requirements are expected, including the reporting law that created the council, and a further five are under consideration, according to the report.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/19/1555245/us-federal-agencies-seek-to-streamline-hodgepodge-of-cyber-reporting-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T17:20:00.000Z",
-          "wordCount": 4872,
-          "title": "US Federal Agencies Seek to Streamline 'Hodgepodge' of Cyber Reporting Rules",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/19/1549226/intel-unveils-meteor-lake-architecture?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Intel has taken the wraps off its forthcoming next-gen Meteor Lake processors following its successful 12th (Alder Lake) and 13th Gen (Raptor Lake) processors with its new E- and P-core design. WindowsCentral: Its first chip built on the Intel 4 process node with Foveros 3D packaging, Intel calls Meteor Lake its \"biggest architectural shift in 40 years\" and that it will \"lay the foundation for innovations for the PC,\" as noted by Tim Wilson, VP, Design and Engineering Group and GM, SoC Design at Intel. Meteor Lake is Intel's next-gen CPU and the first built on the Intel 4 process, which is part of Intel's long-term goal of \"5 nodes in 4 years.\" Previous generation naming would suggest it would be called Intel 14th Gen, but Intel is moving away from its older naming schema. Some reports have suggested Meteor Lake may reflect a reboot in generation numbers. Current rumors suggest Intel 14th Gen is simply a refresh of Raptor Lake, although Meteor Lake may play a part in that for laptops. \n\nMeteor Lake processors are expected to ship in late 2023 or early 2024 in new laptops with thinner and lighter designs, better cooling, and much better battery life. The significant change for Meteor Lake is what Intel calls disaggregation, which means the breaking down of core components into separate 'tiles' on the SoC. Meteor Lake features four Tiles, including:\nCompute Tile: New E-core and P-core microarchitecture, built on Intel 4 process technology\nSoC Tile: Low power island E-cores, NPU, Wi-Fi 6E/7, native HDMI 2.1 and 8K HDR AV1 support\nGraphics Tile: Integrated Intel Arc architecture\nIO Tile: Thunderbolt 4 (and presumably Thunderbolt 5) and PCIe Gen5\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/19/1549226/intel-unveils-meteor-lake-architecture?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T16:40:00.000Z",
-          "wordCount": 7063,
-          "title": "Intel Unveils Meteor Lake Architecture",
-          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/19/1458233/european-governments-shrinking-railways-in-favour-of-road-building-report-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "European governments have \"systematically\" shrunk their railways and starved them of funding while pouring money into expanding their road network, a report has found. The Guardian: The length of motorways in Europe grew 60% between 1995 and 2020 while railways shrank 6.5%, according to research from the German thinktanks Wuppertal Institute and T3 Transportation. For every $1 governments spent building railways, they spent $1.7 building roads. \"This is a political choice,\" said Lorelei Limousin, a climate campaigner with Greenpeace, which commissioned the report. \"We see the consequences today with the climate, but also with people who have been left without an alternative solution to cars.\" \n\nThe report found the EU, Norway, Switzerland and the UK spent $1.6tn between 1995 and 2018 to extend their roads -- but just $0.99tn to extend their rail networks. In the four years that followed (2018-21), the average gap in investment in rail and road decreased from 66% to 34%. During that time, seven countries invested more in rail than roads -- Austria, Belgium, Denmark, France, Italy, Luxembourg and the UK -- while the rest spent more on roads than rail.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/19/1458233/european-governments-shrinking-railways-in-favour-of-road-building-report-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T16:00:00.000Z",
-          "wordCount": 14000,
-          "title": "European Governments Shrinking Railways in Favour of Road-Building, Report Finds",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/09/19/1441249/microsofts-next-xbox-coming-2028-envisions-hybrid-computing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The documents in the FTC v. Microsoft case also reveal Microsoft's far future plans for 2028 -- by which the company believed it could achieve \"full convergence\" of its cloud gaming platform and physical hardware to deliver \"cloud hybrid games.\" From a report: \"Our vision: develop a next generation hybrid game platform capable of leveraging the combined power of the client and cloud to deliver deeper immersion and entirely new classes of game experiences.\" Those are the words on just one slide from a leaked presentation dubbed \"The Next Generation of Gaming at Microsoft,\" which appears to be a May 2022 pitch document entirely around this idea. The company imagined you playing these games using the combined power of a sub-$99 gadget -- possibly a handheld -- and its xCloud platform simultaneously.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/09/19/1441249/microsofts-next-xbox-coming-2028-envisions-hybrid-computing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-19T15:20:00.000Z",
-          "wordCount": 6646,
-          "title": "Microsoft's Next Xbox, Coming 2028, Envisions Hybrid Computing",
-          "imageUrl": "https://a.fsdn.com/sd/topics/xbox_64.png"
         }
       ]
     }
