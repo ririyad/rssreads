@@ -2,10 +2,313 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-20T01:00:40.717Z</updated>
+    <updated>2023-10-21T00:58:31.701Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Thousands of Remote IT Workers Sent Wages To North Korea To Help Fund Weapons Program, Says FBI]]></title>
+        <id>https://news.slashdot.org/story/23/10/20/2133236/thousands-of-remote-it-workers-sent-wages-to-north-korea-to-help-fund-weapons-program-says-fbi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/10/20/2133236/thousands-of-remote-it-workers-sent-wages-to-north-korea-to-help-fund-weapons-program-says-fbi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-21T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[echo123 shares a report from the Associated Press: Thousands of information technology workers contracting with U.S. companies have for years secretly sent millions of dollars of their wages to North Korea for use in its ballistic missile program, FBI and Department of Justice officials said. The Justice Department said Wednesday that IT workers dispatched and contracted by North Korea to work remotely with companies in St. Louis and elsewhere in the U.S. have been using false identities to get the jobs. The money they earned was funneled to the North Korean weapons program, FBI leaders said at a news conference in St. Louis.
+ 
+Court documents allege that North Korea's government dispatched thousands of skilled IT workers to live primarily in China and Russia with the goal of deceiving bus…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Chip Curbs Give Huawei a Chance To Fill the Nvidia Void In China]]></title>
+        <id>https://news.slashdot.org/story/23/10/20/2123216/us-chip-curbs-give-huawei-a-chance-to-fill-the-nvidia-void-in-china?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/10/20/2123216/us-chip-curbs-give-huawei-a-chance-to-fill-the-nvidia-void-in-china?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-21T00:02:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Reuters: U.S. measures to limit the export of advanced artificial intelligence (AI) chips to China may create an opening for Huawei to expand in its $7 billion home market as the curbs force Nvidia to retreat, analysts say. While Nvidia has historically been the leading provider of AI chips in China with a market share exceeding 90%, Chinese firms including Huawei have been developing their own versions of Nvidia's best-selling chips, including the A100 and the H100 graphics processing units (GPU).
+ 
+Huawei's Ascend AI chips are comparable to Nvidia's in terms of raw computing power, analysts and some AI firms such as China's iFlyTek say, but they still lag behind in performance. Jiang Yifan, chief market analyst at brokerage Guotai Junan Securities…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenBSD 7.4 Released]]></title>
+        <id>https://bsd.slashdot.org/story/23/10/20/2117208/openbsd-74-released?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://bsd.slashdot.org/story/23/10/20/2117208/openbsd-74-released?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T23:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader Noryungi writes: OpenBSD 7.4 has been officially released. The 55th release of this BSD operating system, known for being security oriented, brings a lot of new things, including dynamic tracer, pfsync improvements, loads of security goodies and virtualization improvements. Grab your copy today! As mentioned by Phoronix's Michael Larabel, some of the key highlights include:
+ 
+- Dynamic Tracer (DT) and Utrace support on AMD64 and i386 OpenBSD
+- Power savings for those running OpenBSD 7.4 on Apple Silicon M1/M2 CPUs by allowing deep idle states when available for the idle loop and suspend
+- Support for the PCIe controller found on Apple M2 Pro/Max SoCs
+- Allow updating AMD CPU Microcode updating when a newer patch is available
+- A workaround for the AMD Zenbleed CPU bug
+- Various SMP improvements
+- Updating the Direct Rendering Manager (DRM) graphics driver support against the upstream Linux 6.1.55 state
+- New drivers for supporting various Qualcomm SoC features
+- Support for soft RAID disks was improved for the OpenBSD installer
+- Enabling of Indirect Branch Tracking (IBT) on x86_64 and Branch Target Identifier (BTI) on ARM64 for capable processors
+
+You can download and view all the new changes via OpenBSD.org.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11 Pro's On-By-Default Encryption Slows SSDs Up To 45%]]></title>
+        <id>https://tech.slashdot.org/story/23/10/20/206205/windows-11-pros-on-by-default-encryption-slows-ssds-up-to-45?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/20/206205/windows-11-pros-on-by-default-encryption-slows-ssds-up-to-45?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a Tom's Hardware report: Unfortunately, a default setting in Windows 11 Pro, having its software BitLocker encryption enabled, robs as much as 45 percent of the speed from your SSD as it forces your processor to encrypt and decrypt everything. According to our tests, random writes and reads -- which affect the overall performance of your PC -- get hurt the most, but even large sequential transfers are affected. 
+
+While many SSDs come with hardware-based encryption, which does all the processing directly on the drive, Windows 11 Pro force-enables the software version of BitLocker during installation, without providing a clear way to opt out. (You can circumvent this with tools like Rufus, if you want, though that's obviously not an official solution as it allows users to bypass the Microsoft's intent.) If you bought a prebuilt PC with Windows 11 Pro, there's a good chance software BitLocker is enabled on it right now. Windows 11 Home doesn't support BitLocker so you won't have encryption enabled there. 
+
+To find out just how much software BitLocker impacts performance, we ran a series of tests with three scenarios: unencrypted (no BitLocker), software BitLocker (the Windows 11 Pro default), and with hardware BitLocker (OPAL) enabled. While the software encryption increased latency and decreased transfer rates, hardware encryption and no encryption at all were basically tied. If you have software BitLocker enabled, you may want to change your settings.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BMW, Mini, Rolls-Royce, Toyota, and Lexus Are Switching To Tesla's EV Charging Standard]]></title>
+        <id>https://hardware.slashdot.org/story/23/10/20/2110211/bmw-mini-rolls-royce-toyota-and-lexus-are-switching-to-teslas-ev-charging-standard?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/23/10/20/2110211/bmw-mini-rolls-royce-toyota-and-lexus-are-switching-to-teslas-ev-charging-standard?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Toyota and BMW are two of the latest automakers to announce they're adopting Tesla's North American Charging System (NACS) plug for their North American EVs, giving drivers access to Tesla's Supercharger network. Ars Technica reports: BMW's announcement applies to all its car brands, which means that in addition to EVs like the BMW i5 or i7, it's also swapping over to NACS for the upcoming Mini EVs as well as the Rolls-Royce Spectre. BMW will start adding native NACS ports to its EVs in 2025, and that same year its customers will gain access to the Tesla Supercharger network. BMW's release doesn't explicitly mention a CCS1-NACS adapter being made available, but it does say that BMW (and Mini and Rolls-Royce) EVs with CCS1 ports will be able to use Superchargers from early 2025.
+ 
+Similarly, the Toyota news applies to its brand as well as Lexus. Toyota says that it will start incorporating NACS ports into "certain Toyota and Lexus BEVs starting in 2025." And customers with Toyota or Lexus EVs that have a CCS1 port will be offered an adapter allowing them to use NACS chargers, also in 2025. And -- you guessed it -- 2025 is when Toyota and Lexus EVs gain access to the Supercharger network. While virtually all the brands that sell EVs in the North American market have announced the switch, there are still a couple holdouts. Stellantis has yet to make the switch, "meaning Alfa Romeo, Chrysler, Dodge, Fiat, Jeep, Maserati, and Ram are all sticking with CCS1 for now," reports Ars.
+ 
+"Volkswagen Group has also yet to take the plunge, which means that Audi and Porsche are also staying with CCS1 for now, as well as the soon-to-be-reborn Scout brand." That said, they're expected to announce a switch to the NACS plug any day now.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers Stole Access Tokens From Okta's Support Unit]]></title>
+        <id>https://it.slashdot.org/story/23/10/20/211235/hackers-stole-access-tokens-from-oktas-support-unit?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/10/20/211235/hackers-stole-access-tokens-from-oktas-support-unit?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Krebs on Security: Okta, a company that provides identity tools like multi-factor authentication and single sign-on to thousands of businesses, has suffered a security breach involving a compromise of its customer support unit, KrebsOnSecurity has learned. Okta says the incident affected a "very small number" of customers, however it appears the hackers responsible had access to Okta's support platform for at least two weeks before the company fully contained the intrusion. In an advisory sent to an undisclosed number of customers on Oct. 19, Okta said it "has identified adversarial activity that leveraged access to a stolen credential to access Okta's support case management system. The threat actor was able to view files uploaded by certain Okta c…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Frying Pan Company Sued for Claiming Temperatures That Rival the Sun]]></title>
+        <id>https://science.slashdot.org/story/23/10/20/202210/frying-pan-company-sued-for-claiming-temperatures-that-rival-the-sun?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/10/20/202210/frying-pan-company-sued-for-claiming-temperatures-that-rival-the-sun?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T20:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Can you heat up a pan to 30,000 degrees Fahrenheit? That's the burning question at the center of this proposed class action lawsuit, which claims the advertising for SharkNinja's nonstick cookware violates the laws of physics and thermodynamics. From a report: While SharkNinja is the company best known for its Shark robovacs and Ninja kitchen gadget, this lawsuit takes issue with the Ninja NeverStick Premium Cookware collection, a line of pots and pans it advertises as having superior nonsticking and nonflaking qualities thanks to its manufacturing process. 
+
+Instead of making its pans at a measly 900-degree temperature that other brands use, SharkNinja says it heats up the cookware to a maximum of 30,000 degrees Fahrenheit. That process, according to SharkNinja, fuses "plasma ceramic particles" to the surface of the pan, "creating a super-hard, textured surface that interlocks with our exclusive coating for a superior bond." But Patricia Brown, the person who filed this lawsuit, isn't buying it. As cited in Brown's lawsuit, NASA recently said the "surface of the Sun is a blisteringly hot 10,340 degrees Fahrenheit," meaning SharkNinja's manufacturing process reaches about three times that temperature.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In-memory Database Redis Wants To Dabble in Disk]]></title>
+        <id>https://it.slashdot.org/story/23/10/20/1953233/in-memory-database-redis-wants-to-dabble-in-disk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/10/20/1953233/in-memory-database-redis-wants-to-dabble-in-disk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T20:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Redis, the go-to in-memory database used as a cache and system broker, is looking to include disk as part of a tiered storage architecture to reduce costs and broaden the system's appeal. From a report: Speaking to The Register, CEO Rowan Trollope said he hoped the move would help customers lower costs and simplify their architecture. Redis counts Twitter X, Snapchat, and Craigslist among its customers, and it's popular among developers of modern internet-scale applications owing to its ability to create a cache to prevent the main database from overloading. Trollope said the sub-millisecond distributed system gives devs the performance they need, but admitted other systems built for internet scale, such as MongoDB, might offer price advantages. To address this, the company has already created a tiered approach to memory by offering flash support behind its in-memory system. 
+
+"We have a half-step between disk and memory. For some specific use cases, in gaming for example, a company might use us for leaderboards and other in-game stats, which they need in real time," he said. However, after an initial flush of the game launch, a large chunk of users would finish the game and their accounts would go dormant until the release of a new episode or some new content, when they might return. Trollope said using flash allowed users to dynamically tier memory. "We can take the lesser-used data that hasn't been touched in a while and shuttle it off to flash where it can sit for a while. When the user comes back eventually, it's very easy for us to seamlessly move it from flash back into memory. And that allows the company to save costs," he said.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Nvidia AI Agent, Powered by GPT-4, Can Train Robots]]></title>
+        <id>https://slashdot.org/story/23/10/20/1915219/new-nvidia-ai-agent-powered-by-gpt-4-can-train-robots?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/20/1915219/new-nvidia-ai-agent-powered-by-gpt-4-can-train-robots?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T19:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Nvidia Research announced today that it has developed a new AI agent, called Eureka, that is powered by OpenAI's GPT-4 and can autonomously teach robots complex skills. From a report: In a blog post, the company said Eureka, which autonomously writes reward algorithms, has, for the first time, trained a robotic hand to perform rapid pen-spinning tricks as well as a human can. Eureka has also taught robots to open drawers and cabinets, toss and catch balls, and manipulate scissors, among nearly 30 tasks. 
+
+"Reinforcement learning has enabled impressive wins over the last decade, yet many challenges still exist, such as reward design, which remains a trial-and-error process," Anima Anandkumar, senior director of AI research at Nvidia and an author of the Eureka paper, said in the blog post. "Eureka is a first step toward developing new algorithms that integrate generative and reinforcement learning methods to solve hard tasks."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Mind-Blowing' IBM Chip Speeds Up AI]]></title>
+        <id>https://slashdot.org/story/23/10/20/1859255/mind-blowing-ibm-chip-speeds-up-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/20/1859255/mind-blowing-ibm-chip-speeds-up-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T18:59:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: A brain-inspired computer chip that could supercharge artificial intelligence by working faster with much less power has been developed by researchers at IBM in San Jose, California. Their massive NorthPole processor chip eliminates the need to frequently access external memory, and so performs tasks such as image recognition faster than existing architectures do -- while consuming vastly less power. 
+
+"Its energy efficiency is just mind-blowing," says Damien Querlioz, a nanoelectronics researcher at the University of Paris-Saclay in Palaiseau. The work, published in Science, shows that computing and memory can be integrated on a large scale, he says. "I feel the paper will shake the common thinking in computer architecture." NorthPole runs neural networks: multi-layered arrays of simple computational units programmed to recognize patterns in data. A bottom layer takes in data, such as the pixels in an image; each successive layer detects patterns of increasing complexity and passes information on to the next layer. The top layer produces an output that, for example, can express how likely an image is to contain a cat, a car or other object
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Buying the seller]]></title>
+        <id>https://world.hey.com/dhh/buying-the-seller-1520e9dd</id>
+        <link href="https://world.hey.com/dhh/buying-the-seller-1520e9dd"/>
+        <updated>2023-10-20T18:53:46.000Z</updated>
+        <summary type="html"><![CDATA[We've just moved the 37signals podcast to Buzzsprout. Podcast hosting is to some extent a commodity market, so this was less about pining for a specific feature or even working to reduce the bill. This was about buying from Tom Rossi, the technical cofounder of HigherPixels (who make Buzzsprout), and his team, because we'd just prefer to do business with them.
+I've known Tom from the Rails community for years, but at Rails World a few weeks ago, I really got to know him better. He was there as a supporter of the conference, sponsoring a podcasting booth for Rails podcasts recording on site. We talked about bootstrapping, managing a small company, and working with Rails. We literally saw eye to eye.
+This in-person encounter made me reflect on modern commerce. How impersonal it is most of th…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Faze Clan Acquired for $17 Million, One Year After Its $725 Million SPAC]]></title>
+        <id>https://slashdot.org/story/23/10/20/185223/faze-clan-acquired-for-17-million-one-year-after-its-725-million-spac?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/20/185223/faze-clan-acquired-for-17-million-one-year-after-its-725-million-spac?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T18:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Gaming analytics and esports brand company Gamesquare, which counts Dallas Cowboys owner Jerry Jones as one of its investors, is acquiring the struggling gaming influencer group Faze Clan. From a report: The all-stock deal is worth about $17 million, Bloomberg reports, a steep drop-off from Faze's $725-million valuation at the time of its special purpose acquisition company, SPAC, merger in July of 2022. Since the SPAC made it publicly traded on the Nasdaq exchange, Faze Clan, like much of the esports industry, has struggled, with the company posting a $28.4-million loss "through the first half of 2023," according to Bloomberg. Last month, Faze Clan's troubles reached an inflection point that led to the firing of CEO Lee Trink, who once compared the company to the rise of hip-hop during an interview on The Vergecast.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pfizer Hikes Price of COVID Antiviral Paxlovid From $530 To Nearly $1,400]]></title>
+        <id>https://science.slashdot.org/story/23/10/20/1225206/pfizer-hikes-price-of-covid-antiviral-paxlovid-from-530-to-nearly-1400?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/10/20/1225206/pfizer-hikes-price-of-covid-antiviral-paxlovid-from-530-to-nearly-1400?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T17:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Pfizer this week revealed that it raised the list price of a course of Paxlovid -- its lifesaving antiviral drug used to reduce the risk of severe COVID-19 in those most vulnerable -- to nearly $1,400, more than double the roughly $530 the US government has paid for the treatment in the emergency phase of the pandemic. From a report: Pfizer CEO Albert Bourla had noted in an investor call at the beginning of the week that the company would increase the price of Paxlovid as it moves from government distribution to the commercial market at the end of this year. But, he did not announce the new list price then. Instead, the company revealed the more than twofold increase in a letter to pharmacies and clinics dated Wednesday. The Wall Street Journal was the first to report the list price of $1,390 after viewing the letter. 
+
+A Pfizer spokesperson told the Journal that "pricing for Paxlovid is based on the value it provides to patients, providers, and health care systems due to its important role in helping reduce COVID-19-related hospitalizations and deaths." A cost-effectiveness analysis last year determined the value of Paxlovid at between $563 and $906 per treatment course, according to nonprofit drug-pricing watchdog The Institute for Clinical and Economic Review.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Telegram is Still Leaking User IP Addresses To Contacts]]></title>
+        <id>https://yro.slashdot.org/story/23/10/20/0738218/telegram-is-still-leaking-user-ip-addresses-to-contacts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/20/0738218/telegram-is-still-leaking-user-ip-addresses-to-contacts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T16:40:00.000Z</updated>
+        <summary type="html"><![CDATA[The popular messaging app Telegram can leak your IP address if you simply add a hacker to your contacts and accept a phone call from them. From a report: Denis Simonov, a security researcher, who is also known as n0a, recently highlighted the issue and wrote a simple tool to exploit it. TechCrunch verified the researcher's findings by adding Simonov to the contacts of a newly created Telegram account. Simonov then called the account, and shortly after provided TechCrunch with the IP address of the computer where the experiment was being carried out. 
+
+Telegram boasts 700 million users all over the world, and has always marketed itself as a "secure" and "private" messaging app, even though experts have repeatedly warned that Telegram is not as secure as end-to-end encrypted app Signal, for example. The fact that Telegram leaks your IP address to people in your contacts during a voice call has been known for years, but it's likely that new, less technical users may not be aware.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Latest High-Severity Citrix Vulnerability Under Attack Isn't Easy To Fix]]></title>
+        <id>https://it.slashdot.org/story/23/10/20/0623217/the-latest-high-severity-citrix-vulnerability-under-attack-isnt-easy-to-fix?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/10/20/0623217/the-latest-high-severity-citrix-vulnerability-under-attack-isnt-easy-to-fix?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A critical vulnerability that hackers have exploited since August, which allows them to bypass multifactor authentication in Citrix networking hardware, has received a patch from the manufacturer. Unfortunately, applying it isn't enough to protect affected systems. ArsTechnica: The vulnerability, tracked as CVE-2023-4966 and carrying a severity rating of 9.8 out of a possible 10, resides in the NetScaler Application Delivery Controller and NetScaler Gateway, which provide load balancing and single sign-on in enterprise networks, respectively. Stemming from a flaw in a currently unknown function, the information-disclosure vulnerability can be exploited so hackers can intercept encrypted communications passing between devices. The vulnerability can be exploited remotely and with no human action required, even when attackers have no system privileges on a vulnerable system. 
+
+Citrix released a patch for the vulnerability last week, along with an advisory that provided few details. On Wednesday, researchers from security firm Mandiant said that the vulnerability has been under active exploitation since August, possibly for espionage against professional services, technology, and government organizations. Mandiant warned that patching the vulnerability wasn't sufficient to lock down affected networks because any sessions hijacked before the security update would persist afterward.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Allows Managers To Terminate Employees in Office-Attendance Noncompliance]]></title>
+        <id>https://slashdot.org/story/23/10/20/0620202/amazon-allows-managers-to-terminate-employees-in-office-attendance-noncompliance?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/20/0620202/amazon-allows-managers-to-terminate-employees-in-office-attendance-noncompliance?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-20T15:20:00.000Z</updated>
+        <summary type="html"><![CDATA[New submitter flashpoint31415 writes: Amazon is now giving managers leeway to effectively fire employees who fail to meet the company's three-times-a-week, return-to-office mandate.
+
+
+The guidelines tell managers to first hold a private conversation with employees who don't comply with the three-times-a-week requirement. Then, managers have to document the discussion in a follow-up email. If the employee continues to refuse to come in, the manager should hold another meeting, and if needed, take disciplinary action that includes a termination of employment.
+
+
+Giving managers the ability to fire employees for non-compliance is the strongest measure Amazon has taken over its return-to-office policy.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hackers Compromise Accounts of Kodex, Company That Vets Police Data Requests For Tech Giants]]></title>
         <id>https://it.slashdot.org/story/23/10/20/002204/hackers-compromise-accounts-of-kodex-company-that-vets-police-data-requests-for-tech-giants?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8446,312 +8749,6 @@ Read more of this story at Slashdot.]]></summary>
         <summary type="html"><![CDATA[An anonymous reader quotes a report from Computer Weekly: A doctoral thesis by American investigative journalist and post-doctoral researcher Jacob Appelbaum has now revealed unpublished information from the Snowden archive. These revelations go back a decade, but remain of indisputable public interest:
  - The NSA listed Cavium, an American semiconductor company marketing Central Processing Units (CPUs) – the main processor in a computer which runs the operating system and applications -- as a successful example of a "SIGINT-enabled" CPU supplier. Cavium, now owned by Marvell, said it does not implement back doors for any government.
  - The NSA compromised lawful Russian interception infrastructure, SORM. The NSA archive contains slides showing two Russian officers wearing jackets with a s…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Waymo Begins Testing the Waters For a Robotaxi Service In Los Angeles]]></title>
-        <id>https://tech.slashdot.org/story/23/09/20/214225/waymo-begins-testing-the-waters-for-a-robotaxi-service-in-los-angeles?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/20/214225/waymo-begins-testing-the-waters-for-a-robotaxi-service-in-los-angeles?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-21T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Waymo announced a "tour across Los Angeles" that allows curious residents the opportunity to ride in fully autonomous vehicles as the Alphabet-owned company begins to lay the groundwork for the launch of a commercial robotaxi service. The Verge reports: Waymo says it will make six multi-week "tour stops" in LA neighborhoods where people can hail a self-driving car without anyone in the front seat. Interested Angelenos can snag early access tickets at several pop-up events throughout the city or sign up for a waitlist. Once they receive a ticket, riders can use Waymo's fully driverless vehicles for free within the service area for one week during the allotted time.
- 
-The tour is as follows: Santa Monica and Venice Beach October 11th-November 18th; Century City November 20th-December 17th; West Hollywood December 17th-January 7th; Mid City January 8th-23rd; Koreatown January 24th-February 8th; and Downtown LA February 9th-March 3rd. Waymo's operational design domain -- the area in which its robotaxis are programmed to travel -- stretches from the West Side to Downtown LA, an area that's larger than San Francisco but smaller than its coverage in Phoenix.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SpaceX Rocket Launches Starlink Satellites On Record-Breaking 17th Flight]]></title>
-        <id>https://science.slashdot.org/story/23/09/20/2039223/spacex-rocket-launches-starlink-satellites-on-record-breaking-17th-flight?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/20/2039223/spacex-rocket-launches-starlink-satellites-on-record-breaking-17th-flight?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-21T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[SpaceX just extended its Falcon 9 rocket-reuse record. Space.com reports: The Falcon 9 lifted off from Cape Canaveral Space Force Station in Florida on Tuesday at 11:38 p.m. EDT (0338 GMT Sept. 20), carrying 22 of SpaceX's Starlink internet satellites toward low Earth orbit (LEO). The rocket's first stage came back to Earth 8.5 minutes after launch, landing on a SpaceX drone ship stationed at sea. It was the 17th liftoff and landing for this Falcon 9's first stage, according to a SpaceX mission description.
- 
-Those figures are unprecedented; the previous mark was 16, held by two different Falcon 9 boosters. The 22 Starlink satellites, meanwhile, deployed from the Falcon 9's upper stage 62.5 minutes after launch as planned. Tuesday night's liftoff extended another record as well: It was SpaceX's 65th orbital mission of the year. The company's previous mark, 61, was set in 2022. You can watch a recorded video of the launch here.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[French Drillers May Have Stumbled Upon a Mammoth Hydrogen Deposit]]></title>
-        <id>https://news.slashdot.org/story/23/09/20/2034240/french-drillers-may-have-stumbled-upon-a-mammoth-hydrogen-deposit?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/20/2034240/french-drillers-may-have-stumbled-upon-a-mammoth-hydrogen-deposit?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-21T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from The Verge: On the outskirts of the small town of Folschviller in eastern France stand three nondescript sheds. One of these temporary structures has recently become a hive of activity due to a continuous stream of visitors, including scientists, journalists, and the public. The shed sits above a borehole first drilled in 2006 and houses a gas measurement system called SysMoG, which was originally developed to determine the underground methane concentration. While the device did detect almost pure methane (99 percent) at a depth of 650 meters, probing further down, the borehole resulted in an unexpected and surprising discovery: hydrogen in high concentration. "At 1,100 meters, the concentration of dissolved hydrogen is 14 percent. At 3,000 meters, t…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Neuralink Is Recruiting Subjects For the First Human Trial of Its Brain-Computer Interface]]></title>
-        <id>https://science.slashdot.org/story/23/09/20/2027233/neuralink-is-recruiting-subjects-for-the-first-human-trial-of-its-brain-computer-interface?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/20/2027233/neuralink-is-recruiting-subjects-for-the-first-human-trial-of-its-brain-computer-interface?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-21T02:02:00.000Z</updated>
-        <summary type="html"><![CDATA[A few months after getting FDA approval for human trials, Neuralink is looking for its first test subjects. The Verge reports: The six-year initial trial, which the Elon Musk-owned company is calling "the PRIME Study," is intended to test Neuralink tech designed to help those with paralysis control devices. The company is looking for people (PDF) with quadriplegia due to vertical spinal cord injury or ALS who are over the age of 22 and have a "consistent and reliable caregiver" to be part of the study.
- 
-The PRIME Study (which apparently stands for Precise Robotically Implanted Brain-Computer Interface, even though that acronym makes no sense) is set to research three things at once. The first is the N1 implant, Neuralink's brain-computer device. The second is the R1 robot, the surgical robot that actually implants the device. The third is the N1 User App, the software that connects to the N1 and translates brain signals into computer actions. Neuralink says it's planning to test both the safety and efficacy of all three parts of the system.
- 
-Those who participate in the PRIME Study will first participate in an 18-month study that involves nine visits with researchers. After that, they'll spend at least two hours a week on brain-computer interface research sessions and then do 20 more visits over the next five years. Neuralink doesn't say how many subjects it's looking for or when it plans to begin the study but does say it only plans to compensate "for study-related costs" like travel to and from the study location. (Also not clear: where that location is. Neuralink only says it has received approval from "our first hospital site.")
-
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How do databases execute expressions?]]></title>
-        <id>http://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html</id>
-        <link href="http://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html"/>
-        <updated>2023-09-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Databases are fun. They sit at the confluence of Computer
-Science topics that might otherwise not seem practical in life as a
-developer. For example, every database with a query language is also a
-programming language implementation of some caliber. That doesn't
-include all databases though of course; see: RocksDB, FoundationDB,
-TigerBeetle, etc.
-This post looks at how various databases execute expressions in their
-query language.
-tldr; Most surveyed databases use a tree-walking interpreter. A few
-use stack- or register-based virtual machines. A couple have
-just-in-time compilers. And, tangentially, a few do vectorized
-interpretation.
-Stepping back
-Programming languages are typically implemented by turning an
-Abstract Syntax Tree (AST) into a linear set of instructions
-for a virtual machin…]]></summary>
-        <author>
-            <name>Notes on software development</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How do databases execute expressions?]]></title>
-        <id>http://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html</id>
-        <link href="http://notes.eatonphil.com/2023-09-21-how-do-databases-execute-expressions.html"/>
-        <updated>2023-09-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Databases are fun. They sit at the confluence of Computer
-Science topics that might otherwise not seem practical in life as a
-developer. For example, every database with a query language is also a
-programming language implementation of some caliber. That doesn't
-include all databases though of course; see: RocksDB, FoundationDB,
-TigerBeetle, etc.
-This post looks at how various databases execute expressions in their
-query language.
-tldr; Most surveyed databases use a tree-walking interpreter. A few
-use stack- or register-based virtual machines. A couple have
-just-in-time compilers. And, tangentially, a few do vectorized
-interpretation.
-Stepping back
-Programming languages are typically implemented by turning an
-Abstract Syntax Tree (AST) into a linear set of instructions
-for a virtual machin…]]></summary>
-        <author>
-            <name>Notes on software development</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Xbox Exec Says Leaked 'Old Emails and Documents' Have 'Outdated' Info]]></title>
-        <id>https://games.slashdot.org/story/23/09/20/165205/xbox-exec-says-leaked-old-emails-and-documents-have-outdated-info?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://games.slashdot.org/story/23/09/20/165205/xbox-exec-says-leaked-old-emails-and-documents-have-outdated-info?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T18:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Yesterday's massive leaks from the Microsoft vs. FTC case have a large swath of the gaming world expecting that a more powerful, disc-free Xbox Series X refresh could be coming as soon as next year. But Xbox boss Phil Spencer is warning that players shouldn't put too much stock in what he called "old emails and documents." ArsTechnica adds: "It is hard to see our team's work shared in this way because so much has changed and there's so much to be excited about right now, and in the future," Spencer wrote on social media late Tuesday. "We will share the real plans when we are ready." Spencer followed up that post with a memo sent to the Xbox team, apologizing for the unintentional disclosure of internal plans. "I know this is disappointing, even if many of the documents are well over a year old and our plans have evolved," the memo reads, in part. "I also know we all take the confidentiality of our plans and our partners' information very seriously. This leak obviously is not us living up to that expectation... That said, there's so much more to be excited about, and when we're ready, we'll share the real plans with our players." 
-
-While Spencer's statements are vague about who was responsible for the "unintentional disclosure" of Microsoft's plans, a representative for the FTC was quick to push the blame on the company itself. "The FTC was not responsible for uploading Microsoft's plans for its games and consoles to the court website," FTC Director of the Office of Public Affairs Douglas Farrar wrote early Tuesday. In a follow-up post, Farrar pointed to a court order resealing the leaked information (too late for it to prevent the spread of the information, of course), which notes that "Microsoft provided the link on September 14 and the Court uploaded the exhibits to [the] internet page established for this case." Further reading: Microsoft's Phil Spencer Says Acquiring Nintendo Would Be 'a Career Moment' 
-Microsoft's Next Xbox, Coming 2028, Envisions Hybrid Computing.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Finishing Hotwire with the introduction of Strada]]></title>
-        <id>https://world.hey.com/dhh/finishing-hotwire-with-the-introduction-of-strada-9efdf091</id>
-        <link href="https://world.hey.com/dhh/finishing-hotwire-with-the-introduction-of-strada-9efdf091"/>
-        <updated>2023-09-20T18:27:03.000Z</updated>
-        <summary type="html"><![CDATA[When we announced Hotwire a few years back, it was always meant as a triptych. The center piece is Turbo. That's the drop-in level-up that makes multi-page web apps feel like single-page web apps – without giving up any of the development advantages to server-side programming. Then Stimulus brought order and structure to JavaScript sprinkles by triggering custom behavior via HTML attributes. And finally, which is what we're revealing today, there's Strada: The bridge between native controls and the web app.
-Strada continues the Majestic Monolith story by extending Hotwire onto native controls. Where Turbo Native makes it easy to have native mobile apps driven by fast web views, Strada brings that extra bit of polish only native controls, like native menus, can provide.
-This is important fo…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top Google Search Result for Tiananmen Square 'Tank Man' Is AI Generated Selfie]]></title>
-        <id>https://slashdot.org/story/23/09/20/1536219/top-google-search-result-for-tiananmen-square-tank-man-is-ai-generated-selfie?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/20/1536219/top-google-search-result-for-tiananmen-square-tank-man-is-ai-generated-selfie?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Slash_Account_Dot writes: The first thing you'll see if you search Google for "tank man" right now will not be the iconic picture of the unidentified Chinese man who stood in protest in front of a column of tanks leaving Tiananmen Square, but an entirely fake, AI-generated selfie of that historical event. While the AI-generated selfie doesn't appear to be deliberate misinformation, it highlights an inherent problem with the current state of generative AI and the internet: It is exceedingly easy to use AI tools to generate endless images, text, and audio with little more than a click of a button, and as this content floods every online platform, we, and the platforms we use to surface information, still don't have a good way to identify and differentiate it from human-made content, manually or automatically.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sysadmin, Spouse Admit To Part in 'Massive' Pirated Avaya Licenses Scam]]></title>
-        <id>https://it.slashdot.org/story/23/09/20/1553253/sysadmin-spouse-admit-to-part-in-massive-pirated-avaya-licenses-scam?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/23/09/20/1553253/sysadmin-spouse-admit-to-part-in-massive-pirated-avaya-licenses-scam?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[A sysadmin and his partner pleaded guilty this week to being part of a "massive" international ring that sold software licenses worth $88 million for "significantly below the wholesale price." From a report: Brad and Dusti Pearce admitted one count of conspiracy to commit wire fraud and each face a maximum penalty of 20 years in prison. After agreeing to a plea deal, the Pearces must also forfeit at least $4 million as well as gold, silver, collectible coins, cryptocurrency, and a vehicle, and "make full restitution to their victims," the US Department of Justice said. The pair from Tuttle, Oklahoma -- a city better known for its cattle ranchers and alfafa hay than pirated software -- were alleged to have sold pirated Avaya business telephone system software licenses. 
-
-The licenses were then used to unlock features of the popular telephone system, which is used by thousands of companies around the globe. Dusti Pearce was said by prosecutors to have looked after the accounting side of the business, although only the wire fraud charge remains under the plea deal. Brad Pearce had previously worked as a customer service employee at Avaya, and was said to have used his admin privileges to "generate tens of thousands of ADI software license keys" that he sold to his main customer, Jason Hines, as well as "other customers, who in turn sold them to resellers and end users around the globe," said the DoJ.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon's Eero Max 7 Mesh Router Adds Wi-Fi 7 - For a Whopping $600]]></title>
-        <id>https://mobile.slashdot.org/story/23/09/20/1617204/amazons-eero-max-7-mesh-router-adds-wi-fi-7---for-a-whopping-600?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://mobile.slashdot.org/story/23/09/20/1617204/amazons-eero-max-7-mesh-router-adds-wi-fi-7---for-a-whopping-600?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T16:17:00.000Z</updated>
-        <summary type="html"><![CDATA[Simon Hill, reporting for Wired: Every new hardware announcement is always described as "the best ever," but Amazon's new Eero Max 7 mesh might just be a real leap forward. This is Eero's first tri-band mesh router that utilizes the latest Wi-Fi 7 standard, promising roughly double the speeds of its previous flagship system up to 4.3 Gigabits per second. Theoretically, you can download a 4K movie in 10 seconds. The router has a larger design than its predecessor, which allows for more antennas, cooling without the need for a fan, and space for four Ethernet ports. But all this comes at a hefty price -- a single Eero Max 7 costs a whopping $600. It's early days for Wi-Fi 7, so as new models come out, we'll see these prices dramatically drop. 
-
-The Eero Max 7 supports the 2.4-GHz, 5-GHz, and 6-GHz bands and is fully backward compatible with all previous Wi-Fi versions; it runs the same TrueMesh software and app as other Eero systems, so it can be mixed and matched with any existing Eeros you have. However, you won't be able to take advantage of those Wi-Fi 7 upgrades and speeds without a Wi-Fi 7-supported device, which there are very few of right now. A common criticism of Eero routers (and most mesh Wi-Fi systems) is the lack of Ethernet ports. The Eero Pro 6E only offered two ports rated at 2.5 Gbps and 1 Gbps. Despite the Eero Max 7's larger size, it's still recognizably an Eero finished in shiny white plastic, but it's much larger than previous releases. That allows for four Ethernet ports, two rated at 10 Gbps and two at 2.5 Gbps. Accounting for packet overhead, tethered speeds max out at 9.4 Gbps.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[John Grisham, George RR Martin, Other Top US Authors Sue OpenAI Over Copyrights]]></title>
-        <id>https://yro.slashdot.org/story/23/09/20/1559201/john-grisham-george-rr-martin-other-top-us-authors-sue-openai-over-copyrights?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/20/1559201/john-grisham-george-rr-martin-other-top-us-authors-sue-openai-over-copyrights?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A trade group for U.S. authors has sued OpenAI in Manhattan federal court on behalf of prominent writers including John Grisham, Jonathan Franzen, George Saunders, Jodi Picault and "Game of Thrones" novelist George R.R. Martin, accusing the company of unlawfully training its popular artificial-intelligence based chatbot ChatGPT on their work. From a report: The proposed class-action lawsuit filed late on Tuesday by the Authors Guild joins several others from writers, source-code owners and visual artists against generative AI providers. In addition to Microsoft-backed OpenAI, similar lawsuits are pending against Meta Platforms and Stability AI over the data used to train their AI systems. Other authors involved in the latest lawsuit include "The Lincoln Lawyer" writer Michael Connelly and lawyer-novelists David Baldacci and Scott Turow.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China Accuses US of Hacking Huawei Servers as Far Back as 2009]]></title>
-        <id>https://news.slashdot.org/story/23/09/20/1519213/china-accuses-us-of-hacking-huawei-servers-as-far-back-as-2009?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/20/1519213/china-accuses-us-of-hacking-huawei-servers-as-far-back-as-2009?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[China accused the U.S. of infiltrating Huawei servers beginning in 2009, part of a broad-based effort to steal data that culminated in tens of thousands of cyber-attacks against Chinese targets last year. From a report: The Tailored Access Operations unit of the National Security Agency carried out the attacks in 2009, which then continuously monitored the servers, China's Ministry of State Security said in a post on its official WeChat account on Wednesday. It didn't provide details of attacks since 2009. Cyberattacks are a point of tension between Washington and Beijing, which has accused its political rival of orchestrating attacks against Chinese targets ever since Edward Snowden made explosive allegations about U.S. spying. Washington and cybersecurity researchers have said the Asian country has sponsored attacks against the West. 
-
-The ministry's accusations emerged as the two countries battle for technological supremacy. Huawei in particular has spurred alarm in Washington since the telecom leader unveiled a smartphone powered by an advanced chip it designed, which was made by Semiconductor Manufacturing International Corp. That's in spite of years-long U.S. sanctions intended to cut Huawei off from the American technology it needs to design sophisticated chips and phones. The U.S. has been "over-stretching" the concept of national security with its clampdown on Chinese enterprises, Foreign Ministry spokeswoman Mao Ning told reporters at a regular press briefing in Beijing on Wednesday. "What we want to tell the US is that suppression and containing of China will not stop China's development. It will only make us more resolved in our development," Mao said.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple and Goldman Planned Stock-Trading Feature for iPhones Until Markets Turned]]></title>
-        <id>https://apple.slashdot.org/story/23/09/20/1429211/apple-and-goldman-planned-stock-trading-feature-for-iphones-until-markets-turned?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/09/20/1429211/apple-and-goldman-planned-stock-trading-feature-for-iphones-until-markets-turned?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T14:40:00.000Z</updated>
-        <summary type="html"><![CDATA[As equities soared in 2020 and consumers flocked to trading apps like Robinhood, Apple and Goldman Sachs were working on an investing feature that would let consumers buy and sell stocks, CNBC reported Wednesday, citing people familiar with the plans. From the report: The project was shelved last year as the markets turned south, said the sources, who asked not to be named because they weren't authorized to speak on the matter. The effort, which has not been previously reported, would have added to Apple's suite of financial products powered by Goldman. Apple first teamed up with the Wall Street bank to offer a credit card in 2019, and then added buy now, pay later (BNPL) loans and a high-yield savings account. The company said last month that the savings account offering had climbed past $10 billion in user deposits.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WhatsApp Appears To Be About To Launch Its Long-Overdue iPad App]]></title>
-        <id>https://tech.slashdot.org/story/23/09/20/149251/whatsapp-appears-to-be-about-to-launch-its-long-overdue-ipad-app?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/20/149251/whatsapp-appears-to-be-about-to-launch-its-long-overdue-ipad-app?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T14:09:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: A few lucky WhatsApp beta testers got a surprising treat this week: the company appears to be testing a version of its iOS app that is also optimized for the iPad. As first spotted by WABetaInfo, version 23.19.1.71 of WhatsApp's TestFlight app includes the new iPad app as well. From what we can see in screenshots, the iPad app works exactly like you'd expect. You connect to it by scanning a QR code the same way you'd link your account to any other device. You'll see a list of your conversations on the left and your current chat on the right. It's pretty much the iOS app, but instead of seeing one pane at a time, you see both. It almost makes you wonder what took so long, especially when WhatsApp head Will Cathcart said all the way back in January of 2022 that "we'd love to do it."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The International Criminal Court In The Hague Says It Has Been Hacked]]></title>
-        <id>https://yro.slashdot.org/story/23/09/20/1039230/the-international-criminal-court-in-the-hague-says-it-has-been-hacked?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/20/1039230/the-international-criminal-court-in-the-hague-says-it-has-been-hacked?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-20T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from the Associated Press: The International Criminal Court said Tuesday that it detected "anomalous activity affecting its information systems" last week and took urgent measures to respond. It didn't elaborate on what it called a "cybersecurity incident." Court spokesman Fadi El Abdallah said in a written statement that extra "response and security measures are now ongoing" with the assistance of authorities in the Netherlands, where the court is based. "Looking forward, the Court will be building on existing work presently underway to strengthen its cyber security framework, including accelerating its use of cloud technology," his statement added. The court declined to go into any more detail about the incident, but said that as it "continues to analyze and mitigate the impact of this incident, priority is also being given to ensuring that the core work of the Court continues."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
         <author>
             <name>BeauHD</name>
         </author>
