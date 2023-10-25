@@ -34,16 +34,6 @@
           "wordCount": 3753,
           "title": "The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)",
           "imageUrl": null
-        },
-        {
-          "id": "https://tonsky.me/talks/#2023-09-25",
-          "author": null,
-          "description": "История развития, принципы работы, странные проблемы",
-          "link": "https://tonsky.me/talks/#2023-09-25",
-          "publishedOn": "2023-09-25T00:00:00.000Z",
-          "wordCount": 3029,
-          "title": "Кодировки текста @ Podlodka",
-          "imageUrl": null
         }
       ]
     },
@@ -288,16 +278,6 @@
           "publishedOn": "2023-10-05T00:00:00.000Z",
           "wordCount": 543,
           "title": "Announcing Rust 1.73.0",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/09/25/Increasing-Apple-Version-Requirements.html",
-          "author": null,
-          "description": "As of Rust 1.74 (to be released on November 16th, 2023), the minimum version of Apple's platforms (iOS, macOS, and tvOS) that the Rust toolchain supports will be increased to newer baselines. These changes affect both the Rust compiler itself (rustc), other host tooling, and most importantly, the standard library and any binaries produced that use it. With these changes in place, any binaries produced will stop loading on older versions or exhibit other, unspecified, behavior.\nThe new minimum versions are now:\nmacOS: 10.12 Sierra (First released 2016)\niOS: 10 (First released 2016)\ntvOS: 10 (First released 2016)\nIf your application does not target or support macOS 10.7-10.11 or iOS 7-9 already these changes most likely do not affect you.\nAffected targets\nThe following contains each affected…",
-          "link": "https://blog.rust-lang.org/2023/09/25/Increasing-Apple-Version-Requirements.html",
-          "publishedOn": "2023-09-25T00:00:00.000Z",
-          "wordCount": 913,
-          "title": "Increasing the minimum supported Apple platform versions",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -580,16 +560,6 @@
           "wordCount": 758,
           "title": "\"Somebody Tranq That Child!\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/pg-email-token",
-          "author": null,
-          "description": "select email_token(now(), 'hello@example.com');",
-          "link": "https://taylor.town/pg-email-token",
-          "publishedOn": "2023-09-25T00:00:00.000Z",
-          "wordCount": 423,
-          "title": "Easy Email Tokens in Pure Postgres",
-          "imageUrl": null
         }
       ]
     },
@@ -598,6 +568,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/23/10/24/2159235/atom-computing-is-the-first-to-announce-a-1000-qubit-quantum-computer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "John Timmer reports via Ars Technica: Today, a startup called Atom Computing announced that it has been doing internal testing of a 1,180 qubit quantum computer and will be making it available to customers next year. The system represents a major step forward for the company, which had only built one prior system based on neutral atom qubits -- a system that operated using only 100 qubits. The error rate for individual qubit operations is high enough that it won't be possible to run an algorithm that relies on the full qubit count without it failing due to an error. But it does back up the company's claims that its technology can scale rapidly and provides a testbed for work on quantum error correction. And, for smaller algorithms, the company says it'll simply run multiple instances in parallel to boost the chance of returning the right answer. [...]\n \nAtom Computing is now using the system internally and plans to open it up for public use next year. The system has moved from a 10x10 grid to a 35x35 grid, bringing the potential sites for atoms up to 1,225. So far, testing has taken place with up to 1,180 atoms present, making it the largest machine that anyone has publicly acknowledged (at least in terms of qubit count). The qubits are housed in a 12x5 foot box that contains the lasers and optics, along with the vacuum system and a bit of unused space -- Atom CEO Rob Hayes quipped that \"there's a lot of air inside that box.\" It does not, however, contain the computer hardware that controls the system and its operations. The grid of atoms it's used to create, by contrast, is only about 100 microns per side, so it won't strain the hardware to keep increasing the qubit count.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/24/2159235/atom-computing-is-the-first-to-announce-a-1000-qubit-quantum-computer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T00:45:00.000Z",
+          "wordCount": 4027,
+          "title": "Atom Computing Is the First To Announce a 1,000+ Qubit Quantum Computer",
+          "imageUrl": "https://a.fsdn.com/sd/topics/supercomputing_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/10/24/2149259/ice-uses-tool-to-find-derogatory-speech-online?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from 404 Media: Immigration and Customs Enforcement (ICE) has used a system called Giant Oak Search Technology (GOST) to help the agency scrutinize social media posts, determine if they are \"derogatory\" to the U.S., and then use that information as part of immigration enforcement, according to a new cache of documents reviewed by 404 Media. The documents peel back the curtain on a powerful system, both in a technological and a policy sense -- how information is processed and used to decide who is allowed to remain in the country and who is not.\n \nGOST's catchphrase included in one document is \"We see the people behind the data.\" A GOST user guide included in the documents says GOST is \"capable of providing behavioral based internet search capabilities.\" …",
+          "link": "https://developers.slashdot.org/story/23/10/24/2149259/ice-uses-tool-to-find-derogatory-speech-online?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T00:02:00.000Z",
+          "wordCount": 4755,
+          "title": "ICE Uses Tool To Find 'Derogatory' Speech Online",
+          "imageUrl": "https://a.fsdn.com/sd/topics/database_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/24/2143206/apple-announces-october-30-event-with-focus-on-m3-series-macbook-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Apple has announced a Mac event for October 30th with the caption \"Scary Fast.\" According to analyst Ming-Chi Kuo, the company is expected to focus on the M3 series MacBook Pro models. MacRumors reports: Kuo's wording suggests that he is expecting multiple M3 chips rather than just a single M3 chip, hinting at the possibility of M3, M3 Pro, and M3 Max chips. If Apple does release M3, M3 Pro, and M3 Max chips at once, we can expect to see the new chips introduced in 13-inch, 14-inch, and 16-inch MacBook Pro models. Kuo says that he previously predicted that Apple would not likely introduce new MacBook Pro models in 2023 because of \"limited 4Q 23 shipments,\" and if new MacBook Pros do come out in November or December, the tight supply will last until the first quarter of 2024. Kuo further sa…",
+          "link": "https://hardware.slashdot.org/story/23/10/24/2143206/apple-announces-october-30-event-with-focus-on-m3-series-macbook-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T23:20:00.000Z",
+          "wordCount": 4254,
+          "title": "Apple Announces October 30 Event With Focus On 'M3 Series MacBook Pro'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mac_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/24/1927207/qualcomms-snapdragon-x-elite-chips-promise-major-pc-performance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Qualcomm unveiled a new laptop processor designed to outperform rival products from Intel and Apple on Tuesday, stepping up its long-running effort to break into the personal computer market. From a report: Qualcomm formally launched the Snapdragon X Elite, the flagship platform of its Snapdragon X family that leverages its Oryon CPU core, and promises to double -- yes, double -- the performance of some of the most popular 13th-gen Core chips from AMD and Intel. Sound familiar? It should. Qualcomm promised the same with its earlier Snapdragon 8-series chips, and really didn't deliver. But after buying chip designer Nuvia in 2021, Qualcomm is trying again, hoping that its superpowered Arm chips can once again make Windows on Arm PCs a competitor to conventional X86 PCs when they launch in m…",
+          "link": "https://tech.slashdot.org/story/23/10/24/1927207/qualcomms-snapdragon-x-elite-chips-promise-major-pc-performance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T22:40:00.000Z",
+          "wordCount": 4168,
+          "title": "Qualcomm's Snapdragon X Elite Chips Promise Major PC Performance",
+          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/24/2131230/college-warns-to-avoid-all-robots-after-bomb-threat-involving-food-delivery-robots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Oregon State University on Tuesday urged students and staff to \"avoid all robots\" after a bomb threat was reported in Starship food delivery robots. NBC News reports: The warning was issued at 12:20 p.m. local time and by 12:59 p.m., the potentially dangerous bots had been isolated at safe locations, the school said. The robots were being \"investigated by\" a technician, OSU said in a statement posted at 1:23 p.m. \"Remain vigilant for suspicious activity,\" the school said. Finally, at around 1:45 p.m., the school issued an \"all clear\" alert. \"Emergency is over,\" the message said. \"You may now resume normal activities. Robot inspection continues in a safe location.\"\n \nA representative for Starship, the company that produces the robots, could not be immediately reached for comment. The company calls itself a \"global leader in autonomous delivery\" with agreements at a host of universities across the United States. Developing...\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/10/24/2131230/college-warns-to-avoid-all-robots-after-bomb-threat-involving-food-delivery-robots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T22:00:00.000Z",
+          "wordCount": 4919,
+          "title": "College Warns To 'Avoid All Robots' After Bomb Threat Involving Food Delivery Robots",
+          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/24/2049227/california-suspends-gm-cruise-self-driving-vehicles-as-not-safe-for-public?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Reuters: California's auto regulator said on Tuesday it has suspended General Motors' Cruise autonomous vehicle deployment and driverless testing permits, saying it had misrepresented information related to the safety of the autonomous technology. Cruise's AVs posed an \"an unreasonable risk to public safety,\" and \"are not safe for the public's operation\" California's Department of Motor Vehicles (DMV) said in a statement. The suspension, which came after a series of accidents involving Cruise vehicles, is a major setback to GM's self-driving technology unit and to the nascent autonomous vehicle (AV) industry. The suspension was effective immediately.\n \nGM has previously insisted Cruise represents a \"giant growth opportunity.\" In June, GM CEO Mary Ba…",
+          "link": "https://tech.slashdot.org/story/23/10/24/2049227/california-suspends-gm-cruise-self-driving-vehicles-as-not-safe-for-public?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T21:20:00.000Z",
+          "wordCount": 8872,
+          "title": "California Suspends GM Cruise Self-Driving Vehicles As 'Not Safe' For Public",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/24/191255/google-falsely-flags-samsung-apps-as-harmful-tells-users-to-remove-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Most Android users have probably never seen Google Play Protect in action. The malware-scanning service is built into every Android device and is supposed to flag malware that users have installed. Recently it flagged some popular apps that are very much not malware: Samsung Wallet and Samsung Messages. \n\nAs spotted by 9to5Google, Samsung users have been getting hit with Play Protect warnings since earlier this month. Users on the Google Support forum have posted screenshots of Play Protect flagging the Samsung system apps, and even Samsung responded to the issue, explaining (in Korean) how to fix any damage caused by the bug. Samsung says (through translation) the issue was caused by \"a temporary failure of the Google server\" and should now be fixed.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/24/191255/google-falsely-flags-samsung-apps-as-harmful-tells-users-to-remove-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T20:40:00.000Z",
+          "wordCount": 5872,
+          "title": "Google Falsely Flags Samsung Apps as 'Harmful,' Tells Users To Remove Them",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://mobile.slashdot.org/story/23/10/24/1844212/microsoft-ceo-admits-giving-up-on-windows-phone-and-mobile-was-a-mistake?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft CEO Satya Nadella is the third chief executive of the software giant to admit the company has made some serious mobile mistakes. From a report: Satya Nadella took over from former CEO Steve Ballmer in 2014 and, just over a year later, wrote off $7.6 billion related to Microsoft's acquisition of the Nokia phone business. In an interview with Business Insider, Nadella admitted that Microsoft's \"exit\" from the mobile phone business could have been handled better. Asked about a strategic mistake or wrong decision that he might regret, Nadella responds: \"The decision I think a lot of people talk about -- and one of the most difficult decisions I made when I became CEO -- was our exit of what I'll call the mobile phone as defined then. In retrospect, I think there could have been ways we could have made it work by perhaps reinventing the category of computing between PCs, tablets, and phones.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://mobile.slashdot.org/story/23/10/24/1844212/microsoft-ceo-admits-giving-up-on-windows-phone-and-mobile-was-a-mistake?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T20:01:00.000Z",
+          "wordCount": 9712,
+          "title": "Microsoft CEO Admits Giving Up on Windows Phone and Mobile Was a Mistake",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/10/24/1816259/apple-to-revamp-tv-app-in-step-toward-simplifying-video-services?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple will redesign its TV app in a step toward consolidating the company's various video offerings later this year, part of its efforts to become a bigger player in the streaming world. Bloomberg News: The company is preparing a new version of the app for release around December as part of an upcoming tvOS software update, said the people, who asked not to be identified because the plan is private. The app, which first launched in 2016, aggregates content from iTunes, the Apple TV+ subscription service, live sports networks and third-party offerings like Amazon Prime. \n\nAs part of the overhaul, the company will discontinue its dedicated apps on the Apple TV set-top box that let users rent and buy movies and shows. It will also remove the movie and TV show sections from the iTunes Store app on iPhones and iPads. The idea is to steer more customers toward the main TV app, which sits at the center of Apple's expanding video strategy. There, users are able to subscribe to TV+ as well as third-party video services like Starz and Paramount+. The app already lets customers rent and buy programs, making a separate iTunes option unnecessary.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/23/10/24/1816259/apple-to-revamp-tv-app-in-step-toward-simplifying-video-services?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T19:21:00.000Z",
+          "wordCount": 5651,
+          "title": "Apple To Revamp TV App in Step Toward Simplifying Video Services",
+          "imageUrl": "https://a.fsdn.com/sd/topics/tv_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/10/24/1832200/apple-to-make-tools-and-parts-to-fix-phones-and-computers-available-nationwide-white-house-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Mac computer and iPhone maker Apple on Tuesday will announce plans to make parts, tools and documentation needed to repair its products available to independent repair shops and consumers nationwide, at fair and reasonable prices, the White House said. From a report: National Economic Council Director Lael Brainard made the announcement in remarks prepared for a White House event later Tuesday focused on the so-called \"right to repair,\" calling on Congress to pass legislation requiring such action across the country. \n\nThe event is part of U.S. President Joe Biden's push to promote competition and crack down on so-called junk fees and other actions that increase prices for consumers. The latest effort is aimed at giving consumers more control over fixing what they own, from tractors to smart phones. Brainard said California, Colorado, New York and Minnesota had already passed right to repair laws, and 30 other states had introduced similar legislation.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/10/24/1832200/apple-to-make-tools-and-parts-to-fix-phones-and-computers-available-nationwide-white-house-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T18:31:00.000Z",
+          "wordCount": 5286,
+          "title": "Apple To Make Tools and Parts To Fix Phones and Computers Available Nationwide, White House Says",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/24/173204/microsoft-now-wants-you-to-take-a-poll-before-installing-google-chrome?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Downloading Chrome using Microsoft Edge is already a nightmare filled with banners and stop-gaps, and nothing seems to be stopping Microsoft from adding even more. From a report: Last weekend, we noticed that an attempt to download Google Chrome using Microsoft Edge results in the latter opening its sidebar with a poll, asking you to explain to Microsoft how you could dare try downloading Google Chrome. Of course, the exact wording is more tame, but you get the idea. Now, besides dismissing several banners and a full-size ad injected on the Chrome website, Edge wants you to answer a questionnaire with the following options: \n\nWe love having you!\n\nCan you please take a minute to tell us why you are trying another browser? \n\nI can't search Google easily\nI can't access my Google documents\nI don't have my favorites or passwords here\nToo many ads and pop-ups\nI don't like the news feed\nIt's too slow\nMy websites don't work on Microsoft Edge\nMy reason is not listed\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/24/173204/microsoft-now-wants-you-to-take-a-poll-before-installing-google-chrome?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T18:00:00.000Z",
+          "wordCount": 11052,
+          "title": "Microsoft Now Wants You To Take a Poll Before Installing Google Chrome",
+          "imageUrl": "https://a.fsdn.com/sd/topics/chrome_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/24/1653239/how-economists-got-it-wrong-for-3-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Economists spent 2021 expecting inflation to prove \"transitory.\" They spent much of 2022 underestimating its staying power. And they spent early 2023 predicting that the Federal Reserve's rate increases, meant to cure the inflation, would plunge the economy into a recession. None of those forecasts have panned out. The New York Times: Two big issues have made it difficult to forecast since 2020. The first was the coronavirus pandemic. The world had not experienced such a sweeping disease since the Spanish flu in 1918, and it was hard to anticipate how it would roil commerce and consumer behavior. The second complication came from fiscal policy. The Trump and Biden administrations poured $4.6 trillion of recovery money and stimulus into the economy in response to the pandemic. President Biden then pushed Congress to approve several laws that provided funding to encourage infrastructure investment and clean energy development. Between coronavirus lockdowns and the government's enormous response, standard economic relationships stopped serving as good guides to the future. \n\nTake inflation. Economic models suggested that it would not take off in a lasting way as long as unemployment was high. It made sense: If a bunch of consumers were out of work or earning tepid pay gains, they would pull back if companies charged more. But those models did not count on the savings that Americans had amassed from pandemic aid and months at home. Price increases began to take off in March 2021 as ravenous demand for products like used cars and at-home exercise equipment collided with global supply shortages. Unemployment was above 6 percent, but that did not stop shoppers. Russia's invasion of Ukraine in February 2022 exacerbated the situation, pushing up oil prices. And before long, the labor market had healed and wages were growing rapidly.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/24/1653239/how-economists-got-it-wrong-for-3-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T17:20:00.000Z",
+          "wordCount": 13611,
+          "title": "How Economists Got It Wrong for 3 Years.",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/24/1634219/they-cracked-the-code-to-a-locked-usb-drive-worth-235-million-in-bitcoin-then-it-got-weird?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Unciphered, a Seattle-based startup, claims to have cracked the seemingly unbreakable encryption of IronKey S200, a decade-old USB thumb drive. By exploiting an undisclosed vulnerability in the device, the company says it can bypass the drive's feature that erases its contents after 10 incorrect password attempts. The breakthrough came within a day of receiving a test device, suggesting that the firm's hacking technique, powered by high-performance computing, could have far-reaching implications. \n\nThe startup's focus is not just technological; it's after a specific IronKey that holds 7,002 bitcoins, valued at roughly $235 million, stored in a Swiss bank vault. The device belongs to Stefan Thomas, a Swiss crypto entrepreneur, who has forgotten the password and has only two password attempt…",
+          "link": "https://it.slashdot.org/story/23/10/24/1634219/they-cracked-the-code-to-a-locked-usb-drive-worth-235-million-in-bitcoin-then-it-got-weird?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T16:40:00.000Z",
+          "wordCount": 7851,
+          "title": "They Cracked the Code To a Locked USB Drive Worth $235 Million in Bitcoin. Then It Got Weird.",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/24/1554237/meta-sued-by-california-states-over-harmful-youth-marketing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Meta Platforms was sued by California and a group of more than two dozen states over claims that its social-media platforms Instagram and Facebook exploit youths for profit and feed them harmful content. From a report: The suit, filed in federal court in California, adds to growing scrutiny of social media giants over how they serve their youngest users.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/24/1554237/meta-sued-by-california-states-over-harmful-youth-marketing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T16:00:00.000Z",
+          "wordCount": 6021,
+          "title": "Meta Sued by California, States Over Harmful Youth Marketing",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/10/24/1535256/china-widens-lead-over-us-in-ai-patents-after-beijing-tech-drive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "China is increasing its lead over the US in AI patent filings, underscoring the Asian nation's determination to shape and influence a technology that could have broad implications for the world's richest economies. From a report: Chinese institutions applied for 29,853 AI-related patents in 2022, climbing from 29,000 the year prior, according to data that the World Intellectual Property Organization provided to Bloomberg News. That's almost 80% more than US filings, which shrank 5.5%. Overall, China accounted for more than 40% of global AI applications over the past year, the data from the United Nations-affiliated agency showed. Japan and South Korea rounded out the 2022 leaders, with a combined 16,700 applications. The numbers illustrate how Beijing has pushed Chinese companies and agencies to gain an edge in areas such as chipmaking, space exploration and military sciences. More recently, President Xi Jinping has ordered the nation to accelerate fundamental research in response to US efforts to curtail its access to advanced technologies. That's triggered a flood of investment by Chinese companies in AI and quantum computing.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/24/1535256/china-widens-lead-over-us-in-ai-patents-after-beijing-tech-drive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-24T15:35:00.000Z",
+          "wordCount": 6406,
+          "title": "China Widens Lead Over US in AI Patents After Beijing Tech Drive",
+          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
+        },
         {
           "id": "https://slashdot.org/story/23/10/24/0044223/bitcoin-blasts-past-33000-as-optimism-for-btc-spot-etf-surges?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4687,96 +4807,6 @@
           "wordCount": 6897,
           "title": "Signal President Says AI is Fundamentally 'a Surveillance Technology'",
           "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/24/2317206/developer-creates-dark-style-gnome-extension-for-ubuntu-2310?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "In GNOME Shell there's a dark background for the Quick Settings menu, the calendar applet, and desktop notification-- but in Ubuntu 23.10, \"the default Yaru theme uses a light style for GNOME Shell elements,\" according to the blog OMG Ubuntu. \n\n\"But there's a new GNOME extension that lets you change this without affecting the rest of your desktop...\"\n\nYou can make GNOME Shell dark in Ubuntu by turning the 'Dark Style' toggle on but that also makes apps use a dark theme too. Not everyone wants that; they want a 'mixed' look... [I]f you would like to use dark GNOME Shell elements in Ubuntu 23.10 without using the dark mode preference (which, as said, will turn your apps dark too) then the Dark Style GNOME extension is exactly what you need. \nIt only works with Ubuntu 23.10 and GNOME 45.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/24/2317206/developer-creates-dark-style-gnome-extension-for-ubuntu-2310?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-25T00:34:00.000Z",
-          "wordCount": 3871,
-          "title": "Developer Creates 'Dark Style' GNOME Extension for Ubuntu 23.10",
-          "imageUrl": "https://a.fsdn.com/sd/topics/gnome_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/23/09/24/2248216/netflix-prepares-to-send-its-final-red-envelope?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader shared this report from the New York Times' media reporter:\n\nIn a nondescript office park minutes from Disneyland sits a nondescript warehouse. Inside this nameless, faceless building, an era is ending. \n\nThe building is a Netflix DVD distribution plant. Once a bustling ecosystem that processed 1.2 million DVDs a week, employed 50 people and generated millions of dollars in revenue, it now has just six employees left to sift through the metallic discs. And even that will cease on Friday, when Netflix officially shuts the door on its origin story and stops mailing out its trademark red envelopes. \"It's sad when you get to the end, because it's been a big part of all of our lives for so long,\" Hank Breeggemann, the general manager of Netflix's DVD division, said in an interview. \"But everything runs its cycle. We had a great 25-year run and changed the entertainment industry, the way people viewed movies at home.\" \nWhen Netflix began mailing DVDs in 1998 — the first movie shipped was \"Beetlejuice\" — no one in Hollywood expected the company to eventually upend the entire entertainment industry... At its height, Netflix was the Postal Service's fifth-largest customer, operating 58 shipping facilities and 128 shuttle locations that allowed Netflix to serve 98.5 percent of its customer base with one-day delivery... \n\nNetflix's DVD operations still serve around one million customers, many of them very loyal... To ease the backlash, Netflix is allowing its DVD customers to hold on to their final rentals.\n \n\"One hundred people at Netflix still work on the DVD side of the business, though most will soon be leaving the company.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/23/09/24/2248216/netflix-prepares-to-send-its-final-red-envelope?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-24T22:56:00.000Z",
-          "wordCount": 4872,
-          "title": "Netflix Prepares to Send Its Final Red Envelope",
-          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/24/2153225/privately-owned-high-speed-rail-opens-new-line-in-florida-kills-pedestrian?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "At 11 a.m. Friday in Orlando Florida, a train completed its 240-mile journey from Miami, inaugurating a new line from Brightline that reaches speeds of up to 125 miles per hour and reduces the journey to just under three hours. \"This is going to revolutionize transportation not just in the country and the state of Florida but right here in Central Florida and really just make our backyard bigger,\" Brightline's director of public affairs Katie Mitzner told a local news station. \nIronically, within hours a different Brightline train had struck and killed a pedestrian. \"Brightline trains have the highest death rate in the U.S.,\" reports one local news station, \"fatally striking 98 people since Miami-West Palm operations began — about one death for every 32,000 miles its trains travel, accordi…",
-          "link": "https://tech.slashdot.org/story/23/09/24/2153225/privately-owned-high-speed-rail-opens-new-line-in-florida-kills-pedestrian?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-24T21:56:00.000Z",
-          "wordCount": 10323,
-          "title": "Privately-Owned High-Speed Rail Opens New Line in Florida, Kills Pedestrian",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/24/201233/behind-the-scenes-at-have-i-been-pwned?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The founder of the data-breach notification site Have I Been Pwned manages \"the largest known repository of stolen data on the planet,\" reports Australia's public broadcaster ABC, including over 6 billion email address. Yet with no employees, Troy Hunt manages all of the technical and operational aspects single-handedly, and \"has ended up playing an oddly central role in global cybersecurity.\"\n\nTroy is very careful with how he handles what he finds. He only collects (and encrypts) the mobile numbers, emails and passwords that he finds in the breaches, discarding the victims' names, physical addresses, bank details and other sensitive information. The idea is to let users find out where their data has been leaked from, but without exposing them to further risk. Once he identifies where a da…",
-          "link": "https://it.slashdot.org/story/23/09/24/201233/behind-the-scenes-at-have-i-been-pwned?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-24T20:06:00.000Z",
-          "wordCount": 4791,
-          "title": "Behind the Scenes at 'Have I Been Pwned'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/australia_64.png"
-        },
-        {
-          "id": "https://mobile.slashdot.org/story/23/09/24/1835200/huaweis-new-soc-features-processor-cores-designed-in-house?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Huawei is emulating Apple in developing the processors that power its latest smartphone,\" reports Ars Technica, \"a breakthrough that will help the Chinese company to reduce its reliance on foreign technology as it confronts US sanctions.\"\n\nAnalysis of the main chip inside the Mate 60 Pro smartphone, which launched at the end of last month and immediately sold out, reveals that Huawei has joined the elite group of Big Tech companies capable of designing their own semiconductors. Four of the eight central processing units in the Mate 60 Pro's \"system on a chip\" (SoC) rely purely on a design by Arm, the British company whose chip architecture powers 99 percent of smartphones. The other four CPUs are Arm-based but feature Huawei's own designs and adaptations, according to three people familia…",
-          "link": "https://mobile.slashdot.org/story/23/09/24/1835200/huaweis-new-soc-features-processor-cores-designed-in-house?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-24T18:38:00.000Z",
-          "wordCount": 8230,
-          "title": "Huawei's New SoC Features Processor Cores Designed In-House",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/09/24/1636222/after-seven-years-sample-collected-from-asteroid-finally-returns-to-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "OSIRIS-REx weighs 4,650 pounds (or 2,110 kg). On September 8th of 2016, NASA first launched the spacecraft on its 3.8-billion mile mission to land on an asteroid and retrieve a sample. \nThat sample has just returned. \n\nThroughout Sunday morning, NASA tweeted historic updates from the sample's landing site in Utah. \"We've spotted the #OSIRISREx capsule on the ground,\" they announced about 80 minutes ago (including a 23-second video clip). \"The parachute has separated, and the helicopters are arriving at the site. We're ready to recover that sample!\" \n\nUPI notes that the capsule \"reached temperatures up to 5,000 degrees Fahrenheit during reentry, so protective masks and gloves are required to handle it,\" describing its payload as \"a 250-gram dust sample.\" \n\n15 minutes later NASA shared foota…",
-          "link": "https://science.slashdot.org/story/23/09/24/1636222/after-seven-years-sample-collected-from-asteroid-finally-returns-to-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-24T16:37:00.000Z",
-          "wordCount": 6021,
-          "title": "After Seven Years, Sample Collected From Asteroid Finally Returns to Earth",
-          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/23/2154256/has-america-passed-the-tipping-point-for-purchasing-electric-vehicles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Long-time Slashdot reader 140Mandak262Jamuna shared this article from the Washington Post:\nThere is a theoretical, magic tipping point for adoption of electric vehicles. Once somewhere between 5 and 10 percent of new car sales are all-electric, some researchers say, huge numbers of drivers will follow. They predict that electric car sales will then soar — to 25 percent, 50 percent and eventually to close to 80 percent of new sales. Early adopters who love shiny new technologies will be replaced by mainstream consumers just looking for a good deal. Last year, the United States finally passed that elusive mark — 5 percent of all new cars sold in the fourth quarter were fully electric. And earlier this year, all-electric vehicles made up about 7 percent of new car sales... \n\nIf the pattern holds, the United States should start to see rapid growth in the next few years. And automakers have gone all-in on the transition. As of early 2023, U.S.-based car companies have announced about $173 billion in spending to shift to electric vehicles. Volkswagen, Ford, BMW, General Motors, and many more car companies are all making electric cars. There are more than 40 all-electric models on offer in the United States. \nThe article points out that in Norway, more than 80% of cars purchased are now fully electric. \n\nFor comparision, in the first half of 2023 in California, about 25% of new-car purchases were electric vehicles.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/23/2154256/has-america-passed-the-tipping-point-for-purchasing-electric-vehicles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-24T16:34:00.000Z",
-          "wordCount": 15275,
-          "title": "Has America Passed the 'Tipping Point' for Purchasing Electric Vehicles?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/23/1744247/wsj-criticizes-the-billionaire-keeping-tiktok-on-phones-in-the-us?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Six months ago Republican Senator Josh Hawley proposed legislation banning downloads of TikTok in the U.S. But this week he told the Wall Street Journal that \"TikTok and its dark-money cronies are spending vast amounts of money to kill these bills.\" \n\nThe newspaper argues that TikTok's \"friends\" in the U.S. government — backed by billionaire financier Jeff Yass — \"helped stall attempts to outlaw America's most-downloaded app.\"\n\nYass's investment company, Susquehanna International Group, bet big on TikTok in 2012, buying a stake in parent company ByteDance now measured at about 15%. That translates into a personal stake for Yass of 7% in ByteDance. It is worth roughly $21 billion based on the company's recent valuation, or much of his $28 billion net worth as gauged by Bloomberg. \n\nYass is …",
-          "link": "https://tech.slashdot.org/story/23/09/23/1744247/wsj-criticizes-the-billionaire-keeping-tiktok-on-phones-in-the-us?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-24T15:34:00.000Z",
-          "wordCount": 7625,
-          "title": "WSJ Criticizes 'the Billionaire Keeping TikTok On Phones In the US'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/09/24/0328252/us-defense-department-funds-design-analysis-for-a-transportable-micro-nuclear-reactor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "America's Department of Defense recently exercised a contract option with X-energy, a private nuclear reactor engineering company, seeking \"a thorough analysis of design options\" for a transportable micro nuclear reactor. The Department says its ultimate goal is \"a reactor design which is ready for licensing by the Nuclear Regulatory Commission for both commercial ventures and military resiliency.\" \nTheir announcement also notes that additional work is already underway by another company, BWX Technologies, on a prototype micro reactor:\n\n\"Due to their extraordinary energy density, nuclear reactors have the potential to serve multiple critical functions for meeting resiliency needs in contested logistical environments,\" said Dr. Jeff Waksman, Project Pele program manager. \"By developing two unique designs, we will provide the Services with a broad range of options as they consider potential uses of nuclear power for both Installation and Operational energy applications in the near future.\" \n\nThe Defense Department uses approximately 30 Terawatt-hours of electricity per year and more than 10 million gallons of fuel per day — levels that are only expected to increase due to anticipated electrification of the vehicle fleet and maturation of future energy-intensive capabilities. A safe, small, transportable nuclear reactor would address this growing demand with a resilient, carbon-free energy source that does not add to the Defense Department's fuel needs, while supporting mission-critical operations in remote and austere environments... \n\n\"The Strategic Capabilities Office specializes in adapting commercial technology for military purposes,\" said Jay Dryer, director. \"By nurturing and developing multiple micro reactor designs, SCO will not just provide options for the military Services, but will also help jumpstart a truly competitive commercial marketplace for micro reactors.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/09/24/0328252/us-defense-department-funds-design-analysis-for-a-transportable-micro-nuclear-reactor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-24T14:34:00.000Z",
-          "wordCount": 9587,
-          "title": "US Defense Department Funds Design Analysis for a Transportable Micro Nuclear Reactor",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
         }
       ]
     }
