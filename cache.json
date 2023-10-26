@@ -130,16 +130,6 @@
           "wordCount": 912,
           "title": "One happy Rails World",
           "imageUrl": "https://world.hey.com/dhh/96c46506/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2ZCTmJKUyIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--9e7466b6b440618e66f6691fbce340ab2b6fb7a2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/F7xEMeiWYAAJvRk.jpeg"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-musk-algorithm-977bf312",
-          "author": null,
-          "description": "Walter Isaacson's new book about Elon Musk is a fine biography, but an even better business book. And like all the best business books, it's not merely an instruction manual, but an inspirational guide too. Not since reading Ricardo Semler's Maverick in the early 2000s have I been this impressed with the foresight, fortitude, and ferocity of a founder. Musk is truly one of a kind.\nI know positive statements like that about Musk can trigger some people. Most have already formed their opinion of the man, and, especially in technology, it's typically a polarized one. Either the man is the second coming of capitalist christ or he's the devil's conman incarnate. Ironically, like many of the most interesting people to ever grace this earth, there are shimmers of truth in both caricatures.\nThat's…",
-          "link": "https://world.hey.com/dhh/the-musk-algorithm-977bf312",
-          "publishedOn": "2023-09-25T16:45:35.000Z",
-          "wordCount": 850,
-          "title": "The Musk Algorithm",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -206,16 +196,6 @@
           "publishedOn": "2023-09-29T16:42:34.000Z",
           "wordCount": 524,
           "title": "Don't take their word for it",
-          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
-        },
-        {
-          "id": "https://world.hey.com/jason/keeping-easy-from-becoming-hard-e6af27d0",
-          "author": null,
-          "description": "Each Basecamp project has eight built-in tools you can toggle on or off. One for to-dos, one for file storage, one for scheduling, one for a message board, and so on. One of those tools is called \"Campfire\". Campfire is a real-time group chat. Think of it like Slack, but built right into Basecamp so you don't need Slack or anything else just to chat with your team in real-time.\nNow most tools in Basecamp have very simple, self-explanatory names. To-dos for to-dos... Messages for messages... Schedule for events... Docs & Files for, you guessed it, documents and files... Etc. There are two tools with \"special\" names: Campfire (group chat), and Card Table (for our unique take on kanban).\nAs we continue our relentless focus on simplicity, ease, and clarity, we've decided to rename the Campfire…",
-          "link": "https://world.hey.com/jason/keeping-easy-from-becoming-hard-e6af27d0",
-          "publishedOn": "2023-09-25T21:38:06.000Z",
-          "wordCount": 587,
-          "title": "Keeping easy from becoming hard",
           "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
         }
       ]
@@ -325,13 +305,13 @@
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
         {
-          "id": "https://world.hey.com/jorge/navigating-personal-information-with-care-667ef757",
+          "id": "https://world.hey.com/jorge/towards-smoother-page-updates-in-turbo-5f670db9",
           "author": null,
-          "description": "This article was originally published in the 37signals dev blog.\n\nAccessing personal information from customers is a serious matter. With the launch of HEY in 2020, we developed some technology and processes to support a very simple principle: employees shouldn’t have access — intentionally or unintentionally — to personal information from our users without their explicit consent. In this post, I’ll show what this looks like in practice.\n\nThe programmer side\nA few weeks ago, I was On-call and worked on a tricky HEY support ticket that involved email aliases. After some back and forth, I realized I needed access to some email addresses we stored in the database. Those are encrypted since they are personal information, so I reached out to the customer to ask for access permission:\n\nMy name i…",
-          "link": "https://world.hey.com/jorge/navigating-personal-information-with-care-667ef757",
-          "publishedOn": "2023-09-26T08:26:06.000Z",
-          "wordCount": 752,
-          "title": "Navigating personal information with care",
+          "description": "I recently published two articles in the 37signals dev blog related to how we will improve page updates in Turbo 8.\n\n\nA happier happy path in Turbo with morphing. What we will do.\nExploring server-side diffing in Turbo. An investigation of an alternative approach to fulfill the same vision.\n\nI hope you like them!",
+          "link": "https://world.hey.com/jorge/towards-smoother-page-updates-in-turbo-5f670db9",
+          "publishedOn": "2023-10-25T07:48:12.000Z",
+          "wordCount": 107,
+          "title": "Towards smoother page updates in Turbo",
           "imageUrl": "https://world.hey.com/jorge/avatar-d08cb3ee63ecbd49736f76ee2caffa4c99a1c0fd"
         }
       ]
@@ -568,6 +548,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://slashdot.org/story/23/10/25/2127200/amazon-alexa-ifttt-automations-are-about-to-stop-working?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "IFTTT in a blog post said that Amazon is removing the service from Alexa beginning October 31st. \"Once the integration is severed, users won't be able to ask Alexa to trigger IFTTT applets,\" reports The Verge. \"Certain automations will stick around in the IFTTT app, but some will be archived on November 1st unless you take action.\" From the report: If your IFTTT applets use a specific phrase or question as the trigger (\"Alexa, trigger...\" or \"Alexa, what's on my to-do list?\"), that will convert to using an IFTTT button widget that you can either use in the app or add to your smartphone's homescreen. But all other triggers set up through Alexa -- say, an automation that runs when you add something to your to-do list -- will be archived. You will also have to remove any Alexa ingredients from your applets or they'll stop working.\n \nIFTTT suggests a few alternatives to pursue to keep using it. In addition to button widgets, users can try Apple Shortcuts or the IFTTT note widget. It's also still integrated with Google Assistant, though voice commands have to start with \"activate\" before an applet will trigger.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/25/2127200/amazon-alexa-ifttt-automations-are-about-to-stop-working?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-26T00:45:00.000Z",
+          "wordCount": 3943,
+          "title": "Amazon Alexa IFTTT Automations Are About To Stop Working",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/25/218202/amazon-discloses-181-million-users-in-eu-in-first-store-transparency-report?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Reuters: Amazon has more than 181 million users in the European Union and directly employs more than 150,000 people in the region, the company said on Wednesday, in its first store transparency report as required by the EU Digital Services Act (DSA). In August, the Digital Services Act (DSA) imposed new rules on content moderation, user privacy and transparency for platforms and search engines labelled as very large online platforms (VLOP), which were defined as having more than 45 million users in the EU.\n \nAmazon has challenged its inclusion in the group, saying it was not the largest retailer in any of the EU countries in which it operates. Germany is by far the biggest market for Amazon store with more than 60 million monthly active users, followed by Italy with 38 million users, according to the report. The company has corporate offices across 50 European cities and 250 logistics centers in the block. In the first half of 2023, the company said it took 274 million actions on its own initiative to remove content that violates policy, or other types of non-illegal content. Amazon also received 8,863 legal requests from EU governments for information about users of its service in the first half of 2023.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/25/218202/amazon-discloses-181-million-users-in-eu-in-first-store-transparency-report?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-26T00:02:00.000Z",
+          "wordCount": 3943,
+          "title": "Amazon Discloses 181 Million Users In EU In First Store Transparency Report",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/25/213218/twitter-alternative-pebble-previously-known-as-t2-is-shutting-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Pebble, the first of the would-be Twitter replacements to emerge after Elon Musk bought Twitter, is shutting down. The social media platform -- previously known as T2 to indicate a desire to build a Twitter clone -- was founded by former Twitter employees Sarah Oh and Gabor Cselle. Steven Vaughan-Nichols writes via ZDNet: Pebble was an early-stage, Twitter-like social network. Its goal was to become the \"place to have the authentic conversations we've always wanted to have.\" Its founders, who were largely Twitter alumni, designed Pebble to look and feel like pre-Musk Twitter, with a 280-character limit and direct messaging. I rather liked it, but it appears I was in the minority. Pebble was always a bit rough around the edges, and it never made it past about 20,000 users.\n \nIn what was still a surprising announcement, Pebble revealed its plans to shut down operations on November 1, 2023. In a letter to users, Pebble said: \"The painful truth, however, is that we were not growing quickly enough for investors to believe that we will break out. Combine that with a crowded space of alternatives -- and the uphill climb is even steeper. In order to continue to build out a complete Pebble, we would have needed more investment, and more time.\" That was not to be -- and Pebble's backers ran out of money and time.\n \nA spokesperson for the platform stated: \"While we are immensely proud of what we achieved with our dedicated team and an incredible community, the reality is that our growth rate was not meeting the expectations set by our investors.\" With the digital landscape burgeoning with alternative platforms, Pebble was competing in an increasingly crowded marketplace. As the platform prepares for its final curtain call, the team behind Pebble is shifting its focus to showing gratitude to its supportive community. They are exploring potential avenues to ensure that the connections formed on Pebble can continue in another guise. Further details are expected to be shared soon.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/25/213218/twitter-alternative-pebble-previously-known-as-t2-is-shutting-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T23:20:00.000Z",
+          "wordCount": 4517,
+          "title": "Twitter Alternative Pebble, Previously Known As T2, Is Shutting Down",
+          "imageUrl": "https://a.fsdn.com/sd/topics/twitter_64.png"
+        },
+        {
+          "id": "https://mobile.slashdot.org/story/23/10/25/2049246/motorola-demos-smartphone-that-can-wrap-around-your-wrist-again?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "At Lenovo Tech World '23 in Austin, Texas, yesterday, Motorola demoed a bendable, bracelet-like smartphone that can wrap around your wrist. Ars Technica reports: On stage at the event, Lexi Valasek, 312 Labs innovation strategy and product research Lead for Motorola Mobility, proudly held a prototype. The smartphone looked ordinary to start: a slab of OLED with a chassis that's a bold orange on the backside. But Valasek quickly bent the phone into an arch shape, where it stood on her hand before she wrapped it around her wrist like a cuff. The phone seemed to adapt to its new positioning rapidly, quickly showing a large clock, making the device feel like a smartwatch.\n \nInterestingly, Valasek placed the phone around a silver band already wrapped around her wrist. Lenovo hasn't confirmed why, but The Verge suspects this could be critical to the phone being wearable by featuring a magnet for a secure hold. Videos Motorola shared with its press release today also show the user wearing some sort of metal-looking band on their wrist that the smartphone wraps around. And images of the device show a metal-looking strip that might be for connecting to the additional band in question.\n \nAccording to Motorola's press release, the concept device has \"FHD+\" resolution across the display, which has a 6.9-inch diagonal size when flat. Also when flat, the device runs the \"full Android experience, just like any smartphone,\" according to Motorola. The concept shown this week differs slightly from the concept demoed at Lenovo Tech World '16 in that it can be arched or bent into an upright position. [...] But beyond that, Motorola doesn't seem any closer to releasing the design.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://mobile.slashdot.org/story/23/10/25/2049246/motorola-demos-smartphone-that-can-wrap-around-your-wrist-again?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T22:40:00.000Z",
+          "wordCount": 4686,
+          "title": "Motorola Demos Smartphone That Can Wrap Around Your Wrist (Again)",
+          "imageUrl": "https://a.fsdn.com/sd/topics/cellphones_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/25/2044229/ukrainian-hackers-and-intel-officers-partner-up-in-apparent-hack-of-a-top-russian-bank?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from NPR: Two Ukrainian hacktivist groups are claiming to have broken into Russia's largest private bank, Alfa-Bank. In a blog post last week, the hackers from groups called KibOrg and NLB shared screenshots of what appears to be an internal database belonging to Alfa-Bank, as well as personal details of several Russian individuals as \"confirmation\" of the breach. Within the database, the hackers say there are over 30 million records including names, birthdates, account numbers and phone numbers of Russian customers.\n \nAdding some legitimacy to those claims, a Ukrainian intelligence official who requested anonymity to discuss the sensitive operation confirmed to NPR that Ukraine's top counterintelligence agency, the SBU, helped the hacktivists breach Alfa-Bank. The official did not share additional details about how the SBU participated or any further plans for sharing the stolen data. Ukrainian journalists including from cybersecurity website The Record previously reported on the connection to the SBU. While the hacktivists did not immediately respond to a request to discuss the breach, they wrote in the blog post -- posted on their own site -- that they would be sharing the data obtained from Alfa-Bank with investigative journalists. Alfa-Bank has not publicly responded to the news of the hack.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/25/2044229/ukrainian-hackers-and-intel-officers-partner-up-in-apparent-hack-of-a-top-russian-bank?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T22:00:00.000Z",
+          "wordCount": 4665,
+          "title": "Ukrainian Hackers and Intel Officers Partner Up In Apparent Hack of a Top Russian Bank",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/10/25/1845256/hackers-can-force-ios-and-macos-browsers-to-divulge-passwords?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Researchers have devised an attack that forces Apple's Safari browser to divulge passwords, Gmail message content, and other secrets by exploiting a side channel vulnerability in the A- and M-series CPUs running modern iOS and macOS devices. From a report: iLeakage, as the academic researchers have named the attack, is practical and requires minimal resources to carry out. It does, however, require extensive reverse-engineering of Apple hardware and significant expertise in exploiting a class of vulnerability known as a side channel, which leaks secrets based on clues left in electromagnetic emanations, data caches, or other manifestations of a targeted system. The side channel in this case is speculative execution, a performance enhancement feature found in modern CPUs that has formed the basis of a wide corpus of attacks in recent years. The nearly endless stream of exploit variants has left chip makers -- primarily Intel and, to a lesser extent, AMD -- scrambling to devise mitigations. \n\nThe researchers implement iLeakage as a website. When visited by a vulnerable macOS or iOS device, the website uses JavaScript to surreptitiously open a separate website of the attacker's choice and recover site content rendered in a pop-up window. The researchers have successfully leveraged iLeakage to recover YouTube viewing history, the content of a Gmail inbox -- when a target is logged in -- and a password as it's being autofilled by a credential manager. Once visited, the iLeakage site requires about five minutes to profile the target machine and, on average, roughly another 30 seconds to extract a 512-bit secret, such as a 64-character string.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/10/25/1845256/hackers-can-force-ios-and-macos-browsers-to-divulge-passwords?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T21:20:00.000Z",
+          "wordCount": 5291,
+          "title": "Hackers Can Force iOS and macOS Browsers To Divulge Passwords",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/10/25/193203/pope-francis-encourages-more-children-to-code?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "theodp writes: The BBC reports that Pope Francis has endorsed a global project aimed at getting more children into computer programming. The Code with Pope initiative, championed by Cosmose AI founder Miron Mironiuk, aims to bridge \"the glaring disparities in education\" across the globe by providing access to Python coding education through the free online learning platform Codeforia for students aged 11-15 across Europe, Africa and Latin America. Mironiuk will meet the Pope at the Vatican, but he admits he's not anticipating the pontiff to emulate his students in acquiring new skills. \"I don't expect him to know Python very well,\" he said. \n\nThis is not the first time the Pope has encouraged young people to get into coding, having helped write a line of code together with tech-backed nonprofit Code.org in 2019. Pope Francis has also blessed AI's potential for good, meeting with Microsoft President Brad Smith (a Code.org Board member) to sign the Rome Call for AI Ethics early this year just ahead of Microsoft's $10B OpenAI investment and announcing \"Artificial Intelligence and Peace\" as the theme for World Day of Peace 2024 in August.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://developers.slashdot.org/story/23/10/25/193203/pope-francis-encourages-more-children-to-code?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T20:40:00.000Z",
+          "wordCount": 5430,
+          "title": "Pope Francis Encourages More Children To Code",
+          "imageUrl": "https://a.fsdn.com/sd/topics/programming_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/10/25/1859225/nasas-first-two-way-end-to-end-laser-communications-system?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "NASA is demonstrating laser communications on multiple missions -- showcasing the benefits infrared light can have for science and exploration missions transmitting terabytes of important data. NASA: The International Space Station is getting a \"flashy\" technology demonstration this November. The ILLUMA-T (Integrated Laser Communications Relay Demonstration Low Earth Orbit User Modem and Amplifier Terminal) payload is launching to the International Space Station to demonstrate how missions in low Earth orbit can benefit from laser communications. Laser communications uses invisible infrared light to send and receive information at higher data rates, providing spacecraft with the capability to send more data back to Earth in a single transmission and expediting discoveries for researchers. \n\nManaged by NASA's Space Communications and Navigation (SCaN) program, ILLUMA-T is completing NASA's first bi-directional, end-to-end laser communications relay by working with the agency's LCRD (Laser Communications Relay Demonstration). LCRD launched in December 2021 and is currently demonstrating the benefits of laser communications from geosynchronous orbit by transmitting data between two ground stations on Earth in a series of experiments. Some of LCRD's experiments include studying atmospheric impact on laser signals, confirming LCRD's ability to work with multiple users, testing network capabilities like delay/disruption tolerant networking (DTN) over laser links, and investigating improved navigation capabilities.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/10/25/1859225/nasas-first-two-way-end-to-end-laser-communications-system?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T20:00:00.000Z",
+          "wordCount": 4336,
+          "title": "NASA's First Two-Way End-to-End Laser Communications System",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/25/198226/white-house-to-unveil-sweeping-ai-executive-order-next-week?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Biden administration on Monday is expected to unveil a long-anticipated artificial intelligence executive order, marking the U.S. government's most significant attempt to date to regulate the evolving technology that has sparked fear and hype around the world. Washington Post: The administration plans to release the order two days before government leaders, top Silicon Valley executives and civil society groups gather in Britain for an international summit focused on the potential risks that AI presents to society, according to four people familiar with the matter, who spoke on the condition of anonymity to discuss the private plans. \n\nThe sweeping order would leverage the U.S. government's role as a top technology customer by requiring advanced AI models to undergo assessments before they can be used by federal workers, according to three people involved in discussions about the order. The lengthy action would ease barriers to immigration for highly skilled workers, an attempt to boost the United States' technological edge. Federal government agencies -- including the Defense Department, Energy Department and intelligence agencies -- would be required to run assessments to determine how they might incorporate AI into their agencies' work, with a focus on bolstering national cyber defenses.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/25/198226/white-house-to-unveil-sweeping-ai-executive-order-next-week?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T19:20:00.000Z",
+          "wordCount": 4944,
+          "title": "White House To Unveil Sweeping AI Executive Order Next Week",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/25/1833242/boeing-has-now-lost-more-than-1-billion-on-each-of-air-force-ones-two-new-jets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Cost overruns for the new Air Force One jets continue to pile on massive losses for Boeing. From a report: Boeing on Wednesday reported another $482 million in red ink on the contract to retrofit two 747 jets into the next generation of the presidential plane. Boeing has now lost more than $1 billion on each of the two jets. The company has been reporting losses on the planes for years, as CEO Dave Calhoun admitted last year that the company should never have signed the contract with the Air Force to produce the jets for $3.9 billion. Supplier costs have soared since then, and the delivery date has been continually pushed back. Boeing took $1.45 billion in losses on the planes last year, and $318 million in 2021. \n\n\"Air Force One, I'm just going to call a very unique moment, a very unique negotiation. A very unique set of risks that Boeing probably shouldn't have taken,\" Calhoun said in April last year when discussing $660 million of those losses reported at that time. \"But we are where we are.\" The company said the latest loss on the program is a result of engineering changes, labor instability, as well as the resolution of negotiations with one of its suppliers. Very often higher costs on defense contracts can be passed onto US taxpayers, but under pressure from then-President Donald Trump, who was threatening to cancel the contract for the planes, Boeing agreed to a fixed price contract on the two new jets.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/25/1833242/boeing-has-now-lost-more-than-1-billion-on-each-of-air-force-ones-two-new-jets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T18:40:00.000Z",
+          "wordCount": 10418,
+          "title": "Boeing Has Now Lost More Than $1 Billion on Each of Air Force One's Two New Jets",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/25/1710216/intels-new-14th-gen-cpus-get-a-boost-to-gaming-performance-with-apo-feature?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Intel's latest 14th Gen chips aren't a huge improvement over the 13th Gen in gaming performance, but a new Intel Application Optimization (APO) feature might just change that. From a report: Intel's new APO app simply runs in the background, improving performance in games. It offers impressive boosts to frame rates in games that support it, like Tom Clancy's Rainbow Six Siege and Metro Exodus. Intel Application Optimization essentially directs application resources in real time through a scheduling policy that fine-tunes performance for games and potentially even other applications in the future. \n\n It operates alongside Intel's Thread Director, a technology that's designed to improve how apps and games are assigned to performance or efficiency cores depending on the performance needs. The result is some solid gains to performance in certain games, with one Reddit poster seeing a 200fps boost in Rainbow Six Siege at 1080p. \"Not all games benefit from APO,\" explained Intel VP Roger Chandler in a press briefing ahead of the 14th Gen launch. \"As we test and verify games we will add those that benefit the most, so gamers can get the best performance from their systems.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/25/1710216/intels-new-14th-gen-cpus-get-a-boost-to-gaming-performance-with-apo-feature?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T18:00:00.000Z",
+          "wordCount": 5385,
+          "title": "Intel's New 14th Gen CPUs Get a Boost To Gaming Performance With APO Feature",
+          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/25/173201/japanese-research-is-no-longer-world-class?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Japan's contribution to world-class research continues to decline, despite having one of the world's largest research communities, according to a report by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT), released in English on 25 October. From a report: Masatsura Igami, the director of the Center for S&T Foresight and Indicators at the National Institute of Science and Technology Policy (NISTEP) in Tokyo, and one of the authors of the 2023 edition of the Japanese Science and Technology Indicators report, says that the findings highlight several areas that Japan could explore to improve its global standing. \"Japan's current research environment is far from ideal and is unsustainable. The research environment must shape up,\" he says. \n\nThe report shows tha…",
+          "link": "https://slashdot.org/story/23/10/25/173201/japanese-research-is-no-longer-world-class?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T17:20:00.000Z",
+          "wordCount": 5919,
+          "title": "Japanese Research is 'No Longer World Class'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/japan_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/25/1630201/honda-says-making-cheap-electric-vehicles-is-too-hard-ends-deal-with-gm?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The previously announced joint collaboration between Honda Motor and General Motors to develop a platform for affordable electric vehicles (EVs) has been cancelled, the firms said today. Initially publicized in April 2022, the collaboration aimed to produce lower-cost EVs for the North American, South American, and Chinese markets, with the first models expected to roll out in 2027. However, the companies disclosed that they have mutually agreed to disband the project. ArsTechnica: \"After extensive studies and analysis, we have come to a mutual decision to discontinue the program. Each company remains committed to affordability in the EV market,\" Honda and GM said in a joint statement. \"After studying this for a year, we decided that this would be difficult as a business, so at the moment we are ending development of an affordable EV,\" said Honda CEO Toshihiro Mibe in an interview with Bloomberg. \"GM and Honda will search for a solution separately. This project itself has been canceled,\" Mibe said. \n\nThe now-canceled platform was supposed to use GM's Ultium batteries. GM debuted Ultium in 2020 as its third-generation lithium-ion cell, developed together with LG Chem. At the time, GM CEO Mary Barra said that Ultium cells would drop below the $100/kWh barrier \"early in the platform's life.\" In 2022, the first Ultium-based EVs went into production -- the GMC Hummer EV, the Cadillac Lyriq, and the BrightDrop Zevo 600. Ultium cells were supposedly ready for mass production, but GM and LG Chem are struggling to make that a reality. In July, GM had to idle BrightDrop's production line in Canada due to a shortage of battery cells, and Kelly Blue Book's sales data for the first three quarters of 2023 show that just 6,920 Ultium-based EVs (which include the Chevrolet Blazer and Silverado EV, as well as the Hummer, Lyriq, and BrightDrop van) were delivered to customers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/25/1630201/honda-says-making-cheap-electric-vehicles-is-too-hard-ends-deal-with-gm?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T16:40:00.000Z",
+          "wordCount": 13229,
+          "title": "Honda Says Making Cheap Electric Vehicles is Too Hard, Ends Deal With GM",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/25/1529230/amazon-now-lets-advertisers-use-generative-ai-to-pretty-up-their-product-shots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Amazon is beta testing AI image generation tools for its advertisers, offering an easy way to create backgrounds or scenes around whatever product ad buyers are hoping to sell. From a report: The company says the new feature is \"designed to remove creative barriers and enable brands to produce lifestyle imagery that helps improve their ads' performance.\" This could prove to be a quick, convenient option for brands that would otherwise be stuck working with boring standalone images of a product against a white background. Amazon says putting products in a lifestyle scene can lead to 40 percent higher click-through rates.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/25/1529230/amazon-now-lets-advertisers-use-generative-ai-to-pretty-up-their-product-shots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T16:00:00.000Z",
+          "wordCount": 4808,
+          "title": "Amazon Now Lets Advertisers Use Generative AI To Pretty Up Their Product Shots",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/25/1516240/sergey-brins-airship-gets-faa-clearance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Mark Harris, reporting at IEEE: Expect traffic on the 101 highway in Mountain View, California, to be even worse in the days or weeks ahead, as motorists slow down to watch Google co-founder Sergey Brin's 124-meter long airship Pathfinder 1 launch into the air for the first time. IEEE Spectrum has learned that LTA Research, the company that Brin founded in 2015 to develop airships for humanitarian and cargo transport, received a special airworthiness certificate for the helium-filled airship in early September. That piece of paper allows the largest aircraft since the ill-fated Hindenburg to begin flight tests at Moffett Field, a joint civil-military airport in Silicon Valley, with immediate effect. \n\nThe certificate permits LTA to fly Pathfinder 1 within the boundaries of Moffett Field and neighboring Palo Alto airport's airspaces, at a height of up to 460 meters (1500 feet). That will let it venture out over the south San Francisco Bay, without interfering with planes flying into or out of San Jose and San Francisco International commercial airports. In a letter supporting its application for the certificate, LTA wrote: \"Pathfinder 1's experimental flight test program is to demonstrate and establish the flight envelope for the airship.... LTA's test plan is tailored to include substantial indoor and outdoor ground testing, using a build-up approach to gradually increase the flight envelope.\" The huge airship will initially be attached to a mobile mast for outdoor ground testing, before conducting about 25 low-level flights, for a total of 50 hours' flight time.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/25/1516240/sergey-brins-airship-gets-faa-clearance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-25T15:16:00.000Z",
+          "wordCount": 8307,
+          "title": "Sergey Brin's Airship Gets FAA Clearance",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
         {
           "id": "https://tech.slashdot.org/story/23/10/24/2159235/atom-computing-is-the-first-to-announce-a-1000-qubit-quantum-computer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
