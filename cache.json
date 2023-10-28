@@ -72,6 +72,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/x-celebrates-60-savings-from-cloud-exit-7cc26895",
+          "author": null,
+          "description": "Musk has taken a cleaver to the costs and complexity at X. It hasn't always been pretty, but it sure has been effective, and in the process, he's proven his detractors wrong time and again. Not only has the site stayed up, despite hysteric proclamations that it would crater soon after his personnel changes, but X has been able to increase the pace of experimentation and feature introductions at the same time. It's been impressive to watch, regardless of what you think of the politics involved.\nNow I understand that for many it's indeed impossible to leave those politics aside. And however you're aligned, you'll find a chart to support your position that X is either thriving or has one foot in the grave. So let's not even get into that.\nInstead, let's focus on the fact that X has made #Clou…",
+          "link": "https://world.hey.com/dhh/x-celebrates-60-savings-from-cloud-exit-7cc26895",
+          "publishedOn": "2023-10-27T16:36:26.000Z",
+          "wordCount": 496,
+          "title": "X celebrates 60% savings from cloud exit",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/buying-the-seller-1520e9dd",
           "author": null,
           "description": "We've just moved the 37signals podcast to Buzzsprout. Podcast hosting is to some extent a commodity market, so this was less about pining for a specific feature or even working to reduce the bill. This was about buying from Tom Rossi, the technical cofounder of HigherPixels (who make Buzzsprout), and his team, because we'd just prefer to do business with them.\nI've known Tom from the Rails community for years, but at Rails World a few weeks ago, I really got to know him better. He was there as a supporter of the conference, sponsoring a podcasting booth for Rails podcasts recording on site. We talked about bootstrapping, managing a small company, and working with Rails. We literally saw eye to eye.\nThis in-person encounter made me reflect on modern commerce. How impersonal it is most of th…",
@@ -240,6 +250,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2023/10/27/crates-io-non-canonical-downloads.html",
+          "author": null,
+          "description": "TL;DR\nWe want to improve the reliability and performance of crate downloads.\n\"Non-canonical downloads\" (that use URLs containing hyphens or underscores where the crate published uses the opposite) are blocking these plans.\nOn 2023-11-20 support for \"non-canonical downloads\" will be disabled.\ncargo users are unaffected.\nWhat are \"non-canonical downloads\"?\nThe \"non-canonical downloads\" feature allows everyone to download the serde_derive crate from https://crates.io/api/v1/crates/serde_derive/1.0.189/download, but also from https://crates.io/api/v1/crates/SERDE-derive/1.0.189/download, where the underscore was replaced with a hyphen (crates.io normalizes underscores and hyphens to be the same for uniqueness purposes, so it isn't possible to publish a crate named serde-derive because serde_de…",
+          "link": "https://blog.rust-lang.org/2023/10/27/crates-io-non-canonical-downloads.html",
+          "publishedOn": "2023-10-27T00:00:00.000Z",
+          "wordCount": 694,
+          "title": "crates.io: Dropping support for non-canonical downloads",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html",
           "author": null,
@@ -548,6 +568,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://yro.slashdot.org/story/23/10/27/2115241/it-took-seven-years-but-over-40s-fired-by-hp-win-18-million-settlement?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Brandon Vigliarolo reports via The Register: After over seven years of legal battles, a group of former HP employees who claim the venerable firm discriminated against older staff when culling jobs has won a $18 million settlement. Hewlett Packard's offshoots, HP and Hewlett Packard Enterprise (HPE) have agreed to cough up just over a day's combined profits for the last quarter to settle a class-action case brought by employees who were over 40 and got laid off when the company split in 2015. The group sued HP and HPE in 2016 claiming both the new entities and the old Hewlett Packard had unfairly targeted older employees for layoffs as far back as 2012.\n \nTwo classes were designated in the lawsuit -- 146 former staff accusing HP and HPE of age discrimination on US Age Discrimination in Employment Act (ADEA) grounds, and 212 accusing their former employer of the same based on California state labor laws. The settlement notice [PDF], which was filed in the US District Court for the Northern District of California in late September and preliminarily approved by a judge on Thursday, doesn't include any admission of guilt on HP or HPE's part -- quite the opposite, in fact. \"Throughout the litigation, each Defendant has denied, and continues to deny, the allegations described above,\" lawyers for the plaintiffs wrote in the settlement notice. Nonetheless, the settlement notice was filed without opposition from HP and HPE. [...]\n \nJudge Edward Davila determined the settlement was \"fair, adequate and reasonable\" yesterday, and will issue a final order later, a draft [PDF] of which was also filed with the court in September. If approved without changes, each of the 358 plaintiffs in the California case stand to earn $50,279 in gross individual recovery. Net of attorney's fees, costs and expenses, however, that total shrinks to a \"minimum of $15,000,\" court filings indicate.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/10/27/2115241/it-took-seven-years-but-over-40s-fired-by-hp-win-18-million-settlement?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-28T00:45:00.000Z",
+          "wordCount": 4029,
+          "title": "It Took Seven Years But Over-40s Fired By HP Win $18 Million Settlement",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/27/219216/android-14-storage-bug-has-users-locked-out-of-their-devices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from OPP.Today: Android 14, the latest operating system from Google, is facing a major storage bug that is causing users to be locked out of their devices. This issue is particularly affecting users who utilize the \"multiple profiles\" feature. Reports suggest that the bug is comparable to being hit with \"ransomware,\" as users are unable to access their device storage. Initially, it was believed that this bug was limited to the Pixel 6, but it has since been discovered that it impacts a wider range of devices upgrading to Android 14. This includes the Pixel 6, 6a, 7, 7a, Pixel Fold, and Pixel Tablet. The Google issue tracker for this bug has garnered over 350 replies, but there has been no response from Google so far. The bug has been assigned the medium priority level of \"P2\" and remains unassigned, indicating that no one is actively investigating it.\n \nUsers who have encountered this storage bug have shared log files containing concerning messages such as \"Failed to open directory /data/media/0: Structure needs cleaning.\" This issue leads to various problematic situations, with some users experiencing boot loops, others stuck on a \"Pixel is starting...\" message, and some unable to take screenshots or access their camera app due to the lack of storage. Users are also unable to view files on their devices from a PC over USB, and the System UI and Settings repeatedly crash. Essentially, without storage, the device becomes practically unusable.\n \nAndroid's user-profile system, designed to accommodate multiple users and separate work and personal profiles, appears to be the cause of this rarely encountered bug. Users have reported that the primary profile, which is typically the most important one, becomes locked out.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/10/27/219216/android-14-storage-bug-has-users-locked-out-of-their-devices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-28T00:02:00.000Z",
+          "wordCount": 4142,
+          "title": "Android 14 Storage Bug Has Users Locked Out of Their Devices",
+          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/27/2056243/boston-dynamics-robot-dog-talks-using-openais-chatgpt?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Boston Dynamics has infused one of their robotic dog robots with OpenAI's ChatGPT, allowing it to speak in a variety of voices and accents \"including a debonair British gentleman, a sarcastic and irreverent American named Josh, and a teenage girl who is so, like, over it,\" reports the Daily Beast. From the report: The robot was a result of a hackathon in which the Boston Dynamics engineers combined a variety of AI technologies including ChatGPT, voice recognition software, voice creation software, and image processing AI with the company's famous \"Spot,\" the robot dog known for its ability to jump rope and reinforce the police state. The bot also had some upgrades including image recognition software combined with a \"head\" sensor that the engineers decorated with hats and googly eyes producing incredibly creepy results.\n \nThe team created a number of different versions of the robot including a \"tour guide\" personality that seemed to recognize the layout of the Boston Dynamics warehouse, and was able to provide descriptions and the history behind the various locations in the workplace. \"Welcome to Boston Dynamics! I am Spot, your tour guide robot,\" the android said in the video. \"Let's explore the building together!\" In the video, the robot can be seen \"speaking\" and responding to different humans and a variety of prompts. For example, an engineer asked Spot for a haiku, to which it quickly responded with one. After Klingensmith said that he was thirsty, the robot seemed to direct it to the company's snack area. \"Here we are at the snack bar and coffee machine,\" Spot said. \"This is where our human companions find their energizing elixirs.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/10/27/2056243/boston-dynamics-robot-dog-talks-using-openais-chatgpt?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T23:20:00.000Z",
+          "wordCount": 4519,
+          "title": "Boston Dynamics Robot Dog Talks Using OpenAI's ChatGPT",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/10/27/2047226/apple-watch-faces-potential-import-ban-in-the-us?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Apple is in violation of a patent that belongs to medical technology company Masimo, says the International Trade Commission (ITC). Android Authority reports: The commission upheld a previous ruling by a US judge who ruled in Masimo's favor. The patent in question is for light-based pulse oximetry technology or blood oxygen tracking on Apple Watches. While ITC's latest ruling confirms Apple's infringement and can potentially stop the company from bringing Apple Watches to the US, it will not come into effect immediately. The decision now faces a Presidential review and could be followed by possible appeals by Apple.\n \nThe Biden administration will have 60 days to veto the import ban on Apple Watches. However, as Reuters notes, US Presidents have rarely vetoed bans in the past. It's unclear which models of the Apple Watch could be affected by the ban if it comes into effect. However, Masimo's complaint alleged that the Apple Watch 6, the first one to feature blood oxygen tracking, violated its patent. \"Masimo has wrongly attempted to use the ITC to keep a potentially lifesaving product from millions of U.S. consumers while making way for their own watch that copies Apple,\" an Apple spokesperson told Reuters. \"While today's decision has no immediate impact on sales of Apple Watch, we believe it should be reversed, and will continue our efforts to appeal.\"\n \nMeanwhile, Masimo CEO Joe Kiani said the ITC's ruling \"sends a powerful message that even the world's largest company is not above the law.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/10/27/2047226/apple-watch-faces-potential-import-ban-in-the-us?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T22:40:00.000Z",
+          "wordCount": 4634,
+          "title": "Apple Watch Faces Potential Import Ban In the US",
+          "imageUrl": "https://a.fsdn.com/sd/topics/patents_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/10/27/2051258/people-are-speaking-with-chatgpt-for-hours-bringing-2013s-her-closer-to-reality?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: In 2013, Spike Jonze's Her imagined a world where humans form deep emotional connections with AI, challenging perceptions of love and loneliness. Ten years later, thanks to ChatGPT's recently added voice features, people are playing out a small slice of Her in reality, having hours-long discussions with the AI assistant on the go. In 2016, we put Her on our list of top sci-fi films of all time, and it also made our top films of the 2010s list. In the film, Joaquin Phoenix's character falls in love with an AI personality called Samantha (voiced by Scarlett Johansson), and he spends much of the film walking through life, talking to her through wireless earbuds reminiscent of Apple AirPods, which launched in 2016. In reality, ChatGPT isn'…",
+          "link": "https://entertainment.slashdot.org/story/23/10/27/2051258/people-are-speaking-with-chatgpt-for-hours-bringing-2013s-her-closer-to-reality?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T22:02:00.000Z",
+          "wordCount": 6437,
+          "title": "People Are Speaking With ChatGPT For Hours, Bringing 2013's 'Her' Closer To Reality",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/10/27/1747256/intel-ceo-dismisses-pretty-insignificant-arm-pc-challenge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Intel CEO Pat Gelsinger has downplayed the threat of rival chipmakers creating processors based on the Arm architecture for PCs. From a report: \"Arm and Windows client alternatives, generally they've been relegated to pretty insignificant roles in the PC business,\" he told analysts during the x86 giant's Q3 earnings call Thursday. \"We take all our competition seriously, but I think history is our guide here. We don't see these as potentially being all that significant overall,\" he added, a sentiment somewhat at odds with Microsoft which last week cited analyst research predicting Arm's PC market share will grow from its curernt 14 percent to 25 percent by 2027. \n\nWhich seems far from \"pretty insignificant.\" Gelsinger's words also contrast markedly with past Intel CEO Andy Grove, who penned a book titled \"Only the Paranoid Survive: How to Exploit the Crisis Points That Challenge Every Company.\" While Gelsinger doesn't see Arm as a threat, he said Intel Foundry Services is more than happy to work with chipmakers to build chips based on the architecture. \"When you're thinking about other alternative architectures like Arm, we also say, 'Wow, what a great opportunity for our foundry',\" he said. To that end, the in April 2023 the chipmaker announced a strategic partnership with Arm to make it easier to produce chips on the architecture in Intel foundries.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/10/27/1747256/intel-ceo-dismisses-pretty-insignificant-arm-pc-challenge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T21:25:00.000Z",
+          "wordCount": 6112,
+          "title": "Intel CEO Dismisses 'Pretty Insignificant' Arm PC Challenge",
+          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/10/27/1352214/scientists-call-out-rogue-emissions-from-china-at-global-ozone-summit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Efforts to curb emissions of a powerful greenhouse gas commonly produced as a by-product of refrigerant manufacture might be falling short, and it seems eastern China is a major culprit. Nature: The hydrofluorocarbon gas, HFC-23, is around 14,700 times as powerful as carbon dioxide at warming the globe and has long been the subject of national and international climate-change mitigation efforts. Those efforts gained new traction nearly a decade ago when China and India -- the world's largest producers of the chemical -- agreed to dial down its emissions. New research, however, confirms that emissions continued to rise in subsequent years, and an analysis of data from atmospheric-monitoring stations suggests that factories in eastern China are responsible for nearly half of the total. \n\nThe rogue emissions are one of several air-pollution sources under discussion at the latest meeting of the Montreal Protocol, held in Nairobi, Kenya, this week. Signed in 1987, the Montreal Protocol is generally considered the most effective international environmental treaty in history, having halted the destruction of the ozone layer while also slowing down global warming. But scientists have often played a role, scanning the atmosphere for chemicals, such as ozone-depleting chlorofluorocarbons (CFCs), that governments have agreed to phase out. \"Science has been instrumental in evaluating compliance under the treaty,\" says Megan Lickley, a climate scientist at Georgetown University in Washington DC.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/10/27/1352214/scientists-call-out-rogue-emissions-from-china-at-global-ozone-summit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T20:40:00.000Z",
+          "wordCount": 5730,
+          "title": "Scientists Call Out Rogue Emissions From China at Global Ozone Summit",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/27/1312224/citi-charts-path-for-thousands-of-coders-to-experiment-with-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Citigroup is planning to grant the majority of its over 40,000 coders access to generative artificial intelligence as Wall Street continues to embrace the burgeoning technology. From a report: As part of a small pilot program, the Wall Street giant has quietly allowed about 250 of its developers to experiment with generative AI, the technology popularized by ChatGPT. Now, it's planning to expand that program to the majority of its coders next year. The bank and its rivals have slowly begun experimenting with the technology, which created waves last year when ChatGPT made its debut and showed how generative AI can produce sentences, essays or poetry based on a user's simple questions or commands. The technology typically creates this new work after being trained on vast quantities of pre-existing material. \n\nIncreasingly, bank executives argue artificial intelligence will make their staffers more efficient. Like when federal regulators dropped 1,089 pages of new capital rules on the US banking sector, Citigroup combed through the document word by word using generative AI. The bank's risk and compliance team used the technology to assess the impact of the plans, which will determine how much capital the lender has to set aside to guard against future losses. Generative AI organized the proposal into pieces and composed key takeaways, which the team then presented to the outgoing treasurer Mike Verdeschi.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/27/1312224/citi-charts-path-for-thousands-of-coders-to-experiment-with-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T20:00:00.000Z",
+          "wordCount": 4215,
+          "title": "Citi Charts Path For Thousands of Coders To Experiment With AI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/10/27/1448239/russia-renamed-its-ambitious-satellite-program-after-putin-misspoke-its-name?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: It was always abundantly clear that the leader of the Russian space corporation Roscosmos from 2018 to 2022, Dmitry Rogozin, sought to kowtow to Russian President Vladimir Putin. Now we have an anecdote from Putin himself that highlights how much. The story concerns a satellite constellation now known as Sfera (or Sphere, in English), a modestly ambitious constellation of 264 satellites. The Sphere constellation is intended to provide broadband Internet service from middle-Earth orbit to Russia as well as high-resolution Earth observation satellites. \n\nAs is usual with Russian space projects, because they tend to be poorly funded, the timeline for Sphere's deployment has been delayed and its scope reduced. It also underwent an unscheduled name change. Prior to 2018, this satellite program was known as Ehfir (Ether), a reference to the invisible substance once thought to fill the universe and the medium through which light waves propagated. \n\nHowever that changed in 2018 when Putin was publicly announcing the program's creation. He recently recalled this in remarks that were recorded by RIA Novosti's Telegram channel. They were translated for Ars by Rob Mitchell. \"At first it was called Ehfir,\" Putin said. \"And at one of my public speeches I was talking and said it was Sfera. I arrived at the Kremlin, and the former Roscosmos head greeted me and said, 'Vladimirovich, you said it was project Sfera, Sfera you said. That's what it is, project Sfera.'\" \n\nRogozin, who was listening to these remarks, acted immediately -- presumably to save his boss from embarrassment. After Rogozin said the constellation was named Sphere, Putin recalled that he asked how's that? Rogozin replied that it had already been renamed Sfera, not to worry. Laughing, Putin added, \"So I didn't even make it back and it's already renamed to Sfera. So I said, well, OK then.\" Rogozin confirmed the anecdote on his Telegram channel this week.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/23/10/27/1448239/russia-renamed-its-ambitious-satellite-program-after-putin-misspoke-its-name?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T19:20:00.000Z",
+          "wordCount": 8519,
+          "title": "Russia Renamed Its Ambitious Satellite Program After Putin Misspoke Its Name",
+          "imageUrl": "https://a.fsdn.com/sd/topics/humor_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/27/1356213/windows-11-now-lets-you-write-anywhere-you-can-type?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Microsoft is starting to roll out new changes to Windows Ink that let you write anywhere you can type in Windows 11. After months of previewing the changes, the handwriting-to-text conversion now works inside search boxes and other elements of Windows 11 where you'd normally type your input. [...] If you have a Surface device with a stylus or any other Windows tablet that supports Windows Ink then you'll immediately see this new feature if you head into Settings and start to write into a search box, or in other text edit fields in Windows 11.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/27/1356213/windows-11-now-lets-you-write-anywhere-you-can-type?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T18:40:00.000Z",
+          "wordCount": 6476,
+          "title": "Windows 11 Now Lets You Write Anywhere You Can Type",
+          "imageUrl": "https://a.fsdn.com/sd/topics/windows_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/27/1726255/google-paid-a-whopping-263-billion-in-2021-to-be-default-search-engine-everywhere?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The US v. Google antitrust trial is about many things, but more than anything, it's about the power of defaults. Even if it's easy to switch browsers or platforms or search engines, the one that appears when you turn it on matters a lot. Google obviously agrees and has paid a staggering amount to make sure it is the default: testimony in the trial revealed that Google spent a total of $26.3 billion in 2021 to be the default search engine in multiple browsers, phones, and platforms. From a report: That number, the sum total of all of Google's search distribution deals, came out during the Justice Department's cross-examination of Google's search head, Prabhakar Raghavan. It was made public after a debate earlier in the week between the two sides and Judge Amit Mehta over whether the figure should be redacted. Mehta has begun to push for more openness in the trial in general, and this was one of the most significant new pieces of information to be shared openly. \n\nJust to put that $26.3 billion in context: Alphabet, Google's parent company, announced in its recent earnings report that Google Search ad business brought in about $44 billion over the last three months and about $165 billion in the last year. Its entire ad business -- which also includes YouTube ads -- made a bit under $90 billion in profit. This is all back-of-the-napkin math, but essentially, Google is giving up about 16 percent of its search revenue and about 29 percent of its profit to those distribution deals.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/27/1726255/google-paid-a-whopping-263-billion-in-2021-to-be-default-search-engine-everywhere?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T18:00:00.000Z",
+          "wordCount": 7665,
+          "title": "Google Paid a Whopping $26.3 Billion in 2021 To Be Default Search Engine Everywhere",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/10/27/1332239/gene-editing-trial-on-three-individuals-for-hiv-cure-yields-uncertain-result?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Antonio Regaladoarchive, reporting for MIT Technology Review: The gene-editing technology CRISPR has been used to change the genes of human babies, to modify animals, and to treat people with sickle-cell disease. Now scientists are attempting a new trick: using CRISPR to permanently cure people of HIV. In a remarkable experiment, a biotechnology company called Excision BioTherapeutics says it added the gene-editing tool to the bodies of three people living with HIV and commanded it to cut, and destroy, the virus wherever it is hiding. The early-stage study is a probing step toward the company's eventual goal of curing HIV infection with a single intravenous dose of a gene-editing drug. Excision, which is based in San Francisco, says the first patient received treatment about a year ago. \n\n…",
+          "link": "https://science.slashdot.org/story/23/10/27/1332239/gene-editing-trial-on-three-individuals-for-hiv-cure-yields-uncertain-result?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T17:20:00.000Z",
+          "wordCount": 5396,
+          "title": "Gene-Editing Trial on Three Individuals for HIV Cure Yields Uncertain Result",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/27/1626208/internet-access-in-gaza-is-collapsing-as-isps-fall-offline?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "As the conflict between Israel and Hamas reaches its third week, internet connectivity in Gaza is getting worse. From a report: On Thursday, internet monitoring firm NetBlocks wrote on X, formerly Twitter, that the Palestinian internet service provider NetStream \"has collapsed days after the operator notified subscribers that service would end due to a severe shortage of fuel supplies.\" According to Doug Madory, an expert who for years has worked at various companies that monitor networks across the world, internet connectivity in Gaza is dramatically worsening. \n\n\"The evidence of the crippled internet in Gaza is not hard to find. By every metric of internet connectivity, things are in bad shape,\" Madory, who is now the director of internet analysis at Kentik, told TechCrunch. Madory said that he monitored internet connectivity in Gaza during the 2014 war. At the time, despite some outages, \"the ISPs were able to keep their connections to the outside world up using backup power, etc, even if many people were unable to access service due to power outages and infrastructure failures.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/10/27/1626208/internet-access-in-gaza-is-collapsing-as-isps-fall-offline?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T16:41:00.000Z",
+          "wordCount": 12897,
+          "title": "Internet Access in Gaza is Collapsing as ISPs Fall Offline",
+          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/10/27/134251/united-nations-creates-advisory-body-to-address-ai-governance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The United Nations Secretary-General Antonio Guterres has announced the creation of a 39-member advisory body to address issues in the international governance of artificial intelligence. From a report: Members include tech company executives, government officials from Spain to Saudi Arabia, and academics from countries such as the U.S., Russia and Japan. Sony Chief Technology Officer Hiroaki Kitano, OpenAI CTO Mira Murati and Microsoft Chief Responsible AI Officer Natasha Crampton are among the executives representing technology companies. \n\nRepresentatives also come from six continents with diverse backgrounds ranging from U.S.-based AI expert Vilas Dhar to Professor Yi Zeng fom China and Egyptian lawyer Mohamed Farahat. \"The transformative potential of AI for good is difficult even to grasp,\" Guterres said in a statement. \"And without entering into a host of doomsday scenarios, it is already clear that the malicious use of AI could undermine trust in institutions, weaken social cohesion and threaten democracy itself,\" he said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/10/27/134251/united-nations-creates-advisory-body-to-address-ai-governance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T16:00:00.000Z",
+          "wordCount": 4269,
+          "title": "United Nations Creates Advisory Body To Address AI Governance",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/10/27/108227/the-restaurant-nearest-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Thai Food Near Me, Dentist Near Me, Notary Near Me, Plumber Near Me -- businesses across the country picked names meant to outsmart Google Search. Does it actually work? From a report: Thai Food Near Me isn't the first business to think of the Google-first naming convention. There are reminders of Google's kingmaker status in online discoverability everywhere in cities across the country. Among the businesses I was able to find: a chain of half a dozen Affordable Dentist Near Me's in Texas; an Antiques Near Me two hours outside of New York City; seven Plumber Near Me businesses; a Phone Repair Near Me in Cape Cod, Massachusetts; a Psychic Near Me in Chicago; and more than 20 iterations of \"Notary Near Me\" across the US. Felix Silva decided on the name Barber Shop Near Me after considering …",
+          "link": "https://tech.slashdot.org/story/23/10/27/108227/the-restaurant-nearest-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-10-27T15:20:00.000Z",
+          "wordCount": 6158,
+          "title": "The Restaurant Nearest Google",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
         {
           "id": "https://tech.slashdot.org/story/23/10/26/2322238/metas-threads-app-has-just-under-100-million-monthly-active-users-says-zuckerberg?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4787,156 +4957,6 @@
           "wordCount": 6348,
           "title": "iPhone 15 Pro Owners Complain About Overheating Problems",
           "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/27/215243/chatgpt-can-now-browse-the-internet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "OpenAI says ChatGPT is \"no longer limited to data before September 2021.\" It can now browse the internet to provide you with up-to-date information, \"complete with direct links to sources.\" From the announcement: Since the original launch of browsing in May, we received useful feedback. Updates include following robots.txt and identifying user agents so sites can control how ChatGPT interacts with them. Browsing is particularly useful for tasks that require up-to-date information, such as helping you with technical research, trying to choose a bike, or planning a vacation.\n \nBrowsing is available to Plus and Enterprise users today, and we'll expand to all users soon. To enable, choose Browse with Bing in the selector under GPT-4.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/27/215243/chatgpt-can-now-browse-the-internet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-28T00:45:00.000Z",
-          "wordCount": 3877,
-          "title": "ChatGPT Can Now Browse the Internet",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/27/2058226/backdoored-firmware-lets-china-state-hackers-control-routers-with-magic-packets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: Hackers backed by the Chinese government are planting malware into routers that provides long-lasting and undetectable backdoor access to the networks of multinational companies in the US and Japan, governments in both countries said Wednesday. The hacking group, tracked under names including BlackTech, Palmerworm, Temp.Overboard, Circuit Panda, and Radio Panda, has been operating since at least 2010, a joint advisory published by government entities in the US and Japan reported. The group has a history of targeting public organizations and private companies in the US and East Asia. The threat actor is somehow gaining administrator credentials to network devices used by subsidiaries and using that control to install malicious firmware …",
-          "link": "https://it.slashdot.org/story/23/09/27/2058226/backdoored-firmware-lets-china-state-hackers-control-routers-with-magic-packets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-28T00:02:00.000Z",
-          "wordCount": 4384,
-          "title": "Backdoored Firmware Lets China State Hackers Control Routers With 'Magic Packets'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/27/2041229/tech-layoffs-are-all-but-a-thing-of-the-past?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Alex Wilhelm writes via TechCrunch: Layoffs in the technology industry have slowed sharply in recent months, bringing the number of jobs lost to tech's efficiency push to a near stop. According to several services that track layoffs in the tech industry, after reaching a local maximum in January, the number of people laid off had declined by more than 90% by September. What's more, some tech companies are hiring again to refill some of the roles that they had eliminated mere months ago.\n \nSuch a quick shift from mass personnel cuts to more stable employee rolls and even hiring efforts may seem surprising, but it's been a long time in the making. Data from popular tech industry layoff tracker Layoffs.fyi shows that job cuts have slowed for seven consecutive months this year, plateauing around 10,000 per month from June through August and declining to just over 3,000 so far in September. TrueUp, a jobs board focused on the tech industry, also marked that tech industry layoffs peaked in January and declined sharply thereafter. However, TrueUp's layoff count shows a slightly lumpier trend in the total number of staff cuts. Regardless of the source, though, the trend is clear that job cuts are on the decline.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/27/2041229/tech-layoffs-are-all-but-a-thing-of-the-past?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T23:20:00.000Z",
-          "wordCount": 4921,
-          "title": "Tech Layoffs Are All But a Thing of the Past",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/27/2046247/indonesia-to-ban-purchases-on-social-media-like-tiktok?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Indonesia said it will bar social media companies from allowing transactions and doubling as e-commerce platforms -- all to prevent misuse of public data. \"This means that users in Indonesia cannot buy or sell products and services on TikTok and Facebook,\" reports CNBC. From the report: In a media conference Monday, Minister of Trade Zulkifli Hasan said that \"the connection [between social media and e-commerce] must be separated so that the algorithm is not all controlled\" and this \"prevents the use of personal data\" for business purposes. Indonesia also said it would also regulate which overseas goods can be sold, adding these products would receive the same treatment as offline domestic goods. The move comes as foreign goods become increasingly available in Indonesia through social media platforms. \"Social commerce was born to solve a real world problem for local traditional small sellers, by matching them with local creators who can help drive traffic to their online shops,\" a TikTok spokesperson said in response to the move.\n \n\"While we respect local laws and regulations, we hope that the regulations take into account its impact on the livelihoods of more than 6 million sellers and close to 7 million affiliate creators who use TikTok Shop.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/27/2046247/indonesia-to-ban-purchases-on-social-media-like-tiktok?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T22:40:00.000Z",
-          "wordCount": 4038,
-          "title": "Indonesia To Ban Purchases On Social Media Like TikTok",
-          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/27/2212213/volkswagen-hit-by-it-outage-brand-vehicle-production-in-germany-halted?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Volkswagen says it was hit by a major IT outage on Wednesday, halting production at the company's namesake brand in Germany. Reuters reports: Volkswagen said that the whole group, which includes the Porsche AG and Audi brands, was affected. Volkswagen said there had been an unspecified \"IT malfunction of network components\" at the carmaker's site in Wolfsburg, its global headquarters.\n \n\"The fault has been present since 12:30 p.m. (CET) and is currently being analysed. There are implications for vehicle-producing plants,\" the group said. \"According to current analyses, an external attack is unlikely to be the cause of the system malfunction,\" Volkswagen said, adding that efforts to fix the problem were of the highest priority and well under way.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/27/2212213/volkswagen-hit-by-it-outage-brand-vehicle-production-in-germany-halted?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T22:20:00.000Z",
-          "wordCount": 4024,
-          "title": "Volkswagen Hit By IT Outage, Brand Vehicle Production In Germany Halted",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/27/2037243/ai-generated-subliminal-messages-are-going-viral?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Motherboard: Every week, the social media hype-train seems to find new ways to sensationalize generative AI tools. Most recently, a new technique that allows users to produce optical illusions went viral, with some describing the results as AI-generated images with \"subliminal\" messages. The technique, called ControlNet, essentially lets users have more control over the generated image by specifying additional inputs -- in this case, letting you create images or words within other images. Some users characterized this as a form of \"hidden message\" that could be used to implant suggestions in the form of subtle visual cues, like a McDonald's \"M\" logo appearing in the outlines of a movie poster.\n \nControlNet uses the AI image-generating tool Stable Diffusion, and one of its initial uses was generating fancy QR codes using the code as an input image. That idea was then taken further, with some users developing a workflow that lets them specify any image or text as a black-and-white mask that implants itself into the generated image -- kind of like an automated, generative version of the masking tool in Photoshop.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/27/2037243/ai-generated-subliminal-messages-are-going-viral?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T22:00:00.000Z",
-          "wordCount": 4774,
-          "title": "AI-Generated 'Subliminal Messages' Are Going Viral",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/09/27/1913227/intel-reiterates-next-gen-meteor-lake-cpus-arent-coming-to-most-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: Intel's Meteor Lake processor architecture promises to be its most interesting in recent history, but we've known for a while now that Intel isn't planning to launch a version for socketed desktop motherboards like the ones you'd find in a self-built PC or an off-the-shelf mini tower. For those systems, Intel plans to release a second consecutive refresh of the old Alder Lake architecture, the one that first came to desktops in 12th-generation Core CPUs in 2021. In an interview with PCWorld, Intel Client Computing Group General Manager Michelle Johnston Holthaus said that Meteor Lake chips would be coming to desktops after all. But the company backpedaled a bit a couple of days later, clarifying that these Meteor Lake desktop chips would be of the soldered-to-the-motherboard variety, not intended as high-performance replacements for current desktop Core i7 and Core i9 chips. \n\nThis kind of bifurcation isn't totally unheard of, especially when Intel is in the process of shifting to a new manufacturing technology, as it is with Meteor Lake. Chips for high-performance desktops tend to be physically larger and also need to be able to scale up to higher clock speeds, two things that are harder to do when a manufacturing process is new. And Meteor Lake is nothing if not complex to manufacture, using new Intel Foveros packaging technology to combine four different silicon dies produced on three different manufacturing processes by two different companies. Some of Intel's 10th-generation Core CPUs for laptops and all of the 11th-gen laptop CPUs had moved to new architectures and Intel's 10 nm manufacturing process, while the desktop chips remained stuck on the more mature (but aging) 14 nm process.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/09/27/1913227/intel-reiterates-next-gen-meteor-lake-cpus-arent-coming-to-most-desktops?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T21:20:00.000Z",
-          "wordCount": 4262,
-          "title": "Intel Reiterates: Next-gen Meteor Lake CPUs Aren't Coming To Most Desktops",
-          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/09/27/195206/us-sues-ebay-over-sale-of-harmful-products?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The U.S. government on Wednesday sued eBay, accusing the online platform of violating the Clean Air Act and other environmental laws by allowing the sale of several harmful products, including devices that defeat automobile pollution controls. From a report: EBay could face billions of dollars in penalties, including up to $5,580 for each Clean Air Act violation, according to the government's complaint filed in the federal court in Brooklyn, New York. The Department of Justice said eBay illegally allowed the sale of at least 343,011 aftermarket \"defeat\" devices that help vehicles generate more power and get better fuel economy by evading emissions controls. \n\nEBay was also accused of allowing the sale of at least 23,000 unregistered, misbranded or restricted-use pesticides, violating a 2020 \"stop sale\" order from the U.S. Environmental Protection Agency. The San Jose, California-based company also allegedly distributed 5,614 paint and coating removal products containing methylene chloride, a potentially lethal chemical linked to brain and liver cancer and non-Hodgkin lymphoma. \"EBay has the power, the authority, and the resources to stop the sale of these illegal, harmful products on its website,\" the complaint said. \"It has chosen not to; instead, it has chosen to engage in these illegal transactions.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/09/27/195206/us-sues-ebay-over-sale-of-harmful-products?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T20:40:00.000Z",
-          "wordCount": 8273,
-          "title": "US Sues eBay Over Sale of Harmful Products",
-          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/09/27/1838232/xbox-cloud-gaming-is-coming-to-meta-quest-3-in-december?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The next-generation of Meta Quest hardware is here, and Meta announced a bunch of software news alongside the Quest 3 VR headset hardware reveal at its Connect conference. One such announcement was the debut of Microsoft's Xbox Cloud Gaming service on Meta Quest 3, which is actually a huge boon for fans of the Facebook owner's mixed reality gear. From a report: The Xbox Cloud Gaming implementation in Quest resembles a lot of how Apple showed its own vision for mixed reality with the Vision Pro headset: It's primarily a virtual screen that can float in either a virtual or mixed reality space, which appears to be reposition-able and resizable, but which basically works exactly as you'd expect an Xbox game to work with a large TV. This is a key acknowledgement on the part of Meta that while immersive, native gaming is undoubtedly a draw for users, so too is a more traditional gaming experience that basically just benefits from taking place in your own private face-mounted theater.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/09/27/1838232/xbox-cloud-gaming-is-coming-to-meta-quest-3-in-december?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T20:00:00.000Z",
-          "wordCount": 4309,
-          "title": "Xbox Cloud Gaming is Coming To Meta Quest 3 in December",
-          "imageUrl": "https://a.fsdn.com/sd/topics/cloud_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/09/27/1858225/nothings-the-matter-with-antimatter-new-experiment-confirms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Many readers shared this report: Antimatter just lost a little more pizazz. Physicists know that for every fundamental particle in nature there is an antiparticle -- an evil twin of identical mass but endowed with equal and opposite characteristics like charge and spin. When these twins meet, they obliterate each other, releasing a flash of energy on contact. In science fiction, antiparticles provide the power for warp drives. Some physicists have speculated that antiparticles are being repelled by gravity or even traveling backward in time. \n\nA new experiment at CERN, the European Center for Nuclear Research, brings some of that speculation back down to Earth. In a gravitational field, it turns out, antiparticles fall just like the rest of us. \"The bottom line is that there's no free lunch, and we're not going to be able to levitate using antimatter,\" said Joel Fajans of the University of California, Berkeley. Dr. Fajans was part of an international team known as ALPHA, the Antihydrogen Laser Physics Apparatus collaboration, which is based at CERN and led by Jeffrey Hangst, a particle physicist at Aarhus University in Denmark. \n\nDr. Fajans and his colleagues assembled about 100 hundred anti-atoms of hydrogen and suspended them in a magnetic field. When the field was slowly ramped down, the anti-hydrogen atoms drifted down like maple leaves in October and at the same rate of downward acceleration, or g force, as regular atoms: about 32 feet per second per second. They published their result on Wednesday in the journal Nature. Few physicists were surprised by the result. According to Einstein's theory of general relativity, all forms of matter and energy respond equally to gravity.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/09/27/1858225/nothings-the-matter-with-antimatter-new-experiment-confirms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T19:20:00.000Z",
-          "wordCount": 8068,
-          "title": "Nothing's the Matter With Antimatter, New Experiment Confirms",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/09/27/1834252/meta-rolls-out-higher-priced-quest-3-headset-just-ahead-of-apples-vision-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Meta introduced its latest lineup of head-worn devices, staking fresh claim to the virtual- and augmented-reality industry just ahead of Apple pushing into the market. From a report: The company officially unveiled the Quest 3 headset on Wednesday, raising the price by $200 to $500, at its annual Connect developers conference. It also introduced second-generation smart glasses that it developed with luxury sunglass maker Ray-Ban. The Quest 3, which was previewed by Meta earlier this year after Bloomberg published a hands-on review of the device, offers improved performance over the Quest 2 from 2020. It also marks a pivot from VR to mixed reality, which melds virtual and augmented reality. \n\nIt's a high-stakes moment for Meta's hardware business. Though the company has dominated VR goggles for years, Apple is poised to release its Vision Pro headset in the coming months, setting up a showdown. Like the Quest 3, the Vision Pro is a mixed-reality headset -- though one with exclusive Apple technology and content. The Vision Pro will have Apple's marketing muscle behind it, but also a much higher price: $3,499. In addition to the competitive pressure, Meta also has struggled to sell consumers on the metaverse -- a collection of interlocking online worlds that make use of its headsets.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/09/27/1834252/meta-rolls-out-higher-priced-quest-3-headset-just-ahead-of-apples-vision-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T18:40:00.000Z",
-          "wordCount": 5223,
-          "title": "Meta Rolls Out Higher-Priced Quest 3 Headset, Just Ahead of Apple's Vision Pro",
-          "imageUrl": "https://a.fsdn.com/sd/topics/facebook_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/09/27/1726232/microsoft-says-apple-used-bing-offer-as-google-bargaining-chip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A Microsoft executive said the company has tried for years to displace Alphabet's Google as the default web browser on iPhones, but that Apple never seriously considered switching to Microsoft's Bing and was content to use it as a \"bargaining chip\" with the search giant. From a report: \"Apple is making more money on Bing existing than Bing does,\" Mikhail Parakhin, the head of Microsoft's advertising and web services, testified during the US government's antitrust trial against Google in Washington. \"We are always trying to convince Apple to use our search engine.\" Parakhin, who joined Microsoft in 2019 from Russian search engine Yandex NV, said Microsoft met with Apple as recently as 2021 to discuss a potential switch to Bing, but didn't make any progress. \n\nIn response to Google's lawyers, Parakhin said it was \"uneconomical for Microsoft to invest more\" in technology for the mobile search market. \"Unless Microsoft gets a more significant, or firmer guarantee of distribution, it makes it uneconomical to invest.\" Apple has used Google as the default search engine in its Safari browser since 2003 in exchange for a share of the advertising revenue earned through searches made on its devices.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/09/27/1726232/microsoft-says-apple-used-bing-offer-as-google-bargaining-chip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T18:00:00.000Z",
-          "wordCount": 5652,
-          "title": "Microsoft Says Apple Used Bing Offer as Google 'Bargaining Chip'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/09/27/1711231/as-the-ea-sports-fc-era-dawns-fifa-23-removed-from-digital-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "EA has suddenly removed downloadable versions of FIFA 23 from multiple digital storefronts. The delisting comes earlier than expected for the title and coincides with the company's launch of the newly FIFA-license-free EA Sports FC 24. From a report: While many reports suggest there has been a recent mass purge of all legacy FIFA games from online stores, EA has a history of delisting older sports titles at a pretty regular cadence. FIFA 22, for instance, was delisted from digital storefronts in May, roughly seven months after the launch of the subsequent FIFA 23. And FIFA 21 wasn't taken down from Steam until June 2022, about eight months after FIFA 22's launch. \n\nFIFA 23, on the other hand, has been delisted less than a year from its October 2022 launch. SteamDB tracking data suggests that the delisting came on September 21, the day before the new EA Sports FC became available for a 10-hour early access trial for EA Play members. The Steam store page for FIFA 23 now notes that the delisting comes \"at the request of the publisher\" and that the game \"will not appear in search.\" The game also no longer appears on Steam's EA publisher page. FIFA 23's earlier-than-expected delisting could have something to do with the dissolution of EA's 30-year licensing relationship with FIFA. That ending came amid reports that EA was dissatisfied with gameplay restrictions and licensing costs demanded by FIFA.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/09/27/1711231/as-the-ea-sports-fc-era-dawns-fifa-23-removed-from-digital-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T17:20:00.000Z",
-          "wordCount": 5407,
-          "title": "As The EA Sports FC Era Dawns, FIFA 23 Removed From Digital Platforms",
-          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/09/27/1619232/russian-zero-day-seller-offers-20-million-for-hacking-android-and-iphones?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A company that acquires and sells zero-day exploits -- flaws in software that are unknown to the affected developer -- is now offering to pay researchers $20 million for hacking tools that would allow its customers to hack iPhones and Android devices. From a report: On Wednesday, Operation Zero announced on its Telegram accounts and on its official account on X, formerly Twitter, that it was increasing payments for zero-days in those platforms tenfold, from $200,000 to $20 million. \"By increasing the premium and providing competitive plans and bonuses for contract works, we encourage the developer teams to work with our platform,\" the company wrote. \n\nOperation Zero, which is based in Russia and launched in 2021, also added that \"as always, the end user is a non-NATO country.\" On its official website, the company says that \"our clients are Russian private and government organizations only.\" When asked why they only sell to non-NATO countries, Operation Zero CEO Sergey Zelenyuk declined to say. \"No reasons other than obvious ones,\" he said. Zelenyuk also said that the bounties Operation Zero offer right now may be temporary, and a reflection of a particular time in the market, and the difficulty of hacking iOS and Android.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/09/27/1619232/russian-zero-day-seller-offers-20-million-for-hacking-android-and-iphones?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T16:40:00.000Z",
-          "wordCount": 5699,
-          "title": "Russian Zero-Day Seller Offers $20 Million for Hacking Android and iPhones",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/09/27/1543259/us-ftc-revives-microsoft-activision-deal-challenge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The US Federal Trade Commission is reviving its challenge against Microsoft's $69 billion acquisition of video game company Activision, a move which may seek to unwind the deal after it closes. From a report: The agency will move forward with its in-house trial against the acquisition after pausing it over the summer, according to an order the agency issued Wednesday. The move means the FTC will continue challenging the deal even after it has closed this year. \"The commission has determined that the public interest warrants that this matter be resolved fully and expeditiously,\" the agency wrote in a filing. \"Therefore, the commission is returning this matter to adjudication.\" The decision comes months after a US appeals court denied the FTC's bid to pause the Microsoft-Activision acquisition in July. The FTC typically drops challenges to deals when they lose in federal court.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/09/27/1543259/us-ftc-revives-microsoft-activision-deal-challenge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-09-27T16:01:00.000Z",
-          "wordCount": 5619,
-          "title": "US FTC Revives Microsoft-Activision Deal Challenge",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
         }
       ]
     }
