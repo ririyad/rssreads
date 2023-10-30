@@ -2,10 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-29T01:03:40.149Z</updated>
+    <updated>2023-10-30T01:01:16.836Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[When Matthew Perry Met Windows 95]]></title>
+        <id>https://entertainment.slashdot.org/story/23/10/30/0038235/when-matthew-perry-met-windows-95?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://entertainment.slashdot.org/story/23/10/30/0038235/when-matthew-perry-met-windows-95?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-30T00:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader destinyland writes: In 1994 the TV show Friends premiered, and its first season's high ratings made it the 8th most-popular show. The next year Microsoft released Windows 95 — and filmed a promotional video for it with 25-year-old Matthew Perry and 26-year-old Jennifer Aniston. 
+
+"They'll be taking you on an adventure in computing that takes place in the office of Microsoft chairman Bill Gates," explains the video's narrator, adding "Along the way, they meet a wacky bunch of propellor-heads.... And are introduced the top 25 features of Windows 95!" 
+
+It's a journey back in time. (At one point the video refers to Windows as the operating system "with tens of millions of users.") Their 30-minute segment — billed as "the world's first cyber sitcom" — appears in an hour-long video introducing revolutionary features like the new "Start" button. Also demonstrated in Excel are the new minimize and maximize "features" in "the upper right-side of the window". And the two actors marvel at the ability to type a filename that was longer than eight characters... 
+
+Watch for reminders that The Microsoft Windows 95 Video Guide was filmed nearly three decades ago. When the desktop appears after waking from screensaver mode, Perry notes that there's "no messy DOS build-up." And later the video reminds viewers that Windows 95 is compatible "with DOS games like Flight Simulator." There's also a brand new feature called "Windows Explorer" (which is described as "File Manager on steroids"), as well as a new "Find" option, and a brand new icon named "My Computer". And near the end they pay a visit to the Microsoft Network — which was mostly a "walled garden" online service — described in the video as "your on-ramp to the information superhighway". 
+
+The video even explains how Windows 95 "uses the right mouse button for what Microsoft calls power users." 
+
+And by the end of it, Jennifer Anniston finds herself playing Space Cadet 3D pinball.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[G7 Nations Will Announce an 'AI Code of Conduct' for Companies Building AI]]></title>
+        <id>https://yro.slashdot.org/story/23/10/29/233240/g7-nations-will-announce-an-ai-code-of-conduct-for-companies-building-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/29/233240/g7-nations-will-announce-an-ai-code-of-conduct-for-companies-building-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T23:06:00.000Z</updated>
+        <summary type="html"><![CDATA[The seven industrial countries known as the "G7" — America, Canada, Japan, Germany, France, Italy, and Britain — will agree on a code of conduct Monday for companies developing advanced AI systems, reports Reuters. 
+
+The news comes "as governments seek to mitigate the risks and potential misuse of the technology," Reuters reports — citing a G7 document.
+
+
+The 11-point code "aims to promote safe, secure, and trustworthy AI worldwide and will provide voluntary guidance for actions by organizations developing the most advanced AI systems, including the most advanced foundation models and generative AI systems", the G7 document said. It "is meant to help seize the benefits and address the risks and challenges brought by these technologies". 
+
+The code urges companies to take appropriate measures to identify, evaluate and mitigate risks across the AI lifecycle, as well as tackle incidents and patterns of misuse after AI products have been placed on the market. Companies should post public reports on the capabilities, limitations and the use and misuse of AI systems, and also invest in robust security controls.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux Mint Gets 'Experimental' Wayland Support in December]]></title>
+        <id>https://linux.slashdot.org/story/23/10/29/2017257/linux-mint-gets-experimental-wayland-support-in-december?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://linux.slashdot.org/story/23/10/29/2017257/linux-mint-gets-experimental-wayland-support-in-december?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T20:34:00.000Z</updated>
+        <summary type="html"><![CDATA["The work started on Wayland," the Linux Mint project announced in their monthly newsletter. 
+
+An anonymous reader shared this report from 9to5Linux about an upcoming new option in the Ubuntu-based distro:
+
+Linux Mint 21.3 [planned for Christmas of 2023] will be the first Linux Mint release to offer a Wayland session, but in an experimental state. The default session will still be the X11 one, but users who want to try Wayland can do so by selecting the "Cinnamon on Wayland" session from the login screen. 
+"The Wayland session won't be as stable as the default one. It will lack features and it will come with its own limitations. We won't recommend it but you'll be able to give it a shot if you want to and it'll be there for interested people if they want to give us feedback," said Linux Mint project leader Clement Lefebvre. 
+
+I said that "2024 is the year of the Wayland desktop", but Clement Lefebvre doesn't think Linux Mint needs Wayland support before 2026... By that time, I believe Xfce will also be fully Wayland compatible so that Linux Mint can fully switch to Wayland by default. 
+
+The newsletter says the 2026 target "leaves us two years to identify and to fix all the issues. It's something we'll continue to work on. 
+"Whenever it happens, assuming it does, we'll consider switching defaults. We'll use the best tools to do the job and provide the best experience. Today that means Xorg. Tomorrow it might mean Wayland. We'll be ready and compatible with both."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[America's Net Neutrality Question:  Should the FCC Define the Internet as a 'Common Carrier'?]]></title>
+        <id>https://yro.slashdot.org/story/23/10/29/1839254/americas-net-neutrality-question-should-the-fcc-define-the-internet-as-a-common-carrier?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/29/1839254/americas-net-neutrality-question-should-the-fcc-define-the-internet-as-a-common-carrier?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T19:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The Washington Post's editorial board looks at America's "net neutrality" debate. 
+
+But first they note that America's communications-regulating FCC has "limited authority to regulate unless broadband is considered a 'common carrier' under the Telecommunications Act of 1996."
+
+The FCC under President Barack Obama moved to reclassify broadband so it could regulate broadband companies; the FCC under President Donald Trump reversed the change. Dismayed advocates warned the world that, without the protections in place, the internet would break. You'll never guess what happened next: nothing. Or, at least, almost nothing. The internet did not break, and internet service providers for the most part did not block and they did not throttle. 
+
+All the same, today's FCC, under Chairwoman Jessica Ros…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[For the First Time, Scientists Have Fired Up the World's Smallest Particle Accelerators]]></title>
+        <id>https://science.slashdot.org/story/23/10/29/1638225/for-the-first-time-scientists-have-fired-up-the-worlds-smallest-particle-accelerators?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/10/29/1638225/for-the-first-time-scientists-have-fired-up-the-worlds-smallest-particle-accelerators?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T18:34:00.000Z</updated>
+        <summary type="html"><![CDATA["Scientists recently fired up the world's smallest particle accelerator for the first time," reports Space.com. 
+
+"The tiny technological triumph, which is around the size of a small coin, could open the door to a wide range of applications, including using the teensy particle accelerators inside human patients."
+
+
+The new machine, known as a nanophotonic electron accelerator (NEA), consists of a small microchip that houses an even smaller vacuum tube made up of thousands of individual "pillars." Researchers can accelerate electrons by firing mini laser beams at these pillars. The main acceleration tube is approximately 0.02 inches (0.5 millimeter) long, which is 54 million times shorter than the 16.8-mile-long (27 kilometers) ring that makes up CERN's Large Hadron Collider (LHC) in Switze…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Experimental Project Attempts a Python Virtual Shell for Linux]]></title>
+        <id>https://developers.slashdot.org/story/23/10/29/1610218/experimental-project-attempts-a-python-virtual-shell-for-linux?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/23/10/29/1610218/experimental-project-attempts-a-python-virtual-shell-for-linux?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T17:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader CJSHayward shares "an attempt at Python virtual shell." 
+
+The home-brewed project "mixes your native shell with Python with the goal of letting you use your regular shell but also use Python as effectively a shell scripting language, as an alternative to your shell's built-in scripting language... I invite you to explore and improve it!" 
+
+From the web site:
+
+The Python Virtual Shell (pvsh or 'p' on the command line) lets you mix zsh / bash / etc. built-in shell scripting with slightly modified Python scripting. It's kind of like Brython [a Python implementation for client-side web programming], but for the Linux / Unix / Mac command line... 
+
+The core concept is that all Python code is indented with tabs, with an extra tab at the beginning to mark Python code, and all shell commands (including some shell builtins) have zero tabs of indentation. They can be mixed line-by-line, offering an opportunity to use built-in zsh, bash, etc. scripting or Python scripting as desired. 
+
+The Python is an incomplete implementation; it doesn't support breaking a line into multiple lines. Nonetheless, this offers a tool to fuse shell- and Python-based interactions from the Linux / Unix / Mac command line.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Microsoft's AI Investment is Stabilizing Its Cloud Business]]></title>
+        <id>https://slashdot.org/story/23/10/28/2351245/how-microsofts-ai-investment-is-stabilizing-its-cloud-business?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/28/2351245/how-microsofts-ai-investment-is-stabilizing-its-cloud-business?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T16:34:00.000Z</updated>
+        <summary type="html"><![CDATA[ZDNet reports an interesting static from Microsoft's CEO Satya Nadella. "We have over 1 million paid Copilot users in more than 37,000 organizations that subscribe to Copilot for business, with significant traction outside the United States." 
+
+
+And Microsoft's quarterly results also "showed early signs that the company's investments in generative AI were beginning to bolster sales, most notably reversing what had been slowing growth of the company's important cloud computing product," reports the New York Times. (Alternate URL here.)
+
+
+The company had $56.5 billion in sales in the three months that ended in September, up 13% from a year earlier. Profit hit $22.3 billion, up 27%. The results beat analyst expectations and Microsoft's own estimates. 
+
+Microsoft had told investors that A.I. w…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Comcast and Xfinity Lose Customers - Thanks to Cord-Cutters and Competition from Wireless Internet Carriers]]></title>
+        <id>https://tech.slashdot.org/story/23/10/29/0423234/comcast-and-xfinity-lose-customers---thanks-to-cord-cutters-and-competition-from-wireless-internet-carriers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/29/0423234/comcast-and-xfinity-lose-customers---thanks-to-cord-cutters-and-competition-from-wireless-internet-carriers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Bloomberg reports that Comcast's stock price took its biggest drop in over a year on Thursday, "after reporting drops in broadband and cable subscribers, and predicting more losses to come."
+
+Cord-cutting and increasing competition have eroded Comcast's traditional customer base. The company, which owns Xfinity, the NBCUniversal media empire and SkyTV, lost 490,000 cable-TV customers in the third quarter, better than analysts expected but part of an ongoing trend as consumers switch to streaming services like Netflix. It also lost 18,000 broadband subscribers in the quarter, with nearly all of those residential customers. Analysts had predicted Comcast would instead gain 10,900 residential broadband customers. 
+
+
+Shares fell as much as 8% on the news Thursday, their biggest intraday decline since July 2022. 
+
+"Growth has halted for Comcast — the largest US broadband provider, with 32 million homes," said Bloomberg Intelligence senior media analyst Geetha Ranganathan. "The company derives 80% of profit from cable, where, even after a pandemic-demand surge, broadband has been hurt by fierce competition and low-move activity among customers." Comcast expects "somewhat higher subscriber losses" in the fourth quarter due to pullback on promotional offers that targeted lower-end customers, Chief Financial Officer Jason Armstrong said on a call with investors. Revenue per customer climbed, however, in part because of price increases and promotions of higher-rate plans. 
+
+Broadband is becoming increasingly competitive as mobile providers move into the market with improved wireless internet offerings. In the past week, the Big Three — T-Mobile US Inc., AT&T Inc. and Verizon Communications Inc. — all reported subscriber gains.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How a Cellphone App Helped a California Man Retrieve His Stolen Car]]></title>
+        <id>https://yro.slashdot.org/story/23/10/29/0434257/how-a-cellphone-app-helped-a-california-man-retrieve-his-stolen-car?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/10/29/0434257/how-a-cellphone-app-helped-a-california-man-retrieve-his-stolen-car?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The SF Standard reports that a San Francisco man whose car was stolen in the middle of the night "managed to track down the vehicle using his car insurance app and retrieve the stolen vehicle the following morning within half an hour of noticing it was gone."
+
+Harris realized he could track his phone using his app from MetroMile, a San Francisco-based digital pay-per-mile car insurance company that tracks a car's location and charges a rate based on how much it's driven. "I opened the app and found it was in Mission Bay," he said, adding that the person who stole it drove it all night before parking. "I rode my bike down there and picked it up...." 
+
+Before picking up his car, Harris didn't consult with the San Francisco Police Department and said officers were confused about why he wanted to report a stolen car that was already back in his possession. He said his driver's side window had been smashed, but there wasn't any other damage, just a mess of marijuana paraphernalia and blunt wraps inside... "If a vehicle owner locates their stolen vehicle prior to the police locating it, we highly recommend that they alert us to the vehicle's location and do not move the car prior to reporting it recovered," Sgt. Kathryn Winters wrote in an email. "Additionally, if they locate the vehicle occupied, they should not approach the vehicle or suspects and should call law enforcement immediately." 
+
+There were 274 motor vehicle theft reports in the Western Addition neighborhood, which includes Alamo Square, in the 12 months leading up to Oct. 21 compared with 219 during the same period the previous year, according to police data. Citywide, the problem has also gotten worse in recent years. The number of car thefts has risen from 60 incidents per 10,000 residents in 2019 to 101 incidents this year.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How the US is Preparing For a Post-Quantum World]]></title>
+        <id>https://news.slashdot.org/story/23/10/28/1655259/how-the-us-is-preparing-for-a-post-quantum-world?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/10/28/1655259/how-the-us-is-preparing-for-a-post-quantum-world?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T11:34:00.000Z</updated>
+        <summary type="html"><![CDATA[To explore America's "transition to a post-quantum world," the Washington Post interviewed U.S. federal official Nick Polk, who is focused on national security issues including quantum computing and is also a senior advisor to a White House federal chief information security officer):
+
+ The Washington Post: The U.S. is in the early stages of a major shift focused on bolstering government network defenses, pushing federal agencies to adopt a new encryption standard known as post-quantum cryptography that aims to prevent systems from being vulnerable to advanced decryption techniques enabled by quantum computers in the near future... 
+
+Nick Polk: We've been using asymmetric encryption for a very long time now, and it's been ubiquitous since about 2014, when the U.S. government and some of th…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tens of Millions Now Work in the $250B 'Creator Economy']]></title>
+        <id>https://tech.slashdot.org/story/23/10/28/1555259/tens-of-millions-now-work-in-the-250b-creator-economy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/10/28/1555259/tens-of-millions-now-work-in-the-250b-creator-economy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T07:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The creator economy is probably bigger than you think. The Washington Post reports it's "now a global industry valued at $250 billion, with tens of millions of workers, hundreds of millions of customers and its own trade association and work-credentialing programs."
+
+Millions have ditched traditional career paths to work as online creators and content-makers, using their computers and phones to amass followers and build businesses whose influence now rivals the biggest names in entertainment, news and politics... In the United States, the video giant YouTube estimated that roughly 390,000 full-time jobs last year were supported by its creators' work — four times the number of people employed by General Motors, America's biggest automaker... 
+This spring, analysts at Goldman Sachs said that…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Huawei's Profit Doubles With Made-in-China Chip Breakthrough]]></title>
+        <id>https://hardware.slashdot.org/story/23/10/29/0335234/huaweis-profit-doubles-with-made-in-china-chip-breakthrough?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/23/10/29/0335234/huaweis-profit-doubles-with-made-in-china-chip-breakthrough?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T04:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Bloomberg thinks they've identified the source of the advanced chips in Huawei's newest smartphone, citing to "people familiar with the matter".
+In a suggestion that export restrictions on Europe's most valuable tech company may have come too late to stem China's advances in chipmaking, ASML's so-called immersion deep ultraviolet machines were used in combination with tools from other companies to make the Huawei Technologies Co. chip, the people said, asking not to be identified discussing information that's not public. ASML declined to comment. 
+
+There is no suggestion that their sales violated export restrictions... ASML has never been able to sell its EUV machines to China because of export restrictions. But less advanced DUV models can be retooled with deposition and etching gear to p…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Are Amazon Warehouse Injuries More Widespread Than Thought?]]></title>
+        <id>https://slashdot.org/story/23/10/28/230234/are-amazon-warehouse-injuries-more-widespread-than-thought?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/10/28/230234/are-amazon-warehouse-injuries-more-widespread-than-thought?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-10-29T01:34:00.000Z</updated>
+        <summary type="html"><![CDATA[According to Bloomberg the U.S. Labor Department's "OSHA" regulatory agency has "cited Amazon for exposing workers to ergonomic risks at several facilities." But how widespread is the problem? 
+
+29% of America's warehouse workers are working for Amazon, a team of researchers estimates. And "More than two-thirds of Amazon warehouse workers surveyed by researchers reported that they took unpaid time off to recover from pain or exhaustion sustained on the job."
+
+
+The new national study, published Wednesday by the University of Illinois Chicago's Center for Urban Economic Development, found that 69% of workers surveyed stayed home without pay to recover, including 34% who did so three or more times. The data suggests "injury and pain at Amazon are far more widespread" than previously known, said Beth Gutelius, research director at the center and a leading expert on logistics and warehouse work. 
+
+
+The report is based on a 98-question online survey that gathered responses from 1,484 warehouse workers in 451 facilities across 42 states, the researchers said. It was conducted between April and August and measured the percentage of workers who took time off during the previous month. Amazon employs hundreds of thousands of warehouse workers in the U.S. 
+
+Amazon spokesperson Maureen Lynch Vogel said the report was "not a 'study' — it's a survey done on social media, by groups with an ulterior motive." She recommended that people read the safety data Amazon submits each year to the Occupational Safety and Health Administration, "which shows that rates in our buildings have improved significantly, and we're slightly above the average in some areas and slightly below the average in others." 
+
+
+41% of the workers surveyed reported being injured while working at an Amazon warehouse, according to the article. And "the share rises to 51% for people who have worked at the company for more than three years."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Cruise Suspends All Driverless Operations Nationwide]]></title>
         <id>https://tech.slashdot.org/story/23/10/28/2232213/cruise-suspends-all-driverless-operations-nationwide?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8635,386 +8915,6 @@ In this instance it appears that folks have uploaded apps purporting to be offic
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[People Experience 'New Dimensions of Reality' When Dying, Groundbreaking Study Reports]]></title>
-        <id>https://science.slashdot.org/story/23/09/29/217236/people-experience-new-dimensions-of-reality-when-dying-groundbreaking-study-reports?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/29/217236/people-experience-new-dimensions-of-reality-when-dying-groundbreaking-study-reports?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-30T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Motherboard: Scientists have witnessed brain patterns in dying patients that may correlate to commonly reported "near-death" experiences (NDEs) such as lucid visions, out-of-body sensations, a review of one's own life, and other "dimensions of reality," reports a new study. The results offer the first comprehensive evidence that patient recollections and brain waves point to universal elements of NDEs. During an expansive multi-year study led by Sam Parnia, an intensive care doctor and an associate professor in the department of medicine at NYU Langone Health, researchers observed 567 patients in 25 hospitals around the world as they underwent cardiopulmonary resuscitation (CPR) after suffering cardiac arrest, most of which were fatal.
- 
-Electroence…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NSA Is Starting an AI Security Center]]></title>
-        <id>https://yro.slashdot.org/story/23/09/29/2056222/nsa-is-starting-an-ai-security-center?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/29/2056222/nsa-is-starting-an-ai-security-center?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-30T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Associated Press reports: The National Security Agency is starting an artificial intelligence security center -- a crucial mission as AI capabilities are increasingly acquired, developed and integrated into U.S. defense and intelligence systems, the agency's outgoing director announced Thursday. Army Gen. Paul Nakasone said the center would be incorporated into the NSA's Cybersecurity Collaboration Center, where it works with private industry and international partners to harden the U.S. defense-industrial base against threats from adversaries led by China and Russia.
- 
-Nakasone was asked about using AI to automate the analysis of threat vectors and red-flag alerts -- and he reminded the audience that U.S. intelligence and defense agencies already use AI. "AI helps us, But our decisions are made by humans. And that's an important distinction," Nakasone said. "We do see assistance from artificial intelligence. But at the end of the day, decisions will be made by humans and humans in the loop."
- 
-Nakasone said it would become "NSA's focal point for leveraging foreign intelligence insights, contributing to the development of best practices guidelines, principles, evaluation, methodology and risk frameworks" for both AI security and the goal of promoting the secure development and adoption of AI within "our national security systems and our defense industrial base." He said it would work closely with U.S. industry, national labs, academia and the Department of Defense as well as international partners.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NASA Opens OSIRIS-REx's Asteroid-Sample Canister]]></title>
-        <id>https://science.slashdot.org/story/23/09/29/2051233/nasa-opens-osiris-rexs-asteroid-sample-canister?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/29/2051233/nasa-opens-osiris-rexs-asteroid-sample-canister?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-30T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Mike Wall writes via Space.com: OSIRIS-REx's asteroid-sample canister just creaked open for the first time in more than seven years. Scientists at NASA's Johnson Space Center (JSC) in Houston lifted the canister's outer lid on Tuesday (Sept. 26), two days after OSIRIS-REx's return capsule landed in the desert of northern Utah. "Scientists gasped as the lid was lifted," NASA's Astromaterials Research and Exploration Science (ARES) division, which is based at JSC, wrote Tuesday in a post on X (formerly Twitter). The operation revealed "dark powder and sand-sized particles on the inside of the lid and base," they added.
- 
-That powder once resided on the surface of an asteroid named Bennu, the focus of the OSIRIS-REx mission. OSIRIS-REx launched toward the 1,650-foot-wide (500 meters) Bennu in September 2016, arrived in December 2018 and snagged a hefty sample from the space rock in October 2020 using its Touch-and-Go Sample Acquisition Mechanism, or TAGSAM. The asteroid material landed in Utah inside OSIRIS-REx's return capsule on Sunday (Sept. 24), then made its way to Houston by plane on Monday (Sept. 25). It will be stored and curated at JSC, where the team will oversee its distribution to scientists around the world.
- 
-Researchers will study the sample for decades to come, seeking insights about the the solar system's formation and early evolution, as well as the role that carbon-rich asteroids like Bennu may have played in seeding Earth with the building blocks of life. But that work isn't ready to begin; the ARES team hasn't even accessed the main asteroid sample yet. Doing so requires disassembly of the TAGSAM apparatus, an intricate operation that will take considerable time.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Six Young People Take 32 Countries To Court Over Climate Change]]></title>
-        <id>https://news.slashdot.org/story/23/09/29/2043250/six-young-people-take-32-countries-to-court-over-climate-change?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/29/2043250/six-young-people-take-32-countries-to-court-over-climate-change?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-30T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from the BBC: What I felt was fear," says Claudia Duarte Agostinho as she remembers the extreme heatwave and fires that ripped through Portugal in 2017 and killed more than 100 people. "The wildfires made me really anxious about what sort of future I would have." Claudia, 24, her brother Martim, 20, and her sister Mariana, 11, are among six young Portuguese people who have filed a lawsuit against 32 governments, including all EU member states, the UK, Norway, Russia, Switzerland and Turkey. They accuse the countries of insufficient action over climate change and failing to reduce their greenhouse gas emissions enough to hit the Paris Agreement target of limiting global warming to 1.5C. The case is the first of its kind to be filed at the European Court o…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux Interoperability Is Maturing Fast Thanks To a Games Console]]></title>
-        <id>https://linux.slashdot.org/story/23/09/29/2036225/linux-interoperability-is-maturing-fast-thanks-to-a-games-console?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://linux.slashdot.org/story/23/09/29/2036225/linux-interoperability-is-maturing-fast-thanks-to-a-games-console?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-30T01:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Liam Proven writes via The Register: Steam OS is the Arch-based distro for a handheld Linux games console, and Valve is aggressively pushing Linux's usability and Windows interoperability for the device. Two unusual companies, Valve Software and Igalia, are working together to improve the Linux-based OS of the Steam Deck handheld games console. The device runs a Linux distro called Steam OS 3.0, but this is a totally different distro from the original Steam OS it announced a decade ago. Steam OS 1 and 2 were based on Debian, but Steam OS 3 is based on Arch Linux, as Igalia developer Alberto Garcia described in a talk entitled How SteamOS is contributing to the Linux ecosystem.
- 
-He explained that although Steam OS is built from some fairly standard components -- the normal filesystem hierarchy, GNU user space, systemd and dbus -- Steam OS has quite a few unique features. It has two distinct user interfaces: by default, it starts with the Steam games launcher, but users can also choose an option called Switch to Desktop, which results in a regular KDE Plasma desktop, with the ability to install anything: a web browser, normal Linux tools, and non-Steam games.
- 
-Obviously, though, Steam OS's raison d'etre is to run Steam games, and most of those are Windows games which will never get native Linux versions. Valve's solution is Proton, an open-source tool to run Windows games on Linux. It's formed from a collection of different FOSS packages, notably: [Wine, DXVK, VKD3D-Proton, and GStreamer]. The result is a remarkable degree of compatibility for some of the most demanding Windows apps around [...]. You can view Garcia's 49-page presentation here (PDF).
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[$260 Million AI Startup Releases 'Unmoderated' Chatbot Via Torrent]]></title>
-        <id>https://slashdot.org/story/23/09/29/2024216/260-million-ai-startup-releases-unmoderated-chatbot-via-torrent?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/29/2024216/260-million-ai-startup-releases-unmoderated-chatbot-via-torrent?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-30T00:45:00.000Z</updated>
-        <summary type="html"><![CDATA["On Tuesday of this week, French AI startup Mistral tweeted a magnet link to their first publicly released, open sourced LLM," writes Slashdot reader jenningsthecat. "That might be merely interesting if not for the fact that the chatbot has remarkably few guardrails." 404 Media reports: According to a list of 178 questions and answers composed by AI safety researcher Paul Rottger and 404 Media's own testing, Mistral will readily discuss the benefits of ethnic cleansing, how to restore Jim Crow-style discrimination against Black people, instructions for suicide or killing your wife, and detailed instructions on what materials you'll need to make crack and where to acquire them.
- 
-It's hard not to read Mistral's tweet releasing its model as an ideological statement. While leaders in the AI s…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kia and Hyundai Blame TikTok and Instagram For Their Cars Getting Stolen]]></title>
-        <id>https://tech.slashdot.org/story/23/09/29/2014250/kia-and-hyundai-blame-tiktok-and-instagram-for-their-cars-getting-stolen?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/29/2014250/kia-and-hyundai-blame-tiktok-and-instagram-for-their-cars-getting-stolen?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-30T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Aaron Gordon writes via Motherboard: Kia and Hyundai say it is not their fault that their cars are being stolen in an unprecedented theft surge made possible by the vehicles lacking a basic anti-theft technology virtually every other car has, according to a recent court filing. Instead, the companies point the finger at social media companies, such as TikTok and Instagram, where instructions on how to steal the cars have been widely shared and thieves show off their stolen cars.
- 
-The lawyers representing the two corporations -- which are owned by the same parent company -- are not subtle about this argument. The filing (PDF) -- in which the company is arguing a roughly $200 million class-action settlement ought to be approved by the court -- includes an entire section heading titled "Social Media and Intervening Third-Party Criminals Caused An Unprecedented Increase In Thefts." The lawyers argue in that section that because Kia and Hyundai vehicles have "not been the subject of significant theft" before the Kia Boys social media trend, social media and the people who steal the cars -- and not the car companies -- are to blame for the thefts. This argument is summarized in the section titled "Social Media Incited Unprecedented Rise In Thefts." The filing broadly reflects both the public communications strategy Kia and Hyundai have used throughout this crisis and some of the national news headlines that have covered the story,
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supreme Court To Decide If State Laws Limiting Social Media Platforms Violate Constitution]]></title>
-        <id>https://yro.slashdot.org/story/23/09/29/2010220/supreme-court-to-decide-if-state-laws-limiting-social-media-platforms-violate-constitution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/29/2010220/supreme-court-to-decide-if-state-laws-limiting-social-media-platforms-violate-constitution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T23:20:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from the Associated Press: The Supreme Court agreed Friday to decide whether state laws that seek to regulate Facebook, TikTok, X and other social media platforms violate the Constitution. The justices will review laws enacted by Republican-dominated legislatures and signed by Republican governors in Florida and Texas. While the details vary, both laws aim to prevent the social media companies from censoring users based on their viewpoints. The court's announcement, three days before the start of its new term, comes as the justices continue to grapple with how laws written at the dawn of the digital age, or earlier, apply to the online world.
- 
-The justices had already agreed to decide whether public officials can block critics from commenting on their social media accounts [...]. Separately, the high court also could consider a lower-court order limiting executive branch officials' communications with social media companies about controversial online posts. The new social media cases follow conflicting rulings by two appeals courts, one of which upheld the Texas law, while the other struck down Florida's statute. By a 5-4 vote, the justices kept the Texas law on hold while litigation over it continues.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Netflix Ships Its Last DVD]]></title>
-        <id>https://entertainment.slashdot.org/story/23/09/29/203231/netflix-ships-its-last-dvd?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://entertainment.slashdot.org/story/23/09/29/203231/netflix-ships-its-last-dvd?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T22:40:00.000Z</updated>
-        <summary type="html"><![CDATA[It's official: Netflix has shipped its last DVD. "For 25 years, we redefined how people watched films and series at home, and shared the excitement as they opened their mailboxes to our iconic red envelopes," says Netflix in a blog post. "It's the end of an era, but the DVD business built our foundation for the years to come -- giving members unprecedented choice and control, a wide variety of titles to choose from and the freedom to watch as much as they want."
- 
-Netflix announced the shut down of its DVD business in April. Here's an infographic the company shared in its post:
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Norway Wants Facebook Behavioral Advertising Banned Across Europe]]></title>
-        <id>https://tech.slashdot.org/story/23/09/29/1956244/norway-wants-facebook-behavioral-advertising-banned-across-europe?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/29/1956244/norway-wants-facebook-behavioral-advertising-banned-across-europe?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Jude Karabus writes via The Register: Norway has told the European Data Protection Board (EDPB) it believes a countrywide ban on Meta harvesting user data to serve up advertising on Facebook and Instagram should be made permanent and extended across Europe. The Scandinavian country's Data Protection Authority, Datatilsynet, had been holding back Facebook parent Meta from scooping up data on its citizens with the threat of fines of one million Kroner (about $94,000) per day if it didn't comply.
- 
-In August, it said Meta hadn't been playing ball and started serving up the daily fines. However, the ban that resulted in these fines, put into place in July, expires on November 3 â" hence Norway's request for a "binding decision." The July order came after a Court of Justice of the European Union (CJEU) ruling [PDF] earlier that month stating Meta's data processing operation was also hauling in protected data â" race and ethnicity, religious affiliation, sexual orientation etc. â" when it cast its behavioral ads net.
- 
-Norway is not a member of the EU but is part of the European single market, and the CJEU, as Europe's top court, has the job of making sure the application and interpretation of law within the market is compliant with European treaties (this part would apply to Norway) as well as ensuring that legislation adopted by the EU is applied the same way across all Member States. Datatilsynet's ruling said the central processing of that data by the American company was putting Meta in violation of the EU's General Data Protection Regulation. A spokesperson for Meta said it was "surprised" by the Norwegian authority's actions, "given that Meta has already committed to moving to the legal basis of consent for advertising in the EU/EEA."
- 
-It added: "We remain in active discussions with the relevant data protection authorities on this topic via our lead regulator in the EU, the Irish Data Protection Commission, and will have more to share in due course."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[$5,000 Google Jamboard Dies In 2024 -- Cloud-Based Apps Will Stop Working, Too]]></title>
-        <id>https://tech.slashdot.org/story/23/09/29/1951233/5000-google-jamboard-dies-in-2024----cloud-based-apps-will-stop-working-too?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/29/1951233/5000-google-jamboard-dies-in-2024----cloud-based-apps-will-stop-working-too?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T21:20:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Ars Technica: Even more Google products are getting the ax this week. Next up is Google Jamboard, a $5,000 digital whiteboard (and its $600-a-year fee) and software ecosystem marketed to schools and corporations. Google has a new post detailing the "Next phase of digital whiteboarding for Google Workspace," and the future for Jamboard is that there is no future. In "late 2024," the whole project will shut down, and we don't just mean the hardware will stop being for sale; the cloud-based apps will stop working, too.
- 
-Most people probably haven't ever heard of Jamboard, but this was a giant 55-inch, 4K touchscreen on a rolling stand that launched in 2016. Like most Google touchscreens, this ran Android with a locked-down custom interface on top inst…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Hidden Bar Code in iPhone Screens Saved Apple Hundreds of Millions of Dollars]]></title>
-        <id>https://apple.slashdot.org/story/23/09/29/193231/a-hidden-bar-code-in-iphone-screens-saved-apple-hundreds-of-millions-of-dollars?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/09/29/193231/a-hidden-bar-code-in-iphone-screens-saved-apple-hundreds-of-millions-of-dollars?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T20:40:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: Next time you try to wipe a smudge off your iPhone screen, take a closer look. See if you can spot one of the two tiny QR codes etched into its glass. Chances are you won't be able to find them. Both codes are tiny -- one is the size of a grain of sand and can only be seen with special equipment, while the other, roughly the size of the tip of a crayon, is laser-printed on the reverse side of the glass somewhere along its black border or bezel. The codes are placed on the glass at different stages of manufacturing to help Apple track and reduce defects. They represent the company's obsessive attention to detail in manufacturing devices such as the iPhone, which has helped it squeeze costs in a traditionally low-margin business. 
-
-"Apple has been granularly and singularly tracking many components in the iPhone for some time, but expanding that to the glass and doing it with a microscopic bar code is another level of obsessive attention to detail that few companies would do," said Kyle Wiens, CEO of iFixit, a popular Apple gadget repair site. "I've never heard of serial numbers on the glass level, but if you're throwing infinite money at improving your manufacturing knowledge, then why not?" Apple added the smaller of the two QR codes -- 0.2 mm in width -- to iPhone screens in 2020 so it can track precisely how many usable cover glass units its two Chinese suppliers, Lens Technology and Biel Crystal, are making and how many defective cover glass units they are throwing away during manufacturing. Lens and Biel have previously stymied Apple's efforts to learn the true rate of defects, which can raise its production costs. Apple has paid millions of dollars to install laser and scanning equipment at Lens and Biel factories to both add the microscopic QR code and scan the cover glass at the end of the production process.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Search For Phone Signal Caused Oil Spill, Say Japanese Investigators]]></title>
-        <id>https://news.slashdot.org/story/23/09/29/178202/search-for-phone-signal-caused-oil-spill-say-japanese-investigators?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/09/29/178202/search-for-phone-signal-caused-oil-spill-say-japanese-investigators?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Japan's Transport Safety Board on Thursday judged that a cargo ship that spilled 1,000 tons of fuel oil into a pristine marine environment off the coast of Mauritius in 2020 was travelling off course in search of a cell phone signal. From a report: The MV Wakashio was en route from Lianyungang, China to a Brazilian port when, on July 25 2020, it struck trouble near Blue Bay Marine Park, a popular snorkeling spot on the Indian Ocean nation Mauritius. The Japanese-owned vessel was sailing under a Panamanian flag of convenience, and captained by a Indian national. According to the report, two days before it ran aground, the captain changed the 100,000-plus ton ship's route to travel five nautical miles from the coast line instead of the originally planned 22 nautical miles. He ordered the course change without obtaining proper marine charts of the area and therefore did not know that waters in the area are less than 20 meters deep. 
-
-The ship subsequently hit a coral reef. "Reefs and obstacles were displayed near the place of occurrence," reads the 89-page Japan Transport Safety Board report in Japanese. "The body buckled due to being knocked to the seabed and broke into the skin near the fuel oil tank. As a result, about 1,000 tons of fuel oil loaded in the tank spilled out to sea," the document states. The report noted that the captain of the vessel changed the voyage plan for the purpose of coming within range of signal for his smartphone. It also noted the behavior was not an isolated incident and that safety awareness among the crew at large was lacking.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Letterboxd, Online Haven for Film Nerds, Gets a New Owner]]></title>
-        <id>https://slashdot.org/story/23/09/29/1854245/letterboxd-online-haven-for-film-nerds-gets-a-new-owner?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/29/1854245/letterboxd-online-haven-for-film-nerds-gets-a-new-owner?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T19:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Two designers from New Zealand built a wildly popular social network for movie buffs. Now, they're cashing in (and sticking around for the sequel). The New York Times: The "Barbie" star Margot Robbie created an account. Ditto Rian Johnson, the "Knives Out" auteur. Christopher McQuarrie, Tom Cruise's directing partner, has used his to heap praise on another action star (Sylvester Stallone). Letterboxd, the social network for recommending and reviewing movies, has become a kind of shibboleth for film nerds over the past decade. Roughly 10 million people now use the service to share their favorites: You like Studio Ghibli, too? What's your favorite Spike Lee joint? 
-
-The service has not undergone any revolutionary changes since it was founded in 2011. But Letterboxd is undergoing two big changes: a new owner and, eventually, user recommendations and review of TV shows. Matthew Buchanan and Karl von Randow, Letterboxd's founders, announced on Friday that they were selling a majority stake in the service to Tiny, a public company in Victoria, British Columbia. The deal values Letterboxd at more than $50 million, said a person familiar with the sale, who spoke on the condition of anonymity to discuss confidential financial information. 
-
-Mr. Buchanan and Mr. von Randow, two entrepreneurs based in New Zealand, have reassurances for their users who may be afraid of what a sale could mean for their corner of the internet. First, neither co-founder is planning to leave any time soon, and both will remain shareholders. And the service itself isn't changing immediately. The proposal to incorporate TV is still in its infancy, and the founders said they did not expect that the addition would disrupt their existing products.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Test of iPhone-to-HDMI Adapter That Demands Location/Browsing Data]]></title>
-        <id>https://apple.slashdot.org/story/23/09/29/1638225/a-test-of-iphone-to-hdmi-adapter-that-demands-locationbrowsing-data?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/09/29/1638225/a-test-of-iphone-to-hdmi-adapter-that-demands-locationbrowsing-data?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T18:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Slash_Account_Dot writes: I recently got my hands on an ordinary-looking iPhone-to-HDMI adapter that mimics Apple's branding and, when plugged in, runs a program that implores you to "Scan QR code for use." That QR code takes you to an ad-riddled website that asks you to download an app that asks for your location data, access to your photos and videos, runs a bizarre web browser, installs tracking cookies, takes "sensor data," and uses that data to target you with ads. The adapter's app also kindly informed me that it's sending all of my data to China. 
-
-The cord was discovered by friend of 404 Media John Bumstead, an electronics refurbisher and artist who buys devices in bulk from electronics recyclers. Bumstead tweeted about the cord and was kind enough to send me one so I could try it myself. Joseph has written about malicious lightning cables and USB cables made by hackers that can be used for keystroke logging and spying. While those malicious lightning cables are products marketed for spying, the HDMI adapter Bumstead has been found in the wild and is just another crappy knockoff cable sold on Amazon's increasingly difficult to navigate website. This HDMI adapter is designed to look exactly like Apple's same adapter.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How a Thinktank Got the Cost of Net Zero for the UK Wildly Wrong]]></title>
-        <id>https://science.slashdot.org/story/23/09/29/1632223/how-a-thinktank-got-the-cost-of-net-zero-for-the-uk-wildly-wrong?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/09/29/1632223/how-a-thinktank-got-the-cost-of-net-zero-for-the-uk-wildly-wrong?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: Imagine demanding an "honest" debate over the cost of net zero in a report full of errors that even a schoolboy would be embarrassed about. Then imagine getting coverage of your report in the Sun, Times, Daily Mail, Daily Express and Spectator. Sound impossible? Well, let me tell you how Civitas, one of the thinktanks housed at 55 Tufton Street in London, did exactly that, and nearly got away with it. On Wednesday, Civitas published a pamphlet on net zero by Ewen Stewart, whose consultancy, Walbrook Economics, works on "the interaction of macroeconomics, politics and capital markets." Stewart is also a climate sceptic, having written in 2021 that human-caused warming is a "contested theory." Along with Civitas, 55 Tufton Street also houses the climate-s…]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[You Can No Longer Activate New Windows 11 Builds With Windows 7 or 8 Keys]]></title>
-        <id>https://tech.slashdot.org/story/23/09/29/1523218/you-can-no-longer-activate-new-windows-11-builds-with-windows-7-or-8-keys?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/09/29/1523218/you-can-no-longer-activate-new-windows-11-builds-with-windows-7-or-8-keys?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: In December 2022, we published a short PSA, reminding users they could still activate Windows 11 and 10 with valid Windows 7, 8, and 8.1 keys. This practice dates back to 2015 when Microsoft launched Windows 10 with a one-year free upgrade window. Besides letting Windows 7/8 users upgrade for free to Windows 10, Microsoft allowed activating its newest OS using keys from the previous releases. 
-
-Upgrade from Windows 7 and 8 to Windows is no longer possible, and it now seems that Microsoft is removing the loophole to prevent users from activating Windows 11 with old Windows license keys. As spotted by Deskmodder, Microsoft published a message on the Device Partner Center, notifying customers that the installation path to obtain free upgrades from Windows 7 and 8 to more recent Windows versions is no longer available. What it means is that you can no longer update from Windows 7/8/8.1 to Windows 10 or 11.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Don't take their word for it]]></title>
-        <id>https://world.hey.com/jason/don-t-take-their-word-for-it-f8cdea9c</id>
-        <link href="https://world.hey.com/jason/don-t-take-their-word-for-it-f8cdea9c"/>
-        <updated>2023-09-29T16:42:34.000Z</updated>
-        <summary type="html"><![CDATA[A few years ago, we needed some hardware fast. After some back and forth with the vendor, they promised “expedited delivery”. That sounded like a good thing, but it meant nothing.
-To us, expedited delivery meant overnight delivery. That’s what we had in our head. Our experiences elsewhere equated expedited as overnight, but expedited isn’t overnight – it just means faster, prioritized, enhanced, sooner. 
-But it doesn’t mean overnight. Expedited is relative, not absolute. If standard shipping takes 7 days, expedited could mean 5.
-Of course, as you’ve probably guessed, the stuff we thought would come overnight didn’t come overnight. A harsh call the next day to the vendor ultimately got us the hardware overnight the next day, but we lost a day in the exchange.
-What we had in front of us was …]]></summary>
-        <author>
-            <name>Jason Fried</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three Arrows Capital Co-Founder Zhu Apprehended, Liquidator Says]]></title>
-        <id>https://yro.slashdot.org/story/23/09/29/159213/three-arrows-capital-co-founder-zhu-apprehended-liquidator-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/09/29/159213/three-arrows-capital-co-founder-zhu-apprehended-liquidator-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Three Arrows Capital co-founder Su Zhu was apprehended in Singapore while trying to leave the country on Friday. From a report: Teneo, which is liquidating the defunct firm's estate, said it received a committal order against Zhu after he failed to comply with an earlier Singapore court order compelling him to cooperate with the liquidation investigation. The order sentenced Zhu to four months in prison, according to a statement by Teneo. Zhu was apprehended at Singapore's Changi Airport on Friday afternoon, Teneo said, adding that the Sept. 25 order also saw Zhu's co-founder Kyle Davies receive the same sentence. Zhu didn't immediately respond to a request for comment.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Discussed Selling Bing To Apple as Google Replacement]]></title>
-        <id>https://apple.slashdot.org/story/23/09/29/1458257/microsoft-discussed-selling-bing-to-apple-as-google-replacement?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/09/29/1458257/microsoft-discussed-selling-bing-to-apple-as-google-replacement?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft discussed selling its Bing search engine to Apple around 2020, a deal that would have replaced Google as the default option on the iPhone maker's devices, Bloomberg News reported Friday, citing people with knowledge of the matter. From the report: Executives from Microsoft met with Apple's services chief, Eddy Cue, who brokered the current search engine relationship with Alphabet's Google, to discuss the possibility of acquiring Bing, said the people, who asked not to be identified because the situation was confidential. The talks were exploratory and never reached an advanced stage, they said. 
-
-Over the years, the companies have discussed other ways to make Bing the preferred option, though Apple ultimately stuck with Google. Those talks have taken on fresh significance now that the US Department of Justice is in a legal fight with Google to show that the company abused its search dominance. Apple's relationship with Google, which pays billions of dollars to give its search engine a prime spot in the iPhone and other devices, is central to the case.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Intel Hails 'Landmark' as High-Volume EUV Production Begins at Irish Plant]]></title>
-        <id>https://slashdot.org/story/23/09/29/1447249/intel-hails-landmark-as-high-volume-euv-production-begins-at-irish-plant?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/09/29/1447249/intel-hails-landmark-as-high-volume-euv-production-begins-at-irish-plant?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-09-29T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Chipmaker Intel said on Friday it had begun high-volume production using extreme ultraviolet (EUV) lithography machines at its $18.5 billion plant in Ireland, calling it a "landmark" moment as it seeks to regain ground on its rivals. From a report: The EUV tools, which are theoretically precise enough to hit a person's thumb with a laser pointer from the moon, will play a key role in meeting Intel's goal of delivering five generations of technology in four years, the U.S. company said. The effort in Ireland is Intel's first attempt at high-volume manufacturing using EUV technology. Once the world's leading chip manufacturer, Intel has lost the lead but says it is on track to regain it with manufacturing technology it says will rival the best from Taiwan Semiconductor Manufacturing Co. 
-
-"This is a landmark for Intel and the semiconductor industry as a whole," Ann Kelleher, Intel's general manager of technology development, said in a statement. "The transfer of Intel 4 process technology into high-volume production in Ireland is a giant step toward enabling leading-edge manufacturing in Europe." The plant, located in the town of Leixlip outside Dublin, is the first high-volume location for its manufacturing process called Intel 4 that uses EUV. The advanced manufacturing technique will produce its forthcoming "Meteor Lake" chip for laptops, which will pave the way for AI PCs.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
         </author>
     </entry>
 </feed>
