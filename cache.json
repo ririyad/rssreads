@@ -1,0 +1,749 @@
+{
+  "sources": [
+    {
+      "title": "tonsky.me",
+      "feedUrl": "http://tonsky.me/blog/atom.xml",
+      "siteUrl": "https://tonsky.me/",
+      "articles": [
+        {
+          "id": "https://tonsky.me/blog/simple-router/",
+          "author": null,
+          "description": "Announcing clj-simple-router, a HTTP router for Clojure that allows overlapping routes and order-independent route declarations",
+          "link": "https://tonsky.me/blog/simple-router/",
+          "publishedOn": "2023-10-21T00:00:00.000Z",
+          "wordCount": 491,
+          "title": "New Library: Simple Router",
+          "imageUrl": null
+        },
+        {
+          "id": "https://tonsky.me/talks/#2023-10-17",
+          "author": null,
+          "description": "Преобразования, которые происходят с текстом для его отображения на экране",
+          "link": "https://tonsky.me/talks/#2023-10-17",
+          "publishedOn": "2023-10-17T00:00:00.000Z",
+          "wordCount": 3024,
+          "title": "Talk: Рендеринг текста проклят @ Podlodka",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Applied Go",
+      "feedUrl": "https://appliedgo.net/index.xml",
+      "siteUrl": "https://appliedgo.net/",
+      "articles": [
+        {
+          "id": "https://appliedgo.net/refresh/",
+          "author": null,
+          "description": "An access token should be initialized and refreshed from a central place, yet be available to umpteenth of client sessions. Dynamic futures to the rescue.",
+          "link": "https://appliedgo.net/refresh/",
+          "publishedOn": "2023-10-18T00:00:00.000Z",
+          "wordCount": 3758,
+          "title": "Continuous refresh, or: how to keep your API client authorized",
+          "imageUrl": ""
+        }
+      ]
+    },
+    {
+      "title": "Dave Cheney",
+      "feedUrl": "https://dave.cheney.net/feed/atom",
+      "siteUrl": "https://dave.cheney.net",
+      "articles": []
+    },
+    {
+      "title": "David Heinemeier Hansson",
+      "feedUrl": "https://world.hey.com/dhh/feed.atom",
+      "siteUrl": "https://world.hey.com/dhh",
+      "articles": [
+        {
+          "id": "https://world.hey.com/dhh/the-origin-of-ruby-on-rails-b3dab24e",
+          "author": null,
+          "description": "I can't thank Honeypot and Carolina Cabral enough for the producing The Rails Documentary that was just released today. Looking back on those early, formative years of Ruby on Rails with Tobi, Jamis, Jeremy, and Jason was actually kind of profound. I usually don't spend much time looking back, so for once to stop and marvel at how we got started twenty years ago was really special. A fitting tribute to two decades of working with Ruby on the web.\nTogether with 37signals, Rails has been my life's work. I've had the pleasure to collaborate with literally thousands of people on evolving the framework, and I've been humbled to see well over a million applications be built with it. Everything from tiny internal apps to $77 billion behemoths like Shopify.\nNow one of the reasons I don't spend too…",
+          "link": "https://world.hey.com/dhh/the-origin-of-ruby-on-rails-b3dab24e",
+          "publishedOn": "2023-11-10T00:01:49.000Z",
+          "wordCount": 454,
+          "title": "The origin of Ruby on Rails",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "https://world.hey.com/dhh/that-model-s-plaid-9e3a6a5a",
+          "author": null,
+          "description": "I've owned a lot of great cars in my time. It's been one of the few places where hitting it big has allowed for something that wouldn't otherwise be possible. From Lamborghini to Pagani, Porsche to Ferrari, Aston Martin to Bentley, I have owned and loved them all. A+ use of lottery money, would do it again!\nIt's against all these delightful automotive experiences that I've been shocked at how utterly compelling the Tesla Model S Plaid has revealed itself to be. And in just a month's worth of ownership.\nThis is a car that now retails for $86,090 in the US. About the same as an Alfa Romeo Giulia Quadrifoglio or a BMW M3 with a couple of options. Expensive, premium cars, but far from the realm of the brands mentioned above. And yet, somehow, it's proven itself to be as special and as exotic a…",
+          "link": "https://world.hey.com/dhh/that-model-s-plaid-9e3a6a5a",
+          "publishedOn": "2023-10-31T22:29:13.000Z",
+          "wordCount": 1074,
+          "title": "That Model S Plaid",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "https://world.hey.com/dhh/workfeed-goes-to-america-84b381d9",
+          "author": null,
+          "description": "During my three years in Denmark, I invested in five local startups. All on the premise that we'd work towards becoming profitable, remaining in the country, and avoiding the VC timebomb. The one that has already fulfilled all the objectives is Workfeed, and now they're ready to take on the American market. It's a proud moment!\nWorkfeed makes employee scheduling software. That might sound pretty boring, but if you run or work at a restaurant (or store or anywhere else in the service industry!) still trying to do things with Excel spreadsheets or call sheets, you know this can be a huge pain and time suck. That's exactly the kind of drudgery that software was meant to solve, and Workfeed does an amazing job at this.\nWhat I found interesting about employee scheduling software is how localize…",
+          "link": "https://world.hey.com/dhh/workfeed-goes-to-america-84b381d9",
+          "publishedOn": "2023-10-31T18:43:02.000Z",
+          "wordCount": 510,
+          "title": "Workfeed goes to America",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "https://world.hey.com/dhh/negative-visualization-in-practice-60f11cb7",
+          "author": null,
+          "description": "The most counterintuitive of the Stoic mental exercises is that of negative visualization. Willfully imagining all manner of terrible things that might befall you, but haven't yet. Described like this, it sorta sounds like a fancy word of anxiety, but if you look closer, it's in fact its opposite.\nThe point of visualizing the consequences of an accident, the loss of a loved one, or the bankruptcy of your business is not to stew in despair, but to prepare yourself for the inevitability of hardship. Nobody makes it through life entirely on easy mode, and if you haven't done any manner of mental preparation, even small setbacks can seem calamitous. So you really ought to prepare.\nIn this way, negative visualization is like the dojo in The Matrix. It's a way to level up your skills inside a si…",
+          "link": "https://world.hey.com/dhh/negative-visualization-in-practice-60f11cb7",
+          "publishedOn": "2023-10-30T19:16:56.000Z",
+          "wordCount": 659,
+          "title": "Negative visualization in practice",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "https://world.hey.com/dhh/x-celebrates-60-savings-from-cloud-exit-7cc26895",
+          "author": null,
+          "description": "Musk has taken a cleaver to the costs and complexity at X. It hasn't always been pretty, but it sure has been effective, and in the process, he's proven his detractors wrong time and again. Not only has the site stayed up, despite hysteric proclamations that it would crater soon after his personnel changes, but X has been able to increase the pace of experimentation and feature introductions at the same time. It's been impressive to watch, regardless of what you think of the politics involved.\nNow I understand that for many it's indeed impossible to leave those politics aside. And however you're aligned, you'll find a chart to support your position that X is either thriving or has one foot in the grave. So let's not even get into that.\nInstead, let's focus on the fact that X has made #Clou…",
+          "link": "https://world.hey.com/dhh/x-celebrates-60-savings-from-cloud-exit-7cc26895",
+          "publishedOn": "2023-10-27T16:36:26.000Z",
+          "wordCount": 496,
+          "title": "X celebrates 60% savings from cloud exit",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "https://world.hey.com/dhh/buying-the-seller-1520e9dd",
+          "author": null,
+          "description": "We've just moved the 37signals podcast to Buzzsprout. Podcast hosting is to some extent a commodity market, so this was less about pining for a specific feature or even working to reduce the bill. This was about buying from Tom Rossi, the technical cofounder of HigherPixels (who make Buzzsprout), and his team, because we'd just prefer to do business with them.\nI've known Tom from the Rails community for years, but at Rails World a few weeks ago, I really got to know him better. He was there as a supporter of the conference, sponsoring a podcasting booth for Rails podcasts recording on site. We talked about bootstrapping, managing a small company, and working with Rails. We literally saw eye to eye.\nThis in-person encounter made me reflect on modern commerce. How impersonal it is most of th…",
+          "link": "https://world.hey.com/dhh/buying-the-seller-1520e9dd",
+          "publishedOn": "2023-10-20T18:53:46.000Z",
+          "wordCount": 468,
+          "title": "Buying the seller",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "https://world.hey.com/dhh/the-open-source-gift-exchange-2171e0f0",
+          "author": null,
+          "description": "I love writing and sharing code as open source, but it's not an abstract act of pure altruism. The first recipients of these programming gifts are almost always myself and my company. It's an intentionally selfish drive first, then a broader benefit second. But, ironically, this is what's made my participation in the gift exchange of open source sustainable for twenty years and counting. Putting my own mask on first, so I can keep helping others.\nContrast this perspective to the resentment I occasionally see from open source developers who feel shortchanged by the exchange. People who get sucked in by the ideal of pure altruism and pursue it, but are then disappointed by what they perceive as a lack of reciprocity after a while. This has always seemed like a contradiction in terms to me. T…",
+          "link": "https://world.hey.com/dhh/the-open-source-gift-exchange-2171e0f0",
+          "publishedOn": "2023-10-19T16:33:18.000Z",
+          "wordCount": 515,
+          "title": "The open source gift exchange",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e",
+          "author": null,
+          "description": "One of the common objections to our cloud exit has been that we shouldn't have expected good outcomes from a lift'n'shift operation. That the real value of the cloud is in managed services and new architectures, not just running the same software on rented cloud instances. It's basically the \"you're holding it wrong\" argument for the cloud, and it's hogwash.\nFirst of all, HEY was born in the cloud for us. It never lived a life on our own hardware before launch. We went live in 2020 using Aurora/RDS for the databases, OpenSearch for search, and EKS for managing app and job servers. That's a pretty intensive use of the native cloud elements! Not just a bunch of raw VMs rented.\nAnd it's exactly because we used all the cloud had to offer so extensively that the bill ended up so high. And our d…",
+          "link": "https://world.hey.com/dhh/the-price-of-managed-cloud-services-4f33d67e",
+          "publishedOn": "2023-10-16T18:28:08.000Z",
+          "wordCount": 605,
+          "title": "The price of managed cloud services",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        }
+      ]
+    },
+    {
+      "title": "Jason Fried",
+      "feedUrl": "https://world.hey.com/jason/feed.atom",
+      "siteUrl": "https://world.hey.com/jason",
+      "articles": [
+        {
+          "id": "https://world.hey.com/jason/heard-something-read-something-saw-something-16-afce97da",
+          "author": null,
+          "description": "Hey there!\nHere’s the 16th installment of my popular Heard Something, Read Something, Saw Something series.\nSo, what do we have this time...\nHeard Something\nLately I've been enjoying listening to discussions about free will. Do we have it? If so, how much? Always? Sometimes? Never? Is it real or an illusion? I find the concept fascinating. One of my favorite recent conversations (debates?) about the topic was between Russ Roberts and Robert Sapolsky on Robert's EconTalk podcast. Listen in. \nHear it: https://www.econtalk.org/robert-sapolsky-on-determinism-free-will-and-responsibility/\nRead Something\nEvery once in a while you read something that swirls with someone’s body of work and undeniably signals they definitively know what the fuck they’re doing. This is that, by Jonathan Hoefler.\nRead it: https://typography.com/blog/text-for-proofing-fonts\nSaw Something\nDriving Dreams is a wonderful documentary on the golden age of Italian automotive design. Full of colorful characters, poetic stories, and the celebration of an art form — and approach — that's now long gone. Well worth the 52 minutes.\nSee it: https://www.amazon.com/Driving-Dreams-Gianluca-Migliarotti/dp/B07455DCH7/\nUntil next time.\nBTW, if you like these, and think someone else might too, please forward it on. They can subscribe to my newsletter right at the top at https://world.hey.com/jason. Thank you.\n\n-Jason",
+          "link": "https://world.hey.com/jason/heard-something-read-something-saw-something-16-afce97da",
+          "publishedOn": "2023-11-08T18:48:50.000Z",
+          "wordCount": 266,
+          "title": "Heard Something, Read Something, Saw Something [#16]",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
+        {
+          "id": "https://world.hey.com/jason/look-back-less-848e9db0",
+          "author": null,
+          "description": "I have a theory.\nOne of the reasons companies have a hard time moving forward is because they've tangled themselves in the near past. Eyes aimed backwards rather than ahead, staring at the dark, feet in their own concrete.\nThey've trapped themselves looking for certainty where there isn't any. Searching for actionable advice where there are only guesses.\nSomething sorta went wrong. A project didn't go as planned. Some launch didn't meet expectations. A number someone felt was in reach didn't get hit.\nSo they look back, scanning the ruins for something shiny. They gather people up and call for a search party. They launch into post-mortems and retrospectives.\nIt's a mistake most of the time. And a waste of time almost all of the time.\nLet's start with when it makes sense. If the process is h…",
+          "link": "https://world.hey.com/jason/look-back-less-848e9db0",
+          "publishedOn": "2023-11-03T00:12:53.000Z",
+          "wordCount": 719,
+          "title": "Look back less",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
+        {
+          "id": "https://world.hey.com/jason/an-influence-or-a-trap-3e09b8c3",
+          "author": null,
+          "description": "Watch this:\nhttps://www.youtube.com/watch?v=H9NruIjkGEw\nRoger Smith is a watchmaker, in the most traditional sense. He apprenticed under George Daniels, one of the best there ever was. And for the first few years, he made everything himself — just him, no one else. Even if you aren’t into watches, I bet you’ll be into Roger W. Smith after you watch the video.\nRoger’s workshop is on the Isle of Man — far away from the heart of the industry in Switzerland. In fact, he’s the only watchmaker on the Isle of Man, and one of very few in the UK.\nHe thinks being far away is a good thing. I love how he puts it:\n\n“The influences just aren’t around, and I can just get on with my days work and just make what I want to make.” -Roger W. Smith\n\nI love that notion — it’s one I’ve tried to hold dear myself. Don’t be influenced too much. Be aware of what’s great, but don’t get other people’s work too deep in your head or you’ll be doing their work, not yours. That kind of influence isn't really an influence, it's a trap.\nIt’s so easy to get sucked into other people’s work. Following industry news, attending every conference you can, picking brains. But I’ve often found it better to retreat into your own mind and bring something original. The more you see how other people do what they do, the harder it becomes to do things differently.\nSo pay attention a little, but not too much — leave more room for your own ideas than for theirs.\n\n-Jason",
+          "link": "https://world.hey.com/jason/an-influence-or-a-trap-3e09b8c3",
+          "publishedOn": "2023-10-23T16:28:27.000Z",
+          "wordCount": 336,
+          "title": "An influence or a trap?",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
+        {
+          "id": "https://world.hey.com/jason/always-cheer-ccd76145",
+          "author": null,
+          "description": "I often hear from people writing in asking for advice about some broken team dynamic. Someone's against them, they're against someone, another group doesn't want them to do well because it'll make them look bad. Management this, team that, individual something or another. People want to know how to handle these unfortunate conditions.\nWith optimism. With positivity. With good faith efforts, always. Bring your best intent, always. Assume it can happen, always. If that doesn't work, alright — but it's still the right way.\nYou've got to cheer for everyone on your team. For everyone you work with. For everyone you work for. Up until the moment you aren't here, or they aren't there, you've got to want the best for everyone you're with.\nSabotaging, back stabbing, quietly rooting against, setting the traps to prove yourself right at their expense... That's the worst of you, and it's the worst for you.\nIf you have the power to change the team, change it (don't ignore it). If you only have the power to be on the team, be on it (not against it). If you can only muster the power to leave the team, leave it after you've given it everything you've got.\nTo be better, you have to make better. Bend positive.\n\n-Jason",
+          "link": "https://world.hey.com/jason/always-cheer-ccd76145",
+          "publishedOn": "2023-10-19T22:18:44.000Z",
+          "wordCount": 278,
+          "title": "Always cheer",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        },
+        {
+          "id": "https://world.hey.com/jason/then-just-say-it-like-that-3fe992bb",
+          "author": null,
+          "description": "Over the last 20+ years I’ve been part of too many discussions where someone goes “I’m having a hard time explaining this or that…” Then they say “I just really want to say this…” And then they say it and it’s clear, concise, and obvious! They nailed it, but…\n\n\n…it’s as if they aren’t even listening to themselves because they’re right back to thinking about how to say what they just said. Only now they’re back to trying to make it more complicated than it needs to be. They should just say it like they said it a minute ago.\n\n\nThis happens to me often as well. Recently I was working on some copy for a new home page design and I just wasn’t locking into my point in writing… So I said a few things out loud. They were better than anything I’d written, but then when I wrote them down I tried doctoring them up a bit because “marketing” and, once again, they fell flat.\n\n\nWe’re all told to be good listeners when someone else is talking, but we should work on being better listeners when we’re talking. We might find that we’ve already got the answers.\n\n\n-Jason",
+          "link": "https://world.hey.com/jason/then-just-say-it-like-that-3fe992bb",
+          "publishedOn": "2023-10-18T20:24:22.000Z",
+          "wordCount": 275,
+          "title": "Then just say it like that!",
+          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
+        }
+      ]
+    },
+    {
+      "title": "The Plain Text Project",
+      "feedUrl": "https://plaintextproject.online/feed.xml",
+      "siteUrl": "https://plaintextproject.online",
+      "articles": []
+    },
+    {
+      "title": "Andrew Kelley",
+      "feedUrl": "https://andrewkelley.me/rss.xml",
+      "siteUrl": "https://andrewkelley.me/",
+      "articles": [
+        {
+          "id": "https://andrewkelley.me/post/the-techno-optimist-manifesto.html",
+          "author": null,
+          "description": "The Techno-Optimist Manifesto\nmust, and we\nwill, create more advanced human systems to prevent war forevermore.\nHuman society will mature and overcome its\nbarbaric history, learning to cooperate with each other so that we can create technological\nworks of global magnitude, such as orbital rings.\n\n\nWe cannot meaningfully explore space while borders exist on Earth.\n\n\nEvery dollar spent on the military is a blight on the country's honor. We\nbelieve that military budget reductions are a cause for celebration because\nthey symbolize progress towards the space age. We believe that the atomic\nbombings of Hiroshima and Nagasaki were the most horrifying, shameful thing\never done by humanity, to itself. Importantly, we believe that it will\nnever, ever happen again.\n\n\nWe believe that there are irreversible destructive actions. While some amount of\nspecies extinction is a natural process, the outlier extinction event currently happening\ndue to the emergence of homo sapiens is a tragedy. We believe that it is our duty to\nnot only improve technology to enhance our own lives, but also enhance technology\nto preserve natural diversity. We believe that Free Market Capitalism is an outdated\ntechnology that has failed to prevent irreversible destruction to our home planet. However,\nwe believe that human society will migrate to a better system without these flaws,\nand will prevent the ultimate irreversible action of self-destruction.\n\n\nWe believe in the simple, physical fact that endless growth is unsustainable,\nand we refuse to resolve this problem with war. Instead, we will improve\nefficiency and work within the limits of the system, whatever they may be.\nWe will upgrade our economic system to one that is capable of supporting these\nrequirements.\n\n\nTherefore, finally, we believe that it is justified to spend one's life or\ncareer in pursuit of science, engineering, and technology, because we believe\nin humanity's ability to mature and improve to the point where it can wield\never more powerful tools responsibly.",
+          "link": "https://andrewkelley.me/post/the-techno-optimist-manifesto.html",
+          "publishedOn": "2023-10-17T20:14:51.000Z",
+          "wordCount": 612,
+          "title": "The Techno-Optimist Manifesto",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Martin Fowler",
+      "feedUrl": "https://martinfowler.com/feed.atom",
+      "siteUrl": "https://martinfowler.com/feed.atom",
+      "articles": [
+        {
+          "id": "https://martinfowler.com/articles/2023-liberal-arts.html",
+          "author": null,
+          "description": "My colleague Sannie Lee has met many students who are looking into\n     getting into technology, taking narrow professionally-oriented majors.\n     Sannie, however, has found that a traditional liberal-arts degree has given\n     her skills that are highly relevant to her work as a product manager.\nmore…",
+          "link": "https://martinfowler.com/articles/2023-liberal-arts.html",
+          "publishedOn": "2023-11-09T15:12:00.000Z",
+          "wordCount": 1602,
+          "title": "Three reasons a liberal arts degree helped me succeed in tech",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/headless-component.html#AdaptingToANewUiRequirement",
+          "author": null,
+          "description": "In the second (and final) part of his explanation of React Headless Components\n     Juntao Qiu explores how a headless component allows us to\n     create a visually different component that does the same base behavior, and\n     how it encourages better factoring as we extend base behavior further.\nmore…",
+          "link": "https://martinfowler.com/articles/headless-component.html#AdaptingToANewUiRequirement",
+          "publishedOn": "2023-11-07T15:00:00.000Z",
+          "wordCount": 6282,
+          "title": "Enhancing the Headless Component",
+          "imageUrl": "https://martinfowler.com/articles/headless-component/headless-component.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/2023-social-media.html",
+          "author": null,
+          "description": "It's now been a year since The Muskover, what does my use of social\n     media look like now, both as a reader and a writer?\nmore…",
+          "link": "https://martinfowler.com/articles/2023-social-media.html",
+          "publishedOn": "2023-11-02T16:33:00.000Z",
+          "wordCount": 1442,
+          "title": "Current thoughts on social media",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
+          "id": "https://martinfowler.com/articles/headless-component.html",
+          "author": null,
+          "description": "As React UI controls become more sophisticated, complex logic can get\n     intertwined with the visual representation. This makes it hard to reason\n     about the behavior of the component, hard to test it, and necessary to\n     build similar components that need a different look. Juntao\n     Qiu tackles this by using a Headless Component, which\n     extracts all non-visual logic and state management, separating the brain of\n     a component from its looks.\nmore…",
+          "link": "https://martinfowler.com/articles/headless-component.html",
+          "publishedOn": "2023-11-01T14:34:00.000Z",
+          "wordCount": 6282,
+          "title": "Headless Component: a pattern for composing React UIs",
+          "imageUrl": "https://martinfowler.com/articles/headless-component/headless-component.png"
+        }
+      ]
+    },
+    {
+      "title": "Adam Wathan's Work Journal",
+      "feedUrl": "https://adamwathan.me/journal/rss.xml",
+      "siteUrl": "https://adamwathan.me/journal",
+      "articles": []
+    },
+    {
+      "title": "Rust Blog",
+      "feedUrl": "https://blog.rust-lang.org/feed.xml",
+      "siteUrl": "https://blog.rust-lang.org/",
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2023/11/09/parallel-rustc.html",
+          "author": null,
+          "description": "The Rust compiler's front-end can now use parallel execution to significantly\nreduce compile times. To try it, run the nightly compiler with the -Z threads=8 option. This feature is currently experimental, and we aim to ship\nit in the stable compiler in 2024.\nKeep reading to learn why a parallel front-end is needed and how it works, or\njust skip ahead to the How to use it\nsection.\nCompile times and parallelism\nRust compile times are a perennial concern. The Compiler Performance Working\nGroup\nhas continually improved compiler performance for several years. For example,\nin the first 10 months of 2023, there were mean reductions in compile time of\n13%,\nin peak memory use of\n15%,\nand in binary size of\n7%,\nas measured by our performance suite.\nHowever, at this point the compiler has been heavil…",
+          "link": "https://blog.rust-lang.org/2023/11/09/parallel-rustc.html",
+          "publishedOn": "2023-11-09T00:00:00.000Z",
+          "wordCount": 1869,
+          "title": "Faster compilation with the parallel front-end in nightly",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/2023/10/27/crates-io-non-canonical-downloads.html",
+          "author": null,
+          "description": "TL;DR\nWe want to improve the reliability and performance of crate downloads.\n\"Non-canonical downloads\" (that use URLs containing hyphens or underscores where the crate published uses the opposite) are blocking these plans.\nOn 2023-11-20 support for \"non-canonical downloads\" will be disabled.\ncargo users are unaffected.\nWhat are \"non-canonical downloads\"?\nThe \"non-canonical downloads\" feature allows everyone to download the serde_derive crate from https://crates.io/api/v1/crates/serde_derive/1.0.189/download, but also from https://crates.io/api/v1/crates/SERDE-derive/1.0.189/download, where the underscore was replaced with a hyphen (crates.io normalizes underscores and hyphens to be the same for uniqueness purposes, so it isn't possible to publish a crate named serde-derive because serde_de…",
+          "link": "https://blog.rust-lang.org/2023/10/27/crates-io-non-canonical-downloads.html",
+          "publishedOn": "2023-10-27T00:00:00.000Z",
+          "wordCount": 694,
+          "title": "crates.io: Dropping support for non-canonical downloads",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html",
+          "author": null,
+          "description": "Around mid-October of 2023 the crates.io team was notified by one of our users that a shields.io badge for their crate stopped working. The issue reporter was kind enough to already debug the problem and figured out that the API request that shields.io sends to crates.io was most likely the problem. Here is a quote from the original issue:\nThis crate makes heavy use of feature flags which bloat the response payload of the API.\nApparently the API response for this specific crate had broken the 20 MB mark and shields.io wasn't particularly happy with this. Interestingly, this crate only had 9 versions published at this point in time. But how do you get to 20 MB with only 9 published versions?\nAs the quote above already mentions, this crate is using features… a lot of features… almost 23,000!…",
+          "link": "https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html",
+          "publishedOn": "2023-10-26T00:00:00.000Z",
+          "wordCount": 876,
+          "title": "A tale of broken badges and 23,000 features",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/2023/10/19/announcing-the-new-rust-project-directors.html",
+          "author": null,
+          "description": "We are happy to announce that we have completed the process to elect new Project Directors.\nThe new Project Directors are:\nScott McMurray\nJakob Degen\nSantiago Pastorino\nThey will join Ryan Levick and Mark Rousskov to make up the five members of the Rust Foundation Board of Directors who represent the Rust Project.\nThe board is made up of Project Directors, who come from and represent the Rust Project, and Member Directors, who represent the corporate members of the Rust Foundation.\nBoth of these director groups have equal voting power.\nWe look forward to working with and being represented by this new group of project directors.\nWe were fortunate to have a number of excellent candidates and this was a difficult decision.\nWe wish to express our gratitude to all of the candidates who were considered for this role!\nWe also extend our thanks to the project as a whole who participated by nominating candidates and providing additional feedback once the nominees were published.\nFinally, we want to share our appreciation for the Project Director Elections Subcommittee for working to design and facilitate running this election process.\nThis was a challenging decision for a number of reasons.\nThis was also our first time doing this process and we learned a lot to use to improve it going forward.\nThe Project Director Elections Subcommittee will be following up with a retrospective outlining how well we achieved our goals with this process and making suggestions for future elections.\nWe are expecting another election next year to start a rotating cadence of 2-year terms.\nProject governance is about iterating and refining over time.\nOnce again, we thank all who were involved in this process and we are excited to welcome our new Project Directors.",
+          "link": "https://blog.rust-lang.org/2023/10/19/announcing-the-new-rust-project-directors.html",
+          "publishedOn": "2023-10-19T00:00:00.000Z",
+          "wordCount": 369,
+          "title": "Announcing the New Rust Project Directors",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Inside Rust Blog",
+      "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
+      "siteUrl": "https://blog.rust-lang.org/inside-rust/",
+      "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/11/13/leadership-council-update.html",
+          "author": null,
+          "description": "Hello again from the Rust Leadership Council!\nWe wanted to share an update on what the Council has been working on since our last update.\nAccomplishments so far\nWe have elected new project directors!\nThrough the great work of the Project Director Election Process Committee,\nwe have defined a process for selecting Project Directors for the Rust Foundation Board of Directors.\nWe carried out the process, and recently announced the new directors.\nWe will be following up with a retrospective to identify what went well and what can be improved,\nand feed those improvements back into the process for next year.\nWe have established a new home for Project governance documentation at https://forge.rust-lang.org/governance/index.html.\nAs changes to the governance policies are accepted via the RFC proce…",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/11/13/leadership-council-update.html",
+          "publishedOn": "2023-11-13T00:00:00.000Z",
+          "wordCount": 589,
+          "title": "November 2023 Leadership Council Update",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/11/13/1.74.0-prerelease.html",
+          "author": null,
+          "description": "The 1.74.0 pre-release is ready for testing. The release is scheduled for\nNovember 16. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-11-13/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/11/13/1.74.0-prerelease.html",
+          "publishedOn": "2023-11-13T00:00:00.000Z",
+          "wordCount": 139,
+          "title": "1.74.0 pre-release testing",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2023/10/23/coroutines.html",
+          "author": null,
+          "description": "We have renamed the unstable Generator trait to Coroutine and adjusted all terminology accordingly.\nIf you want to see all 3800 modified lines of code, you can find the PR here.\nOur Generator trait was effectively a coroutine already, so this change was long overdue.\nAll nightly users using the Generator trait must now update their code to refer to the new feature gate and trait names.\nWhat is the difference?\nA generator is just a convenient way to write Iterator implementations.\nThis means it's a coroutine that has no arguments and no return type.\nInstead when it returns, that means iteration is over, and the Iterator::next method returns None.\nComing full circle\nThis change is directly motivated for reintroducing generators, this time with simpler (async/await style)\nsyntax for creating Iterators. Some discussion about this can be found in the gen fn rfc.\nOf course such a massive change would be incomplete without the PR to immediately reintroduce a new concept with the name that was just removed,\nso here you can see the MVP for gen blocks that has very weird diagnostics and may panic on you if you poke it too much.",
+          "link": "https://blog.rust-lang.org/inside-rust/2023/10/23/coroutines.html",
+          "publishedOn": "2023-10-23T00:00:00.000Z",
+          "wordCount": 274,
+          "title": "Generators are dead, long live coroutines, generators are back",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Jorge Manrubia",
+      "feedUrl": "https://world.hey.com/jorge/feed.atom",
+      "siteUrl": "https://world.hey.com/jorge",
+      "articles": [
+        {
+          "id": "https://world.hey.com/jorge/towards-smoother-page-updates-in-turbo-5f670db9",
+          "author": null,
+          "description": "I recently published two articles in the 37signals dev blog related to how we will improve page updates in Turbo 8.\n\n\nA happier happy path in Turbo with morphing. What we will do.\nExploring server-side diffing in Turbo. An investigation of an alternative approach to fulfill the same vision.\n\nI hope you like them!",
+          "link": "https://world.hey.com/jorge/towards-smoother-page-updates-in-turbo-5f670db9",
+          "publishedOn": "2023-10-25T07:48:12.000Z",
+          "wordCount": 107,
+          "title": "Towards smoother page updates in Turbo",
+          "imageUrl": "https://world.hey.com/jorge/avatar-d08cb3ee63ecbd49736f76ee2caffa4c99a1c0fd"
+        }
+      ]
+    },
+    {
+      "title": "Notes on software development",
+      "feedUrl": "https://notes.eatonphil.com/rss.xml",
+      "siteUrl": "http://notes.eatonphil.com/",
+      "articles": [
+        {
+          "id": "http://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html",
+          "author": null,
+          "description": "With Postgres 12,\nreleased in 2019, it became possible to swap out Postgres's storage\nengine.\nThis is a feature MySQL has supported for a long time. There are at\nleast 8 different built-in\nengines you can pick from. MyRocks, MySQL on\nRocksDB, is another popular third-party distribution.\nI assume there will be a renaissance of Postgres storage engines. To\ndate, the efforts are\nnascent. OrioleDB and Citus\nColumnar\nare two promising third-party table access methods being actively\ndeveloped.\nWhy alternative storage engines?\nThe ability to swap storage engines is useful because different\nworkloads sometimes benefit from different storage\napproaches. Analytics workloads and columnar storage layouts go well\ntogether. Write-heavy\nworkloads and LSM trees go well\ntogether. And\nsome people like in-me…",
+          "link": "http://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html",
+          "publishedOn": "2023-11-01T00:00:00.000Z",
+          "wordCount": 7455,
+          "title": "Writing a storage engine for Postgres: an in-memory Table Access Method",
+          "imageUrl": null
+        },
+        {
+          "id": "http://notes.eatonphil.com/2023-10-19-write-file-to-disk-with-io_uring.html",
+          "author": null,
+          "description": "King and I wrote a blog\npost\nabout building an event-driven cross-platform IO library that used\nio_uring on Linux. We sketched out how it works at a high level but I\nhadn't yet internalized how you actually code with io_uring. So I\nstrapped myself down this week and wrote some\nbenchmarks to build my\nintuition about io_uring and other IO models.\nI started with implementations in Go and ported them to Zig to make\nsure I had done the Go versions decently. And I got some help from\nKing and other internetters to find some inefficiencies in my code.\nThis post will walk through my process, getting increasingly efficient\n(and a little increasingly complex) ways to write an entire file to\ndisk with io_uring, from Go and Zig.\nNotably, we're not going to fsync() and we're not going to use\nO_DIRECT. S…",
+          "link": "http://notes.eatonphil.com/2023-10-19-write-file-to-disk-with-io_uring.html",
+          "publishedOn": "2023-10-19T00:00:00.000Z",
+          "wordCount": 5429,
+          "title": "io_uring basics: Writing a file to disk",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "CoRecursive: Coding Stories",
+      "feedUrl": "https://corecursive.libsyn.com/feed",
+      "siteUrl": "http://corecursive.com",
+      "articles": [
+        {
+          "id": "15f92fb8-0b9c-4ea0-8199-2afdb4a8225f",
+          "author": null,
+          "description": "How did Spotify scale from 10 engineers to 100s to 1000s ...without slowing down? Without becoming corporate? \n Facing an IPO deadline, Pia Nilsson worked with 300 teams to transform how Spotify built software. She spearheaded a movement that led them from working in silos to a unified developer platform. \n Hear the inside story of how Spotify's Platform teams embraced transparency and customer focus to create Backstage — now used by companies worldwide. \n It's an amazing tale of ingenuity and perseverance. Hear Spotify's secret to scaling engineering without losing speed and independence. Don't miss it!\n  \nEpisode Page\n Support The Show\n Subscribe To The Podcast\n Join The Newsletter",
+          "link": "https://corecursive.com/platform-takes-the-pain/",
+          "publishedOn": "2023-11-02T10:00:00.000Z",
+          "wordCount": null,
+          "title": "Story: Platform Takes The Pain",
+          "itunes": {
+            "duration": "48:36"
+          },
+          "enclosure": {
+            "length": "71134151",
+            "type": "audio/mpeg",
+            "url": "https://chtbl.com/track/7D91G/traffic.libsyn.com/secure/corecursive/094_-_Backstage2.mp3?dest-id=628353"
+          },
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Notes on software development",
+      "feedUrl": "https://notes.eatonphil.com/rss.xml",
+      "siteUrl": "http://notes.eatonphil.com/",
+      "articles": [
+        {
+          "id": "http://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html",
+          "author": null,
+          "description": "With Postgres 12,\nreleased in 2019, it became possible to swap out Postgres's storage\nengine.\nThis is a feature MySQL has supported for a long time. There are at\nleast 8 different built-in\nengines you can pick from. MyRocks, MySQL on\nRocksDB, is another popular third-party distribution.\nI assume there will be a renaissance of Postgres storage engines. To\ndate, the efforts are\nnascent. OrioleDB and Citus\nColumnar\nare two promising third-party table access methods being actively\ndeveloped.\nWhy alternative storage engines?\nThe ability to swap storage engines is useful because different\nworkloads sometimes benefit from different storage\napproaches. Analytics workloads and columnar storage layouts go well\ntogether. Write-heavy\nworkloads and LSM trees go well\ntogether. And\nsome people like in-me…",
+          "link": "http://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html",
+          "publishedOn": "2023-11-01T00:00:00.000Z",
+          "wordCount": 7455,
+          "title": "Writing a storage engine for Postgres: an in-memory Table Access Method",
+          "imageUrl": null
+        },
+        {
+          "id": "http://notes.eatonphil.com/2023-10-19-write-file-to-disk-with-io_uring.html",
+          "author": null,
+          "description": "King and I wrote a blog\npost\nabout building an event-driven cross-platform IO library that used\nio_uring on Linux. We sketched out how it works at a high level but I\nhadn't yet internalized how you actually code with io_uring. So I\nstrapped myself down this week and wrote some\nbenchmarks to build my\nintuition about io_uring and other IO models.\nI started with implementations in Go and ported them to Zig to make\nsure I had done the Go versions decently. And I got some help from\nKing and other internetters to find some inefficiencies in my code.\nThis post will walk through my process, getting increasingly efficient\n(and a little increasingly complex) ways to write an entire file to\ndisk with io_uring, from Go and Zig.\nNotably, we're not going to fsync() and we're not going to use\nO_DIRECT. S…",
+          "link": "http://notes.eatonphil.com/2023-10-19-write-file-to-disk-with-io_uring.html",
+          "publishedOn": "2023-10-19T00:00:00.000Z",
+          "wordCount": 5429,
+          "title": "io_uring basics: Writing a file to disk",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Dmitri Pavlutin Blog",
+      "feedUrl": "https://dmitripavlutin.com/rss.xml",
+      "siteUrl": "https://dmitripavlutin.com",
+      "articles": []
+    },
+    {
+      "title": "Dietcode | Sid's blog",
+      "feedUrl": "https://dietcode.io/rss",
+      "siteUrl": "https://dietcode.io/",
+      "articles": []
+    },
+    {
+      "title": "Infrequently Noted",
+      "feedUrl": "https://infrequently.org/feed/",
+      "siteUrl": "https://infrequently.org/feed/feed.xml",
+      "articles": []
+    },
+    {
+      "title": "Moving the Limit",
+      "feedUrl": "https://movingthelimit.com/feed/",
+      "siteUrl": "https://movingthelimit.com/",
+      "articles": []
+    },
+    {
+      "title": "Lucas F. Costa",
+      "feedUrl": "https://lucasfcosta.com/feed.xml",
+      "siteUrl": "https://lucasfcosta.com/",
+      "articles": []
+    },
+    {
+      "title": "taylor.town",
+      "feedUrl": "https://taylor.town/feed.xml",
+      "siteUrl": "https://taylor.town/feed.xml",
+      "articles": [
+        {
+          "id": "https://taylor.town/town-hall-0015",
+          "author": null,
+          "description": "101,721 words of cryptic nonsense.",
+          "link": "https://taylor.town/town-hall-0015",
+          "publishedOn": "2023-11-12T00:00:00.000Z",
+          "wordCount": 1056,
+          "title": "Town Hall #15: Artifacts",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/what-is-the-author-trying-to-do",
+          "author": null,
+          "description": "Rather than saying \"bad movie lol\",\nBig Joel deconstructs The Room\nand asks the difficult question: what are authors even trying to do?\n  \n\npeople sometimes make stuff for reasons.\nCan they understand the cat in Stewart Little?  \nauthorial intent in Grown Ups 2.  \nOveranalyze Avatar: The Last Airbender.  \na 2-hour documentary about a video game we've never heard of?  \nleitmotif in Lord of the Rings.  \nBecome a film conspiracy theorist.  \nterrible writing.  \nidiot plots.  \nIs 300 facist?  \nMeet the Robinsons was underrated.  \ninivisible choices in video games.  \nholes that were made for you.  \nSkin Theory in Spongebob Squarepants.  \ntemporal pincer maneuver.  \nSoulja Boy provides his thoughts on Braid.  \nvisual comedy.  \nludditism and neophilia in Jurassic Park.",
+          "link": "https://taylor.town/what-is-the-author-trying-to-do",
+          "publishedOn": "2023-11-05T00:00:00.000Z",
+          "wordCount": 263,
+          "title": "what are authors even trying to do?",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/woman-month",
+          "author": null,
+          "description": "I have 22 children at the age of 26 and most of them were born in the space of a year.",
+          "link": "https://taylor.town/woman-month",
+          "publishedOn": "2023-11-05T00:00:00.000Z",
+          "wordCount": 94,
+          "title": "Russian Woman Achieves 9x \"Mythical\" Man Month",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/code-collocates",
+          "author": null,
+          "description": "Replacing collocates with simpler substitutes is intuitively called \"compression\".",
+          "link": "https://taylor.town/code-collocates",
+          "publishedOn": "2023-11-03T00:00:00.000Z",
+          "wordCount": 425,
+          "title": "Compressing Codebase Collocates",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/digital-desire-paths",
+          "author": null,
+          "description": "Good architects anticipate nature. They don't blame water for dripping. They don't blame people for peopling.",
+          "link": "https://taylor.town/digital-desire-paths",
+          "publishedOn": "2023-11-03T00:00:00.000Z",
+          "wordCount": 271,
+          "title": "Digital Desire Paths",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/chatgpt-opt-out",
+          "author": null,
+          "description": "OpenAI provides a Google Form for opting out of data collection on ChatGPT.",
+          "link": "https://taylor.town/chatgpt-opt-out",
+          "publishedOn": "2023-11-02T00:00:00.000Z",
+          "wordCount": 275,
+          "title": "How to opt-out of ChatGPT training without clearing conversation history",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/talk-like-a-therapist",
+          "author": null,
+          "description": "They speak fearlessly but fairly. They're strong, yet nonthreatening. They push back while maintaining peace. I yearn for this powerless power.",
+          "link": "https://taylor.town/talk-like-a-therapist",
+          "publishedOn": "2023-11-01T00:00:00.000Z",
+          "wordCount": 359,
+          "title": "if it talks like a therapist...",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/how-i-do-things-cf",
+          "author": null,
+          "description": "I feel like a battery that can't keep its charge.",
+          "link": "https://taylor.town/how-i-do-things-cf",
+          "publishedOn": "2023-10-31T00:00:00.000Z",
+          "wordCount": 582,
+          "title": "How I Do Things: Chronic Fatigue Edition",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/infinite-queues",
+          "author": null,
+          "description": "Strategy is the best weapon you wield against the infinite. Bad algorithms invite anxiety, overwhelmedness, and frustration. Good algorithms create pride, peace, and accomplishment.",
+          "link": "https://taylor.town/infinite-queues",
+          "publishedOn": "2023-10-30T00:00:00.000Z",
+          "wordCount": 442,
+          "title": "Taming Your Infinite Queues",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/sads",
+          "author": null,
+          "description": "What is SADS?  \nWho is at risk for SADS?  \nHow is SADS diagnosed?  \nCan SADS be prevented?  \nHow do you prepare for SADS?  \nchaos emeralds.\ntake everything to your grave  \n  \nlisten wholeheartedly to people; never interrupt  \n  \naccept pain; minimize suffering  \n  \nunravel your fears  \n  \nbefriend Nature  \n  \nspend time wisely",
+          "link": "https://taylor.town/sads",
+          "publishedOn": "2023-10-19T00:00:00.000Z",
+          "wordCount": 496,
+          "title": "Living with Sudden Adult Death Syndrome (SADS)",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Slashdot",
+      "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
+      "siteUrl": "https://slashdot.org/",
+      "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/23/11/14/2324205/google-stopped-selling-its-fitbit-products-in-almost-30-countries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Fitbit is active in only 23 countries after leaving Mexico, South Africa, and all Latin American countries. \"We communicated that we will stop selling Fitbit products in select countries in order to align our hardware portfolio to map closer to Pixel's regional availability,\" a Google spokesperson confirmed to Cord Cutters News via email. From the report: The move marks a phasing out of Fitbit products after the Big Tech company acquired wearable company in 2021. Last month, Fitbit said it would remove itself from Asian markets Hong Kong, Korea, Malaysia, Thailand, and the Philippines, along with European markets Croatia, Czech Republic, Estonia, Hungary, Latvia, Lithuania, Luxembourg, Poland, Portugal, Romania, and Slovakia. It's possible Google is removing Fitbit and Nest from the European markets because they don't have a Google Store support. If that changes, Fitbit products and Nest Aware subscriptions could return. New products like the Pixel Watch could also arrive for the first time. \"We remain committed to our customers and have not made any changes that impact the existing Fitbit devices they already own. Existing Fitbit customers will continue to have access to the same customer support, warranties will still be honored, and products will continue to receive software and security updates,\" the Google spokesperson said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/11/14/2324205/google-stopped-selling-its-fitbit-products-in-almost-30-countries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-15T00:45:00.000Z",
+          "wordCount": 4023,
+          "title": "Google Stopped Selling Its Fitbit Products In Almost 30 Countries",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/11/14/2257235/intel-fixes-high-severity-cpu-bug-that-causes-very-strange-behavior?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: Intel on Tuesday pushed microcode updates to fix a high-severity CPU bug that has the potential to be maliciously exploited against cloud-based hosts. The flaw, affecting virtually all modern Intel CPUs, causes them to \"enter a glitch state where the normal rules don't apply,\" Tavis Ormandy, one of several security researchers inside Google who discovered the bug, reported. Once triggered, the glitch state results in unexpected and potentially serious behavior, most notably system crashes that occur even when untrusted code is executed within a guest account of a virtual machine, which, under most cloud security models, is assumed to be safe from such faults. Escalation of privileges is also a possibility.\n \nThe bug, tracked under the …",
+          "link": "https://it.slashdot.org/story/23/11/14/2257235/intel-fixes-high-severity-cpu-bug-that-causes-very-strange-behavior?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-15T00:02:00.000Z",
+          "wordCount": 4360,
+          "title": "Intel Fixes High-Severity CPU Bug That Causes 'Very Strange Behavior'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bug_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/11/14/2244247/48-nation-bloc-to-crack-down-on-using-crypto-assets-to-avoid-tax?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "A bloc of 48 nations have developed the Crypto-Asset Reporting Framework (CARF), aimed at standardizing reporting requirements for crypto assets to address concerns related to money laundering and tax evasion. It's set to be implemented by 2027. The Register reports: Developed by the Organisation for Economic Co-operation and Development (OECD), the CARF was developed under the 168-member Global Forum on Transparency and Exchange of Information for Tax Purposes, with the G20 and the Organisation for Economic Co-operation and Development looking on approvingly and lending a hand. As the name implies, that Forum is all about sharing data so that each nation's tax authorities have the information they need to understand money movements and make sure they can see what they're allowed to tax. T…",
+          "link": "https://slashdot.org/story/23/11/14/2244247/48-nation-bloc-to-crack-down-on-using-crypto-assets-to-avoid-tax?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T23:20:00.000Z",
+          "wordCount": 4353,
+          "title": "48-Nation Bloc To Crack Down On Using Crypto Assets To Avoid Tax",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/14/2231255/youtube-adapts-its-policies-for-the-coming-surge-of-ai-videos?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Sarah Perez reports via TechCrunch: YouTube today announced how it will approach handling AI-created content on its platform with a range of new policies surrounding responsible disclosure as well as new tools for requesting the removal of deepfakes, among other things. The company says that, although it already has policies that prohibit manipulated media, AI necessitated the creation of new policies because of its potential to mislead viewers if they don't know the video has been \"altered or synthetically created.\" One of the changes that will roll out involves the creation of new disclosure requirements for YouTube creators. Now, they'll have to disclose when they've created altered or synthetic content that appears realistic, including videos made with AI tools. For instance, this disc…",
+          "link": "https://news.slashdot.org/story/23/11/14/2231255/youtube-adapts-its-policies-for-the-coming-surge-of-ai-videos?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T22:40:00.000Z",
+          "wordCount": 4847,
+          "title": "YouTube Adapts Its Policies For the Coming Surge of AI Videos",
+          "imageUrl": "https://a.fsdn.com/sd/topics/youtube_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/11/14/2147236/rivian-software-update-bricks-infotainment-system-fix-not-obvious?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Electrek: On Monday, Rivian released an incremental software update 2023.42, which bricked the infotainment system in R1Ses and R1Ts. The company is frantically working on a fix, but it might not be an OTA. [...] The vehicles are drivable, but software and displays go black. It appears that the 2023.42 software update hangs at 90% on the vehicle screen or 50% on the app screen, and then the vehicle screens black out. All systems appear to still work except for the displays. At the moment, it appears that Amazon vans are not impacted. Update: The company has acknowledged the issue with affected customers but has yet to issue a fix or plan to fix. Rivian's vice president of software engineering, Wassim Bensaid, took to Reddit to update users on the situation, writing: \"Hi All, We made an error with the 2023.42 OTA update -- a fat finger where the wrong build with the wrong security certificates was sent out. We cancelled the campaign and we will restart it with the proper software that went through the different campaigns of beta testing. Service will be contacting impacted customers and will go through the resolution options. That may require physical repair in some cases. This is on us -- we messed up. Thanks for your support and your patience as we go through this.\n \n*Update 1 (11/13, 10:45 PM PT): The issue impacts the infotainment system. In most cases, the rest of the vehicle systems are still operational. A vehicle reset or sleep cycle will not solve the issue. We are validating the best options to address the issue for the impacted vehicles. Our customer support team is prioritizing support for our customers related to this issue. Thank you.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/11/14/2147236/rivian-software-update-bricks-infotainment-system-fix-not-obvious?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T22:00:00.000Z",
+          "wordCount": 7988,
+          "title": "Rivian Software Update Bricks Infotainment System, Fix Not Obvious",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/14/1930229/delhi-plans-to-unleash-cloud-seeding-in-its-battle-against-deadly-smog?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "India's capital, New Delhi, is preparing a new weapon in the fight against deadly air pollution: cloud seeding. From a report: The experiment, which could take place as early as next week, would introduce chemicals like silver iodide into a cloudy sky to create rain and, it's hoped, wash away the fine particulate matter hovering over one of the world's largest cities. The need is desperate. Delhi has already tried traffic restriction measures, multimillion-dollar air filtration towers, and the use of fleets of water-spraying trucks to dissolve the particulate matter in the air -- but to no avail. \n\nThe use of cloud seeding, if it goes ahead, would be controversial. \"It's not at all a good use of resources because it's not a solution, it's like a temporary relief,\" says Avikal Somvanshi, a …",
+          "link": "https://news.slashdot.org/story/23/11/14/1930229/delhi-plans-to-unleash-cloud-seeding-in-its-battle-against-deadly-smog?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T21:20:00.000Z",
+          "wordCount": 5583,
+          "title": "Delhi Plans To Unleash Cloud Seeding in Its Battle Against Deadly Smog",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/14/1922218/us-privacy-groups-urge-senate-not-to-ram-through-nsa-spying-powers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Some of the United States' largest civil liberties groups are urging Senate majority leader Chuck Schumer not to pursue a short-term extension of the Section 702 surveillance program slated to sunset on December 31. From a report: The more than 20 groups -- Demand Progress, the Brennan Center for Justice, American Civil Liberties Union, and Asian Americans Advancing Justice among them -- oppose plans that would allow the program to continue temporarily by amending \"must-pass\" legislation, such as the bill needed now to avert a government shutdown by Friday, or the National Defense Authorization Act, annual legislation set to dictate $886 billion in national security spending across the Pentagon and US Department of Energy in 2024. \n\n\"In its current form, [Section 702] is dangerous to our liberties and our democracy, and it should not be renewed for any length of time without robust debate, an opportunity for amendment, and -- ultimately -- far-reaching reforms,\" a letter from the groups to Schumer says. It adds that any attempt to prolong the program by rushed amendment \"would demonstrate blatant disregard for the civil liberties and civil rights of the American people.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/11/14/1922218/us-privacy-groups-urge-senate-not-to-ram-through-nsa-spying-powers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T20:40:00.000Z",
+          "wordCount": 4975,
+          "title": "US Privacy Groups Urge Senate Not To Ram Through NSA Spying Powers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/11/14/1817247/amd-powered-frontier-remains-fastest-supercomputer-in-the-world?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Top500 organization released its semi-annual list of the fastest supercomputers in the world, with the AMD-powered Frontier supercomputer retaining its spot at the top of the list with 1.194 Exaflop/s (EFlop/s) of performance, fending off a half-scale 585.34 Petaflop/s (PFlop/s) submission from the Argonne National Laboratory's Intel-powered Aurora supercomputer. From a report: Argonne's submission, which only employs half of the Aurora system, lands at the second spot on the Top500, unseating Japan's Fugaku as the second-fastest supercomputer in the world. Intel also made inroads with 20 new supercomputers based on its Sapphire Rapids CPUs entering the list, but AMD's EPYC continues to take over the Top500 as it now powers 140 systems on the list -- a 39% year-over-year increase. \n\nIntel and Argonne are currently still working to bring Arora fully online for users in 2024. As such, the Aurora submission represented 10,624 Intel CPUs and 31,874 Intel GPUs working in concert to deliver 585.34 PFlop/s at a total of 24.69 megawatts (MW) of energy. In contrast, AMD's Frontier holds the performance title at 1.194 EFlop/s, which is more than twice the performance of Aurora, while consuming a comparably miserly 22.70 MW of energy (yes, that's less power for the full Frontier supercomputer than half of the Aurora system). Aurora did not land on the Green500, a list of the most power-efficient supercomputers, with this submission, but Frontier continues to hold eighth place on that list. However, Aurora is expected to eventually reach up to 2 EFlop/s of performance when it comes fully online. When complete, Auroroa will have 21,248 Xeon Max CPUs and 63,744 Max Series 'Ponte Vecchio' GPUs spread across 166 racks and 10,624 compute blades, making it the largest known single deployment of GPUs in the world. The system leverages HPE Cray EX â\" Intel Exascale Compute Blades and uses HPE's Slingshot-11 networking interconnect.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/11/14/1817247/amd-powered-frontier-remains-fastest-supercomputer-in-the-world?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T20:00:00.000Z",
+          "wordCount": 5439,
+          "title": "AMD-Powered Frontier Remains Fastest Supercomputer in the World",
+          "imageUrl": "https://a.fsdn.com/sd/topics/amd_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/11/14/1756202/a-lost-bitcoin-wallet-passcode-helped-uncover-a-major-security-flaw?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "After a tech entrepreneur and investor lost his password for retrieving $100,000 in bitcoin and hired experts to break open the wallet where he kept it, they failed to help him. But in the process, they discovered a way to crack enough other software wallets to steal $1 billion or more. From a report: On Tuesday, the team is releasing information about how they did it. They hope it's enough data that the owners of millions of wallets will realize they are at risk and move their money, but not so much data that criminals can figure out how to pull off what would be one of the largest heists of all time. \n\nTheir start-up, Unciphered, has worked for months to alert more than a million people that their wallets are at risk. Millions more haven't been told, often because their wallets were created at cryptocurrency websites that have gone out of business. The story of those wallets' vulnerabilities underscores the enormous risk in experimental currencies, beyond their wild fluctuations in value and fast-changing regulations. Many wallets were created with code containing profound flaws, and the companies that used that code can disappear. Beyond that, it is a sobering reminder that underneath software infrastructure of all kinds, even ones explicitly dedicated to securing funds, are open-source programs that few or no people oversee. \"Open-source ages like milk. It will eventually go bad,\" said Chris Wysopal, a co-founder of security company Veracode who advised Unciphered as it sorted through the problem.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/11/14/1756202/a-lost-bitcoin-wallet-passcode-helped-uncover-a-major-security-flaw?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T19:20:00.000Z",
+          "wordCount": 5346,
+          "title": "A Lost Bitcoin Wallet Passcode Helped Uncover a Major Security Flaw",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/11/14/1750257/google-deepminds-weather-ai-can-forecast-extreme-weather-faster-and-more-accurately?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "In research published in Science today, Google DeepMind's model, GraphCast, was able to predict weather conditions up to 10 days in advance, more accurately and much faster than the current gold standard. From a report: GraphCast outperformed the model from the European Centre for Medium-Range Weather Forecasts (ECMWF) in more than 90% of over 1,300 test areas. And on predictions for Earth's troposphere -- the lowest part of the atmosphere, where most weather happens -- GraphCast outperformed the ECMWF's model on more than 99% of weather variables, such as rain and air temperature. Crucially, GraphCast can also offer meteorologists accurate warnings, much earlier than standard models, of conditions such as extreme temperatures and the paths of cyclones. In September, GraphCast accurately predicted that Hurricane Lee would make landfall in Nova Scotia nine days in advance, says Remi Lam, a staff research scientist at Google DeepMind. Traditional weather forecasting models pinpointed the hurricane to Nova Scotia only six days in advance. \n\n[...] Traditionally, meteorologists use massive computer simulations to make weather predictions. They are very energy intensive and time consuming to run, because the simulations take into account many physics-based equations and different weather variables such as temperature, precipitation, pressure, wind, humidity, and cloudiness, one by one. GraphCast uses machine learning to do these calculations in under a minute. Instead of using the physics-based equations, it bases its predictions on four decades of historical weather data. GraphCast uses graph neural networks, which map Earth's surface into more than a million grid points. At each grid point, the model predicts the temperature, wind speed and direction, and mean sea-level pressure, as well as other conditions like humidity. The neural network is then able to find patterns and draw conclusions about what will happen next for each of these data points.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/11/14/1750257/google-deepminds-weather-ai-can-forecast-extreme-weather-faster-and-more-accurately?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T18:40:00.000Z",
+          "wordCount": 5716,
+          "title": "Google DeepMind's Weather AI Can Forecast Extreme Weather Faster and More Accurately",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/11/14/1738233/nothing-is-bringing-imessage-to-its-android-phone?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Nothing Phone 2 owners get blue bubbles now. The company shared it has added iMessage to its newest phone through a new \"Nothing Chats\" app powered by the messaging platform Sunbird. From a report: The feature will be available to users in North America, the EU, and other European countries starting this Friday, November 17th. Nothing writes on its page that it's doing this because \"messaging services are dividing phone users,\" and it wants \"to break those barriers down.\" But doing so here requires you to trust Sunbird. Nothing's FAQ says Sunbird's \"architecture provides a system to deliver a message from one user to another without ever storing it at any point in its journey,\" and that messages aren't stored on its servers. \n\nMarques Brownlee has also had a preview of Nothing Chats. He confirmed with Nothing that, similar to how other iMessage-to-Android bridge services have worked before, \"...it's literally signing in on some Mac Mini in a server farm somewhere, and that Mac Mini will then do all of the routing for you to make this happen.\" Nothing's US head of PR, Jane Nho, told The Verge in an email that Sunbird stores user iCloud credentials as a token \"in an encrypted database\" and associated with one of its Mac Minis in the US or Europe, depending on the user's location, that then act as a relay for iMessages sent via the app. She added that, after two weeks of inactivity, Sunbird deletes the account information.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/11/14/1738233/nothing-is-bringing-imessage-to-its-android-phone?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T18:00:00.000Z",
+          "wordCount": 11931,
+          "title": "Nothing is Bringing iMessage To Its Android Phone",
+          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/11/14/1620218/the-2000-phones-that-let-anyone-make-robocalls?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader writes: Videos collected by 404 Media over months give a peek into the world of spoofing numbers, automated call scripts, and a specific seller of the phones. From the report: \"Alright lads,\" a man sitting in the passenger seat of a moving car says in a heavy British accent. In his left hand he holds a special phone he is showing off to his clients, while with the other he films his demonstration which was later uploaded to Telegram. \"I'm only going to say it once, yeah. You swipe, and it's gone,\" he continues, demonstrating one app installed that can instantly destroy data stored on the device. The phone in question is one from \"Russiancoms,\" an underground outfit that sells the devices for just under $2,000 each. For that price, customers get a laundry list of features: the ability to spoof phone numbers, play hold music, and have a computerized voice read pre-determined scripts. While Russiancoms does not acknowledge in its Telegram channel what the phones might really be for, those are features well suited to committing fraud. \n\nThe Russiancoms Telegram channel periodically deletes its videos and other messages, but 404 Media has been archiving many of them for months. They provide insight into a little known industry of fraud phones, ones that make it easy for anyone to enter the world of robocalling or other scams. While much of the underground phone industry has been focused on providing secure communications to criminals -- companies like Phantom Secure, Encrochat, and Sky for example -- Russiancoms and similar companies appear to cater to a different use case: enabling people to make calls that fraudulently appear to come from someone else. A common tool in the underground is also so-called Russian SIMs, which can spoof numbers in some cases. Russiancoms' phones, however, are more fully featured.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/11/14/1620218/the-2000-phones-that-let-anyone-make-robocalls?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T17:20:00.000Z",
+          "wordCount": 5359,
+          "title": "The $2,000 Phones That Let Anyone Make Robocalls",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/11/14/1628239/fbi-struggled-to-disrupt-dangerous-casino-hacking-gang-cyber-responders-say?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. Federal Bureau of Investigation (FBI) has struggled to stop a hyper-aggressive cybercrime gang that's been tormenting corporate America over the last two years, according to nine cybersecurity responders, digital crime experts and victims. Reuters: For more than six months, the FBI has known the identities of at least a dozen members tied to the hacking group responsible for the devastating September break-ins at casino operators MGM Resorts International and Caesars Entertainment, according to four people familiar with the investigation. Industry executives have told Reuters they were baffled by an apparent lack of arrests despite many of the hackers being based in America. \"I would love for somebody to explain it to me,\" said Michael Sentonas, president of CrowdStrike, one of the firms leading the response effort to the hacks. \n\n\"For such a small group, they are absolutely causing havoc,\" Sentonas told Reuters in an interview last month. Sentonas said the hackers were \"known\" but didn't provide specifics. He did say, \"I think there is a failure here.\" Asked who was responsible for the failure, Sentonas said, \"law enforcement.\" [...] Dubbed by some security professionals as \"Scattered Spider,\" the hacking group has been active since 2021 but it grabbed headlines following a series of intrusions at several high profile American companies.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/11/14/1628239/fbi-struggled-to-disrupt-dangerous-casino-hacking-gang-cyber-responders-say?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T16:40:00.000Z",
+          "wordCount": 5357,
+          "title": "FBI Struggled To Disrupt Dangerous Casino Hacking Gang, Cyber Responders Say",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/11/14/1548238/ai-could-predict-heart-attack-risk-up-to-10-years-in-the-future-finds-oxford-study?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "AI could be used to predict if a person is at risk of having a heart attack up to 10 years in the future, a study has found. From a report: The technology could save thousands of lives while improving treatment for almost half of patients, researchers at the University of Oxford said. The study, funded by the British Heart Foundation (BHF), looked at how AI might improve the accuracy of cardiac CT scans, which are used to detect blockages or narrowing in the arteries. \n\nProf Charalambos Antoniades, chair of cardiovascular medicine at the BHF and director of the acute multidisciplinary imaging and interventional centre at Oxford, said: \"Our study found that some patients presenting in hospital with chest pain -- who are often reassured and sent back home -- are at high risk of having a heart attack in the next decade, even in the absence of any sign of disease in their heart arteries. Here we demonstrated that providing an accurate picture of risk to clinicians can alter, and potentially improve, the course of treatment for many heart patients.\" \n\nAbout 350,000 people in the UK have a CT scan each year but, according to the BHF, many patients later die of heart attacks due to their failure in picking up small, undetectable narrowings. Researchers analysed the data of more than 40,000 patients undergoing routine cardiac CT scans at eight UK hospitals, with a median follow-up time of 2.7 years. The AI tool was tested on a further 3,393 patients over almost eight years and was able to accurately predict the risk of a heart attack. AI-generated risk scores were then presented to medics for 744 patients, with 45% having their treatment plans altered by medics as a result.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/11/14/1548238/ai-could-predict-heart-attack-risk-up-to-10-years-in-the-future-finds-oxford-study?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T16:00:00.000Z",
+          "wordCount": 5478,
+          "title": "AI Could Predict Heart Attack Risk Up To 10 Years in the Future, Finds Oxford Study",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/11/14/1450226/google-sues-men-who-weaponized-dmca-notices-to-crush-competition?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader writes: Two men who allegedly used 65 Google accounts to bombard Google with fraudulent DMCA takedown notices targeting up to 620,000 URLs, have been named in a Google lawsuit filed in California on Monday. Google says the men weaponized copyright law's notice-and-takedown system to sabotage competitors' trade, while damaging the search engine's business and those of its customers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/11/14/1450226/google-sues-men-who-weaponized-dmca-notices-to-crush-competition?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-14T15:20:00.000Z",
+          "wordCount": 6375,
+          "title": "Google Sues Men Who Weaponized DMCA Notices To Crush Competition",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        }
+      ]
+    }
+  ],
+  "cliVersion": "1.15.1"
+}
