@@ -6,13 +6,13 @@
       "siteUrl": "https://tonsky.me/",
       "articles": [
         {
-          "id": "https://tonsky.me/blog/simple-router/",
+          "id": "https://tonsky.me/talks/#2023-11-18",
           "author": null,
-          "description": "Announcing clj-simple-router, a HTTP router for Clojure that allows overlapping routes and order-independent route declarations",
-          "link": "https://tonsky.me/blog/simple-router/",
-          "publishedOn": "2023-10-21T00:00:00.000Z",
-          "wordCount": 491,
-          "title": "New Library: Simple Router",
+          "description": "Richard talks with Nikita Prokopov about some of the reasons he'd felt a sense of disenchantment with the direction of software in the past, and strategies he's developed for improving things in the future.",
+          "link": "https://tonsky.me/talks/#2023-11-18",
+          "publishedOn": "2023-11-18T00:00:00.000Z",
+          "wordCount": 3085,
+          "title": "Podcast: Escaping Software Disenchantment @ Software Unscripted",
           "imageUrl": null
         }
       ]
@@ -82,16 +82,6 @@
           "publishedOn": "2023-10-27T16:36:26.000Z",
           "wordCount": 496,
           "title": "X celebrates 60% savings from cloud exit",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/buying-the-seller-1520e9dd",
-          "author": null,
-          "description": "We've just moved the 37signals podcast to Buzzsprout. Podcast hosting is to some extent a commodity market, so this was less about pining for a specific feature or even working to reduce the bill. This was about buying from Tom Rossi, the technical cofounder of HigherPixels (who make Buzzsprout), and his team, because we'd just prefer to do business with them.\nI've known Tom from the Rails community for years, but at Rails World a few weeks ago, I really got to know him better. He was there as a supporter of the conference, sponsoring a podcasting booth for Rails podcasts recording on site. We talked about bootstrapping, managing a small company, and working with Rails. We literally saw eye to eye.\nThis in-person encounter made me reflect on modern commerce. How impersonal it is most of th…",
-          "link": "https://world.hey.com/dhh/buying-the-seller-1520e9dd",
-          "publishedOn": "2023-10-20T18:53:46.000Z",
-          "wordCount": 468,
-          "title": "Buying the seller",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
@@ -325,6 +315,16 @@
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
         {
+          "id": "http://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html",
+          "author": null,
+          "description": "I learned this week that you can intercept and redirect Postgres query\nexecution. You can hook into the execution layer so you're given a\nquery plan and you get to decide what to do with it. What rows to\nreturn, if any, and where they come from.\nThat's very interesting. So I started writing code to explore execution\nhooks. However, I got stuck interpreting the query plan. Either\nthere's no query plan walking infrastructure or I just didn't find it.\nSo this post is a digression into walking a Postgres query plan. By\nthe end we'll be able to run psql -c 'SELECT a FROM x WHERE a > 1'\nand reconstruct the entire SQL string from a Postgres\nQueryDesc\nobject, the query plan object Postgres builds.\nWith that query plan walking infrastructure in place, we'll be in a\ngood state to not just print out …",
+          "link": "http://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html",
+          "publishedOn": "2023-11-19T00:00:00.000Z",
+          "wordCount": 7917,
+          "title": "Exploring a Postgres query plan",
+          "imageUrl": null
+        },
+        {
           "id": "http://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html",
           "author": null,
           "description": "With Postgres 12,\nreleased in 2019, it became possible to swap out Postgres's storage\nengine.\nThis is a feature MySQL has supported for a long time. There are at\nleast 8 different built-in\nengines you can pick from. MyRocks, MySQL on\nRocksDB, is another popular third-party distribution.\nI assume there will be a renaissance of Postgres storage engines. To\ndate, the efforts are\nnascent. OrioleDB and Citus\nColumnar\nare two promising third-party table access methods being actively\ndeveloped.\nWhy alternative storage engines?\nThe ability to swap storage engines is useful because different\nworkloads sometimes benefit from different storage\napproaches. Analytics workloads and columnar storage layouts go well\ntogether. Write-heavy\nworkloads and LSM trees go well\ntogether. And\nsome people like in-me…",
@@ -366,6 +366,16 @@
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
       "articles": [
+        {
+          "id": "http://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html",
+          "author": null,
+          "description": "I learned this week that you can intercept and redirect Postgres query\nexecution. You can hook into the execution layer so you're given a\nquery plan and you get to decide what to do with it. What rows to\nreturn, if any, and where they come from.\nThat's very interesting. So I started writing code to explore execution\nhooks. However, I got stuck interpreting the query plan. Either\nthere's no query plan walking infrastructure or I just didn't find it.\nSo this post is a digression into walking a Postgres query plan. By\nthe end we'll be able to run psql -c 'SELECT a FROM x WHERE a > 1'\nand reconstruct the entire SQL string from a Postgres\nQueryDesc\nobject, the query plan object Postgres builds.\nWith that query plan walking infrastructure in place, we'll be in a\ngood state to not just print out …",
+          "link": "http://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html",
+          "publishedOn": "2023-11-19T00:00:00.000Z",
+          "wordCount": 7917,
+          "title": "Exploring a Postgres query plan",
+          "imageUrl": null
+        },
         {
           "id": "http://notes.eatonphil.com/2023-11-01-postgres-table-access-methods.html",
           "author": null,
@@ -413,6 +423,16 @@
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://taylor.town/knuth-airgap",
+          "author": null,
+          "description": "Knuth knows how to maintain information hygeine.",
+          "link": "https://taylor.town/knuth-airgap",
+          "publishedOn": "2023-11-19T00:00:00.000Z",
+          "wordCount": 462,
+          "title": "Knuth Airgaps & Knuth Buffers",
+          "imageUrl": null
+        },
         {
           "id": "https://taylor.town/pseudoprose",
           "author": null,
@@ -520,6 +540,136 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://games.slashdot.org/story/23/11/20/0039203/text-adventures-are-still-thriving-in-interactive-fiction-competition---and-on-threads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Today saw the end of IFComp.org's 29th annual text adventure competition (now administered by the charitable non-profit IF Technology Foundation). 74 new and original text adventures\n competed for a share of the $7,523 prize pool, with the winners announced in a special online ceremony on Twitch this afternoon. \n\nAfter all the votes were tabulated, the winning game was Dr Ludwig and the Devil, a 90-minute epic in which an esteemed mad scientist tries to double-cross Beelzebub himself — along with \"the world's least effective torch and pitchfork-wielding mob!\" Coming in second was LAKE Adventure. (Its premise? That it's a 13-year-old's 1993 game being revisited by its author 28 years later — complete with some gloriously retro artwork.) And finishing third was The Little Match Girl 4 (described as \"a touching epic time travel fairy tale by Hans Christian Andersen.) \n\nBut also this week, the owner of the web site 80sNostalgia.com has created a text adventure using nothing but inter-linked posts on Threads. \n\"Think you can get under The Bridge?\" its first post challenges. \"Test your gaming skills with this Threads exclusive text-based game! \n\"And then try to get your head around got much work it took to make it...\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/11/20/0039203/text-adventures-are-still-thriving-in-interactive-fiction-competition---and-on-threads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-20T00:41:00.000Z",
+          "wordCount": 3915,
+          "title": "Text Adventures are Still Thriving in Interactive Fiction Competition - and On Threads",
+          "imageUrl": "https://a.fsdn.com/sd/topics/rpg_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/11/19/2053244/a-viral-post-on-social-media-will-clear-the-medical-debt-of-strangers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"To celebrate my life, I've arranged to buy up others' medical debt and then destroy the debt,\" reads a posthumous tweet posted Tuesday after the death of 38-year-old Casey McIntyre. \n\nThe Washington Post explains...\n\n\nMcIntyre, who served as publisher at Razorbill, an imprint of Penguin Random House, was diagnosed in 2019 and proceeded through treatment without taking on debt, [husband Andrew Rose] Gregory told The Washington Post. But many fellow cancer patients she met were in more precarious financial positions, Gregory added. \"We were both so keenly aware that Casey had great health insurance through Penguin Random House,\" said Gregory, 41. \"Casey had no medical debt....\" \n\nAbout nine months before McIntyre died, her husband came across a video online about members of a North Carolina…",
+          "link": "https://science.slashdot.org/story/23/11/19/2053244/a-viral-post-on-social-media-will-clear-the-medical-debt-of-strangers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T22:34:00.000Z",
+          "wordCount": 8281,
+          "title": "A Viral Post on Social Media Will Clear the Medical Debt of Strangers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/11/19/2034218/microsoft-celebrates-20th-anniversary-of-patch-tuesday?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "This week the Microsoft Security Response Center celebrated the 20th anniversary of Patch Tuesday updates. \n\nIn a blog post they call the updates \"an initiative that has become a cornerstone of the IT world's approach to cybersecurity.\"\nOriginating from the Trustworthy Computing memo by Bill Gates in 2002, our unwavering commitment to protecting customers continues to this day and is reflected in Microsoft's Secure Future Initiative announced this month. Each month, we deliver security updates on the second Tuesday, underscoring our pledge to cyber defense. As we commemorate this milestone, it's worth exploring the inception of Patch Tuesday and its evolution through the years, demonstrating our adaptability to new technology and emerging cyber threats... \n\nBefore this unified approach, ou…",
+          "link": "https://it.slashdot.org/story/23/11/19/2034218/microsoft-celebrates-20th-anniversary-of-patch-tuesday?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T21:34:00.000Z",
+          "wordCount": 4521,
+          "title": "Microsoft Celebrates 20th Anniversary of 'Patch Tuesday'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/11/19/204228/amazon-announces-olympus-llm-to-compete-with-openai-and-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Amazon \"is investing millions in training an ambitious large language model,\" reports Reuters, \"hoping it could rival top models from OpenAI and Alphabet, two people familiar with the matter told Reuters.\"\n\nThe model, codenamed as \"Olympus\", has 2 trillion parameters, the people said, which could make it one of the largest models being trained. OpenAI's GPT-4 model, one of the best models available, is reported to have one trillion parameters... \n\nThe team is spearheaded by Rohit Prasad, former head of Alexa, who now reports directly to CEO Andy Jass... Amazon believes having homegrown models could make its offerings more attractive on AWS, where enterprise clients want to access top-performing models, the people familiar with the matter said, adding there is no specific timeline for relea…",
+          "link": "https://slashdot.org/story/23/11/19/204228/amazon-announces-olympus-llm-to-compete-with-openai-and-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T20:34:00.000Z",
+          "wordCount": 4930,
+          "title": "Amazon Announces 'Olympus' LLM to Compete With OpenAI and Google",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/11/19/1920250/linux-foundation-announces-intent-to-form-high-performance-software-foundation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "This week the Linux Foundation \"announced the intention to form the High Performance Software Foundation. \n\n\"Through a series of technical projects, the High Performance Software Foundation aims to build, promote, and advance a portable software stack for high performance computing by increasing adoption, lowering barriers to contribution, and supporting development efforts.\"\n\nAs use of high performance computing becomes ubiquitous in scientific computing and digital engineering, and AI use cases multiply, more and more data centers deploy GPUs and other compute accelerators. The High Performance Software Foundation intends to leverage investments made by the United States Department of Energy's Exascale Computing Project, the EuroHPC Joint Undertaking, and other international projects in …",
+          "link": "https://tech.slashdot.org/story/23/11/19/1920250/linux-foundation-announces-intent-to-form-high-performance-software-foundation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T19:34:00.000Z",
+          "wordCount": 4277,
+          "title": "Linux Foundation Announces Intent to Form 'High Performance Software Foundation'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/supercomputing_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/19/1826218/the-fsf-condemns-unauthorized-derivatives-of-gnu-licenses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "The Free Sofware Foundation issued a clarifying blog post this week, saying the organization is \"pleased when people use GNU licenses to distribute and license software.\" \n\n\nBut \"we condemn the use of unauthorized, confusing derivatives of the licenses.\"\nUnfortunately, some authors engage in confusing practices by drafting licenses using existing terms and conditions of GNU free software licenses, without the intention of granting all four freedoms to users. For example, we have long seen attempts to add restrictions to the license text itself, placed in the LICENSE file, or included elsewhere in the program's release. An example is the so-called \"Commons Clause,\" which, when applied to a free software license, affirms that the program is covered by the license. But, at the same time, is c…",
+          "link": "https://news.slashdot.org/story/23/11/19/1826218/the-fsf-condemns-unauthorized-derivatives-of-gnu-licenses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T18:34:00.000Z",
+          "wordCount": 5523,
+          "title": "The FSF Condemns Unauthorized Derivatives of GNU Licenses",
+          "imageUrl": "https://a.fsdn.com/sd/topics/gnu_64.png"
+        },
+        {
+          "id": "https://idle.slashdot.org/story/23/11/19/0426209/1993s-second-reality-demo-recreated-for-the-apple-ii?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Long-time Slashdot reader deater writes: The Second Reality demoscene demo from 1993 is one of the most well known demos of all time, pushing a 486 running DOS to its limits. There have been remakes for other architectures over the years, including Atari ST, Gameboy color, and Commodore 64. At this past Demosplash 2023 demoparty a version for the Apple II was released (and won 1st place), which was quite a challenge as the Apple II graphics have essentially none of the hardware acceleration available on the other platforms.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://idle.slashdot.org/story/23/11/19/0426209/1993s-second-reality-demo-recreated-for-the-apple-ii?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T17:34:00.000Z",
+          "wordCount": 5586,
+          "title": "1993's 'Second Reality' Demo Recreated for the Apple II",
+          "imageUrl": "https://a.fsdn.com/sd/topics/idle_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/11/18/2225219/archaeologists-unearth-a-secret-lost-language-from-3000-years-ago?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"And no, it's not COBOL,\" jokes long-time Slashdot reader schwit1, sharing this report from ScienceAlert:\n\n\nA secret text has been discovered in Türkiye, scattered among tens of thousands of ancient clay tablets, which were written in the time of the Hittite Empire during the second millennium BCE. No one yet knows what the curious cuneiform script says, but it seems to be a long-lost language from more than 3,000 years ago. \n\nExperts say the mysterious idiom is unlike any other ancient written language found in the Middle East, although it seems to share roots with other Anatolian-Indo-European languages. The sneaky scrawlings start at the end of a cultic ritual text written in Hittite — the oldest known Indo-European tongue — after an introduction that essentially translates to: \"From now on, read in the language of the country of Kalasma\"...\n\nCurrently, there are no available photos of the newly discovered tablet with Kalamaic writings, as experts are still working out how to translate it. Schwemer and his colleagues hope to publish their results along with images of their discovery sometime next year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/11/18/2225219/archaeologists-unearth-a-secret-lost-language-from-3000-years-ago?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T16:34:00.000Z",
+          "wordCount": 9149,
+          "title": "Archaeologists Unearth a Secret Lost Language From 3,000 Years Ago",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/11/18/2128233/how-mojo-hopes-to-revamp-python-for-an-ai-world?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Python \"come with downsides,\" argues a new article in Communications of the ACM. \"Its programs tend to run slowly, and because it is inefficient at running processes in parallel, it is not well suited to some of the latest AI programming.\" \n\n\n\"Hoping to overcome those difficulties, computer scientist Chris Lattner set out to create a new language, Mojo, which offers the ease of use of Python, but the performance of more complex languages such as C++ or Rust.\" Lattner tells the site \"we don't want to break Python, we want to make Python better,\" while software architect Doug Meil says Mojo is essentially \"Python for AI... and it's going to be way faster in scale across multiple hardware platforms.\"\n\n\nLattner teamed up with Tim Davis, whom he had met when they both worked for Google, to form…",
+          "link": "https://developers.slashdot.org/story/23/11/18/2128233/how-mojo-hopes-to-revamp-python-for-an-ai-world?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T15:34:00.000Z",
+          "wordCount": 5705,
+          "title": "How Mojo Hopes to Revamp Python for an AI World",
+          "imageUrl": "https://a.fsdn.com/sd/topics/python_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/11/18/039221/raspberry-pi-os-elementary-os-will-default-to-wayland?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Recently the Register pointed out that the new (Debian-based) Raspberry Pi OS 5.0 has \"a completely new Wayland desktop environment replacing PIXEL, the older desktop based on LXDE and X.org, augmented with Mutter in its previous release.\" \n\nAnd when elementary OS 8 finally arrives, \"the development team plans to finally shift to the Wayland display server by default,\" reports Linux magazine (adding \"If you'd like to get early access to daily builds, you can do so by becoming an elementary OS sponsor on GitHub.\") \n\n\"This is a transition that we have been planning and working towards for several years,\" writes CEO/co-founder Danielle Foré, \"and we're finally in the home stretch... Wayland will bring us improved performance, better app security, and opens the doors to support more complex display setups like mixed DPI multi-monitor setups.\"\nThere are other things that we're experimenting with, like the possibility of an immutable OS, and there are more mundane things that will certainly happen like shipping Pipewire. You'll also see on the project board that we're looking to replace the onscreen keyboard and it's time to re-evaluate some things like SystemD Boot. You can expect lots more little features to be detailed over the coming months. \n\nMeanwhile, Linux Mint is getting \"experimental\" Wayland support next month. And also in December, Firefox will let Wayland support be enabled by default. \n\nAnd last month the Register noted a merge request for GNOME to remove the gnome-xorg.desktop file. \"To put this in context, the Fedora project is considering a comparable change: removing or hiding the GNOME on X.org session from the login menu, which is already the plan for the Fedora KDE spin when it moves to KDE version 6, which is still in development.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/11/18/039221/raspberry-pi-os-elementary-os-will-default-to-wayland?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T12:34:00.000Z",
+          "wordCount": 9720,
+          "title": "Raspberry Pi OS, elementary OS Will Default to Wayland",
+          "imageUrl": "https://a.fsdn.com/sd/topics/gui_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/11/19/0229237/could-ai-and-tech-advancements-bring-a-new-era-of-evolution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "A professor of religion at Columbia University writes, \"I do not think human beings are the last stage in the evolutionary process.\"\n\nWhatever comes next will be neither simply organic nor simply machinic but will be the result of the increasingly symbiotic relationship between human beings and technology. Bound together as parasite/host, neither people nor technologies can exist apart from the other because they are constitutive prostheses of each other... So-called \"artificial\" intelligence is the latest extension of the emergent process through which life takes ever more diverse and complex forms. \n\nThe article lists \"four trajectories that will be increasingly important for the symbiotic relationship between humans and machines.\" \n\n- Writing about neuroprosthetics, the professor argues…",
+          "link": "https://hardware.slashdot.org/story/23/11/19/0229237/could-ai-and-tech-advancements-bring-a-new-era-of-evolution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T08:34:00.000Z",
+          "wordCount": 10533,
+          "title": "Could AI and Tech Advancements Bring a New Era of Evolution?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/11/19/0320207/in-worlds-largest-disinformation-campaign-online-china-is-harassing-americans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"The Chinese government has built up the world's largest known online disinformation operation,\" reports CNN, \"and is using it to harass US residents, politicians, and businesses.\" \n\nCNN reports that disinformation operation is even \"at times threatening its targets with violence, a CNN review of court documents and public disclosures by social media companies has found.\"\n\nThe onslaught of attacks — often of a vile and deeply personal nature — is part of a well-organized, increasingly brazen Chinese government intimidation campaign targeting people in the United States, documents show. The U.S. State Department says the tactics are part of a broader multi-billion-dollar effort to shape the world's information environment and silence critics of Beijing that has expanded under President Xi J…",
+          "link": "https://tech.slashdot.org/story/23/11/19/0320207/in-worlds-largest-disinformation-campaign-online-china-is-harassing-americans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T04:58:00.000Z",
+          "wordCount": 13581,
+          "title": "In World's Largest Disinformation Campaign Online, China Is Harassing Americans",
+          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/11/18/0227230/kotlin-keeps-climbing-tiobes-programming-language-popularity-index?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An anonymous reader shared this report from InfoWorld:\n\nJetBrains' Kotlin language, a Java rival endorsed by Google for Android mobile development, continues to scale up Tiobe's index of language popularity, reaching the 15th spot in the November 2023 rankings... \n\nSoftware quality services company Tiobe cites Kotlin advantages including interoperability with Java and unrivaled Android accommodations as reasons for the language's rise. Kotlin, Tiobe CEO Paul Jansen said, also fits in with a modern programming culture of expressive languages that have a strong type system and avoid null pointer exceptions by design. \"Based on my experience, I am pretty sure Kotlin can reach a top 10 position,\" Jansen said. It remains to be seen if it can ever scale as high as a top four slot, he added... \nIn the rival Pypl Popularity of Programming languages index this month, Kotlin was ranked 13th with a 1.76% share, having slipped slightly year-over-year. \n\nKotlin's rank on the TIOBE index rose three positions in the last month — after rising two positions the month before. TIOBE's CEO says the language has now achieved its highest ranking ever on the index, surpassing 2017's \"first wave of Kotlin popularity...when Google announced first class support for Kotlin on Android.\" \nRust now ranks #20 on the index, behind Delphi/Object Pascal, Swift, Ruby, and R. \n\nHere's TIOBE November rankings for top-20 most popular programming languages:\n\nPythonCC++JavaC#JavaScriptPHPVisual BasicSQLAssembly LanguageScratchFortranGoMATLABKotlinDelphi/Object PascalSwiftRubyRRust\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://developers.slashdot.org/story/23/11/18/0227230/kotlin-keeps-climbing-tiobes-programming-language-popularity-index?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-19T02:59:00.000Z",
+          "wordCount": 6882,
+          "title": "Kotlin Keeps Climbing TIOBE's Programming Language Popularity Index",
+          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
+        },
         {
           "id": "https://slashdot.org/story/23/11/19/0055242/openai-investors-plot-last-minute-push-with-microsoft-to-reinstate-sam-altman-as-ceo?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
