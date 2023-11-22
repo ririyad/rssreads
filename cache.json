@@ -279,16 +279,6 @@
           "wordCount": 139,
           "title": "1.74.0 pre-release testing",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/10/23/coroutines.html",
-          "author": null,
-          "description": "We have renamed the unstable Generator trait to Coroutine and adjusted all terminology accordingly.\nIf you want to see all 3800 modified lines of code, you can find the PR here.\nOur Generator trait was effectively a coroutine already, so this change was long overdue.\nAll nightly users using the Generator trait must now update their code to refer to the new feature gate and trait names.\nWhat is the difference?\nA generator is just a convenient way to write Iterator implementations.\nThis means it's a coroutine that has no arguments and no return type.\nInstead when it returns, that means iteration is over, and the Iterator::next method returns None.\nComing full circle\nThis change is directly motivated for reintroducing generators, this time with simpler (async/await style)\nsyntax for creating Iterators. Some discussion about this can be found in the gen fn rfc.\nOf course such a massive change would be incomplete without the PR to immediately reintroduce a new concept with the name that was just removed,\nso here you can see the MVP for gen blocks that has very weird diagnostics and may panic on you if you poke it too much.",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/10/23/coroutines.html",
-          "publishedOn": "2023-10-23T00:00:00.000Z",
-          "wordCount": 274,
-          "title": "Generators are dead, long live coroutines, generators are back",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -434,6 +424,16 @@
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
         {
+          "id": "https://taylor.town/yallnt",
+          "author": null,
+          "description": "Y'all'n't sophisticated.",
+          "link": "https://taylor.town/yallnt",
+          "publishedOn": "2023-11-20T00:00:00.000Z",
+          "wordCount": 553,
+          "title": "\"y'all'n't\"",
+          "imageUrl": null
+        },
+        {
           "id": "https://taylor.town/knuth-airgap",
           "author": null,
           "description": "Knuth knows how to maintain information hygeine.",
@@ -550,6 +550,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://entertainment.slashdot.org/story/23/11/22/0013215/spotify-to-phase-out-service-in-uruguay-following-new-copyright-bill?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Laura Snapes reports via The Guardian: Spotify is to phase out its service in Uruguay after the passing of a new music copyright bill requiring \"fair and equitable remuneration\" for authors, composers, performers, directors and screenwriters. In October, the country's parliament voted on a budget bill that included two new articles: per article 284, social networks and the internet are to be added \"as formats for which, if a song is reproduced, the performer is entitled to financial remuneration\" -- namely if a link to a song is shared online. Article 285 will put into copyright law the \"right to a fair and equitable remuneration\" for all \"agreements entered into by authors, composers, performers, directors and screenwriters with respect to their faculty of public communication and making available to the public of phonograms and audiovisual recordings.\"\n \nIn response, Spotify said in a statement on November 20 that without changes to the 2023 Rendicion de Cuentas law, the streaming platform \"will, unfortunately, begin to phase out its service in Uruguay effective January 1, 2024\" and cease trading in the market in February 2024. The Swedish company seeks confirmation on whether additional costs to be paid to musicians are the responsibility of rights holders or the streaming platforms, arguing that the latter means that it would be required \"to pay twice for the same music,\" Music Business Worldwide reports. The statement continued: \"Spotify already pays nearly 70% of every dollar it generates from music to the record labels and publishers that own the rights for music, and represent and pay artists and songwriters. Any additional payments would make our business untenable.\" The platform claimed that it had contributed to a 20% growth in Uruguay's music industry in 2022. That year, the South American nation was the 53rd largest market for music.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/23/11/22/0013215/spotify-to-phase-out-service-in-uruguay-following-new-copyright-bill?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-22T01:00:00.000Z",
+          "wordCount": 4028,
+          "title": "Spotify To Phase Out Service In Uruguay Following New Copyright Bill",
+          "imageUrl": "https://a.fsdn.com/sd/topics/music_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/22/007247/third-party-data-breach-affecting-canadian-government-could-involve-data-from-1999?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Connor Jones reports via The Register: The government of Canada has confirmed its data was accessed after two of its third-party service providers were attacked. The third parties both provided relocation services for public sector workers and the government is currently analyzing a \"significant volume of data\" which could date back to 1999. No formal conclusions have yet been made about the number of workers impacted due to the large-scale task of analyzing the relevant data. However, the servers impacted by the breach held data related to current and former Canadian government staff, members of the Canadian armed forces, and Royal Canadian Mounted Police workers -- aka Mounties.\n \n\"At this time, given the significant volume of data being assessed, we cannot yet identify specific individuals impacted; however, preliminary information indicates that breached information could belong to anyone who has used relocation services as early as 1999 and may include any personal and financial information that employees provided to the companies,\" a government statement read. Those who think they may be affected are advised to update any login details that may be similar to those used to access BGRS or Sirva's systems. Enabling MFA across all accounts that are used for online transactions is also advised, as is the manual monitoring of personal accounts for any potential malicious activity. Work is currently being carried out to identify and address any vulnerabilities that may have led to the incident, according to the statement.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/11/22/007247/third-party-data-breach-affecting-canadian-government-could-involve-data-from-1999?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-22T00:20:00.000Z",
+          "wordCount": 3961,
+          "title": "Third-Party Data Breach Affecting Canadian Government Could Involve Data From 1999",
+          "imageUrl": "https://a.fsdn.com/sd/topics/canada_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/11/21/2220242/ceo-reminds-everyone-his-company-collects-customers-sleep-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from 404 Media: Matteo Franceschetti, the CEO of Eight Sleep, which makes the $2,295 smart mattress topper \"The Pod\" tweeted: \"Breaking news: The OpenAI drama is real. We checked our data and last night, SF saw a spike in low-quality sleep. There was a 27 percent increase in people getting under 5 hours of sleep. We need to fix this. Source: @eightsleep data.\" Franceschetti's tweet reminds us that The Pod is essentially a mattress with both a privacy policy and a terms of service, and that the data Eight Sleep collects about its users can and is used to further its business goals. It's also a reminder that many apps, smart devices, and apps for smart devices collect a huge amount of user data that they can then directly monetize or deploy for marketing o…",
+          "link": "https://yro.slashdot.org/story/23/11/21/2220242/ceo-reminds-everyone-his-company-collects-customers-sleep-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T23:40:00.000Z",
+          "wordCount": 5072,
+          "title": "CEO Reminds Everyone His Company Collects Customers' Sleep Data",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/11/21/2213231/massive-cryptocurrency-rig-discovered-under-polish-courts-floor-stealing-power?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to Polish news channel TVN24, a secret cryptomining rig was found under the floors of a Polish court, stealing thousands of Polish Zlotys worth of energy per month (the equivalent of roughly $250 per 1,000 Zlotys). \"It's currently unknown how long the rig was running because the illegal operation went undetected, partly because the computers used were connected to the Internet through their own modems rather than through the court's network,\" reports Ars Technica. From the report: While no one has been charged yet with any crimes, the court seemingly has suspects. Within two weeks of finding the rig, the court terminated a contract with a company responsible for IT maintenance in the building, TVN24 reported. Before the contract ended, the company fired two employees that it said were responsible for maintenance in the parts of the building where the cryptomine was hidden. Poland's top law enforcement officials, the Internal Security Agency, have been called in to investigate. The Warsaw District Prosecutor's Office has hired IT experts to help determine exactly how much electricity was stolen from Poland's Supreme Administrative Court in Warsaw, TVN24 reported.\n \nThe Supreme Administrative Court is the last resort for sensitive business and tax disputes, but no records seem to have been compromised. Judge Sylwester Marciniak -- the chairman of the Judicial Information Department of the Supreme Administrative Court -- told TVN24 that the discovery of the cryptomine \"did not result in any threat to the security of data stored\" in the court.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/11/21/2213231/massive-cryptocurrency-rig-discovered-under-polish-courts-floor-stealing-power?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T23:00:00.000Z",
+          "wordCount": 4104,
+          "title": "Massive Cryptocurrency Rig Discovered Under Polish Court's Floor, Stealing Power",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/11/21/2146251/sarah-silverman-hits-stumbling-block-in-ai-copyright-infringement-lawsuit-against-meta?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Winston Cho writes via The Hollywood Reporter: A federal judge has dismissed most of Sarah Silverman's lawsuit against Meta over the unauthorized use of authors' copyrighted books to train its generative artificial intelligence model, marking the second ruling from a court siding with AI firms on novel intellectual property questions presented in the legal battle. U.S. District Judge Vince Chhabria on Monday offered a full-throated denial of one of the authors' core theories that Meta's AI system is itself an infringing derivative work made possible only by information extracted from copyrighted material. \"This is nonsensical,\" he wrote in the order. \"There is no way to understand the LLaMA models themselves as a recasting or adaptation of any of the plaintiffs' books.\"\n \nAnother of Silverman's arguments that every result produced by Meta's AI tools constitutes copyright infringement was dismissed because she didn't offer evidence that any of the outputs \"could be understood as recasting, transforming, or adapting the plaintiffs' books.\" Chhabria gave her lawyers a chance to replead the claim, along with five others that weren't allowed to advance. Notably, Meta didn't move to dismiss the allegation that the copying of books for purposes of training its AI model rises to the level of copyright infringement. In July, Silverman and two authors filed a class action lawsuit against Meta and OpenAI for allegedly using their content without permission to train AI language models.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/11/21/2146251/sarah-silverman-hits-stumbling-block-in-ai-copyright-infringement-lawsuit-against-meta?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T22:20:00.000Z",
+          "wordCount": 5767,
+          "title": "Sarah Silverman Hits Stumbling Block in AI Copyright Infringement Lawsuit Against Meta",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/11/21/2137234/openais-board-may-be-coming-around-to-sam-altman-returning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: OpenAI's board of directors is reportedly in talks with Sam Altman, ex-Y Combinator president and an OpenAI co-founder, to return to OpenAI as CEO as soon as this week. That's according to Bloomberg, which in a brief this morning -- citing sources close to the matter -- said that discussions are happening between Quora CEO Adam D'Angelo, one current member of the OpenAI board, and Altman -- and possibly other board members as well. Per Bloomberg, the board member (or members) and Altman are discussing a number of possible scenarios that could play out. In one, Altman would return as a director on a transitional board. In another -- or perhaps the same -- former Salesforce Inc. co-CEO Bret Taylor could serve as a director on a new board. …",
+          "link": "https://slashdot.org/story/23/11/21/2137234/openais-board-may-be-coming-around-to-sam-altman-returning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T21:40:00.000Z",
+          "wordCount": 5455,
+          "title": "OpenAI's Board May Be Coming Around To Sam Altman Returning",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/21/1643221/forest-service-plans-carbon-dioxide-storage-on-federal-lands?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: In recent years, lots of American companies have gotten behind a potential climate solution called carbon capture and storage, and the Biden administration has backed it with billions of dollars in tax incentives and direct investments. The idea is to trap planet-heating carbon dioxide from the smokestacks of factories and power plants and transport it to sites where it is injected underground and stored. But the idea is controversial, in large part because the captured carbon dioxide would be shipped to storage sites via thousands of miles of new pipelines. Communities nationwide are pushing back against these pipeline projects and underground sites, arguing they don't want the pollution running through their land. \n\nNow the U.S. Forest Service is proposing to change a rule to allow storing this carbon dioxide pollution under the country's national forests and grasslands. \"Authorizing carbon capture and storage on NFS lands would support the Administration's goal to reduce greenhouse gas emissions by 50 percent below the 2005 levels by 2030,\" the proposed rule change says. But environmental groups and researchers have concerns. Carbon dioxide pollution will still need to be transported to the forests via industrial pipeline for storage, says June Sekera, a research fellow with Boston University. \"To get the CO2 to the injection site in the midst of our national forest, they've got to build huge pipelines,\" Sekera says. \"All this huge industrial infrastructure that's going to go right through.\" Sekera says building those CO2 pipelines may require clearing a lot of trees.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/11/21/1643221/forest-service-plans-carbon-dioxide-storage-on-federal-lands?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T18:40:00.000Z",
+          "wordCount": 9925,
+          "title": "Forest Service Plans Carbon Dioxide Storage on Federal Lands",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/21/1725213/binance-founder-changpeng-zhao-agrees-to-step-down-plead-guilty?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The chief executive of Binance, the largest global cryptocurrency exchange, plans to step down and plead guilty to violating criminal U.S. anti-money laundering requirements, in a deal that may preserve the company's ability to continue operating, WSJ reported Tuesday, citing people familiar with the matter. From the report: Changpeng Zhao is scheduled to appear in Seattle federal court Tuesday afternoon and enter his plea, the people said. Binance, which Zhao owns, will also plead guilty to a criminal charge and agree to pay fines totaling $4.3 billion, which includes amounts to settle civil allegations made by regulators, the people said. The deal would end long-running investigations of Binance. [...] The deal would allow Zhao to retain his majority ownership of Binance, although he won't be able to have an executive role at the company. He would face sentencing at a later date.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/11/21/1725213/binance-founder-changpeng-zhao-agrees-to-step-down-plead-guilty?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T17:25:00.000Z",
+          "wordCount": 6182,
+          "title": "Binance Founder Changpeng Zhao Agrees To Step Down, Plead Guilty",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/11/21/1720237/christopher-nolan-says-streaming-only-content-is-a-danger?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader writes: Christopher Nolan made headlines earlier this month when he took a playful jab at streaming platforms while discussing the upcoming home release of \"Oppenheimer.\" The atomic bomb drama, which grossed a staggering $950 million in theaters worldwide, is hitting Blu-ray and other digital platforms this month. Nolan said at a recent \"Oppenheimer\" screening that it's important to own the film on Blu-ray so that \"no evil streaming service can come steal it from you.\" He told The Washington Post in a follow-up interview: \"It was a joke when I said it. But nothing's a joke when it's transcribed onto the internet. There is a danger, these days, that if things only exist in the streaming version they do get taken down, they come and go,\" the director added. \n\nStreamers have become notoriously known in the last year for pulling original titles from their platforms in order to license them out elsewhere and open up potential revenue streams. When such titles are streaming-only offerings, their removal makes it impossible to view the films elsewhere. Such was the case this year with the Disney+ movie \"Crater,\" for instance. The streaming-only family adventure was pulled from Disney+ in June and could not be viewed anywhere until it was reissued as a digital release months later in September. For Nolan, owning physical media is the only way to combat such streaming trends. Guillermo del Toro agrees, having shared Nolan's recent quotes on X (formerly Twitter) and adding his own commentary on the issue. \"Physical media is almost a Fahrenheit 451 (where people memorized entire books and thus became the book they loved) level of responsibility,\" del Toro wrote to his followers. \"If you own a great 4K HD, Blu-ray, DVD etc etc of a film or films you love...you are the custodian of those films for generations to come.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/23/11/21/1720237/christopher-nolan-says-streaming-only-content-is-a-danger?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T17:20:00.000Z",
+          "wordCount": 10230,
+          "title": "Christopher Nolan Says Streaming-Only Content Is a 'Danger'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/21/1614209/cs-teachers-panic-as-replit-pulls-the-plug-on-educational-ide?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Computer science teachers around the globe have been left scrambling to find an alternative IDE for their students, after Replit announced it was shuttering its Teams for Education plan. From a report: \"To focus on improving the Replit experience for all users, we have made the difficult decision to deprecate Teams for Edu ... Teams for Edu will no longer receive new features or bug fixes, and we will suspend the creation of new Teams and Orgs,\" a statement from Replit, shared with educators and brought to our attention on Monday by Reg readers, declared last week. The platform provided a collaborative integrated development environment (IDE) tailored toward classrooms. It allowed students to work together on projects at the same time, similar to Google Docs, as well as automating code evaluation to streamline assessments carried out by teachers. \n\nThe decision has sparked frustration among many educators who'd invested heavily in the platform since Replit made the plan available for free in early 2022. \"Computer science teachers in the last 48 hours have had to scramble to try to find alternatives as soon as possible and it will be the students that suffer,\" a teacher based in Asia-Pacific told The Register. \"Replit was the only organization we are aware of providing online coding with instant assessment and so it was a hugely popular choice with computer science teachers.\" In a Xeet last week, CEO Amjad Masad acknowledged the pain the decision to shut down Teams for Education was likely to cause, but said the current system had become economically nonviable.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/11/21/1614209/cs-teachers-panic-as-replit-pulls-the-plug-on-educational-ide?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T16:40:00.000Z",
+          "wordCount": 7555,
+          "title": "CS Teachers Panic as Replit Pulls the Plug on Educational IDE",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/11/21/1557246/north-koreans-use-fake-names-scripts-to-land-remote-it-work-for-cash?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Using fake names, sham LinkedIn profiles, counterfeit work papers and mock interview scripts, North Korean IT workers seeking employment in Western tech companies are deploying sophisticated subterfuge to get hired. From a report: Landing a job outside North Korea to secretly earn hard currency for the isolated country demands highly-developed strategies to convince Western hiring managers, according to documents reviewed by Reuters, an interview with a former North Korean IT worker and cybersecurity researchers. North Korea has dispatched thousands of IT workers overseas, an effort that has accelerated in the last four years, to bring in millions to finance Pyongyang's nuclear missile programme, according to the United States, South Korea, and the United Nations. \n\n\"People are free to express ideas and opinions,\" reads one interview script used by North Korean software developers that offers suggestions for how to describe a \"good corporate culture\" when asked. Expressing one's thoughts freely could be met with imprisonment in North Korea. The scripts totalling 30 pages, were unearthed by researchers at Palo Alto Networks, a U.S. cybersecurity firm which discovered a cache of internal documents online that detail the workings of North Korea's remote IT workforce. The documents contain dozens of fraudulent resumes, online profiles, interview notes, and forged identities that North Korean workers used to apply for jobs in software development.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/11/21/1557246/north-koreans-use-fake-names-scripts-to-land-remote-it-work-for-cash?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T16:00:00.000Z",
+          "wordCount": 7266,
+          "title": "North Koreans Use Fake Names, Scripts To Land Remote IT Work For Cash",
+          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/11/21/1529206/sunbird-is-shutting-down-its-imessage-app-for-android?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Sunbird, the app that brings iMessage to Android, has temporarily shut down the service over \"security concerns.\" From a report: In a notice to users, Sunbird says it has \"decided to pause Sunbird usage for now\" while it investigates reports that its messages aren't actually end-to-end encrypted. Sunbird launched in 2022 as a messaging app that attempts to put the blue versus green bubble battle to rest. It has only been available to those who sign up for its waitlist, touting numerous privacy features, like end-to-end encryption, no message data collection, and no ads. \n\nLast week, Sunbird partnered with Nothing, the phone brand owned by OnePlus co-founder Carl Pei, on the launch of Nothing Chats. The Sunbird-powered messaging service is supposed to let owners of the Phone 2 send texts via iMessage, but it was pulled from the Google Play Store just one day after its launch. At the time, Nothing said it had to fix \"several bugs\" within the app. However, its removal from the Play Store came around the same time a post from Texts.blog revealed that messages sent via Sunbird may not be end-to-end encrypted.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/11/21/1529206/sunbird-is-shutting-down-its-imessage-app-for-android?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T15:28:00.000Z",
+          "wordCount": 4664,
+          "title": "Sunbird is Shutting Down Its iMessage App for Android",
+          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/11/21/1415258/youtube-says-new-5-second-video-load-delay-is-supposed-to-punish-ad-blockers-not-firefox-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Firefox users across the internet say that they are encountering an \"artificial\" five-second load time when they try to watch YouTube videos that exists on Firefox, but not Chrome. Google, meanwhile, told 404 Media that this is all part of its larger effort against ad blockers, and that it doesn't have anything to do with Firefox at all. [...] Mozilla, which makes Firefox, told 404 Media that it does not believe this is a Firefox-specific issue. Enough people have posted about it, however, that it is clearly happening for some users and not others. \n\nIn a statement to 404 Media, Google did not provide specifics but also did not deny implementing an artificial wait time. \"To support a diverse ecosystem of creators globally and allow billions to access their favorite content on YouTube, we've launched an effort to urge viewers with ad blockers enabled to allow ads on YouTube or try YouTube Premium for an ad free experience, the spokesperson said. \"Users who have ad blockers installed may experience suboptimal viewing, regardless of the browser they are using.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/11/21/1415258/youtube-says-new-5-second-video-load-delay-is-supposed-to-punish-ad-blockers-not-firefox-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T14:40:00.000Z",
+          "wordCount": 13103,
+          "title": "YouTube Says New 5-Second Video Load Delay Is Supposed to Punish Ad Blockers, Not Firefox Users",
+          "imageUrl": "https://a.fsdn.com/sd/topics/youtube_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/11/21/1357200/epic-games-sweeney-takes-aim-at-androids-fake-open-platform?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Epic Games Chief Executive Officer Tim Sweeney testified that Google's Android operating system is a \"fake open platform\" in a high-stakes antitrust lawsuit over claims that the technology giant thwarts app market competition. From a report: Sweeney, who founded the company that makes the blockbuster Fortnite, took the witness stand Monday in San Francisco federal court to reinforce his claims that Google Play policies are unlawful and allow Alphabet to maintain a monopoly in the Android mobile-app distribution market. The court fight started in 2020 when Epic marketed Fortnite on Android and sidestepped the Google Play billing system and the 30% revenue cut it was taking from app developers. \n\n\"We very much wanted to avoid that and do business directly with our customers,\" Sweeney told jurors. Google denies abusing its market power. The jury trial started two weeks ago and is expected to wrap up in early December. If Epic prevails, Google could be forced to allow competing app marketplaces and payment methods on its app store, threatening billions of dollars in revenue generated by Google Play. Sweeney previously testified in a 2021 trial in a similar antitrust suit targeting Apple's App Store policies as unfair and self-serving. Epic mostly lost that fight, which was decided by a federal judge in Oakland, California, after a trial. An appeals court upheld the judge's ruling and Epic is now asking the US Supreme Court to review it.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/11/21/1357200/epic-games-sweeney-takes-aim-at-androids-fake-open-platform?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T14:00:00.000Z",
+          "wordCount": 5924,
+          "title": "Epic Games' Sweeney Takes Aim at Android's 'Fake Open Platform'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/11/21/0518248/a-secret-google-deal-let-spotify-completely-bypass-androids-app-store-fees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from The Verge: Music streaming service Spotify struck a seemingly unique and highly generous deal with Google for Android-based payments, according to new testimony in the Epic v. Google trial. On the stand, Google head of global partnerships Don Harrison confirmed Spotify paid a 0 percent commission when users chose to buy subscriptions through Spotify's own system. If the users picked Google as their payment processor, Spotify handed over 4 percent -- dramatically less than Google's more common 15 percent fee. Google fought to keep the Spotify numbers private during its antitrust fight with Epic, saying they could damage negotiations with other app developers who might want more generous rates.\n \nGoogle's User Choice Billing program, launched in 2022,…",
+          "link": "https://tech.slashdot.org/story/23/11/21/0518248/a-secret-google-deal-let-spotify-completely-bypass-androids-app-store-fees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-11-21T13:00:00.000Z",
+          "wordCount": 5457,
+          "title": "A Secret Google Deal Let Spotify Completely Bypass Android's App Store Fees",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
         {
           "id": "https://it.slashdot.org/story/23/11/21/0033219/nothings-imessage-app-was-a-security-catastrophe-taken-down-in-24-hours?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
