@@ -2,10 +2,283 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-24T01:02:04.178Z</updated>
+    <updated>2023-11-25T01:01:06.328Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[China's Secretive Sunway Pro CPU Quadruples Performance Over Its Predecessor]]></title>
+        <id>https://hardware.slashdot.org/story/23/11/25/0036227/chinas-secretive-sunway-pro-cpu-quadruples-performance-over-its-predecessor?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/23/11/25/0036227/chinas-secretive-sunway-pro-cpu-quadruples-performance-over-its-predecessor?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-25T00:36:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: Earlier this year, the National Supercomputing Center in Wuxi (an entity blacklisted in the U.S.) launched its new supercomputer based on the enhanced China-designed Sunway SW26010 Pro processors with 384 cores. Sunway's SW26010 Pro CPU not only packs more cores than its non-Pro SW26010 predecessor, but it more than quadrupled FP64 compute throughput due to microarchitectural and system architecture improvements, according to Chips and Cheese. However, while the manycore CPU is good on paper, it has several performance bottlenecks. 
+
+The first details of the manycore Sunway SW26010 Pro CPU and supercomputers that use it emerged back in 2021. Now, the company has showcased actual processors and disclosed more details about their architecture and design, which represent a significant leap in performance, recently at SC23. The new CPU is expected to enable China to build high-performance supercomputers based entirely on domestically developed processors. Each Sunway SW26010 Pro has a maximum FP64 throughput of 13.8 TFLOPS, which is massive. For comparison, AMD's 96-core EPYC 9654 has a peak FP64 performance of around 5.4 TFLOPS. 
+
+The SW26010 Pro is an evolution of the original SW26010, so it maintains the foundational architecture of its predecessor but introduces several key enhancements. The new SW26010 Pro processor is based on an all-new proprietary 64-bit RISC architecture and packs six core groups (CG) and a protocol processing unit (PPU). Each CG integrates 64 2-wide compute processing elements (CPEs) featuring a 512-bit vector engine as well as 256 KB of fast local store (scratchpad cache) for data and 16 KB for instructions; one management processing element (MPE), which is a superscalar out-of-order core with a vector engine, 32 KB/32 KB L1 instruction/data cache, 256 KB L2 cache; and a 128-bit DDR4-3200 memory interface.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[husband, father, obligation]]></title>
+        <id>https://taylor.town/husband-father-obligation</id>
+        <link href="https://taylor.town/husband-father-obligation"/>
+        <updated>2023-11-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[For some folks, family is a debt to be paid. They dole out love-shaped deeds in hope of karmic justice. They oblige to stave off guilt.]]></summary>
+        <author>
+            <name>taylor.town</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China Supplies Data To WHO About Clusters of Respiratory Illness]]></title>
+        <id>https://it.slashdot.org/story/23/11/24/1930249/china-supplies-data-to-who-about-clusters-of-respiratory-illness?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/11/24/1930249/china-supplies-data-to-who-about-clusters-of-respiratory-illness?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chinese health authorities have provided the requested data on an increase in respiratory illnesses and reported clusters of pneumonia in children, and have not detected any unusual or novel pathogens, the World Health Organization (WHO) said. From a report: The WHO had asked China for more information on Wednesday after groups including the Program for Monitoring Emerging Diseases reported clusters of undiagnosed pneumonia in children in north China. As per the rule, China responded to the WHO within 24 hours. The WHO had sought epidemiologic and clinical information as well as laboratory results through the International Health Regulations mechanism. 
+
+Epidemiologists have warned that as, China heads into its first winter since the lifting of zero-Covid restrictions, natural levels of immunity to respiratory viruses may be lower than normal, leading to an increase in infections. Several countries, including the US and the UK, experienced large waves of respiratory viral infections in the first winter after Covid restrictions were lifted as people had lower natural levels of immunity. For young children, lockdowns delayed the age at which they were first exposed to common bugs.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Patterns of Distributed Systems is published by Pearson]]></title>
+        <id>https://martinfowler.com/books/patterns-distributed.html</id>
+        <link href="https://martinfowler.com/books/patterns-distributed.html"/>
+        <updated>2023-11-24T19:11:00.000Z</updated>
+        <summary type="html"><![CDATA[During the last four years, my colleague Unmesh Joshi
+     been developing a collection of patterns to help us all better understand
+     how modern distributed systems work. We've been publishing drafts of these
+     patterns on this site. Now these have turned into a book, published
+     by Addison-Wesley in my signature series. As such, we've now removed
+     the work-in-progress drafts from this site, and have replaced them with a
+     catalog of pattern
+     summaries. For those with a subscription to oreilly.com, we have deep
+     links from the summaries to the relevant chapter of the online book.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nvidia Beats TSMC and Intel To Take Top Chip Industry Revenue Crown For the First Time]]></title>
+        <id>https://slashdot.org/story/23/11/24/1740228/nvidia-beats-tsmc-and-intel-to-take-top-chip-industry-revenue-crown-for-the-first-time?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/11/24/1740228/nvidia-beats-tsmc-and-intel-to-take-top-chip-industry-revenue-crown-for-the-first-time?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Nvidia has swung from fourth to first place in an assessment of chip industry revenue published today. From a report: Taipei-based financial analyst Dan Nystedt noted that the green team took the revenue crown from contract chip-making titan TSMC as Q3 financials came into view. Those keeping an eye on the world of investing and finance will have seen our report about Nvidia's earnings explosion, evidenced by the firm's publishing of its Q3 FY23 results. 
+
+Nvidia charted an amazing performance, with a headlining $18.12 billion in revenue for the quarter, up 206% year-over-year (YoY). The firm's profits were also through the roof, and Nystedt posted a graph showing Nvidia elbowed past its chip industry rivals by this metric in Q3 2023, too. Nvidia's advance is supported by multiple highly successful operating segments, which have provided a multiplicative effect on its revenue and income. Again, we saw clear evidence of a seismic shift in revenue, with the latest set of financials shared with investors earlier this week.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[World's Biggest Iceberg on the Move After 30 Years]]></title>
+        <id>https://news.slashdot.org/story/23/11/24/1351229/worlds-biggest-iceberg-on-the-move-after-30-years?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/11/24/1351229/worlds-biggest-iceberg-on-the-move-after-30-years?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T18:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The world's biggest iceberg is on the move after more than 30 years being stuck to the ocean floor. From a report: The iceberg, called A23a, split from the Antarctic coastline in 1986. But it swiftly grounded in the Weddell Sea, becoming, essentially, an ice island. At almost 4,000 sq km (1,500 sq miles) in area, it's more than twice the size of Greater London. The past year has seen it drifting at speed, and the berg is now about to spill beyond Antarctic waters. A23a is a true colossus, and it's not just its width that impresses. 
+
+This slab of ice is some 400m (1,312 ft) thick. For comparison, the London Shard, the tallest skyscraper in Europe, is a mere 310m tall. At the time, it was hosting a Soviet research station, which just illustrates how long ago its calving occurred. Moscow despatched an expedition to remove equipment from the Druzhnaya 1 base, fearing it would be lost. But the tabular berg didn't move far from the coast before its deep keel anchored it rigidly to the Weddell's bottom-muds. 
+
+So, why, after almost 40 years, is A23a on the move now?
+
+"I asked a couple of colleagues about this, wondering if there was any possible change in shelf water temperatures that might have provoked it, but the consensus is the time had just come," said Dr Andrew Fleming, a remote sensing expert from the British Antarctic Survey. "It was grounded since 1986 but eventually it was going to decrease (in size) sufficiently to lose grip and start moving. I spotted first movement back in 2020." A23a has put on a spurt in recent months, driven by winds and currents, and is now passing the northern tip of the Antarctic Peninsula.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A New Way To Predict Ship-Killing Rogue Waves]]></title>
+        <id>https://tech.slashdot.org/story/23/11/24/1341236/a-new-way-to-predict-ship-killing-rogue-waves?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/11/24/1341236/a-new-way-to-predict-ship-killing-rogue-waves?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AI models can find patterns and make predictions, but their reasoning is often inscrutable. This "black box" issue makes AI less reliable and less scientifically useful. However, a team led by Dion Hafner (a computer scientist at the University of Copenhagen) devised a clever neural network to predict rogue waves. By restricting inputs to meaningful wave measurements and tracing how they flowed through the network, the team extracted a simple five-part equation encapsulating the AI's logic. Economist adds: To generate a human-comprehensible equation, the researchers used a method inspired by natural selection in biology. They told a separate algorithm to come up with a slew of different equations using those five variables, with the aim of matching the neural network's output as closely as possible. The best equations were mixed and combined, and the process was repeated. The result, eventually, was an equation that was simple and almost as accurate as the neural network. Both predicted rogue waves better than existing models. 
+
+The first part of the equation rediscovered a bit of existing theory: it is an approximation of a well-known equation in wave dynamics. Other parts included some terms that the researchers suspected might be involved in rogue-wave formation but are not in standard models. There were some puzzlers, too: the final bit of the equation includes a term that is inversely proportional to how spread out the energy of the waves is. Current human theories include a second variable that the machine did not replicate. One explanation is that the network was not trained on a wide enough selection of examples. Another is that the machine is right, and the second variable is not actually necessary.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Slashdot Asks: Your Favorite 2023-Made Movies and TV Shows?]]></title>
+        <id>https://ask.slashdot.org/story/23/11/24/131259/slashdot-asks-your-favorite-2023-made-movies-and-tv-shows?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://ask.slashdot.org/story/23/11/24/131259/slashdot-asks-your-favorite-2023-made-movies-and-tv-shows?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[As 2023 slowly comes to an end I wondered what your picks are for the best movies and TV shows that came out this year. What films or series did you enjoy the most? Share your favorites and why you think they stand out above the rest.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubisoft Blames 'Technical Error' For Showing Pop-up Ads in Assassin's Creed]]></title>
+        <id>https://it.slashdot.org/story/23/11/24/1257209/ubisoft-blames-technical-error-for-showing-pop-up-ads-in-assassins-creed?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/11/24/1257209/ubisoft-blames-technical-error-for-showing-pop-up-ads-in-assassins-creed?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ubisoft is blaming an unspecified "technical error" for a fullscreen pop-up ad that appeared in Assassin's Creed Odyssey this week. From a report: Reddit users say they spotted the pop-up on Xbox and PlayStation versions of the game, with an ad appearing just when you navigate to the map screen. "This is disgusting to experience while playing," remarked one Reddit user, summarizing the general feeling against such pop-ups in the middle of gameplay. "We have been made aware that some players encountered pop-up ads while playing certain Assassin's Creed titles yesterday," says Ubisoft spokesperson Fabien Darrigues, in a statement to The Verge. "This was the result of a technical error that we addressed as soon as we learned of the issue."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nvidia CEO Huang Urges Faster AI Development]]></title>
+        <id>https://slashdot.org/story/23/11/24/1241217/nvidia-ceo-huang-urges-faster-ai-development?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/11/24/1241217/nvidia-ceo-huang-urges-faster-ai-development?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At a time when some are calling for a pause on the development of generative AI, Jensen Huang, founder and CEO of NVIDIA, has an argument for accelerating the work: AI advances are going to provide tools to better understand the technology and to make it safer, Huang said in a discussion with Goldman Sachs Asset Management. From a report: "We need to accelerate the development of AI as fast as possible, and the reason for that is because safety requires technology," Huang said in an interview at The Forum with Sung Cho, co-head of Tech Investing for Fundamental Equity in GSAM. 
+
+Consider how much safer today's passenger cars are compared with those of earlier generations, Huang suggested, because the technology has advanced. He cited as an example how OpenAI's ChatGPT uses reinforcement learning from human feedback (RLHF) to create guardrails that make its responses more relevant, accurate, and appropriate. 
+
+The RLHF is itself an AI model that sits around the core AI model. Huang lists examples of other AI technologies that hold promise for making the models safer and more effective. These range from retrieval augmented generation, in which the model gets information from a defined knowledge base or set of documents, to physics-informed reinforcement learning, which grounds the model in physical principles and constraints. "We need a bunch more technology like that," Huang said.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Toxic Air Killed More Than 500,000 People in EU in 2021, Data Shows]]></title>
+        <id>https://news.slashdot.org/story/23/11/24/1216208/toxic-air-killed-more-than-500000-people-in-eu-in-2021-data-shows?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/11/24/1216208/toxic-air-killed-more-than-500000-people-in-eu-in-2021-data-shows?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T12:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Dirty air killed more than half a million people in the EU in 2021, estimates show, and about half of the deaths could have been avoided by cutting pollution to the limits recommended by doctors. From a report: The researchers from the European Environment Agency attributed 253,000 early deaths to concentrations of fine particulates known as PM2.5 that breached the World Health Organization's maximum guideline limits of 5ug/m3. A further 52,000 deaths came from excessive levels of nitrogen dioxide and 22,000 deaths from short-term exposure to excessive levels of ozone. 
+
+"The figures released today by the EEA remind us that air pollution is still the number one environmental health problem in the EU," said Virginijus Sinkevicius, the EU's environment commissioner. Doctors say air pollution is one of the biggest killers in the world but death tolls will drop quickly if countries clean up their economies. Between 2005 and 2021, the number of deaths from PM2.5 in the EU fell 41%, and the EU aims to reach 55% by the end of the decade. The WHO, which tightened its air quality guidelines in 2021, warns that no level of air pollution can be considered safe but has set upper limits for certain pollutants. The European parliament voted in September to align the EU's air quality rules with the WHO's but decided to delay doing so until 2035.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Deaths From Coal Pollution Have Dropped, But Emissions May be Twice as Deadly]]></title>
+        <id>https://science.slashdot.org/story/23/11/24/098252/deaths-from-coal-pollution-have-dropped-but-emissions-may-be-twice-as-deadly?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/11/24/098252/deaths-from-coal-pollution-have-dropped-but-emissions-may-be-twice-as-deadly?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T09:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Coal, the dirtiest of fossil fuels, is far more harmful to human health than previously thought, according to a new report, which found that coal emissions are associated with double the mortality risk compared with fine airborne particles from other sources. From a report: The research, published Thursday in the journal Science, linked coal pollution to 460,000 deaths among Medicare recipients aged 65 and older between 1999 and 2020. Yet the study also found that during that period the shuttering of coal plants in the United State, coupled with the installation of scrubbers in the smokestacks to "clean" coal exhaust, has had salubrious effects. Deaths attributable to coal plant emissions among Medicare recipients dropped from about 50,000 a year in 1999 to 1,600 in 2020, a decrease of more than 95 percent, the researchers found. 
+
+"Things were bad, it was terrible," Lucas Henneman, the study's lead author, and an assistant professor in environmental engineering at George Mason University, said in an interview. "We made progress, and that's really good." Researchers from six universities collected emissions data from 480 coal power plants between 1999 and 2020. They used atmospheric modeling to track how sulfur dioxide converted into particulate matter and where it was carried by wind, and then examined millions of Medicare patient deaths by ZIP code. 
+
+Though the researchers could not identify exact causes of death, the statistical model showed that areas with more airborne coal particulates had higher death rates. Some 138 coal plants each contributed to at least 1,000 excess deaths, and 10 plants were linked to more than 5,000 deaths apiece, the researchers found. While fine particulate matter, known as P.M. 2.5, is frequently examined for its health risks, the researchers found that inhaling those fine particles from coal exhaust was especially deadly.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nvidia Delays Launch of New China-focused AI Chip]]></title>
+        <id>https://slashdot.org/story/23/11/24/0637216/nvidia-delays-launch-of-new-china-focused-ai-chip?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/11/24/0637216/nvidia-delays-launch-of-new-china-focused-ai-chip?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T06:37:00.000Z</updated>
+        <summary type="html"><![CDATA[Nvidia has told customers in China it is delaying the launch of a new AI chip it designed to comply with U.S. export rules until the first quarter of next year, Reuters reported Friday, citing sources familiar with the matter. From the report: The delayed chip is the H20, the most powerful of three China-focused chips Nvidia has developed to comply with fresh U.S. export restrictions, the sources said, and could complicate its efforts to preserve market share in China against local rivals like Huawei. The California-based AI chip giant had been expected to launch the new products as early as Nov. 16, chip industry newsletter SemiAnalysis reported this month. 
+
+However, the H20 launch has now been pushed back until the first quarter of next year, the sources said, with one saying they were advised it could take place in February or March. The sources said they were told that the H20 was being delayed due to issues server manufacturers were having in integrating the chip.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Some Pixel 8 Pro Displays Have Bumps Under the Glass]]></title>
+        <id>https://it.slashdot.org/story/23/11/24/0223213/some-pixel-8-pro-displays-have-bumps-under-the-glass?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/11/24/0223213/some-pixel-8-pro-displays-have-bumps-under-the-glass?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-11-24T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Some Pixel 8 Pro owners have noticed circular bumps in several places on the screen that look to be the result of something pressing up against the underside, which is soft and fragile, of the 6.7-inch OLED panel. From a report: A statement from the company today acknowledges how "some users may see impressions from components in the device that look like small bumps" in specific conditions. Google says there is "no functional impact to Pixel 8 performance or durability," which does line up with all current reports.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Personal Data Stolen in British Library Cyber-Attack Appears for Sale Online]]></title>
         <id>https://it.slashdot.org/story/23/11/23/2012218/personal-data-stolen-in-british-library-cyber-attack-appears-for-sale-online?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -3333,19 +3606,6 @@ On 2023-11-20 support for "non-canonical downloads" will be disabled.
 cargo users are unaffected.
 What are "non-canonical downloads"?
 The "non-canonical downloads" feature allows everyone to download the serde_derive crate from https://crates.io/api/v1/crates/serde_derive/1.0.189/download, but also from https://crates.io/api/v1/crates/SERDE-derive/1.0.189/download, where the underscore was replaced with a hyphen (crates.io normalizes underscores and hyphens to be the same for uniqueness purposes, so it isn't possible to publish a crate named serde-derive because serde_de…]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A tale of broken badges and 23,000 features]]></title>
-        <id>https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html</id>
-        <link href="https://blog.rust-lang.org/2023/10/26/broken-badges-and-23k-keywords.html"/>
-        <updated>2023-10-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Around mid-October of 2023 the crates.io team was notified by one of our users that a shields.io badge for their crate stopped working. The issue reporter was kind enough to already debug the problem and figured out that the API request that shields.io sends to crates.io was most likely the problem. Here is a quote from the original issue:
-This crate makes heavy use of feature flags which bloat the response payload of the API.
-Apparently the API response for this specific crate had broken the 20 MB mark and shields.io wasn't particularly happy with this. Interestingly, this crate only had 9 versions published at this point in time. But how do you get to 20 MB with only 9 published versions?
-As the quote above already mentions, this crate is using features… a lot of features… almost 23,000!…]]></summary>
         <author>
             <name>Rust Blog</name>
         </author>
