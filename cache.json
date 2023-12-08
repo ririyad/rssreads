@@ -139,16 +139,6 @@
           "wordCount": 1602,
           "title": "Three reasons a liberal arts degree helped me succeed in tech",
           "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/headless-component.html#AdaptingToANewUiRequirement",
-          "author": null,
-          "description": "In the second (and final) part of his explanation of React Headless Components\n     Juntao Qiu explores how a headless component allows us to\n     create a visually different component that does the same base behavior, and\n     how it encourages better factoring as we extend base behavior further.\nmore…",
-          "link": "https://martinfowler.com/articles/headless-component.html#AdaptingToANewUiRequirement",
-          "publishedOn": "2023-11-07T15:00:00.000Z",
-          "wordCount": 6282,
-          "title": "Enhancing the Headless Component",
-          "imageUrl": "https://martinfowler.com/articles/headless-component/headless-component.png"
         }
       ]
     },
@@ -163,6 +153,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2023/12/07/Rust-1.74.1.html",
+          "author": null,
+          "description": "The Rust team has published a new point release of Rust, 1.74.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust\n1.74.1 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the\nappropriate page on our website.\nWhat's in 1.74.1\n1.74.1 resolves a few regressions introduced in 1.74.0:\nResolved spurious STATUS_ACCESS_VIOLATIONs in LLVM\nClarify guarantees for std::mem::discriminant\nFix some subtyping-related regressions\nContributors to 1.74.1\nMany people came together to create Rust 1.74.1. We couldn't have done it\nwithout all of you. Thanks!",
+          "link": "https://blog.rust-lang.org/2023/12/07/Rust-1.74.1.html",
+          "publishedOn": "2023-12-07T00:00:00.000Z",
+          "wordCount": 179,
+          "title": "Announcing Rust 1.74.1",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html",
           "author": null,
@@ -540,6 +540,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/23/12/07/1447232/actors-recorded-videos-for-vladimir-it-turned-into-russian-propaganda?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Internet propagandists aligned with Russia have duped at least seven Western celebrities, including Elijah Wood and Priscilla Presley, into recording short videos to support its online information war against Ukraine, according to new security research by Microsoft. From a report: The celebrities look like they were asked to offer words of encouragement -- apparently via the Cameo app -- to someone named \"Vladimir\" who appears to be struggling with substance abuse, Microsoft said. Instead, these messages were edited, sometimes dressed up with emojis, links and the logos of media outlets and then shared online by the Russia-aligned trolls, the company said. \n\nThe point was to give the appearance that the celebrities were confirming that Ukrainian President Volodymyr Zelensky was suffering from drug and alcohol problems, false claims that Russia has pushed in the past, according to Microsoft. Russia has denied engaging in disinformation campaigns. In one of the videos, a crudely edited message by Wood to someone named Vladimir references drugs and alcohol, saying: \"I just want to make sure that you're getting help.\" Wood's video first surfaced in July, but since then Microsoft researchers have observed six other similar celebrity videos misused in the same way, including clips by \"Breaking Bad\" actor Dean Norris, John C. McGinley of \"Scrubs,\" and Kate Flannery of \"The Office,\" the company said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/07/1447232/actors-recorded-videos-for-vladimir-it-turned-into-russian-propaganda?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T21:20:00.000Z",
+          "wordCount": 5750,
+          "title": "Actors Recorded Videos for 'Vladimir.' It Turned Into Russian Propaganda.",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/07/1530250/how-tech-giants-use-money-access-to-steer-academic-research?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Tech giants including Google and Facebook parent Meta have dramatically ramped up charitable giving to university campuses over the past several years -- giving them influence over academics studying such critical topics as artificial intelligence, social media and disinformation. From a report: Meta CEO Mark Zuckerberg alone has donated money to more than 100 university campuses, either through Meta or his personal philanthropy arm, according to new research by the Tech Transparency Project, a nonprofit watchdog group studying the technology industry. Other firms are helping fund academic centers, doling out grants to professors and sitting on advisory boards reserved for donors, researchers told The Post. \n\nSilicon Valley's influence is most apparent among computer science professors at such top-tier schools as Berkeley, University of Toronto, Stanford and MIT. According to a 2021 paper by University of Toronto and Harvard researchers, most tenure-track professors in computer science at those schools whose funding sources could be determined had taken money from the technology industry, including nearly 6 of 10 scholars of AI. The proportion rose further in certain controversial subjects, the study found. Of 33 professors whose funding could be traced who wrote on AI ethics for the top journals Nature and Science, for example, all but one had taken grant money from the tech giants or had worked as their employees or contractors.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/07/1530250/how-tech-giants-use-money-access-to-steer-academic-research?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T20:40:00.000Z",
+          "wordCount": 5058,
+          "title": "How Tech Giants Use Money, Access To Steer Academic Research",
+          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/07/1520243/cable-lobby-to-fcc-please-dont-look-too-closely-at-the-prices-we-charge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The US broadband industry is protesting a Federal Communications Commission plan to measure the affordability of Internet service. From a report: The FCC has been evaluating US-wide broadband deployment progress on a near-annual basis for almost three decades but hasn't factored affordability into these regular reviews. The broadband industry is afraid that a thorough examination of prices will lead to more regulation of ISPs. An FCC Notice of Inquiry issued on November 1 proposes to analyze the affordability of Internet service in the agency's next congressionally required review of broadband deployment. That could include examining not just monthly prices but also data overage charges and various other fees. \n\n[...] Cable industry lobby group NCTA-The Internet & Television Association complained in a filing released Monday that the Notice of Inquiry's \"undue focus on affordability -- or pricing -- is particularly inappropriate.\" The group, which represents cable providers such as Comcast and Charter, said that setting an affordability benchmark could lead to rate regulation.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/07/1520243/cable-lobby-to-fcc-please-dont-look-too-closely-at-the-prices-we-charge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T20:00:00.000Z",
+          "wordCount": 5700,
+          "title": "Cable Lobby To FCC: Please Don't Look Too Closely at the Prices We Charge",
+          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/12/07/150224/nintendo-cancels-japanese-esports-events-following-threats-to-staff-and-spectators?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Nintendo has cancelled Nintendo Live 2024 Tokyo and postponed other Japanese esports events after persistent threats were made to both staff and spectators. From a report: A Japanese press release, shared by reliable translator Genki on X/Twitter, revealed the \"all ages celebration of Nintendo fun,\" which took place in the United States for the first time in 2023, has been cancelled and its main esports tournaments postponed. \n\nNintendo said its employees have received relentless threats which have also recently targeted spectators, attendees, and staff at Nintendo Live 2024, forcing the cancellation in the interest of safety. It was due to take place from January 20 to 21.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/12/07/150224/nintendo-cancels-japanese-esports-events-following-threats-to-staff-and-spectators?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T19:20:00.000Z",
+          "wordCount": 4506,
+          "title": "Nintendo Cancels Japanese Esports Events Following Threats to Staff and Spectators",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nintendo_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/07/1229205/uk-says-russia-targeted-officials-in-email-hacking-campaign?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The UK accused Russia's main intelligence agency of seeking to hack the emails of British politicians and officials in an attempt to interfere in its democratic processes. From a report: \"They have been targeting high-profile individuals and entities with a clear intent: using information they obtained to meddle in British politics,\" Foreign Office minister Leo Docherty told the House of Commons on Thursday. The intrusions include targeting personal email accounts and impersonation attempts against universities and media organizations, according to Docherty. Civil servants and journalists have also been targeted by Russia's Federal Security Service, known as the FSB, he said. \n\nIn November, the UK's National Cyber Security Centre warned that Russian and other state-sponsored hackers posed an \"enduring and significant threat\" to the country. The agency said that Russia was one of the most prolific state actors in cybercrime, and had dedicated substantial resources to conducting hacking operations internationally.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/07/1229205/uk-says-russia-targeted-officials-in-email-hacking-campaign?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T18:40:00.000Z",
+          "wordCount": 5322,
+          "title": "UK Says Russia Targeted Officials in Email-Hacking Campaign",
+          "imageUrl": "https://a.fsdn.com/sd/topics/uk_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/07/1350249/maybe-we-already-have-runaway-machines?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A new book argues that the invention of states and corporations has something to teach us about A.I. But perhaps it's the other way around. From a report: One of the things that make the machine of the capitalist state work is that some of its powers have been devolved upon other artificial agents -- corporations. Where [David] Runciman (a professor of politics at Cambridge) compares the state to a general A.I., one that exists to serve a variety of functions, corporations have been granted a limited range of autonomy in the form of what might be compared to a narrow A.I., one that exists to fulfill particular purposes that remain beyond the remit or the interests of the sovereign body. \n\nCorporations can thus be set up in free pursuit of a variety of idiosyncratic human enterprises, but they, too, are robotic insofar as they transcend the constraints and the priorities of their human members. The failure mode of governments is to become \"exploitative and corrupt,\" Runciman notes. The failure mode of corporations, as extensions of an independent civil society, is that \"their independence undoes social stability by allowing those making the money to make their own rules.\" \n\nThere is only a \"narrow corridor\" -- a term Runciman borrows from the economists Daron Acemoglu and James A. Robinson -- in which the artificial agents balance each other out, and citizens get to enjoy the sense of control that emerges from an atmosphere of freedom and security. The ideal scenario is, in other words, a kludgy equilibrium.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/07/1350249/maybe-we-already-have-runaway-machines?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T18:00:00.000Z",
+          "wordCount": 6973,
+          "title": "Maybe We Already Have Runaway Machines",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/07/1647226/early-impressions-of-googles-gemini-arent-great?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google this week took the wraps off of Gemini, its new flagship generative AI model meant to power a range of products and services including Bard. Google has touted Gemini's superior architecture and capabilities, claiming that the model meets or exceeds the performance of other leading gen AI models like OpenAI's GPT-4. But the anecdotal evidence suggests otherwise. TechCrunch: The model fails to get basic facts right, like 2023 Oscar winners: Note that Gemini Pro claims incorrectly that Brendan Gleeson won Best Actor last year, not Brendan Fraser -- the actual winner. I tried asking the model the same question and, bizarrely, it gave a different wrong answer. \"Navalny,\" not \"All the Beauty and the Bloodshed,\" won Best Documentary Feature last year; \"All Quiet on the Western Front\" won Best International Film; \"Women Talking\" won Best Adapted Screenplay; and \"Pinocchio\" won Best Animated Feature Film. That's a lot of mistakes. \n\nTranslation doesn't appear to be Gemini Pro's strong suit, either. What about summarizing news? Surely Gemini Pro, Google Search and Google News at its disposal, can give a recap of something topical? Not necessarily. It seems Gemini Pro is loathe to comment on potentially controversial news topics, instead telling users to... Google it themselves.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/07/1647226/early-impressions-of-googles-gemini-arent-great?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T17:20:00.000Z",
+          "wordCount": 7482,
+          "title": "Early Impressions of Google's Gemini Aren't Great",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/12/07/165225/hp-tv-ads-claim-its-printers-are-made-to-be-less-hated?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Launched in the Nordics, BeneLux, Ireland, and the UK, the ads insist that HP printers are \"made to be less hated.\" From a report: Which may come as news to HP's long-suffering users who still, for whatever reason, need to brand mushed-up trees with corporate nonsense despite this alleged digital age. The three ads run touch upon a spectrum of negative emotions that will be highly relatable to those who have ever tried to print something at home or work -- sorrow, anger, despair -- and all end with extreme and cathartic human-on-printer violence.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/12/07/165225/hp-tv-ads-claim-its-printers-are-made-to-be-less-hated?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T16:40:00.000Z",
+          "wordCount": 11750,
+          "title": "HP TV Ads Claim Its Printers Are 'Made To Be Less Hated'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/hp_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/07/1224201/bungie-devs-say-atmosphere-is-soul-crushing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "In the wake of laying off about 100 of its 1,200 employees, Bungie, the developer behind Destiny, is reportedly grappling with internal challenges and cost-saving measures, amid efforts to maintain some autonomy from Sony. Although Bungie operates as an independent Sony subsidiary, its leadership is seemingly striving to prevent a complete Sony takeover, IGN reports. The company's board, split between Bungie and Sony representatives, faces potential dissolution if Bungie fails to meet specific financial goals. This risk has been heightened by the delay of Destiny 2 expansion \"The Final Shape\" and investments in Marathon, challenging Bungie's financial performance. The report adds: Along with the recent layoffs, this has resulted in a massive decay in morale within the company, according to IGN's sources, one of whom told us that the mood within the studio has been \"soul-crushing\" over the last month. And it doesn't sound like management is making any significant efforts toward improving the atmosphere, either. According to those still with the company, employee frustration and sadness in the days and weeks following the layoffs was met with a surprising amount of indifference or even outright flippancy or hostility from management. \n\nSeveral people we spoke to told us that leaders had reiterated, across multiple meetings, that they couldn't guarantee there wouldn't be more layoffs, with two specifically confirming previous reports that chief people officer Holly Barbacovi outright stating that layoffs were a \"lever\" the company would pull again.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/07/1224201/bungie-devs-say-atmosphere-is-soul-crushing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T16:00:00.000Z",
+          "wordCount": 8240,
+          "title": "Bungie Devs Say Atmosphere Is 'Soul-Crushing'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/sony_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/07/1118232/microsoft-readies-groundbreaking-ai-focused-windows-release?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "What's next for Windows? Microsoft plans next-gen Windows AI release in 2024, plus details on recent changes to the Windows roadmap. From a report: According to my sources, the new Windows bosses are now returning to an annual release cycle for major versions of the Windows platform, meaning Windows is going back to having just one big feature update a year instead of multiple smaller ones throughout. Microsoft may still use Moment updates sparingly, but they will no longer be the primary delivery vehicle for new features going forward. \n\nThese changes are said to take effect after Hudson Valley launches in 2024, so I'm still expecting at least one more Moment update for the current version of Windows 11, which sources say will ship in the February or March time frame early next year. [...] According to my sources, Microsoft's blockbuster new feature will be the introduction of an AI-powered Windows Shell, enhanced with an \"advanced Copilot,\" that's able to constantly work in the background to enhance search, jumpstart projects or workflows, understand context, and much more. \n\nSources say these AI features will be \"groundbreaking.\" The company is working on a new history/timeline feature that will let users scroll back in time through all the apps and websites that Copilot has remembered, which can be filtered based on a user's specific search criteria. For example, you could type \"FY24 earnings\" and every instance where that term was on-screen will reappear for you to see and open. AI will also enhance search in Windows, with the ability to use natural language to find things that you've previously opened or seen on your PC.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/07/1118232/microsoft-readies-groundbreaking-ai-focused-windows-release?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T15:20:00.000Z",
+          "wordCount": 8344,
+          "title": "Microsoft Readies 'Groundbreaking' AI-focused Windows Release",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/07/1016245/from-unicorns-to-zombies-tech-startups-run-out-of-time-and-money?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "After staving off collapse by cutting costs, many young tech companies are out of options, fueling a cash bonfire. From a report: WeWork raised more than $11 billion in funding as a private company. Olive AI, a health care start-up, gathered $852 million. Convoy, a freight start-up, raised $900 million. And Veev, a home construction start-up, amassed $647 million. In the last six weeks, they all filed for bankruptcy or shut down. They are the most recent failures in a tech start-up collapse that investors say is only beginning. After staving off mass failure by cutting costs over the past two years, many once-promising tech companies are now on the verge of running out of time and money. They face a harsh reality: Investors are no longer interested in promises. Rather, venture capital firm…",
+          "link": "https://tech.slashdot.org/story/23/12/07/1016245/from-unicorns-to-zombies-tech-startups-run-out-of-time-and-money?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T14:40:00.000Z",
+          "wordCount": 8957,
+          "title": "From Unicorns To Zombies: Tech Startups Run Out of Time and Money",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/07/1044256/india-calls-out-inequalities-at-cop28-climate-summit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "India wants to be the voice of the global south in the negotiations. But can the world's most populous nation cut its massive coal use? From a report: India is pitching itself as a leader of the global south at the 28th United Nations Climate Change Conference (COP28), under way in Dubai. During his opening speech at the meeting, Indian Prime Minister Narendra Modi issued a sharp rebuke to wealthy nations: \"A small section of mankind has exploited nature indiscriminately. But the whole of humanity is paying its price, especially the residents of the global south.\" But India -- now the world's most populous nation -- relies heavily on coal to meet its energy needs, and faces a difficult path to cutting its emissions to net zero. The country's priority remains reducing poverty -- which India…",
+          "link": "https://news.slashdot.org/story/23/12/07/1044256/india-calls-out-inequalities-at-cop28-climate-summit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T14:00:00.000Z",
+          "wordCount": 9590,
+          "title": "India Calls Out Inequalities at COP28 Climate Summit",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/07/0150226/android-vulnerability-exposes-credentials-from-mobile-password-managers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: A number of popular mobile password managers are inadvertently spilling user credentials due to a vulnerability in the autofill functionality of Android apps. The vulnerability, dubbed \"AutoSpill,\" can expose users' saved credentials from mobile password managers by circumventing Android's secure autofill mechanism, according to university researchers at the IIIT Hyderabad, who discovered the vulnerability and presented their research at Black Hat Europe this week. The researchers, Ankit Gangwal, Shubham Singh and Abhijeet Srivastava, found that when an Android app loads a login page in WebView, password managers can get \"disoriented\" about where they should target the user's login information and instead expose their credentials to the …",
+          "link": "https://it.slashdot.org/story/23/12/07/0150226/android-vulnerability-exposes-credentials-from-mobile-password-managers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T13:00:00.000Z",
+          "wordCount": 5570,
+          "title": "Android Vulnerability Exposes Credentials From Mobile Password Managers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/07/0144233/jailbroken-ai-chatbots-can-jailbreak-other-chatbots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "In a new preprint study, researchers were able to get AI chatbots to teach other chatbots how to bypass built-in restrictions. According to Scientific American, AIs were observed \"breaking the rules to offer advice on how to synthesize methamphetamine, build a bomb and launder money.\" From the report: Modern chatbots have the power to adopt personas by feigning specific personalities or acting like fictional characters. The new study took advantage of that ability by asking a particular AI chatbot to act as a research assistant. Then the researchers instructed this assistant to help develop prompts that could \"jailbreak\" other chatbots -- destroy the guardrails encoded into such programs. The research assistant chatbot's automated attack techniques proved to be successful 42.5 percent of t…",
+          "link": "https://slashdot.org/story/23/12/07/0144233/jailbroken-ai-chatbots-can-jailbreak-other-chatbots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T10:00:00.000Z",
+          "wordCount": 7255,
+          "title": "Jailbroken AI Chatbots Can Jailbreak Other Chatbots",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/12/07/0133248/project-cuts-emissions-by-putting-data-centers-inside-wind-turbines?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "CNN reports on a new German-based project called WindCORES that operates data centers inside existing wind turbines, making them almost completely carbon neutral. \"If you look at the sustainability pyramid, the highest form of sustainability is using things that already exist,\" said Fiete Dubberke, managing director of windCORES, which was founded in 2018. From the report: The concept uses existing wind turbines to power data centers on site, while fiber optic cables provide a constant internet connection. Planning for a project like this began 10 years ago, Dubberke said, when WestfalenWIND realized the electricity grid was too weak to handle the huge capacities of electricity being produced by its wind turbines during peak wind hours, resulting in their windfarms being switched off due t…",
+          "link": "https://hardware.slashdot.org/story/23/12/07/0133248/project-cuts-emissions-by-putting-data-centers-inside-wind-turbines?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-07T07:00:00.000Z",
+          "wordCount": 14972,
+          "title": "Project Cuts Emissions By Putting Data Centers Inside Wind Turbines",
+          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
+        },
         {
           "id": "https://yro.slashdot.org/story/23/12/06/2230212/eu-mulls-expansion-of-geo-blocking-bans-to-video-streaming-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
