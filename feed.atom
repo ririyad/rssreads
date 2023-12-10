@@ -2,10 +2,272 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-12-09T01:02:50.260Z</updated>
+    <updated>2023-12-10T01:08:28.323Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Harvard Accused of Bowing to Meta By Ousted Disinformation Scholar in Whistleblower Complaint]]></title>
+        <id>https://news.slashdot.org/story/23/12/10/0035234/harvard-accused-of-bowing-to-meta-by-ousted-disinformation-scholar-in-whistleblower-complaint?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/23/12/10/0035234/harvard-accused-of-bowing-to-meta-by-ousted-disinformation-scholar-in-whistleblower-complaint?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-10T00:39:00.000Z</updated>
+        <summary type="html"><![CDATA[The Washington Post reports:
+A prominent disinformation scholar has accused Harvard University of dismissing her to curry favor with Facebook and its current and former executives in violation of her right to free speech. 
+ Joan Donovan claimed in a filing with the Education Department and the Massachusetts attorney general that her superiors soured on her as Harvard was getting a record $500 million pledge from Meta founder Mark Zuckerberg's charitable arm. As research director of Harvard Kennedy School projects delving into mis- and disinformation on social media platforms, Donovan had raised millions in grants, testified before Congress and been a frequent commentator on television, often faulting internet companies for profiting from the spread of divisive falsehoods. Last year, the sc…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reports of Active Directory Vulnerability Allowing DNS Record Spoofs to Steal Secrets]]></title>
+        <id>https://it.slashdot.org/story/23/12/09/2256217/reports-of-active-directory-vulnerability-allowing-dns-record-spoofs-to-steal-secrets?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/23/12/09/2256217/reports-of-active-directory-vulnerability-allowing-dns-record-spoofs-to-steal-secrets?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T22:59:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader jd writes: The Register is reporting that Akamai security researchers have found a way to hack Active Directory and obtain the information stored within it. The researchers go on to say that Microsoft is NOT planning to fix the vulnerability. 
+
+From the article:
+
+
+While the current report doesn't provide technical details or proof-of-concept exploits, Akamai has promised, in the near future, to publish code that implements these attacks called DDSpoof — short for DHCP DNS Spoof. 'We will show how unauthenticated attackers can collect necessary data from DHCP servers, identify vulnerable DNS records, overwrite them, and use that ability to compromise AD domains,' Akamai security researcher Ori David said. The DHCP attack research builds on earlier work by NETSPI's Kevin Roberton, who detailed ways to exploit flaws in DNS zones.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How AlmaLinux's Community Supported RHEL Binary Compatibility]]></title>
+        <id>https://linux.slashdot.org/story/23/12/09/2121242/how-almalinuxs-community-supported-rhel-binary-compatibility?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://linux.slashdot.org/story/23/12/09/2121242/how-almalinuxs-community-supported-rhel-binary-compatibility?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T21:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Linux magazine interviewed an AlmaLinux official about what happened after their distro pivoted to binary compatibility with Red Hat Enterprise Linux rather than being a downstream build:
+
+ Linux Magazine: What prompted AlmaLinux to choose ABI over 1:1 compatibility with RHEL? 
+
+benny Vasquez, chair of the AlmaLinux OS Foundation: The short answer is our users. Overwhelmingly, our users made it clear that they chose AlmaLinux for its ease of use, the security and stability that it provides, and the backing of a diverse group of sponsors. All of that together meant that we didn't need to lock ourselves into copying RHEL, and we could continue to provide what our users needed. 
+
+Moreover, we needed to consider what our sponsors would be able to help us provide, and how we could best serve th…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Reactions Continue to Viral Video that Led to Calls for College Presidents to Resign]]></title>
+        <id>https://tech.slashdot.org/story/23/12/09/1015238/reactions-continue-to-viral-video-that-led-to-calls-for-college-presidents-to-resign?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/12/09/1015238/reactions-continue-to-viral-video-that-led-to-calls-for-college-presidents-to-resign?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T20:34:00.000Z</updated>
+        <summary type="html"><![CDATA[After billionaire Bill Ackman demanded three college presidents "resign in disgrace," that post on X — excerpting their testimony before a U.S. Congressional committee — has now been viewed more than 104 million times, provoking a variety of reactions. 
+
+Saturday afternoon, one of the three college presidents resigned — University of Pennsylvania president Liz Magill. 
+
+Politico reports that the Republican-led Committee now "will be investigating Harvard University, MIT and the University of Pennsylvania after their institutions' leaders failed to sufficiently condemn student protests calling for 'Jewish genocide.'" The BBC reports a wealthy UPenn donor reportedly withdrew a stock grant worth $100 million. 
+
+But after watching the entire Congressional hearing, New York Times opinion column…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linus Torvalds Discusses Maintainers, AI, and Rust in the Kernel]]></title>
+        <id>https://linux.slashdot.org/story/23/12/09/0644247/linus-torvalds-discusses-maintainers-ai-and-rust-in-the-kernel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://linux.slashdot.org/story/23/12/09/0644247/linus-torvalds-discusses-maintainers-ai-and-rust-in-the-kernel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T19:34:00.000Z</updated>
+        <summary type="html"><![CDATA[ZDNet reports that "At the Linux Foundation's Open Source Summit Japan, Linus Torvalds and his good friend Dirk Hohndel, the head of Verizon open source, talked about the current state of Linux:
+
+
+Speaking of maintainers, Hohndel brought up the question of "maintainer fatigue and how draining and stressful this role is...." Torvalds replied, "It's much easier to find developers; we have a lot of developers. Some people think that you have to be a superdeveloper who can do everything to be a maintainer, but that's not actually true...." 
+
+Hohndel commented that the aging of the kernel community is a "double-edged sword." Torvalds agreed, but he noted that "one of the things I liked about the Rust side of the kernel, was that there was one maintainer who was clearly much younger than most of…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Weighs Gemini AI Project To Tell People Their Life Story Using Their Photos and Searches]]></title>
+        <id>https://tech.slashdot.org/story/23/12/09/067231/google-weighs-gemini-ai-project-to-tell-people-their-life-story-using-their-photos-and-searches?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/12/09/067231/google-weighs-gemini-ai-project-to-tell-people-their-life-story-using-their-photos-and-searches?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T18:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The Gemini LLMs developed by Google Deepmind can process more than text, including images, video and audio. So a team at Google has proposed using AI to create a "bird's-eye" view of users' lives, reports CNBC, "using mobile phone data such as photographs and searches."
+
+Dubbed "Project Ellmann," after biographer and literary critic Richard David Ellmann, the idea would be to use LLMs like Gemini to ingest search results, spot patterns in a user's photos, create a chatbot and "answer previously impossible questions," according to a copy of a presentation viewed by CNBC. Ellmann's aim, it states, is to be "Your Life Story Teller." 
+
+It's unclear if the company has plans to produce these capabilities within Google Photos, or any other product. Google Photos has more than 1 billion users and …]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Postal Service Warns Rural Mail Carriers:  Don't Publicly Blame Delays on Amazon]]></title>
+        <id>https://yro.slashdot.org/story/23/12/09/0548217/us-postal-service-warns-rural-mail-carriers-dont-publicly-blame-delays-on-amazon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/12/09/0548217/us-postal-service-warns-rural-mail-carriers-dont-publicly-blame-delays-on-amazon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T17:34:00.000Z</updated>
+        <summary type="html"><![CDATA[15,279 people live in the rural Minnesota town of Bemidji. But now mail carriers there, "overwhelmed by Amazon packages, say they've been warned not to use the word 'Amazon,' including when customers ask why the mail is delayed," reports the Washington Post:
+
+"We are not to mention the word 'Amazon' to anyone," said a mail carrier who spoke on the condition of anonymity to protect their job. "If asked, they're to be referred to as 'Delivery Partners' or 'Distributors,'" said a second carrier. "It's ridiculous." The directive, passed down Monday morning from U.S. Postal Service management, comes three weeks after mail carriers in the northern Minnesota town staged a symbolic strike outside the post office, protesting the heavy workloads and long hours caused by the sudden arrival of thousan…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Go Programmers Surveyed: Most Use Linux or MacOS]]></title>
+        <id>https://developers.slashdot.org/story/23/12/09/0445214/go-programmers-surveyed-most-use-linux-or-macos?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/23/12/09/0445214/go-programmers-surveyed-most-use-linux-or-macos?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T16:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The Go team conducted a survey of Go Developers in August — and has just released the results. Among the findings: "90% of survey respondents saying they felt satisfied while working with Go during the prior year," while 6% said they were dissastified.
+
+Further, the number of people working with Go continues to increase; we see evidence of this from external research like Stack Overflow's Developer Survey (which found 14% of professional developers worked with Go during the past year, a roughly 15% year-over-year increase), as well as analytics for go.dev (which show an 8% rise in visitors year-over-year). Combining this growth with a high satisfaction score is evidence that Go continues to appeal to developers, and suggests that many developers who choose to learn the language feel good a…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Before Sam Altman's Ouster, OpenAI's Leaders Were Warned of Abusive Behavior]]></title>
+        <id>https://slashdot.org/story/23/12/09/059212/before-sam-altmans-ouster-openais-leaders-were-warned-of-abusive-behavior?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/12/09/059212/before-sam-altmans-ouster-openais-leaders-were-warned-of-abusive-behavior?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA["This fall, a small number of senior leaders approached the board of OpenAI with concerns about chief executive Sam Altman," the Washington Post reported late Friday:
+
+Altman — a revered mentor, and avatar of the AI revolution — had been psychologically abusive, the employees alleged, creating pockets of chaos and delays at the artificial-intelligence start-up, according to two people familiar with the board's thinking who spoke on the condition of anonymity to discuss sensitive internal matters. The company leaders, a group that included key figures and people who manage large teams, mentioned Altman's allegedly pitting employees against each other in unhealthy ways, the people said. 
+
+Although the board members didn't use the language of abuse to describe Altman's behavior, these complai…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jack Dorsey's Block Releases Bitkey Hardware Wallet]]></title>
+        <id>https://hardware.slashdot.org/story/23/12/08/205217/jack-dorseys-block-releases-bitkey-hardware-wallet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/23/12/08/205217/jack-dorseys-block-releases-bitkey-hardware-wallet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from TechCrunch: Jack Dorsey's Block (the company formerly known as Square) announced today that it is releasing its hardware Bitcoin wallet, Bitkey, in 95 countries. However, users can only preorder the device at the moment, with shipping starting in early 2024. The device will cost $150 USD. Block's pitch to Bitcoin holders is that using a self-custodial crypto wallet is more secure than keeping their crypto assets in custodial wallets or exchanges.
+ 
+Self-custodial wallets put the onus on users to remember -- or store securely -- passwords or long seed phrases to unlock their accounts. The Proto team at Block, which worked on developing the Bitkey wallet, said that it solved this problem by using a two-of-three authentication mechanism. Two keys lie with the customer: the hardware wallet and a mobile app. Bitkey stores the third key on its server. The company argues that by having access to just one key, it can't access or move customers' Bitcoins.
+ 
+Block said that it uses its server-side key only to authenticate transactions to move Bitcoin when they just have their phone and to recover their account when their device or phone is lost. The company said the server-side key will also be able to handle the scenario when a customer loses both the phone and the hardware wallet. Recovery was recently detailed in a blog post by the company. [...] Block has partnered with crypto exchange Coinbase and the company's own Cash App to help people easily buy or transfer (or both) Bitcoins to the hardware wallet. The company said that the ability to transfer Bitcoin from Coinbase and Cash App will be rolled out immediately with other features coming later.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google's AI Note-Taking App Is Now Available]]></title>
+        <id>https://tech.slashdot.org/story/23/12/09/0012253/googles-ai-note-taking-app-is-now-available?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/23/12/09/0012253/googles-ai-note-taking-app-is-now-available?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NotebookLM, Google's experimental AI-powered note-taking app unveiled at Google I/O earlier this year (formerly referred to as Project Tailwind), is now widely available in the United States. "It's also getting several new features and is 'starting' to use Google's Gemini Pro AI model 'to help with document understanding and reasoning,'" reports The Verge. From the report: NotebookLM can already do things like summarize the documents you import into the app, come up with key points, and even answer questions about your note-taking sources. But now, Google is adding a way to transform your notes into other types of documents, too. Once you select all the notes you want to include, NotebookLM will automatically suggest formats, such as an outline or study guide. However, Google notes that you can also tell NotebookLM to transform your notes into a format of your choosing, like an email, script outline, newsletter, and more.
+ 
+Additionally, NotebookLM will now start providing suggested actions based on what you're doing in the app. As an example, Google says if you're writing a note, NotebookLM may automatically "offer tools to polish or refine your prose, or suggest related ideas from your sources based on what you've just written." Some other handy features coming to the app include a way to save helpful responses from NotebookLM as notes, share your notes with others, and focus NotebookLM's AI on select sources when chatting with it. Google is expanding some of NotebookLM's limitations as well. You can now include up to 20 sources in your notebook, each with up to 200,000 words.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[China Starts Up World's First Fourth-Generation Reactor, Readying Giant Nuclear Ship]]></title>
+        <id>https://hardware.slashdot.org/story/23/12/09/007250/china-starts-up-worlds-first-fourth-generation-reactor-readying-giant-nuclear-ship?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/23/12/09/007250/china-starts-up-worlds-first-fourth-generation-reactor-readying-giant-nuclear-ship?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[hackingbear writes: China has started commercial operations at a new generation nuclear reactor that is the first of its kind in the world, state media said on Dec 5. Compared with previous reactors, the fourth generation Shidaowan plant, a modular 200 megawatt (MW) high-temperature, gas-cooled reactor (HTGCR) plant developed jointly by state-run utility Huaneng, Tsinghua University and China National Nuclear Corporation, is designed to use fuel more efficiently and improve its economics, safety and environmental footprint as China turns to nuclear power to try to meet carbon emissions goals.
+ 
+In a related development, Shanghai-based Jiangnan Shipyard has unveiled a design for an innovative new giant container ship -- with a load capacity starting at 24,000 standard containers -- powered by a thorium molten-salt nuclear reactor, an alternative 4th gen design. "The new ship model uses nuclear energy as a clean energy source and adopts an internationally advanced fourth-generation molten salt reactor solution. The proposed design of super-large nuclear container ships will truly achieve 'zero emissions' during the operation cycle of this type of ship," the journal Marine Time China said in its official WeChat account.
+ 
+Shipbuilders from Japan, the United States, South Korea, and Europe have come up with similar designs but none of these countries has a modern and reliable operating reactor to make the design a reality. But China has carried on and, earlier this year, got the first thorium-based molten salt reactor, which needs little amount of water to cool down, making it safer and more efficient, up and running in the Gobi desert. Further reading: China is Building Nuclear Reactors Faster Than Any Other Country
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FDA Approves CRISPR-Based Medicine For Treatment of Sickle Cell Disease]]></title>
+        <id>https://science.slashdot.org/story/23/12/08/2059222/fda-approves-crispr-based-medicine-for-treatment-of-sickle-cell-disease?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/23/12/08/2059222/fda-approves-crispr-based-medicine-for-treatment-of-sickle-cell-disease?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from STAT: The Food and Drug Administration on Friday approved the world's first medicine based on CRISPR gene-editing technology, a groundbreaking treatment for sickle cell disease that delivers a potential cure for people born with the chronic and life-shortening blood disorder. The new medicine, called Casgevy, is made by Vertex Pharmaceuticals and CRISPR Therapeutics. Its authorization is a scientific triumph for the technology that can efficiently and precisely repair DNA mutations -- ushering in a new era of genetic medicines for inherited diseases.
+ 
+In a clinical trial, Casgevy was shown to eliminate recurrent episodes of debilitating pain caused by sickle cell, which afflicts approximately 100,000 people in the U.S., a vast majority of whom are Black. The therapy, whose scientific name is exa-cel, is described as a potential cure because the genetic fix enabled by CRISPR is designed to last a lifetime, although confirmation will require years of follow-up. The FDA decision comes three weeks after regulators in the U.K. were the first to clear the drug. Approval in the European Union is expected next year. The FDA is also expected to rule on exa-cel as a treatment for beta thalassemia, another inherited blood disorder, by March 30.
+ 
+The FDA on Friday also approved another sickle cell treatment, a gene therapy from Bluebird Bio called Lyfgenia. Patients will now have the option of two cutting-edge therapies that provide potentially curative benefits. Scientists Emmanuelle Charpentier and Jennifer Doudna published their first CRISPR paper just over a decade ago. In 2020, the research won the pair a Nobel Prize. Reflecting on the approval of Casgevy, Charpentier told STAT via email that she was "excited and pleased" for what it means for patients and their families.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[White House Threatens Patents of High-Priced Drugs]]></title>
+        <id>https://yro.slashdot.org/story/23/12/08/2052256/white-house-threatens-patents-of-high-priced-drugs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/23/12/08/2052256/white-house-threatens-patents-of-high-priced-drugs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T02:02:00.000Z</updated>
+        <summary type="html"><![CDATA[The Biden administration is threatening to cancel the patents of some costly medications to allow rivals to make their own more affordable versions. The Associated Press reports: Under a plan announced Thursday, the government would consider overriding the patent for high-priced drugs that have been developed with the help of taxpayer money and letting competitors make them in hopes of driving down the cost. In a 15-second video released to YouTube on Wednesday night, President Joe Biden promised the move would lower prices. "Today, we're taking a very important step toward ending price gouging so you don't have to pay more for the medicine you need," he said.
+ 
+White House officials would not name drugs that might potentially be targeted. The government would consider seizing a patent if a drug is only available to a "narrow set of consumers," according to the proposal that will be open to public comment for 60 days. Drugmakers are almost certain to challenge the plan in court if it is enacted. [...] The White House also intends to focus more closely on private equity firms that purchase hospitals and health systems, then often whittle them down and sell quickly for a profit. The departments of Justice and Health and Human Services, and the Federal Trade Commission will work to share more data about health system ownership.
+ 
+While only a minority of drugs on the market relied so heavily on taxpayer dollars, the threat of a government "march-in" on patents will make many pharmaceutical companies think twice, said Jing Luo, a professor of medicine at University of Pittsburgh. "If I was a drug company that was trying to license a product that had benefited heavily from taxpayer money, I'd be very careful about how to price that product," Luo said. "I wouldn't want anyone to take my product away from me."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Baldur's Gate 3 Wins Game of the Year]]></title>
+        <id>https://slashdot.org/story/23/12/08/2043258/baldurs-gate-3-wins-game-of-the-year?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/23/12/08/2043258/baldurs-gate-3-wins-game-of-the-year?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2023-12-09T01:25:00.000Z</updated>
+        <summary type="html"><![CDATA[The role-playing adventure game Baldur's Gate 3 won game of the year last night at The Game Awards 2023 in Los Angeles. The New York Times reports: It was the crowning achievement for a game based on Dungeons & Dragons that largely stayed under the radar during its six years in development by the Belgian company Larian Studios. But its summer release -- 23 years after its predecessor -- captivated gamers, who celebrated a robust character creator, deep narrative and branching paths that made it seem as though anything was possible in its fictional universe of vampires and elves. Baldur's Gate 3, which is available on the PC, the PlayStation 5 and the Xbox Series X|S, also went home with several other awards, including those for best role-playing game, best performance and best multiplayer.
+ 
+The other nominees for game of the year were Alan Wake 2, by Remedy Entertainment; Marvel's Spider-Man 2, by Insomniac Games; Resident Evil 4, by Capcom; Super Mario Bros. Wonder, by Nintendo; and The Legend of Zelda: Tears of the Kingdom, by Nintendo.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Europe Reaches a Deal On the World's First Comprehensive AI Rules]]></title>
         <id>https://yro.slashdot.org/story/23/12/08/2359259/europe-reaches-a-deal-on-the-worlds-first-comprehensive-ai-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -36,6 +298,16 @@ The news is a massive failure by Verizon who did not verify that the data reques
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Santa Claus is not a god... yet]]></title>
+        <id>https://taylor.town/santa-claus-god</id>
+        <link href="https://taylor.town/santa-claus-god"/>
+        <updated>2023-12-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[To dismiss a god of children is unfair to everybody who was ever a child.]]></summary>
+        <author>
+            <name>taylor.town</name>
         </author>
     </entry>
     <entry>
@@ -7133,32 +7405,6 @@ we'd love your feedback on this GitHub issue.]]></summary>
         <summary type="html"><![CDATA[101,721 words of cryptic nonsense.]]></summary>
         <author>
             <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The origin of Ruby on Rails]]></title>
-        <id>https://world.hey.com/dhh/the-origin-of-ruby-on-rails-b3dab24e</id>
-        <link href="https://world.hey.com/dhh/the-origin-of-ruby-on-rails-b3dab24e"/>
-        <updated>2023-11-10T00:01:49.000Z</updated>
-        <summary type="html"><![CDATA[I can't thank Honeypot and Carolina Cabral enough for the producing The Rails Documentary that was just released today. Looking back on those early, formative years of Ruby on Rails with Tobi, Jamis, Jeremy, and Jason was actually kind of profound. I usually don't spend much time looking back, so for once to stop and marvel at how we got started twenty years ago was really special. A fitting tribute to two decades of working with Ruby on the web.
-Together with 37signals, Rails has been my life's work. I've had the pleasure to collaborate with literally thousands of people on evolving the framework, and I've been humbled to see well over a million applications be built with it. Everything from tiny internal apps to $77 billion behemoths like Shopify.
-Now one of the reasons I don't spend too…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three reasons a liberal arts degree helped me succeed in tech]]></title>
-        <id>https://martinfowler.com/articles/2023-liberal-arts.html</id>
-        <link href="https://martinfowler.com/articles/2023-liberal-arts.html"/>
-        <updated>2023-11-09T15:12:00.000Z</updated>
-        <summary type="html"><![CDATA[My colleague Sannie Lee has met many students who are looking into
-     getting into technology, taking narrow professionally-oriented majors.
-     Sannie, however, has found that a traditional liberal-arts degree has given
-     her skills that are highly relevant to her work as a product manager.
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
