@@ -91,6 +91,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/bliki/TestDrivenDevelopment.html",
+          "author": null,
+          "description": "Test-Driven Development (TDD) is a technique for building\n\tsoftware that guides software development by writing tests. It was\n\tdeveloped by Kent\n\tBeck in the late 1990's as part of\n\tExtreme Programming. In essence we follow three simple\n\tsteps repeatedly:\nWrite a test for the next bit of functionality you want to add.\nWrite the functional code until the test passes.\nRefactor both new and old code to make it well structured.\n\n\nAlthough these three steps, often summarized as Red - Green -\n  Refactor, are the heart of the process, there's also a vital initial\n  step where we write out a list of test cases first. We then pick one of these\n  tests, apply red-green-refactor to it, and once we're done pick the next.\n  Sequencing the tests properly is a skill, we want to pick tests that drive us\n …",
+          "link": "https://martinfowler.com/bliki/TestDrivenDevelopment.html",
+          "publishedOn": "2023-12-11T19:40:00.000Z",
+          "wordCount": 489,
+          "title": "Bliki: TestDrivenDevelopment",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
+        {
           "id": "https://martinfowler.com/bliki/DiffDebugging.html",
           "author": null,
           "description": "Regression bugs are newly appeared bugs in features of the software that have been around\n  for a while. When hunting them, it usually valuable to figure out which change\n  in the software caused them to appear. Looking at that change can give\n  invaluable clues about where the bug is and how to squash it. There isn't a\n  well-known term for this form of investigation, but I call it Diff Debugging.\nDiff debugging only works if we have our code in version control, but\n  fortunately these days that's the norm. But there are some more things that\n  are needed to make it work effectively. We need Reproducible Builds, so that we can run old versions of\n  the software easily. It helps greatly to have small commits, due to high-frequency\n  integration. That way when we find the guilty commit, we …",
@@ -133,6 +143,16 @@
       "feedUrl": "https://blog.rust-lang.org/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/2023/12/11/cargo-cache-cleaning.html",
+          "author": null,
+          "description": "Cargo has recently gained an unstable feature on the nightly channel (starting with nightly-2023-11-17) to perform automatic cleaning of cache content within Cargo's home directory.\nThis post includes:\nA description of what this means (What is this feature?)\nA call for help (What to watch out for and Request for feedback)\nImplementation details (Design considerations and implementation details)\nAn outline of what is planned for the future (Plan for the future)\nIn short, we are asking people who use the nightly channel to enable this feature and report any issues you encounter on the Cargo issue tracker.\nTo enable it, place the following in your Cargo config file (typically located in ~/.cargo/config.toml or %USERPROFILE%\\.cargo\\config.toml for Windows):\n[unstable]\ngc = true\n\nOr set the CAR…",
+          "link": "https://blog.rust-lang.org/2023/12/11/cargo-cache-cleaning.html",
+          "publishedOn": "2023-12-11T00:00:00.000Z",
+          "wordCount": 1909,
+          "title": "Cargo cache cleaning",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/2023/12/07/Rust-1.74.1.html",
           "author": null,
@@ -532,16 +552,6 @@
           "wordCount": 865,
           "title": "Pseudoprose",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/town-hall-0015",
-          "author": null,
-          "description": "101,721 words of cryptic nonsense.",
-          "link": "https://taylor.town/town-hall-0015",
-          "publishedOn": "2023-11-12T00:00:00.000Z",
-          "wordCount": 1056,
-          "title": "Town Hall #15: Artifacts",
-          "imageUrl": null
         }
       ]
     },
@@ -550,6 +560,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://mobile.slashdot.org/story/23/12/11/2154256/apple-releases-spatial-video-recording-on-iphone-15-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "With iOS 17.2 rolling out today, Apple is giving users the ability to record spatial videos on their iPhone 15 Pro and iPhone 15 Pro Max. \"The new feature lets users film in three dimensions and experience their favorite memories and special moments on Apple Vision Pro, the upcoming mixed-reality headset,\" reports TechCrunch. From the report: In order to create a three-dimensional video, Apple explains that the iPhone uses both the main and ultrawide cameras when recording. This is then saved as a single file within a new album in the Photos app titled \"Spatial.\" The videos will also sync across devices with iCloud. Spatial videos are captured in 1080p resolution at 30 frames per second. Spatial video recording can be enabled in Settings by toggling on \"Spatial Video for Apple Vision Pro\" in the Camera section under Formats. Apple suggests holding the iPhone in landscape orientation for optimal results. Spatial videos can be viewed on all iPhones and other devices; however, they'll appear as regular, 2D videos.\n \nThe new feature allows users to record videos that Apple's senior vice president of worldwide marketing, Greg Joswiak, describes as \"magical\" and \"setting a new bar for what's possible.\" While that's marketing speak, it's a differentiator for Apple's high-end iPhone, and will deepen users' connections with Apple's latest product, the AR/VR headset, launching next year. As part of today's release, Apple also launched its Journal app, which is designed to allow iOS users to record key moments in their lives.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://mobile.slashdot.org/story/23/12/11/2154256/apple-releases-spatial-video-recording-on-iphone-15-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-12T00:45:00.000Z",
+          "wordCount": 3998,
+          "title": "Apple Releases Spatial Video Recording On iPhone 15 Pro",
+          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/11/215238/huawei-to-start-building-first-european-factory-in-france?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Reuters: China's Huawei will start building its mobile phone network equipment factory in France next year, a source familiar with the matter said, pressing ahead with its first plant in Europe even as some European governments curb the use of the firm's 5G gear. The company outlined plans for the factory with an initial investment of 200 million euros ($215.28 million) in 2020, but the roll-out was delayed by the COVID-19 pandemic, the source said on Monday. The source did not give a timeline for when the factory in Brumath, near Strasbourg, will be up and running. A French government source said the site was expected to open in 2025. Further reading: 'How Washington Chased Huawei Out of Europe'\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/11/215238/huawei-to-start-building-first-european-factory-in-france?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-12T00:02:00.000Z",
+          "wordCount": 4019,
+          "title": "Huawei To Start Building First European Factory In France",
+          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/11/2059245/google-play-movies-tv-apps-shutting-down-in-january-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Google Play Movies & TV will be replaced with Google TV on January 17, 2024. 9to5Google reports: Since the 2020 launch of the Google TV platform, that branding has replaced Play Movies & TV in areas such as mobile apps, but that's also led to the choice to do away with Play Movies & TV branding basically everywhere else. In October, that decision also made its way to Android TV, and the app has not been working ever since. Despite some confusion over the past few days, the app currently just redirects to Android TV's \"Shop\" tab, which has been widely available for months.\n \nIn a new post, Google explains that it will do away with the last parts of Google Play Movies & TV in January 2024: \"With these changes, Google Play Movies & TV will no longer be available on Android TV devices or the Google Play website.* However, you'll still be able to access all of your previously purchased titles (including active rentals) on Android TV devices, Google TV devices, the Google TV mobile app (Android and iOS), and YouTube.\"\n \nOn January 17, Play Movies & TV will officially cease for good on Android TV. For anyone who does still have the app working -- again, most users cannot use the app already -- the \"Shop\" tab will become the only option. Similarly, Google says that Play Movies & TV will cease on other remaining platforms that same date. Any cable boxes with the app integrated will also lose it, and in turn pushed to the YouTube app for continued access to purchased content. Web access via play.google.com/movies will also go away, with youtube.com/movies becoming the alternative.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/11/2059245/google-play-movies-tv-apps-shutting-down-in-january-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T23:20:00.000Z",
+          "wordCount": 4405,
+          "title": "Google Play Movies, TV Apps Shutting Down In January 2024",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/11/2050254/the-arc-browser-is-finally-coming-to-windows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "The Browser Company's Chromium-based Arc browser, which aims to rethink the whole browser UI with a sidebar for tabs and lots of personalization options, is finally coming to Windows. In a post on X, the Browser Company says it's sent out the first Windows beta invites. It's currently only available for iOS and Mac users. Slashdot reader dokjest shares the email they received: Hey there, Hursh here, CTO at the Browser Co, with some exciting news! A little while ago, you signed up for a brand new browser, Arc -- one that The Verge called \"The Chrome replacement I've been waiting for\" and Shopify's CEO named as \"the best browser.\" Well, starting today, we're onboarding our very first beta testers to Arc on Windows. And you're next!\n \nOver the coming weeks, our team will be onboarding hundreds of beta testers to Arc. And come January, we'll be welcoming 1,000s of you from the waitlist every week. If you don't mind a few bugs and some rough edges, sign up as a beta tester and we'll prioritize your invite to Arc! For us, this period leading up to our Windows release is about crafting the very best version of Arc that we can. And that means learning from you -- what you love, what's missing, what doesn't feel quite right. It still feels surreal to say, but it really does all begin today. Follow along for some fun on isarconwindowsyet.com -- And we'll see you very soon!\n \n- Hursh and The Browser Co Crew\n \nP.S. If you have a friend on Windows with one too many tabs, who could use a better browser -- forward this on to them, too! If you want to get on the beta waitlist, you can sign up here.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/11/2050254/the-arc-browser-is-finally-coming-to-windows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T22:40:00.000Z",
+          "wordCount": 5277,
+          "title": "The Arc Browser Is Finally Coming To Windows",
+          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/11/2042200/us-healthcare-giant-norton-says-hackers-stole-millions-of-patients-data-during-ransomware-attack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: Kentucky-based nonprofit healthcare system Norton Healthcare has confirmed that hackers accessed the personal data of millions of patients and employees during an earlier ransomware attack. Norton operates more than 40 clinics and hospitals in and around Louisville, Kentucky, and is the city's third-largest private employer. The organization has more than 20,000 employees, and more than 3,000 total providers on its medical staff, according to its website. In a filing with Maine's attorney general on Friday, Norton said that the sensitive data of approximately 2.5 million patients, as well as employees and their dependents, was accessed during its May ransomware attack.\n \nIn a letter sent to those affected, the nonprofit said that hackers…",
+          "link": "https://it.slashdot.org/story/23/12/11/2042200/us-healthcare-giant-norton-says-hackers-stole-millions-of-patients-data-during-ransomware-attack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T22:02:00.000Z",
+          "wordCount": 4376,
+          "title": "US Healthcare Giant Norton Says Hackers Stole Millions of Patients' Data During Ransomware Attack",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/11/194248/nvidia-emerges-as-leading-investor-in-ai-companies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Nvidia, the world's most valuable chipmaker, has become one of the most prolific investors in AI start-ups this year, seeking to capitalise on its position as the dominant provider of AI processors. From a report: Silicon Valley-based Nvidia said on Monday it had invested in \"more than two dozen\" companies this year, from big new AI platforms valued in the billions of dollars to smaller start-ups applying AI to industries such as healthcare or energy. According to estimates by Dealroom, which tracks venture capital investments, Nvidia participated in 35 deals in 2023, almost six times more than last year. \n\nThat made the chipmaker the most active large-scale investor in AI in a banner year for dealmaking in the sector, outstripping Silicon Valley's largest venture firms such as Andreessen Horowitz and Sequoia, according to Dealroom, excluding small-scale accelerator funds such as Y Combinator that place many smaller bets. \"Broadly, for Nvidia, the number one criteria [for making start-up investments] is relevancy,\" Mohamed Siddeek, head of its dedicated venture arm NVentures, told the Financial Times. \"Companies that use our technology, who depend on our technology, who build their businesses on our technologyâ...âI can't think of a situation where we've invested in a company that did not use Nvidia products.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/11/194248/nvidia-emerges-as-leading-investor-in-ai-companies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T21:20:00.000Z",
+          "wordCount": 4514,
+          "title": "Nvidia Emerges as Leading Investor in AI Companies",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/12/11/1917207/apple-rolls-out-journal-app-with-ios-172-and-ipados-172-updates?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple today released iOS 17.2 and iPadOS 17.2, the second major updates to the iOS 17 and iPadOS 17 operating systems that came out in September. From a report: The iOS 17.2 update includes the new Journal app, which is designed to allow iOS users to record key moments in their lives. The Journal app includes journaling suggestions, scheduled notifications, and options for adding photos, locations, and more.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/12/11/1917207/apple-rolls-out-journal-app-with-ios-172-and-ipados-172-updates?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T20:40:00.000Z",
+          "wordCount": 4458,
+          "title": "Apple Rolls Out Journal App With iOS 17.2 and iPadOS 17.2 Updates",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ios_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/11/1911208/microsoft-and-labor-unions-form-historic-alliance-on-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft is teaming up with labor unions to create \"an open dialogue\" on how AI will impact workers. From a report: The software giant is forming an alliance with the American Federation of Labor and Congress of Industrial Organizations, which comprises 60 labor unions representing 12.5 million workers, according to a statement on Monday. Under the partnership, Redmond, Washington-based Microsoft will provide labor leaders and workers with formal training on how AI works. The education sessions will start in the winter of 2024. Microsoft will also begin gathering feedback from labor groups and will focus on unions and workers in \"key selected sectors.\" \n\nThe initiative marks the first formal collaboration on AI between labor unions and the technology industry and coincides with growing concerns that artificial intelligence could displace workers. The agreement also includes a template for \"neutrality\" terms that would make it easier for unions to organize at Microsoft. The move expands an approach the company already agreed to for its video game workers and lays the groundwork for broader unionization at Microsoft. Neutrality agreements commit companies not to wage anti-union campaigns in response to workers organizing.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/11/1911208/microsoft-and-labor-unions-form-historic-alliance-on-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T20:00:00.000Z",
+          "wordCount": 5670,
+          "title": "Microsoft and Labor Unions Form 'Historic' Alliance on AI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/11/1922231/cop28-draft-agreement-calls-for-fossil-fuel-cuts-but-avoids-phase-out?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A draft deal to cut global fossil fuel production is \"grossly insufficient\" and \"incoherent\" and will not stop the world from avoiding dangerous climate breakdown, according to delegates at the UN's Cop28 summit. From a report: The text put forward by the summit presidency after 10 days of wrangling was received with concern and anger by many climate experts and politicians, though others welcomed elements of the draft including the first mention in a Cop text of reducing fossil fuel production. Some countries are despairing that the text does not require a full phase-out of fossil fuels. \n\nCedric Schuster of Samoa, chair of the Alliance of Small Island States, said: \"We will not sign our death certificate. We cannot sign on to text that does not have strong commitments on phasing out fossil fuels.\" The Cop28 presidency released a draft text in the early evening on Monday, which called for \"reducing both consumption and production of fossil fuels, in a just, orderly and equitable manner, so as to achieve net zero by, before or around 2050, in keeping with the science.\" \n\nThe text avoids highly contentious calls for a \"phase-out\" or \"phase-down\" of fossil fuels, which have been the focus of deep disagreement among the more than 190 countries meeting in Dubai. But instead of requiring fossil fuel producers to cut their output, it frames such reductions as optional, by calling on countries to \"take actions that could include\" reducing fossil fuels. \"That one word 'could' just kills everything,\" said Eamon Ryan, Ireland's environment minister.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/11/1922231/cop28-draft-agreement-calls-for-fossil-fuel-cuts-but-avoids-phase-out?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T19:21:00.000Z",
+          "wordCount": 6580,
+          "title": "Cop28 Draft Agreement Calls for Fossil Fuel Cuts But Avoids 'Phase-Out'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/12/11/1846224/beepers-imessage-app-for-android-is-back?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The faceoff between Apple and Beeper has entered another round. Days after Apple managed to block Beeper Mini from seamlessly sending and receiving iMessages on Android, Beeper says the app is up and running again -- sort of. From a report: See, Beeper Mini works a little differently this time: you must now sign in with an Apple ID, whereas previously it would automatically register you to iMessage via your phone number. Beeper says it's working on a fix to restore phone number registration with iMessage, but until then, your friends won't be able to send iMessages directly to your phone number. Instead, the blue bubbles will have to come to and from your email address. That's not nearly as convenient, but at the end of the day, it's still iMessage. \n\nAnother change is that for now, owing to what could escalate into a cat-and-mouse game with Apple, Beeper Mini will be free to use. \"Things have been a bit chaotic, and we're not comfortable subjecting paying users to this,\" the company wrote in a blog post today about the update. The app originally required a $2-per-month subscription. Apple's statement on Friday made clear that it won't hesitate to shut down further attempts to dupe its servers into believing Android phones are genuine Apple devices.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/12/11/1846224/beepers-imessage-app-for-android-is-back?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T18:45:00.000Z",
+          "wordCount": 6959,
+          "title": "Beeper's iMessage App for Android is Back",
+          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/11/0618233/that-call-center-tech-scammer-could-be-a-human-trafficking-victim?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Human trafficking to staff cyber scam call centers, once isolated to Southeast Asia, has expanded beyond the region, according to an Interpol investigation revealing new evidence of abuse in South America and the Middle East. Previous hotspots since 2021 were Cambodia, Laos and Myanmar. From a report: The latest five-month operation discovered that victims from Malaysia were being trafficked to work in Peruvian call centers and Ugandan victims were being trafficked to Dubai for the same reason, only to be diverted to Thailand and then Myanmar. Police in Telangana, India, recently registered their first case of human trafficking for the purposes of cyber fraud. An accountant was lured to southeast Asia to work for a cyber fraud operation before eventually being returned in exchange for a ransom payment. \n\nInterpol said that in Myanmar alone, it identified trafficking victims originating from at least 22 different countries, although most come from the country's Kayin and Shan states. Operation Storm Makers II has led to hundreds of arrests and the rescue of more than 140 individuals, although the scale of the threat is much larger; many of the 360 investigations remain open and ongoing. Fake job ads luring victims with promises of high pay for light work in IT, marketing, modeling, and other roles now utilize AI translation tools to target non-Chinese speakers, expanding the victim pool, according to the report.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/12/11/0618233/that-call-center-tech-scammer-could-be-a-human-trafficking-victim?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T18:00:00.000Z",
+          "wordCount": 7907,
+          "title": "That Call Center Tech Scammer Could Be a Human Trafficking Victim",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/11/1138247/ex-commissioner-for-facial-recognition-tech-joins-facewatch-firm-he-approved?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The recently-departed watchdog in charge of monitoring facial recognition technology in UK has joined the private firm he controversially approved, paving the way for the mass roll-out of biometric surveillance cameras in high streets across the country. From a report: In a move critics have dubbed an \"outrageous conflict of interest,\" Professor Fraser Sampson, former biometrics and surveillance camera commissioner, has joined Facewatch as a non-executive director. Sampson left his watchdog role on 31 October, with Companies House records showing he was registered as a company director at Facewatch the following day, 1 November. \n\nCampaigners claim this might mean he was negotiating his Facewatch contract while in post, and have urged the advisory committee on business appointments to investigate if it may have \"compromised his work in public office.\" It is understood that the committee is currently considering the issue. Facewatch uses biometric cameras to check faces against a watch list and, despite widespread concern over the technology, has received backing from the Home Office, and has already been introduced in hundreds of high-street shops and supermarkets.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/11/1138247/ex-commissioner-for-facial-recognition-tech-joins-facewatch-firm-he-approved?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T17:20:00.000Z",
+          "wordCount": 4499,
+          "title": "Ex-Commissioner For Facial Recognition Tech Joins Facewatch Firm He Approved",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/11/1117216/why-the-us-needs-a-moonshot-mentality-for-ai---led-by-the-public-sector?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Fei-Fei Li and John Etchemendy, the founding co-directors of the Stanford Institute for Human-Centered Artificial Intelligence, in an op-ed on WSJ argue that AI is too important to be left entirely in the hands of the big tech companies: Among other things, 2023 will be remembered as the year artificial intelligence went mainstream. But while Americans from every corner of the country began dabbling with tools like ChatGPT and Midjourney, we believe 2023 is also the year Congress failed to act on what we see as the big picture: AI's impact will be far bigger than the products that companies are releasing at a breakneck pace. AI is a broad, general-purpose technology with profound implications for society that cannot be overstated. \n\n[...] So what needs to happen? President Biden has set the stage, and with all this attention, it's time for Congress to act. They need to pass the Create AI Act, adhere to the elements called on by the new executive order, and invest more in the public sector to ensure America's leadership in creating AI technology steeped in the values we stand for. We also encourage an investment in human capital to bring more talent to the U.S. to work in the field of AI within academia and the government. \n\nBut why does this matter? Because this technology isn't just good for optimizing ad revenue for technology companies, but can fuel the next generation of scientific discovery, ranging from nuclear fusion to curing cancer. Furthermore, to truly understand this technology, including its sometimes unpredictable emergent capabilities and behaviors, public-sector researchers urgently need to replicate and examine the under-the-hood architecture of these models. That's why government research labs need to take a larger role in AI. [...]\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/11/1117216/why-the-us-needs-a-moonshot-mentality-for-ai---led-by-the-public-sector?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T16:40:00.000Z",
+          "wordCount": 9863,
+          "title": "Why the US Needs a Moonshot Mentality for AI - Led by the Public Sector",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/11/0559246/new-york-joins-ibm-micron-in-10-billion-chip-research-complex?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "New York has partnered with chip firms to build $10 billion semiconductor research site at University at Albany, featuring cutting-edge ASML equipment to develop most advanced chips. From a report: Once the machinery is installed, the project and its partners will begin work on next-generation chip manufacturing there, according to New York Gov. Kathy Hochul's office. The partners include tech giant IBM, memory manufacturer Micron and chip manufacturing equipment makers Applied Materials and Tokyo Electron. \n\nThe expansion could help New York's bid to be designated a research hub under last year's $53 billion Chips Act. That legislation included $11 billion for a National Semiconductor Technology Center to foster domestic chip research and development. Expanding domestic chip manufacturing and research has become a federal and state-level priority in recent years as concern grows in the U.S. over China's expanding grasp over the industry. Chips are increasingly seen as a crux of geopolitical power, underlying advanced weapons for militaries and sophisticated artificial-intelligence systems.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/11/0559246/new-york-joins-ibm-micron-in-10-billion-chip-research-complex?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T16:00:00.000Z",
+          "wordCount": 5683,
+          "title": "New York Joins IBM, Micron in $10 Billion Chip Research Complex",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/11/0712215/bus-melting-jet-cars-are-getting-scarce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "As racetracks close and old aircraft engines get harder to find, the crowd-pleasing spectacles are endangered. From a report: Magdatude is a 1946 Chevy pickup modified with a jet engine. It wasn't put there for speed. On a rainy September night, the truck rumbled onto the infield of the Rockford Speedway in Illinois, stopping with its business end about 10 feet from a junk minibus. The engine whined to life and shot a blast of fire from its afterburner, engulfing the bus until it was reduced to a charred metal skeleton. \"There's nothing left of that thing!\" the announcer shouted. \"Holy cow!\" \n\nIt was a textbook jet car meltdown, once a common spectacle at racetracks and drag strips. The fiery craft has become endangered as venues close, spare parts grow scarce and practitioners dwindle. \"I think realistically there's going to be a few people that keep it alive,\" said Josh Baumgartner, Magdatude's owner. \"We're hoping to be among them.\" \n\nA former Navy mechanic named Doug Rose helped to popularize meltdowns after he created a dragster using a jet engine from a scrapyard. According to his widow, Jeanne, he conducted his first fire show around 1968 with a car he named the Green Mamba. Over the years, he honed his craft until he could torch a half-dozen vehicles at once. \"Doug's objective was to please the people,\" she said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/11/0712215/bus-melting-jet-cars-are-getting-scarce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-11T15:20:00.000Z",
+          "wordCount": 8513,
+          "title": "Bus-Melting Jet Cars Are Getting Scarce",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
         {
           "id": "https://news.slashdot.org/story/23/12/11/0043208/is-there-a-mass-exodus-of-former-silicon-valley-tech-companies-from-austin-texas?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
