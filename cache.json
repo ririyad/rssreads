@@ -174,6 +174,16 @@
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         },
         {
+          "id": "https://blog.rust-lang.org/2023/12/10/2024-Edition-CFP.html",
+          "author": null,
+          "description": "The year 2024 is soon to be upon us, and as long-time Rust aficionados know,\nthat means that a new Edition of Rust is on the horizon!\nWhat is an Edition?\nYou may be aware that a new version of Rust is released every six weeks.\nNew versions of the language can both add things as well as change things,\nbut only in backwards-compatible ways, according to Rust's\n1.0 stability guarantee.\nBut does that mean that Rust can never make backwards-incompatible changes?\nNot quite! This is what an Edition is:\nRust's mechanism for introducing backwards-incompatible changes in a backwards-compatible way.\nIf that sounds like a contradiction,\nthere are three key properties of Editions that preserve the stability guarantee:\nEditions are opt-in;\ncrates only receive breaking changes if its authors explicitly a…",
+          "link": "https://blog.rust-lang.org/2023/12/10/2024-Edition-CFP.html",
+          "publishedOn": "2023-12-10T00:00:00.000Z",
+          "wordCount": 973,
+          "title": "A Call for Proposals for the Rust 2024 Edition",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/12/07/Rust-1.74.1.html",
           "author": null,
           "description": "The Rust team has published a new point release of Rust, 1.74.1. Rust is a\nprogramming language that is empowering everyone to build reliable and\nefficient software.\nIf you have a previous version of Rust installed via rustup, getting Rust\n1.74.1 is as easy as:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the\nappropriate page on our website.\nWhat's in 1.74.1\n1.74.1 resolves a few regressions introduced in 1.74.0:\nResolved spurious STATUS_ACCESS_VIOLATIONs in LLVM\nClarify guarantees for std::mem::discriminant\nFix some subtyping-related regressions\nContributors to 1.74.1\nMany people came together to create Rust 1.74.1. We couldn't have done it\nwithout all of you. Thanks!",
@@ -181,16 +191,6 @@
           "publishedOn": "2023-12-07T00:00:00.000Z",
           "wordCount": 179,
           "title": "Announcing Rust 1.74.1",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html",
-          "author": null,
-          "description": "The Rust team is happy to announce a new version of Rust, 1.74.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.74.0 with:\nrustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.74.0 on GitHub.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.74.0 stable\nLint configuration through Cargo\nAs proposed in RFC 3389,\nthe Cargo.toml manifest now supports a [lints] table to configu…",
-          "link": "https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html",
-          "publishedOn": "2023-11-16T00:00:00.000Z",
-          "wordCount": 803,
-          "title": "Announcing Rust 1.74.0",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -540,6 +540,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://slashdot.org/story/23/12/15/2346251/openai-suspends-bytedances-account-after-it-used-gpt-to-train-its-own-ai-model?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "TikTok's parent company, ByteDance, has been secretly using OpenAI's technology to develop its own competing large language model (LLM). \"This practice is generally considered a faux pas in the AI world,\" writes The Verge's Alex Heath. \"It's also in direct violation of OpenAI's terms of service, which state that its model output can't be used 'to develop any artificial intelligence models that compete with our products and services.'\" From the report: Nevertheless, internal ByteDance documents shared with me confirm that the OpenAI API has been relied on to develop its foundational LLM, codenamed Project Seed, during nearly every phase of development, including for training and evaluating the model.\nEmployees involved are well aware of the implications; I've seen conversations on Lark, ByteDance's internal communication platform for employees, about how to \"whitewash\" the evidence through \"data desensitization.\" The misuse is so rampant that Project Seed employees regularly hit their max allowance for API access. Most of the company's GPT usage has been done through Microsoft's Azure program, which has the same policy as OpenAI.\n \nIn response, OpenAI said that it has suspended ByteDance's account: \"All API customers must adhere to our usage policies to ensure that our technology is used for good. While ByteDance's use of our API was minimal, we have suspended their account while we further investigate. If we discover that their usage doesn't follow these policies, we will ask them to make necessary changes or terminate their account.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/15/2346251/openai-suspends-bytedances-account-after-it-used-gpt-to-train-its-own-ai-model?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-16T00:45:00.000Z",
+          "wordCount": 4344,
+          "title": "OpenAI Suspends ByteDance's Account After It Used GPT To Train Its Own AI Model",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/15/226234/mcdonalds-ice-cream-machine-hackers-say-they-found-the-smoking-gun-that-killed-their-startup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Wired: A little over three years have passed since McDonald's sent out an email to thousands of its restaurant owners around the world that abruptly cut short the future ofa three-person startup called Kytch -- and with it, perhaps one of McDonald's best chances for fixing its famously out-of-order ice cream machines. Until then, Kytch had been selling McDonald's restaurant owners a popular internet-connected gadget designed to attach to their notoriously fragile and often broken soft-serve McFlurry dispensers, manufactured by McDonalds equipment partner Taylor. The Kytch device would essentially hack into the ice cream machine's internals, monitor its operations, and send diagnostic data over the internet to an owner or manager to help keep it runn…",
+          "link": "https://slashdot.org/story/23/12/15/226234/mcdonalds-ice-cream-machine-hackers-say-they-found-the-smoking-gun-that-killed-their-startup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-16T00:02:00.000Z",
+          "wordCount": 5749,
+          "title": "McDonald's Ice Cream Machine Hackers Say They Found the 'Smoking Gun' That Killed Their Startup",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/12/15/2155230/delta-dental-of-california-data-breach-exposed-info-of-7-million-people?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Delta Dental of California announced that they've suffered a data breach that exposed the personal data of almost seven million patients. BleepingComputer reports: Delta Dental of California is a dental insurance provider that covers 45 million people across 15 states and is part of the Delta Dental Plans Association. According to a Delta Dental of California data breach notification (PDF), the company suffered unauthorized access by threat actors through the MOVEit file transfer software application.\n \nThe software was vulnerable to a zero-day SQL injection flaw leading to remote code execution, tracked as CVE-2023-34362, which the Clop ransomware gang leveraged to breach thousands of organizations worldwide. Delta Dental of California learned about the compromise on June 1, 2023, and five days later, following an internal investigation, it confirmed that unauthorized actors had accessed and stolen data from its systems between May 27 and May 30, 2023. The second, more lengthy investigation to determine the exact impact of the security incident was completed on November 27, 2023.\n \nBased on this, the data breach has so far impacted 6,928,932 customers of Delta Dental of California, who had their names, financial account numbers, and credit/debit card numbers, including security codes, exposed. Delta Dental of California provides 24 months of free credit monitoring and identity theft protection services to impacted patients to mitigate the risk of their exposed data. Details on enrolling in the program are enclosed in the personal notices.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/12/15/2155230/delta-dental-of-california-data-breach-exposed-info-of-7-million-people?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T23:20:00.000Z",
+          "wordCount": 4500,
+          "title": "Delta Dental of California Data Breach Exposed Info of 7 Million People",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/15/2140228/twitch-rescinds-policy-that-allowed-artistic-nudity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Malak Saleh reports via Engadget: Twitch has quickly taken back its policy update that permitted users to post sexual content as long as it was labeled. In another update, the company said it is not going to allow any depictions of real or fictional nudity on its streaming platform. After giving users the green light to post \"artistic nudity,\" Twitch says some streamers created content that violated policy.\n \nThe media streamed in response to the initial approval of sexually explicit content on Twitch was \"met with community concern,\" according to the update. The company said, \"We have decided that we went too far with this change.\" While a huge part of the initial decision was to allow for the \"digital depiction\" of artistic nudity, the company clarified that digital depictions of sexual content is a concern when artificial intelligence can be used to develop realistic images and that it can be difficult to discern between what's been digitally produced and real photography.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/15/2140228/twitch-rescinds-policy-that-allowed-artistic-nudity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T22:40:00.000Z",
+          "wordCount": 5032,
+          "title": "Twitch Rescinds Policy That Allowed 'Artistic Nudity'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/12/15/2133210/tiktok-requires-users-to-forever-waive-rights-to-sue-over-past-harms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: Some TikTok users may have skipped reviewing an update to TikTok's terms of service this summer that shakes up the process for filing a legal dispute against the app. According to The New York Times, changes that TikTok \"quietly\" made to its terms suggest that the popular app has spent the back half of 2023 preparing for a wave of legal battles. In July, TikTok overhauled its rules for dispute resolution, pivoting from requiring private arbitration to insisting that legal complaints be filed in either the US District Court for the Central District of California or the Superior Court of the State of California, County of Los Angeles. Legal experts told the Times this could be a way for TikTok to dodge arbitration claims filed en masse that can cost companies millions more in fees than they expected to pay through individual arbitration.\n \nPerhaps most significantly, TikTok also added a section to its terms that mandates that all legal complaints be filed within one year of any alleged harm caused by using the app. The terms now say that TikTok users \"forever waive\" rights to pursue any older claims. And unlike a prior version of TikTok's terms of service archived in May 2023, users do not seem to have any options to opt out of waiving their rights. Lawyers told the Times that these changes could make it more challenging for TikTok users to pursue legal action at a time when federal agencies are heavily scrutinizing the app and complaints about certain TikTok features allegedly harming kids are mounting.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/12/15/2133210/tiktok-requires-users-to-forever-waive-rights-to-sue-over-past-harms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T22:02:00.000Z",
+          "wordCount": 4671,
+          "title": "TikTok Requires Users To 'Forever Waive' Rights To Sue Over Past Harms",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/15/1722213/sec-denies-coinbase-petition-for-new-crypto-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. Securities and Exchange Commission on Friday denied a petition by the country's largest crypto exchange, Coinbase Global, seeking new rules from the agency for the digital asset sector. From a report: The five-member body, in a 3-2 vote, said it would not propose new rules because it fundamentally disagreed that current regulations are \"unworkable\" for the crypto sphere, as Coinbase has argued. The letter marked the latest in a broader tug-of-war between the crypto sector and the top U.S. markets regulator, which has repeatedly said most crypto tokens are securities and subject to its jurisdiction. \n\nThe agency has sued several crypto companies, including Coinbase, for listing and trading crypto tokens which it says should be registered as securities. \"Existing laws and regulations apply to the crypto securities markets,\" SEC Chair Gary Gensler said in a separate statement supporting the decision. In 2022, the company pressed the SEC to create a bespoke set of rules for the crypto sector, arguing that existing U.S. securities laws are inadequate. In April, Coinbase appealed to a judge to force the SEC to respond to the petition.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/15/1722213/sec-denies-coinbase-petition-for-new-crypto-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T21:20:00.000Z",
+          "wordCount": 5239,
+          "title": "SEC Denies Coinbase Petition for New Crypto Rules",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/15/153210/marketing-company-claims-that-it-actually-is-listening-to-phone-and-smart-speakers-to-target-ads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A marketing team within media giant Cox Media Group (CMG) claims it has the capability to listen to ambient conversations of consumers through embedded microphones in smartphones, smart TVs, and other devices to gather data and use it to target ads, according to a review of CMG marketing materials by 404 Media and details from a pitch given to an outside marketing professional. From a report: Called \"Active Listening,\" CMG claims the capability can identify potential customers \"based on casual conversations in real time.\" The news signals that what a huge swath of the public has believed for years -- that smartphones are listening to people in order to deliver ads -- may finally be a reality in certain situations. Until now, there was no evidence that such a capability actually existed, but its myth permeated due to how sophisticated other ad tracking methods have become. \n\nIt is not immediately clear if the capability CMG is advertising and claims works is being used on devices in the market today, but the company notes it is \"a marketing technique fit for the future. Available today.\" 404 Media also found a representative of the company on LinkedIn explicitly asking interested parties to contact them about the product. One marketing professional pitched by CMG on the tech said a CMG representative explained the prices of the service to them. \"What would it mean for your business if you could target potential clients who are actively discussing their need for your services in their day-to-day conversations? No, it's not a Black Mirror episode -- it's Voice Data, and CMG has the capabilities to use it to your business advantage,\" CMG's website reads.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/12/15/153210/marketing-company-claims-that-it-actually-is-listening-to-phone-and-smart-speakers-to-target-ads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T20:41:00.000Z",
+          "wordCount": 8930,
+          "title": "Marketing Company Claims That It Actually Is Listening To Phone and Smart Speakers To Target Ads",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/15/1459256/china-issues-draft-contingency-plan-for-data-security-incidents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "China on Friday proposed a four-tier classification to help it respond to data security incidents, highlighting Beijing's concern with large-scale data leaks and hacking within its borders. From a report: The plan, which is currently soliciting opinions from the public, proposes a four-tier, colour-coded system depending on the degree of harm inflicted upon national security, a company's online and information network, or the running of the economy. \n\nAccording to the plan, incidents that involve losses surpassing 1 billion yuan ($141 million) and affect the personal information of over 100 million people, or the \"sensitive\" information of over 10 million people, will be classed as \"especially grave,\" to which a red warning must be issued. The plan demands that in response to red and orange warnings, the involved companies and relevant local regulatory authorities must establish a 24-hour work rota to address the incident and MIIT must be notified of the data breach within ten minutes of the incident happening, among other measures.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/12/15/1459256/china-issues-draft-contingency-plan-for-data-security-incidents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T20:00:00.000Z",
+          "wordCount": 4217,
+          "title": "China Issues Draft Contingency Plan for Data Security Incidents",
+          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/15/1531229/intelligence-researchers-to-study-computer-code-for-clues-to-hackers-identities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Government researchers in the U.S. are studying methods to help identify hackers based on the code they use to carry out cyberattacks. From a report: The Intelligence Advanced Research Projects Activity, the lead federal research agency for the intelligence community, plans to develop technologies that could speed up investigations for identifying perpetrators of cyberattacks. \"The number of attacks is increasing far more than the number of forensic experts that are available to go after these attacks,\" said Kristopher Reese, who is managing the research program at IARPA and holds a doctorate in computer science and engineering. The lack of forensic resources means hackers who target small organizations or companies that don't fall under critical infrastructure sectors often escape identification, he said. \n\nTools that are developed as part of the planned 30-month research project won't replace human analysts, who are crucial for identifying social and political dynamics that might explain why a particular hacking group targeted a victim, Reese said. But using artificial intelligence to analyze code used in cyberattacks will make investigations more efficient, he said. IARPA is accepting pitches from researchers until next month and plans to begin research next summer. [...] There hasn't been enough research into how analyzing code can reveal a hacker's identity, Reese said. Behavioral traits evident in code can reveal specific countries where hackers might be from or even the university where they were trained, he said. Some companies also have style guides outlining how employees should program, which could leave traces that indicate a person worked there, he said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/12/15/1531229/intelligence-researchers-to-study-computer-code-for-clues-to-hackers-identities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T19:20:00.000Z",
+          "wordCount": 4101,
+          "title": "Intelligence Researchers To Study Computer Code for Clues To Hackers' Identities",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/15/1518256/earliest-version-of-mickey-mouse-set-to-become-public-domain-in-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "SonicSpike writes: With several asterisks, qualification and caveats, Mickey Mouse in his earliest form will be the leader of the band of characters, films and books that will become public domain as the year turns to 2024. In a moment many close observers thought might never come, at least one version of the quintessential piece of intellectual property and perhaps the most iconic character in American pop culture will be free from Disney's copyright as his first screen release, the 1928 short \"Steamboat Willie,\" featuring both Mickey and Minnie Mouse, becomes available for public use. \"This is it. This is Mickey Mouse. This is exciting because it's kind of symbolic,\" said Jennifer Jenkins, a professor of law and director of Duke's Center for the Study of Public Domain, who writes an annual Jan. 1 column for \"Public Domain Day.\" \"I kind of feel like the pipe on the steamboat, like expelling smoke. It's so exciting.\" U.S. law allows a copyright to be held for 95 years after Congress expanded it several times during Mickey's life.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/15/1518256/earliest-version-of-mickey-mouse-set-to-become-public-domain-in-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T18:40:00.000Z",
+          "wordCount": 9038,
+          "title": "Earliest Version of Mickey Mouse Set To Become Public Domain in 2024",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/15/1657236/the-biggest-problem-with-lab-grown-chicken-is-growing-the-chicken?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Ten years ago, a Dutch scientist unveiled a $330,000 lab-grown hamburger made from cow cells grown in petri dishes. It took six weeks to culture the patty. A chef cooked it onstage as journalists watched. Reactions ranged from \"unpleasant\" to \"beeflike.\" The scientist expected supermarket sales in a decade. His company and others have since raised over $2 billion but have little to show, only recently making one pound of chicken monthly. Despite bold promises of mass production, low emissions, and better nutrition, commercial viability remains elusive. Bloomberg Business: The company [Upside Foods], in a letter from its attorney to Bloomberg Businessweek, says plans for scaling up have been an evolution saddled with \"realities and complexities of doing something that has never been done before. Innovation rarely happens in a straight and continuous line.\" \n\nThe dream is moist, meaty flesh self-multiplying ad infinitum in high-tech, stainless steel cell-growing chambers. But according to internal company documentation and eight former employees, most of whom requested anonymity because they don't have permission to discuss confidential information, Upside at the moment is actually growing just minuscule numbers of chicken skin-type cells in small plastic bottles, then scraping them out gram by gram to compress and mold them into a single forkful of flesh. This labor-intensive chicken has higher levels of cholesterol and lead than the real thing, publicly available company documentation shows. Even if that sounds remotely desirable, some scientists say the whole energy-intensive endeavor may actually be worse for the environment, especially with chicken, which has the smallest carbon footprint of anything at the local butcher. All of which points to this question: Why exactly are we chasing lab-grown chicken?[...]\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/12/15/1657236/the-biggest-problem-with-lab-grown-chicken-is-growing-the-chicken?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T18:00:00.000Z",
+          "wordCount": 8601,
+          "title": "The Biggest Problem With Lab-Grown Chicken Is Growing the Chicken",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/12/15/1710207/the-last-of-us-online-is-officially-canceled?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Sony Group's Naughty Dog studio has cancelled an online version of its popular console game The Last of Us. From a report: Naughty Dog announced today that the multiplayer spin-off of the hit series is no longer in development, citing concerns about managing ongoing content for a live-service game while still trying to produce the single-player blockbusters the PlayStation studio is famous for. \"We realize many of you have been anticipating news around the project that we've been calling The Last of Us Online,\" Naughty Dog wrote in an update. \n\n\"There's no easy way to say this: We've made the incredibly difficult decision to stop development on that game.\" The studio said that as production on the project ramped up, it became clear that \"we'd have to put all our studio resources behind supporting post launch content for years to come, severely impacting development on future single-player games.\" The choices were apparently between becoming a \"solely live-service games studio\" in the mold of modern day Bungie, which makes Destiny 2, or \"continue to focus on single-player narrative games that have defined Naughty Dog's heritage.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/12/15/1710207/the-last-of-us-online-is-officially-canceled?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T17:10:00.000Z",
+          "wordCount": 5196,
+          "title": "The Last Of Us Online Is Officially Canceled",
+          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/15/1510243/stop-planting-trees-says-guy-who-inspired-world-to-plant-a-trillion-trees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "In a cavernous theater lit up with the green shapes of camels and palms at COP28 in Dubai, ecologist Thomas Crowther, former chief scientific adviser for the United Nations' Trillion Trees Campaign, was doing something he never would have expected a few years ago: begging environmental ministers to stop planting so many trees. From a report: Mass plantations are not the environmental solution they're purported to be, Crowther argued when he took the floor on December 9 for one of the summit's \"Nature Day\" events. The potential of newly created forests to draw down carbon is often overstated. They can be harmful to biodiversity. Above all, they are really damaging when used, as they often are, as avoidance offsets-- \"as an excuse to avoid cutting emissions,\" Crowther said. \n\nThe popularity …",
+          "link": "https://science.slashdot.org/story/23/12/15/1510243/stop-planting-trees-says-guy-who-inspired-world-to-plant-a-trillion-trees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T16:40:00.000Z",
+          "wordCount": 13256,
+          "title": "Stop Planting Trees, Says Guy Who Inspired World to Plant a Trillion Trees",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/12/15/1456242/apple-plans-oled-displays-for-macbooks-evaluates-foldable-ipads-report?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple will expand its use of advanced OLED screens to iPads and MacBooks and is considering eventually introducing foldable tablets, a move set to further shake up the $150 billion display industry as it shifts away from traditional LCD screens, Asian news outlet Nikkei reported Friday. From the report: OLED, or organic light-emitting diode, displays are already used in most premium smartphones, including iPhones. Apple plans to deploy the tech in its high-end iPads next year, multiple tech industry executives told Nikkei Asia. An OLED MacBook model is also under development for production in the second half of 2025 at the earliest, the people said. The growing penetration of OLED is a significant win for Samsung Display and LG Display of South Korea and China's BOE Technology Holding, which have all bet heavily on this expensive display technology. \n\nOn the flip side, it could be a blow to display makers that do not have much presence in this segment, including JDI and Sharp of Japan, and AUO and Innolux of Taiwan. Apple has also started evaluating the possibility of making foldable iPads after it deploys the flexible OLED screens on the tablet, but it does not have a concrete timeline for doing so, according to two sources familiar with the matter. The iPhone maker is not the first company to adopt OLED displays for tablets. Huawei, for instance, has been a significant driver of this trend, which in turn has helped strengthen the Chinese display supply chain.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/12/15/1456242/apple-plans-oled-displays-for-macbooks-evaluates-foldable-ipads-report?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T16:00:00.000Z",
+          "wordCount": 5427,
+          "title": "Apple Plans OLED Displays for MacBooks, Evaluates Foldable iPads: Report",
+          "imageUrl": "https://a.fsdn.com/sd/topics/applelaptop_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/15/1450216/jeff-bezos-says-blue-origin-needs-to-be-much-faster?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "In an interview with Lex Fridman, Jeff Bezos candidly acknowledged Blue Origin's slow progress (compared to SpaceX). From a report: \"Blue Origin needs to be much faster, and it's one of the reasons that I left my role as the CEO of Amazon a couple of years ago,\" he said. \"I wanted to come in, and Blue Origin needs me right now. Adding some energy, some sense of urgency. We need to move much faster. And we're going to.\" \n\nHow is Blue Origin going to speed up? \n\n\"We're going to become the world's most decisive company across any industry,\" he said. \"We're going to get really good at taking appropriate technology risks, making those decisions quickly. You know, being bold on those things. And having the right culture that supports that. You need people to be ambitious, technically ambitious. If there are five ways to do something, we'll study them, but let's go through them very quickly and make a decision. We can always change our mind.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/12/15/1450216/jeff-bezos-says-blue-origin-needs-to-be-much-faster?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-15T15:20:00.000Z",
+          "wordCount": 11089,
+          "title": "Jeff Bezos Says Blue Origin Needs To Be 'Much Faster'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
         {
           "id": "https://news.slashdot.org/story/23/12/15/002256/cheating-fears-over-chatbots-were-overblown-new-research-suggests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4739,156 +4889,6 @@
           "wordCount": 4978,
           "title": "How Amazon Is Going After Microsoft's Cloud Computing Ambitions",
           "imageUrl": "https://a.fsdn.com/sd/topics/cloud_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/15/2125253/airbnb-acquires-secretive-firm-launched-by-siri-co-founder?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Airbnb has acquired a secretive new AI startup, GamePlanner.AI, for around $200 million. TechCrunch reports: GamePlanner was co-founded by Adam Cheyer and Siamak Hodjat. Cheyer famously helped co-launch the startup Siri, which Apple acquired and whose technology became the basis for Apple's AI-powered Siri assistant. Hodjat previously worked with Cheyer at Viv Labs, a firm that Samsung bought and leveraged to launch its own AI assistant, Bixby, in 2017. It's not immediately clear what GamePlanner does. A LinkedIn search only turns up two associates: Gabe Greenbaum, a general partner at B Capital who sits on GamePlanner's board of directors, and Joseph Huang, head of design at GamePlanner. GamePlanner hasn't had a web presence for some time; the Internet Archive's earliest cache of the website (from December 2021) yields a blank page.\n \nBut in a canned statement, Airbnb CEO and co-founder Brian Chesky hinted that the 12-person startup combines expertise in AI and design toward crafting AI-driven experiences, sort of like an AI-focused consultancy. \"AI will rapidly alter our world more than any other technology in our lifetime, but we need to ensure that it augments humanity in a positive way,\" Chesky said, adding that the GamePlanner team will focus on \"accelerating\" select AI projects and integrating their tooling into Airbnb's platform. \"Airbnb is one of the more humanistic companies in technology, and I believe that, together with Adam and his team, we can develop some of the best interfaces and practical applications for AI.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/11/15/2125253/airbnb-acquires-secretive-firm-launched-by-siri-co-founder?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-16T00:45:00.000Z",
-          "wordCount": 3947,
-          "title": "Airbnb Acquires Secretive Firm Launched By Siri Co-Founder",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/11/15/2120221/lawmakers-question-apple-over-cancellation-of-jon-stewarts-show?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Engadget: A group of lawmakers from a House of Representatives committee wants Apple, like many Jon Stewart enthusiasts, to explain why its streaming arm abruptly canceled the talk show The Problem With Jon Stewart. The current affairs TV series hosted by Jon Stewart briefly made its debut on Apple TV+ in 2021 but its time on air ended when the show received the ax for a third season, reportedly due to \"disagreements\" over show topics.\n \nAccording to Reuters, Lawmakers want to know if the show's coverage and criticism of China has anything to do with the show's cancellation. The government officials have asked Apple to speak on the issue by Dec 15, 2023. In a letter to the tech giant, the House members wrote that while Apple has the right to determine what content it deems appropriate for its platform, \"the coercive tactics of a foreign power should not be directly or indirectly influencing these determinations.\" This effort is bipartisan, with members from both Republican and Democratic parties affiliated with the House of Representatives' Select Committee on Competition with the Chinese Communist Party.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/11/15/2120221/lawmakers-question-apple-over-cancellation-of-jon-stewarts-show?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-16T00:02:00.000Z",
-          "wordCount": 5517,
-          "title": "Lawmakers Question Apple Over Cancellation of Jon Stewart's Show",
-          "imageUrl": "https://a.fsdn.com/sd/topics/tv_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/11/15/2116232/firefox-going-to-ship-with-wayland-enabled-by-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Michael Larabel reports via Phoronix: Guardrails have been in place where the Firefox browser has enabled Wayland by default (when running on recent GTK versions) but as of today that code has been removed... Firefox will try to move forward with stable releases where Wayland will ship by default! Mozilla Bug 1752398 to \"ship the Wayland backend to release\" has been closed this evening! After the ticket was open for the past two years, it's now deemed ready to hopefully ship enabled for Firefox 121!\n \nThis patch drops the \"early beta or earlier\" check to let Wayland support be enabled by default when running on recent GTK versions (GTK 3.24.30 threshold). Firefox 121 is due for release around 19 December and if all continues to hold, it will finally ship with the Wayland back-end enabled by default as another big step forward.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/11/15/2116232/firefox-going-to-ship-with-wayland-enabled-by-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T23:20:00.000Z",
-          "wordCount": 4158,
-          "title": "Firefox Going To Ship With Wayland Enabled By Default",
-          "imageUrl": "https://a.fsdn.com/sd/topics/firefox_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/15/219250/microsoft-rebrands-bing-chat-to-copilot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "In what may be a potentially confusing rebranding move, Microsoft today has rebranded Bing Chat to Copilot, sharing the same brand name as multiple other Microsoft AI products. Search Engine Land reports: Bing is no longer \"your AI-powered copilot for the web.\" However, Microsoft Bing will still provide a combined Search and chat experience. It will just be called CoPilot heading forward. For people who may not want that combined experience, CoPilot will have its own standalone ChatGPT-style experience at https://copilot.microsoft.com/.\n \nMicrosoft said the rebrand is to unify the Copilot experience: \"Our efforts to simplify the user experience and make Copilot more accessible to everyone starts with Bing, our leading experience for the web. Beginning today, Bing Chat and Bing Chat Enterprise are becoming Copilot, with commercial data protection enforced when any eligible user is signed in with Microsoft Entra ID.\"\n \nWhile it's definitely a more unified experience, it also seems a bit confusing because Microsoft's chatbot \"companion\" is used across multiple apps, including Microsoft 365, Edge, Windows and more -- some free, some not. In addition to Bing Chat, Bing Chat Enterprise is also rebranded as Copilot Pro. It offers the same chat functionality with greater commercial data protection for Microsoft 365 subscribers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/11/15/219250/microsoft-rebrands-bing-chat-to-copilot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T22:40:00.000Z",
-          "wordCount": 4667,
-          "title": "Microsoft Rebrands Bing Chat To Copilot",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/11/15/215217/qi2-wireless-charging-spec-is-here-offering-speed-boosts-and-magnets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: If you've only ever used standard Qi chargers with devices that don't have their own schemes, the Wireless Power Consortium's announcement today of the first Qi 2.0 devices being ready to launch before the holidays, with more than 100 in the queue behind them, is great. Qi2 sports a \"Magnetic Power Profile\" (MPP), created with help by Apple's MagSafe team, to help align devices and chargers' coils for faster, more efficient charging. Qi2-certified devices set onto Qi2 chargers can achieve 15 W charging, up from 7.5 W in the standard Qi scheme.\n \nThat brings Qi2 devices up to the same speed as iPhones on MagSafe chargers, and it clears up some consumer confusion about how fast a device might charge on Qi, MagSafe, or proprietary charger…",
-          "link": "https://hardware.slashdot.org/story/23/11/15/215217/qi2-wireless-charging-spec-is-here-offering-speed-boosts-and-magnets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T22:00:00.000Z",
-          "wordCount": 5386,
-          "title": "Qi2 Wireless Charging Spec Is Here, Offering Speed Boosts and Magnets",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/11/15/1831259/planet-where-it-rains-sand-revealed-by-nasa-telescope?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Nasa's James Webb space telescope has revealed a planet where specks of sand fall as rain, in groundbreaking observations. From a report: The planet, Wasp-107b, lies 200 light years away in the Virgo constellation and had already caught the attention of astronomers because it is very large but very light, earning it the nickname the \"candy floss\" planet. The latest observations give an unprecedented glimpse of a strange and exotic world beyond our solar system that features silicate sand clouds and rain, scorching temperatures, raging winds and the distinct burnt-matches scent of sulphur dioxide. \"Our knowledge of other planets is based on what we know from Earth,\" said Prof Leen Decin, of the Catholic Institute (KU) Leuven and first author of the research. \"That's a very restricted knowledge.\" \n\nThe planet was discovered in 2017 after astronomers spotted a telltale periodic flickering of light from its host star each time the planet passed in front of it. \"It's like a fly in front of a street lamp,\" said Decin. \"You see a slight dimming of the light.\" James Webb takes these observations to the next level by measuring starlight that is filtered through the planet's atmosphere. Because different elements absorb different wavelengths of light, the spectrum of starlight indicates which gases are present. Wasp-107b is similar in mass to Neptune but almost the size of Jupiter, and its vast, diffuse nature allows the James Webb telescope to peer deep into its atmosphere.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/11/15/1831259/planet-where-it-rains-sand-revealed-by-nasa-telescope?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T21:20:00.000Z",
-          "wordCount": 4696,
-          "title": "Planet Where It Rains Sand Revealed By Nasa Telescope",
-          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/11/15/1653221/amazon-to-stop-selling-seven-eyedrops-after-fda-warning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Amazon said on Wednesday that it was removing seven eyedrops products from its website after the Food and Drug Administration warned the company that the eyedrops had not been recognized as safe and effective. From a report: The F.D.A. said in a letter to Andrew Jassy, Amazon's chief executive, on Monday that Amazon had violated federal regulations by selling the eyedrops, which claimed to help with problems including pink eye, dry eyes, eyestrain and floaters. \"These products are especially concerning from a public health perspective,\" the F.D.A. letter said. \"Ophthalmic drug products, which are intended for administration into the eyes, in general pose a greater risk of harm to users because the route of administration for these products bypasses some of the body's natural defenses.\" \n\nThe eyedrops named in the letter are: Similasan Pink Eye Relief, The Goodbye Company Pink Eye, Can-C Eye Drops, Optique 1 Eye Drops, OcluMed Eye Drops, TRP Natural Eyes Floaters Relief, and Manzanilla Sophia Chamomile Herbal Eye Drops. None of the eyedrops appeared to be available for purchase on Amazon on Wednesday morning. The company said in an emailed statement on Wednesday that \"safety is a top priority.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/11/15/1653221/amazon-to-stop-selling-seven-eyedrops-after-fda-warning?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T20:40:00.000Z",
-          "wordCount": 4929,
-          "title": "Amazon To Stop Selling Seven Eyedrops After FDA Warning",
-          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/11/15/1644244/microsoft-and-nvidia-are-making-it-easier-to-run-ai-models-on-windows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft and Nvidia want to help developers run and configure AI models on their Windows PCs. During the Microsoft Ignite event on Wednesday, Microsoft announced Windows AI Studio: a new hub where developers can access AI models and tweak them to suit their needs. From a report: Windows AI Studio allows developers to access development tools and models from the existing Azure AI Studio and other services like Hugging Face. It also offers an end-to-end \"guided workspace setup\" with model configuration UI and walkthroughs to fine-tune various small language models (SLMs), such as Microsoft's Phi, Meta's Llama 2, and Mistral. \n\nWindows AI Studio lets developers test the performance of their models using Prompt Flow and Gradio templates as well. Microsoft says it's going to roll out Windows AI Studio as a Visual Studio Code extension in the \"coming weeks.\" Nvidia, similarly, revealed updates to TensorRT-LLM, which the company initially launched for Windows as a way to run large language models (LLMs) more efficiently on H100 GPUs. However, this latest update brings TensorRT-LLM to PCs powered by GeForce RTX 30 and 40 Series GPUs with 8GB of RAM or more.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/11/15/1644244/microsoft-and-nvidia-are-making-it-easier-to-run-ai-models-on-windows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T20:00:00.000Z",
-          "wordCount": 4735,
-          "title": "Microsoft and Nvidia Are Making It Easier To Run AI Models on Windows",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/11/15/167251/disney-pulls-tv-channels-from-vietnam-govt-concerned-piracy-will-run-riot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader writes: A newspaper run by the Communist Party of Vietnam is reporting the \"disappearance\" of a number of popular channels from pay TV packages. Citing National Geographic and Nat Geo Wild as examples, the paper notes they're owned by Disney. Vietnam's Ministry of Information and Communications is said to be \"concerned\" that the withdrawal will allow piracy to run rampant in Vietnam. Multiple high-level trade reports in the U.S. note that piracy has been rampant for years.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/11/15/167251/disney-pulls-tv-channels-from-vietnam-govt-concerned-piracy-will-run-riot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T19:20:00.000Z",
-          "wordCount": 6926,
-          "title": "Disney Pulls TV Channels From Vietnam, Govt 'Concerned' Piracy Will Run Riot",
-          "imageUrl": "https://a.fsdn.com/sd/topics/piracy_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/11/15/1532212/tencent-stockpiled-nvidia-ai-chips-for-a-couple-of-generations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Tencent dismissed concerns that US export controls will constrain its AI development capabilities, at least for the foreseeable future. From a report: The Shenzhen-based company has stockpiled Nvidia's H800 artificial intelligence accelerators, enough to develop its proprietary Hunyuan AI model for at least another couple of generations, President Martin Lau said on an analyst call after earnings on Wednesday. \"Right now we actually have one of the largest inventories of AI chips in China among all the players,\" Lau said. \"We were the first to put in orders for H800 and that allows us to have a pretty good inventory of H800 chips. So we have enough chips to continue our development.\" \n\nThe Biden administration in October escalated export controls on AI semiconductors heading to China, depriving the Asian nation from access to a broad range of the world's best AI-training hardware. The purpose of the measures is to prevent China's military from obtaining the advanced technology, Washington argues, but they're also making business harder for the country's private sector. Elsewhere in China, AI industry veteran Kai-Fu Lee's unicorn startup 01.AI has been buying up the Nvidia chips it needs to develop its own foundation models, with Lee saying the company has enough semiconductors for the next 18 months.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/11/15/1532212/tencent-stockpiled-nvidia-ai-chips-for-a-couple-of-generations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T18:40:00.000Z",
-          "wordCount": 4940,
-          "title": "Tencent Stockpiled Nvidia AI Chips for 'a Couple of Generations'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/15/1639215/microsoft-officially-launches-loop-its-notion-competitor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft is officially launching its Notion-like productivity and collaboration app called Loop. From a report: Loop lets you use flexible, collaborative workspaces and pages to make it easier to cooperate on work. If you're familiar with Notion's interface at all, Loop looks and feels remarkably similar -- right down to the ability to easily access a bunch of tools and formatting options by typing the forward slash key (which pulls up what Microsoft calls the \"insert menu\"). But because Loop is built by Microsoft, that means it has some useful integrations with other Microsoft software.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/11/15/1639215/microsoft-officially-launches-loop-its-notion-competitor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T18:00:00.000Z",
-          "wordCount": 5855,
-          "title": "Microsoft Officially Launches Loop, Its Notion Competitor",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/11/15/1550211/eu-agrees-law-to-curb-methane-emissions-from-fossil-fuel-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The EU has struck a deal that will force the fossil fuel industry to rein in dangerous methane pollution. From a report: Under the proposed law, which is the first of its kind, coal, oil and gas companies would be required to report their methane emissions and take steps to avoid them. The measures include finding and fixing leaks, and limiting wasteful practices such as venting and flaring gas by 2027. Jutta Paulus, a German MEP with the Green grouping who worked on the proposal, said: \"Finally, the EU tackles the second most important greenhouse gas with ambitious measures. Less methane emissions mean more climate protection and more energy sovereignty.\" \n\nMethane has more than 80 times the global heating power of carbon dioxide over a 20-year timespan but does not last as long in the atmosphere. Cutting methane emissions is seen as a cheap and easy way to stop extreme weather growing more violent in the short-term. The new EU rules, which were agreed on Wednesday by the European parliament and European Council, mean fossil fuel companies must try to repair leaks no more than five days after finding them, and fully fix them within a month. By the end of next year, operators will have to survey their existing sites and submit action plans to find and fix methane leaks.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/11/15/1550211/eu-agrees-law-to-curb-methane-emissions-from-fossil-fuel-industry?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T17:20:00.000Z",
-          "wordCount": 6238,
-          "title": "EU Agrees Law To Curb Methane Emissions From Fossil Fuel Industry",
-          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/15/1633226/microsoft-unveils-its-first-custom-designed-ai-cloud-chips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft unveiled its first homegrown AI chip and cloud-computing processor in an attempt to take more control of its technology and ramp up its offerings in the increasingly competitive market for AI computing. The company also announced new software that lets clients design their own AI assistants. From a report: The Maia 100 chip, announced at the company's annual Ignite conference in Seattle on Wednesday, will provide Microsoft Azure cloud customers with a new way run AI programs that generate content. Microsoft is already testing the chip with its Bing and Office AI products, said Rani Borkar, a vice president who oversees Azure's chip unit. Microsoft's main AI partner, ChatGPT maker OpenAI, is also testing the processor. Both Maia and the server chip, Cobalt, will debut in some Microsoft data centers early next year. \n\nMicrosoft's multi-year investment shows how critical chips have become to gaining an edge in both AI and the cloud. Making them in-house lets companies wring performance and price benefits from the hardware. The initiative also could insulate Microsoft from becoming overly dependent on any one supplier, a vulnerability currently underscored by the industrywide scramble for Nvidia's AI chips. Microsoft's push into processors follows similar moves by cloud rivals. Amazon.com Inc. acquired a chip maker in 2015 and sells services built on several kinds of cloud and AI chips. Google began letting customers use its AI accelerator processors in 2018.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/11/15/1633226/microsoft-unveils-its-first-custom-designed-ai-cloud-chips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T16:40:00.000Z",
-          "wordCount": 4534,
-          "title": "Microsoft Unveils Its First Custom-Designed AI, Cloud Chips",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/15/1544227/google-is-going-to-let-you-annotate-search-results?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Ever wanted to add your own annotations to search results you find on Google? With Google's new \"Notes\" experiment, launching Wednesday as an opt-in feature through Search Labs, you'll be able to. From a report: If you've opted in to Notes, buttons to add and see notes will appear under search results and under articles on Discover in the Google app. When you create a note, you can add colorful fonts and images. During a briefing, Google showed me a note for an article about different kinds of frosting that had green text, an image of a cake, and a heart sticker. (At the bottom of the note, there was a link to the article the note was about.) \n\nIf you post a note, it should show up \"within minutes,\" unless it's flagged for human review, Google VP Cathy Edwards said in an interview with The Verge. When you look at all of the notes for a link, what's shown will be ranked dynamically based on things like the user's query and a note's relevance to the content on the page.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/11/15/1544227/google-is-going-to-let-you-annotate-search-results?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T16:00:00.000Z",
-          "wordCount": 6211,
-          "title": "Google is Going To Let You Annotate Search Results",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/15/1456240/china-claims-worlds-fastest-internet-with-12-terabit-per-second-network?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Huawei and China Mobile have built a 3,000 kilometer (1,860-mile) internet network linking Beijing to the south, which the country is touting as its latest technological breakthrough. From a report: The two firms teamed up with Tsinghua University and research provider Cernet.com to build what they claim is the world's first internet network to achieve a \"stable and reliable\" bandwidth of 1.2 terabits per second, several times faster than typical speeds around the world. Trials began July 31 and it's since passed various tests verifying that milestone, the university said in a statement. \n\nTsinghua, Chinese President Xi Jinping's alma mater, is plugging the project as an industry-first built entirely on homegrown technology, and credits Huawei prominently in its statement. The Chinese firm in August made waves when it released a 5G smartphone with a sophisticated made-in-China processor, inspiring celebration in Chinese state and social media. That event also spurred debate in Washington about whether the Biden administration has gone far enough in attempts to contain Chinese technological achievement.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/11/15/1456240/china-claims-worlds-fastest-internet-with-12-terabit-per-second-network?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-15T15:20:00.000Z",
-          "wordCount": 5978,
-          "title": "China Claims World's Fastest Internet With 1.2 Terabit-Per-Second Network",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
         }
       ]
     }
