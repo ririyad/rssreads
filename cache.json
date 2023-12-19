@@ -24,6 +24,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/patek-levels-of-finishing-467e5dc0",
+          "author": null,
+          "description": "We’re in the final phase of getting the first ONCE product out the door. As with any new development, there are a million little details we need to nail for a successful launch that’s up to our standards. That’s usually where the temptation to cut corners on internal quality beckons, but we’ve handcuffed ourselves to the virtue of beautiful code by committing to shipping the code with purchase. It’s working!\nNot just because I don’t want other people to see any dirty hacks or dusty corners. This is a positive vision. We’re shipping the code because I want to show everyone that an extremely high level of care for the internals is not in opposition to the demands of commercial deadlines. In fact, I’d go so far as to say such case is in service of said deadlines.\nIn racing, like other communi…",
+          "link": "https://world.hey.com/dhh/patek-levels-of-finishing-467e5dc0",
+          "publishedOn": "2023-12-18T16:21:21.000Z",
+          "wordCount": 449,
+          "title": "Patek levels of finishing",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/native-mobile-apps-are-optional-for-b2b-startups-in-2024-4c870d3e",
           "author": null,
           "description": "I continue to see new B2B software startups struggle with native mobile apps. Consumer software makers can usually start by going all-in on a single platform, but for business tools, that’s rarely an option. So they must face the tall task of tackling web, iOS, and Android at the same time. Hence the proliferation of toolkits like React Native, Turbo Native, and a hundred other frameworks vying to ease the pain. But it still hurts.\nAnd it’s practically impossible for a single developer to be able to do it all anyway. The problem space is just too large. Which means the barrier to becoming competitive require ropes of external funding to scale. If technical founder teams can’t do it themselves, they have to hire, and if they have to hire, they have to raise capital.\nI hate that. We built Ba…",
@@ -153,6 +163,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2023/12/18/survey-launch.html",
+          "author": null,
+          "description": "It’s time for the 2023 State of Rust Survey!\nSince 2016, the Rust Project has collected valuable information and feedback from the Rust programming language community through our annual State of Rust Survey. This tool allows us to more deeply understand how the Rust Project is performing, how we can better serve the global Rust community, and who our community is composed of.\nLike last year, the 2023 State of Rust Survey will likely take you between 10 and 25 minutes, and responses are anonymous. We will accept submissions until Monday, January 15th, 2024. Trends and key insights will be shared on blog.rust-lang.org as soon as possible in 2024.\nWe invite you to take this year’s survey whether you have just begun using Rust, you consider yourself an intermediate to advanced user, or you have not yet used Rust but intend to one day. Your responses will help us improve Rust over time by shedding light on gaps to fill in the community and development priorities, and more.\nOnce again, we are offering the State of Rust Survey in the following languages (if you speak multiple languages, please pick one). Language options are available on the main survey page:\nEnglish\nSimplified Chinese\nFrench\nGerman\nJapanese\nRussian\nSpanish\nPlease help us spread the word by sharing the survey link via your social media networks, at meetups, with colleagues, and in any other community that makes sense to you.\nThis survey would not be possible without the time, resources, and attention of members of the Survey Working Group, the Rust Foundation, and other collaborators. Thank you!\nIf you have any questions, please see our frequently asked questions.\nWe appreciate your participation!\nClick here to read a summary of last year's survey findings.",
+          "link": "https://blog.rust-lang.org/2023/12/18/survey-launch.html",
+          "publishedOn": "2023-12-18T00:00:00.000Z",
+          "wordCount": 368,
+          "title": "Launching the 2023 State of Rust Survey",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html",
           "author": null,
           "description": "The year 2024 is soon to be upon us, and as long-time Rust aficionados know,\nthat means that a new Edition of Rust is on the horizon!\nWhat is an Edition?\nYou may be aware that a new version of Rust is released every six weeks.\nNew versions of the language can both add things as well as change things,\nbut only in backwards-compatible ways, according to Rust's\n1.0 stability guarantee.\nBut does that mean that Rust can never make backwards-incompatible changes?\nNot quite! This is what an Edition is:\nRust's mechanism for introducing backwards-incompatible changes in a backwards-compatible way.\nIf that sounds like a contradiction,\nthere are three key properties of Editions that preserve the stability guarantee:\nEditions are opt-in;\ncrates only receive breaking changes if its authors explicitly a…",
@@ -242,18 +262,7 @@
       "title": "Notes on software development",
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
-      "articles": [
-        {
-          "id": "http://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html",
-          "author": null,
-          "description": "I learned this week that you can intercept and redirect Postgres query\nexecution. You can hook into the execution layer so you're given a\nquery plan and you get to decide what to do with it. What rows to\nreturn, if any, and where they come from.\nThat's very interesting. So I started writing code to explore execution\nhooks. However, I got stuck interpreting the query plan. Either\nthere's no query plan walking infrastructure or I just didn't find it.\nSo this post is a digression into walking a Postgres query plan. By\nthe end we'll be able to run psql -c 'SELECT a FROM x WHERE a > 1'\nand reconstruct the entire SQL string from a Postgres\nQueryDesc\nobject, the query plan object Postgres builds.\nWith that query plan walking infrastructure in place, we'll be in a\ngood state to not just print out …",
-          "link": "http://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html",
-          "publishedOn": "2023-11-19T00:00:00.000Z",
-          "wordCount": 7917,
-          "title": "Exploring a Postgres query plan",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "CoRecursive: Coding Stories",
@@ -284,18 +293,7 @@
       "title": "Notes on software development",
       "feedUrl": "https://notes.eatonphil.com/rss.xml",
       "siteUrl": "http://notes.eatonphil.com/",
-      "articles": [
-        {
-          "id": "http://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html",
-          "author": null,
-          "description": "I learned this week that you can intercept and redirect Postgres query\nexecution. You can hook into the execution layer so you're given a\nquery plan and you get to decide what to do with it. What rows to\nreturn, if any, and where they come from.\nThat's very interesting. So I started writing code to explore execution\nhooks. However, I got stuck interpreting the query plan. Either\nthere's no query plan walking infrastructure or I just didn't find it.\nSo this post is a digression into walking a Postgres query plan. By\nthe end we'll be able to run psql -c 'SELECT a FROM x WHERE a > 1'\nand reconstruct the entire SQL string from a Postgres\nQueryDesc\nobject, the query plan object Postgres builds.\nWith that query plan walking infrastructure in place, we'll be in a\ngood state to not just print out …",
-          "link": "http://notes.eatonphil.com/2023-11-19-exploring-a-postgres-query-plan.html",
-          "publishedOn": "2023-11-19T00:00:00.000Z",
-          "wordCount": 7917,
-          "title": "Exploring a Postgres query plan",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Dmitri Pavlutin Blog",
@@ -332,6 +330,36 @@
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://potato.cheap/",
+          "author": null,
+          "description": "The \"cheap\" web is a solarpunk philosophy of web design.",
+          "link": "https://potato.cheap/",
+          "publishedOn": "2023-12-19T00:00:00.000Z",
+          "wordCount": 1832,
+          "title": "The \"Cheap\" Web",
+          "imageUrl": null
+        },
+        {
+          "id": "https://wishwell.io/",
+          "author": null,
+          "description": "WishWell is a simple patronage service.",
+          "link": "https://wishwell.io/",
+          "publishedOn": "2023-12-19T00:00:00.000Z",
+          "wordCount": 105,
+          "title": "WishWell.io",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/dollar-per-hour",
+          "author": null,
+          "description": "People pay $0.50-$2.00 for an hour of digital entertainment.",
+          "link": "https://taylor.town/dollar-per-hour",
+          "publishedOn": "2023-12-18T00:00:00.000Z",
+          "wordCount": 267,
+          "title": "Paying Netflix $0.53/h, etc.",
+          "imageUrl": null
+        },
         {
           "id": "https://taylor.town/frustrating-thing",
           "author": null,
@@ -531,16 +559,6 @@
           "wordCount": 553,
           "title": "\"y'all'n't\"",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/knuth-airgap",
-          "author": null,
-          "description": "Knuth knows how to maintain information hygeine.",
-          "link": "https://taylor.town/knuth-airgap",
-          "publishedOn": "2023-11-19T00:00:00.000Z",
-          "wordCount": 462,
-          "title": "Knuth Airgaps & Knuth Buffers",
-          "imageUrl": null
         }
       ]
     },
@@ -549,6 +567,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/23/12/18/2056218/googles-stadia-controller-salvage-operation-will-run-for-another-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Ron Amadeo reports via Ars Technica: Stadia might be dead, but the controllers for Google's cloud-based gaming platform are still out there. With the service permanently offline, the proprietary Stadia Controller threatened to fill up landfills until Google devised a plan to convert them to generic Bluetooth devices that can work on almost anything. The app to open up the controller to other devices is a web service, which previously had a shutdown date of December 2023. That apparently isn't enough time to convert all these controllers, so the Stadia Controller Salvage operation will run for a whole additional year. X (formerly Twitter) user Wario64 was the first to spot the announcement, which says the online tool will continue running until December 31, 2024.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/18/2056218/googles-stadia-controller-salvage-operation-will-run-for-another-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T22:02:00.000Z",
+          "wordCount": 4460,
+          "title": "Google's Stadia Controller Salvage Operation Will Run For Another Year",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/12/18/211236/nikola-founder-trevor-milton-sentenced-to-4-years-for-securities-fraud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: Trevor Milton, the disgraced founder and former CEO of electric truck startup Nikola, was sentenced Monday to four years in prison for securities fraud. The sentence, by Judge Edgardo Ramos in the U.S. District Court in Manhattan, caps a multi-year saga that at one point sent Nikola stock soaring 83% only to come crashing down months later over accusations of fraud and canceled contracts. The sentencing hearing comes after four separate delays, during which Milton has remained free under a $100 million bond.\n \nIn his ruling, Ramos said he would impose a sentence of 48 months on each count, served concurrently, and a fine of $1 million. Milton is expected to appeal the sentence, which Ramos acknowledged. Milton sobbed as he pled with Judg…",
+          "link": "https://yro.slashdot.org/story/23/12/18/211236/nikola-founder-trevor-milton-sentenced-to-4-years-for-securities-fraud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T21:50:00.000Z",
+          "wordCount": 6771,
+          "title": "Nikola Founder Trevor Milton Sentenced To 4 Years For Securities Fraud",
+          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/18/2051238/flipboard-is-pivoting-to-activitypub-and-the-fediverse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Flipboard, the social media magazine and news app, announced that it is starting to switch its user accounts to ActivityPub, a technology developed by the World Wide Web Consortium that makes social networks interoperable, \"connecting everything to a single social graph and content-sharing system,\" reports The Verge. From the report: Right now, only 25 accounts have been federated with ActivityPub, but by March Flipboard says it plans to allow anyone on the platform to open their account to the fediverse and allow any Flipboard user to follow any fediverse account from within the Flipboard app. At that point, Flipboard will essentially be an ActivityPub-based platform like Mastodon or Pixelfed but with an interface designed for reading articles instead of bite-sized posts. It'll be the biggest thing in the fediverse -- at least until Threads shows up for real.\n \n\"Basically, we're in the process of replacing our whole social back-end with ActivityPub,\" says Flipboard CEO Mike McCue. \"I think Flipboard is going to be the first mainstream consumer service that existed in a walled garden that switches over to ActivityPub.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/18/2051238/flipboard-is-pivoting-to-activitypub-and-the-fediverse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T21:25:00.000Z",
+          "wordCount": 4256,
+          "title": "Flipboard Is Pivoting To ActivityPub and the Fediverse",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/12/18/2042225/apple-to-pause-selling-new-versions-of-its-watch-after-losing-patent-dispute?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from the New York Times: Apple said on Monday that it would pause sales of its flagship smartwatches online starting Thursday and at retail locations on Christmas Eve. Two months ago, Apple lost a patent case over the technology its smartwatches use to detect people's pulse rate. The company was ordered to stop selling the Apple Watch Series 9 and Watch Ultra 2 after Christmas, which could set off a run on sales of the watches in the final week of holiday shopping.\nThe move by Apple follows a ruling by the International Trade Commission in October that found several Apple Watches infringe on patents held by Masimo, a medical technology company in Irvine, Calif.\n \nIn court, Masimo detailed how Apple poached its top executives and more than a dozen other e…",
+          "link": "https://yro.slashdot.org/story/23/12/18/2042225/apple-to-pause-selling-new-versions-of-its-watch-after-losing-patent-dispute?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T20:43:00.000Z",
+          "wordCount": 5307,
+          "title": "Apple To Pause Selling New Versions of Its Watch After Losing Patent Dispute",
+          "imageUrl": "https://a.fsdn.com/sd/topics/patents_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/18/184209/expedia-wants-to-use-ai-to-cut-google-out-of-its-trip-planning-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Travel website Expedia wants to get people to start their travel search on its site with AI instead of using an external search engine. From a report: Expedia already uses AI for some customer service features and to help property owners describe their homes and hotels. The company hopes in the future that AI will help it recommend travel destinations to customers based on previous trips and bring more direct traffic to its site. It's a long-term plan to shift the balance of power on the web -- albeit one that's still in its earliest stages for the company. \n\nRajesh Naidu, chief architect and head of data management at Expedia, says the goal is to get users started on their trips in one place. Expedia hopes to produce recommendations trained with its library of flight and hotel information and informed by users' travel preferences. \"By being able to train large language models on our data, this rich 70 petabytes' worth of data we've gathered over the years, we can eventually recommend places to go and stay and do and continue to refine and personalize that,\" Naidu tells The Verge in an interview. According to Naidu, when people plan trips, they often start by going to a search engine to look for a destination. Only then do they visit services like Expedia to start booking travel and accommodation. There's nothing inherently wrong with going to Google and typing \"best vacation that isn't cold and not that far from New York,\" but Naidu believes there's value in streamlining the travel planning process even more.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/18/184209/expedia-wants-to-use-ai-to-cut-google-out-of-its-trip-planning-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T20:00:00.000Z",
+          "wordCount": 4642,
+          "title": "Expedia Wants To Use AI To Cut Google Out of Its Trip-Planning Business",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/18/1754204/mr-cooper-hackers-stole-personal-data-on-14-million-customers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Hackers stole the sensitive personal information of more than 14.6 million Mr. Cooper customers, the mortgage and loan giant has confirmed. From a report: In a filing with Maine's attorney general's office, Mr. Cooper said the hackers stole customer names, addresses, dates of birth and phone numbers, as well as customer Social Security numbers and bank account numbers. Mr. Cooper previously said that customer banking information was stored by a third-party company and believed to be unaffected. Mr. Cooper said in a separate filing with federal regulators on Friday that hackers obtained personal data on \"substantially all of our current and former customers.\" \n\nThe number of affected victims is significantly higher than the four million existing customers that Mr. Cooper claims on its website, likely because of the historical data that the company stores on mortgage holders. Mr. Cooper said in its data breach notification letter to affected victims that the stolen data includes personal information on those whose mortgage was previously acquired or serviced by the company when it was known as Nationstar Mortgage, prior to its rebranding as Mr. Cooper. The company said affected customers may include those whose mortgages were serviced by a sister brand.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/12/18/1754204/mr-cooper-hackers-stole-personal-data-on-14-million-customers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T19:20:00.000Z",
+          "wordCount": 5775,
+          "title": "Mr. Cooper Hackers Stole Personal Data on 14 Million Customers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/18/1810211/openai-lays-out-plan-for-dealing-with-dangers-of-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "OpenAI, the AI company behind ChatGPT, laid out its plans for staying ahead of what it thinks could be serious dangers of the tech it develops, such as allowing bad actors to learn how to build chemical and biological weapons. From a report: OpenAI's \"Preparedness\" team, led by MIT AI professor Aleksander Madry, will hire AI researchers, computer scientists, national security experts and policy professionals to monitor its tech, continually test it and warn the company if it believes any of its AI capabilities are becoming dangerous. The team sits between OpenAI's \"Safety Systems\" team, which works on existing problems like infusing racist biases into AI, and the company's \"Superalignment\" team, which researches how to make sure AI doesn't harm humans in an imagined future where the tech has outstripped human intelligence completely. \n\n[...] Madry, a veteran AI researcher who directs MIT's Center for Deployable Machine Learning and co-leads the MIT AI Policy Forum, joined OpenAI earlier this year. He was one of a small group of OpenAI leaders who quit when Altman was fired by the company's board in November. Madry returned to the company when Altman was reinstated five days later. OpenAI, which is governed by a nonprofit board whose mission is to advance AI and make it helpful for all humans, is in the midst of selecting new board members after three of the four board members who fired Altman stepped down as part of his return. Despite the leadership \"turbulence,\" Madry said he believes OpenAI's board takes seriously the risks of AI that he is researching. \"I realized if I really want to shape how AI is impacting society, why not go to a company that is actually doing it?\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/18/1810211/openai-lays-out-plan-for-dealing-with-dangers-of-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T18:40:00.000Z",
+          "wordCount": 5948,
+          "title": "OpenAI Lays Out Plan For Dealing With Dangers of AI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/18/1740242/imran-khan-deploys-ai-clone-to-campaign-from-behind-bars-in-pakistan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "AI allowed Pakistan's former prime minister Imran Khan to campaign from behind bars on Monday, with a voice clone of the opposition leader giving an impassioned speech on his behalf. From a report: Khan has been locked up since August and is being tried for leaking classified documents, allegations he says have been trumped up to stop him contesting general elections due in February. His Pakistan Tehreek-e-Insaf (PTI) party used artificial intelligence to make a four-minute message from the 71-year-old, headlining a \"virtual rally\" hosted on social media overnight on Sunday into Monday despite internet disruptions that monitor NetBlocks said were consistent with previous attempts to censor Khan. \n\nPTI said Khan sent a shorthand script through lawyers that was fleshed out into his rhetorical style. The text was then dubbed into audio using a tool from the AI firm ElevenLabs, which boasts the ability to create a \"voice clone\" from existing speech samples. \"My fellow Pakistanis, I would first like to praise the social media team for this historic attempt,\" the voice mimicking Khan said. \"Maybe you all are wondering how I am doing in jail,\" the stilted voice adds. \"Today, my determination for real freedom is very strong.\" The audio was broadcast at the end of a five-hour live-stream of speeches by PTI supporters on Facebook, X and YouTube, and was overlaid with historic footage of Khan and still images.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/18/1740242/imran-khan-deploys-ai-clone-to-campaign-from-behind-bars-in-pakistan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T18:00:00.000Z",
+          "wordCount": 4199,
+          "title": "Imran Khan Deploys AI Clone To Campaign From Behind Bars in Pakistan",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/18/1657247/us-lawmakers-warn-biden-to-probe-eu-targeting-of-tech-firms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A bipartisan group of lawmakers has written to U.S. President Joe Biden, warning European technology regulation are unfairly targeting U.S. companies and not including many Chinese or EU firms, according to a letter seen by Reuters on Monday. From the report: Under the European Union's Digital Markets Act (DMA), five major U.S. tech companies -- Alphabet, Amazon, Apple, Meta and Microsoft -- were designated \"gatekeeper\" service providers. From March 2024, these companies -- as well as TikTok's Chinese owner ByteDance -- will be required to make their messaging apps work with rivals and let users choose which ones they want pre-installed on their devices. \n\nIn a letter seen by Reuters, 21 members of the U.S. House of Representatives warned the new rules could damage American economic and security interests and called on Biden to secure commitments from the EU the rules will be enforced fairly. \"Securing our leadership in this sector is imperative for our economy and American workers,\" the letter said. \"The designation of leading U.S. companies as 'gatekeepers' threatens to upend the U.S. economy, diminish our global leadership in the digital sphere, and jeopardize the security of consumers.\" \n\nThe letter questioned why Chinese companies Alibaba, Huawei, and Tencent had avoided designation and why European companies had avoided any scrutiny. \"The EU inexplicably failed to designate any European retailers, content-sharing platforms, payment firms, and telcos,\" it said. Signatories of the letter -- including Representative Lou Correa, a Democrat, and Thomas Massie, a Republican, -- called on Biden to seek assurances from EU lawmakers the DMA will not be unfairly used to target U.S. companies.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/18/1657247/us-lawmakers-warn-biden-to-probe-eu-targeting-of-tech-firms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T17:20:00.000Z",
+          "wordCount": 9263,
+          "title": "US Lawmakers Warn Biden To Probe EU Targeting of Tech Firms",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/12/18/1625214/lawmakers-push-doj-to-investigate-apple-following-beeper-shutdowns?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Following a tumultuous few weeks for Beeper, which has been trying to provide an iMessage-compatible Android app, a group of US lawmakers are pushing for the DOJ to investigate Apple for \"potentially anticompetitive conduct\" over its attempts to disable Beeper's services. From a report: Senators Amy Klobuchar (D-MN) and Mike Lee (R-UT) as well as Representatives Jerry Nadler (D-NY) and Ken Buck (R-CO) said in a letter to the DOJ that Beeper's Android messaging app, Beeper Mini, was a threat to Apple's leverage by \"creating [a] more competitive mobile applications market, which in turn [creates] a more competitive mobile device market.\" \n\nIn an interview with CBS News on Monday, Beeper CEO Eric Migicovsky and 16-year-old developer James Gill talked about the fight to keep Beeper Mini alive. Migicovsky told CBS News that Beeper is trying to provide a service people want and reiterated his belief that Apple has a monopoly over its iMessage service. The company created Beeper Mini after being contacted by Gill, who said he reverse-engineered the software by \"poking at it\" using a \"real Mac and a real iPhone.\" [...] The lawmakers' letter also pointed to a Department of Commerce report calling Apple a \"gatekeeper,\" mirroring language used in the EU Digital Markets Act (DMA) that went into force earlier this year, regulating the \"core\" services of several tech platforms (though, notably, iMessage may not be included in this). They went on to cite Migicovsky's December 2021 Senate Judiciary Committee testimony that \"the dominant messaging services would use their position to impose barriers to interoperability\" and keep companies like Beeper from offering certain services. \"Given Apple's recent actions, that concern appears prescient,\" they added.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/23/12/18/1625214/lawmakers-push-doj-to-investigate-apple-following-beeper-shutdowns?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T16:40:00.000Z",
+          "wordCount": 7189,
+          "title": "Lawmakers Push DOJ To Investigate Apple Following Beeper Shutdowns",
+          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/18/1525217/southwest-will-pay-a-140-million-fine-for-its-meltdown-during-the-2022-holidays?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Southwest Airlines is still paying for its meltdown during the 2022 holidays that stranded millions of travelers -- and the tab is growing. From a report: The U.S. Transportation Department has ordered Southwest to pay a $140 million civil penalty, part of a broader consent order after the airline's operational failures a year ago. That penalty is by far the largest the DOT has ever levied for consumer protection violations, according to a statement from the department. \"This is not just about Southwest,\" Transportation Secretary Pete Buttigieg said in an interview with NPR's Morning Edition on Monday. \"This is about the entire industry, sending a signal that you should not be cutting corners -- because if you fail your passengers, we will hold you accountable.\" \n\nA major winter storm last December caused travel disruptions across the country as airlines canceled thousands of flights. But while other airlines recovered relatively quickly, Southwest fell apart. The airline ultimately canceled 16,900 flights, stranding more than 2 million passengers. In a statement, Southwest described the agreement as \"a consumer-friendly settlement.\" The airline says it has taken steps since last year's disruption to improve its operational resiliency and customer care.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/18/1525217/southwest-will-pay-a-140-million-fine-for-its-meltdown-during-the-2022-holidays?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T16:00:00.000Z",
+          "wordCount": 6755,
+          "title": "Southwest Will Pay a $140 Million Fine For Its Meltdown During the 2022 Holidays",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/18/1212215/documents-reveal-hidden-problems-at-russias-nuclear-powerhouse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: As Russian troops poured into Ukraine at the start of Vladimir Putin's invasion in February last year, alarm was rising at a flagship Kremlin nuclear project in neighboring Belarus, just a short distance from the European Union's border. Engineers at Rosatom preparing a new 1,200-megawatt reactor, which was not yet connected to the power grid, to generate electricity at the Astravets Nuclear Power Plant detected a mysterious and exceedingly rare problem. Resin was seeping into the primary circuit, threatening to seize up critical components, according to internal documents of the Russian state nuclear corporation seen by Bloomberg. \n\nControl rods and fuel assemblies risked being damaged or broken if the problem persisted when uranium atoms began fission…",
+          "link": "https://news.slashdot.org/story/23/12/18/1212215/documents-reveal-hidden-problems-at-russias-nuclear-powerhouse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T15:20:00.000Z",
+          "wordCount": 12256,
+          "title": "Documents Reveal Hidden Problems at Russia's Nuclear Powerhouse",
+          "imageUrl": "https://a.fsdn.com/sd/topics/news_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/23/12/18/1237215/deloitte-is-looking-to-ai-to-help-avoid-mass-layoffs-in-future?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The giants of the consulting world face an unusual quandary this year: many of them are in the process of dismissing hundreds of staffers even after they hired thousands of college graduates to deal with new demand. Now, one of the biggest of them all is looking to AI to change that. From a report: Deloitte is using AI to evaluate existing staffers' skills and map out plans that would shift employees away from quieter parts of the business and into roles that are more in demand. It's part of a broader bet by the professional services firm that the technology will allow it to moderate hiring growth over time. \n\nThe moves come after Deloitte added 130,000 staffers this year. But in the midst of those hirings, though, the firm warned thousands of staffers in the US and UK that their jobs were at risk of becoming redundant after the company was forced to restructure certain areas of the business in response to a slowdown in demand. \"It is obviously a great objective to be able to avoid large swings of hirings and layoffs,\" said Stevan Rolls, global chief talent officer at Deloitte. \"You could always be more efficient and effective about finding the right people.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/23/12/18/1237215/deloitte-is-looking-to-ai-to-help-avoid-mass-layoffs-in-future?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T14:40:00.000Z",
+          "wordCount": 6652,
+          "title": "Deloitte Is Looking To AI To Help Avoid Mass Layoffs in Future",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/18/1317239/adobe-abandons-20-billion-acquisition-of-figma?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Following mounting pressure from regulators in the UK and EU, Adobe and Figma announced on Monday that both companies are mutually terminating their merger agreement, which would have seen Adobe acquire the Figma product design platform for $20 billion. From a report: As a result of the termination, Adobe will be required to pay Figma a reverse termination fee of $1 billion in cash. \"Adobe and Figma strongly disagree with the recent regulatory findings, but we believe it is in our respective best interests to move forward independently,\" said Adobe chair and CEO Shantanu Narayen in a statement. \"While Adobe and Figma shared a vision to jointly redefine the future of creativity and productivity, we continue to be well positioned to capitalize on our massive market opportunity and mission to change the world through personalized digital experiences.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/18/1317239/adobe-abandons-20-billion-acquisition-of-figma?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T14:00:00.000Z",
+          "wordCount": 6773,
+          "title": "Adobe Abandons $20 Billion Acquisition of Figma",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/23/12/18/0457249/2023s-online-advent-calendars-challenge-programmers-with-tips-and-puzzles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "It's a geek tradition that started online back in 2000. Programming language \"advent calendars\" offer daily tips about a programming language (if not a Christmas-themed programming puzzle) -- one a day through December 25th. \n\nAnd 2023 finds a wide variety of fun sites to choose from:\n\n\nli>For example, there's 24 coding challenges at the Advent of JavaScript site (where \"each challenge includes all the HTML and CSS you need to get started, allowing you to focus on the JavaScript.\") And there's another 24 coding challenges on a related site... Advent of CSS. The cyber security training platform \"TryHackMe.com\" even coded up a site they call \"Advent of Cyber,\" daring puzzle-solvers to \"kickstart your cyber security career by engaging in a new, beginner-friendly exercise every day leading up …",
+          "link": "https://developers.slashdot.org/story/23/12/18/0457249/2023s-online-advent-calendars-challenge-programmers-with-tips-and-puzzles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-18T12:34:00.000Z",
+          "wordCount": 4423,
+          "title": "2023's Online 'Advent Calendars' Challenge Programmers With Tips and Puzzles",
+          "imageUrl": "https://a.fsdn.com/sd/topics/xmas_64.png"
+        },
         {
           "id": "https://slashdot.org/story/23/12/18/0053244/how-artists-are-sabotaging-ai-to-take-revenge-on-image-generators?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
@@ -4677,136 +4845,6 @@
           "publishedOn": "2023-11-19T15:34:00.000Z",
           "wordCount": 5705,
           "title": "How Mojo Hopes to Revamp Python for an AI World",
-          "imageUrl": "https://a.fsdn.com/sd/topics/python_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/18/039221/raspberry-pi-os-elementary-os-will-default-to-wayland?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Recently the Register pointed out that the new (Debian-based) Raspberry Pi OS 5.0 has \"a completely new Wayland desktop environment replacing PIXEL, the older desktop based on LXDE and X.org, augmented with Mutter in its previous release.\" \n\nAnd when elementary OS 8 finally arrives, \"the development team plans to finally shift to the Wayland display server by default,\" reports Linux magazine (adding \"If you'd like to get early access to daily builds, you can do so by becoming an elementary OS sponsor on GitHub.\") \n\n\"This is a transition that we have been planning and working towards for several years,\" writes CEO/co-founder Danielle Foré, \"and we're finally in the home stretch... Wayland will bring us improved performance, better app security, and opens the doors to support more complex display setups like mixed DPI multi-monitor setups.\"\nThere are other things that we're experimenting with, like the possibility of an immutable OS, and there are more mundane things that will certainly happen like shipping Pipewire. You'll also see on the project board that we're looking to replace the onscreen keyboard and it's time to re-evaluate some things like SystemD Boot. You can expect lots more little features to be detailed over the coming months. \n\nMeanwhile, Linux Mint is getting \"experimental\" Wayland support next month. And also in December, Firefox will let Wayland support be enabled by default. \n\nAnd last month the Register noted a merge request for GNOME to remove the gnome-xorg.desktop file. \"To put this in context, the Fedora project is considering a comparable change: removing or hiding the GNOME on X.org session from the login menu, which is already the plan for the Fedora KDE spin when it moves to KDE version 6, which is still in development.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/11/18/039221/raspberry-pi-os-elementary-os-will-default-to-wayland?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T12:34:00.000Z",
-          "wordCount": 9720,
-          "title": "Raspberry Pi OS, elementary OS Will Default to Wayland",
-          "imageUrl": "https://a.fsdn.com/sd/topics/gui_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/11/19/0229237/could-ai-and-tech-advancements-bring-a-new-era-of-evolution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "A professor of religion at Columbia University writes, \"I do not think human beings are the last stage in the evolutionary process.\"\n\nWhatever comes next will be neither simply organic nor simply machinic but will be the result of the increasingly symbiotic relationship between human beings and technology. Bound together as parasite/host, neither people nor technologies can exist apart from the other because they are constitutive prostheses of each other... So-called \"artificial\" intelligence is the latest extension of the emergent process through which life takes ever more diverse and complex forms. \n\nThe article lists \"four trajectories that will be increasingly important for the symbiotic relationship between humans and machines.\" \n\n- Writing about neuroprosthetics, the professor argues…",
-          "link": "https://hardware.slashdot.org/story/23/11/19/0229237/could-ai-and-tech-advancements-bring-a-new-era-of-evolution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T08:34:00.000Z",
-          "wordCount": 10533,
-          "title": "Could AI and Tech Advancements Bring a New Era of Evolution?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/19/0320207/in-worlds-largest-disinformation-campaign-online-china-is-harassing-americans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"The Chinese government has built up the world's largest known online disinformation operation,\" reports CNN, \"and is using it to harass US residents, politicians, and businesses.\" \n\nCNN reports that disinformation operation is even \"at times threatening its targets with violence, a CNN review of court documents and public disclosures by social media companies has found.\"\n\nThe onslaught of attacks — often of a vile and deeply personal nature — is part of a well-organized, increasingly brazen Chinese government intimidation campaign targeting people in the United States, documents show. The U.S. State Department says the tactics are part of a broader multi-billion-dollar effort to shape the world's information environment and silence critics of Beijing that has expanded under President Xi J…",
-          "link": "https://tech.slashdot.org/story/23/11/19/0320207/in-worlds-largest-disinformation-campaign-online-china-is-harassing-americans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T04:58:00.000Z",
-          "wordCount": 13581,
-          "title": "In World's Largest Disinformation Campaign Online, China Is Harassing Americans",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://developers.slashdot.org/story/23/11/18/0227230/kotlin-keeps-climbing-tiobes-programming-language-popularity-index?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader shared this report from InfoWorld:\n\nJetBrains' Kotlin language, a Java rival endorsed by Google for Android mobile development, continues to scale up Tiobe's index of language popularity, reaching the 15th spot in the November 2023 rankings... \n\nSoftware quality services company Tiobe cites Kotlin advantages including interoperability with Java and unrivaled Android accommodations as reasons for the language's rise. Kotlin, Tiobe CEO Paul Jansen said, also fits in with a modern programming culture of expressive languages that have a strong type system and avoid null pointer exceptions by design. \"Based on my experience, I am pretty sure Kotlin can reach a top 10 position,\" Jansen said. It remains to be seen if it can ever scale as high as a top four slot, he added... \nIn the rival Pypl Popularity of Programming languages index this month, Kotlin was ranked 13th with a 1.76% share, having slipped slightly year-over-year. \n\nKotlin's rank on the TIOBE index rose three positions in the last month — after rising two positions the month before. TIOBE's CEO says the language has now achieved its highest ranking ever on the index, surpassing 2017's \"first wave of Kotlin popularity...when Google announced first class support for Kotlin on Android.\" \nRust now ranks #20 on the index, behind Delphi/Object Pascal, Swift, Ruby, and R. \n\nHere's TIOBE November rankings for top-20 most popular programming languages:\n\nPythonCC++JavaC#JavaScriptPHPVisual BasicSQLAssembly LanguageScratchFortranGoMATLABKotlinDelphi/Object PascalSwiftRubyRRust\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://developers.slashdot.org/story/23/11/18/0227230/kotlin-keeps-climbing-tiobes-programming-language-popularity-index?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T02:59:00.000Z",
-          "wordCount": 6882,
-          "title": "Kotlin Keeps Climbing TIOBE's Programming Language Popularity Index",
-          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/19/0055242/openai-investors-plot-last-minute-push-with-microsoft-to-reinstate-sam-altman-as-ceo?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The Verge reports that OpenAI's board \"is in discussions with Sam Altman to return to the company as its CEO, according to multiple people familiar with the matter.\" But one of those people said Altman \"is 'ambivalent' about coming back and would want significant governance changes.\" \n\nIn a possibly related development, Forbes reports that \"A day after OpenAI's board of directors fired former CEO Sam Altman in a shock development, investors in the company are plotting how to restore him, in what would amount to an even more surprising counter-coup.\"\n\nVenture capital firms holding positions in OpenAI's for-profit entity have discussed working with Microsoft and senior employees at the company to bring back Altman, even as he has signaled to some that he intends to launch a new startup, four…",
-          "link": "https://slashdot.org/story/23/11/19/0055242/openai-investors-plot-last-minute-push-with-microsoft-to-reinstate-sam-altman-as-ceo?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T00:59:00.000Z",
-          "wordCount": 4090,
-          "title": "OpenAI Investors Plot Last-Minute Push With Microsoft To Reinstate Sam Altman As CEO",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/11/18/2318237/why-bill-gates-remains-hopeful-about-innovative-new-climate-solutions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Bill Gates argues that when it comes to climate change, \"there are more reasons to be hopeful than many people realize — and it's not just that renewable energy sources like wind and solar are getting cheaper. \n\n\"And it's not just because many of the steps already taken to reduce carbon emissions are working: Carbon emissions from fossil fuels will probably peak in 2025.\"\nThe main thing that makes me optimistic is all the innovation I'm seeing. As someone who has been funding climate solutions for years, I get to learn from ingenious scientists who are working on ideas that will help the world solve climate change. And their work makes me confident that innovation will help the world get on track to meet its climate goals. \n\nSome people are skeptical when a technology person like me says i…",
-          "link": "https://hardware.slashdot.org/story/23/11/18/2318237/why-bill-gates-remains-hopeful-about-innovative-new-climate-solutions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-18T23:20:00.000Z",
-          "wordCount": 5222,
-          "title": "Why Bill Gates Remains Hopeful about Innovative New Climate Solutions",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/11/18/204226/source-code-to-infocoms-text-adventure-interpreters-now-available?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Slashdot reader Mononymous writes: Back in 2019, digital archivist Jason Scott released the source code to Infocom's classic text adventures. Now the other piece of the puzzle is available: the source code (mostly in assembly, with some C and Pascal) to their microcomputer interpreters.\n\n Infocom, publisher of the best-selling Zork series, ported their text adventures to most of the diverse microcomputer platforms of the 1980s by using an early virtual machine, known as the Z-machine or ZIP. This enabled them to sell games simultaneously for everything from the TI-99/4A to the Commodore 128. Hobbyists reverse-engineered the technology in the 1990s to create modern implementations, but now the original source code can be studied directly.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/11/18/204226/source-code-to-infocoms-text-adventure-interpreters-now-available?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-18T21:59:00.000Z",
-          "wordCount": 4229,
-          "title": "Source Code To Infocom's Text Adventure Interpreters Now Available",
-          "imageUrl": "https://a.fsdn.com/sd/topics/rpg_64.png"
-        },
-        {
-          "id": "https://linux.slashdot.org/story/23/11/18/012228/rust-in-linux-maturing-with-support-from-cisco-samsung-canonical?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "ZDNet shares on update on \"Rust in Linux: Where we are and where we're going next,\" citing a talk at the Linux Plumbers Conference in Richmond, Virginia by Linux/Rust developer Miguel Ojeda:\n\nIn brief, Rust Linux is continuing to mature and is getting strong support from developers and vendors, such as Cisco, Samsung, and Canonical... Rust is taking the steps it needs to become — along with C — a fully-fledged member of the Linux language toolchain... That's not to say that we're ready to retire C for Rust just yet. In fact, that day is unlikely ever to come. But Rust is definitely on its way to becoming an important language for Linux development... \n\nAs for the day-to-day work that's required to make Rust fully integrated with Linux, the \"official\" website of the initiative is now the se…",
-          "link": "https://linux.slashdot.org/story/23/11/18/012228/rust-in-linux-maturing-with-support-from-cisco-samsung-canonical?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-18T20:59:00.000Z",
-          "wordCount": 5587,
-          "title": "Rust in Linux:  Maturing with Support from Cisco, Samsung, Canonical",
-          "imageUrl": "https://a.fsdn.com/sd/topics/linux_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/11/18/0448220/is-disney-pinnacle-preparing-to-be-the-next-big-nft-failure?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"NFTs aren't gone yet,\" writes the Verge. \n\n\"Disney will launch an 'all-new socially driven collectible experience' called Disney Pinnacle later this year, turning characters from Pixar, Star Wars, and its classic animated films into tradable digital pins.\"\n\n\nWhile announcing Pinnacle, Disney and its partner Dapper Labs won't even say the word \"NFT.\" Dapper Labs still calls itself \"the NFT company,\" but between a variety of scams, an eye-blistering episode at a recent Bored Ape event, and a market that has plunged since peaking in early 2021, that's a term they apparently will steer clear of. The only thing available on the site right now is a privacy policy that makes clear this is a Dapper Labs effort that's licensing content from Disney — not an in-house effort on the level of Disney Plus. \n\nThe NFT collection is being launched through an iOS app, and a spokesperson tells CoinDesk that web and Android applications will come later.\n\n \nThe Disney Pinnacle website has a few seconds of background animation showing the pins — and, of course, a waitlist signup form.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/11/18/0448220/is-disney-pinnacle-preparing-to-be-the-next-big-nft-failure?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-18T19:59:00.000Z",
-          "wordCount": 5488,
-          "title": "Is 'Disney Pinnacle' Preparing to Be the Next Big NFT Failure?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/money_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/18/1858203/what-exactly-happened-at-openai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Microsoft's stock price plumetted 16% after OpenAI fired CEO Sam Altman — but appears to have immediately recovered most of the drop in after-hours trading. Yet OpenAI's move \"also blindsided key investor and minority owner Microsoft,\" writes Ars Technica, \"reportedly making CEO Satya Nadella furious.\" \n\n\nTech reporter Kara Swisher called the firing a \"badly managed coup de Sam,\" tweeting more details Friday night. \"Sources tell me that the profit direction of the company under Altman and the speed of development, which could be seen as too risky, and the nonprofit side dedicated to more safety and caution were at odds. One person on the Sam side called it a 'coup,' while another said it was the the right move.\" \n\nArs Technica fills in the story:\nSources told reporter Kara Swisher that Ope…",
-          "link": "https://slashdot.org/story/23/11/18/1858203/what-exactly-happened-at-openai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-18T18:59:00.000Z",
-          "wordCount": 8534,
-          "title": "What Exactly Happened At OpenAI?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/11/18/1732200/spacexs-starship-reaches-outer-space-before-intentional-detonation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "CNN reports\n\nSpaceX made a second attempt to successfully launch Starship, the most powerful rocket ever constructed. The uncrewed rocket took off just after 7 a.m. CT (8 a.m. ET). The rocket took off as intended, making it roughly 8 minutes into flight before SpaceX confirmed it had to intentionally explode the Starship spacecraft as it flew over the ocean... \n\nThis mission comes after months of back-and-forth with federal regulators as SpaceX has awaited a launch license. The company is also grappling with pushback from environmentalists... \n\nAfter separating from the Super Heavy rocket booster, the Starship spacecraft soared to an altitude of approximately 93 miles (150 kilometers) before SpaceX lost contact, according to a statement issued by the company. For context, the U.S. government considers 50 miles (80 kilometers) above Earth's surface the edge of outer space... \n\nSpaceX is OK with rockets exploding in the early stages of development. That's because the company uses a completely different approach to rocket design than, say, NASA. The space agency focuses on building one rocket and strenuously designing and testing it on the ground before its first flight — taking years but all but guaranteeing success on the first launch. SpaceX, however, rapidly builds new prototypes and is willing to test them to their breaking point because there's usually a spare nearby. During a drive by the company's facilities on Friday — four Starship spacecraft and at least two Super Heavy boosters could be seen from public roadways. \nCNN reminds readers that \"so far in 2023 alone, the Falcon 9 has launched more than 70 spaceflights... \n\n\n\"Elon Musk described Starship as the vehicle that underpins SpaceX's founding purpose: sending humans to Mars for the first time. NASA has its own plans for the rocket.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/11/18/1732200/spacexs-starship-reaches-outer-space-before-intentional-detonation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-18T17:35:00.000Z",
-          "wordCount": 10465,
-          "title": "SpaceX's Starship Reaches Outer Space Before Intentional Detonation",
-          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/17/2327241/us-space-force-monitors-satellites-in-the-robotic-battlefield-of-space?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"At least 44,500 space objects now circle Earth,\" reports the New York Times magazine, \"including 9,000 active satellites and 19,000 significant pieces of debris.\" \n\nThe article notes a threat assessment from U.S. Space Force Chief Master Sergeant Ron Lerch:\n\nWhat's most concerning isn't the swarm of satellites but the types. \"We know that there are kinetic kill vehicles,\" Lerch said — for example, a Russian \"nesting doll\" satellite, in which a big satellite releases a tiny one and the tiny one releases a mechanism that can strike and damage another satellite. There are machines with the ability to cast nets and extend grappling hooks, too. China, whose presence in space now far outpaces Russia's, is launching unmanned \"space planes\" into orbit, testing potentially unbreakable quantum comm…",
-          "link": "https://tech.slashdot.org/story/23/11/17/2327241/us-space-force-monitors-satellites-in-the-robotic-battlefield-of-space?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-18T16:34:00.000Z",
-          "wordCount": 5220,
-          "title": "US Space Force Monitors Satellites in the 'Robotic Battlefield' of Space",
-          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
-        },
-        {
-          "id": "https://developers.slashdot.org/story/23/11/18/0131201/python-community-announces-podcast-developers-survey-pycharm-discount?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The Python community is staying busy.\n\n\nThree weeks ago a new podcast launched with Python core developer/steering council member Pablo Galindo and Python developer-in-residence Åukasz Langa.\n\nThis month the Python Sofware Foundation announced its seventh Python Developers Survey. \n\nAnd for the fifth year in a row the foundation partnered with JetBrains to offer a 30% discount on JetBrains' dedicated Python Integrated Development Environment \"PyCharm\" — with all proceeds benefitting the Python Software Foundation (\"The discount will be automatically applied when you check out. The promotion will only be available through November 27th...\") \n\nA PSF blog post about the fundraiser notes you can also just make a direct donation to the Python Software Foundation, or sign up to become a foundation member to \"help us sustain what we do.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://developers.slashdot.org/story/23/11/18/0131201/python-community-announces-podcast-developers-survey-pycharm-discount?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-18T15:34:00.000Z",
-          "wordCount": 4471,
-          "title": "Python Community Announces Podcast, Developer's Survey, PyCharm Discount",
           "imageUrl": "https://a.fsdn.com/sd/topics/python_64.png"
         }
       ]
