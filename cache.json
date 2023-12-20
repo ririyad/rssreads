@@ -24,6 +24,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-big-cloud-exit-faq-20274010",
+          "author": null,
+          "description": "Just over a year ago, we announced our intention to leave the cloud. We then shared our complete $3.2 million cloud budget for 2022, and the fact that we were going to build our own tooling rather than pay for overpriced enterprise service contracts. The mission was set!\nA month later, we placed an order for $600,000 worth of Dell servers to carry our exit, and did the math to conservatively estimate $7 million in savings over the next five years. We also detailed the larger values, beyond just cost, that was driving our cloud exit. Things like independence and loyalty to the original ethos of the internet.\nStill in February, we announced the new tool I had bootstrapped in a few weeks to take us out of the cloud – without giving up on all the innovation in containers and operating principl…",
+          "link": "https://world.hey.com/dhh/the-big-cloud-exit-faq-20274010",
+          "publishedOn": "2023-12-19T19:53:47.000Z",
+          "wordCount": 2376,
+          "title": "The Big Cloud Exit FAQ",
+          "imageUrl": "https://world.hey.com/dhh/20274010/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2NHUGp4WSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--774871a84b063b5f22eb988475aa3db782236ba5/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/cloud-spend-2022.png"
+        },
+        {
           "id": "https://world.hey.com/dhh/patek-levels-of-finishing-467e5dc0",
           "author": null,
           "description": "We’re in the final phase of getting the first ONCE product out the door. As with any new development, there are a million little details we need to nail for a successful launch that’s up to our standards. That’s usually where the temptation to cut corners on internal quality beckons, but we’ve handcuffed ourselves to the virtue of beautiful code by committing to shipping the code with purchase. It’s working!\nNot just because I don’t want other people to see any dirty hacks or dusty corners. This is a positive vision. We’re shipping the code because I want to show everyone that an extremely high level of care for the internals is not in opposition to the demands of commercial deadlines. In fact, I’d go so far as to say such case is in service of said deadlines.\nIn racing, like other communi…",
@@ -245,16 +255,6 @@
           "wordCount": 236,
           "title": "Demo of how page refreshes with morphing work",
           "imageUrl": "https://world.hey.com/jorge/avatar-d08cb3ee63ecbd49736f76ee2caffa4c99a1c0fd"
-        },
-        {
-          "id": "https://world.hey.com/jorge/the-radiating-programmer-2ece7066",
-          "author": null,
-          "description": "This article was originally published in the 37signals dev blog.\n\n  \n      \n        \n\n  \nYou are an individual contributor at heart. You like writing code and solving technical problems. You dislike meetings and ceremony. Here’s what you can do to maximize what you like and minimize what you don’t: radiate information.\n\nThe daily standup meetings that Scrum popularized have bad press for a reason. The daily periodicity is way too much. And using a recurring meeting to give people a chance to catch up is atrociously disruptive and inefficient. But the questions themselves make sense: What did you do? What are you going to do? Are there any blockers? You should aim to communicate that information routinely, just not in a meeting.\n\nWhen building software, everyone involved must adjust what th…",
-          "link": "https://world.hey.com/jorge/the-radiating-programmer-2ece7066",
-          "publishedOn": "2023-11-20T08:46:30.000Z",
-          "wordCount": 1010,
-          "title": "The radiating programmer",
-          "imageUrl": "https://world.hey.com/jorge/2ece7066/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2ZtNnRCViIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c2887e0a084f859a5399d3cd3e7fc4364dd7c6b6/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/the-radiating-programmer.png"
         }
       ]
     },
@@ -330,6 +330,16 @@
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://taylor.town/town-hall-0018",
+          "author": null,
+          "description": "Evergreens and oaks sprouted in unwanted places. Those trees have unwittingly become bonsai, confined to makeshift plastic pots.",
+          "link": "https://taylor.town/town-hall-0018",
+          "publishedOn": "2023-12-20T00:00:00.000Z",
+          "wordCount": 555,
+          "title": "Town Hall #18: Sunflower",
+          "imageUrl": null
+        },
         {
           "id": "https://potato.cheap/",
           "author": null,
@@ -549,16 +559,6 @@
           "wordCount": 2050,
           "title": "I hereby pardon all junior engineers",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/yallnt",
-          "author": null,
-          "description": "Y'all'n't sophisticated.",
-          "link": "https://taylor.town/yallnt",
-          "publishedOn": "2023-11-20T00:00:00.000Z",
-          "wordCount": 553,
-          "title": "\"y'all'n't\"",
-          "imageUrl": null
         }
       ]
     },
@@ -567,6 +567,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://apple.slashdot.org/story/23/12/19/227227/next-beeper-mini-fix-requires-users-to-have-a-mac?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Juli Clover reports via MacRumors: The developers behind Beeper Mini are continuing with their effort to make iMessage for Android function despite Apple's mitigations, and the latest \"fix\" requires Beeper Mini users to have access to a Mac. On Reddit, the Beeper Mini team says that the Mac-based fix coming on December 20 stabilizes iMessage for Beeper Cloud and Mini, and it \"works well\" and \"is very reliable.\"\n \nIt is unclear how many Android users have a Mac or have a friend with a Mac to rely on, but the fix requires using a Mac to connect to iMessage on Beeper. According to Beeper Mini's developers, registration data from an actual Mac has to be sent to Apple to use iMessage on Beeper. Beeper has been using its own Mac servers to provide that information to Apple, but that resulted in thousands of Beeper users having the same registration info, which was an \"easy target for Apple.\"\n \nThe Beeper update will instead generate unique registration data for each Mac, making it harder for Apple to tell which users are accessing iMessage through an Android device. The Beeper Mini team says that registration data is \"only used to indicate that a Mac is available during registration\" and that the Mac will not be given access to an account or messages: \"If you do not have access to a Mac computer, but have a friend on Beeper with a Mac, you can ask them if you can use their registration data. In our testing, 10-20 iMessage users can safely use the same registration data.\" With the fix, Beeper Cloud and Beeper Mini users will once again be able to use iMessage on Android, but only with email addresses and not with phone numbers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/23/12/19/227227/next-beeper-mini-fix-requires-users-to-have-a-mac?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-20T00:45:00.000Z",
+          "wordCount": 3992,
+          "title": "Next Beeper Mini Fix Requires Users To Have a Mac",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mac_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/19/2211232/tomtom-creates-ai-based-conversational-assistant-for-vehicles-with-microsoft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader writes: Digital mapping specialist TomTom said on Tuesday it has partnered with tech giant Microsoft to create an artificial intelligence (AI)-powered conversational assistant for vehicles. The assistant will allow users to \"converse naturally with their vehicles\" and enable voice interaction with infotainment, location search, and vehicle command systems, the company said.\n \nTomTom, which competes with Google Maps and the world's biggest mapping platform HERE, used various Microsoft services like its Azure OpenAI Service to create the voice assistant. The Microsoft Azure OpenAI Service allows enterprises to leverage ChatGPT maker OpenAI's large language models (LLM). The voice assistant can be integrated into other automotive infotainment systems and is also built into TomTom's Digital Cockpit, an open, modular in-vehicle infotainment platform, the Dutch map maker said. The company began working with Microsoft in 2016, when it first started powering Azure Maps location services.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/19/2211232/tomtom-creates-ai-based-conversational-assistant-for-vehicles-with-microsoft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-20T00:02:00.000Z",
+          "wordCount": 4098,
+          "title": "TomTom Creates AI-Based Conversational Assistant For Vehicles With Microsoft",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/12/19/2156258/microsoft-releases-downloadable-tool-to-remove-unwanted-hp-printer-software?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Longtime Slashdot reader UnknowingFool writes: Microsoft has released a new software tool to remove printer software from HP that was installed without user permission or system need. A few weeks ago, users noticed that Windows Update installed HP printer software even if they did not have HP printers or printers at all. Affecting Windows 10 and 11, consumers reported that this update sometimes caused problems as it could rename their non-HP printers as HP printers causing some printing features to be inaccessible. Microsoft has not disclosed the root cause of the issue. The fix released by Microsoft requires users to download and run a dedicated troubleshooting tool available from Microsoft's support site. \"There are four different versions of the troubleshooter, depending on whether you have the 32- or 64-bit version of an Arm or x86 version of Windows,\" notes Ars Technica. \"Microsoft will also release an additional recommended troubleshooting tool 'in the coming weeks' that will fix the problem in Windows 11 upon a user's request without requiring the download of a separate tool.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/23/12/19/2156258/microsoft-releases-downloadable-tool-to-remove-unwanted-hp-printer-software?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T23:20:00.000Z",
+          "wordCount": 4075,
+          "title": "Microsoft Releases Downloadable Tool To Remove Unwanted HP Printer Software",
+          "imageUrl": "https://a.fsdn.com/sd/topics/printer_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/19/2144242/binance-to-pay-27-billion-fine-to-cftc-for-evading-federal-law?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Binance will pay $2.7 billion to the Commodity Futures Trading Commission (CFTC) for evading federal law and operating an illegal derivatives exchange. Meanwhile, the cryptocurrency exchange's founder, Changpeng \"CZ\" Zhao, will pay $150 million.\n \n\"The court finds Zhao and Binance violated the Commodity Exchange Act (CEA) and CFTC regulations, imposes a $150 million civil monetary penalty personally against Zhao, and requires Binance to disgorge $1.35 billion of ill-gotten transaction fees and pay a $1.35 billion penalty to the CFTC,\" wrote the CFTC in a statement. CoinTelegraph reports: The approved settlement marks the conclusion of a long-running case against CZ and Binance by the CFTC. On Nov. 21, CZ agreed to step down from his role at the helm of Binance as part of a wider settlement with the U.S. Department of Justice, the Treasury Department and the CFTC. On the same day, Zhao pleaded guilty to several civil charges and one criminal charge relating to Anti-Money Laundering laws. On Dec. 7, CZ was ordered to remain in the U.S. until his Feb. 23, 2024 sentencing date. He faces up to 18 months in prison on money laundering charges and has agreed not to appeal any potential sentence up to that length.\n \nAs part of the settlement, both CZ and Binance have agreed to take further steps to ensure Know Your Customer measures are maintained on the exchange as well as requiring Binance to implement a formalized corporate governance structure, including a board of directors with independent members, a compliance committee and an audit committee. The court also made a separate order for Binance's former chief compliance officer, Samuel Lim, to pay a $1.5 million civil monetary penalty for \"aiding and abetting Binance's violations and engaging in activities outside of the U. S. to willfully evade or attempt to evade U.S. law.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/19/2144242/binance-to-pay-27-billion-fine-to-cftc-for-evading-federal-law?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T22:40:00.000Z",
+          "wordCount": 4628,
+          "title": "Binance To Pay $2.7 Billion Fine To CFTC For Evading Federal Law",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/19/2127240/metas-news-ban-in-canada-remains-as-online-news-act-goes-into-effect?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from the BBC: A bill that mandates tech giants pay news outlets for their content has come into effect in Canada amid an ongoing dispute with Facebook and Instagram owner Meta over the law. Some have hailed it as a game-changer that sets out a permanent framework that will see a steady drip of funds from wealthy tech companies to Canada's struggling journalism industry. But it has also been met with resistance by Google and Meta -- the only two companies big enough to be encompassed by the law. In response, over the summer, Meta blocked access to news on Facebook and Instagram for Canadians. Google looked set to follow, but after months of talks, the federal government was able to negotiate a deal with the search giant as the company has agreed to pay Canadian news outlets $75 million annually.\n \nNo such agreement appears to be on the horizon with Meta, which has called the law \"fundamentally flawed.\" If Meta is refusing to budge, so is the government. \"We will continue to push Meta, that makes billions of dollars in profits, even though it is refusing to invest in the journalistic rigor and stability of the media,\" Prime Minister Justin Trudeau told reporters on Friday. According to a study by the Media Ecosystem Observatory, the views of Canadian news on Facebook dropped 90% after the company blocked access to news on the platform. Local news outlets have been hit particularly hard.\n \n\"The loss of journalism on Meta platforms represents a significant decline in the resiliency of the Canadian media ecosystem,\" said Taylor Owen, a researcher at McGill and the co-author of the study. He believes it also hurts Meta's brand in the long run, pointing to the fact that the Canada's federal government, as well as that of British Columbia, other municipalities and a handful of large Canadian corporations, have all pulled their advertising off Facebook and Instagram in retaliation.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/19/2127240/metas-news-ban-in-canada-remains-as-online-news-act-goes-into-effect?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T22:02:00.000Z",
+          "wordCount": 8466,
+          "title": "Meta's News Ban In Canada Remains As Online News Act Goes Into Effect",
+          "imageUrl": "https://a.fsdn.com/sd/topics/canada_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/19/0722243/comcast-discloses-data-breach-of-close-to-36-million-xfinity-customers-update?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "In a notice on Monday, Xfinity notified customers of a \"data security incident\" that resulted in the theft of customer information, including usernames, passwords, contact information, and more. The Verge reports: Xfinity traces the breach to a security vulnerability disclosed by cloud computing company Citrix, which began alerting customers of a flaw in software Xfinity and other companies use on October 10th. While Xfinity says it patched the security hole, it later uncovered suspicious activity on its internal systems \"that was concluded to be a result of this vulnerability.\"\n \nThe hack resulted in the theft of customer usernames and hashed passwords, according to Xfinity's notice. Meanwhile, \"some customers\" may have had their names, contact information, last four digits of their socia…",
+          "link": "https://it.slashdot.org/story/23/12/19/0722243/comcast-discloses-data-breach-of-close-to-36-million-xfinity-customers-update?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T21:22:00.000Z",
+          "wordCount": 6127,
+          "title": "Comcast Discloses Data Breach of Close To 36 Million Xfinity Customers [UPDATE]",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/19/1858245/uk-to-introduce-carbon-tax-on-steel-imports-from-2027?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Imported raw materials such as steel and cement will incur a new carbon tax from 2027 under UK plans designed to support domestic producers and reduce emissions, but the government is facing criticism for not moving fast enough. From a report: The Treasury said the tax would help address the phenomenon of \"carbon leakage,\" in which UK manufacturers are undercut on price by foreign rivals whose governments do not impose levies on businesses that emit a lot of carbon. The result is that emissions are simply displaced to other countries, while greener UK producers lose out because they have to pay carbon-related charges. The chancellor, Jeremy Hunt, said: \"This levy will make sure carbon intensive products from overseas -- like steel and ceramics -- face a comparable carbon price to those produced in the UK, so that our decarbonisation efforts translate into reductions in global emissions. \"This should give UK industry the confidence to invest in decarbonisation as the world transitions to net zero.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/23/12/19/1858245/uk-to-introduce-carbon-tax-on-steel-imports-from-2027?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T18:58:00.000Z",
+          "wordCount": 6943,
+          "title": "UK To Introduce Carbon Tax on Steel Imports from 2027",
+          "imageUrl": "https://a.fsdn.com/sd/topics/uk_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/12/19/1730242/sonys-video-game-plans-leaked-by-ransomware-group?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Speaking of the 1.3 million stolen files of Sony division Insomniac Games that hackers have leaked, the data dump includes game roadmaps, budgets, and detailed information about Insomniac's upcoming Wolverine game, which a document says is slated for 2026. Bloomberg reports: According to the files, Sony plans to release several Marvel-inspired titles in the next decade, including Spider-Man 3, based on Venom and X-Men games. The files also reference a new Ratchet & Clank game apparently slated for 2029. Insomniac and Marvel's licensing commitment is as high as $621 million to develop and market the X-Men games by 2035, according to one document, which was one of many circulating on the internet. The documents also give us a peak into how Sony internally felt about Microsoft's acquisition of Blizzard. Eurogamer adds: Sony has privately described Microsoft's $68.7bn takeover of Activision Blizzard as a potential \"leapfrog\" moment for its long-term console rival to take the lead. Threats identified by Sony include Microsoft using Call of Duty to \"disrupt and threaten console gaming and game subscription markets\", with a potential \"massive threat to PlayStation Plus.\" [...] \"Activision provides incredible strategic value across live service games, scale in mobile and PC storefront (Battle.net),\" Sony wrote, describing the various advantages Microsoft has now added to its portfolio with the deal freshly completed.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/23/12/19/1730242/sonys-video-game-plans-leaked-by-ransomware-group?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T17:30:00.000Z",
+          "wordCount": 4608,
+          "title": "Sony's Video Game Plans Leaked By Ransomware Group",
+          "imageUrl": "https://a.fsdn.com/sd/topics/sony_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/19/1646258/amazons-ai-product-reviews-seen-exaggerating-negative-feedback?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A anonymous reader shares a report: Shopping on Amazon.com has long entailed scrolling through pages and pages of often redundant customer feedback. In an effort to make the task less onerous, the company in August began using artificial intelligence to convert billions of reviews into brief summaries consisting of a few sentences apiece. As is often true with generative AI, the results aren't perfect. In some cases, the summaries provide an inaccurate description of a product. In others, they exaggerate negative feedback. This has potential implications not just for customers, but for Amazon merchants who depend on positive reviews to boost sales. Making matters worse, merchants say, the summaries were deployed just as they were headed into the crucial holiday shopping season -- giving them one more thing to worry about besides inflation-battered shoppers. \n\nMost shoppers can probably tell when the AI has misclassified a product. For example, the home fitness company Teeter sells an inversion table designed to ease back pain. Amazon's AI generated summary calls it a desk: \"Customers like the sturdiness, adjustability and pain relief of the desk.\" The technology's tendency to overplay negative sentiment in some reviews is less obvious. The $70 Brass Birmingham board game, for instance, boasts a 4.7-star rating based on feedback from more than 500 shoppers. A three-sentence AI summary of reviews ends with: \"However, some customer have mixed opinions on ease of use.\" Only four reviews mention ease of use in a way that could be interpreted as critical. That's fewer than 1% of the overall ratings, yet the negative sentiment accounts for about a third of the AI-generated blurb.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/19/1646258/amazons-ai-product-reviews-seen-exaggerating-negative-feedback?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T16:45:00.000Z",
+          "wordCount": 8903,
+          "title": "Amazon's AI Product Reviews Seen Exaggerating Negative Feedback",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/19/1558235/toshiba-to-be-delisted-after-74-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Toshiba will be delisted on Wednesday after 74 years on the Tokyo exchange, following a decade of upheaval and scandal that brought down one of Japan's biggest brands and ushered in a buyout and an uncertain future. From a report: The conglomerate is being taken private by a group of investors led by private equity firm Japan Industrial Partners that also includes financial services firm Orix, utility Chubu Electric Power and chipmaker Rohm. The $14 billion takeover puts Toshiba in domestic hands after protracted battles with overseas activist investors that paralysed the maker of batteries, chips, and nuclear and defence equipment. Although it is not clear what shape Toshiba will ultimately take under its new owners, Chief Executive Taro Shimada, who is staying in his role following the buyout, is expected to focus on high-margin digital services.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/23/12/19/1558235/toshiba-to-be-delisted-after-74-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T16:00:00.000Z",
+          "wordCount": 7364,
+          "title": "Toshiba To Be Delisted After 74 Years",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/19/1518217/insomniac-hacker-releases-more-than-13-million-stolen-files-including-unannounced-games-info?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A ransomware group that claimed to have successfully hacked Insomniac Games has now leaked the vast majority of its stolen files. From a report: Last week ransomware group Rhysida threatened to expose sensitive data about the company, its employees and its upcoming games, if it wasn't paid for the data. It then published data online which appeared to corroborate its claim that it had successfully hacked the Sony-owned studio, including an annotated screenshot from Insomniac's upcoming Wolverine game. \n\nThe group then threatened to publish the stolen data within seven days, but first offered it for auction with a starting price of 50 Bitcoins (approximately $2 million). Now, according to Cyber Daily, Rhysida has followed through with its threat and posted more than 1.3 million files totalling 1.67 terabytes to its darknet leak site. Around 98% of the hacked data has been leaked, with Rhysida stating that \"not sold data was uploaded,\" implying that the remaining 2% may have been sold to someone.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/12/19/1518217/insomniac-hacker-releases-more-than-13-million-stolen-files-including-unannounced-games-info?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T15:20:00.000Z",
+          "wordCount": 4941,
+          "title": "Insomniac Hacker Releases More Than 1.3 Million Stolen Files, Including Unannounced Games Info",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/19/1439226/authorities-claim-seizure-of-notorious-alphv-ransomware-gangs-dark-web-leak-site?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An international group of law enforcement agencies have seized the dark web leak site of the notorious ransomware gang known as ALPHV, or BlackCat. From a report: \"The Federal Bureau of Investigation seized this site as part of a coordinated law enforcement action taken against ALPHV Blackcat Ransomware,\" a message on the gang's dark web leak site now reads, seen by TechCrunch. According to the splash, the takedown operation also involved law enforcement agencies from the United Kingdom, Denmark, Germany, Spain and Australia. \n\nIn a later announcement confirming the disruption, the U.S. Department of Justice said that the international takedown effort, led by the FBI, enabled U.S. authorities to gain visibility into the ransomware group's computer to seize \"several websites\" that ALPHV operated. The FBI also released a decryption tool that has already enabled more than 500 ALPHV ransomware victims to restore their systems. (The government's search warrant puts the number at 400 victims.) The FBI said it worked with dozens of victims in the United States, saving them from paying ransom demands totaling approximately $68 million.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/23/12/19/1439226/authorities-claim-seizure-of-notorious-alphv-ransomware-gangs-dark-web-leak-site?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T14:40:00.000Z",
+          "wordCount": 4329,
+          "title": "Authorities Claim Seizure of Notorious ALPHV Ransomware Gang's Dark Web Leak Site",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/19/145220/indias-flooded-farmlands-mask-a-water-crisis-deep-underground?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "India consumes more groundwater. That's testing India's ability to feed itself and much of the world. From a report: The South Asian nation is already the world's largest guzzler of groundwater. Cheap power has encouraged routine overreliance on finite riches. India overwhelmingly grows some of the thirstiest crops: rice, wheat and sugar cane. Over the last half century, farm productivity has leapt forward, but so, too, has water usage -- up 500% over that period, according to the World Bank. Erratic monsoons and brutal heat waves are only making the problem more acute. Farmers are digging deeper wells because existing ones are no longer refilling. Some regions may run out of groundwater entirely -- Punjab, a major wheat producer, could go dry within the next 15 or so years, according to a…",
+          "link": "https://news.slashdot.org/story/23/12/19/145220/indias-flooded-farmlands-mask-a-water-crisis-deep-underground?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T14:05:00.000Z",
+          "wordCount": 11319,
+          "title": "India's Flooded Farmlands Mask a Water Crisis Deep Underground",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/23/12/19/0730258/ex-amazon-engineer-pleads-guilty-to-hacking-crypto-exchanges?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from BleepingComputer: Former Amazon security engineer Shakeeb Ahmed pleaded guilty this week to hacking and stealing over $12.3 million from two cryptocurrency exchanges in July 2022. The two affected companies are Nirvana Finance, a decentralized crypto exchange, and an unnamed exchange on the Solana blockchain platform that Ahmed hacked using his blockchain audit and smart contract reverse engineering skills. He first targeted the undisclosed crypto exchange by manipulating a smart contract to introduce false pricing data, generating roughly $9 million worth of inflated fees. Ahmed later withdrew the funds and offered to return all but $1.5 million on the condition that the exchange refrained from involving law enforcement.\n \nAlthough not explicitly n…",
+          "link": "https://slashdot.org/story/23/12/19/0730258/ex-amazon-engineer-pleads-guilty-to-hacking-crypto-exchanges?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T13:00:00.000Z",
+          "wordCount": 5741,
+          "title": "Ex-Amazon Engineer Pleads Guilty To Hacking Crypto Exchanges",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/19/0051242/nasas-tech-demo-streams-first-video-from-deep-space-via-laser?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "NASA has successfully beamed an ultra-high definition streaming video from a record-setting 19 million miles away. The Deep Space Optical Communications experiment, as it is called, is part of a NASA technology demonstration aimed at streaming HD video from deep space to enable future human missions beyond Earth orbit. From a NASA press release: The [15-second test] video signal took 101 seconds to reach Earth, sent at the system's maximum bit rate of 267 megabits per second (Mbps). Capable of sending and receiving near-infrared signals, the instrument beamed an encoded near-infrared laser to the Hale Telescope at Caltech's Palomar Observatory in San Diego County, California, where it was downloaded. Each frame from the looping video was then sent \"live\" to NASA's Jet Propulsion Laboratory…",
+          "link": "https://science.slashdot.org/story/23/12/19/0051242/nasas-tech-demo-streams-first-video-from-deep-space-via-laser?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-19T07:00:00.000Z",
+          "wordCount": 5412,
+          "title": "NASA's Tech Demo Streams First Video From Deep Space Via Laser",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
+        },
         {
           "id": "https://tech.slashdot.org/story/23/12/18/2056218/googles-stadia-controller-salvage-operation-will-run-for-another-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4746,106 +4896,6 @@
           "wordCount": 8568,
           "title": "Microsoft Hires Ex-OpenAI Leaders Altman and Brockman To Lead New AI Group",
           "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://linux.slashdot.org/story/23/11/20/0153201/can-ai-be-used-to-fine-tune-linux-kernel-performance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader shared this report from ZDNet:\n\nAt the Linux Plumbers Conference, the invite-only meeting for the top Linux kernel developers, ByteDance Linux Kernel Engineer Cong Wang, proposed that we use AI and machine learning to tune the Linux kernel for the maximum results for specific workloads... There are thousands of parameters. Even for a Linux expert, tuning them for optimal performance is a long, hard job. And, of course, different workloads require different tunings for different sets of Linux kernel parameters... What ByteDance is working on is a first attempt to automate the entire Linux kernel parameter tuning process with minimal engineering efforts. \n\nSpecifically, ByteDance is working on tuning Linux memory management. ByteDance has found that with machine learning algorithms, such as Bayesian optimization, automated tuning could even beat most Linux kernel engineers. Why? Well, the idea, as Wang wryly put it, \"is not to put Linux kernel engineers out of business.\" No, the goal is \"to liberate human engineers from tuning performance for each individual workload. While making better decisions with historical data, which humans often struggle with. And, last, but never least, find better solutions than those we come up with using our current trial and error, heuristic methods. \n\nIn short, ByteDance's system optimizes resource usage by making real-time adjustments to things like CPU frequency scaling and memory management.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://linux.slashdot.org/story/23/11/20/0153201/can-ai-be-used-to-fine-tune-linux-kernel-performance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-20T12:34:00.000Z",
-          "wordCount": 8046,
-          "title": "Can AI Be Used to Fine-Tune Linux Kernel Performance?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/11/20/0039203/text-adventures-are-still-thriving-in-interactive-fiction-competition---and-on-threads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Today saw the end of IFComp.org's 29th annual text adventure competition (now administered by the charitable non-profit IF Technology Foundation). 74 new and original text adventures\n competed for a share of the $7,523 prize pool, with the winners announced in a special online ceremony on Twitch this afternoon. \n\nAfter all the votes were tabulated, the winning game was Dr Ludwig and the Devil, a 90-minute epic in which an esteemed mad scientist tries to double-cross Beelzebub himself — along with \"the world's least effective torch and pitchfork-wielding mob!\" Coming in second was LAKE Adventure. (Its premise? That it's a 13-year-old's 1993 game being revisited by its author 28 years later — complete with some gloriously retro artwork.) And finishing third was The Little Match Girl 4 (described as \"a touching epic time travel fairy tale by Hans Christian Andersen.) \n\nBut also this week, the owner of the web site 80sNostalgia.com has created a text adventure using nothing but inter-linked posts on Threads. \n\"Think you can get under The Bridge?\" its first post challenges. \"Test your gaming skills with this Threads exclusive text-based game! \n\"And then try to get your head around got much work it took to make it...\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/11/20/0039203/text-adventures-are-still-thriving-in-interactive-fiction-competition---and-on-threads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-20T00:41:00.000Z",
-          "wordCount": 3915,
-          "title": "Text Adventures are Still Thriving in Interactive Fiction Competition - and On Threads",
-          "imageUrl": "https://a.fsdn.com/sd/topics/rpg_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/11/19/2053244/a-viral-post-on-social-media-will-clear-the-medical-debt-of-strangers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"To celebrate my life, I've arranged to buy up others' medical debt and then destroy the debt,\" reads a posthumous tweet posted Tuesday after the death of 38-year-old Casey McIntyre. \n\nThe Washington Post explains...\n\n\nMcIntyre, who served as publisher at Razorbill, an imprint of Penguin Random House, was diagnosed in 2019 and proceeded through treatment without taking on debt, [husband Andrew Rose] Gregory told The Washington Post. But many fellow cancer patients she met were in more precarious financial positions, Gregory added. \"We were both so keenly aware that Casey had great health insurance through Penguin Random House,\" said Gregory, 41. \"Casey had no medical debt....\" \n\nAbout nine months before McIntyre died, her husband came across a video online about members of a North Carolina…",
-          "link": "https://science.slashdot.org/story/23/11/19/2053244/a-viral-post-on-social-media-will-clear-the-medical-debt-of-strangers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T22:34:00.000Z",
-          "wordCount": 8281,
-          "title": "A Viral Post on Social Media Will Clear the Medical Debt of Strangers",
-          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/11/19/2034218/microsoft-celebrates-20th-anniversary-of-patch-tuesday?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "This week the Microsoft Security Response Center celebrated the 20th anniversary of Patch Tuesday updates. \n\nIn a blog post they call the updates \"an initiative that has become a cornerstone of the IT world's approach to cybersecurity.\"\nOriginating from the Trustworthy Computing memo by Bill Gates in 2002, our unwavering commitment to protecting customers continues to this day and is reflected in Microsoft's Secure Future Initiative announced this month. Each month, we deliver security updates on the second Tuesday, underscoring our pledge to cyber defense. As we commemorate this milestone, it's worth exploring the inception of Patch Tuesday and its evolution through the years, demonstrating our adaptability to new technology and emerging cyber threats... \n\nBefore this unified approach, ou…",
-          "link": "https://it.slashdot.org/story/23/11/19/2034218/microsoft-celebrates-20th-anniversary-of-patch-tuesday?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T21:34:00.000Z",
-          "wordCount": 4521,
-          "title": "Microsoft Celebrates 20th Anniversary of 'Patch Tuesday'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/19/204228/amazon-announces-olympus-llm-to-compete-with-openai-and-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Amazon \"is investing millions in training an ambitious large language model,\" reports Reuters, \"hoping it could rival top models from OpenAI and Alphabet, two people familiar with the matter told Reuters.\"\n\nThe model, codenamed as \"Olympus\", has 2 trillion parameters, the people said, which could make it one of the largest models being trained. OpenAI's GPT-4 model, one of the best models available, is reported to have one trillion parameters... \n\nThe team is spearheaded by Rohit Prasad, former head of Alexa, who now reports directly to CEO Andy Jass... Amazon believes having homegrown models could make its offerings more attractive on AWS, where enterprise clients want to access top-performing models, the people familiar with the matter said, adding there is no specific timeline for relea…",
-          "link": "https://slashdot.org/story/23/11/19/204228/amazon-announces-olympus-llm-to-compete-with-openai-and-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T20:34:00.000Z",
-          "wordCount": 4930,
-          "title": "Amazon Announces 'Olympus' LLM to Compete With OpenAI and Google",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/19/1920250/linux-foundation-announces-intent-to-form-high-performance-software-foundation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "This week the Linux Foundation \"announced the intention to form the High Performance Software Foundation. \n\n\"Through a series of technical projects, the High Performance Software Foundation aims to build, promote, and advance a portable software stack for high performance computing by increasing adoption, lowering barriers to contribution, and supporting development efforts.\"\n\nAs use of high performance computing becomes ubiquitous in scientific computing and digital engineering, and AI use cases multiply, more and more data centers deploy GPUs and other compute accelerators. The High Performance Software Foundation intends to leverage investments made by the United States Department of Energy's Exascale Computing Project, the EuroHPC Joint Undertaking, and other international projects in …",
-          "link": "https://tech.slashdot.org/story/23/11/19/1920250/linux-foundation-announces-intent-to-form-high-performance-software-foundation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T19:34:00.000Z",
-          "wordCount": 4277,
-          "title": "Linux Foundation Announces Intent to Form 'High Performance Software Foundation'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/supercomputing_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/11/19/1826218/the-fsf-condemns-unauthorized-derivatives-of-gnu-licenses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The Free Sofware Foundation issued a clarifying blog post this week, saying the organization is \"pleased when people use GNU licenses to distribute and license software.\" \n\n\nBut \"we condemn the use of unauthorized, confusing derivatives of the licenses.\"\nUnfortunately, some authors engage in confusing practices by drafting licenses using existing terms and conditions of GNU free software licenses, without the intention of granting all four freedoms to users. For example, we have long seen attempts to add restrictions to the license text itself, placed in the LICENSE file, or included elsewhere in the program's release. An example is the so-called \"Commons Clause,\" which, when applied to a free software license, affirms that the program is covered by the license. But, at the same time, is c…",
-          "link": "https://news.slashdot.org/story/23/11/19/1826218/the-fsf-condemns-unauthorized-derivatives-of-gnu-licenses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T18:34:00.000Z",
-          "wordCount": 5523,
-          "title": "The FSF Condemns Unauthorized Derivatives of GNU Licenses",
-          "imageUrl": "https://a.fsdn.com/sd/topics/gnu_64.png"
-        },
-        {
-          "id": "https://idle.slashdot.org/story/23/11/19/0426209/1993s-second-reality-demo-recreated-for-the-apple-ii?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Long-time Slashdot reader deater writes: The Second Reality demoscene demo from 1993 is one of the most well known demos of all time, pushing a 486 running DOS to its limits. There have been remakes for other architectures over the years, including Atari ST, Gameboy color, and Commodore 64. At this past Demosplash 2023 demoparty a version for the Apple II was released (and won 1st place), which was quite a challenge as the Apple II graphics have essentially none of the hardware acceleration available on the other platforms.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://idle.slashdot.org/story/23/11/19/0426209/1993s-second-reality-demo-recreated-for-the-apple-ii?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T17:34:00.000Z",
-          "wordCount": 5586,
-          "title": "1993's 'Second Reality' Demo Recreated for the Apple II",
-          "imageUrl": "https://a.fsdn.com/sd/topics/idle_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/11/18/2225219/archaeologists-unearth-a-secret-lost-language-from-3000-years-ago?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"And no, it's not COBOL,\" jokes long-time Slashdot reader schwit1, sharing this report from ScienceAlert:\n\n\nA secret text has been discovered in Türkiye, scattered among tens of thousands of ancient clay tablets, which were written in the time of the Hittite Empire during the second millennium BCE. No one yet knows what the curious cuneiform script says, but it seems to be a long-lost language from more than 3,000 years ago. \n\nExperts say the mysterious idiom is unlike any other ancient written language found in the Middle East, although it seems to share roots with other Anatolian-Indo-European languages. The sneaky scrawlings start at the end of a cultic ritual text written in Hittite — the oldest known Indo-European tongue — after an introduction that essentially translates to: \"From now on, read in the language of the country of Kalasma\"...\n\nCurrently, there are no available photos of the newly discovered tablet with Kalamaic writings, as experts are still working out how to translate it. Schwemer and his colleagues hope to publish their results along with images of their discovery sometime next year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/11/18/2225219/archaeologists-unearth-a-secret-lost-language-from-3000-years-ago?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T16:34:00.000Z",
-          "wordCount": 9149,
-          "title": "Archaeologists Unearth a Secret Lost Language From 3,000 Years Ago",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://developers.slashdot.org/story/23/11/18/2128233/how-mojo-hopes-to-revamp-python-for-an-ai-world?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Python \"come with downsides,\" argues a new article in Communications of the ACM. \"Its programs tend to run slowly, and because it is inefficient at running processes in parallel, it is not well suited to some of the latest AI programming.\" \n\n\n\"Hoping to overcome those difficulties, computer scientist Chris Lattner set out to create a new language, Mojo, which offers the ease of use of Python, but the performance of more complex languages such as C++ or Rust.\" Lattner tells the site \"we don't want to break Python, we want to make Python better,\" while software architect Doug Meil says Mojo is essentially \"Python for AI... and it's going to be way faster in scale across multiple hardware platforms.\"\n\n\nLattner teamed up with Tim Davis, whom he had met when they both worked for Google, to form…",
-          "link": "https://developers.slashdot.org/story/23/11/18/2128233/how-mojo-hopes-to-revamp-python-for-an-ai-world?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-19T15:34:00.000Z",
-          "wordCount": 5705,
-          "title": "How Mojo Hopes to Revamp Python for an AI World",
-          "imageUrl": "https://a.fsdn.com/sd/topics/python_64.png"
         }
       ]
     }
