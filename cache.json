@@ -328,6 +328,16 @@
       "siteUrl": "https://world.hey.com/jorge",
       "articles": [
         {
+          "id": "https://world.hey.com/jorge/when-everyone-has-a-say-0422a836",
+          "author": null,
+          "description": "I don't think creative processes benefit from democracy — quite the opposite.\n\n\nAfter presenting the new Turbo 8 stuff in Rails World, some people opined that Rails needed to improve collaboration in the frontend space. I got a variant of this question in a couple of podcasts, which also happened when we released Active Record Encryption. The underlying idea is that you should collaborate with other authors in the same space when building new things. Someone is using morphing. Someone else is doing database encryption. Why not reach out and join efforts?\n\n\nTo me, that's a fallacious idea.\n\n\nFirst, worthy creations have a vision, a soul. You can't build that one vote at a time. That's how you end up with a camel when aiming for a horse. That's CORBA, IndexedDB, EJB, or SOAP. That's pain. In…",
+          "link": "https://world.hey.com/jorge/when-everyone-has-a-say-0422a836",
+          "publishedOn": "2023-12-23T20:13:10.000Z",
+          "wordCount": 431,
+          "title": "When everyone has a say",
+          "imageUrl": "https://world.hey.com/jorge/avatar-d08cb3ee63ecbd49736f76ee2caffa4c99a1c0fd"
+        },
+        {
           "id": "https://world.hey.com/jorge/demo-of-how-page-refreshes-with-morphing-work-62244578",
           "author": null,
           "description": "This article was originally published in the 37signals dev blog.\nWe published a demo showing how Page Refreshes with morphing work in Turbo 8.\n\nComparing code helps a lot in software discussions, so I thought it would be valuable to show how the new feature compares to Turbo stream actions for performing partial updates and broadcasts. Notice that page refreshes don’t deprecate stream actions – which remain Turbo’s most responsive mechanism, but they should reduce the need to use those. And this is a good thing because stream actions are costly.\n\nThere is a companion GitHub repository for the demo. You can check:\n\n\nThe demo app code using vanilla Rails.\nModification using stream actions to enhance and broadcast updating tasks.\nModification using page refreshes to enhance and broadcast all the interactions.\n\nLast week, we released the first beta of Turbo 8 featuring this new system. We want to make this robust, so please give it a try and report issues away.\n\nYou can learn more about the new feature in the announcement post. We will document the new system in the official docs soon.",
@@ -630,16 +640,6 @@
           "wordCount": 272,
           "title": "husband, father, obligation",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/town-hall-0016",
-          "author": null,
-          "description": "Rock the bloat!",
-          "link": "https://taylor.town/town-hall-0016",
-          "publishedOn": "2023-11-24T00:00:00.000Z",
-          "wordCount": 291,
-          "title": "Town Hall #16: Bloat",
-          "imageUrl": null
         }
       ]
     },
@@ -648,6 +648,146 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/23/12/23/1822247/as-reddit-ceo-defends-their-controversial-api-decision-it-dominates-reddits-own-recaps?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Reddit CEO Steve Huffman says that he stands by the company's decision to charge for API access,\" writes the blog 9to5Mac, \"despite the fact that it was massively unpopular, and led to the demise of the leading Reddit app, Apollo.\"\n\n In an interview with FastCo, Huffman is unrepentant about the API decision, but says it could have been better communicated... \"[H]e defended the company's decision to limit free access to its API as a necessary measure to foil AI-training freeloaders. 'Reddit is an open platform, and we love that,' he told me. 'At the same time, we have been taken advantage of by some of the largest companies in the world.'\" \n\nThe incident ended up reappearing in Reddit's own \"recap\" pages showing highlights from its popular subreddits. For its Technology subreddit, the offi…",
+          "link": "https://tech.slashdot.org/story/23/12/23/1822247/as-reddit-ceo-defends-their-controversial-api-decision-it-dominates-reddits-own-recaps?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T23:34:00.000Z",
+          "wordCount": 5020,
+          "title": "As Reddit CEO Defends Their Controversial API Decision, It Dominates Reddit's Own 'Recaps'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/23/12/23/1954219/the-race-to-shield-secrets-from-quantum-computers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An anonymous reader shared this report from Reuters:\n\nIn February, a Canadian cybersecurity firm delivered an ominous forecast to the U.S. Department of Defense. America's secrets — actually, everybody's secrets — are now at risk of exposure, warned the team from Quantum Defen5e (QD5). QD5's executive vice president, Tilo Kunz, told officials from the Defense Information Systems Agency that possibly as soon as 2025, the world would arrive at what has been dubbed \"Q-day,\" the day when quantum computers make current encryption methods useless. Machines vastly more powerful than today's fastest supercomputers would be capable of cracking the codes that protect virtually all modern communication, he told the agency, which is tasked with safeguarding the U.S. military's communications. \nIn the …",
+          "link": "https://it.slashdot.org/story/23/12/23/1954219/the-race-to-shield-secrets-from-quantum-computers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T22:34:00.000Z",
+          "wordCount": 4589,
+          "title": "The Race to Shield Secrets from Quantum Computers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/23/12/23/2059248/star-wars-holiday-special-upscaled-to-4k-60fps?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Millions of Star Wars fans get nostalgia pangs during the holiday season,\" reports the Washington Post, \"when they are accustomed to seeing broadcasts of their beloved movies.... FX, now owned by Disney, has multiple Star Wars marathons on tap this month, including a marathon on December 23 and 24.\" The program-planning director at Disney's Freedom channel even calls Star Wars a \"Christmas-adjacent\" franchise. \n\nAnd now, long-time Slashdot reader H_Fisher writes...\n\nCall it a Life Day miracle, even if nobody was asking for it. YouTube historian and retro-tech enthusiast Perifractic uploaded a restored, mostly-complete 4K upscale of the \"infamous\" Star Wars Holiday Special to his channel on Wednesday. From the video summary: \"Using Topaz Labs [Video AI] with a few other techniques we've meticulously upscaled & restored the infamous Star Wars Holiday Special to 5120x3840, with stereo elements, to the best quality the technology currently allows.\" Jokingly labeling the resulting file \"5K\" (8K video height, but tagged \"4K\" by YouTube due to its original 4:3 aspect ratio), the upscaled version unfortunately (or fortunately, depending on your point of view) replaces some songs and omits some segments that were flagged by YouTube's copyright watchdog.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/23/12/23/2059248/star-wars-holiday-special-upscaled-to-4k-60fps?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T21:34:00.000Z",
+          "wordCount": 5444,
+          "title": "'Star Wars Holiday Special' Upscaled To 4K 60fps",
+          "imageUrl": "https://a.fsdn.com/sd/topics/xmas_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/23/1856220/why-the-dinosaurs-died?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"The age of the dinosaurs ended 66 million years ago when a city-size asteroid struck a shallow sea off the coast of what is now Mexico,\" writes CNN. \n\n\"But exactly how the mass extinction of 75% of the species on Earth unfolded in the years that followed the cataclysmic impact has remained unclear.\"\n\nPrevious research suggested that sulfur released during the impact, which left the 112-mile-wide (180-kilometer-wide) Chicxulub crater, and soot from wildfires triggered a global winter, and temperatures plunged. However, a new study published Monday in the journal Nature Geoscience suggests that fine dust made from pulverized rock thrown up into Earth's atmosphere in the wake of the impact likely played a greater role. This dust blocked the sun to an extent that plants were unable to photosynthesize, a biological process critical for life, for almost two years afterward.\n\n\n \"Photosynthesis shutting down for almost two years after impact caused severe challenges (for life),\" said lead study author and planetary scientist Cem Berk Senel, a postdoctoral researcher at the Royal Observatory of Belgium. \"It collapsed the food web, creating a chain reaction of extinctions.\" \n\nTo reach their findings, scientists developed a new computer model to simulate the global climate after the asteroid strike. The model was based on published information on Earth's climate at that point in time, as well as new data from sediment samples taken from the Tanis fossil site in North Dakota that captured a 20-year period during the aftermath of the strike.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/12/23/1856220/why-the-dinosaurs-died?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T20:34:00.000Z",
+          "wordCount": 4618,
+          "title": "Why the Dinosaurs Died",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/23/12/23/0658235/official-probe-finds-hans-niemann-didnt-cheat-against-magnus-carlsen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "15 months ago U.S. grandmaster Hans Niemannn was accused of cheating in a tournament after beating Magnus Carlsen (five-time world chess champion). \n\nLast week a report was finally issued by the world governing body of chess, CNN reports:\nFIDE's report said that analysis from professor Kenneth Regan — a computer chess cheating expert — showed \"instances of cheating\" by Niemann in around 32-55 games on the online chess platform; far less than the 100 suggested by Chess.com. According to the FIDE report, Regan also found \"discrepancies\" in Niemann's statement that he had only cheated between the ages of 12 and 16. However, the games of 2017 and the games against Bok in August of 2020 occurred after he turned 17 in June. Another important discrepancy is that the cheating took place in rated o…",
+          "link": "https://games.slashdot.org/story/23/12/23/0658235/official-probe-finds-hans-niemann-didnt-cheat-against-magnus-carlsen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T19:34:00.000Z",
+          "wordCount": 5967,
+          "title": "Official Probe Finds Hans Niemann Didn't Cheat Against Magnus Carlsen",
+          "imageUrl": "https://a.fsdn.com/sd/topics/classicgames_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/23/0332215/bill-gates-predicts-supercharged-ai-innovation-on-climate-healthcare-issues?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"I'm optimistic about the world's climate progress,\" Bill Gates wrote this week — but he also explained why. \n\"In 2024 and beyond, I predict we will see lots of new innovations coming into the marketplace — even in very complicated areas like nuclear. The climate crisis can feel overwhelming, but I find it easier to stay optimistic when you focus on all the progress we're making. If the world continues to prioritize funding innovation, I'm hopeful we can make good progress on our climate goals.\" \n\nAnd elsewhere Gates writes that \"AI is about to supercharge the innovation pipeline.\"\n\nMy work has always been rooted in a core idea: Innovation is the key to progress. It's why I started Microsoft, and it's why Melinda and I started the Gates Foundation more than two decades ago. Innovation is t…",
+          "link": "https://news.slashdot.org/story/23/12/23/0332215/bill-gates-predicts-supercharged-ai-innovation-on-climate-healthcare-issues?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T18:34:00.000Z",
+          "wordCount": 6552,
+          "title": "Bill Gates Predicts 'Supercharged' AI Innovation on Climate, Healthcare Issues",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/23/068259/livestock-surprise-scientists-with-their-complex-emotional-minds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Slashdot reader sciencehabit writes: If you've ever seen a cow staring vacantly across a field, or a pig rolling around in its own filth, you might not think there's a lot going on in their head. You wouldn't be alone. People haven't given much credence to the intelligence of farm animals, and neither have scientists. But that's starting to change.\n\n A growing field of research is showing that—when it comes to the minds of goats, cows, and other livestock—we may have been missing something big. Studies published over the past few years have shown that pigs show signs of empathy, goats rival dogs in some tests of social intelligence, and cows can be potty trained.\n\n Much of this work is being carried out at the Research Institute for Farm Animal Biology (FBN) in Dummerstorf, Germany, one of the world's leading centers for investigating the minds of creatures that often end up on our dinner plate. From cows making friends to goats exhibiting signs of altruism, farm animals are upending popular—and scientific—conceptions of what's going on in their minds.\n\n The work may not just rewrite our thinking about livestock, it might also change how we treat them. As Jan Langbein, an applied ethologist at FBN told says, 'If we don't understand how these animals think, then we won't understand what they need. And if we don't understand what they need, we can't design better environments for them.'\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/12/23/068259/livestock-surprise-scientists-with-their-complex-emotional-minds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T17:34:00.000Z",
+          "wordCount": 8063,
+          "title": "Livestock Surprise Scientists with Their Complex, Emotional Minds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/23/0450244/world-modelling-and-the-personal-political-art-of-board-game-design?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "The New Yorker looks at 41-year-old Amabel Holland, an autistic board-game designer who \"thinks about the world in terms of systems,\" and realized you could make a board game about almost anything, \"and, when you did, its rules could both mirror and analyze the subject on which it was based.\" \n\nThey've since designed more than 60 games, and the article notes that Holland's work, \"which is part of a larger turn toward complexity in the industry, often tackles historical and social subjects — death, religion, misinformation — using surprising 'mechanics,' or building blocks of game play, to immerse players in an experience.\"\n\"With every game, you build a certain model of the world,\" Reiner Knizia, a former mathematician who's designed more than eight hundred games, told me. Several of his games illustrate market forces: in Modern Art, for instance, you play as auctioneers and buyers, hoping to buy low and sell high. Knizia is a traditional game designer inasmuch as he aims to \"bring enjoyment to the people.\" But Amabel sometimes aims for the opposite of enjoyment... This Guilty Land, from 2018, is about the struggle to end slavery.\" \n\nHolland says their games are \"meant to evoke frustration\" — specifically to communicate how difficult it can be to actually achieve political progress. \n\nThanks to Slashdot reader silverjacket for sharing the article.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/12/23/0450244/world-modelling-and-the-personal-political-art-of-board-game-design?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T16:34:00.000Z",
+          "wordCount": 4424,
+          "title": "World Modelling and 'The Personal, Political Art of Board-Game Design'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/math_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/23/12/23/0544206/are-phones-making-the-worlds-students-dumber?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Long-time Slashdot reader schwit1 shared this article from the Atlantic:\nFor the past few years, parents, researchers, and the news media have paid closer attention to the relationship between teenagers' phone use and their mental health. Researchers such as Jonathan Haidt and Jean Twenge have shown that various measures of student well-being began a sharp decline around 2012 throughout the West, just as smartphones and social media emerged as the attentional centerpiece of teenage life. Some have even suggested that smartphone use is so corrosive, it's systematically reducing student achievement. I hadn't quite believed that last argument — until now. \n\nThe Program for International Student Assessment, conducted by the Organization for Economic Co-operation and Development in almost 80 co…",
+          "link": "https://news.slashdot.org/story/23/12/23/0544206/are-phones-making-the-worlds-students-dumber?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T15:34:00.000Z",
+          "wordCount": 11252,
+          "title": "Are Phones Making the World's Students Dumber?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/23/12/23/0142225/ai-companies-would-be-required-to-disclose-copyrighted-training-data-under-new-bill?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from The Verge: Two lawmakers filed a bill requiring creators of foundation models to disclose sources of training data so copyright holders know their information was taken. The AI Foundation Model Transparency Act -- filed by Reps. Anna Eshoo (D-CA) and Don Beyer (D-VA) -- would direct the Federal Trade Commission (FTC) to work with the National Institute of Standards and Technology (NIST) to establish rules for reporting training data transparency. Companies that make foundation models will be required to report sources of training data and how the data is retained during the inference process, describe the limitations or risks of the model, how the model aligns with NIST's planned AI Risk Management Framework and any other federal standards might be …",
+          "link": "https://yro.slashdot.org/story/23/12/23/0142225/ai-companies-would-be-required-to-disclose-copyrighted-training-data-under-new-bill?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T13:00:00.000Z",
+          "wordCount": 6348,
+          "title": "AI Companies Would Be Required To Disclose Copyrighted Training Data Under New Bill",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/23/0134207/vibrating-pill-may-give-dieters-a-feeling-of-fullness-study-suggests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Scientists have developed a vibrating pill that, when swallowed before eating, can create a feeling of fullness. The Guardian reports: The research, which has yet to be carried out in humans, shows that after 30 minutes of activity by the Vibes pill, pigs ate on average almost 40% less food in the following half hour than they did without the device, and gained weight more slowly. The Vibes name is an acronym derived from the pill's full title -- Vibrating Ingestible BioElectronic Stimulator. The work in pigs suggests the vibrations activate stretch receptors in the stomach, simulating the presence of food. This results in signals being sent to the hypothalamus in the brain via the vagus nerve, increasing levels of various hormones that give rise to a feeling of fullness and decreasing those that result in feelings of hunger.\n \n\"We envision the Vibes pill being ingested on a relatively empty stomach 20 to 30 min before anticipated meals to trigger the desired sensation of satiety early in the meal,â the team write, adding that when produced at scale, the cost of the pills is expected to be in the cents to one dollar range. The vibrations, which are powered by a battery encased in the swallowed capsule, can be triggered when stomach acid dissolves a membrane around the pill, or by a timer. The researchers say the pills, which are about the size of a large vitamin tablet, offer a non-invasive, temporary therapy, without the need for weight-loss surgery, and exit the body with other solid waste -- meaning in humans they are flushed down the toilet. However they suggest it could be possible to develop pills that are implanted, or stay in the stomach, to reduce the need for people to repeatedly take them, should they require continuing therapy. Further reading: Man Reports PillCam Stuck In His Gut For Over 12 Weeks\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/12/23/0134207/vibrating-pill-may-give-dieters-a-feeling-of-fullness-study-suggests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T10:00:00.000Z",
+          "wordCount": 7517,
+          "title": "Vibrating Pill May Give Dieters a Feeling of Fullness, Study Suggests",
+          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/23/12/23/0126244/new-ai-transistor-works-just-like-the-human-brain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Longtime Slashdot reader FudRucker quotes a report from Study Finds: Researchers from Northwestern University, Boston College, and the Massachusetts Institute of Technology (MIT) have developed a new synaptic transistor that works just like the human brain. This advanced device, capable of both processing and storing information simultaneously, marks a notable shift from traditional machine-learning tasks to performing associative learning -- similar to higher-level human cognition. This study introduces a device that operates effectively at room temperatures, a notable improvement over previous brain-like computing devices that required extremely cold conditions to keep their circuits from overheating. With its fast operation, low energy consumption, and ability to retain information with…",
+          "link": "https://hardware.slashdot.org/story/23/12/23/0126244/new-ai-transistor-works-just-like-the-human-brain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T07:00:00.000Z",
+          "wordCount": 6563,
+          "title": "New AI Transistor Works Just Like the Human Brain",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/23/12/22/2330253/psychologists-pinpoint-average-age-children-become-santa-sceptics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from The Guardian: From empty glasses of sherry on the mantelpiece to sooty footprints leading to the bedroom door, evidence of Santa's existence is clearly irrefutable. Yet most children will begin to question it at some point -- and many parents anticipate this moment with dread. Now psychologists have identified the average age when Santa skepticism creeps in, and which children are at greatest risk of harboring negative feelings when it does.\n \nWhile most adults have fallen for the myth that Santa doesn't exist, many children still believe -- even if the idea of a single individual visiting the homes of billions of children in a single night is at odds with their wider reasoning skills. Dr Candice Mills, a psychologist at the University of Texas in Dallas, US, and a Santa sceptic, said: \"Children typically begin to distinguish fantasy from reality during the preschool years, but their belief in the existence of a singular magical Santa Claus often continues into middle childhood.\" [...] To better understand this shift from belief to disbelief and children's experiences of it, Mills and her colleagues interviewed 48 six- to 15-year-olds who had stopped believing in Santa and 44 of their parents, plus a further 383 adults.\n \nThe research, which has not yet been peer reviewed, found that for most children, disbelief crept in gradually about the age of eight -- although some three- or four-year-olds had convinced themselves that Santa wasn't real, while other children believed in him until they were 15 or 16. In many cases, it was testimony from other disbelievers that finally crushed their faith. Mills said: \"They may have had some skepticism based on logical reasoning -- like how can Santa Claus really get around the world in one night? -- but what pushes them over the edge is a classmate at school saying he's not real.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/23/12/22/2330253/psychologists-pinpoint-average-age-children-become-santa-sceptics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T03:30:00.000Z",
+          "wordCount": 14299,
+          "title": "Psychologists Pinpoint Average Age Children Become Santa Sceptics",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/23/12/22/2323204/apple-explores-ai-deals-with-news-publishers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Apple is in negotiations with major news and publishing organizations (source paywalled; alternative source), \"seeking permission to use their material in the company's development of generative artificial intelligence systems,\" reports the New York Times. From the report: The technology giant has floated multiyear deals worth at least $50 million to license the archives of news articles [...]. The news organizations contacted by Apple include Conde Nast, publisher of Vogue and The New Yorker; NBC News; and IAC, which owns People, The Daily Beast and Better Homes and Gardens. The negotiations mark one of the earliest examples of how Apple is trying to catch up to rivals in the race to develop generative A.I., which allows computers to create images and chat like a human. [...]\n \nSome of th…",
+          "link": "https://apple.slashdot.org/story/23/12/22/2323204/apple-explores-ai-deals-with-news-publishers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2023-12-23T01:25:00.000Z",
+          "wordCount": 4312,
+          "title": "Apple Explores AI Deals With News Publishers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
         {
           "id": "https://news.slashdot.org/story/23/12/22/2314227/openai-in-talks-to-raise-new-funding-at-100-billion-valuation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4797,156 +4937,6 @@
           "wordCount": 6301,
           "title": "Nvidia CEO Huang Urges Faster AI Development",
           "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/11/24/1216208/toxic-air-killed-more-than-500000-people-in-eu-in-2021-data-shows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Dirty air killed more than half a million people in the EU in 2021, estimates show, and about half of the deaths could have been avoided by cutting pollution to the limits recommended by doctors. From a report: The researchers from the European Environment Agency attributed 253,000 early deaths to concentrations of fine particulates known as PM2.5 that breached the World Health Organization's maximum guideline limits of 5ug/m3. A further 52,000 deaths came from excessive levels of nitrogen dioxide and 22,000 deaths from short-term exposure to excessive levels of ozone. \n\n\"The figures released today by the EEA remind us that air pollution is still the number one environmental health problem in the EU,\" said Virginijus Sinkevicius, the EU's environment commissioner. Doctors say air pollution is one of the biggest killers in the world but death tolls will drop quickly if countries clean up their economies. Between 2005 and 2021, the number of deaths from PM2.5 in the EU fell 41%, and the EU aims to reach 55% by the end of the decade. The WHO, which tightened its air quality guidelines in 2021, warns that no level of air pollution can be considered safe but has set upper limits for certain pollutants. The European parliament voted in September to align the EU's air quality rules with the WHO's but decided to delay doing so until 2035.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/11/24/1216208/toxic-air-killed-more-than-500000-people-in-eu-in-2021-data-shows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-24T12:15:00.000Z",
-          "wordCount": 11678,
-          "title": "Toxic Air Killed More Than 500,000 People in EU in 2021, Data Shows",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/11/24/098252/deaths-from-coal-pollution-have-dropped-but-emissions-may-be-twice-as-deadly?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Coal, the dirtiest of fossil fuels, is far more harmful to human health than previously thought, according to a new report, which found that coal emissions are associated with double the mortality risk compared with fine airborne particles from other sources. From a report: The research, published Thursday in the journal Science, linked coal pollution to 460,000 deaths among Medicare recipients aged 65 and older between 1999 and 2020. Yet the study also found that during that period the shuttering of coal plants in the United State, coupled with the installation of scrubbers in the smokestacks to \"clean\" coal exhaust, has had salubrious effects. Deaths attributable to coal plant emissions among Medicare recipients dropped from about 50,000 a year in 1999 to 1,600 in 2020, a decrease of more than 95 percent, the researchers found. \n\n\"Things were bad, it was terrible,\" Lucas Henneman, the study's lead author, and an assistant professor in environmental engineering at George Mason University, said in an interview. \"We made progress, and that's really good.\" Researchers from six universities collected emissions data from 480 coal power plants between 1999 and 2020. They used atmospheric modeling to track how sulfur dioxide converted into particulate matter and where it was carried by wind, and then examined millions of Medicare patient deaths by ZIP code. \n\nThough the researchers could not identify exact causes of death, the statistical model showed that areas with more airborne coal particulates had higher death rates. Some 138 coal plants each contributed to at least 1,000 excess deaths, and 10 plants were linked to more than 5,000 deaths apiece, the researchers found. While fine particulate matter, known as P.M. 2.5, is frequently examined for its health risks, the researchers found that inhaling those fine particles from coal exhaust was especially deadly.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/11/24/098252/deaths-from-coal-pollution-have-dropped-but-emissions-may-be-twice-as-deadly?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-24T09:10:00.000Z",
-          "wordCount": 9938,
-          "title": "Deaths From Coal Pollution Have Dropped, But Emissions May be Twice as Deadly",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/24/0637216/nvidia-delays-launch-of-new-china-focused-ai-chip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Nvidia has told customers in China it is delaying the launch of a new AI chip it designed to comply with U.S. export rules until the first quarter of next year, Reuters reported Friday, citing sources familiar with the matter. From the report: The delayed chip is the H20, the most powerful of three China-focused chips Nvidia has developed to comply with fresh U.S. export restrictions, the sources said, and could complicate its efforts to preserve market share in China against local rivals like Huawei. The California-based AI chip giant had been expected to launch the new products as early as Nov. 16, chip industry newsletter SemiAnalysis reported this month. \n\nHowever, the H20 launch has now been pushed back until the first quarter of next year, the sources said, with one saying they were advised it could take place in February or March. The sources said they were told that the H20 was being delayed due to issues server manufacturers were having in integrating the chip.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/11/24/0637216/nvidia-delays-launch-of-new-china-focused-ai-chip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-24T06:37:00.000Z",
-          "wordCount": 4671,
-          "title": "Nvidia Delays Launch of New China-focused AI Chip",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/11/24/0223213/some-pixel-8-pro-displays-have-bumps-under-the-glass?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Some Pixel 8 Pro owners have noticed circular bumps in several places on the screen that look to be the result of something pressing up against the underside, which is soft and fragile, of the 6.7-inch OLED panel. From a report: A statement from the company today acknowledges how \"some users may see impressions from components in the device that look like small bumps\" in specific conditions. Google says there is \"no functional impact to Pixel 8 performance or durability,\" which does line up with all current reports.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/11/24/0223213/some-pixel-8-pro-displays-have-bumps-under-the-glass?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-24T03:00:00.000Z",
-          "wordCount": 5533,
-          "title": "Some Pixel 8 Pro Displays Have Bumps Under the Glass",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/11/23/2012218/personal-data-stolen-in-british-library-cyber-attack-appears-for-sale-online?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The British Library has confirmed that personal data stolen in a cyber-attack has appeared online, apparently for sale to the highest bidder. From a report: The attack was carried out in October by a group known for such criminal activity, said the UK's national library, which holds about 14m books and millions of other items. This week, Rhysida, a known ransomware group, claimed it was responsible for the attack. It posted low-resolution images of personal information online, offering stolen data for sale with a starting bid of 20 bitcoins (about $750,000). Rhysida said the data was \"exclusive, unique and impressive\" and that it would be sold to a single buyer. It set a deadline for bids of 27 November. \n\nThe images appear to show employment contracts and passport information. The library said it was \"aware that some data has been leaked, which appears to be from files relating to our internal HR information.\" It did not confirm that Rhysida was responsible for the attack, nor that the data offered for sale was information on personnel. Academics and researchers who use the library have been told that disruption to the institution's services after the serious ransomware attack was likely to continue for months. This week, the library advised its users to change any logins also used on other sites as a precaution.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/11/23/2012218/personal-data-stolen-in-british-library-cyber-attack-appears-for-sale-online?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-24T01:00:00.000Z",
-          "wordCount": 3928,
-          "title": "Personal Data Stolen in British Library Cyber-Attack Appears for Sale Online",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/11/23/205259/office-landlords-cant-get-a-loan-anymore?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The office sector's credit crunch is intensifying. By one measure, it's now worse than during the 2008-09 global financial crisis. From a report: Only one out of every three securitized office mortgages that expired during the first nine months of 2023 was paid off by the end of September, according to Moody's Analytics. That is the smallest share for the first nine months of any year since at least 2008 and well below the nadir reached in 2009, when 47% of these loans got paid off. That share is also well below the rate before the pandemic, when more than eight out of every 10 maturing securitized office mortgages were paid back in some years. \n\nWhile the numbers cover only office mortgages packaged into bonds -- so-called commercial mortgage-backed securities -- they reflect a broader freeze in the lending market for office buildings. Many office owners can't pay back their old loans because they can't get new mortgages. Remote work and rising vacancies have hit building profits, making it harder to pay interest. Higher interest rates have pushed debt costs up and building values down. That combination is fueling a rise in defaults. The share of office CMBS loans that are delinquent has tripled over the past year to 5.75%, according to Trepp. It doesn't help that many banks no longer issue new office loans and that many insurance companies and debt funds have become more cautious.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/11/23/205259/office-landlords-cant-get-a-loan-anymore?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T22:30:00.000Z",
-          "wordCount": 6108,
-          "title": "Office Landlords Can't Get a Loan Anymore",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/23/194259/india-seeks-to-regulate-deepfakes?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "India is drafting rules to detect and limit the spread of deepfake content and other harmful AI media, a senior lawmaker said Thursday, following reports of proliferation of such content on social media platforms in recent weeks. From a report: Ashwini Vaishnaw, India's IT Minister, said the ministry held meetings with all large social media companies, industry body Nasscom and academics earlier in the day and has reached a consensus that a regulation is needed to better combat spread of deepfake videos as well as apps that facilitate their creations. \"The companies share our concerns and they understood that it's [deepfakes] are not free speech. They understood that it's something that's very harmful to the society,\" he said. \"They understood the need for much heavier regulation on this, so we agree that we will start drafting the regulation today itself.\" The ministry will be ready with \"clear actionable items\" on how to combat deepfakes in 10 days.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/11/23/194259/india-seeks-to-regulate-deepfakes?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T21:00:00.000Z",
-          "wordCount": 4111,
-          "title": "India Seeks To Regulate Deepfakes",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/11/23/1940221/the-most-powerful-cosmic-ray-since-the-oh-my-god-particle-puzzles-scientists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Scientists have detected the most powerful cosmic ray seen in more than three decades. But the exact origin of this turbocharged particle from outer space remains a mystery, with some suggesting that it could have been generated by unknown physics. From a report: The puzzling cosmic ray had an estimated energy of 240 exa-electron volts (EeV; 10^18 volts), making it comparable to the most powerful cosmic ray ever detected, aptly named the Oh-My-God particle, which measured at around 320 EeV when it was discovered in 1991. The findings were published today in Science. \n\n\"It's amazing because you have to think of what could produce such high energy,\" says Clancy James, an astronomer at Curtin University in Perth, Australia. A cosmic ray, despite its name, is actually a high-energy subatomic particle -- often a proton -- that zips through space at close to the speed of light. In their ultra-high energy form, cosmic rays have energy levels that exceed one EeV, which is around one million times greater than those reached by the most powerful human-made particle accelerators. Cosmic rays with energies of more than 100 EeV are rarely spotted -- fewer than one of these particles arrive on each square kilometre of Earth each century.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/11/23/1940221/the-most-powerful-cosmic-ray-since-the-oh-my-god-particle-puzzles-scientists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T20:00:00.000Z",
-          "wordCount": 4585,
-          "title": "The Most Powerful Cosmic Ray Since the Oh-My-God Particle Puzzles Scientists",
-          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/23/1836220/some-firms-are-demanding-steep-repayments-if-staff-depart?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "At 26, nurse Benzor Vidal moved from the Philippines to America for work, but quit his unsafe, understaffed nursing home job after 14 weeks. His employment contract stipulated he could owe $20,000+ in damages if he resigned early. The New York Times Magazine digs deeper: This type of contract provision is known as a \"stay or pay\" clause, and it used to be common only for certain high-paying roles or in certain specialized industries. For airline pilots and software engineers, for example, it has been a longstanding practice at some companies to require employees to stay at their jobs for a defined period of time in order to recoup costs related to hiring and training. But the line between recouping costs and penalizing workers for leaving can be blurry, and companies have increasingly taken advantage of that ambiguity. Workers' rights advocates say that, in many cases, stay-or-pay clauses no longer accurately reflect the company's costs but instead appear to be inflated financial penalties designed to discourage quitting. \n\nThe use of stay-or-pay clauses has grown rapidly over the past decade, and it has seemingly exploded since the start of the pandemic, as companies try to retain workers in a tight labor market. The clauses have spread far beyond the handful of roles and industries where they originated and are now used by thousands of mid- and low-wage employers -- something that came to light when workers began filing lawsuits challenging the practice. These contract terms have been applied to bank workers, salespeople, dog groomers, police officers, aestheticians, firefighters, mechanics, nurses, federal employees, electricians, roofers, social workers, paramedics, truckers, mortgage brokers, teachers and metal polishers. Legal experts believe stay-or-pay clauses might now be in industries that employ a third of all American workers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/11/23/1836220/some-firms-are-demanding-steep-repayments-if-staff-depart?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T19:00:00.000Z",
-          "wordCount": 11655,
-          "title": "Some Firms Are Demanding Steep Repayments If Staff Depart",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/11/23/1751249/dbrand-is-suing-casetify-for-ripping-off-its-teardown-designs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "New submitter Kiddo 9000 writes: Dbrand, a company known best for making cases for phones, game consoles, and laptops, has filed a lawsuit against case manufacturer CASETiFY over their \"Inside Out\" case lineup. Dbrand alleges that CASETiFY copied the designs from their Teardown skins and put them on their own products without permission. In a video published by JerryRigEverything, several easter eggs placed in the Teardown skins were found in the CASETiFY designs, alongside numerous tweaks and layout changes, and even Dbrand's logo.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/11/23/1751249/dbrand-is-suing-casetify-for-ripping-off-its-teardown-designs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T18:00:00.000Z",
-          "wordCount": 4506,
-          "title": "Dbrand is Suing Casetify For Ripping Off Its Teardown Designs",
-          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/23/167214/chatgpt-generates-fake-data-set-to-support-scientific-hypothesis?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Researchers have used the technology behind the AI chatbot ChatGPT to create a fake clinical-trial data set to support an unverified scientific claim. From a report: In a paper published in JAMA Ophthalmology on 9 November, the authors used GPT-4 -- the latest version of the large language model on which ChatGPT runs -- paired with Advanced Data Analysis (ADA), a model that incorporates the programming language Python and can perform statistical analysis and create data visualizations. The AI-generated data compared the outcomes of two surgical procedures and indicated -- wrongly -- that one treatment is better than the other. \n\n\"Our aim was to highlight that, in a few minutes, you can create a data set that is not supported by real original data, and it is also opposite or in the other direction compared to the evidence that are available,\" says study co-author Giuseppe Giannaccare, an eye surgeon at the University of Cagliari in Italy. The ability of AI to fabricate convincing data adds to concern among researchers and journal editors about research integrity. \"It was one thing that generative AI could be used to generate texts that would not be detectable using plagiarism software, but the capacity to create fake but realistic data sets is a next level of worry,\" says Elisabeth Bik, a microbiologist and independent research-integrity consultant in San Francisco, California. \"It will make it very easy for any researcher or group of researchers to create fake measurements on non-existent patients, fake answers to questionnaires or to generate a large data set on animal experiments.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/11/23/167214/chatgpt-generates-fake-data-set-to-support-scientific-hypothesis?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T17:00:00.000Z",
-          "wordCount": 5654,
-          "title": "ChatGPT Generates Fake Data Set To Support Scientific Hypothesis",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/11/23/1549257/nyc-will-soon-be-home-to-15-robot-run-vegetarian-restaurants-from-chipotles-founder?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The founder of Chipotle is opening a new endeavor called Kernel, a vegetarian fast-casual restaurant that will be operated mostly by robots. Steve Ells is opening at least 15 locations of Kernel, the first by early 2024; the remainder are on track for NYC in the next two years, a spokesperson confirms. From a report: Kernel will serve vegetarian sandwiches, salads, and sides, made in a space that's around 1,000 square-feet or smaller. Each location would employ three workers, the Wall Street Journal reported, \"rather than the dozen that many fast-casual eateries have working.\" The menu pricing will be on par with Chipotle's, and, Ells says, the company will pay more and offer better benefits for actual humans working than other chains. \n\nAs you'd expect from the former CEO of Chipotle -- which had at least five foodborne illness outbreaks between 2015 and 2018, costing the company $25 million per the Justice Department -- \"the new system's design helps better ensure food safety,\" Ells told the Journal. It has taken $10 million in his personal funds to start Kernel, along with $36 million from investors. The company suggests customers may not want much interaction with other people -- and neither do CEOs. \"We've taken a lot of human interaction out of the process and left just enough,\" he told the Journal. Yet in a 2022 study on the future of dining out conducted by commerce site, PYMNTS, of 2,500 people surveyed, 63 percent of diners believe restaurants are becoming increasingly understaffed, and 39 percent said that they are becoming less personal.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/11/23/1549257/nyc-will-soon-be-home-to-15-robot-run-vegetarian-restaurants-from-chipotles-founder?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T16:01:00.000Z",
-          "wordCount": 7748,
-          "title": "NYC Will Soon Be Home To 15 Robot-Run Vegetarian Restaurants From Chipotle's Founder",
-          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/11/23/1511203/anthony-levandowski-reboots-church-of-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Anthony Levandowski, a tech entrepreneur and self-driving car pioneer, said he's rebooting his AI church in a renewed attempt at creating a religious movement focused on the worship and understanding of artificial intelligence. From a report: Levandowski's so-called Way of the Future was founded in 2015 but shut its doors a few years later. The congregation at the new church, which shares the original's name, has \"a couple thousand people\" coming together to build a spiritual connection between humans and AI, its founder said. \n\nLevandowski made the remarks during an interview for the latest episode of the Bloomberg Originals series AI IRL, available to stream now. \"How does a person in rural America relate to this? What does this mean for their job?\" he said. \"Way of the Future is a mechanism for them to understand and participate and shape the public discourse as to how we think technology should be built to improve you.\" \n\nThe existence of the original church became public in 2017, years before the viral success of ChatGPT brought AI into mainstream consciousness. Levandowski's idea raised eyebrows, both because of the church's focus on \"the realization, acceptance, and worship of a Godhead based on Artificial Intelligence developed through computer hardware and software,\" and because of Levandowski himself. At the time, he was at the center of a high-profile legal battle related to the theft of trade secrets, sentenced to 18 months in prison, then pardoned by former President Donald Trump.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/11/23/1511203/anthony-levandowski-reboots-church-of-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T15:10:00.000Z",
-          "wordCount": 5683,
-          "title": "Anthony Levandowski Reboots Church of AI",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/23/1339259/reflecting-on-18-years-at-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Ian Hickson, a software engineer at Google who left the company after 18 years, reflects on his time at the firm in a blog post and why he thinks the firm lost its way. He joined in 2005 when its culture genuinely prioritized doing good, but over time he saw that culture erode into one focused on profits over users, he writes. The recent layoffs have damaged trust and morale across the company, he writes. An excerpt from the post: Much of these problems with Google today stem from a lack of visionary leadership from Sundar Pichai, and his clear lack of interest in maintaining the cultural norms of early Google. A symptom of this is the spreading contingent of inept middle management. Take Jeanine Banks, for example, who manages the department that somewhat arbitrarily contains (among other…",
-          "link": "https://tech.slashdot.org/story/23/11/23/1339259/reflecting-on-18-years-at-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T14:00:00.000Z",
-          "wordCount": 10764,
-          "title": "'Reflecting on 18 Years at Google'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/11/22/2333234/cloudflare-blocks-abusive-content-on-its-ethereum-gateway?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TorrentFreak: Cloudflare is a content-neutral Internet infrastructure service. The company aims not to interfere with the traffic of its clients and users but, in some cases, it has to take action. This means responding to DMCA subpoenas and takedown requests for hosted content, for example. In addition, Cloudflare now reports it has blocked access to 'abusive' content on its Ethereum gateway. [...] In its most recent transparency report, Cloudflare further notes that it has implemented access restrictions on its public Ethereum gateway. The company doesn't store any content on the Ethereum network, nor can it remove any. However, it can block access through its service.\n \nIf Cloudflare receives valid abuse reports or copyright infringement complain…",
-          "link": "https://tech.slashdot.org/story/23/11/22/2333234/cloudflare-blocks-abusive-content-on-its-ethereum-gateway?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-11-23T13:00:00.000Z",
-          "wordCount": 5545,
-          "title": "Cloudflare Blocks Abusive Content On Its Ethereum Gateway",
-          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
         }
       ]
     }
