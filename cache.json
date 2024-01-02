@@ -18,10 +18,21 @@
       ]
     },
     {
-      "title": "Applied Go",
+      "title": "Blog on Applied Go",
       "feedUrl": "https://appliedgo.net/index.xml",
       "siteUrl": "https://appliedgo.net/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://appliedgo.net/sqlasapi/",
+          "author": null,
+          "description": "So your API needs to allow queries that are too complicated for plain CRUD APIs but not complicated enough to justify using GraphQL? Consider accepting a subset of SQL where clauses, with the necessary security checks implemented in Go.",
+          "link": "https://appliedgo.net/sqlasapi/",
+          "publishedOn": "2024-01-01T00:00:00.000Z",
+          "wordCount": 1801,
+          "title": "SQL as API in Go",
+          "imageUrl": ""
+        }
+      ]
     },
     {
       "title": "Dave Cheney",
@@ -465,6 +476,16 @@
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
         {
+          "id": "https://taylor.town/harpsichord",
+          "author": null,
+          "description": "Thanks to all of you who helped me recover my music.",
+          "link": "https://taylor.town/harpsichord",
+          "publishedOn": "2024-01-01T00:00:00.000Z",
+          "wordCount": 1057,
+          "title": "why I didn't play this harpsichord sooner",
+          "imageUrl": null
+        },
+        {
           "id": "https://taylor.town/emoji-by-category",
           "author": null,
           "description": "📝",
@@ -643,16 +664,6 @@
           "wordCount": 682,
           "title": "/wish",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/you-buy-they-fly",
-          "author": null,
-          "description": "Friends are cool. Spending money sucks; travel is exhausting.",
-          "link": "https://taylor.town/you-buy-they-fly",
-          "publishedOn": "2023-12-03T00:00:00.000Z",
-          "wordCount": 167,
-          "title": "You Buy; They Fly",
-          "imageUrl": null
         }
       ]
     },
@@ -661,6 +672,136 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://slashdot.org/story/24/01/01/2345250/nikon-sony-and-canon-fight-ai-fakes-with-new-camera-tech?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Nikon, Sony Group and Canon are developing camera technology that embeds digital signatures in images so that they can be distinguished from increasingly sophisticated fakes. From a report: Nikon will offer mirrorless cameras with authentication technology for photojournalists and other professionals. The tamper-resistant digital signatures will include such information as date, time, location and photographer. Such efforts come as ever-more-realistic fakes appear, testing the judgment of content producers and users alike. \n\nAn alliance of global news organizations, technology companies and camera makers has launched a web-based tool called Verify for checking images free of charge. If an image has a digital signature, the site displays date, location and other credentials. The digital signatures now share a global standard used by Nikon, Sony and Canon. Japanese companies control around 90% of the global camera market. If an image has been created with artificial intelligence or tampered with, the Verify tool flags it as having \"No Content Credentials.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/01/2345250/nikon-sony-and-canon-fight-ai-fakes-with-new-camera-tech?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T23:45:00.000Z",
+          "wordCount": 5000,
+          "title": "Nikon, Sony and Canon Fight AI Fakes With New Camera Tech",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/01/2029207/smartphone-makers-still-want-to-make-foldables-a-thing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Every large smartphone maker except Apple is betting that \"foldable\" phones will help revive a lacklustre mobile market, despite the devices still largely failing to attract mainstream consumers. From a report: Foldables, which have a screen that opens like a book or compact mirror, barely exceed a 1 per cent market share of all smartphones sold globally almost five years after they were first introduced. But Samsung has doubled down on the product, investing heavily in marketing this year. In July, the Korean group released its 5G Galaxy Z series. The world's largest smartphone manufacturer points to estimates from Counterpoint Research that foldable devices may surpass a third of all smartphones costing more than $600 by 2027. \n\nOther handset makers such as Motorola, China's Huawei and its spin-off Honor are also pinning their hopes on the product helping to revive a market that suffered its worst year for more than a decade. \"This is the year people [in the industry] really dived in,\" said Ben Wood, an analyst at CCS Insight. \"Everybody now is betting on this, except Apple.\" The iPhone-maker has yet to show any interest in the category, though patent filings suggest it may one day introduce an iPad that folds in half. Every other big smartphone maker has followed Samsung into the market, including Google's Pixel Fold and Chinese alternatives from Huawei, Oppo and Xiaomi.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/01/2029207/smartphone-makers-still-want-to-make-foldables-a-thing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T21:00:00.000Z",
+          "wordCount": 9243,
+          "title": "Smartphone Makers Still Want To Make Foldables a Thing",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/01/2020218/us-supreme-courts-roberts-urges-caution-as-ai-reshapes-legal-field?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "AI represents a mixed blessing for the legal field, U.S. Supreme Court Chief Justice John Roberts said in a year-end report published on Sunday, urging \"caution and humility\" as the evolving technology transforms how judges and lawyers go about their work. From a report: Roberts struck an ambivalent tone in his 13-page report. He said AI had potential to increase access to justice for indigent litigants, revolutionize legal research and assist courts in resolving cases more quickly and cheaply while also pointing to privacy concerns and the current technology's inability to replicate human discretion. \n\n\"I predict that human judges will be around for a while,\" Roberts wrote. \"But with equal confidence I predict that judicial work - particularly at the trial level - will be significantly affected by AI.\" The chief justice's commentary is his most significant discussion to date of the influence of AI on the law, and coincides with a number of lower courts contending with how best to adapt to a new technology capable of passing the bar exam but also prone to generating fictitious content, known as \"hallucinations.\" Roberts emphasized that \"any use of AI requires caution and humility.\" He mentioned an instance where AI hallucinations had led lawyers to cite non-existent cases in court papers, which the chief justice said is \"always a bad idea.\" Roberts did not elaborate beyond saying the phenomenon \"made headlines this year.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/01/2020218/us-supreme-courts-roberts-urges-caution-as-ai-reshapes-legal-field?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T20:20:00.000Z",
+          "wordCount": 6075,
+          "title": "US Supreme Court's Roberts Urges 'Caution' as AI Reshapes Legal Field",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/01/1839203/india-to-study-black-holes-with-first-satellite-launch-after-us?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "India launched its first satellite on Monday to study black holes as it seeks to deepen its space exploration efforts ahead of an ambitious crewed mission next year. From a report: The spacecraft, named X-ray Polarimeter Satellite, was propelled into an orbit of 350 kilometers from an island near India's main spaceport of Sriharikota, off the southern state of Andhra Pradesh, according to S. Somanath, chairman of the Indian Space Research Organisation. The satellite, weighing about 470 kilograms, will carry out research on X-rays emanating from around 50 celestial objects with the help of two payloads built by ISRO and a Bengaluru-based research institute. \n\nNASA launched a similar mission, the Imaging X-ray Polarimetry Explorer, in 2021 to answer questions such as why black holes spin and build on the findings of its flagship telescope Chandra X-ray Observatory that blasted off more than two decades ago. China's National Space Administration launched the country's first X-ray space telescope to observe black holes, pulsars and gamma-ray bursts in 2017.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/01/01/1839203/india-to-study-black-holes-with-first-satellite-launch-after-us?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T18:38:00.000Z",
+          "wordCount": 4526,
+          "title": "India To Study Black Holes With First Satellite Launch After US",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/01/1736213/early-mickey-mouse-finally-enters-public-domain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Hope Thelps writes: A number of films including the earliest ones featuring Mickey and Minnie Mouse finally enterd the public domain today.\n\nThe BBC reports:Steamboat Willie, a 1928 short film featuring early non-speaking versions of Mickey and Minnie, is widely seen as the moment that transformed Disney's fortunes and made cinema history. Their images are now available to the public in the US, after Disney's copyright expired. It means creatives like cartoonists can now rework and use the earliest versions of Mickey and Minnie. In fact, anyone can use those versions without permission or cost. \n\nBut Disney warned that more modern versions of Mickey are still covered by copyright. 'We will, of course, continue to protect our rights in the more modern versions of Mickey Mouse and other works that remain subject to copyright,' the company said. US copyright law says the rights to characters can be held for 95 years, which means the characters in Steamboat Willie entered the public domain on Monday, 1 January 2024. Those works can now legally be shared, performed, reused, repurposed or sampled. The early versions of Mickey and Minnie are just two of the works entering the public domain in the US on New Year's Day. Other famous films, books, music and characters from 1928 are now also available to the American public.\n They include Charlie Chaplin's silent romantic comedy The Circus; English author AA Milne's book The House at Pooh Corner, which introduced the character Tigger; Virginia Woolf's Orlando; and DH Lawrence's Lady Chatterley's Lover.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/01/1736213/early-mickey-mouse-finally-enters-public-domain?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T17:35:00.000Z",
+          "wordCount": 6425,
+          "title": "Early Mickey Mouse Finally Enters Public Domain",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/01/1518233/japans-18-year-olds-at-record-low-106-million-on-falling-births?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The number of 18-year-olds in Japan totaled a record low of 1.06 million as of Monday, a government estimate showed, as the country continues to grapple with a falling birthrate. From a report: The number of those that have reached Japan's legal adult age fell by 60,000 from 2023 and accounted for 0.86% of Japan's total population, the Ministry of Internal Affairs and Communications said Sunday. The year 2005, when the new adults were born, had seen the country's total fertility rate -- the average number of children a woman is estimated to bear in her lifetime -- fall to a record-low 1.26, later matched by that of 2022.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/01/1518233/japans-18-year-olds-at-record-low-106-million-on-falling-births?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T16:00:00.000Z",
+          "wordCount": 14795,
+          "title": "Japan's 18-Year-Olds at Record-Low 1.06 Million on Falling Births",
+          "imageUrl": "https://a.fsdn.com/sd/topics/japan_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/24/01/01/1444206/vizio-to-pay-3-million-settlement-for-misleading-advertised-tv-refresh-rates?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Vizio has agreed to $3 million settlement over allegations it misled consumers on TV refresh rates. The TV maker denies wrongdoing but will cease advertising on \"effective\" refresh rates. Eligible buyers have until March 2024 to file claims and submit proof of purchase. Settlement includes enhanced one-year warranties. The Verge adds: TV makers often use marketing terms like \"effective refresh rate\" to refer to motion smoothing features, often called the \"soap opera effect,\" that are intended to reduce motion blur on modern TVs. Motion smoothing is already controversial enough on its own, but companies like Vizio can be frustratingly casual with refresh rate terminology in their marketing.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/24/01/01/1444206/vizio-to-pay-3-million-settlement-for-misleading-advertised-tv-refresh-rates?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T15:01:00.000Z",
+          "wordCount": 5327,
+          "title": "Vizio To Pay $3 Million Settlement for Misleading Advertised TV Refresh Rates",
+          "imageUrl": "https://a.fsdn.com/sd/topics/tv_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/01/147253/burned-investors-ask-where-were-the-auditors-a-court-says-who-cares?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "One of the country's most influential courts has asked the nation's top securities regulator for its views on an uncomfortable subject: whether audit reports by outside accounting firms actually matter. From a report: The court already ruled that, at least in one case, they didn't. That case, where an insurer overstated profits and an auditor signed off on its books, led to an investor lawsuit against the auditor that was dismissed. In its ruling, the court said the audit report was so general an investor wouldn't have relied on it. The decision could have broad ramifications for the Securities and Exchange Commission, which oversees corporate financial disclosures, and for the auditing industry, which charged about $17 billion last year for blessing the books of publicly listed companies in the U.S. \n\nThe ruling, by a three-judge panel of the Second U.S. Circuit Court of Appeals, prompted three former SEC officials to tell the court it got the answer wrong. They asked the court to reconsider its decision, noting that the SEC in a previous enforcement case had said that \"few matters could be more important to investors\" than whether a company's financial statements had been subjected to a properly conducted annual audit. The court responded by inviting the SEC to file a brief expressing its views on the former officials' arguments. The SEC in a court filing said that \"the commission has an interest in ensuring its views on this issue are considered by the court.\" Its brief is due Feb. 16. The court ruling involved a lawsuit by investors over an audit gone wrong. AmTrust Financial Services, an insurance company, had overstated its profit, and BDO USA, its outside accounting firm, had blessed the numbers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/01/147253/burned-investors-ask-where-were-the-auditors-a-court-says-who-cares?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T14:07:00.000Z",
+          "wordCount": 9377,
+          "title": "Burned Investors Ask 'Where Were the Auditors?' A Court Says 'Who Cares?'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/money_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/01/0527256/will-ai-just-waste-everyones-time?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"The events of 2023 showed that A.I. doesn't need to be that good in order to do damage,\" argues novelist Lincoln Michel in the New Republic:\n\nThis March, news broke that the latest artificial intelligence models could pass the LSAT, SAT, and AP exams. It sparked another round of A.I. panic. The machines, it seemed, were already at peak human ability. Around that time, I conducted my own, more modest test. I asked a couple of A.I. programs to \"write a six-word story about baby shoes,\" riffing on the famous (if apocryphal) Hemingway story. They failed but not in the way I expected. Bard gave me five words, and ChatGPT produced eight. I tried again, specifying \"exactly six words,\" and received eight and then four words. What did it mean that A.I. could best top-tier lawyers yet fail preschoo…",
+          "link": "https://slashdot.org/story/24/01/01/0527256/will-ai-just-waste-everyones-time?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T12:34:00.000Z",
+          "wordCount": 14769,
+          "title": "Will AI Just Waste Everyone's Time?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/01/0241243/2023-will-be-remembered-as-the-year-climate-change-arrived?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "This summer 80 million Americans were experiencing 105-degree heat. And tonight the Washington Post identifies what was unique about 2023's weather: \"the heat's all-consuming relentlessness. \n\n\"It went day by day, continent by continent, until people all over the map, whether in the Amazon or the Pacific islands or rural Greece, had glimpsed a climate future for which they are not prepared...\"\n\n\nEven if its extremes are ultimately eclipsed, as seems inevitable, 2023 will mark a point when humanity crossed into a new climate era — an age of \"global boiling,\" as United Nations Secretary General António Guterres called it. The year included the hottest single day on record (July 6) and the hottest ever month (July), not to mention the hottest June, the hottest August, the hottest September, t…",
+          "link": "https://news.slashdot.org/story/24/01/01/0241243/2023-will-be-remembered-as-the-year-climate-change-arrived?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T08:00:00.000Z",
+          "wordCount": 12011,
+          "title": "2023 Will Be Remembered as the Year Climate Change Arrived",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://meta.slashdot.org/story/24/01/01/0156259/what-were-slashdots-top-10-stories-of-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Slashdot's 10 most-visited stories of 2023 seemed to touch on all the themes of the year, with a story about AI, two about electric cars, two stories about Linux, and two about the Rust programming language. \n\nAnd at the top of this list, the #1 story of the year drew over 100,000 views...\n\n\n Can California's Power Grid Handle a 15x Increase in Electric Cars? Linux Desktop Powers Consider Uniting For an App Store Conservatives Bombarded With Facebook Misinformation Far More Than Liberals In 2020 Election, Study Suggests 'sudo' and 'su' Are Being Rewritten In Rust For Memory Safety Ask Slashdot: Where Can You Buy a Desktop PC That Makes Linux Easy to Install? Unix Pioneer Ken Thompson Announces He's Switching From Mac To Linux Rust Safety Is Not Superior To C++, Bjarne Stroustrup Says 'Pausing AI Developments Isn't Enough. We Need To Shut It All Down' Truck Thief Gunned Down by Owner After AirTag Gives Away Location Symbolic Wyoming Proposal Urges Voluntary Phase-out of EV Purchases by 2035 \n\nInterestingly, a story that ran on New Year's Eve of 2022 attracted so much traffic, it would've been the second-most visited story for all of 2023 — if it had run just a few hours later. That story? \nSystemd's Growth Over 2022.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://meta.slashdot.org/story/24/01/01/0156259/what-were-slashdots-top-10-stories-of-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T05:00:00.000Z",
+          "wordCount": 5004,
+          "title": "What Were Slashdot's Top 10 Stories of 2023?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/stats_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/01/0129241/will-2024-bring-a-major-turning-point-in-us-health-care?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"This year has been a major turning point in American health care,\" reports USA Today, \"and patients can anticipate several major developments in the new year,\" including the beginning of a CRISPR \"revolution\" and \"a new reckoning with drug prices that could change the landscape of the U.S. health care system for decades to come.\"\n\n\nHealth care officials expect 2024 to bring a wave of innovation and change in medicine, treatment and public health... Many think 2024 could be the year more people have the tools to follow through on New Year's resolutions about weight loss. If they can afford them and manage to stick with them, people can turn to a new generation of remarkably effective weight-loss drugs, also called GLP-1s, which offer the potential for substantial weight loss... \n\nIn 2023, …",
+          "link": "https://science.slashdot.org/story/24/01/01/0129241/will-2024-bring-a-major-turning-point-in-us-health-care?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T02:08:00.000Z",
+          "wordCount": 13220,
+          "title": "Will 2024 Bring a 'Major Turning Point' in US Health Care?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/01/016215/since-the-demise-of-atom-pulsar-offers-an-alternative-code-editor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "On December 15 GitHub declared end-of-life for its \"hackable text editor\" Atom. But Long-time Slashdot reader BrendaEM wants to remind everyone that after the announcement of Atom's sunset, \"the community came together to keep Atom alive.\" \n\nFirst there was the longstanding fork Atom-Community. But \"due to differences in long-term goals for the editor, a new version was born: Pulsar.\" \n\nFrom the Pulsar web site:\n\n\nPulsar [sometimes referred to as Pulsar-Edit] aims to not only reach feature parity with the original Atom, but to bring Pulsar into the 21st century by updating the underlying architecture, and supporting modern features. \n\nWith many new features on the roadmap, once Pulsar is stable, it will be a true, Community-Based, Hackable, Text Editor.\n \n\n\"Of course, the user interface is much of the same,\" writes the blog Its FOSS, and it's cross-platform (supporting Linux, macOS, and Windows). \n\n\"The essentials seem to be there with the documentation, packages, and features like the ability to install packages from Git repositories...\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/01/016215/since-the-demise-of-atom-pulsar-offers-an-alternative-code-editor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-01T01:08:00.000Z",
+          "wordCount": 5238,
+          "title": "Since the Demise of Atom, 'Pulsar' Offers an Alternative Code Editor",
+          "imageUrl": "https://a.fsdn.com/sd/topics/software_64.png"
+        },
         {
           "id": "https://science.slashdot.org/story/23/12/31/2318242/navajo-nation-president-asks-nasa-to-delay-moon-launch-over-possible-human-remains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
@@ -4750,136 +4891,6 @@
           "wordCount": 6319,
           "title": "The Annual Emacs Conference 'EmacsConf' is Livestreaming Now",
           "imageUrl": "https://a.fsdn.com/sd/topics/gnu_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/02/0528222/are-amazon-packages-disrupting-mail-services-in-some-small-towns?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "100 miles south of the Canadian border, the tiny town of Bemidji, Minnesota \"has been bombarded by a sudden onslaught of Amazon packages\" since early November, reports the Washington Post, \"and local postal workers say they have been ordered to deliver those packages first.\" \n\nA spokesperson for the U.S. Postal Service tells the Post that's not true, and that their service \"does not prioritize the delivery of packages from Amazon or other customers.\" \nBut whatever's going on, the Post reports that \"The result has been chaos...\"\n\n Mail is getting backed up, sometimes for days, leaving local residents waiting for checks, credit card statements, health insurance documents and tax rebates. Routes meant to take eight or nine hours are stretching to 10 or 12. At least five carriers have quit, an…",
-          "link": "https://news.slashdot.org/story/23/12/02/0528222/are-amazon-packages-disrupting-mail-services-in-some-small-towns?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T11:34:00.000Z",
-          "wordCount": 14193,
-          "title": "Are Amazon Packages Disrupting Mail Services in Some Small Towns?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/03/027214/varjos-xr-4-why-a-truly-useful-mixed-reality-headset-is-expensive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Long-time Slashdot reader BishopBerkeley writes: Varjo follows a completely different model from Apple and Meta for its new AR headset. Computing is done on a connected (via a cable) computer. The tradeoff is that the headset can use the extra computing power of the host computer to drive ultrahigh resolution displays that are far more pixel dense than Apple's Vision Pro. \n\nThe net result is that the headset is truly useful for demanding applications like professional flight simulators, where $10,000 for a headset is a sensible investment. Furthermore, the headset has a longer life span because its PC resident hardware and software are upgradeable. \n\nFrom IEEE Spectrum:\n\n\nThe Meta Quest 3 is a capable, accessible mixed-reality device. But if you're a mad scientist working on a secret proje…",
-          "link": "https://hardware.slashdot.org/story/23/12/03/027214/varjos-xr-4-why-a-truly-useful-mixed-reality-headset-is-expensive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T08:34:00.000Z",
-          "wordCount": 5735,
-          "title": "Varjo's XR-4: Why a Truly Useful Mixed Reality Headset Is Expensive",
-          "imageUrl": "https://a.fsdn.com/sd/topics/displays_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/03/0010244/apples-chip-lab-now-15-years-old-with-thousands-of-engineers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"As of this year, all new Mac computers are powered by Apple's own silicon, ending the company's 15-plus years of reliance on Intel,\" according to a new report from CNBC. \n\"Apple's silicon team has grown to thousands of engineers working across labs all over the world, including in Israel, Germany, Austria, the U.K. and Japan. Within the U.S., the company has facilities in Silicon Valley, San Diego and Austin, Texas...\"\n\nThe latest A17 Pro announced in the iPhone 15 Pro and Pro Max in September enables major leaps in features like computational photography and advanced rendering for gaming. \"It was actually the biggest redesign in GPU architecture and Apple silicon history,\" said Kaiann Drance, who leads marketing for the iPhone. \"We have hardware accelerated ray tracing for the first time…",
-          "link": "https://hardware.slashdot.org/story/23/12/03/0010244/apples-chip-lab-now-15-years-old-with-thousands-of-engineers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T04:34:00.000Z",
-          "wordCount": 9103,
-          "title": "Apple's Chip Lab: Now 15 Years Old With Thousands of Engineers",
-          "imageUrl": "https://a.fsdn.com/sd/topics/hardware_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/03/0134224/openzfs-fixes-data-corruption-issue?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "A pull request has been merged to fix a data corruption issue in OpenZFS (the open-source implementation of the ZFS file system and volume manager). \"OpenZFS 2.2.2 and 2.1.14 released with fix in place,\" reports a Thursday comment on GitHub.\n \n\n\nEarlier this week, jd (Slashdot reader #1,658) wrote: All versions of OpenZFS 2.2 suffer from a defect that can corrupt the data. Attempts to mitigate the bug have reduced the likelihood of it occurring, but so far nobody has been able to pinpoint what is going wrong or why. \n\nPhoronix reported on Monday: Over the US holiday weekend it became more clear that this OpenZFS data corruption bug isn't isolated to just the v2.2 release — older versions are also susceptible — and that v2.2.1 is still prone to possible data corruption. The good news at least is that data corruption in real-world scenarios is believed to be limited but with some scripting help the corruption can be reproduced. It's also now believed that the OpenZFS 2.2 block cloning feature just makes encountering the problem more likely.\n\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/03/0134224/openzfs-fixes-data-corruption-issue?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T02:34:00.000Z",
-          "wordCount": 7057,
-          "title": "OpenZFS Fixes Data Corruption Issue",
-          "imageUrl": "https://a.fsdn.com/sd/topics/opensource_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/02/2236216/ev-owners-report-far-more-problems-than-conventional-car-owners-says-consumer-reports?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Consumer Reports awarded a \"recommended\" rating to Tesla's Modey Y this year, \"with owners reporting fewer issues with its suspension, in-car electronics and general build quality than in previous years\". Tesla's Model 3 also earned a \"recommended\" rating. \n\n\"Tesla's Model 3 and Model Y are now the sweet spot in the automotive industry when it comes to building electric cars,\" says Jake Fisher, the senior director of auto testing for Consumer Reports. \"While Tesla is still a relatively new car company, it has more experience producing EVs than any other automaker.\" \nBut how about the larger universe of all automakers?\nElectric vehicle owners continue to report far more problems with their vehicles than owners of conventional cars or hybrids, according to Consumer Reports' newly released an…",
-          "link": "https://tech.slashdot.org/story/23/12/02/2236216/ev-owners-report-far-more-problems-than-conventional-car-owners-says-consumer-reports?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T23:34:00.000Z",
-          "wordCount": 5420,
-          "title": "EV Owners Report 'Far More' Problems Than Conventional Car Owners, Says Consumer Reports",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/02/1810207/tiny-living-robots-made-from-human-cells-surprise-scientists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Scientists have created tiny living robots from human cells,\" reports CNN. The mini-bots \"can move around in a lab dish and may one day be able to help heal wounds or damaged tissue, according to a new study. \" \n\nThe study's lead author tells CNN, \"We don't realize all the competencies that our own body cells have.\"\n\nA team at Tufts University and Harvard University's Wyss Institute have dubbed these creations anthrobots. The research builds on earlier work from some of the same scientists, who made the first living robots, or xenobots, from stem cells sourced from embryos of the African clawed frog (Xenopus laevis)... \n\nThe scientists used adult human cells from the trachea, or windpipe, from anonymous donors of different ages and sexes... The tracheal cells are covered with hairlike pro…",
-          "link": "https://science.slashdot.org/story/23/12/02/1810207/tiny-living-robots-made-from-human-cells-surprise-scientists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T22:34:00.000Z",
-          "wordCount": 4263,
-          "title": "Tiny Living Robots Made From Human Cells Surprise Scientists",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://developers.slashdot.org/story/23/12/02/1919255/java-tries-a-new-way-to-use-multithreading-structured-concurrency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Structured concurrency is a new way to use multithreading in Java,\" reports InfoWorld. \n\n\"It allows developers to think about work in logical groups while taking advantage of both traditional and virtual threads.\"\n\nAvailable in preview in Java 21, structured concurrency is a key aspect of Java's future, so now is a good time to start working with it... Java's thread model makes it a strong contender among concurrent languages, but multithreading has always been inherently tricky. Structured concurrency allows you to use multiple threads with structured programming syntax. In essence, it provides a way to write concurrent software using familiar program flows and constructs. This lets developers focus on the business at hand, instead of the orchestration of threading. \n\nAs the JEP for stru…",
-          "link": "https://developers.slashdot.org/story/23/12/02/1919255/java-tries-a-new-way-to-use-multithreading-structured-concurrency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T21:34:00.000Z",
-          "wordCount": 5431,
-          "title": "Java Tries a New Way to Use Multithreading:  Structured Concurrency",
-          "imageUrl": "https://a.fsdn.com/sd/topics/programming_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/02/0236212/why-mexico-wants-you-to-virtually-adopt-an-axolotl-salamander?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "It can regenerate bits of its body. Ancient Mexicans revered it as a mischievous, shape-shifting god. \n\nThey named it axolotl — translation: \"water monster\" — and it's a \"salamander with a Mona Lisa smile,\" reports the Washington Post, \"an alien-looking creature with a permanent grin and a crown of feathery gills\".\n\nBut while there's over a million in the world's scientific laboratories, back in its only natural habitat — the canals of Lake Xochimilco in Mexico City — it's on the brink of extinction.\n \nIn hopes of preventing the annihilation of a species with mystifying traits, ecologists at Mexico's National Autonomous University are giving the public the chance to virtually adopt an axolotl. For $30, $180 or $360, donors can choose the sex, age and name of the little buddy they get to ca…",
-          "link": "https://science.slashdot.org/story/23/12/02/0236212/why-mexico-wants-you-to-virtually-adopt-an-axolotl-salamander?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T20:34:00.000Z",
-          "wordCount": 5446,
-          "title": "Why Mexico Wants You to Virtually Adopt an Axolotl Salamander",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/02/0351257/investing-30-billion-the-uae-announces-the-worlds-largest-climate-focused-investment-fund?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Tuesday the New York Times reported that while hosting the global climate summit, the United Arab Emirates also hoped to lobby for oil and gas deals around the world. \n\nBut Friday the United Arab Emirates announced that they'd also started a $30 billion climate fund, reports Reuters, and that fund \"aims to attract $250 billion of investment by the end of the decade.\" \n\nThe New York Times notes the fund started just months ago, and \"at least 20 percent of the funds, would be earmarked for projects in the developing world, where it is especially difficult to finance clean energy projects because interest rates are high and lenders shy away from what they perceive as risky investments.\" \n\nThe Washington Post notes that \"It immediately becomes one of the world's largest climate-focused investm…",
-          "link": "https://news.slashdot.org/story/23/12/02/0351257/investing-30-billion-the-uae-announces-the-worlds-largest-climate-focused-investment-fund?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T19:34:00.000Z",
-          "wordCount": 6285,
-          "title": "Investing $30 Billion, the UAE Announces the World's Largest Climate-Focused Investment Fund",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/11/30/236212/us-announces-ai-hackathons-to-strengthen-critical-mineral-supply-chains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "This week the White House announced a series of \"AI hackathons to strengthen critical mineral supply chains,\" starting in February of 2024. \n\nThere's 50 critical minerals are used in everything from electric motors and generators to the fuselage and wings of an airplane. So now the \"Critical Mineral Assessments with AI Support\" contest aims to \"significantly speed up the assessment of the nation's critical mineral resources by automating key steps\" using AI and machine learning tools, according to a DARPA announcement on X, pointing to details on a new DARPA web page:\n\n Clean energy infrastructure, along with many other next-generation technologies, consume more critical minerals than traditional energy sources, and expected demand for critical minerals used in clean energy will quadruple …",
-          "link": "https://news.slashdot.org/story/23/11/30/236212/us-announces-ai-hackathons-to-strengthen-critical-mineral-supply-chains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T18:34:00.000Z",
-          "wordCount": 4973,
-          "title": "US Announces AI Hackathons to Strengthen Critical Mineral Supply Chains",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/02/0617234/does-tiktok-censor-content-critical-of-china-cnn-investigates?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Long-time Slashdot reader destinyland summarizes a video report from CNN:\n\n: CNN anchor Jake Tapper interviewed TikTok's head of public policy last year, asking if they censored content critical of the Chinese party. \"We do not censor content on behalf of any government,\" the spokesperson answered. \nBut this week CNN reviewed data the total number of hashtags on both Instagram and on TikTok for topics that might be embarrassing to the Chinese government — and found stark differences. — Hashtag #Uyghurs appears in 10.4X more posts on Instagram than on TikTok. — Hashtag #Tiananmen (referencing the 1989 pro-democracy protests) is 153 more likely to appear on Instagram than on TikTok. \n\"So yes, the content exists on TikTok, but there's far less of it on TikTok than on other social media apps,\" CNN's Tapper says. \"And that seems very convenient for the Chinese Communist Party.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/02/0617234/does-tiktok-censor-content-critical-of-china-cnn-investigates?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T17:34:00.000Z",
-          "wordCount": 8045,
-          "title": "Does TikTok Censor Content Critical of China? CNN Investigates",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/02/0655205/rust-foundation-plans-trainingcertification-program-security-initiative-funded-through-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The Linux Foundation's own \"Open Software Security foundation\" has an associated project called Alpha-Omega funded by Microsoft, Google, and Amazon with a mission to catalyze sustainable security improvements to critical open source projects and ecosystems. \nIt was established nearly two years ago in February of 2022 — and this month announced plans to continue supporting the Rust Foundation Security Initiative:\n\n2022 was also the first full year of operation for the Rust Foundation — an independent nonprofit dedicated to stewarding the Rust programming language and supporting its global community. Given the considerable growth and rising popularity of the Rust programming language in recent years, it has never been more critical to have a healthy and well-funded foundation in place to hel…",
-          "link": "https://it.slashdot.org/story/23/12/02/0655205/rust-foundation-plans-trainingcertification-program-security-initiative-funded-through-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T16:34:00.000Z",
-          "wordCount": 4427,
-          "title": "Rust Foundation Plans Training/Certification Program.  Security Initiative Funded Through 2024",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/02/0438218/teslas-new-cybertruck-includes-a-powershare-bidirectional-charging-feature?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Tesla's new Cybertruck is more than their first new model since 2020, reports the Verge:\nTesla announced a new \"Powershare\" vehicle-to-load charging capability, only available on the new Cybertruck. The feature will allow Cybertruck owners to power their camping equipment, power tools, or even their entire home during a blackout, just by using their electric truck as a mobile generator. \n\nThe truck also features a 240-volt outlet in the rear bed that can be used to charge other EVs. An image on Tesla's website shows the Cybertruck charging a Model Y. \n\nThe Cybertruck can put out as much as 11.5kW, which is more than the Ford F-150 Lightning's 9.6kW of onboard power or the GMC Sierra Denali EV's 10.2kW. Tesla has been talking about manufacturing vehicles with bidirectional charging capabilities for several years now, first teasing the feature at its Battery Day event in 2020. Since then, many of its competitors have adopted the feature for their EVs, including Ford, GM, Hyundai, Kia, and others... \n\n In essence, it treats high-capacity lithium-ion batteries not only as tools to power EVs but also as backup storage cells to charge other electric devices, an entire home, or even to send power to the electrical grid for possible energy savings... Customers who want to take advantage of the Powershare feature in their homes will need a Tesla Powerwall (of course) and a Wall Connector for the most seamless connection. \nTesla held a launch event for the vehicle on Thursday, and demand appears to be high. Jalopnik reports Tesla is now offering people who'd reserved a Cybertruck a $1,000 discount if they'll instead order another Tesla model.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/02/0438218/teslas-new-cybertruck-includes-a-powershare-bidirectional-charging-feature?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-02T15:34:00.000Z",
-          "wordCount": 14347,
-          "title": "Tesla's New Cybertruck Includes a 'Powershare' Bidirectional Charging Feature",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
         }
       ]
     }
