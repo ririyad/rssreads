@@ -46,6 +46,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/new-year-new-calendar-58d70855",
+          "author": null,
+          "description": "We’ve spent the last year tackling the number one request for our email service HEY.com: Adding a calendar! And now, in celebration of the new year, it’s finally ready, and we’re rolling it out to the first customers starting today 🎉\nSee, it turns out that lots of people would love to switch their email to HEY, whether it’s because they want The Screener, they’re disgusted by spy pixels, they want a better newsletter reading experience, they want to start writing regularly with HEY World, they want to reclaim their attention using buckets of time, or any of the other tons of novel features that make email a pleasure to use with HEY. BUT! They just can’t do it without an integrated calendar. It’s the one thing that kept them using Gmail or Outlook or whatever.\nWe heard that feedback from t…",
+          "link": "https://world.hey.com/dhh/new-year-new-calendar-58d70855",
+          "publishedOn": "2024-01-02T13:26:59.000Z",
+          "wordCount": 537,
+          "title": "New year, new calendar",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/we-re-so-back-50c3390d",
           "author": null,
           "description": "Under the old Twitter regime, politics seemed to seep into everything, especially tech talk. There was scarcely a programming or product topic that couldn’t be turned into a struggle session on account of some perceived transgression or privilege. It was, to use the trauma language of those days, exhausting. It also simply seemed like the new normal, something that was going to be that way forever. Thankfully, it wasn’t.\nThere are plenty of bones to pick with the new regime running X, but perhaps the greatest gift it’s given to the platform is The Rift. The motivation for certain groups of people to find another place to be. Whether that’s Mastodon or Threads or whatever. The tech discourse on X feels like it’s been able to recover its attention in large part because so many of those most interested in keeping it on politics went somewhere else.\nNow that’s a lot of “feels”, but that’s because this really is mostly about vibes and individualized algorithms and personal impressions. And to me, the vibe is distinctly vintage. Talking about tech and programming on X today feels like it did a decade ago. Plenty of disagreements, even histrionics, but largely focused on the actual technical topics at hand, not how they might connect to The Current Thing in every which way, all the time.\nI guess it’s possible that this shift was going to happen regardless of who ran Twitter or X. That eventually techies at large and programmers in particular were going to tire of the incessant political campaigns anyway. So maybe all the new management did here was to accelerate the inevitable.\nBut either way, it’s been delightful. And it’s been a good reminder to myself that talking too much about politics, on X or elsewhere, is indeed a limiting prospective. So I’ve gladly turned it down or taken it private. Like the olden days, before we were fooled into thinking that sharing every thought about every hot-button political issue in every social circle was going to advance us all somehow. It wasn’t, it didn’t, and it won’t.",
@@ -202,6 +212,16 @@
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
         {
+          "id": "https://martinfowler.com/articles/2023-music.html",
+          "author": null,
+          "description": "Another year, another time to pick six favorite musical\n     discoveries. 2023 includes ambient bluegrass, Afro-Andean funk, Northumbrian\n     smallpipes, dancing kora, and Ukrainian folk jazz.\nmore…",
+          "link": "https://martinfowler.com/articles/2023-music.html",
+          "publishedOn": "2024-01-02T23:42:00.000Z",
+          "wordCount": 854,
+          "title": "My favorite musical discoveries of 2023",
+          "imageUrl": "https://martinfowler.com/articles/2023-music/card.png"
+        },
+        {
           "id": "https://martinfowler.com/bliki/SoftwareAndEngineering.html",
           "author": null,
           "description": "Throughout my career, people have compared software development to\n  “traditional” engineering, usually in a way to scold software developers for not\n  doing a proper job. As someone who got his degree in Electronic Engineering,\n  this resonated with me early in my career. But this way of thinking is flawed\n  because most people have the wrong impression of how engineering works in\n  practice.\nGlenn Vanderburg has spent a lot of time digging\n  into these misconceptions, and I strongly urge anyone who wants to compare\n  software development to engineering to watch his talk Real Software Engineering. It's also well worth\n  listening to his interview on the podcast Oddly\n  Influenced. Sadly I've not been able to persuade him to write this\n  material down - it would make a great article.\nAnother good thinker on this relationship is Hillel Wayne. He interviewed a\n  bunch of “crossovers” - people who had worked both in traditional engineering\n  and in software. He wrote up what he learned in a series of essays, starting\n  with Are We Really Engineers?",
@@ -219,16 +239,6 @@
           "publishedOn": "2023-12-11T19:40:00.000Z",
           "wordCount": 489,
           "title": "Bliki: TestDrivenDevelopment",
-          "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://martinfowler.com/bliki/DiffDebugging.html",
-          "author": null,
-          "description": "Regression bugs are newly appeared bugs in features of the software that have been around\n  for a while. When hunting them, it usually valuable to figure out which change\n  in the software caused them to appear. Looking at that change can give\n  invaluable clues about where the bug is and how to squash it. There isn't a\n  well-known term for this form of investigation, but I call it Diff Debugging.\nDiff debugging only works if we have our code in version control, but\n  fortunately these days that's the norm. But there are some more things that\n  are needed to make it work effectively. We need Reproducible Builds, so that we can run old versions of\n  the software easily. It helps greatly to have small commits, due to high-frequency\n  integration. That way when we find the guilty commit, we …",
-          "link": "https://martinfowler.com/bliki/DiffDebugging.html",
-          "publishedOn": "2023-12-04T05:00:00.000Z",
-          "wordCount": 534,
-          "title": "Bliki: DiffDebugging",
           "imageUrl": "https://martinfowler.com/logo-sq.png"
         }
       ]
@@ -393,20 +403,20 @@
       "siteUrl": "http://corecursive.com",
       "articles": [
         {
-          "id": "378e1b0c-ffbb-4523-929e-0baa834d8a9b",
+          "id": "2aeb33a0-39e1-4beb-984b-aa9bb2f379dd",
           "author": null,
-          "description": "From the early days of exploring creative possibilities on a 486 computer in his childhood to developing one of today's most popular web frameworks, Evan You's journey is a tale of passion and innovation.\n   \n Evan started Vue.js while working at Google, just wanting to scratch his own itch for a lightweight JavaScript framework. But soon Vue started to gain a huge following. \n Eventually Evan then faced a tough dilemma - should he take a leap of faith and devote himself fully to his fledgling open source project?\n Hear Evan's firsthand story of that key career transition. How the explosive user feedback at Vue conferences gave him confidence. But also the challenges he faced by putting himself directly in the line of fire from unhappy users.\n It's an inspiring journey - from a developer just trying to solve his own problems to the leader of one of today's most popular web frameworks. Hear the very human story behind Vue.js.\n  \nEpisode Page\n Support The Show\n Subscribe To The Podcast\n Join The Newsletter",
-          "link": "https://corecursive.com/vue-with-evan-you/",
-          "publishedOn": "2023-12-04T11:00:00.000Z",
+          "description": "What if your dreams were suddenly ripped away? What if your talents vanished, your passions erased? That's what happened to Jason McDonald when a traumatic brain injury at 16 ravaged his planned destiny of becoming a doctor. Jason painfully rebuilt his ind and body from scratch - relearning to read, write, even speak. \n  A serendipitous discovery of coding ignited a new passion within Jason. He dove into the world of Python, even writing a popular programming book. His is a story of the incredible resilience of the human spirit when faced with life-altering challenges. One that calls us to embrace our own vulnerabilities as gateways to growth.\n  \nEpisode Page\n Support The Show\n Subscribe To The Podcast\n Join The Newsletter",
+          "link": "https://corecursive.com/brain-injury-with-jason-mcdonald/",
+          "publishedOn": "2024-01-02T11:00:00.000Z",
           "wordCount": null,
-          "title": "Story - From 486 to Vue.js: Evan You's Full-Time Gamble on Open Source",
+          "title": "Story - Code as a Lifeline: Brain Injury Sparks Python Mastery",
           "itunes": {
-            "duration": "46:17"
+            "duration": "44:12"
           },
           "enclosure": {
-            "length": "67813797",
+            "length": "64812799",
             "type": "audio/mpeg",
-            "url": "https://chtbl.com/track/7D91G/traffic.libsyn.com/secure/corecursive/095-Evan_You.mp3?dest-id=628353"
+            "url": "https://chtbl.com/track/7D91G/traffic.libsyn.com/secure/corecursive/096-Jason_C_McDonald.mp3?dest-id=628353"
           },
           "imageUrl": null
         }
@@ -456,7 +466,18 @@
       "title": "Infrequently Noted",
       "feedUrl": "https://infrequently.org/feed/",
       "siteUrl": "https://infrequently.org/feed/feed.xml",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://infrequently.org/2024/01/the-web-is-the-app-store/",
+          "author": null,
+          "description": "The tech news is chockablock[1] with antitrust rumblings and slow-motion happenings. Through eagle-eyed press coverage, regulatory reports, and legal discovery the shady dealings of Apple and Google's app stores are now comprehensively documented and pressure for change has built to an unsustainable level. Something's gotta give.\nThis is the backdrop to the biggest app store story nobody is writing about: on pain of steep fines, gatekeepers are opening up to competing browsers. This, in turn, will enable competitors to replace app stores with directories of Progressive Web Apps. Capable browsers that expose web app installation and powerful features to developers can kickstart app portability, breaking open the mobile duopoly.\nBut you'd never know it reading Wired or The Verge.\n\n\nThe Burie…",
+          "link": "https://infrequently.org/2024/01/the-web-is-the-app-store/",
+          "publishedOn": "2024-01-01T00:00:00.000Z",
+          "wordCount": 8157,
+          "title": "Why Are Tech Reporters Sleeping On The Biggest App Store Story?",
+          "imageUrl": "https://infrequently.org/2024/01/the-web-is-the-app-store/appsco.pe.png"
+        }
+      ]
     },
     {
       "title": "Moving the Limit",
@@ -475,6 +496,16 @@
       "feedUrl": "https://taylor.town/feed.xml",
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
+        {
+          "id": "https://hackerstations.com/setups/taylor_town",
+          "author": null,
+          "description": "WHIMSICAL",
+          "link": "https://hackerstations.com/setups/taylor_town",
+          "publishedOn": "2024-01-02T00:00:00.000Z",
+          "wordCount": 956,
+          "title": "Hacker Stations: Taylor Troesh",
+          "imageUrl": "https://hackerstations.com/setups/taylor_town/images/battlestation_front.jpg"
+        },
         {
           "id": "https://taylor.town/harpsichord",
           "author": null,
@@ -672,6 +703,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://entertainment.slashdot.org/story/24/01/03/0026254/alamo-drafthouse-blames-nationwide-theater-outage-on-sony-projector-fail?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An issue with Sony's projectors caused theater chain Alamo Drafthouse to close theaters entirely on New Year's Eve. \"As of New Year's Day, however, most theaters and most showtimes now appear to be available, with a few exceptions,\" reports The Verge. From the report: It's not clear what happened. As New Year's Day is a holiday, we somewhat understandably haven't yet been able to reach Alamo or Sony spokespeople, and not every theater or every screening was affected. That didn't stop Alamo from blaming its Sony projectors for what at least one theater called a \"nationwide\" outage, however.\n \n\"Due to nation-wide technical difficulties with Sony, we aren't able to play any titles today,\" read part of a taped paper sign hanging inside a Woodbury, Minnesota location. That apparently didn't kee…",
+          "link": "https://entertainment.slashdot.org/story/24/01/03/0026254/alamo-drafthouse-blames-nationwide-theater-outage-on-sony-projector-fail?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-03T00:50:00.000Z",
+          "wordCount": 4156,
+          "title": "Alamo Drafthouse Blames 'Nationwide' Theater Outage on Sony Projector Fail",
+          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/03/0017242/25-years-since-the-first-real-slashdot-effect?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "reg writes: Twenty-five years ago today, CmdrTaco innocently posted a story entitled \"Collection of Fun Video Clips\" in the days of T1 lines and invited anyone with the bandwidth to check it out. Even though the term \"Slashdot Effect\" had already been coined, this was the first time it took down a site. The site owner got a personal call from their ISP, which was later reported in the comments, where he also noted that he was writing a novella called \"She Hates My Futon.\" Many old timers started reading that, although it's never been finished, despite having a Good Reads page, a Facebook page, and several promises that he'll complete it.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/03/0017242/25-years-since-the-first-real-slashdot-effect?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-03T00:22:00.000Z",
+          "wordCount": 4020,
+          "title": "25 Years Since the First Real 'Slashdot Effect'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/02/2323229/the-pixel-8-parts-store-goes-live-should-be-up-for-7-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Genuine parts for the Google Pixel 8 and 8 Pro are now available on iFixit's Pixel parts store. \"The Pixel 8 is the first Google phone with seven years of major OS updates, and Google previously said these parts will be in stock for seven years to match, so the phone sounds like it will be a longevity champion,\" reports Ars Technica's Ron Amadeo. From the report: The most common replacement will probably be the screen, which costs $160 for the Pixel 8 and $230 for the Pixel 8 Pro. The product described as a \"rear case\" is the entire aluminum body of the phone, with the rear glass, camera bar, camera cover glass, side buttons, and charging coil. The Pixel 8 version of this will run you $143, while the 8 Pro version is $173. The batteries are both $43.\n \nIf your camera breaks, get ready for some serious sticker shock: The Pixel 8 Pro rear camera assembly is $200 for the bundled set of three cameras. Interestingly, the Pixel 8 also has $200 worth of camera parts despite having one less camera by skipping the complicated periscope zoom lens. The Pixel 8 parts come in separate pieces: $143 for the main camera and $63 for the ultra-wide. Along with the $43 front camera, a Pixel 8 is $700 and has $243 worth of camera parts!\n \nOther than that, there are various small adhesive and thermal strips. There's no replacement motherboard available, which is a shame since that's probably the first thing that would break from water damage. (Phone motherboards contain your IMEI number used for things like billing and theft blocklisting, and the industry doesn't have a good solution for repairing these.) Since the USB port is part of the motherboard, there's no official repair method. The Google Pixel 8 Parts store is available here.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/02/2323229/the-pixel-8-parts-store-goes-live-should-be-up-for-7-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-03T00:10:00.000Z",
+          "wordCount": 4165,
+          "title": "The Pixel 8 Parts Store Goes Live, Should Be Up For 7 Years",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/02/227238/meet-link-history-facebooks-new-way-to-track-the-websites-you-visit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Gizmodo: Facebook recently rolled out a new \"Link History\" setting that creates a special repository of all the links you click on in the Facebook mobile app. Users can opt-out, but Link History is turned on by default, and the data is used for targeted ads. The company pitches Link History as a useful tool for consumers \"with your browsing activity saved in one place,\" rather than another way to keep tabs on your behavior. With the new setting you'll \"never lose a link again,\" Facebook says in a pop-up encouraging users to consent to the new tracking method. The company goes on to mention that \"When you allow link history, we may use your information to improve your ads across Meta technologies.\"\n \nFacebook promises to delete the Link History it's …",
+          "link": "https://news.slashdot.org/story/24/01/02/227238/meet-link-history-facebooks-new-way-to-track-the-websites-you-visit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T23:30:00.000Z",
+          "wordCount": 4393,
+          "title": "Meet 'Link History,' Facebook's New Way To Track the Websites You Visit",
+          "imageUrl": "https://a.fsdn.com/sd/topics/facebook_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/02/2158249/driverless-cars-immune-from-traffic-tickets-in-california-under-current-laws?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to NBC, law enforcement in California can't ticket driverless cars for traffic violations, thanks to a legal loophole requiring an actual driver in the car. NBC Bay Area reports: An internal memo from San Francisco Police Chief Bill Scott, obtained by the NBC Bay Area Investigative Unit, instructs officers that \"no citation for a moving violation can be issued if the [autonomous vehicle] is being operated in a driverless mode.\" Scott added, \"Technology evolves rapidly and, at times, faster than legislation or regulations can adapt to the changes.\"\n \nWhile autonomous vehicles in California have received parking citations, the state's transportation laws appear to leave driverless vehicles immune from receiving any type of traffic ticket stemming from moving violations. \"I think it…",
+          "link": "https://tech.slashdot.org/story/24/01/02/2158249/driverless-cars-immune-from-traffic-tickets-in-california-under-current-laws?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T22:50:00.000Z",
+          "wordCount": 6389,
+          "title": "Driverless Cars Immune From Traffic Tickets In California Under Current Laws",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/02/2145221/sam-bankman-fried-spared-a-second-trial?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "In a letter (PDF) citing \"strong public interest in a prompt resolution,\" U.S. prosecutors said they do not plan to proceed with a second trial of FTX founder Sam Bankman-Fried (SBF). The Register reports: The prosecutors reasoned that much of the evidence that would be submitted had already been considered in his October trial -- an event which yielded a guilty verdict after just four hours of jury deliberation. Although forgoing an additional trial means not holding SBF accountable for conspiracy to make unlawful campaign contributions, additional court dates would most certainly delay a scheduled March 2024 sentencing, as it would require negotiating with The Bahamas regarding terms of extradition.\n \nSBF was extradited to the US from The Bahamas, where his crypto exchange FTX was headquartered, in December 2022. While the island nation agreed to extradition on seven out of eight charges, local authorities did not consent to extradition on a charge of conspiracy to make unlawful campaign contributions. US courts were therefore unable to pursue the eighth charge.\n \nSBF's first trial yielded seven guilty verdicts. Those included two counts of conspiracy to commit wire fraud, two counts of wire fraud, conspiracy to commit commodities fraud, conspiracy to commit securities fraud, and conspiracy to commit money laundering. Together they carry a combined maximum sentence of 110 years. However, even though the campaign finance charge was not pursued, it could be considered relevant in sentencing matters, wrote the attorneys in their filing. The prosecutors' letter detailed that the sentencing judgment will also \"likely include orders of forfeiture and restitution for the victims of the defendant's crimes.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/02/2145221/sam-bankman-fried-spared-a-second-trial?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T22:10:00.000Z",
+          "wordCount": 5310,
+          "title": "Sam Bankman-Fried Spared a Second Trial",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/01/02/2136204/tekken-8s-colorblind-mode-is-causing-migraines-vertigo-and-debate?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: Modern fighting games have come quite a long way from their origins in providing accessibility options. Street Fighter 6 has audio cues that can convey distance, height, health, and other crucial data to visually impaired players. King of Fighters 15 allows for setting the contrast levels between player characters and background. Competitors like BrolyLegs and numerous hardware hackers have taken the seemingly inhospitable genre even further. Tekken 8, due later this month, seems to aim even higher, offering a number of color vision options in its settings. This includes an unofficially monikered \"colorblind mode,\" with black-and-white and detail-diminished backgrounds and characters' flattened shapes filled in with either horizontal o…",
+          "link": "https://games.slashdot.org/story/24/01/02/2136204/tekken-8s-colorblind-mode-is-causing-migraines-vertigo-and-debate?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T21:37:00.000Z",
+          "wordCount": 5001,
+          "title": "Tekken 8's 'Colorblind' Mode Is Causing Migraines, Vertigo, and Debate",
+          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/02/2053200/google-password-resets-not-enough-to-stop-these-info-stealing-malware-strains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Security researchers say info-stealing malware can still access\n victims' compromised Google accounts even after passwords have been changed. From a report: A zero-day exploit of Google account security was first teased by a cybercriminal known as \"PRISMA\" in October 2023, boasting that the technique could be used to log back into a victim's account even after the password is changed. It can also be used to generate new session tokens to regain access to victims' emails, cloud storage, and more as necessary. Since then, developers of infostealer malware -- primarily targeting Windows, it seems -- have steadily implemented the exploit in their code. The total number of known malware families that abuse the vulnerability stands at six, including Lumma and Rhadamanthys, while Eternity Stealer is also working on an update to release in the near future. \n\nEggheads at CloudSEK say they found the root of the exploit to be in the undocumented Google OAuth endpoint \"MultiLogin.\" The exploit revolves around stealing victims' session tokens. That is to say, malware first infects a person's PC -- typically via a malicious spam or a dodgy download, etc -- and then scours the machine for, among other things, web browser session cookies that can be used to log into accounts.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/01/02/2053200/google-password-resets-not-enough-to-stop-these-info-stealing-malware-strains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T20:52:00.000Z",
+          "wordCount": 4721,
+          "title": "Google Password Resets Not Enough To Stop These Info-Stealing Malware Strains",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/01/02/1647233/the-humble-emoji-has-infiltrated-the-corporate-world?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: A court in Washington, D.C., has been stuck with a tough, maybe impossible question: What does full moon face emoji mean? Let me explain: In the summer of 2022, Ryan Cohen, a major investor in Bed Bath & Beyond, responded to a tweet about the beleaguered retailer with this side-eyed-moon emoji. Later that month, Cohen -- hailed as a \"meme king\" for his starring role in the GameStop craze -- disclosed that his stake in the company had grown to nearly 12 percent; the stock price subsequently shot up. That week, he sold all of his shares and walked away with a reported $60 million windfall. \n\nNow shareholders are suing him for securities fraud, claiming that Cohen misled investors by using the emoji the way meme-stock types sometimes do -- to suggest that the stock was going \"to the moon.\" A class-action lawsuit with big money on the line has come to legal arguments such as this: \"There is no way to establish objectively the truth or falsity of a tiny lunar cartoon,\" as Cohen's lawyers wrote in an attempt to get the emoji claim dismissed. That argument was denied, and the court held that \"emojis may be actionable.\" \n\nThe humble emoji -- and its older cousin, the emoticon -- has infiltrated the corporate world, especially in tech. Last month, when OpenAI briefly ousted Sam Altman and replaced him with an interim CEO, the company's employees reportedly responded with a vulgar emoji on Slack. That FTX, the failed cryptocurrency exchange once run by Sam Bankman-Fried, apparently used these little icons to approve million-dollar expense reports was held up during bankruptcy proceedings as a damning example of its poor corporate controls. And in February, a judge allowed a lawsuit to move forward alleging that an NFT company called Dapper Labs was illegally promoting unregistered securities on Twitter, because \"the 'rocket ship' emoji, 'stock chart' emoji, and 'money bags' emoji objectively mean one thing: a financial return on investment.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/01/02/1647233/the-humble-emoji-has-infiltrated-the-corporate-world?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T18:40:00.000Z",
+          "wordCount": 7046,
+          "title": "The Humble Emoji Has Infiltrated the Corporate World",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/02/1814220/harvard-president-claudine-gay-resigns?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Crimson: Harvard President Claudine Gay will resign Tuesday afternoon, bringing an end to the shortest presidency in the University's history, according to a person with knowledge of the decision. It is not clear who will be appointed to serve as interim president. \n\nUniversity spokesperson Jonathan L. Swain declined to comment on Gay's decision to step down. Gay's resignation -- just six months and two days into the presidency -- comes amid growing allegations of plagiarism and lasting doubts over her ability to respond to antisemitism on campus after her disastrous congressional testimony Dec. 5.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/02/1814220/harvard-president-claudine-gay-resigns?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T18:14:00.000Z",
+          "wordCount": 13397,
+          "title": "Harvard President Claudine Gay Resigns",
+          "imageUrl": "https://a.fsdn.com/sd/topics/news_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/01/02/1658246/tetris-has-finally-been-beaten-after-34-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A 13-year-old has beaten the original NES Tetris, previously thought to be an impossible task, after 34 years. The Gamer reports: The assumption I always had was that Tetris goes on forever and ever until you finally run out of space. While that's mostly true, as the game has no story, levels, or any form of progress beyond high scores and increasing speed, you 'beat' the game by crashing it, AKA reaching the \"True Killscreen\". It's called the \"True Killscreen\" because, for decades, it was assumed that level 29 was the Killscreen. \n\nFor context, the longer you play Tetris, the faster the blocks fall, upping the ante as you're forced to think in split-second moments about where each piece should drop. The speed caps at level 29, making it near impossible to reach the sides. So, the community believed that was the 'end' of the game. It isn't. The end comes when you reach a level so high, Tetris simply crashes.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/24/01/02/1658246/tetris-has-finally-been-beaten-after-34-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T17:20:00.000Z",
+          "wordCount": 7280,
+          "title": "Tetris Has Finally Been Beaten After 34 Years",
+          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/02/1639240/texas-is-exploring-role-of-ai-in-government?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "When a deluge of jobless claims overwhelmed Texas in 2020, the workforce agency deployed AI chatbot \"Larry\" to field unemployment questions. Larry answered over 21 million queries before being upgraded, but its adoption sparked fears over loss of control. Texas last year established an advisory council to inventory current state AI usages like Larry and consider safeguards against unintended consequences like bias. More than one-third of agencies already use some form of AI, including for job matching, translations and security. From a report: The workforce commission also has an AI tool for job seekers that provides customized recommendations of job openings. Various agencies are using AI for translating languages into English and call center tools such as speech-to-text. AI is also used to enhance cybersecurity and fraud detection. \n\nAutomation is also used for time-consuming work in order to \"increase work output and efficiency,\" according to a statement from the Department of Information Resources. One example of this could be tracking budget expenses and invoices. In 2020, DIR launched an AI Center for Excellence aimed at helping state agencies implement more AI technology. Participation in DIR's center is voluntary, and each agency typically has its own technology team, so the extent of automation and AI deployment at state agencies is not closely tracked. \n\nRight now, Texas state agencies have to verify that the technology they use meets safety requirements set by state law, but there are no specific disclosure requirements on the types of technology or how they are used. HB 2060 will require each agency to provide that information to the AI advisory council by July 2024.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/02/1639240/texas-is-exploring-role-of-ai-in-government?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T16:40:00.000Z",
+          "wordCount": 8262,
+          "title": "Texas Is Exploring Role of AI in Government",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/02/1542229/new-spin-on-a-revolving-door-pentagon-officials-turned-venture-capitalists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Retired officers and departing defense officials are flocking to investment firms that are pushing the government to provide more money to defense-technology startups. The New York Times: When Defense Secretary Lloyd J. Austin III and other top officials assembled for an event this month at the Ronald Reagan Presidential Library, they walked into a lesson in how the high-stakes world of Pentagon lobbying is being altered by the rise of defense technology startups. Inside, at this elite gathering near Los Angeles of senior leaders from government and the arms industry, was a rapidly growing group of participants: former Pentagon officials and military officers who have joined venture capital firms and are trying to use their connections in Washington to cash in on the potential to sell a new generation of weapons. \n\nThey represent a new path through the revolving door that has always connected the Defense Department and the military contracting business. Retiring generals and departing top Pentagon officials once migrated regularly to the big established weapons makers like Lockheed Martin and Boeing. Now they are increasingly flocking to venture capital firms that have collectively pumped billions of dollars into Silicon Valley-style startups offering the Pentagon new war-fighting tools like autonomous killer drones, hypersonic jets and space surveillance equipment. \n\nThis new route to the private sector is one indicator of the ways in which the United States is trying to become more agile in harnessing technological advances to maintain military superiority over China and other rivals. But the close ties between venture capital firms and Defense Department decision makers have also put a new twist on long-running questions about industry access and influence at a time when the Pentagon is under pressure to rethink how it allocates its huge procurement budget.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/02/1542229/new-spin-on-a-revolving-door-pentagon-officials-turned-venture-capitalists?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T16:00:00.000Z",
+          "wordCount": 5652,
+          "title": "New Spin on a Revolving Door: Pentagon Officials Turned Venture Capitalists",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/02/1523251/mozilla-ceo-wants-business-to-pick-up-the-pace?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Mozilla closed out 2023 with a report that dodges its flatlining browser market share and Mozilla.social beta in favor of calls for a faster pace from its highly paid CEO. From a report: According to the company's filings, Mitchell Baker's compensation went from $5,591,406 in 2021 to $6,903,089 in 2022. It's quite the jump considering that revenues declined from $527,585,000 to $510,389,000 in the same period. Despite the executive payout, Firefox continues to trail Google and even Microsoft in desktop browser market share. While it has not suffered any catastrophic losses, neither has it made any significant gains. \n\nBaker, however, would very much like to speed things up and says in the State of Mozilla report: \"The pace is not enough, the impact is not enough.\" Unsurprisingly for a technology company, the report is heavy on AI going mainstream where Mozilla reckons it can make an impact in the technology, particularly with regard to open source developers and privacy. Mozilla's adventures in AI? The organization says it has 15 engineers working on open source large language models and is working on use cases in the healthcare space. Moez Draief, managing director of Mozilla.ai, said: \"There's a lot of structured data work in that industry that will feed the language models; we don't have to invent it.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/02/1523251/mozilla-ceo-wants-business-to-pick-up-the-pace?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T15:23:00.000Z",
+          "wordCount": 7430,
+          "title": "Mozilla CEO Wants Business To Pick Up the Pace",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mozilla_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/02/149259/indias-food-security-problem-is-also-the-worlds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Climate change is already beginning to reshape global agriculture. India, the world's most populous country, looks particularly vulnerable: not just because of extreme weather, but because of government price controls. Fixing the problem is becoming more urgent, both for India and the world -- because India is a big food exporter, too. But politics makes that very difficult. From a report: In early December, India banned overseas shipments of onions until March in an effort to tame domestic prices. That is on top of export restrictions on rice, wheat and sugar already imposed over the past 18 months. And since India is the world's largest rice exporter, second-largest sugar and onion exporter, and a significant wheat producer, the bans are wreaking havoc globally. Thai rice prices had rise…",
+          "link": "https://news.slashdot.org/story/24/01/02/149259/indias-food-security-problem-is-also-the-worlds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-02T14:40:00.000Z",
+          "wordCount": 7210,
+          "title": "India's Food-Security Problem Is Also the World's",
+          "imageUrl": "https://a.fsdn.com/sd/topics/news_64.png"
+        },
         {
           "id": "https://slashdot.org/story/24/01/01/2345250/nikon-sony-and-canon-fight-ai-fakes-with-new-camera-tech?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "msmash",
@@ -4811,86 +4992,6 @@
           "wordCount": 9346,
           "title": "The Robots Will Insider Trade",
           "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/23/12/03/2117250/after-kisss-final-show-theyll-become-digital-avatars-from-industrial-light-magic?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Gene Simmons is 74 years old. But as the singer for the classic rock band KISS left the stage after their final show, USA Today reports there was a surprise:\n in the most on-brand KISS move even by KISS standards, before the quartet likely hit their dressing rooms after disappearing on stage in the blizzard of smoke and confetti that accompanied the set-closing \"Rock and Roll All Nite,\" a message blasted on the video screens: \"A new KISS era starts now.\" \nDigital avatars of the band followed, playing their anthem, \"God Gave Rock and Roll To You.\" \n\nABC News reports:\nThe avatars were created by George Lucas' special-effects company, Industrial Light & Magic, in partnership with Pophouse Entertainment Group, the latter of which was co-founded by ABBA's Björn Ulvaeus. The two companies recent…",
-          "link": "https://entertainment.slashdot.org/story/23/12/03/2117250/after-kisss-final-show-theyll-become-digital-avatars-from-industrial-light-magic?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T22:59:00.000Z",
-          "wordCount": 6257,
-          "title": "After KISS's Final Show, They'll Become Digital Avatars From Industrial Light &amp; Magic",
-          "imageUrl": "https://a.fsdn.com/sd/topics/music_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/03/2059201/how-the-concorde-plans-were-secretly-given-to-the-russians?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Today is the 20th anniversary of its last flight of the supersonic Concorde aircraft. It was faster than the speed of sound, travelling at speeds of 1,350 mph (2,170 km/h). \n\nLong-time Slashdot reader schwit1 shared an article from the Telegraph:\nAs the space race raged and dominated headlines, the U.S. and the Soviet Union were equally competitive about being the first post-war superpower to create a commercial jetliner that could travel faster than the speed of sound.\" Both started work on secret projects, at the same time that Britain and France — who were less hell-bent on imprinting their superiority on geopolitics, but blessed with many of the world's finest engineering minds — were in pursuit of the same goal. \n\nIt has been known for decades that the three-horse race wasn't run enti…",
-          "link": "https://tech.slashdot.org/story/23/12/03/2059201/how-the-concorde-plans-were-secretly-given-to-the-russians?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T21:59:00.000Z",
-          "wordCount": 5851,
-          "title": "How the Concorde Plans Were Secretly Given To the Russians",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/03/2033218/physicists-may-have-found-a-hard-limit-on-the-performance-of-large-quantum-computers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "For circuit-based quantum computations, the achievable circuit complexity is limited by the quality of timekeeping. That's according to a new analysis published in the journal Physical Review Letters exploring \"the effect of imperfect timekeeping on controlled quantum dynamics.\" \n\nAn announcement from the Vienna University of Technology explains its significance. \"The research team was able to show that since no clock has an infinite amount of energy available (or generates an infinite amount of entropy), it can never have perfect resolution and perfect precision at the same time. This sets fundamental limits to the possibilities of quantum computers.\" \n\n ScienceAlert writes:\nWhile the issue isn't exactly pressing, our ability to grow systems based on quantum operations from backroom proto…",
-          "link": "https://science.slashdot.org/story/23/12/03/2033218/physicists-may-have-found-a-hard-limit-on-the-performance-of-large-quantum-computers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T20:59:00.000Z",
-          "wordCount": 5426,
-          "title": "Physicists May Have Found a Hard Limit on The Performance of Large Quantum Computers",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/03/1957243/are-captchas-more-than-just-annoying?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The Atlantic writes:\n\nFailing a CAPTCHA isn't just annoying — it keeps people from navigating the internet. Older people can take considerably more time to solve different kinds of CAPTCHAs, according to the UC Irvine researchers, and other research has found that the same is true for non-native English speakers. The annoyance can lead a significant chunk of users to just give up. \n\nBut is it all also just a big waste of time? The article notes there's now even CAPTCHA-solving services you can hire. (\"2Captcha will solve a thousand CAPTCHAs for a dollar, using human workers paid as low as 50 cents an hour. Newer companies, such as Capsolver, claim to instead be using AI and charge roughly the same price.\") \n\nAnd they also write that this summer saw more discouraging news:\n\nIn a recent stud…",
-          "link": "https://hardware.slashdot.org/story/23/12/03/1957243/are-captchas-more-than-just-annoying?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T19:59:00.000Z",
-          "wordCount": 6667,
-          "title": "Are CAPTCHAs More Than Just Annoying?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/03/011249/plants-may-be-absorbing-20-more-co2-than-we-thought-new-models-find?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader writes: Using realistic ecological modeling, scientists led by Western Sydney University's Jürgen Knauer found that the globe's vegetation could actually be taking on about 20% more of the CO2 humans have pumped into the atmosphere and will continue to do so through to the end of the century. \n\n\"What we found is that a well-established climate model that is used to feed into global climate assessments by the likes of the IPCC (Intergovernmental Panel on Climate Change) predicts stronger and sustained carbon uptake until the end of the 21st century when extended to account for the impact of some critical physiological processes that govern how plants conduct photosynthesis,\" said Knauer. \n\nMathematical models of ecological systems are used to understand complex ecological processes and in turn attempt to predict how the real ecosystems they're based on will change. The researchers found that the more complex their modeling, the more surprising the results – in the environment's favor. \n\nCurrent models, the team adds, are not that complex so likely underestimate future CO2 uptake by vegetation... [T]he modeling makes a strong case for the value of greening projects and their importance in comprehensive approaches to tackling global warming.\n\n\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/03/011249/plants-may-be-absorbing-20-more-co2-than-we-thought-new-models-find?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T18:34:00.000Z",
-          "wordCount": 7072,
-          "title": "Plants May Be Absorbing 20% More CO2 Than We Thought, New Models Find",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/03/0031242/church-in-new-orleans-establishes-its-own-solar-powered-electricity-resilience-hub?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Back in 2021 Hurricane Ida knocked out power lines in New Orleans, leaving parts of the city in darkness for 10 days. \n\nSo a coalition of community-based organizations (including some churches) decided to build \"solar-powered disaster response hubs that could transform the city's approach to resilience,\" reports the Guardian. So far there's seven, but the group \"has ambitions to build dozens more.\"\n\n\nOn a bright, balmy autumn morning a couple of weeks ago [61-year-old pastor Antoine] Barriere climbed a long, steep ladder to show me the 460 solar panels that now cover a third or so of his church's flat roof. The solar panels were generating more than enough energy to power Household of Faith, a non-denominational megachurch with 4,000 mostly Black parishioners in New Orleans East. Downstair…",
-          "link": "https://hardware.slashdot.org/story/23/12/03/0031242/church-in-new-orleans-establishes-its-own-solar-powered-electricity-resilience-hub?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T17:34:00.000Z",
-          "wordCount": 7857,
-          "title": "Church In New Orleans Establishes its Own Solar-Powered Electricity Resilience Hub",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/03/0113253/eff-proposes-addressing-online-harms-with-privacy-first-policies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Long-time Slashdot reader nmb3000 writes: The Electronic Frontier Foundation has published a new white paper, Privacy First: A Better Way to Address Online Harms , to propose an alternative to the \"often ill-conceived, bills written by state, federal, and international regulators to tackle a broad set of digital topics ranging from child safety to artificial intelligence.\" According to the EFF, \"these scattershot proposals to correct online harm are often based on censorship and news cycles. Instead of this chaotic approach that rarely leads to the passage of good laws, we propose another solution.\" \n\nThe EFF writes:\n\nWhat would this comprehensive privacy law look like? We believe it must include these components:\n\n\n No online behavioral ads.Data minimization.Opt-in consent.User rights to access, port, correct, and delete information.No preemption of state laws.Strong enforcement with a private right to action.No pay-for-privacy schemes.No deceptive design.\n\nA strong comprehensive data privacy law promotes privacy, free expression, and security. It can also help protect children, support journalism, protect access to health care, foster digital justice, limit private data collection to train generative AI, limit foreign government surveillance, and strengthen competition. These are all issues on which lawmakers are actively pushing legislation—both good and bad.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/12/03/0113253/eff-proposes-addressing-online-harms-with-privacy-first-policies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T16:34:00.000Z",
-          "wordCount": 6269,
-          "title": "EFF Proposes Addressing Online Harms with 'Privacy-First' Policies",
-          "imageUrl": "https://a.fsdn.com/sd/topics/eff_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/03/0315224/the-annual-emacs-conference-emacsconf-is-livestreaming-now?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "It's \"the conference about the joy of Emacs and Emacs Lisp.\" Started in 2013, the volunteer-run EmacsConf accepted 44 talks for this year — and Day Two has just started streaming online now. \nSunday kicks off with a talk counting on how the \"hypertextual information manager\" GNU Hyperbole can improve your Emacs productivity. (Click here for a list of all of Sunday's talks.) Or hang out in the #emacsconf channel on irc.libera.chat. \n\nThe Free Software Foundation provided fiscal sponsorship for this year's event, noting that \"The conference has grown rapidly in the last few years\" and \"welcomes speakers of all backgrounds and all levels of experience from across the world. \n\"EmacsConf is rooted in the active, passionate community surrounding GNU Emacs, and like Emacs itself, it is committed to user freedom. It is organized and run using an entirely free software stack.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/03/0315224/the-annual-emacs-conference-emacsconf-is-livestreaming-now?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-03T14:00:00.000Z",
-          "wordCount": 6319,
-          "title": "The Annual Emacs Conference 'EmacsConf' is Livestreaming Now",
-          "imageUrl": "https://a.fsdn.com/sd/topics/gnu_64.png"
         }
       ]
     }
