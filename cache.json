@@ -46,6 +46,26 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/the-reality-of-the-danish-fairytale-78069fbf",
+          "author": null,
+          "description": "Denmark has long ranked high on the list of societies that American liberals dream about turning the United States into. And for many good reasons. Education is state-funded, and students are even paid a stipend to go to university. Health care is equally free of individual charge, and there’s generally a robust social safety net for unemployment, maternity leave, and the like. Not to mention the fact that Copenhagen is one of the most enthusiastic biking cities in the world, as well as being one of the very safest. There’s a lot to love about Denmark, and I do.\nBut to pine for a society like the Danish purely on the basis of the benefits is delusional. These benefits are fenced by a myriad of compromises and obligations. The fawning, superficial adoration that American liberals usually be…",
+          "link": "https://world.hey.com/dhh/the-reality-of-the-danish-fairytale-78069fbf",
+          "publishedOn": "2024-01-04T16:41:32.000Z",
+          "wordCount": 2259,
+          "title": "The reality of the Danish fairytale",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
+          "id": "https://world.hey.com/dhh/a-writer-s-ruby-2050b634",
+          "author": null,
+          "description": "Programmers at large seem eternally skeptical of style. And I’m not just talking about the stereotype of nerds in uncoordinated outfits or using pocket protectors. But style in the broad sense of aesthetics. Many appear imbued with fundamental opposition to the idea that how something looks should even matter. That somehow such a focus is conflict with where it ought to be: on substance. This is very apparent in the discussion about linting code.\nLinting is a term for applying a consistent style to source code. Like following Strunk & White’s grammatical guidelines for prose, but automatically enforced by a linting program. It’s a technique that’s been around for a long time, but one that’s seen broader adoption with the advent of cloud-based continuous integration setups, which run tests,…",
+          "link": "https://world.hey.com/dhh/a-writer-s-ruby-2050b634",
+          "publishedOn": "2024-01-04T13:19:39.000Z",
+          "wordCount": 793,
+          "title": "A writer's Ruby",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/new-year-new-calendar-58d70855",
           "author": null,
           "description": "We’ve spent the last year tackling the number one request for our email service HEY.com: Adding a calendar! And now, in celebration of the new year, it’s finally ready, and we’re rolling it out to the first customers starting today 🎉\nSee, it turns out that lots of people would love to switch their email to HEY, whether it’s because they want The Screener, they’re disgusted by spy pixels, they want a better newsletter reading experience, they want to start writing regularly with HEY World, they want to reclaim their attention using buckets of time, or any of the other tons of novel features that make email a pleasure to use with HEY. BUT! They just can’t do it without an integrated calendar. It’s the one thing that kept them using Gmail or Outlook or whatever.\nWe heard that feedback from t…",
@@ -221,6 +241,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/bliki/LegacySeam.html",
+          "author": null,
+          "description": "When working with a legacy system it is valuable to identify and create seams:\n  places where we can alter the behavior of the system without editing\n  source code. Once we've found a seam, we can use it to break dependencies to\n  simplify testing, insert probes to gain observability, and redirect program\n  flow to new modules as part of legacy displacement.\nMicheal Feathers coined the term “seam” in the context of legacy systems in\n  his book Working Effectively with Legacy Code. His definition: “a seam is a place\n  where you can alter behavior in your program without editing in that place”.\nHere's an example of where a seam would be handy. Imagine some code to\n  calculate the price of an order.\n// TypeScript\nexport async function calculatePrice(order:Order) {\n  const itemPrices = order.i…",
+          "link": "https://martinfowler.com/bliki/LegacySeam.html",
+          "publishedOn": "2024-01-04T14:13:00.000Z",
+          "wordCount": 1156,
+          "title": "Bliki: Legacy Seam",
+          "imageUrl": "https://martinfowler.com/logo-sq.png"
+        },
         {
           "id": "https://martinfowler.com/articles/2023-music.html",
           "author": null,
@@ -675,36 +705,6 @@
           "wordCount": 809,
           "title": "Santa Claus is not a god... yet",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/buyday",
-          "author": null,
-          "description": "Consolidate non-essential purchases to fewer days.",
-          "link": "https://taylor.town/buyday",
-          "publishedOn": "2023-12-06T00:00:00.000Z",
-          "wordCount": 206,
-          "title": "How to Observe Buydays",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/wish-manifesto",
-          "author": null,
-          "description": "An honest wishlist lays bare your values, motivations, and desires.",
-          "link": "https://taylor.town/wish-manifesto",
-          "publishedOn": "2023-12-06T00:00:00.000Z",
-          "wordCount": 948,
-          "title": "Make a /wish page!",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/wish",
-          "author": null,
-          "description": "My wishlist is honest and sometimes embarassing.",
-          "link": "https://taylor.town/wish",
-          "publishedOn": "2023-12-06T00:00:00.000Z",
-          "wordCount": 682,
-          "title": "/wish",
-          "imageUrl": null
         }
       ]
     },
@@ -713,6 +713,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://entertainment.slashdot.org/story/24/01/04/2213256/us-pay-tv-subscriber-base-eroding-at-record-pace?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to MoffettNathanson, the U.S. pay-TV industry had its worst-ever third quarter after losing about 900,000 subscribers. \"That poor result, the research firm added, left the total pay-TV industry shrinking at a record pace of -7.3%, widened from a year-ago decline of -5.9%,\" reports Light Reading. \"It also left pay-TV penetration of occupied households (including vMVPDs) at just 54.8% -- a level last seen in 1989, five years before the debut of DirecTV.\" From the report: Drilling down on Q3 results, traditional pay-TV providers (cable, telco and satellite) shed 1.97 million subscribers, widened from a loss of 1.94 million in the year-ago quarter. Within that category, US cable lost 1.10 million video subs in Q3, versus a loss of -1.09 million in the year-ago period. Satellite operators (Dish Network and DirecTV) lost 667,000 subs in Q3, versus -567,000 in the year-ago quarter. Telco TV providers lost 198,000 video subs in the period, an improvement when compared to a year-ago loss of -250,000 subs.\n \nvMVPDs, meanwhile, added 1.08 million in Q3, down from a year-ago gain of about 1.34 million. Despite those gains, vMVPDs recaptured only 21.7% of traditional pay-TV's subscriber losses in the period, according to MoffettNathanson. Meanwhile, YouTube TV continues to dominate the vMVPD category. MoffettNathanson estimates that YouTube TV added about 350,000 subs in Q3, extending its total to 7 million -- representing 40% of the vMVPD sector's 18 million subscriber total. \"Based on our Q3 estimate, YouTube TV has now surpassed Dish Network [6.72 million satellite TV subs at the end of Q3] to become the country's fourth largest MVPD of any kind,\" Moffett noted. \"At the current trajectory, YouTube TV should pass DirecTV for third place in less than a year.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/24/01/04/2213256/us-pay-tv-subscriber-base-eroding-at-record-pace?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-05T00:45:00.000Z",
+          "wordCount": 4443,
+          "title": "US Pay-TV Subscriber Base Eroding At Record Pace",
+          "imageUrl": "https://a.fsdn.com/sd/topics/tv_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/04/2038233/chatgpt-bombs-test-on-diagnosing-kids-medical-cases-with-83-error-rate?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: ChatGPT is still no House, MD. While the chatty AI bot has previously underwhelmed with its attempts to diagnose challenging medical cases -- with an accuracy rate of 39 percent in an analysis last year -- a study out this week in JAMA Pediatrics suggests the fourth version of the large language model is especially bad with kids. It had an accuracy rate of just 17 percent when diagnosing pediatric medical cases. The low success rate suggests human pediatricians won't be out of jobs any time soon, in case that was a concern. As the authors put it: \"[T]his study underscores the invaluable role that clinical experience holds.\" But it also identifies the critical weaknesses that led to ChatGPT's high error rate and ways to transform it int…",
+          "link": "https://science.slashdot.org/story/24/01/04/2038233/chatgpt-bombs-test-on-diagnosing-kids-medical-cases-with-83-error-rate?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-05T00:02:00.000Z",
+          "wordCount": 5233,
+          "title": "ChatGPT Bombs Test On Diagnosing Kids' Medical Cases With 83% Error Rate",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/04/211216/google-is-preparing-a-paid-version-of-bard?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "As spotted by X user bedros_p, Google appears to be preparing to introduce a paid upgrade for Bard Advanced, a \"new, cutting-edge AI experience\" announced in December that gives users access to Google's best models and capabilities. Android Police reports: According to the strings, you will be able to \"Try Bard Advanced for 3 months, on us.\" After that test period, you will likely have to pay up for the service. A defunct link within the code suggests that it may be part of Google One, but it's not clear if Bard Advanced will be added to all tiers or only more expensive ones with more Google Drive storage. It's also possible that it will be an extra new tier in Google One.\n \nAs a refresher, Google launched its most capable AI model yet in December 2023, called Gemini. The LLM is available in three tiers, including a Nano version capable of running on devices like phones and a Pro version currently powering Bard in the US. There is also a Gemini Ultra which isn't public just yet, but supposedly outperforms other LLMs in almost all metrics. Google says that this is the one that will power Bard Advanced.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/04/211216/google-is-preparing-a-paid-version-of-bard?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T23:20:00.000Z",
+          "wordCount": 4236,
+          "title": "Google Is Preparing a Paid Version of Bard",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/24/01/04/2050232/amd-proposes-an-fpga-subsystem-user-space-interface-for-linux?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Michael Larabel reports via Phoronix: AMD engineers are proposing an FPGA Subsystem User-Space Interface to overcome current limitations of the Linux kernel's FPGA manager subsystem. AMD-Xilinx engineers are proposing a new sysfs interface for the FPGA subsystem that allows for more user-space control over FPGAs. The suggested interface would handle FPGA configuration, driver probe/remove, bridges, Device Tree Overlay file support for re-programming an FPGA while the operating system is running, and other capabilities for user-space not currently presented by the mainline kernel. [...] This proposal from AMD hopes to standardize the FPGA subsystem user-space interface in a manner that is suitable for upstreaming into the mainline Linux kernel.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://linux.slashdot.org/story/24/01/04/2050232/amd-proposes-an-fpga-subsystem-user-space-interface-for-linux?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T22:40:00.000Z",
+          "wordCount": 4440,
+          "title": "AMD Proposes An FPGA Subsystem User-Space Interface For Linux",
+          "imageUrl": "https://a.fsdn.com/sd/topics/amd_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/04/2045257/ucla-will-transform-dead-westside-mall-into-major-science-innovation-center?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from the Los Angeles Times: The former Westside Pavilion, a long shuttered indoor mall, will be transformed into a UCLA biomedical research center aimed at tackling such towering challenges as curing cancer and preventing global pandemics, officials announced Wednesday. The sprawling three-story structure will be known as the UCLA Research Park and will house two multidisciplinary centers focusing on immunology and immunotherapy as well as quantum science and engineering. Establishment of the public-private research center is a coup for Southern California that \"will cement California's global, economic, scientific and technical dominance into the 22nd century and beyond,\" said Gov. Gavin Newsom.\n \nThe former owners of the mall, Hudson Pacific Properties…",
+          "link": "https://news.slashdot.org/story/24/01/04/2045257/ucla-will-transform-dead-westside-mall-into-major-science-innovation-center?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T22:02:00.000Z",
+          "wordCount": 4475,
+          "title": "UCLA Will Transform Dead Westside Mall Into Major Science Innovation Center",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/04/2022245/all-science-journals-will-now-do-an-ai-powered-check-for-image-fraud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The research publisher Science announced today that all of its journals will begin using commercial software that automates the process of detecting improperly manipulated images. From a report: The move comes many years into our awareness that the transition to digital data and publishing has made it comically easy to commit research fraud by altering images. While the move is a significant first step, it's important to recognize the software's limitations. While it will catch some of the most egregious cases of image manipulation, enterprising fraudsters can easily avoid being caught if they know how the software operates. Which, unfortunately, we feel compelled to describe (and, to be fair, the company that has developed the software does so on its website). \n\nMuch of the image-based fraud we've seen arises from a dilemma faced by many scientists: It's not a problem to run experiments, but the data they generate often isn't the data you want. Maybe only the controls work, or maybe the experiments produce data that is indistinguishable from controls. For the unethical, this doesn't pose a problem since nobody other than you knows what images come from which samples. It's relatively simple to present images of real data as something they're not. To make this concrete, we can look at data from a procedure called a western blot, which uses antibodies to identify specific proteins from a complex mixture that has been separated according to protein size. Typical western blot data looks like the image at right, with the darkness of the bands representing proteins that are present at different levels in different conditions.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/01/04/2022245/all-science-journals-will-now-do-an-ai-powered-check-for-image-fraud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T21:21:00.000Z",
+          "wordCount": 4801,
+          "title": "All Science Journals Will Now Do an AI-Powered Check for Image Fraud",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/01/04/2020226/microsofts-xbox-series-s-toaster-goes-on-sale?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Both of Microsoft's current Xbox consoles now have kitchen appliance counterparts. The Xbox Series S toaster recently debuted, following up the Xbox Series X refrigerator. It's available for purchase from Walmart for $39.99. In place of its ability to connect to a TV and play games, it can toast bread or bagels, imprinting the Xbox logo onto its side with its internal heat coils. The Series S toaster has a slot long enough to fit two slices of bread side by side, which I suppose can be considered multiplayer support if the bread is for two people. As with most toasters, this one has different toast browning levels, a removeable crumb tray, a bread ejection function, and automatic shutoff.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/24/01/04/2020226/microsofts-xbox-series-s-toaster-goes-on-sale?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T20:44:00.000Z",
+          "wordCount": 5476,
+          "title": "Microsoft's Xbox Series S Toaster Goes on Sale",
+          "imageUrl": "https://a.fsdn.com/sd/topics/xbox_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/04/208204/law-firm-that-handles-data-breaches-was-hit-by-data-breach?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An international law firm that works with companies affected by security incidents has experienced its own cyberattack that exposed the sensitive health information of hundreds of thousands of data breach victims. From a report: San Francisco-based Orrick, Herrington & Sutcliffe said last week that hackers stole the personal information and sensitive health data of more than 637,000 data breach victims from a file share on its network during an intrusion in March 2023. Orrick works with companies that are hit by security incidents, including data breaches, to handle regulatory requirements, such as obtaining victims' information in order to notify state authorities and the individuals affected. In a series of data breach notification letters sent to affected individuals, Orrick said the hackers stole reams of data from its systems that pertain to security incidents at other companies, during which Orrick served as legal counsel.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/01/04/208204/law-firm-that-handles-data-breaches-was-hit-by-data-breach?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T20:07:00.000Z",
+          "wordCount": 5003,
+          "title": "Law Firm That Handles Data Breaches Was Hit By Data Breach",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/04/198251/starbucks-accused-of-rigging-payments-in-app-for-nearly-900-million-gain-over-5-years-by-consumer-watchdog-group?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A consumer action group is accusing Starbucks of exploiting customers via its gift card and app payments, forcing them to enter a spending cycle where they will never be able to fully spend the remaining balance of prepaid amounts. From a report: The Washington Consumer Protection Coalition, a self-described \"movement of everyday consumers advocating for corporate accountability,\" is calling on the state attorney general to investigate whether the company's policies violate consumer protection laws. \n\n\"Starbucks rigs its payment platform so consumers are encouraged to leave unspent money on their cards and apps,\" said Chris Carter, campaign manager for the group, in a statement. \"A few dollars here and there left on a payment platform may not sound like a lot but it adds up. Over the last five years Starbucks has claimed nearly $900 million in unspent gift card and app money as corporate revenue, boosting corporate profits and inflating executive bonuses.\" \n\n[...] The group, in a 15-page complaint, alleges the platforms for Starbucks' mobile app and digital payment cards are akin to an \"involuntary subscription.\" Customers can only reload money in $5 increments, with a $10 minimum purchase. That, the group says, prevents customers from ever reaching a zero balance, meaning Starbucks pockets more of the customer's money. The Coalition does concede that customers can reload their accounts in stores for a custom amount of $5 or more, making it easier to hit a zero balance.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/01/04/198251/starbucks-accused-of-rigging-payments-in-app-for-nearly-900-million-gain-over-5-years-by-consumer-watchdog-group?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T19:23:00.000Z",
+          "wordCount": 8737,
+          "title": "Starbucks Accused of Rigging Payments in App For Nearly $900 Million Gain Over 5 Years by Consumer Watchdog Group",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/04/1825203/new-cars-bought-in-the-uk-must-be-zero-emission-by-2035?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "All new cars and vans bought in the UK must be zero emission by 2035, according to the latest legal mandate updated this week. From a report: The date for all new petrol and diesel cars to be banned was originally set for 2030. However, in September, Prime Minister Rishi Sunak pushed this date back to 2035. The government says this is giving consumers more time to make the switch and deal with the UK's charging infrastructure. \n\nThe transition will still be challenging. Eighty percent of new cars and 70 percent of new vans sold in Great Britain must be zero emission by 2030, increasing to 100 percent by 2035. While the government points to statistics indicating a 41 percent increase in zero-emission vehicles registered for the first time -- note, the vast majority of newly registered vehicles still remain conventionally powered -- charging infrastructure is an altogether different story. The government boasts of more than 50,000 public charge points, an increase of 44 percent year on year, but not all chargers are born equal. According to research from RAC, a local roadside assistance business, the government has failed to meet its target of having six or more rapid or ultra-rapid electric vehicle chargers at every motorway service area in England.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/04/1825203/new-cars-bought-in-the-uk-must-be-zero-emission-by-2035?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T18:45:00.000Z",
+          "wordCount": 12130,
+          "title": "New Cars Bought in the UK Must Be Zero Emission by 2035",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/04/187248/openai-to-launch-gpt-store-next-week?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "OpenAI plans to launch the GPT Store, its app store for AI, next week, the company informed customers Thursday. The company -- which initially planned to launch the app store late last year but delayed amid the corporate drama -- didn't share how it plans to split revenue with developers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/04/187248/openai-to-launch-gpt-store-next-week?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T18:07:00.000Z",
+          "wordCount": 4184,
+          "title": "OpenAI To Launch GPT Store Next Week",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/04/1722259/germanys-emissions-hit-70-year-low-as-it-reduces-reliance-on-coal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Germany's emissions hit a 70-year low last year as Europe's largest economy reduced its reliance on coal. From a report: A study by the thinktank Agora Energiewende found that Germany emitted 673m tonnes of greenhouse gases in 2023, 73m tonnes fewer than in 2022. The drop was \"largely attributable to a strong decrease in coal power generation,\" Agora said, accounting for a reduction of 46m tonnes in CO2 emissions. Emissions from industry fell significantly, largely due to a decline in production by energy-intensive companies. \n\nElectricity generation from renewable sources was more than 50% of the total in 2023 for the first time, while coal's share dropped to 26% from 34%, according to the federal network agency. Germany had resorted to coal following the Russian invasion of Ukraine, when Moscow cut off gas supplies. But since then Germany has significantly reduced its use of the fossil fuels.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/04/1722259/germanys-emissions-hit-70-year-low-as-it-reduces-reliance-on-coal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T17:23:00.000Z",
+          "wordCount": 10438,
+          "title": "Germany's Emissions Hit 70-Year Low As It Reduces Reliance on Coal",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/04/1647258/lg-develops-oled-monitor-that-can-hit-480hz-refresh-rate?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "LG says it developed a 27-inch OLED gaming monitor that can reach an incredibly high 480Hz refresh rate, promising to usher in an \"era of OLEDs featuring ultra-high refresh rates,\" LG says. From a report: LG says it achieved the 480Hz rate on a QHD 2,560-by-1,440-resolution display. Other vendors, including Alienware and Asus, have also introduced PC monitors that can hit 500Hz. But they did so using IPS or TN panels at a lower 1920-by-1080 resolution. OLED panels, on the other hand, are known for offering stunning color contrasts, and true blacks, resulting in top-notch picture quality. \n\nThe 480Hz refresh rate will be overkill for the average gamer. But the ultra-high refresh rate could appeal to competitive players, where latency and smooth gameplay matters. LG adds that the 27-inch OLED monitor features a 0.03-millisecond response time. The OLED panel should also be easier on the eyes during long playthroughs. \"The company's Gaming OLEDs emit the lowest level of blue light in the industry and approximately half the amount emitted by premium LCDs,\" LG says. \"This reduction in blue light not only minimizes eye fatigue but also eliminates flickers, providing gamers with more comfortable and enjoyable gaming sessions.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/04/1647258/lg-develops-oled-monitor-that-can-hit-480hz-refresh-rate?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T16:47:00.000Z",
+          "wordCount": 10287,
+          "title": "LG Develops OLED Monitor That Can Hit 480Hz Refresh Rate",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/04/1522236/museum-world-hit-by-cyberattack-on-widely-used-software?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Several prominent museums have been unable to display their collections online since a cyberattack hit a prominent technological service provider that helps hundreds of cultural organizations show their works digitally and manage internal documents. From a report: The Museum of Fine Arts Boston, the Rubin Museum of Art in New York and the Crystal Bridges Museum of American Art in Arkansas were among the institutions confirming that their systems have experienced outages in recent days. The service provider, Gallery Systems, said in a recent message to clients, which was obtained by The New York Times, that it had noticed a problem on Dec. 28, when computers running its software became encrypted and could no longer operate. \n\n\"We immediately took steps to isolate those systems and implemented measures to prevent additional systems from being affected, including taking systems offline as a precaution,\" the company said in the message. \"We also launched an investigation and third-party cybersecurity experts were engaged to assist. In addition, we notified law enforcement.\" Signs of disruption were evident on several museum websites because eMuseum, a tool that usually lets visitors search online collections, was down. There was also disruption behind the scenes: Some curators said that they had returned from their winter vacations to find themselves unable to access sensitive information from another Gallery Systems program called TMS. That system can include the names of donors, loan agreements, provenance records, shipping information and storage locations of priceless artworks.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/01/04/1522236/museum-world-hit-by-cyberattack-on-widely-used-software?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T16:00:00.000Z",
+          "wordCount": 4334,
+          "title": "Museum World Hit by Cyberattack on Widely Used Software",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/04/1447213/jeff-bezos-bets-on-a-google-challenger-using-ai-to-try-to-upend-internet-search?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Perplexity, a startup going after Google's dominant position in web search, has won backing from Jeff Bezos and venture capitalists betting that artificial intelligence will upend the way people find information online. From a report: Started less than two years ago, Perplexity has fewer than 40 employees and is based out of a San Francisco co-working space. The company's product, which it calls an answer engine, is used by about 10 million people monthly. Those ingredients were enough to persuade Institutional Venture Partners, Bezos and other tech executives to invest $74 million in the company, the largest sum raised by an internet search startup in recent years. The investment valued Perplexity at $520 million, including the new money, said Chief Executive Officer Aravind Srinivas. \n\nAmazon.com, the e-commerce company chaired by Bezos, has committed to investing billions in Anthropic, the AI startup behind the chatbot Claude. The path to competing with Google is littered with carcasses, and Microsoft itself has struggled for years to dislodge the company's roughly 90% market share in online search. Others, including tech giants, are incorporating AI into their search engines. Perplexity's founders said their advantage is using advances in AI to provide direct answers, instead of website links, in response to search queries, without some of the limitations felt by larger companies.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/04/1447213/jeff-bezos-bets-on-a-google-challenger-using-ai-to-try-to-upend-internet-search?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-04T15:20:00.000Z",
+          "wordCount": 5971,
+          "title": "Jeff Bezos Bets on a Google Challenger Using AI To Try To Upend Internet Search",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
         {
           "id": "https://hardware.slashdot.org/story/24/01/03/2250210/japan-to-test-datacenter-powered-by-reused-hydrogen-fuel-cells?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4852,156 +5002,6 @@
           "wordCount": 6046,
           "title": "Google Just Unveiled Gemini",
           "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/06/0022203/congress-spent-billions-on-ev-chargers-but-not-one-has-come-online?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Press2ToContinue shares a report from Politico: Congress at the urging of the Biden administration agreed in 2021 to spend $7.5 billion to build tens of thousands of electric vehicle chargers across the country, aiming to appease anxious drivers while tackling climate change. Two years later, the program has yet to install a single charger. States and the charger industry blame the delays mostly on the labyrinth of new contracting and performance requirements they have to navigate to receive federal funds. While federal officials have authorized more than $2 billion of the funds to be sent to states, fewer than half of states have even started to take bids from contractors to build the chargers -- let alone begin construction. [...]\n \nThe goal is a reliable and standardized network in ever…",
-          "link": "https://tech.slashdot.org/story/23/12/06/0022203/congress-spent-billions-on-ev-chargers-but-not-one-has-come-online?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-06T00:50:00.000Z",
-          "wordCount": 4132,
-          "title": "Congress Spent Billions On EV Chargers. But Not One Has Come Online.",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/23/12/05/239237/pixars-disney-pandemic-movies-are-hitting-theaters-after-all?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "In 2024, the Pixar films that debuted on Disney+ during the COVID-19 pandemic years when theaters were shut down will be returning to the big screen. Those include Soul, Luca and Turning Red. Engadget reports: Soul will get a theatrical release on January 12, Turning Red will hit cinemas on February 9 and Luca will emerge on a silver screen near you on March 22. Given that these movies have been around for as long as three years, it's unlikely that they'll set the box office charts alight. But the theatrical releases mean you'll have a chance to enjoy these films as originally intended.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/23/12/05/239237/pixars-disney-pandemic-movies-are-hitting-theaters-after-all?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-06T00:10:00.000Z",
-          "wordCount": 4283,
-          "title": "Pixar's Disney+ Pandemic Movies Are Hitting Theaters After All",
-          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/05/232218/windows-10-gets-three-more-years-of-security-updates-if-you-can-afford-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: Windows 10's end-of-support date is October 14, 2025. That's the day that most Windows 10 PCs will receive their last security update and the date when most people should find a way to move to Windows 11 to ensure that they stay secure. As it has done for other stubbornly popular versions of Windows, though, Microsoft is offering a reprieve for those who want or need to stay on Windows 10: three additional years of security updates, provided to those who can pay for the Extended Security Updates (ESU) program.\n \nThe initial announcement, written by Windows Servicing and Delivery Principal Product Manager Jason Leznek, spends most of its time encouraging users and businesses to upgrade to Windows 11 rather than staying on 10, either by updating their current computers, upgrading to new PCs or transitioning to a Windows 365 cloud-based PC instead. But when Leznek does get to the announcement of the ESU program, the details are broadly similar to the program Microsoft offered for Windows 7 a few years ago: three additional years of monthly security updates and technical support, paid for one year at a time. The company told us that \"pricing will be provided at a later date,\" but for the Windows 7 version of the ESU program, Microsoft upped the cost of the program each year to encourage people to upgrade to a newer Windows version before they absolutely had to; the cost was also per-seat, so what you paid was proportional to the number of PCs you needed updates for.\n \nOne difference this time is that Microsoft told us it would be offering Windows 10 ESU updates to individuals, though the company didn't offer particulars. More details should be available on Windows 10's lifecycle support page soon. Leznek reiterated that Windows 10 22H2 would be the final version of Windows 10 and that the operating system would not receive any additional features during the ESU period.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/05/232218/windows-10-gets-three-more-years-of-security-updates-if-you-can-afford-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T23:30:00.000Z",
-          "wordCount": 5334,
-          "title": "Windows 10 Gets Three More Years of Security Updates, If You Can Afford Them",
-          "imageUrl": "https://a.fsdn.com/sd/topics/windows_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/05/2149233/chatgpt-tops-wikipedias-most-viewed-articles-of-2023-list?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to the Wikimedia Foundation, the page on \"ChatGPT\" was the most-viewed English article on Wikipedia in 2023, attracting nearly 50 million page views. The Hill reports: Wikimedia Foundation said English Wikipedia pages attracted more than 84 billion total page views in 2023, and ChatGPT topped its annual top 25 chart with a total of 49.5 million page views. The chatbot, created by Sam Altman's OpenAI, soared in popularity this year, as much of the public got its first chance to use artificial intelligence hands-on. The AI system debuted just more than a year ago, Nov. 30, 2022, and surpassed 100 million users, the nonprofit said.\n \nFollowing ChatGPT, \"Deaths in 2023\" was the second most-popular page with 42.7 million views; \"2023 Cricket World Cup\" came in third place with 38.2 million views; \"Indian Premier League\" placed fourth with 32 million views; and \"Oppenheimer (film)\" rounded out the top five with 28.3 million views. The rest of the list includes articles on sports, film/television, celebrities and some current events. The full list of the top 25 most popular English Wikipedia articles in 2023 is available here.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/05/2149233/chatgpt-tops-wikipedias-most-viewed-articles-of-2023-list?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T22:50:00.000Z",
-          "wordCount": 4341,
-          "title": "ChatGPT Tops Wikipedia's Most-Viewed Articles of 2023 List",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/05/2137255/us-students-math-scores-plunge-in-global-education-assessment?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Ivana Saric reports via Axios: U.S. students lag behind their peers in many industrialized countries when it comes to math, according to the results of a global exam released Tuesday. U.S. students saw a 13-point drop in their 2022 Program for International Student Assessment (PISA) math results when compared to the 2018 exam. The 2022 math score was not only lower than it was in 2012 but it was \"among the lowest ever measured by PISA in mathematics\" for the U.S., per the Organisation for Economic Co-operation and Development (OECD) country note. The 2018 PISA assessment found that U.S. students straggled behind their peers in East Asia and Europe, per the Washington Post.\n \nPISA examines the proficiency of 15-year-olds in reading, mathematics, and science worldwide. The 2022 PISA edition is the first to take place since the pandemic and compares the test results of nearly 700,000 students across 81 OECD member states and partner economies. The exam, coordinated by the OECD, was first administered in 2000 and is conducted every three years. Due to the COVID-19 pandemic, the 2021 test was delayed until 2022. What about the rest of the world? According to Axios, a total of 31 countries and economies \"maintained or improved upon their 2018 math scores, including Switzerland and Japan.\"\n \n\"10 countries and economies -- Canada, Denmark, Finland, Hong Kong, Ireland, Japan, Korea, Latvia, Macao and the U.K. -- saw their students score proficiently in all three domains and had 'high levels of socio-economic fairness,'\" the report adds.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/12/05/2137255/us-students-math-scores-plunge-in-global-education-assessment?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T22:10:00.000Z",
-          "wordCount": 8712,
-          "title": "US Students' Math Scores Plunge In Global Education Assessment",
-          "imageUrl": "https://a.fsdn.com/sd/topics/math_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/05/2129258/facebook-kills-pgp-encrypted-emails?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TechCrunch: In 2015, as part of the wave of encrypting all the things on the internet, encouraged by the Edward Snowden revelations, Facebook announced that it would allow users to receive encrypted emails from the company. Even at the time, this was a feature for the paranoid users. By turning on the feature, all emails sent from Facebook -- mostly notifications of \"likes\" and private messages -- to the users who opted-in would be encrypted with the decades-old technology called Pretty Good Privacy, or PGP. Eight years later, Facebook is killing the feature due to low usage, according to the company. The feature was deprecated Tuesday. Facebook declined to specify exactly how many users were still using the encrypted email feature.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/05/2129258/facebook-kills-pgp-encrypted-emails?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T21:30:00.000Z",
-          "wordCount": 5355,
-          "title": "Facebook Kills PGP-Encrypted Emails",
-          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/05/1852212/india-reveals-that-it-has-returned-lunar-spacecraft-to-earth-orbit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: A little more than three months ago the Indian space agency, ISRO, achieved a major success by putting its Vikram lander safely down on the surface of the Moon. In doing so India became the fourth country to achieve a soft landing on the Moon, and this further ignited the country's interest in space exploration. But it turns out that is not the end of the story for the Chandrayaan 3 mission. In a surprise announcement made Monday, ISRO announced that it has successfully returned the propulsion module used by the spacecraft into a high orbit around Earth. This experimental phase of the mission, the agency said in a statement, tested key capabilities needed for future lunar missions, including the potential for returning lunar rocks to Earth.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/12/05/1852212/india-reveals-that-it-has-returned-lunar-spacecraft-to-earth-orbit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T19:20:00.000Z",
-          "wordCount": 4910,
-          "title": "India Reveals That It Has Returned Lunar Spacecraft To Earth Orbit",
-          "imageUrl": "https://a.fsdn.com/sd/topics/moon_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/05/1744219/amazon-latest-to-criticise-microsoft-in-uk-cloud-market-probe?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Amazon has told Britain's antitrust authority its rival Microsoft uses business practices that restrict customer choice in the cloud computing market, the second major company to criticise the U.S. tech giant's operations. From a report: Britain's Competition and Markets Authority (CMA) launched an investigation into the country's cloud computing industry in October, following a referral from media regulator Ofcom that highlighted Amazon and Microsoft's dominance of the market. \n\nIn a letter published on the CMA's website on Tuesday, Amazon said changes to Microsoft's terms of services had made it difficult for customers to switch to alternative cloud providers, or run competitors' services alongside. \"To use many of Microsoft's software products with these other cloud services providers, a customer must purchase a separate license even if they already own the software,\" Amazon said. \"This often makes it financially unviable for a customer to choose a provider other than Microsoft.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/05/1744219/amazon-latest-to-criticise-microsoft-in-uk-cloud-market-probe?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T18:41:00.000Z",
-          "wordCount": 4092,
-          "title": "Amazon Latest To Criticise Microsoft in UK Cloud Market Probe",
-          "imageUrl": "https://a.fsdn.com/sd/topics/cloud_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/05/1735222/beeper-mini-is-an-imessage-for-android-app-that-doesnt-require-any-apple-device-at-all?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: Beeper has been offering a unified messaging platform for a few years, allowing users to open a single app to communicate with contacts via SMS, Google Chat, Facebook Messenger, Slack, Discord, WhatsApp, and perhaps most significantly, iMessage. Up until this week though, Android users that wanted to use Beeper to send \"blue bubble\" messages to iMessage users had their messages routed through a Mac or iOS device. Now Beeper has launched a new app called Beeper Mini that handles everything on-device, no iPhone or Mac bridge required. \n\nBeeper Mini is available now from the Google Play Store, and offers a 7-day free trial. After that, it costs $2 per month to keep using. [...] previously the company had to rely on a Mac-in-the-cloud? The company explains the method it's using in a blog post, but in a nutshell, Beeper says a security researcher has reverse engineered \"the iMessage protocol and encryption,\" so that \"all messages are sent and received by Beeper Mini Android app directly to Apple's servers\" and \"the encryption keys needed to encrypt these messages never leave your phone.\" That security researcher, by the way, is a high school student that goes by jjtech, who was hired by Beeper after showing the company his code. A proof-of-concept Python script is also available on Github if you'd like to run it to send messages to iMessage from a PC.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/05/1735222/beeper-mini-is-an-imessage-for-android-app-that-doesnt-require-any-apple-device-at-all?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T18:00:00.000Z",
-          "wordCount": 10968,
-          "title": "Beeper Mini is an iMessage-for-Android App That Doesn't Require Any Apple Device at All",
-          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/12/05/179220/after-unexplained-bans-playstation-users-report-their-accounts-have-been-restored?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Many PlayStation Network users reported Monday that their accounts were unexpectedly permanently suspended. As of Tuesday morning, many of the people who had received the messages now say their accounts have been restored. From a report: Some of them contacted customer service while others did not, but nearly a day after the issues began, Sony hasn't commented publicly or responded to us about the wave of bans or the restorations that followed. A message to one user read: \"This account is permanently suspended from PlayStation Network due to violations of the PlayStation Network Terms of Service and User Agreement.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/12/05/179220/after-unexplained-bans-playstation-users-report-their-accounts-have-been-restored?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T17:20:00.000Z",
-          "wordCount": 5956,
-          "title": "After Unexplained Bans, PlayStation Users Report Their Accounts Have Been Restored",
-          "imageUrl": "https://a.fsdn.com/sd/topics/playstation_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/05/1648246/microsofts-copilot-is-getting-openais-latest-models-and-a-new-code-interpreter?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft is detailing a number of new features coming to its Copilot service soon, including OpenAI's latest models. Copilot will get support for GPT-4 Turbo soon, alongside an updated DALL-E 3 model, a new code interpreter feature, and deep search functionality inside Bing. From a report: Copilot will soon be able to respond using OpenAI's latest GPT-4 Turbo model, which essentially means it will \"see\" more data thanks to a 128K context window. This larger context window will allow Copilot to better understand queries and offer better responses. \n\nWhile you're waiting on the GPT-4 Turbo model to appear in Copilot, Microsoft is now using an improved DALL-E 3 model in Bing Image Creator and Copilot. Microsoft Edge, which includes a Copilot sidebar, is also getting the ability to compose text within websites' text input to rewrite sentences inline. You can also now use Copilot in Microsoft Edge to summarize videos you're watching on YouTube. Coders and developers might be interested in a new code interpreter feature coming to Copilot soon. This new feature will allow Copilot users to get more accurate calculations, data analysis, or even code from the AI chatbot.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/05/1648246/microsofts-copilot-is-getting-openais-latest-models-and-a-new-code-interpreter?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T16:48:00.000Z",
-          "wordCount": 4325,
-          "title": "Microsoft's Copilot is Getting OpenAI's Latest Models and a New Code Interpreter",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/05/165244/ai-platform-generated-images-that-could-be-categorized-as-child-pornography-leaked-documents-show?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "404 Media: OctoML, a Seattle-based startup that helps companies optimize and deploy their machine learning models, debated internally whether it was ethical and legally risky for it to generate images for Civitai, an AI model sharing and image generating platform backed by venture capital firm Andreessen Horowitz, after it discovered Civitai generated content that OctoML co-founder Thierry Moreau said \"could be categorized as child pornography,\" according to internal OctoML Slack messages and documents viewed by 404 Media. \n\nOctoML has raised $132 million in funding, and is an AWS partner, meaning it generated these images on Amazon servers. \"What's absolutely staggering is that this is the #3 all time downloaded model on CivitAI, and is presented as a pretty SFW model,\" Moreau, who is also OctoML's VP, technology partnerships, said in a company Slack room called #ai_ethics on June 8, 2023. Moreau was referring to an AI model called \"Deliberate\" that can produce pornographic images. \"A fairly innocent and short prompt '[girl: boy: 15], hyperdetailed' automatically generated unethical/shocking content -- read something could be categorized as child pornography,\" his Slack message added.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/05/165244/ai-platform-generated-images-that-could-be-categorized-as-child-pornography-leaked-documents-show?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T16:05:00.000Z",
-          "wordCount": 13143,
-          "title": "AI Platform Generated Images That 'Could Be Categorized as Child Pornography,' Leaked Documents Show",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/05/1410233/mckinsey-sees-ai-adding-up-to-340-billion-to-wall-street-profit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Banks using generative artificial intelligence tools could boost their earnings by as much as $340 billion annually through increased productivity, according to consultants hoping to help the industry adapt in this fast-moving area. From a report: This would amount to a 9% to 15% increase in operating profits, according to a McKinsey Global Institute report published Tuesday. Corporate and retail banks have the most to gain, the authors claimed. Generative AI was popularized last year when OpenAI's ChatGPT tool launched, offering users sentences, summaries or even poetry based on simple prompts. The technology is trained on vast quantities of existing material that is used to generate its responses. \n\nTools like this could eventually take over repetitive tasks from most human workers, according to McKinsey's research on 63 use cases across industries. While the initial efficiencies are set to be within companies -- and the timeframe for adoption is unclear -- the finance sector can expect the AI shift in the future \"to be a lot more on the customer facing side,\" McKinsey senior partner Gokhan Sari said in an interview. Sales and marketing, software engineering, and call center roles are among those most likely to be affected, said senior McKinsey partner Jared Moon. As many as 70% of business activities will have automated parts, which will leave only \"a very small proportion\" of jobs untouched, Moon added.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/05/1410233/mckinsey-sees-ai-adding-up-to-340-billion-to-wall-street-profit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T15:20:00.000Z",
-          "wordCount": 6698,
-          "title": "McKinsey Sees AI Adding Up To $340 Billion To Wall Street Profit",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/05/1248248/amazon-cannot-claim-shock-that-bathroom-spycams-were-used-as-advertised-judge-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: After a spy camera designed to look like a towel hook was purchased on Amazon and illegally used for months to capture photos of a minor in her private bathroom, Amazon was sued. The plaintiff -- a former Brazilian foreign exchange student then living in West Virginia -- argued that Amazon had inspected the camera three times and its safety team had failed to prevent allegedly severe, foreseeable harms still affecting her today. \n\nAmazon hoped the court would dismiss the suit, arguing that the platform wasn't responsible for the alleged criminal conduct harming the minor. But after nearly eight months deliberating, a judge recently largely denied the tech giant's motion to dismiss. Amazon's biggest problem persuading the judge was seemingly the product descriptions that the platform approved. An amended complaint included a photo from Amazon's product listing that showed bathroom towels hanging on hooks that disguised the hidden camera. Text on that product image promoted the spycams, boasting that they \"won't attract attention\" because each hook appears to be \"a very ordinary hook.\" \n\nBecause \"Amazon approved product descriptions suggesting consumers use\" the spycam \"to record private moments in a bathroom,\" US district judge Robert Chambers wrote, \"Amazon cannot claim shock when a consumer does just that.\" \"These allegations raise a reasonable inference Amazon sold a camera knowing it would be used to record a third party in a bathroom without their consent,\" Chambers wrote.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/12/05/1248248/amazon-cannot-claim-shock-that-bathroom-spycams-were-used-as-advertised-judge-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T14:40:00.000Z",
-          "wordCount": 13962,
-          "title": "Amazon 'Cannot Claim Shock' That Bathroom Spycams Were Used as Advertised, Judge Says",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/05/0745251/firefox-on-the-brink?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: A somewhat obscure guideline for developers of U.S. government websites may be about to accelerate the long, sad decline of Mozilla's Firefox browser. There already are plenty of large entities, both public and private, whose websites lack proper support for Firefox; and that will get only worse in the near future, because the 'fox's auburn paws are perilously close to the lip of the proverbial slippery slope. The U.S. Web Design System (USWDS) provides a comprehensive set of standards which guide those who build the U.S. government's many websites. Its documentation for developers borrows a \"2% rule\" from its British counterpart: \"... we officially support any browser above 2% usage as observed by analytics.usa.gov.\" (Firefox's market share was 2.2%, per the traffic for the previous ninety days.) \n\n[...] \"So what?\" you may wonder. \"That's just for web developers in the U.S. government. It doesn't affect any other web devs.\" Actually, it very well could. Here's how I envision the dominoes falling: \n\n1. Once Firefox slips below the 2% threshold in the government's visitor analytics, USWDS tells government web devs they don't have to support Firefox anymore.\n2. When that word gets out, it spreads quickly to not only the front-end dev community but also the corporate IT departments for whom some web devs work. Many corporations do a lot of business with the government and, thus, whatever the government does from an IT standpoint is going to influence what corporations do.\n3. Corporations see this change as an opportunity to lower dev costs and delivery times, in that it provides an excuse to remove some testing (and, in rare cases, specific coding) from their development workflow.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/05/0745251/firefox-on-the-brink?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-05T14:00:00.000Z",
-          "wordCount": 13704,
-          "title": "Firefox On the Brink?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/firefox_64.png"
         }
       ]
     }
