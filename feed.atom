@@ -2,10 +2,348 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-01-07T01:09:38.372Z</updated>
+    <updated>2024-01-08T01:05:31.547Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Three Packages Targeting Linux with Crypto Miners Found in Python's 'PyPi' Repository]]></title>
+        <id>https://developers.slashdot.org/story/24/01/08/0038210/three-packages-targeting-linux-with-crypto-miners-found-in-pythons-pypi-repository?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/24/01/08/0038210/three-packages-targeting-linux-with-crypto-miners-found-in-pythons-pypi-repository?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-08T00:39:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shared this report from The Hacker News:
+Three new malicious packages have been discovered in the Python Package Index (PyPI) open-source repository with capabilities to deploy a cryptocurrency miner on affected Linux devices. 
+
+The three harmful packages, named modularseven, driftme, and catme, attracted a total of 431 downloads over the past month before they were taken down... 
+
+The malicious code resides in the __init__.py file, which decodes and retrieves the first stage from a remote server, a shell script ("unmi.sh") that fetches a configuration file for the mining activity as well as the CoinMiner file hosted on GitLab. The ELF binary file is then executed in the background using the nohup command, thus ensuring that the process continues to run even after exiting the session. "Echoing the approach of the earlier 'culturestreak' package, these packages conceal their payload, effectively reducing the detectability of their malicious code by hosting it on a remote URL," said Fortinet FortiGuard Labs researcher Gabby Xiong. "The payload is then incrementally released in various stages to execute its malicious activities."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023 X was a better Twitter (for me)]]></title>
+        <id>https://world.hey.com/jorge/2023-x-was-a-better-twitter-for-me-0b8a2b2a</id>
+        <link href="https://world.hey.com/jorge/2023-x-was-a-better-twitter-for-me-0b8a2b2a"/>
+        <updated>2024-01-08T00:06:17.000Z</updated>
+        <summary type="html"><![CDATA[I wouldn't have expected to say this, but X (Twitter) worked well for me in 2023. I got good things out of it. In the previous years, I had a tormented relationship with the platform, so, what happened?
+
+
+First, Mastodon happened. Elon Musk's acquisition of Twitter provoked a stampede of the most politically radicalized folks to Mastodon. That was a blessing. With the negativity magnets gone, the group energy significantly improved because energy is contagious. Suddenly, the discussion in the Rails community became about technical stuff again, go figure!
+
+
+Second, Twitter stopped pushing the algorithmically-curated "For you" timeline through your throat. If you select "Following" to see stuff from the people you follow, it will remember the selection. This was a game changer for me, as I got complete control of what entered my timeline.
+
+
+Third, I engaged more with the platform. In previous years, I mostly used Twitter as an output channel to link my blog posts. Now, the conversation feels more inviting to participate, so I do.
+
+
+Between 2020 and 2022, I felt a tremendous disconnection from the Rails community. I saw haters and folks being mean towards others dominating the conversation. Now, it feels as if the storm has passed. Here's what I want from X: interesting conversations, positive vibes, no drama/politics, and a focus on Rails and software development. That's my X timeline right now. This seemed absolutely impossible just a bit over one year ago.
+
+
+I don't even want to say it too loud.]]></summary>
+        <author>
+            <name>Jorge Manrubia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Microscopic Metal Flake Could Finally Reveal DB Cooper's Identity]]></title>
+        <id>https://yro.slashdot.org/story/24/01/07/2118201/a-microscopic-metal-flake-could-finally-reveal-db-coopers-identity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/01/07/2118201/a-microscopic-metal-flake-could-finally-reveal-db-coopers-identity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T23:09:00.000Z</updated>
+        <summary type="html"><![CDATA["The famed and mysterious disappearance of D.B. Cooper has puzzled investigators for over half a century," writes a Seattle TV station.
+Now new evidence is coming to light in the supposed "skyjacking," after a microscopic piece of metal found on D. B. Cooper's tie could help reveal his true identity. "Considering the totality of all that has been uncovered in the last year with respect to DB Cooper's tie, I can say with a very high degree of certainty that DB Cooper worked for Crucible Steel," said independent investigator Eric Ulis. 
+
+"I would not be surprised at all if 2024 was the year we figure out who this guy was," lis told another local Seattle news station:
+
+This particle is part stainless steel, part titanium... 18 months ago, Ulis used U.S. patents to trace three of these fragments from the same very tie to a specific plant in Pennsylvania, Crucible Steel. "Headquartered in the suburbs of Pittsburgh, a significant subcontractor all throughout the 1960s," said Ulis. "It supplied the lion's share of titanium and stainless steel for Boeing's aircraft...." 
+
+Ulis claims evidence points to Cooper having in-depth knowledge of the 727 he hijacked, and of the Seattle area. Workers at Crucible Steel were known to travel and visit their contractor, Boeing. "This is also the time, 1971, when Boeing had this significant downturn, the big depression, with 'The last person leaving Seattle, please turn out the lights' [billboard sign]," said Ulis. "It's reasonable to deduce that D. B. Cooper may well have been part of that downturn." 
+
+Ulis admits his findings are not yet concrete. He's not crossing any suspects off the list. However, he believes from what he's seen, all roads lead to titanium research engineer Vince Peterson from Pittsburgh. 
+It all reminds me of that episode of Prison Break where they suspect one of the prisoner's is secretly D.B. Cooper...
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Will Microsoft Overtake Apple as the World's Most Valuable Company?]]></title>
+        <id>https://apple.slashdot.org/story/24/01/07/2053256/will-microsoft-overtake-apple-as-the-worlds-most-valuable-company?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/24/01/07/2053256/will-microsoft-overtake-apple-as-the-worlds-most-valuable-company?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T21:39:00.000Z</updated>
+        <summary type="html"><![CDATA["As Microsoft stock rises and Apple's falls over analysts expectation of slowing iPhone demand, the two firms are once more within $100 billion of each other — the smallest gap in over two years..." writes the blog Apple Insider:
+
+
+ In August 2020, Apple became the first publicly-traded US company to reach a $2 trillion market cap, and Microsoft became the second one in June 2021. Later in October 2021, Microsoft took over the top spot, and for a time was move valuable than Apple by $100 billion. While the values of the two firms have continually changed, Microsoft is now worth just $100 billion less than Apple, according to MarketWatch. Microsoft is valued at $2.73 trillion, while Apple — fallen from its recent $3 trillion high — is currently at $2.83 trillion. 
+
+MarketWatch notes that Microsoft's stock rose 57% in 2023, compared to Apple's which rose 48%. Microsoft shares have also reportedly seen what are described as slimmer losses at the start of 2024. Apple, on the other hand, has seen its shares take a considerable drop in recent days. The first hit was taken following a claim by Barclays that iPhone demand is weakening and that the iPhone 16 range will not offer any compelling new features to tempt upgraders. 
+
+The analyst view that Apple is dependent on iPhone sales is part of why Microsoft is doing better. Analysts see Microsoft has being less attached to any hardware, and more attached to subscription software such as Office 365, and so therefore less attached to any falling demand for phones or computers. And, Microsoft has launched an AI tool in Copilot, while Apple has not unveiled any similar ChatGPT-style app or service.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ZDNet Calls Rhino Linux 'New Coolest Linux Distro']]></title>
+        <id>https://news.slashdot.org/story/24/01/07/2036245/zdnet-calls-rhino-linux-new-coolest-linux-distro?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/01/07/2036245/zdnet-calls-rhino-linux-new-coolest-linux-distro?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T20:39:00.000Z</updated>
+        <summary type="html"><![CDATA[If you're starting the new year with a new Linux distro, ZDNet just ran an enthusiastic profile of Rhino Linux, calling it "beautiful" with "one of the more useful command-line package managers on the market."
+
+Rhino uses a modern take on the highly efficient and customizable Xfce desktop (dubbed "Unicorn") to help make the interface immediately familiar to anyone who logs in. You'll find a dock on the left edge of the screen that contains launchers for common applications, access to the Application Grid (where you can find all of your installed software), and a handy Search Bar (Ulauncher) that allows you to quickly search for and launch any installed app (or even the app settings) you need... 
+
+ Thanks to myriad configuration options, Xfce can be a bit daunting. At the same time, the arr…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lithium Extraction Gets Faster and Maybe Greener, Too]]></title>
+        <id>https://hardware.slashdot.org/story/24/01/07/1922241/lithium-extraction-gets-faster-and-maybe-greener-too?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/24/01/07/1922241/lithium-extraction-gets-faster-and-maybe-greener-too?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T19:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader xetdog shared this report from IEEE Spectrum:
+
+
+High in the Andes mountains where the borders of Argentina, Bolivia, and Chile intersect, white expanses of salt stretch for thousands of kilometers. Under these flats lie reservoirs of brine that contain upwards of 58% of the world's lithium. For decades, producers have extracted that lithium by pumping the water up to the surface and letting it evaporate until the lithium salts become concentrated enough to filter out. The process takes 12 to 18 months, leaving behind piles of waste containing other metals. It also evaporates nearly 2 million liters of local water resources, harming indigenous communities. 
+
+To keep up, many companies are now developing processes to chemically or physically filter out lithium from brines and inject the brine back underground. These direct lithium extraction (DLE) technologies take hours instead of months and could double the production of lithium from existing brine operations. Much as shale extraction did for oil, DLE is a "potential game-changing technology for lithium supply," because it could unlock new sources of lithium, according to a recent report by Goldman Sachs. But in contrast to shale's fracking risks, DLE brings environmental benefits, reducing land and water use, and waste... 
+In China, a handful of commercial projects already use Chinese DLE innovator Sunresin's technology.
+ 
+More than 12 startups are pursuing new DLE processes, according to the article, "with the intent of commercial production as early as 2025." 
+
+And America's Department of Energy is also investing millions of dollars in new DLE tech "to extract lithium from geothermal brines in the U.S., such as the Salton Sea in California, which the National Renewable Energy Laboratory estimates could provide over 24,000 metric tons of lithium a year."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask Slashdot:  Does Anyone Still Use Ogg Vorbis Format?]]></title>
+        <id>https://entertainment.slashdot.org/story/24/01/07/0236224/ask-slashdot-does-anyone-still-use-ogg-vorbis-format?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://entertainment.slashdot.org/story/24/01/07/0236224/ask-slashdot-does-anyone-still-use-ogg-vorbis-format?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T18:34:00.000Z</updated>
+        <summary type="html"><![CDATA[23 years ago, Slashdot interviewed Chris Montgomery about his team's new Ogg Vorbis audio format. 
+But Slashdot reader joshuark admits when he first heard the name, it reminded him of the mushroom underworld in The Secret World of Og.
+
+I've downloaded videos from the Internet Archive, and one format is the OGG or Ogg Vorbis player format. I just was wondering with other formats, is Ogg still used anymore after approximately 20-years? 
+
+I'm not commenting on good/bad/whatever about the format, just is it still in use, relevant anymore? 
+
+The nonprofit Xiph.Org Foundation (which develops Orbis Vogg) started work in 2007 on the high-quality/low-delay format Opus, which their FAQ argues "theoretically" makes other lossy codecs obsolete. "From technical point of view (loss, delay, bitrates...) it can replace both Vorbis and Speex, and the common proprietary codecs too." 
+
+But elsewhere Xiph.org points out that "The bitstream format for Vorbis I was frozen Monday, May 8th 2000. All bitstreams encoded since will remain compatible with all future releases of Vorbis." So how is that playing out in 2024? Share your own thoughts in the comments. 
+
+Does anyone still use Ogg Vorbis format?
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pessimism is on the retreat]]></title>
+        <id>https://world.hey.com/dhh/pessimism-is-on-the-retreat-e67dbd7e</id>
+        <link href="https://world.hey.com/dhh/pessimism-is-on-the-retreat-e67dbd7e"/>
+        <updated>2024-01-07T18:06:42.000Z</updated>
+        <summary type="html"><![CDATA[I feel it in the feed. I feel it in the discourse. I smell it in the vibes. 
+Much of the pessimism that once was is lost, for none now wish to remember it.
+
+We’ve lived through some strange years in the recent past. Much stranger than any I can remember since my earliest, solid memories of the broader world from the mid-80s.
+I’m not going to rehash the pandemic, Trump, wokeness, social media, or any of the many other perceived or real causes. I’m just going to remark that it’s been weird.
+But not universally weird. Not hippie weird, for example. Not dreaming broadly of a better world, singing songs, smoking mild pot, and submitting to flower power weird. No, a pessimistic weird. An everything-sucks-all-the-time-and-there’s-nothing-to-do-about-it weird. A depressing, nihilistic, no-end-in-s…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An AI-powered Holographic Elvis Concert is Coming to Las Vegas (and the UK)]]></title>
+        <id>https://entertainment.slashdot.org/story/24/01/06/2320220/an-ai-powered-holographic-elvis-concert-is-coming-to-las-vegas-and-the-uk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://entertainment.slashdot.org/story/24/01/06/2320220/an-ai-powered-holographic-elvis-concert-is-coming-to-las-vegas-and-the-uk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T17:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Elvis Presley "will be stepping into his blue suede shoes once again..." according to an article in TheStreet, "thanks to the power of artificial intelligence."
+
+The legendary singer from Tupelo, Mississippi, is set to thrill audiences in "Elvis Evolution," an "immersive concert experience" that uses AI and holographic projection. The show will debut in London in November. But if you can't make it to England, that's all right, mama, that's all right for you, because additional shows are slated for Berlin, Tokyo and Las Vegas, where Presley had a seven-year residency from 1969 to 1976. 
+
+ "Man, I really like Vegas," he once reportedly said. The British immersive entertainment company Layered Reality partnered with Authentic Brands Group, which owns the rights to Elvis' image, to create the event. 
+
+"The show peaks with a concert experience that will recreate the seismic impact of seeing Elvis live for a whole new generation of fans, blurring the lines between reality and fantasy," Layered Reality said on its website. "A life-sized digital Elvis will share his most iconic songs and moves for the very first time on a UK stage." The company previously made immersive experiences based on the Gunpowder Plot of 1605 and "The War of The Worlds."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Whatever Happened to the Surviving Apollo Astronauts?]]></title>
+        <id>https://science.slashdot.org/story/24/01/07/0436200/whatever-happened-to-the-surviving-apollo-astronauts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/01/07/0436200/whatever-happened-to-the-surviving-apollo-astronauts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T16:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The BBC checks in on "the pioneers of space exploration — the 24 Nasa astronauts who travelled to the Moon in the Apollo missions of the 1960s and 1970s."
+
+Ken Mattingly and Frank Borman died within a few days of each other late last year. Now only eight people who have voyaged beyond the Earth's orbit remain. Who are they, and what are their stories...? There are only four people still alive who have walked on the Moon — Charlie Duke is one of them. He did it aged 36, making him the youngest person to set foot on the lunar surface... Charlie Duke now lives outside San Antonio, Texas, with Dorothy, to whom he has been married for 60 years.... 
+
+Jim Lovell is one of only three men to have travelled to the Moon twice, and following Frank Borman's death in November 2023, he became the oldest living astronaut.... 
+
+After leaving Nasa in 1975, [Harrison Schmitt] was elected to the U.S. Senate from his home state of New Mexico, but only served one term. Since then he has worked as a consultant in various industries as well as continuing in academia. 
+
+And when confronted by a man claiming Apollo 11 was an elaborate lie, 72-year-old Buzz Aldrin "punched him on the jaw."
+
+Despite struggles in later life, he never lost his thirst for adventure and joined expeditions to both the North and South Poles, the latter at the age of 86. While embracing his celebrity, he has remained an advocate for the space programme, especially the need to explore Mars. 
+
+"I don't think we should just go there and come back — we did that with Apollo," he says. 
+ Last 93-year-old Buzz Aldrin got married — and thanked his fans for remembering his birthday. "It means a lot and I hope to continue serving a greater cause for many more revolutions around the sun."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What's Next for Mozilla - and for Open Source AI?]]></title>
+        <id>https://tech.slashdot.org/story/24/01/06/0459224/whats-next-for-mozilla---and-for-open-source-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/01/06/0459224/whats-next-for-mozilla---and-for-open-source-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA["For the last few years, Mozilla has started to look beyond Firefox," writes TechCrunch, citing startup investments like Mastodon's client Mammoth and the Fakespot browser extension that helps identify fake reviews. But Mozilla has also launched Mozilla.ai (added a bunch of new AI-focused members to its board). 
+
+In an interview with TechCrunch, Mozilla's president and executive director Mark Surman clarifies their plans, saying that Mozilla.ai "had a broad mandate around finding open source, trustworthy AI opportunities and build a business around them."
+"Quickly, Moez [Draief], who runs it, made it about how do we leverage the growing snowball of open source large language models and find a way to both accelerate that snowball but also make sure it rolls in a direction that matches our g…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Keeping the lights on while leaving the cloud]]></title>
+        <id>https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67</id>
+        <link href="https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67"/>
+        <updated>2024-01-07T13:42:19.000Z</updated>
+        <summary type="html"><![CDATA[It was a big year for ops at 37signals. In 2023, we moved seven major applications out of the cloud. Including HEY, our email service, which had been born there, and has an extremely high level of uptime criticality. Moving out of the cloud could not interfere with that obligation, and thankfully it did not. In 2023, HEY had a stellar uptime of 99.99%!
+That’s really important, because if people can’t get to their emails, they might not be able to check-in for their flight, close on a time-sensitive deal, or learn the results of a medical test. We take that responsibility very seriously. So hitting the hallowed four nines in a year when everything had to change about how we run HEY is a major accomplishment that makes me proud.
+But it wasn’t just HEY that got the diligent ops treatment. Eve…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How Does FreeBSD Compare to Linux on a Raspberry Pi?]]></title>
+        <id>https://linux.slashdot.org/story/24/01/07/0327229/how-does-freebsd-compare-to-linux-on-a-raspberry-pi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://linux.slashdot.org/story/24/01/07/0327229/how-does-freebsd-compare-to-linux-on-a-raspberry-pi?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T12:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Klaus Zimmermann (a self-described "friendly hacker") recently posted a "State of the Distro" post, choosing his favorite distributions for things like portable installation from a USB drive (Alpine Linux) and for a desktop OS (Debian Linux or Devuan). 
+
+But when it comes to a distro for the Raspberry Pi, (at least until the 4), Zimmerman argues that FreeBSD's performance is "unlike any other Linux distribution I've ever seen, even with cpupower activated and overclocking."
+Nope, no match — FreeBSD's performance on the Pi is still way better, even without overclocking. You can browse a modern web, have things scroll smoothly, watch videos and even play some 3D games like Quake with it! And if you overclock it a little (2GHz) you can even make it run that gargantua MS Teams. 
+
+But what abou…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['As AI Rises, is Web3 Dead in the Water?']]></title>
+        <id>https://news.slashdot.org/story/24/01/07/0039259/as-ai-rises-is-web3-dead-in-the-water?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/01/07/0039259/as-ai-rises-is-web3-dead-in-the-water?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T08:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Inc. reports that funding for Web3 startups in 2023 "declined 73% from 2022, according to new data from Crunchbase."
+
+
+ In total, Web3 startups netted $7.8 billion in 2023, compared with the $21.5 billion raised in 2022. It's part of a broader and sobering comedown from the stratospheric highs of tech's pandemic boom time, in which investment flowed to startups at historic rates, valuations soared and unicorns emerged seemingly every week. Last year firmly belonged to AI, with $17.8 billion invested in the sector, according to Dealroom. 
+
+Even as some remain convinced of Web3's future, uncertainty lingers over certain stumbling blocks, including how the technology can be farmed out to a massive user base on par with today's biggest tech firms. "I haven't seen [a company] that screams to me…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blaming Social Media, ACM Publication Argues Computing 'Has Blood On Its Hands']]></title>
+        <id>https://tech.slashdot.org/story/24/01/06/2157225/blaming-social-media-acm-publication-argues-computing-has-blood-on-its-hands?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/01/06/2157225/blaming-social-media-acm-publication-argues-computing-has-blood-on-its-hands?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T05:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader theodp writes: In the January 2024 Communications of the ACM, Rice University professor and former CACM Editor-in-Chief Moshe Y. Vardi minces no words in Computing, You Have Blood on Your Hands!. He argues that the unintended consequences of the rise of social media and mobile computing include hate mongering on a global scale and a worldwide youth mental health crisis. 
+
+"How did the technology that we considered 'cool' just a decade ago become an assault weapon used to hurt, traumatize, and even kill vulnerable people?" Vardi asks. "Looking back at my past columns, one can see the forewarnings. Our obsession with efficiency came at the expense of resilience. In the name of efficiency, we aimed at eliminating all friction. In the name of efficiency, it became desirable to move fast and break things, and we allowed the technology industry to become dominated by a very small number of mega corporations. It is time for all computing professionals to accept responsibility for computing's current state. To use Star Wars metaphors, we once considered computing as the 'Rebels,' but it turns out that computing is the 'Empire.' Admitting we have a problem is a necessary first step toward addressing the problems computing has created." 
+
+Examples cited in the piece include:
+
+
+ Amnesty International's 2022 accusation that Meta "substantially contributed" to human rights violations of Myanmar's Rohingya peopleInternal Meta documents saying "We are not actually doing what we say we do publicly" in policing harmful content.
+
+So far the ACM's piece has attracted one comment. "Deep thanks for your long-term commitment to ethics and how you articulate clearly its challenges."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can AI-Generated Proofs Bring Bug-Free Software One Step Closer?]]></title>
+        <id>https://developers.slashdot.org/story/24/01/06/238237/can-ai-generated-proofs-bring-bug-free-software-one-step-closer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/24/01/06/238237/can-ai-generated-proofs-bring-bug-free-software-one-step-closer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-07T02:34:00.000Z</updated>
+        <summary type="html"><![CDATA[The University of Massachusetts Amherst has an announcement. A team of computer scientists "recently announced a new method for automatically generating whole proofs that can be used to prevent software bugs and verify that the underlying code is correct." It leverages the AI power of Large Language Models, and the new method, called Baldur, "yields unprecedented efficacy of nearly 66%." 
+
+The idea behind the machine-checking technique was "to generate a mathematical proof showing that the code does what it is expected to do," according to the announcement, "and then use a theorem prover to make sure that the proof is also correct.
+
+But manually writing these proofs is incredibly time-consuming and requires extensive expertise. "These proofs can be many times longer than the software code …]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[America's First Large-Scale Offshore Wind Project Finally Begins Generating Electricity]]></title>
         <id>https://hardware.slashdot.org/story/24/01/06/0515241/americas-first-large-scale-offshore-wind-project-finally-begins-generating-electricity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8213,413 +8551,6 @@ Altman — a revered mentor, and avatar of the AI revolution — had been psycho
 Although the board members didn't use the language of abuse to describe Altman's behavior, these complai…]]></summary>
         <author>
             <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Jack Dorsey's Block Releases Bitkey Hardware Wallet]]></title>
-        <id>https://hardware.slashdot.org/story/23/12/08/205217/jack-dorseys-block-releases-bitkey-hardware-wallet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/23/12/08/205217/jack-dorseys-block-releases-bitkey-hardware-wallet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-09T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from TechCrunch: Jack Dorsey's Block (the company formerly known as Square) announced today that it is releasing its hardware Bitcoin wallet, Bitkey, in 95 countries. However, users can only preorder the device at the moment, with shipping starting in early 2024. The device will cost $150 USD. Block's pitch to Bitcoin holders is that using a self-custodial crypto wallet is more secure than keeping their crypto assets in custodial wallets or exchanges.
- 
-Self-custodial wallets put the onus on users to remember -- or store securely -- passwords or long seed phrases to unlock their accounts. The Proto team at Block, which worked on developing the Bitkey wallet, said that it solved this problem by using a two-of-three authentication mechanism. Two keys lie with the customer: the hardware wallet and a mobile app. Bitkey stores the third key on its server. The company argues that by having access to just one key, it can't access or move customers' Bitcoins.
- 
-Block said that it uses its server-side key only to authenticate transactions to move Bitcoin when they just have their phone and to recover their account when their device or phone is lost. The company said the server-side key will also be able to handle the scenario when a customer loses both the phone and the hardware wallet. Recovery was recently detailed in a blog post by the company. [...] Block has partnered with crypto exchange Coinbase and the company's own Cash App to help people easily buy or transfer (or both) Bitcoins to the hardware wallet. The company said that the ability to transfer Bitcoin from Coinbase and Cash App will be rolled out immediately with other features coming later.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google's AI Note-Taking App Is Now Available]]></title>
-        <id>https://tech.slashdot.org/story/23/12/09/0012253/googles-ai-note-taking-app-is-now-available?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/12/09/0012253/googles-ai-note-taking-app-is-now-available?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-09T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[NotebookLM, Google's experimental AI-powered note-taking app unveiled at Google I/O earlier this year (formerly referred to as Project Tailwind), is now widely available in the United States. "It's also getting several new features and is 'starting' to use Google's Gemini Pro AI model 'to help with document understanding and reasoning,'" reports The Verge. From the report: NotebookLM can already do things like summarize the documents you import into the app, come up with key points, and even answer questions about your note-taking sources. But now, Google is adding a way to transform your notes into other types of documents, too. Once you select all the notes you want to include, NotebookLM will automatically suggest formats, such as an outline or study guide. However, Google notes that you can also tell NotebookLM to transform your notes into a format of your choosing, like an email, script outline, newsletter, and more.
- 
-Additionally, NotebookLM will now start providing suggested actions based on what you're doing in the app. As an example, Google says if you're writing a note, NotebookLM may automatically "offer tools to polish or refine your prose, or suggest related ideas from your sources based on what you've just written." Some other handy features coming to the app include a way to save helpful responses from NotebookLM as notes, share your notes with others, and focus NotebookLM's AI on select sources when chatting with it. Google is expanding some of NotebookLM's limitations as well. You can now include up to 20 sources in your notebook, each with up to 200,000 words.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China Starts Up World's First Fourth-Generation Reactor, Readying Giant Nuclear Ship]]></title>
-        <id>https://hardware.slashdot.org/story/23/12/09/007250/china-starts-up-worlds-first-fourth-generation-reactor-readying-giant-nuclear-ship?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/23/12/09/007250/china-starts-up-worlds-first-fourth-generation-reactor-readying-giant-nuclear-ship?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-09T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[hackingbear writes: China has started commercial operations at a new generation nuclear reactor that is the first of its kind in the world, state media said on Dec 5. Compared with previous reactors, the fourth generation Shidaowan plant, a modular 200 megawatt (MW) high-temperature, gas-cooled reactor (HTGCR) plant developed jointly by state-run utility Huaneng, Tsinghua University and China National Nuclear Corporation, is designed to use fuel more efficiently and improve its economics, safety and environmental footprint as China turns to nuclear power to try to meet carbon emissions goals.
- 
-In a related development, Shanghai-based Jiangnan Shipyard has unveiled a design for an innovative new giant container ship -- with a load capacity starting at 24,000 standard containers -- powered by a thorium molten-salt nuclear reactor, an alternative 4th gen design. "The new ship model uses nuclear energy as a clean energy source and adopts an internationally advanced fourth-generation molten salt reactor solution. The proposed design of super-large nuclear container ships will truly achieve 'zero emissions' during the operation cycle of this type of ship," the journal Marine Time China said in its official WeChat account.
- 
-Shipbuilders from Japan, the United States, South Korea, and Europe have come up with similar designs but none of these countries has a modern and reliable operating reactor to make the design a reality. But China has carried on and, earlier this year, got the first thorium-based molten salt reactor, which needs little amount of water to cool down, making it safer and more efficient, up and running in the Gobi desert. Further reading: China is Building Nuclear Reactors Faster Than Any Other Country
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FDA Approves CRISPR-Based Medicine For Treatment of Sickle Cell Disease]]></title>
-        <id>https://science.slashdot.org/story/23/12/08/2059222/fda-approves-crispr-based-medicine-for-treatment-of-sickle-cell-disease?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/12/08/2059222/fda-approves-crispr-based-medicine-for-treatment-of-sickle-cell-disease?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-09T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from STAT: The Food and Drug Administration on Friday approved the world's first medicine based on CRISPR gene-editing technology, a groundbreaking treatment for sickle cell disease that delivers a potential cure for people born with the chronic and life-shortening blood disorder. The new medicine, called Casgevy, is made by Vertex Pharmaceuticals and CRISPR Therapeutics. Its authorization is a scientific triumph for the technology that can efficiently and precisely repair DNA mutations -- ushering in a new era of genetic medicines for inherited diseases.
- 
-In a clinical trial, Casgevy was shown to eliminate recurrent episodes of debilitating pain caused by sickle cell, which afflicts approximately 100,000 people in the U.S., a vast majority of whom are Black. The therapy, whose scientific name is exa-cel, is described as a potential cure because the genetic fix enabled by CRISPR is designed to last a lifetime, although confirmation will require years of follow-up. The FDA decision comes three weeks after regulators in the U.K. were the first to clear the drug. Approval in the European Union is expected next year. The FDA is also expected to rule on exa-cel as a treatment for beta thalassemia, another inherited blood disorder, by March 30.
- 
-The FDA on Friday also approved another sickle cell treatment, a gene therapy from Bluebird Bio called Lyfgenia. Patients will now have the option of two cutting-edge therapies that provide potentially curative benefits. Scientists Emmanuelle Charpentier and Jennifer Doudna published their first CRISPR paper just over a decade ago. In 2020, the research won the pair a Nobel Prize. Reflecting on the approval of Casgevy, Charpentier told STAT via email that she was "excited and pleased" for what it means for patients and their families.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[White House Threatens Patents of High-Priced Drugs]]></title>
-        <id>https://yro.slashdot.org/story/23/12/08/2052256/white-house-threatens-patents-of-high-priced-drugs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/12/08/2052256/white-house-threatens-patents-of-high-priced-drugs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-09T02:02:00.000Z</updated>
-        <summary type="html"><![CDATA[The Biden administration is threatening to cancel the patents of some costly medications to allow rivals to make their own more affordable versions. The Associated Press reports: Under a plan announced Thursday, the government would consider overriding the patent for high-priced drugs that have been developed with the help of taxpayer money and letting competitors make them in hopes of driving down the cost. In a 15-second video released to YouTube on Wednesday night, President Joe Biden promised the move would lower prices. "Today, we're taking a very important step toward ending price gouging so you don't have to pay more for the medicine you need," he said.
- 
-White House officials would not name drugs that might potentially be targeted. The government would consider seizing a patent if a drug is only available to a "narrow set of consumers," according to the proposal that will be open to public comment for 60 days. Drugmakers are almost certain to challenge the plan in court if it is enacted. [...] The White House also intends to focus more closely on private equity firms that purchase hospitals and health systems, then often whittle them down and sell quickly for a profit. The departments of Justice and Health and Human Services, and the Federal Trade Commission will work to share more data about health system ownership.
- 
-While only a minority of drugs on the market relied so heavily on taxpayer dollars, the threat of a government "march-in" on patents will make many pharmaceutical companies think twice, said Jing Luo, a professor of medicine at University of Pittsburgh. "If I was a drug company that was trying to license a product that had benefited heavily from taxpayer money, I'd be very careful about how to price that product," Luo said. "I wouldn't want anyone to take my product away from me."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Baldur's Gate 3 Wins Game of the Year]]></title>
-        <id>https://slashdot.org/story/23/12/08/2043258/baldurs-gate-3-wins-game-of-the-year?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/12/08/2043258/baldurs-gate-3-wins-game-of-the-year?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-09T01:25:00.000Z</updated>
-        <summary type="html"><![CDATA[The role-playing adventure game Baldur's Gate 3 won game of the year last night at The Game Awards 2023 in Los Angeles. The New York Times reports: It was the crowning achievement for a game based on Dungeons & Dragons that largely stayed under the radar during its six years in development by the Belgian company Larian Studios. But its summer release -- 23 years after its predecessor -- captivated gamers, who celebrated a robust character creator, deep narrative and branching paths that made it seem as though anything was possible in its fictional universe of vampires and elves. Baldur's Gate 3, which is available on the PC, the PlayStation 5 and the Xbox Series X|S, also went home with several other awards, including those for best role-playing game, best performance and best multiplayer.
- 
-The other nominees for game of the year were Alan Wake 2, by Remedy Entertainment; Marvel's Spider-Man 2, by Insomniac Games; Resident Evil 4, by Capcom; Super Mario Bros. Wonder, by Nintendo; and The Legend of Zelda: Tears of the Kingdom, by Nintendo.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europe Reaches a Deal On the World's First Comprehensive AI Rules]]></title>
-        <id>https://yro.slashdot.org/story/23/12/08/2359259/europe-reaches-a-deal-on-the-worlds-first-comprehensive-ai-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/12/08/2359259/europe-reaches-a-deal-on-the-worlds-first-comprehensive-ai-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-09T00:45:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from the Associated Press: European Union negotiators clinched a deal Friday on the world's first comprehensive artificial intelligence rules, paving the way for legal oversight of technology used in popular generative AI services like ChatGPT that has promised to transform everyday life and spurred warnings of existential dangers to humanity. Negotiators from the European Parliament and the bloc's 27 member countries overcame big differences on controversial points including generative AI and police use of facial recognition surveillance to sign a tentative political agreement for the Artificial Intelligence Act.
- 
-"Deal!" tweeted European Commissioner Thierry Breton, just before midnight. "The EU becomes the very first continent to set clear rules for …]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Verizon Gave Phone Data To Armed Stalker Who Posed As Cop Over Email]]></title>
-        <id>https://yro.slashdot.org/story/23/12/08/1959220/verizon-gave-phone-data-to-armed-stalker-who-posed-as-cop-over-email?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/23/12/08/1959220/verizon-gave-phone-data-to-armed-stalker-who-posed-as-cop-over-email?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-09T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Slash_Account_Dot writes: The FBI investigated a man who allegedly posed as a police officer in emails and phone calls to trick Verizon to hand over phone data belonging to a specific person that the suspect met on the dating section of porn site xHamster, according to a newly unsealed court record. Despite the relatively unconvincing cover story concocted by the suspect, including the use of a clearly non-government ProtonMail email address, Verizon handed over the victim's data to the alleged stalker, including their address and phone logs. The stalker then went on to threaten the victim and ended up driving to where he believed the victim lived while armed with a knife, according to the record.
- 
-The news is a massive failure by Verizon who did not verify that the data request was fraudulent, and the company potentially put someone's safety at risk. The news also highlights the now common use of fraudulent emergency data requests (EDRs) or search warrants in the digital underworld, where criminals pretend to be law enforcement officers, fabricate an urgent scenario such as a kidnapping, and then convince telecoms or tech companies to hand over data that should only be accessible through legitimate law enforcement requests. As 404 Media previously reported, some hackers are using compromised government email accounts for this purpose.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Santa Claus is not a god... yet]]></title>
-        <id>https://taylor.town/santa-claus-god</id>
-        <link href="https://taylor.town/santa-claus-god"/>
-        <updated>2023-12-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[To dismiss a god of children is unfair to everybody who was ever a child.]]></summary>
-        <author>
-            <name>taylor.town</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chromebooks Are Problematic For Profits and Planet, Says Lenovo Exec]]></title>
-        <id>https://hardware.slashdot.org/story/23/12/08/1952234/chromebooks-are-problematic-for-profits-and-planet-says-lenovo-exec?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/23/12/08/1952234/chromebooks-are-problematic-for-profits-and-planet-says-lenovo-exec?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T23:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Laura Dobberstein reports via The Register: Lenovo won't stop making Chromebooks despite the machines scoring poorly when it comes to both sustainability and revenue, according to an exec speaking at Canalys APAC Forum in Bangkok on Wednesday. "I don't know who makes the profit," commented Che Min Tu, Lenovo senior vice president and group operations officer. "Everybody struggled to sell the Chromebook." Tu further remarked that the laptop is not great from an environmental standpoint either -- recycling its material won't be easy, or cheap. "But I think we'll continue to sell the Chromebook because there's a demand," explained Tu, who added that the major driver of that demand is coming from the education sector. [...]
- 
-While the number of Chromebooks being sold has dropped since the pandemic, the education market has kept it afloat. In the US, education accounted for 80 percent of Chromebook sales in Q2 this year. IDC estimated that Q2 Chromebook channel sales shrank 1.8 percent to 5.8 million units in that quarter as many customers had refreshed in the previous quarter to avoid a licensing increase in the second half of 2023.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scientists Have Reported a Breakthrough In Understanding Whale Language]]></title>
-        <id>https://science.slashdot.org/story/23/12/08/1947202/scientists-have-reported-a-breakthrough-in-understanding-whale-language?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/12/08/1947202/scientists-have-reported-a-breakthrough-in-understanding-whale-language?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T22:40:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Motherboard: Researchers have identified previously unknown elements of whale vocalizations that may be analogous to human speech, a new study reports. Sperm whales are giants of the deep, with healthy adults having no known predators. Scientists studying their vocalizations have already picked out key elements of their communication, namely clicks, sequences of which are called codas. Now, researchers led by Gasper Beus from the University of California, Berkeley report the discovery that the acoustic properties of these clicks -- for example, pitch -- are "on many levels analogous to human vowels and dipthongs," which is when one vowel sound morphs into another such as in the word "coin." The researchers even identify two unique "coda vowels" that…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon Says Thieves Swiped Millions by Faking Product Refunds]]></title>
-        <id>https://slashdot.org/story/23/12/08/0510225/amazon-says-thieves-swiped-millions-by-faking-product-refunds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/12/08/0510225/amazon-says-thieves-swiped-millions-by-faking-product-refunds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon sued what it called an international ring of thieves who swiped millions of dollars in merchandise from the company through a series of refund scams that included buying products on Amazon and seeking refunds without returning the goods. From a report: An organization called REKK advertised its refund services on social media sites, including Reddit and Discord, and communicated with perpetrators on the messaging app Telegram, Amazon said in a lawsuit filed Thursday in US District Court in the state of Washington. 
-
-The lawsuit names REKK and nearly 30 people from the US, Canada, UK, Greece, Lithuania and the Netherlands as defendants in the scheme, which involved hacking into Amazon's internal systems and bribing Amazon employees to approve reimbursements. REKK charged customers, who wanted to get pricey items like MacBook Pro laptops and car tires without paying for them, a commission based on the value of the purchase. "The defendants' scheme tricks Amazon into processing refunds for products that are never returned; instead of returning the products as promised, defendants keep the product and the refund," Amazon said in its lawsuit.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Unprecedented Mass Coral Bleaching' Expected in 2024, Says Expert]]></title>
-        <id>https://news.slashdot.org/story/23/12/08/1329253/unprecedented-mass-coral-bleaching-expected-in-2024-says-expert?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/12/08/1329253/unprecedented-mass-coral-bleaching-expected-in-2024-says-expert?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T21:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Record-breaking land and sea temperatures, driven by climate breakdown, will probably cause "unprecedented mass coral bleaching and mortality" throughout 2024, according to a pioneering coral scientist. From a report: The impact of climate change on coral reefs has reached "uncharted territory," said Prof Ove Hoegh-Guldberg, from the University of Queensland, Australia, leading to concerns that we could be at a "tipping point." 
-
-The upper ocean is undergoing unmatched changes in conditions, ecosystems and communities that can be traced back to the 1980s, when mass coral bleaching first appeared. In a paper published in the journal Science, US and Australian researchers say that historical data on sea surface temperatures, over four decades, suggests that this year's extreme marine heatwaves may be a precursor to a mass bleaching and coral mortality event across the Indo-Pacific in 2024-25. 
-
-Mass coral bleaching happens when delicate corals become stressed due to factors including heat, causing them to lose their brown microbial algae, turning them white. At low stress levels, the algae can return to corals over a few months. But many Caribbean reef areas have recently experienced historically high sea temperatures that began one or two months earlier and lasted longer than usual. Crucially, 2023 is the first year of a potential pair of El Nino years, with the warmest average global surface sea temperature from February to July on record. Since 1997, every instance of these El Nino pairs has led to a global mass coral bleaching event.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Aims To Make a Quarter of the World's iPhones in India]]></title>
-        <id>https://apple.slashdot.org/story/23/12/08/0426204/apple-aims-to-make-a-quarter-of-the-worlds-iphones-in-india?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/12/08/0426204/apple-aims-to-make-a-quarter-of-the-worlds-iphones-in-india?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T20:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple and its suppliers aim to build more than 50 million iPhones in India annually within the next two to three years, with additional tens of millions of units planned after that, WSJ reported Friday, citing people familiar with the situation. From the report: If the plans are achieved, India would account for a quarter of global iPhone production and take further share toward the end of the decade. China will remain the largest iPhone producer. Apple has gradually boosted its reliance on India in recent years despite challenges including rickety infrastructure and restrictive labor rules that often make doing business harder than in China. Among other issues, labor unions retain clout even in business-friendly states and are pushing back on an effort by companies to get permission for 12-hour work days, which Apple suppliers find helpful during crunch periods. 
-
-Apple and its suppliers, led by Taiwan-based Foxconn Technology Group, generally believe the initial push into India has gone well and are laying the groundwork for a bigger expansion, say people involved in the supply chain. Apple is emblematic of a move among companies worried about overdependence on China to move parts of their supply chains elsewhere, most often to Southeast Asia and South Asia. Diplomatic efforts by the U.S. and its allies to block Beijing's access to advanced technology and strengthen ties with New Delhi have accelerated the trend.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tencent Unveils Big-Budget Open-World Game]]></title>
-        <id>https://games.slashdot.org/story/23/12/08/0451241/tencent-unveils-big-budget-open-world-game?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://games.slashdot.org/story/23/12/08/0451241/tencent-unveils-big-budget-open-world-game?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Tencent revealed one of its most ambitious attempts at a big-budget console game on Friday, betting on a new franchise to fire up fans and help the global expansion of China's most valuable company. From a report: Last Sentinel is an open-world adventure game set in a dystopian future Tokyo, developed by Tencent's California-based Lightspeed LA studio. The 200-member creative team is headed up by Steve Martin, a quarter-century veteran of the games industry who has worked on marquee games in the genre like Grand Theft Auto and Red Dead Redemption. 
-
-The new title, four years in development, is testament to Tencent's long-term pursuit of foreign gaming assets and talent. The WeChat operator still relies heavily on domestic game sales in China, but in recent years it's amped up efforts to acquire slices of up-and-coming studios from Europe to Japan to complement its ownership of League of Legends creator Riot Games and large stake in Epic Games. Last Sentinel is part of its push to create new intellectual property from scratch. "We have a global gaming community that's screaming out that it wants something new. It wants new IPs, it wants new characters. We get to provide that," Martin, who left Rockstar Games to join Tencent in 2019, said in a video interview before unwrapping his work at The Game Awards in Los Angeles.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UK Class-Action Targets Mobile Phone Operators With $4.15 Billion Damages Claim]]></title>
-        <id>https://news.slashdot.org/story/23/12/08/118249/uk-class-action-targets-mobile-phone-operators-with-415-billion-damages-claim?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/12/08/118249/uk-class-action-targets-mobile-phone-operators-with-415-billion-damages-claim?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T19:20:00.000Z</updated>
-        <summary type="html"><![CDATA[The biggest UK mobile phone operators could face total damages of $4.15 billion following class-action claims that they allegedly charged 5 million existing customers "loyalty penalties" over a 16-year period. From a report: Claimant lawyers say they filed court documents at the Competition Appeals Tribunal against Vodafone, EE, Three UK and O2 last week. The claims accuse the phone companies of overcharging on as many as 28.2 million contracts by not reducing the amount customers had to pay after their minimum terms expired, despite them having effectively paid off their mobile devices. 
-
-The claim consists of individual lawsuits against each company, with damages sought of up to $1.76 billion from Vodafone, up to $1.38 billion from EE, up to $637.8 million from Three, and up to $322 million from O2. Claimant lawyers at Charles Lyndon, a law firm, estimate that up to 4.8 million people could be affected. If the case is successful, someone who held a contract with one of the mobile operators could receiveÂup to $2,293. The claims are on an "opt-out" basis, which means all qualifying customers will be automatically included in the claim unless they make a choice not to join.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Global Carbon Emissions From Fossil Fuels To Hit Record High]]></title>
-        <id>https://news.slashdot.org/story/23/12/08/0357252/global-carbon-emissions-from-fossil-fuels-to-hit-record-high?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/12/08/0357252/global-carbon-emissions-from-fossil-fuels-to-hit-record-high?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T18:40:00.000Z</updated>
-        <summary type="html"><![CDATA[WindBourne shares a report: Global carbon emissions from fossil fuels reached record levels again in 2023, as experts warned that the projected rate of warming had not improved over the past two years. The world is on track to have burned more coal, oil and gas in 2023 than it did in 2022, according to a report by the Global Carbon Project, pumping 1.1% more planet-heating carbon dioxide into the atmosphere at a time when emissions must plummet to stop extreme weather from growing more violent. 
-
-The finding comes as world leaders meet in Dubai for the fraught Cop28 climate summit. In a separate report published on Tuesday, Climate Action Tracker (CAT) raised its projections slightly for future warming above the estimates it made at a conference in Glasgow two years ago. As carbon clogs the atmosphere, trapping sunlight and baking the planet, the climate is growing more hostile to human life. The growth in CO2 emissions had slowed substantially over the past decade, the Global Carbon Project found, but the amount emitted each year had continued to rise. It projected that total CO2 emissions in 2023 would reach a record high of 40.9 gigatons. If the world continued to emit CO2 at that rate, the international team of more than 120 scientists found, it would burn through the remaining carbon budget for a half-chance of keeping global heating to 1.5C (2.7F) above pre-industrial temperatures in just seven years. In 15 years, the scientists estimated, the budget for 1.7C would be gone too.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Particle Physicists Offer a Road Map for the Next Decade]]></title>
-        <id>https://science.slashdot.org/story/23/12/08/1048223/particle-physicists-offer-a-road-map-for-the-next-decade?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/12/08/1048223/particle-physicists-offer-a-road-map-for-the-next-decade?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Particle physicists should begin laying the groundwork for a revolutionary particle collider that could be built on American soil, a committee of scientists wrote in a draft report on the future of particle physics released on Thursday. From a report: The machine would collide tiny, point-like particles called muons, which resemble electrons but are more massive. Muons provide more bang for the buck than the protons used in the Large Hadron Collider at CERN, and would push the search for new forces and particles deeper than ever into the unknown. The siting of such a project, perhaps at the Fermi National Accelerator Laboratory in Illinois, would restore American particle physics to a position of pre-eminence that was ceded to Europe in 1993 when Congress canceled the giant Superconducting…]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Calls Drive Data Loss 'Fixed,' Locks Forum Threads Saying Otherwise]]></title>
-        <id>https://hardware.slashdot.org/story/23/12/08/0525209/google-calls-drive-data-loss-fixed-locks-forum-threads-saying-otherwise?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/23/12/08/0525209/google-calls-drive-data-loss-fixed-locks-forum-threads-saying-otherwise?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Google Drive recently lost user files, with some reporting missing documents since May 2023. Google said this month that it has posted a fix, but its description of a "syncing issue" doesn't seem to capture the problem based on user reports of web files disappearing, ArsTechnica notes. 
-
-The company hasn't fully explained the cause or its recovery solution, which involves desktop app options and command line file recovery, the report asserts. This opaque handling, along with Google shutting down the Drive user forum that allowed people to share fixes, adds to perception that the company prioritizes PR over assisting users, the report adds.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[23andMe Moves To Thwart Class-Action Lawsuits by Quietly Updating Terms]]></title>
-        <id>https://it.slashdot.org/story/23/12/08/162222/23andme-moves-to-thwart-class-action-lawsuits-by-quietly-updating-terms?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/23/12/08/162222/23andme-moves-to-thwart-class-action-lawsuits-by-quietly-updating-terms?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Following a hack that potentially ensnared 6.9 million of its users, 23andMe has updated its terms of service to make it more difficult for you to take the DNA testing kit company to court, and you only have 30 days to opt out. From a report: In a filing with the US Securities and Exchange Commission last week, 23andMe said hackers accessed around 14,000 customer accounts earlier this year by trying login-password combinations exposed in unrelated breaches. It later said hackers had access to 6.9 million accounts due to the interconnected nature of its DNA Relatives feature. 
-
-23andMe has since updated its terms of service in a way that changes how the company resolves disputes with users. Customers were informed via email that "important updates were made to the Dispute Resolution and Arbitration section" on Nov. 30 "to include procedures that will encourage a prompt resolution of any disputes and to streamline arbitration proceedings where multiple similar claims are filed." Customers have 30 days to let the site know if they disagree with the terms. If they don't reach out via email to opt out, the company will consider their silence an agreement to the new terms.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Race To 5G is Over - Now It's Time To Pay the Bill]]></title>
-        <id>https://tech.slashdot.org/story/23/12/08/121241/the-race-to-5g-is-over---now-its-time-to-pay-the-bill?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/23/12/08/121241/the-race-to-5g-is-over---now-its-time-to-pay-the-bill?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Networks spent years telling us that 5G would change everything. But the flashiest use cases are nowhere to be found -- and the race to deploy the tech was costly in more ways than one. From a report: At CES in 2021, 5G was just about everywhere you looked. It was the future of mobile communications that would propel autonomous vehicles, remote surgery, and AR into reality. The low latency! The capacity! It'll change everything, we were told. Verizon and AT&T wrote massive checks for new spectrum licenses, and T-Mobile swallowed another network whole because it was very important to make the 5G future happen as quickly as possible and win the race. 
-
-CES 2024 is just around the corner, and while telecom executives were eager to shout about 5G to the rafters just a few years ago, you'll pro…]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Report Finds Steep Increase in Data Breaches, Ransomware]]></title>
-        <id>https://it.slashdot.org/story/23/12/08/1219217/apple-report-finds-steep-increase-in-data-breaches-ransomware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/23/12/08/1219217/apple-report-finds-steep-increase-in-data-breaches-ransomware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-08T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Data breaches and ransomware attacks are getting worse. Some 2.6 billion personal records have been exposed in data breaches over the past two years and that number continues to grow, according to a new report commissioned by Apple. From a report: Apple says the escalating intrusions, combined with increases in ransomware means the tech industry needs to move toward greater use of encryption. According to the report, prepared by MIT professor emeritus Stuart E. Madnick: 
-
-1. Data breaches in the US through the first nine months of the year are already 20% higher than for all of 2022.
-2. Nearly 70 percent more ransomware attacks were reported through September 2023, than in the first three quarters of 2022.
-3. Americans and those in the UK topped the list of those most targeted in ransomware attacks in 2023, followed by Canada and Australia. Those four countries accounted for nearly 70% of reported ransomware attacks.
-4. One in four people in the US had their health data exposed in a data breach during the first nine months of 2023.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
         </author>
     </entry>
 </feed>
