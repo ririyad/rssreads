@@ -320,16 +320,6 @@
           "wordCount": 274,
           "title": "Bliki: SoftwareAndEngineering",
           "imageUrl": "https://martinfowler.com/logo-sq.png"
-        },
-        {
-          "id": "https://martinfowler.com/bliki/TestDrivenDevelopment.html",
-          "author": null,
-          "description": "Test-Driven Development (TDD) is a technique for building\n\tsoftware that guides software development by writing tests. It was\n\tdeveloped by Kent\n\tBeck in the late 1990's as part of\n\tExtreme Programming. In essence we follow three simple\n\tsteps repeatedly:\nWrite a test for the next bit of functionality you want to add.\nWrite the functional code until the test passes.\nRefactor both new and old code to make it well structured.\n\n\nAlthough these three steps, often summarized as Red - Green -\n  Refactor, are the heart of the process, there's also a vital initial\n  step where we write out a list of test cases first. We then pick one of these\n  tests, apply red-green-refactor to it, and once we're done pick the next.\n  Sequencing the tests properly is a skill, we want to pick tests that drive us\n …",
-          "link": "https://martinfowler.com/bliki/TestDrivenDevelopment.html",
-          "publishedOn": "2023-12-11T19:40:00.000Z",
-          "wordCount": 489,
-          "title": "Bliki: TestDrivenDevelopment",
-          "imageUrl": "https://martinfowler.com/logo-sq.png"
         }
       ]
     },
@@ -753,6 +743,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://yro.slashdot.org/story/24/01/10/2316231/englishman-who-posed-as-hyperverse-ceo-says-sorry-to-investors-who-lost-millions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Stephen Harrison, an Englishman living in Thailand who posed as chief executive Steven Reece Lewis for the launch of the HyperVerse crypto scheme, told the Guardian Australia that he was paid to play the role of chief executive but denies having 'pocketed' any of the money lost. He says he received 180,000 Thai baht (about $7,500) over nine months and a free suit, adding that he was \"shocked\" to learn the company had presented him as having fake credentials to promote the scheme. From the report: He said he felt sorry for those who had lost money in relation to the scheme -- which he said he had no role in -- an amount Chainalysis estimates at US$1.3 billion in 2022 alone. \"I am sorry for these people,\" he said. \"Because they believed some idea with me at the forefront and believed in what…",
+          "link": "https://yro.slashdot.org/story/24/01/10/2316231/englishman-who-posed-as-hyperverse-ceo-says-sorry-to-investors-who-lost-millions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T00:50:00.000Z",
+          "wordCount": 4396,
+          "title": "Englishman Who Posed As HyperVerse CEO Says Sorry To Investors Who Lost Millions",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/24/01/10/2255228/brave-search-can-now-deliver-results-for-programming-queries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Brave has introduced CodeLLM, an AI-powered tool integrated into its search engine that offers results for programming queries. TechCrunch reports: The new AI-powered CodeLLM provides code snippets with step-by-step explanations and citations. CodeLLM is free and now integrated into Brave Search so users don't have to switch apps to access it. CodeLLM is available to all Brave Search users on desktop and mobile. If Brave Search is your default search engine then all you need to do to access CodeLLM is start a search in your browser's address bar. If Brave Search isn't your default search engine, then you need to head to search.brave.com to conduct your search. \"CodeLLM automatically detects programming-related queries, so there's no need to generate a special search,\" Brave explained in the blog post. \"On top of the search results, if an answer is possible there will be a widget to trigger the CodeLLM response. The detection of programming queries happens outside of the LLM, by other search components (similar to the ones able to detect queries about the weather, queries that lend themselves well to be summarized, queries about stock prices, etc).\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://developers.slashdot.org/story/24/01/10/2255228/brave-search-can-now-deliver-results-for-programming-queries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T00:10:00.000Z",
+          "wordCount": 3886,
+          "title": "Brave Search Can Now Deliver Results For Programming Queries",
+          "imageUrl": "https://a.fsdn.com/sd/topics/programming_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/10/224208/thousands-of-software-engineers-say-the-job-market-is-getting-much-worse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Motherboard: For much of the 21st century, software engineering has been seen as one of the safest havens in the tenuous and ever-changing American job market. But there are a growing number of signs that the field is starting to become a little less secure and comfortable, due to an industry-wide downturn and the looming threat of artificial intelligence that is spurring growing competition for software jobs. \"The amount of competition is insane,\" said Joe Forzano, an unemployed software engineer who has worked at the mental health startup Alma and private equity giant Blackstone. Since he lost his job in March, Forzano has applied to over 250 jobs. In six cases, he went through the \"full interview gauntlet,\" which included between six and eight in…",
+          "link": "https://tech.slashdot.org/story/24/01/10/224208/thousands-of-software-engineers-say-the-job-market-is-getting-much-worse?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T23:30:00.000Z",
+          "wordCount": 7371,
+          "title": "Thousands of Software Engineers Say the Job Market Is Getting Much Worse",
+          "imageUrl": "https://a.fsdn.com/sd/topics/software_64.png"
+        },
+        {
+          "id": "https://mobile.slashdot.org/story/24/01/10/2154214/startup-debuts-pocket-ai-companion-sells-out-10000-in-one-day?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "A startup called Rabbit sold out of its first batch of pocket AI companions a day after it was debuted at CES 2024. The company announced on X that it sold 10,000 units in just a day. \"When we started building r1, we said internally that we'd be happy if we sold 500 devices on launch day,\" Rabbit writes. \"In 24 hours, we already beat that by 20x!\" The Verge reports: Rabbit introduced the R1 during CES on Tuesday, which comes with a small 2.88-inch touchscreen that runs on the company's own Rabbit OS. It uses a \"Large Action Model\" that works as a \"sort of universal controller for apps,\" according to my colleague David Pierce, who got to try out the device during the showcase. This allows it to do things like play music, buy groceries, and send messages through a single interface without having to use your phone. It also lets you train the device how to interact with a certain app. A second batch is available for preorder from Rabbit's website with an expected delivery date between April and May 2024. The first batch of products are expected to start shipping in March.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://mobile.slashdot.org/story/24/01/10/2154214/startup-debuts-pocket-ai-companion-sells-out-10000-in-one-day?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T22:50:00.000Z",
+          "wordCount": 4694,
+          "title": "Startup Debuts Pocket AI Companion, Sells Out 10,000 In One Day",
+          "imageUrl": "https://a.fsdn.com/sd/topics/handheld_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/10/2146220/microsoft-debates-what-to-do-with-ai-lab-in-china?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from the New York Times: When Microsoft opened an advanced research lab in Beijing in 1998, it was a time of optimism about technology and China. The company hired hundreds of researchers for the lab, which pioneered Microsoft's work in speech, image and facial recognition and the kind of artificial intelligence that later gave rise to online chatbots likeChatGPT. The Beijing operation eventually became one of the most important A.I. labs in the world. Bill Gates, Microsoft's co-founder, called it an opportunity to tap China's \"deep pool of intellectual talent.\" But as tensions between the United States and China have mounted over which nation will lead the world's technological future, Microsoft's top leaders -- including Satya Nadella, its chief executive, and Brad Smith, its president -- have debated what to do with the prized lab for at least the past year, four current and former Microsoft employees said.\n \nThe company has faced questions from U.S. officials over whether maintaining a 200-person advanced technologies lab in China is tenable, the people said. Microsoft said it had instituted guardrails at the lab, restricting researchers from politically sensitive work. The company, which is based in Redmond, Wash., said it had also opened an outpost of the lab in Vancouver, British Columbia, and would move some researchers from China to the location. The outpost is a backup if more researchers need to relocate, two people said. The idea of shutting down or moving the lab has come up, but Microsoft's leaders support continuing it in China, four people said. \"We are as committed as ever to the lab and the world-class research of this team,\" Peter Lee, who leads Microsoft Research, a network of eight labs across the world, said in a statement. Using the lab's formal name, he added, \"There has been no discussion or advocacy to close Microsoft Research Asia, and we look forward to continuing our research agenda.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/10/2146220/microsoft-debates-what-to-do-with-ai-lab-in-china?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T22:10:00.000Z",
+          "wordCount": 4697,
+          "title": "Microsoft Debates What To Do With AI Lab In China",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/10/2132216/sec-approves-11-spot-bitcoin-etfs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "On Thursday, six spot bitcoin exchange-traded funds are expected to start trading on stock exchanges from Cboe Global Markets, according to a notice posted on CBOE's website. However, the listings still need to be approved by the U.S. Securities and Exchange Commission. CoinDesk reports: The Ark 21 (ARKB), Fidelity (FBTC), Franklin Templeton (EZBC), Invesco (BTCO), VanEck (HODL) and WisdomTree (BTCW) bitcoin ETFs appeared on the exchange operator's \"New Listings\" page on Wednesday. The listing doesn't mean that the ETFs will be approved by SEC. The commission still needs to approve the applicants' 19b-4 and S1 filings.\n \n\"We are still awaiting SEC approval of our spot bitcoin ETFs,\" a Cboe spokesperson said. \"The notices posted to our website are standard procedure in preparation of an ETF…",
+          "link": "https://slashdot.org/story/24/01/10/2132216/sec-approves-11-spot-bitcoin-etfs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T21:33:00.000Z",
+          "wordCount": 5550,
+          "title": "SEC Approves 11 Spot Bitcoin ETFs",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/10/1717200/apple-pulls-binance-other-crypto-apps-from-india-store?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple has pulled apps of at least nine crypto exchanges including Binance and Kraken from its App Store in India, less than two weeks after most of these global firms were flagged for operating \"illegally\" in the country. From a report: Financial Intelligence Unit, an Indian government agency that scrutinizes financial transactions, late last month issued show cause notices to nine crypto firms and alleged that they weren't compliant with India's anti-money laundering rules. FIU had asked India's IT Ministry to block websites of all the nine services in India. Other exchanges whose apps have been pulled are Huobi, Gate.io, Bittrex, and Bitfinex. Bitstamp, another offending exchange named by FIU, was still operational on App Store in India, though the eponymous app of OKX had also disappeared.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/10/1717200/apple-pulls-binance-other-crypto-apps-from-india-store?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T20:40:00.000Z",
+          "wordCount": 4164,
+          "title": "Apple Pulls Binance, Other Crypto Apps From India Store",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/10/1732243/hubble-finds-weird-home-of-farthest-fast-radio-burst?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Astronomers using NASA's Hubble Space Telescope have found a rare event in an oddball place. NASA reports: It's called a fast radio burst (FRB), a fleeting blast of energy that can -- for a few milliseconds -- outshine an entire galaxy. Hundreds of FRBs have been detected over the past few years. They pop off all over the sky like camera flashes at a stadium event, but the sources behind these intense bursts of radiation remain uncertain. This new FRB is particularly weird because it erupted halfway across the universe, making it the farthest and most powerful example detected to date. \n\nAnd if that's not strange enough, it just got weirder based on the follow-up Hubble observations made after its discovery. The FRB flashed in what seems like an unlikely place: a collection of galaxies that existed when the universe was only 5 billion years old. The large majority of previous FRBs have been found in isolated galaxies. FRB 20220610A was first detected on June 10, 2022, by the Australian Square Kilometer Array Pathfinder (ASKAP) radio telescope in Western Australia. The European Southern Observatory's Very Large Telescope in Chile confirmed that the FRB came from a distant place. The FRB was four times more energetic than closer FRBs. \n\n\"It required Hubble's keen sharpness and sensitivity to pinpoint exactly where the FRB came from,\" said lead author Alexa Gordon of Northwestern University in Evanston, Illinois. \"Without Hubble's imaging, it would still remain a mystery as to whether this was originating from one monolithic galaxy or from some type of interacting system. It's these types of environments -- these weird ones -- that are driving us toward better understanding the mystery of FRBs.\" Hubble's crisp images suggest this FRB originated in an environment where there may be as many as seven galaxies on a possible path to merging, which would also be very significant, researchers say.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/01/10/1732243/hubble-finds-weird-home-of-farthest-fast-radio-burst?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T20:00:00.000Z",
+          "wordCount": 5005,
+          "title": "Hubble Finds Weird Home of Farthest Fast Radio Burst",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/24/01/10/1729216/linux-kernel-414-reaches-end-of-life-after-more-than-six-years-of-maintenance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "prisoninmate shares a report: Originally released on November 12th, 2017, the long-term supported (LTS) Linux 4.14 kernel series has now reached its end of supported life after being maintained for more than six years. Renowned kernel developer Greg Kroah-Hartman announced today on the Linux kernel mailing list the release of Linux 4.14.336 as what appears to be the last maintenance update to the long-term supported Linux 4.14 kernel series, which is now marked as EOL (End of Life) on the kernel.org website. \"This is the LAST 4.14.y kernel to be released. It is now officially end-of-life. Do NOT use this kernel version anymore, please move to a newer one, as shown on the kernel.org releases page,\" said Greg Kroah-Hartman. \"If you are stuck at this version due to a vendor requiring it, go get support from that vendor for this obsolete kernel tree, as that is what you are paying them for.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://linux.slashdot.org/story/24/01/10/1729216/linux-kernel-414-reaches-end-of-life-after-more-than-six-years-of-maintenance?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T19:20:00.000Z",
+          "wordCount": 5481,
+          "title": "Linux Kernel 4.14 Reaches End of Life After More Than Six Years of Maintenance",
+          "imageUrl": "https://a.fsdn.com/sd/topics/os_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/10/1741217/nasa-postpones-plans-to-send-humans-to-moon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "NASA has postponed its plans to send humans to the moon after delays hit its hugely ambitious Artemis programme, which aims to get spaceboots bouncing again on the lunar surface for the first time in half a century. From a report: The US space agency has announced the Artemis III mission to land four astronauts near the lunar south pole will be delayed a year until September 2026. Artemis II, a 10-day expedition to send a crew around the moon and back to test life support systems, will also be pushed back to September 2025. \n\nNASA said the delays would allow its teams to work through development challenges associated with the programme, which partners with private companies including Elon Musk's SpaceX and Lockheed Martin and uses some largely untested spacecraft and technology. \"We are returning to the moon in a way we never have before, and the safety of our astronauts is Nasa's top priority as we prepare for future Artemis missions,\" said the Nasa administrator Bill Nelson. Washington wants to establish a long-term human presence outside Earth's orbit, including construction of a lunar base camp as well as a space station that circles the moon. Its ultimate plans are to send people to Mars, but it has decided to return to the moon first to learn more about deep space before embarking on what would be a months-long voyage to the red planet.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/01/10/1741217/nasa-postpones-plans-to-send-humans-to-moon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T18:40:00.000Z",
+          "wordCount": 8551,
+          "title": "NASA Postpones Plans To Send Humans To Moon",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/24/01/10/1727219/linux-devices-are-under-attack-by-a-never-before-seen-worm?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Previously unknown self-replicating malware has been infecting Linux devices worldwide, installing cryptomining malware using unusual concealment methods. The worm is a customized version of Mirai botnet malware, which takes control of Linux-based internet-connected devices to infect others. Mirai first emerged in 2016, delivering record-setting distributed denial-of-service attacks by compromising vulnerable devices. Once compromised, the worm self-replicates by scanning for and guessing credentials of additional vulnerable devices. While traditionally used for DDoS attacks, this latest variant focuses on covert cryptomining. ArsTechnica adds: On Wednesday, researchers from network security and reliability firm Akamai revealed that a previously unknown Mirai-based network they dubbed NoaBot has been targeting Linux devices since at least last January. Instead of targeting weak telnet passwords, the NoaBot targets weak passwords connecting SSH connections. Another twist: Rather than performing DDoSes, the new botnet installs cryptocurrency mining software, which allows the attackers to generate digital coins using victims' computing resources, electricity, and bandwidth. The cryptominer is a modified version of XMRig, another piece of open source malware. More recently, NoaBot has been used to also deliver P2PInfect, a separate worm researchers from Palo Alto Networks revealed last July. \n\nAkamai has been monitoring NoaBot for the past 12 months in a honeypot that mimics real Linux devices to track various attacks circulating in the wild. To date, attacks have originated from 849 distinct IP addresses, almost all of which are likely hosting a device that's already infected. The following figure tracks the number of attacks delivered to the honeypot over the past year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://linux.slashdot.org/story/24/01/10/1727219/linux-devices-are-under-attack-by-a-never-before-seen-worm?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T18:00:00.000Z",
+          "wordCount": 7664,
+          "title": "Linux Devices Are Under Attack By a Never-Before-Seen Worm",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/10/1721241/openai-launches-new-store-for-users-to-share-custom-chatbots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "OpenAI has launched an online store where people can share customized versions of the company's popular ChatGPT chatbot, after initially delaying the rollout because of leadership upheaval last year. From a report: The new store, which rolled out Wednesday to paid ChatGPT users, will corral the chatbots that users create for a variety of tasks, for example a version of ChatGPT that can teach math to a child or come up with colorful cocktail recipes. The product, called the GPT Store, will include chatbots that users have chosen to share publicly. It will eventually introduce ways for people to make money from their creations -- much as they might through the app stores of Apple or Alphabet's Google. \n\nSimilar to those app stores, OpenAI's GPT Store will let users see the most popular and trending chatbots on a leaderboard and search for them by category. In a blog post announcing the rollout, OpenAI said that people have made 3 million custom chatbots thus far, though it was not clear how many were available through its store at launch. The store's launch comes as OpenAI works to build out its ecosystem of services and find new sources of revenue. On Wednesday, OpenAI also announced a new paid ChatGPT tier for companies with smaller teams that starts at $25 a month per user. OpenAI first launched a corporate version of ChatGPT with added features and privacy safeguards in August.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/10/1721241/openai-launches-new-store-for-users-to-share-custom-chatbots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T17:21:00.000Z",
+          "wordCount": 4309,
+          "title": "OpenAI Launches New Store For Users To Share Custom Chatbots",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/24/01/10/1558209/music-streams-hit-4-trillion-in-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The global music industry surpassed 4 trillion streams in 2023, a new single-year record, Luminate's 2023 Year-End Report found. Global streams were also up 34% from last year, reflective of an increasingly international music marketplace. From a report: Stateside, three genres saw the biggest growth in 2023: country (23.7%), Latin (which encompasses all Latin musical genres, up 24.1%) and world (a catchall that includes J-pop, K-pop and Afrobeats, up 26.2%.) It seems that more Americans are listening to non-English music. By the end of 2023, Luminate found that Spanish-language music's share of the top 10,000 songs streamed in the U.S. grew 3.8%, and English-language music's share dropped 3.8%.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/24/01/10/1558209/music-streams-hit-4-trillion-in-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T16:40:00.000Z",
+          "wordCount": 4924,
+          "title": "Music Streams Hit 4 Trillion in 2023",
+          "imageUrl": "https://a.fsdn.com/sd/topics/music_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/10/1551254/valve-opens-the-door-to-more-steam-games-developed-with-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Valve has issued new rules about how game developers can publish games that use AI technology on Steam. From a report: Writing in a blog post, the company says that it is \"making changes to how we handle games that use AI technology\" which mean that developers will need to disclose when their games use it. The changes \"will enable us to release the vast majority of games that use\" AI, Valve's post says. The changes appear designed to increase transparency around the use of AI in Steam games, while offering protections against the risks of using AI generated content and allowing customers to make an informed choice about whether to buy a game that uses AI technology. \n\nUnder the new rules, developers will need to disclose when games contain pre-generated content (like art, code, or sound) created with the help of AI and promise that it's not \"illegal or infringing.\" They'll also need to say if their game has AI content that is generated \"live\" while it is running. It's in the latter case when developers will need to detail the safety measures they put in place to stop their AI from generating illegal content. Players will be able to see on a game's store page if it contains AI, and have new options to report illegal AI-generated content if they encounter it in-game.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/10/1551254/valve-opens-the-door-to-more-steam-games-developed-with-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T16:00:00.000Z",
+          "wordCount": 5605,
+          "title": "Valve Opens the Door To More Steam Games Developed With AI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/10/1523256/the-next-front-in-the-us-china-battle-over-chips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A U.S.-born chip technology called RISC-V has become critical to China's ambitions. Washington is debating whether and how to limit the technology. From a report: It evolved from a university computer lab in California to a foundation for myriad chips that handle computing chores. RISC-V essentially provides a kind of common language for designing processors that are found in devices like smartphones, disk drives, Wi-Fi routers and tablets. RISC-V has ignited a new debate in Washington in recent months about how far the United States can or should go as it steadily expands restrictions on exporting technology to China that could help advance its military. That's because RISC-V, which can be downloaded from the internet for free, has become a central tool for Chinese companies and governmen…",
+          "link": "https://news.slashdot.org/story/24/01/10/1523256/the-next-front-in-the-us-china-battle-over-chips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-10T15:24:00.000Z",
+          "wordCount": 11059,
+          "title": "The Next Front in the US-China Battle Over Chips",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
         {
           "id": "https://slashdot.org/story/24/01/09/2338230/amazons-twitch-to-cut-500-employees-about-35-of-staff?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4902,156 +5042,6 @@
           "wordCount": 4765,
           "title": "FTC Wants Microsoft's Relationship With OpenAI Under the Microscope",
           "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://mobile.slashdot.org/story/23/12/11/2154256/apple-releases-spatial-video-recording-on-iphone-15-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "With iOS 17.2 rolling out today, Apple is giving users the ability to record spatial videos on their iPhone 15 Pro and iPhone 15 Pro Max. \"The new feature lets users film in three dimensions and experience their favorite memories and special moments on Apple Vision Pro, the upcoming mixed-reality headset,\" reports TechCrunch. From the report: In order to create a three-dimensional video, Apple explains that the iPhone uses both the main and ultrawide cameras when recording. This is then saved as a single file within a new album in the Photos app titled \"Spatial.\" The videos will also sync across devices with iCloud. Spatial videos are captured in 1080p resolution at 30 frames per second. Spatial video recording can be enabled in Settings by toggling on \"Spatial Video for Apple Vision Pro\" in the Camera section under Formats. Apple suggests holding the iPhone in landscape orientation for optimal results. Spatial videos can be viewed on all iPhones and other devices; however, they'll appear as regular, 2D videos.\n \nThe new feature allows users to record videos that Apple's senior vice president of worldwide marketing, Greg Joswiak, describes as \"magical\" and \"setting a new bar for what's possible.\" While that's marketing speak, it's a differentiator for Apple's high-end iPhone, and will deepen users' connections with Apple's latest product, the AR/VR headset, launching next year. As part of today's release, Apple also launched its Journal app, which is designed to allow iOS users to record key moments in their lives.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://mobile.slashdot.org/story/23/12/11/2154256/apple-releases-spatial-video-recording-on-iphone-15-pro?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T00:45:00.000Z",
-          "wordCount": 3998,
-          "title": "Apple Releases Spatial Video Recording On iPhone 15 Pro",
-          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/11/215238/huawei-to-start-building-first-european-factory-in-france?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Reuters: China's Huawei will start building its mobile phone network equipment factory in France next year, a source familiar with the matter said, pressing ahead with its first plant in Europe even as some European governments curb the use of the firm's 5G gear. The company outlined plans for the factory with an initial investment of 200 million euros ($215.28 million) in 2020, but the roll-out was delayed by the COVID-19 pandemic, the source said on Monday. The source did not give a timeline for when the factory in Brumath, near Strasbourg, will be up and running. A French government source said the site was expected to open in 2025. Further reading: 'How Washington Chased Huawei Out of Europe'\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/11/215238/huawei-to-start-building-first-european-factory-in-france?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T00:02:00.000Z",
-          "wordCount": 4019,
-          "title": "Huawei To Start Building First European Factory In France",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/11/2059245/google-play-movies-tv-apps-shutting-down-in-january-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Google Play Movies & TV will be replaced with Google TV on January 17, 2024. 9to5Google reports: Since the 2020 launch of the Google TV platform, that branding has replaced Play Movies & TV in areas such as mobile apps, but that's also led to the choice to do away with Play Movies & TV branding basically everywhere else. In October, that decision also made its way to Android TV, and the app has not been working ever since. Despite some confusion over the past few days, the app currently just redirects to Android TV's \"Shop\" tab, which has been widely available for months.\n \nIn a new post, Google explains that it will do away with the last parts of Google Play Movies & TV in January 2024: \"With these changes, Google Play Movies & TV will no longer be available on Android TV devices or the Google Play website.* However, you'll still be able to access all of your previously purchased titles (including active rentals) on Android TV devices, Google TV devices, the Google TV mobile app (Android and iOS), and YouTube.\"\n \nOn January 17, Play Movies & TV will officially cease for good on Android TV. For anyone who does still have the app working -- again, most users cannot use the app already -- the \"Shop\" tab will become the only option. Similarly, Google says that Play Movies & TV will cease on other remaining platforms that same date. Any cable boxes with the app integrated will also lose it, and in turn pushed to the YouTube app for continued access to purchased content. Web access via play.google.com/movies will also go away, with youtube.com/movies becoming the alternative.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/11/2059245/google-play-movies-tv-apps-shutting-down-in-january-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T23:20:00.000Z",
-          "wordCount": 4405,
-          "title": "Google Play Movies, TV Apps Shutting Down In January 2024",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/11/2050254/the-arc-browser-is-finally-coming-to-windows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "The Browser Company's Chromium-based Arc browser, which aims to rethink the whole browser UI with a sidebar for tabs and lots of personalization options, is finally coming to Windows. In a post on X, the Browser Company says it's sent out the first Windows beta invites. It's currently only available for iOS and Mac users. Slashdot reader dokjest shares the email they received: Hey there, Hursh here, CTO at the Browser Co, with some exciting news! A little while ago, you signed up for a brand new browser, Arc -- one that The Verge called \"The Chrome replacement I've been waiting for\" and Shopify's CEO named as \"the best browser.\" Well, starting today, we're onboarding our very first beta testers to Arc on Windows. And you're next!\n \nOver the coming weeks, our team will be onboarding hundreds of beta testers to Arc. And come January, we'll be welcoming 1,000s of you from the waitlist every week. If you don't mind a few bugs and some rough edges, sign up as a beta tester and we'll prioritize your invite to Arc! For us, this period leading up to our Windows release is about crafting the very best version of Arc that we can. And that means learning from you -- what you love, what's missing, what doesn't feel quite right. It still feels surreal to say, but it really does all begin today. Follow along for some fun on isarconwindowsyet.com -- And we'll see you very soon!\n \n- Hursh and The Browser Co Crew\n \nP.S. If you have a friend on Windows with one too many tabs, who could use a better browser -- forward this on to them, too! If you want to get on the beta waitlist, you can sign up here.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/11/2050254/the-arc-browser-is-finally-coming-to-windows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T22:40:00.000Z",
-          "wordCount": 5277,
-          "title": "The Arc Browser Is Finally Coming To Windows",
-          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/11/2042200/us-healthcare-giant-norton-says-hackers-stole-millions-of-patients-data-during-ransomware-attack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TechCrunch: Kentucky-based nonprofit healthcare system Norton Healthcare has confirmed that hackers accessed the personal data of millions of patients and employees during an earlier ransomware attack. Norton operates more than 40 clinics and hospitals in and around Louisville, Kentucky, and is the city's third-largest private employer. The organization has more than 20,000 employees, and more than 3,000 total providers on its medical staff, according to its website. In a filing with Maine's attorney general on Friday, Norton said that the sensitive data of approximately 2.5 million patients, as well as employees and their dependents, was accessed during its May ransomware attack.\n \nIn a letter sent to those affected, the nonprofit said that hackers…",
-          "link": "https://it.slashdot.org/story/23/12/11/2042200/us-healthcare-giant-norton-says-hackers-stole-millions-of-patients-data-during-ransomware-attack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T22:02:00.000Z",
-          "wordCount": 4376,
-          "title": "US Healthcare Giant Norton Says Hackers Stole Millions of Patients' Data During Ransomware Attack",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/11/194248/nvidia-emerges-as-leading-investor-in-ai-companies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Nvidia, the world's most valuable chipmaker, has become one of the most prolific investors in AI start-ups this year, seeking to capitalise on its position as the dominant provider of AI processors. From a report: Silicon Valley-based Nvidia said on Monday it had invested in \"more than two dozen\" companies this year, from big new AI platforms valued in the billions of dollars to smaller start-ups applying AI to industries such as healthcare or energy. According to estimates by Dealroom, which tracks venture capital investments, Nvidia participated in 35 deals in 2023, almost six times more than last year. \n\nThat made the chipmaker the most active large-scale investor in AI in a banner year for dealmaking in the sector, outstripping Silicon Valley's largest venture firms such as Andreessen Horowitz and Sequoia, according to Dealroom, excluding small-scale accelerator funds such as Y Combinator that place many smaller bets. \"Broadly, for Nvidia, the number one criteria [for making start-up investments] is relevancy,\" Mohamed Siddeek, head of its dedicated venture arm NVentures, told the Financial Times. \"Companies that use our technology, who depend on our technology, who build their businesses on our technologyâ...âI can't think of a situation where we've invested in a company that did not use Nvidia products.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/11/194248/nvidia-emerges-as-leading-investor-in-ai-companies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T21:20:00.000Z",
-          "wordCount": 4514,
-          "title": "Nvidia Emerges as Leading Investor in AI Companies",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/12/11/1917207/apple-rolls-out-journal-app-with-ios-172-and-ipados-172-updates?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple today released iOS 17.2 and iPadOS 17.2, the second major updates to the iOS 17 and iPadOS 17 operating systems that came out in September. From a report: The iOS 17.2 update includes the new Journal app, which is designed to allow iOS users to record key moments in their lives. The Journal app includes journaling suggestions, scheduled notifications, and options for adding photos, locations, and more.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/12/11/1917207/apple-rolls-out-journal-app-with-ios-172-and-ipados-172-updates?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T20:40:00.000Z",
-          "wordCount": 4458,
-          "title": "Apple Rolls Out Journal App With iOS 17.2 and iPadOS 17.2 Updates",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ios_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/11/1911208/microsoft-and-labor-unions-form-historic-alliance-on-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft is teaming up with labor unions to create \"an open dialogue\" on how AI will impact workers. From a report: The software giant is forming an alliance with the American Federation of Labor and Congress of Industrial Organizations, which comprises 60 labor unions representing 12.5 million workers, according to a statement on Monday. Under the partnership, Redmond, Washington-based Microsoft will provide labor leaders and workers with formal training on how AI works. The education sessions will start in the winter of 2024. Microsoft will also begin gathering feedback from labor groups and will focus on unions and workers in \"key selected sectors.\" \n\nThe initiative marks the first formal collaboration on AI between labor unions and the technology industry and coincides with growing concerns that artificial intelligence could displace workers. The agreement also includes a template for \"neutrality\" terms that would make it easier for unions to organize at Microsoft. The move expands an approach the company already agreed to for its video game workers and lays the groundwork for broader unionization at Microsoft. Neutrality agreements commit companies not to wage anti-union campaigns in response to workers organizing.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/11/1911208/microsoft-and-labor-unions-form-historic-alliance-on-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T20:00:00.000Z",
-          "wordCount": 5670,
-          "title": "Microsoft and Labor Unions Form 'Historic' Alliance on AI",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/11/1922231/cop28-draft-agreement-calls-for-fossil-fuel-cuts-but-avoids-phase-out?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A draft deal to cut global fossil fuel production is \"grossly insufficient\" and \"incoherent\" and will not stop the world from avoiding dangerous climate breakdown, according to delegates at the UN's Cop28 summit. From a report: The text put forward by the summit presidency after 10 days of wrangling was received with concern and anger by many climate experts and politicians, though others welcomed elements of the draft including the first mention in a Cop text of reducing fossil fuel production. Some countries are despairing that the text does not require a full phase-out of fossil fuels. \n\nCedric Schuster of Samoa, chair of the Alliance of Small Island States, said: \"We will not sign our death certificate. We cannot sign on to text that does not have strong commitments on phasing out fossil fuels.\" The Cop28 presidency released a draft text in the early evening on Monday, which called for \"reducing both consumption and production of fossil fuels, in a just, orderly and equitable manner, so as to achieve net zero by, before or around 2050, in keeping with the science.\" \n\nThe text avoids highly contentious calls for a \"phase-out\" or \"phase-down\" of fossil fuels, which have been the focus of deep disagreement among the more than 190 countries meeting in Dubai. But instead of requiring fossil fuel producers to cut their output, it frames such reductions as optional, by calling on countries to \"take actions that could include\" reducing fossil fuels. \"That one word 'could' just kills everything,\" said Eamon Ryan, Ireland's environment minister.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/11/1922231/cop28-draft-agreement-calls-for-fossil-fuel-cuts-but-avoids-phase-out?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T19:21:00.000Z",
-          "wordCount": 6580,
-          "title": "Cop28 Draft Agreement Calls for Fossil Fuel Cuts But Avoids 'Phase-Out'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/12/11/1846224/beepers-imessage-app-for-android-is-back?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The faceoff between Apple and Beeper has entered another round. Days after Apple managed to block Beeper Mini from seamlessly sending and receiving iMessages on Android, Beeper says the app is up and running again -- sort of. From a report: See, Beeper Mini works a little differently this time: you must now sign in with an Apple ID, whereas previously it would automatically register you to iMessage via your phone number. Beeper says it's working on a fix to restore phone number registration with iMessage, but until then, your friends won't be able to send iMessages directly to your phone number. Instead, the blue bubbles will have to come to and from your email address. That's not nearly as convenient, but at the end of the day, it's still iMessage. \n\nAnother change is that for now, owing to what could escalate into a cat-and-mouse game with Apple, Beeper Mini will be free to use. \"Things have been a bit chaotic, and we're not comfortable subjecting paying users to this,\" the company wrote in a blog post today about the update. The app originally required a $2-per-month subscription. Apple's statement on Friday made clear that it won't hesitate to shut down further attempts to dupe its servers into believing Android phones are genuine Apple devices.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/12/11/1846224/beepers-imessage-app-for-android-is-back?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T18:45:00.000Z",
-          "wordCount": 6959,
-          "title": "Beeper's iMessage App for Android is Back",
-          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/11/0618233/that-call-center-tech-scammer-could-be-a-human-trafficking-victim?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Human trafficking to staff cyber scam call centers, once isolated to Southeast Asia, has expanded beyond the region, according to an Interpol investigation revealing new evidence of abuse in South America and the Middle East. Previous hotspots since 2021 were Cambodia, Laos and Myanmar. From a report: The latest five-month operation discovered that victims from Malaysia were being trafficked to work in Peruvian call centers and Ugandan victims were being trafficked to Dubai for the same reason, only to be diverted to Thailand and then Myanmar. Police in Telangana, India, recently registered their first case of human trafficking for the purposes of cyber fraud. An accountant was lured to southeast Asia to work for a cyber fraud operation before eventually being returned in exchange for a ransom payment. \n\nInterpol said that in Myanmar alone, it identified trafficking victims originating from at least 22 different countries, although most come from the country's Kayin and Shan states. Operation Storm Makers II has led to hundreds of arrests and the rescue of more than 140 individuals, although the scale of the threat is much larger; many of the 360 investigations remain open and ongoing. Fake job ads luring victims with promises of high pay for light work in IT, marketing, modeling, and other roles now utilize AI translation tools to target non-Chinese speakers, expanding the victim pool, according to the report.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/11/0618233/that-call-center-tech-scammer-could-be-a-human-trafficking-victim?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T18:00:00.000Z",
-          "wordCount": 7907,
-          "title": "That Call Center Tech Scammer Could Be a Human Trafficking Victim",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/11/1138247/ex-commissioner-for-facial-recognition-tech-joins-facewatch-firm-he-approved?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The recently-departed watchdog in charge of monitoring facial recognition technology in UK has joined the private firm he controversially approved, paving the way for the mass roll-out of biometric surveillance cameras in high streets across the country. From a report: In a move critics have dubbed an \"outrageous conflict of interest,\" Professor Fraser Sampson, former biometrics and surveillance camera commissioner, has joined Facewatch as a non-executive director. Sampson left his watchdog role on 31 October, with Companies House records showing he was registered as a company director at Facewatch the following day, 1 November. \n\nCampaigners claim this might mean he was negotiating his Facewatch contract while in post, and have urged the advisory committee on business appointments to investigate if it may have \"compromised his work in public office.\" It is understood that the committee is currently considering the issue. Facewatch uses biometric cameras to check faces against a watch list and, despite widespread concern over the technology, has received backing from the Home Office, and has already been introduced in hundreds of high-street shops and supermarkets.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/11/1138247/ex-commissioner-for-facial-recognition-tech-joins-facewatch-firm-he-approved?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T17:20:00.000Z",
-          "wordCount": 4499,
-          "title": "Ex-Commissioner For Facial Recognition Tech Joins Facewatch Firm He Approved",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/11/1117216/why-the-us-needs-a-moonshot-mentality-for-ai---led-by-the-public-sector?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Fei-Fei Li and John Etchemendy, the founding co-directors of the Stanford Institute for Human-Centered Artificial Intelligence, in an op-ed on WSJ argue that AI is too important to be left entirely in the hands of the big tech companies: Among other things, 2023 will be remembered as the year artificial intelligence went mainstream. But while Americans from every corner of the country began dabbling with tools like ChatGPT and Midjourney, we believe 2023 is also the year Congress failed to act on what we see as the big picture: AI's impact will be far bigger than the products that companies are releasing at a breakneck pace. AI is a broad, general-purpose technology with profound implications for society that cannot be overstated. \n\n[...] So what needs to happen? President Biden has set the stage, and with all this attention, it's time for Congress to act. They need to pass the Create AI Act, adhere to the elements called on by the new executive order, and invest more in the public sector to ensure America's leadership in creating AI technology steeped in the values we stand for. We also encourage an investment in human capital to bring more talent to the U.S. to work in the field of AI within academia and the government. \n\nBut why does this matter? Because this technology isn't just good for optimizing ad revenue for technology companies, but can fuel the next generation of scientific discovery, ranging from nuclear fusion to curing cancer. Furthermore, to truly understand this technology, including its sometimes unpredictable emergent capabilities and behaviors, public-sector researchers urgently need to replicate and examine the under-the-hood architecture of these models. That's why government research labs need to take a larger role in AI. [...]\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/11/1117216/why-the-us-needs-a-moonshot-mentality-for-ai---led-by-the-public-sector?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T16:40:00.000Z",
-          "wordCount": 9863,
-          "title": "Why the US Needs a Moonshot Mentality for AI - Led by the Public Sector",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/11/0559246/new-york-joins-ibm-micron-in-10-billion-chip-research-complex?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "New York has partnered with chip firms to build $10 billion semiconductor research site at University at Albany, featuring cutting-edge ASML equipment to develop most advanced chips. From a report: Once the machinery is installed, the project and its partners will begin work on next-generation chip manufacturing there, according to New York Gov. Kathy Hochul's office. The partners include tech giant IBM, memory manufacturer Micron and chip manufacturing equipment makers Applied Materials and Tokyo Electron. \n\nThe expansion could help New York's bid to be designated a research hub under last year's $53 billion Chips Act. That legislation included $11 billion for a National Semiconductor Technology Center to foster domestic chip research and development. Expanding domestic chip manufacturing and research has become a federal and state-level priority in recent years as concern grows in the U.S. over China's expanding grasp over the industry. Chips are increasingly seen as a crux of geopolitical power, underlying advanced weapons for militaries and sophisticated artificial-intelligence systems.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/11/0559246/new-york-joins-ibm-micron-in-10-billion-chip-research-complex?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T16:00:00.000Z",
-          "wordCount": 5683,
-          "title": "New York Joins IBM, Micron in $10 Billion Chip Research Complex",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/11/0712215/bus-melting-jet-cars-are-getting-scarce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "As racetracks close and old aircraft engines get harder to find, the crowd-pleasing spectacles are endangered. From a report: Magdatude is a 1946 Chevy pickup modified with a jet engine. It wasn't put there for speed. On a rainy September night, the truck rumbled onto the infield of the Rockford Speedway in Illinois, stopping with its business end about 10 feet from a junk minibus. The engine whined to life and shot a blast of fire from its afterburner, engulfing the bus until it was reduced to a charred metal skeleton. \"There's nothing left of that thing!\" the announcer shouted. \"Holy cow!\" \n\nIt was a textbook jet car meltdown, once a common spectacle at racetracks and drag strips. The fiery craft has become endangered as venues close, spare parts grow scarce and practitioners dwindle. \"I think realistically there's going to be a few people that keep it alive,\" said Josh Baumgartner, Magdatude's owner. \"We're hoping to be among them.\" \n\nA former Navy mechanic named Doug Rose helped to popularize meltdowns after he created a dragster using a jet engine from a scrapyard. According to his widow, Jeanne, he conducted his first fire show around 1968 with a car he named the Green Mamba. Over the years, he honed his craft until he could torch a half-dozen vehicles at once. \"Doug's objective was to please the people,\" she said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/11/0712215/bus-melting-jet-cars-are-getting-scarce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-11T15:20:00.000Z",
-          "wordCount": 8513,
-          "title": "Bus-Melting Jet Cars Are Getting Scarce",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
         }
       ]
     }
