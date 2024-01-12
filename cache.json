@@ -46,6 +46,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/google-cloud-cuts-egress-and-promotes-cloud-exits-01dbe9f3",
+          "author": null,
+          "description": "The absurd egress fees charged by major hyperscalers have been one of the biggest impediments for companies to leave the cloud. We’ve been preparing for our own departure from AWS S3 at 37signals, and the price for taking our data elsewhere is in the crazy-land region of $300,000-$400,000! So imagine my surprise seeing the announcement that Google is doing away with the extortionate egress fee entirely for GCP.\nThe change is effective immediately:\n\nStarting today, Google Cloud customers who wish to stop using Google Cloud and migrate their data to another cloud provider and/or on premises, can take advantage of free network data transfer to migrate their data out of Google Cloud. This applies to all customers globally.\n\nBut as shocking as the fact that Google is dropping the egress racket …",
+          "link": "https://world.hey.com/dhh/google-cloud-cuts-egress-and-promotes-cloud-exits-01dbe9f3",
+          "publishedOn": "2024-01-11T22:26:30.000Z",
+          "wordCount": 465,
+          "title": "Google Cloud cuts egress and promotes cloud exits",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/apple-approves-the-hey-calendar-c76ebd9c",
           "author": null,
           "description": "I’ll admit it was a bit cheeky to make our new HEY Calendar app “do something” by including Apple’s own history as a preview for people who don’t have an account. And I didn’t give the gambit better than 30% odds of succeeding, but lo and behold, it did! Apple has approved our app, and it’s now available in the App Store!\nWhat a relief! We’ve spent a whole year getting the HEY Calendar ready. Millions of dollars in investment. And, as sad as it sounds, it all hinges on Apple. About 85% of paying customers for HEY use Macs and iPhones, so if Apple denied us the ability to distribute our app, we’d be dead.\nThat was the same existential dilemma we faced back in 2020 as well. Tons of businesses, including ours, simply aren't viable if Apple cuts off the air supply that is access to the pocket …",
@@ -310,16 +320,6 @@
           "wordCount": 854,
           "title": "My favorite musical discoveries of 2023",
           "imageUrl": "https://martinfowler.com/articles/2023-music/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/bliki/SoftwareAndEngineering.html",
-          "author": null,
-          "description": "Throughout my career, people have compared software development to\n  “traditional” engineering, usually in a way to scold software developers for not\n  doing a proper job. As someone who got his degree in Electronic Engineering,\n  this resonated with me early in my career. But this way of thinking is flawed\n  because most people have the wrong impression of how engineering works in\n  practice.\nGlenn Vanderburg has spent a lot of time digging\n  into these misconceptions, and I strongly urge anyone who wants to compare\n  software development to engineering to watch his talk Real Software Engineering. It's also well worth\n  listening to his interview on the podcast Oddly\n  Influenced. Sadly I've not been able to persuade him to write this\n  material down - it would make a great article.\nAnother good thinker on this relationship is Hillel Wayne. He interviewed a\n  bunch of “crossovers” - people who had worked both in traditional engineering\n  and in software. He wrote up what he learned in a series of essays, starting\n  with Are We Really Engineers?",
-          "link": "https://martinfowler.com/bliki/SoftwareAndEngineering.html",
-          "publishedOn": "2023-12-13T05:00:00.000Z",
-          "wordCount": 274,
-          "title": "Bliki: SoftwareAndEngineering",
-          "imageUrl": "https://martinfowler.com/logo-sq.png"
         }
       ]
     },
@@ -743,6 +743,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/24/01/11/2245247/spacex-sends-first-text-messages-using-starlink-satellites?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Just six days after being launched atop a Falcon 9 rocket, one of SpaceX's six Starlink satellites was used to send text messages for the first time. Space.com reports: That update didn't reveal what the first Starlink direct-to-cell text said. In a post on X on Wednesday, SpaceX founder and CEO Elon Musk said the message was \"LFGMF2024,\" but the chances are fairly high that he was joking. [...] Beaming connectivity service from satellites directly to smartphones -- which SpaceX is doing via a partnership with T-Mobile -- is a difficult proposition, as SpaceX noted in Wednesday's update.\n \n\"For example, in terrestrial networks cell towers are stationary, but in a satellite network they move at tens of thousands of miles per hour relative to users on Earth,\" SpaceX wrote. \"This requires seamless handoffs between satellites and accommodations for factors like Doppler shift and timing delays that challenge phone-to-space communications. Cell phones are also incredibly difficult to connect to satellites hundreds of kilometers away, given a mobile phone's low antenna gain and transmit power.\"\n \nThe direct-to-cell Starlink satellites overcome these challenges thanks to \"innovative new custom silicon, phased-array antennas and advanced software algorithms,\" SpaceX added. Overcoming tough challenges can lead to great rewards, and that's the case here, according to SpaceX President Gwynne Shotwell. \"Satellite connectivity direct to cell phones will have a tremendous impact around the world, helping people communicate wherever and whenever they want or need to,\" Shotwell said via X on Wednesday.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/11/2245247/spacex-sends-first-text-messages-using-starlink-satellites?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-12T00:45:00.000Z",
+          "wordCount": 3973,
+          "title": "SpaceX Sends First Text Messages Using Starlink Satellites",
+          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/11/228202/polestar-ceo-promises-to-keep-apple-carplay-and-android-auto-around?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TechCrunch: Polestar CEO Thomas Ingenlath couldn't be happier with the integration of Google built-in, the branded product that embeds Google apps and services directly into the company's EVs. But don't expect the EV maker to drop Android Auto or Apple CarPlay as a result. On the sidelines of CES 2024, Ingenlath committed to sticking with Android Auto and Apple CarPlay, the middleware that allows drivers to project their smartphone onto the car's infotainment display. He went a step further and questioned automakers that have. GM, for instance, decided not to make the new 2024 Chevy Blazer EV compatible with Android Auto or Apple CarPlay.\n \n\"It's still too important for our customers to have the choice,\" Ingenlath said during an interview at CES 202…",
+          "link": "https://tech.slashdot.org/story/24/01/11/228202/polestar-ceo-promises-to-keep-apple-carplay-and-android-auto-around?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-12T00:02:00.000Z",
+          "wordCount": 4822,
+          "title": "Polestar CEO Promises To Keep Apple CarPlay and Android Auto Around",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/01/11/2225250/valve-takes-action-against-team-fortress-2-portal-fan-projects-after-years-of-leniency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Dustin Bailey reports via GamesRadar: Valve has suddenly taken action against multiple fan games, stunning a fandom that had grown used to the company's freewheeling stance on unofficial community projects. One of those projects was Team Fortress: Source 2, an effort to bring the beloved multiplayer game back to life in a more modern engine using the S&box project. The project had already run into development difficulties and had essentially been on hiatus since September 2023, but now Valve has issued a DMCA takedown against it, effectively serving as the \"nail in the coffin\" for the project, as the devs explain on X. [...]\n \nThe other project is Portal 64, a demake of the 2009 puzzle game that ports it to run on an actual N64. Developer James Lambert had been working on the project for years, but it gained substantial notoriety this past December with the release of First Slice, a playable demo featuring the first 13 test chambers. It doesn't appear that Valve issued a formal DMCA against Portal 64, but the end result is the same. In a Patreon post (which was eventually made public on X), Lambert said he had \"been in communication with Valve about the future of the project. There is some news and it isn't good. Because the project depends on Nintendo's proprietary libraries, they have asked me to take the project down.\"\n \nI'm not fully clear on what \"proprietary libraries\" means here, but it seems likely that Portal 64 was developed using some variation of Nintendo's official development tools for N64, which were never officially released to the public. Open-source alternatives to those tools do exist, but might not have been in use here. [...] Given Valve's historic acceptance of fan games, the moves have been pretty shocking to the community.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/24/01/11/2225250/valve-takes-action-against-team-fortress-2-portal-fan-projects-after-years-of-leniency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T23:20:00.000Z",
+          "wordCount": 4537,
+          "title": "Valve Takes Action Against Team Fortress 2, Portal Fan Projects After Years of Leniency",
+          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/24/01/11/2021234/biggest-linux-kernel-release-ever-welcomes-bcachefs-file-system-jettisons-itanium?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Linux kernel 6.7 has been released, including support for the new next-gen copy-on-write (COW) bcachefs file system. The Register reports: Linus Torvalds announced the release on Sunday, noting that it is \"one of the largest kernel releases we've ever had.\" Among the bigger and more visible changes are a whole new file system, along with fresh functionality for several existing ones; improved graphics support for several vendors' hardware; and the removal of an entire CPU architecture. [...] The single biggest feature of 6.7 is the new bcachefs file system, which we examined in March 2022. As this is the first release of Linux to include the new file system, it definitely would be premature to trust any important data to it yet, but this is a welcome change. The executive summary is that b…",
+          "link": "https://linux.slashdot.org/story/24/01/11/2021234/biggest-linux-kernel-release-ever-welcomes-bcachefs-file-system-jettisons-itanium?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T22:40:00.000Z",
+          "wordCount": 5575,
+          "title": "Biggest Linux Kernel Release Ever Welcomes bcachefs File System, Jettisons Itanium",
+          "imageUrl": "https://a.fsdn.com/sd/topics/os_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/11/2018248/faa-investigating-whether-boeing-737-max-9-conformed-to-approved-design?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Federal Aviation Administration on Thursday said it had opened an investigation into whether Boeing failed to ensure that its 737 Max 9 plane was safe and manufactured to match the design approved by the agency. The New York Times (non-paywalled source): The F.A.A. said the investigation stemmed from the loss of a fuselage panel of a Boeing 737 Max 9 operated by Alaska Airlines shortly after it took off on Friday from Portland, Ore., leaving a hole in the side of the passenger cabin. The plane returned to Portland for an emergency landing. \"This incident should have never happened and it cannot happen again,\" the agency said. \n\nIn a letter to Boeing dated Jan. 10, the F.A.A. said that after the Portland incident, it was notified of additional issues with other Boeing 737 Max 9 planes. The letter does not detail what other issues were reported to the agency. Alaska and United Airlines, which operate most of the Max 9s in use in the United States, said on Monday that they discovered loose hardware on the panel when conducting preliminary inspections on their planes. The new investigation is the latest setback for Boeing, which is one of just two suppliers of large planes for most airlines. The company has struggled to regain the public's trust after two crashes, in Indonesia in 2018 and Ethiopia in 2019, involving the 737 Max 8 killed a total of 346 people.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/11/2018248/faa-investigating-whether-boeing-737-max-9-conformed-to-approved-design?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T22:00:00.000Z",
+          "wordCount": 6470,
+          "title": "FAA Investigating Whether Boeing 737 Max 9 Conformed To Approved Design",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/11/201205/water-pump-used-to-get-1-billion-stuxnet-malware-into-iranian-nuclear-facility?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from SecurityWeek.com: A Dutch engineer recruited by the country's intelligence services used a water pump to deploy the now-infamous Stuxnet malware in an Iranian nuclear facility, according to a two-year investigation conducted by Dutch newspaper De Volkskrant. Stuxnet, whose existence came to light in 2010, is widely believed to be the work of the United States and Israel, its goal being to sabotage Iran's nuclear program by compromising industrial control systems (ICS) associated with nuclear centrifuges. The malware, which had worm capabilities, is said to have infected hundreds of thousands of devices and caused physical damage to hundreds of machines.\n \nDe Volkskrant's investigation, which involved interviews with dozens of people, found that the …",
+          "link": "https://it.slashdot.org/story/24/01/11/201205/water-pump-used-to-get-1-billion-stuxnet-malware-into-iranian-nuclear-facility?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T21:20:00.000Z",
+          "wordCount": 5448,
+          "title": "Water Pump Used To Get $1 Billion Stuxnet Malware Into Iranian Nuclear Facility",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/11/1958253/hertz-is-selling-20000-electric-vehicles-to-buy-gasoline-cars-instead?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "quonset writes: Hertz rental has announced it's selling off one third of its 20,000 electric vehicle fleet and replacing them with gas powered vehicles. The reason? It's costing them too much to repair damaged EVs and their depreciation is hurting the bottom line. \n\n\"[C]ollision and damage repairs on an EV can often run about twice that associated with a comparable combustion engine vehicle,\" Hertz CEO Stephen Scherr said in a recent analyst call. And EV price declines in the new car market have pushed down the resale value of Hertz's used EV rental cars.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/11/1958253/hertz-is-selling-20000-electric-vehicles-to-buy-gasoline-cars-instead?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T20:42:00.000Z",
+          "wordCount": 13302,
+          "title": "Hertz is Selling 20,000 Electric Vehicles To Buy Gasoline Cars Instead",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/11/1922240/discord-is-laying-off-17-percent-of-employees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Discord is laying off 17 percent of its staff, a move that CEO Jason Citron said is meant to \"sharpen our focus and improve the way we work together to bring more agility to our organization.\" From a report: The cuts were announced today to employees in an all-hands meeting and internal memo The Verge has obtained. They'll impact 170 people across various departments. \n\nBased on Citron's message to employees and my understanding of the business, Discord isn't in dire financial straits, though it has yet to become profitable and is still trying to revive user growth after a surge during the pandemic. In his memo to employees, which you can read in full below, Citron said Discord grew its headcount too fast over the last few years -- an admission that has become quite common among tech CEOs as of late. \"We grew quickly and expanded our workforce even faster, increasing by 5x since 2020,\" Citron wrote. \"As a result, we took on more projects and became less efficient in how we operated.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/11/1922240/discord-is-laying-off-17-percent-of-employees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T20:00:00.000Z",
+          "wordCount": 7001,
+          "title": "Discord is Laying Off 17 Percent of Employees",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/11/1913214/google-formally-endorses-right-to-repair-will-lobby-to-pass-repair-laws?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google formally endorsed the concept of right to repair Thursday and is set to testify in favor of a strong right to repair bill in Oregon later Thursday, a massive step forward for the right to repair movement. 404 Media: \"Google believes that users should have more control over repair -- including access to the same documentation, parts and tools that original equipment manufacturer (OEM) repair channels have -- which is often referred to as 'Right to Repair,'\" Google's Steven Nickel wrote in a white paper published Thursday. \n\nCrucially, Google specifically says that regulators should ban \"parts pairing,\" which is a tactic used by Apple, John Deere, and other major manufacturers to artificially restrict which repair parts can be used with a given device: \"Policies should constrain OEMs from imposing unfair anti-repair practices. For example, parts-pairing, the practice of using software barriers to obstruct consumers and independent repair shops from replacing components, or other restrictive impediments to repair should be discouraged,\" the white paper says.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/11/1913214/google-formally-endorses-right-to-repair-will-lobby-to-pass-repair-laws?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T19:20:00.000Z",
+          "wordCount": 6476,
+          "title": "Google Formally Endorses Right To Repair, Will Lobby To Pass Repair Laws",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/11/1821257/a-geofence-warrant-typo-cast-a-location-dragnet-spanning-two-miles-over-san-francisco?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Zack Whittaker, reporting for TechCrunch: Civil liberties advocates have long argued that \"geofence\" search warrants are unconstitutional for their ability to ensnare entirely innocent people who were nearby at the time a crime was committed. But errors in the geofence warrant applications that go before a judge can violate the privacy of vastly more people -- in one case almost two miles away. \n\nAttorneys at the ACLU of Northern California found what they called an \"alarming error\" in a geofence warrant application that \"resulted in a warrant stretching nearly two miles across San Francisco.\" The error, likely caused by a typo, allowed the requesting law enforcement agency to capture information on anyone who entered the stretch of San Francisco erroneously marked on the search warrant. \n\n\"Many private homes were also captured in the massive sweep,\" wrote Jake Snow, ACLU staff attorney, in a blog post about the findings. It's not known which law enforcement agency requested the nearly two-mile-long geofence warrant, or for how long the warrant was in effect. The attorneys questioned how many other geofence warrant application mistakes had slipped through and resulted in the return of vastly more data in error.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/11/1821257/a-geofence-warrant-typo-cast-a-location-dragnet-spanning-two-miles-over-san-francisco?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T18:40:00.000Z",
+          "wordCount": 4855,
+          "title": "A Geofence Warrant Typo Cast a Location Dragnet Spanning Two Miles Over San Francisco",
+          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/11/1735207/state-backed-hackers-are-exploiting-new-ivanti-vpn-zero-days---but-no-patches-yet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "U.S. software giant Ivanti has confirmed that hackers are exploiting two critical-rated vulnerabilities affecting its widely-used corporate VPN appliance, but said that patches won't be available until the end of the month. From a report: Ivanti said the two vulnerabilities -- tracked as CVE-2023-46805 and CVE-2024-21887 -- were found in its Ivanti Connect Secure software. Formerly known as Pulse Connect Secure, this is a remote access VPN solution that enables remote and mobile users to access corporate resources over the internet. Ivanti said it is aware of \"less than 10 customers\" impacted so far by the \"zero day\" vulnerabilities, described as such given Ivanti had zero time to fix the flaws before they were maliciously exploited.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/11/1735207/state-backed-hackers-are-exploiting-new-ivanti-vpn-zero-days---but-no-patches-yet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T18:00:00.000Z",
+          "wordCount": 4919,
+          "title": "State-backed Hackers Are Exploiting New Ivanti VPN Zero-Days - But No Patches Yet",
+          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/11/1646243/chicago-public-schools-lost-over-20-million-in-electronics-in-one-year-report-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader writes: Millions of dollars have gone down the drain right when the Chicago Public Schools face a looming budget deficit -- as a brand-new CPS Inspector General report revealed the district lost thousands of computers and devices in a school year. In all, more than $20 million were lost -- as about students failed to return 77,505 laptops and other electronic devices within a year. This is even though the district spends millions to track such devices. The underlying concern is that taxpayer dollars will be used to replace them.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/11/1646243/chicago-public-schools-lost-over-20-million-in-electronics-in-one-year-report-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T17:20:00.000Z",
+          "wordCount": 13736,
+          "title": "Chicago Public Schools Lost Over $20 Million In Electronics In One Year, Report Says",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/01/11/1620249/microsoft-dethrones-apple-as-the-largest-us-company?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The stock market has a new, but familiar, monarch. Microsoft's AI-powered stock rally has made the software giant the largest U.S. company by market value, surpassing Apple for the first time since November 2021. WSJ: Shares edged higher Thursday morning, bringing Microsoft's market value to nearly $2.87 trillion. Apple, meanwhile, fell 1%, pulling its market capitalization just below that threshold. Either Apple or Microsoft has held the title since Feb. 4, 2019, according to Dow Jones Market Data. Microsoft's stock has been on the rise for the past year thanks to the continued growth of its cloud computing division, even as major competitors like Amazon and Google have experienced a gradual slowdown in sales growth.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/01/11/1620249/microsoft-dethrones-apple-as-the-largest-us-company?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T16:40:00.000Z",
+          "wordCount": 6883,
+          "title": "Microsoft Dethrones Apple as the Largest US Company",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/11/1550241/fcc-commissioner-carr-says-huge-miss-if-us-doesnt-ban-or-divest-tiktok-in-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Brendan Carr, the senior Republican on the Federal Communications Commission, in a wide-ranging interview with Indian newspaper Economic Times praised the South Asian market for blocking Chinese apps in 2020 and said he hopes the U.S. will follow suit. He said: I hope there will be a movement towards a nationwide ban of the application soon, much like India led the way so many years ago. It is taking time, and I wish it was done as swiftly and with the alacrity that India banned not just TikTok but a number of other Chinese apps that had questionable data sharing and privacy policies. If TikTok is neither banned nor ByteDance is forced to divest this year, I would consider it a huge miss. Because only when action is taken would it be possible for us to go after the smaller players too.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/11/1550241/fcc-commissioner-carr-says-huge-miss-if-us-doesnt-ban-or-divest-tiktok-in-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T16:00:00.000Z",
+          "wordCount": 11411,
+          "title": "FCC Commissioner Carr Says 'Huge Miss' If US Doesn't Ban or Divest TikTok in 2024",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/11/1514237/google-ends-cloud-switching-fees-pressuring-amazon-and-microsoft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: The cost of switching between cloud-computing providers has long drawn complaints, with the services derided as \"roach motels\" that let businesses check in but not out. Now Google is taking steps to change that. Effective immediately, the company is eliminating fees levied on customers who want to leave its cloud for a rival service -- a policy shift that may pressure competitors Amazon and Microsoft to do the same. \n\nThe move follows intensifying scrutiny of cloud services by regulators and lawmakers around the world. UK antitrust authorities launched a probe that is looking at such penalties, and the fees emerged as a key issue when the US Federal Trade Commission asked for public comments on a variety of cloud concerns. Google Vice President Amit Zavery, who helps oversee the cloud business, said switching fees only represent about 2% of the total costs of migrating to a new provider -- and don't deter many clients from moving their data.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/11/1514237/google-ends-cloud-switching-fees-pressuring-amazon-and-microsoft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-11T15:21:00.000Z",
+          "wordCount": 5082,
+          "title": "Google Ends Cloud Switching Fees, Pressuring Amazon and Microsoft",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
         {
           "id": "https://yro.slashdot.org/story/24/01/10/2316231/englishman-who-posed-as-hyperverse-ceo-says-sorry-to-investors-who-lost-millions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4892,156 +5042,6 @@
           "wordCount": 8502,
           "title": "UK Proposes Capping Some Visa, Mastercard Fees",
           "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/12/2112221/arena-group-fires-ceo-in-wake-of-sports-illustrated-ai-articles-scandal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Last month, Futurism noticed Sports Illustrated was publishing AI-generated articles under fake author biographies. Although the magazine removed the articles in question and released a statement blaming the issue on a contractor, it wasn't enough to quell the widespread backlash. Today, Sports Illustrated's publisher, Arena Group, fired the sports media outlet's CEO. The Hill reports: The Arena Group, which publishes Sports Illustrated, said Monday that its board of directors had moved to fire CEO Ross Levinsohn. The board took the action to \"improve the operational efficiency and revenue of the company,\" the company said. Manoj Bhargava will serve as Arena Group's interim chief executive officer effective this week. Levinsohn was the CEO of Arena Group since 2019 and previously was the publisher of the Los Angeles Times.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/12/2112221/arena-group-fires-ceo-in-wake-of-sports-illustrated-ai-articles-scandal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-13T00:45:00.000Z",
-          "wordCount": 3896,
-          "title": "Arena Group Fires CEO In Wake of Sports Illustrated AI Articles Scandal",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/12/12/2336214/apples-new-iphone-security-setting-keeps-thieves-out-of-your-digital-accounts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to the Wall Street Journal, Apple is including new Stolen Device Protection in iOS 17.3 that requires authentication through Face ID or Touch ID to perform certain actions. The Verge reports: The new feature appears to come in response to the concerns raised in previous reports by The Wall Street Journal describing how thieves watch their victims type in their iPhone passcodes and then steal their devices. This gives thieves access to a trove of personal and financial information stored on the device, allowing them to lock victims out of their iCloud accounts and spend thousands of dollars using saved payment information.\n \nIf you opt in to the feature, you would have to verify your identity with face or fingerprint biometrics when doing things like viewing your saved passwords in iCloud Keychain, applying for a new Apple Card, factory resetting your device, using saved payment methods in Safari, and turning off Lost Mode. This way, thieves wouldn't be able to steal your information even if they have your phone and the passcode.\n \nFor even more sensitive actions, like changing your Apple ID password, changing your iPhone passcode, or turning off Find My, the new Stolen Device Protection feature adds an additional hurdle if the device is somewhere other than locations you often frequent, like at home or in the office. It requires you to not only verify your identity with Face ID or Touch ID but also wait one hour and then repeat the authentication process again.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/12/12/2336214/apples-new-iphone-security-setting-keeps-thieves-out-of-your-digital-accounts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-13T00:25:00.000Z",
-          "wordCount": 4057,
-          "title": "Apple's New iPhone Security Setting Keeps Thieves Out of Your Digital Accounts",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ios_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/12/2057227/microsoft-targets-nuclear-to-power-ai-operations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to the Wall Street Journal, Microsoft wants to use nuclear energy to power its artificial intelligence operations. And in order to help cut the red tape required to make that happen, Microsoft plans to use AI. From a report: A Microsoft team has spent months building an AI trained on nuclear regulations and licensing requirements to help the tech giant fill out all the applications it needs to build its own power plants. This typically takes years and millions, but Microsoft is urgently looking for more power to bring next-generation AI to life.\n \nThat's because the larger the model and the more capable it becomes, the more power it requires. Microsoft today reflects the sensibilities of its founder, Bill Gates, in that the company believes in carbon-neutral energy sources -- and, like Gates who himself invests in nuclear power innovation, the company seems to see more potential in nuclear than other renewable sources of energy.\n \n\"If we're going to do that carbon-free, we're going to need all the tools in the tool kit,\" Michelle Patron, Microsoft's senior director of sustainability policy, told the Journal.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/12/12/2057227/microsoft-targets-nuclear-to-power-ai-operations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-13T00:02:00.000Z",
-          "wordCount": 4551,
-          "title": "Microsoft Targets Nuclear To Power AI Operations",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/12/203242/us-climate-bill-ignites-new-zeal-around-the-world-for-government-climate-efforts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Politico reports that the climate bill passed in America in 2022 \"has ignited a new zeal among leaders around the world for the kind of winner-picking, subsidy-flush governing that has been out of fashion in many countries for the past 40 years.\" \n\nThe bill's \"mix of lavish support for clean energy technologies and efforts to box out foreign competitors is also promoting a kind of green patriotism — and even some politicians on the right, at least outside the U.S., say that's a climate message they can sell.\"\n[The bill] is having a real-world impact as investors shift their money to the U.S. from abroad, hungry to take advantage of the tax breaks. In July, for example, Swiss solar manufacturer Meyer Burger canned plans to build a factory in Germany, choosing Arizona instead. That has left …",
-          "link": "https://news.slashdot.org/story/23/12/12/203242/us-climate-bill-ignites-new-zeal-around-the-world-for-government-climate-efforts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T23:20:00.000Z",
-          "wordCount": 5113,
-          "title": "US Climate Bill 'Ignites New Zeal' Around the World for Government Climate Efforts",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/23/12/12/1913243/could-godzilla-minus-one-win-an-oscar?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "ScreenRant reports that on December 4, \"Godzilla Minus One\" was the #1 movie in the crucial U.S./Canada \"domestic\" market (which also includes Guam and Puerto Rico). But the next week was even more impressive, reports Forbes, retaining most of its box office figure with \"an incredibly strong 90% hold across the three-day Friday-Saturday-Sunday frame, for what appears to be the best second weekend hold for a wide release in 2023.\"\nThrough the week, Godzilla Minus One topped the North American charts four out of five weekdays on overwhelmingly positive word of mouth. Good buzz grew through the week as more viewers and critics saw and recommend the film... Godzilla Minus One is already the highest grossing Japanese live-action release of all time in the U.S. The film is a final contender for …",
-          "link": "https://entertainment.slashdot.org/story/23/12/12/1913243/could-godzilla-minus-one-win-an-oscar?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T22:40:00.000Z",
-          "wordCount": 4676,
-          "title": "Could 'Godzilla Minus One' Win an Oscar?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/japan_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/12/196227/us-expects-to-make-multi-billion-chips-awards-within-the-next-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "David Shepardson reports via Reuters: U.S. Commerce Secretary Gina Raimondo said she expects to make around a dozen semiconductor chips funding awards within the next year, including multi-billion dollar announcements that could drastically reshape U.S. chip production. She announced the first award on Monday -- $35 million to a BAE Systems facility in Hampshire to produce chips for fighter planes from the \"Chips for America\" semiconductor manufacturing and research subsidy program approved by Congress in August 2022.\n \n\"Next year we'll get into some of the bigger ones with leading-edge fabs,\" Raimondo told reporters. \"A year from now I think we will have made 10 or 12 similar announcements, some of them multi-billion dollar announcements.\" In an interview with Reuters, Raimondo said that the number of awards could go higher than 12. She said she wants the percentage of semiconductors produced in the United States to rise from about 12% to closer to 20% -- though that is still down from 40% in 1990 -- and to have at least two \"leading-edge\" U.S. manufacturing clusters. In addition, she wants the U.S. to have cutting-edge memory and packaging production and to \"meet the military's needs for current and mature\" chips. Raimondo noted that the U.S. currently does not have any cutting-edge manufacturing production and wants to get that to about 10%.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/12/196227/us-expects-to-make-multi-billion-chips-awards-within-the-next-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T22:00:00.000Z",
-          "wordCount": 4523,
-          "title": "US Expects To Make Multi-Billion Chips Awards Within the Next Year",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/12/1812209/cloud-engineer-gets-2-years-for-wiping-ex-employers-code-repos?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Bill Toulas reports via BleepingComputer: Miklos Daniel Brody, a cloud engineer, was sentenced to two years in prison and a restitution of $529,000 for wiping the code repositories of his former employer in retaliation for being fired by the company. According to the U.S. Department of Justice (DoJ) announcement, Brody was fired on March 11, 2020, from First Republic Bank (FRB) in San Francisco, where he worked as a cloud engineer. The court documents state that Brody's employment was terminated after he violated company policies by connecting a USB drive containing pornography to company computers.\n \nFollowing his dismissal, Brody allegedly refused to return his work laptop and instead used his still-valid account to access the bank's computer network and cause damages estimated to be above $220,000. \"Among other things, Brody deleted the bank's code repositories, ran a malicious script to delete logs, left taunts within the bank's code for former colleagues, and impersonated other bank employees by opening sessions in their names,\" describes the U.S. DOJ announcement. \"He also emailed himself proprietary bank code that he had worked on as an employee, which was valued at over $5,000.\"\n \nAfter the incident, Brody falsely reported to the San Francisco Police Department that the FRB-issued laptop had been stolen from his car. He continued to uphold this story when interviewed by United States Secret Service agents following his arrest in March 2021. Eventually, in April 2023, Brody pleaded guilty to lying about the laptop and to two charges concerning violation of the Computer Fraud and Abuse Act. In addition to the two-year prison term and the payment of the restitution, Brody will serve three years of supervised release.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/12/12/1812209/cloud-engineer-gets-2-years-for-wiping-ex-employers-code-repos?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T21:20:00.000Z",
-          "wordCount": 9392,
-          "title": "Cloud Engineer Gets 2 Years For Wiping Ex-Employer's Code Repos",
-          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/12/1851221/the-climate-summit-starts-to-crack-a-tough-nut-emissions-from-food?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from the New York Times: [H]ow do we feed ourselves without further damaging the planet or worsening rising levels of hunger? This year's United Nations climate summit has confronted this question like never before. For the first time there is a broad acknowledgment that the food agenda is aligned with the climate fight across the board,\" said Ed Davey of the World Resources Institute, who worked with organizers of the summit, known as COP28, on its food agenda. [...] More than two-thirds of the world's countries endorsed an agreement to retool the global food system, though it's vague, lacks concrete targets, and is nonbinding. The United Nations food agency issued a landmark report laying out what it would take to align the global food system with the …",
-          "link": "https://news.slashdot.org/story/23/12/12/1851221/the-climate-summit-starts-to-crack-a-tough-nut-emissions-from-food?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T20:40:00.000Z",
-          "wordCount": 7711,
-          "title": "The Climate Summit Starts To Crack a Tough Nut: Emissions From Food",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/12/1729211/animatronic-robots-make-their-last-stand-at-atari-founders-chuck-e-cheese?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Five years after founding Atari in 1972, Nolan Bushnell started work on a chain of pizza restaurants with singing animatronic robots and videogames — called Chuck E. Cheese's Pizza Time Theatre. While 600 of the restaurants still operate today, \"the company is in the process of remodeling its more than 400 U.S. locations,\" reports the Los Angeles Times, \"and the last 30 or so remaining animatronic bands are being shown the door in favor of interactive dance floors and large screens that feature Chuck E. and pals in animated form.\"\nThat is, they're being evicted everywhere but Northridge, Los Angeles... The goal — or hope — for the company is to have at least one location that can serve both new generations as well as nostalgia hunters, especially fans of animatronic figures. \n\nAnimatronics…",
-          "link": "https://hardware.slashdot.org/story/23/12/12/1729211/animatronic-robots-make-their-last-stand-at-atari-founders-chuck-e-cheese?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T20:00:00.000Z",
-          "wordCount": 5235,
-          "title": "Animatronic Robots Make Their Last Stand at Atari Founder's 'Chuck E. Cheese'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/12/1839205/ukraines-top-mobile-operator-hit-by-biggest-cyber-attack-of-war-so-far?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to Reuters, Ukraine's biggest mobile network was hit by \"what appeared to be the largest cyber attack of the war with Russia so far,\" severing mobile and internet services for millions of people and knocking out the air raid alert system in parts of Kyiv. From the report: Kyivstar has 24.3 million mobile subscribers - more than half of Ukraine's population - as well as over 1.1 million home internet subscribers. Its CEO Oleksandr Komarov said the attack was \"a result of\" the war with Russia, although he did not say which Russian body he believed to be responsible, and that the company's IT infrastructure had been \"partially destroyed.\" \"(The attack) significantly damaged (our) infrastructure, limited access, we could not counter it at the virtual level, so we shut down Kyivstar p…",
-          "link": "https://tech.slashdot.org/story/23/12/12/1839205/ukraines-top-mobile-operator-hit-by-biggest-cyber-attack-of-war-so-far?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T19:20:00.000Z",
-          "wordCount": 4866,
-          "title": "Ukraine's Top Mobile Operator Hit By Biggest Cyber Attack of War So Far",
-          "imageUrl": "https://a.fsdn.com/sd/topics/military_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/12/12/182234/e3-is-officially-over-forever?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from The Verge: While the video game industry had already largely given up on E3 -- once the largest video game trade show in the industry and the biggest video game showcase event of the year -- there was always the chance it would return after multiple years of cancellations. However, in a statement to The Washington Post today, E3's organizer confirmed that the show is permanently canceled.\n \n\"We know it's difficult to say goodbye to such a beloved event, but it's the right thing to do given the new opportunities our industry has to reach fans and partners,\" Stanley Pierre-Louis, the CEO of the Entertainment Software Association, the nonprofit trade organization that ran E3, told the Post. Pierre-Louis alluded to the biggest reason for E3's precipitous collapse and ultimate demise: game developers and publishers had increasingly moved away from the event in order to put on their own less costly showcases targeted directly to fans, rather than the industry insiders and journalists that E3 typically catered to. The last E3 was held in 2019. The 2020 event was canceled due to the pandemic, only to return as a digital showcase in 2021. A virtual-only event was scheduled to take place the following year but was canceled, with promises that it would return in 2023. Then, that was canceled, with a possible 2024 return date. Now, it's been confirmed that E3 is never coming back.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/12/12/182234/e3-is-officially-over-forever?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T18:40:00.000Z",
-          "wordCount": 6749,
-          "title": "E3 Is Officially Over Forever",
-          "imageUrl": "https://a.fsdn.com/sd/topics/e3_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/12/1740241/broadcom-is-killing-off-vmware-perpetual-licenses-strong-arming-users-onto-subscriptions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Ed Targett reports via The Stack: Broadcom is killing off VMware's on-premises perpetual licenses -- and getting set to strong-arm VMware customers onto subscriptions, by also ending the sale of Support and Subscription renewals for such customers. VMware described this to customers as part of its plan to \"complete the transition of all VMware by Broadcom solutions to subscription licenses.\" \"We are [also] ending the sale of Support and Subscription (SnS) renewals for perpetual offerings beginning today\" SVP Krish Prasad said in a FAQ.\n \nVMware perpetual licenses were described by its own Office of the CTO earlier this year in a short blog as its \"most renowned licenses.\" The on-premises licenses for the virtualization software come with a license key, with SnS separately licensing users for support and software updates. Perpetual license keys never expire but the SnS lapses and now will not, seemingly, be renewed -- meaning that customers reluctant to shift to an alternative licensing model will be left without support or updates.\n \nVMware customers \"may continue using perpetual licenses with active support contracts. We will continue to provide support as defined in contractual commitments. We encourage customers to review their inventory of perpetual licenses, including Support Services renewal and expiration dates,\" Broadcom said rather menacingly, on December 10. The company is also announcing a new \"bring-your-own-subscription license option, providing license portability to VMware validated hybrid cloud endpoints running VMware Cloud Foundation,\" it added, without initially sharing details.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/12/1740241/broadcom-is-killing-off-vmware-perpetual-licenses-strong-arming-users-onto-subscriptions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T18:00:00.000Z",
-          "wordCount": 13680,
-          "title": "Broadcom Is Killing Off VMware Perpetual Licenses, Strong-Arming Users Onto Subscriptions",
-          "imageUrl": "https://a.fsdn.com/sd/topics/software_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/12/0446208/lazarus-cyber-group-deploys-dlang-malware-strains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Connor Jones reports via The Register: DLang is among the newer breed of memory-safe languages being endorsed by Western security agencies over the past few years, the same type of language that cyber criminals are switching to. At least three new DLang-based malware strains have been used in attacks on worldwide organizations spanning the manufacturing, agriculture, and physical security industries, Cisco Talos revealed today. The attacks form part of what's being called \"Operation Blacksmith\" and are attributed to a group tracked as Andariel, believed to be a sub-division of the Lazarus Group -- North Korea's state-sponsored offensive cyber unit. [...]\n \nThe researchers noted that DLang is an uncommon choice for writing malware, but a shift towards newer languages and frameworks is one that's been accelerating over the last few years -- in malware coding as in the larger programming world. Rust, however, has often shown itself to be the preferred choice out of what is a fairly broad selection of languages deemed to be memory-safe. AlphV/BlackCat was the first ransomware group to make such a shift last year, re-writing its payload in Rust to offer its affiliates a more reliable tool. A month later, the now-shuttered Hive group did the same thing, and many others followed after that. Other groups to snub Rust include China-based Sandman which was recently observed using Lua-based malware, believed to be part of a wider shift toward Lua development from Chinese attackers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/12/0446208/lazarus-cyber-group-deploys-dlang-malware-strains?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T17:20:00.000Z",
-          "wordCount": 4697,
-          "title": "Lazarus Cyber Group Deploys DLang Malware Strains",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/12/0419222/italys-piracy-shield-anti-piracy-system-launches-applies-to-all-dns-and-vpn-providers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TorrentFreak: A document detailing technical requirements of Italy's Piracy Shield anti-piracy system confirms that ISPs are not alone in being required to block pirate IPTV services. All VPN and open DNS services must also comply with blocking orders, including through accreditation to the Piracy Shield platform. [...] Italy's Piracy Shield anti-piracy system reportedly launched last week, albeit in limited fashion. Whether the platform had any impact on pirate IPTV providers offering the big game last Friday is unclear but plans supporting a full-on assault are pressing ahead.\n \nWhen lawmakers gave Italy's new blocking regime the green light during the summer, the text made it clear that blocking instructions would not be limited to regular ISPs. …",
-          "link": "https://yro.slashdot.org/story/23/12/12/0419222/italys-piracy-shield-anti-piracy-system-launches-applies-to-all-dns-and-vpn-providers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T16:40:00.000Z",
-          "wordCount": 6201,
-          "title": "Italy's 'Piracy Shield' Anti-Piracy System Launches, Applies To All DNS and VPN Providers",
-          "imageUrl": "https://a.fsdn.com/sd/topics/piracy_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/12/048200/ftc-wants-microsofts-relationship-with-openai-under-the-microscope?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "The FTC is considering an investigation into Microsoft's investment in OpenAI to determine if the company broke any antitrust laws. The Register reports: Despite the money poured into it over the years, OpenAI was founded as a non-profit in 2015, and Microsoft's investment does not amount to control of the company. Microsoft chief communications officer Frank X Shaw underlined attempts to dampen down industry talk of a probe: \"While details of our agreement remain confidential, it is important to note that Microsoft does not own any portion of OpenAI and is simply entitled to share of profit distributions.\"\n \nAt the end of last week, the UK's Competition and Markets Authority (CMA) launched a consultation to ask interested parties to comment on Microsoft's relationship with ChatGPT developer, and if it could be construed as a merger that potentially skews competition. If so, the CMA will itself launch an official inspection.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/12/12/048200/ftc-wants-microsofts-relationship-with-openai-under-the-microscope?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-12T16:00:00.000Z",
-          "wordCount": 4765,
-          "title": "FTC Wants Microsoft's Relationship With OpenAI Under the Microscope",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
         }
       ]
     }
