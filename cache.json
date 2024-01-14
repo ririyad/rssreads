@@ -46,6 +46,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba",
+          "author": null,
+          "description": "The first major Rails conference on the European continent in over a decade was a smashing success this past October in Amsterdam. Not only did the conference sell out more than 700 tickets in less than 40 minutes, but it was the atmosphere from those in attendance that really made it soar. It was simply electric.\nSo much so that I was actually a little worried in the weeks after about how we’d possibly top this spectacle for Rails World 2024. But as the plans have been solidifying, I’ve replaced any shred of worry with an unbounded excitement for September in Toronto. It’s going to be special.\nNot only are we going to nearly double the capacity for attendance, we’ll also have so much super exciting new stuff to talk about, as well as following through on all the goodies that were announce…",
+          "link": "https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba",
+          "publishedOn": "2024-01-13T18:22:28.000Z",
+          "wordCount": 1291,
+          "title": "Rails World and Rails 8 in 2024",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/the-tech-layoffs-continue-1b124e7b",
           "author": null,
           "description": "A quarter of a million tech workers were laid off last year from the likes of Google, Amazon, Meta, Microsoft, and thousands of other big and small companies in the industry. And it looks like this year is not going to bring any relief. Google just announced more layoffs, Twitch cut 35% of staff, Discord is axing 17%, and Unity is cutting a whopping 25%. And we’re just two weeks into the new year!\nThe last time I remember seeing such brutal cuts, so broadly was after the dot-com bubble in the early 2000s. It took years to recover from that, and brought some rough years for anyone trying to break into or stay in the industry.\nThe bust reached all the way to Copenhagen. I was working for a venture-backed software company in 2001, and with the writing of the dot-com implosion on the wall, I a…",
@@ -254,16 +264,6 @@
           "wordCount": 1065,
           "title": "Native mobile apps are optional for B2B startups in 2024",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-early-bird-sees-the-sunrise-aa97c012",
-          "author": null,
-          "description": "I’ve found that you eventually get bored or at least used to every form of material trapping you can buy. Cars, watches, cameras, computers, whatever. It’s not that fancy stuff stops being nice, but it does stop being wow. That’s the essence of the hedonic treadmill. But do you know what never gets old? Nature.\nAnd I mean nature in the broadest possible sense. The evening light. The rustling of the leaves. A pair of eagles circling above your head. A rock that’s been in the same place for thousands of years. The colors of a beautiful sunset or sunrise. Yes, even touching grass with your toes.\nIf you literally stop to smell the flowers, you’ll never stop being wowed by the awesomeness of this planet. That’s been the most enduring gift of moving back to California. We live in the wilderness here. In Denmark, we lived smack in the middle of Copenhagen. Which is a delight all of its own, but on my ultimate scorecard, a (far) secondary one to nature.\n  \n      \n        \n\n  \nThis is the sight that greeted me as I stepped into my home office this morning about half an hour before sunrise. I’ve seen a sunrise like this in Malibu a million times before, but it never, ever grows old. I’m still struck by the kind of life-affirming wow that only the spectacle of nature is capable of.\nA few years ago, I remember reading about forest bathing. The idea that spending time walking in nature lowered blood pressure and stress significantly more than walking the same distance in a city. I completely believe it.\nIt’s become a cliche, “touch grass”, but it’s also true. Your life will literally be longer, healthier, and happier, if you let nature wash over you regularly.\nThat’s one of the reasons why I’m such a fan of remote work. Imagine taking that hour or two of commuting – which, when done in rush hour by car, is perhaps one of the most blood pressure and stress raising activities known to man! – and trading that in for a walk in the forest or the garden or any form of wilderness.\nBliss.",
-          "link": "https://world.hey.com/dhh/the-early-bird-sees-the-sunrise-aa97c012",
-          "publishedOn": "2023-12-14T16:03:58.000Z",
-          "wordCount": 446,
-          "title": "The early bird sees the sunrise",
-          "imageUrl": "https://world.hey.com/dhh/aa97c012/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2NCWWRSWCIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b851a9902aa3b5b4a05f7f81e7b3fbe8ce6fcf8f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/malibu-sunrise.jpg"
         }
       ]
     },
@@ -382,16 +382,6 @@
           "publishedOn": "2023-12-18T00:00:00.000Z",
           "wordCount": 368,
           "title": "Launching the 2023 State of Rust Survey",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html",
-          "author": null,
-          "description": "The year 2024 is soon to be upon us, and as long-time Rust aficionados know,\nthat means that a new Edition of Rust is on the horizon!\nWhat is an Edition?\nYou may be aware that a new version of Rust is released every six weeks.\nNew versions of the language can both add things as well as change things,\nbut only in backwards-compatible ways, according to Rust's\n1.0 stability guarantee.\nBut does that mean that Rust can never make backwards-incompatible changes?\nNot quite! This is what an Edition is:\nRust's mechanism for introducing backwards-incompatible changes in a backwards-compatible way.\nIf that sounds like a contradiction,\nthere are three key properties of Editions that preserve the stability guarantee:\nEditions are opt-in;\ncrates only receive breaking changes if its authors explicitly a…",
-          "link": "https://blog.rust-lang.org/2023/12/15/2024-Edition-CFP.html",
-          "publishedOn": "2023-12-15T00:00:00.000Z",
-          "wordCount": 973,
-          "title": "A Call for Proposals for the Rust 2024 Edition",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -763,6 +753,146 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://slashdot.org/story/24/01/13/0516254/bill-gates-interviews-sam-altman-who-predicts-fastest-tech-revolution-by-far?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "This week on his podcast Bill Gates asked Sam Altman how his team is doing after his (temporary) ouster, Altman replies \"a lot of people have remarked on the fact that the team has never felt more productive or more optimistic or better. So, I guess that's like a silver lining of all of this. In some sense, this was like a real moment of growing up for us, we are very motivated to become better, and sort of to become a company ready for the challenges in front of us.\" \n\nThe rest of their conversation was pre-ouster — but gave fascinating glimpses at the possible future of AI — including the prospect of very speedy improvements. Altman suggests it will be easier to understand how a creative work gets \"encoded\" in an AI than it would be in a human brain. \"There has been some very good work o…",
+          "link": "https://slashdot.org/story/24/01/13/0516254/bill-gates-interviews-sam-altman-who-predicts-fastest-tech-revolution-by-far?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T23:34:00.000Z",
+          "wordCount": 5677,
+          "title": "Bill Gates Interviews Sam Altman, Who Predicts Fastest Tech Revolution 'By Far'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/13/220245/new-paper-on-mond-argues-that-gravity-changes-at-very-low-accelerations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "porkchop_d_clown (Slashdot reader #39,923) writes:\nMOND — MOdified Newtonian Dynamics is a hypothesis that Newton's law of gravity is incorrect under some conditions. Now a paper claims that a study does indeed show that pairs of widely separated binary stars do show a deviation from Newton's Second Law, arguing that, at very low levels, gravity is stronger than the law predicts. \nPhys.org writes that the study \"reinforces the evidence for modified gravity that was previously reported in 2023 from an analysis of the orbital motions of gravitationally bound, widely separated (or long-period) binary stars, known as wide binaries.\" \n\nBut RockDoctor (Slashdot reader #15,477) calls the hypothesis \"very much disputed.\"\nYouTubing-astrophysicist Dr Becky considered this report a couple of months ago (2023-Nov-09), under the title \"HUGE blow for alternate theory of gravity MOND\". At the very least, astrophysicists and cosmologists are deeply undecided whether this data supports or discourages MOND. (Shortened comment because verification problem.) \n\nLast week, I updated my annual count of MOND and other \"alternative gravity\" publications. While research on MOND (and others) continues, and any \"suppression\" the tin-foil-hat brigade want to scream about is ineffective, it remains an unpopular (not-equal-to \"suppressed\") field. Generally, astronomical publication counts are increasing, and MOND sticks with that trend. If anything is becoming more popular, it's the \"MOG\" type of \"MOdified Gravity\".\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/01/13/220245/new-paper-on-mond-argues-that-gravity-changes-at-very-low-accelerations?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T22:34:00.000Z",
+          "wordCount": 4816,
+          "title": "New Paper on 'MOND' Argues That Gravity Changes At Very Low Accelerations",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/01/13/2047227/despite-16-year-glitch-uk-law-still-considers-computers-reliable-by-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Long-time Slashdot reader Geoffrey.landis writes:\nHundreds of British postal workers wrongly convicted of theft due to faulty accounting software could have their convictions reversed, according to a story from the BBC. Between 1999 and 2015, the Post Office prosecuted 700 sub-postmasters and sub-postmistresses — an average of one a week — based on information from a computer system called Horizon, after faulty software wrongly made it look like money was missing. Some 283 more cases were brought by other bodies including the Crown Prosecution Service. \n\n\n 2024 began with a four-part dramatization of the scandal airing on British television, and the BBC reporting today that its reporters originally investigating the story confronted \"lobbying, misinformation and outright lies.\" \n\nYet the G…",
+          "link": "https://yro.slashdot.org/story/24/01/13/2047227/despite-16-year-glitch-uk-law-still-considers-computers-reliable-by-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T21:34:00.000Z",
+          "wordCount": 6824,
+          "title": "Despite 16-Year Glitch, UK Law Still Considers Computers 'Reliable' By Default",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/13/1958232/wind-turbines-are-friendlier-to-birds-than-oil-and-gas-drilling-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "A new analysis suggests that wind turbines have little impact on bird populations, according to the Economist — and that oil-and-gas extraction may be worse:\n\nErik Katovich [an economist at the University of Geneva] combined bird population and species maps with the locations and construction dates of all wind turbines in the United States, with the exceptions of Alaska and Hawaii, between 2000 and 2020. He found that building turbines had no discernible effect on bird populations. That reassuring finding held even when he looked specifically at large birds like hawks, vultures and eagles that many people believe are particularly vulnerable to being struck. \n\nBut Dr. Katovich did not confine his analysis to wind power alone. He also examined oil-and-gas extraction. Like wind power, this has boomed in America over the past couple of decades, with the rise of shale gas produced by hydraulic fracturing, or fracking, of rocks. Production has risen from 37m cubic metres in 2007 to 740m cubic metres in 2020. Comparing bird populations to the locations of new gas wells revealed an average 15% drop in bird numbers when new wells were drilled, probably due to a combination of noise, air pollution and the disturbance of rivers and ponds that many birds rely upon. When drilling happens in places designated by the National Audubon Society as \"important bird areas\", bird numbers instead dropped by 25%. Such places are typically migration hubs, feeding grounds or breeding locations. \n\nWind power, in other words, not only produces far less planet-heating carbon dioxide and methane than do fossil fuels. It appears to be significantly less damaging to wildlife, too. \nThanks to long-time Slashdot reader SpzToid for sharing the article.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/01/13/1958232/wind-turbines-are-friendlier-to-birds-than-oil-and-gas-drilling-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T20:34:00.000Z",
+          "wordCount": 6510,
+          "title": "Wind Turbines Are Friendlier To Birds Than Oil-and-Gas Drilling, Study Finds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/13/065240/are-amazons-ai-generated-review-summaries-part-of-a-larger-change-in-online-shopping?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Customer say,\" writes Amazon on at least some of their product pages, across from that grid showing the number of five-star and four-star reviews... But at the bottom of that summary is a disclaimer that what you read was \"AI-generated from the text of customer reviews.\" \n\nThis has been going on for a few months now, points out the Washington Post's \"Tech Friend\" newsletter. And after reviewing how AI distilled nearly 40,000 reviews into a succinct summary, their impression has shifted to \"hmm ... maybe this is a decent use of text-summarizing AI — as long as you learn to read Amazon's AI digests with a savvy eye...\"\n\n\nJuozas Kaziukenas, founder of the e-commerce research firm Marketplace Pulse, pointed out that since Amazon started the AI-generated review summaries last year, the company…",
+          "link": "https://slashdot.org/story/24/01/13/065240/are-amazons-ai-generated-review-summaries-part-of-a-larger-change-in-online-shopping?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T19:34:00.000Z",
+          "wordCount": 5479,
+          "title": "Are Amazon's AI-Generated Review Summaries Part of a Larger Change in Online Shopping?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/13/1841233/wsj-boeings-fuselage-factory-plagued-by-production-problems-and-quality-lapses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Long before the harrowing Alaska Airlines blowout on January 5, there were concerns within Boeing about the way the aerospace giant was building its planes,\" reports the Wall Street Journal. \n\nThere's been issues with various models — like \"misdrilled holes, loose rudder bolts, and this month's MAX 9 door-plug blowout\" — but many can be traced back to the outsourcing Boeing and other aerospace companies adopted more than 20 years ago where key pieces are built elsewhere and then assembled at Boeing. And the Journal reports that the door-plug was built at a factory that Boeing owned until 2005, now run by Spirit AeroSystems, that \"has been plagued by production problems and quality lapses since Boeing ceded so much responsibility for its work... \"\n\nSpirit is the sole supplier of the fusela…",
+          "link": "https://tech.slashdot.org/story/24/01/13/1841233/wsj-boeings-fuselage-factory-plagued-by-production-problems-and-quality-lapses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T18:43:00.000Z",
+          "wordCount": 9145,
+          "title": "WSJ: Boeing's Fuselage Factory 'Plagued' by Production Problems and Quality Lapses",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/13/0333204/america-cracks-down-on-methane-emissions-from-oil-and-gas-facilities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Friday America's Environmental Protection Agency \"proposed steep new fees on methane emissions from oil and gas facilities,\" reports the Washington Post, \"escalating a crackdown on the fossil fuel industry's planet-warming pollution.\" \nMethane does not linger in the atmosphere as long as carbon dioxide, but it is far more effective at trapping heat — roughly 80 times more potent in its first decade. It is responsible for roughly a third of global warming today, and the oil and gas industry accounts for about 14 percent of the world's annual methane emissions, according to estimates from the International Energy Agency. Other large methane sources include livestock, landfills and coal mines. \nSo America's new Methane Emissions Reduction Program \"levies a fee on wasteful methane emissions fr…",
+          "link": "https://news.slashdot.org/story/24/01/13/0333204/america-cracks-down-on-methane-emissions-from-oil-and-gas-facilities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T17:34:00.000Z",
+          "wordCount": 6250,
+          "title": "America Cracks Down on Methane Emissions from Oil and Gas Facilities",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/13/0637208/nasa-finally-unlocks-stuck-fasteners-on-asteroid-sample-capsule?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"For months, bits of an asteroid collected by a U.S. probe during a billion-mile trek were out of reach to scientists,\" reports Space.com, \"locked inside a return capsule in a NASA facility with two stuck fasteners preventing access to the rocky space treasure. \n\n\"This week, NASA won its battle against those fasteners.\" \n\nMore details from CNN:\n\nThe space agency already harvested about 2.5 ounces (70 grams) of rocks and dust from its OSIRIS-REx mission, which traveled nearly 4 billion miles to collect the unprecedented sample from the near-Earth asteroid called Bennu. But NASA revealed in October that some material remained out of reach in a capsule hidden inside an instrument called the Touch-and-Go Sample Acquisition Mechanism — a robotic arm with a storage container at one end that coll…",
+          "link": "https://science.slashdot.org/story/24/01/13/0637208/nasa-finally-unlocks-stuck-fasteners-on-asteroid-sample-capsule?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T16:34:00.000Z",
+          "wordCount": 5589,
+          "title": "NASA Finally Unlocks Stuck Fasteners on Asteroid Sample Capsule",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/13/0735228/did-a-us-hedge-fund-help-destroy-local-journalism?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"What is lost when billionaires with no background nor interest in a civic mission, who are only concerned with profiteering, take over our most influential news organizations? What new models of news gathering, and dissemination show promise for our increasingly digital age? What can the public do to preserve and support vibrant journalism?\" \n\nThat's a synopsis posted about the documentary Stripped for Parts: American Journalism on the Brink, cited by the long-standing news industry magazine Editor and Publisher (which dates back to 1901). This week its podcast interviewed filmmaker Rick Goldsmith about his 90-minute documentary, which they say \"tells the tale\" of how hedge fund Alden Global Capital clandestinely entered into the news publishing industry in a big way — and then \"dismantle…",
+          "link": "https://news.slashdot.org/story/24/01/13/0735228/did-a-us-hedge-fund-help-destroy-local-journalism?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T15:34:00.000Z",
+          "wordCount": 10070,
+          "title": "Did a US Hedge Fund Help Destroy Local Journalism?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/themedia_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/13/0434226/ai-girlfriend-bots-are-already-flooding-openais-gpt-store?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Quartz: It's day two of the opening of OpenAI's buzzy GPT store, which offers customized versions of ChatGPT, and users are already breaking the rules. The Generative Pre-Trained Transformers (GPTs) are meant to be created for specific purposes -- and not created at all in some cases. A search for \"girlfriend\" on the new GPT store will populate the site's results bar with at least eight \"girlfriend\" AI chatbots, including \"Korean Girlfriend,\" \"Virtual Sweetheart,\" \"Your girlfriend Scarlett,\" \"Your AI girlfriend, Tsu.\" Click on chatbot \"Virtual Sweetheart,\" and a user will receive starting prompts like \"What does your dream girl look like?\" and \"Share with me your darkest secret.\"\n \nThe AI girlfriend bots go against OpenAI's usage policy, which was updated when the GPT store launched yesterday (Jan. 10). The company bans GPTs \"dedicated to fostering romantic companionship or performing regulated activities.\" It is not clear exactly what regulated activities entail. Notably, the company is aiming to get ahead of potential conflicts with its OpenAI store.\n \nRelationship chatbots are, indeed, popular apps. In the US, seven of the 30 AI chatbot apps downloaded in 2023 from the Apple or Google Play store were related to AI friends, girlfriends, or companions, according to data shared with Quartz from data.ai, a mobile app analytics firm. The proliferation of these apps may stem from the epidemic of loneliness and isolation Americans are facing. Alarming studies show that one-in-two American adults have reported experiencing loneliness, with the US Surgeon General calling for the need to strengthen social connections. AI chatbots could be part of the solution if people are isolated from other human beings -- or they could just be a way to cash in on human suffering. Further reading: OpenAI Quietly Deletes Ban On Using ChatGPT For 'Military and Warfare'\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/01/13/0434226/ai-girlfriend-bots-are-already-flooding-openais-gpt-store?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T13:00:00.000Z",
+          "wordCount": 8154,
+          "title": "AI Girlfriend Bots Are Already Flooding OpenAI's GPT Store",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/13/0424243/ukrainian-hacker-group-takes-down-moscow-isp-as-a-revenge-for-kyivstar-cyber-attack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Longtime Slashdot reader Plugh shares a report from Daily Security Review: A Ukrainian hacker group [...] carried out a destructive attack on the servers of a Moscow-based internet provider to take revenge for Kyivstar cyberattack. The group, known as Blackjack, successfully hacked into the systems of M9com, causing extensive damage by deleting terabytes of data. Numerous residents in Moscow experienced disruptions in their internet and television services. Additionally, the Blackjack hacker group has issued a warning of a potentially larger attack in the near future.\n \nBased on the information provided by Ukrinform, the cyber attack on M9com deleted approximately 20 terabytes of data. The attack targeted various critical services of the company, including its official website, mail server, and cyber protection services. Furthermore, the hackers managed to access and download over 10 gigabytes of data from M9com's mail server and client databases. To make matters worse, they made this stolen information publicly accessible via the Tor browser. [...]\n \nBased on the nature of the attack on M9com, it appears that when the hackers hit Moscow, they were able to gain access to the back-end operations of the company. This allowed them to effectively delete data from the servers, similar to what occurred in the Kyivstar incident. It is worth noting that this type of attack, which involves directly targeting and compromising the servers, is less common compared to the more frequently observed distributed denial-of-service (DDoS) attacks. DDoS attacks overwhelm a system by inundating it with automated requests, causing the service to become inaccessible.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/01/13/0424243/ukrainian-hacker-group-takes-down-moscow-isp-as-a-revenge-for-kyivstar-cyber-attack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T10:00:00.000Z",
+          "wordCount": 10272,
+          "title": "Ukrainian Hacker Group Takes Down Moscow ISP As a Revenge For Kyivstar Cyber Attack",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/13/0415211/nasa-unveils-revolutionary-x-59-quiet-supersonic-aircraft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "After years of development, NASA has unveiled the X-59 supersonic jet capable of breaking the sound barrier without producing a thunderous sonic boom. \"Instead, the Quesst will make a much quieter 'thump,' similar to the sound of a car door slamming as heard from indoors,\" reports Space.com. \"If successful, the jet has the potential to revolutionize supersonic flight and aviation in general.\" From the report: NASA and Lockheed Martin showed off the finished X-59 Quesst (\"Quiet SuperSonic Technology\") today (Jan. 12) in front of a crowd of nearly 150 at the legendary Lockheed Martin Skunk Works facility in Palmdale, California, a research and development site typically known for its secrecy. The elongated beak-like nose section of the aircraft stood out prominently, showing off the fact tha…",
+          "link": "https://science.slashdot.org/story/24/01/13/0415211/nasa-unveils-revolutionary-x-59-quiet-supersonic-aircraft?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T07:00:00.000Z",
+          "wordCount": 10081,
+          "title": "NASA Unveils Revolutionary X-59 'Quiet' Supersonic Aircraft",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nasa_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/12/2333245/the-billionaires-spending-a-fortune-to-lure-scientists-away-from-universities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from the New York Times: In an unmarked laboratory stationed between the campuses of Harvard and the Massachusetts Institute of Technology, a splinter group of scientists is hunting for the next billion-dollar drug. The group, bankrolled with $500 million from some of the wealthiest families in American business, has created a stir in the world of academia by dangling seven-figure paydays to lure highly credentialed university professors to a for-profit bounty hunt. Its self-described goal: to avoid the blockages and paperwork that slow down the traditional paths of scientific research at universities and pharmaceutical companies, and discover scores of new drugs (at first, for cancer and brain disease) that can be produced and sold quickly.\n \nBraggadoci…",
+          "link": "https://science.slashdot.org/story/24/01/12/2333245/the-billionaires-spending-a-fortune-to-lure-scientists-away-from-universities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T03:30:00.000Z",
+          "wordCount": 9873,
+          "title": "The Billionaires Spending a Fortune To Lure Scientists Away From Universities",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/12/2324237/us-regulator-considers-stripping-boeings-right-to-self-inspect-planes?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "After a 737 Max door panel blew out over Portland, Oregon, last week, the Federal Aviation Administration ordered the temporary grounding of Boeing 737 Max 9 aircraft until emergency inspections were performed. \"Alaska and United Airlines, which operate most of the Max 9s in use in the United States, said on Monday that they discovered loose hardware on the panel when conducting preliminary inspections on their planes,\" reported the New York Times. Now, U.S. aviation regulators say they may strip Boeing of its right to conduct some of its aircraft inspections. The Financial Times reports: Mike Whitaker, FAA administrator, said the agency was \"exploring\" its options for using an independent third-party to oversee inspections of Boeing's aircraft and its quality controls. \"It is time to re-e…",
+          "link": "https://tech.slashdot.org/story/24/01/12/2324237/us-regulator-considers-stripping-boeings-right-to-self-inspect-planes?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-13T01:25:00.000Z",
+          "wordCount": 13222,
+          "title": "US Regulator Considers Stripping Boeing's Right To Self-Inspect Planes",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
         {
           "id": "https://hardware.slashdot.org/story/24/01/12/2312229/micron-displays-next-gen-lpcamm2-modules-for-laptops-at-ces-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4912,156 +5042,6 @@
           "wordCount": 11089,
           "title": "Jeff Bezos Says Blue Origin Needs To Be 'Much Faster'",
           "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/15/002256/cheating-fears-over-chatbots-were-overblown-new-research-suggests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Natasha Singer reports via The New York Times: According to new research from Stanford University, the popularization of A.I. chatbots has not boosted overall cheating rates in schools (Warning: source may be paywalled; alternative source). In surveys this year of more than 40 U.S. high schools, some 60 to 70 percent of students said they had recently engaged in cheating -- about the same percent as in previous years, Stanford education researchers said. \"There was a panic that these A.I. models will allow a whole new way of doing something that could be construed as cheating,\" said Denise Pope, a senior lecturer at Stanford Graduate School of Education who has surveyed high school students for more than a decade through an education nonprofit she co-founded. But \"we're just not seeing the change in the data.\"\n \nChatGPT, developed by OpenAI in San Francisco, began to capture the public imagination late last year with its ability to fabricate human-sounding essays and emails. Almost immediately, classroom technology boosters started promising that A.I. tools like ChatGPT would revolutionize education. And critics began warning that such tools -- which liberally make stuff up -- would enable widespread cheating, and amplify misinformation, in schools. Now the Stanford research, along with a recent report from the Pew Research Center, are challenging the notion that A.I. chatbots are upending public schools.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/15/002256/cheating-fears-over-chatbots-were-overblown-new-research-suggests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T00:45:00.000Z",
-          "wordCount": 4330,
-          "title": "Cheating Fears Over Chatbots Were Overblown, New Research Suggests",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/14/1938220/alphabets-renew-home-company-brings-power-grid-data-to-your-smart-home?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: Google's parent company, Alphabet, is launching a new company called \"Renew Home.\" The new company will pull in some other projects from Nest and the rest of Alphabet to become a supposed one-stop shop for power savings and clean energy usage. The core concept is partnering with power companies to obtain data about the current condition of the power grid and using that data to change consumer habits. The new company is bankrolled by Sidewalk Infrastructure Partners (SIP), an Alphabet venture capital firm.\n \nThe first existing service getting pulled into Renew Home is Nest Renew. This service for Nest Thermostats uses power company data to tell consumers how their electricity is being generated and what it costs. That data lets your thermostat do things like automatically shift heating and cooling to times of day when energy is cheaper or cleaner, and shows various reports about the cleanness of the energy you've been using. (Nest's feature that lets utility companies remotely take control of your thermostat, Rush Hour Rewards, does not seem to be part of Renew Home.)\n \nAnother Alphabet service being pulled into Renew Home is OhmConnect, which is the same basic idea as Nest's grid data-power thermostat adjustments but for more than just your thermostat. OhmConnect is compatible with a very small list of smart devices, like Nest-rival Ecobee and Honeywell thermostats, TL-Link's \"Kasa\" smart home system, and Tesla vehicles. The backbone of the service appears to be the in-house \"OhmPlug\" smart outlet, which can monitor the energy usage of anything that plugs into the wall. By seeing that you've turned these smart devices during peak usage times, OhmConnect offers people rewards like gift cards or cash for not using power when the grid is at capacity.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/12/14/1938220/alphabets-renew-home-company-brings-power-grid-data-to-your-smart-home?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T00:02:00.000Z",
-          "wordCount": 4452,
-          "title": "Alphabet's 'Renew Home' Company Brings Power Grid Data To Your Smart Home",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/14/1916258/proton-mail-finally-gets-a-desktop-app-for-encrypted-email-and-calendar?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Amrita Khalid reports via The Verge: Proton has released a desktop version of its Proton Mail app that will give users full access to both Proton Mail and Proton Calendar and (eventually) the ability to view your emails offline. The desktop app is available in beta is optimized for both Windows and macOS, and encrypts sent emails end-to-end just like with the browser version, according to the Swiss company, while offline access to emails will be available \"soon.\" [...] It's important to note that you'll still need internet access to both send and encrypt your emails on Proton. But the offline feature will let you view and draft emails while traveling, during a power outage, or any other situation where you don't have access to the internet.\n \nProton is also bringing encrypted auto-forwarding to paid users, both on its desktop and browser versions, though the encryption for forwards will only apply when the forwarded emails go to other Proton users. The company says it has made improvements to Proton Calendar, too, including a fully searchable web version. Not everyone will be able to access Proton's desktop app right away. Proton is restricting access to its paid \"Visionary\" tier for legacy users at first (though the company is reopening subscriptions to that tier through January 3rd, 2024). The plan is to make the desktop app available to all users in early 2024.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/14/1916258/proton-mail-finally-gets-a-desktop-app-for-encrypted-email-and-calendar?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T23:20:00.000Z",
-          "wordCount": 4092,
-          "title": "Proton Mail Finally Gets a Desktop App For Encrypted Email and Calendar",
-          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/14/1911233/threads-launches-in-the-european-union?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Meta CEO Mark Zuckerberg announced that Threads is now available to users in the European Union. \"Today we're opening Threads to more countries in Europe,\" wrote Zuckerberg in a post on the platform. \"Welcome everyone.\" MacRumors reports: The move comes five months after the social media network launched in most markets around the world, but remained unavailable to EU-based users due to regulatory hurdles. [...] In addition to creating a Threads profile for posting, users in the EU can also simply browse Threads without having an Instagram account, an option likely introduced to comply with legislation surrounding online services.\n \nThe expansion into a market of 448 million people should see Threads' user numbers get a decent boost. Meta CEO Mark Zuckerberg said on a company earnings call in October that Threads now has \"just under\" 100 million monthly users. Since its launch earlier this year it has gained a web app, an ability to search for posts, and a post editing feature.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/14/1911233/threads-launches-in-the-european-union?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T22:40:00.000Z",
-          "wordCount": 4410,
-          "title": "Threads Launches In the European Union",
-          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/14/1858249/supply-chain-attack-targeting-ledger-crypto-wallet-leaves-users-hacked?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TechCrunch: Hackers compromised the code behind a crypto protocol used by multiple web3 applications and services, the software maker Ledger said on Thursday. Ledger, a company that makes a widely used and popular crypto hardware and software wallet, among other products, announced on X (previously Twitter) that someone had pushed out a \"malicious version\" of its Ledger Connect Kit, a library that decentralized apps (dApps) made by other companies and projects use to connect to the Ledger wallet service.\n \n\"A genuine version is being pushed to replace the malicious file now. Do not interact with any dApps for the moment. We will keep you informed as the situation evolves,\" Ledger wrote. Soon after, Ledger posted an update saying that the hackers had…",
-          "link": "https://it.slashdot.org/story/23/12/14/1858249/supply-chain-attack-targeting-ledger-crypto-wallet-leaves-users-hacked?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T22:00:00.000Z",
-          "wordCount": 4629,
-          "title": "Supply Chain Attack Targeting Ledger Crypto Wallet Leaves Users Hacked",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/23/12/14/1811230/fcc-floats-ban-on-cable-tv-junk-fees-that-make-it-hard-to-ditch-contracts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Federal Communications Commission has taken a step toward prohibiting early termination fees charged by cable and satellite TV providers. From a report: If given final approval, the FCC action would also require cable and satellite providers to provide a prorated credit or rebate to customers who cancel before a billing period ends. The new rules are being floated in a Notice of Proposed Rulemaking (NPRM) that the FCC voted to approve this week in a 3-2 vote, with both Republicans dissenting. The NPRM seeks public comment on the proposed rules and could lead to a final vote in a few months or so. \n\n\"Today's action proposes to adopt customer service protections that prohibit cable operators and DBS (Direct Broadcast Satellite) providers from imposing a fee for the early termination of a cable or DBS video service contract,\" the FCC said. \"Additionally, the NPRM recommends the adoption of customer service protections to require cable and DBS providers to grant subscribers a prorated credit or rebate for the remaining whole days in a monthly or periodic billing cycle after the subscriber cancels service.\" \n\nFCC Chairwoman Jessica Rosenworcel said, \"Consumers are tired of these junk fees. They now have more choices when it comes to video content. But these friction-filled tactics to keep us subscribing to our current providers are aggravating and unfair. So today we kick off a rulemaking to put an end to these practices.\" Cable lobby group NCTA-The Internet & Television Association opposes the plan and said it will submit comments to support \"consumer choice and competitive parity.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/23/12/14/1811230/fcc-floats-ban-on-cable-tv-junk-fees-that-make-it-hard-to-ditch-contracts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T21:20:00.000Z",
-          "wordCount": 4987,
-          "title": "FCC Floats Ban on Cable TV 'Junk Fees' That Make It Hard To Ditch Contracts",
-          "imageUrl": "https://a.fsdn.com/sd/topics/tv_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/14/1719214/amazons-internet-satellites-will-use-space-lasers-to-transmit-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Amazon, which launched its first internet satellites in October, says it will use space lasers to ensure reliable broadband coverage even in the middle of the ocean. From a report: The technology will enable a satellite to deliver data to a cruise ship, say, even if the spacecraft isn't in range of an Amazon ground station connected to the internet. Instead, the laser will pass the request on to another satellite that has a clear view of a ground station. \n\nThe two prototype satellites successfully tested the technology, which is officially called optical inter-satellite links, Amazon said on Thursday. \"If you're going to serve maritime customers, air customers, you have got to be able to get data up to your satellites,\" said Rajeev Badyal, who leads Amazon's Project Kuiper internet-from-space initiative. \"And in the middle of the ocean, it's difficult if not impossible\" to install ground stations.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/14/1719214/amazons-internet-satellites-will-use-space-lasers-to-transmit-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T20:40:00.000Z",
-          "wordCount": 5703,
-          "title": "Amazon's Internet Satellites Will Use Space Lasers To Transmit Data",
-          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/14/177217/google-will-turn-off-third-party-tracking-for-some-chrome-users-soon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Google is about to launch its grand plan to block third-party cookies in Chrome that many websites use to track your activity across the web for profit. From a report: Starting on January 4th, Google will start testing its new Tracking Protection feature that will eventually restrict website access to third-party cookies by default. It will come to a very small subset of Chrome users at the start, specifically to one percent of users globally. Afterward, Google plans to phase out the use of third-party cookies for all users in the second half of 2024. \n\nIf you're randomly selected to try Tracking Protection, Google will notify you when opening Chrome on desktop or Android. If there are issues detected by Chrome while you're browsing, a prompt will appear asking if you'd like to temporarily re-enable third-party cookies for the site.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/14/177217/google-will-turn-off-third-party-tracking-for-some-chrome-users-soon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T20:00:00.000Z",
-          "wordCount": 5070,
-          "title": "Google Will Turn Off Third-Party Tracking for Some Chrome Users Soon",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/14/1723204/intel-unveils-new-ai-chip-to-compete-with-nvidia-and-amd?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Intel unveiled new computer chips on Thursday, including Gaudi3, an AI chip for generative AI software. Gaudi3 will launch next year and will compete with rival chips from Nvidia and AMD that power big and power-hungry AI models. From a report: The most prominent AI models, like OpenAI's ChatGPT, run on Nvidia GPUs in the cloud. It's one reason Nvidia stock has been up nearly 230% year-to-date while Intel shares are up 68%. And it's why companies like AMD and, now Intel, have announced chips that they hope will attract AI companies away from Nvidia's dominant position in the market. \n\nWhile the company was light on details, Gaudi3 will compete with Nvidia's H100, the main choice among companies that build huge farms of the chips to power AI applications, and AMD's forthcoming MI300X, when it starts shipping to customers in 2024. Intel has been building Gaudi chips since 2019, when it bought a chip developer called Habana Labs.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/23/12/14/1723204/intel-unveils-new-ai-chip-to-compete-with-nvidia-and-amd?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T19:20:00.000Z",
-          "wordCount": 4383,
-          "title": "Intel Unveils New AI Chip To Compete With Nvidia and AMD",
-          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/14/195213/gms-cruise-cuts-24-of-its-workforce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "General Motors' Cruise robotaxi unit announced today that it will lay off 900 employees, or 24% of its workforce. The news follows the departure of nine executives amid an ongoing safety investigation following an inccident in which a pedestrian was dragged by one of the company's self-driving cars. CNBC reports: The company had 3,800 employees before Thursday's cuts, which also follow a round of contractor layoffs at Cruise last month. Affected employees will receive paychecks until Feb. 12 and at least an additional eight weeks of pay, plus severance based on tenure. A Cruise representative also told CNBC that the company's goal is now to work on a fully driverless L4 service, as well as relaunching ride-hailing in one city to start. In a statement, a Cruise spokesperson said, \"We shared the difficult news that we are reducing our workforce, primarily in commercial operations and related corporate functions. These changes reflect our decision to focus on more deliberate commercialization plans with safety as our north star. We are supporting impacted Cruisers with strong severance and benefits packages and are grateful to the departing employees who played important roles in building Cruise and supporting our mission.\"\n \nGM added, \"GM supports the difficult employment decisions made by Cruise as it reflects their more deliberate path forward, with safety as the north star. We are confident in the team and committed to supporting Cruise as they set the company up for long-term success with a focus on trust, accountability and transparency.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/14/195213/gms-cruise-cuts-24-of-its-workforce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T19:07:00.000Z",
-          "wordCount": 6403,
-          "title": "GM's Cruise Cuts 24% of Its Workforce",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/14/181253/ftc-is-investigating-adobe-over-its-rules-for-canceling-software-subscriptions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Adobe said US regulators are probing the company's cancellation rules for software subscriptions, an issue that has long been a source of ire for customers. From a report: The company has been cooperating with the Federal Trade Commission on a civil investigation of the issue since June 2022, Adobe said Wednesday in a filing. A settlement could involve \"significant monetary costs or penalties,\" the company said. \n\nUsers of Adobe programs including Photoshop and Premiere have long complained about the expense of canceling a subscription, which can cost more than $700 annually for individuals. Subscribers must cancel within two weeks of buying a subscription to receive a full refund; otherwise, they incur a prorated penalty. Some other digital services such as Spotify and Netflix don't charge a cancellation fee. Digital subscriptions have been a recent focus for the FTC. It proposed a rule in March that consumers must be able to cancel subscriptions as easily as they sign up for them. \n\n\"Too often, companies make it difficult to unsubscribe from a service, wasting Americans' time and money on things they may not want or need,\" President Joe Biden said in a social media post at the time. Adobe said the FTC alerted the company in November that commission staff say \"they had the authority to enter into consent negotiations to determine if a settlement regarding their investigation of these issues could be reached. We believe our practices comply with the law and are currently engaging in discussion with FTC staff.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/14/181253/ftc-is-investigating-adobe-over-its-rules-for-canceling-software-subscriptions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T18:40:00.000Z",
-          "wordCount": 5165,
-          "title": "FTC is Investigating Adobe Over Its Rules for Canceling Software Subscriptions",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/14/1755212/the-excitement-of-70000-swifties-can-shake-the-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Economist reports: \"Shake, shake, shake, shake,\" Taylor Swift sings from the stage of Lumen Field in Seattle at 10.35 in the evening on July 22nd. The fans respond, enthusiastically; the stadium duly shakes; a nearby seismometer takes note. To pop aficionados \"Shake it off\" is an empowering up-tempo anthem played at 160 beats per minute. To the Pacific Northwest Seismic Network, which is designed to monitor earthquakes, it is a 2.6 hertz signal in which the amplitude of the acceleration was as large as one centimetre per second, per second. \n\nThe well-situated seismometer first came to public attention in January 2011, when it recorded the response of fans of the Seattle Seahawks, an American football team, to a magnificent touchdown by Marshawn Lynch, a running back known as \"Beast Mode.\" The \"Beast Quake\" went down in local sporting history. When Ms Swift came to town for two nights of her Eras tour, Jacqueline Caplan-Auerbach, a geology professor at Western Washington University, used the opportunity to learn more about how events in the stadium shake its surroundings. On December 11th she presented some of her conclusions at the American Geophysical Union's autumn meeting in San Francisco. \n\n[...] Dr Caplan-Auerbach wanted to see whether such resonant amplification might also be at play elsewhere, and to distinguish between the effect of the music itself and the audience's response. Her concert-night data showed two distinct sets of signals, one in higher frequencies (30-80hz), one in lower frequencies (1-8hz). The higher-frequency signals were present during the sound check, when the band were on stage but the stadium empty, and absent during the concerts' \"surprise songs,\" played without the band by Ms Swift alone. The lower frequencies were absent when the audience had yet to arrive. Clearly those higher frequencies were from the music itself.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/12/14/1755212/the-excitement-of-70000-swifties-can-shake-the-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T18:00:00.000Z",
-          "wordCount": 5657,
-          "title": "The Excitement of 70,000 Swifties Can Shake the Earth",
-          "imageUrl": "https://a.fsdn.com/sd/topics/music_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/14/167200/google-working-on-upgraded-voice-assistant-that-uses-gemini-report-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Information: In the future, [Google] plans to use Gemini across nearly its entire line of products, from its search engine to its productivity applications and an AI assistant called Pixie that will be exclusive to its Pixel devices, two people familiar with the matter said. [...] The rollout of Pixie, an AI assistant exclusively for Pixel devices, could boost Google's hardware business at a time when tech companies are racing to integrate their hardware with new AI capabilities. Pixie will use the information on a customer's phone -- including data from Google products like Maps and Gmail -- to evolve into a far more personalized version of the Google Assistant, according to one of the people with knowledge of the project. The feature could launch as soon as next year with the Pixel 9 and the 9 Pro, this person said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/14/167200/google-working-on-upgraded-voice-assistant-that-uses-gemini-report-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T17:20:00.000Z",
-          "wordCount": 4548,
-          "title": "Google Working on Upgraded Voice Assistant That Uses Gemini, Report Says",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/14/1621240/intel-core-ultra-processors-debut-for-ai-powered-pcs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Intel launched its Intel Core Ultra processors for AI-powered PCs at its AI Everywhere event today. From a report: The big chip maker said these processors spearhead a new era in computing, offering unparalleled power efficiency, superior compute and graphics performance, and an unprecedented AI PC experience to mobile platforms and edge devices. Available immediately, these processors will be used in over 230 AI PCs coming from renowned partners like Acer, ASUS, Dell, Gigabyte, and more. \n\nThe Intel Core Ultra processors represent an architectural shift for Intel, marking its largest design change in 40 years. These processors harness the Intel 4 process technology and Foveros 3D advanced packaging, leveraging leading-edge processes for optimal performance and capabilities. The processors…",
-          "link": "https://hardware.slashdot.org/story/23/12/14/1621240/intel-core-ultra-processors-debut-for-ai-powered-pcs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T16:41:00.000Z",
-          "wordCount": 5461,
-          "title": "Intel Core Ultra Processors Debut for AI-powered PCs",
-          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/14/1422216/pope-francis-calls-for-binding-global-treaty-to-regulate-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Pope Francis has called for a legally binding international treaty to regulate AI, saying algorithms must not be allowed to replace human values and warning of a \"technological dictatorship\" threatening human existence. From a report: The pope made his call on Thursday in a message for the Roman Catholic Church's World Day of Peace, which is celebrated on Jan. 1. The title of the message, which is traditionally sent to world leaders and heads of institutions such as the United Nations, is \"Artificial Intelligence and Peace.\" \n\n[...] \"The global scale of artificial intelligence makes it clear that, alongside the responsibility of sovereign states to regulate its use internally, international organizations can play a decisive role in reaching multilateral agreements and coordinating their application and enforcement,\" Francis wrote in the message. \"I urge the global community of nations to work together in order to adopt a binding international treaty that regulates the development and use of artificial intelligence in its many forms,\" the pope said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/14/1422216/pope-francis-calls-for-binding-global-treaty-to-regulate-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-14T16:00:00.000Z",
-          "wordCount": 8436,
-          "title": "Pope Francis Calls for Binding Global Treaty To Regulate AI",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
         }
       ]
     }
