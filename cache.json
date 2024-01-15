@@ -46,6 +46,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/multi-tenancy-is-what-s-hard-about-scaling-web-services-dd1e0e81",
+          "author": null,
+          "description": "Computers have gotten so ridiculously fast that there is scarcely any organization in the world that can overwhelm a web-based information system running on a single server. All the complexity and sophistication required to run web services today stem from multi-tenancy. From having a single system serve millions of users at the same time. But what if we stopped doing that?\nThat’s essentially the premise of a resurgent interest in sqlite outside of its historic embedded use cases. Sure, you can’t run HEY or Basecamp, let alone Shopify or GitHub, on a single sqlite instance serving all customers. We have really good database systems, like MySQL and PostgreSQL, designed for that purpose. But any individual customer of any of the above-mentioned services absolutely could run on sqlite on a si…",
+          "link": "https://world.hey.com/dhh/multi-tenancy-is-what-s-hard-about-scaling-web-services-dd1e0e81",
+          "publishedOn": "2024-01-14T17:07:06.000Z",
+          "wordCount": 543,
+          "title": "Multi-tenancy is what’s hard about scaling web services",
+          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
+        },
+        {
           "id": "https://world.hey.com/dhh/rails-world-and-rails-8-in-2024-c7b090ba",
           "author": null,
           "description": "The first major Rails conference on the European continent in over a decade was a smashing success this past October in Amsterdam. Not only did the conference sell out more than 700 tickets in less than 40 minutes, but it was the atmosphere from those in attendance that really made it soar. It was simply electric.\nSo much so that I was actually a little worried in the weeks after about how we’d possibly top this spectacle for Rails World 2024. But as the plans have been solidifying, I’ve replaced any shred of worry with an unbounded excitement for September in Toronto. It’s going to be special.\nNot only are we going to nearly double the capacity for attendance, we’ll also have so much super exciting new stuff to talk about, as well as following through on all the goodies that were announce…",
@@ -753,6 +763,126 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://science.slashdot.org/story/24/01/15/0028232/scientists-film-genetically-altered-plants-talking-to-neighboring-plants-with-biochemicals?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "ScienceAlert reminds us that plants exude \"a fine mist of airborne compounds that they use to communicate and protect themselves.\" And while they've been detected in over 80 plant species, now researchers have applied real-time imaging techniques \"to reveal how plants receive and respond to these aerial alarms.\"\n\nYuri Aratani and Takuya Uemura, molecular biologists at Saitama University in Japan, and colleagues rigged up a pump to transfer compounds emitted by injured and insect-riddled plants onto their undamaged neighbors, and a fluorescence microscope to watch what happened. Caterpillars (Spodoptera litura) were set upon leaves cut from tomato plants and Arabidopsis thaliana, a common weed in the mustard family, and the researchers imaged the responses of a second, intact, insect-free Arabidopsis plant to those danger cues. \n\nThese plants weren't any ordinary weeds: they had been genetically altered so their cells contained a biosensor that fluoresced green when an influx of calcium ions was detected... [T]he team visualized how plants responded to being bathed in volatile compounds, which plants release within seconds of wounding. It wasn't a natural set-up; the compounds were concentrated in a plastic bottle and pumped onto the recipient plant at a constant rate, but this allowed the researchers to analyze what compounds were in the pungent mix... \n\n[T]he undamaged plants received the messages of their injured neighbors loud and clear, responding with bursts of calcium signaling that rippled across their outstretched leaves... [G]uard cells generated calcium signals within a minute or so, after which mesophyll cells picked up the message... \"We have finally unveiled the intricate story of when, where, and how plants respond to airborne 'warning messages' from their threatened neighbors,\" says Masatsugu Toyota, a molecular biologist at Saitama University in Japan and senior author of the study.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/01/15/0028232/scientists-film-genetically-altered-plants-talking-to-neighboring-plants-with-biochemicals?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-15T00:29:00.000Z",
+          "wordCount": 4102,
+          "title": "Scientists Film Genetically-Altered Plants 'Talking' to Neighboring Plants With Biochemicals",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/14/0145246/ask-slashdot-could-a-form-of-watermarking-prevent-ai-deep-faking?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An opinion piece in the Los Angeles Times imagines a world after \"the largest coordinated deepfake attack in history... a steady flow of new deepfakes, mostly manufactured in Russia, North Korea, China and Iran.\"\nThe breakthrough actually came in early 2026 from a working group of digital journalists from U.S. and international news organizations. Their goal was to find a way to keep deepfakes out of news reports... Journalism organizations formed the FAC Alliance — \"Fact Authenticated Content\" — based on a simple insight: There was already far too much AI fakery loose in the world to try to enforce a watermarking system for dis- and misinformation. And even the strictest labeling rules would simply be ignored by bad actors. But it would be possible to watermark pieces of content that deep…",
+          "link": "https://slashdot.org/story/24/01/14/0145246/ask-slashdot-could-a-form-of-watermarking-prevent-ai-deep-faking?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T23:09:00.000Z",
+          "wordCount": 5800,
+          "title": "Ask Slashdot:  Could a Form of Watermarking Prevent AI Deep Faking?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/01/14/2018257/python-software-foundation-says-eus-cyber-resilience-act-includes-wins-for-open-source?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Last April the Python Software Foundation warned that Europe's proposed Cyber Resilience Act jeopardized their organization and \"the health of the open-source software community\" with overly broad policies that \"will unintentionally harm the users they are intended to protect.\" \n\n\nThey'd worried that the Python Software Foundation could incur financial liabilities just for hosting Python and its PyPI package repository due to the proposed law's attempts to penalize cybersecurity lapses all the way upstream. But a new blog post this week cites some improvements:\n\nWe asked for increased clarity, specifically: \n\n\"Language that specifically exempts public software repositories that are offered as a public good for the purpose of facilitating collaboration would make things much clearer. We'd a…",
+          "link": "https://yro.slashdot.org/story/24/01/14/2018257/python-software-foundation-says-eus-cyber-resilience-act-includes-wins-for-open-source?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T20:34:00.000Z",
+          "wordCount": 5487,
+          "title": "Python Software Foundation Says EU's 'Cyber Resilience Act' Includes Wins for Open Source",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/24/01/14/1830255/linux-mint-213-its-first-official-release-with-wayland-support?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Linux Mint 21.3 is now available to download, reports the blog OMG Obuntu. \n\nIt's the first version to offer Wayland support in its Cinnamon desktop:\n\nFollowing a successful bout of bug-busting in last month's beta release, Mint devs have gone ahead and rubber-stamped a stable release. Thus, you can reasonably expect to not encounter any major issues when installing or using it... [I]t's based on Ubuntu 22.04 LTS and continues to use the Linux 5.15 kernel by default, but newer kernels are available to install within the OS... \n\nIn my own testing I find Cinnamon's Wayland support to be well-rounded. It's not perfect but I didn't hit any major snafus that prevented me from working (though admittedly I did only attempt 'basic' tasks like web browsing, playing music, and adding applets). However, Cinnamon's Wayland support is in an early state, is not enabled by default, and Linux Mint devs expect it won't be good enough for everyone until the 23.x series (due 2026) at the earliest. Still, try it out yourself and see if it works for you. Select the 'Cinnamon on Wayland (Experimental)' session from the login screen session selector, and then login as normal... \n\nAdditionally, the latest version of Mozilla Firefox is pre-installed (as a deb, not a Snap)\n \n\nAmong the new features are a whole new category of desktop add-ons — \"Actions\" — which upgrade the right-clicking context menu. (So for .iso files there's two new choices: \"Verify\" or \"Make bootable USB stick\".) \n\nThe article says there's also \"a raft of smaller refinements,\" plus \"a bevvy of buffs and embellishments\" for Linux Mint's homegrown apps. \n\nAny Linux Mint users reading Slashdot? Share your thoughts or experiences in the comments...\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://linux.slashdot.org/story/24/01/14/1830255/linux-mint-213-its-first-official-release-with-wayland-support?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T19:34:00.000Z",
+          "wordCount": 6996,
+          "title": "Linux Mint 21.3: Its First Official Release with Wayland Support",
+          "imageUrl": "https://a.fsdn.com/sd/topics/gui_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/14/1735209/california-tech-companys-return-to-office-video-mocked-as-bizarre-cringe-worthy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "With subsidiaries like WebMD and CarsDirect, the digital media company \"Internet Brands\" has over 5,000 employees — and 20 offices in expensive locations like Seattle, San Francisco, Chicago, and New York City. \nTheir solution? Create a cheery corporate video on the company's Vimeo account announcing a new (non-negotiable) hybrid return-to-office policy. \n\nSFGate.com calls it \"the return-to-office fight's most bizarre corporate messaging yet.\"\nExecutives from Internet Brands' internet brands are so wide-eyed and declarative, they appear to be at their breaking point in wanting more workers at the office. \"Too big of a group hasn't returned,\" CEO Bob Brisco complains, near the video's opening. The vehicle to deliver that message has it all: rapid jump cuts, odd sound mixing and executives c…",
+          "link": "https://it.slashdot.org/story/24/01/14/1735209/california-tech-companys-return-to-office-video-mocked-as-bizarre-cringe-worthy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T18:34:00.000Z",
+          "wordCount": 12860,
+          "title": "California Tech Company's 'Return-to-Office' Video Mocked as Bizarre, Cringe-Worthy",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/14/0435238/seeing-blue-at-night-may-not-be-whats-keeping-you-up-after-all?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "We already know that a precise range of wavelengths within daylight triggers a light-sensitive photoreceptor in the back of your eye, causing the body's internal clock to reset. \n\nThose receptors are called \"intrinsically photosensitive retinal ganglion cells\" (or ipRGCs), according to Science Alert — although the actual color is perceived by some nearby cones (which then send information back to those rceptors). \nBut are our bodies really affected specifically by the perceived color? Chronobiologist Christine Blume investigated with a team from Switzerland's University of Basel and Germany's Max Planck Institute for Biological Cybernetics:\n\n Modern scientific wisdom advises us to avoid devices that emit a significant amount of blue radiance, such as our smartphones, computer monitors, and…",
+          "link": "https://science.slashdot.org/story/24/01/14/0435238/seeing-blue-at-night-may-not-be-whats-keeping-you-up-after-all?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T17:34:00.000Z",
+          "wordCount": 7227,
+          "title": "Seeing Blue At Night May Not Be What's Keeping You Up After All",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/01/13/2310209/what-laws-will-we-need-to-regulate-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "johnnyb (Slashdot reader #4,816) is a senior software R&D engineer who shares his proposed framework for \"what AI legislation should cover, what policy goals it should aim to achieve, and what we should be wary of along the way.\" Some excerpts? \n\n\nProtect Content Consumers from AI \nThe government should legislate technical and visual markers for AI-generated content, and the FTC should ensure that consumers always know whether or not there is a human taking responsibility for the content. This could be done by creating special content markings which communicate to users that content is AI-generated... This will enable Google to do things such as allow users to not include AI content when searching. It will enable users to detect which parts of their content are AI-generated and apply the a…",
+          "link": "https://yro.slashdot.org/story/24/01/13/2310209/what-laws-will-we-need-to-regulate-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T16:34:00.000Z",
+          "wordCount": 9289,
+          "title": "What Laws Will We Need to Regulate AI?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/01/14/0257246/atari-will-release-a-mini-edition-of-its-1979-atari-400-which-had-an-8-bit-mos-6502-cpu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An 1979 Atari 8-bit system re-released in a tiny form factor? Yep. \n Retro Games Ltd. is releasing a \"half-sized\" version of its very first home computer, the Atari 400, \"emulating the whole 8-bit Atari range, including the 400/800, XL and XE series, and the 5200 home console. (\"In 1979 Atari brought the computer age home,\" remembers a video announcement, saying the new device represents \"The iconic computer now reimagined.\") \nMore info from ExtremeTech:\n\n\nFor those of you unfamiliar with it, the Atari 400 and 800 were launched in 1979 as the company's first attempt at a home computer that just happened to double as an incredible game system. That's because, in addition to a faster variant of the excellent 8-bit MOS 6502 CPU found in the Apple II and Commodore PET, they also included Atari…",
+          "link": "https://games.slashdot.org/story/24/01/14/0257246/atari-will-release-a-mini-edition-of-its-1979-atari-400-which-had-an-8-bit-mos-6502-cpu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T15:34:00.000Z",
+          "wordCount": 8723,
+          "title": "Atari Will Release a Mini Edition of Its 1979 Atari 400 (Which Had An 8-Bit MOS 6502 CPU)",
+          "imageUrl": "https://a.fsdn.com/sd/topics/classicgames_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/13/2229243/chinese-company-announces-mass-production-of-small-nuclear-battery-with-50-year-lifespan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Chinese company Betavolt has announced an atomic energy battery for consumers with a touted 50-year lifespan,\" reports Tom's Hardware:\n\nThe Betavolt BV100 will be the first product to launch using the firm's new atomic battery technology, constructed using a nickel -63 isotope and diamond semiconductor material. Betavolt says that its nuclear battery will target aerospace, AI devices, medical, MEMS systems, intelligent sensors, small drones, and robots — and may eventually mean manufacturers can sell smartphones that never need charging... \n\n[T]he BV100, which is in the pilot stage ahead of mass production, doesn't offer a lot of power. This 15 x 15 x 5mm battery delivers 100 microwatts at 3 volts. It is mentioned that multiple BV100 batteries can be used together in series or parallel de…",
+          "link": "https://hardware.slashdot.org/story/24/01/13/2229243/chinese-company-announces-mass-production-of-small-nuclear-battery-with-50-year-lifespan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T12:34:00.000Z",
+          "wordCount": 11610,
+          "title": "Chinese Company Announces Mass Production of Small Nuclear Battery With 50-Year Lifespan",
+          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/14/0215238/should-chatbots-teach-your-children?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Sal Kahn, the founder and CEO of Khan Academy predicted last year that AI tutoring bots would soon revolutionize education,\" writes long-time Slashdot reader theodp:\n\n\ntheodp writes: His vision of tutoring bots tapped into a decades-old Silicon Valley dream: automated teaching platforms that instantly customize lessons for each student. Proponents argue that developing such systems would help close achievement gaps in schools by delivering relevant, individualized instruction to children faster and more efficiently than human teachers ever could. But some education researchers say schools should be wary of the hype around AI-assisted instruction, warning that generative AI tools may turn out to have harmful or \"degenerative\" effects on student learning. \nA ChatGPT-powered tutoring bot was tested last spring at the Khan Academy — and Bill Gates is enthusiastic about that bot and AI education in general (as well as the Khan Academy and AI-related school curriculums). From the original submission:\n\nExplaining his AI vision in November, Bill Gates wrote, \"If a tutoring agent knows that a kid likes [Microsoft] Minecraft and Taylor Swift, it will use Minecraft to teach them about calculating the volume and area of shapes, and Taylor's lyrics to teach them about storytelling and rhyme schemes. The experience will be far richer—with graphics and sound, for example—and more personalized than today's text-based tutors.\" \n\nThe New York Times article notes that similar enthusiasm greeted automated teaching tools in the 1960s, but predictions that that the mechanical and electronic \"teaching machines' — which were programmed to ask students questions on topics like spelling or math — would revolutionize education didn't pan out. \n\nSo, is this time different?\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/14/0215238/should-chatbots-teach-your-children?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T08:34:00.000Z",
+          "wordCount": 11022,
+          "title": "Should Chatbots Teach Your Children?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/14/041207/private-us-moon-lander-now-headed-for-earth-might-burn-up-in-atmosphere?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "The fuel-leaking Peregrine lunar lander is now \"on a parth towards Earth,\" according to Update #16 from Astrobotic, which predicts their spacecraft \"will likely burn up in the Earth's atmosphere.\"\n\"Our analysis efforts have been challenging due to the propellant leak... The team is currently assessing options and we will update as soon as we are able. The propellant leak has slowed considerably to a point where it is no longer the teams' top priority... \nWe have now been operating in space for 5 days and 8 hours and are about 242,000 miles from Earth.\n \n\"A soft landing on the Moon is not possible,\" the announcement emphasizes. NDTV explains:\n\nShortly after it separated from the rocket, the spaceship experienced an onboard explosion and it soon became clear it would not make a soft lunar touchdown because of the amount of the propellant it was losing — though Astrobotic's team were able to power up science experiments they were carrying for NASA and other space agencies, and gather spaceflight data... \n\n\nAstrobotic itself will get another chance in November with its Griffin lander transporting NASA's VIPER rover to the lunar south pole.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/01/14/041207/private-us-moon-lander-now-headed-for-earth-might-burn-up-in-atmosphere?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T04:54:00.000Z",
+          "wordCount": 5915,
+          "title": "Private US Moon Lander Now Headed For Earth, Might Burn Up In Atmosphere",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/14/0121239/post-quantum-encryption-algorithm-kyberslash-patched-after-side-channel-attack-discovered?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "jd (Slashdot reader #1,658) shared this story from BleepingComputer. The article notes that \"Multiple implementations of the Kyber key encapsulation mechanism for quantum-safe encryption, are vulnerable to a set of flaws collectively referred to as KyberSlash, which could allow the recovery of secret keys.\" \n\njd explains that Crystals-Kyber \"was chosen to be the U.S. government's post-quantum cryptography system of choice last year, but a side-channel attack has been identified. But in the article, NIST says that this is an implementation-specific attack (the reference implementation) and not a vulnerability in Kyber itself.\" \nFrom the article:\n CRYSTALS-Kyber is the official implementation of the Kyber key encapsulation mechanism (KEM) for quantum-safe algorithm (QSA) and part of the CRYSTALS (Cryptographic Suite for Algebraic Lattices) suite of algorithms. It is designed for general encryption... The KyberSlash flaws are timing-based attacks arising from how Kyber performs certain division operations in the decapsulation process, allowing attackers to analyze the execution time and derive secrets that could compromise the encryption. If a service implementing Kyber allows multiple operation requests towards the same key pair, an attacker can measure timing differences and gradually compute the secret key... \n\n\n\nIn a KyberSlash1 demo on a Raspberry Pi system, the researchers recovered Kyber's secret key from decryption timings in two out of three attempts... \nOn December 30, KyberSlash2 was patched following its discovery and responsible reporting by Prasanna Ravi, a researcher at the Nanyang Technological University in Singapore, and Matthias Kannwischer, who works at the Quantum Safe Migration Center.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/01/14/0121239/post-quantum-encryption-algorithm-kyberslash-patched-after-side-channel-attack-discovered?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-14T02:34:00.000Z",
+          "wordCount": 4700,
+          "title": "Post-Quantum Encryption Algorithm KyberSlash Patched After Side-Channel Attack Discovered",
+          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
+        },
         {
           "id": "https://slashdot.org/story/24/01/13/0516254/bill-gates-interviews-sam-altman-who-predicts-fastest-tech-revolution-by-far?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
@@ -4832,216 +4962,6 @@
           "wordCount": 4911,
           "title": "Amazon, Etsy, Launch Categories With 'Gifts For Programmers'",
           "imageUrl": "https://a.fsdn.com/sd/topics/xmas_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/16/0430207/microsoft-releases-phi-2-a-small-llm-that-outperforms-llama-2-and-mistral-7b?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from : Microsoft Research, the blue sky division of the software giant, [...] announced the release of its Phi-2 small language model (SML), a text-to-text AI program that is \"small enough to run on a laptop or mobile device,\" according to a post on X. At the same time, Phi-2 with its 2.7 billion parameters (connections between artificial neurons) boasts performance that is comparable to other, much larger models including Meta's Llama 2-7B with its 7 billion parameters and even Mistral-7B, another 7 billion parameter model.\n \nMicrosoft researchers also noted in their blog post on the Phi-2 release that it outperforms Google's brand new Gemini Nano 2 model despite it having half a billion more parameters, and delivers less \"toxicity\" and bias in its responses than Llama 2. Microsoft also couldn't resist taking a little dig at Google's now much-criticized, staged demo video for Gemini in which it showed off how its forthcoming largest and most powerful new AI model, Gemini Ultra, was able to solve fairly complex physics problems and even correct students' mistakes on them. As it turned out, even though it is likely a fraction of the size of Gemini Ultra, Phi-2 also was able to correctly answer the question and correct the student using the same prompts.\n \nHowever, despite these encouraging findings, there is a big limitation with Phi-2, at least for the time being: it is licensed only for \"research purposes only,\" not commercial usage, under a custom Microsoft Research License, which further states Phi-2 may only be used for \"non-commercial, non-revenue generating, research purposes.\" So, businesses looking to build products atop it are out of luck.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/16/0430207/microsoft-releases-phi-2-a-small-llm-that-outperforms-llama-2-and-mistral-7b?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-16T13:00:00.000Z",
-          "wordCount": 5646,
-          "title": "Microsoft Releases Phi-2, a Small LLM That Outperforms Llama 2 and Mistral 7B",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://mobile.slashdot.org/story/23/12/16/0417208/sales-of-solana-phone-surge-as-traders-chase-bonk-arbitrage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Solana Saga smartphones sales are surging after arbitrage traders realized every phone comes with an airdrop of BONK meme coins valued at more than the cost of the hardware. \"Saga sales have >10x'd in the past 48 hours, and are now on track to sell out before the new year,\" said Solana co-founder Raj Gokal in a post on X. As a result, Gokal's counterpart, Anatoly Yakovenko, said they'll need to raise the price. CoinDesk reports: The euphoria around BONK -- Solana's dog-themed equivalent to Dogecoin -- has led to a turnaround story for Saga, which just one week ago faced dimming prospects amid forgettable sales figures. Saga is a blockchain-enabled smartphone with special features for storing one's crypto securely on the phone's own hardware. The Saga Discord server exploded on Thursday with newcomers declaring they just bought the phone and wanted to get the airdrop.\n \nAccording to posts on the Discord server, the BONK airdrop is available to those who download the BONK app from Saga's crypto-forward custom app store.\n\"When you physically have the phone you will be able to mint 'Genesis token' through the 'dApp store, [this] token is eligible to claim the bonk drop,\" said a user who identified themselves as an employee of Solana Mobile in the Discord server. \"The bonk drop is NOT forever, at some point that promotion will end,\" the user, whose screen name was Jax, said in the Discord. \"As of right now the claim is live and is up to the bonk team on when they'd want to close it. No end date yet.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://mobile.slashdot.org/story/23/12/16/0417208/sales-of-solana-phone-surge-as-traders-chase-bonk-arbitrage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-16T10:00:00.000Z",
-          "wordCount": 7816,
-          "title": "Sales of Solana Phone Surge As Traders Chase BONK Arbitrage",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
-        },
-        {
-          "id": "https://mobile.slashdot.org/story/23/12/16/0424200/researchers-develop-worlds-first-antenna-for-ultra-secure-6g?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Researchers from the City University of Hong Kong have developed a special antenna that can control all five important aspects of electromagnetic waves using computer software. Interesting Engineering reports: The antenna, which they have named 'microwave universal metasurface antenna,' is capable of dynamically, simultaneously, independently, and precisely manipulating all the essential properties of electromagnetic waves through software control. [...] The antenna adjusts how strong the waves are, their timing, frequency, direction, and even the way they vibrate, all at the same time. It's the first time anyone has made an antenna that can do all these things simultaneously, marking a significant breakthrough in this field.\n \nThe antenna is special because it can be used in advanced information systems, like the ones we might have in the future. It's great for handling a lot of data and keeping that data very safe. It can also transfer power wirelessly, meaning it can charge devices without physical connections. One cool thing about this antenna is that it can control the direction of its signals, adding an extra layer of privacy and security. This makes it a good choice for communication systems where we want to ensure nobody can eavesdrop or secretly listen in on our conversations.\n \nAlthough demonstrated in the microwave band, the UMA's concept can be expanded to terahertz frequencies using specific technologies, enabling applications in augmented reality, holography, integrated sensing and communications for 6G, quantum optics, and quantum information science, noted the researchers in their study. The study has been published in the journal Nature Communications.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://mobile.slashdot.org/story/23/12/16/0424200/researchers-develop-worlds-first-antenna-for-ultra-secure-6g?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-16T07:00:00.000Z",
-          "wordCount": 7432,
-          "title": "Researchers Develop World's First Antenna For Ultra-Secure 6G",
-          "imageUrl": "https://a.fsdn.com/sd/topics/wireless_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/16/0023257/biggest-solar-flare-in-years-temporarily-disrupts-radio-signals-on-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Phys.Org: A NASA telescope has captured the biggest solar flare in years, which temporarily knocked out radio communication on Earth. The sun spit out the huge flare on Thursday, resulting in two hours of radio interference in parts of the U.S. and other sunlit parts of the world. Scientists said it was the biggest flare since 2017. Multiple pilots reported communication disruptions, with the impact felt across the country, said the government's Space Weather Prediction Center.\n \nScientists are now monitoring this sunspot region and analyzing for a possible outburst of plasma from the sun, also known as a coronal mass ejection, directed at Earth. The eruption occurred in the far northwest section of the sun, according to the center. NASA's Solar Dynamics Observatory caught the action in extreme ultraviolet light, recording the powerful surge of energy as a huge, bright flash. Launched in 2010, the spacecraft is in an extremely high orbit around Earth, where it constantly monitors the sun. The sun is nearing the peak of its 11-year or so solar cycle. Maximum sunspot activity is predicted for 2025.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/16/0023257/biggest-solar-flare-in-years-temporarily-disrupts-radio-signals-on-earth?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-16T03:30:00.000Z",
-          "wordCount": 5622,
-          "title": "Biggest Solar Flare In Years Temporarily Disrupts Radio Signals On Earth",
-          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/16/004230/vera-molnar-pioneer-of-computer-art-dies-at-99?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Alex Williams reports via The New York Times: Vera Molnar, a Hungarian-born artist who has been called the godmother of generative art for her pioneering digital work, which started with the hulking computers of the 1960s and evolved through the current age of NFTs, died on Dec. 7 in Paris. She was 99. Her death was announced on social media by the Pompidou Center in Paris, which is scheduled to present a major exhibition of her work in February. Ms. Molnar had lived in Paris since 1947. While her computer-aided paintings and drawings, which drew inspiration from geometric works by Piet Mondrian and Paul Klee, were eventually exhibited in major museums like the Museum of Modern Art in New York and the Los Angeles County Museum of Art, her work was not always embraced early in her career.\n …",
-          "link": "https://tech.slashdot.org/story/23/12/16/004230/vera-molnar-pioneer-of-computer-art-dies-at-99?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-16T02:02:00.000Z",
-          "wordCount": 5141,
-          "title": "Vera Molnar, Pioneer of Computer Art, Dies At 99",
-          "imageUrl": "https://a.fsdn.com/sd/topics/graphics_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/15/2356227/firefoxs-android-browser-adds-450-new-extensions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Firefox's Android browser now has over 450 new extensions available on Mozilla's Firefox Browser Add-ons page. \"These extensions allow users to customize the mobile browser to their needs, whether that involves adding anti-tracking privacy tools, content blockers, productivity tools or other features that introduce new experiences, like streaming music, or those that allow users to personalize the browser's user interface -- like switching all websites to a dark mode or offering a better way to manage tabs,\" reports TechCrunch. From the report: The lack of extensions has been an issue for Firefox for Android users for years following the 2020 launch of a rebuilt version of the mobile browser that replaced the app's previous codebase with \"GeckoView,\" a new, faster and more customizable browser engine. At the time, the company said it made a decision to limit the supported extensions to only those within the \"Recommended Extensions\" program -- meaning those that were commonly installed by end users. This choice allowed Mozilla to quickly get the new browser into consumers' hands, but squashed the long tail of extension development -- and opportunity for software developers focused on this market.\n \nWhile Firefox's nightly builds later enabled more extensions, the publicly available Firefox for Android browser did not have access to these hundreds of extensions, meaning most of Firefox's mainstream users were also without. In August of this year, Mozilla said it had finally completed the infrastructure needed to bring the open extension ecosystem back to Firefox for Android. It then began to test and make hundreds more extensions available to Firefox for Android users, culminating in today's news that there are now 450+ extensions available.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/15/2356227/firefoxs-android-browser-adds-450-new-extensions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-16T01:25:00.000Z",
-          "wordCount": 5205,
-          "title": "Firefox's Android Browser Adds 450+ New Extensions",
-          "imageUrl": "https://a.fsdn.com/sd/topics/firefox_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/15/2346251/openai-suspends-bytedances-account-after-it-used-gpt-to-train-its-own-ai-model?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "TikTok's parent company, ByteDance, has been secretly using OpenAI's technology to develop its own competing large language model (LLM). \"This practice is generally considered a faux pas in the AI world,\" writes The Verge's Alex Heath. \"It's also in direct violation of OpenAI's terms of service, which state that its model output can't be used 'to develop any artificial intelligence models that compete with our products and services.'\" From the report: Nevertheless, internal ByteDance documents shared with me confirm that the OpenAI API has been relied on to develop its foundational LLM, codenamed Project Seed, during nearly every phase of development, including for training and evaluating the model.\nEmployees involved are well aware of the implications; I've seen conversations on Lark, ByteDance's internal communication platform for employees, about how to \"whitewash\" the evidence through \"data desensitization.\" The misuse is so rampant that Project Seed employees regularly hit their max allowance for API access. Most of the company's GPT usage has been done through Microsoft's Azure program, which has the same policy as OpenAI.\n \nIn response, OpenAI said that it has suspended ByteDance's account: \"All API customers must adhere to our usage policies to ensure that our technology is used for good. While ByteDance's use of our API was minimal, we have suspended their account while we further investigate. If we discover that their usage doesn't follow these policies, we will ask them to make necessary changes or terminate their account.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/15/2346251/openai-suspends-bytedances-account-after-it-used-gpt-to-train-its-own-ai-model?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-16T00:45:00.000Z",
-          "wordCount": 4344,
-          "title": "OpenAI Suspends ByteDance's Account After It Used GPT To Train Its Own AI Model",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/15/226234/mcdonalds-ice-cream-machine-hackers-say-they-found-the-smoking-gun-that-killed-their-startup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Wired: A little over three years have passed since McDonald's sent out an email to thousands of its restaurant owners around the world that abruptly cut short the future ofa three-person startup called Kytch -- and with it, perhaps one of McDonald's best chances for fixing its famously out-of-order ice cream machines. Until then, Kytch had been selling McDonald's restaurant owners a popular internet-connected gadget designed to attach to their notoriously fragile and often broken soft-serve McFlurry dispensers, manufactured by McDonalds equipment partner Taylor. The Kytch device would essentially hack into the ice cream machine's internals, monitor its operations, and send diagnostic data over the internet to an owner or manager to help keep it runn…",
-          "link": "https://slashdot.org/story/23/12/15/226234/mcdonalds-ice-cream-machine-hackers-say-they-found-the-smoking-gun-that-killed-their-startup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-16T00:02:00.000Z",
-          "wordCount": 5749,
-          "title": "McDonald's Ice Cream Machine Hackers Say They Found the 'Smoking Gun' That Killed Their Startup",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/15/2155230/delta-dental-of-california-data-breach-exposed-info-of-7-million-people?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Delta Dental of California announced that they've suffered a data breach that exposed the personal data of almost seven million patients. BleepingComputer reports: Delta Dental of California is a dental insurance provider that covers 45 million people across 15 states and is part of the Delta Dental Plans Association. According to a Delta Dental of California data breach notification (PDF), the company suffered unauthorized access by threat actors through the MOVEit file transfer software application.\n \nThe software was vulnerable to a zero-day SQL injection flaw leading to remote code execution, tracked as CVE-2023-34362, which the Clop ransomware gang leveraged to breach thousands of organizations worldwide. Delta Dental of California learned about the compromise on June 1, 2023, and five days later, following an internal investigation, it confirmed that unauthorized actors had accessed and stolen data from its systems between May 27 and May 30, 2023. The second, more lengthy investigation to determine the exact impact of the security incident was completed on November 27, 2023.\n \nBased on this, the data breach has so far impacted 6,928,932 customers of Delta Dental of California, who had their names, financial account numbers, and credit/debit card numbers, including security codes, exposed. Delta Dental of California provides 24 months of free credit monitoring and identity theft protection services to impacted patients to mitigate the risk of their exposed data. Details on enrolling in the program are enclosed in the personal notices.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/12/15/2155230/delta-dental-of-california-data-breach-exposed-info-of-7-million-people?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T23:20:00.000Z",
-          "wordCount": 4500,
-          "title": "Delta Dental of California Data Breach Exposed Info of 7 Million People",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/15/2140228/twitch-rescinds-policy-that-allowed-artistic-nudity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Malak Saleh reports via Engadget: Twitch has quickly taken back its policy update that permitted users to post sexual content as long as it was labeled. In another update, the company said it is not going to allow any depictions of real or fictional nudity on its streaming platform. After giving users the green light to post \"artistic nudity,\" Twitch says some streamers created content that violated policy.\n \nThe media streamed in response to the initial approval of sexually explicit content on Twitch was \"met with community concern,\" according to the update. The company said, \"We have decided that we went too far with this change.\" While a huge part of the initial decision was to allow for the \"digital depiction\" of artistic nudity, the company clarified that digital depictions of sexual content is a concern when artificial intelligence can be used to develop realistic images and that it can be difficult to discern between what's been digitally produced and real photography.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/15/2140228/twitch-rescinds-policy-that-allowed-artistic-nudity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T22:40:00.000Z",
-          "wordCount": 5032,
-          "title": "Twitch Rescinds Policy That Allowed 'Artistic Nudity'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/15/2133210/tiktok-requires-users-to-forever-waive-rights-to-sue-over-past-harms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: Some TikTok users may have skipped reviewing an update to TikTok's terms of service this summer that shakes up the process for filing a legal dispute against the app. According to The New York Times, changes that TikTok \"quietly\" made to its terms suggest that the popular app has spent the back half of 2023 preparing for a wave of legal battles. In July, TikTok overhauled its rules for dispute resolution, pivoting from requiring private arbitration to insisting that legal complaints be filed in either the US District Court for the Central District of California or the Superior Court of the State of California, County of Los Angeles. Legal experts told the Times this could be a way for TikTok to dodge arbitration claims filed en masse that can cost companies millions more in fees than they expected to pay through individual arbitration.\n \nPerhaps most significantly, TikTok also added a section to its terms that mandates that all legal complaints be filed within one year of any alleged harm caused by using the app. The terms now say that TikTok users \"forever waive\" rights to pursue any older claims. And unlike a prior version of TikTok's terms of service archived in May 2023, users do not seem to have any options to opt out of waiving their rights. Lawyers told the Times that these changes could make it more challenging for TikTok users to pursue legal action at a time when federal agencies are heavily scrutinizing the app and complaints about certain TikTok features allegedly harming kids are mounting.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/12/15/2133210/tiktok-requires-users-to-forever-waive-rights-to-sue-over-past-harms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T22:02:00.000Z",
-          "wordCount": 4671,
-          "title": "TikTok Requires Users To 'Forever Waive' Rights To Sue Over Past Harms",
-          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/15/1722213/sec-denies-coinbase-petition-for-new-crypto-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The U.S. Securities and Exchange Commission on Friday denied a petition by the country's largest crypto exchange, Coinbase Global, seeking new rules from the agency for the digital asset sector. From a report: The five-member body, in a 3-2 vote, said it would not propose new rules because it fundamentally disagreed that current regulations are \"unworkable\" for the crypto sphere, as Coinbase has argued. The letter marked the latest in a broader tug-of-war between the crypto sector and the top U.S. markets regulator, which has repeatedly said most crypto tokens are securities and subject to its jurisdiction. \n\nThe agency has sued several crypto companies, including Coinbase, for listing and trading crypto tokens which it says should be registered as securities. \"Existing laws and regulations apply to the crypto securities markets,\" SEC Chair Gary Gensler said in a separate statement supporting the decision. In 2022, the company pressed the SEC to create a bespoke set of rules for the crypto sector, arguing that existing U.S. securities laws are inadequate. In April, Coinbase appealed to a judge to force the SEC to respond to the petition.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/15/1722213/sec-denies-coinbase-petition-for-new-crypto-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T21:20:00.000Z",
-          "wordCount": 5239,
-          "title": "SEC Denies Coinbase Petition for New Crypto Rules",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/15/153210/marketing-company-claims-that-it-actually-is-listening-to-phone-and-smart-speakers-to-target-ads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A marketing team within media giant Cox Media Group (CMG) claims it has the capability to listen to ambient conversations of consumers through embedded microphones in smartphones, smart TVs, and other devices to gather data and use it to target ads, according to a review of CMG marketing materials by 404 Media and details from a pitch given to an outside marketing professional. From a report: Called \"Active Listening,\" CMG claims the capability can identify potential customers \"based on casual conversations in real time.\" The news signals that what a huge swath of the public has believed for years -- that smartphones are listening to people in order to deliver ads -- may finally be a reality in certain situations. Until now, there was no evidence that such a capability actually existed, but its myth permeated due to how sophisticated other ad tracking methods have become. \n\nIt is not immediately clear if the capability CMG is advertising and claims works is being used on devices in the market today, but the company notes it is \"a marketing technique fit for the future. Available today.\" 404 Media also found a representative of the company on LinkedIn explicitly asking interested parties to contact them about the product. One marketing professional pitched by CMG on the tech said a CMG representative explained the prices of the service to them. \"What would it mean for your business if you could target potential clients who are actively discussing their need for your services in their day-to-day conversations? No, it's not a Black Mirror episode -- it's Voice Data, and CMG has the capabilities to use it to your business advantage,\" CMG's website reads.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/15/153210/marketing-company-claims-that-it-actually-is-listening-to-phone-and-smart-speakers-to-target-ads?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T20:41:00.000Z",
-          "wordCount": 8930,
-          "title": "Marketing Company Claims That It Actually Is Listening To Phone and Smart Speakers To Target Ads",
-          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/15/1459256/china-issues-draft-contingency-plan-for-data-security-incidents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "China on Friday proposed a four-tier classification to help it respond to data security incidents, highlighting Beijing's concern with large-scale data leaks and hacking within its borders. From a report: The plan, which is currently soliciting opinions from the public, proposes a four-tier, colour-coded system depending on the degree of harm inflicted upon national security, a company's online and information network, or the running of the economy. \n\nAccording to the plan, incidents that involve losses surpassing 1 billion yuan ($141 million) and affect the personal information of over 100 million people, or the \"sensitive\" information of over 10 million people, will be classed as \"especially grave,\" to which a red warning must be issued. The plan demands that in response to red and orange warnings, the involved companies and relevant local regulatory authorities must establish a 24-hour work rota to address the incident and MIIT must be notified of the data breach within ten minutes of the incident happening, among other measures.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/15/1459256/china-issues-draft-contingency-plan-for-data-security-incidents?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T20:00:00.000Z",
-          "wordCount": 4217,
-          "title": "China Issues Draft Contingency Plan for Data Security Incidents",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/15/1531229/intelligence-researchers-to-study-computer-code-for-clues-to-hackers-identities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Government researchers in the U.S. are studying methods to help identify hackers based on the code they use to carry out cyberattacks. From a report: The Intelligence Advanced Research Projects Activity, the lead federal research agency for the intelligence community, plans to develop technologies that could speed up investigations for identifying perpetrators of cyberattacks. \"The number of attacks is increasing far more than the number of forensic experts that are available to go after these attacks,\" said Kristopher Reese, who is managing the research program at IARPA and holds a doctorate in computer science and engineering. The lack of forensic resources means hackers who target small organizations or companies that don't fall under critical infrastructure sectors often escape identification, he said. \n\nTools that are developed as part of the planned 30-month research project won't replace human analysts, who are crucial for identifying social and political dynamics that might explain why a particular hacking group targeted a victim, Reese said. But using artificial intelligence to analyze code used in cyberattacks will make investigations more efficient, he said. IARPA is accepting pitches from researchers until next month and plans to begin research next summer. [...] There hasn't been enough research into how analyzing code can reveal a hacker's identity, Reese said. Behavioral traits evident in code can reveal specific countries where hackers might be from or even the university where they were trained, he said. Some companies also have style guides outlining how employees should program, which could leave traces that indicate a person worked there, he said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/15/1531229/intelligence-researchers-to-study-computer-code-for-clues-to-hackers-identities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T19:20:00.000Z",
-          "wordCount": 4101,
-          "title": "Intelligence Researchers To Study Computer Code for Clues To Hackers' Identities",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/15/1518256/earliest-version-of-mickey-mouse-set-to-become-public-domain-in-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "SonicSpike writes: With several asterisks, qualification and caveats, Mickey Mouse in his earliest form will be the leader of the band of characters, films and books that will become public domain as the year turns to 2024. In a moment many close observers thought might never come, at least one version of the quintessential piece of intellectual property and perhaps the most iconic character in American pop culture will be free from Disney's copyright as his first screen release, the 1928 short \"Steamboat Willie,\" featuring both Mickey and Minnie Mouse, becomes available for public use. \"This is it. This is Mickey Mouse. This is exciting because it's kind of symbolic,\" said Jennifer Jenkins, a professor of law and director of Duke's Center for the Study of Public Domain, who writes an annual Jan. 1 column for \"Public Domain Day.\" \"I kind of feel like the pipe on the steamboat, like expelling smoke. It's so exciting.\" U.S. law allows a copyright to be held for 95 years after Congress expanded it several times during Mickey's life.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/15/1518256/earliest-version-of-mickey-mouse-set-to-become-public-domain-in-2024?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T18:40:00.000Z",
-          "wordCount": 9038,
-          "title": "Earliest Version of Mickey Mouse Set To Become Public Domain in 2024",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/15/1657236/the-biggest-problem-with-lab-grown-chicken-is-growing-the-chicken?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Ten years ago, a Dutch scientist unveiled a $330,000 lab-grown hamburger made from cow cells grown in petri dishes. It took six weeks to culture the patty. A chef cooked it onstage as journalists watched. Reactions ranged from \"unpleasant\" to \"beeflike.\" The scientist expected supermarket sales in a decade. His company and others have since raised over $2 billion but have little to show, only recently making one pound of chicken monthly. Despite bold promises of mass production, low emissions, and better nutrition, commercial viability remains elusive. Bloomberg Business: The company [Upside Foods], in a letter from its attorney to Bloomberg Businessweek, says plans for scaling up have been an evolution saddled with \"realities and complexities of doing something that has never been done before. Innovation rarely happens in a straight and continuous line.\" \n\nThe dream is moist, meaty flesh self-multiplying ad infinitum in high-tech, stainless steel cell-growing chambers. But according to internal company documentation and eight former employees, most of whom requested anonymity because they don't have permission to discuss confidential information, Upside at the moment is actually growing just minuscule numbers of chicken skin-type cells in small plastic bottles, then scraping them out gram by gram to compress and mold them into a single forkful of flesh. This labor-intensive chicken has higher levels of cholesterol and lead than the real thing, publicly available company documentation shows. Even if that sounds remotely desirable, some scientists say the whole energy-intensive endeavor may actually be worse for the environment, especially with chicken, which has the smallest carbon footprint of anything at the local butcher. All of which points to this question: Why exactly are we chasing lab-grown chicken?[...]\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/12/15/1657236/the-biggest-problem-with-lab-grown-chicken-is-growing-the-chicken?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T18:00:00.000Z",
-          "wordCount": 8601,
-          "title": "The Biggest Problem With Lab-Grown Chicken Is Growing the Chicken",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/12/15/1710207/the-last-of-us-online-is-officially-canceled?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Sony Group's Naughty Dog studio has cancelled an online version of its popular console game The Last of Us. From a report: Naughty Dog announced today that the multiplayer spin-off of the hit series is no longer in development, citing concerns about managing ongoing content for a live-service game while still trying to produce the single-player blockbusters the PlayStation studio is famous for. \"We realize many of you have been anticipating news around the project that we've been calling The Last of Us Online,\" Naughty Dog wrote in an update. \n\n\"There's no easy way to say this: We've made the incredibly difficult decision to stop development on that game.\" The studio said that as production on the project ramped up, it became clear that \"we'd have to put all our studio resources behind supporting post launch content for years to come, severely impacting development on future single-player games.\" The choices were apparently between becoming a \"solely live-service games studio\" in the mold of modern day Bungie, which makes Destiny 2, or \"continue to focus on single-player narrative games that have defined Naughty Dog's heritage.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/12/15/1710207/the-last-of-us-online-is-officially-canceled?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T17:10:00.000Z",
-          "wordCount": 5196,
-          "title": "The Last Of Us Online Is Officially Canceled",
-          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/15/1510243/stop-planting-trees-says-guy-who-inspired-world-to-plant-a-trillion-trees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "In a cavernous theater lit up with the green shapes of camels and palms at COP28 in Dubai, ecologist Thomas Crowther, former chief scientific adviser for the United Nations' Trillion Trees Campaign, was doing something he never would have expected a few years ago: begging environmental ministers to stop planting so many trees. From a report: Mass plantations are not the environmental solution they're purported to be, Crowther argued when he took the floor on December 9 for one of the summit's \"Nature Day\" events. The potential of newly created forests to draw down carbon is often overstated. They can be harmful to biodiversity. Above all, they are really damaging when used, as they often are, as avoidance offsets-- \"as an excuse to avoid cutting emissions,\" Crowther said. \n\nThe popularity …",
-          "link": "https://science.slashdot.org/story/23/12/15/1510243/stop-planting-trees-says-guy-who-inspired-world-to-plant-a-trillion-trees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T16:40:00.000Z",
-          "wordCount": 13256,
-          "title": "Stop Planting Trees, Says Guy Who Inspired World to Plant a Trillion Trees",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/12/15/1456242/apple-plans-oled-displays-for-macbooks-evaluates-foldable-ipads-report?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple will expand its use of advanced OLED screens to iPads and MacBooks and is considering eventually introducing foldable tablets, a move set to further shake up the $150 billion display industry as it shifts away from traditional LCD screens, Asian news outlet Nikkei reported Friday. From the report: OLED, or organic light-emitting diode, displays are already used in most premium smartphones, including iPhones. Apple plans to deploy the tech in its high-end iPads next year, multiple tech industry executives told Nikkei Asia. An OLED MacBook model is also under development for production in the second half of 2025 at the earliest, the people said. The growing penetration of OLED is a significant win for Samsung Display and LG Display of South Korea and China's BOE Technology Holding, which have all bet heavily on this expensive display technology. \n\nOn the flip side, it could be a blow to display makers that do not have much presence in this segment, including JDI and Sharp of Japan, and AUO and Innolux of Taiwan. Apple has also started evaluating the possibility of making foldable iPads after it deploys the flexible OLED screens on the tablet, but it does not have a concrete timeline for doing so, according to two sources familiar with the matter. The iPhone maker is not the first company to adopt OLED displays for tablets. Huawei, for instance, has been a significant driver of this trend, which in turn has helped strengthen the Chinese display supply chain.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/12/15/1456242/apple-plans-oled-displays-for-macbooks-evaluates-foldable-ipads-report?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T16:00:00.000Z",
-          "wordCount": 5427,
-          "title": "Apple Plans OLED Displays for MacBooks, Evaluates Foldable iPads: Report",
-          "imageUrl": "https://a.fsdn.com/sd/topics/applelaptop_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/23/12/15/1450216/jeff-bezos-says-blue-origin-needs-to-be-much-faster?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "In an interview with Lex Fridman, Jeff Bezos candidly acknowledged Blue Origin's slow progress (compared to SpaceX). From a report: \"Blue Origin needs to be much faster, and it's one of the reasons that I left my role as the CEO of Amazon a couple of years ago,\" he said. \"I wanted to come in, and Blue Origin needs me right now. Adding some energy, some sense of urgency. We need to move much faster. And we're going to.\" \n\nHow is Blue Origin going to speed up? \n\n\"We're going to become the world's most decisive company across any industry,\" he said. \"We're going to get really good at taking appropriate technology risks, making those decisions quickly. You know, being bold on those things. And having the right culture that supports that. You need people to be ambitious, technically ambitious. If there are five ways to do something, we'll study them, but let's go through them very quickly and make a decision. We can always change our mind.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/23/12/15/1450216/jeff-bezos-says-blue-origin-needs-to-be-much-faster?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-15T15:20:00.000Z",
-          "wordCount": 11089,
-          "title": "Jeff Bezos Says Blue Origin Needs To Be 'Much Faster'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
         }
       ]
     }
