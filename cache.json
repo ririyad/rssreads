@@ -34,16 +34,6 @@
           "wordCount": 3189,
           "title": "Talk: Desktop GUI Made Easy @ London Clojurians",
           "imageUrl": null
-        },
-        {
-          "id": "https://tonsky.me/blog/humble-vdom/",
-          "author": null,
-          "description": "An experiment of using VDOM for managing state in Humble UI",
-          "link": "https://tonsky.me/blog/humble-vdom/",
-          "publishedOn": "2023-12-21T00:00:00.000Z",
-          "wordCount": 4054,
-          "title": "Humble Chronicles: Managing State with VDOM",
-          "imageUrl": null
         }
       ]
     },
@@ -75,6 +65,16 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/campfire-is-once-1-d2cebd12",
+          "author": null,
+          "description": "With the successful launch of HEY Calendar a week in the rearview mirror, we’re ready for our second big launch of the new year: ONCE #1. And... drumroll... it’s a rebirth of Campfire! The original web-based chat system we built back in 2006. Brought back to the future as installable software you only need to buy once.\nYou’ll find the entire rationale for why we’re excited about this retro concept of installable server software on once.com, but let me give you the short spiel. SaaS has been ruling the world of web-based software for two decades now, and made a lot of people wealthy in the process. For good reason, SaaS is great for systems that need to be services. The kind of software that’s constantly evolving or difficult to operate. Like Basecamp or HEY.\nBut there’s also a lot of SaaS …",
+          "link": "https://world.hey.com/dhh/campfire-is-once-1-d2cebd12",
+          "publishedOn": "2024-01-19T19:22:07.000Z",
+          "wordCount": 745,
+          "title": "Campfire is ONCE #1",
+          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
+        },
         {
           "id": "https://world.hey.com/dhh/microsoft-taught-apple-nothing-592d398d",
           "author": null,
@@ -274,26 +274,6 @@
           "wordCount": 585,
           "title": "Challenging the guardians of the paradigm",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/once-1-is-entirely-nobuild-for-the-front-end-ce56f6d7",
-          "author": null,
-          "description": "The dream has come true. It’s now possible to build fast, modern web applications without transpiling or bundling either JavaScript or CSS. I’ve been working towards this personal nirvana ever since we begrudgingly started transpiling and bundling assets in the late 2000s. Browsers just weren’t good enough back then to avoid it. But they are now.\nHere’s a chart of the 68 individual JavaScript files that we load in ONCE #1 via import maps. The waterfall is vertical. HTTP/2 ensures we scarcely pay any penalty for sending so many individual files, yet reap huge rewards with fine-grained cache expiration:\n  \n      \n        \n\n  \nI know you have to be a real nerd to think this is pretty, but I think this is pretty. Because I know what’s behind it. I know that looking at any of those individual f…",
-          "link": "https://world.hey.com/dhh/once-1-is-entirely-nobuild-for-the-front-end-ce56f6d7",
-          "publishedOn": "2023-12-20T21:10:22.000Z",
-          "wordCount": 675,
-          "title": "ONCE #1 is entirely #nobuild for the front-end",
-          "imageUrl": "https://world.hey.com/dhh/ce56f6d7/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2VmYmxOWSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--4aa7e50da788bb6c522c3ee5f3688e0846115fba/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/preload-all.png"
-        },
-        {
-          "id": "https://world.hey.com/dhh/five-big-open-source-gifts-from-us-c1b42c1b",
-          "author": null,
-          "description": "It’s been an incredibly productive year at 37signals. Perhaps our most productive one yet, in terms of total number of product improvements, new product developments, and open source extractions. But it’s only by looking back at the work from a distance that you can really appreciate it. So allow me to do that here. To appreciate the banner year of programming productivity that was 2023 at our company.\nBefore I get into the actual open source gifts we were able to share this year, though, I think it’s important to remark on the fact that 37signals is not an open-source software company. In the sense that we don’t make money from open source. We don’t sell service, hosting, training, or licenses. None of that stuff. We sell business software.\nOur main products are the project management too…",
-          "link": "https://world.hey.com/dhh/five-big-open-source-gifts-from-us-c1b42c1b",
-          "publishedOn": "2023-12-20T16:18:29.000Z",
-          "wordCount": 1755,
-          "title": "Five big open source gifts from us",
-          "imageUrl": "https://world.hey.com/dhh/c1b42c1b/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2NLYmsxWSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--f99ed1f1832e47021159fed24c4ffa1f469acb3f/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/37signals-oss-presents.jpg"
         }
       ]
     },
@@ -423,16 +403,6 @@
           "wordCount": 467,
           "title": "Announcing Rust 1.75.0",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html",
-          "author": null,
-          "description": "The Rust Async Working Group is excited to announce major progress towards our goal of enabling the use of async fn in traits. Rust 1.75, which hits stable next week, will include support for both -> impl Trait notation and async fn in traits.\nThis is a big milestone, and we know many users will be itching to try these out in their own code. However, we are still missing some important features that many users need. Read on for recommendations on when and how to use the stabilized features.\nWhat's stabilizing\nEver since the stabilization of RFC #1522 in Rust 1.26, Rust has allowed users to write impl Trait as the return type of functions (often called \"RPIT\"). This means that the function returns \"some type that implements Trait\". This is commonly used to return closures, iterators, and ot…",
-          "link": "https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html",
-          "publishedOn": "2023-12-21T00:00:00.000Z",
-          "wordCount": 1878,
-          "title": "Announcing `async fn` and return-position `impl Trait` in traits",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
     },
@@ -459,16 +429,6 @@
           "publishedOn": "2023-12-22T00:00:00.000Z",
           "wordCount": 882,
           "title": "Rustc Trait System Refactor Initiative Update: A call for testing",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/12/21/1.75.0-prerelease.html",
-          "author": null,
-          "description": "The 1.75.0 pre-release is ready for testing. The release is scheduled for\nDecember 28. Release notes can be found here.\nYou can try it out locally by running:\nRUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable\n\nThe index is https://dev-static.rust-lang.org/dist/2023-12-21/index.html.\nYou can leave feedback on the internals thread.\nThe release team is also thinking about changes to our pre-release process:\nwe'd love your feedback on this GitHub issue.",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/12/21/1.75.0-prerelease.html",
-          "publishedOn": "2023-12-21T00:00:00.000Z",
-          "wordCount": 139,
-          "title": "1.75.0 pre-release testing",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -735,16 +695,6 @@
           "wordCount": 92,
           "title": "Tear Duct Enhancement Surgery",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/two-toucans-canoe",
-          "author": null,
-          "description": "Toucan Dan commands, \"Paddle faster, Anne!\"",
-          "link": "https://taylor.town/two-toucans-canoe",
-          "publishedOn": "2023-12-21T00:00:00.000Z",
-          "wordCount": 202,
-          "title": "Two Toucans Canoe",
-          "imageUrl": null
         }
       ]
     },
@@ -753,6 +703,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/19/2214221/openai-ceo-sam-altman-is-still-chasing-billions-to-build-ai-chips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to Bloomberg (paywalled), OpenAI CEO Sam Altman is reportedly raising billions to develop a global network of chip fabrication factories, collaborating with leading chip manufacturers to address the high demand for chips required for advanced AI models. The Verge reports: A major cost and limitation for running AI models is having enough chips to handle the computations behind bots like ChatGPT or DALL-E that answer prompts and generate images. Nvidia's value rose above $1 trillion for the first time last year, partly due to a virtual monopoly it has as GPT-4, Gemini, Llama 2, and other models depend heavily on its popular H100 GPUs.\n \nAccordingly, the race to manufacture more high-powered chips to run complex AI systems has only intensified. The limited number of fabs capable of making high-end chips is driving Altman or anyone else to bid for capacity years before you need it in order to produce the new chips. And going against the likes of Apple requires deep-pocketed investors who will front costs that the nonprofit OpenAI still can't afford. SoftBank Group and Abu Dhabi-based AI holding company G42 have reportedly been in talks about raising money for Altman's project.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/01/19/2214221/openai-ceo-sam-altman-is-still-chasing-billions-to-build-ai-chips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T00:45:00.000Z",
+          "wordCount": 3896,
+          "title": "OpenAI Ceo Sam Altman Is Still Chasing Billions To Build AI Chips",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/19/2154233/researchers-claim-first-functioning-graphene-based-chip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from IEEE Spectrum: Researchers at Georgia Tech, in Atlanta, have developed what they are calling the world's first functioning graphene-based semiconductor. This breakthrough holds the promise to revolutionize the landscape of electronics, enabling faster traditional computers and offering a new material for future quantum computers. The research, published on January 3 in Nature and led by Walt de Heer, a professor of physics at Georgia Tech, focuses on leveraging epitaxial graphene, a crystal structure of carbon chemically bonded to silicon carbide (SiC). This novel semiconducting material, dubbed semiconducting epitaxial graphene (SEC) -- or alternatively, epigraphene -- boasts enhanced electron mobility compared with that of traditional silicon, all…",
+          "link": "https://hardware.slashdot.org/story/24/01/19/2154233/researchers-claim-first-functioning-graphene-based-chip?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T00:02:00.000Z",
+          "wordCount": 4283,
+          "title": "Researchers Claim First Functioning Graphene-Based Chip",
+          "imageUrl": "https://a.fsdn.com/sd/topics/hardware_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/19/2143222/us-to-ban-pentagon-from-buying-batteries-from-chinas-catl-byd?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "U.S. lawmakers have banned the Defense Department from buying batteries produced by China's biggest manufacturers. \"The rule implemented as part of the latest National Defense Authorization Act that passed on Dec. 22 will prevent procuring batteries from Contemporary Amperex Technology Co. Ltd., BYD Co. and four other Chinese companies beginning in October 2027,\" reports Bloomberg. From the report: The measure doesn't extend to commercial purchases by companies such as Ford, which is licensing technology from CATL to build electric-vehicle batteries in Michigan. Tesla also sources some of its battery cells from BYD, which became the new top-selling EV maker globally in the fourth quarter. The four other manufacturers whose batteries will be banned are Envision Energy Ltd., EVE Energy Co., Gotion High Tech Co. and Hithium Energy Storage Technology Co.\n \nThe decision still requires Pentagon officials to more clearly define the reach of the new rule. It adds to previous provisions outlined by the NDAA that decoupled the Defense Department's supply chain from China, including restrictions on use of Chinese semiconductors. While the Defense Department bans apply strictly to defense procurement, industries and lawmakers closely follow the rules as a guide for what materials, products and companies to trust in their own course of business.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/01/19/2143222/us-to-ban-pentagon-from-buying-batteries-from-chinas-catl-byd?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T23:20:00.000Z",
+          "wordCount": 4028,
+          "title": "US To Ban Pentagon From Buying Batteries From China's CATL, BYD",
+          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/24/01/19/2134259/plex-to-launch-a-store-for-movies-and-tv-shows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Jay Peters reports via The Verge: Plex, known for its media server software and as a place to watch ad-supported content, is going to launch a store for to buy and rent movies and TV shows in early February, executives told Lowpass' Janko Roettgers. \"Most studios\" are lined up for the store's launch, and there are \"plans to complete the catalog soon after,\" Roettgers says. The store will also integrate with Plex features like its watchlists for movies. Roettgers points out that that Plex has announced plans in both 2020 and 2023 to launch a movie / TV store -- hopefully Plex is truly ready to do so this time. Plex chief product officer Scott Olechowski told Roettgers that more changes are coming to Plex down the line, including a \"pretty major UX refresh\" and more social features like public profiles.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/24/01/19/2134259/plex-to-launch-a-store-for-movies-and-tv-shows?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T22:40:00.000Z",
+          "wordCount": 4959,
+          "title": "Plex To Launch a Store For Movies and TV Shows",
+          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/19/221252/japans-slim-probe-lands-on-moon-but-suffers-power-problem?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Geoffrey.landis writes: The Japan SLIM spacecraft has successfully landed on moon, but power problems mean it may be short mission. The good news is that the landing was successful, making Japan only the fifth nation to successfully make a lunar landing, and the ultra-miniature rover and the hopper both deployed. The bad news is that the solar arrays aren't producing power, and unless they can fix the problem in the next few hours, the batteries will be depleted and it will die. But, short mission or long, hurrah for Japan for being the fifth country to successfully land a mission on the surface of the moon (on their third try; two previous missions didn't make it). It's a rather amazing mission. I've never seen a spacecraft concept that lands under rocket power vertically but then rotates over to rest horizontally on the surface.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/01/19/221252/japans-slim-probe-lands-on-moon-but-suffers-power-problem?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T22:05:00.000Z",
+          "wordCount": 4584,
+          "title": "Japan's SLIM Probe Lands On Moon, But Suffers Power Problem",
+          "imageUrl": "https://a.fsdn.com/sd/topics/japan_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/19/0826227/why-every-coffee-shop-looks-the-same?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: These cafes had all adopted similar aesthetics and offered similar menus, but they hadn't been forced to do so by a corporate parent, the way a chain like Starbucks replicated itself. Instead, despite their vast geographical separation and total independence from each other, the cafes had all drifted toward the same end point. The sheer expanse of sameness was too shocking and new to be boring. Of course, there have been examples of such cultural globalisation going back as far as recorded civilisation. But the 21st-century generic cafes were remarkable in the specificity of their matching details, as well as the sense that each had emerged organically from its location. They were proud local efforts that were often described as \"authentic,\" an adjectiv…",
+          "link": "https://science.slashdot.org/story/24/01/19/0826227/why-every-coffee-shop-looks-the-same?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T21:20:00.000Z",
+          "wordCount": 7209,
+          "title": "Why Every Coffee Shop Looks the Same",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/19/1149214/30tb-hard-drives-are-nearly-here?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Seagate this week unveiled the industry's first hard disk drive platform that uses heat-assisted media recording (HAMR). Tom's Hardware: The new Mozaic 3+ platform relies on several all-new technologies, including new media, new write and read heads, and a brand-new controller. The platform will be used for Seagate's upcoming Exos hard drives for cloud datacenters with a 30TB capacity and higher. Heat-assisted magnetic recording is meant to radically increase areal recording density of magnetic media by making writes while the recording region is briefly heated to a point where its magnetic coercivity drops significantly. \n\nSeagate's Mozaic 3+ uses 10 glass disks with a magnetic layer consisting of an iron-platinum superlattice structure that ensures both longevity and smaller media grain size compared to typical HDD platters. To record the media, the platform uses a plasmonic writer sub-system with a vertically integrated nanophotonic laser that heats the media before writing. Because individual grains are so small with the new media, their individual magnetic signatures are lower, whereas magnetic inter-track interference (ITI) effect is somewhat higher. As a result, Seagate had to introduce its new Gen 7 Spintronic Reader, which features the \"world's smallest and most sensitive magnetic field reading sensors,\" according to the company. Because Seagate's new Mozaic 3+ platform deals with new media with a very small grain size, an all-new writer, and a reader that features multiple tiny magnetic field readers, it also requires a lot of compute horsepower to orchestrate the drive's work. Therefore, Seagate has equipped with Mozaic 3+ platform with an all-new controller made on a 12nm fabrication process.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/01/19/1149214/30tb-hard-drives-are-nearly-here?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T20:41:00.000Z",
+          "wordCount": 7633,
+          "title": "30TB Hard Drives Are Nearly Here",
+          "imageUrl": "https://a.fsdn.com/sd/topics/storage_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/19/0946251/huawei-makes-a-break-from-android-with-next-version-of-harmony-os?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "China's Huawei will not support Android apps on the latest iteration of its in-house Harmony operating system, domestic financial media Caixin reported, as the company looks to bolster its own software ecosystem. From a report: The company plans to roll out a developer version of its HarmonyOS Next platform in the second quarter of this year followed by a full commercial version in the fourth quarter, it said in a company statement highlighting the launch event for the platform in its home city of Shenzhen on Thursday. \n\nHuawei first unveiled its proprietary Harmony system in 2019 and prepared to launch it on some smartphones a year later after U.S. restrictions cut its access to Google's technical support for its Android mobile OS. However, earlier versions of Harmony allowed apps built for Android to be used on the system, which will no longer be possible, according to Caixin.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/19/0946251/huawei-makes-a-break-from-android-with-next-version-of-harmony-os?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T20:00:00.000Z",
+          "wordCount": 5017,
+          "title": "Huawei Makes a Break From Android With Next Version of Harmony OS",
+          "imageUrl": "https://a.fsdn.com/sd/topics/os_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/01/19/1055220/crime-rings-are-trafficking-in-an-unlikely-treasure-sand?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Organized crime is mining sand from rivers and coasts to feed demand worldwide, ruining ecosystems and communities. Can it be stopped? Scientific American reports: Very few people are looking closely at the illegal sand system or calling for changes, however, because sand is a mundane resource. Yet sand mining is the world's largest extraction industry because sand is a main ingredient in concrete, and the global construction industry has been soaring for decades. Every year the world uses up to 50 billion metric tons of sand, according to a United Nations Environment Program report. The only natural resource more widely consumed is water. A 2022 study by researchers at the University of Amsterdam concluded that we are dredging river sand at rates that far outstrip nature's ability to repl…",
+          "link": "https://yro.slashdot.org/story/24/01/19/1055220/crime-rings-are-trafficking-in-an-unlikely-treasure-sand?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T19:20:00.000Z",
+          "wordCount": 7136,
+          "title": "Crime Rings Are Trafficking in an Unlikely Treasure: Sand",
+          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/19/1029226/viasat-tries-to-stop-citizen-effort-to-revive-fcc-funding-for-starlink?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A resident in Virginia has urged the Federal Communications Commission to reconsider canceling $886 million in federal funding for SpaceX's Starlink system. But rival satellite company Viasat has gone out of its way to oppose the citizen-led petition.ÂPCMag: On Jan. 1, the FCC received a petition from the Virginia resident Greg Weisiger asking the commission to reconsider denying the $886 million to SpaceX. \"Petitioner is at an absolute loss to understand the Commission's logic with these denials,\" wrote Weisiger, who lives in Midlothian, Virginia. \"It is abundantly clear that Starlink has a robust, reliable, affordable service for rural and insular locations in all states and territories.\" \n\nThe petition arrived a few weeks after the FCC denied SpaceX's appeal to receive $886 million from the commission's Rural Digital Opportunity Fund, which is designed to subsidize 100Mbps to gigabit broadband across the US. SpaceX wanted to use the funds to expand Starlink access in rural areas. But the FCC ruled that \"Starlink is not reasonably capable of offering the required high-speed, low latency service throughout the areas where it won auction support.\"\nWeisiger disagrees. In his petition, he writes that the FCC's decision will deprive him of federal support to bring high-speed internet to his home. \"Thousands of other Virginia locations were similarly denied support,\" he added.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/19/1029226/viasat-tries-to-stop-citizen-effort-to-revive-fcc-funding-for-starlink?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T18:40:00.000Z",
+          "wordCount": 9745,
+          "title": "Viasat Tries To Stop Citizen Effort To Revive FCC Funding for Starlink",
+          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/19/1020225/microsoft-bringing-teams-meeting-reminders-to-windows-11-start-menu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft is getting ready to place Teams meeting reminders on the Start menu in Windows 11. From a report: The software giant has started testing a new build of Windows 11 with Dev Channel testers that includes a Teams meeting reminder in the recommended section of the Start menu. Microsoft is also testing an improved way to instantly access new photos and screenshots from Android devices. [...] The Teams meeting reminders will be displayed alongside the regular recently used and recommended file list on the Start menu, and they won't be displayed for non-business users of Windows 11.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/01/19/1020225/microsoft-bringing-teams-meeting-reminders-to-windows-11-start-menu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T18:01:00.000Z",
+          "wordCount": 7230,
+          "title": "Microsoft Bringing Teams Meeting Reminders To Windows 11 Start Menu",
+          "imageUrl": "https://a.fsdn.com/sd/topics/windows_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/01/19/1015248/game-developer-survey-50-work-at-a-studio-already-using-generative-ai-tools?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A new survey of thousands of game development professionals finds a near-majority saying generative AI tools are already in use at their workplace. But a significant minority of developers say their company has no interest in generative AI tools or has outright banned their use. From a report: The Game Developers Conference's 2024 State of the Industry report, released Thursday, aggregates the thoughts of over 3,000 industry professionals as of last October. While the annual survey (conducted in conjunction with research partner Omdia) has been running for 12 years, this is the first time respondents were asked directly about their use of generative AI tools such as ChatGPT, DALL-E, GitHub Copilot, and Adobe Generative Fill. \n\nForty-nine percent of the survey's developer respondents said that generative AI tools are currently being used in their workplace. That near-majority includes 31 percent (of all respondents) that say they use those tools themselves and 18 percent that say their colleagues do. The survey also found that different studio departments showed different levels of willingness to embrace AI tools. Forty-four percent of employees in business and finance said they were using AI tools, for instance, compared to just 16 percent in visual arts and 13 percent in \"narrative/writing.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/24/01/19/1015248/game-developer-survey-50-work-at-a-studio-already-using-generative-ai-tools?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T17:20:00.000Z",
+          "wordCount": 5111,
+          "title": "Game Developer Survey: 50% Work at a Studio Already Using Generative AI Tools",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/19/0954224/cop28-deal-will-fail-unless-rich-countries-quit-fossil-fuels-says-climate-negotiator?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The credibility of the Cop28 agreement to \"transition away\" from fossil fuels rides on the world's biggest historical polluters like the US, UK and Canada rethinking current plans to expand oil and gas production, according to the climate negotiator representing 135 developing countries. The Guardian: In an exclusive interview with the Guardian, Pedro Pedroso, the outgoing president of the G77 plus China bloc of developing countries, warned that the landmark deal made at last year's climate talks in Dubai risked failing. \"We achieved some important outcomes at Cop28 but the challenge now is how we translate the deal into meaningful action for the people,\" Pedroso said. \"As we speak, unless we lie to ourselves, none of the major developed countries, who are the most important historical emi…",
+          "link": "https://news.slashdot.org/story/24/01/19/0954224/cop28-deal-will-fail-unless-rich-countries-quit-fossil-fuels-says-climate-negotiator?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T16:40:00.000Z",
+          "wordCount": 13305,
+          "title": "Cop28 Deal Will Fail Unless Rich Countries Quit Fossil Fuels, Says Climate Negotiator",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/19/1137253/how-much-of-the-world-is-it-possible-to-model?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Dan Rockmore, the director of the Neukom Institute for Computational Sciences at Dartmouth College, writing for The New Yorker: Recently, statistical modelling has taken on a new kind of importance as the engine of artificial intelligence -- specifically in the form of the deep neural networks that power, among other things, large language models, such as OpenAI's G.P.T.s. These systems sift vast corpora of text to create a statistical model of written expression, realized as the likelihood of given words occurring in particular contexts. Rather than trying to encode a principled theory of how we produce writing, they are a vertiginous form of curve fitting; the largest models find the best ways to connect hundreds of thousands of simple mathematical neurons, using trillions of parameters.…",
+          "link": "https://tech.slashdot.org/story/24/01/19/1137253/how-much-of-the-world-is-it-possible-to-model?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T16:00:00.000Z",
+          "wordCount": 7511,
+          "title": "How Much of the World Is It Possible to Model?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/math_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/19/0857255/airbus-is-pulling-ahead-as-boeings-troubles-mount?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Airbus cemented its position last week as the world's biggest plane maker for the fifth straight year, announcing that it had delivered more aircraft and secured more orders than Boeing in 2023. At the same time, Boeing was trying to put out a huge public-relations and safety crisis caused by a harrowing near disaster involving its 737 Max line of airliners. In the long-running duel between the two aviation rivals, Airbus has pulled far ahead. The New York Times: \"What used to be a duopoly has become two-thirds Airbus, one-third Boeing,\" said Richard Aboulafia, the managing director of AeroDynamic Advisory in Washington, D.C. \"A lot of people, whether investors, financiers or customers, are looking at Airbus and seeing a company run by competent people,\" he said. \"The contrast with Boeing is fairly profound.\" \n\nThe incident involving the 737 Max 9, in which a hole blew open in the fuselage of an Alaska Airlines flight in midair, was the latest in a string of safety lapses in Boeing's workhorse aircraft -- including two fatal crashes in 2018 and 2019 -- that are indirectly helping propel the fortunes of the European aerospace giant. As the Federal Aviation Administration widens its scrutiny of Max 9 production, Airbus's edge is likely to sharpen. Airlines are embarking on massive expansions of their fleets to meet a postpandemic surge in the demand for global air travel, and are considering which company to turn to.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/01/19/0857255/airbus-is-pulling-ahead-as-boeings-troubles-mount?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-19T15:20:00.000Z",
+          "wordCount": 11986,
+          "title": "Airbus Is Pulling Ahead as Boeing's Troubles Mount",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
         {
           "id": "https://news.slashdot.org/story/24/01/18/2237255/google-to-invest-1-billion-in-uk-data-center?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4892,156 +4992,6 @@
           "wordCount": 5881,
           "title": "Samsung TV Plus Is Down Worldwide On Select Devices",
           "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/20/2311203/warner-bros-discovery-in-talks-to-merge-with-paramount-global?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to Axios, the CEO of Warner Bros. Discovery, David Zaslav, met with Paramount Global CEO Bob Bakish to discuss a possible merger. \"The combination would create a news and entertainment behemoth that would likely trigger further industry consolidation,\" reports Axios. From the report: Zaslav also has spoken to Shari Redstone, who owns Paramount's parent company, about a deal. WBD's market value was around $29 billion as of Wednesday, while Paramount's was just over $10 billion, so any merger would not be of equals. The meeting between Zaslav and Bakish, which sources say lasted several hours, took place at Paramount's headquarters in Times Square.\n \nThe duo discussed ways their companies could complement one another. For example, each company's main streaming service -- Paramount+ and Max -- could merge to better rival Netflix and Disney+. It's unclear whether WBD would buy Paramount Global or its parent company, National Amusements Inc. (NAI), but a source familiar with the situation says that both options are on the table. WBD is said to have hired bankers to explore the deal.\n \nThe deal could drive substantial synergies. WBD could use its international distribution footprint to boost Paramount's franchises, while Paramount's children's programing assets could be essential to WBD's long-term streaming ambitions. CBS News could be combined with CNN to create a global news powerhouse. CBS' crime dramas, such as \"NCIS\" and \"Criminal Minds,\" could be combined with Investigation Discovery and TruTV. CBS Sports' footprint could be combined with WBD's. For example, CBS and WBD's Turner Sports currently share TV rights for March Madness.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/20/2311203/warner-bros-discovery-in-talks-to-merge-with-paramount-global?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T00:45:00.000Z",
-          "wordCount": 3971,
-          "title": "Warner Bros. Discovery In Talks To Merge With Paramount Global",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/20/2147253/the-rise-and-fall-of-usenet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from ZDNet: Long before Facebook existed, or even before the Internet, there was Usenet. Usenet was the first social network. Now, with Google Groups abandoning Usenet, this oldest of all social networks is doomed to disappear. Some might say it's well past time. As Google declared, \"Over the last several years, legitimate activity in text-based Usenet groups has declined significantly because users have moved to more modern technologies and formats such as social media and web-based forums. Much of the content being disseminated via Usenet today is binary (non-text) file sharing, which Google Groups does not support, as well as spam.\" True, these days, Usenet's content is almost entirely spam, but in its day, Usenet was everything that Twitter and Reddi…",
-          "link": "https://tech.slashdot.org/story/23/12/20/2147253/the-rise-and-fall-of-usenet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T00:02:00.000Z",
-          "wordCount": 5518,
-          "title": "The Rise and Fall of Usenet",
-          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
-        },
-        {
-          "id": "https://ask.slashdot.org/story/23/12/20/2130244/ask-slashdot-what-are-some-methods-to-stop-digital-surveillance-in-schools?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Longtime Slashdot reader Kreuzfeld writes: Help please: here in Lawrence, Kansas, the public school district has recently started using Gaggle (source may be paywalled; alternative source), a system for monitoring all digital documents and communications created by students on school-provided devices. Unsurprisingly, the system inundates employees with false 'alerts' but the district nonetheless hails this pervasive, dystopic surveillance system as a great success. What useful advice can readers here offer regarding successful methods to get public officials to backtrack from a policy so corrosive to liberty, trust, and digital freedoms?\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://ask.slashdot.org/story/23/12/20/2130244/ask-slashdot-what-are-some-methods-to-stop-digital-surveillance-in-schools?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T23:20:00.000Z",
-          "wordCount": 5657,
-          "title": "Ask Slashdot: What Are Some Methods To Stop Digital Surveillance In Schools?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/12/20/2122206/microsoft-announces-more-xbox-leadership-changes-as-activisions-bobby-kotick-departs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Tom Warren and Ash Parrish report via The Verge: Activision Blizzard CEO Bobby Kotick is stepping down officially December 29th. Microsoft has not appointed a direct replacement and instead has rolled the suite of Activision Blizzard executives -- including Blizzard president Mike Ybarra, Activision publishing president Rob Kostich, and Activision Blizzard vice chair Thomas Tippl -- under Microsoft's game content and studios president Matt Booty. Kotick's departure comes just two months after some big Xbox leadership changes that saw Sarah Bond promoted to Xbox president, leading all Xbox platform and hardware work, and Matt Booty promoted to president of game content and studios, including overseeing Bethesda and ZeniMax studios. Now Booty is getting even more responsibilities with Bethes…",
-          "link": "https://games.slashdot.org/story/23/12/20/2122206/microsoft-announces-more-xbox-leadership-changes-as-activisions-bobby-kotick-departs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T22:40:00.000Z",
-          "wordCount": 4190,
-          "title": "Microsoft Announces More Xbox Leadership Changes As Activision's Bobby Kotick Departs",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/20/2116236/us-regulators-propose-new-online-privacy-safeguards-for-children?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from the New York Times: The Federal Trade Commission on Wednesday proposed sweeping changes to bolster the key federal rule that has protected children's privacy online, in one of the most significant attempts by the U.S. government to strengthen consumer privacy in more than a decade. The changes are intended to fortify the rules underlying the Children's Online Privacy Protection Act of 1998, a law that restricts the online tracking of youngsters by services like social media apps, video game platforms, toy retailers and digital advertising networks. Regulators said the moves would \"shift the burden\" of online safety from parents to apps and other digital services while curbing how platforms may use and monetize children's data.\n \nThe proposed changes…",
-          "link": "https://tech.slashdot.org/story/23/12/20/2116236/us-regulators-propose-new-online-privacy-safeguards-for-children?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T22:02:00.000Z",
-          "wordCount": 4795,
-          "title": "US Regulators Propose New Online Privacy Safeguards For Children",
-          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/20/2041217/new-york-city-council-member-elect-used-ai-to-answer-questions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Susan Zhuang, a Democrat who will soon represent the 43rd Council District in Brooklyn, New York, admitted to using AI when answering questions from a local news publication, according to a report by the New York Post. From a report: In a text message sent to the Post, Zhuang wrote that she uses \"AI as a tool to help foster deeper understanding\" because English is not her first language. The responses in question were included in an article from City & State, which asked local council member-elects to fill out a questionnaire about their personal interests and policies.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/20/2041217/new-york-city-council-member-elect-used-ai-to-answer-questions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T21:22:00.000Z",
-          "wordCount": 5240,
-          "title": "New York City Council Member-Elect Used AI To Answer Questions",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/12/20/2038203/sony-has-sold-50-million-ps5-consoles-over-three-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The PlayStation 5 has officially hit the 50 million sales milestone, Sony confirmed in a blog post. From a report: That's an impressive figure, considering the litany of supply chain issues that kept PS5s in limited supply after its November 2020 launch. And notably, the PS5 manage to reach 50 million sales just a week longer than it took the PlayStation 4, which wasn't bogged down by as many supply chain issues or a worldwide pandemic. Sony has also outsold the Xbox Series X and S by almost three to one this year, the Financial Times reports, based on data from Ampere Analysis.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/12/20/2038203/sony-has-sold-50-million-ps5-consoles-over-three-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T20:40:00.000Z",
-          "wordCount": 4190,
-          "title": "Sony Has Sold 50 Million PS5 Consoles Over Three Years",
-          "imageUrl": "https://a.fsdn.com/sd/topics/sony_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/20/200213/sirius-xm-is-sued-by-ny-over-frustrating-cancellation-process?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Sirius XM Radio was sued by New York state for making it difficult for customers to cancel subscriptions to the broadcaster's online radio services, in violation of state and federal consumer protection laws. From a report: A probe by the AG's office found that Sirius trains employees to keep customers seeking to cancel on the phone or in a chat for a \"frustrating\" six-part conversation that includes asking them a series of questions and pitching as many as five \"retention offers,\" New York Attorney General Letitia James said Wednesday in a statement.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/20/200213/sirius-xm-is-sued-by-ny-over-frustrating-cancellation-process?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T20:00:00.000Z",
-          "wordCount": 7607,
-          "title": "Sirius XM Is Sued by NY Over 'Frustrating' Cancellation Process",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/20/1348244/microsoft-copilot-gets-a-music-creation-feature-via-suno-integration?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft Copilot, Microsoft's AI-powered chatbot, can now compose songs thanks to an integration with GenAI music app Suno. From a report: Users can enter prompts into Copilot like \"Create a pop song about adventures with your family\" and have Suno, via a plug-in, bring their musical ideas to life. From a single sentence, Suno can generate complete songs -- including lyrics, instrumentals and singing voices. \n\nCopilot users can access the Suno integration by launching Microsoft Edge, visiting Copilot.Microsoft.com, logging in with their Microsoft account and enabling the Suno plug-in or clicking on the Suno logo that says \"Make music with Suno.\" [...] AI algorithms \"learn\" from existing music to produce similar effects, a fact with which not all artists -- or GenAI users -- are comfortable, especially in cases where artists don't consent to having an AI algorithm train on their music and didn't receive compensation for it.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/20/1348244/microsoft-copilot-gets-a-music-creation-feature-via-suno-integration?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T19:20:00.000Z",
-          "wordCount": 4739,
-          "title": "Microsoft Copilot Gets a Music Creation Feature via Suno Integration",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/20/1340241/accenture-chief-says-most-companies-not-ready-for-ai-rollout?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Most companies are not ready to deploy generative AI at scale because they lack strong data infrastructure or the controls needed to make sure the technology is used safely, according to the chief executive of the consultancy Accenture. From a report: The most hyped technology of 2023 is in an experimental phase at most companies and macroeconomic uncertainty is holding back IT spending generally, Julie Sweet told the Financial Times in an interview ahead of the company publishing quarterly results on Tuesday. Accenture reported another big jump in revenues from generative AI projects in the three months to November 30, with $450mn in bookings compared with $300mn over the previous six months. But they remain small relative to group sales of $64bn annually. \n\nCorporate executives are keen to deploy the technology to understand data across their organisation better or to automate more customer service, Sweet said. \"The thing that is going to hold it back, though, isâ...âmost companies do not have mature data capabilities and if you can't use your data, you can't use AI. That said, in three to five years we expect this to be a big part of our business.\" Accenture and other consulting groups have boasted of multibillion-dollar investments in generative AI, including hiring and training staff, in the hope of a windfall from deploying the technology to clients across the world. \n\nSweet said executives were being âoeprudentâ in rolling out the technology, amid concerns over how to protect proprietary information and customer data and questions about the accuracy of outputs from generative AI models. \"We are still at the stage where most CEOs, asked if there is someone in their organisation who can tell them where AI is being used, what the risks are and how they're being mitigated, the answer is still 'no.'\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/20/1340241/accenture-chief-says-most-companies-not-ready-for-ai-rollout?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T18:40:00.000Z",
-          "wordCount": 5711,
-          "title": "Accenture Chief Says Most Companies Not Ready for AI Rollout",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/20/1331237/new-regulations-will-turn-california-wastewater-to-drinking-water?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The future of water may be changing in California. The state Water Resources Control Board has signed off on regulations to turn more recycled wastewater from our homes into drinking water. From a report: The regulations were approved unanimously by the board on Tuesday and now give the go-ahead for local water agencies to plan to turn wastewater into water we can drink through a process called Direct Potable Reuse. Darrin Polhemus, the division of drinking water director with the State Water Resources Control Board, said this approval was a very big step for California. \"It really will be the highest quality water delivered in the state when it's done,\" Polhemus said. \n\nCalifornia's new rules would let, but not require, local water agencies to take wastewater from toilets or showers, treat it, and then put it right back into the drinking water system. \"Direct potable reuse is just a really critical strategy for our state to have as we move to this new hydrology that we have, and as everyone has already said, increasing our resilience and reducing our reliance on imported water,\" said Laurel Firestone, board member for the State Water Resources Control Board.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/20/1331237/new-regulations-will-turn-california-wastewater-to-drinking-water?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T18:00:00.000Z",
-          "wordCount": 11041,
-          "title": "New Regulations Will Turn California Wastewater To Drinking Water",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/20/1322233/uk-officials-caught-napping-ahead-of-2g-and-3g-doomsday?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A worrying number of UK authorities are still unaware of the impending switch-off of 2G and 3G mobile networks, according to Local Government Association (LGA) figures. From a report: While 38 percent of respondents were fully aware, 27 percent were only partially aware, and 7 percent had no idea at all that the axe would be falling by 2033 at the latest. The numbers worsened when the researchers spoke to respondents in senior management. Almost half (48 percent) were \"partially aware\" the UK's 2G and 3G mobile networks were due to be switched off and 14 percent were not at all aware. \n\nThe actual switch-off will happen over the next few years. UK mobile operators have told government they do not intend to offer 2G and 3G mobile networks past 2033 at the latest, and there is a high likelihood that some networks will be shut down earlier. The UK government said it welcomes plans to end services ahead of time. Vodafone, for example, intends to pull the plug on 3G once and for all from January 2024. Although most consumers, with their 4G and 5G devices, will likely be unaware of the end when it comes, the same cannot be said of local authorities. According to the survey, almost two-thirds of respondents (63 percent) reported that their authority was still using devices or services reliant on 2G and 3G networks.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/20/1322233/uk-officials-caught-napping-ahead-of-2g-and-3g-doomsday?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T17:20:00.000Z",
-          "wordCount": 8218,
-          "title": "UK Officials Caught Napping Ahead of 2G and 3G Doomsday",
-          "imageUrl": "https://a.fsdn.com/sd/topics/uk_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/20/1318210/largest-dataset-powering-ai-images-removed-after-discovery-of-child-sexual-abuse-material?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "samleecole writes: The LAION-5B machine learning dataset used by Google, Stable Diffusion, and other major AI products has been removed by the organization that created it after a Stanford study found that it contained 3,226 suspected instances of child sexual abuse material, 1,008 of which were externally validated. \n\nLAION told 404 Media on Tuesday that out of \"an abundance of caution,\" it was taking down its datasets temporarily \"to ensure they are safe before republishing them.\" According to a new study by the Stanford Internet Observatory shared with 404 Media ahead of publication, the researchers found the suspected instances of CSAM through a combination of perceptual and cryptographic hash-based detection and analysis of the images themselves.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/20/1318210/largest-dataset-powering-ai-images-removed-after-discovery-of-child-sexual-abuse-material?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T16:40:00.000Z",
-          "wordCount": 8312,
-          "title": "Largest Dataset Powering AI Images Removed After Discovery of Child Sexual Abuse Material",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/20/1315237/eu-targets-pornhub-xvideos-stripchat-under-new-content-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The European Union on Wednesday added three adult content companies - Pornhub, Stripchat and XVideos - to its list of firms subject to stringent regulations under new online content rules. From a report: The new rules, known as the Digital Services Act (DSA), require companies to conduct risk management, undergo external and independent auditing, and share data with authorities and researchers. In April, the EU designated five Alphabet subsidiaries, two Meta Platforms units, two Microsoft businesses, X and Alibaba's AliExpress among 19 companies under the rules. Such designated companies will have to do more to tackle disinformation, give more protection and choice to users and ensure stronger protection for children or risk fines of as much as 6% of their global turnover. \"Pornhub, Stripchat and XVideos meet the user thresholds to fall under stricter #DSA obligations,\" the bloc's industry chief Thierry Breton said. \"Creating a safer online environment for our children is an enforcement priority under the DSA.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/20/1315237/eu-targets-pornhub-xvideos-stripchat-under-new-content-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T16:00:00.000Z",
-          "wordCount": 9950,
-          "title": "EU Targets Pornhub, XVideos, Stripchat Under New Content Rules",
-          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/20/1226217/electric-scooter-rental-pioneer-bird-files-for-bankruptcy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Bird Global, the company that pioneered on-street electric scooter rentals, has filed for Chapter 11 bankruptcy protection [Editor's note: the link is paywalled; alternative source] in Florida, five years after becoming the fastest start-up ever to reach a so-called \"unicorn\" valuation above $1bn. From a report: In September, the New York Stock Exchange suspended trading in Bird, which went public via a blank-cheque company in 2021, after its market capitalisation fell below a $15mn threshold. \"We are making progress towards profitability and aim to accelerate that progress by right-sizing our capital structure through this restructuring,\" Bird interim chief executive Michael Washinushi said on Wednesday. \n\nBird said it would operate as normal during the restructuring process and that its lenders had entered into a \"stalking horse\" sale agreement. The company aims to complete a sale process within 120 days. Its European and Canadian businesses are not part of the bankruptcy filing. Founded by former Uber and Lyft executive Travis VanderZanden in Los Angeles in 2017, Bird spawned dozens of copycat companies around the world. But e-scooter rentals have struggled to reach consistent profitability, amid regulatory strictures, safety concerns, and high capital and operating costs.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/20/1226217/electric-scooter-rental-pioneer-bird-files-for-bankruptcy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-20T14:40:00.000Z",
-          "wordCount": 6883,
-          "title": "Electric Scooter Rental Pioneer Bird Files for Bankruptcy",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
         }
       ]
     }
