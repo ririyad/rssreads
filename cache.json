@@ -264,16 +264,6 @@
           "wordCount": 1293,
           "title": "Commit to competence in this coming year",
           "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
-        },
-        {
-          "id": "https://world.hey.com/dhh/challenging-the-guardians-of-the-paradigm-90665252",
-          "author": null,
-          "description": "I swear the intention isn’t to constantly start fights with guardians of every sacred paradigm in the tech world. To be honest, it’s been a bit exhausting at times to concurrently argue on at least three major flanks. But that’s just how this year has turned out, given the work we’ve been pursuing.\nWhether it’s telling people that you can save a lot of money by leaving the cloud, or that SaaS software might just have seen the peak, or that #nobuild is a viable path on the front-end, or any of the myriad of other minor technical heresies we’ve committed this year, it’s all come from believing the underlying thesis and living the conclusions!\nAnd I think that’s part of what at times create such a flammable discourse. If you’ve staked your identity on a certain view of reality, say, The Cloud…",
-          "link": "https://world.hey.com/dhh/challenging-the-guardians-of-the-paradigm-90665252",
-          "publishedOn": "2023-12-21T15:03:48.000Z",
-          "wordCount": 585,
-          "title": "Challenging the guardians of the paradigm",
-          "imageUrl": "https://world.hey.com/dhh/avatar-df6405b0f7fafda980fd38b04c334bec936aef69"
         }
       ]
     },
@@ -419,16 +409,6 @@
           "publishedOn": "2024-01-03T00:00:00.000Z",
           "wordCount": 4383,
           "title": "This Development-cycle in Cargo: 1.76",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2023/12/22/trait-system-refactor-initiative.html",
-          "author": null,
-          "description": "It has been nearly half a year since our last update. We are reimplementing the trait solver of rustc with the goal of completely replacing the existing systems. This should allow us to fix some long-standing bugs, enable future type system improvements, and reduce compile times. See the previous update for a more detailed introduction. We have continued to make big progress on the new solver, mostly focusing on getting the solver ready for use in coherence. We changed the unstable compiler flag to enable the new solver: you can now use -Znext-solver=globally to enable it everywhere and -Znext-solver=coherence to enable the new solver only for coherence checking.\nThe reimplementation of the trait solver is now ready for use in coherence checking, which is responsible for preventing overlap…",
-          "link": "https://blog.rust-lang.org/inside-rust/2023/12/22/trait-system-refactor-initiative.html",
-          "publishedOn": "2023-12-22T00:00:00.000Z",
-          "wordCount": 882,
-          "title": "Rustc Trait System Refactor Initiative Update: A call for testing",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -685,16 +665,6 @@
           "wordCount": 102,
           "title": "Does Betteridge's Law apply to this headline?",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/tear-duct-enhancement",
-          "author": null,
-          "description": "Cry TWICE as hard.",
-          "link": "https://taylor.town/tear-duct-enhancement",
-          "publishedOn": "2023-12-22T00:00:00.000Z",
-          "wordCount": 92,
-          "title": "Tear Duct Enhancement Surgery",
-          "imageUrl": null
         }
       ]
     },
@@ -703,6 +673,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://science.slashdot.org/story/24/01/20/2248217/ultra-large-structure-discovered-in-distant-space-challenges-cosmological-principle?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"The discovery of a second ultra-large structure in the remote universe has further challenged some of the basic assumptions about cosmology,\" writes SciTechDaily:\n\n\nThe Big Ring on the Sky is 9.2 billion light-years from Earth. It has a diameter of about 1.3 billion light-years, and a circumference of about four billion light-years. If we could step outside and see it directly, the diameter of the Big Ring would need about 15 full Moons to cover it. \n\nIt is the second ultra-large structure discovered by University of Central Lancashire (UCLan) PhD student Alexia Lopez who, two years ago, also discovered the Giant Arc on the Sky. Remarkably, the Big Ring and the Giant Arc, which is 3.3 billion light-years across, are in the same cosmological neighborhood — they are seen at the same distanc…",
+          "link": "https://science.slashdot.org/story/24/01/20/2248217/ultra-large-structure-discovered-in-distant-space-challenges-cosmological-principle?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T23:34:00.000Z",
+          "wordCount": 4717,
+          "title": "Ultra-Large Structure Discovered In Distant Space Challenges Cosmological Principle",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/24/01/20/2018235/npm-users-download-21b-deprecated-packages-weekly-say-security-researchers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "The cybersecurity site SC Media reports that NPM registry users \"download deprecated packages an estimated 2.1 billion times weekly, according to a statistical analysis of the top 50,000 most-downloaded packages in the registry.\"\n\nDeprecated, archived and \"orphaned\" NPM packages can contain unpatched and/or unreported vulnerabilities that pose a risk to the projects that depend on them, warned the researchers from Aqua Security's Team Nautilus, who published their findings in a blog post on Sunday... In conjunction with their research, Aqua Nautilus has released an open-source tool that can help developers identify deprecated dependencies in their projects. \n\nOpen-source software may stop receiving updates for a variety of reasons, and it is up to developers/maintainers to communicate this…",
+          "link": "https://developers.slashdot.org/story/24/01/20/2018235/npm-users-download-21b-deprecated-packages-weekly-say-security-researchers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T22:34:00.000Z",
+          "wordCount": 4886,
+          "title": "NPM Users Download 2.1B Deprecated Packages Weekly, Say Security Researchers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/programming_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/01/20/1835216/billy-mitchell-and-twin-galaxies-settle-lawsuits-on-donkey-kong-world-records?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"What happens when a loser who needs to win faces a winner who refuses to lose?\" \nThat was the tagline for the iconic 2007 documentary The King of Kong: A Fistful of Quarters, chronicling a middle-school teacher's attempts to take the Donkey Kong record from reigning world champion Billy Mitchell. \"Billy Mitchell always has a plan,\" says Billy Mitchell in the movie (who is also shown answering his phone, \"World Record Headquarters. Can I help you?\") By 1985, 30-year-old Mitchell was already listed in the \"Guinness Book of World Records\" for having the world's highest scores for Pac-Man, Ms. Pac-Man, Donkey Kong, Donkey Kong, Jr., Centipede, and Burger Time. \n\nBut then, NME reports...\nIn 2018, a number of Mitchell's Donkey Kong high-scores were called into question by a fellow gamer, who su…",
+          "link": "https://games.slashdot.org/story/24/01/20/1835216/billy-mitchell-and-twin-galaxies-settle-lawsuits-on-donkey-kong-world-records?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T21:34:00.000Z",
+          "wordCount": 6717,
+          "title": "Billy Mitchell and Twin Galaxies Settle Lawsuits On Donkey Kong World Records",
+          "imageUrl": "https://a.fsdn.com/sd/topics/classicgames_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/20/1828258/billy-mitchell-and-twin-galaxies-settle-lawsuits-on-donkey-kong-world-records?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"What happens when a loser who needs to win faces a winner who refuses to lose?\" \nThat was the tagline for the iconic 2007 documentary The King of Kong: A Fistful of Quarters, chronicling a middle-school teacher's attempts to take the Donkey Kong record from reigning world champion Billy Mitchell. \"Billy Mitchell always has a plan,\" says Billy Mitchell in the movie (who is also shown answering his phone, \"World Record Headquarters. Can I help you?\") By 1985, 30-year-old Mitchell was already listed in the \"Guinness Book of World Records\" for having the world's highest scores for Pac-Man, Ms. Pac-Man, Donkey Kong, Donkey Kong, Jr., Centipede, and Burger Time. \n\nBut then, NME reports...\nIn 2018, a number of Mitchell's Donkey Kong high-scores were called into question by a fellow gamer, who su…",
+          "link": "https://slashdot.org/story/24/01/20/1828258/billy-mitchell-and-twin-galaxies-settle-lawsuits-on-donkey-kong-world-records?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T21:34:00.000Z",
+          "wordCount": null,
+          "title": "Billy Mitchell and Twin Galaxies Settle Lawsuits On Donkey Kong World Records",
+          "imageUrl": null
+        },
+        {
+          "id": "https://developers.slashdot.org/story/24/01/20/0716232/rust-written-linux-scheduler-continues-showing-promising-results-for-gaming?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"A Canonical engineer has been experimenting with implementing a Linux scheduler within the Rust programming language...\" Phoronix reported Monday, \"that works via sched_ext for implementing a scheduler using eBPF that can be loaded during run-time.\" \n\nThe project was started \"just for fun\" over Christmas, according to a post on X by Canonical-based Linux kernel engineer Andrea Righi, adding \"I'm pretty shocked to see that it doesn't just work, but it can even outperform the default Linux scheduler (EEVDF) with certain workloads (i.e., gaming).\" Phoronix notes the a YouTube video accompanying the tweet shows \"a game with the scx_rustland scheduler outperforming the default Linux kernel scheduler while running a parallel kernel build in the background.\" \n\n\"For sure the build takes longer,\" Righi acknowledged in a later post. \"This scheduler doesn't magically makes everything run faster, it simply prioritizes more the interactive workloads vs CPU-intensive background jobs.\" Righi followed up by adding \"And the whole point of this demo was to prove that, despite the overhead of running a scheduler in user-space, we can still achieve interesting performance, while having the advantages of being in user-space (ease of experimentation/testing, reboot-less updates, etc.)\" \n\nWednesday Righi added some improvements, posting that \"Only 19 lines of code (comments included) for ~2x performance improvement on SMT isn't bad... and I spent my lunch break playing Counter Strike 2 to test this patch...\" \n\nAnd work seems to be continuing, judging by a fresh post from Righi on Thursday. \"I fixed virtme-ng to run inside Docker and used it to create a github CI workflow for sched-ext that clones the latest kernel, builds it and runs multiple VMs to test all the scx schedulers. And it does that in only ~20min. I'm pretty happy about virtme-ng now.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://developers.slashdot.org/story/24/01/20/0716232/rust-written-linux-scheduler-continues-showing-promising-results-for-gaming?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T20:34:00.000Z",
+          "wordCount": 5453,
+          "title": "Rust-Written Linux Scheduler Continues Showing Promising Results For Gaming",
+          "imageUrl": "https://a.fsdn.com/sd/topics/programming_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/20/0647205/revolutionary-lego-like-photonic-chip-paves-way-for-semiconductor-breakthroughs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"Researchers at the University of Sydney Nano Institute have developed a small silicon semiconductor chip that combines electronic and photonic (light-based) elements,\" reports SciTechDaily. \n\n\"This innovation greatly enhances radio-frequency (RF) bandwidth and the ability to accurately control information flowing through the unit.\"\n\nExpanded bandwidth means more information can flow through the chip and the inclusion of photonics allows for advanced filter controls, creating a versatile new semiconductor device. Researchers expect the chip will have applications in advanced radar, satellite systems, wireless networks, and the roll-out of 6G and 7G telecommunications and also open the door to advanced sovereign manufacturing. It could also assist in the creation of high-tech value-add fact…",
+          "link": "https://hardware.slashdot.org/story/24/01/20/0647205/revolutionary-lego-like-photonic-chip-paves-way-for-semiconductor-breakthroughs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T19:34:00.000Z",
+          "wordCount": 4198,
+          "title": "Revolutionary 'LEGO-Like' Photonic Chip Paves Way For Semiconductor Breakthroughs",
+          "imageUrl": "https://a.fsdn.com/sd/topics/australia_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/20/0517205/for-truckers-driving-evs-theres-no-going-back?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "The Washington Post looks at \"a small but growing group of commercial medium-to-heavy-duty truck drivers who use electric trucks.\" \n\n\"These drivers — many of whom operate local or regional routes that don't require hundreds of miles on the road in a day — generally welcome the transition to electric, praising their new trucks' handling, acceleration, smoothness and quiet operation.\n\"Everyone who has had an EV has no aspirations to go back to diesel at this point,\" said Khari Burton, who drives an electric Volvo VNR in the Los Angeles area for transport company IMC. \"We talk about it and it's all positivity. I really enjoy the smoothness ... and just the quietness as well.\" Mike Roeth, the executive director of the North American Council for Freight Efficiency, said many drivers have report…",
+          "link": "https://hardware.slashdot.org/story/24/01/20/0517205/for-truckers-driving-evs-theres-no-going-back?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T18:34:00.000Z",
+          "wordCount": 11152,
+          "title": "'For Truckers Driving EVs, There's No Going Back'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/19/2252225/james-webb-telescope-detects-earliest-known-black-hole?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "The Hubble Space Telescope's discovery of GN-z11 in 2016 marked it as the most distant galaxy known at that time, notable for its unexpected luminosity despite its ancient formation just 400 million years after the Big Bang. Now, in a paper published in Nature, astrophysicist Roberto Maiolino proposes that this brightness could be due to a supermassive black hole, challenging current understanding of early black hole formation and growth. NPR reports: This wasn't just any black hole. First -- assuming that the black hole started out small -- it could be devouring matter at a ferocious rate. And it would have needed to do so to reach its massive size. \"This black hole is essentially eating the [equivalent of] an entire Sun every five years,\" says Maiolino. \"It's actually much higher than we…",
+          "link": "https://science.slashdot.org/story/24/01/19/2252225/james-webb-telescope-detects-earliest-known-black-hole?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T17:34:00.000Z",
+          "wordCount": 4471,
+          "title": "James Webb Telescope Detects Earliest Known Black Hole",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/01/20/0613202/ceph-a-journey-to-1-tibs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "It's \"a free and open-source, software-defined storage platform,\" according to Wikipedia, providing object storage, block storage, and file storage \"built on a common distributed cluster foundation\".\n\nThe charter advisory board for Ceph included people from Canonical, CERN, Cisco, Fujitsu, Intel, Red Hat, SanDisk, and SUSE. \n\nAnd Nite_Hawk (Slashdot reader #1,304) is one of its core engineers — a former Red Hat principal software engineer named Mark Nelson. (He's now leading R&D for a small cloud systems company called Clyso that provides Ceph consulting.) And he's returned to Slashdot to share a blog post describing \"a journey to 1 TiB/s\". This gnarly tale-from-Production starts while assisting Clyso with \"a fairly hip and cutting edge company that wanted to transition their HDD-backed Ce…",
+          "link": "https://tech.slashdot.org/story/24/01/20/0613202/ceph-a-journey-to-1-tibs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T16:34:00.000Z",
+          "wordCount": 5319,
+          "title": "Ceph: a Journey To 1 TiB/s",
+          "imageUrl": "https://a.fsdn.com/sd/topics/networking_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/01/20/041234/sp-500-index-sets-record-high-thanks-to-ai-driven-frenzy-and-tech-stocks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "The S&P 500 index tracks 500 of the largest companies listed on U.S. stock exchanges, according to Wikipedia. \n\nAnd Friday that index \"hit an all-time closing high,\" reports the Washington Post, \"reflecting the staggering gains of a coterie of Big Tech firms against the backdrop of a surprisingly stable economy.\"\n\nThe broad-based index closed at 4,839.81 — up more than 1 percent for the day — surpassing the previous closing record set in January of 2022. The stock market surged upward in the final quarter of 2023 as evidence gathered that the [U.S.] economy has not tipped into recession territory, despite the Federal Reserve's campaign to raise interest rates. At the same time analysts point to an AI-driven frenzy on Wall Street that rivals the dot-com boom of the late '90s, when investors…",
+          "link": "https://news.slashdot.org/story/24/01/20/041234/sp-500-index-sets-record-high-thanks-to-ai-driven-frenzy-and-tech-stocks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T15:34:00.000Z",
+          "wordCount": 6976,
+          "title": "S&amp;P 500 Index Sets Record High, Thanks to 'AI-Driven Frenzy' and Tech Stocks",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/19/233250/can-an-ai-become-its-own-ceo-after-creating-a-startup-google-deepmind-co-founder-thinks-so?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Inc. Magazine: Google's DeepMind division has long led the way on all sorts of AI breakthroughs, grabbing headlines in 2016, when one of its systems beat a world champion at the strategy game Go, then seen as an unlikely feat. So when one of DeepMind's co-founders makes a pronouncement about the future of AI, it's worth listening, especially if you're a startup entrepreneur. AI might be coming for your job! Mustafa Suleyman, co-founder of DeepMind and now CEO of Inflection AI -- a small, California-based machine intelligence company -- recently suggested this possibility could be reality in a half-decade or so.\n \nAt the World Economic Forum meeting at Davos this week, Suleyman said he thinks AI tech will soon reach the point where it could dream up …",
+          "link": "https://slashdot.org/story/24/01/19/233250/can-an-ai-become-its-own-ceo-after-creating-a-startup-google-deepmind-co-founder-thinks-so?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T13:00:00.000Z",
+          "wordCount": 9471,
+          "title": "Can an AI Become Its Own CEO After Creating a Startup? Google DeepMind Co-Founder Thinks So",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/01/20/0634227/spacexs-dragon-capsule-carries-four-private-astronauts-to-the-iss-for-axiom-space?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"It's the third all-private astronaut mission to the International Space Station,\" writes NASA — and they're expected to start boarding within the next hour! \n\nWatch it all on the official stream of NASA TV. \n\nMore details from Ars Technica:\n\nThe four-man team lifted off from NASA's Kennedy Space Center in Florida aboard a SpaceX Falcon 9 rocket Thursday, kicking off a 36-hour pursuit of the orbiting research laboratory. Docking is scheduled for Saturday morning. This two-week mission is managed by Houston-based Axiom Space, which is conducting private astronaut missions to the ISS as a stepping stone toward building a fully commercial space station in low-Earth orbit by the end of this decade. \nAxiom's third mission, called Ax-3, launched at 4:49 pm EST (21:49 UTC) Thursday. The four astr…",
+          "link": "https://slashdot.org/story/24/01/20/0634227/spacexs-dragon-capsule-carries-four-private-astronauts-to-the-iss-for-axiom-space?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T10:00:00.000Z",
+          "wordCount": 5309,
+          "title": "SpaceX's 'Dragon' Capsule Carries Four Private Astronauts to the ISS for Axiom Space",
+          "imageUrl": "https://a.fsdn.com/sd/topics/iss_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/01/19/2246210/water-ice-buried-at-mars-equator-is-over-2-miles-thick?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Keith Cooper reports via Space.com: A European Space Agency (ESA) probe has found enough water to cover Mars in an ocean between 4.9 and 8.9 feet (1.5 and 2.7 meters) deep, buried in the form of dusty ice beneath the planet's equator. The finding was made by ESA's Mars Express mission, a veteran spacecraft that has been engaged in science operations around Mars for 20 years now. While it's not the first time that evidence for ice has been found near the Red Planet's equator, this new discovery is by far the largest amount of water ice detected there so far and appears to match previous discoveries of frozen water on Mars.\n \n\"Excitingly, the radar signals match what we expect to see from layered ice and are similar to the signals we see from Mars' polar caps, which we know to be very ice rich,\" said lead researcher Thomas Watters of the Smithsonian Institution in the United States in an ESA statement. The deposits are thick, extended 3.7km (2.3) miles underground, and topped by a crust of hardened ash and dry dust hundreds of meters thick. The ice is not a pure block but is heavily contaminated by dust. While its presence near the equator is a location more easily accessible to future crewed missions, being buried so deep means that accessing the water-ice would be difficult.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/01/19/2246210/water-ice-buried-at-mars-equator-is-over-2-miles-thick?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T07:00:00.000Z",
+          "wordCount": 6168,
+          "title": "Water Ice Buried At Mars' Equator Is Over 2 Miles Thick",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mars_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/01/19/2126219/us-government-opens-22-million-acres-of-federal-lands-to-solar?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Electrek: The Biden administration has updated the roadmap for solar development to 22 million acres of federal lands in the US West. The Bureau of Land Management (BLM) and the Department of Energy's National Renewable Energy Laboratory have determined that 700,000 acres of federal lands will be needed for solar farms over the next 20 years, so BLM recommended 22 million acres to give \"maximum flexibility\" to help the US reach its net zero by 2035 power sector goal. The plan is an update of the Bureau of Land Management's 2012 Western Solar Plan, which originally identified areas for solar development in six states -- Arizona, California, Colorado, Nevada, New Mexico, and Utah.\n \nThe updated roadmap refines the analysis in the original six states and expands to five more states -- Idaho, Montana, Oregon, Washington, and Wyoming. It also focuses on lands within 10 miles of existing or planned transmission lines and moves away from lands with sensitive resources. [...] BLM under the Biden administration has approved 47 clean energy projects and permitted 11,236 megawatts (MW) of wind, solar, and geothermal energy on public lands, enough to power more than 3.5 million homes. Ben Norris, vice president of regulatory affairs at the Solar Energy Industries Association (SEIA), said in response to BLM's announced Western Solar Plan updates: \"The proposal ... identifies 200,000 acres of land near transmission infrastructure, helping to correct an important oversight and streamline solar development. Under the current policy, there are at least 80 million acres of federal lands open to oil and gas development, which is 100 times the amount of public land available for solar. BLM's proposal is a big step in the right direction and recognizes the key role solar plays in our energy economy.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/01/19/2126219/us-government-opens-22-million-acres-of-federal-lands-to-solar?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T03:30:00.000Z",
+          "wordCount": 9977,
+          "title": "US Government Opens 22 Million Acres of Federal Lands To Solar",
+          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/01/19/2236244/microsoft-executive-emails-hacked-by-russian-intelligence-group-company-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "In a regulatory filing today, Microsoft said that a Russian intelligence group hacked into some of the company's top executives' email accounts. CNBC reports: Nobelium, the same group that breached government supplier SolarWinds\n in 2020, carried out the attack, which Microsoft detected last week, according to the company. The announcement comes after new U.S. requirements for disclosing cybersecurity incidents went into effect. A Microsoft spokesperson said that while the company does not believe the attack had a material impact, it still wanted to honor the spirit of the rules.\n \nIn late November, the group accessed \"a legacy non-production test tenant account,\" Microsoft's Security Response Center wrote in the blog post. After gaining access, the group \"then used the account's permissio…",
+          "link": "https://it.slashdot.org/story/24/01/19/2236244/microsoft-executive-emails-hacked-by-russian-intelligence-group-company-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-01-20T02:02:00.000Z",
+          "wordCount": 5658,
+          "title": "Microsoft Executive Emails Hacked By Russian Intelligence Group, Company Says",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
         {
           "id": "https://hardware.slashdot.org/story/24/01/19/2214221/openai-ceo-sam-altman-is-still-chasing-billions-to-build-ai-chips?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4832,166 +4952,6 @@
           "wordCount": 5133,
           "title": "PlayStation Will Not Delete Discovery TV Shows After All",
           "imageUrl": "https://a.fsdn.com/sd/topics/playstation_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/22/0730239/google-might-already-be-replacing-some-ad-sales-jobs-with-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: A report at The Information says that AI might already be taking people's jobs at Google. The report cites people briefed on the plans and says Google intends to \"consolidate staff, including through possible layoffs, by reassigning employees at its large customer sales unit who oversee relationships with major advertisers.\" According to the report, the jobs are being vacated because Google's new AI tools have automated them. The report says a future restructuring was apparently already announced at a department-wide Google Ads meeting last week.\n \nGoogle announced a \"new era of AI-powered ads\" in May, featuring a \"natural-language conversational experience within Google Ads, designed to jump-start campaign creation and simplify Search…",
-          "link": "https://tech.slashdot.org/story/23/12/22/0730239/google-might-already-be-replacing-some-ad-sales-jobs-with-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-22T13:00:00.000Z",
-          "wordCount": 5791,
-          "title": "Google Might Already Be Replacing Some Ad Sales Jobs With AI",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/21/2320213/ryzen-vs-meteor-lake-amds-ai-often-wins-even-on-intels-hand-picked-tests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Velcroman1 writes: Intel's new generation of \"Meteor Lake\" mobile CPUs herald a new age of \"AI PCs,\" computers that can handle inference workloads such as generating images or transcribing audio without an Internet connection. Officially named \"Intel Core Ultra\" processors, the chips are the first to feature an NPU (neural processing unit) that's purpose-built to handle AI tasks. But there are few ways to actually test this feature at present: software will need to be rewritten to specifically direct operations at the NPU. \nIntel has steered testers toward its Open Visual Inference and Neural Network Optimization (OpenVINO) AI toolkit. With those benchmarks, Tom's Hardware tested the new Intel chips against AMD -- and surprisingly, AMD chips often came out on top, even on these hand-selected benchmarks. Clearly, optimization will take some time!\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/21/2320213/ryzen-vs-meteor-lake-amds-ai-often-wins-even-on-intels-hand-picked-tests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-22T00:45:00.000Z",
-          "wordCount": 3904,
-          "title": "Ryzen vs. Meteor Lake: AMD's AI Often Wins, Even On Intel's Hand-Picked Tests",
-          "imageUrl": "https://a.fsdn.com/sd/topics/amd_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/21/2228202/women-in-it-are-on-a-283-year-march-to-parity-bcs-warns?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from The Register: It will take 283 years for female representation in IT to make up an equal share of the tech workforce in the UK, according to a report from the British Computer Society, the chartered institute for IT (BCS). BCS has calculated that based on trends from 2005 to 2022, it would take nearly three centuries for the representation of women in the IT workforce -- currently 20 percent -- to reach the average representation across the whole UK workforce, currently at 48 percent. BCS's annual Diversity Report also found that progress towards the gender norm was stalling in IT jobs. Between 2018 and 2021, the proportion of women tech workers rose from 16 percent to 20 percent. But there was no change in 2022, according to BCS analysis of data from the Office for National Statistics.\n \nJulia Adamson, BCS managing director for education and public benefit, said in a statement: \"More women and girls need the opportunity to take up great careers in a tech industry that's shaping the world. A massive pool of talent and creativity is being overlooked when it could benefit employers and the economy. There has to be a radical rethink of how we get more women and girls into tech careers, and a more inclusive tech culture is ethically and morally the right thing to do. Having greater diversity means that what is produced is more relevant to, and representative of, society at large. This is crucial when it comes to, for instance, the use of AI in medicine or finance. The fact that 94 percent of girls and 79 percent of boys drop computing at age 14 is a huge alarm bell we must not ignore; the subject should have a broader digital curriculum that is relevant to all young people.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/21/2228202/women-in-it-are-on-a-283-year-march-to-parity-bcs-warns?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-22T00:02:00.000Z",
-          "wordCount": 5575,
-          "title": "Women In IT Are On a 283-Year March To Parity, BCS Warns",
-          "imageUrl": "https://a.fsdn.com/sd/topics/uk_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/21/2214238/teen-gta-vi-hacker-sentenced-to-indefinite-hospital-order?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Emma Roth reports via The Verge: The 18-year-old Lapsus$ hacker who played a critical role in leaking Grand Theft Auto VI footage has been sentenced to life inside a hospital prison, according to a report from the BBC. A British judge ruled on Thursday that Arion Kurtaj is a high risk to the public because he still wants to commit cybercrimes.\n \nIn August, a London jury found that Kurtaj carried out cyberattacks against GTA VI developer Rockstar Games and other companies, including Uber and Nvidia. However, since Kurtaj has autism and was deemed unfit to stand trial, the jury was asked to determine whether he committed the acts in question, not whether he did so with criminal intent. During Thursday's hearing, the court heard Kurtaj \"had been violent while in custody with dozens of reports of injury or property damage,\" the BBC reports. A mental health assessment also found that Kurtaj \"continued to express the intent to return to cybercrime as soon as possible.\" He's required to stay in the hospital prison for life unless doctors determine that he's no longer a danger.\n \nKurtaj leaked 90 videos of GTA VI gameplay footage last September while out on bail for hacking Nvidia and British telecom provider BT / EE. Although he stayed at a hotel under police protection during this time, Kurtaj still managed to carry out an attack on Rockstar Games by using the room's included Amazon Fire Stick and a \"newly purchased smart phone, keyboard and mouse,\" according to a separate BBC report. Kurtaj was arrested for the final time following the incident. Another 17-year-old involved with Lapsus$ was handed an 18-month community sentence, called a Youth Rehabilitation Order, and a ban from using virtual private networks.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/12/21/2214238/teen-gta-vi-hacker-sentenced-to-indefinite-hospital-order?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T23:20:00.000Z",
-          "wordCount": 5501,
-          "title": "Teen GTA VI Hacker Sentenced To Indefinite Hospital Order",
-          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/23/12/21/2222209/8-year-old-chess-prodigy-wins-title-at-european-championships?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Eight-year-old Bodhana Sivanandan from London has been crowned best female chess player at the European blitz championships, scoring 8.5/13 at the event and drawing with a grandmaster in a result described as \"unbelievable.\" The BBC reports: The chess prodigy, who began playing aged five, said she was \"proud\" of her performance over the weekend. The tournament was held at the blitz time control -- a quick form of chess where players have just minutes on their clocks for their moves. Bodhana's opponents included grandmasters - the highest title given to the world's strongest players -- international masters and experts.\n \n\"I always try my best to win, sometimes it happens and sometimes it doesn't,\" Bodhana told BBC Radio 4's Today program. \"I was very proud of myself when I got top girl in the European blitz.\" Asked if she gets nervous, she replied: \"No, I just play the board.\"\n \nBritish International Master and commentator Lawrence Trent described Bodhana as \"one of the greatest talents I've witnessed in recent memory.\" \"The maturity of her play, her sublime touch, it's truly breath taking,\" he wrote on X. \"I have no doubt she will be England's greatest player and most likely one of the greatest the game has ever seen,\" Mr Trent added. Bodhana will next compete at the International Chess Congress in Hastings, one of the world's longest running tournaments, on December 28.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/23/12/21/2222209/8-year-old-chess-prodigy-wins-title-at-european-championships?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T23:00:00.000Z",
-          "wordCount": 4035,
-          "title": "8-Year-Old Chess Prodigy Wins Title At European Championships",
-          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/23/12/21/226254/massachusetts-lawmakers-mull-killer-robot-bill?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TechCrunch, written by Brian Heater: Back in mid-September, a pair of Massachusetts lawmakers introduced a bill \"to ensure the responsible use of advanced robotic technologies.\" What that means in the simplest and most direct terms is legislation that would bar the manufacture, sale and use of weaponized robots. It's an interesting proposal for a number of reasons. The first is a general lack of U.S. state and national laws governing such growing concerns. It's one of those things that has felt like science fiction to such a degree that many lawmakers had no interest in pursuing it in a pragmatic manner. [...] Earlier this week, I spoke about the bill with Massachusetts state representative Lindsay Sabadosa, who filed it alongside Massachusetts stat…",
-          "link": "https://hardware.slashdot.org/story/23/12/21/226254/massachusetts-lawmakers-mull-killer-robot-bill?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T22:40:00.000Z",
-          "wordCount": 4755,
-          "title": "Massachusetts Lawmakers Mull 'Killer Robot' Bill",
-          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/21/1927235/arxiv-now-offers-papers-in-html-format?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "arXiv blog: arXiv's goal is equitable access to scientific research for all -- and to achieve this, we have been working to make research papers more accessible for arXiv users with disabilities. We are happy to announce that as of Monday, December 18th, arXiv is now generating an HTML formatted version of all papers submitted in TeX/LaTeX (as long as papers were submitted on or after December 1st, 2023 and HTML conversion is successful). \n\nHTML is not replacing PDF but will be an additional format available for arXiv users. Submitters will be invited to preview the HTML version of their papers during submission time, the same way they have always done with PDF. When accessing a paper's abstract page, readers will see a link to view the HTML paper right under the PDF link. The request to offer arXiv-hosted papers in HTML format comes directly from scientists with disabilities who face barriers to accessing the research they need. HTML formatted papers are more easily and accurately read by screen readers and other technologies, which can assist researchers with reading disabilities, including blindness, low vision, dyslexia, and more.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/21/1927235/arxiv-now-offers-papers-in-html-format?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T22:00:00.000Z",
-          "wordCount": 3893,
-          "title": "arXiv Now Offers Papers in HTML Format",
-          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/23/12/21/197230/uk-police-to-be-able-to-run-face-recognition-searches-on-50-million-driving-licence-holders?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The police will be able to run facial recognition searches on a database containing images of Britain's 50 million driving licence holders under a law change being quietly introduced by the government. From a report: Should the police wish to put a name to an image collected on CCTV, or shared on social media, the legislation would provide them with the powers to search driving licence records for a match. The move, contained in a single clause in a new criminal justice bill, could put every driver in the country in a permanent police lineup, according to privacy campaigners. \n\nFacial recognition searches match the biometric measurements of an identified photograph, such as that contained on driving licences, to those of an image picked up elsewhere. The intention to allow the police or the National Crime Agency (NCA) to exploit the UK's driving licence records is not explicitly referenced in the bill or in its explanatory notes, raising criticism from leading academics that the government is \"sneaking it under the radar.\" Once the criminal justice bill is enacted, the home secretary, James Cleverly, must establish \"driver information regulations\" to enable the searches, but he will need only to consult police bodies, according to the bill.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/23/12/21/197230/uk-police-to-be-able-to-run-face-recognition-searches-on-50-million-driving-licence-holders?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T21:20:00.000Z",
-          "wordCount": 4865,
-          "title": "UK Police To Be Able To Run Face Recognition Searches on 50 Million Driving Licence Holders",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/21/1915223/why-the-us-is-pumping-more-oil-than-any-country-in-history?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The politics of solving climate change may, paradoxically, require producing more fossil fuels for a while. Roge Karma, writing for The Atlantic: By boosting domestic oil supply, the Biden administration seems to be contributing to the very problem it claims to want to solve. The reality is more complicated. \"Pushing for reductions in U.S. oil production is like squeezing a balloon -- the production will 'pop out' somewhere else,\" writes Samantha Gross, an energy-and-climate expert at the Brookings Institution. The world's energy needs are growing rapidly, which means oil companies are going to supply it regardless of what the White House does. If the U.S. were to cut back tomorrow, prices would rise. In the short term, this would lead to less consumption and lower emissions. But those high prices would only entice producers in other countries to step in, as many did in the months after Russia's invasion. \n\nFor that reason, reductions in U.S. oil production could actually result in higher overall emissions. The U.S. has one of the least emissions-intensive oil industries on the planet. Shifting production to countries with looser standards would likely be worse for the climate. But the deeper explanation for the Biden administration's actions has to do with the politics of climate change. Put simply, pursuing a decarbonization agenda requires Biden to maintain political support, and there is no surer way to lose political support than by presiding over high gas prices. Biden's approval rating has tracked gas prices for most of his presidency (although he hasn't yet benefited from recent improvements), and the drop in prices in the months leading up to the 2022 midterms may have contributed to Democrats' unexpectedly strong performance in those elections. Plus, when the price of energy goes up, the price of everything else tends to rise as well, sparking further inflation.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/21/1915223/why-the-us-is-pumping-more-oil-than-any-country-in-history?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T20:40:00.000Z",
-          "wordCount": 11744,
-          "title": "Why the US Is Pumping More Oil Than Any Country in History",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/21/1924206/hyperloop-one-to-shut-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Hyperloop One, the futuristic transportation company building tube-encased lines to zip passengers and freight from city to city at airplane-like speeds, is shutting down, Bloomberg News reported Thursday, citing people familiar with the situation. From the report: Once a high-profile startup, Hyperloop One raised more than $450 million since its founding in 2014, according to PitchBook. It built a small test track near Las Vegas to develop its transportation technology, and for a time took the name Virgin Hyperloop One after Richard Branson's Virgin invested. Virgin removed its branding after the startup decided last year to focus on cargo rather than people. \n\nNow, the company has laid off most of its employees, and is trying to sell its remaining assets, including the test track and machinery, according to one of the people, who asked to remain anonymous discussing private information. In early 2022, the company employed more than 200 people. The business has also closed its Los Angeles office. The remaining workers, tasked with overseeing the asset sale, were told their employment will end on Dec. 31. DP World, the Dubai-based conglomerate, has backed Hyperloop One since 2016 and owns a majority stake. The startup's remaining intellectual property will be transferred to DP World, a person familiar with the situation said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/21/1924206/hyperloop-one-to-shut-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T19:23:00.000Z",
-          "wordCount": 11690,
-          "title": "Hyperloop One To Shut Down",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/21/1847229/beeper-says-its-done-trying-to-bring-imessage-to-android?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Beeper is giving up on its mission to bring iMessage to Android after implementing a series of fixes that Apple has knocked down one by one over the past month. From a report: Although the company has issued a complex workaround, it says it has no plans to roll out another one if this one is knocked down by Apple. \"Each time that Beeper Mini goes 'down' or is made to be unreliable due to interference by Apple, Beeper's credibility takes a hit,\" the company wrote in a blog post. \"It's unsustainable. As much as we want to fight for what we believe is a fantastic product that really should exist, the truth is that we can't win a cat-and-mouse game with the largest company on earth. With our latest software release, we believe we've created something that Apple can tolerate existing. We do not have any current plans to respond if this solution is knocked offline\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/21/1847229/beeper-says-its-done-trying-to-bring-imessage-to-android?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T18:47:00.000Z",
-          "wordCount": 7806,
-          "title": "Beeper Says It's Done Trying To Bring iMessage To Android",
-          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/23/12/21/1839250/worldcoin-no-longer-offering-orb-verification-in-india-brazil-and-france?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Worldcoin is no longer offering its Orb-verification service in India, Brazil and France, just months after the crypto startup expanded the helmet-shaped eyeball-scanning device to those markets. From a report: Tools for Humanity, the foundation that oversees development of Worldcoin, exclusively told TechCrunch in a statement that it had expanded the Orb to many markets this year for a \"limited time access.\" The sudden retreat, however, comes as a surprise. Worldcoin had opened pop-up kiosks in many parts of India to onboard new users to the platform and drove crowds as people lined up to sign up and collect the free tokens.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/23/12/21/1839250/worldcoin-no-longer-offering-orb-verification-in-india-brazil-and-france?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T18:40:00.000Z",
-          "wordCount": 3951,
-          "title": "Worldcoin No Longer Offering Orb-verification in India, Brazil and France",
-          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/23/12/21/1739221/midjourney-v6-is-here-with-in-image-text-and-completely-overhauled-prompting?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Midjourney version 6, the latest and greatest iteration of the popular image generation AI model from the research collective of the same name founded by David Holz, dropped last night as an alpha release. From a report: Among those new features are drastically improved and more realistic, highly detailed images, and the ability to have the model generate legible text within images, something that had eluded Midjourney since its release in 2022 even as other rival AI image generators such as OpenAI's DALL-E 3 and Ideogram had launched this type of feature. \"This model can generate much more realistic imagery than anything we've released before,\" wrote Holz in a message posted in the Midjourney Discord server, which has over 17 million members. Holz said V6 was actually the \"third model trained from scratch on our AI superclusters\" and took nine months to develop.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/23/12/21/1739221/midjourney-v6-is-here-with-in-image-text-and-completely-overhauled-prompting?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T18:01:00.000Z",
-          "wordCount": 4088,
-          "title": "Midjourney V6 is Here With In-image Text and Completely Overhauled Prompting",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/23/12/21/1726236/pakistan-uses-artificial-rain-in-attempt-to-cut-pollution-levels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Artificial rain has been used in an attempt to lower pollution levels in Lahore, Pakistan. From a report: The capital city of the eastern province of Punjab, near the Indian border, has some of the worst air quality in the world and has become extremely polluted because of a growing population of more than 13 million people. By early December, the air quality in the city had grown so bad that schools, markets and parks were closed for four days. By last weekend, the city's air quality index (AQI) had reached levels considered extremely hazardous to health. \n\nTo try to reduce them, on Saturday the Punjab government used cloud seeding to create rain in 10 locations around the city using a small Cessna plane. To create the clouds, there needs to be enough moisture already present in the clouds in the lower atmosphere. In summer, common table salt mixed with water is sprayed over the cloud patches from planes. After a few hours, the mist integrates with the clouds and produces rain. In winter, the clouds are seeded using flakes of silver iodide, which can be fired from a vehicle or a plane. The practice, also known as \"blueskying,\" has been used to induce precipitation in several countries in the Middle East, as well as China and India.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/23/12/21/1726236/pakistan-uses-artificial-rain-in-attempt-to-cut-pollution-levels?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T17:26:00.000Z",
-          "wordCount": 5707,
-          "title": "Pakistan Uses Artificial Rain in Attempt To Cut Pollution Levels",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/23/12/21/1539241/beepers-ceo-wants-to-sue-apple-for-blocking-its-imessage-bridge-hack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: Eric Migicovsky insists his Beeper Mini will continue despite Apple's best efforts to prevent it bringing iMessage blue speech bubbles to Android. Beeper Mini is, or is continually trying to be, a way to get iMessage without buying an iPhone -- although users might have to get access to a Mac. Since the start of December 2023, Beeper has launched a service to do this, then Apple blocked it, then Beeper tried another way. \n\nAccording to The Information, this cycle is going to continue, too, as Beeper CEO Eric Migicovsky maintains that his company will persist -- and could take legal action, too. \"We're investigating legal ramifications for Apple, definitely,\" said Migicovsky. \"Around antitrust, around competition, around how they've made the experience worse for iPhone users with this change. They've degraded the performance of iMessage for iPhone users,\" he continued, \"all in search of crushing a competitor.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/23/12/21/1539241/beepers-ceo-wants-to-sue-apple-for-blocking-its-imessage-bridge-hack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T16:40:00.000Z",
-          "wordCount": 9869,
-          "title": "Beeper's CEO Wants To Sue Apple for Blocking Its iMessage Bridge Hack",
-          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/23/12/21/1531240/samsung-tv-plus-is-down-worldwide-on-select-devices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "New submitter ekimminau writes: On the morning of December 20, 2023, thousands of users turned on their Samsung TV to find that the Samsung TV Plus application was missing. Available for free on 2016-2023 Samsung Smart TVs, Galaxy devices, Smart Monitors, Family Hub refrigerators, and the web, for many it is their primary method of TV viewing. The masses began flocking to the Samsung community forums asking ... what was going on. \n\nFrom Cord Cutters: At this time, Samsung has not posted any updates about the outage. Customer service has been telling customers they are aware of the outage and are working on fixing it. This news comes as Samsung recently added seven local FOX news channels for community stories, sports updates, weather forecasts and more. The new markets are Austin, Detroit, Milwaukee, Orlando, Phoenix, Seattle and Tampa Bay. Right now, this outage seems to only be affecting the app on Smart TVs as the website is still working letting anyone stream Samsung TV Plus for free streaming online through the website.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/23/12/21/1531240/samsung-tv-plus-is-down-worldwide-on-select-devices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2023-12-21T16:00:00.000Z",
-          "wordCount": 5881,
-          "title": "Samsung TV Plus Is Down Worldwide On Select Devices",
-          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
         }
       ]
     }
