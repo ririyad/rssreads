@@ -2,10 +2,310 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-01-26T01:01:36.683Z</updated>
+    <updated>2024-01-27T00:59:53.002Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Apple's Large Language Model Shows Up in New iOS Code]]></title>
+        <id>https://apple.slashdot.org/story/24/01/26/2344206/apples-large-language-model-shows-up-in-new-ios-code?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/24/01/26/2344206/apples-large-language-model-shows-up-in-new-ios-code?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-27T00:32:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: Apple is widely expected to unveil major new artificial intelligence features with iOS 18 in June. Code found by 9to5Mac in the first beta of iOS 17.4 shows that Apple is continuing to work on a new version of Siri powered by large language model technology, with a little help from other sources. In fact, Apple appears to be using OpenAI's ChatGPT API for internal testing to help the development of its own AI models. According to this code, iOS 17.4 includes a new SiriSummarization private framework that makes calls to the OpenAI's ChatGPT API. This appears to be something Apple is using for internal testing of its new AI features. There are multiple examples of system prompts for the SiriSummarization framework in iOS 17.4 as well. This includes things like "please summarize," "please answer this questions," and "please summarize the given text." 
+
+Apple is unlikely to use OpenAI models to power any of its artificial intelligence features in iOS 18. Instead, what it's doing here is testing its own AI models against ChatGPT. For example, the SiriSummarization framework can do summarization using on-device models. Apple appears to be using its own AI models to power this framework, then internally comparing its results against the results of ChatGPT. In total, iOS 17.4 code suggests Apple is testing four different AI models. This includes Apple's internal model called "Ajax," which Bloomberg has previously reported. iOS 17.4 shows that there are two versions of AjaxGPT, including one that is processed on-device and one that is not.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mozilla Says Apple's New Browser Rules Are 'as Painful as Possible' for Firefox]]></title>
+        <id>https://tech.slashdot.org/story/24/01/26/2331210/mozilla-says-apples-new-browser-rules-are-as-painful-as-possible-for-firefox?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/01/26/2331210/mozilla-says-apples-new-browser-rules-are-as-painful-as-possible-for-firefox?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T23:31:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple's new rules in the European Union mean browsers like Firefox can finally use their own engines on iOS. Although this may seem like a welcome change, Mozilla spokesperson Damiano DeMonte tells The Verge it's "extremely disappointed" with the way things turned out. From a report: "We are still reviewing the technical details but are extremely disappointed with Apple's proposed plan to restrict the newly-announced BrowserEngineKit to EU-specific apps," DeMonte says. "The effect of this would be to force an independent browser like Firefox to build and maintain two separate browser implementations -- a burden Apple themselves will not have to bear." In iOS 17.4, Apple will no longer force browsers in the EU to use WebKit, the underlying engine that powers Safari. The change opens the door for other popular engines, such as Blink, which is used by Google Chrome and Microsoft Edge, as well as Gecko, the engine used by Firefox. It also means third-party browsers could become fully functional on iOS without any of the limitations that come along with WebKit.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[California Lawmakers Push for Watermarks on AI-Made Photo, Video]]></title>
+        <id>https://news.slashdot.org/story/24/01/26/1915254/california-lawmakers-push-for-watermarks-on-ai-made-photo-video?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/01/26/1915254/california-lawmakers-push-for-watermarks-on-ai-made-photo-video?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[California lawmakers are drawing up multiple plans to require watermarks on content created by AI to curb the abuses within the emerging technology, which has affected sectors from political races to the stock market. From a report: At least five lawmakers have promised or are considering different proposals that would require AI companies to implement some type of verification that a video, photo, or written work was made by the technology. The activity comes as advanced AI has rapidly evolved to create realistic images or audio on an unprecedented level. Advocates worry the technology could be ripe for abuse and lead to a wider proliferation of deepfakes, where a person's likeness is digitally manipulated to typically misrepresent them -- with it already being used in the presidential race. But such measures are likely to face scrutiny by the tech sector. 
+
+Amid a pivotal election year and an online world full of disinformation, the ability to know what's real or not is crucial, said Drew Liebert, director of the California Initiative for Technology and Democracy. The harm from AI is already happening, with Liebert noting the aftermath of an AI-generated photo that went viral in May of last year that falsely portrayed another terrorist attack in the US. "The famous photograph now that was put on the internet that alleged that the Pentagon was attacked, that actually caused momentarily a [$500 billion] dollar loss in the stock market," he said. The loss would not as been as severe, he said, "if people would have been able to instantly determine that it was not a real image at all." Ask Slashdot:Could a Form of Watermarking Prevent AI Deep Faking?
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Aviation Sector Sees No Fast Tech Solution To GPS Interference Problem]]></title>
+        <id>https://tech.slashdot.org/story/24/01/26/199220/aviation-sector-sees-no-fast-tech-solution-to-gps-interference-problem?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/01/26/199220/aviation-sector-sees-no-fast-tech-solution-to-gps-interference-problem?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T20:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Global regulators, aviation security specialists and manufacturers failed to reach an agreement on a quick technical fix to the problem of GPS spoofing near war zones, instead calling for better training of pilots to deal with the issue, Reuters reports, citing sources briefed on the talks. From the report: Airlines have been urging quick action after a series of incidents where navigation systems were disrupted to show a false location or wrong time, though aircraft flight controls remained intact. Spoofing might involve one country's military sending false Global Positioning System signals to an enemy plane or drone to hinder its ability to function, which has a collateral effect on nearby airliners. 
+
+GPS jamming and spoofing have grown worse in Eastern Europe, the Black Sea and the Middle East, according to industry group OpsGroup. GPS is a growing part of aviation infrastructure as it replaces traditional radio beams used to guide planes towards landing. The first international meeting bringing together the sector was held on Thursday in Cologne, Germany, organized by the European Union Aviation Safety Agency (EASA) and international trade group the International Air Transport Association (IATA). GPS interference "can pose significant challenges to aviation safety," and requires that airlines increase data-sharing on jamming and spoofing events, EASA and IATA said in a joint statement.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Energy Secretary Says Anti-EV Sentiment is 'Political Nonsense']]></title>
+        <id>https://news.slashdot.org/story/24/01/26/1859238/us-energy-secretary-says-anti-ev-sentiment-is-political-nonsense?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/01/26/1859238/us-energy-secretary-says-anti-ev-sentiment-is-political-nonsense?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T19:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: Energy Secretary Jennifer Granholm can relate to Americans' anxiety over electric vehicles. The former governor of Michigan and longtime EV owner (who currently drives a Ford Mach-E) says she has experienced her own challenges with public charging on road trips. She has heard from drivers who are reluctant to give up their eight-cylinder engines and large trucks and SUVs for an electric model. But she is convinced that more Americans will soon realize the benefits of owning one, helping to change the current anti-EV rhetoric in this country.
+
+[...] "All of those factories that I was talking about regarding building electric vehicles and electric vehicle batteries, 60% of them are going into red states. So, you know, people in red states love their EVs, too, and are working at these factories," Granholm said. "I just think that over time, the political nonsense about it will die down and people's experience will speak much more loudly."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Faces 'Strong Action' If App Store Changes Fall Short, EU's Breton Says]]></title>
+        <id>https://apple.slashdot.org/story/24/01/26/1714204/apple-faces-strong-action-if-app-store-changes-fall-short-eus-breton-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/24/01/26/1714204/apple-faces-strong-action-if-app-store-changes-fall-short-eus-breton-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple faces strong action if changes to its App Store do not meet incoming European Union regulations, the bloc's industry chief said on Friday. Reuters: In a move designed to comply with the EU's incoming Digital Markets Act (DMA), the company will soon allow software developers to distribute their apps to Apple devices via alternative stores. From early March, developers will be able to offer alternative app stores on iPhones and opt out of using Apple's in-app payment system, which charges commissions of up to 30%. 
+
+However, critics have said the changes do not go far enough, arguing Apple's fee structure remains unfair, and that the changes may be in violation of the DMA. Asked about Apple's plans, EU industry chief Thierry Breton exclusively told Reuters: "The DMA will open the gates of the internet to competition so that digital markets are fair and open. Change is already happening. As from 7 March we will assess companies' proposals, with the feedback of third parties." He added: "If the proposed solutions are not good enough, we will not hesitate to take strong action."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux App Store Flathub Now Has Over One Million Active Flatpak App Users]]></title>
+        <id>https://linux.slashdot.org/story/24/01/26/1657210/linux-app-store-flathub-now-has-over-one-million-active-flatpak-app-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://linux.slashdot.org/story/24/01/26/1657210/linux-app-store-flathub-now-has-over-one-million-active-flatpak-app-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[prisoninmate shares a 9to5linux report: Flathub is currently one of the most popular app stores for Linux serving 1.6 billion downloads of over 2,400 apps in the Flatpak format, of which more than 850 apps have been verified by their original authors. And now, Flathub proudly announced today that it surpassed 1 million active users of Flatpak apps. The team believes that the recent growth in users comes from several factors, including the availability of some very popular apps (e.g. Firefox, Thunderbird, VLC, Spotify, OBS Studio, Google Chrome, Telegram), support for new and verified apps, the inclusion of Flathub as the default app source for the Steam Deck's desktop mode, as well as the growing adoption among many popular GNU/Linux distributions like Fedora Linux, Linux Mint, KDE neon, and others.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[We need a Right To Compute]]></title>
+        <id>https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df</id>
+        <link href="https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df"/>
+        <updated>2024-01-26T16:40:08.000Z</updated>
+        <summary type="html"><![CDATA[The App Store dispute can be boiled down to one big question: Is the iPhone a computer or not? If it’s a computer, we ought to have the right to compute. Like consumers have won the right to repair. If it’s a computer, it ought to be yours, and you ought to have the right to install whatever software you should so choose.
+If it’s not a computer, then what is it? A gaming console? An appliance? A toy? There’s a spectrum in those definitions where consumers perhaps wouldn’t expect the right to install software of their own choosing, even if there’s a “computer” somewhere inside it. And I suspect it’s that mental model that animates the Apple Stans on this issue. They want to escape from the freedom of owning a computer.
+But I think most people, when it comes down to it, believe that their sm…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Astronomers Discover Giant Ancient Stars in Milky Way]]></title>
+        <id>https://science.slashdot.org/story/24/01/26/169253/astronomers-discover-giant-ancient-stars-in-milky-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/01/26/169253/astronomers-discover-giant-ancient-stars-in-milky-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T16:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Astronomers have discovered a mysterious group of giant elderly stars at the heart of the Milky Way that are emitting solar system-sized clouds of dust and gas. The stars, which have been named "old smokers," sat quietly for many years, fading almost to invisibility, before suddenly puffing out vast clouds of smoke. The discovery was made during the monitoring of almost a billion stars in infrared light during a 10-year survey of the night sky. The Guardian: The astronomers had set out to capture rarely seen newborn stars -- known as protostars -- while undergoing the equivalent of a stellar growth spurt. During these periods, young stars rapidly acquire mass by gorging on surrounding star-forming gas, leading to a sudden increase in luminosity. The team tracked hundreds of millions of stars and identified 32 erupting protostars that increased in brightness at least 40-fold and in some cases more than 300-fold. 
+
+Another group of red giant stars near the centre of the Milky Way unexpectedly showed up in the analysis, however. When they were studied in more detail using the European Southern Observatory's Very Large Telescope, seven of the stars were deemed to be a new type of red giant star, which the researchers named "old smokers." Convection currents and instabilities within the star could trigger the release of enormous columns of smoke, Prof Philip Lucas of the University of Hertfordshire, who led the observations, suggested.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nintendo Plans To Launch Next Switch This Year With LCD, Omdia Says]]></title>
+        <id>https://games.slashdot.org/story/24/01/26/1428258/nintendo-plans-to-launch-next-switch-this-year-with-lcd-omdia-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/24/01/26/1428258/nintendo-plans-to-launch-next-switch-this-year-with-lcd-omdia-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T15:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Nintendo plans to launch a new 8-inch LCD-equipped Switch game console this year, well-regarded analyst firm Omdia said Friday [unpaywalled-link]. Bloomberg: The new device from the Kyoto-based games maker will be responsible for a doubling in shipments of so-called amusement displays in 2024, Hayase said in Tokyo on Friday. His research focuses on small and medium displays and he bases annual forecasts on checks with companies in the supply chain. Nintendo's seven-year-old Switch has sold over 132 million units and is approaching the end of its life cycle. The company has been tight-lipped about any potential successor, but expectations have narrowed to this year's holiday period for the release of the next generation.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shameless Insult, Malicious Compliance, Junk Fees, Extortion Regime: Industry Reacts To Apple's Proposed Changes Over Digital Markets Act]]></title>
+        <id>https://apple.slashdot.org/story/24/01/26/140245/shameless-insult-malicious-compliance-junk-fees-extortion-regime-industry-reacts-to-apples-proposed-changes-over-digital-markets-act?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/24/01/26/140245/shameless-insult-malicious-compliance-junk-fees-extortion-regime-industry-reacts-to-apples-proposed-changes-over-digital-markets-act?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T14:01:00.000Z</updated>
+        <summary type="html"><![CDATA[In response to new EU regulations, Apple on Thursday outlined plans to allow iOS developers to distribute apps outside the App Store starting in March, though developers must still submit apps for Apple's review and pay commissions. Now critics say the changes don't go far enough and Apple retains too much control. 
+
+Epic Games CEO Tim Sweeney: They are forcing developers to choose between App Store exclusivity and the store terms, which will be illegal under DMA (Digital Markets Act), or accept a new also-illegal anticompetitive scheme rife with new Junk Fees on downloads and new Apple taxes on payments they don't process. 37signals's David Heinemeier Hansson, who is also the creator of Ruby on Rails: Let's start with the extortion regime that'll befell any large developer who might be te…]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NSA Buys Americans' Internet Data Without Warrants, Letter Says]]></title>
+        <id>https://news.slashdot.org/story/24/01/26/0630255/nsa-buys-americans-internet-data-without-warrants-letter-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/01/26/0630255/nsa-buys-americans-internet-data-without-warrants-letter-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The National Security Agency buys certain logs related to Americans' domestic internet activities from commercial data brokers, according to an unclassified letter by the agency. The New York Times: The letter [PDF], addressed to a Democratic senator and obtained by The New York Times, offered few details about the nature of the data other than to stress that it did not include the content of internet communications. Still, the revelation is the latest disclosure to bring to the fore a legal gray zone: Intelligence and law enforcement agencies sometimes purchase potentially sensitive and revealing domestic data from brokers that would require a court order to acquire directly. 
+
+It comes as the Federal Trade Commission has started cracking down on companies that trade in personal location data that was gathered from smartphone apps and sold without people's knowledge and consent about where it would end up and for what purpose it would be used. In a letter to the director of national intelligence dated Thursday, the senator, Ron Wyden, Democrat of Oregon, argued that "internet metadata" -- logs showing when two computers have communicated, but not the content of any message -- "can be equally sensitive" as the location data the F.T.C. is targeting. He urged intelligence agencies to stop buying internet data about Americans if it was not collected under the standard the F.T.C. has laid out for location records. "The U.S. government should not be funding and legitimizing a shady industry whose flagrant violations of Americans' privacy are not just unethical, but illegal," Mr. Wyden wrote.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[George Carlin Estate Sues Creators Of AI-Generated Comedy Special]]></title>
+        <id>https://slashdot.org/story/24/01/26/0623203/george-carlin-estate-sues-creators-of-ai-generated-comedy-special?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/01/26/0623203/george-carlin-estate-sues-creators-of-ai-generated-comedy-special?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T10:01:00.000Z</updated>
+        <summary type="html"><![CDATA[George Carlin's estate is suing over the release of a comedy special that uses generative AI to mimic the deceased comedian's voice and style of humor. From a report: The lawsuit, filed in California federal court on Thursday, accuses the creators of the special of utilizing without consent or compensation George Carlin's entire body of work consisting of five decades of comedy routines to train an AI chatbot, which wrote the episode's script. It also takes issue with using his voice and likeness for promotional purposes. The complaint seeks a court order for immediate removal of the special, as well as unspecified damages. It's among the first legal actions taken by the estate of a deceased celebrity for unlicensed use of their work and likeness to manufacture a new, AI-generated creation and was filed as Hollywood is sounding the alarm over utilization of AI to impersonate people without consent or compensation.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA's Ingenuity Mission Is Over]]></title>
+        <id>https://science.slashdot.org/story/24/01/26/0532222/nasas-ingenuity-mission-is-over?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/01/26/0532222/nasas-ingenuity-mission-is-over?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T07:01:00.000Z</updated>
+        <summary type="html"><![CDATA[cusco writes: After three years and 72 flights of its 5-flight mission the mission of the Ingenuity helicopter on Mars is finally over. Images show that Ingenuity suffered damage to one of its rotor blades and will not be able to take off again. NASA's press release, also shared by cusco: Ingenuity landed on Mars Feb. 18, 2021, attached to the belly of NASA's Perseverance rover and first lifted off the Martian surface on April 19, proving that powered, controlled flight on Mars was possible. After notching another four flights, it embarked on a new mission as an operations demonstration, serving as an aerial scout for Perseverance scientists and rover drivers. In 2023, the helicopter executed two successful flight tests that further expanded the team's knowledge of its aerodynamic limits. 
+
+[...] Over an extended mission that lasted for almost 1,000 Martian days, more than 33 times longer than originally planned, Ingenuity was upgraded with the ability to autonomously choose landing sites in treacherous terrain, dealt with a dead sensor, cleaned itself after dust storms, operated from 48 different airfields, performed three emergency landings, and survived a frigid Martian winter. 
+
+Designed to operate in spring, Ingenuity was unable to power its heaters throughout the night during the coldest parts of winter, resulting in the flight computer periodically freezing and resetting. These power "brownouts" required the team to redesign Ingenuity's winter operations in order to keep flying. 
+
+With flight operations now concluded, the Ingenuity team will perform final tests on helicopter systems and download the remaining imagery and data in Ingenuity's onboard memory. The Perseverance rover is currently too far away to attempt to image the helicopter at its final airfield.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflix Co-CEO Calls Vision Pro 'Subscale' and Wonders If Anybody Would Actually Use It]]></title>
+        <id>https://apple.slashdot.org/story/24/01/26/0436234/netflix-co-ceo-calls-vision-pro-subscale-and-wonders-if-anybody-would-actually-use-it?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/24/01/26/0436234/netflix-co-ceo-calls-vision-pro-subscale-and-wonders-if-anybody-would-actually-use-it?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T04:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Netflix is on everything. It's on your phone, computer, and game console, going all the way back to the Nintendo Wii. Hell, you can get your Netflix fix on a Peloton. One place where Netflix won't be is Apple's upcoming Vision Pro VR headset. Why isn't Netflix planning an app for what is Apple's big $3,500 gamble on the future of augmented reality? According to co-CEO Greg Peters, it's because the company doesn't know if anybody's actually going to use it. Gizmodo: More specifically, he called the device "subscale," adding that he didn't know if it would be "relevant to most of our members." That was in an interview with business analyst Ben Thompson, where Peters implied his company is being far more selective, at least when it comes to Apple's $3,500 "spatial computer." 
+
+"We have to be careful about making sure that we're not investing in places that are not really yielding a return, and I would say we'll see where things go with Vision Pro," the Netflix co-CEO said. The interview dropped barely a day after Peters got done extolling how the company gained more than 13 million new subscribers in the last three months of 2023 while also mentioning potentially increasing subscription prices. Other common apps like Spotify and YouTube also don't plan to have a Vision Pro-specific app at launch, instead directing people to log on through their Safari browser. Peters added that they still want to work with Apple, and "sometimes we find a great space of overlap. We can move very, very quickly. Sometimes it takes a little bit longer." The investment Netflix is talking about is not unchecking a box to enable the iPad app on the Vision Pro.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAI Drops Prices and Fixes 'Lazy' GPT-4 That Refused To Work]]></title>
+        <id>https://slashdot.org/story/24/01/25/2122251/openai-drops-prices-and-fixes-lazy-gpt-4-that-refused-to-work?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/01/25/2122251/openai-drops-prices-and-fixes-lazy-gpt-4-that-refused-to-work?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-01-26T04:02:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenAI is always making slight adjustments to its models and pricing, and today brings just such an occasion. From a report: The company has released a handful of new models and dropped the price of API access -- this is primarily of interest to developers, but also serves as a bellwether for future consumer options. GPT-3.5 Turbo is the model most people interact with, usually through ChatGPT, and it serves as a kind of industry standard now -- if your answers aren't as good as ChatGPT's, why bother? It's also a popular API, being lower cost and faster than GPT-4 on a lot of tasks. So paying users will be pleased to hear that input prices are dropping by 50% and output by 25%, to $0.0005 per thousand tokens in, and $0.0015 per thousand tokens out. 
+
+As people play with using these APIs for text-intensive applications, like analyzing entire papers or books, those tokens really start to add up. And as open source or self-managed models catch up to OpenAI's performance, the company needs to make sure its customers don't just leave. Hence the steady ratcheting down of prices -- though it's also a natural result of streamlining the models and improving their infrastructure.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[FTC Launches Inquiry Into AI Deals by Tech Giants]]></title>
         <id>https://slashdot.org/story/24/01/25/2126207/ftc-launches-inquiry-into-ai-deals-by-tech-giants?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8145,293 +8445,6 @@ Read more of this story at Slashdot.]]></summary>
         <summary type="html"><![CDATA[Earth is finishing up its warmest year in the past 174 years, and very likely the past 125,000. From a report: Unyielding heat waves broiled Phoenix and Argentina. Wildfires raged across Canada. Flooding in Libya killed thousands. Wintertime ice cover in the dark seas around Antarctica was at unprecedented lows. This year's global temperatures did not just beat prior records. They left them in the dust. From June through November, the mercury spent month after month soaring off the charts. December's temperatures have largely remained above normal: Much of the Northeastern United States is expecting springlike conditions this week. 
 
 That is why scientists are already sifting through evidence -- from oceans, volcanic eruptions, even pollution from cargo ships -- to see whether this year might reveal something new about the climate and what we are doing to it. One hypothesis, perhaps the most troubling, is that the planet's warming is accelerating, that the effects of climate change are barreling our way more quickly than before. "What we're looking for, really, is a bunch of corroborating evidence that all points in the same direction," said Chris Smith, a climate scientist at the University of Leeds. "Then we're looking for causality. And that will be really interesting."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Quietly Launches Dedicated Copilot App For Android]]></title>
-        <id>https://slashdot.org/story/23/12/27/230239/microsoft-quietly-launches-dedicated-copilot-app-for-android?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/12/27/230239/microsoft-quietly-launches-dedicated-copilot-app-for-android?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-28T00:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft quietly launched a dedicated Copilot app on Android, giving users a way to access Copilot's AI features without the Bing mobile app. "Spotted by @technosarusrex on X, it is now available for download from the Google Play Store, and the app's listing suggests it arrived in the marketplace about a week ago," reports Neowin. From the report: The new Copilot app for Android is not entirely a new thing. At first sight, it looks similar to the Bing Chat app, which still lets you access the same chat features. In addition, you can use Copilot within the Microsoft Edge browser for Android, SwiftKey, Skype, and more. Copilot for Android supports plenty of features (you can also toggle between light and dark themes) that are already available on desktop. You can ask complex questions, generate images using DALL-E 3, draft documents or emails, or just have a casual conversation about anything. In addition, the app lets you turn off or on the recently added GPT-4.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chinese Chess Champion Stripped of Title After Defecating In Hotel Bathtub]]></title>
-        <id>https://games.slashdot.org/story/23/12/27/2317210/chinese-chess-champion-stripped-of-title-after-defecating-in-hotel-bathtub?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://games.slashdot.org/story/23/12/27/2317210/chinese-chess-champion-stripped-of-title-after-defecating-in-hotel-bathtub?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-28T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Agence France-Press reports: The world of Chinese chess is in uproar over rumors of cheating and a bad behavior scandal that saw the national champion stripped of his title on Monday after a victory celebration ended with him defecating in a hotel bathtub. Xiangqi, or Chinese chess, has been hugely popular for hundreds of years across Asia -- and 48-year-old Yan Chenglong beat dozens of contenders last week to win the title of "Xiangqi King" at a national tournament hosted by the Chinese Xiangqi Association. But his joy was short-lived, with the CXA on Monday announcing that Yan would have his title revoked and prize money confiscated after had been caught "disrupting public order" and displaying "extremely bad character."
- 
-The association was also forced to address rumors circulating onl…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Announcing Rust 1.75.0]]></title>
-        <id>https://blog.rust-lang.org/2023/12/28/Rust-1.75.0.html</id>
-        <link href="https://blog.rust-lang.org/2023/12/28/Rust-1.75.0.html"/>
-        <updated>2023-12-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Rust team is happy to announce a new version of Rust, 1.75.0. Rust is a programming language empowering everyone to build reliable and efficient software.
-If you have a previous version of Rust installed via rustup, you can get 1.75.0 with:
-rustup update stable
-
-If you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.75.0.
-If you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!
-What's in 1.75.0 stable
-async fn and return-position impl Trait in traits
-As announced
-last week, Rust 1.75 supports use of async fn and -> impl Trait in t…]]></summary>
-        <author>
-            <name>Rust Blog</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Comes After Open Source? Bruce Perens Is Working On It]]></title>
-        <id>https://news.slashdot.org/story/23/12/27/2126224/what-comes-after-open-source-bruce-perens-is-working-on-it?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/12/27/2126224/what-comes-after-open-source-bruce-perens-is-working-on-it?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T23:20:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from The Register: Bruce Perens, one of the founders of the Open Source movement, is ready for what comes next: the Post-Open Source movement. "I've written papers about it, and I've tried to put together a prototype license," Perens explains in an interview with The Register. "Obviously, I need help from a lawyer. And then the next step is to go for grant money." Perens says there are several pressing problems that the open source community needs to address. "First of all, our licenses aren't working anymore," he said. "We've had enough time that businesses have found all of the loopholes and thus we need to do something new. The GPL is not acting the way the GPL should have done when one-third of all paid-for Linux systems are sold with a GPL circumven…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Vision Pro Tipped For Late January, Early February Release]]></title>
-        <id>https://apple.slashdot.org/story/23/12/27/219247/apple-vision-pro-tipped-for-late-january-early-february-release?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/12/27/219247/apple-vision-pro-tipped-for-late-january-early-february-release?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T22:40:00.000Z</updated>
-        <summary type="html"><![CDATA[The Vision Pro, Apple's first "spatial computing" device that costs $3,499, is expected to have a "late-January/early-February" release date, according to Apple analyst Ming-Chi Kuo. "The analyst says that the first wave of Vision Pros are being shipped to Apple in about a month, with total shipments numbering around 500,000 for the full year," adds TechCrunch. From the report: The company's precise target for the year remains an open-ended question. About a month after the device was revealed, reports suggested that Apple has scaled back expectations from around one million to "fewer than 400,000." Even the updated 500,000 figure is small for a company of Apple's massive size and influence. Keep in mind that the company should be shipping more than 200 million iPhones this calendar year.
- 
-The Vision Pro, however, is widely regarded as the biggest gambit of Tim Cook's 12-year tenure as CEO. Not only is it an entirely new category and form factor for the company, it's also prohibitively priced, even for customers accustomed to shelling out extra for apple products. Add to that VR's decades-long failure to live up to expectations, and you've got a big uphill fight on your hands. Kuo refers to Vision Pro as "Apple's most important product of 2024." Given the years of speculation and all the time and money the company has no doubt poured into the headset, it's a tough statement to argue.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[12VO Power Standard Appears To Be Gaining Steam, Will Reduce PC Cables and Costs]]></title>
-        <id>https://hardware.slashdot.org/story/23/12/27/210227/12vo-power-standard-appears-to-be-gaining-steam-will-reduce-pc-cables-and-costs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/23/12/27/210227/12vo-power-standard-appears-to-be-gaining-steam-will-reduce-pc-cables-and-costs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Tom's Hardware: The 12VO power standard (PDF), developed by Intel, is designed to reduce the number of power cables needed to power a modern PC, ultimately reducing cost. While industry uptake of the standard has been slow, a new slew of products from MSI indicates that 12VO is gaining traction.
- 
-MSI is gearing up with two 12VO-compliant motherboards, covering both Intel and AMD platforms, and a 12VO Power Supply that it's releasing simultaneously: The Pro B650 12VO WiFi, Pro H610M 12VO, and MSI 12VO PSU power supply are all 'coming soon,' which presumably means they'll officially launch at CES 2024. HardwareLux got a pretty good look at MSI's offerings during its EHA (European Hardware Awards) tech tour, including the 'Project Zero' we covered earlier. One of the noticeable changes is the absence of a 24-pin ATX connector, as the ATX12VO connectors use only ten-pin connectors. The publications also saw a 12VO-compliant FSP power supply in a compact system with a thick graphics card.
- 
-A couple of years ago, we reported on FSP 650-watt and 750-watt SFX 12VO power supply. Apart from that, there is a 1x 6-pin ATX12VO termed 'extra board connector' according to its manual and a 1x 8-pin 12V power connector for the CPU. There are two smaller 4-pin connectors that will provide the 5V power needed for SATA drives. It is likely each of these connectors provides power to two SATA-based drives. Intel proposed the ATX12VO standard several years ago, but adoption has been slow until now. This standard is designed to provide 12v exclusively, completely removing a direct 3.3v and 5v supply. The success of the new standard will depend on the wide availability of the motherboard and power supplies.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Infosys Loses Ten-Year, $1.5 Billion AI Contract]]></title>
-        <id>https://slashdot.org/story/23/12/27/1714222/infosys-loses-ten-year-15-billion-ai-contract?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/12/27/1714222/infosys-loses-ten-year-15-billion-ai-contract?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T21:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Infosys has lost a ten-year, $1.5 billion deal it announced just three months ago in September 2023. From a report: The Indian services giant advised investors of the deal on September 14th, describing it as "a Memorandum of Understanding with a global company to provide enhanced digital experiences, along with modernization and business operations services, leveraging Infosys platforms & AI solutions" with a total client target spend of $1.5 billion over 15 years. 
-
-That announcement included the caveat that Infosys and the unnamed company would have to conclude a Master Agreement to seal the deal. A December 23rd filing revealed that didn't happen. "The global company has now elected to terminate the Memorandum of Understanding and the parties will not be pursuing the Master Agreement," the statement revealed. Infosys's annual revenue topped $18 billion last year, so losing this deal won't cause massive pain.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Watch Import Ban Temporarily Stopped By US Appeals Court]]></title>
-        <id>https://apple.slashdot.org/story/23/12/27/2054227/apple-watch-import-ban-temporarily-stopped-by-us-appeals-court?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/12/27/2054227/apple-watch-import-ban-temporarily-stopped-by-us-appeals-court?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An appeals court on Wednesday temporarily stopped the import ban on Apple's latest Apple Watches, allowing the company to continue selling the wearables. CNBC reports: Apple stopped selling its Series 9 and Ultra 2 watches last week in response to an International Trade Commission order in October that found the blood oxygen sensor in the devices had infringed on intellectual property from Masimo, a medical technology company that sells to hospitals. "The motion for an interim stay is granted to the extent that the Remedial Orders are temporarily stayed," a court filing Wednesday said.
- 
-On Monday, the Biden administration declined to pause the ITC ban. Apple filed the appeal with the U.S. Court of Appeals for the Federal Circuit on Tuesday. The company continues to seek a longer stay. The ITC will need to reply by Jan. 10. The stay means Apple may be able to sell the latest models of one of its most important products during the busiest time of the year. Apple Watch sales are reported as part of Apple's wearables business, which reported $39.8 billion in sales in Apple's fiscal 2023, which ended in September.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The First Secret Asteroid Mission Won't Be the Last]]></title>
-        <id>https://science.slashdot.org/story/23/12/27/1753222/the-first-secret-asteroid-mission-wont-be-the-last?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/12/27/1753222/the-first-secret-asteroid-mission-wont-be-the-last?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T20:40:00.000Z</updated>
-        <summary type="html"><![CDATA[AstroForge, a private company, wants to mine a space rock, but it doesn't want the competition to find out which one. From a report: For generations, Western space missions have largely occurred out in the open. We knew where they were going, why they were going there and what they planned to do. But the world is on the verge of a new era in which private interests override such openness, with big money potentially on the line. Sometime in the coming year, a spacecraft from AstroForge, an American asteroid-mining firm, may be launched on a mission to a rocky object near Earth's orbit. If successful, it will be the first wholly commercial deep-space mission beyond the moon. AstroForge, however, is keeping its target asteroid secret. 
-
-The secret space-rock mission is the latest in an emerging trend that astronomers and other experts do not welcome: commercial space missions conducted covertly. Such missions highlight gaps in the regulation of spaceflight as well as concerns about whether exploring the cosmos will continue to benefit all humankind. "I'm very much not in favor of having stuff swirling around the inner solar system without anyone knowing where it is," said Jonathan McDowell, an astronomer at the Harvard-Smithsonian Center for Astrophysics in Massachusetts. "It seems like a bad precedent to set." But for AstroForge, the calculation is simple: If it reveals the destination, a competitor may grab the asteroid's valuable metals for itself. "Announcing which asteroid we are targeting opens up risk that another entity could seize that asteroid," said Matt Gialich, AstroForge's chief executive.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4-Year Campaign Backdoored iPhones Using Possibly the Most Advanced Exploit Ever]]></title>
-        <id>https://apple.slashdot.org/story/23/12/27/1729222/4-year-campaign-backdoored-iphones-using-possibly-the-most-advanced-exploit-ever?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/12/27/1729222/4-year-campaign-backdoored-iphones-using-possibly-the-most-advanced-exploit-ever?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Researchers on Wednesday presented intriguing new findings surrounding an attack that over four years backdoored dozens if not thousands of iPhones, many of which belonged to employees of Moscow-based security firm Kaspersky. Chief among the discoveries: the unknown attackers were able to achieve an unprecedented level of access by exploiting a vulnerability in an undocumented hardware feature that few if anyone outside of Apple and chip suppliers such as ARM Holdings knew of. ArsTechnica: "The exploit's sophistication and the feature's obscurity suggest the attackers had advanced technical capabilities," Kaspersky researcher Boris Larin wrote in an email. "Our analysis hasn't revealed how they became aware of this feature, but we're exploring all possibilities, including accidental disclo…]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top Scientists on the One Mystery on Earth They'd Like To Solve]]></title>
-        <id>https://science.slashdot.org/story/23/12/27/199252/top-scientists-on-the-one-mystery-on-earth-theyd-like-to-solve?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/23/12/27/199252/top-scientists-on-the-one-mystery-on-earth-theyd-like-to-solve?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T19:20:00.000Z</updated>
-        <summary type="html"><![CDATA[From the depths of the Amazon rainforest to the deserts of Antarctica, huge questions remain unanswered about life on Earth. The Guardian asked leading scientists and conservationists: what is the one thing you would like to know about the planet that remains a mystery? TLDR, the questions/wishes are:1. How many species are there on Earth?
-2. I'd go back 540m years to see the 'biological big bang'
-3. Could some of the smallest life forms help avert climate crisis?
-4. What is the full biodiversity of the Amazon or Congo basin rainforests?
-5. How do animals influence the functioning of Earth?
-6. What will happen to the Gulf Stream?
-7. Do universal rules govern how plants and animals evolve?
-8. How many humans could Earth support?
-9. Which species will adapt to the climate crisis -- and which will not?
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Employers Are Offering a New Worker Benefit: Wellness Chatbots]]></title>
-        <id>https://slashdot.org/story/23/12/27/1617221/employers-are-offering-a-new-worker-benefit-wellness-chatbots?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/12/27/1617221/employers-are-offering-a-new-worker-benefit-wellness-chatbots?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T18:40:00.000Z</updated>
-        <summary type="html"><![CDATA[More workers feeling anxious, stressed or blue have a new place to go for mental-health help: a digital app. Chatbots that hold therapist-like conversations and wellness apps that deliver depression and other diagnoses or identify people at risk of self-harm are snowballing across employers' healthcare benefits. From a report: "The demand for counselors is huge, but the supply of mental-health providers is shrinking," said J. Marshall Dye, chief executive officer of PayrollPlans, a Dallas-based provider of benefits software used by small and medium-size businesses, which began providing access to a chatbot called Woebot in November. PayrollPlans expects about 9,400 employers will use Woebot in 2024. Amazon about a year ago gave employees free access to Twill, an app that uses artificial intelligence to track the moods of users and create a personalized mental-health plan. The app offers games and other activities that the workers can play, as well as live chats with a human "coach." 
-
-The app "allows you to address mental health concerns the moment they arise and can be used as a supplement to your daily well-being routine," the company said in a blog post. Amazon declined to comment. About a third of U.S. employers offer a "digital therapeutic" for mental-health support, according to a survey of 457 companies this past summer by professional services company WTW. An additional 15% of the companies were considering adding such an offering in 2024 or 2025. Supporters say the mental-health apps alleviate symptoms such as anxiety, loneliness and depression. Because they are available at any time, the apps can also reach people who might not be able to fit traditional therapy into their schedules or can't find a therapist who has an opening. Yet some researchers say there isn't sufficient evidence the programs work, and the varied security and safety practices create a risk that private information could be leaked or sold.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Has Gratuity Culture Reached a Tipping Point?]]></title>
-        <id>https://slashdot.org/story/23/12/27/1557214/has-gratuity-culture-reached-a-tipping-point?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/23/12/27/1557214/has-gratuity-culture-reached-a-tipping-point?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Paying extra for service has inspired rebellions, swivelling iPads, and irritation from Trotsky and Larry David. Post-pandemic, the practice has entered a new stage. The New Yorker: Tips have long provided a convenient way to foist payment obligations onto others. Kerry Segrave, the author of the comprehensive history "Tipping," identified the gratuity's potential origins, in Europe during the late Middle Ages. By the seventeenth century, visitors to aristocratic estates were expected to pay "vails" to the staff. This might have lowered payroll for the estate itself. At least one aristocrat helped himself to some of this new income stream; he threw frequent parties to increase revenues. The system spread. English coffeehouses were said to set out urns inscribed with "To Insure Promptitude.…]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Late-Night Email To Tim Cook That Set the Apple Watch Saga in Motion]]></title>
-        <id>https://apple.slashdot.org/story/23/12/27/1525228/the-late-night-email-to-tim-cook-that-set-the-apple-watch-saga-in-motion?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/23/12/27/1525228/the-late-night-email-to-tim-cook-that-set-the-apple-watch-saga-in-motion?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple's hiring of a key engineer 10 years ago helped spark a fight that led its watch to be banned from the US. From a report: At about 1 a.m. California time in 2013, a scientist emailed Apple Chief Executive Officer Tim Cook with an irresistible pitch. "I strongly believe that we can develop the new wave of technology that will make Apple the No. 1 brand in the medical, fitness and wellness market," he wrote in the email, which was later included in legal documents. Some 10 hours after the message was sent, an Apple recruiter was in touch. And just weeks after that, the engineer was working at the tech company on a smartwatch with health sensors. 
-
-A flurry of activity began. Within a few months at Apple, the employee asked the company to file about a dozen patents related to sensors and algorithms for determining a person's blood-oxygen level from a wearable device. But this wasn't just any engineer. He had been the chief technical officer of Cercacor Laboratories, the sister company of Masimo, which went on to get to the US to ban the Apple Watch. Apple's decision to hire this technical whiz -- a Stanford engineering Ph.D. named Marcelo Lamego -- is seen as the spark that sent Masimo's lawyers after Apple. While the iPhone maker denies it did anything wrong, Masimo cited the poaching of employees as part of claims that the iPhone maker infringed its patents. The dispute culminated this month in Apple having to pull its latest watches from the company's US stores, hobbling a business that generates roughly $17 billion in annual sales. On Wednesday, Apple scored a victory as a U.S. appeals court paused a government commission's import ban on some of its popular Apple smartwatches.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Sinking Nation is Offered an Escape Route. But There's a Catch.]]></title>
-        <id>https://news.slashdot.org/story/23/12/27/1538239/a-sinking-nation-is-offered-an-escape-route-but-theres-a-catch?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/12/27/1538239/a-sinking-nation-is-offered-an-escape-route-but-theres-a-catch?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[The tiny Pacific island nation of Tuvalu is grappling with the imminent threats of climate change. Rising seas and increasing storms threaten the fragile coral atolls that are home to 11,000 people. A recent agreement allowing 280 Tuvaluans to migrate to Australia each year moved the nation closer to a managed retreat, but at that pace it would take decades to relocate everyone. 
-
-Tuvalu could be uninhabitable much sooner, according to projections. In parallel, the government is asserting it will maintain its statehood even without land. It also aims to digitally preserve Tuvalu's culture and history in the metaverse, as the physical place faces being drowned under rising waters. Tuvalu is strategizing for adaptation while also trying to drive global action on emissions reductions.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UK Students Launch Barclays 'Career Boycott' Over Bank's Climate Policies]]></title>
-        <id>https://news.slashdot.org/story/23/12/27/1336223/uk-students-launch-barclays-career-boycott-over-banks-climate-policies?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/23/12/27/1336223/uk-students-launch-barclays-career-boycott-over-banks-climate-policies?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2023-12-27T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hundreds of students from leading UK universities have launched a "career boycott" of Barclays over its climate policies, warning that the bank will miss out on top talent unless it stops financing fossil fuel companies. From a report: More than 220 students from Barclays' top recruitment universities, including Oxford, Cambridge, and University College London, have sent a letter to the high street lender, saying they will not work for Barclays and raising the alarm over its funding for oil and gas firms including Shell, TotalEnergies, Exxon and BP. "Your ambitious decarbonisation targets are discredited by your absence of action and the roster of fossil fuel companies on your books," the letter said. "You may say you're working with them to help them transition, but Shell, Total and BP have all rowed back." 
-
-Large oil firms have started to water down climate commitments, including BP, which originally pledged to lower emissions by 35% by 2030 but is now aiming for a 20% to 30% cut instead. Meanwhile, ExxonMobil quietly withdrew funding for plans to use algae to create low-carbon fuel, while Shell announced it would not increase its investments in renewable energy this year, despite earlier promises to slash its emissions. The letter calls on Barclays to end all financing and underwriting of oil and gas companies -- not only their projects -- and to boost funding of firms behind wind and solar energy significantly.
 
 
 
