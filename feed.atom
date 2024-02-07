@@ -2,10 +2,318 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-06T01:00:18.692Z</updated>
+    <updated>2024-02-07T00:58:39.957Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Boston Dynamics' Atlas Tries Out Inventory Work, Gets Better At Lifting]]></title>
+        <id>https://hardware.slashdot.org/story/24/02/06/2230252/boston-dynamics-atlas-tries-out-inventory-work-gets-better-at-lifting?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/24/02/06/2230252/boston-dynamics-atlas-tries-out-inventory-work-gets-better-at-lifting?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-07T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[In a new video released today, Boston Dynamics' Atlas robot is shown performing "kinetically challenging" work, like moving some medium-weight car parts and precisely picking stuff up. Ars Technica reports: In the latest video, we're on to what looks like "phase 2" of picking stuff up -- being more precise about it. The old clamp hands had a single pivot at the palm and seemed to just apply the maximum grip strength to anything the robot picked up. The most delicate thing Atlas picked up in the last video was a wooden plank, and it was absolutely destroying the wood. Atlas' new hands look a lot more gentle than The Clamps, with each sporting a set of three fingers with two joints. All the fingers share one big pivot point at the palm of the hand, and there's a knuckle joint halfway up the finger. The fingers are all very long and have 360 degrees of motion, so they can flex in both directions, which is probably effective but very creepy. Put two fingers on one side of an item and the "thumb" on the other, and Atlas can wrap its hands around objects instead of just crushing them.
+ 
+Atlas is picking up a set of car struts -- an object with extremely complicated topography that weighs around 30 pounds -- so there's a lot to calculate. Atlas does a heavy two-handed lift of a strut from a vertical position on a pallet, walks the strut over to a shelf, and carefully slides it into place. This is all in Boston Dynamics' lab, but it's close to repetitive factory or shipping work. Everything here seems designed to give the robot a manipulation challenge. The complicated shape of the strut means there are a million ways you could grip it incorrectly. The strut box has tall metal poles around it, so the robot needs to not bang the strut into the obstacle. The shelf is a tight fit, so the strut has to be placed on the edge of the shelf and slid into place, all while making sure the strut's many protrusions won't crash into the shelf.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 Million Malware-Infected Smart Toothbrushes Used In Swiss DDoS Attacks]]></title>
+        <id>https://it.slashdot.org/story/24/02/06/2219207/3-million-malware-infected-smart-toothbrushes-used-in-swiss-ddos-attacks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/24/02/06/2219207/3-million-malware-infected-smart-toothbrushes-used-in-swiss-ddos-attacks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-07T00:02:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Tom's Hardware: According to a recent report published by the Aargauer Zeitung (h/t Golem.de), around three million smart toothbrushes have been infected by hackers and enslaved into botnets. The source report says this sizable army of connected dental cleansing tools was used in a DDoS attack on a Swiss company's website. The firm's site collapsed under the strain of the attack, reportedly resulting in the loss of millions of Euros of business. In this particular case, the toothbrush botnet was thought to have been vulnerable due to its Java-based OS. No particular toothbrush brand was mentioned in the source report. Normally, the toothbrushes would have used their connectivity for tracking and improving user oral hygiene habits, but after a malware infection, these toothbrushes were press-ganged into a botnet.
+ 
+Stefan Zuger from the Swiss branch of the global cybersecurity firm Fortinet provided the publication with a few tips on what people could do to protect their own toothbrushes -- or other connected gadgetry like routers, set-top boxes, surveillance cameras, doorbells, baby monitors, washing machines, and so on. "Every device that is connected to the Internet is a potential target -- or can be misused for an attack," Zuger told the Swiss newspaper. The security expert also explained that every connected device was being continually probed for vulnerabilities by hackers, so there is a real arms race between device software/firmware makers and cyber criminals. Fortinet recently connected an 'unprotected' PC to the internet and found it took only 20 minutes before it became malware-ridden.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta Will Start Labeling AI-Generated Images On Facebook, Instagram and Threads]]></title>
+        <id>https://meta.slashdot.org/story/24/02/06/2211240/meta-will-start-labeling-ai-generated-images-on-facebook-instagram-and-threads?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://meta.slashdot.org/story/24/02/06/2211240/meta-will-start-labeling-ai-generated-images-on-facebook-instagram-and-threads?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T23:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Meta will start detecting and labeling images generated by artificial intelligence from Google and OpenAI's services, among others. According to Reuters, the company will use a set of invisible markers built into the files to help with the identification process. From the report: Meta will apply the labels to any content carrying the markers that is posted to its Facebook, Instagram and Threads services, in an effort to signal to users that the images -- which in many cases resemble real photos -- are actually digital creations, the company's president of global affairs, Nick Clegg, wrote in a blog post. The company already labels any content generated using its own AI tools. Once the new system is up and running, Meta will do the same for images created on services run by OpenAI, Microsoft, Adobe , Midjourney, Shutterstock and Alphabet's Google, Clegg said.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Crypto Mining Company Loses Bid To Force Canadian Utility Company To Provide Power]]></title>
+        <id>https://hardware.slashdot.org/story/24/02/06/221230/crypto-mining-company-loses-bid-to-force-canadian-utility-company-to-provide-power?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/24/02/06/221230/crypto-mining-company-loses-bid-to-force-canadian-utility-company-to-provide-power?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Vancouver Sun: A cryptocurrency firm has lost a bid to force B.C. Hydro to provide the vast amounts of power needed for its operations, in a court ruling that upholds the provincial government's right to pause power connections for new crypto miners. Conifex Timber Inc., a forestry firm that branched out into cryptocurrency "mining," had gone to the B.C. Supreme Court to have the policy declared invalid. But Justice Michael Tammen ruled Friday that the government's move in December 2022 to pause new connections for cryptocurrency mining for 18 months was reasonable and not unduly discriminatory.
+ 
+B.C. Hydro CEO Christopher O'Riley had told the court in an affidavit that the data centers proposed by Conifex would have consumed 2.5 million megawatt-hours of electricity a year. That's enough to power and heat more than 570,000 apartments, according to data on the power provider's website. Energy Minister Josie Osborne said when the policy was introduced that cryptocurrency mining consumes "massive amounts of electricity" by running banks of high-powered computers around the clock, but adds "very few jobs" to the local economy. In a statement released Monday, the company said it's "disappointed" with the court's ruling and is considering an appeal. "Conifex continues to believe that the provincial government is missing out on several opportunities available to it to improve energy affordability, accelerate technological innovation, strengthen the reliability and resiliency of the power distribution grid in British Columbia, and achieve more inclusive economic growth," said Conifex in a statement.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Warner, Fox, Disney To Launch Streaming Sports Joint Venture]]></title>
+        <id>https://entertainment.slashdot.org/story/24/02/06/2153202/warner-fox-disney-to-launch-streaming-sports-joint-venture?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://entertainment.slashdot.org/story/24/02/06/2153202/warner-fox-disney-to-launch-streaming-sports-joint-venture?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Fox, Warner Bros. Discovery and Disney are planning to launch a new streaming joint venture that will combine all their sports programming "under a single broadband roof," reports Variety. The move "will put content from ESPN, TNT and Fox Sports on a new standalone app and, in the process, likely shake up the world of TV sports." From the report: The three media giants are slated to launch the new service in the fall. Subscribers would get access to linear sports networks including ESPN, ESPN2, ESPNU, SECN, ACCN, ESPNEWS, ABC, Fox, FS1, FS2, BTN, TNT, TBS, truTV and ESPN+, as well as hundreds of hours from the NFL, NBA, MLB and NHL and many top college divisions. Pricing will be announced at a later date.
+ 
+Each company would own one third of the new outlet and license their sports content to it on a non-exclusive basis. The service would have a new brand and an independent management team. The concept surfaces as traditional media companies are grappling with the migration of sports -- the last TV format that generates steady crowds and sustained ratings -- to streaming venues.
+ 
+The concentration of top sports under one roof would be significant. Between them, ESPN and Warner have most rights to the NHL and the NBA, while Fox, Warner and ESPN control at present the majority of rights to Major League Baseball. Only the NFL would enjoy a large presence with entities that are not a part of the joint venture, with "Sunday Night Football" at NBCUniversal, "Thursday Night Football" at Amazon and a Sunday afternoon game at CBS.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UK, France Pitch Rules To Curb Spyware Abuse]]></title>
+        <id>https://news.slashdot.org/story/24/02/06/1849241/uk-france-pitch-rules-to-curb-spyware-abuse?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/02/06/1849241/uk-france-pitch-rules-to-curb-spyware-abuse?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[The United Kingdom, France and allied countries on Tuesday called for international guidelines for the responsible use of spyware, in an effort to stop the hacking tools from running rampant. From a report: At a conference at London's Lancaster House co-hosted by the British and French government, more than a dozen countries and technology companies signed a declaration saying that "uncontrolled dissemination" of cyber intrusive tools could lead to "unintentional escalation in cyberspace." 
+
+A 2021 investigation called the Pegasus Project highlighted how spyware tools like the Israeli-made Pegasus software had spread across the world and are being abused in political and corporate hacking campaigns. Despite widespread condemnation, governments' efforts to crack down on malicious hacking software have largely failed -- in part because the tools are popular with many intelligence and security services, including in democratic countries. 
+
+Among the countries that have signed up to the pledge for international rules guidelines EU members Belgium, the Czech Republic, France, Greece, Italy and Poland, as well as the United States, United Kingdom and the African Union. On the industry side, Apple, defense firm BAE Systems, Google, Meta and Microsoft signed up. The group of countries and firms hopes to curb the proliferation and unabated use of intrusive cybertools. They called for principles and policy options to balance human rights and security interests, including policies to use spyware in a âoelegal and responsible manner," in line with international law and under strict oversight by authorities.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The EU Proposes Slashing Pollution 90 Percent by 2040]]></title>
+        <id>https://news.slashdot.org/story/24/02/06/1827221/the-eu-proposes-slashing-pollution-90-percent-by-2040?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/02/06/1827221/the-eu-proposes-slashing-pollution-90-percent-by-2040?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T20:40:00.000Z</updated>
+        <summary type="html"><![CDATA[The European Commission today recommended reducing carbon dioxide emissions from fossil fuels by 90 percent by 2040 compared to 1990 levels. From a report: At face value, it's an ambitious target for transforming the European Union's energy system. As always, though, the devil is in the details. And the proposed plan is already garnering a range of strong reactions. A formal proposal still needs to be issued, but it has already faced pushback on how much of those pollution cuts should come from risky tactics aimed at capturing rather than preventing pollution. Some environmental groups are also criticizing a glaring omission in the draft: while it mentions phasing out coal, there's no strategy to phase out oil and gas. 
+
+"You can set targets to cut greenhouse gases as high as you like, but without a clear plan to phase-out the fossil fuels that are producing them they simply aren't credible. It's like building a bike without pedals, how are you going to power it?" Dominic Eagleton, senior fossil fuels campaigner at the nonprofit Global Witness, said in a statement today. The world actually came tantalizingly close to a deal to phase out fossil fuels during a United Nations climate conference in Dubai last December. Despite dozens of countries pushing for that kind of commitment, the agreement ultimately calls for "transitioning away from fossil fuels in energy systems, in a just, orderly and equitable manner." It also carves out room for controversial technologies for capturing carbon dioxide pollution.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTube Has Become One of the Biggest Pay TV Services in the US]]></title>
+        <id>https://news.slashdot.org/story/24/02/06/1821232/youtube-has-become-one-of-the-biggest-pay-tv-services-in-the-us?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/02/06/1821232/youtube-has-become-one-of-the-biggest-pay-tv-services-in-the-us?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T20:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Google has been trying to break into TV for close to two decades. It's here now: Its YouTube TV offering has become one of the biggest pay-TV services in the US. Business Insider: YouTube TV -- which, like conventional pay TV, sells a bundle of dozens of channels -- now has "more than 8 million" subscribers, YouTube CEO Neal Mohan announced Tuesday morning. That makes YouTube the fourth-largest pay TV service in the country, behind Charter and Comcast (14.1 million each) and DirecTV, at around 11 million. 
+
+YouTube last disclosed subscriber numbers in 2022, when YouTube TV had 5 million customers. It likely got a meaningful boost last fall when it started selling the NFL's Sunday Ticket service as an add-on to its basic package of TV channels. YouTube's ascent into the mainstream of pay TV represents a couple of things. For starters, it shows you that YouTube and its owner Google have been persistent and patient about trying to crack TV, and its enormous twin revenue streams: subscriptions and ads.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Celebrating a million copies of REWORK]]></title>
+        <id>https://world.hey.com/dhh/celebrating-a-million-copies-of-rework-9d5eb543</id>
+        <link href="https://world.hey.com/dhh/celebrating-a-million-copies-of-rework-9d5eb543"/>
+        <updated>2024-02-06T19:35:23.000Z</updated>
+        <summary type="html"><![CDATA[It’s been 14 years since REWORK was first published. It was our first big-publisher book, and it hit the New York Times bestseller list right out the gate. In the first two years, it sold over 200,000 copies. And then... it just kept selling. Now it has passed one million copies sold around the world!
+The book consists of 87 short essays, and is meant to be read in a single afternoon. It’s a business book for people who don’t have the patience to read a handful of ideas stretched to fit 300 pages. The kind of book that Jason and I would have loved to read, if somebody else had written it.
+Although it wasn’t as much written as it was edited. Much to the shock and initial resistance of the publisher, we literally cut the manuscript in half in the last round of editing. We didn’t just kill ou…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Space-based Research May Lead To Cancer 'Kill Switch']]></title>
+        <id>https://science.slashdot.org/story/24/02/06/1757224/space-based-research-may-lead-to-cancer-kill-switch?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/02/06/1757224/space-based-research-may-lead-to-cancer-kill-switch?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T19:22:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: With progress in the battle against cancer progressing slowly on Earth, California researchers have teamed up with astronauts to take the battle to the stars. In space, the weak pull of gravity, also known as microgravity, places cells under incredible stress, causing them to age more rapidly. This phenomenon allows scientists to witness the progression of cancer growth -- and the effect of cancer treatments -- much more rapidly than they could on Earth. 
+
+When the Axiom 3 spaceflight launched from Kennedy Space Center in Cape Canaveral, Fla., on Jan. 18, bound for the International Space Station, it took with it four crewmembers and some other unusual passengers -- miniature tumor organoids produced from the cells of cancer patients, grown in the lab by scientists at the University of California San Diego. Axiom 3 was slated for splashdown on Saturday but has been delayed until Tuesday, at the earliest, due to weather, according to SpaceX, which manufactured the Crew Dragon spacecraft used for the mission. 
+
+It wasn't the first time the team -- led by Dr. Catriona H.M. Jamieson, a hematologist and medical professor at the college -- sent such samples into space. It previously launched stem cells on multiple Space X flights and noticed that pre-leukemic changes occurred, unseen during the same timeframe in controls on the ground. "We said, 'Wait, what if you send cancer up?'" Jamieson tells Fortune. "'Will the cancer go from bad to worse?' And the answer is yes, under conditions of stress" caused by microgravity.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Revives Aggressive Windows 11 Upgrade Campaign With Intrusive Popups]]></title>
+        <id>https://tech.slashdot.org/story/24/02/06/1752200/microsoft-revives-aggressive-windows-11-upgrade-campaign-with-intrusive-popups?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/02/06/1752200/microsoft-revives-aggressive-windows-11-upgrade-campaign-with-intrusive-popups?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: Most people know that Microsoft really wants everyone to move onto Windows 11. But just in case there are some Windows 10 users still unaware of this fact, the company is once again nagging them to upgrade with full-screen, multi-slide popups. The lengthy advertisement for Windows 11 was highlighted by Windows Latest after it installed the optional January update (in preview) on a Windows 10 machine. 
+
+The nagging Windows 11 upgrade promo consists of an excruciating number of screens (i.e., more than one): The first informs users that they can switch to Windows 11 for free and that they can still use their PC while the newer OS is set up in the background; another is Microsoft recommending the move and noting that users can revert to Windows 10 within the first ten days of upgrading; the last is for those who decide to stay on Windows 10, with a reminder that Windows 11 remains a free upgrade option. There is another panel that lists some of Windows 11 features, but this only appears for those who select the 'See what's inside' button.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US To Restrict Visas For Those Who Misuse Commercial Spyware]]></title>
+        <id>https://news.slashdot.org/story/24/02/06/1729221/us-to-restrict-visas-for-those-who-misuse-commercial-spyware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/02/06/1729221/us-to-restrict-visas-for-those-who-misuse-commercial-spyware?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. has announced new visa restrictions for individuals and companies misusing commercial spyware to surveil, harass or intimidate journalists, activists and other dissidents. Citing a senior Biden administration official, Reuters adds that the new policy will also apply to investors and operators of the commercial spyware believed to be misused. At least 50 U.S. officials have been targeted by private hacking tools in recent years.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google and Mozilla Don't Like Apple's New iOS Browser Rules]]></title>
+        <id>https://tech.slashdot.org/story/24/02/06/1714243/google-and-mozilla-dont-like-apples-new-ios-browser-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/02/06/1714243/google-and-mozilla-dont-like-apples-new-ios-browser-rules?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T17:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple is making changes to iOS in Europe to comply with the EU's Digital Markets Act cracking down on Big Tech gatekeepers. The act demands interoperability, fairness and privacy measures including allowing competing browser engines on iOS. Despite better browser choice, Google and Mozilla are unhappy with Apple's proposed changes. Mozilla says restricting browser engine integration to EU apps burdens rivals to build separate implementations. Mozilla's comment: "We are still reviewing the technical details but are extremely disappointed with Apple's proposed plan to restrict the newly-announced BrowserEngineKit to EU-specific apps. The effect of this would be to force an independent browser like Firefox to build and maintain two separate browser implementations -- a burden Apple themselves will not have to bear. Apple's proposals fail to give consumers viable choices by making it as painful as possible for others to provide competitive alternatives to Safari. This is another example of Apple creating barriers to prevent true browser competition on iOS." Google's VP of engineering for Chrome, Parisa Tabriz, commented on DeMonte's statement, saying, "Strong agree with Mozilla. Apple isn't serious about supporting web browser or engine choice on iOS. Their strategy is overly restrictive, and won't meaningfully lead to real choice for browser developers."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Did You Use ChatGPT On Your School Applications? These Words May Tip Off Admissions]]></title>
+        <id>https://tech.slashdot.org/story/24/02/06/1645228/did-you-use-chatgpt-on-your-school-applications-these-words-may-tip-off-admissions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/02/06/1645228/did-you-use-chatgpt-on-your-school-applications-these-words-may-tip-off-admissions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T16:45:00.000Z</updated>
+        <summary type="html"><![CDATA["Tapestry." "Beacon." "Comprehensive curriculum." "Esteemed faculty." "Vibrant academic community." They're among the laundry list of colorful words, flowery phrases and stale syntax that are likely to tip off admissions committees to applicants who've used AI to help write their college or graduate school essays this year, according to essay consultants who students are hiring en masse to un-ChatGPT, and add a "human touch" to, their submissions. Forbes: "Tapestry" in particular is a major red flag in this year's pool, several essay consultants on the platform Fiverr told Forbes. Mike, an Ivy League alum and former editor-in-chief of the Cornell Business Journal who now edits hundreds of grad school applications each cycle through Capitol Editors, said it's appeared repeatedly in drafts from at least 20 of his clients in recent months. 
+
+"I no longer believe there's a way to innocently use the word 'tapestry' in an essay; if the word 'tapestry' appears, it was generated by ChatGPT," he told Forbes. Though many such words, on their own, could have come from a human, when a trained eye sees them used over and over again in the same cadence across multiple essays, "it's just a real telltale sign."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DocuSign To Lay Off 6% of Workforce, or About 440 Jobs]]></title>
+        <id>https://tech.slashdot.org/story/24/02/06/1559240/docusign-to-lay-off-6-of-workforce-or-about-440-jobs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/02/06/1559240/docusign-to-lay-off-6-of-workforce-or-about-440-jobs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T16:02:00.000Z</updated>
+        <summary type="html"><![CDATA[DocuSign will cut 6% of its workforce, it said Tuesday, as part of a restructuring plan that aims to improve the company's "financial and operational efficiency." CNBC: The online signature provider said the majority of the employees impacted by the layoffs will be within its sales and marketing organizations. DocuSign employs 7,336 workers, according to its most recent filing with the U.S. Securities and Exchange Commission, which means the cuts will affect around 440 jobs. DocuSign said the restructuring plan will be largely complete by the end of its second fiscal quarter of 2025, according to the release. The company added that it expects to "meet or exceed" its fourth-quarter and fiscal-2024 guidance that it outlined in a release in December.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mozilla Monitor Plus Scrubs Your Leaked Personal Information From the Web, For a Fee]]></title>
+        <id>https://yro.slashdot.org/story/24/02/06/156228/mozilla-monitor-plus-scrubs-your-leaked-personal-information-from-the-web-for-a-fee?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/02/06/156228/mozilla-monitor-plus-scrubs-your-leaked-personal-information-from-the-web-for-a-fee?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-06T15:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Mozilla has rolled out a new $9 per month service called Mozilla Monitor Plus that automatically scrubs personal information from over 190 data broker sites. The tool builds on the free Firefox Monitor platform, expanding monitoring capabilities and proactively removing exposed details to protect user privacy. Subscribers will also receive data breach alerts under the new service.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Self-Proclaimed Bitcoin Inventor's Claim 'a Brazen Lie,' London Court Told]]></title>
         <id>https://yro.slashdot.org/story/24/02/06/0018222/self-proclaimed-bitcoin-inventors-claim-a-brazen-lie-london-court-told?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -34,6 +342,35 @@ Phillip Schmid, Hugging Face's Technical Lead & LLMs Director, posted the news o
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[crates.io: API status code changes]]></title>
+        <id>https://blog.rust-lang.org/2024/02/06/crates-io-status-codes.html</id>
+        <link href="https://blog.rust-lang.org/2024/02/06/crates-io-status-codes.html"/>
+        <updated>2024-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cargo and crates.io were developed in the rush leading up to the Rust 1.0 release to fill the needs for a tool to manage dependencies and a registry that people could use to share code. This rapid work resulted in these tools being connected with an API that initially didn't return the correct HTTP response status codes. After the Rust 1.0 release, Rust's stability guarantees around backward compatibility made this non-trivial to fix, as we wanted older versions of Cargo to continue working with the current crates.io API.
+When an old version of Cargo receives a non-"200 OK" response, it displays the raw JSON body like this:
+error: failed to get a 200 OK response, got 400
+headers:
+    HTTP/1.1 400 Bad Request
+    Content-Type: application/json; charset=utf-8
+    Content-Length: 171
+
+body:
+{…]]></summary>
+        <author>
+            <name>Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[eventbrite.ics]]></title>
+        <id>https://taylor.town/eventbrite-ics</id>
+        <link href="https://taylor.town/eventbrite-ics"/>
+        <updated>2024-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Subscribe to Eventbrite orgs via Apple Calendar, Google Calendar, or Microsoft Outlook.]]></summary>
+        <author>
+            <name>taylor.town</name>
         </author>
     </entry>
     <entry>
@@ -8202,273 +8539,6 @@ The phone was in airplane mode, Bates said in a TikTok video. "It was still pret
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Three Packages Targeting Linux with Crypto Miners Found in Python's 'PyPi' Repository]]></title>
-        <id>https://developers.slashdot.org/story/24/01/08/0038210/three-packages-targeting-linux-with-crypto-miners-found-in-pythons-pypi-repository?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://developers.slashdot.org/story/24/01/08/0038210/three-packages-targeting-linux-with-crypto-miners-found-in-pythons-pypi-repository?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-08T00:39:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shared this report from The Hacker News:
-Three new malicious packages have been discovered in the Python Package Index (PyPI) open-source repository with capabilities to deploy a cryptocurrency miner on affected Linux devices. 
-
-The three harmful packages, named modularseven, driftme, and catme, attracted a total of 431 downloads over the past month before they were taken down... 
-
-The malicious code resides in the __init__.py file, which decodes and retrieves the first stage from a remote server, a shell script ("unmi.sh") that fetches a configuration file for the mining activity as well as the CoinMiner file hosted on GitLab. The ELF binary file is then executed in the background using the nohup command, thus ensuring that the process continues to run even after exiting the session. "Echoing the approach of the earlier 'culturestreak' package, these packages conceal their payload, effectively reducing the detectability of their malicious code by hosting it on a remote URL," said Fortinet FortiGuard Labs researcher Gabby Xiong. "The payload is then incrementally released in various stages to execute its malicious activities."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023 X was a better Twitter (for me)]]></title>
-        <id>https://world.hey.com/jorge/2023-x-was-a-better-twitter-for-me-0b8a2b2a</id>
-        <link href="https://world.hey.com/jorge/2023-x-was-a-better-twitter-for-me-0b8a2b2a"/>
-        <updated>2024-01-08T00:06:17.000Z</updated>
-        <summary type="html"><![CDATA[I wouldn't have expected to say this, but X (Twitter) worked well for me in 2023. I got good things out of it. In the previous years, I had a tormented relationship with the platform, so, what happened?
-
-
-First, Mastodon happened. Elon Musk's acquisition of Twitter provoked a stampede of the most politically radicalized folks to Mastodon. That was a blessing. With the negativity magnets gone, the group energy significantly improved because energy is contagious. Suddenly, the discussion in the Rails community became about technical stuff again, go figure!
-
-
-Second, Twitter stopped pushing the algorithmically-curated "For you" timeline through your throat. If you select "Following" to see stuff from the people you follow, it will remember the selection. This was a game changer for me, as I got complete control of what entered my timeline.
-
-
-Third, I engaged more with the platform. In previous years, I mostly used Twitter as an output channel to link my blog posts. Now, the conversation feels more inviting to participate, so I do.
-
-
-Between 2020 and 2022, I felt a tremendous disconnection from the Rails community. I saw haters and folks being mean towards others dominating the conversation. Now, it feels as if the storm has passed. Here's what I want from X: interesting conversations, positive vibes, no drama/politics, and a focus on Rails and software development. That's my X timeline right now. This seemed absolutely impossible just a bit over one year ago.
-
-
-I don't even want to say it too loud.]]></summary>
-        <author>
-            <name>Jorge Manrubia</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Microscopic Metal Flake Could Finally Reveal DB Cooper's Identity]]></title>
-        <id>https://yro.slashdot.org/story/24/01/07/2118201/a-microscopic-metal-flake-could-finally-reveal-db-coopers-identity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/24/01/07/2118201/a-microscopic-metal-flake-could-finally-reveal-db-coopers-identity?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-07T23:09:00.000Z</updated>
-        <summary type="html"><![CDATA["The famed and mysterious disappearance of D.B. Cooper has puzzled investigators for over half a century," writes a Seattle TV station.
-Now new evidence is coming to light in the supposed "skyjacking," after a microscopic piece of metal found on D. B. Cooper's tie could help reveal his true identity. "Considering the totality of all that has been uncovered in the last year with respect to DB Cooper's tie, I can say with a very high degree of certainty that DB Cooper worked for Crucible Steel," said independent investigator Eric Ulis. 
-
-"I would not be surprised at all if 2024 was the year we figure out who this guy was," lis told another local Seattle news station:
-
-This particle is part stainless steel, part titanium... 18 months ago, Ulis used U.S. patents to trace three of these fragments from the same very tie to a specific plant in Pennsylvania, Crucible Steel. "Headquartered in the suburbs of Pittsburgh, a significant subcontractor all throughout the 1960s," said Ulis. "It supplied the lion's share of titanium and stainless steel for Boeing's aircraft...." 
-
-Ulis claims evidence points to Cooper having in-depth knowledge of the 727 he hijacked, and of the Seattle area. Workers at Crucible Steel were known to travel and visit their contractor, Boeing. "This is also the time, 1971, when Boeing had this significant downturn, the big depression, with 'The last person leaving Seattle, please turn out the lights' [billboard sign]," said Ulis. "It's reasonable to deduce that D. B. Cooper may well have been part of that downturn." 
-
-Ulis admits his findings are not yet concrete. He's not crossing any suspects off the list. However, he believes from what he's seen, all roads lead to titanium research engineer Vince Peterson from Pittsburgh. 
-It all reminds me of that episode of Prison Break where they suspect one of the prisoner's is secretly D.B. Cooper...
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Will Microsoft Overtake Apple as the World's Most Valuable Company?]]></title>
-        <id>https://apple.slashdot.org/story/24/01/07/2053256/will-microsoft-overtake-apple-as-the-worlds-most-valuable-company?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/24/01/07/2053256/will-microsoft-overtake-apple-as-the-worlds-most-valuable-company?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-07T21:39:00.000Z</updated>
-        <summary type="html"><![CDATA["As Microsoft stock rises and Apple's falls over analysts expectation of slowing iPhone demand, the two firms are once more within $100 billion of each other — the smallest gap in over two years..." writes the blog Apple Insider:
-
-
- In August 2020, Apple became the first publicly-traded US company to reach a $2 trillion market cap, and Microsoft became the second one in June 2021. Later in October 2021, Microsoft took over the top spot, and for a time was move valuable than Apple by $100 billion. While the values of the two firms have continually changed, Microsoft is now worth just $100 billion less than Apple, according to MarketWatch. Microsoft is valued at $2.73 trillion, while Apple — fallen from its recent $3 trillion high — is currently at $2.83 trillion. 
-
-MarketWatch notes that Microsoft's stock rose 57% in 2023, compared to Apple's which rose 48%. Microsoft shares have also reportedly seen what are described as slimmer losses at the start of 2024. Apple, on the other hand, has seen its shares take a considerable drop in recent days. The first hit was taken following a claim by Barclays that iPhone demand is weakening and that the iPhone 16 range will not offer any compelling new features to tempt upgraders. 
-
-The analyst view that Apple is dependent on iPhone sales is part of why Microsoft is doing better. Analysts see Microsoft has being less attached to any hardware, and more attached to subscription software such as Office 365, and so therefore less attached to any falling demand for phones or computers. And, Microsoft has launched an AI tool in Copilot, while Apple has not unveiled any similar ChatGPT-style app or service.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZDNet Calls Rhino Linux 'New Coolest Linux Distro']]></title>
-        <id>https://news.slashdot.org/story/24/01/07/2036245/zdnet-calls-rhino-linux-new-coolest-linux-distro?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/01/07/2036245/zdnet-calls-rhino-linux-new-coolest-linux-distro?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-07T20:39:00.000Z</updated>
-        <summary type="html"><![CDATA[If you're starting the new year with a new Linux distro, ZDNet just ran an enthusiastic profile of Rhino Linux, calling it "beautiful" with "one of the more useful command-line package managers on the market."
-
-Rhino uses a modern take on the highly efficient and customizable Xfce desktop (dubbed "Unicorn") to help make the interface immediately familiar to anyone who logs in. You'll find a dock on the left edge of the screen that contains launchers for common applications, access to the Application Grid (where you can find all of your installed software), and a handy Search Bar (Ulauncher) that allows you to quickly search for and launch any installed app (or even the app settings) you need... 
-
- Thanks to myriad configuration options, Xfce can be a bit daunting. At the same time, the arr…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lithium Extraction Gets Faster and Maybe Greener, Too]]></title>
-        <id>https://hardware.slashdot.org/story/24/01/07/1922241/lithium-extraction-gets-faster-and-maybe-greener-too?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/24/01/07/1922241/lithium-extraction-gets-faster-and-maybe-greener-too?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-07T19:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Long-time Slashdot reader xetdog shared this report from IEEE Spectrum:
-
-
-High in the Andes mountains where the borders of Argentina, Bolivia, and Chile intersect, white expanses of salt stretch for thousands of kilometers. Under these flats lie reservoirs of brine that contain upwards of 58% of the world's lithium. For decades, producers have extracted that lithium by pumping the water up to the surface and letting it evaporate until the lithium salts become concentrated enough to filter out. The process takes 12 to 18 months, leaving behind piles of waste containing other metals. It also evaporates nearly 2 million liters of local water resources, harming indigenous communities. 
-
-To keep up, many companies are now developing processes to chemically or physically filter out lithium from brines and inject the brine back underground. These direct lithium extraction (DLE) technologies take hours instead of months and could double the production of lithium from existing brine operations. Much as shale extraction did for oil, DLE is a "potential game-changing technology for lithium supply," because it could unlock new sources of lithium, according to a recent report by Goldman Sachs. But in contrast to shale's fracking risks, DLE brings environmental benefits, reducing land and water use, and waste... 
-In China, a handful of commercial projects already use Chinese DLE innovator Sunresin's technology.
- 
-More than 12 startups are pursuing new DLE processes, according to the article, "with the intent of commercial production as early as 2025." 
-
-And America's Department of Energy is also investing millions of dollars in new DLE tech "to extract lithium from geothermal brines in the U.S., such as the Salton Sea in California, which the National Renewable Energy Laboratory estimates could provide over 24,000 metric tons of lithium a year."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ask Slashdot:  Does Anyone Still Use Ogg Vorbis Format?]]></title>
-        <id>https://entertainment.slashdot.org/story/24/01/07/0236224/ask-slashdot-does-anyone-still-use-ogg-vorbis-format?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://entertainment.slashdot.org/story/24/01/07/0236224/ask-slashdot-does-anyone-still-use-ogg-vorbis-format?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-07T18:34:00.000Z</updated>
-        <summary type="html"><![CDATA[23 years ago, Slashdot interviewed Chris Montgomery about his team's new Ogg Vorbis audio format. 
-But Slashdot reader joshuark admits when he first heard the name, it reminded him of the mushroom underworld in The Secret World of Og.
-
-I've downloaded videos from the Internet Archive, and one format is the OGG or Ogg Vorbis player format. I just was wondering with other formats, is Ogg still used anymore after approximately 20-years? 
-
-I'm not commenting on good/bad/whatever about the format, just is it still in use, relevant anymore? 
-
-The nonprofit Xiph.Org Foundation (which develops Orbis Vogg) started work in 2007 on the high-quality/low-delay format Opus, which their FAQ argues "theoretically" makes other lossy codecs obsolete. "From technical point of view (loss, delay, bitrates...) it can replace both Vorbis and Speex, and the common proprietary codecs too." 
-
-But elsewhere Xiph.org points out that "The bitstream format for Vorbis I was frozen Monday, May 8th 2000. All bitstreams encoded since will remain compatible with all future releases of Vorbis." So how is that playing out in 2024? Share your own thoughts in the comments. 
-
-Does anyone still use Ogg Vorbis format?
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pessimism is on the retreat]]></title>
-        <id>https://world.hey.com/dhh/pessimism-is-on-the-retreat-e67dbd7e</id>
-        <link href="https://world.hey.com/dhh/pessimism-is-on-the-retreat-e67dbd7e"/>
-        <updated>2024-01-07T18:06:42.000Z</updated>
-        <summary type="html"><![CDATA[I feel it in the feed. I feel it in the discourse. I smell it in the vibes. 
-Much of the pessimism that once was is lost, for none now wish to remember it.
-
-We’ve lived through some strange years in the recent past. Much stranger than any I can remember since my earliest, solid memories of the broader world from the mid-80s.
-I’m not going to rehash the pandemic, Trump, wokeness, social media, or any of the many other perceived or real causes. I’m just going to remark that it’s been weird.
-But not universally weird. Not hippie weird, for example. Not dreaming broadly of a better world, singing songs, smoking mild pot, and submitting to flower power weird. No, a pessimistic weird. An everything-sucks-all-the-time-and-there’s-nothing-to-do-about-it weird. A depressing, nihilistic, no-end-in-s…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An AI-powered Holographic Elvis Concert is Coming to Las Vegas (and the UK)]]></title>
-        <id>https://entertainment.slashdot.org/story/24/01/06/2320220/an-ai-powered-holographic-elvis-concert-is-coming-to-las-vegas-and-the-uk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://entertainment.slashdot.org/story/24/01/06/2320220/an-ai-powered-holographic-elvis-concert-is-coming-to-las-vegas-and-the-uk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-07T17:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Elvis Presley "will be stepping into his blue suede shoes once again..." according to an article in TheStreet, "thanks to the power of artificial intelligence."
-
-The legendary singer from Tupelo, Mississippi, is set to thrill audiences in "Elvis Evolution," an "immersive concert experience" that uses AI and holographic projection. The show will debut in London in November. But if you can't make it to England, that's all right, mama, that's all right for you, because additional shows are slated for Berlin, Tokyo and Las Vegas, where Presley had a seven-year residency from 1969 to 1976. 
-
- "Man, I really like Vegas," he once reportedly said. The British immersive entertainment company Layered Reality partnered with Authentic Brands Group, which owns the rights to Elvis' image, to create the event. 
-
-"The show peaks with a concert experience that will recreate the seismic impact of seeing Elvis live for a whole new generation of fans, blurring the lines between reality and fantasy," Layered Reality said on its website. "A life-sized digital Elvis will share his most iconic songs and moves for the very first time on a UK stage." The company previously made immersive experiences based on the Gunpowder Plot of 1605 and "The War of The Worlds."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Whatever Happened to the Surviving Apollo Astronauts?]]></title>
-        <id>https://science.slashdot.org/story/24/01/07/0436200/whatever-happened-to-the-surviving-apollo-astronauts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/24/01/07/0436200/whatever-happened-to-the-surviving-apollo-astronauts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-07T16:34:00.000Z</updated>
-        <summary type="html"><![CDATA[The BBC checks in on "the pioneers of space exploration — the 24 Nasa astronauts who travelled to the Moon in the Apollo missions of the 1960s and 1970s."
-
-Ken Mattingly and Frank Borman died within a few days of each other late last year. Now only eight people who have voyaged beyond the Earth's orbit remain. Who are they, and what are their stories...? There are only four people still alive who have walked on the Moon — Charlie Duke is one of them. He did it aged 36, making him the youngest person to set foot on the lunar surface... Charlie Duke now lives outside San Antonio, Texas, with Dorothy, to whom he has been married for 60 years.... 
-
-Jim Lovell is one of only three men to have travelled to the Moon twice, and following Frank Borman's death in November 2023, he became the oldest living astronaut.... 
-
-After leaving Nasa in 1975, [Harrison Schmitt] was elected to the U.S. Senate from his home state of New Mexico, but only served one term. Since then he has worked as a consultant in various industries as well as continuing in academia. 
-
-And when confronted by a man claiming Apollo 11 was an elaborate lie, 72-year-old Buzz Aldrin "punched him on the jaw."
-
-Despite struggles in later life, he never lost his thirst for adventure and joined expeditions to both the North and South Poles, the latter at the age of 86. While embracing his celebrity, he has remained an advocate for the space programme, especially the need to explore Mars. 
-
-"I don't think we should just go there and come back — we did that with Apollo," he says. 
- Last 93-year-old Buzz Aldrin got married — and thanked his fans for remembering his birthday. "It means a lot and I hope to continue serving a greater cause for many more revolutions around the sun."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What's Next for Mozilla - and for Open Source AI?]]></title>
-        <id>https://tech.slashdot.org/story/24/01/06/0459224/whats-next-for-mozilla---and-for-open-source-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/01/06/0459224/whats-next-for-mozilla---and-for-open-source-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-07T15:34:00.000Z</updated>
-        <summary type="html"><![CDATA["For the last few years, Mozilla has started to look beyond Firefox," writes TechCrunch, citing startup investments like Mastodon's client Mammoth and the Fakespot browser extension that helps identify fake reviews. But Mozilla has also launched Mozilla.ai (added a bunch of new AI-focused members to its board). 
-
-In an interview with TechCrunch, Mozilla's president and executive director Mark Surman clarifies their plans, saying that Mozilla.ai "had a broad mandate around finding open source, trustworthy AI opportunities and build a business around them."
-"Quickly, Moez [Draief], who runs it, made it about how do we leverage the growing snowball of open source large language models and find a way to both accelerate that snowball but also make sure it rolls in a direction that matches our g…]]></summary>
-        <author>
-            <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Keeping the lights on while leaving the cloud]]></title>
-        <id>https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67</id>
-        <link href="https://world.hey.com/dhh/keeping-the-lights-on-while-leaving-the-cloud-be7c2d67"/>
-        <updated>2024-01-07T13:42:19.000Z</updated>
-        <summary type="html"><![CDATA[It was a big year for ops at 37signals. In 2023, we moved seven major applications out of the cloud. Including HEY, our email service, which had been born there, and has an extremely high level of uptime criticality. Moving out of the cloud could not interfere with that obligation, and thankfully it did not. In 2023, HEY had a stellar uptime of 99.99%!
-That’s really important, because if people can’t get to their emails, they might not be able to check-in for their flight, close on a time-sensitive deal, or learn the results of a medical test. We take that responsibility very seriously. So hitting the hallowed four nines in a year when everything had to change about how we run HEY is a major accomplishment that makes me proud.
-But it wasn’t just HEY that got the diligent ops treatment. Eve…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
         </author>
     </entry>
 </feed>
