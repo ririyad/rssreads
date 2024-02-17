@@ -183,16 +183,6 @@
           "wordCount": 745,
           "title": "Campfire is ONCE #1",
           "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
-        },
-        {
-          "id": "https://world.hey.com/dhh/microsoft-taught-apple-nothing-592d398d",
-          "author": null,
-          "description": "Apple is protecting its App Store racket with the same kind of indignant entitlement that characterized Microsoft during its darkest monopoly days. They’re in full “cut off the air supply” mode in Cupertino, pursuing Epic for a $73m legal bill in a lawsuit they partially lost. But the red mist of vindictiveness is blinding Apple’s view of history, and making them repeat the mistakes it took Microsoft two decades to undo.\nIt’s the ultimate monopoly irony too. Apple owes its entire modern existence to the fact that the DOJ was breathing down Microsoft’s neck in the late 90s. This legal threat made Microsoft desperate to prop up a semi-credible alternative to their Windows and Office monopolies, and Apple fit the bill perfectly. A basket case of a company, with an irrelevant, shrinking market…",
-          "link": "https://world.hey.com/dhh/microsoft-taught-apple-nothing-592d398d",
-          "publishedOn": "2024-01-17T19:09:23.000Z",
-          "wordCount": 593,
-          "title": "Microsoft taught Apple nothing",
-          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
         }
       ]
     },
@@ -535,6 +525,26 @@
       "siteUrl": "https://taylor.town/feed.xml",
       "articles": [
         {
+          "id": "https://taylor.town/town-hall-0020",
+          "author": null,
+          "description": "Guns, guns, and germs.",
+          "link": "https://taylor.town/town-hall-0020",
+          "publishedOn": "2024-02-17T00:00:00.000Z",
+          "wordCount": 938,
+          "title": "Town Hall #20: Pinball",
+          "imageUrl": null
+        },
+        {
+          "id": "https://taylor.town/compress-code",
+          "author": null,
+          "description": "Cut out everything that's not surprising.",
+          "link": "https://taylor.town/compress-code",
+          "publishedOn": "2024-02-16T00:00:00.000Z",
+          "wordCount": 830,
+          "title": "Clean your codebase with basic information theory",
+          "imageUrl": null
+        },
+        {
           "id": "https://taylor.town/xml-sql",
           "author": null,
           "description": "I hate SQL. Its verbose, inconsistent syntax feels like bathing in strangers' vomit.",
@@ -681,6 +691,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://apple.slashdot.org/story/24/02/16/229223/apple-readies-ai-tool-to-rival-microsofts-github-copilot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to Bloomberg (paywalled), Apple plans to release a generative AI tool for iOS app developers as early as this year. Insider reports: The tech giant is working on a tool that will use artificial intelligence to write code as part of its plans to expand the capabilities of Xcode, the company's main programming software. The revamped system will compete withÂMicrosoft's GitHub Copilot, which sources say operates similarly. Apple is also working on an AI tool that will generate code to test apps, which could provide potential time savings for a process that's known to be tedious. Currently, Apple is urging some engineers to test these new AI features to ensure they work before releasing them externally to developers. [...]\n \nThe tech giant, Bloomberg has learned, has plans to integrate AI features into its next software updates for its iPhone and iPad known internally as Crystal. Glow, another internal AI project, is slated to be added to MacOS. The company is also building features that will generate Apple Music playlists and slideshows, according to the outlet. An AI-powered search feature titled Spotlight, currently limited to answering questions around launching apps, is in the works as well, Bloomberg reported.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/02/16/229223/apple-readies-ai-tool-to-rival-microsofts-github-copilot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T00:45:00.000Z",
+          "wordCount": 3919,
+          "title": "Apple Readies AI Tool To Rival Microsoft's GitHub Copilot",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/02/16/2142250/new-gold-pickaxe-android-ios-malware-steals-your-face-for-fraud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from BleepingComputer: A new iOS and Android trojan named 'GoldPickaxe' employs a social engineering scheme to trick victims into scanning their faces and ID documents, which are believed to be used to generate deepfakes for unauthorized banking access. The new malware, spotted by Group-IB, is part of a malware suite developed by the Chinese threat group known as 'GoldFactory,' which is responsible for other malware strains such as 'GoldDigger', 'GoldDiggerPlus,' and 'GoldKefu.' Group-IB says its analysts observed attacks primarily targeting the Asia-Pacific region, mainly Thailand and Vietnam. However, the techniques employed could be effective globally, and there's a danger of them getting adopted by other malware strains. [...]\n \nFor iOS (iPhone) user…",
+          "link": "https://yro.slashdot.org/story/24/02/16/2142250/new-gold-pickaxe-android-ios-malware-steals-your-face-for-fraud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T00:02:00.000Z",
+          "wordCount": 4184,
+          "title": "New 'Gold Pickaxe' Android, iOS Malware Steals Your Face For Fraud",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/02/16/2134215/algebra-to-return-to-san-francisco-middle-schools-this-fall?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "After a 6-1 vote by the district board, San Francisco middle schools will teach Algebra I again this fall. Axios reports: Roughly a third of SFUSD middle schools this fall will begin offering the course to eighth graders at about a third of its 13 middle schools as well as six of its K-8 schools, the San Francisco Chronicle reports. Students at other campuses will have access to the course via online classes or summer school while their schools take three years to make the transition. Those eighth graders will otherwise have to wait until high school to take the course.\n \nDistrict officials plan to evaluate the best way to enroll students throughout the district in a pilot at the first schools this fall. The first approach would be to enroll all eighth graders. The second would prioritize students' interest or readiness. The third would give students the option of taking Algebra I on top of current eighth-grade math curricula.\n \nThe 6-1 vote by the San Francisco Unified School District board Tuesday followed a decadelong battle over eighth graders' access to higher-level math courses and a larger debate over academic opportunity and equity in math performance. SFUSD previously taught eighth-grade algebra. But in 2014, the board voted to wait until high school to try to address racial gaps that had emerged as some students moved quicker to advanced math classes. Studies have shown that inequities including socioeconomic status, language differences and implicit bias often impede Black and Latino students' educational pursuits and result in lower rates of enrollment in higher-level classes. Yes, but: Stanford researchers found last year that large racial and ethnic gaps in advanced math enrollment persisted even after the policy change.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/02/16/2134215/algebra-to-return-to-san-francisco-middle-schools-this-fall?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T23:20:00.000Z",
+          "wordCount": 5259,
+          "title": "Algebra To Return To San Francisco Middle Schools This Fall",
+          "imageUrl": "https://a.fsdn.com/sd/topics/math_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/02/16/2128205/microsoft-retires-azure-iot-central-in-platform-rethink?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Lindsay Clark reports via The Register: In a statement on the Azure console, Microsoft confirmed the Azure IoT Central service is being retired on March 31, 2027. \"Starting on April 1, 2024, you won't be able to create new application resources; however, all existing IoT Central applications will continue to function and be managed. Subscription {{subscriptionld} is not allowed to create new applications. Please create a support ticket to request an exception,\" the statement to customers, seen by The Register, said. According to a Microsoft \"Learn\" post from February 8, 2024, IoT Central is an IoT application platform as a service (aPaaS) designed to reduce work and costs while building, managing, and maintaining IoT solutions.\n \nMicrosoft's Azure IoT offering includes three pillars: IoT Hub, IoT Edge and IoT Central. IoT Hub is a cloud-based service that provides a \"secure and scalable way to connect, monitor, and manage IoT devices and sensors,\" according to Microsoft. Azure IoT Edge is designed to allow devices to run cloud-based workloads locally. And Azure IoT Central is a fully managed, cloud-based IoT solution for connecting and managing devices at scale. Central is a layer above Hub in the architecture, and Hub itself may well continue. One developer told The Register there was no warning about Hub on the Azure console. As for IoT Edge, it is \"a device-focused runtime that enables you to deploy, run, and monitor containerized Linux workloads.\" Microsoft has not said whether this would continue.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/02/16/2128205/microsoft-retires-azure-iot-central-in-platform-rethink?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T22:40:00.000Z",
+          "wordCount": 3962,
+          "title": "Microsoft 'Retires' Azure IoT Central In Platform Rethink",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/02/16/2120252/apple-unbanned-epic-so-it-can-make-an-ios-games-store-in-the-eu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from The Verge: Epic is one step closer to opening its iOS games store in the European Union. As part of its 2023 year in review, Epic Games announced Apple has reinstated its developer account, which means it will finally be able to let users download Fortnite on iPhones again. Epic first announced plans to bring its game store and Fortnite to iOS in January, but it wasn't clear whether Apple would grant it a developer account.\n \nIn 2020, Apple pulled Epic's developer account after the company began using its own in-app payment option in the iOS version of Fortnite, sparking a lengthy legal battle over whether Apple's behavior was anticompetitive. But even after the trial ended, and neither company emerged a clear winner, Apple still refused to reinstate Epic's developer account. Things are changing now that the EU has implemented the Digital Markets Act (DMA). The new rules force Apple to open up its iOS ecosystem to third-party app stores in the EU. Epic Games says it plans to open its iOS storefront in the EU this year. \"I'll be the first to acknowledge a good faith move by Apple amidst our cataclysmic antitrust battle, in granting Epic Games Sweden AB a developer account for operating Epic Games Store and Fortnite in Europe under the Digital Markets Act,\" Sweeney says in a post on X.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/02/16/2120252/apple-unbanned-epic-so-it-can-make-an-ios-games-store-in-the-eu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T22:00:00.000Z",
+          "wordCount": 4474,
+          "title": "Apple Unbanned Epic So It Can Make an iOS Games Store In the EU",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ios_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/16/1711253/ny-governor-wants-to-criminalize-deceptive-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "New York Gov. Kathy Hochul is proposing legislation that would criminalize some deceptive and abusive uses of AI and require disclosure of AI in election campaign materials, her office told Axios. From the report: Hochul's proposed laws include establishing the crime of \"unlawful dissemination or publication of a fabricated photographic, videographic, or audio record.\" Making unauthorized uses of a person's voice \"in connection with advertising or trade\" a misdemeanor offense. Such offenses are punishable by up to one year jail sentence.\nExpanding New York's penal law to include unauthorized uses of artificial intelligence in coercion, criminal impersonation and identity theft. \n\nAmending existing intimate images and revenge porn statutes to include \"digital images\" -- ranging from realistic Photoshop-produced work to advanced AI-generated content. Codifying the right to sue over digitally manipulated false images. Requiring disclosures of AI use in all forms of political communication \"including video recording, motion picture, film, audio recording, electronic image, photograph, text, or any technological representation of speech or conduct\" within 60 days of an election.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/16/1711253/ny-governor-wants-to-criminalize-deceptive-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T21:20:00.000Z",
+          "wordCount": 6045,
+          "title": "NY Governor Wants To Criminalize Deceptive AI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/16/1751240/no-gpt-trademark-for-openai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. Patent and Trademark Office has denied OpenAI's attempt to trademark \"GPT,\" ruling that the term is \"merely descriptive\" and therefore unable to be registered. From a report: [...] The name, according to the USPTO, doesn't meet the standards to register for a trademark and the protections a \"TM\" after the name affords. (Incidentally, they refused once back in October, and this is a \"FINAL\" in all caps denial of the application.) As the denial document puts it: \"Registration is refused because the applied-for mark merely describes a feature, function, or characteristic of applicant's goods and services.\" \n\nOpenAI argued that it had popularized the term GPT, which stands in this case for \"generative pre-trained transformer,\" describing the nature of the machine learning model. It's generative because it produces new (ish) material, pre-trained in that it is a large model trained centrally on a proprietary database, and transformer is the name of a particular method of building AIs (discovered by Google researchers in 2017) that allows for much larger models to be trained. But the patent office pointed out that GPT was already in use in numerous other contexts and by other companies in related ones.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/16/1751240/no-gpt-trademark-for-openai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T20:42:00.000Z",
+          "wordCount": 4741,
+          "title": "No 'GPT' Trademark For OpenAI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/02/16/1721229/epic-chief-suspects-apple-broke-iphone-web-apps-in-eu-for-anticompetitive-reasons?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple is officially cutting support for progressive web apps for iPhone users in the European Union. While web apps have been broken for EU users in every iOS 17.4 beta so far, Apple has confirmed that this is a feature, not a bug. Commenting on Apple's move, Epic CEO Tim Sweeney tweeted: I suspect Apple's real reason for killing PWAs is the realization that competing web browsers could do a vastly better job of supporting PWAs -- unlike Safari's intentionally crippled web functionality -- and turn PWAs into legit, untaxed competitors to native apps.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/02/16/1721229/epic-chief-suspects-apple-broke-iphone-web-apps-in-eu-for-anticompetitive-reasons?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T20:00:00.000Z",
+          "wordCount": 9042,
+          "title": "Epic Chief Suspects Apple Broke iPhone Web Apps in EU For Anticompetitive Reasons",
+          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/16/1715200/doj-quietly-removed-russian-malware-from-routers-in-us-homes-and-businesses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: More than 1,000 Ubiquiti routers in homes and small businesses were infected with malware used by Russian-backed agents to coordinate them into a botnet for crime and spy operations, according to the Justice Department. That malware, which worked as a botnet for the Russian hacking group Fancy Bear, was removed in January 2024 under a secret court order as part of \"Operation Dying Ember,\" according to the FBI's director. It affected routers running Ubiquiti's EdgeOS, but only those that had not changed their default administrative password. Access to the routers allowed the hacking group to \"conceal and otherwise enable a variety of crimes,\" the DOJ claims, including spearphishing and credential harvesting in the US and abroad. \n\nUnlike previous attacks by Fancy Bear -- that the DOJ ties to GRU Military Unit 26165, which is also known as APT 28, Sofacy Group, and Sednit, among other monikers -- the Ubiquiti intrusion relied on a known malware, Moobot. Once infected by \"Non-GRU cybercriminals,\" GRU agents installed \"bespoke scripts and files\" to connect and repurpose the devices, according to the DOJ. The DOJ also used the Moobot malware to copy and delete the botnet files and data, according to the DOJ, and then changed the routers' firewall rules to block remote management access. During the court-sanctioned intrusion, the DOJ \"enabled temporary collection of non-content routing information\" that would \"expose GRU attempts to thwart the operation.\" This did not \"impact the routers' normal functionality or collect legitimate user content information,\" the DOJ claims. \"For the second time in two months, we've disrupted state-sponsored hackers from launching cyber-attacks behind the cover of compromised US routers,\" said Deputy Attorney General Lisa Monaco in a press release.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/16/1715200/doj-quietly-removed-russian-malware-from-routers-in-us-homes-and-businesses?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T19:20:00.000Z",
+          "wordCount": 8199,
+          "title": "DOJ Quietly Removed Russian Malware From Routers in US Homes and Businesses",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/02/16/1812232/microsoft-google-meta-x-and-others-pledge-to-prevent-ai-election-interference?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Twenty tech companies working on AI said Friday they had signed a \"pledge\" to try to prevent their software from interfering in elections, including in the United States. From a report: The signatories range from tech giants such as Microsoft and Google to a small startup that allows people to make fake voices -- the kind of generative-AI product that could be abused in an election to create convincing deepfakes of a candidate. The accord is, in effect, a recognition that the companies' own products create a lot of risk in a year in which 4 billion people around the world are expected to vote in elections. \n\n\"Deceptive AI Election content can deceive the public in ways that jeopardize the integrity of electoral processes,\" the document reads. The accord is also a recognition that lawmakers around the world haven't responded very quickly to the swift advancements in generative AI, leaving the tech industry to explore self-regulation. \"As society embraces the benefits of AI, we have a responsibility to help ensure these tools don't become weaponized in elections,\" Brad Smith, vice chair and president of Microsoft, said in a statement. The 20 companies to sign the pledge are: Adobe, Amazon, Anthropic, Arm, ElevenLabs, Google, IBM, Inflection AI, LinkedIn, McAfee, Meta, Microsoft, Nota, OpenAI, Snap, Stability AI, TikTok, TrendMicro, Truepic and X.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/02/16/1812232/microsoft-google-meta-x-and-others-pledge-to-prevent-ai-election-interference?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T18:40:00.000Z",
+          "wordCount": 7039,
+          "title": "Microsoft, Google, Meta, X and Others Pledge To Prevent AI Election Interference",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/16/1545225/amazon-joins-companies-arguing-us-labor-board-is-unconstitutional?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Amazon has joined rocket maker SpaceX and grocery chain Trader Joe's in claiming that a U.S. labor agency's in-house enforcement proceedings violate the U.S. Constitution, as the retail giant faces scores of cases claiming it interfered with workers' rights to organize. From a report: Amazon in a filing made with the National Labor Relations Board (NLRB) on Thursday said it plans to argue that the agency's unique structure violates the company's right to a jury trial. The company also said that limits on the removal of administrative judges and the board's five members, who are appointed by the president, are unconstitutional. The filing came in a pending case accusing Amazon of illegally retaliating against workers at a warehouse in the New York City borough of Staten Island, where employees voted to unionize in 2022.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/16/1545225/amazon-joins-companies-arguing-us-labor-board-is-unconstitutional?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T18:00:00.000Z",
+          "wordCount": 11759,
+          "title": "Amazon Joins Companies Arguing US Labor Board is Unconstitutional",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/02/16/178208/rfk-jr-wins-deferred-injunction-in-vax-social-media-suit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "schwit1 writes: Robert F. Kennedy Jr. won a preliminary injunction against the White House and other federal defendants in his suit alleging government censorship of his statements against vaccines on social media. The injunction, however, will be stayed until the US Supreme Court rules in a related case brought by Missouri and Louisiana. An injunction is warranted because Kennedy showed he is likely to succeed on the merits of his claims, Judge Terry A. Doughty of the US District Court for the Western District of Louisiana said Wednesday. \n\nThe White House defendants, the Surgeon General defendants, the Centers for Disease Control and Prevention defendants, the Federal Bureau of Investigation defendants, and the Cybersecurity & Infrastructure Security Agency defendants likely violated the Free Speech Clause of the First Amendment, Doughty said. Kennedy's class action complaint, brought with health care professional Connie Sampognaro and Kennedy's nonprofit, Children's Health Defense, alleges that the federal government, beginning in early 2020, began a campaign to induce Facebook, Google (YouTube), and X, formerly known as Twitter, to censor constitutionally protected speech. \n\nSpecifically, Kennedy said, the government suppressed \"facts and opinions about the COVID vaccines that might lead people to become 'hesitant' about COVID vaccine mandates.\" Kennedy has sufficiently shown that these defendants \"jointly participated in the actions of the social media\" platforms by '\"insinuating' themselves into the social-media companies' private affairs and blurring the line between public and private action,\" Doughty said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/02/16/178208/rfk-jr-wins-deferred-injunction-in-vax-social-media-suit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T17:20:00.000Z",
+          "wordCount": 13101,
+          "title": "RFK Jr. Wins Deferred Injunction In Vax Social Media Suit",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/02/16/1511234/eu-expands-digital-crackdown-on-toxic-content-dodgy-goods-to-all-online-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The European Union is expanding its strict digital rulebook on Saturday to almost all online platforms in the bloc, in the next phase of its crackdown on toxic social media content and dodgy ecommerce products that began last year by targeting the most popular services. From a report: The EU's trailblazing Digital Services Act has already kicked in for nearly two dozen of the biggest online platforms, including Facebook, Instagram, YouTube, Amazon and Wikipedia. The DSA imposes a set of strict requirements designed to keep internet users safe online, including making it easier to report counterfeit or unsafe goods or flag harmful or illegal content like hate speech as well as a ban on ads targeted at children. \n\nNow the rules will apply to nearly all online platforms, marketplaces and \"intermediaries\" with users in the 27-nation bloc. Only the smallest businesses, with fewer than 50 employees and annual revenue of less than 10 million euros ($11 million), are exempt. That means thousands more websites could potentially be covered by the regulations. It includes popular ones such as eBay and OnlyFans that escaped being classed as the biggest online platforms requiring extra scrutiny.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/02/16/1511234/eu-expands-digital-crackdown-on-toxic-content-dodgy-goods-to-all-online-platforms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T16:40:00.000Z",
+          "wordCount": 7011,
+          "title": "EU Expands Digital Crackdown on Toxic Content, Dodgy Goods To All Online Platforms",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/24/02/16/164217/nginx-core-developer-quits-project-says-he-no-longer-sees-nginx-as-free-and-open-source-project-for-the-public-good?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A core developer of Nginx, currently the world's most popular web server, has quit the project, stating that he no longer sees it as \"a free and open source project... for the public good.\" From a report: His fork, freenginx, is \"going to be run by developers, and not corporate entities,\" writes Maxim Dounin, and will be \"free from arbitrary corporate actions.\" Dounin is one of the earliest and still most active coders on the open source Nginx project and one of the first employees of Nginx, Inc., a company created in 2011 to commercially support the steadily growing web server. Nginx is now used on roughly one-third of the world's web servers, ahead of Apache. \n\nNginx Inc. was acquired by Seattle-based networking firm F5 in 2019. Later that year, two of Nginx's leaders, Maxim Konovalov an…",
+          "link": "https://developers.slashdot.org/story/24/02/16/164217/nginx-core-developer-quits-project-says-he-no-longer-sees-nginx-as-free-and-open-source-project-for-the-public-good?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T16:04:00.000Z",
+          "wordCount": 7578,
+          "title": "Nginx Core Developer Quits Project, Says He No Longer Sees Nginx as 'Free and Open Source Project For the Public Good'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/cloud_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/02/16/1524250/openais-spectacular-video-tool-is-shrouded-in-mystery?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Every OpenAI release elicits awe and anxiety as capabilities advance, evident in Sora's strikingly realistic AI-generated video clips that went viral while unsettling industries reliant on original footage. But the company is again being secretive in all the wrong places about AI that can be used to spread misinformation. From a report: As usual, OpenAI won't talk about the all-important ingredients that went into this new tool, even as it releases it to an array of people to test before going public. Its approach should be the other way around. OpenAI needs to be more public about the data used to train Sora, and more secretive about the tool itself, given the capabilities it has to disrupt industries and potentially elections. OpenAI Chief Executive Officer Sam Altman said that red-teaming of Sora would start on Thursday, the day the tool was announced and shared with beta testers. Red-teaming is when specialists test an AI model's security by pretending to be bad actors who want to hack or misuse it. The goal is to make sure the same can't happen in the real world. When I asked OpenAI how long it would take to run these tests on Sora, a spokeswoman said there was no set length. \"We will take our time to assess critical areas for harms or risks,\" she added. \n\nThe company spent about six months testing GPT-4, its most recent language model, before releasing it last year. If it takes the same amount of time to check Sora, that means it could become available to the public in August, a good three months before the US election. OpenAI should seriously consider waiting to release it until after voters go to the polls. [...] OpenAI is meanwhile being frustratingly secretive about the source of the information it used to create Sora. When I asked the company about what datasets were used to train the model, a spokeswoman said the training data came \"from content we've licensed, and publicly available content.\" She didn't elaborate further.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/02/16/1524250/openais-spectacular-video-tool-is-shrouded-in-mystery?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-16T15:25:00.000Z",
+          "wordCount": 5952,
+          "title": "OpenAI's Spectacular Video Tool Is Shrouded in Mystery",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
         {
           "id": "https://yro.slashdot.org/story/24/02/15/2228254/leaked-emails-show-hugo-awards-self-censoring-to-appease-china?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4900,156 +5060,6 @@
           "wordCount": 4911,
           "title": "OpenAI Announces First Partnership With a University",
           "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
-        },
-        {
-          "id": "https://meta.slashdot.org/story/24/01/18/0049203/sheryl-sandberg-to-exit-metas-board-after-12-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to Axios, former Meta chief operating officer Sheryl Sandberg plans to leave Meta's board of directors after holding a seat for the past 12 years. From the report: \"With a heart filled with gratitude and a mind filled with memories, I let the Meta board know that I will not stand for reelection this May,\" Sandberg wrote In a Facebook post announcing her departure. \"After I left my role as COO, I remained on the board to help ensure a successful transition,\" Sandberg said. Acknowledging CEO Mark Zuckerberg's leadership, Sandberg said he and Meta's current leadership team \"have proven beyond a doubt that the Meta business is strong and well-positioned for the future, so this feels like the right time to step away.\" \"I will always be grateful to Mark for believing in me and for his partnership and friendship; he is that truly once-in-a-generation visionary leader and he is equally amazing as a friend who stays by your side through the good times and the bad,\" Sandberg added. She also expressed gratitude to her colleagues and teammates at Meta as well as Meta's board members.\n \nSandberg left the company she helped build as an executive in September 2022 after 14 years. She remained on Meta's board following her departure, a seat she held for the past 12 years. In announcing her departure, Sandberg said she aimed to focus on more philanthropic work. In the time since leaving the company as an executive, she has focused more her time on her women's leadership philanthropy, Lean In. More recently, Sandberg has also focused on the conversation around rape and sexual violence as a weapon of war, particularly as it pertains to the Israel-Hamas conflict. Axios notes that Meta's revenue \"grew 43,000% from $272 million in 2008 to nearly $118 billion in 2021\" under Sandberg's business leadership.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://meta.slashdot.org/story/24/01/18/0049203/sheryl-sandberg-to-exit-metas-board-after-12-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T01:00:00.000Z",
-          "wordCount": 4019,
-          "title": "Sheryl Sandberg To Exit Meta's Board After 12 Years",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/24/01/18/0027214/apple-again-banned-from-selling-watches-in-us-with-blood-oxygen-sensor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "A U.S. Court of Appeals said Apple will again be barred from selling the Apple Watch Series 9 and Ultra 2 beginning Thursday. These models both contain a blood oxygen sensor that infringes on the intellectual property of medical device company Masimo.\n \n\"The court order Wednesday did not rule on Apple's effort to overturn a U.S. International Trade Commission ban on the company selling the affected watches in the United States,\" notes CNBC. \"But it lifted an injunction that had blocked the ban from taking effect while that appeal is pending.\" From the report: In December, Apple chose to briefly remove the affected watches from its online and retail stores, though retailers with those devices in stock may still sell them. Earlier this week, court filings suggested that Apple had received approval from U.S. Customs for a modified version of its Apple Watches that lack the blood oxygen feature and therefore no longer infringe on Masimo's intellectual property. It could open a path for a modified Apple Watch to return to U.S. store shelves.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/24/01/18/0027214/apple-again-banned-from-selling-watches-in-us-with-blood-oxygen-sensor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T00:45:00.000Z",
-          "wordCount": 3934,
-          "title": "Apple Again Banned From Selling Watches In US With Blood Oxygen Sensor",
-          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/24/01/17/2155223/harmonix-is-ending-rock-band-dlc-releases-after-16-years-2800-songs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Since launching in 2007, Harmonix's Rock Band has released over 2,800 DLC songs to keep its rhythm game fresh. Now, Harmonix has announced the last of the series' releases will arrive on January 25, \"marking the end of a nearly 16-year era in music gaming history,\" reports Ars Technica. From the report: Previously purchased DLC songs will still be playable in Rock Band 4, Harmonix's Daniel Sussman writes in an announcement post. Rock Band 4 live services, including online play, will also continue as normal, after online game modes for earlier Rock Band games were finally shut down in late 2022. \"Taking a longer look back, I see the Rock Band DLC catalog as a huge achievement in persistence and commitment,\" Sussman writes. \"Over the years we've cleared, authored and released nearly 3,000 so…",
-          "link": "https://games.slashdot.org/story/24/01/17/2155223/harmonix-is-ending-rock-band-dlc-releases-after-16-years-2800-songs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T00:02:00.000Z",
-          "wordCount": 4092,
-          "title": "Harmonix Is Ending Rock Band DLC Releases After 16 Years, 2,800 Songs",
-          "imageUrl": "https://a.fsdn.com/sd/topics/music_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/01/17/2143249/google-deepminds-new-ai-system-can-solve-complex-geometry-problems?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from MIT Technology Review: Google DeepMind has created an AI system that can solve complex geometry problems. It's a significant step towards machines with more human-like reasoning skills, experts say. Geometry, and mathematics more broadly, have challenged AI researchers for some time. Compared with text-based AI models, there is significantly less training data for mathematics because it is symbol driven and domain specific, says Thang Wang, a coauthor of the research, which is published in Nature today. Solving mathematics problems requires logical reasoning, something that most current AI models aren't great at. This demand for reasoning is why mathematics serves as an important benchmark to gauge progress in AI intelligence, says Wang.\n \nDeepMind'…",
-          "link": "https://science.slashdot.org/story/24/01/17/2143249/google-deepminds-new-ai-system-can-solve-complex-geometry-problems?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T23:20:00.000Z",
-          "wordCount": 4449,
-          "title": "Google DeepMind's New AI System Can Solve Complex Geometry Problems",
-          "imageUrl": "https://a.fsdn.com/sd/topics/math_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/01/17/1655232/cancer-deaths-are-falling-but-there-may-be-an-asterisk?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Cancer deaths in the United States are falling, with four million deaths prevented since 1991, according to the American Cancer Society's annual report. At the same time, the society reported that the number of new cancer cases had ticked up to more than two million in 2023, from 1.9 million in 2022. The New York Times: Cancer remains the second leading cause of death in the United States, after heart disease. Doctors believe that it is urgent to understand changes in the death rate, as well as changes in cancer diagnoses. The cancer society highlighted three chief factors in reduced cancer deaths: declines in smoking, early detection and greatly improved treatments. Breast cancer mortality is one area where treatment had a significant impact. In the 1980s and 1990s, metastatic breast cancer \"was regarded as a death sentence,\" said Donald Berry, a statistician at the University of Texas MD Anderson Cancer Center and an author of a new paper on breast cancer with Sylvia K. Plevritis of Stanford University and other researchers (several authors of the paper reported receiving payments from companies involved in cancer therapies). \n\nThe paper, published Tuesday in JAMA, found that the death rate from breast cancer had fallen to 27 per 100,000 women in 2019 from 48 per 100,000 in 1975. That includes metastatic cancer, which counted for nearly 30 percent of the reduction in the breast cancer death rate. Breast cancer treatment has improved so much that it has become a bigger factor than screening in saving lives, said Ruth Etzioni, a biostatistician at the Fred Hutchinson Cancer Center. Death rates have even declined among women in their 40s, who generally did not have regular mammograms, said Dr. Mette Kalager, a professor of medicine at the University of Oslo and Oslo University Hospital, \"indicating a substantial effect of treatment,\" she said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/24/01/17/1655232/cancer-deaths-are-falling-but-there-may-be-an-asterisk?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T22:40:00.000Z",
-          "wordCount": 4961,
-          "title": "Cancer Deaths Are Falling, but There May Be an Asterisk",
-          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/24/01/17/2136221/openai-must-defend-chatgpt-fabrications-after-failing-to-defeat-libel-suit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: OpenAI may finally have to answer for ChatGPT's \"hallucinations\" in court after a Georgia judge recently ruled against the tech company's motion to dismiss a radio host's defamation suit (PDF). OpenAI had argued that ChatGPT's output cannot be considered libel, partly because the chatbot output cannot be considered a \"publication,\" which is a key element of a defamation claim. In its motion to dismiss, OpenAI also argued that Georgia radio host Mark Walters could not prove that the company acted with actual malice or that anyone believed the allegedly libelous statements were true or that he was harmed by the alleged publication.\n \nIt's too early to say whether Judge Tracie Cason found OpenAI's arguments persuasive. In her order denyin…",
-          "link": "https://yro.slashdot.org/story/24/01/17/2136221/openai-must-defend-chatgpt-fabrications-after-failing-to-defeat-libel-suit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T22:00:00.000Z",
-          "wordCount": 6689,
-          "title": "OpenAI Must Defend ChatGPT Fabrications After Failing To Defeat Libel Suit",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/17/2124251/samsung-is-making-a-smart-ring?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Samsung announced it's working on a smart ring, describing it as a \"powerful and accessible\" health and wellness device. The Verge reports: Outside of a brief video showing off what the Galaxy Ring looks like, Samsung didn't share much more about the ring. The company didn't say when the device is coming out or what it might cost, for example. [...] Given today's focus on AI features for Samsung's new Galaxy smartphones, I'm guessing that Samsung will tout some AI-powered tools for the Galaxy Ring at some point, too. Hopefully Samsung doesn't wait too long to share more.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/17/2124251/samsung-is-making-a-smart-ring?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T21:40:00.000Z",
-          "wordCount": 4394,
-          "title": "Samsung Is Making a Smart Ring",
-          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
-        },
-        {
-          "id": "https://mobile.slashdot.org/story/24/01/17/2118256/samsung-announces-new-galaxy-s24-lineup-with-ai-powered-photo-editing-search-features?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Samsung announced its new flagship Galaxy S24 smartphone lineup today, with loads of new artificial intelligence features. CNBC reports: For Samsung's top-tier S24 Ultra, which is the company's biggest of the three devices and comes with punchier specs and features, Samsung is using a version of Qualcomm's latest Snapdragon Series 8 Gen 3 optimized for Galaxy. The company is using a mix of Qualcomm systems-on-chips (SoCs) and its own Exynos chipset for its S24 and S24+ models. [...] The Samsung Galaxy S24 Ultra is the main event for most tech gadget enthusiasts -- and, for the most part, it isn't a whole lot different to the Galaxy S23 Ultra looks-wise. That's because Samsung isn't changing an awful lot with the hardware. It still comes in the same size as its predecessor -- the display is…",
-          "link": "https://mobile.slashdot.org/story/24/01/17/2118256/samsung-announces-new-galaxy-s24-lineup-with-ai-powered-photo-editing-search-features?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T21:20:00.000Z",
-          "wordCount": 4877,
-          "title": "Samsung Announces New Galaxy S24 Lineup With AI-Powered Photo Editing, Search Features",
-          "imageUrl": "https://a.fsdn.com/sd/topics/cellphones_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/24/01/17/1748250/epic-plans-to-contest-apples-bad-faith-compliance-with-court-ruling-over-app-store?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: Fortnite maker Epic Games is not happy about how Apple intends to comply with a district court's injunction that permitted app developers to direct users to their own websites and payment platforms -- a court order that came into effect following the Supreme Court's decision to not hear the Apple antitrust case, leaving the current ruling to stand. Though Apple had largely won the case, as the court decided it was not a monopolist, a judge ruled that app makers should be able to steer their customers to the web from links or buttons inside their apps, something that forced Apple to change its App Store rules. \n\nBut Apple's compliance doesn't give app makers the victory they had hoped, as the tech giant aims to still charge commissions on purchases made outside of apps -- a decision Epic aims to challenge in court. According to statements made by Epic Games CEO Tim Sweeney, shared on X, Apple's \"bad-faith\" compliance undermines the judge's order that would have allowed buttons or external links \"in addition to [in-app purchases.]\" The Ninth Circuit District Court had ruled on one count of out ten in favor of Epic in its decision, finding that Apple violated California's Unfair Competition law. The decision meant Apple had to remove the \"anti-steering\" clause from its agreement with App Store developers. This clause for years had prevented app developers from directing their customers to other ways to pay for in-app purchases or subscriptions from inside their apps, leading to confusing screens or broken features, where customers would have to figure out on their own how to make the necessary purchases from the developer's website.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/24/01/17/1748250/epic-plans-to-contest-apples-bad-faith-compliance-with-court-ruling-over-app-store?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T20:40:00.000Z",
-          "wordCount": 5033,
-          "title": "Epic Plans To Contest Apple's 'Bad-Faith' Compliance With Court Ruling Over App Store",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/01/17/1754244/amazon-is-working-on-a-paid-version-of-alexa?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Amazon is revamping its Alexa voice assistant as it prepares to launch a new paid subscription plan this year, Business Insider reported Wednesday, citing internal documents and people familiar with the matter. But the change is causing internal conflict and may lead to further delay, the report added. From the report: Tentatively called \"Alexa Plus,\" the paid version of Alexa is intended to offer more conversational and personalized AI technology, said one of the documents obtained by Business Insider. The team is working towards a June 30 launch deadline, and has been testing the underlying voice technology, dubbed \"Remarkable Alexa,\" with 15,000 external customers, these people said. \n\nBut the quality of the new Alexa's answers is still falling short of expectations, often sharing inaccurate information, external tests have found. Amazon is now going through a major overhaul of Alexa's technology stack to address this issue, though the team is experiencing some discord.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/01/17/1754244/amazon-is-working-on-a-paid-version-of-alexa?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T20:00:00.000Z",
-          "wordCount": 5714,
-          "title": "Amazon is Working on a Paid Version of Alexa",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/17/1846200/googles-circle-to-search-is-a-dead-simple-way-to-find-what-youre-looking-for?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "It's hard to think of a more self-explanatory feature than Circle to Search: it does exactly what it sounds like it does. You circle something on your phone screen, tap a button, and voila! A page full of Google search results telling you about the thing you circled. The Verge: The new feature is launching on five phones to start -- the three members of Samsung's brand-new Galaxy S24 series, as well as Google's Pixel 8 and 8 Pro -- before it comes to other \"select, premium\" Android phones. Well, maybe it does need a little explaining. If the feature sounds familiar, you might be thinking of Google Lens, which is similar. But instead of opening up the Google app, you can use Circle to Search anywhere on your device. Just long-press the home button if you're using three-button navigation -- or the navigation handle if you're using gesture nav -- and it will appear on top of whatever app or screen you're currently using. You can circle, highlight, or tap a subject, including text as well as images.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/17/1846200/googles-circle-to-search-is-a-dead-simple-way-to-find-what-youre-looking-for?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T19:20:00.000Z",
-          "wordCount": 5735,
-          "title": "Google's Circle To Search is a Dead-Simple Way To Find What You're Looking For",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/24/01/17/1650251/student-should-have-a-healthy-looking-bmi-how-universities-bend-over-backwards-to-accommodate-food-delivery-robots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "samleecole writes: A food delivery robot company instructed a public university to promote its service on campus with photographs and video featuring only students who \"have a healthy-looking BMI,\" [body mass index] according to emails and documents I obtained via a public records request. The emails also discuss how ordering delivery via robot should become a \"habit\" for a \"captured\" customer base of students on campus. \n\nThese highly specific instructions show how universities around the country are going to extreme lengths to create a welcoming environment on campus for food delivery robots that sometimes have trouble crossing the street and need traffic infrastructure redesigned for them in order to navigate campus, a relatively absurd cache of public records obtained by 404 Media reveals.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://hardware.slashdot.org/story/24/01/17/1650251/student-should-have-a-healthy-looking-bmi-how-universities-bend-over-backwards-to-accommodate-food-delivery-robots?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T18:40:00.000Z",
-          "wordCount": 10114,
-          "title": "'Student Should Have a Healthy-Looking BMI': How Universities Bend Over Backwards To Accommodate Food Delivery Robots",
-          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/01/17/143233/verizon-writes-off-58-billion-from-enterprise-as-sales-decline?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Verizon is writing down the value of its business services division by $5.8 billion, a sign of the company's declining enterprise operations. From a report: The wireless carrier said in a filing Wednesday that the non-cash goodwill impairment charge was due to \"secular declines, as well as continuing competitive and macroeconomic pressure.\" As a result of the impairment, Verizon said the balance of its business unit was $1.7 billion at the end of 2023. \n\nThe decline is tied to the telecommunications giant's legacy wireline operations, which provide fixed-line communications services for businesses, through copper or fiber wires. This segment has seen demand drop considerably as its mobile business service has surged. Verizon's wireline business revenue fell 8.1% through the third quarter and is likely to stay muted in 2024, according to Bloomberg Intelligence.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/01/17/143233/verizon-writes-off-58-billion-from-enterprise-as-sales-decline?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T18:00:00.000Z",
-          "wordCount": 4300,
-          "title": "Verizon Writes Off $5.8 Billion From Enterprise as Sales Decline",
-          "imageUrl": "https://a.fsdn.com/sd/topics/verizon_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/17/1644256/fujitsu-is-sorry-that-its-software-helped-send-innocent-people-to-prison?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Fujitsu has apologized for its role in the British Post Office scandal, acknowledging that its buggy accounting software contributed to the wrongful prosecutions of hundreds of postal employees. From a report: \"Fujitsu would like to apologize for our part in this appalling miscarriage of justice,\" Paul Patterson, co-CEO of Fujitsu's European division, said in a hearing held by the UK Parliament's Business and Trade Committee. \"We were involved from the very start. We did have bugs and errors in the system and we did help the Post Office in their prosecutions of the sub-postmasters. For that we are truly sorry.\" \n\nThe committee hearing focused on possible compensation for victims of what has been called \"the worst miscarriage of justice in British history.\" Patterson said that Fujitsu has \"a moral obligation\" to contribute to the compensation for victims. A BBC report explains that between 1999 and 2015, \"more than 900 sub-postmasters and postmistresses were prosecuted for theft and false accounting after money appeared to be missing from their branches, but the prosecutions were based on evidence from faulty Horizon software. Some sub-postmasters wrongfully went to prison, many were financially ruined. Some have since died.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/17/1644256/fujitsu-is-sorry-that-its-software-helped-send-innocent-people-to-prison?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T17:20:00.000Z",
-          "wordCount": 11664,
-          "title": "Fujitsu is Sorry That Its Software Helped Send Innocent People To Prison",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bug_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/17/1640218/google-to-tweak-search-results-to-comply-with-eu-tech-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Google will tweak online search results to give comparison sites more prominence, the company said in a blogpost on Wednesday, as it outlined efforts to comply with new EU tech rules that could hit revenues for some companies. Reuters: Under the European Union's Digital Markets Act (DMA), which the company will have to comply with by March 7, Google is obligated to treat rival services and products the same way as it treats its own when it ranks them in search results. It is also required to allow business users to access the data that they generate when using Google's platform.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/17/1640218/google-to-tweak-search-results-to-comply-with-eu-tech-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-17T16:40:00.000Z",
-          "wordCount": 4722,
-          "title": "Google To Tweak Search Results To Comply With EU Tech Rules",
-          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
         }
       ]
     }
