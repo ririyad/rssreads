@@ -6,6 +6,16 @@
       "siteUrl": "https://tonsky.me/",
       "articles": [
         {
+          "id": "https://tonsky.me/blog/clj-reload/",
+          "author": null,
+          "description": "Announcing clj-reload, a smarter way to reload Clojure code during development",
+          "link": "https://tonsky.me/blog/clj-reload/",
+          "publishedOn": "2024-02-17T00:00:00.000Z",
+          "wordCount": 1328,
+          "title": "New Library: clj-reload",
+          "imageUrl": null
+        },
+        {
           "id": "https://tonsky.me/blog/checkbox/",
           "author": null,
           "description": "History of checkboxes and radio buttons in user interfaces",
@@ -320,16 +330,6 @@
           "wordCount": 2371,
           "title": "Bottlenecks of  Scaleups #06: Onboarding",
           "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/continuousIntegration.html",
-          "author": null,
-          "description": "At the turn of the century, I was lucky to involved in several\n       projects that developed the practice of Continuous Integration. I wrote\n       up our lessons from this work in article on my website, where it\n       continues to be a oft-referenced resource for this important practice.\n       Late last year a colleague contacted me to say that the article, now\n       nearly twenty years old, was still useful, but was showing its age. He\n       sent me some suggested revisions, and I used this as a trigger to do a\n       thorough revision of the article, considering every section in the\n       original, and adding new ones to deal with issues that have appeared in the last\n       two decades.\nDuring those decades Feature Branching has been widely adopted in the\n       industry. Many colleagues of mine feel that Continuous Integration is a\n       better fit for many teams, I hope this article will help readers assess\n       if this is the case, and if so, how to implement Continuous Integration\n       effectively.\nmore…",
-          "link": "https://martinfowler.com/articles/continuousIntegration.html",
-          "publishedOn": "2024-01-18T15:01:00.000Z",
-          "wordCount": 14492,
-          "title": "A major revision of Continuous Integration",
-          "imageUrl": "https://martinfowler.com/articles/continuousIntegration/card.png"
         }
       ]
     },
@@ -691,6 +691,96 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://slashdot.org/story/24/02/17/041200/despite-initial-claims-amd-confirms-ryzen-8000g-apus-dont-support-ecc-ram?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Slashdot reader ffkom shared this report from Tom's Hardware:\n\n\nWhen AMD formally introduced its Ryzen 8000G-series accelerated processing units for desktops in early January, the company mentioned that they supported ECC memory capability. Since then, the company has quietly removed mention of the technology from its website, as noted by Reddit users. \n\nWe asked AMD to clarify the situation and were told that the company has indeed removed mentions of ECC technology from the specifications of its Ryzen 3 8300G, Ryzen 5 8500G, Ryzen 5 8600G, and Ryzen 5 8700G. The technology also cannot be enabled on motherboards, so it looks like these processors indeed do not support ECC technology at all. \n\nWhile it would be nice to have ECC support on AMD's latest consumer Ryzen 8000G APUs, this is a technology typically reserved for AMD's Ryzen Pro processors.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/02/17/041200/despite-initial-claims-amd-confirms-ryzen-8000g-apus-dont-support-ecc-ram?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T17:34:00.000Z",
+          "wordCount": 6744,
+          "title": "Despite Initial Claims, AMD Confirms Ryzen 8000G APUs Don't Support ECC RAM",
+          "imageUrl": "https://a.fsdn.com/sd/topics/amd_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/02/17/0312229/microsoft-president-you-cant-believe-every-video-you-see-or-audio-you-hear?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"We're currently witnessing a rapid expansion in the abuse of these new AI tools by bad actors,\" writes Microsoft VP Brad Smith, \"including through deepfakes based on AI-generated video, audio, and images. \n\n\"This trend poses new threats for elections, financial fraud, harassment through nonconsensual pornography, and the next generation of cyber bullying.\" Microsoft found its own tools being used in a recently-publicized episode, and the VP writes that \"We need to act with urgency to combat all these problems.\" \n\nMicrosoft's blog post says they're \"committed as a company to a robust and comprehensive approach,\" citing six different areas of focus:\n\n\n A strong safety architecture. This includes \"ongoing red team analysis, preemptive classifiers, the blocking of abusive prompts, automated t…",
+          "link": "https://slashdot.org/story/24/02/17/0312229/microsoft-president-you-cant-believe-every-video-you-see-or-audio-you-hear?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T16:34:00.000Z",
+          "wordCount": 9274,
+          "title": "Microsoft President: 'You Can't Believe Every Video You See or Audio You Hear'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/17/0558239/will-precision-agriculture-be-harmful-to-farmers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Modern U.S. farming is being transformed by precision agriculture, writes Paul Roberts, the founder of securepairs.org and Editor in Chief at Security Ledger. \n\nTheres autonomous tractors and \"smart spraying\" systems that use AI-powered cameras to identify weeds, just for starters. \"Among the critical components of precision agriculture: Internet- and GPS connected agricultural equipment, highly accurate remote sensors, 'big data' analytics and cloud computing...\"\n\n\nAs with any technological revolution, however, there are both \"winners\" and \"losers\" in the emerging age of precision agriculture... Precision agriculture, once broadly adopted, promises to further reduce the need for human labor to run farms. (Autonomous equipment means you no longer even need drivers!) However, the risks it p…",
+          "link": "https://news.slashdot.org/story/24/02/17/0558239/will-precision-agriculture-be-harmful-to-farmers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T15:34:00.000Z",
+          "wordCount": 8086,
+          "title": "Will 'Precision Agriculture'  Be Harmful to Farmers?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/17/0221217/softbanks-son-seeks-to-build-a-100-billion-ai-chip-venture?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Reuters: SoftBank Group Chief Executive Officer Masayoshi Son is looking to raise up to $100 billion for a chip venture that will rival Nvidia, Bloomberg News reported on Friday, citing people with knowledge of the matter. The project, code named Izanagi, will supply semiconductors essential for artificial intelligence (AI), the report added. The company would inject $30 billion in the project, with an additional $70 billion potentially coming from Middle Eastern institutions, according to the report.\n \nThe Japanese group already holds about a 90% stake in British chip designer Arm, per LSEG. SoftBank is known for its tech investments with high conviction bets on startups at an unheard of scale. But it had adopted a defensive strategy after being hit by plummeting valuations in the aftermath of the pandemic, when higher interest rates eroded investor appetite for risk. It returned to profit for the first time in five quarters earlier this month, as the Japanese tech investment firm was buoyed by an upturn in portfolio companies.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/17/0221217/softbanks-son-seeks-to-build-a-100-billion-ai-chip-venture?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T13:00:00.000Z",
+          "wordCount": 4752,
+          "title": "SoftBank's Son Seeks To Build a $100 Billion AI Chip Venture",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/02/17/029224/zeus-icedid-malware-kingpin-faces-40-years-in-prison?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Connor Jones reports via The Register: A Ukrainian cybercrime kingpin who ran some of the most pervasive malware operations faces 40 years in prison after spending nearly a decade on the FBI's Cyber Most Wanted List. Vyacheslav Igorevich Penchukov, 37, pleaded guilty this week in the US to two charges related to his leadership role in both the Zeus and IcedID malware operations that netted millions of dollars in the process. Penchukov's plea will be seen as the latest big win for US law enforcement in its continued fight against cybercrime and those that enable it. However, authorities took their time getting him in 'cuffs. [...]\n \n\"Malware like IcedID bleeds billions from the American economy and puts our critical infrastructure and national security at risk,\" said US attorney Michael Eas…",
+          "link": "https://yro.slashdot.org/story/24/02/17/029224/zeus-icedid-malware-kingpin-faces-40-years-in-prison?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T10:00:00.000Z",
+          "wordCount": 6023,
+          "title": "Zeus, IcedID Malware Kingpin Faces 40 Years In Prison",
+          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/02/17/021220/scientists-discover-water-on-surface-of-an-asteroid?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "For the first time, scientists say they've detected water molecules on the surface of an asteroid. Space.com reports: Scientists studied four silicate-rich asteroids using data gathered by the now-retired Stratospheric Observatory for Infrared Astronomy (SOFIA), a telescope-outfitted plane operated by NASA and the German Aerospace Center. Observations by SOFIA's Faint Object InfraRed Camera (FORCAST) instrument showed that two of the asteroids -- named Iris and Massalia -- exhibit a specific wavelength of light that indicated the presence of water molecules at their surface, a new study reports.\n \nWhile water molecules have previously been detected in asteroid samples returned to Earth, this is the first time that water molecules have been found on the surface of an asteroid in space. In a previous study, SOFIA found similar traces of water on the surface of the moon, in one of the largest craters in its southern hemisphere. [...]\n \nTherefore, the findings at Iris and Massalia suggest that some silicate asteroids can conserve some of their water over the eons and may be more commonly found in the inner solar system than previously thought. In fact, asteroids are believed to be the primary source of Earth's water, providing the necessary elements for life as we know it. Understanding of the distribution of water through space will help researchers better assess where to search for other forms of potential life, both in our solar system and beyond. The findings have been published in The Planetary Science Journal.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/02/17/021220/scientists-discover-water-on-surface-of-an-asteroid?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T07:00:00.000Z",
+          "wordCount": 5218,
+          "title": "Scientists Discover Water On Surface of an Asteroid",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/02/17/0156233/california-bill-wants-to-scrap-environmental-reviews-to-save-downtown-san-francisco?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from the San Francisco Chronicle: San Francisco's leaders have spent the past few years desperately trying to figure out how to deal with a glut of empty offices, shuttered retail and public safety concerns plaguing the city's once vibrant downtown. Now, a California lawmaker wants to try a sweeping plan to revive the city's core by exempting most new real estate projects from environmental review, potentially quickening development by months or even years. State Sen. Scott Wiener, D-San Francisco, introduced SB1227 on Friday as a proposal to exempt downtown projects from the California Environmental Quality Act, or CEQA, for a decade. The 1970 landmark law requires studies of a project's expected impact on air, water, noise and other areas, but Wiener s…",
+          "link": "https://yro.slashdot.org/story/24/02/17/0156233/california-bill-wants-to-scrap-environmental-reviews-to-save-downtown-san-francisco?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T03:30:00.000Z",
+          "wordCount": 13175,
+          "title": "California Bill Wants To Scrap Environmental Reviews To Save Downtown San Francisco",
+          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
+        },
+        {
+          "id": "https://politics.slashdot.org/story/24/02/17/0144229/scientists-propose-ai-apocalypse-kill-switches?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "A paper (PDF) from researchers at the University of Cambridge, supported by voices from numerous academic institutions including OpenAI, proposes remote kill switches and lockouts as methods to mitigate risks associated with advanced AI technologies. It also recommends tracking AI chip sales globally. The Register reports: The paper highlights numerous ways policymakers might approach AI hardware regulation. Many of the suggestions -- including those designed to improve visibility and limit the sale of AI accelerators -- are already playing out at a national level. Last year US president Joe Biden put forward an executive order aimed at identifying companies developing large dual-use AI models as well as the infrastructure vendors capable of training them. If you're not familiar, \"dual-use…",
+          "link": "https://politics.slashdot.org/story/24/02/17/0144229/scientists-propose-ai-apocalypse-kill-switches?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T02:02:00.000Z",
+          "wordCount": 10986,
+          "title": "Scientists Propose AI Apocalypse Kill Switches",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/02/16/2212252/new-bill-would-let-defendants-inspect-algorithms-used-against-them-in-court?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Lauren Feiner reports via The Verge: Reps. Mark Takano (D-CA) and Dwight Evans (D-PA) reintroduced the Justice in Forensic Algorithms Act on Thursday, which would allow defendants to access the source code of software used to analyze evidence in their criminal proceedings. It would also require the National Institute of Standards and Technology (NIST) to create testing standards for forensic algorithms, which software used by federal enforcers would need to meet.\n \nThe bill would act as a check on unintended outcomes that could be created by using technology to help solve crimes. Academic research has highlighted the ways human bias can be built into software and how facial recognition systems often struggle to differentiate Black faces, in particular. The use of algorithms to make consequential decisions in many different sectors, including both crime-solving and health care, has raised alarms for consumers and advocates as a result of such research.\n \nTakano acknowledged that gaining or hiring the deep expertise needed to analyze the source code might not be possible for every defendant. But requiring NIST to create standards for the tools could at least give them a starting point for understanding whether a program matches the basic standards. Takano introduced previous iterations of the bill in 2019 and 2021, but they were not taken up by a committee.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/02/16/2212252/new-bill-would-let-defendants-inspect-algorithms-used-against-them-in-court?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-17T01:25:00.000Z",
+          "wordCount": 7343,
+          "title": "New Bill Would Let Defendants Inspect Algorithms Used Against Them In Court",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
         {
           "id": "https://apple.slashdot.org/story/24/02/16/229223/apple-readies-ai-tool-to-rival-microsofts-github-copilot?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4910,156 +5000,6 @@
           "wordCount": 11986,
           "title": "Airbus Is Pulling Ahead as Boeing's Troubles Mount",
           "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/18/2237255/google-to-invest-1-billion-in-uk-data-center?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Google announced today that it will invest $1 billion building a data center near London. Reuters reports: The data centre, located on a 33-acre (13-hectare) site bought by Google in 2020, will be located in the town of Waltham Cross, about 15 miles north of central London, the Alphabet-owned company said in a statement. The British government, which is pushing for investment by businesses to help fund new infrastructure, particularly in growth industries like technology and artificial intelligence, described Google's investment as a \"huge vote of confidence\" in the UK.\n \n\"Google's $1 billion investment is testament to the fact that the UK is a centre of excellence in technology and has huge potential for growth,\" Prime Minister Rishi Sunak said in the Google statement. The investment follows Google's $1 billion purchase of a central London office building in 2022, close to Covent Garden, and another site in nearby King's Cross, where it is building a new office and where its AI company DeepMind is also based. In November, Microsoft announced plans to pump $3.2 billion into Britain over the next three years.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/01/18/2237255/google-to-invest-1-billion-in-uk-data-center?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-19T00:45:00.000Z",
-          "wordCount": 3955,
-          "title": "Google To Invest $1 Billion In UK Data Center",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/18/2230247/remote-work-doesnt-seem-to-affect-productivity-fed-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report released Tuesday (Jan. 16th) by the Federal Reserve Bank of San Francisco: The U.S. labor market experienced a massive increase in remote and hybrid work during the COVID-19 pandemic. At its peak, more than 60% of paid workdays were done remotely -- compared with only 5% before the pandemic. As of December 2023, about 30% of paid workdays are still done remotely (Barrero, Bloom, and Davis 2021). Some reports have suggested that teleworking might either boost or harm overall productivity in the economy. And certainly, overall productivity statistics have been volatile. In 2020, U.S. productivity growth surged. This led to optimistic views in the media about the gains from forced digital innovation and the productivity benefits of remote work. However, the…",
-          "link": "https://news.slashdot.org/story/24/01/18/2230247/remote-work-doesnt-seem-to-affect-productivity-fed-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-19T00:02:00.000Z",
-          "wordCount": 5368,
-          "title": "Remote Work Doesn't Seem To Affect Productivity, Fed Study Finds",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/01/18/2223216/ibm-scraps-rewards-program-for-staff-inventions-wipes-away-cash-points?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Thomas Claburn reports via The Register: IBM has canceled a program that rewarded inventors at Big Blue for patents or publications, leaving some angry that they are missing out on potential bonuses. By cancelling the scheme, a source told The Register, IBM has eliminated a financial liability by voiding the accrued, unredeemed credits issued to program participants which could have been converted into potential cash awards. For years, IBM has sponsored an \"Invention Achievement Award Plan\" to incentivize employee innovation. In exchange for filing patents, or for publishing articles that served as defense against rival patents, IBM staff were awarded points that led to recognition and potentially cash bonuses. According to documentation seen by The Register, \"Invention points are awarded …",
-          "link": "https://slashdot.org/story/24/01/18/2223216/ibm-scraps-rewards-program-for-staff-inventions-wipes-away-cash-points?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T23:20:00.000Z",
-          "wordCount": 5067,
-          "title": "IBM Scraps Rewards Program For Staff Inventions, Wipes Away Cash Points",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ibm_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/18/2135244/google-is-rolling-out-webgpu-for-next-gen-gaming-on-android?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "In a blog post today, Google announced that WebGPU is \"now enabled by default in Chrome 121 on devices running Android 12 and greater powered by Qualcomm and ARM GPUs,\" with support for more Android devices rolling out gradually. Previously, the API was only available on Windows PCs that support Direct3D 12, macOS, and ChromeOS devices that support Vulkan.\n \nGoogle says WebGPU \"offers significant benefits such as greatly reduced JavaScript workload for the same graphics and more than three times improvements in machine learning model inferences.\" With lower-level access to a device's GPU, developers are able to enable richer and more complex visual content in web applications. This will be especially apparent with games, as you can see in this demo.\n \nNext up: WebGPU for Chrome on Linux.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/18/2135244/google-is-rolling-out-webgpu-for-next-gen-gaming-on-android?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T23:00:00.000Z",
-          "wordCount": 3969,
-          "title": "Google Is Rolling Out WebGPU For Next-Gen Gaming On Android",
-          "imageUrl": "https://a.fsdn.com/sd/topics/android_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/01/18/2116233/reddit-seeks-to-launch-ipo-in-march?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to Reuters, Reddit plans to launch its initial public offering (IPO) in March, \"moving forward with a listing it has been eyeing for more than three years.\" From the report: It would be the first IPO of a major social media company since Pinterest's, opens new tab debut in 2019, and would come as Reddit and its peers face stiff competition for advertising dollars from the likes of TikTok and Facebook. The offering would also test the willingness of some Reddit users to back the company's stock market debut.\n \nReddit, which filed confidentially for its IPO in December 2021, is planning to make its public filing in late February, launch its roadshow in early March, and complete the IPO by the end of March, two of the sources said. The San Francisco-based company, which was valued at about $10 billion in a funding round in 2021, is seeking to sell about 10% of its shares in the IPO, the sources added. It will decide on what IPO valuation it will pursue closer to the time of the listing, according to the sources.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/01/18/2116233/reddit-seeks-to-launch-ipo-in-march?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T22:40:00.000Z",
-          "wordCount": 5204,
-          "title": "Reddit Seeks To Launch IPO In March",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/24/01/18/2112213/stablecoins-enabled-40-billion-in-crypto-crime-since-2022?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Wired: Stablecoins, cryptocurrencies pegged to a stable value like the US dollar, were created with the promise of bringing the frictionless, border-crossing fluidity of Bitcoin to a form of digital money with far less volatility. That combination has proved to be wildly popular, rocketing the total value of stablecoin transactions since 2022 past even that of Bitcoin itself. It turns out, however, that as stablecoins have become popular among legitimate users over the past two years, they were even more popular among a different kind of user: those exploiting them for billions of dollars of international sanctions evasion and scams.\n \nAs part of itsannual crime report, cryptocurrency-tracing firm Chainalysis today released new numbers on the dispro…",
-          "link": "https://yro.slashdot.org/story/24/01/18/2112213/stablecoins-enabled-40-billion-in-crypto-crime-since-2022?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T22:00:00.000Z",
-          "wordCount": 4678,
-          "title": "'Stablecoins' Enabled $40 Billion In Crypto Crime Since 2022",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/18/1742232/coursera-saw-signups-for-ai-courses-every-minute-in-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "U.S. edutech platform Coursera added a new user every minute on average for its AI courses in 2023, CEO Jeff Maggioncalda said on Thursday, in a clear sign of people upskilling to tap a potential boom in generative AI. Reuters: The technology behind OpenAI's ChatGPT has taken the world by a storm and sparked a race among companies to roll out their own versions of the viral chatbot. \"I'd say the real hotspot is generative AI because it affects so many people,\" he told Reuters in an interview at the World Economic Forum in Davos. \n\nCoursera is looking to offer AI courses along with companies that are the frontrunners in the AI race, including OpenAI and Google's DeepMind, Maggioncalda said. Investors had earlier feared that apps based on generative AI might replace ed-tech firms, but on the contrary the technology has encouraged more people to upskill, benefiting companies such as Coursera. The company has more than 800 AI courses and saw more than 7.4 million enrollments last year. Every student on the platform gets access to a ChatGPT-like AI assistant called \"Coach\" that provides personalized tutoring.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/18/1742232/coursera-saw-signups-for-ai-courses-every-minute-in-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T21:20:00.000Z",
-          "wordCount": 4488,
-          "title": "Coursera Saw Signups For AI Courses Every Minute in 2023",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/18/1831244/mark-zuckerbergs-new-goal-is-creating-agi?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "OpenAI's stated mission is to create the artificial general intelligence, or AGI. Demis Hassabis, the leader of Google's AI efforts, has the same goal. Now, Meta CEO Mark Zuckerberg is entering the race. From a report: While he doesn't have a timeline for when AGI will be reached, or even an exact definition for it, he wants to build it. At the same time, he's shaking things up by moving Meta's AI research group, FAIR, to the same part of the company as the team building generative AI products across Meta's apps. The goal is for Meta's AI breakthroughs to more directly reach its billions of users. \"We've come to this view that, in order to build the products that we want to build, we need to build for general intelligence,\" Zuckerberg tells me in an exclusive interview. \"I think that's imp…",
-          "link": "https://tech.slashdot.org/story/24/01/18/1831244/mark-zuckerbergs-new-goal-is-creating-agi?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T20:40:00.000Z",
-          "wordCount": 8514,
-          "title": "Mark Zuckerberg's New Goal is Creating AGI",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/01/18/1810200/microsoft-makes-its-ai-powered-reading-tutor-free?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft today made Reading Coach, its AI-powered tool that provides learners with personalized reading practice, available at no cost to anyone with a Microsoft account. From a report: As of this morning, Reading Coach is accessible on the web in preview -- a Windows app is forthcoming. And soon (in late spring), Reading Coach will integrate with learning management systems such as Canva, Microsoft says. Reading Coach builds on Reading Progress, a plug-in for the education-focused version of Microsoft Teams, Teams for Education, designed to help teachers foster reading fluency in their students. Inspired by the success of Reading Progress (evidently), Microsoft launched Reading Coach in 2022 as a part of Teams for Education and Immersive Reader, the company's cross-platform assistive service for language and reading comprehension.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/01/18/1810200/microsoft-makes-its-ai-powered-reading-tutor-free?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T20:00:00.000Z",
-          "wordCount": 4454,
-          "title": "Microsoft Makes Its AI-Powered Reading Tutor Free",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/18/1753211/coinbase-compares-buying-crypto-to-collecting-beanie-babies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Coinbase said buying cryptocurrency on an exchange was more like collecting Beanie Babies than investing in a stock or bond. From a report: The biggest US crypto exchange made the comparison Wednesday in a New York federal court hearing. Coinbase was arguing for the dismissal of a Securities and Exchange Commission lawsuit accusing it of selling unregistered securities. William Savitt, a lawyer for Coinbase, told US District Judge Katherine Polk Failla that tokens trading on the exchange aren't securities subject to SEC jurisdiction because buyers don't gain any rights as a part of their purchases, as they do with stocks or bonds. \"It's the difference between buying Beanie Babies Inc and buying Beanie Babies,\" Savitt said. The question of whether digital tokens are securities has divided courts.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/18/1753211/coinbase-compares-buying-crypto-to-collecting-beanie-babies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T19:20:00.000Z",
-          "wordCount": 6280,
-          "title": "Coinbase Compares Buying Crypto To Collecting Beanie Babies",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/01/18/1838259/hospitals-owned-by-private-equity-are-harming-patients-reports-find?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Private equity firms are increasingly buying hospitals across the US, and when they do, patients suffer, according to two separate reports. Specifically, the equity firms cut corners, slash services, lay off staff, lower quality of care, take on substantial debt, and reduce charity care, leading to lower ratings and more medical errors, the reports collectively find. ArsTechnica: Last week, the financial watchdog organization Private Equity Stakeholder Project (PESP) released a report delving into the state of two of the nation's largest hospital systems, Lifepoint and ScionHealth -- both owned by private equity firm Apollo Global Management. Through those two systems, Apollo runs 220 hospitals in 36 states, employing around 75,000 people. The report found that some of Apollo's hospitals w…",
-          "link": "https://science.slashdot.org/story/24/01/18/1838259/hospitals-owned-by-private-equity-are-harming-patients-reports-find?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T18:40:00.000Z",
-          "wordCount": 14192,
-          "title": "Hospitals Owned By Private Equity Are Harming Patients, Reports Find",
-          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/24/01/18/1738239/music-streaming-platforms-must-pay-artists-more-says-eu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The EU has proposed sweeping changes within the music streaming industry to promote smaller artists and make sure underpaid performers are being fairly compensated. From a report: A resolution to address concerns regarding inadequate streaming royalties for artists and biased recommendation algorithms was adopted by members of the European Parliament (MEPs) on Wednesday, highlighting that no existing EU rules currently apply to music streaming services, despite being the most popular way to consume audio. \n\nThe proposition was made to ensure European musical works are accessible and avoid being overshadowed by the \"overwhelming amount\" of content being continually added to streaming platforms like Spotify. MEPs also called for outdated \"pre-digital\" royalty rates to be revised, noting that some schemes force performers to accept little to no revenue in exchange for greater exposure. Imposing quotas for European musical works is being considered to help promote artists in the EU.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/24/01/18/1738239/music-streaming-platforms-must-pay-artists-more-says-eu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T18:05:00.000Z",
-          "wordCount": 6954,
-          "title": "Music Streaming Platforms Must Pay Artists More, Says EU",
-          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/24/01/18/1727204/apples-app-store-rule-changes-draw-sharp-rebuke-from-critics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple has updated its long-standing App Store guidelines, giving developers the option to let users make in-app purchases for iOS apps outside of its App Store. But the changes still haven't won over one of the company's longtime critics. From a report: Under the new rules, app developers can provide customers with links to third-party purchase options for their apps, but they must still pay Apple fees of either 12% or 27%. Spotify, one of Apple's biggest critics, isn't a fan of the changes. In a statement, the music streaming service slammed the new rules. \"Once again, Apple has demonstrated that they will stop at nothing to protect the profits they exact on the backs of developers and consumers under their app store monopoly,\" the company said in a statement. \"Their latest move in the US…",
-          "link": "https://apple.slashdot.org/story/24/01/18/1727204/apples-app-store-rule-changes-draw-sharp-rebuke-from-critics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T17:26:00.000Z",
-          "wordCount": 8629,
-          "title": "Apple's App Store Rule Changes Draw Sharp Rebuke From Critics",
-          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/18/1621206/ai-generated-content-can-sometimes-slip-into-your-google-news-feed?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Google News is sometimes boosting sites that rip-off other outlets by using AI to rapidly churn out content, 404 Media claims:\n\nFrom the report: Google told 404 Media that although it tries to address spam on Google News, the company ultimately does not focus on whether a news article was written by an AI or a human, opening the way for more AI-generated content making its way onto Google News. The presence of AI-generated content on Google News signals two things: first, the black box nature of Google News, with entry into Google News' rankings in the first place an opaque, but apparently gameable, system. Second, is how Google may not be ready for moderating its News service in the age of consumer-access AI, where essentially anyone is able to churn out a mass of content with little to no regard for its quality or originality. \n\nUPDATE: Engadget argues that \"to find such stories required heavily manipulating the search results in Google News,\" noting that in the cited case, 404 Media's search parameters \"are essentially set so that the original stories don't appear.\" \n\nEngadget got this rebuke from Google. \"Claiming that these sites were featured prominently in Google News is not accurate - the sites in question only appeared for artificially narrow queries, including queries that explicitly filtered out the date of an original article. \n\n\"We take the quality of our results extremely seriously and have clear policies against content created for the primary purpose of ranking well on News and we remove sites that violate it.\" \n\nEngadget then wrote, \"We apologize for overstating the issue and are including a slightly modified version of the original story that has been corrected for accuracy, and we've updated the headline to make it more accurate.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/18/1621206/ai-generated-content-can-sometimes-slip-into-your-google-news-feed?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T16:40:00.000Z",
-          "wordCount": 6647,
-          "title": "AI-Generated Content Can Sometimes Slip Into Your Google News Feed",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/18/1559201/openai-announces-first-partnership-with-a-university?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "OpenAI on Thursday announced its first partnership with a higher education institution. Starting in February, Arizona State University will have full access to ChatGPT Enterprise and plans to use it for coursework, tutoring, research and more. From a report: The partnership has been in the works for at least six months, when ASU chief information officer Lev Gonick first visited OpenAI's HQ, which was preceded by the university faculty and staff's earlier use of ChatGPT and other artificial intelligence tools, Gonick told CNBC in an interview. ChatGPT Enterprise, which debuted in August, is ChatGPT's business tier and includes access to GPT-4 with no usage caps, performance that's up to two times faster than previous versions and API credits. \n\nWith the OpenAI partnership, ASU plans to build a personalized AI tutor for students, not only for certain courses but also for study topics. STEM subjects are a focus and are \"the make-or-break subjects for a lot of higher education,\" Gonick said. The university will also use the tool in ASU's largest course, Freshman Composition, to offer students writing help. ASU also plans to use ChatGPT Enterprise to develop AI avatars as a \"creative buddy\" for studying certain subjects, like bots that can sing or write poetry about biology, for instance.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/01/18/1559201/openai-announces-first-partnership-with-a-university?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-18T16:00:00.000Z",
-          "wordCount": 4911,
-          "title": "OpenAI Announces First Partnership With a University",
-          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
         }
       ]
     }
