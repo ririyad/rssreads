@@ -6,6 +6,16 @@
       "siteUrl": "https://tonsky.me/",
       "articles": [
         {
+          "id": "https://tonsky.me/blog/js-bloat/",
+          "author": null,
+          "description": "What is the average size of JavaScript code downloaded per website? Fuck around and find out!",
+          "link": "https://tonsky.me/blog/js-bloat/",
+          "publishedOn": "2024-02-22T00:00:00.000Z",
+          "wordCount": 1376,
+          "title": "JavaScript Bloat in 2024",
+          "imageUrl": null
+        },
+        {
           "id": "https://tonsky.me/blog/clj-reload/",
           "author": null,
           "description": "Announcing clj-reload, a smarter way to reload Clojure code during development",
@@ -26,6 +36,12 @@
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "GolangCode",
+      "feedUrl": "https://golangcode.com/index.xml",
+      "siteUrl": "https://golangcode.com/",
+      "articles": []
     },
     {
       "title": "Blog on Applied Go",
@@ -164,26 +180,6 @@
           "wordCount": 550,
           "title": "Apple’s new extortion regime to keep big app makers",
           "imageUrl": "https://world.hey.com/dhh/d4d03ea9/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2RRYU1GYSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--74249d26e755318ae0b5a846e0e355bfa7e2cdc2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/apple-fees.png"
-        },
-        {
-          "id": "https://world.hey.com/dhh/is-greed-really-seasonal-6ab86be0",
-          "author": null,
-          "description": "As the tech layoffs continue, there’s naturally a search for someone to blame. People are losing their jobs after all, so that must mean someone is acting malevolent, dammit. This is when the age old accusation of greed is trotted out. Companies are only laying off people now because they’re greedy! If only we could eradicate greed, everyone would still have a job, and all would dandy. Oh please.\nThe idea that greed is this seasonal affliction that only seem to infect companies and executives occasionally is not a good explanation for these layoffs or, well, anything at all. It’s a cope, as the kids would call it.\nThe beauty, if you will, of the capitalist system is that it produces progress and wealth without relying on benevolence or bleeding hearts. Adam Smith captured this perfectly in…",
-          "link": "https://world.hey.com/dhh/is-greed-really-seasonal-6ab86be0",
-          "publishedOn": "2024-01-23T16:29:42.000Z",
-          "wordCount": 608,
-          "title": "Is greed really seasonal?",
-          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
-        },
-        {
-          "id": "https://world.hey.com/dhh/there-are-no-secrets-left-c8c95de0",
-          "author": null,
-          "description": "First-time entrepreneurs are often insecure about all the things they believe they don’t know. Maybe if they just get this one investor involved, they’ll know everything they need to do to crack product-market fit. Maybe if they just compose a board full of smart people, they’ll avoid all the common mistakes. If only it was so, but it ain’t. Everything worth knowing is already public.\nThat is to say that great general business ideas and concepts don’t stay private. Anyone who believes they’ve found a novel angle of analysis is out there sharing it in books, podcasts, blogs, and twitter. You couldn’t make most business advisors shut up about their best ideas if you paid them!\nThis is wonderful news for entrepreneurs. A million lifetimes of entrepreneurial learnings have already been compres…",
-          "link": "https://world.hey.com/dhh/there-are-no-secrets-left-c8c95de0",
-          "publishedOn": "2024-01-23T15:39:02.000Z",
-          "wordCount": 565,
-          "title": "There are no secrets left",
-          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
         }
       ]
     },
@@ -330,16 +326,6 @@
           "publishedOn": "2024-01-24T15:45:00.000Z",
           "wordCount": 4334,
           "title": "Onboarding bottleneck: creating a path to effectiveness",
-          "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
-        },
-        {
-          "id": "https://martinfowler.com/articles/bottlenecks-of-scaleups/06-onboarding.html",
-          "author": null,
-          "description": "The last year has been a hard one for the technology industry, which\n      faced its greatest waves of cutbacks and layoffs since the dotcom crash at\n      the beginning of the century. As 2024 begins, we're seeing the early signs of a\n      turn-around, which hopefully means technology organizations will soon be thinking of\n      hiring again. Should such happy days return, firms will again run into\n      the common problem of\n      taking too long for new hires to become effective. Tim\n      Cochran and Premanand Chandrasekaran address this in the sixth part of our\n      series on the bottlenecks of scaleups. In this first installment, Tim and Prem\n      look the signs that a growing organization is running into this bottleneck.\nmore…",
-          "link": "https://martinfowler.com/articles/bottlenecks-of-scaleups/06-onboarding.html",
-          "publishedOn": "2024-01-23T14:13:00.000Z",
-          "wordCount": 2371,
-          "title": "Bottlenecks of  Scaleups #06: Onboarding",
           "imageUrl": "https://martinfowler.com/articles/bottlenecks-of-scaleups/card.png"
         }
       ]
@@ -694,16 +680,6 @@
           "wordCount": 195,
           "title": "That Vonnegut/Heller Story",
           "imageUrl": null
-        },
-        {
-          "id": "https://github.com/surprisetalk/licensure",
-          "author": null,
-          "description": "scripts for watching software licensure",
-          "link": "https://github.com/surprisetalk/licensure",
-          "publishedOn": "2024-01-24T00:00:00.000Z",
-          "wordCount": 498,
-          "title": "licensure",
-          "imageUrl": "https://opengraph.githubassets.com/73529147017d1693813e20467a3cb74c9e933f82ac235ffb7fce36930a593566/surprisetalk/licensure"
         }
       ]
     },
@@ -712,6 +688,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://science.slashdot.org/story/24/02/23/0020215/us-lands-unmanned-odysseus-spacecraft-on-moon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "The first privately built spacecraft has successfully landed on the lunar surface on Thursday. \"We can confirm, without a doubt, that our equipment is on the surface of the moon,\" said Stephen Altemus, CEO of Intuitive Machines, the Houston-based company that operated the Odysseus spacecraft. \"Welcome to the moon.\" From a report: As it approached the surface of the moon, Odysseus lost contact with NASA, resulting in several anxious minutes for those who worked on the joint project. But after approximately 15 minutes of searching, officials confirmed that they were once again receiving signals from the spacecraft. \"A commercial lander named Odysseus, powered by a company called Intuitive Machines, launched up on a Space X rocket, carrying a bounty of NASA scientific instruments and bearing the dream of a new adventure, a new adventure in science, innovation and American leadership, well, all of that aced the landing of a lifetime,\" NASA Administrator Bill Nelson said after contact had been reestablished. \"Today for the first time in more than a half century, the U.S. has returned to the moon.\"\n \nAltemus had estimated that Odysseus had an 80% chance of successfully landing on the moon, citing previous failed attempts as an advantage. \"We've stood on the shoulders of everybody who's tried before us,\" Altemus said. It was the first American mission to land on the moon since Apollo 17 in 1972 and the first private spacecraft ever to make a soft landing there. While it was a private mission, NASA paid Intuitive Machines $118 million to deliver six instruments to the moon. And the U.S. space agency provided streaming video of the landing.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/02/23/0020215/us-lands-unmanned-odysseus-spacecraft-on-moon?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-23T00:25:00.000Z",
+          "wordCount": 3980,
+          "title": "US Lands Unmanned 'Odysseus' Spacecraft On Moon",
+          "imageUrl": "https://a.fsdn.com/sd/topics/moon_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/02/22/2146243/snapchat-isnt-liable-for-connecting-12-year-old-to-convicted-sex-offenders?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: A judge has dismissed (PDF) a complaint from a parent and guardian of a girl, now 15, who was sexually assaulted when she was 12 years old after Snapchat recommended that she connect with convicted sex offenders. According to the court filing, the abuse that the girl, C.O., experienced on Snapchat happened soon after she signed up for the app in 2019. Through its \"Quick Add\" feature, Snapchat \"directed her\" to connect with \"a registered sex offender using the profile name JASONMORGAN5660.\" After a little more than a week on the app, C.O. was bombarded with inappropriate images and subjected to sextortion and threats before the adult user pressured her to meet up, then raped her. Cops arrested the adult user the next day, resulting in h…",
+          "link": "https://yro.slashdot.org/story/24/02/22/2146243/snapchat-isnt-liable-for-connecting-12-year-old-to-convicted-sex-offenders?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-23T00:02:00.000Z",
+          "wordCount": 4403,
+          "title": "Snapchat Isn't Liable For Connecting 12-Year-Old To Convicted Sex Offenders",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/02/22/2138227/the-justice-department-gets-a-chief-ai-officer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Princeton professor and technology law researcher Jonathan Mayer has been appointed as the Justice Department's first chief AI officer. The Verge reports: Attorney General Merrick Garland said in a statement that appointing an AI officer was important for the department to \"keep pace with rapidly evolving scientific and technological developments.\" One of Mayer's responsibilities will be to build a team of technical and policy experts around cybersecurity and AI. Mayer will also serve as the department's chief science and technology advisor and help recruit tech talent.\n \nMayer held technology roles in government before his new Justice Department gig, according to his bio in Princeton's Center for Information Technology Policy. He served as an adviser on technology law and policy to Vice President Kamala Harris when she was still in the Senate. Mayer was also the chief technologist in the enforcement office of the Federal Communications Commission.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/02/22/2138227/the-justice-department-gets-a-chief-ai-officer?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T23:20:00.000Z",
+          "wordCount": 4196,
+          "title": "The Justice Department Gets a Chief AI Officer",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/02/22/2133228/bluesky-now-open-to-federation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Longtime Slashdot reader Rei writes: In a blog post today, Bluesky, the social media network founded by Jay Graber, announced that they have finally opened to federation. Users can now operate their own PDS (backend) servers. How to do so is discussed on the developers' blog and a new Discord channel for PDS administrators.\n \nAs the blog notes, there are key differences between the AT Protocol/Bluesky federation and ActivityPub/Mastodon federation, including: global conversation (rather than local-server based with remote content only brought in from follows); a decentralized user account not bound to a specific host; user-composable moderation lists not inherently tied to a specific server, offsetting the need for defederation; user-composable feeds/algorithms, not tied to servers; and full account portability, without the need to be initiated by your server, protecting users from rogue admins or servers that disappear.\n \nDespite the difference, a number of projects, such as Bridgy-Fed, plan to bridge Bluesky and Mastodon together, with all of Bluesky appearing as a single Mastodon server on ActivityPub, and Mastodon users being translated to a decentralized identifier (DID) for AT Protocol (atproto) calls.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/02/22/2133228/bluesky-now-open-to-federation?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T22:40:00.000Z",
+          "wordCount": 4321,
+          "title": "Bluesky Now Open To Federation",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://mobile.slashdot.org/story/24/02/22/2127240/att-restores-service-after-massive-nationwide-outage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from CNN Business: AT&T's network went down for many of its customers across the United States Thursday morning, leaving customers unable to place calls, text or access the internet. By a little after 3 pm ET, roughly 11 hours after reports of the outage first emerged, the company said that it had restored service to all impacted customers. \"We have restored wireless service to all our affected customers. We sincerely apologize to them,\" AT&T said in a statement. The company added that it is \"taking steps to ensure our customers do not experience this again in the future.\"\n \nThe Federal Communications Commission confirmed Thursday afternoon that it is investigating the outage. The White House says federal agencies are in touch with AT&T about network out…",
+          "link": "https://mobile.slashdot.org/story/24/02/22/2127240/att-restores-service-after-massive-nationwide-outage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T22:02:00.000Z",
+          "wordCount": 6258,
+          "title": "AT&amp;T Restores Service After Massive, Nationwide Outage",
+          "imageUrl": "https://a.fsdn.com/sd/topics/att_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/02/22/1851240/can-any-english-word-be-turned-into-a-synonym-for-drunk-not-all-but-many-can?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: British comedian Michael McIntyre has a standard bit in his standup routines concerning the many (many!) slang terms posh British people use to describe being drunk. These include \"wellied,\" \"trousered,\" and \"ratarsed,\" to name a few. McIntyre's bit rests on his assertion that pretty much any English word can be modified into a so-called \"drunkonym,\" bolstered by a few handy examples: \"I was utterly gazeboed,\" or \"I am going to get totally and utterly carparked.\" \n\nIt's a clever riff that sparked the interest of two German linguists. Christina Sanchez-Stockhammer of Chemnitz University of Technology and Peter Uhrig of FAU Erlangen-Nuremberg decided to draw on their expertise to test McIntyre's claim that any word in the English language could be modified to mean \"being in a state of high inebriation.\" Given their prevalence, \"It is highly surprising that drunkonyms are still under-researched from a linguistic perspective,\" the authors wrote in their new paper published in the Yearbook of the German Cognitive Linguistics Association. Bonus: the authors included an extensive appendix of 546 English synonyms for \"drunk,\" drawn from various sources, which makes for entertaining reading. \n\nThere is a long tradition of coming up with colorful expressions for drunkenness in the English language, with the Oxford English Dictionary listing a usage as early as 1382: \"merry,\" meaning \"boisterous or cheerful due to alcohol; slight drunk, tipsy.\" Another OED entry from 1630 lists \"blinde\" (as in blind drunk) as a drunkonym. Even Benjamin Franklin got into the act with his 1737 Drinker's Dictionary, listing 288 words and phrases for denoting drunkenness. By 1975, there were more than 353 synonyms for \"drunk\" listed in that year's edition of the Dictionary of American Slang. By 1981, linguist Harry Levine noted 900 terms used as drunkonyms.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/02/22/1851240/can-any-english-word-be-turned-into-a-synonym-for-drunk-not-all-but-many-can?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T21:20:00.000Z",
+          "wordCount": 5840,
+          "title": "Can Any English Word Be Turned Into a Synonym For 'Drunk'? Not All, But Many Can.",
+          "imageUrl": "https://a.fsdn.com/sd/topics/beer_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/22/1832218/supreme-court-seems-skeptical-of-epas-good-neighbor-rule-on-power-plant-pollution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Supreme Court's conservative majority seemed skeptical Wednesday as the Environmental Protection Agency sought to continue enforcing an anti-air-pollution rule in 11 states while separate legal challenges proceed around the country. From a report: The EPA's \"good neighbor\" rule is intended to restrict smokestack emissions from power plants and other industrial sources that burden downwind areas with smog-causing pollution. Three energy-producing states -- Ohio, Indiana and West Virginia -- challenged the rule, along with the steel industry and other groups, calling it costly and ineffective. The rule is on hold in a dozen states because of the court challenges. \n\nThe Supreme Court, with a 6-3 conservative majority, has increasingly reined in the powers of federal agencies, including the EPA, in recent years. The justices have restricted EPA's authority to fight air and water pollution -- including a landmark 2022 ruling that limited EPA's authority to regulate carbon dioxide emissions from power plants that contribute to global warming. The court also shot down a vaccine mandate and blocked President Joe Biden's student loan forgiveness program. \n\nThe court is currently weighing whether to overturn its 40-year-old Chevron decision, which has been the basis for upholding a wide range of regulations on public health, workplace safety and consumer protections. A lawyer for the EPA said the \"good neighbor\" rule was important to protect downwind states that receive unwanted air pollution from other states. Besides the potential health impacts, the states face their own federal deadlines to ensure clean air, said Deputy U.S. Solicitor General Malcolm Stewart, representing the EPA.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/22/1832218/supreme-court-seems-skeptical-of-epas-good-neighbor-rule-on-power-plant-pollution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T20:42:00.000Z",
+          "wordCount": 7942,
+          "title": "Supreme Court Seems Skeptical of EPA's 'Good Neighbor' Rule on Power Plant Pollution",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/22/188224/gpay-app-and-p2p-payments-will-stop-working-in-the-us-this-june?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: When Google Wallet launched in 2022, Google kept the \"GPay\" app around in a handful of countries. The company announced today that the old Google Pay app is soon going away in the US. That app, which appears as \"GPay\" on your Android homescreen, was Google's previous vision for mobile payments and finance. \n\nIt was \"designed around your relationships with people and businesses\" with conversation-like threads serving as a purchase history, while keeping track of your spending was another big aspect. GPay will stop working in the US from June 4, 2024. It will remain available for users in India and Singapore as Google continues to \"build for the unique needs in those countries.\" As part of the app going away, Google is shutting down peer-to-peer payments that let you send, request, or receive money from others in the US. Google's P2P offering never really took off.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/22/188224/gpay-app-and-p2p-payments-will-stop-working-in-the-us-this-june?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T20:00:00.000Z",
+          "wordCount": 4007,
+          "title": "GPay App and P2P Payments Will Stop Working in the US This June",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/22/183247/ftc-to-ban-avast-from-selling-browsing-data-for-advertising-purposes?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. FTC will order Avast to pay $16.5 million and ban the company from selling the users' web browsing data or licensing it for advertising purposes. From a report: The complaint says Avast violated millions of consumers' rights by collecting, storing, and selling their browsing data without their knowledge and consent while misleading them that the products used to harvest their data would block online tracking. \"While the FTC's privacy lawsuits routinely take on firms that misrepresent their data practices, Avast's decision to expressly market its products as safeguarding people's browsing records and protecting data from tracking only to then sell those records is especially galling,\" said FTC Chair Lina M. Khan. \n\n\"Moreover, the volume of data Avast released is staggering: the complaint alleges that by 2020 Jumpshot had amassed \"more than eight petabytes of browsing information dating back to 2014.\" More specifically, the FTC says UK-based company Avast Limited harvested consumers' web browsing information without their knowledge or consent using Avast browser extensions and antivirus software since at least 2014.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/22/183247/ftc-to-ban-avast-from-selling-browsing-data-for-advertising-purposes?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T19:20:00.000Z",
+          "wordCount": 4706,
+          "title": "FTC To Ban Avast From Selling Browsing Data For Advertising Purposes",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/02/22/1757233/reddit-in-ai-content-licensing-deal-with-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Social media platform Reddit has struck a deal with Google to make its content available for training the search engine giant's AI models. Reuters: The contract with Alphabet-owned Google is worth about $60 million per year, according to one of the sources. The deal underscores how Reddit, which is preparing for a high-profile stock market launch, is seeking to generate new revenue amid fierce competition for advertising dollars from the likes of TikTok and Meta Platform's Facebook.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/02/22/1757233/reddit-in-ai-content-licensing-deal-with-google?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T18:40:00.000Z",
+          "wordCount": 5481,
+          "title": "Reddit in AI Content Licensing Deal With Google",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/02/22/1410215/instacarts-ai-recipes-look-literally-impossible?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: I hate cookbooks without pictures. We eat with our eyes first, as chefs love to say, but what's more important to me is that if I'm making a dish for the first time, I want to see what the final product should look like to know I did it right. It's not so much about presentation as it is about knowing that I browned the chicken skin enough. An image of a recipe will not be this useful, I think, if it was AI-generated, and especially so if the fact that the image was AI-generated wasn't disclosed by the recipe. That, to my surprise, is exactly the case with thousands of recipes the grocery delivery service Instacart is suggesting to its users. Some of the recipes include unheard of measurements and ingredients that don't appear to exist. \n\n[...] As I was browsing, I noticed that Instacart was offering me recipes that appeared to complement the ingredients I was looking at. The concept doesn't make a ton of sense to me -- I'm going to Instacart for the ingredients I know I need for the food I know I'm going to make, not for food inspo -- but I had to click on a recipe for \"Watermelon Popsicle with Chocolate Chips\" because it looked weird in the thumbnail. Since I have eyeballs with optical nerves that are connected to a semi-functioning brain I can tell that the image was generated by AI. To be more specific, I can see that the top corner of the plate doesn't match its square shape, that the table-ish looking thing it's resting on is made up of jumbled slats (AI is particularly bad at making these series of long, straight lines), and then there are the titular watermelon popsicles, which defy physical reality. They clip into each other like bad 3D models in a video game, one of them to the left appears hollow, and for some reason they are skewered by what appears to be asparagus spears on the bottom end and capped by impossible small watermelon rinds at the top.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/02/22/1410215/instacarts-ai-recipes-look-literally-impossible?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T18:00:00.000Z",
+          "wordCount": 5829,
+          "title": "Instacart's AI Recipes Look Literally Impossible",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/02/22/1445220/windows-11-users-herded-toward-23h2-via-automatic-upgrade?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Windows 11 users still clinging to the past are to be dragged into a bright, 23H2-shaped future by Microsoft, whether they want to or not. From a report: Microsoft has added a notification to its Release Health dashboard warning Windows 11 users that it is time for the beatings automatic upgrades to begin. \"We are starting to update eligible Windows 11 devices automatically to version 23H2.\" \n\nAs for what eligible means, according to Microsoft, this is \"Windows 11 devices that have reached or are approaching end of servicing.\" Support for Windows 11 21H2 came to an end last year on October 10, 2023, and version 22H2 is due to end on October 8, 2024. Win 11 23H2 itself will endure until November 11, 2025, or just after the plug gets pulled on Windows 10. The update comes shortly after Microsoft quashed the last of its compatibility holds in Windows 11 23H2, which affected customers attempting to use the Co-pilot preview with multiple monitors. Icons tended to move unexpectedly between monitors.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/02/22/1445220/windows-11-users-herded-toward-23h2-via-automatic-upgrade?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T17:20:00.000Z",
+          "wordCount": 8547,
+          "title": "Windows 11 Users Herded Toward 23H2 Via Automatic Upgrade",
+          "imageUrl": "https://a.fsdn.com/sd/topics/windows_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/24/02/22/1440244/amazon-says-no-changes-coming-to-freevee-despite-reports-of-the-streamer-shuttering?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Amazon is pushing back against reports that its Freevee service is shuttering. The Wrap: AdWeek reported the news, which it said is part of an effort by the tech giant to shift its focus to Prime Video. Sources familiar with the matter told the outlet that sunsetting Freevee could happen sometime within the second quarter. However, a spokesperson for Amazon said there are \"no changes\" coming to Freevee. \n\n\"Amazon Freevee remains an important streaming offering providing both Prime and non-Prime customers thousands of hit movies, shows and originals, all for free,\" they added. Freevee, which was formerly known as IMDb TV until a rebrand in 2022, offers thousands of premium movies and TV shows, including originals such as \"Bosch: Legacy,\" \"Judy Justice\" and \"Jury Duty\" and over 150 free ad-supported streaming TV (FAST) channels.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/24/02/22/1440244/amazon-says-no-changes-coming-to-freevee-despite-reports-of-the-streamer-shuttering?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T16:40:00.000Z",
+          "wordCount": 4571,
+          "title": "Amazon Says 'No Changes' Coming To Freevee Despite Reports of the Streamer Shuttering",
+          "imageUrl": "https://a.fsdn.com/sd/topics/tv_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/02/22/1545243/varda-space-rocket-lab-nail-first-of-its-kind-spacecraft-landing-in-utah?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A spacecraft containing pharmaceutical drugs that were grown on orbit has finally returned to Earth today after more than eight months in space. From a report: Varda Space Industries' in-space manufacturing capsule, called Winnebago-1, landed in the Utah desert at around 4:40 p.m. EST. Inside the capsule are crystals of the drug ritonavir, which is used to treat HIV/AIDS. It marks a successful conclusion of Varda's first experimental mission to grow pharmaceuticals on orbit, as well as the first time a commercial company has landed a spacecraft on U.S. soil, ever. The capsule will now be sent back to Varda's facilities in Los Angeles for analysis, and the vials of ritonavir will be shipped to a research company called Improved Pharma for post-flight characterization, Varda said in a statement. The company will also be sharing all the data collected through the mission with the Air Force and NASA, per existing agreements with those agencies. \n\nThe first-of-its-kind reentry and landing is also a major win for Rocket Lab, which partnered with Varda on the mission. Rocket Lab hosted Varda's manufacturing capsule inside its Photon satellite bus; through the course of the mission, Photon provided power, communications, attitude control and other essential operations. At the mission's conclusion, the bus executed a series of maneuvers and de-orbit burns that put the miniature drug lab on the proper reentry trajectory. The final engine burn was executed shortly after 4 p.m. EST. Photon burned up in the atmosphere as planned while the capsule, protected by a heat shield and with the aid of a parachute, continued to land.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/02/22/1545243/varda-space-rocket-lab-nail-first-of-its-kind-spacecraft-landing-in-utah?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T16:00:00.000Z",
+          "wordCount": 5890,
+          "title": "Varda Space, Rocket Lab Nail First-of-Its-Kind Spacecraft Landing in Utah",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/02/22/144230/us-health-tech-giant-change-healthcare-hit-by-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "U.S. healthcare technology giant Change Healthcare has confirmed a cyberattack on its systems. In a brief statement, the company said it was \"experiencing a network interruption related to a cyber security issue.\" From a report: \"Once we became aware of the outside threat, in the interest of protecting our partners and patients, we took immediate action to disconnect our systems to prevent further impact,\" Change Healthcare wrote on its status page. \"The disruption is expected to last at least through the day.\" \n\nThe incident began early on Tuesday morning on the U.S. East Coast, according to the incident tracker. The specific nature of the cybersecurity incident was not disclosed. Most of the login pages for Change Healthcare were inaccessible or offline when TechCrunch checked at the time of writing. Michigan local newspaper the Huron Daily Tribune is reporting that local pharmacies are experiencing outages due to the Change Healthcare cyberattack.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/02/22/144230/us-health-tech-giant-change-healthcare-hit-by-cyberattack?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-22T15:21:00.000Z",
+          "wordCount": 5403,
+          "title": "US Health Tech Giant Change Healthcare Hit by Cyberattack",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
         {
           "id": "https://tech.slashdot.org/story/24/02/21/2335258/google-admits-gemini-is-missing-the-mark-with-image-generation-of-historical-people?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4831,156 +4957,6 @@
           "wordCount": 10804,
           "title": "Apple Plans New Fees and Restrictions for Downloads Outside App Store",
           "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/01/24/0354215/new-blood-test-that-screens-for-alzheimers-may-be-a-step-closer-to-reality-study-suggests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Testing a person's blood for a type of protein called phosphorylated tau, or p-tau, could be used to screen for Alzheimer's disease with \"high accuracy,\" even before symptoms begin to show, a new study suggests. CNN: The study involved testing blood for a key biomarker of Alzheimer's called p-tau217, which increases at the same time as other damaging proteins -- beta amyloid and tau -- build up in the brains of people with the disease. Currently, to identify the buildup of beta amyloid and tau in the brain, patients undergo a brain scan or spinal tap, which often can be inaccessible and costly. But this simple blood test was found to be up to 96% accurate in identifying elevated levels of beta amyloid and up to 97% accurate in identifying tau, according to the study published Monday in the journal JAMA Neurology. \n\n\"What was impressive with these results is that the blood test was just as accurate as advanced testing like cerebrospinal fluid tests and brain scans at showing Alzheimer's disease pathology in the brain,\" Nicholas Ashton, a professor of neurochemistry at the University of Gothenburg in Sweden and one of the study's lead authors, said in an email. The study findings came as no surprise to Ashton, who added that the scientific community has known for several years that using blood tests to measure tau or other biomarkers has the potential to assess Alzheimer's disease risk. \"Now we are close to these tests being prime-time and this study shows that,\" he said. Alzheimer's disease, a brain disorder that affects memory and thinking skills, is the most common type of dementia, according to the National Institutes of Health.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/24/01/24/0354215/new-blood-test-that-screens-for-alzheimers-may-be-a-step-closer-to-reality-study-suggests?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-24T12:00:00.000Z",
-          "wordCount": 11186,
-          "title": "New Blood Test That Screens For Alzheimer's May Be a Step Closer To Reality, Study Suggests",
-          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
-        },
-        {
-          "id": "https://games.slashdot.org/story/24/01/24/0357228/netflix-says-that-game-engagement-tripled-in-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Netflix said that user engagement with games on the service tripled in 2023. Engadget: \"[Despite] games still being small, and certainly not yet material relative to our film and series business, we're pleased with this progress,\" the company said in its earnings report on Tuesday. As an example, the company pointed to the addition of the Grand Theft Auto trilogy to the service last year, although it isn't clear how much the trilogy, which only arrived on Netflix on December 14, helped drive engagement in the final two weeks of the year. Netflix said that Grand Theft Auto has become its \"most successful launch to date\" in terms of installs and engagement. It didn't say how many people had downloaded the trilogy since it was released on the platform, however. Some customers had signed up for Netflix just to play the Grand Theft Auto games, the company said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/24/01/24/0357228/netflix-says-that-game-engagement-tripled-in-2023?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-24T09:00:00.000Z",
-          "wordCount": 4830,
-          "title": "Netflix Says That Game Engagement Tripled in 2023",
-          "imageUrl": "https://a.fsdn.com/sd/topics/games_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/24/048249/alaska-air-ceo-says-loose-bolts-found-in-many-boeing-jets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Alaska Air Group found loose bolts on \"many\" of its Boeing 737 Max 9 aircraft following the midair blowout of a panel on one of its planes earlier this month, the carrier's chief executive officer said in an interview with NBC. Bloomberg: The accident has prompted some \"very tough, candid conversations\" with Boeing about the planemaker's operations, Alaska CEO Ben Minicucci told NBC in the interview, which aired late Tuesday. \"I am angry. I'm more than frustrated and disappointed,\" he said. \"My demand on Boeing is what are they going to do to improve their quality programs in-house?\" \n\nUS safety regulators ordered all Max 9 planes grounded following the Jan. 5 incident, which left a gaping hole in the side of a jet and forced an emergency landing. No one was seriously injured. Minicucci said there was a \"guardian angel\" on the flight. Manufacturing quality at Boeing is facing deep scrutiny from regulators, customers and the planemaker itself in the wake of the blowout. While Alaska and United Airlines Holdings, another large operator of the Max model, have performed inspections on some of the aircraft, they're awaiting final specifications from the Federal Aviation Administration and Boeing before the planes can fly again. \"Boeing is better than this,\" Minicucci said. \"Flight 1282 should never have happened.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/01/24/048249/alaska-air-ceo-says-loose-bolts-found-in-many-boeing-jets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-24T04:15:00.000Z",
-          "wordCount": 14809,
-          "title": "Alaska Air CEO Says Loose Bolts Found in 'Many' Boeing Jets",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/01/24/0349212/ebay-to-eliminate-1000-jobs-or-9-of-full-time-workforce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Ebay said Tuesday that it plans to lay off 9% of the company's workforce, equal to about 1,000 full-time jobs, as the tech industry continues to downsize to start 2024. From a report: Jamie Iannone, Ebay's CEO, told employees in a letter published on a corporate blog, that the company will also \"scale back the number of contracts we have within our alternate workforce over the coming months.\" Iannone said the job cuts are necessary because Ebay's \"overall headcount and expenses have outpaced the growth of our business. To address this, we're implementing organizational changes that align and consolidate certain teams to improve the end-to-end experience, and better meet the needs of our customers around the world. Shortly, we will begin notifying those employees whose roles have been eliminated and entering into a consultation process in areas where required.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/01/24/0349212/ebay-to-eliminate-1000-jobs-or-9-of-full-time-workforce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-24T04:00:00.000Z",
-          "wordCount": 10678,
-          "title": "Ebay To Eliminate 1,000 Jobs, or 9% of Full-Time Workforce",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/24/01/24/0039241/apple-dials-back-cars-self-driving-features-and-delays-launch-to-2028?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple, reaching a make-or-break point in its decade-old effort to build a car, has pivoted to a less ambitious design with the intent of finally bringing an electric vehicle to market. Bloomberg: After previously envisioning a truly driverless car, the company is now working on an EV with more limited features, according to people with knowledge of the project. Even so, Apple's goal for a release date continues to slip. With the latest changes, the company looks to introduce the car in 2028 at the earliest, roughly two years after a recent projection, said the people, who asked not to be identified because the deliberations are private. \n\nApple's secretive effort to create a car is one of the most ambitious endeavors in its history, and one of its more tumultuous. Since it began taking shape in 2014, the project -- codenamed Titan and T172 -- has seen several bosses come and go. There have been multiple rounds of layoffs, key changes in strategy and numerous delays. But it remains one of the company's potential next big things -- an entirely new category for the device maker that could help reinvigorate sales growth. Apple's revenue stalled last year as it contended with a maturing smartphone industry and a slowdown in China, its biggest overseas market.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/24/01/24/0039241/apple-dials-back-cars-self-driving-features-and-delays-launch-to-2028?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-24T01:30:00.000Z",
-          "wordCount": 8239,
-          "title": "Apple Dials Back Car's Self-Driving Features and Delays Launch To 2028",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/24/01/24/0028209/netflix-is-going-to-take-away-its-cheapest-ad-free-plan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Although Netflix no longer allows new or returning members to sign up for the ad-free Basic subscription that costs $11.99 per month, company executives told investors while reporting its earnings results today that it's retiring the plan in some countries where ad-supported plans are available. It's starting with Canada and the UK in the second quarter of this year. From a report: That leaves subscribers with Netflix's $15.49 per month option as Netflix's cheapest ad-free plan. Going from $11.99 to $15.49 per month is a pretty big jump, and means there's really no middle ground for ad-free plans. Otherwise, subscribers will have to pay $6.99 per month for its ad-supported basic plan or $22.99 per month for the Premium tier. Netflix stopped letting new subscribers sign up for its Basic plan in Canada last year before rolling out the change to the US and UK.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/24/01/24/0028209/netflix-is-going-to-take-away-its-cheapest-ad-free-plan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-24T00:27:00.000Z",
-          "wordCount": 4770,
-          "title": "Netflix is Going To Take Away Its Cheapest Ad-Free Plan",
-          "imageUrl": "https://a.fsdn.com/sd/topics/tv_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/23/1810241/biden-aims-to-stop-countries-from-exploiting-americans-data-for-blackmail-espionage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Biden administration is preparing an executive order that seeks to prevent foreign adversaries from accessing troves of highly sensitive personal data about Americans and people connected to the US government, Bloomberg News reported, citing documents. From the report: The administration plans to soon unveil the new executive order, which will direct the US Attorney General and Department of Homeland Security to issue new restrictions on transactions involving data that, if obtained, could threaten national security, according to three people familiar with the matter, who asked not to be named as the details are still private. \n\nThe draft order focuses on ways that foreign adversaries are gaining access to Americans' \"highly sensitive\" personal data -- from genetic information to location -- through legal means. That includes obtaining information through intermediaries, such as data brokers, third-party vendor agreements, employment agreements or investment agreements, according to a draft of the proposed order. In addition, organizations owned, controlled or operated by \"countries of concern\" are often obligated to hand such data over to the government when asked.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/01/23/1810241/biden-aims-to-stop-countries-from-exploiting-americans-data-for-blackmail-espionage?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T21:00:00.000Z",
-          "wordCount": 7793,
-          "title": "Biden Aims To Stop Countries From Exploiting Americans' Data for Blackmail, Espionage",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/23/1738236/ftc-bans-turbotax-from-advertising-free-services-calls-it-deceptive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Federal Trade Commission ruled in a final order and opinion Monday that TurboTax, the popular tax filing software, engaged in deceptive advertising and banned the company from advertising its services for free unless it is free for all customers. CNN adds: By running ads for \"free\" tax services that many customers were not qualified for, the tax filing software violated the FTC Act and deceived consumers, the agency said. The FTC had first sued Intuit, TurboTax's owner, for its deceptive advertising in 2022. The FTC staff alleged most tax filers couldn't use the company's \"free\" services -- \"such as those who get a 1099 form for work in the gig economy, or those who earn farm income.\" TurboTax advertising their products as free misled those customers, according to the FTC. \n\nThe FTC Administrative Law Judge D. Michael Chappell announced the initial decision in September, which the commission upheld Monday. Intuit had appealed to the FTC as part of the process. In a statement Monday, Intuit said it has appealed \"this deeply flawed decision\" to federal circuit court outside of the FTC. \"Absolutely no one should be surprised that FTC Commissioners -- employees of the FTC -- ruled in favor of the FTC as they have done in every appeal for the last two decades. This decision is the result of a biased and broken system where the Commission serves as accuser, judge, jury, and then appellate judge all in the same case,\" an an Intuit spokesperson said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/01/23/1738236/ftc-bans-turbotax-from-advertising-free-services-calls-it-deceptive?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T20:01:00.000Z",
-          "wordCount": 7581,
-          "title": "FTC Bans TurboTax From Advertising 'Free' Services, Calls It Deceptive",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/01/23/1734221/gummy-vitamins-are-just-candy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Gummy vitamin supplements have surged in popularity, with sales projected to double to $14 billion by 2027. However, experts warn that the candy-like taste and texture increase risks of overdosing, especially among children, as calls to Poison Control for melatonin overdoses have jumped 530% in a decade. Formulating vitamins into gummies also leads to faster nutrient degradation from heat, light and moisture than pills. Testing shows gummy vitamins often contain far more or less of ingredients than labels state. While some sweetness makes supplements appealing, gummies mimic candy too closely at the expense of safety and reliability. The Atlantic: A recent analysis of melatonin and CBD gummies yielded similar results: Some contained as much as 347 percent the amount of those substances sta…",
-          "link": "https://science.slashdot.org/story/24/01/23/1734221/gummy-vitamins-are-just-candy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T19:00:00.000Z",
-          "wordCount": 9537,
-          "title": "Gummy Vitamins Are Just Candy",
-          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
-        },
-        {
-          "id": "https://slashdot.org/story/24/01/23/1713232/google-chrome-gains-ai-features-including-a-writing-helper?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Google is adding new AI features to Chrome, including tools to organize browser tabs, customize themes, and assist users with writing online content such as reviews and forum posts. \n\nThe writing helper is similar to an AI-powered feature already offered in Google's experimental search experience, SGE, which helps users draft emails in various tones and lengths. With the built-in Chrome writing tool, Google said users could potentially compose business reviews, RSVP messages, rental inquiries, and posts for online forums. TechCrunch adds: The still-experimental feature will be accessible in next month's Chrome release by right-clicking on a text box or field on the web and then choosing \"help me write.\" To get started, you'll first write a few words and then Google's AI will jump in to help.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/01/23/1713232/google-chrome-gains-ai-features-including-a-writing-helper?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T18:00:00.000Z",
-          "wordCount": 5953,
-          "title": "Google Chrome Gains AI Features Including a Writing Helper",
-          "imageUrl": "https://a.fsdn.com/sd/topics/chrome_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/24/01/23/1417247/china-quietly-pulls-draft-gaming-rules-from-website?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Beijing has quietly pulled the proposed curbs on the video game industry from the official website, weeks after the draft guidelines wiped tens of billions of dollars off the market value of local titans. From a report: The link to the draft rules was no longer accessible as of this morning, Haitong Securities reported earlier on Tuesday. Shares of Tencent and NetEase jumped on the news. \"This could possibly indicate that there will be further changes in the new measures,\" wrote Haitong analysts in the note. The move follows Beijing also removing a key official -- the head of the publication bureau of Communist Party's Propaganda Department -- over the handling of the release of the draft rules, which caught investors and gaming giants by surprise.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/24/01/23/1417247/china-quietly-pulls-draft-gaming-rules-from-website?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T17:00:00.000Z",
-          "wordCount": 5494,
-          "title": "China Quietly Pulls Draft Gaming Rules From Website",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/23/1522227/we-need-to-talk-about-franklin-templeton?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "FT Alphaville: Making fun of corporate brands embarrassing themselves online is like shooting fish in a barrel. It's not hard, but washing off the resulting splatter of blood, scales, innards and half-digested crab is, so no one wins. Honestly though, what the hell Franklin? Really? OK maybe Alphaville should tread carefully here, given some readers see our ~cough~ somewhat different approach to news and commentary as at odds with mainFT's brand. But like Meb Faber we prefer our trillion-dollar asset management groups to be boring. Stick to solid, sober and purportedly smart investing. Don't tweet that 60/40 retirement portfolios should include \"assets\" where it gleefully says \"speculation is a feature, not a bug.\" \n\nEspecially when said asset manager was famously named after Benjamin Franklin, because according to founder Rupert Johnson he \"epitomised the ideas of frugality and prudence when it came to saving and investing.\" We get that Franklin needs to revamp itself. Despite a spate of aggressive M&A swelling its assets to $1.4tn, its share price has sagged over the past decade, giving it a current market cap of $13.6bn. That's less than AppLovin, Domino's Pizza and the world's biggest producer of frozen potato chips. It's only barely enough for inclusion into the S&P 500. Beyond the obvious and well-documented challenges of being a very traditional active asset manager in a world that mostly loves alternatives and passive funds, Franklin also has a rep for being a bit old-fashioned. Promoting crypto therefore probably seems like an obvious, fellow-kids way to seem more cool and edgy.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/23/1522227/we-need-to-talk-about-franklin-templeton?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T16:00:00.000Z",
-          "wordCount": 9083,
-          "title": "We Need To Talk About Franklin Templeton",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/24/01/23/1412248/palworld-embroiled-in-ai-and-pokemon-plagiarism-controversy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Steam's newest hit survival game, Palworld, has been accused of plagiarising designs from Pokemon, as social media users negatively highlight its creator's historical association with generative AI tools. VideoGamesChronicle: Palworld by Japanese studio Pocketpair released into early access on PC and Xbox on Friday, and immediately became a breakout success, with its creator claiming 2 million sales in 24 hours. The huge launch exposure inevitably reignited discourse that has followed Palworld since its announcement, around its character designs' apparent similarities to Pokemon. Although the gameplay of Palworld is closer to survival games like Ark and Rust than Game Freak's series, many social media users have noted the obvious influences its character designs have taken from the Nintendo series. \n\nFollowing Palworld's release on Friday, some X users collated perceived similarities between Palworld's 'Pals' and Pokemon. \"It's not even subtle about its rip offs, how much else has it stolen?\" wrote one user. Another added: \"I want to like Palworld, but I don't know if I can support running existing Pokemon through a fusor and passing them off as 'new' IP.\" The situation is further muddled in the eyes of some by Pocketpair's historical relationship with generative AI tools. Artist Zaytri noted on X that one of its previous titles was 'AI: Art Imposter,' a game which literally utilises an AI image generator as its core mechanic. The user also highlighted multiple historical X posts by Pocketpair's CEO Takuro Mizobe, in which he appeared to praise the potential of AI image generators for content creation.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/24/01/23/1412248/palworld-embroiled-in-ai-and-pokemon-plagiarism-controversy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T15:00:00.000Z",
-          "wordCount": 9493,
-          "title": "Palworld Embroiled in AI and Pokemon 'Plagiarism' Controversy",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/01/23/1245226/netflix-buys-rights-to-wwes-raw-its-first-big-live-event?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Netflix has acquired the exclusive rights to Raw as well as other programming from World Wrestling Entertainment, marking the streaming service's first big move into live events. From a report: Raw will air on Netflix in the US, Canada, Latin America and other international markets beginning in January 2025, after the expiration of the WWE's domestic deal with Comcast. The company will also become the exclusive home outside the US for all WWE shows and specials, including Smackdown and NXT, as well as pay-per-view live events like Wrestlemania, SummerSlam and Royal Rumble. The pay-per-view events will be included at no additional cost for Netflix customers. \n\nAfter attracting more than 200 million customers by offering films and TV shows on-demand, Netflix has now committed to offering three hours of live wrestling a week starting next year. The company hopes the deal will bring in millions of loyal WWE viewers and provide a boost for its fledgling advertising-supported plan. Netflix has been dabbling in live events for the last year, airing a live comedy special, as well as a golf match, but this is the first long-term rights deal. The WWE is the latest major live event to shift from cable TV to streaming. Ultimate Fighting Championship, which like WWE is owned by TKO Group Holdings, offers many of its matches on ESPN+, while the National Football League sold Amazon the rights to Thursday Night Football. A playoff game on Comcast's Peacock just delivered the largest streaming audience for any professional sports event in the US. The deal 10-year deal is valued at more than $5 billion, CNBC reported.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/01/23/1245226/netflix-buys-rights-to-wwes-raw-its-first-big-live-event?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T14:00:00.000Z",
-          "wordCount": 8801,
-          "title": "Netflix Buys Rights To WWE's 'Raw,' Its First Big Live Event",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/24/01/22/2317247/eff-adds-street-surveillance-hub-so-americans-can-check-whos-checking-on-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from The Register: For a country that prides itself on being free, America does seem to have an awful lot of spying going on, as the new Street Surveillance Hub from the Electronic Frontier Foundation shows. The Hub contains detailed breakdowns of the type of surveillance systems used, from bodycams to biometrics, predictive policing software to gunshot detection microphones and drone-equipped law enforcement. It also has a full news feed so that concerned citizens can keep up with the latest US surveillance news; they can also contribute to the Atlas of Surveillance on the site.\n \nThe Atlas, started in 2019, allows anyone to check what law enforcement is being used in their local area -- be it license plate readers, drones, or gunshot detection microphones. It can also let you know if local law enforcement is collaborating with third parties like home security vendor Ring to get extra information. EFF policy analyst Matthew Guariglia told The Register that once people look into what's being deployed using their tax dollars, a lot of red flags are raised. Over the last few years America's thin blue line have not only been harvesting huge amounts of data themselves, but also buying it in from commercial operators. The result is a perfect storm on privacy -- with police, homeowners, and our personal technology proving to be a goldmine of intrusive information that's often misused.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/24/01/22/2317247/eff-adds-street-surveillance-hub-so-americans-can-check-whos-checking-on-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-23T13:00:00.000Z",
-          "wordCount": 8650,
-          "title": "EFF Adds Street Surveillance Hub So Americans Can Check Who's Checking On Them",
-          "imageUrl": "https://a.fsdn.com/sd/topics/eff_64.png"
         }
       ]
     }
