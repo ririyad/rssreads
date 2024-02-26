@@ -2,10 +2,342 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-25T01:03:25.052Z</updated>
+    <updated>2024-02-26T01:01:07.101Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Are Corporate Interests Holding Back US Electrical Grid Expansion?]]></title>
+        <id>https://hardware.slashdot.org/story/24/02/25/1956248/are-corporate-interests-holding-back-us-electrical-grid-expansion?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/24/02/25/1956248/are-corporate-interests-holding-back-us-electrical-grid-expansion?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T23:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader BishopBerkeley writes: Though it does not come as much of a surprise, a new study highlighted in IEEE Spectrum delves into how corporate profit motives are preventing the upgrading and the expansion of the U.S. electrical grid. The full report can be downloaded here from the source [the nonprofit economic research group NBER]. 
+
+Besides opening up the market to competition, utilities don't want to lose control over regional infrastructure, writes IEEE Spectrum. "[I]nterregional lines threaten utility companies' dominance over the nation's power supply. In the power industry, asset ownership provides control over rules that govern energy markets and transmission service and expansion. When upstart entities build power plants and transmission lines, they may be able…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Julia v1.10 Improves Performance, and Gnuplot Gets Pie Charts]]></title>
+        <id>https://developers.slashdot.org/story/24/02/25/1916251/julia-v110-improves-performance-and-gnuplot-gets-pie-charts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/24/02/25/1916251/julia-v110-improves-performance-and-gnuplot-gets-pie-charts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T22:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Julia 1.0 was released in 2018 — after a six-year wait. 
+
+And there's now another update. LWN.net gets you up to speed, calling Julia "a general-purpose, open-source programming language with a focus on high-performance scientific computing."
+
+Some of Julia's unusual features: 
+- Lisp-inspired metaprogramming
+- The ability to examine compiled representations of code in the REPL or in a "reactive notebook"
+- An advanced type and dispatch system
+- A sophisticated, built-in package manager. 
+
+Version 1.10 brings big increases in speed and developer convenience, especially improvements in code precompilation and loading times. It also features a new parser written in Julia... [I]t is faster, it produces more useful syntax-error messages, and it provides better source-code mapping, which associates locations in compiled code to their corresponding lines in the source. That last improvement also leads to better error messages and makes it possible to write more sophisticated debuggers and linters... 
+
+Between the improvements in precompilation and loading times, and the progress in making small binaries, two major and perennial complaints, of beginners and seasoned Julia users alike, have been addressed... StaticCompiler and related WebAssembly tools will make it easier to write web applications in Julia for direct execution in the browser; it is already possible, but may become more convenient over the next few years. 
+
+Thanks for sharing the article to long-time Slashdot reader lee1 — who also wrote No Starch Press's Practical Julia: A Hands-On Introduction for Scientific Minds . 
+
+lee1 also reminds us that Gnuplot 6.0 was released in December:
+lee1 writes: This article surveys the new features, including filled contours in 3D, adaptive plotting resolution, watchpoints, clipping of surfaces, pie charts, and new syntax for conditionals.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scientists Create DVD-Sized Disk Storing 1 Petabit (125,000 Gigabytes) of Data]]></title>
+        <id>https://hardware.slashdot.org/story/24/02/25/2026232/scientists-create-dvd-sized-disk-storing-1-petabit-125000-gigabytes-of-data?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/24/02/25/2026232/scientists-create-dvd-sized-disk-storing-1-petabit-125000-gigabytes-of-data?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T21:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Popular Science points out that for encoding data, "optical disks almost always offer just a single, 2D layer — that reflective, silver underside." 
+
+"If you could boost a disk's number of available, encodable layers, however, you could hypothetically gain a massive amount of extra space..."
+Researchers at the University of Shanghai for Science and Technology recently set out to do just that, and published the results earlier this week in the journal, Nature. Using a 54-nanometer laser, the team managed to record a 100 layers of data onto an optical disk, with each tier separated by just 1 micrometer. The final result is an optical disk with a three-dimensional stack of data layers capable of holding a whopping 1 petabit (Pb) of information — that's equivalent to 125,000 gigabytes of data... 
+
+As Gizmodo offers for reference, that same petabit of information would require roughly a six-and-a-half foot tall stack of HHD drives — if you tried to encode the same amount of data onto Blu-rays, you'd need around 10,000 blank ones to complete your (extremely inefficient) challenge. 
+
+To pull off their accomplishment, engineers needed to create an entirely new material for their optical disk's film... AIE-DDPR film utilizes a combination of specialized, photosensitive molecules capable of absorbing photonic data at a nanoscale level, which is then encoded using a high-tech dual-laser array. Because AIE-DDPR is so incredibly transparent, designers could apply layer-upon-layer to an optical disk without worrying about degrading the overall data. This basically generated a 3D "box" for digitized information, thus exponentially raising the normal-sized disk's capacity.
+ 
+Thanks to long-time Slashdot reader hackingbear for sharing the news.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Companies Helping Governments Hack Citizens' Phones: a 'Thriving' Industry]]></title>
+        <id>https://yro.slashdot.org/story/24/02/25/1845220/the-companies-helping-governments-hack-citizens-phones-a-thriving-industry?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/02/25/1845220/the-companies-helping-governments-hack-citizens-phones-a-thriving-industry?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T20:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Fast Company notes that "the deadly impacts of Pegasus and other cyberweapons — wielded by governments from Spain to Saudi Arabia against human rights defenders, journalists, lawyers and others — is by now well documented. A wave of scrutiny and sanctions have helped expose the secretive, quasi-legal industry behind these tools, and put financial strain on firms like Israel's NSO Group, which builds Pegasus. 
+
+"And yet business is booming."
+
+New research published this month by Google and Meta suggest that despite new restrictions, the cyberattack market is growing, and growing more dangerous, aiding government violence and repression and eroding democracy around the globe. 
+
+"The industry is thriving," says Maddie Stone, a researcher at Google's Threat Analysis Group (TAG) who hunts zero-…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Switching to Android was easy]]></title>
+        <id>https://world.hey.com/dhh/switching-to-android-was-easy-4bf28577</id>
+        <link href="https://world.hey.com/dhh/switching-to-android-was-easy-4bf28577"/>
+        <updated>2024-02-25T20:27:11.000Z</updated>
+        <summary type="html"><![CDATA[In addition to trying out Windows for a week, I also switched my main phone number to Android recently. And that turned out to be far easier. Dangerously easy, you might say, if you were in Apple’s shoes. But it’s all down to how deep you’re mired in the platform services soup.
+I used to be all-in on the Apple software story. Apple Mail, Apple Calendar, Apple Notes, Apple Photos, iMessage, Apple Just-About-Everything. It’s really hard to switch from iPhone to Android when that’s the case. But it’s surprisingly easy to make that not the case, and then switching becomes trivial.
+For me, HEY delivered two easy outs on the key apps I use on a phone: Email + Calendar. With the HEY combo now packing both, there was literally zero lock-in on that front hopping from an iPhone 15 Pro to a Samsung S…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AT&amp;T Will Issue $5 Reimbursements For 12-Hour Outage]]></title>
+        <id>https://slashdot.org/story/24/02/25/1758242/att-will-issue-5-reimbursements-for-12-hour-outage?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/02/25/1758242/att-will-issue-5-reimbursements-for-12-hour-outage?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T19:34:00.000Z</updated>
+        <summary type="html"><![CDATA[CNN reports:
+
+AT&T is reimbursing customers for the nearly 12-hour network outage on Thursday, the company announced in a news release. The mobile network will issue a $5 credit to "potentially impacted" AT&T Wireless customers, which it says is the "average cost of a full day of service."
+ 
+The credit will be applied automatically "within 2 bill cycles," according to an announcement at the URL att.com/makeitright. "We recognize the frustration this outage has caused and know we let many of our customers down." 
+
+In a much smaller font, they note that the credit "does not apply to AT&T Business, AT&T Prepaid or Cricket. 
+
+More from CNN:
+
+AT&T had encountered sporadic service interruptions in the days leading up to the outage, including a temporary 911 outage in some parts of the southeast. While regional disruptions to wireless service happen occasionally, prolonged nationwide outages are rare. The Federal Communications Commission confirmed Thursday it was investigating the incident... 
+
+ Several hours after service was restored, AT&T released an update stating the outage seemed to be the result of an internal issue, not a cybersecurity threat. "Based on our initial review, we believe that today's outage was caused by the application and execution of an incorrect process used as we were expanding our network," the company said. 
+
+On Saturday, AT&T reiterated it was taking steps "to prevent this from happening again in the future," but did not elaborate.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSCode + WSL makes Windows awesome for web development]]></title>
+        <id>https://world.hey.com/dhh/vscode-wsl-makes-windows-awesome-for-web-development-9bc4d528</id>
+        <link href="https://world.hey.com/dhh/vscode-wsl-makes-windows-awesome-for-web-development-9bc4d528"/>
+        <updated>2024-02-25T19:07:31.000Z</updated>
+        <summary type="html"><![CDATA[I’m kinda shocked. Windows actually got good for web developers. Between VSCode, WSL, and Intel’s latest desktop chips, I’ve been living with a PC for over a week that runs my programming tests faster than an M3 Max, ships with an excellent window manager out-the-box, and generally feels like a completely viable alternative to macOS for working with the web.
+Hell, not just viable, but better in many regards. WSL lets you run a real Linux distribution natively, so you can use the same package manager that you’ll deploy against. Oh, and since it’s x86, you’ll be building Docker images for your server hardware in a fraction of the time it takes to multi-arch on arm64.
+Now it’s true that to get this kind of speed, you need to rock a desktop machine. The Dell I got had an Intel i9-14900K, which…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Remembering How Plan 9 Evolved at Bell Labs]]></title>
+        <id>https://tech.slashdot.org/story/24/02/25/1620222/remembering-how-plan-9-evolved-at-bell-labs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/02/25/1620222/remembering-how-plan-9-evolved-at-bell-labs?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T18:34:00.000Z</updated>
+        <summary type="html"><![CDATA[jd (Slashdot reader #1,658) writes: The Register has been running a series of articles about the evolution of Unix, from humble beginnings to the transition to Plan9. There is a short discussion of why Plan9 and its successors never really took off (despite being vastly superior to microkernels), along with the ongoing development of 9Front. 
+
+
+
+From the article:
+
+Plan 9 was in some way a second implementation of the core concepts of Unix and C, but reconsidered for a world of networked graphical workstations. It took many of the trendy ideas of late-1980s computing, both of academic theories and of the computer industry of the time, and it reinterpreted them through the jaded eyes of two great gurus, Kenneth Thompson and Dennis Ritchie (and their students) — arguably, design geniuses who saw their previous good ideas misunderstood and misinterpreted.
+
+ In Plan 9, networking is front and center. There are good reasons why this wasn't the case with Unix — it was being designed and built at the same time as local area networking was being invented. UNIX Fourth Edition, the first version written in C, was released in 1973 — the same year as the first version of Ethernet.
+
+ Plan 9 puts networking right into the heart of the design. While Unix was later used as the most common OS for standalone workstations, Plan 9 was designed for clusters of computers, some being graphical desktops and some shared servers...
+
+ Because everything really is a file, displaying a window on another machine can be as simple as making a directory and populating it with some files. You can start programs on other computers, but display the results on yours — all without any need for X11 or any visible networking at all. 
+
+This means all the Unixy stuff about telnet and rsh and ssh and X forwarding and so on just goes away. It makes X11 look very overcomplicated, and it makes Wayland look like it was invented by Microsoft.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[In Netflix's New Sci-Fi Movie 'Spaceman', an Introverted Astronaut Confronts Isolation]]></title>
+        <id>https://entertainment.slashdot.org/story/24/02/24/1955259/in-netflixs-new-sci-fi-movie-spaceman-an-introverted-astronaut-confronts-isolation?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://entertainment.slashdot.org/story/24/02/24/1955259/in-netflixs-new-sci-fi-movie-spaceman-an-introverted-astronaut-confronts-isolation?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T17:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Netflix's new sci-fi drama Spaceman centers on Czech astronaut Jakub Procházk, described by Polygon as "painfully introverted, emotionally repressed, and above all, quiet... so muted and compressed, he seems like a trauma victim."
+
+The film, adapted from the 2017 novel Spaceman of Bohemia written by Czech author Jaroslav KalfaÅ(TM), is a solemn drama in the mold of Andrei Tarkovsky's Solaris, or to some degree, Christopher Nolan's Interstellar. The story revolves around Jakub's disintegrating frame of mind after eight months alone in space as he investigates a glowing cosmic phenomenon that's become visible from Earth. Meanwhile, his wife Lenka (Carey Mulligan), heavily pregnant and going through her own breakdown back home, decides to leave Jakub, and his handlers (Isabella Rossellini among them) work to keep him from finding out. And then the giant spider appears, and Jakub worries that he's losing his mind.
+ 
+
+CNN says Sandler's deal with Netflix "means pretty much doing whatever he wants, which, in the case of Spaceman, means traveling to the furthest reaches of space as the near-solitary star of a pretentious, message-heavy drama." 
+
+You can watch a trailer here. The movie enjoys a "limited theatrical release" this weekend, and will stream on Netflix starting March 1.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Texas Just Got a New 1.1-Million-Panel Solar Farm]]></title>
+        <id>https://hardware.slashdot.org/story/24/02/24/2344243/texas-just-got-a-new-11-million-panel-solar-farm?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/24/02/24/2344243/texas-just-got-a-new-11-million-panel-solar-farm?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T16:34:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shared this report from Electrek:
+
+Renewable developer Clearway Energy Group has completed a 452-megawatt (MW) solar farm in West Texas — and it's huge... It's built on around 5,000 acres of land and features over 1.1 million solar panels... Texas Solar Nova will generate enough electricity to power over 190,000 homes annually. 
+
+It's got an offtake agreement with telecoms giant Verizon, and agreements with auto component maker Toyota Boshoku and Swedish bearing and seal maker SKF to purchase renewable energy certificates (RECs). Both Toyota Boshoku and SKF have 12-year agreements for RECs. 
+
+The $660 million facility will "contribute significantly to the local tax base," the company said in a statement, "starting with an estimated $5.4 million in property taxes and wages to be paid in the first year."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oklahoma Man Hacked US Government Site To Buy Cars At Auction For $1]]></title>
+        <id>https://yro.slashdot.org/story/24/02/25/0153221/oklahoma-man-hacked-us-government-site-to-buy-cars-at-auction-for-1?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/02/25/0153221/oklahoma-man-hacked-us-government-site-to-buy-cars-at-auction-for-1?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA[A U.S. government auction site was breached by an Oklahoma man, reports NBC News. So when it came time to pay up on his winning bids, he "falsified the true auction price to $1," according to the U.S. attorney's office. 
+
+He defrauded the government out of more than $150,000 between Jan. 31 and March 21, 2019, the indictment alleges. Included in the $1-buys were a 2010 Ford Escape Hybrid, for which Coker submitted a bid of $8,327; a Ford F550 pickup, with a bid of $9,000; and a Chevrolet C4500 box truck, bid $22,700; the U.S. attorney's office said... 
+
+Nineteen items in all were bought through the auctions, according to prosecutors. Coker used eight accounts and pre-paid debit cards with very little balances to make the purchases, the indictment says. 
+
+"Coker was indicted on three counts of wire fraud in March 2023 and pleaded guilty to one count Wednesday, according to court records." 
+Thanks to Slashdot reader Thelasko for sharing the news.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moon Landing's Payloads Include Archive of Human Knowledge, Lunar Data Center Test, NFTs]]></title>
+        <id>https://science.slashdot.org/story/24/02/25/0125230/moon-landings-payloads-include-archive-of-human-knowledge-lunar-data-center-test-nfts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/02/25/0125230/moon-landings-payloads-include-archive-of-human-knowledge-lunar-data-center-test-nfts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T12:34:00.000Z</updated>
+        <summary type="html"><![CDATA[In 2019 a SpaceX Falcon 9 rocket launched an Israeli spacecraft carrying a 30-million page archive of human civilization to the moon. Unfortunately, that spacecraft crashed.
+
+But thanks to this week's moon landing by the Odysseus, there's now a 30-million page "Lunar Library" on the moon — according to a Medium post by the Arch Mission Foundation. 
+
+
+"This historic moment secures humanity's cultural heritage and knowledge in an indestructible archive built to last for up to billions of years."
+
+Etched onto thin sheets of nickel, called NanoFiche, the Lunar Library is practically indestructible and can withstand the harsh conditions of space... Some of the notable content includes: 
+
+ The Wikipedia. The entire English Wikipedia containing over 6 million articles on every branch of knowledge…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Happened After Peter Thiel Paid 271 Students to Drop Out of College?]]></title>
+        <id>https://news.slashdot.org/story/24/02/24/2311221/what-happened-after-peter-thiel-paid-271-students-to-drop-out-of-college?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/02/24/2311221/what-happened-after-peter-thiel-paid-271-students-to-drop-out-of-college?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T08:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Since 2010, billionaire tech investor Peter Thiel has offered to pay about 20 students $100,000 to drop out of school each year "to start companies or nonprofits," reports the Wall Street Journal. His program has now backed 271 people, and this year the applicant pool "is bigger than ever." 
+
+So how's it going?
+
+Some big successes include Vitalik Buterin, co-founder of Ethereum, the blockchain network; Laura Deming, a key figure in venture investing in aging and longevity; Austin Russell, who runs self-driving technologies company Luminar Technologies; and Paul Gu, co-founder of consumer lending company Upstart... 
+
+Thiel and executives of the fellowship acknowledge they have learned painful lessons along the way. Some applicants pursued ambitious ideas that turned out to be unrealistic, f…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How 'Smart Keys' Have Fueled a New Wave of Car Thefts]]></title>
+        <id>https://it.slashdot.org/story/24/02/24/2148203/how-smart-keys-have-fueled-a-new-wave-of-car-thefts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/24/02/24/2148203/how-smart-keys-have-fueled-a-new-wave-of-car-thefts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T04:34:00.000Z</updated>
+        <summary type="html"><![CDATA["One London resident watched on CCTV as a thief walked up to his £40,000 car and drove away," reports the Observer. "Now manufacturers say they are being drawn in to a hi-tech 'arms race' with criminals."
+
+
+[H]i-tech devices disguised as handheld games consoles are being traded online for thousands of pounds and are used by organised crime gangs to mimic the electronic key on an Ioniq 5, opening the doors and starting the engine. The device, known as an "emulator", works by intercepting a signal from the car, which is scanning for the presence of a legitimate key, and sending back a signal to gain access to the vehicle... 
+
+Hyundai says it is looking at measures to prevent the use of emulators "as a priority". But it is not the only carmaker whose vehicles appear to be vulnerable. An Observer investigation found that models by Toyota, Lexus and Kia have also been targeted... British motorists now face an increase in the number of thefts and rising insurance premiums... Car thefts are at their highest level for a decade in England and Wales, rising from 85,803 vehicles in the year to March 2012 to 130,270 in the year to March 2023 — an increase of more than 50%. Part of the reason, say experts, is the rise of keyless entry... 
+
+Kia did not respond to a request for comment. A spokesperson for Toyota, which owns Lexus, said: "Toyota and Lexus are continuously working on developing technical solutions to make vehicles more secure. Since introducing enhanced security hardware on the latest versions of a number of models, we have seen a significant drop-off in thefts. For older models we are currently developing solutions." 
+
+Another common attack requires entry to the vehicle first, according to the article, but then uses the vehicle's onboard diagnostic port to program "a new key linked to the vehicle..." 
+
+"Many owners of Ioniq 5s, which sell from around £42,000, now use steering locks to deter thieves."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scientists Pursue Cancer Vaccines Tailored to the Genetic Makeup of an Individual's Tumor]]></title>
+        <id>https://science.slashdot.org/story/24/02/24/2050240/scientists-pursue-cancer-vaccines-tailored-to-the-genetic-makeup-of-an-individuals-tumor?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/02/24/2050240/scientists-pursue-cancer-vaccines-tailored-to-the-genetic-makeup-of-an-individuals-tumor?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-25T02:34:00.000Z</updated>
+        <summary type="html"><![CDATA["The Royal Swedish Academy of Sciences, which selects Nobel laureates in chemistry and physics, last week awarded Dr. Wu its Sjöberg Prize in honor of 'decisive contributions' to cancer research," reports CNN. 
+
+Their profile of the oncologist from Boston's Dana-Farber Cancer Institute notes Dr. Wu's research "has laid the scientific foundation for the development of cancer vaccines tailored to the genetic makeup of an individual's tumor."
+
+It's a strategy looking increasingly promising for some hard-to-treat cancers such as melanoma and pancreatic cancer, according to the results of early-stage trials, and may ultimately be widely applicable to many of the 200 or so forms of cancer... 
+
+The most common treatments for cancer — radiation therapy and chemotherapy — are like sledgehammers, st…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[License Plate-Scanning Company Violates Privacy of Millions of California Drivers, Argues Class Action]]></title>
         <id>https://yro.slashdot.org/story/24/02/24/2126233/license-plate-scanning-company-violates-privacy-of-millions-of-california-drivers-argues-class-action?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8455,278 +8787,6 @@ Netflix also added this wording: "In addition, the use or adoption of new and em
 
 
 Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bank of America Sends Warning Letters To Employees Not Going Into Offices]]></title>
-        <id>https://slashdot.org/story/24/01/27/0028235/bank-of-america-sends-warning-letters-to-employees-not-going-into-offices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/01/27/0028235/bank-of-america-sends-warning-letters-to-employees-not-going-into-offices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-27T10:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Bank of America is cracking down on employees who aren't following its return-to-office mandate, sending "letters of education" warnings of disciplinary action to employees who have been staying home. The Guardian: Some employees at the bank received letters that said they had failed to meet the company's "workplace excellence guidelines" despite "requests and reminders to do so," according to the Financial Times. The letter warned employees that failure to follow return-to-office expectations could lead to "further disciplinary action."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fossil is Quitting Smartwatches]]></title>
-        <id>https://slashdot.org/story/24/01/27/0017210/fossil-is-quitting-smartwatches?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/01/27/0017210/fossil-is-quitting-smartwatches?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-27T08:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Fossil Group has decided to call it quits on smartwatches. The company announced Friday that it would leave the smartwatch business and redirect resources to its less-smart goods instead. From a report: The company has been one of the most prolific makers of Wear OS smartwatches over the years, and its absence will leave a large gap in the market. "As the smartwatch landscape has evolved significantly over the past few years, we have made the strategic decision to exit the smartwatch business," Fossil spokesperson Amanda Castelli tells The Verge. "Fossil Group is redirecting resources to support our core strength and the core segments of our business that continue to provide strong growth opportunities for us: designing and distributing exciting traditional watches, jewelry, and leather goods under our own as well as licensed brand names." This means that the Gen 6, which first launched in 2021, will be the last Fossil smartwatch. Castelli says the company will continue to keep existing Wear OS watches updated "for the next few years."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI Startup Bans Account Blamed for Biden Audio Deepfake]]></title>
-        <id>https://slashdot.org/story/24/01/26/2353206/ai-startup-bans-account-blamed-for-biden-audio-deepfake?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/01/26/2353206/ai-startup-bans-account-blamed-for-biden-audio-deepfake?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-27T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: The creator of an audio deepfake of US President Joe Biden urging people not to vote in this week's New Hampshire primary has been suspended by ElevenLabs, according to a person familiar with the matter. ElevenLabs' technology was used to make the deepfake audio, according to Pindrop Security, a voice-fraud detection company that analyzed it. 
-
-ElevenLabs was made aware this week of Pindrop's findings and is investigating, the person said. Once the deepfake was traced to its creator, that user's account was suspended, said the person, asking not to be identified because the information isn't public. ElevenLabs, a startup that uses artificial intelligence software to replicate voices in more than two dozen languages, said in a statement that it couldn't comment on specific incidents. But added, "We are dedicated to preventing the misuse of audio AI tools and take any incidents of misuse extremely seriously."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Great Freight-Train Heists of the 21st Century]]></title>
-        <id>https://yro.slashdot.org/story/24/01/27/0010210/the-great-freight-train-heists-of-the-21st-century?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/24/01/27/0010210/the-great-freight-train-heists-of-the-21st-century?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-27T02:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Cargo theft from freight trains in the Los Angeles area has surged, with detectives estimating over 90 containers being opened daily and that theft on their freight trains in the Union Pacific area was up some 160 percent from the previous year. Nationally, cargo theft neared $1 billion in losses last year. Companies decline comment but California's governor publicly questioned the widespread railroad theft. Most arrested were not organized; many were homeless people nearby opportunistically taking fallen boxes off tracks. Theft stems largely from e-commerce boom that reshaped freight shipping to meet consumer demand, opening vulnerabilities. Railroad police forces and online retailers aim to combat this but concede difficulty tracking stolen goods resold anonymously online. Some products stolen from containers even get resold back on Amazon. The New York Times Magazine: Sometimes products stolen out of Amazon containers are resold by third-party sellers back on Amazon in a kind of strange ouroboros, in which the snakehead of capitalism hungrily swallows its piracy tail. Last June, California's attorney general created what was touted as a first-of-its-kind agreement among online retailers that committed them to doing a better job tracking, reporting and preventing stolen items from being resold on their platforms. While declining to comment on specific cases, a spokesperson for Amazon told me that the company is working to improve the process of vetting sellers: The number of "bad actor attempts" to create new selling accounts on Amazon decreased to 800,000 in 2022 from six million in 2020.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple's Large Language Model Shows Up in New iOS Code]]></title>
-        <id>https://apple.slashdot.org/story/24/01/26/2344206/apples-large-language-model-shows-up-in-new-ios-code?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/24/01/26/2344206/apples-large-language-model-shows-up-in-new-ios-code?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-27T00:32:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: Apple is widely expected to unveil major new artificial intelligence features with iOS 18 in June. Code found by 9to5Mac in the first beta of iOS 17.4 shows that Apple is continuing to work on a new version of Siri powered by large language model technology, with a little help from other sources. In fact, Apple appears to be using OpenAI's ChatGPT API for internal testing to help the development of its own AI models. According to this code, iOS 17.4 includes a new SiriSummarization private framework that makes calls to the OpenAI's ChatGPT API. This appears to be something Apple is using for internal testing of its new AI features. There are multiple examples of system prompts for the SiriSummarization framework in iOS 17.4 as well. This includes things like "please summarize," "please answer this questions," and "please summarize the given text." 
-
-Apple is unlikely to use OpenAI models to power any of its artificial intelligence features in iOS 18. Instead, what it's doing here is testing its own AI models against ChatGPT. For example, the SiriSummarization framework can do summarization using on-device models. Apple appears to be using its own AI models to power this framework, then internally comparing its results against the results of ChatGPT. In total, iOS 17.4 code suggests Apple is testing four different AI models. This includes Apple's internal model called "Ajax," which Bloomberg has previously reported. iOS 17.4 shows that there are two versions of AjaxGPT, including one that is processed on-device and one that is not.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mozilla Says Apple's New Browser Rules Are 'as Painful as Possible' for Firefox]]></title>
-        <id>https://tech.slashdot.org/story/24/01/26/2331210/mozilla-says-apples-new-browser-rules-are-as-painful-as-possible-for-firefox?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/01/26/2331210/mozilla-says-apples-new-browser-rules-are-as-painful-as-possible-for-firefox?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T23:31:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple's new rules in the European Union mean browsers like Firefox can finally use their own engines on iOS. Although this may seem like a welcome change, Mozilla spokesperson Damiano DeMonte tells The Verge it's "extremely disappointed" with the way things turned out. From a report: "We are still reviewing the technical details but are extremely disappointed with Apple's proposed plan to restrict the newly-announced BrowserEngineKit to EU-specific apps," DeMonte says. "The effect of this would be to force an independent browser like Firefox to build and maintain two separate browser implementations -- a burden Apple themselves will not have to bear." In iOS 17.4, Apple will no longer force browsers in the EU to use WebKit, the underlying engine that powers Safari. The change opens the door for other popular engines, such as Blink, which is used by Google Chrome and Microsoft Edge, as well as Gecko, the engine used by Firefox. It also means third-party browsers could become fully functional on iOS without any of the limitations that come along with WebKit.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[California Lawmakers Push for Watermarks on AI-Made Photo, Video]]></title>
-        <id>https://news.slashdot.org/story/24/01/26/1915254/california-lawmakers-push-for-watermarks-on-ai-made-photo-video?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/01/26/1915254/california-lawmakers-push-for-watermarks-on-ai-made-photo-video?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[California lawmakers are drawing up multiple plans to require watermarks on content created by AI to curb the abuses within the emerging technology, which has affected sectors from political races to the stock market. From a report: At least five lawmakers have promised or are considering different proposals that would require AI companies to implement some type of verification that a video, photo, or written work was made by the technology. The activity comes as advanced AI has rapidly evolved to create realistic images or audio on an unprecedented level. Advocates worry the technology could be ripe for abuse and lead to a wider proliferation of deepfakes, where a person's likeness is digitally manipulated to typically misrepresent them -- with it already being used in the presidential race. But such measures are likely to face scrutiny by the tech sector. 
-
-Amid a pivotal election year and an online world full of disinformation, the ability to know what's real or not is crucial, said Drew Liebert, director of the California Initiative for Technology and Democracy. The harm from AI is already happening, with Liebert noting the aftermath of an AI-generated photo that went viral in May of last year that falsely portrayed another terrorist attack in the US. "The famous photograph now that was put on the internet that alleged that the Pentagon was attacked, that actually caused momentarily a [$500 billion] dollar loss in the stock market," he said. The loss would not as been as severe, he said, "if people would have been able to instantly determine that it was not a real image at all." Ask Slashdot:Could a Form of Watermarking Prevent AI Deep Faking?
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Aviation Sector Sees No Fast Tech Solution To GPS Interference Problem]]></title>
-        <id>https://tech.slashdot.org/story/24/01/26/199220/aviation-sector-sees-no-fast-tech-solution-to-gps-interference-problem?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/01/26/199220/aviation-sector-sees-no-fast-tech-solution-to-gps-interference-problem?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T20:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Global regulators, aviation security specialists and manufacturers failed to reach an agreement on a quick technical fix to the problem of GPS spoofing near war zones, instead calling for better training of pilots to deal with the issue, Reuters reports, citing sources briefed on the talks. From the report: Airlines have been urging quick action after a series of incidents where navigation systems were disrupted to show a false location or wrong time, though aircraft flight controls remained intact. Spoofing might involve one country's military sending false Global Positioning System signals to an enemy plane or drone to hinder its ability to function, which has a collateral effect on nearby airliners. 
-
-GPS jamming and spoofing have grown worse in Eastern Europe, the Black Sea and the Middle East, according to industry group OpsGroup. GPS is a growing part of aviation infrastructure as it replaces traditional radio beams used to guide planes towards landing. The first international meeting bringing together the sector was held on Thursday in Cologne, Germany, organized by the European Union Aviation Safety Agency (EASA) and international trade group the International Air Transport Association (IATA). GPS interference "can pose significant challenges to aviation safety," and requires that airlines increase data-sharing on jamming and spoofing events, EASA and IATA said in a joint statement.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Energy Secretary Says Anti-EV Sentiment is 'Political Nonsense']]></title>
-        <id>https://news.slashdot.org/story/24/01/26/1859238/us-energy-secretary-says-anti-ev-sentiment-is-political-nonsense?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/01/26/1859238/us-energy-secretary-says-anti-ev-sentiment-is-political-nonsense?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T19:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: Energy Secretary Jennifer Granholm can relate to Americans' anxiety over electric vehicles. The former governor of Michigan and longtime EV owner (who currently drives a Ford Mach-E) says she has experienced her own challenges with public charging on road trips. She has heard from drivers who are reluctant to give up their eight-cylinder engines and large trucks and SUVs for an electric model. But she is convinced that more Americans will soon realize the benefits of owning one, helping to change the current anti-EV rhetoric in this country.
-
-[...] "All of those factories that I was talking about regarding building electric vehicles and electric vehicle batteries, 60% of them are going into red states. So, you know, people in red states love their EVs, too, and are working at these factories," Granholm said. "I just think that over time, the political nonsense about it will die down and people's experience will speak much more loudly."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Faces 'Strong Action' If App Store Changes Fall Short, EU's Breton Says]]></title>
-        <id>https://apple.slashdot.org/story/24/01/26/1714204/apple-faces-strong-action-if-app-store-changes-fall-short-eus-breton-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/24/01/26/1714204/apple-faces-strong-action-if-app-store-changes-fall-short-eus-breton-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T18:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple faces strong action if changes to its App Store do not meet incoming European Union regulations, the bloc's industry chief said on Friday. Reuters: In a move designed to comply with the EU's incoming Digital Markets Act (DMA), the company will soon allow software developers to distribute their apps to Apple devices via alternative stores. From early March, developers will be able to offer alternative app stores on iPhones and opt out of using Apple's in-app payment system, which charges commissions of up to 30%. 
-
-However, critics have said the changes do not go far enough, arguing Apple's fee structure remains unfair, and that the changes may be in violation of the DMA. Asked about Apple's plans, EU industry chief Thierry Breton exclusively told Reuters: "The DMA will open the gates of the internet to competition so that digital markets are fair and open. Change is already happening. As from 7 March we will assess companies' proposals, with the feedback of third parties." He added: "If the proposed solutions are not good enough, we will not hesitate to take strong action."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux App Store Flathub Now Has Over One Million Active Flatpak App Users]]></title>
-        <id>https://linux.slashdot.org/story/24/01/26/1657210/linux-app-store-flathub-now-has-over-one-million-active-flatpak-app-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://linux.slashdot.org/story/24/01/26/1657210/linux-app-store-flathub-now-has-over-one-million-active-flatpak-app-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T17:00:00.000Z</updated>
-        <summary type="html"><![CDATA[prisoninmate shares a 9to5linux report: Flathub is currently one of the most popular app stores for Linux serving 1.6 billion downloads of over 2,400 apps in the Flatpak format, of which more than 850 apps have been verified by their original authors. And now, Flathub proudly announced today that it surpassed 1 million active users of Flatpak apps. The team believes that the recent growth in users comes from several factors, including the availability of some very popular apps (e.g. Firefox, Thunderbird, VLC, Spotify, OBS Studio, Google Chrome, Telegram), support for new and verified apps, the inclusion of Flathub as the default app source for the Steam Deck's desktop mode, as well as the growing adoption among many popular GNU/Linux distributions like Fedora Linux, Linux Mint, KDE neon, and others.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[We need a Right To Compute]]></title>
-        <id>https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df</id>
-        <link href="https://world.hey.com/dhh/we-need-a-right-to-compute-0add65df"/>
-        <updated>2024-01-26T16:40:08.000Z</updated>
-        <summary type="html"><![CDATA[The App Store dispute can be boiled down to one big question: Is the iPhone a computer or not? If it’s a computer, we ought to have the right to compute. Like consumers have won the right to repair. If it’s a computer, it ought to be yours, and you ought to have the right to install whatever software you should so choose.
-If it’s not a computer, then what is it? A gaming console? An appliance? A toy? There’s a spectrum in those definitions where consumers perhaps wouldn’t expect the right to install software of their own choosing, even if there’s a “computer” somewhere inside it. And I suspect it’s that mental model that animates the Apple Stans on this issue. They want to escape from the freedom of owning a computer.
-But I think most people, when it comes down to it, believe that their sm…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Astronomers Discover Giant Ancient Stars in Milky Way]]></title>
-        <id>https://science.slashdot.org/story/24/01/26/169253/astronomers-discover-giant-ancient-stars-in-milky-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/24/01/26/169253/astronomers-discover-giant-ancient-stars-in-milky-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T16:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Astronomers have discovered a mysterious group of giant elderly stars at the heart of the Milky Way that are emitting solar system-sized clouds of dust and gas. The stars, which have been named "old smokers," sat quietly for many years, fading almost to invisibility, before suddenly puffing out vast clouds of smoke. The discovery was made during the monitoring of almost a billion stars in infrared light during a 10-year survey of the night sky. The Guardian: The astronomers had set out to capture rarely seen newborn stars -- known as protostars -- while undergoing the equivalent of a stellar growth spurt. During these periods, young stars rapidly acquire mass by gorging on surrounding star-forming gas, leading to a sudden increase in luminosity. The team tracked hundreds of millions of stars and identified 32 erupting protostars that increased in brightness at least 40-fold and in some cases more than 300-fold. 
-
-Another group of red giant stars near the centre of the Milky Way unexpectedly showed up in the analysis, however. When they were studied in more detail using the European Southern Observatory's Very Large Telescope, seven of the stars were deemed to be a new type of red giant star, which the researchers named "old smokers." Convection currents and instabilities within the star could trigger the release of enormous columns of smoke, Prof Philip Lucas of the University of Hertfordshire, who led the observations, suggested.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nintendo Plans To Launch Next Switch This Year With LCD, Omdia Says]]></title>
-        <id>https://games.slashdot.org/story/24/01/26/1428258/nintendo-plans-to-launch-next-switch-this-year-with-lcd-omdia-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://games.slashdot.org/story/24/01/26/1428258/nintendo-plans-to-launch-next-switch-this-year-with-lcd-omdia-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T15:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Nintendo plans to launch a new 8-inch LCD-equipped Switch game console this year, well-regarded analyst firm Omdia said Friday [unpaywalled-link]. Bloomberg: The new device from the Kyoto-based games maker will be responsible for a doubling in shipments of so-called amusement displays in 2024, Hayase said in Tokyo on Friday. His research focuses on small and medium displays and he bases annual forecasts on checks with companies in the supply chain. Nintendo's seven-year-old Switch has sold over 132 million units and is approaching the end of its life cycle. The company has been tight-lipped about any potential successor, but expectations have narrowed to this year's holiday period for the release of the next generation.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Shameless Insult, Malicious Compliance, Junk Fees, Extortion Regime: Industry Reacts To Apple's Proposed Changes Over Digital Markets Act]]></title>
-        <id>https://apple.slashdot.org/story/24/01/26/140245/shameless-insult-malicious-compliance-junk-fees-extortion-regime-industry-reacts-to-apples-proposed-changes-over-digital-markets-act?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/24/01/26/140245/shameless-insult-malicious-compliance-junk-fees-extortion-regime-industry-reacts-to-apples-proposed-changes-over-digital-markets-act?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-26T14:01:00.000Z</updated>
-        <summary type="html"><![CDATA[In response to new EU regulations, Apple on Thursday outlined plans to allow iOS developers to distribute apps outside the App Store starting in March, though developers must still submit apps for Apple's review and pay commissions. Now critics say the changes don't go far enough and Apple retains too much control. 
-
-Epic Games CEO Tim Sweeney: They are forcing developers to choose between App Store exclusivity and the store terms, which will be illegal under DMA (Digital Markets Act), or accept a new also-illegal anticompetitive scheme rife with new Junk Fees on downloads and new Apple taxes on payments they don't process. 37signals's David Heinemeier Hansson, who is also the creator of Ruby on Rails: Let's start with the extortion regime that'll befell any large developer who might be te…]]></summary>
         <author>
             <name>msmash</name>
         </author>
