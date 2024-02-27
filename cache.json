@@ -24,16 +24,6 @@
           "wordCount": 1328,
           "title": "New Library: clj-reload",
           "imageUrl": null
-        },
-        {
-          "id": "https://tonsky.me/blog/checkbox/",
-          "author": null,
-          "description": "History of checkboxes and radio buttons in user interfaces",
-          "link": "https://tonsky.me/blog/checkbox/",
-          "publishedOn": "2024-01-28T00:00:00.000Z",
-          "wordCount": 626,
-          "title": "In Loving Memory of Square Checkbox",
-          "imageUrl": null
         }
       ]
     },
@@ -503,6 +493,16 @@
       "siteUrl": "https://infrequently.org/feed/feed.xml",
       "articles": [
         {
+          "id": "https://infrequently.org/2024/02/home-screen-advantage/",
+          "author": null,
+          "description": "After weeks of confusion and intentional chaos, Apple's plan to kneecap the web has crept into view, menacing a PWApocalypse as the March 6th compliance deadline approaches for the EU's Digital Markets Act (DMA).\n {\n    if (img && window.blurIt) { window.blurIt(img); }\n  })(document.currentScript.previousElementSibling.querySelector(\"img\"));\n\n  The view from Cupertino.\n\nThe DMA requires Apple to open the iPhone to competing app stores, and and its lopsided proposal for \"enabling\" them is getting most of the press. But Apple knows it has native stores right where it wants them. Cupertino's noxious requirements will take years to litigate. Meanwhile, potential competitors are only that.\nBut Cupertino can't delay the DMA's other mandate: real browsers, downloaded from Apple's own app store. S…",
+          "link": "https://infrequently.org/2024/02/home-screen-advantage/",
+          "publishedOn": "2024-02-25T00:00:00.000Z",
+          "wordCount": 8151,
+          "title": "Home Screen Advantage",
+          "imageUrl": "https://infrequently.org/2024/02/home-screen-advantage/pray-i-do-not-comply-further.jpg"
+        },
+        {
           "id": "https://infrequently.org/2024/01/performance-inequality-gap-2024/",
           "author": null,
           "description": "table.summary {\n    font-size:  var(--smaller-text-size);\n    border-collapse: collapse;\n\n    & thead td {\n      font-weight: bold;\n      font-style: italic;\n    }\n\n    & thead td:not(:first-of-type) {\n      padding: 0 1em;\n    }\n\n    & tbody tr > td:first-of-type {\n      font-weight: bold;\n    }\n    & thead td,\n      tbody tr:not(:last-of-type) > td {\n      vertical-align:  top;\n      border-bottom: 1px solid var(--color-mid);\n    }\n  }\n\n\nThe global device and network situation continues to evolve, and this series is an effort to provide an an up-to-date understanding for working web developers. So what's changed since last year? And how much HTML, CSS, and (particularly) JavaScript can a new project afford?\n\n\nThe Budget, 2024 \nJavaScript-Heavy \nMarkup-Heavy \nCalculate Your Own \n\nSituatio…",
@@ -668,6 +668,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://hardware.slashdot.org/story/24/02/26/221255/hacker-uses-raspberry-pi-and-ai-to-block-noisy-neighbors-music?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Maker Roni Bandini developed a Raspberry Pi project to address his neighbors' loud reggaeton music by creating an AI-driven system that distorts audio on nearby Bluetooth speakers when reggaeton is detected. Tom's Hardware reports: Powering this Bluetooth jamming device is a Raspberry Pi 3 B+. It's connected to a DFRobot OLED display panel, which has a resolution of 128 x 32px. Audio is observed using a USB microphone, while a push button handles when the system will perform a check to listen for any potential reggaeton. According to Bandini, the Pi is running Raspberry Pi OS. The AI system driving the machine learning aspects of the design is Edge Impulse. With this, Bandini was able to train the Pi to listen for music and more specifically identify whether the song playing is classifiable as reggaeton or not. The official project page is available at Hackster.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/02/26/221255/hacker-uses-raspberry-pi-and-ai-to-block-noisy-neighbors-music?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-27T00:20:00.000Z",
+          "wordCount": 4304,
+          "title": "Hacker Uses Raspberry Pi and AI To Block Noisy Neighbor's Music",
+          "imageUrl": "https://a.fsdn.com/sd/topics/music_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/02/26/2152212/doom-is-now-playable-on-a-lawnmower?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Landscaping tech company Husqvarna has partnered with Bethesda to bring the original 1993 Doom to its $2,000+ robotic lawnmowers. Kotaku reports: This new way to play Doom arrives in April on all Nera robotic lawnmower models. You don't have to pay for the game, either, just a $2,000+ lawnmower. Instead, just download it and play the shooter via the robo-mower's built-in screen. To rotate your view, you turn the knob and to shoot demons, you press it down. You hold the start button to move forward.\n \nA few caveats to mention. First, this isn't available in the United States. Why? I don't know. Perhaps we can't be trusted with video games on lawnmowers? Secondly, this isn't all of Doom. Instead, it's just the first episode -- Knee Deep In The Dead -- which is arguably its most famous one, sure, but just keep in mind you won't be able to play the rest of the beloved shooter in the middle of your backyard on a tiny LCD screen. Sorry.\n \nSadly, this won't be a permanent feature that you can show off to family and friends for years to come. Instead, Doom and all its demons and guns will be removed from lawnmowers on September 9. So enjoy it while you can.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/24/02/26/2152212/doom-is-now-playable-on-a-lawnmower?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T23:40:00.000Z",
+          "wordCount": 4578,
+          "title": "Doom Is Now Playable On a Lawnmower",
+          "imageUrl": "https://a.fsdn.com/sd/topics/fps_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/02/26/2126253/open-source-movie-streaming-project-movie-web-shut-down-by-hollywood-complaint?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from TorrentFreak: In recent months, Movie-Web has quickly gained popularity among a particular group of movie aficionados. The open source software, which is still available on GitHub, allows anyone to set up a movie search engine capable of streaming content from third-party sources. These external sources tend to have large libraries of pirated entertainment. Movie-web's developers are not oblivious to the legal ramifications but since they don't host any files, they hoped to avoid legal trouble. The software just provides a search engine for third-party content, they argued. [...]\n \nYesterday, the movie-web.app domain was suddenly taken down. According to a message posted on the official Discord server, this is the result of a \"court action\" from several movie companies including Warner Bros. Netflix, Paramount, Universal, and Disney. [I]t appears that action was taken against the movie-web.app domain. It seems likely that registrar Namecheap suspended the domain after receiving a legal complaint from the aforementioned Hollywood companies. [Update: After publishing the article we learned that there is a legal action that requires registrars to take action against several 'pirate' domains. We're looking into the matter and will follow this up later.]\n \nNamecheap updated the domain's status to clientHold, which effectively rendered the domain inaccessible. The measure is often used to suspend pirate site domains following copyright holder complaints. The surprise takedown only affects movie-web's publicly hosted 'demo' instance. On Discord, the movie-web team says that it has no plans to bring this website back in any shape or form. \"As a team, we always said that if we were taken down, we would go down without a fight and we have decided to stick to that. We have zero interest in getting involved with legal matters, and so we will not be trying to circumvent this takedown in any way,\" developer 'BinaryOverload' writes.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/02/26/2126253/open-source-movie-streaming-project-movie-web-shut-down-by-hollywood-complaint?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T23:00:00.000Z",
+          "wordCount": 4544,
+          "title": "Open Source Movie Streaming Project 'Movie-Web' Shut Down By Hollywood Complaint",
+          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
+        },
+        {
+          "id": "https://mobile.slashdot.org/story/24/02/26/2115224/oneplus-watch-2-launches-with-wear-os-4-100-hour-battery?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Almost 3 years after launching the first OnePlus Watch, the Chinese smartphone company is launching a successor -- this time powered by Wear OS 4. Utilizing a \"hybrid interface,\" the OnePlus Watch 2 is able to offer 100 hours of battery life, or just over four full days of use. 9to5Google reports: To achieve that goal, the OnePlus Watch 2 actually runs two separate operating systems. Wear OS handles things like apps and watchfaces, while a RTOS powered by a secondary chipset handles more lightweight tasks. A \"smart mode\" on the watch allows the watch swap back and forth between its two operating systems and two chipsets. Wear OS is powered by the Snapdragon W5 Gen 1 and it is Wear OS 4. The RTOS is powered by a BES 2700 MCU Efficiency chipset.\n \nSwitching between the two OS's is something you're likely to not even notice, OnePlus claims: \"The BES2700 Efficiency Chipset runs RTOS and handles background activity and simple tasks, while the Snapdragon W5 handles more demanding tasks, like running your favorite Google apps. This optimized approach, enabled by the Wear OS hybrid interface seamlessly managing the transition between chips, means users will experience a smartwatch that effortlessly does it all while extending the time between charges.\"\n \nPowering the Watch 2 is a 500 mAh battery which features 7.5W charging with a special charger that connects to a typical USB-C cable. The charger is magnetic, of course, and OnePlus claims a full charge in 60 minutes or less. The 1.43-inch AMOLED display of the OnePlus Watch 2 is covered in a slightly curved sapphire glass, while the watch chassis is built from stainless steel. You'll have the choice of black or silver colors with either black or green bands, respectively. The whole package is also 5ATM water resistant. Rounding out the main specs you'll find 32GB of storage and 2GB of RAM. The OnePlus Watch 2 goes on sale today at $299.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://mobile.slashdot.org/story/24/02/26/2115224/oneplus-watch-2-launches-with-wear-os-4-100-hour-battery?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T22:20:00.000Z",
+          "wordCount": 4737,
+          "title": "OnePlus Watch 2 Launches With Wear OS 4, 100-Hour Battery",
+          "imageUrl": "https://a.fsdn.com/sd/topics/cellphones_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/02/26/214237/every-pc-is-going-to-be-an-ai-pc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "During a briefing at Mobile World Congress in Barcelona, Meghana Patwardhan, VP of Commercial Mobility at Dell Technology, told The Register that while the immediate future would consist of two worlds -- one with AI hardware and one without -- \"every PC is going to be an AI PC in the longer term.\" From the report: In terms of new hardware, Dell used the Mobile World Congress event in Barcelona to show off new versions of its Surface-baiting Latitude 7350 convertible -- \"the world's most serviceable commercial detachable,\" according to the company -- and its workstation-class Precision 3680 tower. Other devices in the Precision range include mobile workstations and the 3280 Compact Form Factor PC. Dell was also determined to present itself as a leader in hybrid working with the Premier Wireless ANC headset, replete with AI-based noise cancellation.\n \nDuringt our talk, AI was never far from the lips of Dell's spokespeople as the company talked up the energy efficiency and future-proofing it saw in dedicated AI hardware, such as Neural Processing Units (NPUs) that are increasingly cropping up in CPUs. To illustrate the point, Dell boatsed about how much more efficient background blurring is on video calls when AI hardware is running compared to when it isn't. Hopefully, Microsoft will soon deliver a version of Windows capable of demonstrating a use for AI hardware that is more than hiding distractions in the background. Further reading: AI PCs To Account for Nearly 60% of All PC Shipments by 2027, IDC Says\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/02/26/214237/every-pc-is-going-to-be-an-ai-pc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T21:40:00.000Z",
+          "wordCount": 9090,
+          "title": "'Every PC Is Going To Be an AI PC'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/02/26/2057225/sony-claims-to-offer-subs-appropriate-value-for-deleting-digital-libraries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: Sony is making an effort to appease customers who will lose their entire Funimation digital libraries when the anime streaming service merges into Crunchyroll. Currently, though, the company's plan for giving disappointed customers \"an appropriate value\" for their erased digital copies isn't very accessible or clear. Earlier this month, Sony-owned Funimation announced that customers' digital libraries would be unavailable starting on April 2. At that time, Funimation accounts will become Crunchyroll accounts. Sony acquired Crunchyroll in 2021, so some sort of merging of the services was expected. However, less expected was customers' lost access to online copies of beloved anime that they acquired through digital codes provided in purc…",
+          "link": "https://slashdot.org/story/24/02/26/2057225/sony-claims-to-offer-subs-appropriate-value-for-deleting-digital-libraries?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T21:00:00.000Z",
+          "wordCount": 6527,
+          "title": "Sony Claims To Offer Subs 'Appropriate Value' For Deleting Digital Libraries",
+          "imageUrl": "https://a.fsdn.com/sd/topics/sony_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/02/26/1651207/lockbit-ransomware-gang-resurfaces-with-new-site?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "wiredmikey writes: The LockBit ransomware operators launched a new leak site over the weekend, claiming they restored their infrastructure following a law enforcement takedown and invited affiliates to re-join the operation. \n\nOver the weekend, an individual involved with the RaaS, who uses the moniker of \"LockBitSupp\", launched a new leak site that lists hundreds of victim organizations and which contains a long message providing his view on the takedown.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/02/26/1651207/lockbit-ransomware-gang-resurfaces-with-new-site?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T18:40:00.000Z",
+          "wordCount": 5037,
+          "title": "LockBit Ransomware Gang Resurfaces With New Site",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/02/26/1548252/google-says-microsoft-offered-to-sell-bing-to-apple-in-2018-but-search-quality-issues-got-in-the-way?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft offered to sell its Bing search engine to Apple in 2018, Google said in a court filing earlier this month. The document, from Google's antitrust case against the U.S. Justice Department, was unsealed on Friday. From a report: In the filing earlier this month, Google argued that Microsoft pitched Apple in 2009, 2013, 2015, 2016, 2018 and 2020 about making Bing the default in Apple's Safari web browser, but each time, Apple said no, citing quality issues with Bing. \"In each instance, Apple took a hard look at the relative quality of Bing versus Google and concluded that Google was the superior default choice for its Safari users. That is competition,\" Google wrote in the filing. \n\nThe Justice Department said in its own newly unsealed filing that Microsoft has spent almost $100 billion on Bing over 20 years. The Windows and Office software maker launched Bing in 2009, following search efforts under the MSN and Windows Live brands. Today Bing has 3% global market share, according to StatCounter. In the fourth quarter, Microsoft generated $3.2 billion from search and news advertising, while Google search and other revenue totaled $48 billion. Google said in its filing that when Microsoft reached out to Apple in 2018, emphasizing gains in Bing's quality, Microsoft offered to either sell Bing to Apple or establish a Bing-related joint venture with the company.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/02/26/1548252/google-says-microsoft-offered-to-sell-bing-to-apple-in-2018-but-search-quality-issues-got-in-the-way?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T18:01:00.000Z",
+          "wordCount": 5926,
+          "title": "Google Says Microsoft Offered To Sell Bing To Apple in 2018, But Search-quality Issues Got in the Way",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/02/26/1631200/apples-decision-to-drop-iphone-web-apps-comes-under-scrutiny-in-the-eu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Apple could soon face an investigation over its decision to discontinue iPhone web apps in the European Union, according to a report from the Financial Times. The Verge: The European Commission has reportedly sent Apple and app developers requests for more information to assist in its evaluation. \"We are indeed looking at the compliance packages of all gatekeepers, including Apple,\" the European Commission said in a statement to the Financial Times. \"In that context, we're in particular looking into the issue of progressive web apps, and can confirm sending the requests for information to Apple and to app developers, who can provide useful information for our assessment.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/02/26/1631200/apples-decision-to-drop-iphone-web-apps-comes-under-scrutiny-in-the-eu?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T17:21:00.000Z",
+          "wordCount": 7097,
+          "title": "Apple's Decision To Drop iPhone Web Apps Comes Under Scrutiny in the EU",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/26/1637201/supreme-court-hears-landmark-cases-that-could-upend-what-we-see-on-social-media?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The US Supreme Court is hearing oral arguments Monday in two cases that could dramatically reshape social media, weighing whether states such as Texas and Florida should have the power to control what posts platforms can remove from their services. From a report: The high-stakes battle gives the nation's highest court an enormous say in how millions of Americans get their news and information, as well as whether sites such as Facebook, Instagram, YouTube and TikTok should be able to make their own decisions about how to moderate spam, hate speech and election misinformation. At issue are laws passed by the two states that prohibit online platforms from removing or demoting user content that expresses viewpoints -- legislation both states say is necessary to prevent censorship of conservative users. \n\nMore than a dozen Republican attorneys general have argued to the court that social media should be treated like traditional utilities such as the landline telephone network. The tech industry, meanwhile, argues that social media companies have First Amendment rights to make editorial decisions about what to show. That makes them more akin to newspapers or cable companies, opponents of the states say.\nThe case could lead to a significant rethinking of First Amendment principles, according to legal experts. A ruling in favor of the states could weaken or reverse decades of precedent against \"compelled speech,\" which protects private individuals from government speech mandates, and have far-reaching consequences beyond social media. A defeat for social media companies seems unlikely, but it would instantly transform their business models, according to Blair Levin, an industry analyst at the market research firm New Street Research.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/26/1637201/supreme-court-hears-landmark-cases-that-could-upend-what-we-see-on-social-media?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T16:40:00.000Z",
+          "wordCount": 14402,
+          "title": "Supreme Court Hears Landmark Cases That Could Upend What We See on Social Media",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/02/26/1532230/lenovos-laptop-concept-is-fully-transparent-but-the-point-isnt-entirely-clear?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report from the ongoing Mobile World Congress trade show: This year's big scrum gatherer was Lenovo's long-rumored transparent laptop. It's real. It functions surprisingly well and -- nearest anyone can tell -- its existence is a testament to form over function. That's a perfectly fine thing to be when you're a concept device. When it comes to actually shipping a product, however, that's another conversation entirely. [...] Broadly speaking, it looks like a laptop, with a transparent pane where the screen should be. It's perhaps best understood as a kind of augmented reality device, in the sense that its graphics are overlaid on whatever happens to be behind it. \n\nIt's a crowd pleaser, with a futuristic air to it that embodies all manner of sci-fi tech tropes. The transparent display has become a kind of shorthand for future tech in stock art, and it's undeniably neat to see the thing in action. [...] The bottom of the device is covered in a large capacitive touch surface. This area serves as both a keyboard and a large stylus-compatible drawing surface. The flat surface can't compete with real, tactile keyboards, of course. Typing isn't the greatest experience here, as evidenced by previous dual-screen Lenovo laptops. But that's the tradeoff for the versatility of the virtual version.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/02/26/1532230/lenovos-laptop-concept-is-fully-transparent-but-the-point-isnt-entirely-clear?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T16:01:00.000Z",
+          "wordCount": 5265,
+          "title": "Lenovo's Laptop Concept is Fully Transparent, But the Point Isn't Entirely Clear",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/02/26/1438202/1-billion-donation-will-provide-free-tuition-at-a-bronx-medical-school?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Dr. Ruth Gottesman, a longtime professor at the Albert Einstein College of Medicine, is making free tuition available to all students going forward. From a report: The 93-year-old widow of a Wall Street financier has donated $1 billion to a Bronx medical school, the Albert Einstein College of Medicine, with instructions that the gift be used to cover tuition for all students going forward. The donor, Dr. Ruth Gottesman, is a former professor at Einstein, where she studied learning disabilities, developed a screening test and ran literacy programs. It is one of the largest charitable donations to an educational institution in the United States and most likely the largest to a medical school. \n\nThe fortune came from her late husband, David Gottesman, known as Sandy, who was a protege of Warren Buffett and had made an early investment in Berkshire Hathaway, the conglomerate Mr. Buffett built. The donation is notable not only for its staggering size, but also because it is going to a medical institution in the Bronx, the city's poorest borough. The Bronx has a high rate of premature deaths and ranks as the unhealthiest county in New York. Over the past generation, a number of billionaires have given hundreds of millions of dollars to better-known medical schools and hospitals in Manhattan, the city's wealthiest borough. \n\nWhile her husband ran an investment firm, First Manhattan, Dr. Gottesman had a long career at Einstein, a well-regarded medical school, starting in 1968, when she took a job as director of psychoeducational services. She has long been on Einstein's board of trustees and is currently the chair. In recent years, she has become close friends with Dr. Philip Ozuah, the pediatrician who oversees the medical college and its affiliated hospital, Montefiore Medical Center, as the chief executive officer of the health system. That friendship and trust loomed large as she contemplated what to do with the money her husband had left her.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/02/26/1438202/1-billion-donation-will-provide-free-tuition-at-a-bronx-medical-school?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T15:22:00.000Z",
+          "wordCount": 8177,
+          "title": "$1 Billion Donation Will Provide Free Tuition at a Bronx Medical School",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/02/26/1431255/microsoft-strikes-deal-with-mistral-in-push-beyond-openai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft has struck a deal with French AI startup Mistral as it seeks to broaden its involvement in the fast-growing industry beyond OpenAI. From a report: The US tech giant will provide the 10-month-old Paris-based company with help in bringing its AI models to market. Microsoft will also take a minor stake in Mistral, although the financial details have not been disclosed. The partnership makes Mistral the second company to provide commercial language models available on Microsoft's Azure cloud computing platform. Microsoft has already invested about $13 billion in San Francisco-based OpenAI, an alliance that is being reviewed by competition watchdogs in the US, EU and UK. Other Big Tech rivals, such as Google and Amazon, are also investing heavily in building generative AI -- software that can produce text, images and code in seconds -- which analysts believe has the capacity to shake up industries across the world. WSJ adds: On Monday, Mistral plans to announce a new AI model, called Mistral Large, that Mensch said can perform some reasoning tasks comparably with GPT-4, OpenAI's most advanced language model to date, and Gemini Ultra, Google's new model. Mensch said his new model cost less than 20 million euros, the equivalent of roughly $22 million, to train. By contrast OpenAI Chief Executive Sam Altman said last year after the release of GPT-4 that training his company's biggest models cost \"much more than\" $50 million to $100 million.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/02/26/1431255/microsoft-strikes-deal-with-mistral-in-push-beyond-openai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T14:31:00.000Z",
+          "wordCount": 4575,
+          "title": "Microsoft Strikes Deal With Mistral in Push Beyond OpenAI",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://developers.slashdot.org/story/24/02/26/1322242/nvidia-ceo-says-kids-shouldnt-learn-to-code?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "theodp writes: Asked at the recent World Government Summit in Dubai what people should focus on when it comes to education, what should they learn, and how they should educate their kids and their societies, Nvidia CEO Jensen Huang made a counterintuitive break from tech CEOs advising youngsters to learn how to code. Huang argued that, even at this early stage of the AI revolution, programming is no longer a vital skill. With coding taken care of by AI, Huang suggested humans can instead focus on more valuable expertise like biology, education, manufacturing, or farming \n\nFrom the video: \"You probably recall over the course of the last 10 years, 15 years, almost everybody who sits on a stage like this would tell you it is vital that your children learn computer science, everybody should le…",
+          "link": "https://developers.slashdot.org/story/24/02/26/1322242/nvidia-ceo-says-kids-shouldnt-learn-to-code?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T14:01:00.000Z",
+          "wordCount": 14164,
+          "title": "Nvidia CEO Says Kids Shouldn't Learn To Code",
+          "imageUrl": "https://a.fsdn.com/sd/topics/programming_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/02/26/0228255/bezos-nvidia-join-openai-in-funding-humanoid-robot-startup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "OpenAI, Microsoft, Nvidia, and Jeff Bezos are all part of a pack of investors in a business \"developing human-like robots,\" reports Bloomberg, \"according to people with knowledge of the situation...\" \n\nAt the startup — which is named \"Figure\" — engineers \"are working on a robot that looks and moves like a human. The company has said it hopes its machine, called Figure 01, will be able to perform dangerous jobs that are unsuitable for people and that its technology will help alleviate labor shortages.\"\n\nFigure is raising about $675 million in a funding round that carries a pre-money valuation of roughly $2 billion, said the people, who asked not to be identified because the matter is private. Through his firm Explore Investments LLC, Bezos has committed $100 million. Microsoft is investing $95 million, while Nvidia and an Amazon.com Inc.-affiliated fund are each providing $50 million... Other technology companies are involved as well. Intel Corp.'s venture capital arm is pouring in $25 million, and LG Innotek is providing $8.5 million. Samsung's investment group, meanwhile, committed $5 million. Backers also include venture firms Parkway Venture Capital, which is investing $100 million, and Align Ventures, which is providing $90 million... \n\nThe AI robotics industry has been busy lately. Earlier this year, OpenAI-backed Norwegian robotics startup 1X Technologies AS raised $100 million. Vancouver-based Sanctuary AI is developing a humanoid robot called Phoenix. And Tesla Inc. is working on a robot called Optimus, with Elon Musk calling it one of his most important projects. Agility Robotics, which Amazon backed in 2022, has bots in testing at one of the retailer's warehouses.\nBloomberg calls the investments in Figure \"part of a scramble to find new applications for artificial intelligence.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://hardware.slashdot.org/story/24/02/26/0228255/bezos-nvidia-join-openai-in-funding-humanoid-robot-startup?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-02-26T12:34:00.000Z",
+          "wordCount": 4490,
+          "title": "Bezos, Nvidia Join OpenAI in Funding Humanoid Robot Startup",
+          "imageUrl": "https://a.fsdn.com/sd/topics/robot_64.png"
+        },
         {
           "id": "https://hardware.slashdot.org/story/24/02/25/1956248/are-corporate-interests-holding-back-us-electrical-grid-expansion?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "EditorDavid",
@@ -4817,146 +4967,6 @@
           "wordCount": 7151,
           "title": "Oracle's Plans for Java in 2024",
           "imageUrl": "https://a.fsdn.com/sd/topics/oracle_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/27/0632255/massive-amounts-of-carbon-sequestered-for-centuries-released-by-clearing-indonesias-peatland?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Indonesia has been clearing tens of thousands of acres of densely vegetated peatland for farming, releasing massive amounts of carbon that had been sequestered below for centuries,\" reports the Washington Post, \"and destroying one of the Earth's most effective means of storing greenhouse gases.\"\n\nThe country is home to as much as half of the planet's tropical peatland, a unique ecosystem that scientists say is vital to averting the worst results of climate change. Government leaders have made halting efforts to protect peatlands over the last two decades, but three years ago, when the pandemic disrupted food supply chains, officials launched an ambitious land-clearance operation in a push to expand the cultivation of crops and cut Indonesia's reliance on expensive imports. By transforming…",
-          "link": "https://news.slashdot.org/story/24/01/27/0632255/massive-amounts-of-carbon-sequestered-for-centuries-released-by-clearing-indonesias-peatland?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-28T12:34:00.000Z",
-          "wordCount": 11162,
-          "title": "'Massive Amounts' of Carbon Sequestered for Centuries Released By Clearing Indonesia's Peatland",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/01/28/0443251/photo-shows-japans-moon-lander-arrived-upside-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"A photo of Japan's robotic moon lander shows that though the spacecraft did make the quarter-million-mile journey to the lunar surface, it landed upside down...\" reports Mashable.\n\n\nBecause of the lander's now-apparent inverted position, its solar panels weren't oriented correctly to generate power, according to the space agency. The team elected to conserve power by shutting down the spacecraft about 2.5 hours after landing. \nWhat's perhaps as surprising as the photo of the lander is how it was taken. Two small rovers separated from the crewless mothership just prior to touchdown. It was one of these baseball-sized robots that was able to snap the image of the spacecraft with its head in the moondust. The rover, built with the help of Japanese toy maker Takara Tomy, is a sphere that spli…",
-          "link": "https://science.slashdot.org/story/24/01/28/0443251/photo-shows-japans-moon-lander-arrived-upside-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-28T08:59:00.000Z",
-          "wordCount": 5415,
-          "title": "Photo Shows Japan's Moon Lander Arrived Upside-Down",
-          "imageUrl": "https://a.fsdn.com/sd/topics/moon_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/28/039204/18-year-old-cleared-after-encrypted-snapchat-joke-led-to-f-18s-and-arrest?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Slashdot reader Bruce66423 shared this report from the BBC:\n\nA Spanish court has cleared a British man of public disorder, after he joked to friends about blowing up a flight from London Gatwick to Menorca. \n\nAditya Verma admitted he told friends in July 2022: \"On my way to blow up the plane. I'm a member of the Taliban.\" But he said he had made the joke in a private Snapchat group and never intended to \"cause public distress\"... The message he sent to friends, before boarding the plane, went on to be picked up by UK security services. They then flagged it to Spanish authorities while the easyJet plane was still in the air. \n\nTwo Spanish F-18 fighter jets were sent to flank the aircraft. One followed the plane until it landed at Menorca, where the plane was searched. Mr Verma, who was 18 at the time, was arrested and held in a Spanish police cell for two days. He was later released on bail... If he had been found guilty, the university student faced a fine of up to €22,500 (£19,300 or $20,967) and a further €95,000 (£81,204 or $103,200) in expenses to cover the cost of the jets being scrambled. \n\nBut how did his message first get from the encrypted app to the UK security services?\nOne theory, raised in the trial, was that it could have been intercepted via Gatwick's Wi-Fi network. But a spokesperson for the airport told BBC News that its network \"does not have that capability\"... A spokesperson for Snapchat said the social media platform would not \"comment on what's happened in this individual case\". \n\nrichi (Slashdot reader #74,551) thinks it's obvious what happened: SnapChat's own web site says they scan messages for threats and passes them on to the authorities. (\"We also work to proactively escalate to law enforcement any content appearing to involve imminent threats to life, such as...bomb threats....\" \n\n\"In the case of emergency disclosure requests from law enforcement, our 24/7 team usually responds within 30 minutes.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/01/28/039204/18-year-old-cleared-after-encrypted-snapchat-joke-led-to-f-18s-and-arrest?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-28T04:59:00.000Z",
-          "wordCount": 11931,
-          "title": "18-Year-Old Cleared After Encrypted Snapchat Joke Led To F-18s and Arrest",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/01/28/0241228/remembering-unix-desktops---and-what-we-can-learn-from-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"As important as its historically underhanded business dealings were for its success, Microsoft didn't have to cheat to win,\" argues a new article in the Register. \n\n\"The Unix companies were doing a great job of killing themselves off.\"\n\nYou see, while there were many attempts to create software development standards for Unix, they were too general to do much good — for example Portable Operating System Interface (POSIX) — or they became mired in the business consortium fights between the Open Systems Foundation and Unix International, which became known as the Unix wars. \n\nWhile the Unix companies were busy ripping each other to shreds, Microsoft was smiling all the way to the bank. The core problem was that the Unix companies couldn't settle on software standards. Independent Software Ve…",
-          "link": "https://tech.slashdot.org/story/24/01/28/0241228/remembering-unix-desktops---and-what-we-can-learn-from-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-28T02:44:00.000Z",
-          "wordCount": 14276,
-          "title": "Remembering Unix Desktops - and What We Can Learn From Them",
-          "imageUrl": "https://a.fsdn.com/sd/topics/unix_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/28/0156252/famed-financial-analysts-final-forecast-the-dollar-is-finished-as-world-reserve-currency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader shared this report from the The New York Times:\n\nOver his 54 years as a financial analyst, Richard X. Bove perfected the art of grabbing attention... American Banker once called him \"the country's most quotable bank analyst.\" Last week, a few hours after completing a spot on Bloomberg television, the 83-year-old announced his retirement. He took that weekend off — and then jumped right back in. In an interview with The New York Times, Mr. Bove (pronounced \"boe-VAY\"), who goes by Dick, shared a dire outlook on the U.S. economy and his former profession. \n\n\"The dollar is finished as the world's reserve currency,\" Mr. Bove said matter-of-factly, perched in an armchair outside his home office just north of Tampa, from which he predicted that China will overtake the U.S. economy. No other analysts will say the same because they are, as he put it, \"monks praying to money,\" unwilling to speak out on the mainstream financial system that employs them... \n\nAs he spoke, a technician was trying to restore his home internet after his final employer, the boutique brokerage Odeon Capital, pulled the plug on his last day... \n\nHe sees the offshoring of American manufacturing as the ultimate threat to the financial sector and the dollar, because \"the people making the goods elsewhere are getting greater and greater control of the means of production and therefore greater and greater control of the world economy and therefore greater and greater control of money.\" \n\nThe article notes that Bove was once called \"The Loneliest Analyst.\" \n\n\"One way that's still true is that he endorses cryptocurrency — an area that few other financial analysts will touch — which he sees as a natural beneficiary of the decline of the dollar.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/01/28/0156252/famed-financial-analysts-final-forecast-the-dollar-is-finished-as-world-reserve-currency?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-28T01:59:00.000Z",
-          "wordCount": 12682,
-          "title": "Famed Financial Analyst's Final Forecast?   'The Dollar is Finished' as World Reserve Currency",
-          "imageUrl": "https://a.fsdn.com/sd/topics/money_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/01/28/004200/did-a-lake-on-mars-once-contain-life?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "UPI reports:\n\n\nNew research published Friday offers hope that the sediment samples picked up by the Mars rover Perseverance could reveal traces of life — if it ever existed on the Red Planet. \n\nThe rover already has confirmed an ancient lake on Mars. The new research published in Science Advances shows the Jezero Crater, where Perseverance verified lake sediments, is theorized to have been filled with water that deposited layers of sediments on the crater floor. \"The delta deposits in Jezero Crater contain sedimentary records of potentially habitable conditions on Mars,\" the research article's abstract stated. \"NASA's Perseverance rover is exploring the Jezero western delta with a suite of instruments that include the RIMFAX ground penetrating radar, which provides continuous subsurface images that probe up to 20 meters below the rover.\" \n\nThe research by UCLA and the University of Oslo shows the lake subsequently shrank and the sediments carried by a river formed a large delta... [R]adar images revealed sediments shaped like lake deposits on Earth. Their existence was confirmed by the new research.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/24/01/28/004200/did-a-lake-on-mars-once-contain-life?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-28T00:05:00.000Z",
-          "wordCount": 3934,
-          "title": "Did a Lake on Mars Once Contain Life?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/mars_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/24/01/27/2242250/tech-stocks-hit-new-records-as-tech-layoffs-rise-amid-ai-hiring-sprees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous Slashdot reader shared this report from CNBC:\n\nThe S&P 500 is trading at a record and the Nasdaq is at its highest in two years. Alphabet shares reached a new pinnacle on Thursday, as did Meta and Microsoft, which ran past $3 trillion in market cap. \n\nDon't tell that to the bosses. \n\nWhile Wall Street cheers on Silicon Valley, tech companies are downsizing at an accelerating clip. So far in January, some 23,670 workers have been laid off from 85 tech companies, according to the website Layoffs.fyi. That's the most since March, when almost 38,000 people in the industry were shown the exits. Activity picked up this week with SAP announcing job changes or layoffs for 8,000 employees and Microsoft cutting 1,900 positions in its gaming division. Additionally, high-valued fintech st…",
-          "link": "https://it.slashdot.org/story/24/01/27/2242250/tech-stocks-hit-new-records-as-tech-layoffs-rise-amid-ai-hiring-sprees?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-27T22:45:00.000Z",
-          "wordCount": 6104,
-          "title": "Tech Stocks Hit New Records as Tech Layoffs Rise Amid AI Hiring Sprees",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/24/01/27/057207/how-you-can-charge-your-ev-if-you-dont-own-a-house?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"According to one study, homeowners are three times more likely than renters to own an electric vehicle,\" writes the Washington Post. But others still have options:\n\nDrivers who park on the street have found novel ways to charge their vehicles, using extension cords running over the sidewalk or even into the branches of a nearby tree... [S]ome municipalities explicitly allow over-the-sidewalk charging as part of a broader strategy to cut transportation emissions... In some areas, homeowners can also hire an electrician to run power under the sidewalk to a curbside charging port. But homeowners should check local rules and permitting requirements for curbside charging. In some highly EV-friendly cities, local governments will cover the costs. In Seattle, a pilot program is installing faster…",
-          "link": "https://hardware.slashdot.org/story/24/01/27/057207/how-you-can-charge-your-ev-if-you-dont-own-a-house?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-27T21:34:00.000Z",
-          "wordCount": 9133,
-          "title": "How You Can Charge Your EV If You Don't Own a House",
-          "imageUrl": "https://a.fsdn.com/sd/topics/power_64.png"
-        },
-        {
-          "id": "https://idle.slashdot.org/story/24/01/27/2022211/disney-demos-holotile-floor-with-possible-applications-in-shared-virtual-reality?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "In the last 90 seconds of a recent Disney Parks video, there's a demonstration of a new technology called a HoloTile floor. Disney research fellow/R&D \"imagineerer\" Lanny Smoot specifies that \"we don't know yet where it will be used\" — though noting multiple people could walk in place during a shared virtual reality experience. It's an \"omnidirectional floor\" which can \"automatically do whatever it needs to\" so those walkers stay in the same place. \"Imagine a number of people being in a room, being able to be somewhere else collaboratively and moving around, doing sightseeing.\" \n\nVideo also shows objects gliding smoothly along its surface, with its direction apparently controlled remotely by hand motions (\"like telekinesis,\" as one design blog describes it). Smooth says in the video \"There are just so many applications for this type of technology.\" \n\nBut IGN believes that it \"just may be a game changer for VR and could bring us ever closer to experiencing the Holodeck from Star Trek.\"\n\nFor those Star Trek fans out there, this sounds a lot like the promise of the Holodeck, a smallish-room that could virtually take our favorite crews wherever they wanted for some fun and relaxation between missions when it wasn't malfunctioning and trying to murder them... The applications of the HoloTile floor also extend beyond virtual reality, as Disney notes \"The HoloTile floor can also be an insert in a theatrical stage, allowing performers to move and dance in new ways, or stage props and structures to move around or appear to set themselves up.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://idle.slashdot.org/story/24/01/27/2022211/disney-demos-holotile-floor-with-possible-applications-in-shared-virtual-reality?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-27T20:25:00.000Z",
-          "wordCount": 5088,
-          "title": "Disney Demos 'HoloTile Floor' with Possible Applications in Shared Virtual Reality",
-          "imageUrl": "https://a.fsdn.com/sd/topics/idle_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/01/27/0536239/exercising-25-minutes-a-week-increases-brain-volume---and-may-slow-memory-decline?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Exercising for 25 minutes a week, or less than four minutes a day, could help to bulk up our brains,\" reports the Washington Post, \"and improve our ability to think as we grow older.\"\n\n\n A new study, which involved scanning the brains of more than 10,000 healthy men and women from ages 18 to 97, found that those who walked, swam, cycled or otherwise worked out moderately for 25 minutes a week had bigger brains than those who didn't, whatever their ages. \n\nBigger brains typically mean healthier brains. The differences were most pronounced in parts of the brain involved with thinking and memory, which often shrink as we age, contributing to risks for cognitive decline and dementia... The results have practical implications, too, about which types of exercise seem best for our brain health a…",
-          "link": "https://science.slashdot.org/story/24/01/27/0536239/exercising-25-minutes-a-week-increases-brain-volume---and-may-slow-memory-decline?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-27T18:34:00.000Z",
-          "wordCount": 9000,
-          "title": "Exercising 25 Minutes a Week Increases Brain Volume - and May Slow Memory Decline",
-          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/27/0724239/companies-once-focused-on-mining-cryptocurrency-pivot-to-generative-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Companies that once serviced the boom in cryptocurrency mining are pivoting to take advantage of the latest data gold rush,\" reports the Guardian.\n\nCanadian company Hive Blockchain changed its name in July to Hive Digital Technologies and announced it was pivoting to AI. \"Hive has been a pioneering force in the cryptocurrency mining sector since 2017. The adoption of a new name signals a significant strategic shift to harness the potential of GPU Cloud compute technology, a vital tool in the world of AI, machine learning and advanced data analysis, allowing us to expand our revenue channels with our Nvidia GPU fleet,\" the company said in its announcement at the time. The company's executive chairman, Frank Holmes, told Guardian Australia the transition required a lot of work. \"Moving from…",
-          "link": "https://news.slashdot.org/story/24/01/27/0724239/companies-once-focused-on-mining-cryptocurrency-pivot-to-generative-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-27T17:34:00.000Z",
-          "wordCount": 5981,
-          "title": "Companies Once Focused On Mining Cryptocurrency Pivot To Generative AI",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/01/27/078238/climate-change-cripples-panama-canal-fixing-it-could-take-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Parched conditions have crippled a waterway that handles $270 billion a year in global trade,\" reports Bloomberg. \"And there are no easy solutions. \n\n\"The Panama Canal Authority is weighing potential fixes that include an artificial lake to pump water into the canal and cloud seeding to boost rainfall, but both options would take years to implement, if they're even feasible. \"\n\nWith water levels languishing at six feet (1.8 meters) below normal, the canal authority capped the number of vessels that can cross. The limits imposed late last year were the strictest since 1989... Some shippers are paying millions of dollars to jump the growing queue, while others are taking longer, costlier routes around Africa or South America. The constraints have since eased slightly due to a rainier-than-e…",
-          "link": "https://news.slashdot.org/story/24/01/27/078238/climate-change-cripples-panama-canal-fixing-it-could-take-years?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-27T16:34:00.000Z",
-          "wordCount": 11128,
-          "title": "Climate Change Cripples Panama Canal. Fixing it Could Take Years",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/24/01/27/045201/hp-many-more-companies-may-have-been-breached-by-russian-intelligence-group?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "\"Security experts expect many more companies to disclose that they've been hacked by Russian intelligence agents who stole emails from executives,\" reports the Washington Post, \"following disclosures by Microsoft and Hewlett-Packard Enterprise in the past week.\"\n\nMicrosoft said late Thursday that it had found more victims and was in the process of notifying them. A spokesperson declined to say how many. But three experts in and out of government said that the attack was deeper and broader than the disclosures to date reveal. Two said that more than 10 companies, and perhaps far more, are expected to come forward... \n\nThe Securities and Exchange Commission last year strengthened the rules that require companies to notify their stockholders of computer intrusions that could have a material i…",
-          "link": "https://it.slashdot.org/story/24/01/27/045201/hp-many-more-companies-may-have-been-breached-by-russian-intelligence-group?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-27T15:34:00.000Z",
-          "wordCount": 5233,
-          "title": "HP, Many More Companies May Have Been Breached By Russian Intelligence Group",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/24/01/27/0032228/netflix-adds-generative-ai-to-competitive-risk-factors-in-its-annual-report?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "In a change that reflects AI's growing influence -- and potentially disruptive power -- in Hollywood, Netflix added generative AI to the list of potential risk factors on its annual report filed with the SEC. From a report: In Netflix's 10-K report filed Friday, it added this new section to the long section of risk factors (which are required under SEC rules) in the section about video competition: \"[N]ew technological developments, including the development and use of generative artificial intelligence, are rapidly evolving. If our competitors gain an advantage by using such technologies, our ability to compete effectively and our results of operations could be adversely impacted.\" \n\nNetflix also added this wording: \"In addition, the use or adoption of new and emerging technologies may increase our exposure to intellectual property claims, and the availability of copyright and other intellectual property protection for AI-generated material is uncertain.\" Aside from those two sections, the risk factors on Netflix's 10-K for 2023 -- totaling some 10,000 words -- remained largely the same. To be sure, the changes here are very small, in the grand scheme of things. And keep in mind that these are all the potential risk factors that companies like Netflix must communicate to investors.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/24/01/27/0032228/netflix-adds-generative-ai-to-competitive-risk-factors-in-its-annual-report?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-01-27T13:01:00.000Z",
-          "wordCount": 5502,
-          "title": "Netflix Adds Generative AI To Competitive Risk Factors in Its Annual Report",
-          "imageUrl": "https://a.fsdn.com/sd/topics/tv_64.png"
         }
       ]
     }
