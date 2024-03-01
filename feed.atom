@@ -2,10 +2,299 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-29T00:58:49.963Z</updated>
+    <updated>2024-03-01T01:05:00.614Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[The FBI Is Using Push Notifications To Catch Sexual Predators]]></title>
+        <id>https://yro.slashdot.org/story/24/02/29/2231222/the-fbi-is-using-push-notifications-to-catch-sexual-predators?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/02/29/2231222/the-fbi-is-using-push-notifications-to-catch-sexual-predators?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-01T00:45:00.000Z</updated>
+        <summary type="html"><![CDATA[According to the Washington Post (paywalled), the FBI is using mobile push notification data to unmask people suspected of serious crimes, such as pedophilia, terrorism, and murder. Gizmodo reports: The Post did a little digging into court records and found evidence of at least 130 search warrants filed by the feds for push notification data in cases spanning 14 states. In those cases, FBI officials asked tech companies like Google, Apple, and Facebook to fork over data related to a suspect's mobile notifications, then used the data to implicate the suspect in criminal behavior linked to a particular app, even though many of those apps were supposedly anonymous communication platforms, like Wickr.
+ 
+How exactly is this possible? Push notifications, which are provided by a mobile operating system provider, include embedded metadata that can be examined to understand the use of the mobile apps on a particular phone. Apps come laced with a quiet identifier, a "push token," which is stored on the corporate servers of a company like Apple or another phone manufacturer after a user signs up to use a particular app. Those tokens can later be used to identify the person using the app, based on the information associated with the device on which the app was downloaded. Even turning off push notifications on your device doesn't necessarily disable this feature, experts contend. [...]
+ 
+If finding new ways to catch pedophiles and terrorists doesn't seem like the worst thing in the world, the Post article highlights the voices of critics who fear that this kind of mobile data could be used to track people who have not committed serious crimes -- like political activists or women seeking abortions in states where the procedure has been restricted.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Self-Pay Gas Station Pumps Break Across NZ As Software Can't Handle Leap Day]]></title>
+        <id>https://tech.slashdot.org/story/24/02/29/2148251/self-pay-gas-station-pumps-break-across-nz-as-software-cant-handle-leap-day?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/02/29/2148251/self-pay-gas-station-pumps-break-across-nz-as-software-cant-handle-leap-day?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-01T00:02:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Ars Technica: Today is Leap Day, meaning that for the first time in four years, it's February 29. That's normally a quirky, astronomical factoid (or a very special birthday for some). But that unique calendar date broke gas station payment systems across New Zealand for much of the day. As reported by numerous international outlets, self-serve pumps in New Zealand were unable to accept card payments due to a problem with the gas pumps' payment processing software. The New Zealand Herald reported that the outage lasted "more than 10 hours." This effectively shuttered some gas stations, while others had to rely on in-store payments. The outage affected suppliers, including Allied Petroleum, BP, Gull, Waitomo, and Z Energy, and has reportedly been fixed. In-house payment solutions, such as BP fuel cards and the Waitomo app, reportedly still worked during the outage. A representative for Petroleum, when prompted via Facebook to "maybe remember Leap Day in four years' time," responded: "We'll add it to our Outlook reminders :("
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ford EV Owners Can Now Charge On Tesla's Network]]></title>
+        <id>https://hardware.slashdot.org/story/24/02/29/2139210/ford-ev-owners-can-now-charge-on-teslas-network?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/24/02/29/2139210/ford-ev-owners-can-now-charge-on-teslas-network?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T23:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Starting today, Ford electric vehicle owners can use one of Tesla's 2,400+ superchargers, but there's a hitch. "They'll need to get an adapter that Ford will provide for free, although the company won't start shipping those until the end of March," notes the Associated Press. Product Reviewer MKBHD also notes that non-Teslas will need to park in a spot that blocks 2 spots where a Tesla would take up one. "If the charge station fills up the remaining spots with Teslas, the app will show 1 charger as available but the parking spot is blocked by the Mach-E," adds MKBHD. From the report: Last May, Ford became the first automaker to reach an agreement with the Austin, Texas-based Tesla to charge on its network, which is the largest and most well-placed in the U.S. Tesla has more than 26,000 plugs and nearly 2,400 Supercharger stations across the U.S. and Canada. Ford said its owners will have access to about 15,000 Tesla fast-charging plugs that are located strategically along travel corridors. Ford owners won't be able to use some older Tesla plugs.
+ 
+Most other automakers followed Ford in joining Tesla's network and agreeing to switch to Tesla's plug, called the North American Charging Standard, which is smaller and easier to use than the current plugs on most other EVs sold in the two countries. Ford said adding the Tesla plugs will double the size of the network that can be used by Ford EV owners. There are nearly 166,000 Ford EVs in the U.S.
+ 
+Ford is offering the adapters for free to the owners, who can sign up on the Ford.com website to reserve them between Thursday and June 30. The company will provide one free adapter per vehicle. Tesla's network was turned on Wednesday morning, and software enabling the Ford vehicles to charge at Tesla stations was to be sent out around the same time. Ford will switch to Tesla's charging connector with its second-generation EVs starting next year.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BC Lawyer Reprimanded For Citing Fake Cases Invented By ChatGPT]]></title>
+        <id>https://yro.slashdot.org/story/24/02/29/2124254/bc-lawyer-reprimanded-for-citing-fake-cases-invented-by-chatgpt?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/02/29/2124254/bc-lawyer-reprimanded-for-citing-fake-cases-invented-by-chatgpt?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[A B.C. lawyer has been ordered to pay costs for opposing counsel for the time they took to discover that two cases she cited as precedent were created by ChatGPT. CBC News reports: The cases would have provided compelling precedent for a divorced dad to take his children to China -- had they been real. But instead of savouring courtroom victory, the Vancouver lawyer for a millionaire embroiled in an acrimonious split has been told to personally compensate her client's ex-wife's lawyers for the time it took them to learn the cases she hoped to cite were conjured up by ChatGPT. In a decision released Monday, a B.C. Supreme Court judge reprimanded lawyer Chong Ke for including two AI "hallucinations" in an application filed last December. The cases never made it into Ke's arguments; they were withdrawn once she learned they were non-existent.
+ 
+Justice David Masuhara said he didn't think the lawyer intended to deceive the court -- but he was troubled all the same. "As this case has unfortunately made clear, generative AI is still no substitute for the professional expertise that the justice system requires of lawyers," Masuhara wrote in a "final comment" appended to his ruling. "Competence in the selection and use of any technology tools, including those powered by AI, is critical."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cheap Doorbell Cameras Can Be Easily Hijacked, Says Consumer Reports]]></title>
+        <id>https://yro.slashdot.org/story/24/02/29/2117215/cheap-doorbell-cameras-can-be-easily-hijacked-says-consumer-reports?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/02/29/2117215/cheap-doorbell-cameras-can-be-easily-hijacked-says-consumer-reports?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T22:02:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Ars Technica: Video doorbell cameras have been commoditized to the point where they're available for $30-$40 on marketplaces like Amazon, Walmart, Temu, and Shein. The true cost of owning one might be much greater, however. Consumer Reports (CR) has released the findings of a security investigation into two budget-minded doorbell brands, Eken and Tuck, which are largely the same hardware produced by the Eken Group in China, according to CR. The cameras are further resold under at least 10 more brands. The cameras are set up through a common mobile app, Aiwit. And the cameras share something else, CR claims: "troubling security vulnerabilities."
+ 
+Among the camera's vulnerabilities cited by CR: - Sending public IP addresses and Wi-Fi SSIDs (names) ov…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google is Making Search Suggestions in Chrome More Helpful]]></title>
+        <id>https://tech.slashdot.org/story/24/02/29/1714224/google-is-making-search-suggestions-in-chrome-more-helpful?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/02/29/1714224/google-is-making-search-suggestions-in-chrome-more-helpful?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T21:22:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report: Google is introducing improvements to search suggestions in Chrome, the company announced today. As part of the changes, users will start to get more helpful search suggestions in Chrome based on what others are searching for, see more images for suggested searches and find search suggestions even with a poor connection. 
+
+Search suggestions are the drop-down list of suggested completions that appear before you finish typing out your query in Google. The feature generates predictions to help users save time and speed up their search. With these new updates, Google is expanding the availability of search suggestions and using them to boost inspiration. When users are signed into Chrome on desktop and open a new tab, they will now start to see suggestions in the search box related to their previous searches based on what other people are searching for.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fonts don't have to look awful on Windows]]></title>
+        <id>https://world.hey.com/dhh/fonts-don-t-have-to-look-awful-on-windows-564c9d2f</id>
+        <link href="https://world.hey.com/dhh/fonts-don-t-have-to-look-awful-on-windows-564c9d2f"/>
+        <updated>2024-02-29T21:14:46.000Z</updated>
+        <summary type="html"><![CDATA[I always thought it was a software problem — or at least a difference of aesthetics expressed in software. But it turns out  the reason many Mac owners, including yours truly, so strongly dislike how fonts typically look on Windows is actually a hardware problem!
+ See, every Mac with a screen has since 2018 shipped with a retina-class display. That means a pixel-per-inch count in excess of 218. High enough that you can't see the individual pixels with the naked eye. With a high-resolution display like that, you can run it at 2x or 200%. So a 27" 5K Apple Studio Display (218 PPI) that runs natively at 5120x2880 can run at 2x  and give you the equivalent of a 2560x1440 workspace, but with much nicer rendering. And that's the magic. That 2x/200%. That's why fonts on the Mac look so good out o…]]></summary>
+        <author>
+            <name>David Heinemeier Hansson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Popular Video Doorbells Can Be Easily Hijacked, Researchers Find]]></title>
+        <id>https://it.slashdot.org/story/24/02/29/176258/popular-video-doorbells-can-be-easily-hijacked-researchers-find?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/24/02/29/176258/popular-video-doorbells-can-be-easily-hijacked-researchers-find?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T20:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Several internet-connected doorbell cameras have a security flaw that allows hackers to take over the camera by just holding down a button, among other issues, according to research by Consumer Reports. From a report: On Thursday, the non-profit Consumer Reports published research that detailed four security and privacy flaws in cameras made by EKEN, a company based in Shenzhen, China, which makes cameras branded as EKEN, but also, apparently, Tuck and other brands. These relatively cheap doorbell cameras were available on online marketplaces like Walmart and Temu, which removed them from sale after Consumer Reports reached out to the companies to flag the problems. These doorbell cameras are, however, still available elsewhere. 
+
+According to Consumer Reports, the most impactful issue is that if someone is in close proximity to a EKEN doorbell camera, they can take "full control" of it by simply downloading its official app -- called Aiwit -- and putting the camera in pairing mode by simply holding down the doorbell's button for eight seconds. Aiwit's app has more than a million downloads on Google Play, suggesting it is widely used. At that point, the malicious user can create their own account on the app, scan the QR code generated by the app by putting it in front of the doorbell's camera.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Grand Theft Auto' Maker Rockstar Games Asks Workers To Return To Office Five Days a Week]]></title>
+        <id>https://slashdot.org/story/24/02/29/0815234/grand-theft-auto-maker-rockstar-games-asks-workers-to-return-to-office-five-days-a-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/02/29/0815234/grand-theft-auto-maker-rockstar-games-asks-workers-to-return-to-office-five-days-a-week?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T20:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rockstar Games, a division of Take-Two Interactive Software, will ask employees to return to the office five days a week beginning in April as the video-game maker enters the final stages of development on its next game, the hotly anticipated Grand Theft Auto VI. Bloomberg: In an email to staff on Wednesday reviewed by Bloomberg, Rockstar Head of Publishing Jenn Kolbe said the decision was made for productivity and security reasons. The company has faced several security breaches including a massive dump of early footage from the new Grand Theft Auto and an early trailer that leaked in December. Kolbe wrote that the company also found "tangible benefits" from in-person work. "Making these changes now puts us in the best position to deliver the next Grand Theft Auto at the level of quality and polish we know it requires, along with a publishing roadmap that matches the scale and ambition of the game," she wrote.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Wants You To Know It's Working On AI]]></title>
+        <id>https://apple.slashdot.org/story/24/02/29/1556237/apple-wants-you-to-know-its-working-on-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/24/02/29/1556237/apple-wants-you-to-know-its-working-on-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T19:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple plans to disclose more about its plans to put generative AI to use later this year, Chief Executive Officer Tim Cook said during the company's annual shareholder meeting on Wednesday. From a report: Cook said that the iPhone maker sees "incredible breakthrough potential for generative AI, which is why we're currently investing significantly in this area. We believe that will unlock transformative opportunities for users when it comes to productivity, problem solving and more." 
+
+Apple has been slower in rolling out generative AI, which can generate human-like responses to written prompts, than rivals such as Microsoftand Alphabet's Google, which are weaving them into products. On Wednesday, Cook argued that AI is already at work behind the scenes in Apple's products but said there would be more news on explicit AI features later this year. Bloomberg previously reported Apple plans to use AI to improve the ability to search through data stored on Apple devices. "Every Mac that is powered by Apple silicon is an extraordinarily capable AI machine. In fact, there's no better computer for AI on the market today," Cook said.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft is Working With Nvidia, AMD and Intel To Improve Upscaling Support in PC Games]]></title>
+        <id>https://games.slashdot.org/story/24/02/29/1550244/microsoft-is-working-with-nvidia-amd-and-intel-to-improve-upscaling-support-in-pc-games?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/24/02/29/1550244/microsoft-is-working-with-nvidia-amd-and-intel-to-improve-upscaling-support-in-pc-games?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T18:41:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft has outlined a new Windows API designed to offer a seamless way for game developers to integrate super resolution AI-upscaling features from Nvidia, AMD, and Intel. From a report: In a new blog post, program manager Joshua Tucker describes Microsoft's new DirectSR API as the "missing link" between games and super resolution technologies, and says it should provide "a smoother, more efficient experience that scales across hardware." 
+
+"This API enables multi-vendor SR [super resolution] through a common set of inputs and outputs, allowing a single code path to activate a variety of solutions including Nvidia DLSS Super Resolution, AMD FidelityFX Super Resolution, and Intel XeSS," the post reads. The pitch seems to be that developers will be able to support this DirectSR API, rather than having to write code for each and every upscaling technology. 
+
+The blog post comes a couple of weeks after an "Automatic Super Resolution" feature was spotted in a test version of Windows 11, which promised to "use AI to make supported games play more smoothly with enhanced details." Now, it seems the feature will plug into existing super resolution technologies like DLSS, FSR, and XeSS rather than offering a Windows-level alternative.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ultraprocessed Foods Linked To Heart Disease, Diabetes, Mental Disorders and Early Death, Study Finds]]></title>
+        <id>https://science.slashdot.org/story/24/02/29/1540255/ultraprocessed-foods-linked-to-heart-disease-diabetes-mental-disorders-and-early-death-study-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/02/29/1540255/ultraprocessed-foods-linked-to-heart-disease-diabetes-mental-disorders-and-early-death-study-finds?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Eating ultraprocessed foods raises the risk of developing or dying from dozens of adverse health conditions, according to a new review of 45 meta-analyses on almost 10 million people. From a report: "We found consistent evidence linking higher intakes of ultra-processed foods with over 70% of the 45 different health outcomes we assessed," said senior author Wolfgang Marx, a senior research fellow at the Food & Mood Centre at Deakin University in Geelong, Australia, in an email. A higher intake was considered about one serving or about 10% more ultraprocessed foods per day, said Heinz Freisling, a scientist in the nutrition and metabolism branch of the World Health Organization's International Agency for Research on Cancer, in an email. 
+
+"This proportion can be regarded as 'baseline' and for people consuming more than this baseline, the risk might increase," said Freisling, who was not involved in the study. Researchers graded each study as having credible or strong, highly suggestive, suggestive, weak or no evidence. All the studies in the review were published in the past three years, and none was funded by companies involved in the production of ultraprocessed foods, the authors said. "Strong evidence shows that a higher intake of ultra-processed foods was associated with approximately 50% higher risk of cardiovascular disease-related death and common mental disorders," said lead author Dr. Melissa Lane, a postdoctoral research fellow at Deakin, in an email. Cardiovascular disease encompasses heart attacks, stroke, clogged arteries and peripheral artery disease. The study: Ultra-processed food exposure and adverse health outcomes: umbrella review of epidemiological meta-analyses (BMJ)
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Avoiding Common Pitfalls When First Contributing To Open Source]]></title>
+        <id>https://developers.slashdot.org/story/24/02/29/0730233/avoiding-common-pitfalls-when-first-contributing-to-open-source?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/24/02/29/0730233/avoiding-common-pitfalls-when-first-contributing-to-open-source?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T17:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Angie Byron, a long-time member of the Drupal community, offers guidance on avoiding common mistakes and general good-practices for those new to contributing to open-source projects: [...] You might not know it yet, but as a newcomer to an open source project, you have this AMAZING superpower: you are often-times the only one in that whole project capable of reading the documentation through new eyes. Because I can guarantee, the people who wrote that documentation are not new. :-) 
+
+So take time to read the docs and file issues (or better yet, pull requests) for anything that was unclear. This lets you get a "feel" for contributing in a project/community without needing to go way down the deep end of learning coding standards and unit tests and commit signing and whatever other bananas things they're about to make you do. :) Also, people are more likely to take time to help you, if you've helped them first!
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Anyone Rooting Against Self-driving Cars is Cheering For Tens of Thousands of Deaths, Year After Year']]></title>
+        <id>https://tech.slashdot.org/story/24/02/29/1642251/anyone-rooting-against-self-driving-cars-is-cheering-for-tens-of-thousands-of-deaths-year-after-year?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/02/29/1642251/anyone-rooting-against-self-driving-cars-is-cheering-for-tens-of-thousands-of-deaths-year-after-year?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T16:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Journalist Eric Newcomer, writing at The Free Press: There was a time when I believed that self-driving cars should be held to the standard of airplanes. Every mistake needed to be rigorously understood and any human death was unforgivable. But my view has evolved over time as human drivers have continued to kill tens of thousands of people a year. We need a solution that's meaningfully better than human drivers, yes, but we shouldn't wait for perfection before we start getting dangerous human drivers off the streets. 
+
+Lost in all the fulminating about automation and big-tech tyranny is the fact that self-driving cars are an attempt to solve a very serious problem. Traffic fatalities are a leading cause of death in the United States for anyone between the ages of 1 and 54. About 40,000 pe…]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Paying People To Work on Open Source is Good Actually']]></title>
+        <id>https://news.slashdot.org/story/24/02/29/0746221/paying-people-to-work-on-open-source-is-good-actually?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/02/29/0746221/paying-people-to-work-on-open-source-is-good-actually?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T16:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Jacob Kaplan-Moss, one of the lead developers of Django, writes in a long post that he says has come from a place of frustration: [...] Instead, every time a maintainer finds a way to get paid, people show up to criticize and complain. Non-OSI licenses "don"t count" as open source. Someone employed by Microsoft is "beholden to corporate interests" and not to be trusted. Patreon is "asking for handouts." Raising money through GitHub sponsors is "supporting Microsoft's rent-seeking." VC funding means we're being set up for a "rug pull" or "enshitification." Open Core is "bait and switch." 
+
+None of this is hypothetical; each of these examples are actual things I've seen said about maintainers who take money for their work. One maintainer even told me he got criticized for selling t-shirts! L…]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Will Investigate National Security Risks Posed By Chinese-made 'Smart Cars']]></title>
+        <id>https://news.slashdot.org/story/24/02/29/154204/us-will-investigate-national-security-risks-posed-by-chinese-made-smart-cars?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/02/29/154204/us-will-investigate-national-security-risks-posed-by-chinese-made-smart-cars?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-02-29T15:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Citing potential national security risks, the Biden administration says it will investigate Chinese-made "smart cars" that can gather sensitive information about Americans driving them. From a report: The probe could lead to new regulations aimed at preventing China from using sophisticated technology in electric cars and other so-called connected vehicles to track drivers and their personal information. Officials are concerned that features such as driver assistance technology could be used to effectively spy on Americans. 
+
+While the action stops short of a ban on Chinese imports, President Joe Biden said he is taking unprecedented steps to safeguard Americans' data. "China is determined to dominate the future of the auto market, including by using unfair practices," Biden said in a statement Thursday. "China's policies could flood our market with its vehicles, posing risks to our national security. I'm not going to let that happen on my watch." Biden and other officials noted that China has imposed wide-ranging restrictions on American autos and other foreign vehicles. Commerce Secretary Gina Raimondo said connected cars "are like smart phones on wheels" and pose a serious national security risk.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[European Parliament Bans Amazon From Its Premises]]></title>
         <id>https://slashdot.org/story/24/02/28/2238244/european-parliament-bans-amazon-from-its-premises?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8657,365 +8946,6 @@ Read more of this story at Slashdot.]]></summary>
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft's Gaming Revenue Is Up 49 Percent In Q2, Mostly Thanks To the Activision Deal]]></title>
-        <id>https://slashdot.org/story/24/01/30/2333211/microsofts-gaming-revenue-is-up-49-percent-in-q2-mostly-thanks-to-the-activision-deal?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/01/30/2333211/microsofts-gaming-revenue-is-up-49-percent-in-q2-mostly-thanks-to-the-activision-deal?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-31T00:50:00.000Z</updated>
-        <summary type="html"><![CDATA[For the first time, Microsoft's Q2 earnings report includes the impact of the company's $68.7 billion Activision Blizzard acquisition. "While Microsoft isn't breaking out specific numbers, it says that its overall gaming revenue increased by 49 percent, 44 points of which came from the 'net impact' of the Activision deal," reports Engadget. From the report: Microsoft's More Personal Computing division, which includes Xbox, Surface and Windows, was up 19 percent ($16.9 billion) since last year. The company says the Activision deal accounted for 15 points of that increase. It's a huge change for a division that's been severely impacted by dwindling PC sales (which affects Windows licenses and Surfaces) and struggling Xbox consoles. PC device revenues were down 9 percent for the quarter, while Xbox hardware sales were up 3 percent. Xbox content and services revenue is also up 61 percent since last year, 55 points of which comes from Activision. Overall, Microsoft reported revenues of $62 billion, up from $52.7 billion a year earlier. Microsoft's cloud division posted revenue growth of 28%, with its intelligent-cloud revenue up 20% to $25.9 billion. Meanwhile, its productivity and business-processes segment generated $19.2 billion.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[German Police Secure $2 Billion In Bitcoin From Pirate Site Operators]]></title>
-        <id>https://yro.slashdot.org/story/24/01/30/2318257/german-police-secure-2-billion-in-bitcoin-from-pirate-site-operators?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/24/01/30/2318257/german-police-secure-2-billion-in-bitcoin-from-pirate-site-operators?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-31T00:10:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from TorrentFreak: With help from the FBI, German police managed to secure nearly 50,000 bitcoin (USD $2 billion) from the operators of the defunct movie streaming portal, Movie2k. [...] Movie2K was another pirate site that showed an early interest in bitcoin. In its heyday, the site was the dominant pirate streaming portal in German-speaking countries. It generated a healthy revenue stream, part of it held in bitcoin. The operator of the site never got to spend most of it though. The site surprisingly shut down in the spring of 2013. Many suspected that legal troubles had plagued the site, something confirmed years later when Dresden police announced several arrests.
- 
-It was rare to see new activity in an already-dated dossier, but the biggest surprise followed later when the police announced that $29.7m in bitcoin had been secured from the site's operators. This 'seizure' was one of the largest of its kind but the authorities estimated that the operators had more bitcoin stashed away, much more. Today, new information released by Dresden police shows that the assumption was correct.
- 
-Following an investigation carried out by the Dresden General Prosecutor's Office, the Saxony State Criminal Police, and the local tax authority (INES), nearly 50,000 bitcoin were 'provisionally' secured earlier this month. The haul is worth more than $2 billion at today's exchange rate. Never before has this much bitcoin been secured by German authorities; it's also one of the largest crypto hauls worldwide. "The Bitcoins were seized after the accused voluntarily transferred them to official wallets provided by the [Federal Criminal Police Office]. This means that a final decision has not yet been made about the utilization of the Bitcoins," police write.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Performance Inequality Gap, 2024]]></title>
-        <id>https://infrequently.org/2024/01/performance-inequality-gap-2024/</id>
-        <link href="https://infrequently.org/2024/01/performance-inequality-gap-2024/"/>
-        <updated>2024-01-31T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[table.summary {
-    font-size:  var(--smaller-text-size);
-    border-collapse: collapse;
-
-    & thead td {
-      font-weight: bold;
-      font-style: italic;
-    }
-
-    & thead td:not(:first-of-type) {
-      padding: 0 1em;
-    }
-
-    & tbody tr > td:first-of-type {
-      font-weight: bold;
-    }
-    & thead td,
-      tbody tr:not(:last-of-type) > td {
-      vertical-align:  top;
-      border-bottom: 1px solid var(--color-mid);
-    }
-  }
-
-
-The global device and network situation continues to evolve, and this series is an effort to provide an an up-to-date understanding for working web developers. So what's changed since last year? And how much HTML, CSS, and (particularly) JavaScript can a new project afford?
-
-
-The Budget, 2024 
-JavaScript-Heavy 
-Markup-Heavy 
-Calculate Your Own 
-
-Situatio…]]></summary>
-        <author>
-            <name>Infrequently Noted</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UPS To Cut 12,000 Jobs, Invest In AI For Efficiency]]></title>
-        <id>https://slashdot.org/story/24/01/30/235259/ups-to-cut-12000-jobs-invest-in-ai-for-efficiency?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/01/30/235259/ups-to-cut-12000-jobs-invest-in-ai-for-efficiency?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[sdinfoserv writes: UPS is cutting 12,000 jobs, or about 2.5% of its global workforce. The cuts mostly effect managers and contractors. Meanwhile, as the company wrestles with struggling profits and sales, workers are to return to the office five days a week and the company is "investing in artificial intelligence (AI) as it pushes to become more efficient," according to the BBC. [The job cuts are expected to reduce costs by $1 billion this year.] The BBC reports: The company said that reflected economic weakness in Europe and parts of Asia, as well as disruption in the US, where a strike threatened by staff over the summer led some customers to shift their business to rivals. UPS said it had since won back about 60% of that business and expected modest growth to start to return this year, with average daily volumes flat or up 2% in the US and flat or up 3% internationally. But its forecast was weaker than analysts had expected, sending shares down more than 7%.
- 
-It also warned that costs associated with its new contract with the Teamsters union would continue to weigh on the company over the next six months. As part of that deal, the average full-time driver won a pay and benefits package worth about $170,000 a year by the end of the five-year contract in 2028.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Vision Pro Review Roundup]]></title>
-        <id>https://apple.slashdot.org/story/24/01/30/2245215/apple-vision-pro-review-roundup?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/24/01/30/2245215/apple-vision-pro-review-roundup?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T22:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple has lifted the embargo on the first wave of non-curated reviews of its Vision Pro headset, and the results are somewhat surprising. The initial "high" experienced upon first impressions, where reviewers laud the headset's "incredibly impressive displays" and "near perfect" tracking capabilities, has waned. In real-world conditions outside of Apple's heavily-regulated demos, the Vision Pro appears to suffer from limited productivity usecases, DRM'd apps, and half-baked features that suggest this device is still very much in the dev-kit stage. Above all, however, is the isolation experienced when using the Vision Pro. It offers very few options for wearers to socialize and share memories with one another in any meaningful way. Tim Cook may be right when he said headsets are inherently isolating.
- 
-"You're in there, having experiences all by yourself that no one else can take part it," concludes Nilay Patel in his review for The Verge. "I don't want to get work done in the Vision Pro. I get my work done with other people, and I'd rather be out here with them."
- 
-These are some of our favorite reviews of the Apple Vision Pro:
- 
-- The Verge: Apple Vision Pro review: magic, until it's not
-
-- The Wall Street Journal: Apple Vision Pro Review: The Best Headset Yet Is Just a Glimpse of the Future
-
-- Washington Post: Apple's Vision Pro is nearly here. But what can you do with it?
-
-- Tom's Guide: Apple Vision Pro review: A revolution in progress
-
-- CNET: Apple Vision Pro Review: A Mind-Blowing Look at an Unfinished Future
-
-- CNBC: Apple Vision Pro review: This is the future of computing and entertainment
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Raspberry Pi Is Planning a London IPO, But Its CEO Expects 'No Change' In Focus]]></title>
-        <id>https://hardware.slashdot.org/story/24/01/30/2212232/raspberry-pi-is-planning-a-london-ipo-but-its-ceo-expects-no-change-in-focus?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/24/01/30/2212232/raspberry-pi-is-planning-a-london-ipo-but-its-ceo-expects-no-change-in-focus?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T22:13:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Ars Technica: The business arm of Raspberry Pi is preparing to make an initial public offering (IPO) in London. CEO Eben Upton tells Ars that should the IPO happen, it will let Raspberry Pi's not-for-profit side expand by "at least a factor of 2X." And while it's "an understandable thing" that Raspberry Pi enthusiasts could be concerned, "while I'm involved in running the thing, I don't expect people to see any change in how we do things." CEO Eben Upton confirmed in an interview with Bloomberg News that Raspberry Pi had appointed bankers at London firms Peel Hunt and Jefferies to prepare for "when the IPO market reopens."
- 
-Raspberry previously raised money from Sony and semiconductor and software design firm ARM, and it sought public investment. U…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Meta's Free Code Llama AI Programming Tool Closes the Gap With GPT-4]]></title>
-        <id>https://tech.slashdot.org/story/24/01/30/1911243/metas-free-code-llama-ai-programming-tool-closes-the-gap-with-gpt-4?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/01/30/1911243/metas-free-code-llama-ai-programming-tool-closes-the-gap-with-gpt-4?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T21:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Meta's latest update to its code generation AI model, Code Llama 70B, is "the largest and best-performing model" yet. From a report: Code Llama tools launched in August and are free for both research and commercial use. According to a post on Meta's AI blog, Code Llama 70B can handle more queries than previous versions, which means developers can feed it more prompts while programming, and it can be more accurate.
-
-Code Llama 70B scored 53 percent in accuracy on the HumanEval benchmark, performing better than GPT-3.5's 48.1 percent and closer to the 67 percent mark an OpenAI paper (PDF) reported for GPT-4. Built on Llama 2, Code Llama helps developers create strings of code from prompts and debug human-written work. Meta simultaneously launched two other Code Llama tools last fall, Code Llama -- Python and Code Llama -- Instruct, which focused on specific coding languages.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Starbucks is Launching Its Olive Oil-Infused Beverages Nationwide]]></title>
-        <id>https://news.slashdot.org/story/24/01/30/1849254/starbucks-is-launching-its-olive-oil-infused-beverages-nationwide?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/01/30/1849254/starbucks-is-launching-its-olive-oil-infused-beverages-nationwide?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T20:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Starbucks is taking its extra virgin olive oil-infused drinks -- which some customers previously complained of sending them straight to the bathroom ï-- nationwide beginning Tuesday. CNN: The lineup, called Oleato, launched in a few US cities last year before slowly expanding to more stores. Tuesday's launch across its US and Canada locations signifies that the chain stands behind the beverage despite subpar reviews from customers and critics. On the Oleato menu are two drinks: An oat milk latte infused with the extra virgin olive oil; and a new toffeenut iced shaken espresso with golden foam, which is vanilla sweet cream infused with extra virgin olive oil into a cold foam. The drinks debuted in Italy in 2023, with a Starbucks executive previously telling CNN that it's one of its "biggest launches we've had in decades."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FEMA Will Pay States To Install Solar Panels and Heat Pumps]]></title>
-        <id>https://news.slashdot.org/story/24/01/30/1837246/fema-will-pay-states-to-install-solar-panels-and-heat-pumps?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/01/30/1837246/fema-will-pay-states-to-install-solar-panels-and-heat-pumps?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T20:02:00.000Z</updated>
-        <summary type="html"><![CDATA[The Federal Emergency Management Agency (FEMA) announced today that it'll start reimbursing local governments for installing solar panels and more efficient appliances after a disaster strikes. From a report: The move can help communities prepare for another calamity by equipping them with tools that just might keep the lights on when they would otherwise suffer a power outage. It's also a way for the US to deploy technologies that cut greenhouse gas emissions and stave off worsening climate disasters like storms, heatwaves, and wildfires. 
-
-[...] This is the first time FEMA is funding "net-zero energy projects, including solar, heat pumps and efficient appliances" through its biggest grant program, called Public Assistance. It's available to communities recovering from a major event that the president has declared an emergency or disaster. Under the program, FEMA reimburses state, tribal, territorial, and local governments 75 percent of the cost of eligible recovery efforts. That's typically been to pay for "emergency protective measures," debris removal, and to rebuild public infrastructure.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Where next for DEI?]]></title>
-        <id>https://world.hey.com/dhh/where-next-for-dei-0dc866b4</id>
-        <link href="https://world.hey.com/dhh/where-next-for-dei-0dc866b4"/>
-        <updated>2024-01-30T19:43:33.000Z</updated>
-        <summary type="html"><![CDATA[It was a rough 2023 for DEI. After the ideology completely conquered both the corporate and cultural world from 2020-2022, the reversal last year was astounding. The Supreme Court ruled the use of race in college admissions illegal, Ibram X. Kendi’s Antiracst Research center fell apart in scandal, the former Meta DEI executive plead guilty to stealing $4M from the company, X’s change of ownership continued to pry open the Overton window, and countless other developments all accelerated the rapid counter swing of the pendulum.
-In tech, where much of the most fervent corporate advocacy started, DEI departments have been decimated. And now the EEOC, the US Equal Employment Opportunity Commission, has delivered unequivocal clarification that doing any form of preferential hiring on the basis o…]]></summary>
-        <author>
-            <name>David Heinemeier Hansson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Russia Hit With Widespread Internet Outage Across Country]]></title>
-        <id>https://tech.slashdot.org/story/24/01/30/1844216/russia-hit-with-widespread-internet-outage-across-country?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/01/30/1844216/russia-hit-with-widespread-internet-outage-across-country?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T19:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Russia is facing a widespread internet outage that's affected users across the country, with access to websites on the local .ru domain down. From a report: The issue was linked to a technical problem with the .ru domain's global Domain Name System Security Extensions, or DNSSEC, which is used to secure data exchanged in internet protocol networks, Russia's Digital Ministry said in a statement on Telegram Tuesday. Websites including the most popular local search engine Yandex.ru, ecommerce leaders Ozon.ru and Wildberries.ru, and apps of the country's biggest banks -- Sberbank PJSC and VTB Group -- were all affected, state-run Ria reported, citing Downradar, a traffic monitoring service.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Microsoft Stole My Chrome Tabs, and It Wants Yours, Too']]></title>
-        <id>https://it.slashdot.org/story/24/01/30/1824233/microsoft-stole-my-chrome-tabs-and-it-wants-yours-too?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/24/01/30/1824233/microsoft-stole-my-chrome-tabs-and-it-wants-yours-too?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T18:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Tom Warren, writing for The Verge: Last week, I turned on my PC, installed a Windows update, and rebooted to find Microsoft Edge automatically open with the Chrome tabs I was working on before the update. I don't use Microsoft Edge regularly, and I have Google Chrome set as my default browser. Bleary-eyed at 9AM, it took me a moment to realize that Microsoft Edge had simply taken over where I'd left off in Chrome. I never imported my data into Microsoft Edge, nor did I confirm whether I wanted to import my tabs. But here was Edge automatically opening after a Windows update with all the Chrome tabs I'd been working on. I didn't even realize I was using Edge at first, and I was confused why all my tabs were suddenly logged out. 
-
-After the shock wore off, I looked to make sure I hadn't accidentally allowed this behavior. I found a setting in Microsoft Edge that imports data from Google Chrome on each launch. "Always have access to your recent browsing data each time you browse on Microsoft Edge," reads Microsoft's description of the feature in Edge. This setting was disabled, and I had never been asked to turn it on. So I went to install the same Windows update on a laptop, which actually resulted in it failing and my having to do a system restore. Once the system restore was complete, the same thing happened. Edge opened automatically with all of my Chrome tabs. I haven't been able to replicate the behavior on other PCs, but a number of X users replied to my post about this saying they have experienced the same thing in the past.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ChatGPT is Leaking Passwords From Private Conversations of Its Users - Report]]></title>
-        <id>https://it.slashdot.org/story/24/01/30/1757231/chatgpt-is-leaking-passwords-from-private-conversations-of-its-users---report?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/24/01/30/1757231/chatgpt-is-leaking-passwords-from-private-conversations-of-its-users---report?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Dan Goodin, reporting for ArsTechnica: ChatGPT is leaking private conversations that include login credentials and other personal details of unrelated users, screenshots submitted by an Ars reader on Monday indicated. Two of the seven screenshots the reader submitted stood out in particular. Both contained multiple pairs of usernames and passwords that appeared to be connected to a support system used by employees of a pharmacy prescription drug portal. An employee using the AI chatbot seemed to be troubleshooting problems they encountered while using the portal. 
-
-"THIS is so f-ing insane, horrible, horrible, horrible, i cannot believe how poorly this was built in the first place, and the obstruction that is being put in front of me that prevents it from getting better," the user wrote. "I would fire [redacted name of software] just for this absurdity if it was my choice. This is wrong." Besides the candid language and the credentials, the leaked conversation includes the name of the app the employee is troubleshooting and the store number where the problem occurred. The entire conversation goes well beyond whatâ(TM)s shown in the redacted screenshot above. A link Ars reader Chase Whiteside included showed the chat conversation in its entirety. The URL disclosed additional credential pairs. The results appeared Monday morning shortly after reader Whiteside had used ChatGPT for an unrelated query.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NY AG Sues Citibank For Failing To Protect Customers From Hackers And Scammers]]></title>
-        <id>https://news.slashdot.org/story/24/01/30/1723207/ny-ag-sues-citibank-for-failing-to-protect-customers-from-hackers-and-scammers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/01/30/1723207/ny-ag-sues-citibank-for-failing-to-protect-customers-from-hackers-and-scammers?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[New York Attorney General Letitia James filed a lawsuit against Citibank on Tuesday, alleging the big bank failed to do enough to protect and reimburse victims of fraud. From a report: The lawsuit argues that New York customers lost millions of dollars -- in some cases their entire lifesavings -- to scammers and hackers because of Citi's weak security and anti-fraud measures. According to the NY AG, Citi does not do enough to prevent unauthorized account takeovers, illegally refuses to reimburse fraud victims and "misleads" customers about their rights after their accounts are hacked. 
-
-The lawsuit, filed in US District Court for the Southern District of New York, alleges that Citi has "overpromised and underdelivered on security" and failed to respond appropriately to red flags. "Banks are supposed to be the safest place to keep money, yet Citi's negligence has allowed scammers to steal millions of dollars from hardworking people, James said in a statement. There is no excuse for Citi's failure to protect and prevent millions of dollars from being stolen from customers' accounts and my office will not write off illegal behavior from big banks."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple Says UK Could 'Secretly Veto' Global Privacy Tools]]></title>
-        <id>https://apple.slashdot.org/story/24/01/30/163241/apple-says-uk-could-secretly-veto-global-privacy-tools?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/24/01/30/163241/apple-says-uk-could-secretly-veto-global-privacy-tools?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[AmiMoJo writes: Apple has attacked proposals for the UK government to pre-approve new security features introduced by tech firms. Under the proposed amendments to existing laws, if the UK Home Office declined an update, it then could not be released in any other country, and the public would not be informed. The government is seeking to update the Investigatory Powers Act (IPA) 2016. The Home Office said it supported privacy-focused tech but added that it also had to keep the country safe. 
-
-A government spokesperson said: "We have always been clear that we support technological innovation and private and secure communications technologies, including end-to-end encryption, but this cannot come at a cost to public safety." The proposed changes will be debated in the House of Lords tomorrow. Apple says it is an "unprecedented overreach" by the UK government. "We're deeply concerned the proposed amendments to the Investigatory Powers Act (IPA) now before Parliament place users' privacy and security at risk," said Apple in a statement. "It's an unprecedented overreach by the government and, if enacted, the UK could attempt to secretly veto new user protections globally preventing us from ever offering them to customers."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[New GitHub Copilot Research Finds 'Downward Pressure On Code Quality']]></title>
-        <id>https://developers.slashdot.org/story/24/01/30/153247/new-github-copilot-research-finds-downward-pressure-on-code-quality?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://developers.slashdot.org/story/24/01/30/153247/new-github-copilot-research-finds-downward-pressure-on-code-quality?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[theodp writes: Visual Studio Magazine reports on new research on the effect of AI-powered GitHub Copilot on software development which sought to investigate the quality and maintainability of AI-assisted code compared to what would have been written by a human. Countering the positively-glowing findings of some other studies, the Coding on Copilot whitepaper from GitClear cites some adverse results. "We find disconcerting trends for maintainability," explains the paper's abstract. "Code churn -- the percentage of lines that are reverted or updated less than two weeks after being authored -- is projected to double in 2024 compared to its 2021, pre-AI baseline. We further find that the percentage of 'added code' and 'copy/pasted code' is increasing in proportion to 'updated,' 'deleted,' and …]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Disabled Chinese Hacking Network Targeting Critical Infrastructure]]></title>
-        <id>https://news.slashdot.org/story/24/01/30/1131201/us-disabled-chinese-hacking-network-targeting-critical-infrastructure?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/01/30/1131201/us-disabled-chinese-hacking-network-targeting-critical-infrastructure?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-01-30T15:20:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. government in recent months launched an operation to fight a pervasive Chinese hacking operation that successfully compromised thousands of internet-connected devices, Reuters reported Tuesday, citing two Western security officials and another person familiar with the matter. From the report: The Justice Department and Federal Bureau of Investigation sought and received legal authorization to remotely disable aspects of the Chinese hacking campaign, the sources told Reuters. The Biden administration has increasingly focused on hacking, not only for fear nation states may try to disrupt the U.S. election in November, but because ransomware wreaked havoc on Corporate America in 2023. 
-
-The hacking group at the center of recent activity, Volt Typhoon, has especially alarmed intelligence officials who say it is part of a larger effort to compromise Western critical infrastructure, including naval ports, internet service providers and utilities. While the Volt Typhoon campaign initially came to light in May 2023, the hackers expanded the scope of their operations late last year and changed some of their techniques, according to three people familiar with the matter. The widespread nature of the hacks led to a series of meetings between the White House and private technology industry, including several telecommunications and cloud commuting companies, where the U.S. government asked for assistance in tracking the activity.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Onboarding bottleneck: more steps for good onboarding]]></title>
-        <id>https://martinfowler.com/articles/bottlenecks-of-scaleups/06-onboarding.html#IncludeNewHiresInTheCompanyCulture</id>
-        <link href="https://martinfowler.com/articles/bottlenecks-of-scaleups/06-onboarding.html#IncludeNewHiresInTheCompanyCulture"/>
-        <updated>2024-01-30T14:33:00.000Z</updated>
-        <summary type="html"><![CDATA[Tim and Prem continue outlining the steps for an
-      effective onboarding process. They talk about including new hires in the
-      company culture, nailing the post-offer and first-day experience, and
-      investing in self-service knowledge management
-more…]]></summary>
-        <author>
-            <name>Martin Fowler</name>
         </author>
     </entry>
 </feed>
