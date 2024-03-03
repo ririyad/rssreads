@@ -47,7 +47,18 @@
       "title": "Blog on Applied Go",
       "feedUrl": "https://appliedgo.net/index.xml",
       "siteUrl": "https://appliedgo.net/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://appliedgo.net/bacalhau/",
+          "author": null,
+          "description": "You don’t need monstrous software orchestration systems for collecting information from distributed data sources. Here is an easy way of sending a Go binary to where the data is.",
+          "link": "https://appliedgo.net/bacalhau/",
+          "publishedOn": "2024-03-02T00:00:00.000Z",
+          "wordCount": 1852,
+          "title": "Distributed Computing With Dried, Salted Cod Fish, WASM, And (Tiny)Go",
+          "imageUrl": ""
+        }
+      ]
     },
     {
       "title": "Dave Cheney",
@@ -71,6 +82,16 @@
       "feedUrl": "https://world.hey.com/dhh/feed.atom",
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
+        {
+          "id": "https://world.hey.com/dhh/you-can-own-more-than-one-type-of-computer-73439146",
+          "author": null,
+          "description": "I probably wouldn't have done a deep dive on Apple alternatives without the announcement that they were killing progressive web apps (PWAs) on the iPhone in the EU. Most people don't switch operating systems willy-nilly, and for good reason: They're different! And different is weird at first! But I'm actually glad Apple gave me the final push to venture outside the walled garden for a longer stroll, because the expedition has been a delight.\n And now that Apple has done a complete 180 on PWAs in the EU – they're not going anywhere, the company announced today – I'm even happier with the way it all worked out. Apple gave me an excellent reminder that having all your computing eggs in one basket leaves you mighty vulnerable to predatory behavior. Because what are you going to do? If you're A…",
+          "link": "https://world.hey.com/dhh/you-can-own-more-than-one-type-of-computer-73439146",
+          "publishedOn": "2024-03-02T14:50:39.000Z",
+          "wordCount": 690,
+          "title": "You can own more than one type of computer!",
+          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
+        },
         {
           "id": "https://world.hey.com/dhh/fonts-don-t-have-to-look-awful-on-windows-564c9d2f",
           "author": null,
@@ -180,16 +201,6 @@
           "wordCount": 539,
           "title": "Dare to connect a server to the internet",
           "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
-        },
-        {
-          "id": "https://world.hey.com/dhh/campfire-is-now-for-sale-51a19fc9",
-          "author": null,
-          "description": "After a couple of weeks of final Patek-level polishing with early-access customers, Campfire is finally for sale for all! This is The Moment of Truth where we get to see whether all that excitement turns into credit card swipes. That release rush. I love it.\nAnd I especially love this release, because we’re trying to validate an entirely new-old way of selling software. Almost every major web system sold in the last 15-20 years has been Software as a Service. We helped kickstart that craze with Basecamp back in 2004. And my lord has it eaten the world.\nI still love SaaS. It makes a lot of sense for a lot of systems in a lot of cases. Very hard to imagine HEY as a product, because email systems require so much continued maintenance and management these days. But it’s not for all systems, no…",
-          "link": "https://world.hey.com/dhh/campfire-is-now-for-sale-51a19fc9",
-          "publishedOn": "2024-02-01T18:58:02.000Z",
-          "wordCount": 587,
-          "title": "Campfire is now for sale",
-          "imageUrl": "https://world.hey.com/dhh/51a19fc9/representations/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHNLd2Ruc2tCYiIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--8d4eba354bf43e174a06435a8e1ceedd77eb08f1/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdDRG9UY21WemFYcGxYM1J2WDJacGJHeGJCMmtDc0FScEFuWUNPZ3h4ZFdGc2FYUjVhUzA2Q25OMGNtbHdWQT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--5f3b12054ee1575e23e552561c36229a846c13ea/Campfire-Icon.png"
         }
       ]
     },
@@ -467,26 +478,7 @@
       "title": "CoRecursive: Coding Stories",
       "feedUrl": "https://corecursive.libsyn.com/feed",
       "siteUrl": "http://corecursive.com",
-      "articles": [
-        {
-          "id": "fdc71b37-35b1-41ea-825e-ea0f9ca9eeaa",
-          "author": null,
-          "description": "Greg Wilson has been on a decades-long quest to transform how we teach and talk about software design. From getting rejections for using the term “beautiful code,” to empowering scientists through workshops on Python and Unix, Greg has pushed to bridge the gap between theory and practice.\n Join us as Greg shares his failures and epiphanies along the way. You’ll hear how he revolutionized research computing by showing physicists the power of profilers. How he taught grad students the elegance of shell scripts. And how he’s crusaded to create a shared language to discuss software architecture with the nuance of true craftsmanship.\n Greg’s captivating journey reveals that with perseverance and the right examples, we can elevate software design discussion to an art form. But that we’ve got a long way to go. You’ll come away enlightened and eager to level up your own understanding of software design.\n  \nEpisode Page\n Support The Show\n Subscribe To The Podcast\n Join The Newsletter",
-          "link": "https://corecursive.com/beautiful-code-with-greg-wilson/",
-          "publishedOn": "2024-02-02T11:00:00.000Z",
-          "wordCount": null,
-          "title": "Story: Beautiful Code - Inside Greg Wilson's Vision for Software Design",
-          "itunes": {
-            "duration": "57:20"
-          },
-          "enclosure": {
-            "length": "83722413",
-            "type": "audio/mpeg",
-            "url": "https://chtbl.com/track/7D91G/traffic.libsyn.com/secure/corecursive/097-Greg-Wilson.mp3?dest-id=628353"
-          },
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Notes on software development",
@@ -678,6 +670,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/24/03/03/0016230/boeing-now-also-ordered-to-fix-anti-ice-system-on-737-max-787-jets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "America's Federal Aviation administration \"will require a fix for a new 737 MAX design problem discovered by Boeing that, although it's a remote possibility, could theoretically disable the jet's engine anti-ice system,\" reports the Seattle Times:\n\nA different flaw in the MAX's engine anti-ice system design drew scrutiny in January and forced the company to drop a request for an exemption from key safety regulations. And now, it's not just the MAX with an engine anti-ice system problem. Airlines have reported a separate issue with a similar system on Boeing's 787 Dreamliner that has caused what the FAA calls \"relatively minor\" damage to the engine inlets on some two dozen of these widebody jets in service. \n\nThough the FAA considers neither problem to be an immediate risk to flight safety,…",
+          "link": "https://tech.slashdot.org/story/24/03/03/0016230/boeing-now-also-ordered-to-fix-anti-ice-system-on-737-max-787-jets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-03T00:20:00.000Z",
+          "wordCount": 4658,
+          "title": "Boeing Now Also Ordered to Fix Anti-Ice System on 737 Max, 787 Jets",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/03/02/2243252/can-nasa-return-mars-samples-to-earth-new-audit-raises-doubts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Space.com writes that NASA's plan to return samples from Mars to the earth \"is facing major challenges, according to a new report. \n\n\"Design, cost and scheduling are all significant obstacles, an audit report of NASA's Mars Sample Return (MSR) Program by the agency's Office of Inspector General (OIG) finds...\"\n\nIt involves landing on Mars to collect samples taken by the Perseverance rover and launching those samples to rendezvous with an orbiter, which will haul them to Earth. Perseverance is already on Mars, snagging and storing samples. But the program still needs to build a Sample Retrieval Lander and an Earth Return Orbiter, the latter being developed and funded by the European Space Agency. The Mars Sample Return program is one of the most technically complex, operationally demanding and ambitious robotic science missions ever undertaken by NASA, according to the OIG report. \n\nThe report notes design, architecture and schedule issues with the Capture Containment and Return System. These design issues resulted in adding about $200 million to the budget and one year of lost schedule... There is concern that, due to the number and significance of cost increase indicators so far, the $7.4 billion estimate is \"premature and may be insufficient,\" the report finds. Now, the complexity... could drive costs to between $8 billion to $11 billion, the OIG report notes, citing a September 2023 Independent Review Board report. Notably, a July 2020 estimate listed costs of $2.5 to $3 billion. \n\nThese new figures indicate significant financial challenges and uncertainties... Issues include inflation, supply chain problems and increases in funding requests for specific program components.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/03/02/2243252/can-nasa-return-mars-samples-to-earth-new-audit-raises-doubts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T22:47:00.000Z",
+          "wordCount": 5187,
+          "title": "Can NASA Return Mars Samples to Earth?  New Audit Raises Doubts",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mars_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/02/2146213/microsoft-begins-adding-copilot-icon-to-windows-11-taskbars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Microsoft is \"delighted to introduce some useful new features\" for its \"Copilot Preview for Windows 11,\" according to a recent blog post. \n\nTechRepublic adds that \"most features will be enabled by default... rolling out from today until April 2024.\"\n\nWindows 11 users will be able to change system settings through prompts typed directly into Copilot in Windows, currently accessible in the Copilot Preview via an icon on the taskbar, or by pressing Windows + C. Microsoft Copilot will be able to perform the following actions: \n\n- Turn on/off battery saver.\n- Show device information.\n- Show system information.\n- Show battery information.\n- Open storage page.\n- Launch Live Captions.\n- Launch Narrator.\n- Launch Screen Magnifier.\n- Open Voice Access page.\n- Open Text size page.\n- Open contrast the…",
+          "link": "https://tech.slashdot.org/story/24/03/02/2146213/microsoft-begins-adding-copilot-icon-to-windows-11-taskbars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T21:47:00.000Z",
+          "wordCount": 6035,
+          "title": "Microsoft Begins Adding 'Copilot' Icon to Windows 11 Taskbars",
+          "imageUrl": "https://a.fsdn.com/sd/topics/windows_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/02/079232/turbotax-and-hr-block-want-permission-to-blab-your-money-secrets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "Americans filing their taxes could face privacy threats, reports the Washington Post:\n\"We just need your OK on a couple of things,\" TurboTax says as you prepare your tax return. \n\nAlarm bells should be ringing in your head at the innocuous tone. \n\nThis is where America's most popular tax-prep website asks you to sign away the ironclad privacy protections of your tax return, including the details of your income, home mortgage and student loan payments. With your permission to blab your money secrets, the company earns extra income from showing you advertisements for the next three years for things like credit cards and mortgage offers targeted to your financial situation. \n\nYou have the legal right to say no when TurboTax asks for your permission to \"share your data\" or use your tax information to \"improve your experience....\" \nThe article complains that granting permission allows TurboTax to share details with \"sibling\" companies \"such as your salary, the amount of your tax refund, whether you received a tax break for student loans and the day you printed your tax return...\" \n\n\"You'll see that permission request once near the beginning of the tax prep process. If you skip it then, you'll see the same screen again near the end. You'll have to say yes or no...\"\nThis is part of the corporate arms race for your personal data. Everyone including the grocery store, your apps and the manufacturer of your car are gobbling information to profit from details of your life. With TurboTax, though, you have the power to refuse to participate... \nTurboTax and the online tax prep service from H&R Block have been asking every year to blab your tax return. We've cautioned you about it for each of the past two tax filing seasons. (I focused only on TurboTax this year.)\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/02/079232/turbotax-and-hr-block-want-permission-to-blab-your-money-secrets?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T20:34:00.000Z",
+          "wordCount": 4994,
+          "title": "TurboTax and H&amp;R Block Want 'Permission to Blab Your Money Secrets'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/03/02/1851208/new-study-shows-like-charged-particles-attract-or-repel-in-solution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "You know how like-charged objects repel — and do so regardless of the sign of their electrical charge? Maybe not always, according to new research published in Nature. \n\n\"We demonstrate experimentally that the solvent plays a hitherto unforeseen but crucial role in interparticle interactions,\" they write. But more importantly, \"interactions in the fluid phase can break charge-reversal symmetry. \n\n We show that in aqueous solution, negatively charged particles can attract at long range while positively charged particles repel. [In solvents like alcohols \"that exhibit an inversion of the net molecular dipole at an interface\"], positively charged particles may attract whereas negatives repel. \n\nThe observations hold across a wide variety of surface chemistries: from inorganic silica and polymeric particles to polyelectrolyte- and polypeptide-coated surfaces in aqueous solution. \n\nA theory of interparticle interactions that invokes solvent structuring at an interface captures the observations. Our study establishes a nanoscopic interfacial mechanism by which solvent molecules may give rise to a strong and long-ranged force in solution, with immediate ramifications for a range of particulate and molecular processes across length scales such as self-assembly, gelation and crystallization, biomolecular condensation, coacervation, and phase segregation. \n\nThe delicate interplay of interactions between objects in the fluid phase influences the behaviour, organization and properties of systems from nanometric to more macroscopic size and length scales and thus underpins a wealth of natural phenomena...\n \nThanks to long-time Slashdot reader Greymane for sharing the article.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/03/02/1851208/new-study-shows-like-charged-particles-attract-or-repel-in-solution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T19:34:00.000Z",
+          "wordCount": 4831,
+          "title": "New Study Shows Like-Charged Particles Attract or Repel in Solution",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
+        {
+          "id": "https://entertainment.slashdot.org/story/24/03/02/049248/two-new-star-wars-movies-will-begin-filming?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"The Mandalorian & Grogu and Daisy Ridley's untitled Star Wars movie have received working titles ahead of their respective production starts,\" reports CBR:\n\n According to The Cosmic Circus, The Mandalorian and Grogu will be filmed under the working title \"Thunder Alley\", while Ridley's Star Wars movie will be known as \"New Jedi Order...\" The Mandalorian & Grogu will be the first Star Wars movie to enter production since 2019's The Rise of Skywalker, the ninth and final installment in The Skywalker Saga... \n\n[In Ridley's untitled Star Wars movie], Ridley will reprise her role from the Star Wars sequel trilogy as Rey, with the new movie set to follow the fan-favorite Jedi as she rebuilds the Jedi Order roughly 15 years after the events of The Rise of Skywalker... Other Star Wars movies in t…",
+          "link": "https://entertainment.slashdot.org/story/24/03/02/049248/two-new-star-wars-movies-will-begin-filming?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T18:34:00.000Z",
+          "wordCount": 8705,
+          "title": "Two New 'Star Wars' Movies Will Begin Filming",
+          "imageUrl": "https://a.fsdn.com/sd/topics/starwars_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/02/0638217/watch-the-moment-43-unionized-youtube-contractors-were-all-laid-off?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "An anonymous Slashdot reader shared this report from The Washington Post:\n\nA YouTube contractor was addressing the Austin City Council on Thursday, calling on them to urge Google to negotiate with his union, when a colleague interrupted him with jaw-dropping news: His 43-person team of contractors had all been laid off... \n\nThe YouTube workers, who work for Google and Cognizant, unanimously voted to unionize under the Alphabet Workers Union-CWA in April 2023. Since then, the workers say that Google has refused to bargain with them. Thursday's layoff signifies continued tensions between Google and its workers, some of whom in 2021 formed a union... \n\nWorkers had about 20 minutes to gather their belongings and leave the premises before they were considered trespassing. \n\nVideo footage of the…",
+          "link": "https://news.slashdot.org/story/24/03/02/0638217/watch-the-moment-43-unionized-youtube-contractors-were-all-laid-off?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T17:34:00.000Z",
+          "wordCount": 11317,
+          "title": "Watch the Moment 43 Unionized YouTube Contractors Were All Laid Off",
+          "imageUrl": "https://a.fsdn.com/sd/topics/youtube_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/02/0247258/threads-api-is-coming-in-june?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "In 2005 Gabe Rivera was a compiler software engineer at Intel — before starting the tech-news aggregator Techmeme. And last year his Threads profile added the words \"This is a little self-serving, but I want all social networks to be as open as possible.\" \n\nFriday Threads engineer Jesse Chen posted that it was Rivera's post when Threads launched asking for an API that \"convinced us to go for it.\" And Techmeme just made its first post using the API, according to Chen.\nThe Verge reports :\n\nThreads plans to release its API by the end of June after testing it with a limited set of partners, including Hootsuite, Sprinklr, Sprout Social, Social News Desk, and Techmeme. The API will let developers build third-party apps for Threads and allow sites to publish directly to the platform. \n\n\nMore from TechCrunch:\n\n Engineer Jesse Chen posted that the company has been building the API for the past few months. The API currently allows users to authenticate, publish threads and fetch the content they post through these tools. \"Over the past few months, we've been building the Threads API to enable creators, developers, and brands to manage their Threads presence at scale and easily share fresh, new ideas with their communities from their favorite third-party applications,\" he said... \n\nThe engineer added that Threads is looking to add more capabilities to APIs for moderation and insights gathering.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/02/0247258/threads-api-is-coming-in-june?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T16:34:00.000Z",
+          "wordCount": 4696,
+          "title": "Threads' API Is Coming in June",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/02/071229/ransomware-attack-hampers-prescription-drug-sales-at-90-of-us-pharmacies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "EditorDavid",
+          "description": "\"A ransomware gang once thought to have been crippled by law enforcement has snarled prescription processing for millions of Americans over the past week...\" reports the Washington Post. \n\n\"The hackers stole data about patients, encrypted company files and demanded money to unlock them, prompting the company to shut down most of its network as it worked to recover.\"\n\nInsurance giant UnitedHealthcare Group said the hackers struck its Change Health business unit, which routes prescription claims from pharmacies to companies that determine whether patients are covered by insurance and what they should pay... Change Health and a rival, CoverMyMeds, are the two biggest players in the so-called switch business, charging pharmacies a small fee for funneling claims to insurers. \"When one of them g…",
+          "link": "https://yro.slashdot.org/story/24/03/02/071229/ransomware-attack-hampers-prescription-drug-sales-at-90-of-us-pharmacies?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T15:34:00.000Z",
+          "wordCount": 10267,
+          "title": "Ransomware Attack Hampers Prescription Drug Sales at 90% of US Pharmacies",
+          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/03/02/0118225/spotify-epic-games-and-others-argue-apples-app-store-changes-do-not-comply-with-dma?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from MacRumors: Spotify, Epic Games, Deezer, Paddle, and several other developers and EU associations today sent a joint letter to the European Commission to complain about Apple's \"proposed scheme for compliance\" with the Digital Markets Act (DMA). The 34 companies and associations do not believe Apple's plans \"meet the law's requirements.\" Apple's changes \"disregard both the spirit and letter of the law\" and if left unchanged, will \"make a mockery of the DMA,\" according to the letter. Several specific components of Apple's plan are highlighted, including the Core Technology Fee, the Notarization process, and the terms that developers must accept: \n- Apple's requirement to stay with the current App Store terms or opt in to new terms provides developers with \"an unworkable choice\" that adds complexity and confusion. The letter suggests that neither option is DMA compliant and would \"consolidate Apple's stronghold over digital markets.\"\n- The Core Technology Fee and transaction fees will hamper competition and will prevent developers from agreeing to the \"unjust terms.\"\n- Apple is using \"unfounded privacy and security concerns\" to limit user choice. The \"scare screens\" that Apple plans to show users will \"mislead and degrade the user experience.\"\n- Apple is not allowing sideloading, and it is making the installation and use of new app stores \"difficult, risky and financially unattractive for developers.\" \nThe companies and associations are urging the European Union to take \"swift, timely and decisive action against Apple.\" The way the European Commission responds to Apple's proposal \"will serve as a litmus test of the DMA and whether it can deliver for Europe's citizens and economy.\" Further reading: Apple Backtracks on Removing EU Home Screen Web Apps in iOS 17.4\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/03/02/0118225/spotify-epic-games-and-others-argue-apples-app-store-changes-do-not-comply-with-dma?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T13:00:00.000Z",
+          "wordCount": 7225,
+          "title": "Spotify, Epic Games, and Others Argue Apple's App Store Changes Do Not Comply With DMA",
+          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/02/016213/copilot-for-onedrive-will-fetch-your-files-and-summarize-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An upcoming April release of Copilot for OneDrive will be able to find, summarize, and extract information from a wide range of files, including text documents, presentations, spreadsheets, HTML pages and PDF files. \"Users can ask Copilot to tailor summaries to their liking, such as only including key points or highlights from a specific section,\" reports The Verge. From the report: The chatbot will also be able to respond to natural language prompts and answer highly specific questions about the contents of a user's files. Some examples given by Microsoft included asking Copilot to tabulate a week's worth of beverage sales and throw the data in a table view by day. Or, asking it to list the pros and cons of a project, or display the most recent or relevant files. Users can even ask Copilot for advice on how to make their documents better. Copilot on OneDrive will also be able to create outlines, tables, and lists for users, based on existing files. A few examples given were:\n \n- Using the /sales-enablement.docx as reference, create an outline of a sales pitch to a new customer.\n\n- For these selected resumes, create a table with names, current title, years of experience, educational qualifications, and current location.\n\n- Create a list of frequently asked questions about project Moonshot.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/02/016213/copilot-for-onedrive-will-fetch-your-files-and-summarize-them?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T10:00:00.000Z",
+          "wordCount": 6538,
+          "title": "Copilot For OneDrive Will Fetch Your Files and Summarize Them",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/03/01/2328228/the-desert-planet-in-dune-is-plausible-according-to-science?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "The desert planet Arrakis in Frank Herbert's science fiction novel Dune is plausible, says Alexander Farnsworth, a climate modeler at the University of Bristol in England. According to Science News, the world would be a harsh place for humans to live, and they probably wouldn't have to worry about getting eaten by extraterrestrial helminths. From the report: For their Arrakis climate simulation, which you can explore at the website Climate Archive, Farnsworth and colleagues started with the well-known physics that drive weather and climate on Earth. Using our planet as a starting point makes sense, Farnsworth says, partly because Herbert drew inspiration for Arrakis from \"some sort of semi-science of looking at dune systems on the Earth itself.\" The team then added nuggets of information a…",
+          "link": "https://science.slashdot.org/story/24/03/01/2328228/the-desert-planet-in-dune-is-plausible-according-to-science?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T07:00:00.000Z",
+          "wordCount": 6740,
+          "title": "The Desert Planet In 'Dune' Is Plausible, According To Science",
+          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/01/2320203/helium-discovery-in-northern-minnesota-may-be-biggest-ever-in-north-america?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from CBS News: Scientists and researchers are celebrating what they call a \"dream\" discovery after an exploratory drill confirmed a high concentration of helium buried deep in Minnesota's Iron Range. Thomas Abraham-James, CEO of Pulsar Helium, said the confirmed presence of helium could be one of the most significant such finds in the world. CBS News Minnesota toured the drill site soon after the drill rig first broke ground at the beginning of February. The discovery happened more than three weeks later at about 2 a.m. Thursday, as a drill reached its depth of 2,200 feet below the surface. According to Abraham-James, the helium concentration was measured at 12.4%, which is higher than forecasted and roughly 30 times the industry standard for commercial helium. \"12.4% is just a dream. It's perfect,\" he said.\n \nNow that helium is confirmed to be underground in Babbitt, Abraham-James said the next phase of the project is a feasibility study by an independent third party to study the size of the well and whether it could support a full-service helium plant. \"It's not just about drilling one hole, but now proving up the geological models, being able to get some really good data that wasn't captured in the original discovery,\" he explained. \"It has the potential to really contribute to local society.\" The company said the feasibility study could take until the end of the year to complete.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/01/2320203/helium-discovery-in-northern-minnesota-may-be-biggest-ever-in-north-america?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T03:30:00.000Z",
+          "wordCount": 5930,
+          "title": "Helium Discovery In Northern Minnesota May Be Biggest Ever In North America",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/03/01/2312238/yelp-says-remote-first-policy-boosted-job-apps-by-43-led-to-a-more-satisfied-workforce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Since implementing a remote-first policy in 2021, Yelp says it's experienced a surge in job applications and a more satisfied workforce. Fortune reports: Last year, the total number of job applicants was 43% higher compared to 2021, according to Yelp's 2024 Remote Work Report released earlier this month. The number of applicants for sales roles skyrocketed by 103%, and prospects for its general and administrative (G&A) positions shot up 52% over the same time period. Those increases fall in line with data that shows a tidal wave of applicants clamoring for remote jobs. \"It's rewarding to see both the level of interest and the quality of our applicants,\" Carmen Amara, chief people officer at Yelp, told Fortune. \"Remote work has allowed us to attract a number of candidates who previously would not have applied to Yelp due to their location.\"\n \nDespite arguments that remote work weakens workers' connections and growth opportunities, Yelp says it has found the opposite to be true. About 90% of the company's more than 4,700 employees say they have found effective ways to collaborate remotely, and 91% say they are confident in upward career mobility while working out of the office. Flexible schedules have also facilitated a healthy work-life balance -- about 89% of the company's workers say they can manage personal and professional demands, and the same amount say that the remote model has allowed them to make positive changes for their wellbeing.\n \nNotably, Yelp's global tenure has increased to 3.5 years in 2023, compared to 2.8 years the year prior. The company says it's using the money it saved from shutting down its underutilized offices in New York City, Chicago, and Washington D.C., to funnel back into employee benefits, professional development, and wellness reimbursements.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/03/01/2312238/yelp-says-remote-first-policy-boosted-job-apps-by-43-led-to-a-more-satisfied-workforce?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T02:02:00.000Z",
+          "wordCount": 5356,
+          "title": "Yelp Says Remote-First Policy Boosted Job Apps By 43%, Led To a More Satisfied Workforce",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/01/2258257/meta-says-its-deleting-all-oculus-accounts-at-the-end-of-the-month?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Emma Roth reports via The Verge: If you still haven't migrated your Oculus account to a Meta one, you might want to do that soon. In an email sent to users, the company says it will delete Oculus accounts on March 29th, 2024, preventing you from reactivating or retrieving your apps, in-app purchases, store credits, and more. You'll lose your achievements, friends list, and any content created with your Oculus account if you don't migrate to a Meta account before then.\n \nOculus accounts have been on the way out since 2020, when the company then known as Facebook started requiring new users to sign up with Facebook accounts instead. However, it added the ability to create a Meta account in 2022, offering an alternative to users who didn't want to link their Facebook account to their Quest headset. Meta stopped letting users log in to their Oculus accounts in January 2023. If you've got a Quest gathering dust in a drawer somewhere, now's your last chance to migrate your Oculus account to a Meta one.\n \nYou can migrate your account by heading to this page and signing up for a Meta account with the same email you've used for Oculus. From there, you'll be able to access all of the same games, data, and other purchases saved to your Oculus account.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/01/2258257/meta-says-its-deleting-all-oculus-accounts-at-the-end-of-the-month?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-02T01:25:00.000Z",
+          "wordCount": 5430,
+          "title": "Meta Says It's Deleting All Oculus Accounts At the End of the Month",
+          "imageUrl": "https://a.fsdn.com/sd/topics/facebook_64.png"
+        },
         {
           "id": "https://tech.slashdot.org/story/24/03/01/2255216/california-approves-waymo-robotaxi-services-in-la-sf-neighboring-cities?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4887,146 +5029,6 @@
           "wordCount": 7429,
           "title": "For the First Time NASA Has Asked Industry About Private Missions To Mars",
           "imageUrl": "https://a.fsdn.com/sd/topics/mars_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/02/02/0038244/a-shape-shifting-plastic-with-a-flexible-future?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "New submitter Smonster shares a report from the New York Times: With restrictions on space and weight, what would you bring if you were going to Mars? An ideal option might be a single material that can shift shapes into any object you imagine. In the morning, you could mold that material into utensils for eating. When breakfast is done, you could transform your fork and knife into a spade to tend to your Martian garden. And then when it's happy hour on the red planet, that spade could become a cup for your Martian beer. What sounds like science fiction is, perhaps, one step closer to reality.\n \nResearchers at the University of Chicago Pritzker School of Molecular Engineering have created a new type of plastic with properties that can be set with heat and then locked in with rapid cooling, a process known as tempering. Unlike classic plastics, the material retains this stiffness when returned to room temperature. The findings, published in the journal Science on Thursday, could someday change how astronauts pack for space.\n \n\"Rather than taking all the different plastics with you, you take this one plastic with you and then just give it the properties you need as you require,\" said Stuart Rowan, a chemist at the University of Chicago and an author of the new study. But space isn't the only place the material could be useful. Dr. Rowan's team also sees its potential in other environments where resources are scare -- like at sea or on the battlefield. It could also be used to make soft robots and to improve plastics recycling.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/24/02/02/0038244/a-shape-shifting-plastic-with-a-flexible-future?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-02T00:45:00.000Z",
-          "wordCount": 4214,
-          "title": "A Shape-Shifting Plastic With a Flexible Future",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/24/02/01/2218224/avatar-vfx-workers-vote-to-unionize?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Visual effects artists working on James Cameron's Avatar movies have voted to unionize in a National Labor Relations Board (NLRB) election. From the Hollywood Reporter: Of an eligible 88 workers at Walt Disney Studios subsidiary TCF US Productions 27, Inc. who assist with productions for Cameron's Lightstorm Entertainment, 57 voted to join the union and 19 voted against, while two ballots were void. These workers include creatures costume leads and environment artists as well as others in the stage, environments, render, post viz, sequence, turn over and kabuki departments. Management and labor now have a few days to file any objections, and if none are raised, the election results will be certified.\n \nThis bargaining unit doesn't include employees of VFX facility vendors, notably Weta FX, which is the lead VFX house on the Avatar films and employs the vast majority of the more than 1,000 artists who work on a typical Avatar movie. But unionizing the group represents a major inroad for the VFX industry labor movement, believes one VFX industry source who spoke with THR. \"While insignificant as a number, this is the core team that answers to Jim Cameron,\" says the source. \"They are not necessarily impressive in size, but in influence.\"\n \nThe workers first went public with their organizing bid in December, when they filed for a union election with the NLRB. At the time, participating workers said in public statements that they were aiming to gain comparable benefits and pay to their unionized peers and have greater input into in working conditions. \"Every one of my coworkers has dedicated so much time, creativity and passion to make these films a reality. So when you see them struggling to cover their health premiums, or being overworked because they took on multiple roles, or are just scraping by on their wages ... you cannot keep silent,\" said kabuki lead Jennifer Anaya.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/24/02/01/2218224/avatar-vfx-workers-vote-to-unionize?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-02T00:02:00.000Z",
-          "wordCount": 4323,
-          "title": "Avatar VFX Workers Vote To Unionize",
-          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/24/02/01/2158259/microsoft-says-palworld-is-the-biggest-ever-third-party-game-pass-launch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Palworld, a viral \"Pokemon with guns\" game, has become Microsoft's biggest third-party launch on Game Pass. According to developer Pocketpair, the game sold 12 million copies on Steam and seven million on Xbox since its January 19 launch. A million of the copies were sold in its first eight hours. Engadget reports: In addition to being the biggest third-party Game Pass launch ever, Palworld had the largest third-party day-one launch on Xbox Cloud Gaming (included with Game Pass Ultimate). The game's highest peak since launch was nearly three million daily active users on Xbox. Microsoft says it was the most-played game on Xbox platforms during that period.\n \nPalworld uses Pokemon-esque characters and themes -- enough to catch the attention of Nintendo's lawyers. It has battles with monsters similar to those in the creature-collecting series, including the ability to capture them inside a sphere after winning. But Palworld also includes biting social commentary and incorporates themes you'd never see in Pokemon -- like labor exploitation. \"Don't worry, there are no labor laws for Pals,\" a game FAQ reads. One of the title's trailers showed a player circling hard-at-work Pals with an assault rifle. \"Creating a productive base like this is the secret to living a comfortable life in Palworld,\" the narration reads.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/24/02/01/2158259/microsoft-says-palworld-is-the-biggest-ever-third-party-game-pass-launch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T23:20:00.000Z",
-          "wordCount": 4190,
-          "title": "Microsoft Says Palworld Is the Biggest Ever Third-Party Game Pass Launch",
-          "imageUrl": "https://a.fsdn.com/sd/topics/xbox_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/24/02/01/2148251/apple-vision-pro-to-launch-with-over-600-apps-and-games?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TechCrunch: The pace is picking up for the Apple Vison Pro apps ahead of the spatial computing device's Friday launch as developers ready their apps for the new platform. While just last week, only 150-plus apps had been specifically designed for the Vision Pro so far, according to a third-party analysis of the App Store, Apple announced today that more than 600 new apps and games are being readied for the Vison Pro ahead of its debut. These join the more than 1 million already compatible apps across iOS and iPadOS, the company says. [...]\n \nThe company says more than 600 apps and games have been designed to take advantage of the Vision Pro's capabilities and its 3D user interface that's navigated using your eyes, hands and voice. Several streaming apps have already announced their support, including Disney+, ESPN, MLB, PGA Tour, Max, Discovery+, Amazon Prime Video, Paramount+, Peacock, Pluto TV, Tubi, Fubo, Crunchyroll, Red Bull TV, IMAX, TikTok and MUBI. The PGA Tour Vision app offers a golf game with real-time shot tracking across models of real golf courses, while the NBA app will allow streaming up to five broadcasts live or on-demand at once, Apple notes. Red Bull TV will include 3D maps of races. Soccer fans will also be able to stream MLS Season Pass via Apple's own Apple TV app. That app will offer access to Apple's Originals, more than 200 3D movies and Apple Immersive Video.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/24/02/01/2148251/apple-vision-pro-to-launch-with-over-600-apps-and-games?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T22:40:00.000Z",
-          "wordCount": 5003,
-          "title": "Apple Vision Pro To Launch With Over 600 Apps and Games",
-          "imageUrl": "https://a.fsdn.com/sd/topics/software_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/01/218242/youtube-says-it-has-more-than-100-million-premium-and-music-subscribers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "YouTube has announced it has surpassed 100 million YouTube Music and YouTube Premium subscribers globally. Variety reports: The 100 million figure includes uses who are on free trials, according to YouTube. The company didn't break down how many are on YouTube Music versus YouTube Premium, the subscription service for ad-free viewing, background listening, offline video downloads and full access to YouTube Music. In November 2022, the company said YouTube Music and YouTube Premium topped 80 million paying subscribers combined.\n \nThe announcement comes after Alphabet, in reporting fourth-quarter 2023 earnings, boasted that YouTube and Google subscription services generated more than $15 billion in revenue last year. That includes YouTube Premium and YouTube Music, as well as YouTube TV and Google One cloud storage.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/01/218242/youtube-says-it-has-more-than-100-million-premium-and-music-subscribers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T22:02:00.000Z",
-          "wordCount": 5793,
-          "title": "YouTube Says It Has More Than 100 Million Premium and Music Subscribers",
-          "imageUrl": "https://a.fsdn.com/sd/topics/youtube_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/01/2050210/snap-is-recalling-and-refunding-every-drone-it-ever-sold?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Snap is recalling all 71,000 of its Pixy flying selfie camera drones because their batteries pose a fire hazard. The Verge reports: Snap and the US Consumer Product Safety Commission say you should \"immediately stop using the Pixy Flying Camera, remove the battery and stop charging it\" now that there have been four reports of the battery bulging, one fire, and one \"minor injury.\" Then, you can get a full refund for the entire drone and / or any batteries you own -- sounds like we're talking at least $185 back to you, unless you bought it on sale. You don't need a receipt: you can apply for the refund even if you got it as a gift. You can fill out this form to receive a prepaid return label to return the drone. Snap says you will need to safely dispose of the batteries yourself.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/01/2050210/snap-is-recalling-and-refunding-every-drone-it-ever-sold?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T21:25:00.000Z",
-          "wordCount": 5341,
-          "title": "Snap Is Recalling and Refunding Every Drone It Ever Sold",
-          "imageUrl": "https://a.fsdn.com/sd/topics/money_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/02/01/2045205/fcc-to-declare-ai-generated-voices-in-robocalls-illegal-under-existing-law?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: The Federal Communications Commission plans to vote on making the use of AI-generated voices in robocalls illegal. The FCC said that AI-generated voices in robocalls have \"escalated during the last few years\" and have \"the potential to confuse consumers with misinformation by imitating the voices of celebrities, political candidates, and close family members.\" FCC Chairwoman Jessica Rosenworcel's proposed Declaratory Ruling would rule that \"calls made with AI-generated voices are 'artificial' voices under the Telephone Consumer Protection Act (TCPA), which would make voice cloning technology used in common robocalls scams targeting consumers illegal,\" the commission announced yesterday. Commissioners reportedly will vote on the proposa…",
-          "link": "https://slashdot.org/story/24/02/01/2045205/fcc-to-declare-ai-generated-voices-in-robocalls-illegal-under-existing-law?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T20:45:00.000Z",
-          "wordCount": 7325,
-          "title": "FCC To Declare AI-Generated Voices In Robocalls Illegal Under Existing Law",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/01/1845239/google-maps-is-getting-supercharged-with-generative-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Google is bringing generative AI to Google Maps, promising to help users find cool places through the use of large language models (LLM). From a report: The feature will answer queries for restaurant or shopping recommendations, for example, using its LLM to \"analyze Maps' detailed information about more than 250 million places and trusted insights from our community of over 300 million contributors to quickly make suggestions for where to go.\" Google says the feature will first become available in the US, but there's no word yet on when other countries will also get it.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/01/1845239/google-maps-is-getting-supercharged-with-generative-ai?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T18:45:00.000Z",
-          "wordCount": 8799,
-          "title": "Google Maps is Getting 'Supercharged' With Generative AI",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/01/1639232/biden-to-offer-15-billion-loan-to-restart-michigan-nuclear-power-plant?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The Biden administration is poised to lend $1.5 billion for what what would be the first restart of a shuttered US nuclear reactor, the latest sign of strengthening federal government support for the atomic industry. Bloomberg: The funding, which is set to get conditional backing from the US Energy Department, will be offered as soon as next month to closely held Holtec International to restart its Palisades nuclear plant in Michigan, according to people familiar with the matter. Holtec has said a restart of the reactor is contingent on a federal loan. Without such support, the company has said it would decommission the site. \n\nThe financing comes as the Biden administration prioritizes maintaining the nation's fleet of nuclear plants to help meet its ambitious climate goals -- including a plan to decarbonize the electricity grid by 2035. More than a dozen reactors have closed since 2013 amid competition from cheaper power from natural gas and renewables, and the Energy Department has warned that as many of half of the nation's nuclear reactors are at risk of closing due to economic factors.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/01/1639232/biden-to-offer-15-billion-loan-to-restart-michigan-nuclear-power-plant?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T16:40:00.000Z",
-          "wordCount": 13372,
-          "title": "Biden To Offer $1.5 Billion Loan To Restart Michigan Nuclear Power Plant",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/01/1529242/microsoft-seeks-rust-developers-to-rewrite-core-c-code?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: Microsoft's adoption of Rust continues apace if a posting on the IT titan's careers website is anything to go by. Although headcount at Microsoft might currently be down -- by two percent compared to the previous year -- recruitment persists at the Windows giant. In this case, the company is forming a team of Rustaceans to tackle a platform move away from C#. \n\nThe job, a principal software architect for Microsoft 365, has responsibilities that include \"guiding technical direction, design and implementation of Rust component libraries, SDKs, and re-implementation of existing global scale C# based services to Rust.\" According to the post, the job lurks within the Substrate App Platform group, part of the Microsoft 365 Core Platform organization. The Substrate does the heavy lifting behind the scenes for Microsoft's cloud services, making a rewrite into Rust quite a statement of intent. Microsoft said: \"We are forming a new team focused on enabling the adoption of the Rust programming language as the foundation to modernizing global scale platform services, and beyond.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/01/1529242/microsoft-seeks-rust-developers-to-rewrite-core-c-code?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T16:00:00.000Z",
-          "wordCount": 7034,
-          "title": "Microsoft Seeks Rust Developers To Rewrite Core C# Code",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/01/1515215/bard-generates-photos-now-finally?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Google's Bard chatbot is adding AI image generation, catching up on a feature that rival ChatGPT Plus has had for months. From a report: Users can prompt Bard to generate photos using Google's Imagen 2 text-to-image model. Bard, now powered by Google's Gemini Pro large language model, was always going to have image generation. It was assumed the more powerful Gemini Ultra model would power it; however, that model remains in development. \n\nGoogle has been positioning Bard as a worthy competitor to OpenAI's ChatGPT Plus, which runs GPT-4 and lets users generate images thanks to DALL-E 3 integration. Both chatbots perform well, but Bard's lack of text-to-image features gave ChatGPT Plus a bit of an edge. People can use the updated Bard with Imagen 2 at no cost, unlike ChatGPT Plus, which relies on a paid subscription.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/01/1515215/bard-generates-photos-now-finally?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T15:20:00.000Z",
-          "wordCount": 5106,
-          "title": "Bard Generates Photos Now, Finally",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/01/1447236/okta-to-lay-off-7-of-staff-because-reality-is-that-costs-are-still-too-high?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Identity management company Okta said on Thursday in a message to employees that it would lay off 400 employees, about 7% of the company's headcount. From a report: CEO Todd McKinnon said in his message that the \"reality is that costs are still too high.\" Okta is only the latest tech company to trim headcount in the opening weeks of 2024. Nearly 24,000 tech workers lost their jobs in January alone, even as many tech companies saw their stock prices continue to grow.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/01/1447236/okta-to-lay-off-7-of-staff-because-reality-is-that-costs-are-still-too-high?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T14:46:00.000Z",
-          "wordCount": 6502,
-          "title": "Okta To Lay Off 7% of Staff Because 'Reality is That Costs Are Still Too High'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/24/02/01/1354246/apple-declares-last-macbook-pro-with-an-optical-drive-obsolete?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple has discontinued support for the mid-2012 13-inch MacBook Pro, the last model to include an optical drive. Products are considered obsolete when Apple ceased distribution over 7 years ago, making service and parts unavailable. The laptop was removed from Apple's lineup in 2016 but remained compatible with macOS until Big Sur in 2020. While optical drives had already fallen out of favor, the phase out marks the end of an era for pro users requiring discs for media production.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/24/02/01/1354246/apple-declares-last-macbook-pro-with-an-optical-drive-obsolete?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T14:01:00.000Z",
-          "wordCount": 8016,
-          "title": "Apple Declares Last MacBook Pro With an Optical Drive Obsolete",
-          "imageUrl": "https://a.fsdn.com/sd/topics/applelaptop_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/02/01/0235256/biogen-dumps-dubious-alzheimers-drug-after-profit-killing-fda-scandal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: Biotechnology company Biogen is abandoning Aduhelm, its questionable Alzheimer's drug that has floundered on the market since its scandal-plagued regulatory approval in 2021 and brow-raising pricing. On Wednesday, the company announced it had terminated its license for Aduhelm (aducanumab) and will stop all development and commercialization activities. The rights to Aduhelm will revert back to the Neurimmune, the Swiss biopharmaceutical company that discovered it.\n \nBiogen will also end the Phase 4 clinical trial, ENVISION, that was required by the Food and Drug Administration to prove Biogen's claims that Aduhelm is effective at slowing progression of Alzheimer's in its early stages -- something two Phase 3 trials failed to do with certainty. In the announcement, Biogen noted it took a financial hit of $60 million in the fourth quarter of 2023 to close out its work on Aduhelm, which the company at one point reportedly estimated would bring in as much as $18 billion in revenue per year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/24/02/01/0235256/biogen-dumps-dubious-alzheimers-drug-after-profit-killing-fda-scandal?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-01T13:00:00.000Z",
-          "wordCount": 6072,
-          "title": "Biogen Dumps Dubious Alzheimer's Drug After Profit-Killing FDA Scandal",
-          "imageUrl": "https://a.fsdn.com/sd/topics/biotech_64.png"
         }
       ]
     }
