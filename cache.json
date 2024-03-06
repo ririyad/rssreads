@@ -83,6 +83,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/apple-is-in-its-ballmer-era-339b0713",
+          "author": null,
+          "description": "During Ballmer's reign as CEO of Microsoft, the company always made plenty of money. While the stock traded sideways, Ballmer made sure it was still raining dividends. Yet, today, that era of Microsoft is not looked upon too fondly. It's seen as being anchored in the company's historic paranoia, Windows-centric world view, and as missing the boat on mobile.\n Then along came Satya Nadella. \nNow, it's tempting to write a hagiography of whoever is CEO when a company is flying high, and Microsoft has soared in recent years. It's currently the most valuable company in the world. The only one with an over three trillion dollar market capitalization. But we don't need to be blinded by the halo effect to realize that Microsoft under Nadella is a fundamentally different company to the one it was un…",
+          "link": "https://world.hey.com/dhh/apple-is-in-its-ballmer-era-339b0713",
+          "publishedOn": "2024-03-05T23:09:54.000Z",
+          "wordCount": 833,
+          "title": "Apple is in its Ballmer era",
+          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
+        },
+        {
           "id": "https://world.hey.com/dhh/you-can-own-more-than-one-type-of-computer-73439146",
           "author": null,
           "description": "I probably wouldn't have done a deep dive on Apple alternatives without the announcement that they were killing progressive web apps (PWAs) on the iPhone in the EU. Most people don't switch operating systems willy-nilly, and for good reason: They're different! And different is weird at first! But I'm actually glad Apple gave me the final push to venture outside the walled garden for a longer stroll, because the expedition has been a delight.\n And now that Apple has done a complete 180 on PWAs in the EU – they're not going anywhere, the company announced today – I'm even happier with the way it all worked out. Apple gave me an excellent reminder that having all your computing eggs in one basket leaves you mighty vulnerable to predatory behavior. Because what are you going to do? If you're A…",
@@ -281,24 +291,23 @@
       "title": "Andrew Kelley",
       "feedUrl": "https://andrewkelley.me/rss.xml",
       "siteUrl": "https://andrewkelley.me/",
-      "articles": [
-        {
-          "id": "https://andrewkelley.me/post/why-we-cant-have-nice-software.html",
-          "author": null,
-          "description": "Why We Can't Have Nice Software\ntrickle of electricity to run it.\n\n\nImmediately, this poses a problem: how can a small number of people keep all\nthat wealth for themselves, and not let it escape in the dirty, dirty fingers\nof the general populace?\n\n\nThis is a question that the music industry faced head-on, and they came up\nwith EULAs, enforced via the state's monopoly on violence, and DRM, a way for\nsoftware to act antagonistically against its own users. Software can do useful\nthings like encode media into bits, and then copy those bits. That's\ndangerously useful, and it had to be stopped.\n\n\nThe True Cause of Bitrot\ndone; ripples disappearing from the surface of\na lake hours after a stone is thrown into it.\n\n\nThe darker side of bitrot is due to businesses trying to make more profit\nthan la…",
-          "link": "https://andrewkelley.me/post/why-we-cant-have-nice-software.html",
-          "publishedOn": "2024-02-04T23:11:21.000Z",
-          "wordCount": 2385,
-          "title": "Why We Can't Have Nice Software",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "Martin Fowler",
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/patterns-legacy-displacement/event-interception.html",
+          "author": null,
+          "description": "When we gradually replace a legacy system, we have plenty of cases\n       where the legacy system and its replacement need to interact. Since these\n       legacy systems are often difficult, and costly, to change, we need a\n       mechanism that can integrate elements of the replacement while minimizing\n       the impact to the legacy system. Ian Cartwright, Rob Horn, and\n       James Lewis explain how we can use Event Interception on\n       state-changing events, allowing us to forward them to the\n       replacement.\nmore…",
+          "link": "https://martinfowler.com/articles/patterns-legacy-displacement/event-interception.html",
+          "publishedOn": "2024-03-05T15:03:00.000Z",
+          "wordCount": 2244,
+          "title": "Patterns of Legacy Displacement: Event Interception",
+          "imageUrl": "https://martinfowler.com/articles/patterns-legacy-displacement/card.png"
+        },
         {
           "id": "https://martinfowler.com/bliki/PeriodicFaceToFace.html",
           "author": null,
@@ -631,36 +640,6 @@
           "wordCount": 181,
           "title": "eventbrite.ics",
           "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/non-sivers",
-          "author": null,
-          "description": "Nontrepeneurs prioritize play when they've accrued the means to stop working. It's unclear why anybody would do otherwise.",
-          "link": "https://taylor.town/non-sivers",
-          "publishedOn": "2024-02-05T00:00:00.000Z",
-          "wordCount": 1013,
-          "title": "Nontrepeneur: Derek Sivers",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/non-stoll",
-          "author": null,
-          "description": "But Cliff Stoll plays at the human-scale. He doesn't blame the universe for defying expectations.",
-          "link": "https://taylor.town/non-stoll",
-          "publishedOn": "2024-02-05T00:00:00.000Z",
-          "wordCount": 442,
-          "title": "Nontrepeneur: Clifford Stoll",
-          "imageUrl": null
-        },
-        {
-          "id": "https://taylor.town/non-woz",
-          "author": null,
-          "description": "It takes a very peculiar type of person to accidentally start a successful business.",
-          "link": "https://taylor.town/non-woz",
-          "publishedOn": "2024-02-05T00:00:00.000Z",
-          "wordCount": 1078,
-          "title": "Nontrepeneur: Steve Wozniak",
-          "imageUrl": null
         }
       ]
     },
@@ -669,6 +648,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://entertainment.slashdot.org/story/24/03/06/0024225/max-password-sharing-crackdown-is-coming?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Warner Bros. Discovery said a password crackdown for its Max streaming service is coming later this year, joining competitors Netflix and Disney. TheWrap reports: JB Perrette, WBD's CEO and president of global streaming and games, said the initiative would launch later this year with a broader rollout in 2025. \"We think, relative to the scale of our business, it's a meaningful opportunity,\" Perrette said during Morgan Stanley's 2024 Technology, Media & Telecom Conference in San Francisco on Monday. The push to crack down on password sharing comes as Warner Bros. Discovery narrowed its streaming loss to $55 million during its fourth quarter of 2023, down from a loss of $217 million a year ago. For the full year, it swung to a profit of $103 million, compared to a loss of $1.59 billion in 2022.\n \nLooking ahead, WBD said its DTC business would have \"modestly negative\" EBITDA in the first half of 2024 before turning profitable in the second half. WBD is targeting $1 billion of direct-to-consumer EBITDA in 2025. In its fourth quarter, Warner Bros. Discovery added 1.8 million subscribers in its direct-to-consumer division for a total of 97.7 million. The DTC segment's results include Max, Discovery+ and traditional HBO cable subscriptions. Parrette also discussed interest in transactional ads, notes Ars Technica. Per Perrette: \"On the ad format size, we've made lots of improvements from where we were, but we still have a lot of ad format enhancements that will give us more things that we can go to marketers with, [like] shoppable ads [and] other elements of the ad format side of the house that we can improve.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://entertainment.slashdot.org/story/24/03/06/0024225/max-password-sharing-crackdown-is-coming?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-06T00:45:00.000Z",
+          "wordCount": 4076,
+          "title": "Max Password Sharing Crackdown Is Coming",
+          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
+        },
+        {
+          "id": "https://linux.slashdot.org/story/24/03/05/2158236/why-desktop-linux-is-finally-growing-in-popularity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to the latest data from StatCounter, Linux's market share has reached 4.03% -- surging by an additional 1% in the last eight months. What's the reason behind this recent growth? \"That's a good question,\" writes ZDNet's Steven Vaughan-Nichols. \"While Windows is the king of the hill with 72.13% and MacOS comes in a distant second at 15.46%, it's clear that Linux is making progress.\" An anonymous Slashdot reader shares the five reasons why Vaughan-Nichols thinks it's growing: 1. Microsoft isn't that interested in Windows \nIf you think Microsoft is all about the desktop and Windows, think again. Microsoft's profits these days come from its Azure cloud and Software-as-a-Service (SaaS), Microsoft 365 in particular. Microsoft doesn't want you to buy Windows; the Redmond powerhouse wants…",
+          "link": "https://linux.slashdot.org/story/24/03/05/2158236/why-desktop-linux-is-finally-growing-in-popularity?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-06T00:02:00.000Z",
+          "wordCount": 4934,
+          "title": "Why Desktop Linux Is Finally Growing In Popularity",
+          "imageUrl": "https://a.fsdn.com/sd/topics/opensource_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/05/2146221/copilot-pane-as-annoying-as-clippy-may-pop-up-in-windows-11?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Richard Speed reports via The Register: Copilot in Windows is set to get even more assertive after Microsoft added a function that makes the AI assistant's window pop up after a user's cursor hovers over the icon in the task bar. [...] Windows Insiders on the Beta Channel â\" with the option to get the latest updates turned on â\" will soon find themselves on the receiving end of what Microsoft calls \"a new hover experience for Copilot in Windows\" from build 22635.3276.\n \nIf your mouse cursor happens to drift over to the Copilot icon on the taskbar, the Copilot pane will open to make users aware of the delights on offer. The result, we suspect, will be to educate users in the art of switching off the function. Much like Widgets, which will also make its unwanted presence felt should a user move a mouse over its icon. A swift hop into taskbar settings is all it takes to make the icons disappear, for now at least. The new feature is being piloted but considering the proximity of the Beta Channel to Release Preview, there is every chance the pop-up will, er, pop up in a release version of Windows before long.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/05/2146221/copilot-pane-as-annoying-as-clippy-may-pop-up-in-windows-11?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T23:20:00.000Z",
+          "wordCount": 4974,
+          "title": "Copilot Pane As Annoying As Clippy May Pop Up In Windows 11",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/03/05/2140221/ios-174-is-here-and-ready-for-a-whole-new-europe?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Jess Weatherbed reports via The Verge: Apple's iOS 17.4 update is now available, introducing new emoji and a cryptographic security protocol for iMessage, alongside some major changes to the App Store and contactless payments for the iPhone platform in Europe. Apple is making several of these changes to comply with the EU's Digital Markets Act (DMA), a law that aims to make the digital economy fairer by removing unfair advantages that tech giants hold over businesses and end users. iOS 17.4 will allow third-party developers to offer alternative app marketplaces and app downloads to EU users from outside the iOS App Store. Developers wanting to take advantage of this will be required to go through Apple's approval process and pay Apple a \"Core Technology Fee\" that charges 50 euro cents per …",
+          "link": "https://apple.slashdot.org/story/24/03/05/2140221/ios-174-is-here-and-ready-for-a-whole-new-europe?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T22:40:00.000Z",
+          "wordCount": 4606,
+          "title": "iOS 17.4 Is Here and Ready For a Whole New Europe",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ios_64.png"
+        },
+        {
+          "id": "https://hardware.slashdot.org/story/24/03/05/2130239/oregon-oks-right-to-repair-bill-that-bans-the-blocking-of-aftermarket-parts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Ars Technica: Oregon has joined the small but growing list of states that have passed right-to-repair legislation. Oregon's bill stands out for a provision that would prevent companies from requiring that official parts be unlocked with encrypted software checks before they will fully function. Bill SB 1596 passed Oregon's House by a 42 to 13 margin. Gov. Tina Kotek has five days to sign the bill into law. Consumer groups and right-to-repair advocates praised the bill as \"the best bill yet,\" while the bill's chief sponsor, state Sen. Janeen Sollman (D), pointed to potential waste reductions and an improved second-hand market for closing a digital divide.\n \n\"Oregon improves on Right to Repair laws in California, Minnesota and New York by making sure …",
+          "link": "https://hardware.slashdot.org/story/24/03/05/2130239/oregon-oks-right-to-repair-bill-that-bans-the-blocking-of-aftermarket-parts?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T22:02:00.000Z",
+          "wordCount": 6309,
+          "title": "Oregon OKs Right-To-Repair Bill That Bans the Blocking of Aftermarket Parts",
+          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/05/2047225/the-arctic-ocean-could-be-ice-free-within-the-decade-researchers-warn?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The loss of Arctic sea ice has long been a graphic measure of human-caused climate change, with wrenching images of suffering polar bears illustrating a worsening planetary crisis. Now, new research has found that Arctic Ocean sea ice is shrinking even faster than previously thought -- and that the Arctic may start to see its first \"ice-free\" days within the current decade. From a report: That troubling milestone could occur before the end of the decade or sometime in the 2030s -- as many as 10 years earlier than previous projections, according to a study published Tuesday in the journal Nature Reviews Earth and Environment. The study defines \"ice-free\" as when the Arctic Ocean has less than 1 million square kilometers, or 386,000 square miles, of ice. \n\nBy midcentury -- 2035 to 2067 -- the Arctic could see consistent ice-free conditions in September, the month when sea ice concentrations are typically at their minimum, the study found. The precise timing of such losses depends on how soon humanity is able to reduce fossil fuel emissions that are contributing to global warming. Under a high-emission scenario in which fossil fuel use continues unabated, the Arctic would be ice-free between the months of May and January by 2100, the study says. Even under a low-emission scenario, the Arctic would still be ice-free between August and October by that same year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/05/2047225/the-arctic-ocean-could-be-ice-free-within-the-decade-researchers-warn?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T21:20:00.000Z",
+          "wordCount": 7318,
+          "title": "The Arctic Ocean Could Be 'Ice-Free' Within the Decade, Researchers Warn",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/05/2042248/in-a-first-us-students-will-take-the-sat-entirely-online?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The SAT, a college admissions exam that for nearly a century was completed using paper and pencil, is now officially all-digital. From a report: This week, students in the U.S. will begin taking the new SAT on their own devices -- including a tablet or a laptop -- or on school devices. The test is also one hour shorter (down from three hours), has shorter reading passages and uses digital tools, like a highlighter, a graphing calculator and a bookmark to go back to skipped questions. The revamped test, which ditches the paper and pencil, aims to make cheating harder and grading easier. \n\nStudents will still take the exam at a test center or at a high school. \"Today's students, they do a lot of their living digitally, they do a lot of their learning digitally and they do a lot of their test taking digitally,\" says Priscilla Rodriguez, who oversees the SAT for the College Board, the organization behind the test. Throughout March and April, the College Board expects more than 1 million students to take the new digital SAT. Students can take the exam on Saturday test dates or during SAT School Days, where participating high schools offer the test to upperclassmen free of charge during the school day.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/05/2042248/in-a-first-us-students-will-take-the-sat-entirely-online?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T20:43:00.000Z",
+          "wordCount": 7821,
+          "title": "In a First, US Students Will Take the SAT Entirely Online",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/03/05/203210/amazon-cancels-fees-for-customers-moving-to-rival-cloud-services?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Amazon's cloud services division is halting fees it has long charged customers that switch to a rival provider -- following in the steps of Google, which recently announced it was ending the practice. From a report: Amazon Web Services will no longer charge customers who want to extract all of their data from the company's servers and move them to another service, AWS Vice President Robert Kennedy said in a blog post on Tuesday. \"Beginning today, customers globally are now entitled to free data transfers out to the internet if they want to move to another IT provider,\" Kennedy said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/03/05/203210/amazon-cancels-fees-for-customers-moving-to-rival-cloud-services?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T20:02:00.000Z",
+          "wordCount": 4305,
+          "title": "Amazon Cancels Fees for Customers Moving To Rival Cloud Services",
+          "imageUrl": "https://a.fsdn.com/sd/topics/cloud_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/05/1839259/microsoft-to-end-its-android-apps-on-windows-11-subsystem-in-2025?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft is ending support for its Android subsystem in Windows 11 next year. From a report: The software giant first announced it was bringing Android apps to Windows 11 with Amazon's Appstore nearly three years ago, but this Windows Subsystem for Android will now be deprecated starting March 5th, 2025. \"Microsoft is ending support for the Windows Subsystem for Android (WSA),\" reads a new support document from Microsoft. \"As a result, the Amazon Appstore on Windows and all applications and games dependent on WSA will no longer be supported beginning March 5, 2025.\" \n\nIf you currently use Android apps from the Amazon Appstore, then you'll continue to have access to these past the support cutoff date, but you won't be able to download any new ones once Microsoft makes its Android subsystem end of life next year. On March 6th (tomorrow), Windows 11 users will no longer be able to search for Amazon Appstore or associated Android apps from the Microsoft Store.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/05/1839259/microsoft-to-end-its-android-apps-on-windows-11-subsystem-in-2025?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T18:40:00.000Z",
+          "wordCount": 7082,
+          "title": "Microsoft To End Its Android Apps on Windows 11 Subsystem in 2025",
+          "imageUrl": "https://a.fsdn.com/sd/topics/windows_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/05/1746249/google-is-starting-to-squash-more-spam-and-ai-in-search-results?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google announced updates to its search ranking systems aimed at promoting high-quality content and demoting manipulative or low-effort material, including content generated by AI solely to summarize other sources. The company also stated it is improving its ability to detect and combat tactics used to deceive its ranking algorithms.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/05/1746249/google-is-starting-to-squash-more-spam-and-ai-in-search-results?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T18:00:00.000Z",
+          "wordCount": 5857,
+          "title": "Google is Starting To Squash More Spam and AI in Search Results",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/05/1546231/microsoft-accuses-the-new-york-times-of-doom-mongering-in-openai-lawsuit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft has filed a motion seeking to dismiss key parts of a lawsuit The New York Times filed against the company and Open AI, accusing them of copyright infringement. From a report: If you'll recall, The Times sued both companies for using its published articles to train their GPT large language models (LLMs) without permission and compensation. In its filing, the company has accused The Times of pushing \"doomsday futurology\" by claiming that AI technologies pose a threat to independent journalism. It follows OpenAI's court filing from late February that's also seeking to dismiss some important elements on the case. \n\nLike OpenAI before it, Microsoft accused The Times of crafting \"unrealistic prompts\" in an effort to \"coax the GPT-based tools\" to spit out responses matching its content. It also compared the media organization's lawsuit to Hollywood studios' efforts to \" stop a groundbreaking new technology:\" The VCR. Instead of destroying Hollywood, Microsoft explained, the VCR helped the entertainment industry flourish by opening up revenue streams. LLMs are a breakthrough in artificial intelligence, it continued, and Microsoft collaborated with OpenAI to \"help bring their extraordinary power to the public\" because it \"firmly believes in LLMs' capacity to improve the way people live and work.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/03/05/1546231/microsoft-accuses-the-new-york-times-of-doom-mongering-in-openai-lawsuit?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T17:22:00.000Z",
+          "wordCount": 6600,
+          "title": "Microsoft Accuses the New York Times of Doom-Mongering in OpenAI Lawsuit",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/05/1558207/us-sanctions-founder-of-spyware-maker-intellexa-for-targeting-americans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. government announced Tuesday sanctions against the founder of the notorious spyware company Intellexa and one of his business partners. From a report: This is the first time the U.S. government has targeted specific people, in addition to companies, with sanctions related to the misuse of commercial spyware. And it signifies an escalation of the White House and U.S. government's efforts to curb the spyware industry. \"Today's actions represent a tangible step forward in discouraging the misuse of commercial surveillance tools, which increasingly present a security risk to the United States and our citizens,\" said Brian E. Nelson, U.S Treasury's under secretary for terrorism and financial intelligence, was quoted as saying in a press release. \n\n\"The United States remains focused on establishing clear guardrails for the responsible development and use of these technologies while also ensuring the protection of human rights and civil liberties of individuals around the world.\" The U.S. Treasury imposed sanctions on Tal Dilian, the founder of Intellexa and a veteran of the spyware industry; and Sara Aleksandra Fayssal Hamou, who is not as well-known as Dilian. Hamou, according to the Treasury, has a leadership role in Intellexa, is an expert in off-shoring, and provided the company managerial services, such as renting office space in Greece.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/05/1558207/us-sanctions-founder-of-spyware-maker-intellexa-for-targeting-americans?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T16:40:00.000Z",
+          "wordCount": 5739,
+          "title": "US Sanctions Founder of Spyware Maker Intellexa for Targeting Americans",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/03/05/160235/facebook-youtube-instagram-and-threads-are-all-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Facebook, Instagram, and Threads are all experiencing issues. From a report: The three Meta-owned platforms aren't working for many users, with the widespread outage seeming to start around 10AM ET. Some users are experiencing issues logging in to their Meta Quest headsets, too. Facebook is logging users out of their accounts, leaving them unable to get back in. Meanwhile, over on Instagram, some users, including several of us at The Verge, can't refresh their feeds. YouTube is down, too.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/03/05/160235/facebook-youtube-instagram-and-threads-are-all-down?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T16:00:00.000Z",
+          "wordCount": 9296,
+          "title": "Facebook, YouTube, Instagram, and Threads Are All Down",
+          "imageUrl": "https://a.fsdn.com/sd/topics/internet_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/03/05/1520220/bitcoin-surges-to-record-above-69000?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Bitcoin surged to a record as demand from new US exchange-traded funds and a looming reduction in the token's supply growth fuel a breathtaking rebound in the original cryptocurrency. From a report: The largest digital asset rose as much as 2.5% to $69,191.95 as of 10:10 a.m. Tuesday in New York. Bitcoin has climbed about 62% so far in 2024, outperforming global stocks and spreading optimism across the digital-asset market. \n\nIn an ironic twist, Bitcoin owes much of its resurgence to a regulator long-viewed as hostile to crypto: the US Securities and Exchange Commission. The SEC approved spot-Bitcoin exchange-traded funds in early January after suffering a legal defeat last year in its attempt to reject them. The move has widened the mass-market accessibility of Bitcoin, helping the crypto sector to turn the page following a bear market in 2022 and a string of subsequent bankruptcies, including the implosion of Sam Bankman-Fried's FTX exchange.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/03/05/1520220/bitcoin-surges-to-record-above-69000?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T15:20:00.000Z",
+          "wordCount": 12067,
+          "title": "Bitcoin Surges To Record Above $69,000",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/05/1452243/hackers-exploited-windows-0-day-for-6-months-after-microsoft-knew-of-it?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Hackers backed by the North Korean government gained a major win when Microsoft left a Windows zero-day unpatched for six months after learning it was under active exploitation. From a report: Even after Microsoft patched the vulnerability last month, the company made no mention that the North Korean threat group Lazarus had been using the vulnerability since at least August to install a stealthy rootkit on vulnerable computers. The vulnerability provided an easy and stealthy means for malware that had already gained administrative system rights to interact with the Windows kernel. Lazarus used the vulnerability for just that. Even so, Microsoft has long said that such admin-to-kernel elevations don't represent the crossing of a security boundary, a possible explanation for the time Micros…",
+          "link": "https://tech.slashdot.org/story/24/03/05/1452243/hackers-exploited-windows-0-day-for-6-months-after-microsoft-knew-of-it?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-05T14:52:00.000Z",
+          "wordCount": 6571,
+          "title": "Hackers Exploited Windows 0-day for 6 Months After Microsoft Knew of It",
+          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
+        },
         {
           "id": "https://linux.slashdot.org/story/24/03/04/2159239/linux-passes-4-desktop-market-share?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4878,86 +5007,6 @@
           "wordCount": 8000,
           "title": "Taylor Swift Deepfakes Originated From AI Challenge, Report Says",
           "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://idle.slashdot.org/story/24/02/04/2344250/disneylands-new-pixar-place-hotel-is-like-visiting-the-studio?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The Orange County Register reports:\n\nThe new Pixar Place Hotel next door to Disneyland and Disney California Adventure is designed to look like you've walked onto the Pixar Animation Studios campus in Emeryville with concept drawings, character maquettes and final designs sprinkled throughout the hotel. \"For those of you who are into the creative process, I think you'll be really happy. This hotel really celebrates that,\" Pixar Chief Creative Officer Pete Docter said during the opening ceremony for the hotel. \"You get to see rough drawings, color studies and animation sketches as the animators were working. It really feels like you're walking into Pixar in a way when you step in here.\" \n\nThe multimillion-dollar transformation of the former Paradise Pier Hotel into the new Pixar Place Hotel…",
-          "link": "https://idle.slashdot.org/story/24/02/04/2344250/disneylands-new-pixar-place-hotel-is-like-visiting-the-studio?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-04T23:49:00.000Z",
-          "wordCount": 4348,
-          "title": "Disneyland's New 'Pixar Place' Hotel is Like Visiting the Studio",
-          "imageUrl": "https://a.fsdn.com/sd/topics/movies_64.png"
-        },
-        {
-          "id": "https://ask.slashdot.org/story/24/02/04/2226252/ask-slashdot-how-can-i-stop-security-firms-from-harvesting-my-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Slashdot reader Unpopular Opinions requests suggestions from the Slashdot community:\nLately a boom of companies decided to play their \"nice guy\" card, providing us with a trove of information about our own sites, DNS servers, email servers, pretty much anything about any online service you host. \n\nWhich is not anything new... Companies have been doing this for decades, except as paid services you requested. Now the trend is basically anyone can do it over my systems, and they are always more than happy to sell anyone, me included, my data they collected without authorization or consent. It's data they never had the rights to collect and/or compile to begin with, including data collected thru access attempts via known default accounts (Administrator, root, admin, guest) and/or leaked credentials provided by hacked databases when a few elements seemingly match... \n\n\"Just block those crawlers\"? That's what some of those companies advise, but not only does the site operator have to automate it themself, not all companies offer lists of their source IP addresses or identify them. Some use multiple/different crawler domain names from their commercial product, or use cloud providers such as Google Cloud, AWS and Azure â\" so one can't just block access to their company's networks without massive implications. They also change their own information with no warning, and many times, no updates to their own lists. Then, there is the indirect cost: computing cost, network cost, development cost, review cycle cost. It is a cat-and-mice game that has become very boring. \n\nWith the raise of concerns and ethical questions about AI harvesting and learning from copyrighted work, how are those security companies any different from AI, and how could one legally put a stop on this? \n\nBlock those crawlers? Change your Terms of Service? What's the best fix... Share your own thoughts and suggestions in the comments. \nHow can you stop security firms from harvesting your data?\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://ask.slashdot.org/story/24/02/04/2226252/ask-slashdot-how-can-i-stop-security-firms-from-harvesting-my-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-04T22:29:00.000Z",
-          "wordCount": 6125,
-          "title": "Ask Slashdot:  How Can I Stop Security Firms From Harvesting My Data?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/04/2127214/will-silicon-valleys-next-house-member-rewrite-a-key-internet-law?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous Slashdot reader shared this report from the San Francisco Chronicle's senior political writer:\n\n\nThe next House member representing Silicon Valley wants to change a key piece of federal law that shields internet companies like X, Facebook and Snapchat from lawsuits over content their users post. That protection is considered the lifeblood of social media. \n\nThe top eight Democratic candidates vying to succeed Democratic Rep. Anna Eshoo in her very blue district agree that something has to change with Section 230 of the Communications Decency Act, which was created in 1996, back when lawmakers shied away from doing anything that could limit the growth of the industry. Their unanimity is a sign that Eshoo's successor won't be a tool for the hometown industry. At least not on this issue. The challenge is what to do next. Whoever is elected, their actions as the voice of Silicon Valley will carry outsize weight in Congress. They can lead the charge to actually do something to clean up the bile on social media... \n\nThe good news is that they will have bipartisan support to address the bile and disinformation online. The bad news is that finding the right solution will still be hard.\n\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/04/2127214/will-silicon-valleys-next-house-member-rewrite-a-key-internet-law?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-04T21:29:00.000Z",
-          "wordCount": 7725,
-          "title": "Will Silicon Valley's Next House Member Rewrite a Key Internet Law?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/02/04/1946230/152-birds-named-after-people-will-be-renamed---but-how?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader shared this report from Slate:\n\nLast November, the American Ornithological Society, or AOS, announced that it would change the common names of all American birds named after people. There are 152 such \"eponymic\" names (that is, birds that are named after a specific person, like Bicknell's Thrush) on the AOS' official checklist, and the group is planning to start with between 70 and 80 species predominantly found in the U.S. and Canada. In the coming years, birds like Cooper's Hawk, Wilson's Snipe, and Lincoln's Sparrow will be stripped of their eponyms and given new common English names. \n\nThe eponymic naming issue has been heating up in the bird world for a few years now. Birds got their English names when they were \"discovered\" by Western scientists, or otherwise iden…",
-          "link": "https://science.slashdot.org/story/24/02/04/1946230/152-birds-named-after-people-will-be-renamed---but-how?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-04T20:02:00.000Z",
-          "wordCount": 12952,
-          "title": "152 Birds Named After People Will Be Renamed - But How?",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/04/190210/across-america-clean-energy-plants-are-being-banned-faster-than-theyre-being-built?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "An anonymous reader shared this report from USA Today:\n\nA nationwide analysis by USA TODAY shows local governments are banning green energy faster than they're building it. \n\nAt least 15% of counties in the U.S. have effectively halted new utility-scale wind, solar, or both, USA TODAY found. These limits come through outright bans, moratoriums, construction impediments and other conditions that make green energy difficult to build... In the past decade, about 180 counties got their first commercial wind-power project. But in the same period, more than twice as many blocked wind development. And while solar power has found more broad acceptance, 2023 was the first year to see almost as many individual counties block new solar projects as the ones adding their first project. \n\nThe result: So…",
-          "link": "https://news.slashdot.org/story/24/02/04/190210/across-america-clean-energy-plants-are-being-banned-faster-than-theyre-being-built?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-04T19:02:00.000Z",
-          "wordCount": 10074,
-          "title": "Across America, Clean Energy Plants Are Being Banned Faster Than They're Being Built",
-          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
-        },
-        {
-          "id": "https://hardware.slashdot.org/story/24/02/04/0537238/linux-foundation-energy-partners-with-us-government-on-interoperability-of-americas-ev-charging?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "The non-profit Linux Foundation Energy hopes to develop energy-sector solutions (including standards, specifications, and software) supporting rapid decarbonization by collaborating with industry stakeholders. \n\nAnd now they're involved in a new partnership with America's Joint Office of Energy — which facilitates collaboration between the federal Department of Energy and its Department of Transportation. The partnership's goal? To \"build open-source software tools to support communications between EV charging infrastructure and other systems.\" \n\n The Buildout reports:\nThe partnership and effort — known as \"Project EVerest\" — is part of the administration's full-court press to improve the charging experience for EV owners as the industry's nationwide buildout hits full stride. \"Project EVe…",
-          "link": "https://hardware.slashdot.org/story/24/02/04/0537238/linux-foundation-energy-partners-with-us-government-on-interoperability-of-americas-ev-charging?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-04T17:34:00.000Z",
-          "wordCount": 5467,
-          "title": "'Linux Foundation Energy' Partners With US Government on Interoperability of America's EV Charging",
-          "imageUrl": "https://a.fsdn.com/sd/topics/opensource_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/04/0359213/craig-newmark-donates-10m-to-help-cuny-journalism-school-become-tuition-free?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "Craig Newmark posted an announcement last week on LinkedIn. \"Okay, my deal is that I'm contributing another $10 million so that the City University of New York journalism grad school can go tuition-free for half the student body next year... \n\n\n\"Tuition-free means more seriously good journalism education for students from all income backgrounds...\" \n\nMore details from the Observer:\nThe New York City-based institution today announced plans to grow its endowment to $60 million by 2026 to cover the tuition of its full student body in perpetuity. \n\nFounded in 2006, the Newmark Journalism School has long offered a public alternative to private, elite journalism programs across the nation, according to its dean Graciela Mochkofsky. \"After the pandemic, we realized that even though we were one of the most affordable schools in the country, we were seeing an increasing need from our students,\" Mochkofsky told Observer. \"We started thinking about how to get to tuition-free....\" \n\n\n\"One-time grants to schools and newsrooms are an important piece of the puzzle,\" Newmark told Observer. \"But if we're serious about the future of trustworthy journalism as democracy's immune system, we've got to create ways to make the pipeline and product more resilient to economics and shifting moods. Endowments help do that....\" \n\n\nThe Newmark Journalism School has been gradually inching towards free tuition for some time. Tuition was covered for 20 percent of students in the class of 2023, 25 percent of the program's current class and 35 percent of the new class being enrolled. If the school's goal of raising $30 million in the next two years is achieved, this figure will reach 100 percent by its 20th anniversary in 2026... \nIt is additionally fundraising for other initiatives related to research, faculty, facilities and new programs. Curriculums that reflect the emergence of artificial intelligence (A.I.) and the technology's effect on journalism are of particular interest.\n\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/04/0359213/craig-newmark-donates-10m-to-help-cuny-journalism-school-become-tuition-free?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-04T16:34:00.000Z",
-          "wordCount": 6835,
-          "title": "Craig Newmark Donates $10M to Help CUNY Journalism School Become Tuition-Free",
-          "imageUrl": "https://a.fsdn.com/sd/topics/themedia_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/03/2037220/the-atlantic-warns-of-a-rising-authoritarian-technocracy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "EditorDavid",
-          "description": "In the behavior of tech companies, the Atlantic's executive editor warns us about \"a clear and coherent ideology that is seldom called out for what it is: authoritarian technocracy. As the most powerful companies in Silicon Valley have matured, this ideology has only grown stronger, more self-righteous, more delusional, and — in the face of rising criticism — more aggrieved.\"\nThe new technocrats are ostentatious in their use of language that appeals to Enlightenment values — reason, progress, freedom — but in fact they are leading an antidemocratic, illiberal movement. Many of them profess unconditional support for free speech, but are vindictive toward those who say things that do not flatter them. They tend to hold eccentric beliefs.... above all, that their power should be unconstrained…",
-          "link": "https://tech.slashdot.org/story/24/02/03/2037220/the-atlantic-warns-of-a-rising-authoritarian-technocracy?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-04T15:34:00.000Z",
-          "wordCount": 9310,
-          "title": "The Atlantic Warns of a Rising 'Authoritarian Technocracy'",
-          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
         }
       ]
     }
