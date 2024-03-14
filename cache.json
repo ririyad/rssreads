@@ -83,6 +83,16 @@
       "siteUrl": "https://world.hey.com/dhh",
       "articles": [
         {
+          "id": "https://world.hey.com/dhh/developers-are-on-edge-4dfcf9c1",
+          "author": null,
+          "description": "It's a double whammy of anxiety for developers at the moment. On the one hand, the layoffs are dragging on. The industry has shed more jobs in a shorter period than any time since the dot-com bust over twenty years ago. Seasoned veterans who used to have recruiters banging on their door nonstop can suddenly barely get a callback. And now the threat of AI suddenly got even more urgent and imminent with the launch of Devin.\n  If you zoom out, though, developers are still flying high on tailwinds that took them to the moon over the past decade. Yes, hundreds of thousands of people have lost their jobs in the tech industry, but the preceding hiring bonanza still leaves us with an enormous and wealthy industry. And the wage gains secured during the go-go days are still massive, despite what inf…",
+          "link": "https://world.hey.com/dhh/developers-are-on-edge-4dfcf9c1",
+          "publishedOn": "2024-03-13T20:37:56.000Z",
+          "wordCount": 714,
+          "title": "Developers are on edge",
+          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
+        },
+        {
           "id": "https://world.hey.com/dhh/be-less-precious-b20bf8c3",
           "author": null,
           "description": "The essence of the book Radical Candor is the concept of ruinous empathy. That by trying your best to couch employee performance feedback in overly gentle language, you end up confusing the message, and cheating the recipient out of the clarity they desperately need to improve – or prepare for what happens if they don't. \n  This concept extends to more than just direct employee feedback. It can also seep into other forms of communication, policies, and ultimately the entire culture. At 37signals, we've labeled this broader problem being \"overly precious\".\n  Let me give you an example. We used to have official \"mental health days\" for employees. With an explicit invitation that people really should just take some time off if they felt \"overwhelmed\" or \"mentally fatigued\". Here's the old par…",
@@ -181,26 +191,6 @@
           "wordCount": 1166,
           "title": "VSCode + WSL makes Windows awesome for web development",
           "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
-        },
-        {
-          "id": "https://world.hey.com/dhh/every-generation-needs-their-own-apocalypse-194b2413",
-          "author": null,
-          "description": "Danish 8th, 9th, and 10th graders vote in a mock election every year in Denmark. The results for 2024 were a startling refutation of the idea that young people must be inherently left-leaning. The dominating winner was Liberal Alliance, a center-right party that speaks to the virtues of individualism, entrepreneurship, tax cuts, and a limited welfare state. They took just about every third vote.\nSome of that is being ascribed to the star power of the party’s young leader, Alex Vanopslagh. At an age of just 32, he has managed to lift his party to incredible heights amongst not just the kids, but the adults too. In large part, it's claimed, because of his presence on TikTok (where he’s known as “Daddy Vanopslagh”) and other social media.\nThere’s enough material here for a decade’s worth of s…",
-          "link": "https://world.hey.com/dhh/every-generation-needs-their-own-apocalypse-194b2413",
-          "publishedOn": "2024-02-13T00:05:50.000Z",
-          "wordCount": 487,
-          "title": "Every generation needs their own apocalypse",
-          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
-        },
-        {
-          "id": "https://world.hey.com/dhh/the-compounding-seeds-of-creativity-e7e212c0",
-          "author": null,
-          "description": "Early on in my career, I learned a very important lesson about creativity: It can’t be saved for later. Creativity is perishable, just like inspiration. It has to be discharged regularly or it will spoil. And if you let enough of it go to waste, eventually your talents will sour and shrivel with it.\nThis was counterintuitive to me. I naively thought I could run out the clock every day on a creatively dead-end job, and then pursue my all own endeavors full of zest at night, with all the creativity I had saved. But it didn’t work like that. Spending eight hours a day spinning my intellectual wheels would get me nowhere at night when I finally tried to move.\nThat’s how I realized that being fully engaged at work is how you plant the best seeds for your own adventures. So when weighing the pro…",
-          "link": "https://world.hey.com/dhh/the-compounding-seeds-of-creativity-e7e212c0",
-          "publishedOn": "2024-02-12T22:07:31.000Z",
-          "wordCount": 473,
-          "title": "The compounding seeds of creativity",
-          "imageUrl": "https://world.hey.com/dhh/avatar-fb368b1ee9b185dc2a09b03eabdb61678dd55244"
         }
       ]
     },
@@ -268,6 +258,16 @@
       "feedUrl": "https://martinfowler.com/feed.atom",
       "siteUrl": "https://martinfowler.com/feed.atom",
       "articles": [
+        {
+          "id": "https://martinfowler.com/articles/measuring-developer-productivity-humans.html#TheTwoTypesOfQualitativeMetrics",
+          "author": null,
+          "description": "Abi Noda and Tim Cochran continue their\n       discussion on using qualitative metrics to assess the productivity of\n       development teams. In this installment they classify qualitative metrics into\n       attitudinal and behavioral metrics. We also see that qualitative metrics\n       allow you to measure things that are otherwise unmeasurable, provide missing\n       visibility, and supply necessary context for quantitative data.\nmore…",
+          "link": "https://martinfowler.com/articles/measuring-developer-productivity-humans.html#TheTwoTypesOfQualitativeMetrics",
+          "publishedOn": "2024-03-13T14:36:00.000Z",
+          "wordCount": 3289,
+          "title": "The Benefits of Qualitative Metrics",
+          "imageUrl": "https://martinfowler.com/articles/measuring-developer-productivity-humans/metaimage.png"
+        },
         {
           "id": "https://martinfowler.com/articles/measuring-developer-productivity-humans.html",
           "author": null,
@@ -406,36 +406,6 @@
           "publishedOn": "2024-02-19T00:00:00.000Z",
           "wordCount": 558,
           "title": "Leadership Council March Representative Selections",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2024/02/13/this-development-cycle-in-cargo-1-77.html",
-          "author": null,
-          "description": "This Development-cycle in Cargo: 1.77\nThis is a summary of what has been happening around Cargo development for the last 6 weeks which is approximately the merge window for Rust 1.77.\nPlugin of the cycle\nImplementation\n\nPolishing cargo new\nMerging cargo upgrade into cargo update\ncargo update --precise <yanked>\n-Zcheck-cfg\nUser-controlled diagnostics\nStrip std's debuginfo when debuginfo is not requested\nStabilizing cargo metadata's id field\nDesign discussions\n\nBeing-less-surprising-when-people-benchmark-debug-builds\nCargo script\nWhen to use packages or workspaces?\nRFC #3537: Make Cargo respect minimum supported Rust version (MSRV) when selecting dependencies\nRFC #3516 (public/private dependencies)\nFallback dependencies\nBuild script directives\nCargo and rustup\nMisc\nFocus areas without progre…",
-          "link": "https://blog.rust-lang.org/inside-rust/2024/02/13/this-development-cycle-in-cargo-1-77.html",
-          "publishedOn": "2024-02-13T00:00:00.000Z",
-          "wordCount": 3994,
-          "title": "This Development-cycle in Cargo: 1.77",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2024/02/13/leadership-council-update.html",
-          "author": null,
-          "description": "Hello again from the Rust Leadership Council!\nWe wanted to share an update on what the Council has been working on since our last update.\nAccomplishments so far\nProject Structure\nThe Council has agreed to make the Release team a subteam of the Infra team in RFC #3533.\nRyan Levick has stepped off the Council as part of this transition, and we thank him for the very significant help he has provided.\nRyan has been a part of the Core team since 2021, and was part of the group that designed and created the Leadership Council, and has earned a well deserved break.\nWe created the Project Structure Committee to help drive the discussion about the \"shape\" of the Rust project, and to define the goals and responsibilities of that committee.\nThere is not much progress to report at this time, as the gr…",
-          "link": "https://blog.rust-lang.org/inside-rust/2024/02/13/leadership-council-update.html",
-          "publishedOn": "2024-02-13T00:00:00.000Z",
-          "wordCount": 848,
-          "title": "February 2024 Leadership Council Update",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/inside-rust/2024/02/13/lang-team-colead.html",
-          "author": null,
-          "description": "It gives me great pleasure to announce (rather belatedly1) that Tyler Mandry has been chosen as the new lang-team co-lead. Tyler is a great choice for lead, as he always brings a balanced, thoughtful perspective to discussions, but is also willing to take strong positions when he believes he knows the right path forward. And he usually does.\nYou may have seen Tyler speak at RustConf last year, where he delivered one of the opening keynotes; Tyler also serves as the co-lead for the Async Rust Working Group, and in that capacity he has authored a number of influential and thoughtful blog posts, most recently making the case for what reliability means to async. I know I speak for everyone on the team when I say that we are looking forward to seeing what Tyler will help bring about for Rust!\nThis announcement is way overdue, as Tyler was chosen on Sep 21 of 2023! Sorry Tyler! Better late than never, as they say. ↩",
-          "link": "https://blog.rust-lang.org/inside-rust/2024/02/13/lang-team-colead.html",
-          "publishedOn": "2024-02-13T00:00:00.000Z",
-          "wordCount": 249,
-          "title": "Announcing Tyler Mandry as Lang Team co-lead",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -618,6 +588,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/24/03/13/2333243/trying-out-microsofts-pre-release-os2-20?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Last month, the only known surviving copy of 32-bit OS/2 from Microsoft was purchased for $650. \"Now, two of the internet's experts in getting early PC operating systems running today have managed to fire it up, and you can see the results,\" reports The Register. From the report: Why such interest in this nearly third-of-a-century old, unreleased OS? Because this is the way the PC industry very nearly went. This SDK came out in June 1990, just one month after Windows 3.0. If 32-bit OS/2 had launched as planned, Windows 3 would have been the last version before it was absorbed into OS/2 and disappeared. There would never have been any 32-bit versions: no Windows NT, no Windows 95; no Explorer, no Start menu or taskbars. That, in turn, might well have killed off Apple as well. No iPod, no iP…",
+          "link": "https://tech.slashdot.org/story/24/03/13/2333243/trying-out-microsofts-pre-release-os2-20?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-14T00:45:00.000Z",
+          "wordCount": 4093,
+          "title": "Trying Out Microsoft's Pre-Release OS/2 2.0",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://it.slashdot.org/story/24/03/13/2246235/modern-workplace-tech-linked-to-lower-employee-well-being-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "According to a new study from the Institute for the Future of Work, contemporary technology often has a negative impact on workers' quality of life. The think tank surveyed over 6,000 people to learn how four categories of workplace technologies affected their wellbeing. TechSpot reports the findings: The study found that increased exposure to three of the categories tended to worsen workers' mental state and health. The three areas that negatively impact people most are wearable and remote sensing technologies, which covers CCTV cameras and wearable trackers; robotics, consisting of automated machines, self-driving vehicles, and other equipment; and, unsurprisingly, technologies relating to AI and ML, which includes everything from decision management to biometrics. Only one of the categories was found to be beneficial to employees, and it's one that has been around for decades: ICT tech such as laptops, tablets, phones, and real-time messaging tools.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://it.slashdot.org/story/24/03/13/2246235/modern-workplace-tech-linked-to-lower-employee-well-being-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-14T00:02:00.000Z",
+          "wordCount": 4169,
+          "title": "Modern Workplace Tech Linked To Lower Employee Well-Being, Study Finds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/13/2240229/nvidia-founder-tells-stanford-students-their-high-expectations-may-make-it-hard-for-them-to-succeed?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Fortune: We are often told that setting the bar high is key to success. After all, if you shoot for the moon and miss, at least you'll land with the stars. But Nvidia's CEO Jensen Huang wants privileged Gen Z grads to lower their expectations. \"People with very high expectations have very low resilience -- and unfortunately, resilience matters in success,\" Huang said during a recent interview with the Stanford Graduate School of Business. \"One of my great advantages is that I have very low expectations.\"\n \nIndeed, as the billionaire boss pointed out, those at elite institutions like Stanford probably have higher expectations for their future than your average Joe. The university is one of the most selective in the United States -- it ranks third bes…",
+          "link": "https://news.slashdot.org/story/24/03/13/2240229/nvidia-founder-tells-stanford-students-their-high-expectations-may-make-it-hard-for-them-to-succeed?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T23:20:00.000Z",
+          "wordCount": 5848,
+          "title": "Nvidia Founder Tells Stanford Students Their High Expectations May Make It Hard For Them To Succeed",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/13/2112246/bitcoin-fog-crypto-mixer-found-guilty-of-money-laundering-jury-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Roman Sterlingov, the founder of a $400 million crypto-mixing service called Bitcoin Fog, has been convicted of money laundering in a United State District Court on Tuesday. Other charges include money laundering conspiracy, operating an unlicensed money-transmitting business, and violations of the D.C. Money Transmitters Act. CoinTelegraph reports: Sterlingov, however, had argued throughout the trial that he was only a user of the service, and not its operator. His attorney, Tok Ekeland said in a March 12 X post that his team will appeal the verdict. According to evidence presented at the trial, Sterlingov operated Bitcoin Fog from October 2011 to April 2021, which acted as a money laundering service for \"criminals seeking to hide their illicit proceeds from law enforcement.\"\n \nThe service moved over 1.2 million Bitcoin over the decade-long operation -- worth $400 million at the time of the transactions -- with the bulk of cryptocurrency coming from darknet marketplaces tied to narcotics, computer fraud abuse and identity theft, the government said. Bitcoin Fog also served distributors of child sexual abuse material. Evidence used to convict Sterlingov found that the \"vast majority\" of crypto deposited to his crypto exchange accounts came from \"Bitcoin clusters\" associated with Bitcoin Fog. \"Evidence presented at trial clearly showed that the defendant laundered hundreds of millions of illicit funds from the dark web through Bitcoin Fog in an attempt to conceal the origin of those funds,\" said Internal Revenue Service (IRS) Criminal Investigation Chief Jim Lee.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/03/13/2112246/bitcoin-fog-crypto-mixer-found-guilty-of-money-laundering-jury-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T22:40:00.000Z",
+          "wordCount": 4486,
+          "title": "Bitcoin Fog Crypto Mixer Found Guilty of Money Laundering, Jury Finds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/bitcoin_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/13/2053224/stanford-university-failed-to-detect-ransomware-intruders-for-4-months?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Connor Jones reports via The Register: Stanford University says the cybersecurity incident it dealt with last year was indeed ransomware, which it failed to spot for more than four months. Keen readers of El Reg may remember the story breaking toward the end of October 2023 after Akira posted Stanford to its shame site, with the university subsequently issuing a statement simply explaining that it was investigating an incident, avoiding the dreaded R word. Well, surprise, surprise, ransomware was involved, according to a data breach notice sent out to the 27,000 people affected by the attack.\n \nAkira targeted the university's Department of Public Safety (DPS) and this week's filing with the Office of the Maine Attorney General indicates that Stanford became aware of the incident on September 27, more than four months after the initial breach took place. According to Monday's filing, the data breach occurred on May 12 2023 but was only discovered on September 27 of last year, raising questions about whether the attacker(s) was inside the network the entire time and why it took so long to spot the intrusion.\n \nIt's not fully clear what information was compromised, but the draft letters include placeholders for three different variables. However, the filing with Maine's AG suggests names and social security numbers are among the data types to have been stolen. All affected individuals have been offered 24 months of free credit monitoring, including access to a $1 million insurance reimbursement policy and ID theft recovery services. Akira's post dedicated to Stanford on its leak site claims it stole 430 GB worth of data, including personal information and confidential documents. It's all available to download via a torrent file and the fact it remains available for download suggests the research university didn't pay whatever ransom the attackers demanded.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/03/13/2053224/stanford-university-failed-to-detect-ransomware-intruders-for-4-months?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T22:00:00.000Z",
+          "wordCount": 4725,
+          "title": "Stanford University Failed To Detect Ransomware Intruders For 4 Months",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/13/2047216/ageism-haunts-some-tech-workers-in-the-race-to-get-hired?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader shares an excerpt from a Wired article: The U.S. economy is showing remarkable health, but in the tech industry, layoffs keep coming. For those out of work, finding a new position can become a full-time job. And in tech -- a sector notoriously always looking for the next hot, new thing -- some people whose days as fresh-faced coders are long gone say that having decades of experience can feel like a disadvantage. Ageism is a longtime problem in the tech industry. Database startup RelevantDB went viral in 2021 after it posted a job listing bragging, \"We hire old people,\" which played off industry stereotypes. In 2020, the US Equal Employment Opportunity Commission found that IBMhad engaged in age discrimination, pushing out older workers to make room for younger ones. (T…",
+          "link": "https://tech.slashdot.org/story/24/03/13/2047216/ageism-haunts-some-tech-workers-in-the-race-to-get-hired?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T21:20:00.000Z",
+          "wordCount": 7008,
+          "title": "Ageism Haunts Some Tech Workers In the Race To Get Hired",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/13/207225/who-uses-legacy-admissions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Following the U.S. Supreme Court's decision to end affirmative action in college admissions, there has been increased scrutiny on legacy admissions -- the practice of giving special considerations to the relatives of alumni. Critics say this practice disproportionately benefits white students from wealthy backgrounds. Much of the discussion and research on legacy admissions focuses on Ivy League and other highly selective schools, but these colleges enroll only a small share of students. How widespread is the practice of legacy admissions? Is it common among public colleges? Brookings: In this report, we document the prevalence of legacy admissions, as reported by colleges, across higher education around the time of the SFFA decision. Legacy admissions were more often used at selective and…",
+          "link": "https://news.slashdot.org/story/24/03/13/207225/who-uses-legacy-admissions?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T20:40:00.000Z",
+          "wordCount": 7689,
+          "title": "Who Uses Legacy Admissions?",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/13/1959225/americas-last-top-models?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "For decades, U.S. inventors sent in models with their patent applications -- gizmos that reveal a secret history of unmet needs and relentless innovation. The New Yorker: The ruins of American invention have been recently resurrected in a former textile mill in Wilmington, Delaware. The Henry Clay Mill, now better known as Hagley Museum and Library Visitor Center, is perched on the banks of Brandywine Creek, at the southern edge of a sprawling estate once owned by the du Pont family; just upstream lies the oldest of the dynasty's several stately homes in the region, as well as the remains of the gunpowder works upon which its fortune was built. One morning, Chris Cascio, a curator, welcomed me into the mill, where the space once occupied by cotton-picking and carding machines now houses a …",
+          "link": "https://yro.slashdot.org/story/24/03/13/1959225/americas-last-top-models?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T20:01:00.000Z",
+          "wordCount": 5253,
+          "title": "America's Last Top Models",
+          "imageUrl": "https://a.fsdn.com/sd/topics/patents_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/03/13/1854220/epic-says-apple-violated-app-store-injunction-seeks-contempt-order?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Epic Games, which makes the popular video game \"Fortnite,\" on Wednesday accused Apple of violating an injunction governing its lucrative App Store, and asked a U.S. judge to hold Apple in contempt and end its \"sham\" compliance. From a report: A September 2021 injunction by U.S. District Judge Yvonne Gonzalez Rogers in Oakland, California, let developers provide links and buttons that direct consumers to other means to pay for digital content. \n\nIn a filing with the California court, Epic alleged that Apple is in \"blatant violation\" of that injunction, despite the Cupertino, California-based company's assurance in a Jan. 16 court notice that it had \"fully complied.\" Epic said Apple has imposed new rules and a new 27% fee on developers for some purchases, which taken together make the links \"commercially unusable.\" The Cary, North Carolina-based developer also said Apple continues to \"categorically prohibit\" buttons, and still forbids some apps from telling users they have other purchasing options.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/03/13/1854220/epic-says-apple-violated-app-store-injunction-seeks-contempt-order?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T19:20:00.000Z",
+          "wordCount": 5780,
+          "title": "Epic Says Apple Violated App Store Injunction, Seeks Contempt Order",
+          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/13/1823251/waymo-to-launch-commercial-robotaxi-service-in-austin-by-end-of-the-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Waymo will begin offering a robotaxi service to the public in Los Angeles this week and in Austin by the end of the year, the company's co-CEO Tekedra Mawakana said Wednesday at SXSW. From a report: The Alphabet company has been testing and validating its driverless vehicles across about 43 square miles around downtown, Barton Hills, Riverside, East Austin and Hyde Park neighborhoods. The announcement comes about a week after Waymo started letting its autonomous vehicles traverse Austin without a safety operator behind the wheel, a critical step before the company opens the program up to the public. \n\nOpening up a robotaxi service means the public will be able to hail a ride in a driverless car via the Waymo One app. Importantly, Waymo will be able to charge for those rides. Austin will become the fourth city where Waymo operates a commercial driverless service. Waymo also operates a robotaxi service in Phoenix, San Francisco and soon Los Angeles.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/13/1823251/waymo-to-launch-commercial-robotaxi-service-in-austin-by-end-of-the-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T18:40:00.000Z",
+          "wordCount": 4917,
+          "title": "Waymo To Launch Commercial Robotaxi Service in Austin By End of the Year",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/13/189209/ethereum-network-completes-cost-cutting-dencun-software-upgrade?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Ethereum has successfully completed a major software upgrade that should make using the blockchain network ecosystem cheaper. The update enables transactions that previously cost $1 on linked Layer 2 networks such as Arbitrum, Polygon, and Coinbase's Base to be executed for just a cent. \n\nThe Dencun upgrade, a combination of the \"Deneb\" and \"Cancun\" portions of the update, introduces a new data storage system for Ethereum. Currently, most Layer 2 blockchains store data on Ethereum, and because this data is stored permanently on every Ethereum node, storage costs often account for around 90% of Layer 2 expenses. These costs are typically passed on to applications, which in turn charge consumers. With Dencun, Layer 2s can now store data in a new type of repository called blobs, which will be cheaper as the data will only be stored for approximately 18 days.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/13/189209/ethereum-network-completes-cost-cutting-dencun-software-upgrade?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T18:08:00.000Z",
+          "wordCount": 4476,
+          "title": "Ethereum Network Completes Cost-Cutting 'Dencun' Software Upgrade",
+          "imageUrl": "https://a.fsdn.com/sd/topics/software_64.png"
+        },
+        {
+          "id": "https://slashdot.org/story/24/03/13/1732217/openais-sora-text-to-video-generator-will-be-publicly-available-later-this-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "You'll soon get to try out OpenAI's buzzy text-to-video generator for yourself. From a report: In an interview with The Wall Street Journal, OpenAI chief technology officer Mira Murati says Sora will be available \"this year\" and that it \"could be a few months.\" OpenAI first showed off Sora, which is capable of generating hyperrealistic scenes based on a text prompt, in February. The company only made the tool available for visual artists, designers, and filmmakers to start, but that didn't stop some Sora-generated videos from making their way onto platforms like X. \n\nIn addition to making the tool available to the public, Murati says OpenAI has plans to \"eventually\" incorporate audio, which has the potential to make the scenes even more realistic. The company also wants to allow users to edit the content in the videos Sora produces, as AI tools don't always create accurate images. \"We're trying to figure out how to use this technology as a tool that people can edit and create with,\" Murati tells the Journal. When pressed on what data OpenAI used to train Sora, Murati didn't get too specific and seemed to dodge the question.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://slashdot.org/story/24/03/13/1732217/openais-sora-text-to-video-generator-will-be-publicly-available-later-this-year?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T17:32:00.000Z",
+          "wordCount": 4494,
+          "title": "OpenAI's Sora Text-to-Video Generator Will Be Publicly Available Later This Year",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/13/1628218/google-deepminds-latest-ai-agent-learned-to-play-goat-simulator-3?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Will Knight, writing for Wired: Goat Simulator 3 is a surreal video game in which players take domesticated ungulates on a series of implausible adventures, sometimes involving jetpacks. That might seem an unlikely venue for the next big leap in artificial intelligence, but Google DeepMind today revealed an AI program capable of learning how to complete tasks in a number of games, including Goat Simulator 3. Most impressively, when the program encounters a game for the first time, it can reliably perform tasks by adapting what it learned from playing other games. The program is called SIMA, for Scalable Instructable Multiworld Agent, and it builds upon recent AI advances that have seen large language models produce remarkably capable chabots like ChatGPT. \n\n[...] DeepMind's latest video ga…",
+          "link": "https://tech.slashdot.org/story/24/03/13/1628218/google-deepminds-latest-ai-agent-learned-to-play-goat-simulator-3?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T16:40:00.000Z",
+          "wordCount": 4700,
+          "title": "Google DeepMind's Latest AI Agent Learned To Play Goat Simulator 3",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/03/13/1559238/why-are-so-many-young-people-getting-cancer-what-the-data-say?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Rates of more than a dozen cancers are increasing among adults under 50 worldwide, with the number of early-onset cancer cases predicted to rise by around 30% between 2019 and 2030. Investigators are searching for explanations, considering factors such as obesity, early-cancer screening, gut microbiome, and tumor genomes. Despite increased screening and awareness, mortality from early-onset cancers has risen by nearly 28% between 1990 and 2019 globally.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/03/13/1559238/why-are-so-many-young-people-getting-cancer-what-the-data-say?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T16:00:00.000Z",
+          "wordCount": 12149,
+          "title": "Why Are So Many Young People Getting Cancer? What the Data Say",
+          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/13/1448216/us-house-passes-bill-to-force-bytedance-to-divest-tiktok-or-face-ban?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. House of Representatives overwhelmingly passed a bill on Wednesday that would give TikTok's Chinese owner ByteDance about six months to divest the U.S. assets of the short-video app used by about 170 million Americans or face a ban. From a report: The bill passed 352-65, with bipartisan support, but it faces a more uncertain path in the Senate where some favor a different approach to regulating foreign-owned apps that could pose security concerns. Democratic Senate Majority Leader Chuck Schumer has not indicated how he plans to proceed. \n\nTikTok's fate has become a major issue in Washington. Democratic and Republican lawmakers said their offices had received large volumes of calls from teenaged TikTok users who oppose the legislation, with the volume of complaints at times exceeding the number of calls seeking a ceasefire between Israel and Hamas in Gaza. \n\nThe measure is also the latest in a series of moves in Washington to respond to U.S. national security concerns about China, from connected vehicles to advanced artificial intelligence chips to cranes at U.S. ports.\nThe vote comes just over a week since the bill was proposed following one public hearing with little debate, and after action in Congress had stalled for more than a year. Last month, President Joe Biden's re-election campaign joined TikTok, raising hopes among TikTok officials that legislation was unlikely this year.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/03/13/1448216/us-house-passes-bill-to-force-bytedance-to-divest-tiktok-or-face-ban?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-13T15:20:00.000Z",
+          "wordCount": 12713,
+          "title": "US House Passes Bill To Force ByteDance To Divest TikTok or Face Ban",
+          "imageUrl": "https://a.fsdn.com/sd/topics/government_64.png"
+        },
         {
           "id": "https://hardware.slashdot.org/story/24/03/12/226209/pentagon-scraps-25-billion-grant-to-intel?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4816,156 +4936,6 @@
           "publishedOn": "2024-02-13T16:01:00.000Z",
           "wordCount": 4517,
           "title": "Investors in Airbnb Arbitrage Business Allege They Were Defrauded",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://entertainment.slashdot.org/story/24/02/12/2240216/spotifys-layoffs-put-an-end-to-a-musical-encyclopedia?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from TechCrunch: On a brutal December day, 17% of Spotify employees found out they had been laid off in the company's third round of job cuts last year. Not long after, music fans around the world realized that the cult-favorite website Every Noise at Once (EveryNoise), an encyclopedic goldmine for music discovery, had stopped working. These two events were not disconnected. Spotify data alchemist Glenn McDonald, who created EveryNoise, was one of the 1,500 employees who was let go that day, but his layoff had wider-reaching implications; now that McDonald doesn't have access to internal Spotify data, he can no longer maintain EveryNoise, which became a pivotal resource for the most obsessive music fans to track new releases and learn more about the sounds they love.\n \n\"The project is to understand the communities of listening that exist in the world, figure out what they're called, what artists are in them and what their audiences are,\" McDonald told TechCrunch. \"The goal is to use math where you can to find real things that exist in listening patterns. So I think about it as trying to help global music self-organize.\" If you work at a big tech company and get laid off, you probably won't expect the company's customers to write nine pages of complaints on a community forum, telling your former employer how badly they messed up by laying you off. Nor would you expect an outpouring of Reddit threads and tweets questioning how you could possibly get the axe. But that's how fans reacted when they heard McDonald's fate.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://entertainment.slashdot.org/story/24/02/12/2240216/spotifys-layoffs-put-an-end-to-a-musical-encyclopedia?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-13T00:45:00.000Z",
-          "wordCount": 3994,
-          "title": "Spotify's Layoffs Put an End To a Musical Encyclopedia",
-          "imageUrl": "https://a.fsdn.com/sd/topics/music_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/24/02/12/2225212/whatsapp-image-sender-becomes-first-convicted-cyber-flasher?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "A registered sex offender has become the first person in England and Wales to be convicted of cyber-flashing. The BBC reports: Nicholas Hawkes, 39, of Basildon, Essex, sent unsolicited photos of his erect penis to a 15-year-old girl and a woman on Friday. The woman took screenshots of the image on WhatsApp and reported Hawkes to Essex Police the same day.\nHawkes admitted two charges when he appeared before magistrates in Southend earlier. He is the first person to be convicted of the new offense of cyber-flashing, which was brought in under the Online Safety Act and came into effect on January 31.\n \nAfter pleading guilty to two counts of sending a photograph or film of genitals to cause alarm, distress, or humiliation, he was remanded in custody until March 11, when he will be sentenced at Basildon Crown Court. Hawkes is a registered sex offender until November 2033 after he was convicted and given a community order for sexual activity with a child under 16 and exposure last year at Basildon Crown Court, the CPS said. He will also be sentenced for breaching the order when he is sentenced in March.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/24/02/12/2225212/whatsapp-image-sender-becomes-first-convicted-cyber-flasher?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-13T00:02:00.000Z",
-          "wordCount": 4048,
-          "title": "WhatsApp Image Sender Becomes First Convicted Cyber-Flasher",
-          "imageUrl": "https://a.fsdn.com/sd/topics/crime_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/24/02/12/2218230/fcc-requires-telcos-to-disclose-when-your-personal-info-is-stolen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Starting today, telcos in American will need to disclose system break-ins within seven days. \"[T]he same deadline now exists to report any data leaks to the FBI and US Secret Service as well,\" adds The Register. From the report: After releasing a proposed rule in early January and giving the industry 30 days to respond, the FCC's final rule was published today. It solidifies what the agency proposed a little more than a month ago, and what was teased in early 2022 when FCC chairwoman Jessica Rosenworcel drafted initial changes to the commission's 16-year old security \"breach\" reporting duties.\n \nAlong with requiring that attacks are reported to the FCC within seven days of a telco discovering them, the same deadline now exists to report any data leaks to the FBI and US Secret Service as well. As the FCC planned, the new rule also eliminates the mandatory seven-day waiting period for reporting break-ins to consumers. The FCC now \"requires carriers to notify customers of breaches of covered data without unreasonable delay ... and in no case more than 30 days following reasonable determination of a breach.\"\n \n\"Reasonable determination\" of a data blurt is further defined as \"when the carrier has information indicating that it is more likely than not that there was a breach\" and \"does not mean reaching a conclusion regarding every fact surrounding a data security incident that may constitute a breach.\" In other words, if customers are affected then they had better be notified post-haste. The FCC has additionally extended the scope of data exposure types that telecom customers must be notified of. Prior to the passage of the new rule customers only had to be told if Customer proprietary network information (CPNI) was exposed to the world.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/24/02/12/2218230/fcc-requires-telcos-to-disclose-when-your-personal-info-is-stolen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T23:20:00.000Z",
-          "wordCount": 4216,
-          "title": "FCC Requires Telcos To Disclose When Your Personal Info Is Stolen",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/12/226258/the-us-government-makes-a-42-million-bet-on-open-cell-networks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from The Verge: The US government has committed $42 million to further the development of the 5G Open RAN (O-RAN) standard that would allow wireless providers to mix and match cellular hardware and software, opening up a bigger market for third-party equipment that's cheaper and interoperable. The National Telecommunications and Information Administration (NTIA) grant would establish a Dallas O-RAN testing center to prove the standard's viability as a way to head off Huawei's steady cruise toward a global cellular network hardware monopoly.\n \nVerizon global network and technology president Joe Russo promoted the funding as a way to achieve \"faster innovation in an open environment.\" To achieve the standard's goals, AT&T vice president of RAN technology R…",
-          "link": "https://tech.slashdot.org/story/24/02/12/226258/the-us-government-makes-a-42-million-bet-on-open-cell-networks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T22:40:00.000Z",
-          "wordCount": 4403,
-          "title": "The US Government Makes a $42 Million Bet On Open Cell Networks",
-          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/24/02/12/211251/the-norwegian-sovereign-wealth-funds-92-million-excel-error?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "FT Alphaville: Last year, Norway's $1.5tn sovereign wealth fund revealed that it had lost NKr980mn, roughly $92mn, on an error relating to how it calculated its mandated benchmark. Here's what Norges Bank Investment Management said at the time: \"In February this year, a calculation error was discovered in the composition of the index we're measured against. This error led to a marginal overweight in US fixed income relative to global fixed income. When this was discovered, we immediately set about correcting it, but because the fund is so large, the return was 0.7 basis points. Due to this our previously reported positive relative return of NOK 118 billion was adjusted down to NOK 117 billion.\" \n\nIt is a good example of how even tiny operational mistakes can have mammoth-sized consequences…",
-          "link": "https://it.slashdot.org/story/24/02/12/211251/the-norwegian-sovereign-wealth-funds-92-million-excel-error?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T22:00:00.000Z",
-          "wordCount": 5699,
-          "title": "The Norwegian Sovereign Wealth Fund's $92 Million Excel Error",
-          "imageUrl": "https://a.fsdn.com/sd/topics/it_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/12/2049240/google-scholar-is-manipulatable?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Abstract of a paper [PDF] the on pre-print server Arxiv: Citations are widely considered in scientists' evaluation. As such, scientists may be incentivized to inflate their citation counts. While previous literature has examined self-citations and citation cartels, it remains unclear whether scientists can purchase citations. Here, we compile a dataset of about 1.6 million profiles on Google Scholar to examine instances of citation fraud on the platform. We survey faculty at highly-ranked universities, and confirm that Google Scholar is widely used when evaluating scientists. Intrigued by a citationboosting service that we unravelled during our investigation, we contacted the service while undercover as a fictional author, and managed to purchase 50 citations. These findings provide conclusive evidence that citations can be bought in bulk, and highlight the need to look beyond citation counts.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/12/2049240/google-scholar-is-manipulatable?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T21:15:00.000Z",
-          "wordCount": 4809,
-          "title": "Google Scholar is Manipulatable",
-          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/12/2036219/microsoft-working-on-its-own-dlss-like-upscaler-for-windows-11?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft appears to be readying its own DLSS-like AI upscaling feature for PC games. From a report: X user PhantomOcean3 discovered the feature inside the latest test versions of Windows 11 over the weekend, with Microsoft describing its automatic super resolution as a way to \"use AI to make supported games play more smoothly with enhanced details.\" That sounds a lot like Nvidia's Deep Learning Super Sampling (DLSS) technology, which uses AI to upscale games and improve frame rates and image quality. AMD and Intel also offer their own variants, with FSR and XeSS both growing in popularity in recent PC game releases.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/12/2036219/microsoft-working-on-its-own-dlss-like-upscaler-for-windows-11?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T20:35:00.000Z",
-          "wordCount": 5325,
-          "title": "Microsoft Working On Its Own DLSS-like Upscaler for Windows 11",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/24/02/12/1853218/xbox-boss-tells-employees-microsoft-has-no-plans-to-stop-making-consoles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Amid increasing speculation about the future of Xbox, its exclusives, and even its status as a hardware manufacturer, Phil Spencer reportedly told employees last week that it has no plans to stop making consoles. From a report: Reporter Shannon Liao said in her weekly Substack industry newsletter that Spencer moved to reassure staff during an all-hands meeting on Tuesday. \"The company held an internal Tuesday townhall where Spencer told employees that there were no plans to stop making consoles, and that Xboxes would continue to be part of a strategy that involves multiple kinds of devices,\" Liao reported.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/24/02/12/1853218/xbox-boss-tells-employees-microsoft-has-no-plans-to-stop-making-consoles?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T18:52:00.000Z",
-          "wordCount": 9204,
-          "title": "Xbox Boss Tells Employees Microsoft Has No Plans To Stop Making Consoles",
-          "imageUrl": "https://a.fsdn.com/sd/topics/xbox_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/12/1816248/broadcom-ends-support-for-free-esxi-vmware-hypervisor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "stikves writes: Today, Broadcom announced immediate end of ESXi availability. ESXi has been an important tool for many \"homelab\" enthusiasts -- offering simple bare metal virtualization for small setups. Unfortunately they don't offer a replacement, except for paid subscription services.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/12/1816248/broadcom-ends-support-for-free-esxi-vmware-hypervisor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T18:16:00.000Z",
-          "wordCount": 10619,
-          "title": "Broadcom Ends Support For Free ESXi Vmware Hypervisor",
-          "imageUrl": "https://a.fsdn.com/sd/topics/technology_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/12/1727248/every-country-needs-sovereign-ai-nvidia-ceo-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Nvidia blog: Every country needs to own the production of their own intelligence, NVIDIA founder and CEO Jensen Huang told attendees Monday at the World Governments Summit in Dubai. Huang, who spoke as part of a fireside chat with the UAE's Minister of AI, His Excellency Omar Al Olama, described sovereign AI -- which emphasizes a country's ownership over its data and the intelligence it produces -- as an enormous opportunity for the world's leaders. \"It codifies your culture, your society's intelligence, your common sense, your history -- you own your own data,\" Huang told Al Olama during their conversation, a highlight of an event attended by more than 4,000 delegates from 150 countries. \n\n\"We completely subscribe to that vision,\" Al Olama said. \"That's why the UAE is moving aggressively on creating large language models and mobilizing compute.\" Huang's appearance in the UAE comes as the Gulf State is moving rapidly to transform itself from an energy powerhouse into a global information technology hub. Dubai is the latest stop for Huang in a global tour that has included meetings with leaders in Canada, France, India, Japan, Malaysia, Singapore and Vietnam over the past six months. The Middle East is poised to reap significant benefits from AI, with PwC projecting a $320 billion boost to the region's economy by 2030.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/12/1727248/every-country-needs-sovereign-ai-nvidia-ceo-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T17:27:00.000Z",
-          "wordCount": 7005,
-          "title": "Every Country Needs Sovereign AI, Nvidia CEO Says",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/02/12/1629244/ai-frenzy-puts-nvidia-ahead-of-amazon-in-market-value?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Nvidia briefly surpassed Amazon in market capitalization on Monday, as the euphoria around AI catapulted the chipmaker to the fourth most valuable U.S. company. From a report: At a record high of $734.96, Nvidia was worth $1.82 trillion in market value, compared to $1.81 trillion for retail giant Amazon.com and a few billions away from Google-owner Alphabet's $1.87 trillion, according to LSEG data. The last time Nvidia was more valuable than Amazon was in 2002, when they were each worth under $6 billion.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/02/12/1629244/ai-frenzy-puts-nvidia-ahead-of-amazon-in-market-value?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T16:40:00.000Z",
-          "wordCount": 5208,
-          "title": "AI Frenzy Puts Nvidia Ahead of Amazon in Market Value",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/02/12/168220/hp-seeks-4-billion-in-losses-from-lynch-over-autonomy-fraud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "HP is seeking as much as $4 billion from Autonomy's former bosses following a London judge's finding that they fraudulently boosted the value of the company before its sale. From a report: Founder Mike Lynch was found to have inflated Autonomy's revenue alongside his chief financial officer Sushovan Hussain and induced HP to buy the firm for $11 billion, according to a London civil judgment in 2022. The British tech tycoon is currently waiting to face a criminal trial in the US over the sale after being extradited last year. He was previously investigated by the UK's Serious Fraud Office but the agency dropped its case. Hussain was convicted in the US for his role in the saga. Lawyers for HP calculated the total losses that Lynch and Hussain must pay back as over $4 billion, according to court documents prepared for a hearing Monday. This was revised from a previous calculation of $5 billion at trial due to further evidence.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/02/12/168220/hp-seeks-4-billion-in-losses-from-lynch-over-autonomy-fraud?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T16:07:00.000Z",
-          "wordCount": 5194,
-          "title": "HP Seeks $4 Billion in Losses From Lynch Over Autonomy Fraud",
-          "imageUrl": "https://a.fsdn.com/sd/topics/hp_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/24/02/12/1441211/worlds-biggest-casino-app-exposed-customers-personal-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: The startup that develops the phone app for casino resort giant WinStar has secured an exposed database that was spilling customers' private information to the open web. Oklahoma-based WinStar bills itself as the \"world's biggest casino\" by square footage. The casino and hotel resort also offers an app, My WinStar, in which guests can access self-service options during their hotel stay, their rewards points and loyalty benefits, and casino winnings. \n\nThe app is developed by a Nevada software startup called Dexiga. The startup left one of its logging databases on the internet without a password, allowing anyone with knowledge of its public IP address to access the WinStar customer data stored within using only their web browser. Dexiga took the database offline after TechCrunch alerted the company to the security lapse. Anurag Sen, a good-faith security researcher who has a knack for discovering inadvertently exposed sensitive data on the internet, found the database containing personal information, but it was initially unclear who the database belonged to. Sen said the personal data included full names, phone numbers, email addresses and home addresses. Sen shared details of the exposed database with TechCrunch to help identify its owner and disclose the security lapse.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/24/02/12/1441211/worlds-biggest-casino-app-exposed-customers-personal-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T15:21:00.000Z",
-          "wordCount": 4259,
-          "title": "'World's Biggest Casino' App Exposed Customers' Personal Data",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/12/1433240/the-unsettling-scourge-of-obituary-spam?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Many websites are using AI tools to generate fake obituaries about average people for profit. These articles lack substantiating details but are optimized for SEO, frequently outranking legitimate obituaries, The Verge reports. The fake obituaries, as one can imagine, are causing distress for grieving families and friends. In response, Google told The Verge that it aims to surface high-quality information but struggles with \"data voids.\" The company terminated some YouTube channels sharing fake notices but declined to say if the flagged websites violate policies.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/12/1433240/the-unsettling-scourge-of-obituary-spam?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T14:40:00.000Z",
-          "wordCount": 6162,
-          "title": "The Unsettling Scourge of Obituary Spam",
-          "imageUrl": "https://a.fsdn.com/sd/topics/spam_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/12/147243/morgan-stanley-says-firms-are-focused-on-costs-like-never-before?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "US companies are discussing cost control on earnings calls at a record rate, amid a push to reallocate funds and invest in new technologies, according to an analysis by Morgan Stanley strategists. From a report: Transcript mentions of \"operational efficiency\" are at the highest ever in the US during this earnings season as companies focus on expense discipline, but also invest in technologies \"that can drive future productivity like AI,\" a team led by Michael Wilson wrote in a note. \n\nThere is a notable overlap among the industries discussing operational efficiency most prevalently and those that are discussing AI, the strategists said. These groups include software, professional services, health care services, and financial services. Pfizer, BlackRock, and Lam Research were among S&P 500 companies touting operational efficiency in their earnings calls this season, according to data compiled by Bloomberg. The rising focus on cost control comes as firms position to protect margins amid hopes for a soft economic landing. Investors have looked for signs of cooling in the jobs market to gauge when the Federal Reserve will lower borrowing costs, although recent hot data has signaled the Fed won't be easing anytime soon.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/12/147243/morgan-stanley-says-firms-are-focused-on-costs-like-never-before?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-12T14:07:00.000Z",
-          "wordCount": 6311,
-          "title": "Morgan Stanley Says Firms Are Focused on Costs Like Never Before",
           "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
         }
       ]
