@@ -248,16 +248,6 @@
           "wordCount": 416,
           "title": "You couldn't know",
           "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
-        },
-        {
-          "id": "https://world.hey.com/jason/don-t-delegate-your-word-1875de99",
-          "author": null,
-          "description": "As you build your business, you'll end up delegating plenty.\nMuch of what you did before is now better done by someone else.\nTo make more progress, you release your grip and allow.\nBut there’s one thing you should hold tight and never let go. It’s the thing that should never be delegated.\nIt’s your voice.\nSpeak for yourself. Don’t let anyone speak for you. Don’t have someone else Tweet on your behalf. Or write posts under your name. Or take your calls. Or read or respond to your emails.\nNo assistant. No replacement. No simulation.\nHow can you take someone at their word when it's not their word?\nThe moment it’s not you to someone on the other end, you’ve lost something you’ll never get back. If they write you, and they don’t get you back, you’ve gone wrong.\nYes it’s more work. But it’s your work, and your obligation. You = you is the equation to solve.\nDon’t outgrow that.\n\n-Jason",
-          "link": "https://world.hey.com/jason/don-t-delegate-your-word-1875de99",
-          "publishedOn": "2024-02-20T20:02:12.000Z",
-          "wordCount": 227,
-          "title": "Don't delegate your word",
-          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
         }
       ]
     },
@@ -362,6 +352,16 @@
       "siteUrl": "https://blog.rust-lang.org/",
       "articles": [
         {
+          "id": "https://blog.rust-lang.org/2024/03/21/Rust-1.77.0.html",
+          "author": null,
+          "description": "The Rust team is happy to announce a new version of Rust, 1.77.0. Rust is a programming language empowering everyone to build reliable and efficient software.\nIf you have a previous version of Rust installed via rustup, you can get 1.77.0 with:\n$ rustup update stable\n\nIf you don't have it already, you can get rustup from the appropriate page on our website, and check out the detailed release notes for 1.77.0.\nIf you'd like to help us out by testing future releases, you might consider updating locally to use the beta channel (rustup default beta) or the nightly channel (rustup default nightly). Please report any bugs you might come across!\nWhat's in 1.77.0 stable\nThis release is relatively minor, but as always, even incremental improvements lead to a greater whole. A few of those changes ar…",
+          "link": "https://blog.rust-lang.org/2024/03/21/Rust-1.77.0.html",
+          "publishedOn": "2024-03-21T00:00:00.000Z",
+          "wordCount": 591,
+          "title": "Announcing Rust 1.77.0",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
+        {
           "id": "https://blog.rust-lang.org/2024/03/11/crates-io-download-changes.html",
           "author": null,
           "description": "Like the rest of the Rust community, crates.io has been growing rapidly, with download and package counts increasing 2-3x year-on-year. This growth doesn't come without problems, and we have made some changes to download handling on crates.io to ensure we can keep providing crates for a long time to come.\nThe Problem\nThis growth has brought with it some challenges. The most significant of these is that all download requests currently go through the crates.io API, occasionally causing scaling issues. If the API is down or slow, it affects all download requests too. In fact, the number one cause of waking up our crates.io on-call team is \"slow downloads\" due to the API having performance issues.\nAdditionally, this setup is also problematic for users outside of North America, where download r…",
@@ -399,16 +399,6 @@
           "publishedOn": "2024-02-26T00:00:00.000Z",
           "wordCount": 243,
           "title": "Updated baseline standards for Windows targets",
-          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
-        },
-        {
-          "id": "https://blog.rust-lang.org/2024/02/21/Rust-participates-in-GSoC-2024.html",
-          "author": null,
-          "description": "We're writing this blog post to announce that the Rust Project will be participating in Google Summer of Code (GSoC) 2024. If you're not eligible or interested in participating in GSoC, then most of this post likely isn't relevant to you; if you are, this should contain some useful information and links.\nGoogle Summer of Code (GSoC) is an annual global program organized by Google that aims to bring new contributors to the world of open-source. The program pairs organizations (such as the Rust Project) with contributors (usually students), with the goal of helping the participants make meaningful open-source contributions under the guidance of experienced mentors.\nAs of today, the organizations that have been accepted into the program have been announced by Google. The GSoC applicants now h…",
-          "link": "https://blog.rust-lang.org/2024/02/21/Rust-participates-in-GSoC-2024.html",
-          "publishedOn": "2024-02-21T00:00:00.000Z",
-          "wordCount": 504,
-          "title": "Rust participates in Google Summer of Code 2024",
           "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
         }
       ]
@@ -618,6 +608,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://bsd.slashdot.org/story/24/03/21/225211/redis-to-adopt-source-available-licensing-starting-with-next-version?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Longtime Slashdot reader jgulla shares an announcement from Redis: Beginning today, all future versions of Redis will be released with source-available licenses. Starting with Redis 7.4, Redis will be dual-licensed under the Redis Source Available License (RSALv2) and Server Side Public License (SSPLv1). Consequently, Redis will no longer be distributed under the three-clause Berkeley Software Distribution (BSD). The new source-available licenses allow us to sustainably provide permissive use of our source code.\n \nWe're leading Redis into its next phase of development as a real-time data platform with a unified set of clients, tools, and core Redis product offerings. The Redis source code will continue to be freely available to developers, customers, and partners through Redis Community Ed…",
+          "link": "https://bsd.slashdot.org/story/24/03/21/225211/redis-to-adopt-source-available-licensing-starting-with-next-version?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T00:45:00.000Z",
+          "wordCount": 4053,
+          "title": "Redis To Adopt 'Source-Available Licensing' Starting With Next Version",
+          "imageUrl": "https://a.fsdn.com/sd/topics/opensource_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/03/21/2146215/apple-launches-all-in-one-manuals-specs-and-downloads-website?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Apple has launched a new \"Documentation\" page to its website that provides links to user guides, repair manuals, tech specs, software downloads, and more for a variety of its products. MacRumors reports: Some of this information was previously found across separate pages on Apple's website, and it has now been combined in one place for convenient access. The page includes categories for the Mac, iPhone, iPad, iPod, Vision Pro, Apple Watch, Apple TV, AirPods, HomePod, displays like the Studio Display and Pro Display XDR, accessories like the Apple Pencil and Magic Keyboard, and software. There is also a search tool on the page that provides links to support documents and other relevant information based on the keywords entered.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/03/21/2146215/apple-launches-all-in-one-manuals-specs-and-downloads-website?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T00:02:00.000Z",
+          "wordCount": 3913,
+          "title": "Apple Launches All-In-One 'Manuals, Specs, and Downloads' Website",
+          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/21/2133211/hackers-found-a-way-to-open-any-of-3-million-hotel-keycard-locks-in-seconds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Wired: When thousands of security researchers descend on Las Vegas every August for what's come to be known as \"hacker summer camp,\" the back-to-back Black Hat and Defcon hacker conferences, it's a given that some of them will experiment with hacking the infrastructure of Vegas itself, the city's elaborate array of casino and hospitality technology. But at one private event in 2022, a select group of researchers were actually invited to hack a Vegas hotel room, competing in a suite crowded with their laptops and cans of Red Bull to find digital vulnerabilities in every one of the room's gadgets, from its TV to its bedside VoIP phone. One team of hackers spent those days focused on the lock on the room's door, perhaps its most sensitive piece of tech…",
+          "link": "https://yro.slashdot.org/story/24/03/21/2133211/hackers-found-a-way-to-open-any-of-3-million-hotel-keycard-locks-in-seconds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T23:20:00.000Z",
+          "wordCount": 5429,
+          "title": "Hackers Found a Way To Open Any of 3 Million Hotel Keycard Locks In Seconds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/21/2124216/threads-opens-beta-to-fediverse-sharing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "In a Threads post today, Meta CEO Mark Zuckerberg announced that the Twitter rival is rolling out a beta of its fediverse integration in the U.S., Canada, and Japan. With the feature enabled, Threads users will be able to cross-post and view likes from other federated platforms, like Mastodon. The Verge reports: Threads previewed its fediverse integration earlier this week during the FediForum. As outlined on its support page, Meta says that you must have a public account to turn on fediverse sharing, which will allow users on other servers to \"search for and follow your profile, view your posts, interact with your content, and share your content to anyone on or off their server.\"\n \nThere are still a few limitations, though. The beta currently doesn't let users view replies and follows from the fediverse, for example. Meta also can't promise that when you delete a federated post on Threads, it will also get deleted on the other platforms it was shared on.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/21/2124216/threads-opens-beta-to-fediverse-sharing?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T22:40:00.000Z",
+          "wordCount": 4120,
+          "title": "Threads Opens Beta To 'Fediverse Sharing'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/21/2043244/broadcom-is-holding-the-sector-to-ransom-with-vmware-license-changes-claims-cispe?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "couchslug shares a report from ITPro: A European cloud trade body has called for an investigation into Broadcom amid concerns over changes it has made to VMware licensing structures. The Cloud Infrastructure Service Providers in Europe (CISPE) consortium called on regulatory and legislative bodies across Europe to investigate the changes Broadcom has made to the VMware operating model, which it says will \"decimate\" the region's cloud infrastructure. \"CISPE calls upon regulators, legislators and courts across Europe to swiftly scrutinize the actions of Broadcom in unilaterally canceling license terms for essential virtualization software,\" the trade body said in a statement. Since acquiring VMware in November 2023, Broadcom has embarked on a comprehensive overhaul of software licensing at t…",
+          "link": "https://tech.slashdot.org/story/24/03/21/2043244/broadcom-is-holding-the-sector-to-ransom-with-vmware-license-changes-claims-cispe?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T22:00:00.000Z",
+          "wordCount": 7332,
+          "title": "Broadcom Is 'Holding the Sector To Ransom' With VMware License Changes, Claims CISPE",
+          "imageUrl": "https://a.fsdn.com/sd/topics/cloud_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/21/2034257/un-adopts-first-global-artificial-intelligence-resolution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from Reuters: The United Nations General Assembly on Thursday unanimously adopted the first global resolution on artificial intelligence to encourage protecting personal data, monitoring AI for risks, and safeguarding human rights, U.S. officials said. The nonbinding resolution, proposed by the United States and co-sponsored by China and 121 other nations, took three months to negotiate and also advocates strengthening privacy policies, the officials said, briefing reporters before the resolution's passage. \"We're sailing in choppy waters with the fast-changing technology, which means that its more important than ever to steer by the light of our values,\" said one of the senior administration officials, describing the resolution as the \"first-ever truly global consensus document on AI.\"\n \n\"The improper or malicious design, development, deployment and use of artificial intelligence systems ... pose risks that could ... undercut the protection, promotion and enjoyment of human rights and fundamental freedoms,\" the measure says. Asked whether negotiators faced resistance from Russia or China -- U.N. member states that also voted in favor of the document -- the officials conceded there were \"lots of heated conversations. ... But we actively engaged with China, Russia, Cuba, other countries that often don't see eye to eye with us on issues.\" \"We believe the resolution strikes the appropriate balance between furthering development, while continuing to protect human rights,\" said one of the officials, who spoke on condition of anonymity.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/03/21/2034257/un-adopts-first-global-artificial-intelligence-resolution?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T21:20:00.000Z",
+          "wordCount": 4277,
+          "title": "UN Adopts First Global Artificial Intelligence Resolution",
+          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/21/199222/india-screwed-up-how-the-us-lobbied-new-delhi-to-reverse-laptop-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "India reversed a laptop licensing policy after behind-the-scenes lobbying by U.S. officials, who however remain concerned about New Delhi's compliance with WTO obligations and new rules it may issue, according to U.S. trade officials and government emails seen by Reuters. From the report: In August, India imposed rules requiring firms like Apple, Dell and HP to obtain licences for all shipments of imported laptops, tablets, personal computers and servers, raising fears that the process could slow down sales. But New Delhi rolled back the policy within weeks, saying it will only monitor the imports and decide on next steps a year later. \n\nThe U.S. government emails -- obtained under a U.S. open records request -- underline the level of alarm the Indian curbs caused in Washington, and how th…",
+          "link": "https://tech.slashdot.org/story/24/03/21/199222/india-screwed-up-how-the-us-lobbied-new-delhi-to-reverse-laptop-rules?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T20:41:00.000Z",
+          "wordCount": 4940,
+          "title": "India 'Screwed Up': How the US Lobbied New Delhi To Reverse Laptop Rules",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/21/193238/google-is-bringing-satellite-messaging-to-android-15?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Google's second developer preview for Android 15 has arrived, bringing long-awaited support for satellite connectivity alongside several improvements to contactless payments, multi-language recognition, volume consistency, and interaction with PDFs via apps. From a report: These developer-focused betas are a proving ground for features that will likely make it into the final public release scheduled for later this year. According to Google, public beta releases should be available to test between April and July. The latest developer preview addresses some nuisances and security concerns experienced by Android users, such as making apps more aware of why some services might be unavailable when devices are using a satellite connection. This is also the first official confirmation that Android 15 will come with satellite messaging, with Google's press release saying that the new preview includes support for \"preloaded RCS applications to use satellite connectivity for sending and receiving messages.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/21/193238/google-is-bringing-satellite-messaging-to-android-15?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T20:01:00.000Z",
+          "wordCount": 4482,
+          "title": "Google is Bringing Satellite Messaging To Android 15",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/21/190215/cloud-software-group-snubs-gpl-obligations-say-critics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Even if you decide to stop offering free editions, you don't get to stop providing the source code to FOSS, users of JasperReports Server are complaining. Cloud Software Group -- the post-merger offspring of Citrix and Tibco -- has decided to withdraw the community edition of its JasperReports Server. Now all you can get is the commercial edition, with a 30-day free trial. Effectively, this seems like a similar tactic to Red Hat's unpopular changes to the way that the RHEL source code is distributed. Some of the JasperReports source code is still on Github, but not everything. The JasperSoft community website has the grumbling of unhappy users -- as does Reddit. \n\nOne user on the community website commented: \"Are you aware Jasper Server CE was under the Affero GPL, and you can't delete everything? \"You cannot just change the license of the previous versions and call it a day. I mean, we the users, have the right to fork it using the same license or a compatible one,\" the user protested. JasperSoft has been developing its reporting tools in the open for well over a decade -- the Reg was reporting on it nearly twenty years ago. Tibco acquired the company for some $185 million in 2014. We're not certain that things are going very well for the new outfit. Early last year, the merger was followed by a round of job losses, and the company has also more recently doubled its prices on some offerings.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/21/190215/cloud-software-group-snubs-gpl-obligations-say-critics?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T19:24:00.000Z",
+          "wordCount": 5503,
+          "title": "Cloud Software Group Snubs GPL Obligations, Say Critics",
+          "imageUrl": "https://a.fsdn.com/sd/topics/software_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/21/1830255/motorola-spoiled-a-good-budget-phone-with-bloatware?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Motorola's 2024 Moto G Power impresses with its soft-touch back and contoured edges at a $300 price point, despite an underwhelming camera and LCD panel. Except one thing: the bloatware. The Verge: Scroll through the app drawer and you'll see a handful of automatically downloaded \"folders.\" They are not folders; they are apps. I first encountered them on last year's Moto G Stylus 5G, and I hate them very much. There are three main offenders -- Shopping, Entertainment, and GamesHub -- and each of these apps acts as a little hub. Icons for apps that you have legitimately downloaded will appear in the corresponding \"folder.\" You'll also find tons of other suggested apps to download -- pages and pages of them! Apps as far as the eye can see! \n\nDismissing the suggested apps section replaces it with a \"Discover\" section. In the shopping app, it invites you to \"Unlock the power of shopping\" with links to buy stuff like kitschy Easter decor from TJ Maxx. Mercifully, there's a toggle to hide this section. These apps are all made by a company called Swish, and you can't opt out of downloading any of them during the setup process. You can (and should!) opt out of downloading a third-party lock screen from a different service called Glance. The more I dig into the software on this phone, the more I hate it. The preinstalled weather app is festooned with ads and even more suggested apps, plus pithy insights like \"Gotta love air conditioning at these high levels of humidity.\" If you tap the option to remove ads, a pop-up asks you to pay $4 for 1Weather Pro.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/21/1830255/motorola-spoiled-a-good-budget-phone-with-bloatware?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T18:45:00.000Z",
+          "wordCount": 6391,
+          "title": "Motorola Spoiled a Good Budget Phone With Bloatware",
+          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/21/1812222/epic-spotify-others-back-doj-lawsuit-against-apple?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The Coalition for App Fairness, an industry body that represents Epic, Spotify, Match Group and Proton among others, issued the following statement following the U.S. announcing it had sued Apple: \"With today's announcement, the Department of Justice is taking a strong stand against Apple's stranglehold over the mobile app ecosystem, which stifles competition and hurts American consumers and developers alike. The DOJ complaint details Apple's long history of illegal conduct -- abusing their App Store guidelines and developer agreements to increase prices, extract exorbitant fees, degrade user experiences, and choke off competition. The DOJ joins regulators around the world, who have recognized the many harms of Apple's abusive behavior and are working to address it. As this case unfolds in the coming years more must be done now to end the anticompetitive practices of all mobile app gatekeepers. It remains imperative that Congress pass bipartisan legislation, like the Open App Markets Act, to create a free and open mobile app marketplace.\" Further reading: Apple Loses $115 Billion in Market Value as Regulators Close In.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/03/21/1812222/epic-spotify-others-back-doj-lawsuit-against-apple?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T18:12:00.000Z",
+          "wordCount": 7135,
+          "title": "Epic, Spotify, Others Back DOJ Lawsuit Against Apple",
+          "imageUrl": "https://a.fsdn.com/sd/topics/court_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/03/21/1736222/unpatchable-vulnerability-in-apple-chip-leaks-secret-encryption-keys?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "A newly discovered vulnerability baked into Apple's M-series of chips allows attackers to extract secret keys from Macs when they perform widely used cryptographic operations, academic researchers have revealed in a paper published Thursday. From a report: The flaw -- a side channel allowing end-to-end key extractions when Apple chips run implementations of widely used cryptographic protocols -- can't be patched directly because it stems from the microarchitectural design of the silicon itself. Instead, it can only be mitigated by building defenses into third-party cryptographic software that could drastically degrade M-series performance when executing cryptographic operations, particularly on the earlier M1 and M2 generations. The vulnerability can be exploited when the targeted cryptogr…",
+          "link": "https://apple.slashdot.org/story/24/03/21/1736222/unpatchable-vulnerability-in-apple-chip-leaks-secret-encryption-keys?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T17:36:00.000Z",
+          "wordCount": 8625,
+          "title": "Unpatchable Vulnerability in Apple Chip Leaks Secret Encryption Keys",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mac_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/21/1623242/microsoft-unveils-surface-pro-10-and-surface-laptop-6-for-business-its-first-ai-pcs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Microsoft has announced two new Surface devices, the Surface Pro 10 for Business and Surface Laptop 6 for Business, both featuring Intel's latest Core Ultra processors, a dedicated Neural Processing Unit (NPU), and a new Copilot key for AI-powered features in Windows 11. \n\nThe devices, which will start shipping to commercial customers on April 9th, have been designed exclusively for businesses and will not be sold directly to consumers. The Surface Pro 10 for Business, starting at $1,199, offers a choice between Core Ultra 5 135U and Core Ultra 7 165U options, with up to 64GB of RAM and a 256GB Gen4 SSD. It also features an improved 13-inch display with an antireflective coating and a 1440p front-facing camera with a 114-degree field of view. \n\nThe Surface Laptop 6 for Business, also starting at $1,199, is powered by Intel's Core Ultra H-series chips and is available with up to 64GB of RAM and a 1TB Gen4 SSD. The 15-inch model includes two USB-C Thunderbolt 4 ports, while the 13.5-inch model features a single USB-C Thunderbolt 4 port. Both devices have an optional smart card reader and are Microsoft's most easily serviceable Surface devices to date. \n\nFurther reading: Microsoft's official blog.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/21/1623242/microsoft-unveils-surface-pro-10-and-surface-laptop-6-for-business-its-first-ai-pcs?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T16:41:00.000Z",
+          "wordCount": 6193,
+          "title": "Microsoft Unveils Surface Pro 10 and Surface Laptop 6 for Business, Its First AI PCs",
+          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/21/1536234/universities-have-a-computer-science-problem?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "theodp writes: \"Last year,\" Ian Bogost writes in Universities Have a Computer-Science Problem, \"18 percent of Stanford University seniors graduated with a degree in computer science, more than double the proportion of just a decade earlier. Over the same period at MIT, that rate went up from 23 percent to 42 percent. These increases are common everywhere: The average number of undergraduate CS majors at universities in the U.S. and Canada tripled in the decade after 2005, and it keeps growing. Students' interest in CS is intellectual -- culture moves through computation these days -- but it is also professional. Young people hope to access the wealth, power, and influence of the technology sector. That ambition has created both enormous administrative strain and a competition for prestige.\" \n\n\"Another approach has gained in popularity,\" Bogost notes. \"Universities are consolidating the formal study of CS into a new administrative structure: the college of computing. [...] When they elevate computing to the status of a college, with departments and a budget, they are declaring it a higher-order domain of knowledge and practice, akin to law or engineering. That decision will inform a fundamental question: whether computing ought to be seen as a superfield that lords over all others, or just a servant of other domains, subordinated to their interests and control. This is, by no happenstance, also the basic question about computing in our society writ large.\" \n\nBogost concludes: \"I used to think computing education might be stuck in a nesting-doll version of the engineer's fallacy, in which CS departments have been asked to train more software engineers without considering whether more software engineers are really what the world needs. Now I worry that they have a bigger problem to address: how to make computer people care about everything else as much as they care about computers.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/21/1536234/universities-have-a-computer-science-problem?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T16:00:00.000Z",
+          "wordCount": 12124,
+          "title": "Universities Have a Computer-Science Problem",
+          "imageUrl": "https://a.fsdn.com/sd/topics/education_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/03/21/1459204/first-human-transplant-of-a-genetically-modified-pig-kidney-performed?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "For the first time, surgeons have transplanted a kidney from a genetically modified pig into a living person, doctors in Boston said Thursday. From a report: Richard Slayman, 62, of Weymouth, Mass., who is suffering from end-stage kidney disease, received the organ Saturday in a four-hour procedure, Massachusetts General Hospital announced. He is recovering well and is expected to be discharged soon, the hospital said. \"I saw it not only as a way to help me, but a way to provide hope for the thousands of people who need a transplant to survive,\" Slayman said in a statement released by the hospital. \n\nThe procedure is the latest development in a fast-moving race to create genetically modified pigs to provide kidneys, livers, hearts and other organs to help alleviate the shortage of organs for people who need transplants. \"Our hope is that this transplant approach will offer a lifeline to millions of patients worldwide who are suffering from kidney failure,\" said Dr. Tatsuo Kawai, the hospital's director for clinical transplant tolerance, in the hospital statement. \n\nSeveral biotech companies are racing to develop a supply of cloned pigs whose DNA has been genetically modified so they won't be rejected by the human body, spread pig viruses to people or cause other complications. NPR recently got exclusive access to a research farm breeding these animals for a company in this competition, Revivicor Inc. of Blacksburg, Va. The kidney transplanted in Boston came from a pig created by eGenesis of Cambridge, Mass. The eGenesis pigs are bred with 69 genetic modifications to prepare organs for human transplantation. The changes protect against a virus known to infect pigs as well as delete pig genes and add human genes to make the organs compatible with people.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/03/21/1459204/first-human-transplant-of-a-genetically-modified-pig-kidney-performed?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-21T15:22:00.000Z",
+          "wordCount": 6647,
+          "title": "First Human Transplant of a Genetically Modified Pig Kidney Performed",
+          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
+        },
         {
           "id": "https://yro.slashdot.org/story/24/03/20/2044240/india-will-fact-check-online-posts-about-government-matters?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4877,156 +5017,6 @@
           "wordCount": 4772,
           "title": "Google Launches Two New Open LLMs",
           "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/24/02/20/2313219/cox-communications-wins-order-overturning-1-billion-us-copyright-verdict?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Internet service provider Cox Communications has been cleared of a $1 billion jury verdict in favor of several major record labels that had accused it of failing to curb user piracy. \"The 4th U.S. Circuit Court of Appeals in Richmond, Virginia, ruled on Tuesday that the amount of damages was not justified and that a federal district court should hold a new trial to determine the appropriate amount,\" reports Reuters. From the report: A Virginia jury in 2019 found Cox, the largest unit of privately-owned Cox Enterprises, liable for its customers' violations of over 10,000 copyrights belonging to labels including Sony Music Entertainment, Warner Music Group, and Universal Music Group. The labels' attorney Matt Oppenheim said that the appeals court \"affirmed the jury's verdict that Cox is a willful infringer,\" and that \"the evidence of Cox's complete disregard for copyright law and copyright owners has not changed.\" \"A second jury will get to hear that same compelling evidence, and we fully expect it will render a significant verdict,\" Oppenheim said.\n \nMore than 50 labels teamed up to sue Cox in 2018, in what was seen as a test of the obligations of internet service providers (ISPs) to thwart piracy.\nThe labels accused Cox of failing to address thousands of infringement notices, cut off access for repeat infringers, or take reasonable measures to deter pirates. Atlanta-based Cox had told the 4th Circuit that upholding the verdict would force ISPs to boot households or businesses based on \"isolated and potentially inaccurate allegations,\" or require intrusive oversight of customers' internet usage. Other ISPs, including Charter Communications, Frontier Communications and Astound Broadband, formerly RCN, have also been sued by the record labels.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/24/02/20/2313219/cox-communications-wins-order-overturning-1-billion-us-copyright-verdict?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T00:45:00.000Z",
-          "wordCount": 4032,
-          "title": "Cox Communications Wins Order Overturning $1 Billion US Copyright Verdict",
-          "imageUrl": "https://a.fsdn.com/sd/topics/piracy_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/24/02/20/2127259/fingerprints-can-be-recreated-from-the-sounds-made-when-swiping-on-a-touchscreen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Tom's Hardware: An interesting new attack on biometric security has been outlined by a group of researchers from China and the US. PrintListener: Uncovering the Vulnerability of Fingerprint Authentication via the Finger Friction Sound [PDF] proposes a side-channel attack on the sophisticated Automatic Fingerprint Identification System (AFIS). The attack leverages the sound characteristics of a user's finger swiping on a touchscreen to extract fingerprint pattern features. Following tests, the researchers assert that they can successfully attack \"up to 27.9% of partial fingerprints and 9.3% of complete fingerprints within five attempts at the highest security FAR [False Acceptance Rate] setting of 0.01%.\" This is claimed to be the first work that lev…",
-          "link": "https://it.slashdot.org/story/24/02/20/2127259/fingerprints-can-be-recreated-from-the-sounds-made-when-swiping-on-a-touchscreen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T00:02:00.000Z",
-          "wordCount": 4907,
-          "title": "Fingerprints Can Be Recreated From the Sounds Made When Swiping On a Touchscreen",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/20/2122208/valve-makes-all-steam-audio-sdk-source-code-available-under-apache-20-license?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Michael Larabel reports via Phoronix: With Valve's release today of the Steam Audio SDK 4.5.2 they have made the software development kit fully open-source under an Apache 2.0 license. Steam Audio 4.5.2 may not sound exciting in the context of a version number but as described in the release announcement is now \"the first open source release of the Steam Audio SDK source code.\" The rest of this work in this Steam Audio SDK release amounts to bug fixes and other standard changes.\n \nIn a SteamCommunity.com announcement posted today entitled \"Steam Audio Open Source Release,\" it notes: \"The entire Steam Audio codebase, including both the SDK and all plugins, is now released under the Apache 2.0 license. This allows developers to use Steam Audio in commercial products, and to modify or redistribute it under their own licensing terms without having to include source code. We welcome contributions from developers who would like to fix bugs or add features to Steam Audio.\" You can learn more about Steam Audio via the project site.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/20/2122208/valve-makes-all-steam-audio-sdk-source-code-available-under-apache-20-license?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T23:20:00.000Z",
-          "wordCount": 4028,
-          "title": "Valve Makes All Steam Audio SDK Source Code Available Under Apache 2.0 License",
-          "imageUrl": "https://a.fsdn.com/sd/topics/opensource_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/24/02/20/2116224/vietnam-to-collect-biometrics-for-new-id-cards?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Starting in July, the Vietnamese government will begin collecting biometric information from its citizens when issuing new identification cards. The Register reports: Prime minister Pham Minh Chinh instructed the nation's Ministry of Public Security to collect the data in the form of iris scans, voice samples and actual DNA, in accordance with amendments to Vietnam's Law on Citizen Identification. The ID cards are issued to anyone over the age of 14 in Vietnam, and are optional for citizens between the ages of 6 and 14, according to a government news report. Amendments to the Law on Citizen Identification that allow collection of biometrics passed on November 27 of last year.\n \nThe law allows recording of blood type among the DNA-related information that will be contained in a national database to be shared across agencies \"to perform their functions and tasks.\" The ministry will work with other parts of the government to integrate the identification system into the national database. [...] Vietnam's future identity cards will incorporate the functions of health insurance cards, social insurance books, driver's licenses, birth certificates, and marriage certificates, as defined by the amendment.\n \nAs for how the information will be collected, the amendments state: \"Biometric information on DNA and voice is collected when voluntarily provided by the people or the agency conducting criminal proceedings or the agency managing the person to whom administrative measures are applied in the process of settling the case according to their functions and duties whether to solicit assessment or collect biometric information on DNA, people's voices are shared with identity management agencies for updating and adjusting to the identity database.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://yro.slashdot.org/story/24/02/20/2116224/vietnam-to-collect-biometrics-for-new-id-cards?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T22:40:00.000Z",
-          "wordCount": 4416,
-          "title": "Vietnam To Collect Biometrics For New ID Cards",
-          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/20/2111257/eu-opens-formal-investigation-into-tiktok-over-possible-online-content-breaches?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Reuters: The European Union will investigate whether ByteDance's TikTok breached online content rules aimed at protecting children and ensuring transparent advertising, an official said on Monday, putting the social media platform at risk of a hefty fine. EU industry chief Thierry Breton said he took the decision after analyzing the short video app's risk assessment report and its replies to requests for information, confirming a Reuters story. \"Today we open an investigation into TikTok over suspected breach of transparency & obligations to protect minors: addictive design & screen time limits, rabbit hole effect, age verification, default privacy settings,\" Breton said on X.\n \nThe European Union's Digital Services Act (DSA), which applies to all online platforms since Feb. 17, requires in particular very large online platforms and search engines to do more to tackle illegal online content and risks to public security. TikTok's owner, China-based ByteDance, could face fines of up to 6% of its global turnover if TikTok is found guilty of breaching DSA rules. TikTok said it would continue to work with experts and the industry to keep young people on its platform safe and that it looked forward to explaining this work in detail to the European Commission.\n \nThe European Commission said the investigation will focus on the design of TikTok's system, including algorithmic systems which may stimulate behavioral addictions and/or create so-called 'rabbit hole effects'. It will also probe whether TikTok has put in place appropriate and proportionate measures to ensure a high level of privacy, safety and security for minors. As well as the issue of protecting minors, the Commission is looking at whether TikTok provides a reliable database on advertisements on its platform so that researchers can scrutinize potential online risks.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/20/2111257/eu-opens-formal-investigation-into-tiktok-over-possible-online-content-breaches?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T22:00:00.000Z",
-          "wordCount": 4512,
-          "title": "EU Opens Formal Investigation Into TikTok Over Possible Online Content Breaches",
-          "imageUrl": "https://a.fsdn.com/sd/topics/eu_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/24/02/20/1933238/microsoft-publisher-books-its-retirement-party-for-2026?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft is confirming plans to deprecate its Publisher application in 2026. From a report: This writer has fond memories of Microsoft Publisher, which started life in 1991 as a desktop publisher for Windows 3.0. While alternatives existed in the form of Ventura Publisher, Timeworks, and later QuarkXPress, Microsoft Publisher was a useful tool to write newsletters. Unlike Word, Publisher was focused on layout and page design. Though it lacked many of the features of its competitors, it was responsible for some genuinely horrendous designs, and was popular due to its cheap price. \n\nDespite not finding much favor with professionals, Microsoft Publisher continued to be updated over the years. Microsoft Publisher 97 was the first to turn up in the Microsoft Office suite, and the most recent edition, released in 2021, is available as part of Microsoft 365. However, all good things -- and Publisher -- must come to an end. Microsoft has warned that the end is nigh for its venerable designer. \"In October 2026, Microsoft Publisher will reach its end of life,\" the company said. \"After that time, it will no longer be included in Microsoft 365, and existing on-premises suites will no longer be supported. Until then, support for Publisher will continue, and users can expect the same experience as today.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/24/02/20/1933238/microsoft-publisher-books-its-retirement-party-for-2026?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T21:20:00.000Z",
-          "wordCount": 5295,
-          "title": "Microsoft Publisher Books Its Retirement Party for 2026",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/02/20/1818248/making-alarms-more-musical-can-save-lives?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Medical alarms don't have to be louder to be more effective. Scientific American: Beeping alarms in hospitals are a life-or-death matter -- but with so many going off all the time, medical professionals may experience alarm fatigue that impairs care. Researchers now report that changing an alarm's sound to incorporate properties of musical instruments can make it more helpful amid the din. Auditory alarms can sound up to 300 times a day per patient in U.S. hospitals, but only a small fraction require immediate action. \n\nData from the U.S. Food and Drug Administration suggest that alarm fatigue (including when clinicians turned off or forgot to restart alarms) and other alarm-related issues were linked to 566 deaths over five and a half years. After a typical day at the hospital, \"I'd leave…",
-          "link": "https://science.slashdot.org/story/24/02/20/1818248/making-alarms-more-musical-can-save-lives?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T20:40:00.000Z",
-          "wordCount": 6728,
-          "title": "Making Alarms More Musical Can Save Lives",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/20/1725205/microsoft-develops-ai-server-gear-to-lessen-reliance-on-nvidia?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Microsoft is developing a new network card that could improve the performance of its Maia AI server chip and potentially reduce the company's reliance on chip designer Nvidia, The Information reported on Tuesday. Reuters: Microsoft CEO Satya Nadella has tapped Pradeep Sindhu, who co-founded networking gear developer Juniper Networks, to spearhead the network card effort, the report said citing a person with knowledge of the matter. Microsoft acquired Sindhu's server chip startup, Fungible, last year. The new network card is similar to Nvidia's ConnectX-7 card, which the chip developer sells alongside its graphic processor units (GPUs), the report added. The equipment could take more than a year to develop and, if successful, could lessen the time it takes for OpenAI to train its models on Microsoft servers as well as make the process less expensive, according to the report.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/20/1725205/microsoft-develops-ai-server-gear-to-lessen-reliance-on-nvidia?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T20:00:00.000Z",
-          "wordCount": 4108,
-          "title": "Microsoft Develops AI Server Gear To Lessen Reliance on Nvidia",
-          "imageUrl": "https://a.fsdn.com/sd/topics/microsoft_64100.png"
-        },
-        {
-          "id": "https://mobile.slashdot.org/story/24/02/20/1911202/apple-officially-warns-users-to-stop-putting-wet-iphones-in-rice?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "An anonymous reader shares a report: In a recent support document, Apple states that putting wet devices in a bag of rice could \"allow small particles of rice to damage your iPhone,\" although it doesn't go into further detail. The company also recommended against using other well-known hacks, such as using an external heat source to dry the phone or sticking a cotton swab into the connector. The company's warning on rice coincides with those of other repair experts, who have found that the rice hack works slower than simply leaving your iPhone on a counter to dry. Time is crucial in these situations, as the most important thing is to prevent the water from damaging the electronics inside the phone.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://mobile.slashdot.org/story/24/02/20/1911202/apple-officially-warns-users-to-stop-putting-wet-iphones-in-rice?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T19:20:00.000Z",
-          "wordCount": 11864,
-          "title": "Apple Officially Warns Users To Stop Putting Wet iPhones in Rice",
-          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/24/02/20/1835203/signal-finally-rolls-out-usernames-so-you-can-keep-your-phone-number-private?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Encrypted messaging app Signal has launched new feature allowing users to conceal their phone numbers and instead use usernames, in a move aimed at boosting privacy protections long sought by cybersecurity experts and privacy advocates. From a report: Rather than give your phone number to other Signal contacts as the identifier they use to begin a conversation with you, in other words, you can now choose to be discoverable via a chosen handle -- or even to prevent anyone who does have your phone number from finding you on Signal. \n\nThe use of phone numbers has long been perhaps the most persistent criticism of Signal's design. These new privacy protections finally offer a fix, says Meredith Whittaker, Signal's executive director. \"We want to build a communications app that everyone in the world can easily use to connect with anyone else privately. That 'privately' is really in bold, underlined, in italics,\" Whittaker tells WIRED. \"So we're extremely sympathetic to people who might be using Signal in high-risk environments who say, 'The phone number is really sensitive information, and I don't feel comfortable having that disseminated broadly.'\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/24/02/20/1835203/signal-finally-rolls-out-usernames-so-you-can-keep-your-phone-number-private?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T18:40:00.000Z",
-          "wordCount": 5814,
-          "title": "Signal Finally Rolls Out Usernames, So You Can Keep Your Phone Number Private",
-          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/20/182246/this-tiny-website-is-googles-first-line-of-defense-in-the-patent-wars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A trio of Google engineers recently came up with a futuristic way to help anyone who stumbles through presentations on video calls. They propose that when algorithms detect a speaker's pulse racing or \"umms\" lengthening, a generative AI bot that mimics their voice could simply take over. That cutting-edge idea wasn't revealed at a big company event or in an academic journal. Instead, it appeared in a 1,500-word post on a little-known, free website called TDCommons.org that Google has quietly owned and funded for nine years. WIRED: Until WIRED received a link to an idea on TDCommons last year and got curious, Google had never spoken with the media about its website. Scrolling through TDCommons, you can read Google's latest ideas for coordinating smart home gadgets for better sleep, preserving privacy in mobile search results, and using AI to summarize a person's activities from their photo archives. And the submissions aren't exclusive to Google; about 150 organizations, including HP, Cisco, and Visa, also have posted inventions to the website. \n\nThe website is a home for ideas that seem potentially valuable but not worth spending tens of thousands of dollars seeking a patent for. By publishing the technical details and establishing \"prior art,\" Google and other companies can head off future disputes by blocking others from filing patents for similar concepts. Google gives employees a $1,000 bonus for each invention they post to TDCommons -- a tenth of what it awards its patent seekers -- but they also get an immediately shareable link to gloat about otherwise secretive work.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/20/182246/this-tiny-website-is-googles-first-line-of-defense-in-the-patent-wars?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T18:01:00.000Z",
-          "wordCount": 7379,
-          "title": "This Tiny Website Is Google's First Line of Defense in the Patent Wars",
-          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/20/1635234/cox-communications-wins-order-overturning-1-billion-us-copyright-verdict?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Cox, the cable television and internet service provider, convinced a U.S. appeals court to throw out a $1 billion jury verdict in favor of several major record labels that had accused it of failing to curb user piracy, setting the stage for a new trial on the matter. From a report: The 4th U.S. Circuit Court of Appeals in Richmond, Virginia ruled on Tuesday that the amount of damages was not justified and that a federal district court should hold a new trial to determine the appropriate amount. A Virginia jury in 2019 found Cox, the largest unit of privately owned Cox Enterprises, liable for its customers' violations of over 10,000 copyrights belonging to labels including Sony Music Entertainment, Warner Music Group, and Universal Music Group. More than 50 labels teamed up to sue Cox in 2018, in what was seen as a test of the obligations of internet service providers (ISPs) to thwart piracy.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/20/1635234/cox-communications-wins-order-overturning-1-billion-us-copyright-verdict?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T17:22:00.000Z",
-          "wordCount": 5874,
-          "title": "Cox Communications Wins Order Overturning $1 Billion US Copyright Verdict",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/02/20/1615216/neuralinks-first-human-patient-able-to-control-mouse-through-thinking-musk-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The first human patient implanted with a brain-chip from Neuralink appears to have fully recovered and is able to control a computer mouse using their thoughts, the startup's founder Elon Musk said late on Monday. From a report: \"Progress is good, and the patient seems to have made a full recovery, with no ill effects that we are aware of. Patient is able to move a mouse around the screen by just thinking,\" Musk said in a Spaces event on social media platform X. Musk said Neuralink was now trying to get as many mouse button clicks as possible from the patient. The firm successfully implanted a chip on its first human patient last month, after receiving approval for human trial recruitment in September.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/24/02/20/1615216/neuralinks-first-human-patient-able-to-control-mouse-through-thinking-musk-says?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T16:42:00.000Z",
-          "wordCount": 8079,
-          "title": "Neuralink's First Human Patient Able To Control Mouse Through Thinking, Musk Says",
-          "imageUrl": "https://a.fsdn.com/sd/topics/science_64.png"
-        },
-        {
-          "id": "https://science.slashdot.org/story/24/02/20/163250/astronomers-discover-universes-brightest-object?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "The brightest known object in the universe, a quasar 500tn times brighter than our sun, was \"hiding in plain sight,\" researchers say. From a report: Australian scientists spotted a quasar powered by the fastest growing black hole ever discovered. Its mass is about 17bn times that of our solar system's sun, and it devours the equivalent of a sun a day. The light from the celestial object travelled for more than 12bn years to reach Earth. Australian National University scientists first spotted it using a 2.3-metre telescope at the university's NSW Siding Spring Observatory in Coonabarabran. They then confirmed the find using the European Southern Observatory's (ESO's) Very Large Telescope, which has a primary mirror of 8 metres. The findings by the ANU researchers, in collaboration with the ESO, the University of Melbourne, and France's Sorbonne Universite have been published in Nature Astronomy.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://science.slashdot.org/story/24/02/20/163250/astronomers-discover-universes-brightest-object?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T16:03:00.000Z",
-          "wordCount": 5557,
-          "title": "Astronomers Discover Universe's Brightest Object",
-          "imageUrl": "https://a.fsdn.com/sd/topics/space_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/20/1534220/international-nest-aware-subscriptions-jump-in-price-as-much-as-100?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Google's \"Nest Aware\" camera subscription is going through another round of price increases. From a report: This time it's for international users. There's no big announcement or anything, just a smattering of email screenshots from various countries on the Nest subreddit. 9to5Google was nice enough to hunt down a pile of the announcements. Nest Aware is a monthly subscription fee for Google's Nest cameras. Nest cameras exclusively store all their video in the cloud, and without the subscription, you aren't allowed to record video 24/7. \n\nThere are two sets of subscriptions to keep track of: the current generation subscription for modern cameras and the \"first generation Nest Aware\" subscription for older cameras. To give you an idea of what we're dealing with, in the US, the current free tier only gets you three hours of \"event\" video -- meaning video triggered by motion detection. Even the basic $8-a-month subscription doesn't get you 24/7 recording -- that's still only 30 days of event video. The \"Nest Aware Plus\" subscription, at $15 a month in the US, gets you 10 days of 24/7 video recording. The \"first-generation\" Nest Aware subscription, which is tied to earlier cameras and isn't available for new customers anymore, is doubling in price in Canada. The basic tier of five days of 24/7 video is going from a yearly fee of CA$50 to CA$110 (the first-generation sub has 24/7 video on every tier). Ten days of video is jumping from CA$80 to CA$160, and 30 days is going from CA$110 to CA$220. These are the prices for a single camera; the first-generation subscription will have additional charges for additional cameras. The current Nest Aware subscription for modern cameras is getting jumps that look similar to the US, with Nest Aware Plus, the mid-tier, going from CA$16 to CA $20 per month, and presumably similar raises across the board.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/20/1534220/international-nest-aware-subscriptions-jump-in-price-as-much-as-100?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-20T15:34:00.000Z",
-          "wordCount": 6604,
-          "title": "International Nest Aware Subscriptions Jump in Price, as Much As 100%",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
         }
       ]
     }
