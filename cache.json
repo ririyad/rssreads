@@ -14,16 +14,6 @@
           "wordCount": 425,
           "title": "Logo: Clj-Reload",
           "imageUrl": null
-        },
-        {
-          "id": "https://tonsky.me/blog/js-bloat/",
-          "author": null,
-          "description": "What is the average size of JavaScript code downloaded per website? Fuck around and find out!",
-          "link": "https://tonsky.me/blog/js-bloat/",
-          "publishedOn": "2024-02-22T00:00:00.000Z",
-          "wordCount": 1376,
-          "title": "JavaScript Bloat in 2024",
-          "imageUrl": null
         }
       ]
     },
@@ -54,18 +44,7 @@
       "title": "Dave Cheney",
       "feedUrl": "https://dave.cheney.net/feed/atom",
       "siteUrl": "https://dave.cheney.net",
-      "articles": [
-        {
-          "id": "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
-          "author": null,
-          "description": "This morning a one line change had several of us tearing up the fabric of reality trying to understand why a failing test wasn&#8217;t failing, or, in fact, being run at all. Increasingly frantic efforts to upgrade/downgrade Go, run the tests on another machine, run the tests in CI, all served to only unnerve us [&#8230;]",
-          "link": "https://dave.cheney.net/2024/02/22/microblog-testmain-can-cause-one-to-question-reality",
-          "publishedOn": "2024-02-21T21:04:26.000Z",
-          "wordCount": null,
-          "title": "Microblog: TestMain can cause one to question reality",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "David Heinemeier Hansson",
@@ -238,16 +217,6 @@
           "wordCount": 437,
           "title": "Do learn",
           "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
-        },
-        {
-          "id": "https://world.hey.com/jason/you-couldn-t-know-3d98330d",
-          "author": null,
-          "description": "Have you ever been asked \"What do you wish you knew then that you know now?\"\n\n\nI have. And I hate the question.\n\n\nIt's usually framed in a way that encourages you to pretend to place yourself in the nascent days of your career, or early adulthood. Back when you didn't know much, when you were trying to figure things out.\n\n\nEssentially it's asking you which mistakes you wish you didn't make. To squint and identify the things you could have bypassed if you were armed with the wisdom of hindsight.\n\n\nMy take? I think you’d have made the same mistakes, and I don’t think you could have avoided anything that happened.\n\n\nWhy? First, it assumes you'd even listen to your 50 year old self when you were 20. Next it assumes you'd even be ready and able to accept the advice you didn't recognize as relevant. Last it assumes you'd be able to avoid the things you didn't see coming.\n\n\nI don't think you could, would, or should.\n\n\nLearning is experiencing and doing. It’s not dodging, following, or forgoing.\n\n\nYou had to go through the shit to learn the shit. Sidestepping it would have just landed you in some other shit. And then you'd have wished you had listened to different advice.\n\n\nYou wouldn’t have your sage advice today if you hadn’t had the stupid experiences then! In fact, answering the question would erase present you from existence. Because if you were different then, you wouldn’t be the you you know now.\n\n\nAre there mistakes I wish I hadn’t made? One one hand, absolutely — plenty — but on the other hand, I had to make them to be who I am now. There’s no version of me that’s present me today with a different set of events in the past. I like who I am now, even with portions of my past I’m less satisfied with peering through present day goggles.\n\n\nBut it’s a fantasy to think that if I’d just had magical advice from some old dude named me, then I wouldn’t have made those mistakes back then.\n\n\nCut yourself some slack.\n\n\n-Jason",
-          "link": "https://world.hey.com/jason/you-couldn-t-know-3d98330d",
-          "publishedOn": "2024-02-21T22:05:21.000Z",
-          "wordCount": 416,
-          "title": "You couldn't know",
-          "imageUrl": "https://world.hey.com/jason/avatar-9f11ce77d31e68e834c564594ee0bc32a005ee8d"
         }
       ]
     },
@@ -261,7 +230,18 @@
       "title": "Andrew Kelley",
       "feedUrl": "https://andrewkelley.me/rss.xml",
       "siteUrl": "https://andrewkelley.me/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://andrewkelley.me/post/redis-renamed-to-redict.html",
+          "author": null,
+          "description": "Redis Renamed to Redict\nRedict was originally\ncreated by Salvatore Sanfilippo under the name \"Redis\".\nAround 2018 he started losing interest in the project to pursue a science fiction career and gave\nstewardship of the project to Redis Labs.\nchanged the license to be proprietary,\na widely unpopular action. You know someone is up to no good when they write\n\"Live long and prosper 🖖\" directly above a meme of Darth Vader.\n\n\n\n\nWhat are the actual problems with these licenses?\nIn short summary, the licenses limit the freedoms of what one can do with\nthe software in order for Redis Labs to be solely enriched, while asking for\nvolunteer labor, and having already\nbenefitted from volunteer labor, that is and was generally offered only\nbecause it enriches everybody.\nSSPL is BAD\nAre they allowed to d…",
+          "link": "https://andrewkelley.me/post/redis-renamed-to-redict.html",
+          "publishedOn": "2024-03-22T20:32:03.000Z",
+          "wordCount": 872,
+          "title": "Redis Renamed to Redict",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "Martin Fowler",
@@ -408,6 +388,16 @@
       "feedUrl": "https://blog.rust-lang.org/inside-rust/feed.xml",
       "siteUrl": "https://blog.rust-lang.org/inside-rust/",
       "articles": [
+        {
+          "id": "https://blog.rust-lang.org/inside-rust/2024/03/22/2024-edition-update.html",
+          "author": null,
+          "description": "This is a reminder to the teams working on the 2024 Edition that implementation work should be finished by the end of May. If you have any questions, please let us know on the #edition Zulip stream.\nWhat we are tracking for the Edition\nThe following is a list of changes we are tracking for inclusion in the Edition. This list is not final, and may change in the future.\nChange the unsafe_op_in_unsafe_fn lint to be warn-by-default. This is implemented, see docs.\nRemove RustcEncodable & RustcDecodable from the 2024 prelude. This is waiting for the implementation to be approved, and for automatic migration. See #116016.\nInclude Future and IntoFuture in the 2024 prelude. This is implemented, and waiting for automatic migration support. See docs and #121042.\nReserve the gen keyword. This is waiti…",
+          "link": "https://blog.rust-lang.org/inside-rust/2024/03/22/2024-edition-update.html",
+          "publishedOn": "2024-03-22T00:00:00.000Z",
+          "wordCount": 409,
+          "title": "2024 Edition Update",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-social-wide.jpg"
+        },
         {
           "id": "https://blog.rust-lang.org/inside-rust/2024/03/17/1.77.0-prerelease.html",
           "author": null,
@@ -608,6 +598,156 @@
       "feedUrl": "https://rss.slashdot.org/Slashdot/slashdotMain",
       "siteUrl": "https://slashdot.org/",
       "articles": [
+        {
+          "id": "https://tech.slashdot.org/story/24/03/22/207236/users-shocked-to-find-instagram-limits-political-content-by-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Instagram has been limiting recommended political content by default without notifying users. Ars Technica reports: Instead, Instagram rolled out the change in February, announcing in a blog that the platform doesn't \"want to proactively recommend political content from accounts you don't follow.\" That post confirmed that Meta \"won't proactively recommend content about politics on recommendation surfaces across Instagram and Threads,\" so that those platforms can remain \"a great experience for everyone.\" \"This change does not impact posts from accounts people choose to follow; it impacts what the system recommends, and people can control if they want more,\" Meta's spokesperson Dani Lever told Ars. \"We have been working for years to show people less political content based on what they told …",
+          "link": "https://tech.slashdot.org/story/24/03/22/207236/users-shocked-to-find-instagram-limits-political-content-by-default?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-23T00:45:00.000Z",
+          "wordCount": 4085,
+          "title": "Users Shocked To Find Instagram Limits Political Content By Default",
+          "imageUrl": "https://a.fsdn.com/sd/topics/social_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/22/1959205/general-motors-quits-sharing-driving-behavior-with-data-brokers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from the New York Times: General Motors said Friday that it had stopped sharing details about how people drove its cars with two data brokers that created risk profiles for the insurance industry. The decision followed a New York Times report this month that G.M. had, for years, been sharing data about drivers' mileage, braking, acceleration and speed with the insurance industry. The drivers were enrolled -- some unknowingly, they said -- in OnStar Smart Driver, a feature in G.M.'s internet-connected cars that collected data about how the car had been driven and promised feedback and digital badges for good driving. Some drivers said their insurance rates had increased as a result of the captured data, which G.M. shared with two brokers, LexisNexis Risk Solutions and Verisk. The firms then sold the data to insurance companies. Since Wednesday, \"OnStar Smart Driver customer data is no longer being shared with LexisNexis or Verisk,\" a G.M. spokeswoman, Malorie Lucich, said in an emailed statement. \"Customer trust is a priority for us, and we are actively evaluating our privacy processes and policies.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://yro.slashdot.org/story/24/03/22/1959205/general-motors-quits-sharing-driving-behavior-with-data-brokers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-23T00:02:00.000Z",
+          "wordCount": 4213,
+          "title": "General Motors Quits Sharing Driving Behavior With Data Brokers",
+          "imageUrl": "https://a.fsdn.com/sd/topics/privacy_64.png"
+        },
+        {
+          "id": "https://yro.slashdot.org/story/24/03/22/1954248/dutch-court-orders-isp-to-block-annas-archive-and-libgen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "The Dutch pirate site blocklist has expanded with two new targets, shadow libraries Anna's Archive and Library Genesis. The court order was obtained by local anti-piracy group BREIN, acting on behalf of major publishers. Interestingly, Z-Library isn't listed in the blocking order, despite explicit warnings previously issued by BREIN. TorrentFreak reports: All blocking requests were submitted by local anti-piracy group BREIN, which acts on behalf of rightsholders. These include the major Hollywood studios but BREIN's purview is much broader. Last week, it obtained the latest blocking order, this time on behalf of the publishing industry. Issued by the Rotterdam District Court, the order requires a local Internet provider to block two well-known shadow libraries; \"Anna's Archive\" and \"Librar…",
+          "link": "https://yro.slashdot.org/story/24/03/22/1954248/dutch-court-orders-isp-to-block-annas-archive-and-libgen?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T23:20:00.000Z",
+          "wordCount": 4708,
+          "title": "Dutch Court Orders ISP To Block 'Anna's Archive' and 'LibGen'",
+          "imageUrl": "https://a.fsdn.com/sd/topics/piracy_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/22/1945212/booms-xb-1-supersonic-demonstrator-makes-first-flight?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "Boom Supersonic's first aircraft, the XB-1, completed its first flight today and met \"all of its test objectives.\" From a report: This initial test only saw the aircraft 7,120 feet above sea level and fly at a top speed of 238 knots (274 mph) -- far from Mach 1, the speed of sound. The first flight of XB-1 took place at the Mojave Air & Space Port in California, in the same airspace where the X-1 broke the sound barrier, the X-15 conducted test flights for altitude and speed records, and the SR-71 Blackbird was also tested. According to Boom, the XB-1 will be testing, among other things:\n \nAugmented reality vision system: Two nose-mounted cameras, digitally augmented with attitude and flight path indications, feed a high-resolution pilot display enabling excellent runway visibility. This s…",
+          "link": "https://tech.slashdot.org/story/24/03/22/1945212/booms-xb-1-supersonic-demonstrator-makes-first-flight?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T22:40:00.000Z",
+          "wordCount": 4334,
+          "title": "Boom's XB-1 Supersonic Demonstrator Makes First Flight",
+          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/22/1937234/mozilla-drops-onerep-after-ceo-admits-to-running-people-search-networks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "BeauHD",
+          "description": "An anonymous reader quotes a report from KrebsOnSecurity: The nonprofit organization that supports the Firefox web browser said today it is winding down its new partnership with Onerep, an identity protection service recently bundled with Firefox that offers to remove users from hundreds of people-search sites. The move comes just days after a report by KrebsOnSecurity forced Onerep's CEO to admit that he has founded dozens of people-search networks over the years. Mozilla only began bundling Onerep in Firefox last month, when it announced the reputation service would be offered on a subscription basis as part of Mozilla Monitor Plus. Launched in 2018 under the name Firefox Monitor, Mozilla Monitor also checks data from the website Have I Been Pwned? to let users know when their email addr…",
+          "link": "https://tech.slashdot.org/story/24/03/22/1937234/mozilla-drops-onerep-after-ceo-admits-to-running-people-search-networks?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T22:00:00.000Z",
+          "wordCount": 4554,
+          "title": "Mozilla Drops Onerep After CEO Admits To Running People-Search Networks",
+          "imageUrl": "https://a.fsdn.com/sd/topics/mozilla_64.png"
+        },
+        {
+          "id": "https://apple.slashdot.org/story/24/03/22/1924206/doj-blames-apple-for-failure-of-amazon-fire-phone-windows-phone-and-htc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "DOJ, in the court filing (PDF): Many prominent, well-financed companies have tried and failed to successfully enter the relevant markets because of these entry barriers. Past failures include Amazon (which released its Fire mobile phone in 2014 but could not profitably sustain its business and exited the following year); Microsoft (which discontinued its mobile business in 2017); HTC (which exited the market by selling its smartphone business to Google in September 2017); and LG (which exited the smartphone market in 2021). Today, only Samsung and Google remain as meaningful competitors in the U.S. performance smartphone market. Barriers are so high that Google is a distant third to Apple and Samsung despite the fact that Google controls development of the Android operating system.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://apple.slashdot.org/story/24/03/22/1924206/doj-blames-apple-for-failure-of-amazon-fire-phone-windows-phone-and-htc?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T21:20:00.000Z",
+          "wordCount": 10648,
+          "title": "DOJ Blames Apple For Failure of Amazon Fire Phone, Windows Phone and HTC",
+          "imageUrl": "https://a.fsdn.com/sd/topics/apple_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/22/1910200/cable-isp-fined-10000-for-lying-to-fcc-about-where-it-offers-broadband?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An Internet service provider that admitted lying to the FCC about where it offers broadband will pay a $10,000 fine and implement a compliance plan to prevent future violations. ArsTechnica: Jefferson County Cable (JCC), a small ISP in Toronto, Ohio, admitted that it falsely claimed to offer fiber service in an area that it hadn't expanded to yet. A company executive also admitted that the firm submitted false coverage data to prevent other ISPs from obtaining government grants to serve the area. Ars helped expose the incident in a February 2023 article. \n\nThe FCC announced the outcome of its investigation on March 15, saying that Jefferson County Cable violated the Broadband Data Collection program requirements and the Broadband DATA Act, a US law, \"in connection with reporting inaccurate information or data with respect to the Company's ability to provide broadband Internet access service.\" The FCC said: \"To settle this matter, Jefferson County Cable agrees to pay a $10,000 civil penalty to the United States Treasury. Jefferson County Cable also agrees to implement enhanced compliance measures. This action will help further the Commission's efforts to bridge the digital divide by having accurate data of locations where broadband service is available.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/22/1910200/cable-isp-fined-10000-for-lying-to-fcc-about-where-it-offers-broadband?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T20:44:00.000Z",
+          "wordCount": 5793,
+          "title": "Cable ISP Fined $10,000 For Lying To FCC About Where It Offers Broadband",
+          "imageUrl": "https://a.fsdn.com/sd/topics/communications_64.png"
+        },
+        {
+          "id": "https://tech.slashdot.org/story/24/03/22/194233/google-testing-ai-overviews-in-search-results-even-if-you-have-not-opted-in?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Search Engine Land: Google is now testing AI overviews in the main Google Search results, even if you have not opted into the Google Search Generative Experience labs feature. Google said this is an experience on a \"subset of queries, on a small percentage of search traffic in the U.S.,\" a Google spokesperson told Search Engine Land.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://tech.slashdot.org/story/24/03/22/194233/google-testing-ai-overviews-in-search-results-even-if-you-have-not-opted-in?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T20:01:00.000Z",
+          "wordCount": 4214,
+          "title": "Google Testing AI Overviews in Search Results, Even If You Have Not Opted In",
+          "imageUrl": "https://a.fsdn.com/sd/topics/topicgoogle_fb.gif"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/22/1855210/dot-wants-to-know-how-big-airlines-use-passenger-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The U.S. Department of Transportation has announced it will conduct a review of the data practices of the country's ten largest airlines, amid concerns over potential misuse of customer information for upselling, overcharging, targeted advertising, and third-party data sales, as well as the security of systems handling sensitive data such as passport numbers. From a report: The probe will look at air carriers' policies and procedures to determine if they are safeguarding personal info properly, unfairly or deceptively monetizing it, or sharing it with third parties, the agency said yesterday. If they're indeed doing anything \"problematic,\" they can look forward to scrutiny, fines, and new rules, says the DOT. \"Airline passengers should have confidence that their personal information is not being shared improperly with third parties or mishandled by employees,\" said US Transportation Secretary Pete Buttigieg. \n\n\"This review of airline practices is the beginning of a new initiative by DOT to ensure airlines are being good stewards of sensitive passenger data.\" The ten airlines going under the magnifying glass are Delta, United, American, Southwest, Alaska, JetBlue, Spirit, Frontier, Hawaiian and Allegiant.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/22/1855210/dot-wants-to-know-how-big-airlines-use-passenger-data?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T19:20:00.000Z",
+          "wordCount": 3984,
+          "title": "DOT Wants To Know How Big Airlines Use Passenger Data",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/22/1837215/security-and-climate-change-drive-a-return-to-nuclear-energy-as-over-30-nations-sign-summit-pledge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "In the shadow of a massive monument glorifying nuclear power, over 30 nations from around the world pledged to use the controversial energy source to help achieve a climate-neutral globe while providing countries with an added sense of strategic security. Associated Press: The idea of a Nuclear Energy Summit would have been unthinkable a dozen years ago after the 2011 Fukushima nuclear accident in Japan, but the tide has turned in recent years. A warming planet has made it necessary to phase out fossil fuels, while the war in Ukraine has laid bare Europe's dependence on Russian energy. \"We have to do everything possible to facilitate the contribution of nuclear energy,\" said Rafael Grossi, the head of the International Atomic Energy Agency. \"It is clear: Nuclear is there. It has an important role to play,\" he said. \n\nIn a solemn pledge, 34 nations, including the United States, China, France, Britain and Saudi Arabia, committed \"to work to fully unlock the potential of nuclear energy by taking measures such as enabling conditions to support and competitively finance the lifetime extension of existing nuclear reactors, the construction of new nuclear power plants and the early deployment of advanced reactors.\" The statement adds: \"We commit to support all countries, especially emerging nuclear ones, in their capacities and efforts to add nuclear energy to their energy mixes.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/22/1837215/security-and-climate-change-drive-a-return-to-nuclear-energy-as-over-30-nations-sign-summit-pledge?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T18:45:00.000Z",
+          "wordCount": 8540,
+          "title": "Security and Climate Change Drive a Return To Nuclear Energy as Over 30 Nations Sign Summit Pledge",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://games.slashdot.org/story/24/03/22/1810245/switch-emulator-suyu-hit-by-gitlab-dmca-project-lives-on-through-self-hosting?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Switch emulator Suyu -- a fork of the Nintendo-targeted and now-defunct emulation project Yuzu -- has been taken down from GitLab following a DMCA request Thursday. But the emulation project's open source files remain available on a self-hosted git repo on the Suyu website, and recent compiled binaries remain available on an extant GitLab repo. From a report: While the DMCA takedown request has not yet appeared on GitLab's public repository of such requests, a GitLab spokesperson confirmed to The Verge that the project was taken down after the site received notice \"from a representative of the rightsholder.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://games.slashdot.org/story/24/03/22/1810245/switch-emulator-suyu-hit-by-gitlab-dmca-project-lives-on-through-self-hosting?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T18:10:00.000Z",
+          "wordCount": 4646,
+          "title": "Switch Emulator Suyu Hit By GitLab DMCA, Project Lives on Through Self-hosting",
+          "imageUrl": "https://a.fsdn.com/sd/topics/nintendo_64.png"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/03/22/1437242/more-than-half-of-chickenpox-diagnoses-are-wrong-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: Thanks to the vaccination program that began in 1995, chickenpox is now relatively rare. Cases of the miserable, itchy condition have fallen more than 97 percent. But, while children have largely put the oatmeal baths and oven mitts behind them, doctors have apparently let their diagnostic skills get a little crusty. According to a study published Thursday, public health researchers in Minnesota found that 55 percent of people diagnosed with chickenpox based on their symptoms were actually negative for the varicella-zoster virus, the virus that causes chickenpox. The study noted that the people were all diagnosed in person by health care providers in medical facilities. But, instead of chickenpox, lab testing showed that some of the patients were actually infected with an enterovirus, which can cause a rash, or the herpes simplex virus 1, which causes cold sores. \n\nThe study, published in the Centers for Disease Control and Prevention's Morbidity and Mortality Weekly Report, supports expanding laboratory testing for suspected chickenpox cases in the state's program and highlights that diagnoses based on symptoms are \"unreliable.\" For one thing, doctors simply see far fewer chickenpox cases these days because of the protection from vaccines. While chickenpox cases in the US previously reached 4 million each year, with 10,500 to 13,500 hospitalizations and 100 to 150 deaths, there are now fewer than 150,000 cases,1,400 hospitalizations, and 30 deaths each year, the CDC reports. Vaccination is more than 90 percent effective at preventing the disease. In the rare cases where a vaccinated person contracts chickenpox, the muted rashes are challenging to identify by eye. But even in unvaccinated children, chickenpox can be tricky to pick out; it can easily be confused with measles, insect bites, enterovirus, skin infections such as scabies and impetigo, herpes viruses, and hand, foot, and mouth disease.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/03/22/1437242/more-than-half-of-chickenpox-diagnoses-are-wrong-study-finds?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T17:22:00.000Z",
+          "wordCount": 7488,
+          "title": "More Than Half of Chickenpox Diagnoses Are Wrong, Study Finds",
+          "imageUrl": "https://a.fsdn.com/sd/topics/medicine_64.png?refresh=now"
+        },
+        {
+          "id": "https://science.slashdot.org/story/24/03/22/1434250/geologists-reject-declaration-of-anthropocene-epoch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "The guardians of the world's official geological timescale have firmly rejected a proposal to declare an Anthropocene epoch, after an epic academic row. From a report: The proposal would have designated the period from 1952 as the Anthropocene to reflect the planet-changing impact of humanity. It would have ended the Holocene epoch, the 11,700 years of stable climate since the last ice age and during which human civilisation arose. The International Union of Geological Sciences (IUGS) has announced, however, that geologists have rejected the idea in a series of votes. Those objecting noted a much longer history of human impacts on Earth, including the dawn of agriculture and the industrial revolution, and unease about including a new unit in the geological timescale with a span of less than less than a single human lifetime, it said. Most units span thousands or millions of years. \n\nIt also acknowledged: \"The Anthropocene as a concept will continue to be widely used not only by Earth and environmental scientists, but also by social scientists, politicians and economists, as well as by the public at large. As such, it will remain an invaluable descriptor in human-environment interactions.\" The Anthropocene working group (AWG), which was formed by the Subcommission on Quaternary Stratigraphy (SQS), in turn part of the IUGS, took 15 years to develop the proposal. It concluded that the radioactive isotopes spread worldwide by hydrogen bomb tests were the best marker of humanity's transformation of the planet. Geological time units also need a specific location to typify the unit and the Crawford sinkhole lake in Canada was chosen.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://science.slashdot.org/story/24/03/22/1434250/geologists-reject-declaration-of-anthropocene-epoch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T16:40:00.000Z",
+          "wordCount": 6482,
+          "title": "Geologists Reject Declaration of Anthropocene Epoch",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/22/1358207/us-cyber-investors-pledge-spyware-is-off-limits---with-a-catch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "An anonymous reader shares a report: On Monday, the Biden administration announced that six new countries had joined an international coalition to fight the proliferation of commercial spyware, sold by companies such as NSO Group or Intellexa. Now, some investors have announced that they too are committed to fighting spyware. But at least one of those investors, Paladin Capital Group, has previously invested in a company that developed malware, according to a leaked 2021-dated slide deck obtained by TechCrunch, although the firm tells TechCrunch it \"got out\" of the firm some time ago. \n\nIn the last couple of years, the U.S. government has led an effort to limit or at least restrain the use of spyware across the world by putting surveillance tech makers like NSO Group, Candiru, and Intellex…",
+          "link": "https://news.slashdot.org/story/24/03/22/1358207/us-cyber-investors-pledge-spyware-is-off-limits---with-a-catch?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T16:01:00.000Z",
+          "wordCount": 4247,
+          "title": "US Cyber Investors Pledge Spyware is Off Limits - With a Catch",
+          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
+        },
+        {
+          "id": "https://news.slashdot.org/story/24/03/22/1135241/higher-temperatures-mean-higher-food-and-other-prices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "author": "msmash",
+          "description": "Food prices and overall inflation will rise as temperatures climb with climate change, a new study by an environmental scientist and the European Central Bank found. From a report: Looking at monthly price tags of food and other goods, temperatures and other climate factors in 121 nations since 1996, researchers calculate that \"weather and climate shocks\" will cause the cost of food to rise 1.5 to 1.8 percentage points annually within a decade or so, even higher in already hot places like the Middle East, according to a study in Thursday's journal Communications, Earth and the Environment. \n\nAnd that translates to an increase in overall inflation of 0.8 to 0.9 percentage points by 2035, just caused by climate change extreme weather, the study said. Those numbers may look small, but to banks like the U.S. Federal Reserve that fight inflation, they are significant, said study lead author Max Kotz, a climate scientist at the Potsdam Institute for Climate Impact Research in Germany. \"The physical impacts of climate change are going to have a persistent effect on inflation,\" Kotz said. \"This is really from my perspective another example of one of the ways in which climate change can undermine human welfare, economic welfare.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
+          "link": "https://news.slashdot.org/story/24/03/22/1135241/higher-temperatures-mean-higher-food-and-other-prices?utm_source=rss1.0mainlinkanon&utm_medium=feed",
+          "publishedOn": "2024-03-22T15:20:00.000Z",
+          "wordCount": 10016,
+          "title": "Higher Temperatures Mean Higher Food and Other Prices",
+          "imageUrl": "https://a.fsdn.com/sd/topics/earth_64.png"
+        },
         {
           "id": "https://bsd.slashdot.org/story/24/03/21/225211/redis-to-adopt-source-available-licensing-starting-with-next-version?utm_source=rss1.0mainlinkanon&utm_medium=feed",
           "author": "BeauHD",
@@ -4867,156 +5007,6 @@
           "wordCount": 5403,
           "title": "US Health Tech Giant Change Healthcare Hit by Cyberattack",
           "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/21/2335258/google-admits-gemini-is-missing-the-mark-with-image-generation-of-historical-people?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "Google's Gemini AI chatbot is under fire for generating historically inaccurate images, particularly when depicting people from different eras and nationalities. Google acknowledges the issue and is actively working to refine Gemini's accuracy, emphasizing that while diversity in image generation is valued, adjustments are necessary to meet historical accuracy standards. 9to5Google reports: The Twitter/X post in particular that brought this issue to light showed prompts to Gemini asking for the AI to generate images of Australian, American, British, and German women. All four prompts resulted in images of women with darker skin tones, which, as Google's Jack Krawcyczk pointed out, is not incorrect, but may not be what is expected.\n \nBut a bigger issue that was noticed in the wake of that post was that Gemini also struggles to accurately depict human beings in a historical context, with those being depicted often having darker skin tones or being of particular nationalities that are not historically accurate. Google, in a statement posted to Twitter/X, admits that Gemini AI image generation is \"missing the mark\" on historical depictions and that the company is working to improve it. Google also does say that the diversity represented in images generated by Gemini is \"generally a good thing,\" but it's clear some fine-tuning needs to happen. Further reading: Why Google's new AI Gemini accused of refusing to acknowledge the existence of white people (The Daily Dot)\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/21/2335258/google-admits-gemini-is-missing-the-mark-with-image-generation-of-historical-people?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-22T00:50:00.000Z",
-          "wordCount": 3971,
-          "title": "Google Admits Gemini Is 'Missing the Mark' With Image Generation of Historical People",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/02/21/2324238/nvidia-posts-record-revenue-up-265-on-booming-ai-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "In its fourth quarter earnings report today, Nvidia beat Wall Street's forecast for earnings and sales, causing shares to rise about 10% in extended trading. CNBC reports: Here's what the company reported compared with what Wall Street was expecting for the quarter ending in January, based on a survey of analysts by LSEG, formerly known as Refinitiv:\n \nEarnings per share: $5.16 adjusted vs. $4.64 expected\nRevenue: $22.10 billion vs. $20.62 billion expected \nNvidia said it expected $24.0 billion in sales in the current quarter. Analysts polled by LSEG were looking for $5.00 per share on $22.17 billion in sales. Nvidia CEO Jensen Huang addressed investor fears that the company may not be able to keep up this growth or level of sales for the whole year on a call with analysts. \"Fundamentally,…",
-          "link": "https://slashdot.org/story/24/02/21/2324238/nvidia-posts-record-revenue-up-265-on-booming-ai-business?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-22T00:10:00.000Z",
-          "wordCount": 4357,
-          "title": "Nvidia Posts Record Revenue Up 265% On Booming AI Business",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://yro.slashdot.org/story/24/02/21/223214/leaked-hacking-files-show-chinese-spying-on-citizens-and-foreigners-alike?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from PBS: Chinese police are investigating an unauthorized and highly unusual online dump of documents from a private security contractor linked to the nation's top policing agency and other parts of its government -- a trove that catalogs apparent hacking activity and tools to spy on both Chinese and foreigners. Among the apparent targets of tools provided by the impacted company, I-Soon: ethnicities and dissidents in parts of China that have seen significant anti-government protests, such as Hong Kong or the heavily Muslim region of Xinjiang in China's far west. The dump of scores of documents late last week and subsequent investigation were confirmed by two employees of I-Soon, known as Anxun in Mandarin, which has ties to the powerful Ministry of Pub…",
-          "link": "https://yro.slashdot.org/story/24/02/21/223214/leaked-hacking-files-show-chinese-spying-on-citizens-and-foreigners-alike?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T23:30:00.000Z",
-          "wordCount": 4244,
-          "title": "Leaked Hacking Files Show Chinese Spying On Citizens and Foreigners Alike",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/21/2151223/waymos-application-to-expand-california-robotaxi-operations-paused-by-regulators?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "The California Public Utilities Commission's Consumer Protection and Enforcement Division (CPED) has suspended Waymo's application to expand its robotaxi service in Los Angeles and San Mateo counties, putting \"an abrupt halt to the company's aspirations to expand where it can operate -- at least until June 2024,\" reports TechCrunch. It does not, however, change the autonomous car company's ability to commercially operate its fleet in San Francisco. From the report: The CPED said on its website that the application has been suspended for further staff review. The \"suspension\" of an advice letter is a procedural part of the CPUC's standard and robust review process, according to Waymo. San Mateo County Board of Supervisors vice president David J. Canepa took a different stance, however.\n \n\"Since Waymo has stalled any meaningful discussions on its expansion plans into Silicon Valley, the CPUC has put the brakes on its application to test robotaxi service virtually unfettered both in San Mateo and Los Angeles counties,\" Canepa said. \"This will provide the opportunity to fully engage the autonomous vehicle maker on our very real public safety concerns that have caused all kinds of dangerous situations for firefighters and police in neighboring San Francisco.\"\n \nWaymo noted that it has reached out to two dozen government and business organizations as part of its outreach effort, including officials in cities throughout San Mateo County such as Burlingame, Daly City and Foster City, the San Mateo County Sheriff's Office and local chambers of commerce. [...] The city of South San Francisco, Los Angeles County Department of Transportation, San Francisco County Transportation Authority, San Mateo County Office of the County Attorney and the San Francisco Taxi Workers Alliance have sent letters opposing the expansion.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/21/2151223/waymos-application-to-expand-california-robotaxi-operations-paused-by-regulators?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T22:50:00.000Z",
-          "wordCount": 4436,
-          "title": "Waymo's Application To Expand California Robotaxi Operations Paused By Regulators",
-          "imageUrl": "https://a.fsdn.com/sd/topics/transportation_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/21/2141226/reddit-to-offer-shares-in-ipo-to-75000-of-its-most-active-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "According to the Wall Street Journal (paywalled), Reddit plans to sell a chunk of its IPO shares to 75,000 of its most loyal users. Reuters reports: It aims to reserve an as-yet-undetermined number of shares for 75,000 of its most prolific so-called redditors when it goes public next month, the report said, citing people familiar with the matter.\nThe users will have the opportunity to buy Reddit shares at its initial public offering (IPO) price before the stock starts trading, a privilege normally reserved only for big investors, the report said. Reddit's IPO, which has been in the works for more than three years now, would be the first from a major social media company since Pinterest's debut in 2019.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/21/2141226/reddit-to-offer-shares-in-ipo-to-75000-of-its-most-active-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T22:10:00.000Z",
-          "wordCount": 5413,
-          "title": "Reddit To Offer Shares In IPO To 75,000 of Its Most Active Users",
-          "imageUrl": "https://a.fsdn.com/sd/topics/business_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/02/21/2129233/chatgpt-goes-temporarily-insane-with-unexpected-outputs-spooking-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "BeauHD",
-          "description": "An anonymous reader quotes a report from Ars Technica: On Tuesday, ChatGPT users began reporting unexpected outputs from OpenAI's AI assistant, flooding the r/ChatGPT Reddit sub with reports of the AI assistant \"having a stroke,\" \"going insane,\" \"rambling,\" and \"losing it.\" OpenAI has acknowledged the problem and is working on a fix, but the experience serves as a high-profile example of how some people perceive malfunctioning large language models, which are designed to mimic humanlike output. ChatGPT is not alive and does not have a mind to lose, but tugging on human metaphors (called \"anthropomorphization\") seems to be the easiest way for most people to describe the unexpected outputs they have been seeing from the AI model. They're forced to use those terms because OpenAI doesn't share…",
-          "link": "https://slashdot.org/story/24/02/21/2129233/chatgpt-goes-temporarily-insane-with-unexpected-outputs-spooking-users?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T21:30:00.000Z",
-          "wordCount": 7201,
-          "title": "ChatGPT Goes Temporarily 'Insane' With Unexpected Outputs, Spooking Users",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/21/2026232/chinas-rush-to-dominate-ai-comes-with-a-twist-it-depends-on-us-technology?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "China's tech firms were caught off guard by breakthroughs in generative artificial intelligence. Beijing's regulations and a sagging economy aren't helping. From a report: In November, a year after ChatGPT's release, a relatively unknown Chinese start-up leaped to the top of a leaderboard that judged the abilities of open-source artificial intelligence systems. The Chinese firm, 01.AI, was only eight months old but had deep-pocketed backers and a $1 billion valuation and was founded by a well-known investor and technologist, Kai-Fu Lee. In interviews, Mr. Lee presented his A.I. system as an alternative to options like Meta's generative A.I. model, called LLaMA. There was just one twist: Some of the technology in 01.AI's system came from LLaMA. Mr. Lee's start-up then built on Meta's techno…",
-          "link": "https://news.slashdot.org/story/24/02/21/2026232/chinas-rush-to-dominate-ai-comes-with-a-twist-it-depends-on-us-technology?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T20:27:00.000Z",
-          "wordCount": 5613,
-          "title": "China's Rush To Dominate AI Comes With a Twist: It Depends on US Technology",
-          "imageUrl": "https://a.fsdn.com/sd/topics/china_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/21/1919211/firefly-software-snafu-sends-lockheed-satellite-on-short-lived-space-safari?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A software error on the part of Firefly Aerospace doomed Lockheed Martin's Electronic Steerable Antenna (ESA) demonstrator to a shorter-than-expected orbital life following a botched Alpha launch. From a report: According to Firefly's mission update, the error was in the Guidance, Navigation, and Control (GNC) software algorithm, preventing the system from sending the necessary pulse commands to the Reaction Control System (RCS) thrusters before the relight of the second stage. The result was that Lockheed's payload was left in the wrong orbit, and Firefly's engineers were left scratching their heads. \n\nThe launch on December 22, 2023 -- dubbed \"Fly the Lightning\" -- seemed to go well at first. It was the fourth for the Alpha, and after Firefly finally registered a successful launch a few months earlier in September, initial indications looked good. However, a burn of the second stage to circularize the orbit did not go to plan, and Lockheed's satellite was left in the wrong orbit, with little more than weeks remaining until it re-entered the atmosphere. \n\nAs it turned out, the Lockheed team completed their primary mission objectives. The payload was, after all, designed to demonstrate faster on-orbit sensor calibration. Just perhaps not quite that fast. Software issues aboard spacecraft are becoming depressingly commonplace. A recent example was the near disastrous first launch of Boeing's CST-100 Starliner, where iffy code could have led, in NASA parlance, to \"spacecraft loss.\" In a recent interview with The Register, former Voyager scientist Garry Hunt questioned if the commercial spaceflight sector of today would take the same approach to quality as the boffins of the past.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/21/1919211/firefly-software-snafu-sends-lockheed-satellite-on-short-lived-space-safari?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T19:19:00.000Z",
-          "wordCount": 5345,
-          "title": "Firefly Software Snafu Sends Lockheed Satellite on Short-Lived Space Safari",
-          "imageUrl": "https://a.fsdn.com/sd/topics/bug_64.png"
-        },
-        {
-          "id": "https://games.slashdot.org/story/24/02/21/187249/microsofts-gaming-ceo-says-xbox-wont-go-all-digital-just-yet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "It's no surprise that the broader tech industry has largely moved away from physical disks to digital subscription-based models. But Microsoft's Gaming CEO Phil Spencer says Xbox isn't trying to do away with disks just yet -- even though making disk slots could become challenging in the future. From a report: \"Our strategy does not hinge on people moving all-digital,\" Spencer said in a recent interview with Game File. \"Getting rid of physical, that's not a strategic thing for us.\" While Spencer implied that disk slots have become somewhat old-school at this point, Xbox consoles will continue to offer both disk-compatible and diskless options if gamers still want to choose. Xbox hasn't confirmed yet whether the previously leaked diskless Xbox refresh of the Series X console is still coming, though. \n\n\"Gaming consoles themselves have kind of become the last consumer electronic device that has a drive,\" Spencer conceded, calling it a \"real issue.\" Because so few manufacturers are still making physical disk slots, it's possible making consoles with them could become cost prohibitive in the future. \"When you think about cogs that we're going to go put in a console -- and as you have fewer suppliers and fewer buyers -- the cost of the drive does have an impact,\" Spencer said.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://games.slashdot.org/story/24/02/21/187249/microsofts-gaming-ceo-says-xbox-wont-go-all-digital-just-yet?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T18:07:00.000Z",
-          "wordCount": 8308,
-          "title": "Microsoft's Gaming CEO Says Xbox Won't Go All-Digital Just Yet",
-          "imageUrl": "https://a.fsdn.com/sd/topics/xbox_64.png"
-        },
-        {
-          "id": "https://slashdot.org/story/24/02/21/1731206/microsoft-will-use-intel-to-manufacture-home-grown-processor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Intel has landed Microsoft as a customer for its made-to-order chip business, marking a key win for an ambitious turnaround effort under Chief Executive Officer Pat Gelsinger. From a report: Microsoft plans to use Intel's 18A manufacturing technology to make a forthcoming chip that the software maker designed in-house, the two companies said at an event Wednesday. They didn't identify the product, but Microsoft recently announced plans for two homegrown chips: a computer processor and an artificial intelligence accelerator. \n\nIntel has been seeking to prove it can compete in the foundry market, where companies produce custom chips for clients. It's a major shift for the semiconductor pioneer, which once had the world's most advanced chipmaking facilities and kept them to itself. These days, Intel is racing to catch up with companies like Taiwan Semiconductor Manufacturing Co., which leads the foundry industry. Microsoft, meanwhile, is looking to secure a steady supply of semiconductors to power its data-center operations -- especially as demand for AI grows. Designing its own chips also lets Microsoft fine-tune the products to its specific needs. \"We need a reliable supply of the most advanced, high-performance and high-quality semiconductors,\" Microsoft CEO Satya Nadella said in a statement. âoeThat's why we are so excited to work with Intel.\"\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://slashdot.org/story/24/02/21/1731206/microsoft-will-use-intel-to-manufacture-home-grown-processor?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T17:30:00.000Z",
-          "wordCount": 5276,
-          "title": "Microsoft Will Use Intel To Manufacture Home-Grown Processor",
-          "imageUrl": "https://a.fsdn.com/sd/topics/intel_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/21/1629259/us-offers-up-to-15-million-for-information-on-lockbit-leaders?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "A day after the U.S., UK and EU said they had disrupted the ransomware group LockBit, the State Department said the U.S. is offering a reward of up to $15 million for information leading to the identification or location of the leaders of the ransomware group.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/21/1629259/us-offers-up-to-15-million-for-information-on-lockbit-leaders?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T16:41:00.000Z",
-          "wordCount": 4775,
-          "title": "US Offers Up To $15 Million For Information on LockBit Leaders",
-          "imageUrl": "https://a.fsdn.com/sd/topics/security_64.png"
-        },
-        {
-          "id": "https://news.slashdot.org/story/24/02/21/166241/lives-vs-livelihoods-the-impact-of-the-great-recession-on-mortality-and-welfare?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Academics have found that the U.S. mortality declines during recessions, with \"reductions in air pollution... a quantitatively important mechanism.\" Abstract of a paper on National Bureau of Economic Research: We leverage spatial variation in the severity of the Great Recession across the United States to examine its impact on mortality and to explore implications for the welfare consequences of recessions. We estimate that an increase in the unemployment rate of the magnitude of the Great Recession reduces the average, annual age-adjusted mortality rate by 2.3 percent, with effects persisting for at least 10 years. Mortality reductions appear across causes of death and are concentrated in the half of the population with a high school degree or less. We estimate similar percentage reductions in mortality at all ages, with declines in elderly mortality thus responsible for about three-quarters of the total mortality reduction. Recession-induced mortality declines are driven primarily by external effects of reduced aggregate economic activity on mortality, and recession-induced reductions in air pollution appear to be a quantitatively important mechanism. Incorporating our estimates of pro-cyclical mortality into a standard macroeconomics framework substantially reduces the welfare costs of recessions, particularly for people with less education, and at older ages where they may even be welfare-improving.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://news.slashdot.org/story/24/02/21/166241/lives-vs-livelihoods-the-impact-of-the-great-recession-on-mortality-and-welfare?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T16:06:00.000Z",
-          "wordCount": 8909,
-          "title": "Lives vs. Livelihoods: The Impact of the Great Recession on Mortality and Welfare",
-          "imageUrl": "https://a.fsdn.com/sd/topics/usa_64.png"
-        },
-        {
-          "id": "https://apple.slashdot.org/story/24/02/21/1528235/apple-says-the-iphone-15s-battery-has-double-the-promised-lifespan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple has updated the iPhone 15's battery lifespan, noting the new handsets can retain 80 percent of their original charging capacity after 1,000 cycles -- double the company's previous estimate -- without any new hardware or software updates. From a report: Not so coincidentally, the change will arrive in time for upcoming EU regulations that will assign an energy grade for phones' battery longevity. Before today, Apple's online support documents quoted iPhone batteries as maintaining 80 percent of their original full charge after 500 cycles. But after the company retested long-term battery health in its 2023 smartphones -- iPhone 15, iPhone 15 Plus, iPhone 15 Pro and iPhone 15 Pro Max -- it found they can retain 80 percent capacity after at least 1,000 cycles. The company said its support documents will be updated on Tuesday to reflect the new estimate.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://apple.slashdot.org/story/24/02/21/1528235/apple-says-the-iphone-15s-battery-has-double-the-promised-lifespan?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T15:26:00.000Z",
-          "wordCount": 6550,
-          "title": "Apple Says the iPhone 15's Battery Has Double the Promised Lifespan",
-          "imageUrl": "https://a.fsdn.com/sd/topics/iphone_64.png"
-        },
-        {
-          "id": "https://it.slashdot.org/story/24/02/21/1431259/apple-rolls-out-imessage-upgrade-to-withstand-decryption-by-quantum-computers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Apple is rolling out an upgrade to its iMessage texting platform to defend against future encryption-breaking technologies. From a report: The new protocol, known as PQ3, is another sign that U.S. tech firms are bracing for a potential future breakthrough in quantum computing that could make current methods of protecting users' communications obsolete. \"More than simply replacing an existing algorithm with a new one, we rebuilt the iMessage cryptographic protocol from the ground up,\" an Apple blog post published on Wednesday reads. \"It will fully replace the existing protocol within all supported conversations this year.\" \n\nThe Cupertino, California-based iPhone maker says its encryption algorithms are state-of-the-art and that it has found no evidence so far of a successful attack on them. Still, government officials and scientists are concerned that the advent of quantum computers, advanced machines that tap in to the properties of subatomic particles, could suddenly and dramatically weaken those protections. Late last year, a Reuters investigation explored how the United States and China are racing to prepare for that moment, dubbed \"Q-Day,\" both by pouring money into quantum research and by investing in new encryption standards known as post-quantum cryptography. Washington and Beijing have traded allegations of intercepting massive amounts of encrypted data in preparation for Q-Day, an approach sometimes dubbed \"catch now, crack later.\" More on Apple's security blog.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://it.slashdot.org/story/24/02/21/1431259/apple-rolls-out-imessage-upgrade-to-withstand-decryption-by-quantum-computers?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T14:40:00.000Z",
-          "wordCount": 5471,
-          "title": "Apple Rolls Out iMessage Upgrade To Withstand Decryption By Quantum Computers",
-          "imageUrl": "https://a.fsdn.com/sd/topics/encryption_64.png"
-        },
-        {
-          "id": "https://tech.slashdot.org/story/24/02/21/1333233/google-launches-two-new-open-llms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "author": "msmash",
-          "description": "Barely a week after launching the latest iteration of its Gemini models, Google today announced the launch of Gemma, a new family of lightweight open-weight models. From a report: Starting with Gemma 2B and Gemma 7B, these new models were \"inspired by Gemini\" and are available for commercial and research usage. Google did not provide us with a detailed paper on how these models perform against similar models from Meta and Mistral, for example, and only noted that they are \"state-of-the-art.\" \n\nThe company did note that these are dense decoder-only models, though, which is the same architecture it used for its Gemini models (and its earlier PaLM models) and that we will see the benchmarks later today on Hugging Face's leaderboard. To get started with Gemma, developers can get access to ready-to-use Colab and Kaggle notebooks, as well as integrations with Hugging Face, MaxText and Nvidia's NeMo. Once pre-trained and tuned, these models can then run everywhere. While Google highlights that these are open models, it's worth noting that they are not open-source. Indeed, in a press briefing ahead of today's announcement, Google's Janine Banks stressed the company's commitment to open source but also noted that Google is very intentional about how it refers to the Gemma models.\n\n\n\n\n\n\n\nRead more of this story at Slashdot.",
-          "link": "https://tech.slashdot.org/story/24/02/21/1333233/google-launches-two-new-open-llms?utm_source=rss1.0mainlinkanon&utm_medium=feed",
-          "publishedOn": "2024-02-21T14:00:00.000Z",
-          "wordCount": 4772,
-          "title": "Google Launches Two New Open LLMs",
-          "imageUrl": "https://a.fsdn.com/sd/topics/ai_64.png"
         }
       ]
     }
