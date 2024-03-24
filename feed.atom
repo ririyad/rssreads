@@ -2,10 +2,276 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-23T00:58:34.485Z</updated>
+    <updated>2024-03-24T01:06:22.153Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Air Industry Trends Safer, But 'Flukish' Second Crash Led Boeing to Mishandled Media Storm, WSJ Argues]]></title>
+        <id>https://tech.slashdot.org/story/24/03/22/224255/air-industry-trends-safer-but-flukish-second-crash-led-boeing-to-mishandled-media-storm-wsj-argues?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/03/22/224255/air-industry-trends-safer-but-flukish-second-crash-led-boeing-to-mishandled-media-storm-wsj-argues?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T22:34:00.000Z</updated>
+        <summary type="html"><![CDATA[There's actually "a global trend toward increased air safety," notes a Wall Street Journal columnist. 
+
+And even in the case of the two fatal Boeing crashes five years ago, he stresses that they were "were two different crashes," with the second happening only "after Boeing and the FAA issued emergency directives instructing pilots how to compensate for Boeing's poorly designed flight control software. 
+
+"The story should have ended after the first crash except the second set of pilots behaved in unexpected, unpredictable ways, flying a flyable Ethiopian Airlines jet into the ground."
+
+Boeing is guilty of designing a fallible system and placing an undue burden on pilots. The evidence strongly suggests, however, that the Ethiopian crew was never required to master the simple remedy despite …]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[''Tetris Reversed'?  Alexey Pajitnov Shows Footage From Rediscovered Prototype for 'Tetris' Sequel]]></title>
+        <id>https://games.slashdot.org/story/24/03/23/1918240/tetris-reversed-alexey-pajitnov-shows-footage-from-rediscovered-prototype-for-tetris-sequel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/24/03/23/1918240/tetris-reversed-alexey-pajitnov-shows-footage-from-rediscovered-prototype-for-tetris-sequel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T21:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Tetris creator Alexey Pajitnov and others spoke at the Game Developers Conference about Tetris Reversed, reports VentureBeat — and told the story of "a lost prototype of a Tetris game that was never published."
+
+
+But little did Pajitnov know that an engineer in charge of the game, Vedran Klanac, had kept a copy of it. Through the help of intermediaries, he showed it to Pajitnov and the two shared their memories of what happened to the lost game... 
+
+Pajitnov has lived in the U.S. since 1991, where he has been involved in the development of games such as Pandora's Box and worked with companies such as Microsoft and WildSnake Software... Klanac is the CEO of Ocean Media, and he is originally from Zagreb, Croatia. He was an aerospace engineer who started his career in the games industry with …]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Problem for Sun-Blocking Cloud Geoengineering?  Clouds Dissipate]]></title>
+        <id>https://news.slashdot.org/story/24/03/23/1739254/a-problem-for-sun-blocking-cloud-geoengineering-clouds-dissipate?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/03/23/1739254/a-problem-for-sun-blocking-cloud-geoengineering-clouds-dissipate?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T20:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Slashdot reader christoban writes:
+
+In what may be an issue for Sun-obscuring strategies to combat global warming, it turns out that during solar eclipses, low level cumulus clouds rapidly disappear, reducing by a factor of 4, researchers have found.
+
+The news comes from the science magazine Eos (published by the nonprofit organization of atmosphere/ocean/space scientists, the American Geophysical Union).
+
+
+Victor J. H. Trees, a geoscientist at Delft University of Technology in the Netherlands, and his colleagues recently analyzed cloud cover data obtained during an annular eclipse in 2005, visible in parts of Europe and Africa. They mined visible and infrared imagery collected by two geostationary satellites operated by the European Organisation for the Exploitation of Meteorological Sate…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New 'Loop DoS' Attack May Impact Up to 300,000 Online Systems]]></title>
+        <id>https://it.slashdot.org/story/24/03/23/0553241/new-loop-dos-attack-may-impact-up-to-300000-online-systems?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/24/03/23/0553241/new-loop-dos-attack-may-impact-up-to-300000-online-systems?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T19:33:00.000Z</updated>
+        <summary type="html"><![CDATA[BleepingComputer reports on "a new denial-of-service attack dubbed 'Loop DoS' targeting application layer protocols." 
+
+According to their article, the attack "can pair network services into an indefinite communication loop that creates large volumes of traffic."
+
+Devised by researchers at the CISPA Helmholtz-Center for Information Security, the attack uses the User Datagram Protocol (UDP) and impacts an estimated 300,000 host and their networks. The attack is possible due to a vulnerability, currently tracked as CVE-2024-2169, in the implementation of the UDP protocol, which is susceptible to IP spoofing and does not provide sufficient packet verification. An attacker exploiting the vulnerability creates a self-perpetuating mechanism that generates excessive traffic without limits and wit…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Could a Guilty Plea Free Julian Assange From Jail?]]></title>
+        <id>https://yro.slashdot.org/story/24/03/23/0235255/could-a-guilty-plea-free-julian-assange-from-jail?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/03/23/0235255/could-a-guilty-plea-free-julian-assange-from-jail?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T18:34:00.000Z</updated>
+        <summary type="html"><![CDATA[America's Justice Department "is considering whether to allow Julian Assange to plead guilty to a reduced charge of mishandling classified information," reports the Wall Street Journal, citing "people familiar with the matter." 
+
+Though Assange faces trial for publishing thousands of confidential U.S. documents in 2010, this development opens up "the possibility of a deal that could eventually result in his release from a British jail," reports the Journal. 
+
+Where things stand currently:
+
+A U.K. court is currently considering whether to allow a last-ditch appeal by the 52-year-old. After U.S. prosecutors charged him in 2019, U.K. law-enforcement officials apprehended him, and he has been in a London prison ever since... Britain's High Court is expected to decide within weeks whether to gr…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflix's '3 Body Problem' Draws Mixed Reviews, Sparks Anger in China]]></title>
+        <id>https://entertainment.slashdot.org/story/24/03/23/0322244/netflixs-3-body-problem-draws-mixed-reviews-sparks-anger-in-china?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://entertainment.slashdot.org/story/24/03/23/0322244/netflixs-3-body-problem-draws-mixed-reviews-sparks-anger-in-china?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T17:34:00.000Z</updated>
+        <summary type="html"><![CDATA["My favorite kind of science fiction involves stories rooted in real science..." writes NPR's reviewer. "[T]here is something special about seeing characters wrestle with concepts closer to our current understanding of how the universe works." 
+
+The Verge calls it an "impressive" and "leaner" story than the book, arguing "it's a good one — and very occasionally a great one" that introduces the author's key ideas, though channelling "the book's spirit but not its brilliance." 
+
+And Slate calls it a "downright transformative" adaptation, "jettisoning most of the novel's characters and plucking scenes from all three books," while accusing it of "making the trilogy's expansive and philosophical story into something much more pedestrian and digestible." 
+
+
+
+But Reuters notes there's huge intere…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pregnancy May Increase Biological Age 2 Years - But Some End Up 'Younger']]></title>
+        <id>https://science.slashdot.org/story/24/03/23/025212/pregnancy-may-increase-biological-age-2-years---but-some-end-up-younger?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/03/23/025212/pregnancy-may-increase-biological-age-2-years---but-some-end-up-younger?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T16:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Slashdot reader sciencehabit shared this report from Science magazine:
+
+Nurturing a growing fetus requires a series of profound physical, hormonal, and chemical changes that may rewire every major organ in the body and can cause serious health complications such as hypertension and preeclampsia. But does being pregnant actually take years off your life...? 
+
+
+Today in Cell Metabolism, scientists report that the stress of pregnancy can cause a person's biological age to increase by up to 2 years — a trend that may reverse itself in the months that follow. In some cases, the authors write, those who breastfeed their children after giving birth may end up biologically "younger" than during early pregnancy. The finding represents yet another piece of "compelling" evidence that events during and after pregnancy can have far-reaching health consequences, says Elizabeth Bertone-Johnson, an epidemiologist at the University of Massachusetts Amherst who wasn't involved in the new study... 
+
+The discovery that biological aging isn't necessarily a linear process "came as a real surprise," says Kieran O'Donnell, a perinatal researcher at the Yale School of Medicine... But blood samples from 68 participants, collected 3 months after giving birth, revealed a dramatic about-face. Although being pregnant had initially aged their cells between 1 and 2 years, says O'Donnell, their biological age now appeared to be 3 to 8 years younger than it had been during early pregnancy — with different epigenetic clocks algorithms providing slightly bigger or smaller estimates.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Criticized For Changing the macOS version of cURL]]></title>
+        <id>https://apple.slashdot.org/story/24/03/23/0526257/apple-criticized-for-changing-the-macos-version-of-curl?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/24/03/23/0526257/apple-criticized-for-changing-the-macos-version-of-curl?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA["On December 28 2023, bugreport 12604 was filed in the curl issue tracker," writes cURL lead developer Daniel Stenberg:
+ 
+The title stated of the problem in this case was quite clear: flag -cacert behavior isn't consistent between macOS and Linux , and it was filed by Yuedong Wu. 
+
+The friendly reporter showed how the curl version bundled with macOS behaves differently than curl binaries built entirely from open source. Even when running the same curl version on the same macOS machine. 
+
+
+
+The curl command line option --cacert provides a way for the user to say to curl that this is the exact set of CA certificates to trust when doing the following transfer. If the TLS server cannot provide a certificate that can be verified with that set of certificates, it should fail and return error. Th…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Confirms Windows Server Security Update Caused Memory Leak, 'Unscheduled' Reboots]]></title>
+        <id>https://tech.slashdot.org/story/24/03/23/0448233/microsoft-confirms-windows-server-security-update-caused-memory-leak-unscheduled-reboots?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/03/23/0448233/microsoft-confirms-windows-server-security-update-caused-memory-leak-unscheduled-reboots?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA["Microsoft confirmed that a memory leak introduced with the March 2024 Windows Server security updates is behind a widespread issue causing Windows domain controllers to crash," BleepingComputer reported Thursday. 
+
+Friday Microsoft wrote that the issue "was resolved in the out-of-band update KB5037422," only available via the Microsoft Update Catalog. (The update "is not available from Windows Update and will not install automatically.") 
+
+BleepingComputer reported the leak only affected "enterprise systems using the impacted Windows Server platform," and home users were not affected. But Microsoft confirmed it impacted all domain controller servers with the latest Windows Server 2012 R2, 2016, 2019, and 2022 updates:
+
+
+As BleepingComputer first reported on Wednesday and as many admins have warned over the last week, affected servers are freezing and restarting unexpectedly due to a Local Security Authority Subsystem Service (LSASS) process memory leak introduced with this month's cumulative updates. 
+
+
+"Since installation of the March updates (Exchange as well as regular Windows Server updates) most of our DCs show constantly increasing lsass memory usage (until they die)," one admin said. 
+
+
+"Our symptoms were ballooning memory usage on the lsass.exe process after installing KB5035855 (Server 2016) and KB5035857 (Server 2022) to the point that all physical and virtual memory was consumed and the machine hung," another Windows admin told BleepingComputer. 
+
+The leak "is observed when on-premises and cloud-based Active Directory Domain Controllers service Kerberos authentication requests," Microsoft wrote. "Extreme memory leaks may cause LSASS to crash, which triggers an unscheduled reboot of underlying domain controllers..." 
+
+"We strongly recommend you do not apply the March 2024 security update on DCs and install KB5037422 instead..."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Trump's Truth Social Is Going Public]]></title>
+        <id>https://tech.slashdot.org/story/24/03/22/2137246/trumps-truth-social-is-going-public?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/03/22/2137246/trumps-truth-social-is-going-public?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from Wired: Former president Donald Trump'sTruth Social, a shameless Twitter clone, is set to become a publicly traded company as soon as next week. Shareholders of Digital World Acquisition Corp. voted on Friday to merge with Trump Media and Technology Group, the company behind Truth Social. The vote is a culmination of a years-long saga attempting to merge Trump Media with a publicly traded company in what's known as a SPAC deal. The company will trade under the ticker DJT once it goes public. [...] Truth Social looks nearly identical to Twitter, with some key distinctions. Instead of "tweeting," users post a "truth." A "retweet" is called a "retruth." Unlike many right-wing Twitter clones, the site functions well, has remained mostly online, and actually appears to have a somewhat active user base. But since launching in February 2022, after Trump was kicked off of mainstream platforms for inciting violence during the January 6 riot at the Capitol, the company has been mired in controversy.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Truck-To-Truck Worm Could Infect Entire US Fleet]]></title>
+        <id>https://tech.slashdot.org/story/24/03/22/2153200/truck-to-truck-worm-could-infect-entire-us-fleet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://tech.slashdot.org/story/24/03/22/2153200/truck-to-truck-worm-could-infect-entire-us-fleet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Jessica Lyons reports via The Register: Vulnerabilities in common Electronic Logging Devices (ELDs) required in US commercial trucks could be present in over 14 million medium- and heavy-duty rigs, according to boffins at Colorado State University. In a paper presented at the 2024 Network and Distributed System Security Symposium, associate professor Jeremy Daily and systems engineering graduate students Jake Jepson and Rik Chatterjee demonstrated how ELDs can be accessed over Bluetooth or Wi-Fi connections to take control of a truck, manipulate data, and spread malware between vehicles. "These findings highlight an urgent need to improve the security posture in ELD systems," the trio wrote [PDF].
+ 
+The authors did not specify brands or models of ELDs that are vulnerable to the security fl…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Surpasses Doctors In Spotting Early Breast Cancer Signs In NHS Trial]]></title>
+        <id>https://science.slashdot.org/story/24/03/22/2146207/ai-surpasses-doctors-in-spotting-early-breast-cancer-signs-in-nhs-trial?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/03/22/2146207/ai-surpasses-doctors-in-spotting-early-breast-cancer-signs-in-nhs-trial?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An AI tool named Mia, tested by the NHS, successfully detected signs of breast cancer in 11 women which had been missed by human doctors. The BBC reports: The tool, called Mia, was piloted alongside NHS clinicians and analyzed the mammograms of over 10,000 women. Most of them were cancer-free, but it successfully flagged all of those with symptoms, as well as an extra 11 the doctors did not identify. At their earliest stages, cancers can be extremely small and hard to spot. The BBC saw Mia in action at NHS Grampian, where we were shown tumors that were practically invisible to the human eye. But, depending on their type, they can grow and spread rapidly.
+ 
+Barbara was one of the 11 patients whose cancer was flagged by Mia but had not been spotted on her scan when it was studied by the hospital radiologists. Because her 6mm tumor was caught so early she had an operation but only needed five days of radiotherapy. Breast cancer patients with tumors which are smaller than 15mm when discovered have a 90% survival rate over the following five years. Barbara said she was pleased the treatment was much less invasive than that of her sister and mother, who had previously also battled the disease. Without the AI tool's assistance, Barbara's cancer would potentially not have been spotted until her next routine mammogram three years later. She had not experienced any noticeable symptoms. "These results are encouraging and help to highlight the exciting potential AI presents for diagnostics. There is no question that real-life clinical radiologists are essential and irreplaceable, but a clinical radiologist using insights from validated AI tools will increasingly be a formidable force in patient care." said Dr Katharine Halliday, President of the Royal College of Radiologists.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[World's First Nuclear Fusion-Powered Electric Propulsion Drive Unveiled]]></title>
+        <id>https://hardware.slashdot.org/story/24/03/22/2029229/worlds-first-nuclear-fusion-powered-electric-propulsion-drive-unveiled?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://hardware.slashdot.org/story/24/03/22/2029229/worlds-first-nuclear-fusion-powered-electric-propulsion-drive-unveiled?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T03:30:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from InterestingEngineering: A concept that began as a doodle at a conference years ago is now becoming a reality. RocketStar Inc. has showcased (PDF) its advanced nuclear-based propulsion technology called the FireStar Drive. It is said to be the world's first electric device for spacecraft propulsion boosted by nuclear fusion. Recently, the company announced the successful initial demonstration of this electric propulsion technology.
+ 
+The FireStar Drive harnesses the power of nuclear fusion to improve the performance of RocketStar's "water-fueled pulsed plasma thruster." A spacecraft's thrusters perform various functions, including propulsion, orbital changes, and even docking with other orbiting platforms. Moreover, the device employs a unique sort of aneutronic nuclear fusion, which is a fusion reaction that generates few to no neutrons as a byproduct. "The base thruster generates high-speed protons through the ionization of water vapor," noted the press release. Therefore, these protons collide with the nucleus of a boron atom, which starts the fusion reaction. The FireStar Drive begins a fusion process by adding boron into the thruster exhaust, resulting in high-energy particles that increase thrust.
+ 
+RocketStar's current thruster is dubbed M1.5. Plans to test the FireStar Drive are now ongoing. The in-space technological demonstration will take place aboard D-Orbit's patented OTV ION Satellite Carrier. The SpaceX Transporter rideshare mission will likely launch the demo test in July and October 2024. Furthermore, the team plans to undertake ground tests this year, with more in-space demonstrations scheduled for February 2025. The FireStar Drive will undergo testing as a payload aboard Rogue Space System's Barry-2 spacecraft in the same month. The thruster M1.5 is already ready for delivery to clients.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New 'GoFetch' Apple CPU Attack Exposes Crypto Keys]]></title>
+        <id>https://it.slashdot.org/story/24/03/22/2021240/new-gofetch-apple-cpu-attack-exposes-crypto-keys?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/24/03/22/2021240/new-gofetch-apple-cpu-attack-exposes-crypto-keys?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T02:02:00.000Z</updated>
+        <summary type="html"><![CDATA["There is a new side channel attack against Apple 'M' series CPUs that does not appear to be fixable without a major performance hit," writes Slashdot reader EncryptedSoldier. SecurityWeek reports: A team of researchers representing several universities in the United States has disclosed the details of a new side-channel attack method that can be used to extract secret encryption keys from systems powered by Apple CPUs. The attack method, dubbed GoFetch, has been described as a microarchitectural side-channel attack that allows the extraction of secret keys from constant-time cryptographic implementations. These types of attacks require local access to the targeted system. The attack targets a hardware optimization named data memory-dependent prefetcher (DMP), which attempts to prefetch ad…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Database For UK Nurse Registration 'Completely Unacceptable']]></title>
+        <id>https://developers.slashdot.org/story/24/03/22/2013259/database-for-uk-nurse-registration-completely-unacceptable?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/24/03/22/2013259/database-for-uk-nurse-registration-completely-unacceptable?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-23T01:25:00.000Z</updated>
+        <summary type="html"><![CDATA[Lindsay Clark reports via The Register: The UK Information Commissioner's Office has received a complaint detailing the mismanagement of personal data at the Nursing and Midwifery Council (NMC), the regulator that oversees worker registration. Employment as a nurse or midwife depends on enrollment with the NMC in the UK. According to whistleblower evidence seen by The Register, the databases on which the personal information is held lack rudimentary technical standards and practices. The NMC said its data was secure with a high level of quality, allowing it to fulfill its regulatory role, although it was on "a journey of improvement." But without basic documentation, or the primary keys or foreign keys common in database management, the Microsoft SQL Server databases -- holding information…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Users Shocked To Find Instagram Limits Political Content By Default]]></title>
         <id>https://tech.slashdot.org/story/24/03/22/207236/users-shocked-to-find-instagram-limits-political-content-by-default?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -325,6 +591,16 @@ Include Future and IntoFuture in the 2024 prelude. This is implemented, and wait
 Reserve the gen keyword. This is waiti…]]></summary>
         <author>
             <name>Inside Rust Blog</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[People & Blogs: Taylor Troesh]]></title>
+        <id>https://manuelmoreale.com/pb-taylor-troesh</id>
+        <link href="https://manuelmoreale.com/pb-taylor-troesh"/>
+        <updated>2024-03-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I collect hobbies, build things, incite chaos, and engage in elaborate tomfoolery.]]></summary>
+        <author>
+            <name>taylor.town</name>
         </author>
     </entry>
     <entry>
@@ -8729,292 +9005,6 @@ Read more of this story at Slashdot.]]></summary>
         <summary type="html"><![CDATA[Bruce66423 writes: The data watchdog has ordered a leisure centre group to stop using facial recognition tech to monitor its staff. The Information Commissioner's Office (ICO) says Serco Leisure has been unlawfully processing the biometric data of more than 2,000 employees at 38 UK leisure facilities. It did so to check staff attendance - a practice the ICO said was "neither fair nor proportionate." 
 
 Serco Leisure says it will comply with the enforcement notice. But it added it had taken legal advice prior to installing the cameras, and said staff had not complained about them during the five years they had been in place. The firm said it was to "make clocking-in and out easier and simpler" for workers. "We engaged with our team members in advance of its roll-out and its introduction was well-received by colleagues," the company said in a statement.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Lands Unmanned 'Odysseus' Spacecraft On Moon]]></title>
-        <id>https://science.slashdot.org/story/24/02/23/0020215/us-lands-unmanned-odysseus-spacecraft-on-moon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/24/02/23/0020215/us-lands-unmanned-odysseus-spacecraft-on-moon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T00:25:00.000Z</updated>
-        <summary type="html"><![CDATA[The first privately built spacecraft has successfully landed on the lunar surface on Thursday. "We can confirm, without a doubt, that our equipment is on the surface of the moon," said Stephen Altemus, CEO of Intuitive Machines, the Houston-based company that operated the Odysseus spacecraft. "Welcome to the moon." From a report: As it approached the surface of the moon, Odysseus lost contact with NASA, resulting in several anxious minutes for those who worked on the joint project. But after approximately 15 minutes of searching, officials confirmed that they were once again receiving signals from the spacecraft. "A commercial lander named Odysseus, powered by a company called Intuitive Machines, launched up on a Space X rocket, carrying a bounty of NASA scientific instruments and bearing the dream of a new adventure, a new adventure in science, innovation and American leadership, well, all of that aced the landing of a lifetime," NASA Administrator Bill Nelson said after contact had been reestablished. "Today for the first time in more than a half century, the U.S. has returned to the moon."
- 
-Altemus had estimated that Odysseus had an 80% chance of successfully landing on the moon, citing previous failed attempts as an advantage. "We've stood on the shoulders of everybody who's tried before us," Altemus said. It was the first American mission to land on the moon since Apollo 17 in 1972 and the first private spacecraft ever to make a soft landing there. While it was a private mission, NASA paid Intuitive Machines $118 million to deliver six instruments to the moon. And the U.S. space agency provided streaming video of the landing.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Snapchat Isn't Liable For Connecting 12-Year-Old To Convicted Sex Offenders]]></title>
-        <id>https://yro.slashdot.org/story/24/02/22/2146243/snapchat-isnt-liable-for-connecting-12-year-old-to-convicted-sex-offenders?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/24/02/22/2146243/snapchat-isnt-liable-for-connecting-12-year-old-to-convicted-sex-offenders?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Ars Technica: A judge has dismissed (PDF) a complaint from a parent and guardian of a girl, now 15, who was sexually assaulted when she was 12 years old after Snapchat recommended that she connect with convicted sex offenders. According to the court filing, the abuse that the girl, C.O., experienced on Snapchat happened soon after she signed up for the app in 2019. Through its "Quick Add" feature, Snapchat "directed her" to connect with "a registered sex offender using the profile name JASONMORGAN5660." After a little more than a week on the app, C.O. was bombarded with inappropriate images and subjected to sextortion and threats before the adult user pressured her to meet up, then raped her. Cops arrested the adult user the next day, resulting in h…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Justice Department Gets a Chief AI Officer]]></title>
-        <id>https://slashdot.org/story/24/02/22/2138227/the-justice-department-gets-a-chief-ai-officer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/02/22/2138227/the-justice-department-gets-a-chief-ai-officer?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T23:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Princeton professor and technology law researcher Jonathan Mayer has been appointed as the Justice Department's first chief AI officer. The Verge reports: Attorney General Merrick Garland said in a statement that appointing an AI officer was important for the department to "keep pace with rapidly evolving scientific and technological developments." One of Mayer's responsibilities will be to build a team of technical and policy experts around cybersecurity and AI. Mayer will also serve as the department's chief science and technology advisor and help recruit tech talent.
- 
-Mayer held technology roles in government before his new Justice Department gig, according to his bio in Princeton's Center for Information Technology Policy. He served as an adviser on technology law and policy to Vice President Kamala Harris when she was still in the Senate. Mayer was also the chief technologist in the enforcement office of the Federal Communications Commission.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bluesky Now Open To Federation]]></title>
-        <id>https://tech.slashdot.org/story/24/02/22/2133228/bluesky-now-open-to-federation?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/22/2133228/bluesky-now-open-to-federation?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T22:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Longtime Slashdot reader Rei writes: In a blog post today, Bluesky, the social media network founded by Jay Graber, announced that they have finally opened to federation. Users can now operate their own PDS (backend) servers. How to do so is discussed on the developers' blog and a new Discord channel for PDS administrators.
- 
-As the blog notes, there are key differences between the AT Protocol/Bluesky federation and ActivityPub/Mastodon federation, including: global conversation (rather than local-server based with remote content only brought in from follows); a decentralized user account not bound to a specific host; user-composable moderation lists not inherently tied to a specific server, offsetting the need for defederation; user-composable feeds/algorithms, not tied to servers; and full account portability, without the need to be initiated by your server, protecting users from rogue admins or servers that disappear.
- 
-Despite the difference, a number of projects, such as Bridgy-Fed, plan to bridge Bluesky and Mastodon together, with all of Bluesky appearing as a single Mastodon server on ActivityPub, and Mastodon users being translated to a decentralized identifier (DID) for AT Protocol (atproto) calls.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AT&amp;T Restores Service After Massive, Nationwide Outage]]></title>
-        <id>https://mobile.slashdot.org/story/24/02/22/2127240/att-restores-service-after-massive-nationwide-outage?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://mobile.slashdot.org/story/24/02/22/2127240/att-restores-service-after-massive-nationwide-outage?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T22:02:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from CNN Business: AT&T's network went down for many of its customers across the United States Thursday morning, leaving customers unable to place calls, text or access the internet. By a little after 3 pm ET, roughly 11 hours after reports of the outage first emerged, the company said that it had restored service to all impacted customers. "We have restored wireless service to all our affected customers. We sincerely apologize to them," AT&T said in a statement. The company added that it is "taking steps to ensure our customers do not experience this again in the future."
- 
-The Federal Communications Commission confirmed Thursday afternoon that it is investigating the outage. The White House says federal agencies are in touch with AT&T about network out…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Can Any English Word Be Turned Into a Synonym For 'Drunk'? Not All, But Many Can.]]></title>
-        <id>https://slashdot.org/story/24/02/22/1851240/can-any-english-word-be-turned-into-a-synonym-for-drunk-not-all-but-many-can?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/02/22/1851240/can-any-english-word-be-turned-into-a-synonym-for-drunk-not-all-but-many-can?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T21:20:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: British comedian Michael McIntyre has a standard bit in his standup routines concerning the many (many!) slang terms posh British people use to describe being drunk. These include "wellied," "trousered," and "ratarsed," to name a few. McIntyre's bit rests on his assertion that pretty much any English word can be modified into a so-called "drunkonym," bolstered by a few handy examples: "I was utterly gazeboed," or "I am going to get totally and utterly carparked." 
-
-It's a clever riff that sparked the interest of two German linguists. Christina Sanchez-Stockhammer of Chemnitz University of Technology and Peter Uhrig of FAU Erlangen-Nuremberg decided to draw on their expertise to test McIntyre's claim that any word in the English language could be modified to mean "being in a state of high inebriation." Given their prevalence, "It is highly surprising that drunkonyms are still under-researched from a linguistic perspective," the authors wrote in their new paper published in the Yearbook of the German Cognitive Linguistics Association. Bonus: the authors included an extensive appendix of 546 English synonyms for "drunk," drawn from various sources, which makes for entertaining reading. 
-
-There is a long tradition of coming up with colorful expressions for drunkenness in the English language, with the Oxford English Dictionary listing a usage as early as 1382: "merry," meaning "boisterous or cheerful due to alcohol; slight drunk, tipsy." Another OED entry from 1630 lists "blinde" (as in blind drunk) as a drunkonym. Even Benjamin Franklin got into the act with his 1737 Drinker's Dictionary, listing 288 words and phrases for denoting drunkenness. By 1975, there were more than 353 synonyms for "drunk" listed in that year's edition of the Dictionary of American Slang. By 1981, linguist Harry Levine noted 900 terms used as drunkonyms.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supreme Court Seems Skeptical of EPA's 'Good Neighbor' Rule on Power Plant Pollution]]></title>
-        <id>https://news.slashdot.org/story/24/02/22/1832218/supreme-court-seems-skeptical-of-epas-good-neighbor-rule-on-power-plant-pollution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/22/1832218/supreme-court-seems-skeptical-of-epas-good-neighbor-rule-on-power-plant-pollution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T20:42:00.000Z</updated>
-        <summary type="html"><![CDATA[The Supreme Court's conservative majority seemed skeptical Wednesday as the Environmental Protection Agency sought to continue enforcing an anti-air-pollution rule in 11 states while separate legal challenges proceed around the country. From a report: The EPA's "good neighbor" rule is intended to restrict smokestack emissions from power plants and other industrial sources that burden downwind areas with smog-causing pollution. Three energy-producing states -- Ohio, Indiana and West Virginia -- challenged the rule, along with the steel industry and other groups, calling it costly and ineffective. The rule is on hold in a dozen states because of the court challenges. 
-
-The Supreme Court, with a 6-3 conservative majority, has increasingly reined in the powers of federal agencies, including the EPA, in recent years. The justices have restricted EPA's authority to fight air and water pollution -- including a landmark 2022 ruling that limited EPA's authority to regulate carbon dioxide emissions from power plants that contribute to global warming. The court also shot down a vaccine mandate and blocked President Joe Biden's student loan forgiveness program. 
-
-The court is currently weighing whether to overturn its 40-year-old Chevron decision, which has been the basis for upholding a wide range of regulations on public health, workplace safety and consumer protections. A lawyer for the EPA said the "good neighbor" rule was important to protect downwind states that receive unwanted air pollution from other states. Besides the potential health impacts, the states face their own federal deadlines to ensure clean air, said Deputy U.S. Solicitor General Malcolm Stewart, representing the EPA.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GPay App and P2P Payments Will Stop Working in the US This June]]></title>
-        <id>https://news.slashdot.org/story/24/02/22/188224/gpay-app-and-p2p-payments-will-stop-working-in-the-us-this-june?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/22/188224/gpay-app-and-p2p-payments-will-stop-working-in-the-us-this-june?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T20:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: When Google Wallet launched in 2022, Google kept the "GPay" app around in a handful of countries. The company announced today that the old Google Pay app is soon going away in the US. That app, which appears as "GPay" on your Android homescreen, was Google's previous vision for mobile payments and finance. 
-
-It was "designed around your relationships with people and businesses" with conversation-like threads serving as a purchase history, while keeping track of your spending was another big aspect. GPay will stop working in the US from June 4, 2024. It will remain available for users in India and Singapore as Google continues to "build for the unique needs in those countries." As part of the app going away, Google is shutting down peer-to-peer payments that let you send, request, or receive money from others in the US. Google's P2P offering never really took off.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FTC To Ban Avast From Selling Browsing Data For Advertising Purposes]]></title>
-        <id>https://news.slashdot.org/story/24/02/22/183247/ftc-to-ban-avast-from-selling-browsing-data-for-advertising-purposes?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/22/183247/ftc-to-ban-avast-from-selling-browsing-data-for-advertising-purposes?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T19:20:00.000Z</updated>
-        <summary type="html"><![CDATA[The U.S. FTC will order Avast to pay $16.5 million and ban the company from selling the users' web browsing data or licensing it for advertising purposes. From a report: The complaint says Avast violated millions of consumers' rights by collecting, storing, and selling their browsing data without their knowledge and consent while misleading them that the products used to harvest their data would block online tracking. "While the FTC's privacy lawsuits routinely take on firms that misrepresent their data practices, Avast's decision to expressly market its products as safeguarding people's browsing records and protecting data from tracking only to then sell those records is especially galling," said FTC Chair Lina M. Khan. 
-
-"Moreover, the volume of data Avast released is staggering: the complaint alleges that by 2020 Jumpshot had amassed "more than eight petabytes of browsing information dating back to 2014." More specifically, the FTC says UK-based company Avast Limited harvested consumers' web browsing information without their knowledge or consent using Avast browser extensions and antivirus software since at least 2014.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reddit in AI Content Licensing Deal With Google]]></title>
-        <id>https://tech.slashdot.org/story/24/02/22/1757233/reddit-in-ai-content-licensing-deal-with-google?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/22/1757233/reddit-in-ai-content-licensing-deal-with-google?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T18:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Social media platform Reddit has struck a deal with Google to make its content available for training the search engine giant's AI models. Reuters: The contract with Alphabet-owned Google is worth about $60 million per year, according to one of the sources. The deal underscores how Reddit, which is preparing for a high-profile stock market launch, is seeking to generate new revenue amid fierce competition for advertising dollars from the likes of TikTok and Meta Platform's Facebook.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Instacart's AI Recipes Look Literally Impossible]]></title>
-        <id>https://tech.slashdot.org/story/24/02/22/1410215/instacarts-ai-recipes-look-literally-impossible?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/22/1410215/instacarts-ai-recipes-look-literally-impossible?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: I hate cookbooks without pictures. We eat with our eyes first, as chefs love to say, but what's more important to me is that if I'm making a dish for the first time, I want to see what the final product should look like to know I did it right. It's not so much about presentation as it is about knowing that I browned the chicken skin enough. An image of a recipe will not be this useful, I think, if it was AI-generated, and especially so if the fact that the image was AI-generated wasn't disclosed by the recipe. That, to my surprise, is exactly the case with thousands of recipes the grocery delivery service Instacart is suggesting to its users. Some of the recipes include unheard of measurements and ingredients that don't appear to exist. 
-
-[...] As I was browsing, I noticed that Instacart was offering me recipes that appeared to complement the ingredients I was looking at. The concept doesn't make a ton of sense to me -- I'm going to Instacart for the ingredients I know I need for the food I know I'm going to make, not for food inspo -- but I had to click on a recipe for "Watermelon Popsicle with Chocolate Chips" because it looked weird in the thumbnail. Since I have eyeballs with optical nerves that are connected to a semi-functioning brain I can tell that the image was generated by AI. To be more specific, I can see that the top corner of the plate doesn't match its square shape, that the table-ish looking thing it's resting on is made up of jumbled slats (AI is particularly bad at making these series of long, straight lines), and then there are the titular watermelon popsicles, which defy physical reality. They clip into each other like bad 3D models in a video game, one of them to the left appears hollow, and for some reason they are skewered by what appears to be asparagus spears on the bottom end and capped by impossible small watermelon rinds at the top.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11 Users Herded Toward 23H2 Via Automatic Upgrade]]></title>
-        <id>https://tech.slashdot.org/story/24/02/22/1445220/windows-11-users-herded-toward-23h2-via-automatic-upgrade?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/22/1445220/windows-11-users-herded-toward-23h2-via-automatic-upgrade?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Windows 11 users still clinging to the past are to be dragged into a bright, 23H2-shaped future by Microsoft, whether they want to or not. From a report: Microsoft has added a notification to its Release Health dashboard warning Windows 11 users that it is time for the beatings automatic upgrades to begin. "We are starting to update eligible Windows 11 devices automatically to version 23H2." 
-
-As for what eligible means, according to Microsoft, this is "Windows 11 devices that have reached or are approaching end of servicing." Support for Windows 11 21H2 came to an end last year on October 10, 2023, and version 22H2 is due to end on October 8, 2024. Win 11 23H2 itself will endure until November 11, 2025, or just after the plug gets pulled on Windows 10. The update comes shortly after Microsoft quashed the last of its compatibility holds in Windows 11 23H2, which affected customers attempting to use the Co-pilot preview with multiple monitors. Icons tended to move unexpectedly between monitors.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon Says 'No Changes' Coming To Freevee Despite Reports of the Streamer Shuttering]]></title>
-        <id>https://entertainment.slashdot.org/story/24/02/22/1440244/amazon-says-no-changes-coming-to-freevee-despite-reports-of-the-streamer-shuttering?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://entertainment.slashdot.org/story/24/02/22/1440244/amazon-says-no-changes-coming-to-freevee-despite-reports-of-the-streamer-shuttering?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon is pushing back against reports that its Freevee service is shuttering. The Wrap: AdWeek reported the news, which it said is part of an effort by the tech giant to shift its focus to Prime Video. Sources familiar with the matter told the outlet that sunsetting Freevee could happen sometime within the second quarter. However, a spokesperson for Amazon said there are "no changes" coming to Freevee. 
-
-"Amazon Freevee remains an important streaming offering providing both Prime and non-Prime customers thousands of hit movies, shows and originals, all for free," they added. Freevee, which was formerly known as IMDb TV until a rebrand in 2022, offers thousands of premium movies and TV shows, including originals such as "Bosch: Legacy," "Judy Justice" and "Jury Duty" and over 150 free ad-supported streaming TV (FAST) channels.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Varda Space, Rocket Lab Nail First-of-Its-Kind Spacecraft Landing in Utah]]></title>
-        <id>https://science.slashdot.org/story/24/02/22/1545243/varda-space-rocket-lab-nail-first-of-its-kind-spacecraft-landing-in-utah?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/24/02/22/1545243/varda-space-rocket-lab-nail-first-of-its-kind-spacecraft-landing-in-utah?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A spacecraft containing pharmaceutical drugs that were grown on orbit has finally returned to Earth today after more than eight months in space. From a report: Varda Space Industries' in-space manufacturing capsule, called Winnebago-1, landed in the Utah desert at around 4:40 p.m. EST. Inside the capsule are crystals of the drug ritonavir, which is used to treat HIV/AIDS. It marks a successful conclusion of Varda's first experimental mission to grow pharmaceuticals on orbit, as well as the first time a commercial company has landed a spacecraft on U.S. soil, ever. The capsule will now be sent back to Varda's facilities in Los Angeles for analysis, and the vials of ritonavir will be shipped to a research company called Improved Pharma for post-flight characterization, Varda said in a statement. The company will also be sharing all the data collected through the mission with the Air Force and NASA, per existing agreements with those agencies. 
-
-The first-of-its-kind reentry and landing is also a major win for Rocket Lab, which partnered with Varda on the mission. Rocket Lab hosted Varda's manufacturing capsule inside its Photon satellite bus; through the course of the mission, Photon provided power, communications, attitude control and other essential operations. At the mission's conclusion, the bus executed a series of maneuvers and de-orbit burns that put the miniature drug lab on the proper reentry trajectory. The final engine burn was executed shortly after 4 p.m. EST. Photon burned up in the atmosphere as planned while the capsule, protected by a heat shield and with the aid of a parachute, continued to land.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Health Tech Giant Change Healthcare Hit by Cyberattack]]></title>
-        <id>https://tech.slashdot.org/story/24/02/22/144230/us-health-tech-giant-change-healthcare-hit-by-cyberattack?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/22/144230/us-health-tech-giant-change-healthcare-hit-by-cyberattack?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-22T15:21:00.000Z</updated>
-        <summary type="html"><![CDATA[U.S. healthcare technology giant Change Healthcare has confirmed a cyberattack on its systems. In a brief statement, the company said it was "experiencing a network interruption related to a cyber security issue." From a report: "Once we became aware of the outside threat, in the interest of protecting our partners and patients, we took immediate action to disconnect our systems to prevent further impact," Change Healthcare wrote on its status page. "The disruption is expected to last at least through the day." 
-
-The incident began early on Tuesday morning on the U.S. East Coast, according to the incident tracker. The specific nature of the cybersecurity incident was not disclosed. Most of the login pages for Change Healthcare were inaccessible or offline when TechCrunch checked at the time of writing. Michigan local newspaper the Huron Daily Tribune is reporting that local pharmacies are experiencing outages due to the Change Healthcare cyberattack.
 
 
 
