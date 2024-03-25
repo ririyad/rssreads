@@ -2,10 +2,160 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-24T01:06:22.153Z</updated>
+    <updated>2024-03-25T01:02:37.451Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Chinese Spies Sell Access into Top US, UK Networks]]></title>
+        <id>https://it.slashdot.org/story/24/03/23/2052204/chinese-spies-sell-access-into-top-us-uk-networks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/24/03/23/2052204/chinese-spies-sell-access-into-top-us-uk-networks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-24T17:34:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shared this report from The Register:
+
+Chinese spies exploited a couple of critical-severity bugs in F5 and ConnectWise equipment earlier this year to sell access to compromised U.S. defense organizations, UK government agencies, and hundreds of other entities, according to Mandiant. 
+
+The Google-owned threat hunters said they assess, "with moderate confidence," that a crew they track as UNC5174 was behind the exploitation of CVE-2023-46747, a 9.8-out-of-10-CVSS-rated remote code execution bug in the F5 BIG-IP Traffic Management User Interface, and CVE-2024-1709, a path traversal flaw in ConnectWise ScreenConnect that scored a perfect 10 out of 10 CVSS severity rating. 
+
+UNC5174 uses the online persona Uteus, and has bragged about its links to China's Ministry of State …]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Steve Wozniak Decries Tracking's Effect on Privacy, Calls Out 'Hypocrisy' of Only Banning TikTok]]></title>
+        <id>https://yro.slashdot.org/story/24/03/24/1628205/steve-wozniak-decries-trackings-effect-on-privacy-calls-out-hypocrisy-of-only-banning-tiktok?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/03/24/1628205/steve-wozniak-decries-trackings-effect-on-privacy-calls-out-hypocrisy-of-only-banning-tiktok?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-24T16:34:00.000Z</updated>
+        <summary type="html"><![CDATA[In an interview Saturday, CNN first asked Steve Wozniak about Apple's "walled garden" approach — and whether there's any disconnect between Apple's stated interest in user security and privacy, and its own self-interest? 
+
+Wozniak responded, "I think there are things you can say on all sides of it.
+"I'm kind of glad for the protection that I have for my privacy and for you know not getting hacked as much. Apple does a better job than the others. 
+And tracking you — tracking you is questionable, but my gosh, look at what we're accusing TikTok of, and then go look at Facebook and Google... That's how they make their business! I mean, Facebook was a great idea. But then they make all their money just by tracking you and advertising. 
+And Apple doesn't really do that as much. I consider Apple the good guy. 
+
+So then CNN directly asked Wozniak's opinion about the proposed ban on TikTok in the U.S.
+ "Well, one, I don't understand it. I don't see why. I mean, I get a lot of entertainment out of TikTok — and I avoid the social web. But I love to watch TikTok, even if it's just for rescuing dog videos and stuff. 
+
+And so I'm thinking, well, what are we saying? We're saying 'Oh, you might be tracked by the Chinese'. Well, they learned it from us. 
+I mean, look, if you have a principle — a person should not be tracked without them knowing it? It's kind of a privacy principle — I was a founder of the EFF. And if you have that principle, you apply it the same to every company, or every country. You don't say, 'Here's one case where we're going to outlaw an app, but we're not going to do it in these other cases.' 
+
+So I don't like the hypocrisy. And that's always obviously common from a political realm.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ask Slashdot:  DuckDB Queries JSON with SQL.  But Will AI Change Code Syntax?]]></title>
+        <id>https://developers.slashdot.org/story/24/03/23/170217/ask-slashdot-duckdb-queries-json-with-sql-but-will-ai-change-code-syntax?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://developers.slashdot.org/story/24/03/23/170217/ask-slashdot-duckdb-queries-json-with-sql-but-will-ai-change-code-syntax?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-24T15:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Long-time Slashdot reader theodp writes: Among the amazing features of the in-process analytical database DuckDB, writes software engineer Paul Gross in DuckDB as the New jq, is that it has many data importers included without requiring extra dependencies. This means it can natively read and parse JSON as a database table, among many other formats. "Once I learned DuckDB could read JSON files directly into memory," Gross explains, "I realized that I could use it for many of the things where I'm currently using jq. In contrast to the complicated and custom jq syntax, I'm very familiar with SQL and use it almost daily." 
+
+The stark difference of the two programming approaches to the same problem — terse-but-cryptic jq vs. more-straightforward-to-most SQL — also raises some interesting questions: Will the use of Generative AI coding assistants more firmly entrench the status quo of the existing programming paradigms on whose codebases it's been trained? Or could it help bootstrap the acceptance of new, more approachable programming paradigms? 
+
+Had something like ChatGPT been around back in the Programming Windows 95 days, might people have been content to use Copilot to generate reams of difficult-to-maintain-and-enhance Windows C code using models trained on the existing codebases instead of exploring easier approaches to Windows programming like Visual BASIC?
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Video Game Voice Actors May Strike Over AI]]></title>
+        <id>https://games.slashdot.org/story/24/03/24/0039259/video-game-voice-actors-may-strike-over-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/24/03/24/0039259/video-game-voice-actors-may-strike-over-ai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-24T14:34:00.000Z</updated>
+        <summary type="html"><![CDATA["Hollywood is bracing for another actors strike, this time against the videogame industry," according to MarketWatch:
+
+"We're currently in bargaining with all the major game studios, and the major sticking point is AI," SAG-AFTRA National Executive Director Duncan Crabtree-Ireland said Thursday. "Actors at all levels are at risk of digital replication. We have strike authorization on that contract and it is, at this point — we could end up going on strike...." 
+
+The union, which navigated its way to a new film and TV contract after a 118-day strike against the Hollywood studios last year, is again focusing on regulating artificial intelligence and its impact on wages and jobs. "It will be a recurring issue with each successive contract" every three years, Crabtree-Ireland said.
+ 
+Some studios are already using AI-generated voices to save money, the article points out. "Actors and actresses should be very much afraid," Chris Mattmann, an adjunct research professor at the University of Southern California's Computer Science Department, says in the article. "Within three seconds, gen AI can effectively clone a voice." 
+
+
+The strike could affect Microsoft's Activision Publishing and Disney, as well as other major game publishers including Electronic Arts, Epic Games, and Warner Bros.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[93-Year-Old William Shatner Discusses 'Star Trek', Space, Mortality, and Captain Kirk's Death]]></title>
+        <id>https://entertainment.slashdot.org/story/24/03/24/0238247/93-year-old-william-shatner-discusses-star-trek-space-mortality-and-captain-kirks-death?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://entertainment.slashdot.org/story/24/03/24/0238247/93-year-old-william-shatner-discusses-star-trek-space-mortality-and-captain-kirks-death?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-24T11:34:00.000Z</updated>
+        <summary type="html"><![CDATA["It was three years of my, life you?" a 93-year-old William Shatner tells the Guardian when asked about playing Captain Kirk on the original Star Trek series from 1967 to 1969:
+
+It gladdens him to see how much joy the series has brought its many fans, but the richest rewards came in his introduction to science fiction, which activated and nurtured a lifelong curiosity about our species. He reminisces about meeting the great writers of the genre fondly yet frankly, honest enough to sort Ray Bradbury into "the category right below friend, I think". He devoured their novels and developed a fascination with the principle of defamiliarization, that concepts taken for granted can be understood anew when viewed through the vantage of a stranger in a strange land. "Good science fiction is humanity…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[It's 25 Years Later.  Are We All Now Trapped in 'The Matrix'?]]></title>
+        <id>https://entertainment.slashdot.org/story/24/03/23/201244/its-25-years-later-are-we-all-now-trapped-in-the-matrix?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://entertainment.slashdot.org/story/24/03/23/201244/its-25-years-later-are-we-all-now-trapped-in-the-matrix?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-24T07:34:00.000Z</updated>
+        <summary type="html"><![CDATA[It was March 24, 1999 that The Matrix premiered, premembers the Wall Street Journal. "To rewatch The Matrix is to be reminded of how primitive our technology was just 25 years ago. We see computers with bulky screens, cellphones with keypads and a once-ubiquitous feature of our society known as 'pay phones,' central to the plot of the film." 
+
+But the article's headline warns that "25 Years Later, We're All Trapped in 'The Matrix'".
+
+[I]n a strange way, the film has become more relevant today than it was in 1999. With the rise of the smartphone and social media, genuine human interaction has dropped precipitously. Today many people, like Cypher, would rather spend their time in the imaginary realms offered by technology than engage in a genuine relationship with other human beings. 
+
+In th…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Humane' Demos New Features on Its Ai Pin - Which Starts Arriving April 11]]></title>
+        <id>https://slashdot.org/story/24/03/24/005225/humane-demos-new-features-on-its-ai-pin---which-starts-arriving-april-11?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/03/24/005225/humane-demos-new-features-on-its-ai-pin---which-starts-arriving-april-11?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-24T04:34:00.000Z</updated>
+        <summary type="html"><![CDATA[Indian Express calls it "the ultimate smartphone killer". (Coming soon, its laser-on-your-palm feature will display stock prices, sports scores, and flight statuses.) 
+
+ Humane's Ai Pin can even translate what you say, repeating it out loud in another language (with 50 different languages supported). And it can read you summaries of what's on your favorite web sites, so "You can just surf the web with your voice," according to a new video released this week. 
+
+The video also shows it answering specific questions like "What's that song by 21 Savage with the violin intro?" (And later, while the song is playing, answering more questions like "This was sampled from another song. What song was that?") But then co-founder Imran Chaudhri — an iPhone designer and one of several former Apple employ…]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[New Book Remembers LAN Parties and the 1990s 'Multiplayer Revolution']]></title>
+        <id>https://games.slashdot.org/story/24/03/23/164235/new-book-remembers-lan-parties-and-the-1990s-multiplayer-revolution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/24/03/23/164235/new-book-remembers-lan-parties-and-the-1990s-multiplayer-revolution?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-24T01:34:00.000Z</updated>
+        <summary type="html"><![CDATA[CNN looks back to when "dial-up internet (and its iconic dial tone) was 'still a thing..."
+
+"File-sharing services like Napster and LimeWire were just beginning to take off... And in sweaty dorm rooms and sparse basements across the world, people brought their desktop monitors together to set up a local area network (LAN) and play multiplayer games — "Half-Life," "Counter-Strike," "Starsiege: Tribes," "StarCraft," "WarCraft" or "Unreal Tournament," to name just a few. These were informal but high-stakes gatherings, then known as LAN parties, whether winning a box of energy drinks or just the joy of emerging victorious. The parties could last several days and nights, with gamers crowded together among heavy computers and fast food boxes, crashing underneath their desks in sleeping bags and …]]></summary>
+        <author>
+            <name>EditorDavid</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Air Industry Trends Safer, But 'Flukish' Second Crash Led Boeing to Mishandled Media Storm, WSJ Argues]]></title>
         <id>https://tech.slashdot.org/story/24/03/22/224255/air-industry-trends-safer-but-flukish-second-crash-led-boeing-to-mishandled-media-storm-wsj-argues?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -8636,385 +8786,6 @@ The agency's Space Debris Office, along with an international surveillance netwo
 The agency said it was possible that some fragments could reach the planet's surface, but the pieces didn't…]]></summary>
         <author>
             <name>EditorDavid</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tinder Owner Inks Deal With OpenAI]]></title>
-        <id>https://slashdot.org/story/24/02/24/0020232/tinder-owner-inks-deal-with-openai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/02/24/0020232/tinder-owner-inks-deal-with-openai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-24T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from TechCrunch: In a press release written with help from ChatGPT, Match Group announced an enterprise agreement with the AI chatbot's maker, OpenAI. The new agreement includes over 1,000 enterprise licenses for the dating app giant and home to Tinder, Match, OkCupid, Hinge and others. The AI tech will be used to help Match Group employees with work-related tasks, the company says, and come as part of Match's $20 million-plus bet on AI in 2024. [...] As for the news itself, Match Group says it will begin using the AI tech, and specifically ChatGPT-4, to aid with coding, design, analysis, build templates, and other daily tasks, including, as you can tell, communications. To keep its corporate data protected, only trained and licensed Match Group employees will have access to OpenAI's tools, it noted.
- 
-Before being able to use these tools, Match Group employees will also have to undergo mandatory training that focuses on responsible use, the technology's capabilities, as well as its limitations. The use will be guided by the company's existing privacy practices and AI principles, too. The company declined to share the cost of the agreement or how it will impact the tech giant's bottom line, but Match believes that the AI tools will make teams more productive. Match execs recently spoke of the company's plans for AI during the company's fourth-quarter earnings, noting that, this year, the app maker will use AI technology to both evolve its existing products and build new ones. The company's Shareholder letter explained how AI could help to improve various aspects of the dating app journey. For instance, it could help with profile creation, where Match is testing features like an AI-powered photo picker, and generative AI for help making bios. The company said that AI will also improve its matching abilities and post-match guidance, in areas like conversation starters, nudges, and offering date ideas.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vending Machine Error Reveals Secret Face Image Database of College Students]]></title>
-        <id>https://yro.slashdot.org/story/24/02/24/0012232/vending-machine-error-reveals-secret-face-image-database-of-college-students?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/24/02/24/0012232/vending-machine-error-reveals-secret-face-image-database-of-college-students?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-24T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Ashley Belanger reports via Ars Technica: Canada-based University of Waterloo is racing to remove M&M-branded smart vending machines from campus after outraged students discovered the machines were covertly collecting facial-recognition data without their consent. The scandal started when a student using the alias SquidKid47 posted an image on Reddit showing a campus vending machine error message, "Invenda.Vending.FacialRecognitionApp.exe," displayed after the machine failed to launch a facial recognition application that nobody expected to be part of the process of using a vending machine. "Hey, so why do the stupid M&M machines have facial recognition?" SquidKid47 pondered. The Reddit post sparked an investigation from a fourth-year student named River Stanley, who was writing for a univ…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Odysseus Moon Lander 'Tipped Over On Touchdown']]></title>
-        <id>https://science.slashdot.org/story/24/02/24/007214/odysseus-moon-lander-tipped-over-on-touchdown?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/24/02/24/007214/odysseus-moon-lander-tipped-over-on-touchdown?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-24T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On Thursday, the Odysseus Moon lander made history by becoming the first ever privately built and operated robot to complete a soft lunar touchdown. While the lander is "alive and well," the CEO of Houston-based Intuitive Machines, which built and flew the lander, said it tipped over during its final descent, coming up to rest propped up sideways on a rock. The BBC reports: Its owner, Texan firm Intuitive Machines, says Odysseus has plenty of power and is communicating with Earth. Controllers are trying to retrieve pictures from the robot. Steve Altemus, the CEO and co-founder of IM, said it wasn't totally clear what happened but the data suggested the robot caught a foot on the surface and then fell because it still had some lateral motion at the moment of landing. All the scientific instruments that planned to take observations on the Moon are on the side of Odysseus that should still allow them to do some work. The only payload likely on the "wrong side" of the lander, pointing down at the lunar surface, is an art project.
- 
-"We're hopeful to get pictures and really do an assessment of the structure and assessment of all the external equipment," Mr Altemus told reporters.
-"So far, we have quite a bit of operational capability even though we're tipped over. And so that's really exciting for us, and we are continuing the surface operations mission as a result of it." The robot had been directed to a cratered terrain near the Moon's south pole, and the IM team believes it got very close to the targeted site - perhaps within a couple of kilometers. A US space agency satellite called the Lunar Reconnaissance Orbiter will search for Odysseus in the coming days.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Air Pollution Could Be Significant Cause of Dementia]]></title>
-        <id>https://science.slashdot.org/story/24/02/23/2354247/air-pollution-could-be-significant-cause-of-dementia?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://science.slashdot.org/story/24/02/23/2354247/air-pollution-could-be-significant-cause-of-dementia?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-24T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from The Guardian: Air pollution from traffic is linked to some of the more severe forms of dementia, and could be a significant cause of the condition among those who are not already genetically predisposed to it, research suggests. Research carried out in Atlanta, Georgia, found that people with higher exposure to traffic-related fine particulate matter air pollution were more likely to have high amounts of the amyloid plaques in their brains that are associated with Alzheimer's. The findings, which will alarm anyone living in a town or city, but particularly those living near busy roads, add to the harms already known to be caused by road traffic pollution, ranging from climate change to respiratory diseases.
- 
-A team of researchers from Atlanta's Emo…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microplastics Found In Sediment Layers Untouched By Modern Humans]]></title>
-        <id>https://news.slashdot.org/story/24/02/23/2343252/microplastics-found-in-sediment-layers-untouched-by-modern-humans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/23/2343252/microplastics-found-in-sediment-layers-untouched-by-modern-humans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-24T02:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Microplastics have been found in sediment layers that date back as early as the first half of the 1700s, "showing microplastics' pernicious ability to infiltrate even environments untouched by modern humans," reports Futurism. From the report: A team of European researchers made this alarming discovery after studying the sediment layers at three lakes in Latvia, as detailed in a study published in the journal Science Advances. The scientists were studying lake sediment to test if the presence of microplastics in geological layers would be a reliable indicator for the beginning of the Anthropocene Epoch, defined in the study as starting in 1950 and meant to delineate when humans started having a large impact on our environment.
- 
-Scientists have long used layers of ash or ice to study past events on Earth, leading to the question of whether microplastics can serve as a reliable chronological marker for the Anthropocene. Clearly not, according to this new research, which found microplastics in every layer of sediment they dredged up, including one from 1733. "We conclude that interpretation of microplastics distribution in the studied sediment profiles is ambiguous and does not strictly indicate the beginning of the Anthropocene Epoch," the scientists wrote.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Florida Lawmakers Pass Ban On Social Media For Kids]]></title>
-        <id>https://yro.slashdot.org/story/24/02/23/2338235/florida-lawmakers-pass-ban-on-social-media-for-kids?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/24/02/23/2338235/florida-lawmakers-pass-ban-on-social-media-for-kids?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-24T01:25:00.000Z</updated>
-        <summary type="html"><![CDATA[Florida lawmakers passed a bill on Thursday that forces social media companies to keep most minors off their platforms. The Hill reports: The legislation, which passed the state House Thursday after earlier being approved by the Senate, now heads to Gov. Ron DeSantis's (R) desk, though he says he's not quite ready to sign on. DeSantis told reporters Friday that he thinks there needs to be a "proper balance" between government regulations and parental input on the social media issue. "We'll be wrestling with that," he said. The governor said he'll be assessing the final version of the legislation likely through the weekend. "Federal law says 13 and under can't have social media accounts. That's not really enforced," he said.
- 
-The lawmakers who championed the proposed social media ban, which would require platforms check the ages of users through a third-party source, argue it will make the online landscape safer for youths. The legislation passed 108-7 in the state House and 23-14 in the Florida Senate within a matter of hours Thursday.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Former Gizmodo Writer Changed Name To 'Slackbot,' Stayed Undetected For Months]]></title>
-        <id>https://entertainment.slashdot.org/story/24/02/23/2328227/former-gizmodo-writer-changed-name-to-slackbot-stayed-undetected-for-months?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://entertainment.slashdot.org/story/24/02/23/2328227/former-gizmodo-writer-changed-name-to-slackbot-stayed-undetected-for-months?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-24T00:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Tom McKay successfully masqueraded as a "Slackbot" on Slack after leaving Gizmodo in 2022, going unnoticed by the site's management for several months. The Verge reports: If you're not glued to Slack for most of the day like I am, then you might not know that Slackbot is the friendly robot that lives in the messaging service. It helps you do things like set reminders, find out your office's Wi-Fi password, or let you know when you've been mentioned in a channel that you're not a part of. When it was his time to leave, McKay swapped out his existing profile picture for one that resembled an angrier version of Slackbot's actual icon. He also changed his name to "Slackbot." You can't just change your name on Slack to "Slackbot," by the way, as the service will tell you that name's already been taken. It does work if you use a special character that resembles one of the letters inside Slackbot, though, such as replacing "o" with the Unicode character "o."
- 
-The move camouflaged McKay's active Slack account for months, letting his account evade deletion. It also allowed him to send bot-like messages to his colleagues such as, "Slackbot fact of the day: Hi, I'm Slackbot! That's a fact. Have a Slack-ly day!" My colleague Victoria Song, who previously worked at Gizmodo, isn't all that surprised that this situation unfolded, and says, "As Tom's former coworker and a G/O Media survivor, this tracks."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[India's Plan To Let 1998 Digital Trade Deal Expire May Worsen Chip Shortage]]></title>
-        <id>https://hardware.slashdot.org/story/24/02/23/211209/indias-plan-to-let-1998-digital-trade-deal-expire-may-worsen-chip-shortage?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/24/02/23/211209/indias-plan-to-let-1998-digital-trade-deal-expire-may-worsen-chip-shortage?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-24T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Ars Technica: India's plan to let a moratorium on imposing customs duties on cross-border digital e-commerce transactions expire may end up hurting India's more ambitious plans to become a global chip leader in the next five years, Reuters reported. It could also worsen the global chip shortage by spiking semiconductor industry costs at a time when many governments worldwide are investing heavily in expanding domestic chip supplies in efforts to keep up with rapidly advancing technologies.
- 
-Early next week, world leaders will convene at a World Trade Organization (WTO) meeting, just before the deadline to extend the moratorium hits in March. In place since 1998, the moratorium has been renewed every two years since -- but India has grown concerned …]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[US Man Accused of Making $1.8 Million From Listening In On Wife's Remote Work Calls]]></title>
-        <id>https://yro.slashdot.org/story/24/02/23/2053259/us-man-accused-of-making-18-million-from-listening-in-on-wifes-remote-work-calls?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/24/02/23/2053259/us-man-accused-of-making-18-million-from-listening-in-on-wifes-remote-work-calls?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T23:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Kalyeena Makortoff reports via The Guardian: US regulators have accused a man of making $1.8 million by trading on confidential information he overheard while his wife was on a remote call, in a case that could fuel arguments against working from home. The Securities and Exchange Commission (SEC) said it charged Tyler Loudon with insider trading after he "took advantage of his remote working conditions" and profited from private information related to the oil firm BP's plans to buy an Ohio-based travel centre and truck-stop business last year.
- 
-The SEC claims that Loudon, who is based in Houston, Texas, listened in on several remote calls held by his wife, a BP merger and acquisitions manager who had been working on the planned deal in a home office 20ft (6 meters) away. The regulator said Loudon went on a buying spree, purchasing more than 46,000 shares in the takeover target, TravelCenters of America, without his wife's knowledge, weeks before the deal was announced on 16 February 2023. TravelCenters's stock soared by nearly 71% after the deal was announced. Loudon then sold off all of his shares, making a $1.8m profit.
- 
-Loudon eventually confessed to his wife, and claimed that he had bought the shares because he wanted to make enough money so that she did not have to work long hours anymore. She reported his dealings to her bosses at BP, which later fired her despite having no evidence that she knowingly leaked information to her husband. She eventually moved out of the couple's home and filed for divorce.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Is Sunsetting the Google Pay App]]></title>
-        <id>https://tech.slashdot.org/story/24/02/23/2030246/google-is-sunsetting-the-google-pay-app?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/23/2030246/google-is-sunsetting-the-google-pay-app?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T22:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Google is shutting down the Google Pay app, as the standalone app has largely been replaced by Google Wallet. According to TechCrunch, Google Pay "will only be available in Singapore and India" after its shuts down in the United States. From the report: Users can continue to access the app's most popular features right from Google Wallet, which Google says is used five times more than the Google Pay app in the United States. After June 4, users will no longer be able to send, request or receive money through the U.S. version of the Google Pay app. Users have until that date to view and transfer their Google Pay balance to their bank account via the app. If you still have funds in your account after that date, you can view and transfer your funds to your bank from the Google Pay website.
- 
-Users who used the Google Pay app to find offers and deals can still so do using the new deals destination on Google Search, the company says. Google Wallet is the company's primary place for mobile payments in the United States, and will likely remain so. The app lets you use your phone to pay in stores, board a plane, ride transit, store loyalty cards, save driver's licenses and start your car via a digital key.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tyler Perry Puts $800M Studio Expansion On Hold After Seeing OpenAI's Sora]]></title>
-        <id>https://slashdot.org/story/24/02/23/2022216/tyler-perry-puts-800m-studio-expansion-on-hold-after-seeing-openais-sora?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/02/23/2022216/tyler-perry-puts-800m-studio-expansion-on-hold-after-seeing-openais-sora?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from the Hollywood Reporter: Over the past four years, Tyler Perry had been planning an $800 million expansion of his studio in Atlanta, which would have added 12 soundstages to the 330-acre property. Now, however, those ambitions are on hold -- thanks to the rapid developments he's seeing in the realm of artificial intelligence, including OpenAI's text-to-video model Sora, which debuted Feb. 15 and stunned observers with its cinematic video outputs. "Being told that it can do all of these things is one thing, but actually seeing the capabilities, it was mind-blowing," he said in an interview with The Hollywood Reporter on Thursday, noting that his productions might not have to travel to locations or build sets with the assistance of the technology.
- 
-As…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Reddit Warns That r/WallStreetBets Could Wreak Havoc on Its Stock Price]]></title>
-        <id>https://news.slashdot.org/story/24/02/23/1926230/reddit-warns-that-rwallstreetbets-could-wreak-havoc-on-its-stock-price?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/23/1926230/reddit-warns-that-rwallstreetbets-could-wreak-havoc-on-its-stock-price?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T21:20:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: Beware the apes, Reddit told the world in its IPO documents, though not in such explicit terms. Put simply, the company warned potential investors that one of its subreddits, the infamous r/WallStreetBets, could make its stock price and volume extremely volatile -- and there's little Reddit can do about it. Reddit listed r/WallStreetBets as one of the possible risks to investing in the company in its S-1 form on Thursday, referencing the subreddit's role in the meme stock craze of 2021, where retail investors banded together to raise the price of struggling companies like GameStop and AMC. The goal of r/WallStreetBets back then was to screw over professional investors on Wall Street and make them lose money for betting against certain companies. 
-
-It's entirely possible that the everyday people on r/WallStreetBets, a subreddit of 15 million retail investors who refer to themselves as "apes" and "degenerates," and other online forums could do the same thing with Reddit's stock, the company stated. Reddit writes: "Given the broad awareness and brand recognition of Reddit, including as a result of the popularity of r/ wallstreetbets among retail investors, and the direct access by retail investors to broadly available trading platforms, the market price and trading volume of our Class A common stock could experience extreme volatility for reasons unrelated to our underlying business or macroeconomic or industry fundamentals." 
-
-The volatility could cause people to lose all or part of their investment, the company explained, if they are unable to sell their shares at or above the IPO price. The long-term effect of movements like those propelled by r/WallStreetBets is already documented, with the takeaway being that surges of interest and heavy investment don't necessarily bring success to companies over time.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Vision Pro Owners Are Reporting a Mysterious Crack in the Front Glass]]></title>
-        <id>https://apple.slashdot.org/story/24/02/23/1848202/vision-pro-owners-are-reporting-a-mysterious-crack-in-the-front-glass?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/24/02/23/1848202/vision-pro-owners-are-reporting-a-mysterious-crack-in-the-front-glass?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T20:42:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: Vision Pro owners are posting near-identical reports of a crack appearing on the front glass of their headsets. None of them seem to know how it happened, either. The issue was first spotted by MacRumors, and so far, there have been five separate Redditors who have posted about it in the r/VisionPro subreddit. Engadget also reported that the same happened with its review unit. 
-
-What makes it curious is that all of the uploaded pictures appear to show vertical hairline cracks in the same exact area above the nose bridge. All the affected Redditors say they didn't do anything obvious to cause the cracks, like dropping the device or storing it improperly. Reddit user @dornbirn claims that they polished the front glass, placed the soft cover on, packed it away in the case, and woke up to see the crack the next morning. Most of the other affected Redditors also noted they either stored their Vision Pros in cases or placed the soft cover on.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Staff Say Dell's Return To Office Mandate is a Stealth Layoff]]></title>
-        <id>https://slashdot.org/story/24/02/23/193230/staff-say-dells-return-to-office-mandate-is-a-stealth-layoff?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/02/23/193230/staff-say-dells-return-to-office-mandate-is-a-stealth-layoff?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T20:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Dell's "return to office" mandate has left employees confused about which offices they can use and the future of their jobs -- and concerned the initiative is a stealth layoff program that will disproportionately harm women at the IT giant. From a report: As El Reg broke this month, Dell told employees they each needed to choose between resuming a hybrid work schedule -- working from a corporate office part of the time -- or continue working remotely. Those who chose to remain as remote workers were effectively making a career-limiting decision. 
-
-The implications of choosing to work remotely, we're told, are: "1) no funding for team onsite meetings, even if a large portion of the team is flying in for the meeting from other Dell locations; 2) no career advancement; 3) no career movements; and 4) remote status will be considered when planning or organization changes -- AKA workforce reductions." Another employee said: "Choosing to be remote does indeed put career advancement at a standstill. If you choose to accept a promotion after going remote, that comes with the requirement of being in office 39 days out of the quarter" and you have to reclassify yourself as hybrid. The employee continued: "Even if you choose to make a lateral career move, the same expectation applies. In-role promotions are possible, but rare enough to not be a realistic option."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tech Job Interviews Are Out of Control]]></title>
-        <id>https://tech.slashdot.org/story/24/02/23/1916215/tech-job-interviews-are-out-of-control?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/23/1916215/tech-job-interviews-are-out-of-control?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T19:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Tech companies are famous for coddling their workers, but after mass layoffs the industry's culture has shifted. Engineers say that getting hired can require days of work on unpaid assignments. From a report: Nearly a dozen engineers, hiring managers, and entrepreneurs who spoke with WIRED describe an environment in which technical job applicants are being put through the wringer. Take-home coding tests used to be rare, deployed only if an employer needed to be further convinced. Now interviewees are regularly given projects described as requiring just two to three hours that instead take days of work. 
-
-Live-coding exercises are also more intense, industry insiders say. One job seeker described an experience where an engineering manager said during an interview, "OK, we're going to build a To Do List app right now," a process that might normally take weeks. 
-
-Emails reviewed by WIRED showed that in one interview for an engineering role at Netflix, a technical recruiter requested that a job candidate submit a three-page project evaluation within 48 hours -- all before the first round of interviews. A Netflix spokesperson said the process is different for each role and otherwise declined to comment. A similar email at Snap outlined a six-part interview process for a potential engineering candidate, with each part lasting an hour. A company spokesperson says its interview process hasn't changed as a result of labor market changes.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Tests Removing the News Tab From Search Results]]></title>
-        <id>https://tech.slashdot.org/story/24/02/23/1837223/google-tests-removing-the-news-tab-from-search-results?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/23/1837223/google-tests-removing-the-news-tab-from-search-results?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T18:40:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report: News publishers are worried -- with good reason -- about changes coming to Google Search. AI-generated content replacing links on some of the most valuable space on the internet, in particular, has left media types with a lot of questions, starting with "is this going to be a traffic-destroying nightmare?" The News filter disappearing from Google search results for some users this week won't help publishers sleep any easier. Google confirmed some users were not seeing the News filter as part of ongoing testing. "We're testing different ways to show filters on Search and as a result, a small subset of users were temporarily unable to access some of them," a Google spokesperson confirmed via email.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ransomware Associated With LockBit Still Spreading 2 Days After Server Takedown]]></title>
-        <id>https://it.slashdot.org/story/24/02/23/1533214/ransomware-associated-with-lockbit-still-spreading-2-days-after-server-takedown?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/24/02/23/1533214/ransomware-associated-with-lockbit-still-spreading-2-days-after-server-takedown?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T18:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Two days after an international team of authorities struck a major blow to LockBit, one of the Internet's most prolific ransomware syndicates, researchers have detected a new round of attacks that are installing malware associated with the group. From a report: The attacks, detected in the past 24 hours, are exploiting two critical vulnerabilities in ScreenConnect, a remote desktop application sold by Connectwise. According to researchers at two security firms -- SophosXOps and Huntress -- attackers who successfully exploit the vulnerabilities go on to install LockBit ransomware and other post-exploit malware. It wasn't immediately clear if the ransomware was the official LockBit version. 
-
-"We can't publicly name the customers at this time but can confirm the malware being deployed is associated with LockBit, which is particularly interesting against the backdrop of the recent LockBit takedown," John Hammond, principal security researcher at Huntress, wrote in an email. "While we can't attribute this directly to the larger LockBit group, it is clear that LockBit has a large reach that spans tooling, various affiliate groups, and offshoots that have not been completely erased even with the major takedown by law enforcement." Hammond said the ransomware is being deployed to "vet offices, health clinics, and local governments (including attacks against systems related to 911 systems)." Further reading: US Offers Up To $15 Million For Information on LockBit Leaders.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Humane's AI Pin is Slightly Delayed]]></title>
-        <id>https://hardware.slashdot.org/story/24/02/23/1645227/humanes-ai-pin-is-slightly-delayed?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/24/02/23/1645227/humanes-ai-pin-is-slightly-delayed?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T17:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Humane announced that its AI Pin would start shipping in March, but there's been a small delay. From a report: Early adopters are now being told orders will arrive in mid-April at the earliest, according to a video update from Humane staffer Sam Sheffer and emails we saw in Humane's official Discord channel. On the plus side, the company says it'll now throw in three months of its pricy $24-a-month subscription for free with the $699 pin -- and will do so for any other customers who buy one before March 31st, too.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Sun Just Launched Three Huge Solar Flares in 24 Hours.]]></title>
-        <id>https://news.slashdot.org/story/24/02/23/1625203/the-sun-just-launched-three-huge-solar-flares-in-24-hours?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/23/1625203/the-sun-just-launched-three-huge-solar-flares-in-24-hours?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Three top-tier X-class solar flares launched off the sun between Wednesday and Thursday. The first two occurred seven hours apart, coming in at X1.9 and X1.6 magnitude respectively. The third, the most powerful of the current 11-year "solar cycle," ranked an impressive X6.3. From a report: Solar flares, or bursts of radiation, are ranked on a scale that goes from A, B and C to M and X, in increasing order of intensity. They usually originate from sunspots, or bruiselike discolorations on the surface of the sun. Sunspots are most common near the height of the 11-year solar cycle. The current cycle, number 25, is expected to reach its peak this year. The more sunspots, the more opportunities for solar flares. 
-
-Solar flares and accompanying coronal mass ejections, or CMEs, can influence "spa…]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nvidia Hits $2 Trillion Valuation]]></title>
-        <id>https://slashdot.org/story/24/02/23/1557228/nvidia-hits-2-trillion-valuation?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/02/23/1557228/nvidia-hits-2-trillion-valuation?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Nvidia hit $2 trillion in market value on Friday, riding on an insatiable demand for its chips that made the Silicon Valley firm the pioneer of the generative AI boom. From a report: The milestone followed another bumper revenue forecast from the chip designer that drove up its market value by $277 billion on Thursday - Wall Street's largest one-day gain on record. Its rapid ascent in the past year has led analysts to draw parallels to the picks and shovels providers during the gold rush of 1800s as Nvidia's chips are used by almost all generative AI players from chatGPT-maker OpenAI to Google.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leisure Firm in UK Told Scanning Staff Faces is Illegal]]></title>
-        <id>https://news.slashdot.org/story/24/02/23/1521240/leisure-firm-in-uk-told-scanning-staff-faces-is-illegal?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/23/1521240/leisure-firm-in-uk-told-scanning-staff-faces-is-illegal?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-23T15:24:00.000Z</updated>
-        <summary type="html"><![CDATA[Bruce66423 writes: The data watchdog has ordered a leisure centre group to stop using facial recognition tech to monitor its staff. The Information Commissioner's Office (ICO) says Serco Leisure has been unlawfully processing the biometric data of more than 2,000 employees at 38 UK leisure facilities. It did so to check staff attendance - a practice the ICO said was "neither fair nor proportionate." 
-
-Serco Leisure says it will comply with the enforcement notice. But it added it had taken legal advice prior to installing the cameras, and said staff had not complained about them during the five years they had been in place. The firm said it was to "make clocking-in and out easier and simpler" for workers. "We engaged with our team members in advance of its roll-out and its introduction was well-received by colleagues," the company said in a statement.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
         </author>
     </entry>
 </feed>
