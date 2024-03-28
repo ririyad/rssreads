@@ -2,10 +2,309 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ririyad.github.io/rssreads/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-27T00:59:51.724Z</updated>
+    <updated>2024-03-28T01:00:50.235Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://ririyad.github.io/rssreads/index.html"/>
     <link rel="self" href="https://ririyad.github.io/rssreads/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Amazon Fined In Poland For Dark Pattern Design Tricks]]></title>
+        <id>https://news.slashdot.org/story/24/03/27/2138252/amazon-fined-in-poland-for-dark-pattern-design-tricks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/03/27/2138252/amazon-fined-in-poland-for-dark-pattern-design-tricks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-28T00:02:00.000Z</updated>
+        <summary type="html"><![CDATA[Poland has fined Amazon close to $8 million for misleading consumers about the conclusion of sales contracts on its online marketplace. The sanction "also calls out the e-commerce giant for deceptive design elements which may inject a false sense of urgency into the purchasing process and mislead shoppers about elements like product availability and delivery dates," reports TechCrunch. From the report: The country's consumer and competition watchdog, the UOKiK, has been looking into complaints about Amazon's sales practices since September 2021, following complaints from shoppers, including some who did not receive their purchases. The authority opened a formal investigation into Amazon's practices in February 2023. Wednesday's sanction is the conclusion of that probe. The UOKiK found cons…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Phil Spencer Wants Epic Games Store and Others On Xbox Consoles]]></title>
+        <id>https://games.slashdot.org/story/24/03/27/2132217/phil-spencer-wants-epic-games-store-and-others-on-xbox-consoles?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://games.slashdot.org/story/24/03/27/2132217/phil-spencer-wants-epic-games-store-and-others-on-xbox-consoles?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T23:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Chris Plante reports via Polygon: Phil Spencer doesn't just want Xbox games on other consoles. He wants other video game retailers on Xbox, too. In an interview with Microsoft's CEO of Gaming during the annual Game Developers Conference, Spencer told Polygon about the ways he'd like to break down the walled gardens that have historically limited players to making purchases through the first-party stores tied to each console. Or, in layperson terms, why you should be able to buy games from other stores on Xbox -- not just the official storefront. Spencer mentioned his frustrations with closed ecosystems, so we asked for clarity. Could he really see a future where stores like Itch.io and Epic Games Store existed on Xbox? Was it just a matter of figuring out mountains of paperwork to get ther…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recent 'MFA Bombing' Attacks Targeting Apple Users]]></title>
+        <id>https://apple.slashdot.org/story/24/03/27/2126257/recent-mfa-bombing-attacks-targeting-apple-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://apple.slashdot.org/story/24/03/27/2126257/recent-mfa-bombing-attacks-targeting-apple-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T22:40:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from KrebsOnSecurity: Several Apple customers recently reported being targeted in elaborate phishing attacks that involve what appears to be a bug in Apple's password reset feature. In this scenario, a target's Apple devices are forced to display dozens of system-level prompts that prevent the devices from being used until the recipient responds "Allow" or "Don't Allow" to each prompt. Assuming the user manages not to fat-finger the wrong button on the umpteenth password reset request, the scammers will then call the victim while spoofing Apple support in the caller ID, saying the user's account is under attack and that Apple support needs to "verify" a one-time code. [...]
+ 
+What sanely designed authentication system would send dozens of requests for a password change in the span of a few moments, when the first requests haven't even been acted on by the user? Could this be the result of a bug in Apple's systems? Kishan Bagaria is a hobbyist security researcher and engineer who founded the website texts.com (now owned by Automattic), and he's convinced Apple has a problem on its end. In August 2019, Bagaria reported to Apple a bug that allowed an exploit he dubbed "AirDoS" because it could be used to let an attacker infinitely spam all nearby iOS devices with a system-level prompt to share a file via AirDrop -- a file-sharing capability built into Apple products.
+ 
+Apple fixed that bug nearly four months later in December 2019, thanking Bagaria in the associated security bulletin. Bagaria said Apple's fix was to add stricter rate limiting on AirDrop requests, and he suspects that someone has figured out a way to bypass Apple's rate limit on how many of these password reset requests can be sent in a given timeframe. "I think this could be a legit Apple rate limit bug that should be reported," Bagaria said.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TikTok Is Under Investigation By the FTC Over Data Practices]]></title>
+        <id>https://yro.slashdot.org/story/24/03/27/2115247/tiktok-is-under-investigation-by-the-ftc-over-data-practices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/03/27/2115247/tiktok-is-under-investigation-by-the-ftc-over-data-practices?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T22:02:00.000Z</updated>
+        <summary type="html"><![CDATA[TikTok is being investigated by the FTC over its data and security practices, "a probe that could lead to a settlement or a lawsuit against the company," reports the Associated Press. From the report: In its investigation, the FTC has been looking into whether TikTok violated a portion of federal law that prohibits "unfair and deceptive" business practices by denying that individuals in China had access to U.S. user data, said the person, who is not authorized to discuss the investigation. The agency also is scrutinizing the company over potential violations of the Children's Online Privacy Protection Act, which requires kid-oriented apps and websites to get parents' consent before collecting personal information of children under 13.
+ 
+The agency is nearing the conclusion of its investigation and could settle with TikTok in the coming weeks. But there's not a deadline for an agreement, the person said. If the FTC moves forward with a lawsuit instead, it would have to refer the case to the Justice Department, which would have 45 days to decide whether it wants to file a case on the FTC's behalf, make changes or send it back to the agency to pursue on its own.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Texan Bitcoiners Start Mining In Argentina Using Flared Excess Gas]]></title>
+        <id>https://slashdot.org/story/24/03/27/2030243/texan-bitcoiners-start-mining-in-argentina-using-flared-excess-gas?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/03/27/2030243/texan-bitcoiners-start-mining-in-argentina-using-flared-excess-gas?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T21:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Two Texas-based bitcoin miners have turned to the foothills of the Andes mountains in Argentina to mine bitcoin using flared natural gas. CNBC reports: Brent Whitehead and Matt Lohstroh, both graduates of Texas A&M University, have been mining bitcoin on the oil fields of East Texas since 2019. That's when they founded Giga Energy with the goal of taking flared natural gas and turning it into electricity to run bitcoin mines, which are notoriously power-thirsty. On Tuesday, Giga announced its first foray into Argentina, following expansion across the U.S. and into Shanghai. The company is partnering with Phoenix Global Resources, an oil and gas company with operations in Mendoza, and with IT services company Exa Tech to launch a two megawatt bitcoin mine on top of Vaca Muerta.
+ 
+Giga's sys…]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA['Operation 404' Results In First Prison Sentence For Pirate IPTV Operator]]></title>
+        <id>https://yro.slashdot.org/story/24/03/27/2023227/operation-404-results-in-first-prison-sentence-for-pirate-iptv-operator?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://yro.slashdot.org/story/24/03/27/2023227/operation-404-results-in-first-prison-sentence-for-pirate-iptv-operator?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T20:40:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader quotes a report from TorrentFreak: Brazilian anti-piracy campaign 'Operation 404' has taken down many pirate sites and services over the past five years, but criminal prosecutions have been scarce. This week, anti-piracy group ALIANZA announced a "historic" victory: The operator of pirate IPTV service "Flash IPTV" was sentenced to more than five years in prison, marking the first criminal conviction of this kind in Brazil. [...] The operator of Flash IPTV, who is referred to by the initials A.W.A.P., was found guilty of criminal copyright infringement and sentenced to five years and four months in prison.
+ 
+Flash IPTV was a relatively large IPTV service with 13,547 active users at its peak. According to local news reports, the service generated $912,000 in revenue over twelve months, before it was taken offline in 2020 as part of the second 'Operation 404' campaign. Speaking with TorrentFreak, ALIANZA says that this is a historic verdict, as it's the first criminal IPTV prosecution linked to 'Operation 404' in Brazil. "We appreciate the commitment of the police and judicial authorities in resolving this important case. The conviction of A.W.A.P. is a milestone that reinforces our commitment to defending the rights of creators and fighting against illegal practices that harm the creative economy," says Victor Roldan, ALIANZA's executive director.
+ 
+While Operation 404 resulted in many arrests over the years, follow-up prosecutions have been rare in Brazil. Previously, ALIANZA did score a similar victory in Ecuador, where the operator of the pirate IPTV service IPTVlisto.com was sentenced to a year in prison. Last fall, Brazilian authorities conducted the sixth wave of Operation 404 and more are expected to follow in the future. These enforcement initiatives are broadly praised by rightsholders and the recent conviction will only strengthen their support.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>BeauHD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[US Offers $10 Million Bounty For Info on 'Blackcat' Hackers Who Hit UnitedHealth]]></title>
+        <id>https://news.slashdot.org/story/24/03/27/1633257/us-offers-10-million-bounty-for-info-on-blackcat-hackers-who-hit-unitedhealth?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/03/27/1633257/us-offers-10-million-bounty-for-info-on-blackcat-hackers-who-hit-unitedhealth?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T20:01:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. State Department has offered up to $10 million for information on the "Blackcat" ransomware gang who hit the UnitedHealth Group's tech unit and snarled insurance payments across America. From a report: "The ALPHV Blackcat ransomware-as-a-service group compromised computer networks of critical infrastructure sectors in the United States and worldwide," the department said in a statement announcing the reward offer. 
+
+UnitedHealth said last week it was beginning to clear a medical claims backlog of more than $14 billion as it brought its services back online following the cyberattack, which caused wide-ranging disruption starting in late February.
+UnitedHealth's tech unit, Change Healthcare, plays a critical role in processing payments from insurance companies to practitioners, and the outage caused by the cyberattack has in some cases left patients and doctors out of pocket. The toll on the community health centers that serve more than 30 million poor and uninsured patients has been especially harsh.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SWIFT Planning Launch of New Central Bank Digital Currency Platform in 12-24 Months]]></title>
+        <id>https://it.slashdot.org/story/24/03/27/1642211/swift-planning-launch-of-new-central-bank-digital-currency-platform-in-12-24-months?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/24/03/27/1642211/swift-planning-launch-of-new-central-bank-digital-currency-platform-in-12-24-months?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T19:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Global bank messaging network SWIFT is planning a new platform in the next one to two years to connect the wave of central bank digital currencies now in development to the existing finance system, it has told Reuters. From the report: The move, which would be one of the most significant yet for the nascent CBDC ecosystem given SWIFT's key role in global banking, is likely to be fine-tuned to when the first major ones are launched. Around 90% of the world's central banks are now exploring digital versions of their currencies. Most don't want to be left behind by bitcoin and other cryptocurrencies, but are grappling with technological complexities. 
+
+SWIFT's head of innovation, Nick Kerigan, said its latest trial, which took 6 months and involved a 38-member group of central banks, commercial banks and settlement platforms, had been one of the largest global collaborations on CBDCs and "tokenised" assets to date. It focused on ensuring different countries' CBDCs can all be used together even if built on different underlying technologies, or "protocols", thereby reducing payment system fragmentation risks.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Heat and Drought Are Sucking US Hydropower Dry]]></title>
+        <id>https://news.slashdot.org/story/24/03/27/1545240/heat-and-drought-are-sucking-us-hydropower-dry?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/03/27/1545240/heat-and-drought-are-sucking-us-hydropower-dry?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T18:40:00.000Z</updated>
+        <summary type="html"><![CDATA[The amount of hydropower generated in the Western US last year was the lowest it's been in more than two decades -- and 2024 isn't looking much better. From a report: Hydropower generation in the region fell by 11 percent during the 2022-2023 water year compared to the year prior, according to preliminary data from the Energy Information Administration's Electricity Data Browser -- its lowest point since 2001. That includes states west of the Dakotas and Texas, where 60 percent of the nation's hydropower was generated. These also happen to be the states -- including California, Nevada, Arizona, and New Mexico -- that climate change is increasingly sucking dry. And in a reversal of fortunes, typically wetter states in the Northeast -- normally powerhouses for hydropower generation -- were the hardest hit. You can blame extreme heat and drought for the drop in hydropower last year. This creates a vicious cycle: drought reduces the amount of clean energy available from hydroelectric dams. To avoid energy shortfalls, utilities wind up relying on fossil fuels to make up the difference. That leads to more of the greenhouse gas emissions causing climate change, which makes droughts worse.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Spends $2.75 Billion on AI Startup Anthropic in Its Largest Venture Investment Yet]]></title>
+        <id>https://slashdot.org/story/24/03/27/1744227/amazon-spends-275-billion-on-ai-startup-anthropic-in-its-largest-venture-investment-yet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/03/27/1744227/amazon-spends-275-billion-on-ai-startup-anthropic-in-its-largest-venture-investment-yet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T18:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon is making its largest outside investment in its three-decade history as it looks to gain an edge in the AI race. From a report: The tech giant said it will spend another $2.75 billion backing Anthropic, a San Francisco-based startup that's widely viewed as a frontrunner in generative artificial intelligence. Its foundation model and chatbot Claude competes with OpenAI and ChatGPT. The companies announced an initial $1.25 billion investment in September, and said at the time that Amazon would invest up to $4 billion. Wednesday's news marks Amazon's second tranche of that funding. 
+
+Amazon will maintain a minority stake in the company and won't have an Anthropic board seat, the company said. The deal was struck at the AI startup's last valuation, which was $18.4 billion, according to a source. Over the past year, Anthropic closed five different funding deals worth about $7.3 billion -- and with the new Amazon investment, the total exceeds $10 billion. The company's product directly competes with OpenAI's ChatGPT in both the enterprise and consumer worlds, and it was founded by ex-OpenAI research executives and employees.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[UK Court Denies Bid To Extradite Assange To the US]]></title>
+        <id>https://news.slashdot.org/story/24/03/27/1637251/uk-court-denies-bid-to-extradite-assange-to-the-us?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://news.slashdot.org/story/24/03/27/1637251/uk-court-denies-bid-to-extradite-assange-to-the-us?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T17:22:00.000Z</updated>
+        <summary type="html"><![CDATA[A British court has ruled that Julian Assange can't be extradited to the United States on espionage charges unless U.S. authorities guarantee he won't get the death penalty, giving the WikiLeaks founder a partial victory in his long legal battle over the site's publication of classified American documents. From a report: Two High Court judges said they would grant Assange a new appeal unless U.S. authorities give further assurances within three weeks about what will happen to him. The ruling means the legal saga, which has dragged on for more than a decade, will continue -- and Assange will remain inside London's high-security Belmarsh Prison, where he has spent the last five years. Judges Victoria Sharp and Jeremy Johnson said the U.S. must guarantee that Assange, who is Australian, "is afforded the same First Amendment protections as a United States citizen, and that the death penalty is not imposed."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Americans' Use of ChatGPT Is Ticking Up]]></title>
+        <id>https://slashdot.org/story/24/03/27/161201/americans-use-of-chatgpt-is-ticking-up?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/03/27/161201/americans-use-of-chatgpt-is-ticking-up?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T17:22:00.000Z</updated>
+        <summary type="html"><![CDATA[Pew Research: It's been more than a year since ChatGPT's public debut set the tech world abuzz. And Americans' use of the chatbot is ticking up: 23% of U.S. adults say they have ever used it, according to a Pew Research Center survey conducted in February, up from 18% in July 2023. The February survey also asked Americans about several ways they might use ChatGPT, including for workplace tasks, for learning and for fun. While growing shares of Americans are using the chatbot for these purposes, the public is more wary than not of what the chatbot might tell them about the 2024 U.S. presidential election. About four-in-ten adults have not too much or no trust in the election information that comes from ChatGPT. By comparison, just 2% have a great deal or quite a bit of trust. 
+
+Most Americans still haven't used the chatbot, despite the uptick since our July 2023 survey on this topic. But some groups remain far more likely to have used it than others. Adults under 30 stand out: 43% of these young adults have used ChatGPT, up 10 percentage points since last summer. Use of the chatbot is also up slightly among those ages 30 to 49 and 50 to 64. Still, these groups remain less likely than their younger peers to have used the technology. Just 6% of Americans 65 and up have used ChatGPT. Highly educated adults are most likely to have used ChatGPT: 37% of those with a postgraduate or other advanced degree have done so, up 8 points since July 2023. This group is more likely to have used ChatGPT than those with a bachelor's degree only (29%), some college experience (23%) or a high school diploma or less (12%).
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Farewell, John Kordyback]]></title>
+        <id>https://martinfowler.com/articles/kordyback-tribute.html</id>
+        <link href="https://martinfowler.com/articles/kordyback-tribute.html"/>
+        <updated>2024-03-27T16:48:00.000Z</updated>
+        <summary type="html"><![CDATA[John Kordyback, a treasured colleague and friend, died last week, aged 64.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Air Force Bought a Surveillance-Focused AI Chatbot]]></title>
+        <id>https://slashdot.org/story/24/03/27/1527231/the-air-force-bought-a-surveillance-focused-ai-chatbot?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://slashdot.org/story/24/03/27/1527231/the-air-force-bought-a-surveillance-focused-ai-chatbot?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T16:01:00.000Z</updated>
+        <summary type="html"><![CDATA[The U.S. Air Force paid for a test version of an AI-powered chatbot to assist in intelligence and surveillance tasks as part of a $1.2 million deal, according to internal Air Force documents obtained by 404 Media. From the report: The news provides more insight into what military agencies are currently exploring using AI for, and comes as more AI companies eye the military space as a business opportunity. OpenAI, for instance, quietly removed language that expressly prohibited its technology for military purposes in January. "Edge Al Platform for Space and Unmanned Aerial Imagery Intelligence," a section of one of the documents reads. The contract is between the Air Force and a company called Misram LLC, which also operates under the name Spectronn. 
+
+Included in a "milestone schedule" explaining the specifics of the deal are the items "ISR chatbot design" and "ISR chatbot software." ISR refers to intelligence, surveillance, and reconnaissance, a common military term. Other items in the schedule include "data ingestion tool" and "data visualization tool." 404 Media obtained the documents through a Freedom of Information Act (FOIA) request with the Air Force. On its website, Spectronn advertises an "AI Digital Assistant for Analytics." It says the bot can take data such as images and videos, and then answer plain English questions about that information. "Current analytics dashboard solutions are complex and not human-friendly. It leads to severe latency (from hours to days), cognitive load on the data analyst, false alarms, and frustrated decision makers or end-users," it reads.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft's New Era of AI PCs Will Need a Copilot Key, Says Intel]]></title>
+        <id>https://it.slashdot.org/story/24/03/27/1515245/microsofts-new-era-of-ai-pcs-will-need-a-copilot-key-says-intel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://it.slashdot.org/story/24/03/27/1515245/microsofts-new-era-of-ai-pcs-will-need-a-copilot-key-says-intel?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T15:21:00.000Z</updated>
+        <summary type="html"><![CDATA[An anonymous reader shares a report:Intel, Microsoft, Qualcomm, and AMD have all been pushing the idea of an "AI PC" for months now as we head toward more AI-powered features in Windows. While we're still waiting to hear the finer details from Microsoft on its big plans for AI in Windows, Intel has started sharing Microsoft's requirements for OEMs to build an AI PC -- and one of the main ones is that an AI PC must have Microsoft's Copilot key. Microsoft wants its OEM partners to provide a combination of hardware and software for its idea of an AI PC. That includes a system that comes with a Neural Processing Unit (NPU), the latest CPUs and GPUs, and access to Copilot. It will also need to have the new Copilot key that Microsoft announced earlier this year. 
+
+This requirement means that some laptops, like Asus' new ROG Zephyrus, have already shipped with Intel's new Core Ultra chips and aren't technically AI PCs in the eyes of Microsoft's strict requirements because they don't have a Copilot key. But they're still AI PCs in Intel's eyes. "Our joint aligned definition, Intel and Microsoft, we've aligned on Core Ultra, Copilot, and Copilot key," explains Todd Lewellen, head of the PC ecosystem at Intel, in a press briefing with The Verge. "From an Intel perspective our AI PC has Core Ultra and it has an integrated NPU because it is unlocking all kinds of new capabilities and functions in the AI space. We have great alignment with Microsoft, but there are going to be some systems out there that may not have the physical key on it but it does have our integrated NPU."
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Two Nights of Broken Sleep Can Make People Feel Years Older, Finds Study]]></title>
+        <id>https://science.slashdot.org/story/24/03/27/1438244/two-nights-of-broken-sleep-can-make-people-feel-years-older-finds-study?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+        <link href="https://science.slashdot.org/story/24/03/27/1438244/two-nights-of-broken-sleep-can-make-people-feel-years-older-finds-study?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+        <updated>2024-03-27T14:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Two nights of broken sleep are enough to make people feel years older, according to researchers, who said consistent, restful slumber was a key factor in helping to stave off feeling one's true age. From a report: Psychologists in Sweden found that, on average, volunteers felt more than four years older when they were restricted to only four hours of sleep for two consecutive nights, with some claiming the sleepiness made them feel decades older. The opposite was seen when people were allowed to stay in bed for nine hours, though the effect was more modest, with participants in the study claiming to feel on average three months younger than their real age after ample rest. 
+
+"Sleep has a major impact on how old you feel and it's not only your long-term sleep patterns," said Dr Leonie Balter, a psychoneuroimmunologist at the Karolinska Institute in Stockholm and first author on the study. "Even when you only sleep less for two nights that has a real impact on how you feel." Beyond simply feeling more decrepit, the perception of being many years older may affect people's health, Balter said, by encouraging unhealthy eating, reducing physical exercise, and making people less willing to socialise and engage in new experiences.
+
+
+
+
+
+
+
+Read more of this story at Slashdot.]]></summary>
+        <author>
+            <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uncovering Seams in a Mainframe's external interfaces]]></title>
+        <id>https://martinfowler.com/articles/uncovering-mainframe-seams.html#Seams</id>
+        <link href="https://martinfowler.com/articles/uncovering-mainframe-seams.html#Seams"/>
+        <updated>2024-03-27T14:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Alessio Ferri and Tom Coggrave start
+       detailing the seams they explored with two areas of external interfaces.
+       Batch input of files are copied to new implementations while comparing the output of the
+       processing pipelines. API access points can be covered with a proxy and
+       traffic gradually directed to the new implementation.
+more…]]></summary>
+        <author>
+            <name>Martin Fowler</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Boeing Chief Must Have Engineering Background, Emirates Boss Says]]></title>
         <id>https://tech.slashdot.org/story/24/03/27/0030213/boeing-chief-must-have-engineering-background-emirates-boss-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
@@ -24,6 +323,24 @@
 Read more of this story at Slashdot.]]></summary>
         <author>
             <name>msmash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1.77.1 pre-release testing]]></title>
+        <id>https://blog.rust-lang.org/inside-rust/2024/03/27/1.77.1-prerelease.html</id>
+        <link href="https://blog.rust-lang.org/inside-rust/2024/03/27/1.77.1-prerelease.html"/>
+        <updated>2024-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The 1.77.1 pre-release is ready for testing. The release is scheduled for
+March 28. Release notes can be found here.
+You can try it out locally by running:
+RUSTUP_DIST_SERVER=https://dev-static.rust-lang.org rustup update stable
+
+The index is https://dev-static.rust-lang.org/dist/2024-03-27/index.html.
+You can leave feedback on the internals thread.
+The release team is also thinking about changes to our pre-release process:
+we'd love your feedback on this GitHub issue.]]></summary>
+        <author>
+            <name>Inside Rust Blog</name>
         </author>
     </entry>
     <entry>
@@ -8526,271 +8843,6 @@ But however capable folks may be at remote working, and however nifty modern
   collaboration tools become, t…]]></summary>
         <author>
             <name>Martin Fowler</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hacker Uses Raspberry Pi and AI To Block Noisy Neighbor's Music]]></title>
-        <id>https://hardware.slashdot.org/story/24/02/26/221255/hacker-uses-raspberry-pi-and-ai-to-block-noisy-neighbors-music?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/24/02/26/221255/hacker-uses-raspberry-pi-and-ai-to-block-noisy-neighbors-music?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-27T00:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Maker Roni Bandini developed a Raspberry Pi project to address his neighbors' loud reggaeton music by creating an AI-driven system that distorts audio on nearby Bluetooth speakers when reggaeton is detected. Tom's Hardware reports: Powering this Bluetooth jamming device is a Raspberry Pi 3 B+. It's connected to a DFRobot OLED display panel, which has a resolution of 128 x 32px. Audio is observed using a USB microphone, while a push button handles when the system will perform a check to listen for any potential reggaeton. According to Bandini, the Pi is running Raspberry Pi OS. The AI system driving the machine learning aspects of the design is Edge Impulse. With this, Bandini was able to train the Pi to listen for music and more specifically identify whether the song playing is classifiable as reggaeton or not. The official project page is available at Hackster.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Doom Is Now Playable On a Lawnmower]]></title>
-        <id>https://games.slashdot.org/story/24/02/26/2152212/doom-is-now-playable-on-a-lawnmower?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://games.slashdot.org/story/24/02/26/2152212/doom-is-now-playable-on-a-lawnmower?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T23:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Landscaping tech company Husqvarna has partnered with Bethesda to bring the original 1993 Doom to its $2,000+ robotic lawnmowers. Kotaku reports: This new way to play Doom arrives in April on all Nera robotic lawnmower models. You don't have to pay for the game, either, just a $2,000+ lawnmower. Instead, just download it and play the shooter via the robo-mower's built-in screen. To rotate your view, you turn the knob and to shoot demons, you press it down. You hold the start button to move forward.
- 
-A few caveats to mention. First, this isn't available in the United States. Why? I don't know. Perhaps we can't be trusted with video games on lawnmowers? Secondly, this isn't all of Doom. Instead, it's just the first episode -- Knee Deep In The Dead -- which is arguably its most famous one, sure, but just keep in mind you won't be able to play the rest of the beloved shooter in the middle of your backyard on a tiny LCD screen. Sorry.
- 
-Sadly, this won't be a permanent feature that you can show off to family and friends for years to come. Instead, Doom and all its demons and guns will be removed from lawnmowers on September 9. So enjoy it while you can.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Open Source Movie Streaming Project 'Movie-Web' Shut Down By Hollywood Complaint]]></title>
-        <id>https://yro.slashdot.org/story/24/02/26/2126253/open-source-movie-streaming-project-movie-web-shut-down-by-hollywood-complaint?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://yro.slashdot.org/story/24/02/26/2126253/open-source-movie-streaming-project-movie-web-shut-down-by-hollywood-complaint?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from TorrentFreak: In recent months, Movie-Web has quickly gained popularity among a particular group of movie aficionados. The open source software, which is still available on GitHub, allows anyone to set up a movie search engine capable of streaming content from third-party sources. These external sources tend to have large libraries of pirated entertainment. Movie-web's developers are not oblivious to the legal ramifications but since they don't host any files, they hoped to avoid legal trouble. The software just provides a search engine for third-party content, they argued. [...]
- 
-Yesterday, the movie-web.app domain was suddenly taken down. According to a message posted on the official Discord server, this is the result of a "court action" from several movie companies including Warner Bros. Netflix, Paramount, Universal, and Disney. [I]t appears that action was taken against the movie-web.app domain. It seems likely that registrar Namecheap suspended the domain after receiving a legal complaint from the aforementioned Hollywood companies. [Update: After publishing the article we learned that there is a legal action that requires registrars to take action against several 'pirate' domains. We're looking into the matter and will follow this up later.]
- 
-Namecheap updated the domain's status to clientHold, which effectively rendered the domain inaccessible. The measure is often used to suspend pirate site domains following copyright holder complaints. The surprise takedown only affects movie-web's publicly hosted 'demo' instance. On Discord, the movie-web team says that it has no plans to bring this website back in any shape or form. "As a team, we always said that if we were taken down, we would go down without a fight and we have decided to stick to that. We have zero interest in getting involved with legal matters, and so we will not be trying to circumvent this takedown in any way," developer 'BinaryOverload' writes.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OnePlus Watch 2 Launches With Wear OS 4, 100-Hour Battery]]></title>
-        <id>https://mobile.slashdot.org/story/24/02/26/2115224/oneplus-watch-2-launches-with-wear-os-4-100-hour-battery?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://mobile.slashdot.org/story/24/02/26/2115224/oneplus-watch-2-launches-with-wear-os-4-100-hour-battery?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T22:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Almost 3 years after launching the first OnePlus Watch, the Chinese smartphone company is launching a successor -- this time powered by Wear OS 4. Utilizing a "hybrid interface," the OnePlus Watch 2 is able to offer 100 hours of battery life, or just over four full days of use. 9to5Google reports: To achieve that goal, the OnePlus Watch 2 actually runs two separate operating systems. Wear OS handles things like apps and watchfaces, while a RTOS powered by a secondary chipset handles more lightweight tasks. A "smart mode" on the watch allows the watch swap back and forth between its two operating systems and two chipsets. Wear OS is powered by the Snapdragon W5 Gen 1 and it is Wear OS 4. The RTOS is powered by a BES 2700 MCU Efficiency chipset.
- 
-Switching between the two OS's is something you're likely to not even notice, OnePlus claims: "The BES2700 Efficiency Chipset runs RTOS and handles background activity and simple tasks, while the Snapdragon W5 handles more demanding tasks, like running your favorite Google apps. This optimized approach, enabled by the Wear OS hybrid interface seamlessly managing the transition between chips, means users will experience a smartwatch that effortlessly does it all while extending the time between charges."
- 
-Powering the Watch 2 is a 500 mAh battery which features 7.5W charging with a special charger that connects to a typical USB-C cable. The charger is magnetic, of course, and OnePlus claims a full charge in 60 minutes or less. The 1.43-inch AMOLED display of the OnePlus Watch 2 is covered in a slightly curved sapphire glass, while the watch chassis is built from stainless steel. You'll have the choice of black or silver colors with either black or green bands, respectively. The whole package is also 5ATM water resistant. Rounding out the main specs you'll find 32GB of storage and 2GB of RAM. The OnePlus Watch 2 goes on sale today at $299.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA['Every PC Is Going To Be an AI PC']]></title>
-        <id>https://hardware.slashdot.org/story/24/02/26/214237/every-pc-is-going-to-be-an-ai-pc?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://hardware.slashdot.org/story/24/02/26/214237/every-pc-is-going-to-be-an-ai-pc?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T21:40:00.000Z</updated>
-        <summary type="html"><![CDATA[During a briefing at Mobile World Congress in Barcelona, Meghana Patwardhan, VP of Commercial Mobility at Dell Technology, told The Register that while the immediate future would consist of two worlds -- one with AI hardware and one without -- "every PC is going to be an AI PC in the longer term." From the report: In terms of new hardware, Dell used the Mobile World Congress event in Barcelona to show off new versions of its Surface-baiting Latitude 7350 convertible -- "the world's most serviceable commercial detachable," according to the company -- and its workstation-class Precision 3680 tower. Other devices in the Precision range include mobile workstations and the 3280 Compact Form Factor PC. Dell was also determined to present itself as a leader in hybrid working with the Premier Wireless ANC headset, replete with AI-based noise cancellation.
- 
-Duringt our talk, AI was never far from the lips of Dell's spokespeople as the company talked up the energy efficiency and future-proofing it saw in dedicated AI hardware, such as Neural Processing Units (NPUs) that are increasingly cropping up in CPUs. To illustrate the point, Dell boatsed about how much more efficient background blurring is on video calls when AI hardware is running compared to when it isn't. Hopefully, Microsoft will soon deliver a version of Windows capable of demonstrating a use for AI hardware that is more than hiding distractions in the background. Further reading: AI PCs To Account for Nearly 60% of All PC Shipments by 2027, IDC Says
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sony Claims To Offer Subs 'Appropriate Value' For Deleting Digital Libraries]]></title>
-        <id>https://slashdot.org/story/24/02/26/2057225/sony-claims-to-offer-subs-appropriate-value-for-deleting-digital-libraries?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/02/26/2057225/sony-claims-to-offer-subs-appropriate-value-for-deleting-digital-libraries?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader quotes a report from Ars Technica: Sony is making an effort to appease customers who will lose their entire Funimation digital libraries when the anime streaming service merges into Crunchyroll. Currently, though, the company's plan for giving disappointed customers "an appropriate value" for their erased digital copies isn't very accessible or clear. Earlier this month, Sony-owned Funimation announced that customers' digital libraries would be unavailable starting on April 2. At that time, Funimation accounts will become Crunchyroll accounts. Sony acquired Crunchyroll in 2021, so some sort of merging of the services was expected. However, less expected was customers' lost access to online copies of beloved anime that they acquired through digital codes provided in purc…]]></summary>
-        <author>
-            <name>BeauHD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LockBit Ransomware Gang Resurfaces With New Site]]></title>
-        <id>https://it.slashdot.org/story/24/02/26/1651207/lockbit-ransomware-gang-resurfaces-with-new-site?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://it.slashdot.org/story/24/02/26/1651207/lockbit-ransomware-gang-resurfaces-with-new-site?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T18:40:00.000Z</updated>
-        <summary type="html"><![CDATA[wiredmikey writes: The LockBit ransomware operators launched a new leak site over the weekend, claiming they restored their infrastructure following a law enforcement takedown and invited affiliates to re-join the operation. 
-
-Over the weekend, an individual involved with the RaaS, who uses the moniker of "LockBitSupp", launched a new leak site that lists hundreds of victim organizations and which contains a long message providing his view on the takedown.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Says Microsoft Offered To Sell Bing To Apple in 2018, But Search-quality Issues Got in the Way]]></title>
-        <id>https://tech.slashdot.org/story/24/02/26/1548252/google-says-microsoft-offered-to-sell-bing-to-apple-in-2018-but-search-quality-issues-got-in-the-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/26/1548252/google-says-microsoft-offered-to-sell-bing-to-apple-in-2018-but-search-quality-issues-got-in-the-way?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T18:01:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft offered to sell its Bing search engine to Apple in 2018, Google said in a court filing earlier this month. The document, from Google's antitrust case against the U.S. Justice Department, was unsealed on Friday. From a report: In the filing earlier this month, Google argued that Microsoft pitched Apple in 2009, 2013, 2015, 2016, 2018 and 2020 about making Bing the default in Apple's Safari web browser, but each time, Apple said no, citing quality issues with Bing. "In each instance, Apple took a hard look at the relative quality of Bing versus Google and concluded that Google was the superior default choice for its Safari users. That is competition," Google wrote in the filing. 
-
-The Justice Department said in its own newly unsealed filing that Microsoft has spent almost $100 billion on Bing over 20 years. The Windows and Office software maker launched Bing in 2009, following search efforts under the MSN and Windows Live brands. Today Bing has 3% global market share, according to StatCounter. In the fourth quarter, Microsoft generated $3.2 billion from search and news advertising, while Google search and other revenue totaled $48 billion. Google said in its filing that when Microsoft reached out to Apple in 2018, emphasizing gains in Bing's quality, Microsoft offered to either sell Bing to Apple or establish a Bing-related joint venture with the company.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple's Decision To Drop iPhone Web Apps Comes Under Scrutiny in the EU]]></title>
-        <id>https://apple.slashdot.org/story/24/02/26/1631200/apples-decision-to-drop-iphone-web-apps-comes-under-scrutiny-in-the-eu?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://apple.slashdot.org/story/24/02/26/1631200/apples-decision-to-drop-iphone-web-apps-comes-under-scrutiny-in-the-eu?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T17:21:00.000Z</updated>
-        <summary type="html"><![CDATA[Apple could soon face an investigation over its decision to discontinue iPhone web apps in the European Union, according to a report from the Financial Times. The Verge: The European Commission has reportedly sent Apple and app developers requests for more information to assist in its evaluation. "We are indeed looking at the compliance packages of all gatekeepers, including Apple," the European Commission said in a statement to the Financial Times. "In that context, we're in particular looking into the issue of progressive web apps, and can confirm sending the requests for information to Apple and to app developers, who can provide useful information for our assessment."
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Supreme Court Hears Landmark Cases That Could Upend What We See on Social Media]]></title>
-        <id>https://news.slashdot.org/story/24/02/26/1637201/supreme-court-hears-landmark-cases-that-could-upend-what-we-see-on-social-media?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/26/1637201/supreme-court-hears-landmark-cases-that-could-upend-what-we-see-on-social-media?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T16:40:00.000Z</updated>
-        <summary type="html"><![CDATA[The US Supreme Court is hearing oral arguments Monday in two cases that could dramatically reshape social media, weighing whether states such as Texas and Florida should have the power to control what posts platforms can remove from their services. From a report: The high-stakes battle gives the nation's highest court an enormous say in how millions of Americans get their news and information, as well as whether sites such as Facebook, Instagram, YouTube and TikTok should be able to make their own decisions about how to moderate spam, hate speech and election misinformation. At issue are laws passed by the two states that prohibit online platforms from removing or demoting user content that expresses viewpoints -- legislation both states say is necessary to prevent censorship of conservative users. 
-
-More than a dozen Republican attorneys general have argued to the court that social media should be treated like traditional utilities such as the landline telephone network. The tech industry, meanwhile, argues that social media companies have First Amendment rights to make editorial decisions about what to show. That makes them more akin to newspapers or cable companies, opponents of the states say.
-The case could lead to a significant rethinking of First Amendment principles, according to legal experts. A ruling in favor of the states could weaken or reverse decades of precedent against "compelled speech," which protects private individuals from government speech mandates, and have far-reaching consequences beyond social media. A defeat for social media companies seems unlikely, but it would instantly transform their business models, according to Blair Levin, an industry analyst at the market research firm New Street Research.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lenovo's Laptop Concept is Fully Transparent, But the Point Isn't Entirely Clear]]></title>
-        <id>https://tech.slashdot.org/story/24/02/26/1532230/lenovos-laptop-concept-is-fully-transparent-but-the-point-isnt-entirely-clear?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://tech.slashdot.org/story/24/02/26/1532230/lenovos-laptop-concept-is-fully-transparent-but-the-point-isnt-entirely-clear?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T16:01:00.000Z</updated>
-        <summary type="html"><![CDATA[An anonymous reader shares a report from the ongoing Mobile World Congress trade show: This year's big scrum gatherer was Lenovo's long-rumored transparent laptop. It's real. It functions surprisingly well and -- nearest anyone can tell -- its existence is a testament to form over function. That's a perfectly fine thing to be when you're a concept device. When it comes to actually shipping a product, however, that's another conversation entirely. [...] Broadly speaking, it looks like a laptop, with a transparent pane where the screen should be. It's perhaps best understood as a kind of augmented reality device, in the sense that its graphics are overlaid on whatever happens to be behind it. 
-
-It's a crowd pleaser, with a futuristic air to it that embodies all manner of sci-fi tech tropes. The transparent display has become a kind of shorthand for future tech in stock art, and it's undeniably neat to see the thing in action. [...] The bottom of the device is covered in a large capacitive touch surface. This area serves as both a keyboard and a large stylus-compatible drawing surface. The flat surface can't compete with real, tactile keyboards, of course. Typing isn't the greatest experience here, as evidenced by previous dual-screen Lenovo laptops. But that's the tradeoff for the versatility of the virtual version.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[$1 Billion Donation Will Provide Free Tuition at a Bronx Medical School]]></title>
-        <id>https://news.slashdot.org/story/24/02/26/1438202/1-billion-donation-will-provide-free-tuition-at-a-bronx-medical-school?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://news.slashdot.org/story/24/02/26/1438202/1-billion-donation-will-provide-free-tuition-at-a-bronx-medical-school?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T15:22:00.000Z</updated>
-        <summary type="html"><![CDATA[Dr. Ruth Gottesman, a longtime professor at the Albert Einstein College of Medicine, is making free tuition available to all students going forward. From a report: The 93-year-old widow of a Wall Street financier has donated $1 billion to a Bronx medical school, the Albert Einstein College of Medicine, with instructions that the gift be used to cover tuition for all students going forward. The donor, Dr. Ruth Gottesman, is a former professor at Einstein, where she studied learning disabilities, developed a screening test and ran literacy programs. It is one of the largest charitable donations to an educational institution in the United States and most likely the largest to a medical school. 
-
-The fortune came from her late husband, David Gottesman, known as Sandy, who was a protege of Warren Buffett and had made an early investment in Berkshire Hathaway, the conglomerate Mr. Buffett built. The donation is notable not only for its staggering size, but also because it is going to a medical institution in the Bronx, the city's poorest borough. The Bronx has a high rate of premature deaths and ranks as the unhealthiest county in New York. Over the past generation, a number of billionaires have given hundreds of millions of dollars to better-known medical schools and hospitals in Manhattan, the city's wealthiest borough. 
-
-While her husband ran an investment firm, First Manhattan, Dr. Gottesman had a long career at Einstein, a well-regarded medical school, starting in 1968, when she took a job as director of psychoeducational services. She has long been on Einstein's board of trustees and is currently the chair. In recent years, she has become close friends with Dr. Philip Ozuah, the pediatrician who oversees the medical college and its affiliated hospital, Montefiore Medical Center, as the chief executive officer of the health system. That friendship and trust loomed large as she contemplated what to do with the money her husband had left her.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Strikes Deal With Mistral in Push Beyond OpenAI]]></title>
-        <id>https://slashdot.org/story/24/02/26/1431255/microsoft-strikes-deal-with-mistral-in-push-beyond-openai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://slashdot.org/story/24/02/26/1431255/microsoft-strikes-deal-with-mistral-in-push-beyond-openai?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T14:31:00.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft has struck a deal with French AI startup Mistral as it seeks to broaden its involvement in the fast-growing industry beyond OpenAI. From a report: The US tech giant will provide the 10-month-old Paris-based company with help in bringing its AI models to market. Microsoft will also take a minor stake in Mistral, although the financial details have not been disclosed. The partnership makes Mistral the second company to provide commercial language models available on Microsoft's Azure cloud computing platform. Microsoft has already invested about $13 billion in San Francisco-based OpenAI, an alliance that is being reviewed by competition watchdogs in the US, EU and UK. Other Big Tech rivals, such as Google and Amazon, are also investing heavily in building generative AI -- software that can produce text, images and code in seconds -- which analysts believe has the capacity to shake up industries across the world. WSJ adds: On Monday, Mistral plans to announce a new AI model, called Mistral Large, that Mensch said can perform some reasoning tasks comparably with GPT-4, OpenAI's most advanced language model to date, and Gemini Ultra, Google's new model. Mensch said his new model cost less than 20 million euros, the equivalent of roughly $22 million, to train. By contrast OpenAI Chief Executive Sam Altman said last year after the release of GPT-4 that training his company's biggest models cost "much more than" $50 million to $100 million.
-
-
-
-
-
-
-
-Read more of this story at Slashdot.]]></summary>
-        <author>
-            <name>msmash</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nvidia CEO Says Kids Shouldn't Learn To Code]]></title>
-        <id>https://developers.slashdot.org/story/24/02/26/1322242/nvidia-ceo-says-kids-shouldnt-learn-to-code?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
-        <link href="https://developers.slashdot.org/story/24/02/26/1322242/nvidia-ceo-says-kids-shouldnt-learn-to-code?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
-        <updated>2024-02-26T14:01:00.000Z</updated>
-        <summary type="html"><![CDATA[theodp writes: Asked at the recent World Government Summit in Dubai what people should focus on when it comes to education, what should they learn, and how they should educate their kids and their societies, Nvidia CEO Jensen Huang made a counterintuitive break from tech CEOs advising youngsters to learn how to code. Huang argued that, even at this early stage of the AI revolution, programming is no longer a vital skill. With coding taken care of by AI, Huang suggested humans can instead focus on more valuable expertise like biology, education, manufacturing, or farming 
-
-From the video: "You probably recall over the course of the last 10 years, 15 years, almost everybody who sits on a stage like this would tell you it is vital that your children learn computer science, everybody should le…]]></summary>
-        <author>
-            <name>msmash</name>
         </author>
     </entry>
 </feed>
